@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Homebrew | DM Bot Control Room</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="ambient">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Dungeon Master Console</p>
+        <h1>Homebrew Intake</h1>
+        <p class="lede">Stage custom content files before importing into the bot.</p>
+      </div>
+      <div class="hero-card" id="auth-card">
+        <p class="card-title">Discord Access</p>
+        <p class="card-body" id="auth-status">Checking session...</p>
+        <div class="card-actions" id="auth-actions"></div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <nav class="side-nav">
+        <p class="side-title">Control Pages</p>
+        <a href="/features.html">Feature Switches</a>
+        <a href="/commands.html">Command Matrix</a>
+        <a href="/datasets.html">Data Sets</a>
+        <a href="/homebrew.html" class="active">Homebrew</a>
+        <a href="/paste.html">Paste Imports</a>
+        <a href="/">Home</a>
+      </nav>
+
+      <main class="grid">
+        <section class="panel" id="homebrew-panel">
+          <div class="panel-head">
+            <h2>Homebrew Intake</h2>
+            <p>Drop new homebrew files for later import.</p>
+          </div>
+          <div class="panel-body">
+            <div class="upload-row">
+              <label>
+                File
+                <input type="file" id="homebrew-file" />
+              </label>
+              <button id="homebrew-upload">Upload</button>
+            </div>
+            <div class="panel-note" id="homebrew-status"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <span class="panel-note">After uploading, run `/homebrew import` in Discord.</span>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+range_id,min_score,max_score,meaning,source,version
+ASR_1,1,1,"Lowest a score can normally go; if reduced to 0, the effect explains what happens",PHB (2024),2024
+ASR_2_9,2,9,Weak capability,PHB (2024),2024
+ASR_10_11,10,11,Human average,PHB (2024),2024
+ASR_12_19,12,19,Strong capability,PHB (2024),2024
+ASR_20,20,20,Highest an adventurer score can go unless a feature says otherwise,PHB (2024),2024
+ASR_21_29,21,29,Extraordinary capability,PHB (2024),2024
+ASR_30,30,30,Highest a score can go,PHB (2024),2024

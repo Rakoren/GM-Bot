@@ -1,0 +1,5 @@
+level_min,level_max,equipment_and_money,magic_items,source,version
+2,4,Normal starting equipment,1 Common,PHB (2024),2024
+5,10,500 GP plus 1d10 x 25 GP plus normal starting equipment,"1 Common, 1 Uncommon",PHB (2024),2024
+11,16,"5,000 GP plus 1d10 x 250 GP plus normal starting equipment","2 Common, 3 Uncommon, 1 Rare",PHB (2024),2024
+17,20,"20,000 GP plus 1d10 x 250 GP plus normal starting equipment","2 Common, 4 Uncommon, 3 Rare, 1 Very Rare",PHB (2024),2024

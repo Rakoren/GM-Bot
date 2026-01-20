@@ -1,0 +1,11 @@
+species_id,name,size,speed,languages,special_traits,source,version
+SPC_HUMAN,Human,"Small or Medium",30,Common,"Resourceful, Skillful, Versatile",PHB (2024),2024
+SPC_ELF,Elf,Medium,30,"Common, Elvish","Darkvision, Elven Lineage, Fey Ancestry, Keen Senses, Trance",PHB (2024),2024
+SPC_DWARF,Dwarf,Medium,30,"Common, Dwarvish","Darkvision, Dwarven Resilience, Dwarven Toughness, Stonecunning",PHB (2024),2024
+SPC_AASIMAR,Aasimar,"Small or Medium",30,Common,"Celestial Resistance, Darkvision, Healing Hands, Light Bearer, Celestial Revelation",PHB (2024),2024
+SPC_DRAGONBORN,Dragonborn,Medium,30,Common,"Draconic Ancestry, Breath Weapon, Damage Resistance, Darkvision, Draconic Flight",PHB (2024),2024
+SPC_GNOME,Gnome,Small,30,Common,"Darkvision, Gnomish Cunning, Gnomish Lineage",PHB (2024),2024
+SPC_GOLIATH,Goliath,Medium,35,Common,"Giant Ancestry, Large Form, Powerful Build",PHB (2024),2024
+SPC_HALFLING,Halfling,Small,30,Common,"Brave, Halfling Nimbleness, Luck, Naturally Stealthy",PHB (2024),2024
+SPC_ORC,Orc,Medium,30,Common,"Adrenaline Rush, Darkvision, Relentless Endurance",PHB (2024),2024
+SPC_TIEFLING,Tiefling,"Small or Medium",30,Common,"Darkvision, Fiendish Legacy, Otherworldly Presence",PHB (2024),2024

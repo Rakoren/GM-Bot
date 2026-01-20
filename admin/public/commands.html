@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Command Matrix | DM Bot Control Room</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="ambient">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Dungeon Master Console</p>
+        <h1>Command Matrix</h1>
+        <p class="lede">Enable, silence, and scope every slash command.</p>
+      </div>
+      <div class="hero-card" id="auth-card">
+        <p class="card-title">Discord Access</p>
+        <p class="card-body" id="auth-status">Checking session...</p>
+        <div class="card-actions" id="auth-actions"></div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <nav class="side-nav">
+        <p class="side-title">Control Pages</p>
+        <a href="/features.html">Feature Switches</a>
+        <a href="/commands.html" class="active">Command Matrix</a>
+        <a href="/datasets.html">Data Sets</a>
+        <a href="/homebrew.html">Homebrew</a>
+        <a href="/paste.html">Paste Imports</a>
+        <a href="/">Home</a>
+      </nav>
+
+      <main class="grid">
+        <section class="panel" id="command-registry-panel">
+          <div class="panel-head">
+            <h2>Command Registry</h2>
+            <p>Toggle groups of commands on or off for this server.</p>
+          </div>
+          <div class="panel-body" id="command-registry-list"></div>
+        </section>
+        <section class="panel" id="commands-panel">
+          <div class="panel-head">
+            <h2>Command Matrix</h2>
+            <p>Enable or silence individual slash commands.</p>
+          </div>
+          <div class="panel-body command-grid" id="commands-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <button class="save" id="save-config">Save Configuration</button>
+      <span id="save-status"></span>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

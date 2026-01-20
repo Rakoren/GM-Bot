@@ -1,0 +1,2 @@
+"﻿""feat_id""",name,prerequisites,type,level_requirement,benefit_summary,description,tags,source,version
+FEAT_ACTOR,Actor,"Prerequisite: Level 4+, Charisma 13+",General,4,"+1 Charisma, Impersonation, Mimicry",,,Player’s Handbook,

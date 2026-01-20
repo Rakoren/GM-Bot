@@ -1,0 +1,11 @@
+roll_min,roll_max,language,origin,notes,source,version
+,,Common,Sigil,Known by all player characters,PHB (2024),2024
+1,1,Common Sign Language,Sigil,,PHB (2024),2024
+2,2,Draconic,Dragons,,PHB (2024),2024
+3,4,Dwarvish,Dwarves,,PHB (2024),2024
+5,6,Elvish,Elves,,PHB (2024),2024
+7,7,Giant,Giants,,PHB (2024),2024
+8,8,Gnomish,Gnomes,,PHB (2024),2024
+9,9,Goblin,Goblinoids,,PHB (2024),2024
+10,11,Halfling,Halflings,,PHB (2024),2024
+12,12,Orc,Orcs,,PHB (2024),2024

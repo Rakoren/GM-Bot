@@ -1,0 +1,4 @@
+cover_id,cover,benefit,offered_by,source,version
+COVER_HALF,Half,+2 bonus to AC and Dexterity saving throws,Another creature or an object that covers at least half of the target,PHB (2024),2024
+COVER_THREE_QUARTERS,Three-Quarters,+5 bonus to AC and Dexterity saving throws,An object that covers at least three-quarters of the target,PHB (2024),2024
+COVER_TOTAL,Total,Cannot be targeted directly,An object that covers the whole target,PHB (2024),2024

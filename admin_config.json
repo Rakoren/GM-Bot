@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "features": {
+    "enableSlashCommands": true,
+    "enableMessageCommands": true,
+    "enableAutoReplies": true,
+    "enableTts": true,
+    "enableVoice": true,
+    "enableHomebrew": true,
+    "enableImports": false,
+    "enableDataReload": true,
+    "enableUploads": true
+  },
+  "commands": {
+    "mode": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "setchar": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "turn": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "roll": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "campaign-setup": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "character-setup": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "start": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "test": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "lookup": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "homebrew": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "sheet": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "save": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "reset": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "clear": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "help": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "load": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "delete": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "bank": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "npc": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "log-in": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "log-out": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "say": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "profile": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "profile-clear": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "xp": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    }
+  },
+  "commandRegistry": {
+    "groups": {
+      "core": true,
+      "setup": true,
+      "play": true,
+      "bank": true,
+      "npc": true,
+      "profile": true,
+      "save": true,
+      "voice": true,
+      "homebrew": true
+    }
+  },
+  "commandPoliciesByGuild": {}
+}
