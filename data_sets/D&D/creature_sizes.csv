@@ -1,7 +1,0 @@
-size_id,size,space_feet,space_squares,source,version
-SIZE_TINY,Tiny,2.5 by 2.5 feet,4 per square,PHB (2024),2024
-SIZE_SMALL,Small,5 by 5 feet,1 square,PHB (2024),2024
-SIZE_MEDIUM,Medium,5 by 5 feet,1 square,PHB (2024),2024
-SIZE_LARGE,Large,10 by 10 feet,4 squares (2 by 2),PHB (2024),2024
-SIZE_HUGE,Huge,15 by 15 feet,9 squares (3 by 3),PHB (2024),2024
-SIZE_GARGANTUAN,Gargantuan,20 by 20 feet,16 squares (4 by 4),PHB (2024),2024

@@ -1,4 +1,0 @@
-pace_id,pace,feet_per_minute,miles_per_hour,miles_per_day,effects,source,version
-PACE_FAST,Fast,400,4,30,Disadvantage on Wisdom (Perception or Survival) and Dexterity (Stealth) checks,PHB (2024),2024
-PACE_NORMAL,Normal,300,3,24,Disadvantage on Dexterity (Stealth) checks,PHB (2024),2024
-PACE_SLOW,Slow,200,2,18,Advantage on Wisdom (Perception or Survival) checks,PHB (2024),2024

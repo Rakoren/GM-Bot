@@ -1,6 +1,0 @@
-.env
-node_modules/
-*.sqlite
-Backups/
-campaign_save.json
-campaigns/
