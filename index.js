@@ -4390,6 +4390,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
       saveNamedCampaign,
       loadNamedCampaign,
       deleteNamedCampaign,
+      saveCampaignState,
       parseDiceExpression,
       rollDice,
       formatDiceResult,

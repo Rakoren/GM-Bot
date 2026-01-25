@@ -20,6 +20,7 @@ export async function handleMessageCreate({ msg, ctx }) {
     saveNamedCampaign,
     loadNamedCampaign,
     deleteNamedCampaign,
+    saveCampaignState,
     parseDiceExpression,
     rollDice,
     formatDiceResult,
@@ -158,6 +159,7 @@ export async function handleMessageCreate({ msg, ctx }) {
         await msg.channel.send(`No campaign found for "${name}".`);
         return;
       }
+      saveCampaignState();
       await msg.channel.send(`Campaign loaded: ${path.basename(filePath)}`);
       return;
     }
