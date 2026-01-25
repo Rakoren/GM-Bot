@@ -21,6 +21,8 @@ let currentConfig = null;
 let manifest = [];
 let roles = [];
 let authenticated = false;
+let guilds = [];
+let selectedGuildId = null;
 
 const featureLabels = [
   { key: 'enableSlashCommands', label: 'Slash commands', detail: 'Master switch for all slash commands.' },
@@ -58,7 +60,10 @@ function setAuthUI() {
     setControlsDisabled(true);
     return;
   }
-  authStatus.textContent = `Signed in as ${currentConfig?.userName || 'Guild Owner'}.`;
+  const guildName = getSelectedGuildName();
+  authStatus.textContent = guildName
+    ? `Signed in as ${currentConfig?.userName || 'Guild Owner'} · Server: ${guildName}.`
+    : `Signed in as ${currentConfig?.userName || 'Guild Owner'} · Select a server to manage.`;
   const logout = document.createElement('button');
   logout.textContent = 'Log out';
   logout.addEventListener('click', async () => {
@@ -66,7 +71,70 @@ function setAuthUI() {
     location.reload();
   });
   authActions.appendChild(logout);
+  renderGuildPicker();
   setControlsDisabled(false);
+}
+
+function getSelectedGuildName() {
+  if (!selectedGuildId) return '';
+  const match = guilds.find(guild => guild.id === selectedGuildId);
+  return match ? match.name : '';
+}
+
+function renderGuildPicker() {
+  if (!authActions) return;
+  const existing = document.getElementById('guild-picker');
+  if (existing) existing.remove();
+  if (!guilds.length) return;
+
+  const wrapper = document.createElement('div');
+  wrapper.id = 'guild-picker';
+  wrapper.className = 'guild-picker';
+
+  const label = document.createElement('label');
+  label.textContent = 'Server';
+
+  const select = document.createElement('select');
+  const placeholder = document.createElement('option');
+  placeholder.value = '';
+  placeholder.textContent = 'Select a server';
+  select.appendChild(placeholder);
+
+  guilds.forEach(guild => {
+    const option = document.createElement('option');
+    option.value = guild.id;
+    option.textContent = guild.name;
+    select.appendChild(option);
+  });
+
+  select.value = selectedGuildId || '';
+  label.appendChild(select);
+  wrapper.appendChild(label);
+
+  const applyBtn = document.createElement('button');
+  applyBtn.textContent = 'Use server';
+  applyBtn.disabled = !select.value;
+  applyBtn.addEventListener('click', async () => {
+    if (!select.value) return;
+    const response = await fetch('/api/select-guild', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ guildId: select.value }),
+    });
+    if (!response.ok) {
+      authStatus.textContent = 'Server selection failed.';
+      return;
+    }
+    selectedGuildId = select.value;
+    location.reload();
+  });
+  wrapper.appendChild(applyBtn);
+
+  select.addEventListener('change', () => {
+    applyBtn.disabled = !select.value;
+  });
+
+  authActions.appendChild(wrapper);
 }
 
 function setControlsDisabled(disabled) {
@@ -224,8 +292,21 @@ async function loadAuth() {
   if (authenticated) {
     currentConfig = currentConfig || {};
     currentConfig.userName = `${data.user.username}`;
+    await loadGuilds();
   }
   setAuthUI();
+}
+
+async function loadGuilds() {
+  const response = await fetch('/api/guilds');
+  if (!response.ok) {
+    guilds = [];
+    selectedGuildId = null;
+    return;
+  }
+  const data = await response.json();
+  guilds = data.guilds || [];
+  selectedGuildId = data.selectedGuildId || null;
 }
 
 async function loadConfig() {

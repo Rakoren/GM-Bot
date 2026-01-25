@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D 2024 Character Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@400;500;700&family=Scala+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="header-nav page-nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/player.html" class="nav-link">Player Panel</a>
+        <a href="/admin.html" class="nav-link">Admin Panel</a>
+    </nav>
+
+<div class="page-layout">
+    <aside class="left-sidebar">
+        <button id="sidebar-save" type="button">Save</button>
+        <button id="sidebar-save-as" type="button">Save As</button>
+        <select id="sidebar-load-select"></select>
+        <button id="sidebar-load" type="button">Load</button>
+        <button id="sidebar-new" type="button">New Character</button>
+        <button id="sidebar-level-up" type="button">Level Up</button>
+        <button id="sidebar-level-down" type="button">Level Down</button>
+        <button id="sidebar-short-rest" type="button">Short Rest</button>
+        <button id="sidebar-long-rest" type="button">Long Rest</button>
+        <button id="sidebar-back" type="button">Back</button>
+    </aside>
+
+<div class="sheet-container">
+    
+    <header class="char-header">
+        <div class="char-name-box">
+            <input id="character-name-input" name="character_name" type="text" placeholder="Character Name">
+            <label for="character-name-input">CHARACTER NAME</label>
+        </div>
+        <div class="header-actions">
+            <span id="save-status" class="save-status"></span>
+        </div>
+        <div class="char-details-grid" id="char-details-grid">
+            <div class="field-group" id="class-group">
+                <select id="class-select" name="class">
+                    <option value="">Loading classes…</option>
+                </select>
+                <label for="class-select">CLASS</label>
+            </div>
+            <div class="field-group" id="subclass-group">
+                <select id="subclass-select" name="subclass">
+                    <option value="">Choose a subclass</option>
+                </select>
+                <label for="subclass-select">SUBCLASS</label>
+            </div>
+            <div class="field-group" id="level-group">
+                <select id="level-select" name="level">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select>
+                <label for="level-select">LEVEL</label>
+            </div>
+            <div class="field-group" id="background-group">
+                <select id="background-select" name="background">
+                    <option value="">Choose a background</option>
+                </select>
+                <label for="background-select">BACKGROUND</label>
+            </div>
+            <div class="field-group" id="lineage-group" hidden>
+                <select id="lineage-select" name="lineage">
+                    <option value="">Choose a lineage</option>
+                </select>
+                <label for="lineage-select">LINEAGE</label>
+            </div>
+            <div class="field-group" id="species-group">
+                <select id="species-select" name="species">
+                    <option value="">Choose a species</option>
+                </select>
+                <label for="species-select">SPECIES</label>
+            </div>
+            <div class="field-group" id="xp-group">
+                <input id="xp-input" name="xp" type="text">
+                <label for="xp-input">XP</label>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        
+        <aside class="col-left">
+            <div class="ability-box">
+                <label>STRENGTH</label>
+                <input id="strength-mod" type="text" class="mod-big" placeholder="+0">
+                <div class="score-oval">
+                    <input id="strength-score" type="text" class="score-small" placeholder="10">
+                    <label>SCORE</label>
+                </div>
+                <div class="save-row">
+                    <input type="checkbox"> <span>Save</span>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-row"><input type="checkbox"> Athletics</div>
+                </div>
+            </div>
+
+            <div class="ability-box">
+                <label>DEXTERITY</label>
+                <input id="dexterity-mod" type="text" class="mod-big" placeholder="+0">
+                <div class="score-oval">
+                    <input id="dexterity-score" type="text" class="score-small" placeholder="10">
+                    <label>SCORE</label>
+                </div>
+                <div class="save-row">
+                    <input type="checkbox"> <span>Save</span>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-row"><input type="checkbox"> Acrobatics</div>
+                    <div class="skill-row"><input type="checkbox"> Sleight of Hand</div>
+                    <div class="skill-row"><input type="checkbox"> Stealth</div>
+                </div>
+            </div>
+
+            <div class="ability-box">
+                <label>CONSTITUTION</label>
+                <input id="constitution-mod" type="text" class="mod-big" placeholder="+0">
+                <div class="score-oval">
+                    <input id="constitution-score" type="text" class="score-small" placeholder="10">
+                    <label>SCORE</label>
+                </div>
+                <div class="save-row">
+                    <input type="checkbox"> <span>Save</span>
+                </div>
+            </div>
+
+            <div class="ability-box">
+                <label>INTELLIGENCE</label>
+                <input id="intelligence-mod" type="text" class="mod-big" placeholder="+0">
+                <div class="score-oval">
+                    <input id="intelligence-score" type="text" class="score-small" placeholder="10">
+                    <label>SCORE</label>
+                </div>
+                <div class="save-row">
+                    <input type="checkbox"> <span>Save</span>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-row"><input type="checkbox"> Arcana</div>
+                    <div class="skill-row"><input type="checkbox"> History</div>
+                    <div class="skill-row"><input type="checkbox"> Investigation</div>
+                    <div class="skill-row"><input type="checkbox"> Nature</div>
+                    <div class="skill-row"><input type="checkbox"> Religion</div>
+                </div>
+            </div>
+
+            <div class="ability-box">
+                <label>WISDOM</label>
+                <input id="wisdom-mod" type="text" class="mod-big" placeholder="+0">
+                <div class="score-oval">
+                    <input id="wisdom-score" type="text" class="score-small" placeholder="10">
+                    <label>SCORE</label>
+                </div>
+                <div class="save-row">
+                    <input type="checkbox"> <span>Save</span>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-row"><input type="checkbox"> Animal Handling</div>
+                    <div class="skill-row"><input type="checkbox"> Insight</div>
+                    <div class="skill-row"><input type="checkbox"> Medicine</div>
+                    <div class="skill-row"><input type="checkbox"> Perception</div>
+                    <div class="skill-row"><input type="checkbox"> Survival</div>
+                </div>
+            </div>
+
+            <div class="ability-box">
+                <label>CHARISMA</label>
+                <input id="charisma-mod" type="text" class="mod-big" placeholder="+0">
+                <div class="score-oval">
+                    <input id="charisma-score" type="text" class="score-small" placeholder="10">
+                    <label>SCORE</label>
+                </div>
+                <div class="save-row">
+                    <input type="checkbox"> <span>Save</span>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-row"><input type="checkbox"> Deception</div>
+                    <div class="skill-row"><input type="checkbox"> Intimidation</div>
+                    <div class="skill-row"><input type="checkbox"> Performance</div>
+                    <div class="skill-row"><input type="checkbox"> Persuasion</div>
+                </div>
+            </div>
+            
+            <div class="passive-box">
+                <div class="oval-stat">
+                    <span>10</span>
+                </div>
+                <label>PASSIVE PERCEPTION</label>
+            </div>
+            
+            <div class="prof-box">
+                <div class="oval-stat">
+                    <span id="proficiency-bonus">+2</span>
+                </div>
+                <label>PROFICIENCY BONUS</label>
+            </div>
+
+            <div class="currency-box">
+                <div class="section-header">CURRENCY</div>
+                <div class="currency-grid">
+                    <label>CP <input type="number" id="currency-cp" min="0" value="0"></label>
+                    <label>SP <input type="number" id="currency-sp" min="0" value="0"></label>
+                    <label>EP <input type="number" id="currency-ep" min="0" value="0"></label>
+                    <label>GP <input type="number" id="currency-gp" min="0" value="0"></label>
+                    <label>PP <input type="number" id="currency-pp" min="0" value="0"></label>
+                </div>
+            </div>
+
+            <div class="spell-slots-box">
+                <div class="section-header">SPELL SLOTS</div>
+                <div class="spell-slots-grid">
+                    <div class="spell-slot-row" data-slot-level="1">
+                        <div class="spell-slot-level">Level 1</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="2">
+                        <div class="spell-slot-level">Level 2</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="3">
+                        <div class="spell-slot-level">Level 3</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="4">
+                        <div class="spell-slot-level">Level 4</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="5">
+                        <div class="spell-slot-level">Level 5</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="6">
+                        <div class="spell-slot-level">Level 6</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="7">
+                        <div class="spell-slot-level">Level 7</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="8">
+                        <div class="spell-slot-level">Level 8</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                    <div class="spell-slot-row" data-slot-level="9">
+                        <div class="spell-slot-level">Level 9</div>
+                        <div class="spell-slot-track">
+                            <div class="spell-slot-labels"><span>Total</span><span class="slot-label-expended">Expended</span></div>
+                            <div class="spell-slot-dots" data-slot-type="total"></div>
+                            <div class="spell-slot-dots" data-slot-type="expended"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <section class="col-center">
+            
+            <div class="top-stats">
+                <div class="shield-stat">
+                    <input id="armor-class" type="text" value="10" readonly>
+                    <label>ARMOR CLASS</label>
+                </div>
+                <div class="box-stat initiative-stat">
+                    <input id="initiative-score" type="text" value="+0" readonly>
+                    <select id="initiative-adjust" class="initiative-adjust">
+                        <option value="normal">Normal</option>
+                        <option value="advantage">Advantage</option>
+                        <option value="disadvantage">Disadvantage</option>
+                    </select>
+                    <label>INITIATIVE</label>
+                </div>
+                <div class="box-stat">
+                    <input type="text" value="30">
+                    <label>SPEED</label>
+                </div>
+                <div class="box-stat">
+                    <input type="text" value="M">
+                    <label>SIZE</label>
+                </div>
+            </div>
+
+            <div class="hp-section">
+                <div class="hp-header">
+                    <div class="hp-small">
+                        <label>MAX HP</label>
+                        <input id="max-hp" type="text" readonly>
+                    </div>
+                    <label class="main-label">HIT POINTS</label>
+                </div>
+                <textarea class="hp-current" placeholder="Current Hit Points"></textarea>
+                <div class="hp-temp">
+                    <label>TEMP HP</label>
+                    <input id="temp-hp-input" type="text">
+                </div>
+            </div>
+
+            <div class="death-dice-row">
+                <div class="hit-dice">
+                    <label>HIT DICE</label>
+                    <div class="dice-inputs">
+                        <input id="hit-dice-total" type="text" placeholder="Total" readonly>
+                        <input id="hit-dice-spent" type="text" placeholder="Spent">
+                    </div>
+                </div>
+                <div class="death-saves">
+                    <label>DEATH SAVES</label>
+                    <div class="save-ticks">
+                        <span>Success</span> <input type="checkbox"><input type="checkbox"><input type="checkbox">
+                    </div>
+                    <div class="save-ticks">
+                        <span>Failure</span> <input type="checkbox"><input type="checkbox"><input type="checkbox">
+                    </div>
+                </div>
+            </div>
+
+            <div class="heroic-insp">
+                <input type="checkbox">
+                <label>HEROIC INSPIRATION</label>
+            </div>
+
+            <div class="attacks-section">
+                <div class="section-header">EQUIPPED GEAR</div>
+                <table class="attack-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Atk/DC</th>
+                            <th>Damage & Type</th>
+                            <th title="Weapon mastery property (hover the cell to see the rule).">Mastery</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="text" class="attack-name"></td>
+                            <td><input type="text" class="attack-atk"></td>
+                            <td><input type="text" class="attack-dmg"></td>
+                            <td><input type="text" class="attack-mastery" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="attack-name"></td>
+                            <td><input type="text" class="attack-atk"></td>
+                            <td><input type="text" class="attack-dmg"></td>
+                            <td><input type="text" class="attack-mastery" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="attack-name"></td>
+                            <td><input type="text" class="attack-atk"></td>
+                            <td><input type="text" class="attack-dmg"></td>
+                            <td><input type="text" class="attack-mastery" readonly></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="attack-name"></td>
+                            <td><input type="text" class="attack-atk"></td>
+                            <td><input type="text" class="attack-dmg"></td>
+                            <td><input type="text" class="attack-mastery" readonly></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="equipment-training">
+                <div class="section-header">EQUIPMENT TRAINING & PROFICIENCIES</div>
+                <div class="training-row">
+                    <div class="training-label">ARMOR TRAINING</div>
+                    <label><input id="training-light" type="checkbox"> Light</label>
+                    <label><input id="training-medium" type="checkbox"> Medium</label>
+                    <label><input id="training-heavy" type="checkbox"> Heavy</label>
+                    <label><input id="training-shields" type="checkbox"> Shields</label>
+                </div>
+                <div class="training-row">
+                    <div class="training-label">WEAPON TRAINING</div>
+                    <label><input id="training-simple-melee" type="checkbox"> Simple Melee</label>
+                    <label><input id="training-simple-ranged" type="checkbox"> Simple Ranged</label>
+                    <label><input id="training-martial-melee" type="checkbox"> Martial Melee</label>
+                    <label><input id="training-martial-ranged" type="checkbox"> Martial Ranged</label>
+                </div>
+                <div class="training-warning" id="armor-training-warning"></div>
+            </div>
+
+            <div class="inventory-options">
+                <div class="inventory-option-group">
+                    <div class="inventory-option-label">Class</div>
+                    <button type="button" class="inventory-option-btn" data-option-group="class" data-option="A">A</button>
+                    <button type="button" class="inventory-option-btn" data-option-group="class" data-option="B">B</button>
+                </div>
+                <div class="inventory-option-group">
+                    <div class="inventory-option-label">Background</div>
+                    <button type="button" class="inventory-option-btn" data-option-group="background" data-option="A">A</button>
+                    <button type="button" class="inventory-option-btn" data-option-group="background" data-option="B">B</button>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <div class="section-header">INVENTORY</div>
+                <div class="inventory-category">
+                    <div class="inventory-subheader">Weapons</div>
+                    <table class="inventory-table" id="inventory-weapons">
+                        <thead>
+                            <tr>
+                                <th>Qty</th>
+                                <th>Item</th>
+                                <th>Left</th>
+                                <th>Right</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="inventory-category">
+                    <div class="inventory-subheader">Armor</div>
+                    <table class="inventory-table" id="inventory-armor">
+                        <thead>
+                            <tr>
+                                <th>Qty</th>
+                                <th>Item</th>
+                                <th>Left</th>
+                                <th>Right</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="inventory-category">
+                    <div class="inventory-subheader">Other Items</div>
+                    <table class="inventory-table" id="inventory-other">
+                        <thead>
+                            <tr>
+                                <th>Qty</th>
+                                <th>Item</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="inventory-actions">
+                <button type="button" id="inventory-add-item">Add Item</button>
+                <button type="button" id="inventory-shop-item">Shop</button>
+                <button type="button" id="inventory-sell-item">Sell</button>
+                <button type="button" id="inventory-trade-item">Trade</button>
+            </div>
+
+        </section>
+
+        <aside class="col-right">
+            <div class="traits-box" id="wild-shape-box" style="display: none;">
+                <div class="section-header">WILD SHAPE</div>
+                <div class="wild-shape-meta">
+                    <div><strong>Uses:</strong> <span id="wild-shape-uses-max">0</span></div>
+                    <label>Spent <input type="number" id="wild-shape-spent" min="0" value="0"></label>
+                    <div><strong>Remaining:</strong> <span id="wild-shape-uses-remaining">0</span></div>
+                    <button type="button" id="wild-shape-transform">Transform</button>
+                    <button type="button" id="wild-shape-revert">Revert</button>
+                    <div><strong>Temp HP on Transform:</strong> <span id="wild-shape-temp-hp">0</span></div>
+                    <div><strong>Max CR:</strong> <span id="wild-shape-max-cr">—</span></div>
+                    <div><strong>Fly Allowed:</strong> <span id="wild-shape-fly">No</span></div>
+                </div>
+                <div class="wild-shape-forms">
+                    <div class="wild-shape-form-row">
+                        <label>Add Form</label>
+                        <select id="wild-shape-form-select"></select>
+                        <button type="button" id="wild-shape-add">Add</button>
+                    </div>
+                    <table class="inventory-table" id="wild-shape-forms-table">
+                        <thead>
+                            <tr>
+                                <th>Form</th>
+                                <th>CR</th>
+                                <th>Fly</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="wild-shape-rules">
+                    <div class="wild-shape-rules-title">Rules While Shape-Shifted</div>
+                    <div>Temporary Hit Points: when you assume a Wild Shape form, you gain temporary HP equal to your Druid level.</div>
+                    <div>Game Statistics: your statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You keep your skill and saving throw proficiencies and use your Proficiency Bonus for them, plus any Beast proficiencies. If the Beast's skill or save modifier is higher than yours, use the Beast's value.</div>
+                    <div>No Spellcasting: you can't cast spells while shaped, but shape-shifting doesn't break Concentration or interfere with a spell you've already cast.</div>
+                    <div>Objects: your ability to handle objects depends on the form's limbs. Choose whether equipment falls, merges, or is worn. Worn equipment functions as normal, but the DM decides if the form can wear it. Merged equipment has no effect while shaped.</div>
+                </div>
+            </div>
+            <div class="traits-box" id="class-special-box" style="display: none;">
+                <div class="section-header">CLASS SPECIAL</div>
+                <div class="wild-companion">
+                    <div class="wild-companion-status">
+                        <strong>Wild Companion:</strong> <span id="wild-companion-active">Inactive</span>
+                    </div>
+                    <label>Source
+                        <select id="wild-companion-source">
+                            <option value="wild_shape">Wild Shape Use</option>
+                            <option value="spell_slot">Spell Slot (manual)</option>
+                        </select>
+                    </label>
+                    <div class="wild-companion-actions">
+                        <button type="button" id="wild-companion-summon">Summon Familiar</button>
+                        <button type="button" id="wild-companion-dismiss">Dismiss</button>
+                    </div>
+                    <div class="wild-companion-note">Fey familiar; disappears on Long Rest.</div>
+                </div>
+            </div>
+            <div class="traits-box" id="weapon-mastery-box" style="display: none;">
+                <div class="section-header">WEAPON MASTERY</div>
+                <div class="weapon-mastery-selects">
+                    <label>Choose 1
+                        <select id="weapon-mastery-1"></select>
+                    </label>
+                    <label>Choose 2
+                        <select id="weapon-mastery-2"></select>
+                    </label>
+                </div>
+                <div class="weapon-mastery-note">Choices lock until a Long Rest.</div>
+            </div>
+
+            <div class="traits-box">
+                <div class="section-header">CLASS FEATURES</div>
+                <textarea id="class-features-box" readonly></textarea>
+            </div>
+            
+            <div class="traits-box">
+                <div class="section-header">SPECIES TRAITS</div>
+                <textarea id="species-traits-box" readonly></textarea>
+            </div>
+
+            <div class="traits-box">
+                <div class="section-header">FEATS</div>
+                <textarea id="feats-box" readonly></textarea>
+            </div>
+
+            <div class="proficiencies-box">
+                <div class="section-header">LANGUAGES</div>
+                <div id="languages-box" class="languages-box"></div>
+            </div>
+        </aside>
+    </div>
+
+        <section class="prepared-spells-section">
+            <div class="section-header">PREPARED CANTRIPS & SPELLS</div>
+            <div class="spell-legend">
+                <strong>Legend:</strong>
+                <span>C = Concentration</span>
+                <span>R = Ritual</span>
+                <span>M = Material</span>
+                <span>V = Verbal</span>
+                <span>S = Somatic</span>
+                <span>Components Notes list material items when M is present.</span>
+            </div>
+            <table class="spell-table" id="prepared-spells-table">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Name</th>
+                        <th>Casting Time</th>
+                        <th>Range</th>
+                        <th>C/R/M</th>
+                        <th>Component Notes</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <section class="spellcasting-box">
+            <div class="section-header">SPELLCASTING</div>
+            <div class="spellcasting-grid">
+                <div class="spellcasting-label">Spellcasting Ability</div>
+                <input id="spellcasting-ability" type="text" readonly>
+                <div class="spellcasting-label">Spellcasting Modifier</div>
+                <input id="spellcasting-mod" type="text" readonly>
+                <div class="spellcasting-label">Spell Save DC</div>
+                <input id="spell-save-dc" type="text" readonly>
+                <div class="spellcasting-label">Spell Attack Bonus</div>
+                <input id="spell-attack-bonus" type="text" readonly>
+            </div>
+            <div class="spellcasting-warning" id="spellcasting-warning"></div>
+        </section>
+
+        <section class="spell-book-section">
+            <div class="section-header">SPELL BOOK</div>
+            <table class="spell-table" id="spell-book-table">
+                <thead>
+                    <tr>
+                        <th>Prepared</th>
+                        <th>Level</th>
+                        <th>Name</th>
+                        <th>Casting Time</th>
+                        <th>Range</th>
+                        <th>C/R/M</th>
+                        <th>Component Notes</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <aside class="right-sidebar">
+        <div class="sidebar-card">
+            <div class="section-header">Character Art</div>
+            <input id="character-art-input" type="file" accept="image/*">
+            <div class="art-preview" id="character-art-preview">No image</div>
+        </div>
+        <div class="sidebar-card">
+            <div class="section-header">Notes</div>
+            <textarea id="character-art-notes" class="art-notes" placeholder="General notes"></textarea>
+        </div>
+        <div class="sidebar-card">
+            <div class="section-header">Background</div>
+            <textarea id="background-notes" class="art-notes" placeholder="Background"></textarea>
+        </div>
+        <div class="sidebar-card">
+            <div class="section-header">Personality</div>
+            <textarea id="personality-notes" class="art-notes" placeholder="Personality"></textarea>
+        </div>
+        <div class="sidebar-card">
+            <div class="section-header">Physical Traits</div>
+            <label>Hair <textarea id="trait-hair"></textarea></label>
+            <label>Skin <textarea id="trait-skin"></textarea></label>
+            <label>Eyes <textarea id="trait-eyes"></textarea></label>
+            <label>Height <textarea id="trait-height"></textarea></label>
+            <label>Weight <textarea id="trait-weight"></textarea></label>
+            <label>Age <textarea id="trait-age"></textarea></label>
+            <label>Gender <textarea id="trait-gender"></textarea></label>
+        </div>
+    </aside>
+</div>
+
+<script src="/wizard.js" defer></script>
+
+<div class="modal-overlay" id="level-up-modal" aria-hidden="true">
+    <div class="modal-card">
+        <div class="section-header">Level Up Summary</div>
+        <div class="modal-body">
+            <div class="modal-section">
+                <div class="modal-label" id="level-up-title"></div>
+                <ul class="modal-list" id="level-up-changes"></ul>
+            </div>
+            <div class="modal-section">
+                <div class="modal-label">Selections Needed</div>
+                <div id="level-up-selections" class="modal-selections"></div>
+                <div class="modal-error" id="level-up-error"></div>
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button type="button" id="level-up-close">Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="wild-shape-modal" aria-hidden="true">
+    <div class="modal-card">
+        <div class="section-header">Choose Wild Shape Form</div>
+        <div class="modal-body">
+            <div class="modal-section">
+                <div class="modal-label">Available Forms</div>
+                <div class="modal-selections">
+                    <label for="wild-shape-modal-select">Form</label>
+                    <select id="wild-shape-modal-select"></select>
+                    <div class="modal-error" id="wild-shape-modal-error"></div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button type="button" id="wild-shape-modal-cancel">Cancel</button>
+            <button type="button" id="wild-shape-modal-confirm">Transform</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="inventory-modal" aria-hidden="true">
+    <div class="modal-card">
+        <div class="section-header" id="inventory-modal-title">Inventory</div>
+        <div class="modal-body">
+            <div class="modal-section">
+                <div class="modal-label">Items</div>
+                <input type="text" id="inventory-modal-search" placeholder="Search items">
+                <div class="inventory-modal-table">
+                    <table class="inventory-table" id="inventory-modal-table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Category</th>
+                                <th>Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <label>Qty <input type="number" id="inventory-modal-qty" min="1" value="1"></label>
+                <div class="modal-error" id="inventory-modal-error"></div>
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button type="button" id="inventory-modal-cancel">Cancel</button>
+            <button type="button" id="inventory-modal-confirm">Add</button>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="trade-modal" aria-hidden="true">
+    <div class="modal-card">
+        <div class="section-header">Trade</div>
+        <div class="modal-body">
+            <div class="modal-section">
+                <label for="trade-player-select">Player</label>
+                <select id="trade-player-select"></select>
+            </div>
+            <div class="modal-section">
+                <label for="trade-item-name">Item</label>
+                <input type="text" id="trade-item-name" placeholder="Item name">
+                <label for="trade-item-qty">Qty</label>
+                <input type="number" id="trade-item-qty" min="1" value="1">
+                <div class="modal-error" id="trade-modal-error"></div>
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button type="button" id="trade-modal-cancel">Cancel</button>
+            <button type="button" id="trade-modal-confirm">Send Trade</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

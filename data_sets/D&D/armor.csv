@@ -1,9 +1,14 @@
-name,ac,strength,stealth,weight,cost,category
-Padded Armor,11 + Dex modifier,,Disadvantage,8 lb.,5 GP,Light Armor
-Leather Armor,11 + Dex modifier,,,10 lb.,10 GP,Light Armor
-Studded Leather Armor,12 + Dex modifier,,,13 lb.,45 GP,Light Armor
-Hide Armor,12 + Dex modifier,,,12 lb.,10 GP,Medium Armor
-Chain Shirt,13 + Dex modifier,,,20 lb.,50 GP,Medium Armor
-Scale Mail,14 + Dex modifier,,Disadvantage,45 lb.,50 GP,Medium Armor
-Breastplate,14 + Dex modifier,,,20 lb.,400 GP,Medium Armor
-Half Plate Armor,15 + Dex modifier,,Disadvantage,40 lb.,750 GP,Medium Armor
+name                 , ac               , strength, stealth     , weight, cost   , category
+Padded Armor         , 11 + Dex modifier,         , Disadvantage, 8 lb. , 5 GP   , Light Armor
+Leather Armor        , 11 + Dex modifier,         ,             , 10 lb., 10 GP  , Light Armor
+Studded Leather Armor, 12 + Dex modifier,         ,             , 13 lb., 45 GP  , Light Armor
+Hide Armor           , 12 + Dex modifier,         ,             , 12 lb., 10 GP  , Medium Armor
+Chain Shirt          , 13 + Dex modifier,         ,             , 20 lb., 50 GP  , Medium Armor
+Scale Mail           , 14 + Dex modifier,         , Disadvantage, 45 lb., 50 GP  , Medium Armor
+Breastplate          , 14 + Dex modifier,         ,             , 20 lb., 400 GP , Medium Armor
+Half Plate Armor     , 15 + Dex modifier,         , Disadvantage, 40 lb., 750 GP , Medium Armor
+Ring Mail            , 14               ,         , Disadvantage, 40 lb., 30 GP  , Heavy Armor
+Chain Mail           , 16               ,       13, Disadvantage, 55 lb., 75 GP  , Heavy Armor
+Splint Armor         , 17               ,       15, Disadvantage, 60 lb., 200 GP , Heavy Armor
+Plate Armor          , 18               ,       15, Disadvantage, 65 lb., 1500 GP, Heavy Armor
+Shield               , +2 AC            ,         ,             , 6 lb. , 10 GP  , Shield

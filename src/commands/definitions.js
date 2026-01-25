@@ -36,6 +36,177 @@ export const commandData = [
       opt.setName('expression').setDescription('Dice expression').setRequired(true)
     ),
   new SlashCommandBuilder()
+    .setName('combat')
+    .setDescription('Combat controls')
+    .addSubcommand(sub =>
+      sub
+        .setName('start')
+        .setDescription('Start a combat in this channel')
+        .addStringOption(opt =>
+          opt.setName('name').setDescription('Combat name').setRequired(false)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('join')
+        .setDescription('Join combat with your linked character')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('add-npc')
+        .setDescription('Add an NPC combatant')
+        .addStringOption(opt =>
+          opt.setName('name').setDescription('NPC name').setRequired(true)
+        )
+        .addIntegerOption(opt =>
+          opt.setName('hp').setDescription('HP').setRequired(true)
+        )
+        .addIntegerOption(opt =>
+          opt.setName('ac').setDescription('AC').setRequired(true)
+        )
+        .addIntegerOption(opt =>
+          opt.setName('initiative').setDescription('Initiative').setRequired(false)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('init')
+        .setDescription('Roll or set initiative for yourself')
+        .addIntegerOption(opt =>
+          opt.setName('value').setDescription('Set initiative directly').setRequired(false)
+        )
+        .addBooleanOption(opt =>
+          opt.setName('adv').setDescription('Advantage').setRequired(false)
+        )
+        .addBooleanOption(opt =>
+          opt.setName('dis').setDescription('Disadvantage').setRequired(false)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('begin')
+        .setDescription('Begin combat (sort initiative)')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('next')
+        .setDescription('Advance to the next turn')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('status')
+        .setDescription('Show combat status')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('attack')
+        .setDescription('Attack a target')
+        .addStringOption(opt =>
+          opt.setName('target').setDescription('Target name').setRequired(true)
+        )
+        .addStringOption(opt =>
+          opt.setName('weapon').setDescription('Weapon name').setRequired(false)
+        )
+        .addStringOption(opt =>
+          opt.setName('attacker').setDescription('Attacker name (DM only)').setRequired(false)
+        )
+        .addBooleanOption(opt =>
+          opt.setName('adv').setDescription('Advantage').setRequired(false)
+        )
+        .addBooleanOption(opt =>
+          opt.setName('dis').setDescription('Disadvantage').setRequired(false)
+        )
+        .addStringOption(opt =>
+          opt.setName('damage').setDescription('Override damage dice (e.g. 1d6+3)').setRequired(false)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('damage')
+        .setDescription('Apply damage to a target')
+        .addStringOption(opt =>
+          opt.setName('target').setDescription('Target name').setRequired(true)
+        )
+        .addIntegerOption(opt =>
+          opt.setName('amount').setDescription('Damage amount').setRequired(true)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('condition')
+        .setDescription('Add or remove a condition')
+        .addStringOption(opt =>
+          opt
+            .setName('action')
+            .setDescription('Add or remove')
+            .setRequired(true)
+            .addChoices(
+              { name: 'add', value: 'add' },
+              { name: 'remove', value: 'remove' }
+            )
+        )
+        .addStringOption(opt =>
+          opt.setName('target').setDescription('Target name').setRequired(true)
+        )
+        .addStringOption(opt =>
+          opt.setName('condition').setDescription('Condition name').setRequired(true)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('cast')
+        .setDescription('Spend a spell slot and log a cast')
+        .addIntegerOption(opt =>
+          opt.setName('level').setDescription('Spell level').setRequired(true)
+        )
+        .addStringOption(opt =>
+          opt.setName('spell').setDescription('Spell name').setRequired(true)
+        )
+        .addStringOption(opt =>
+          opt.setName('target').setDescription('Target name').setRequired(false)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('save')
+        .setDescription('Roll a saving throw')
+        .addStringOption(opt =>
+          opt
+            .setName('ability')
+            .setDescription('Ability (str/dex/con/int/wis/cha)')
+            .setRequired(true)
+            .addChoices(
+              { name: 'STR', value: 'str' },
+              { name: 'DEX', value: 'dex' },
+              { name: 'CON', value: 'con' },
+              { name: 'INT', value: 'int' },
+              { name: 'WIS', value: 'wis' },
+              { name: 'CHA', value: 'cha' }
+            )
+        )
+        .addIntegerOption(opt =>
+          opt.setName('dc').setDescription('Save DC').setRequired(false)
+        )
+        .addStringOption(opt =>
+          opt.setName('target').setDescription('Target name').setRequired(false)
+        )
+        .addBooleanOption(opt =>
+          opt.setName('adv').setDescription('Advantage').setRequired(false)
+        )
+        .addBooleanOption(opt =>
+          opt.setName('dis').setDescription('Disadvantage').setRequired(false)
+        )
+    ),
+  new SlashCommandBuilder()
+    .setName('setup')
+    .setDescription('Create required channels and save IDs')
+    .addBooleanOption(opt =>
+      opt
+        .setName('overwrite')
+        .setDescription('Create new channels even if ones exist')
+        .setRequired(false)
+    ),
+  new SlashCommandBuilder()
     .setName('campaign-setup')
     .setDescription('Set campaign name, theme, and setting')
     .addSubcommand(sub =>
@@ -344,6 +515,9 @@ export const commandData = [
     .addIntegerOption(opt =>
       opt.setName('amount').setDescription('XP amount').setRequired(true)
     ),
+    new SlashCommandBuilder()
+      .setName('wizard')
+      .setDescription('Open the web character creation wizard'),
 ].map(cmd => cmd.toJSON());
 
 export const COMMAND_NAMES = commandData.map(cmd => cmd.name);

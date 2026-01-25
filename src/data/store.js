@@ -30,6 +30,8 @@ export async function createDataStore({ rootDir, datasetGroup }) {
       species TEXT,
       lineage TEXT,
       background TEXT,
+      languages TEXT,
+      feat TEXT,
       trait TEXT,
       goal TEXT,
       equipment TEXT,
@@ -317,7 +319,7 @@ export async function createDataStore({ rootDir, datasetGroup }) {
 
   function ensureCharacterColumns() {
     const columns = getTableColumns('characters');
-    const needed = ['subclass', 'lineage', 'instruments', 'cantrips', 'spells'];
+    const needed = ['subclass', 'lineage', 'instruments', 'cantrips', 'spells', 'languages', 'feat'];
     for (const col of needed) {
       if (!columns.includes(col)) {
         db.run(`ALTER TABLE characters ADD COLUMN ${col} TEXT`);

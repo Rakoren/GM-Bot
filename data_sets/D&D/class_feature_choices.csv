@@ -1,0 +1,5 @@
+class_id,level,feature,choices,source,version
+CLS_DRUID,1,Primal Order,"Magician{cantrips:+1,skill_choice:Arcana/Nature,skill_bonus:WIS(min1)}|Warden{weapon_training:Martial,armor_training:Medium}",PHB (2024),2024
+CLS_DRUID,7,Elemental Fury,"Potent Spellcasting{notes:Add Wisdom modifier to Druid cantrip damage}|Primal Strike{notes:Once per turn add 1d8 Cold/Fire/Lightning/Thunder on hit}",PHB (2024),2024
+CLS_ROGUE,1,Thieves' Cant,"Language{language_choice:1}",PHB (2024),2024
+CLS_ROGUE,1,Weapon Mastery,"Weapon Mastery{weapon_mastery:2,refresh_on_long_rest:true}",PHB (2024),2024

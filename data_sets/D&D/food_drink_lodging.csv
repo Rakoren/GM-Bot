@@ -1,0 +1,18 @@
+item,category,cost,notes
+Ale (mug),Drink,4 CP,
+Bread (loaf),Food,2 CP,
+Cheese (wedge),Food,1 SP,
+Inn Stay, Lodging_Squalid,7 CP,
+Inn Stay, Lodging_Poor,1 SP,
+Inn Stay, Lodging_Moderate,5 SP,
+Inn Stay, Lodging_Comfortable,8 SP,
+Inn Stay, Lodging_Wealthy,2 GP,
+Inn Stay, Lodging_Aristocratic,4 GP,
+Meal,Food_Squalid,1 CP,
+Meal,Food_Poor,2 CP,
+Meal,Food_Moderate,1 SP,
+Meal,Food_Comfortable,2 SP,
+Meal,Food_Wealthy,3 SP,
+Meal,Food_Aristocratic,6 SP,
+Wine (bottle),Drink_Common,2 SP,
+Wine (bottle),Drink_Fine,10 GP

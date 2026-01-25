@@ -5,8 +5,8 @@ CF_BARD_BARDIC_INSPIRATION,CLS_BARD,,1,Bardic Inspiration,"Bonus Action inspire;
 CF_BARD_SPELLCASTING,CLS_BARD,,1,Spellcasting,Bard spellcasting and prepared spells.,,,,PHB (2024),2024
 CF_BARD_EXPERTISE,CLS_BARD,,2,Expertise,Double proficiency in two skills (and two more at level 9).,,,,PHB (2024),2024
 CF_BARD_JACK_OF_ALL_TRADES,CLS_BARD,,2,Jack of All Trades,Add half proficiency to unproficient checks.,,,,PHB (2024),2024
-CF_BARD_SUBCLASS,CLS_BARD,,3,Bard Subclass,Choose a Bard subclass.,,,,PHB (2024),2024
-CF_BARD_ASI,CLS_BARD,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_BARD_SUBCLASS,CLS_BARD,,3,Bard Subclass,You gain a Bard subclass of your choice. The SUB_BARD_DANCE College of Glamour College of Lore and College of Valor subclasses are detailed after this class’s description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career you gain each of your subclass’s features that are of your Bard level or lower.,,,,PHB (2024),2024
+CF_BARD_ASI,CLS_BARD,,4,Ability Score Improvement,You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at Bard levels 8 12 and 16.,,,,PHB (2024),2024
 CF_BARD_FONT_OF_INSPIRATION,CLS_BARD,,5,Font of Inspiration,Regain Bardic Inspiration on short or long rest.,,,,PHB (2024),2024
 CF_BARD_COUNTERCHARM,CLS_BARD,,7,Countercharm,"Reaction to reroll failed save vs charmed or frightened with advantage.",Reaction,,,PHB (2024),2024
 CF_BARD_MAGICAL_SECRETS,CLS_BARD,,10,Magical Secrets,"Choose prepared spells from Bard, Cleric, Druid, Wizard.",,,,PHB (2024),2024
@@ -28,16 +28,29 @@ CF_BARD_GLAMOUR_UNBREAKABLE_MAJESTY,CLS_BARD,SUB_BARD_GLAMOUR,14,Unbreakable Maj
 CF_BARD_VALOR_COMBAT_INSPIRATION,CLS_BARD,SUB_BARD_VALOR,3,Combat Inspiration,Use Bardic Inspiration for defense or extra damage.,,,,PHB (2024),2024
 CF_BARD_VALOR_MARTIAL_TRAINING,CLS_BARD,SUB_BARD_VALOR,3,Martial Training,Proficiency with martial weapons and medium armor/shields.,,,,PHB (2024),2024
 CF_BARD_VALOR_EXTRA_ATTACK,CLS_BARD,SUB_BARD_VALOR,6,Extra Attack,Attack twice; swap a cantrip for one attack.,,,,PHB (2024),2024
-CF_BARD_VALOR_BATTLE_MAGIC,CLS_BARD,SUB_BARD_VALOR,14,Battle Magic,After casting a spell, make a weapon attack as Bonus Action.,Bonus Action,,,PHB (2024),2024
+CF_BARD_VALOR_BATTLE_MAGIC,CLS_BARD,SUB_BARD_VALOR,14,Battle Magic,After casting a spell,make a weapon attack as Bonus Action.,Bonus Action,,PHB (2024),2024
 CF_BARBARIAN_UNARMORED_DEFENSE,CLS_BARBARIAN,,1,Unarmored Defense,AC equals 10 plus Dex and Con modifiers while unarmored.,,,,PHB (2024),2024
 CF_BARBARIAN_WEAPON_MASTERY,CLS_BARBARIAN,,1,Weapon Mastery,Use mastery properties of two melee weapons (more at higher levels).,,,,PHB (2024),2024
 CF_BARBARIAN_DANGER_SENSE,CLS_BARBARIAN,,2,Danger Sense,Advantage on Dex saves unless Incapacitated.,,,,PHB (2024),2024
 CF_BARBARIAN_RECKLESS_ATTACK,CLS_BARBARIAN,,2,Reckless Attack,Gain Advantage on Strength attacks; attacks vs you have Advantage.,,,,PHB (2024),2024
 CF_BARBARIAN_SUBCLASS,CLS_BARBARIAN,,3,Barbarian Subclass,Choose a Barbarian subclass.,,,,PHB (2024),2024
 CF_BARBARIAN_PRIMAL_KNOWLEDGE,CLS_BARBARIAN,,3,Primal Knowledge,Extra skill proficiency and Strength-based skill use while raging.,,,,PHB (2024),2024
-CF_BARBARIAN_ASI,CLS_BARBARIAN,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_BARBARIAN_ASI,CLS_BARBARIAN,,4,Ability Score Improvement,Gain ASI or feat (levels 4,,,,PHB (2024),2024
 CF_BARBARIAN_EXTRA_ATTACK,CLS_BARBARIAN,,5,Extra Attack,Attack twice when you take the Attack action.,,,,PHB (2024),2024
 CF_BARBARIAN_FAST_MOVEMENT,CLS_BARBARIAN,,5,Fast Movement,Speed increases by 10 feet while not in Heavy armor.,,,,PHB (2024),2024
+CF_DRUID_SPELLCASTING,CLS_DRUID,,1,Spellcasting,Druid spellcasting; prepared spells, spell slots, and Wisdom as spellcasting ability.,,,,PHB (2024),2024
+CF_DRUID_DRUIDIC,CLS_DRUID,,1,Druidic,You learn Druidic and always have Speak with Animals prepared.,,,,PHB (2024),2024
+CF_DRUID_PRIMAL_ORDER,CLS_DRUID,,1,Primal Order,Choose Magician or Warden (see feature choices).,,,,PHB (2024),2024
+CF_DRUID_WILD_SHAPE,CLS_DRUID,,2,Wild Shape,Assume Beast forms; limited uses; known forms and CR scale with level.,Bonus Action,,,PHB (2024),2024
+CF_DRUID_WILD_COMPANION,CLS_DRUID,,2,Wild Companion,Cast Find Familiar by expending a spell slot or Wild Shape use.,Magic Action,,,PHB (2024),2024
+CF_DRUID_SUBCLASS,CLS_DRUID,,3,Druid Subclass,Choose a Druid subclass; gain its features by level.,,,,PHB (2024),2024
+CF_DRUID_ASI,CLS_DRUID,,4,Ability Score Improvement,Gain ASI or feat (levels 4, 8, 12, 16).,,,,PHB (2024),2024
+CF_DRUID_WILD_RESURGENCE,CLS_DRUID,,5,Wild Resurgence,Spend spell slot to regain Wild Shape or Wild Shape to regain a level 1 slot.,,,,PHB (2024),2024
+CF_DRUID_ELEMENTAL_FURY,CLS_DRUID,,7,Elemental Fury,Choose Potent Spellcasting or Primal Strike (see feature choices).,,,,PHB (2024),2024
+CF_DRUID_IMPROVED_ELEMENTAL_FURY,CLS_DRUID,,15,Improved Elemental Fury,Elemental Fury choice improves at level 15.,,,,PHB (2024),2024
+CF_DRUID_BEAST_SPELLS,CLS_DRUID,,18,Beast Spells,Cast spells in Beast form except costly/consumed material components.,,,,PHB (2024),2024
+CF_DRUID_EPIC_BOON,CLS_DRUID,,19,Epic Boon,Gain an Epic Boon feat or another feat.,,,,PHB (2024),2024
+CF_DRUID_ARCHDRUID,CLS_DRUID,,20,Archdruid,Evergreen Wild Shape, Nature Magician, and Longevity benefits.,,,,PHB (2024),2024
 CF_BARBARIAN_FERAL_INSTINCT,CLS_BARBARIAN,,7,Feral Instinct,Advantage on Initiative rolls.,,,,PHB (2024),2024
 CF_BARBARIAN_INSTINCTIVE_POUNCE,CLS_BARBARIAN,,7,Instinctive Pounce,Move up to half speed when you enter Rage.,,,,PHB (2024),2024
 CF_BARBARIAN_BRUTAL_STRIKE,CLS_BARBARIAN,,9,Brutal Strike,Extra damage and special effects when using Reckless Attack.,,,,PHB (2024),2024
@@ -52,10 +65,10 @@ CF_BARBARIAN_BERSERKER_MINDLESS_RAGE,CLS_BARBARIAN,SUB_BARBARIAN_BERSERKER,6,Min
 CF_BARBARIAN_BERSERKER_RETALIATION,CLS_BARBARIAN,SUB_BARBARIAN_BERSERKER,10,Retaliation,Reaction melee attack when a creature damages you within 5 feet.,Reaction,,,PHB (2024),2024
 CF_BARBARIAN_BERSERKER_INTIMIDATING_PRESENCE,CLS_BARBARIAN,SUB_BARBARIAN_BERSERKER,14,Intimidating Presence,Bonus action to frighten creatures in 30-foot emanation.,Bonus Action,,,PHB (2024),2024
 CF_BARBARIAN_WILD_HEART_ANIMAL_SPEAKER,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,3,Animal Speaker,Ritual cast Beast Sense and Speak with Animals (Wisdom).,,,,PHB (2024),2024
-CF_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,3,Rage of the Wilds,Bear, Eagle, or Wolf benefits while raging.,,,,PHB (2024),2024
-CF_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,6,Aspect of the Wilds,Gain Owl, Panther, or Salmon aspect after long rest.,,,,PHB (2024),2024
+CF_BARBARIAN_WILD_HEART_RAGE_OF_THE_WILDS,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,3,Rage of the Wilds,Bear,Eagle,or Wolf benefits while raging.,,PHB (2024),2024
+CF_BARBARIAN_WILD_HEART_ASPECT_OF_THE_WILDS,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,6,Aspect of the Wilds,Gain Owl,Panther,or Salmon aspect after long rest.,,PHB (2024),2024
 CF_BARBARIAN_WILD_HEART_NATURE_SPEAKER,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,10,Nature Speaker,Ritual cast Commune with Nature (Wisdom).,,,,PHB (2024),2024
-CF_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,14,Power of the Wilds,Falcon, Lion, or Ram benefits while raging.,,,,PHB (2024),2024
+CF_BARBARIAN_WILD_HEART_POWER_OF_THE_WILDS,CLS_BARBARIAN,SUB_BARBARIAN_WILD_HEART,14,Power of the Wilds,Falcon,Lion,or Ram benefits while raging.,,PHB (2024),2024
 CF_BARBARIAN_WORLD_TREE_VITALITY_OF_THE_TREE,CLS_BARBARIAN,SUB_BARBARIAN_WORLD_TREE,3,Vitality of the Tree,Gain Temp HP on Rage and share Temp HP to ally.,,,,PHB (2024),2024
 CF_BARBARIAN_WORLD_TREE_BRANCHES_OF_THE_TREE,CLS_BARBARIAN,SUB_BARBARIAN_WORLD_TREE,6,Branches of the Tree,Reaction to teleport a nearby creature and reduce its speed.,Reaction,,,PHB (2024),2024
 CF_BARBARIAN_WORLD_TREE_BATTERING_ROOTS,CLS_BARBARIAN,SUB_BARBARIAN_WORLD_TREE,10,Battering Roots,Reach +10 with heavy/versatile weapons; add Push/Topple.,,,,PHB (2024),2024
@@ -64,12 +77,12 @@ CF_BARBARIAN_ZEALOT_DIVINE_FURY,CLS_BARBARIAN,SUB_BARBARIAN_ZEALOT,3,Divine Fury
 CF_BARBARIAN_ZEALOT_WARRIOR_OF_THE_GODS,CLS_BARBARIAN,SUB_BARBARIAN_ZEALOT,3,Warrior of the Gods,Bonus Action heal using a pool of d12s.,Bonus Action,,,PHB (2024),2024
 CF_BARBARIAN_ZEALOT_FANATICAL_FOCUS,CLS_BARBARIAN,SUB_BARBARIAN_ZEALOT,6,Fanatical Focus,Reroll a failed save once per Rage with bonus.,,,,PHB (2024),2024
 CF_BARBARIAN_ZEALOT_ZEALOUS_PRESENCE,CLS_BARBARIAN,SUB_BARBARIAN_ZEALOT,10,Zealous Presence,Bonus Action grant allies advantage until next turn.,Bonus Action,,,PHB (2024),2024
-CF_BARBARIAN_ZEALOT_RAGE_OF_THE_GODS,CLS_BARBARIAN,SUB_BARBARIAN_ZEALOT,14,Rage of the Gods,Divine warrior form with flight, resistances, and revival.,,,,PHB (2024),2024
+CF_BARBARIAN_ZEALOT_RAGE_OF_THE_GODS,CLS_BARBARIAN,SUB_BARBARIAN_ZEALOT,14,Rage of the Gods,Divine warrior form with flight,resistances,and revival.,,PHB (2024),2024
 CF_CLERIC_SPELLCASTING,CLS_CLERIC,,1,Spellcasting,Cleric spellcasting and prepared spells.,,,,PHB (2024),2024
 CF_CLERIC_DIVINE_ORDER,CLS_CLERIC,,1,Divine Order,Choose a sacred role.,,,,PHB (2024),2024
 CF_CLERIC_CHANNEL_DIVINITY,CLS_CLERIC,,2,Channel Divinity,Divine Spark and Turn Undead uses.,Magic Action,"2 (scales)",Short Rest,PHB (2024),2024
 CF_CLERIC_SUBCLASS,CLS_CLERIC,,3,Cleric Subclass,Choose a Cleric subclass.,,,,PHB (2024),2024
-CF_CLERIC_ASI,CLS_CLERIC,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_CLERIC_ASI,CLS_CLERIC,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_CLERIC_SEAR_UNDEAD,CLS_CLERIC,,5,Sear Undead,Turn Undead deals Radiant damage on failed saves.,,,,PHB (2024),2024
 CF_CLERIC_BLESSED_STRIKES,CLS_CLERIC,,7,Blessed Strikes,Choose Divine Strike or Potent Spellcasting.,,,,PHB (2024),2024
 CF_CLERIC_DIVINE_INTERVENTION,CLS_CLERIC,,10,Divine Intervention,Cast a spell without expending a slot.,Magic Action,,Long Rest,PHB (2024),2024
@@ -95,7 +108,7 @@ CF_CLERIC_WAR_GUIDED_STRIKE,CLS_CLERIC,SUB_CLERIC_WAR,3,Guided Strike,Channel Di
 CF_CLERIC_WAR_DOMAIN_SPELLS,CLS_CLERIC,SUB_CLERIC_WAR,3,War Domain Spells,Always prepared domain spells by level.,,,,PHB (2024),2024
 CF_CLERIC_WAR_PRIEST,CLS_CLERIC,SUB_CLERIC_WAR,3,War Priest,Bonus Action weapon/unarmed attack uses scale by Wis.,Bonus Action,,,PHB (2024),2024
 CF_CLERIC_WAR_GODS_BLESSING,CLS_CLERIC,SUB_CLERIC_WAR,6,War God's Blessing,Channel Divinity to cast Shield of Faith or Spiritual Weapon.,,,,PHB (2024),2024
-CF_CLERIC_WAR_AVATAR_OF_BATTLE,CLS_CLERIC,SUB_CLERIC_WAR,17,Avatar of Battle,Resistance to bludgeoning, piercing, and slashing.,,,,PHB (2024),2024
+CF_CLERIC_WAR_AVATAR_OF_BATTLE,CLS_CLERIC,SUB_CLERIC_WAR,17,Avatar of Battle,Resistance to bludgeoning,piercing,and slashing.,,PHB (2024),2024
 CF_CLERIC_LIFE_PRESERVE_LIFE,CLS_CLERIC,SUB_CLERIC_LIFE,3,Preserve Life,Channel Divinity healing pool.,Magic Action,,,PHB (2024),2024
 CF_CLERIC_LIFE_BLESSED_HEALER,CLS_CLERIC,SUB_CLERIC_LIFE,6,Blessed Healer,Healing others also heals you.,,,,PHB (2024),2024
 CF_CLERIC_LIFE_SUPREME_HEALING,CLS_CLERIC,SUB_CLERIC_LIFE,17,Supreme Healing,Maximize healing dice.,,,,PHB (2024),2024
@@ -105,7 +118,7 @@ CF_DRUID_PRIMAL_ORDER,CLS_DRUID,,1,Primal Order,Choose a sacred role.,,,,PHB (20
 CF_DRUID_WILD_SHAPE,CLS_DRUID,,2,Wild Shape,Bonus action to assume beast form; uses scale by level.,Bonus Action,"2 (scales)",Short Rest,PHB (2024),2024
 CF_DRUID_WILD_COMPANION,CLS_DRUID,,2,Wild Companion,Cast Find Familiar using Wild Shape or spell slot.,Magic Action,,,PHB (2024),2024
 CF_DRUID_SUBCLASS,CLS_DRUID,,3,Druid Subclass,Choose a Druid subclass.,,,,PHB (2024),2024
-CF_DRUID_ASI,CLS_DRUID,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_DRUID_ASI,CLS_DRUID,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_DRUID_WILD_RESURGENCE,CLS_DRUID,,5,Wild Resurgence,Convert spell slots and Wild Shape uses.,,,,PHB (2024),2024
 CF_DRUID_ELEMENTAL_FURY,CLS_DRUID,,7,Elemental Fury,Choose an elemental option (improves at 15).,,,,PHB (2024),2024
 CF_DRUID_IMPROVED_ELEMENTAL_FURY,CLS_DRUID,,15,Improved Elemental Fury,Elemental Fury options improve.,,,,PHB (2024),2024
@@ -116,8 +129,8 @@ CF_DRUID_LAND_CIRCLE_SPELLS,CLS_DRUID,SUB_DRUID_LAND,3,Circle of the Land Spells
 CF_DRUID_LAND_LANDS_AID,CLS_DRUID,SUB_DRUID_LAND,3,Land's Aid,Area heal and necrotic damage (scales).,Magic Action,,,PHB (2024),2024
 CF_DRUID_LAND_NATURAL_RECOVERY,CLS_DRUID,SUB_DRUID_LAND,6,Natural Recovery,Recover spell slots after short rest.,,,,PHB (2024),2024
 CF_DRUID_LAND_NATURES_WARD,CLS_DRUID,SUB_DRUID_LAND,10,Nature's Ward,Immunity to Poisoned and resistance by land type.,,,,PHB (2024),2024
-CF_DRUID_LAND_NATURES_SANCTUARY,CLS_DRUID,SUB_DRUID_LAND,14,Nature's Sanctuary,Create protective terrain cube, move it as bonus action.,Magic Action,,,PHB (2024),2024
-CF_DRUID_MOON_CIRCLE_FORMS,CLS_DRUID,SUB_DRUID_MOON,3,Circle Forms,Enhanced Wild Shape CR, AC, and Temp HP.,,,,PHB (2024),2024
+CF_DRUID_LAND_NATURES_SANCTUARY,CLS_DRUID,SUB_DRUID_LAND,14,Nature's Sanctuary,Create protective terrain cube,move it as bonus action.,Magic Action,,PHB (2024),2024
+CF_DRUID_MOON_CIRCLE_FORMS,CLS_DRUID,SUB_DRUID_MOON,3,Circle Forms,Enhanced Wild Shape CR,AC,and Temp HP.,,PHB (2024),2024
 CF_DRUID_MOON_CIRCLE_SPELLS,CLS_DRUID,SUB_DRUID_MOON,3,Circle of the Moon Spells,Always prepared spells usable in Wild Shape.,,,,PHB (2024),2024
 CF_DRUID_MOON_IMPROVED_CIRCLE_FORMS,CLS_DRUID,SUB_DRUID_MOON,6,Improved Circle Forms,Radiant damage option and tougher saves in Wild Shape.,,,,PHB (2024),2024
 CF_DRUID_MOON_MOONLIGHT_STEP,CLS_DRUID,SUB_DRUID_MOON,10,Moonlight Step,Bonus Action teleport with advantage on next attack.,Bonus Action,,,PHB (2024),2024
@@ -131,17 +144,17 @@ CF_DRUID_STARS_STAR_MAP,CLS_DRUID,SUB_DRUID_STARS,3,Star Map,Create star chart; 
 CF_DRUID_STARS_STARRY_FORM,CLS_DRUID,SUB_DRUID_STARS,3,Starry Form,Bonus Action to assume a starry constellation form.,Bonus Action,,,PHB (2024),2024
 CF_DRUID_STARS_COSMIC_OMEN,CLS_DRUID,SUB_DRUID_STARS,6,Cosmic Omen,Reaction weal or woe on d20 tests.,Reaction,,,PHB (2024),2024
 CF_DRUID_STARS_TWINKLING_CONSTELLATIONS,CLS_DRUID,SUB_DRUID_STARS,10,Twinkling Constellations,Upgrade Starry Form and change constellations.,,,,PHB (2024),2024
-CF_DRUID_STARS_FULL_OF_STARS,CLS_DRUID,SUB_DRUID_STARS,14,Full of Stars,Resistance to bludgeoning, piercing, and slashing.,,,,PHB (2024),2024
+CF_DRUID_STARS_FULL_OF_STARS,CLS_DRUID,SUB_DRUID_STARS,14,Full of Stars,Resistance to bludgeoning,piercing,and slashing.,,PHB (2024),2024
 CF_FIGHTER_FIGHTING_STYLE,CLS_FIGHTER,,1,Fighting Style,Gain a Fighting Style feat; can replace on level up.,,,,PHB (2024),2024
 CF_FIGHTER_SECOND_WIND,CLS_FIGHTER,,1,Second Wind,Bonus action heal 1d10 + fighter level; uses scale by level.,Bonus Action,"2 (scales)",Short Rest,PHB (2024),2024
 CF_FIGHTER_WEAPON_MASTERY,CLS_FIGHTER,,1,Weapon Mastery,Use mastery properties of three weapons (more at higher levels).,,,,PHB (2024),2024
 CF_FIGHTER_ACTION_SURGE,CLS_FIGHTER,,2,Action Surge,Take one additional action; uses increase at level 17.,,,,PHB (2024),2024
 CF_FIGHTER_TACTICAL_MIND,CLS_FIGHTER,,2,Tactical Mind,Spend Second Wind to add 1d10 to failed check.,,,,PHB (2024),2024
 CF_FIGHTER_SUBCLASS,CLS_FIGHTER,,3,Fighter Subclass,Choose a Fighter subclass.,,,,PHB (2024),2024
-CF_FIGHTER_ASI,CLS_FIGHTER,,4,Ability Score Improvement,Gain ASI or feat (levels 4,6,8,12,14,16).,,,,PHB (2024),2024
+CF_FIGHTER_ASI,CLS_FIGHTER,,4,Ability Score Improvement,Gain ASI or feat (levels 4,6,8,12,PHB (2024),2024
 CF_FIGHTER_EXTRA_ATTACK,CLS_FIGHTER,,5,Extra Attack,Attack twice when you take the Attack action.,,,,PHB (2024),2024
 CF_FIGHTER_TACTICAL_SHIFT,CLS_FIGHTER,,5,Tactical Shift,Move up to half speed when using Second Wind.,,,,PHB (2024),2024
-CF_FIGHTER_TACTICAL_MASTER,CLS_FIGHTER,,9,Tactical Master,Replace mastery property with Push, Sap, or Slow.,,,,PHB (2024),2024
+CF_FIGHTER_TACTICAL_MASTER,CLS_FIGHTER,,9,Tactical Master,Replace mastery property with Push,Sap,or Slow.,,PHB (2024),2024
 CF_FIGHTER_INDOMITABLE,CLS_FIGHTER,,9,Indomitable,Reroll a failed save with bonus equal to fighter level.,,,,PHB (2024),2024
 CF_FIGHTER_TWO_EXTRA_ATTACKS,CLS_FIGHTER,,11,Two Extra Attacks,Attack three times when you take the Attack action.,,,,PHB (2024),2024
 CF_FIGHTER_STUDIED_ATTACKS,CLS_FIGHTER,,13,Studied Attacks,Gain Advantage on next attack after a miss.,,,,PHB (2024),2024
@@ -157,7 +170,7 @@ CF_FIGHTER_BATTLEMASTER_COMBAT_SUPERIORITY,CLS_FIGHTER,SUB_FIGHTER_BATTLEMASTER,
 CF_FIGHTER_BATTLEMASTER_STUDENT_OF_WAR,CLS_FIGHTER,SUB_FIGHTER_BATTLEMASTER,3,Student of War,Gain a tool proficiency and a skill proficiency.,,,,PHB (2024),2024
 CF_FIGHTER_BATTLEMASTER_KNOW_YOUR_ENEMY,CLS_FIGHTER,SUB_FIGHTER_BATTLEMASTER,7,Know Your Enemy,Bonus Action to learn target immunities/resistances/vulnerabilities.,Bonus Action,,,PHB (2024),2024
 CF_FIGHTER_BATTLEMASTER_IMPROVED_COMBAT_SUPERIORITY,CLS_FIGHTER,SUB_FIGHTER_BATTLEMASTER,10,Improved Combat Superiority,Superiority Dice become d10s.,,,,PHB (2024),2024
-CF_FIGHTER_BATTLEMASTER_RELENTLESS,CLS_FIGHTER,SUB_FIGHTER_BATTLEMASTER,15,Relentless,Once per turn, roll 1d8 instead of expending a die.,,,,PHB (2024),2024
+CF_FIGHTER_BATTLEMASTER_RELENTLESS,CLS_FIGHTER,SUB_FIGHTER_BATTLEMASTER,15,Relentless,Once per turn,roll 1d8 instead of expending a die.,,,PHB (2024),2024
 CF_FIGHTER_BATTLEMASTER_ULTIMATE_COMBAT_SUPERIORITY,CLS_FIGHTER,SUB_FIGHTER_BATTLEMASTER,18,Ultimate Combat Superiority,Superiority Dice become d12s.,,,,PHB (2024),2024
 CF_FIGHTER_ELDRITCH_KNIGHT_SPELLCASTING,CLS_FIGHTER,SUB_FIGHTER_ELDRITCH_KNIGHT,3,Spellcasting,Eldritch Knight spellcasting progression.,,,,PHB (2024),2024
 CF_FIGHTER_ELDRITCH_KNIGHT_WAR_BOND,CLS_FIGHTER,SUB_FIGHTER_ELDRITCH_KNIGHT,3,War Bond,Bond with weapons and summon one as a Bonus Action.,,,,PHB (2024),2024
@@ -165,7 +178,7 @@ CF_FIGHTER_ELDRITCH_KNIGHT_WAR_MAGIC,CLS_FIGHTER,SUB_FIGHTER_ELDRITCH_KNIGHT,7,W
 CF_FIGHTER_ELDRITCH_KNIGHT_ELDRITCH_STRIKE,CLS_FIGHTER,SUB_FIGHTER_ELDRITCH_KNIGHT,10,Eldritch Strike,Weapon hits impose Disadvantage on next save vs your spell.,,,,PHB (2024),2024
 CF_FIGHTER_ELDRITCH_KNIGHT_ARCANE_CHARGE,CLS_FIGHTER,SUB_FIGHTER_ELDRITCH_KNIGHT,15,Arcane Charge,Teleport 30 feet when using Action Surge.,,,,PHB (2024),2024
 CF_FIGHTER_ELDRITCH_KNIGHT_IMPROVED_WAR_MAGIC,CLS_FIGHTER,SUB_FIGHTER_ELDRITCH_KNIGHT,18,Improved War Magic,Replace two attacks with a level 1-2 wizard spell.,,,,PHB (2024),2024
-CF_FIGHTER_PSI_WARRIOR_PSIONIC_POWER,CLS_FIGHTER,SUB_FIGHTER_PSI_WARRIOR,3,Psionic Power,Psionic Energy Dice fuel protective, strike, and movement powers.,,,,PHB (2024),2024
+CF_FIGHTER_PSI_WARRIOR_PSIONIC_POWER,CLS_FIGHTER,SUB_FIGHTER_PSI_WARRIOR,3,Psionic Power,Psionic Energy Dice fuel protective,strike,and movement powers.,,PHB (2024),2024
 CF_FIGHTER_PSI_WARRIOR_TELEKINETIC_ADEPT,CLS_FIGHTER,SUB_FIGHTER_PSI_WARRIOR,7,Telekinetic Adept,Bonus Action leap and psionic thrust on strikes.,Bonus Action,,,PHB (2024),2024
 CF_FIGHTER_PSI_WARRIOR_GUARDED_MIND,CLS_FIGHTER,SUB_FIGHTER_PSI_WARRIOR,10,Guarded Mind,Resistance to Psychic; end Charm/Frighten with a die.,,,,PHB (2024),2024
 CF_FIGHTER_PSI_WARRIOR_BULWARK_OF_FORCE,CLS_FIGHTER,SUB_FIGHTER_PSI_WARRIOR,15,Bulwark of Force,Bonus Action grant Half Cover to allies.,Bonus Action,,,PHB (2024),2024
@@ -180,7 +193,7 @@ CF_RANGER_FEY_WANDERER_OTHERWORLDLY_GLAMOUR,CLS_RANGER,SUB_RANGER_FEY_WANDERER,3
 CF_RANGER_FEY_WANDERER_BEGUILING_TWIST,CLS_RANGER,SUB_RANGER_FEY_WANDERER,7,Beguiling Twist,Advantage vs charm/fear; redirect them on saves.,Reaction,,,PHB (2024),2024
 CF_RANGER_FEY_WANDERER_FEY_REINFORCEMENTS,CLS_RANGER,SUB_RANGER_FEY_WANDERER,11,Fey Reinforcements,Cast Summon Fey without material; free cast and no concentration option.,,,,PHB (2024),2024
 CF_RANGER_FEY_WANDERER_MISTY_WANDERER,CLS_RANGER,SUB_RANGER_FEY_WANDERER,15,Misty Wanderer,Free Misty Step uses and bring an ally.,,,,PHB (2024),2024
-CF_RANGER_GLOOM_STALKER_DREAD_AMBUSHER,CLS_RANGER,SUB_RANGER_GLOOM_STALKER,3,Dread Ambusher,Speed boost, psychic strike, and initiative bonus.,,,,PHB (2024),2024
+CF_RANGER_GLOOM_STALKER_DREAD_AMBUSHER,CLS_RANGER,SUB_RANGER_GLOOM_STALKER,3,Dread Ambusher,Speed boost,psychic strike,and initiative bonus.,,PHB (2024),2024
 CF_RANGER_GLOOM_STALKER_GLOOM_STALKER_SPELLS,CLS_RANGER,SUB_RANGER_GLOOM_STALKER,3,Gloom Stalker Spells,Always prepared spells by level.,,,,PHB (2024),2024
 CF_RANGER_GLOOM_STALKER_UMBRAL_SIGHT,CLS_RANGER,SUB_RANGER_GLOOM_STALKER,3,Umbral Sight,Gain Darkvision and invisibility in darkness vs darkvision.,,,,PHB (2024),2024
 CF_RANGER_GLOOM_STALKER_IRON_MIND,CLS_RANGER,SUB_RANGER_GLOOM_STALKER,7,Iron Mind,Gain proficiency in Wisdom saves (or Int/Cha).,,,,PHB (2024),2024
@@ -198,7 +211,7 @@ CF_MONK_UNARMORED_MOVEMENT,CLS_MONK,,2,Unarmored Movement,Speed bonus while unar
 CF_MONK_UNCANNY_METABOLISM,CLS_MONK,,2,Uncanny Metabolism,Regain Focus Points on initiative (1/long rest).,,,,PHB (2024),2024
 CF_MONK_DEFLECT_ATTACKS,CLS_MONK,,3,Deflect Attacks,Reaction to reduce damage; can redirect with Focus.,Reaction,,,PHB (2024),2024
 CF_MONK_SUBCLASS,CLS_MONK,,3,Monk Subclass,Choose a Monk subclass.,,,,PHB (2024),2024
-CF_MONK_ASI,CLS_MONK,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_MONK_ASI,CLS_MONK,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_MONK_SLOW_FALL,CLS_MONK,,4,Slow Fall,Reaction to reduce falling damage.,Reaction,,,PHB (2024),2024
 CF_MONK_EXTRA_ATTACK,CLS_MONK,,5,Extra Attack,Attack twice when you take the Attack action.,,,,PHB (2024),2024
 CF_MONK_STUNNING_STRIKE,CLS_MONK,,5,Stunning Strike,Spend Focus to stun or slow a target.,,,,PHB (2024),2024
@@ -223,7 +236,7 @@ CF_MONK_MERCY_IMPLEMENTS_OF_MERCY,CLS_MONK,SUB_MONK_MERCY,3,Implements of Mercy,
 CF_MONK_MERCY_PHYSICIANS_TOUCH,CLS_MONK,SUB_MONK_MERCY,6,Physician's Touch,Hand of Harm poisons; Hand of Healing cures conditions.,,,,PHB (2024),2024
 CF_MONK_MERCY_FLURRY_OF_HEALING_AND_HARM,CLS_MONK,SUB_MONK_MERCY,11,Flurry of Healing and Harm,Free Hand of Healing/Harm uses with limits.,,,,PHB (2024),2024
 CF_MONK_MERCY_HAND_OF_ULTIMATE_MERCY,CLS_MONK,SUB_MONK_MERCY,17,Hand of Ultimate Mercy,Magic action to revive a dead creature with Focus.,Magic Action,,,PHB (2024),2024
-CF_MONK_SHADOW_SHADOW_ARTS,CLS_MONK,SUB_MONK_SHADOW,3,Shadow Arts,Gain Darkness, Darkvision, and Minor Illusion options.,,,,PHB (2024),2024
+CF_MONK_SHADOW_SHADOW_ARTS,CLS_MONK,SUB_MONK_SHADOW,3,Shadow Arts,Gain Darkness,Darkvision,and Minor Illusion options.,,PHB (2024),2024
 CF_MONK_SHADOW_SHADOW_STEP,CLS_MONK,SUB_MONK_SHADOW,6,Shadow Step,Bonus Action teleport between dim light/darkness.,Bonus Action,,,PHB (2024),2024
 CF_MONK_SHADOW_IMPROVED_SHADOW_STEP,CLS_MONK,SUB_MONK_SHADOW,11,Improved Shadow Step,Spend Focus to teleport without light limits.,Bonus Action,,,PHB (2024),2024
 CF_MONK_SHADOW_CLOAK_OF_SHADOWS,CLS_MONK,SUB_MONK_SHADOW,17,Cloak of Shadows,Magic action to gain invisibility and shadow benefits.,Magic Action,,,PHB (2024),2024
@@ -239,7 +252,7 @@ CF_PALADIN_FIGHTING_STYLE,CLS_PALADIN,,2,Fighting Style,Gain a Fighting Style fe
 CF_PALADIN_SMITE,CLS_PALADIN,,2,Paladin's Smite,Always have Divine Smite prepared; free cast 1/long rest.,,,,PHB (2024),2024
 CF_PALADIN_CHANNEL_DIVINITY,CLS_PALADIN,,3,Channel Divinity,Divine Sense and other options; uses scale.,,,,PHB (2024),2024
 CF_PALADIN_SUBCLASS,CLS_PALADIN,,3,Paladin Subclass,Choose a Paladin subclass.,,,,PHB (2024),2024
-CF_PALADIN_ASI,CLS_PALADIN,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_PALADIN_ASI,CLS_PALADIN,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_PALADIN_EXTRA_ATTACK,CLS_PALADIN,,5,Extra Attack,Attack twice when you take the Attack action.,,,,PHB (2024),2024
 CF_PALADIN_FAITHFUL_STEED,CLS_PALADIN,,5,Faithful Steed,Always have Find Steed prepared; free cast 1/long rest.,,,,PHB (2024),2024
 CF_PALADIN_AURA_OF_PROTECTION,CLS_PALADIN,,6,Aura of Protection,Allies gain bonus to saves in 10-foot emanation.,,,,PHB (2024),2024
@@ -259,9 +272,9 @@ CF_PALADIN_GLORY_AURA_OF_ALACRITY,CLS_PALADIN,SUB_PALADIN_GLORY,7,Aura of Alacri
 CF_PALADIN_GLORY_GLORIOUS_DEFENSE,CLS_PALADIN,SUB_PALADIN_GLORY,15,Glorious Defense,Reaction to boost AC and counterattack if it misses.,Reaction,,,PHB (2024),2024
 CF_PALADIN_GLORY_LIVING_LEGEND,CLS_PALADIN,SUB_PALADIN_GLORY,20,Living Legend,Empower yourself with heroic legend benefits.,Bonus Action,,,PHB (2024),2024
 CF_PALADIN_ANCIENTS_NATURES_WRATH,CLS_PALADIN,SUB_PALADIN_ANCIENTS,3,Nature's Wrath,Channel Divinity to restrain foes with spectral vines.,Magic Action,,,PHB (2024),2024
-CF_PALADIN_ANCIENTS_AURA_OF_WARDING,CLS_PALADIN,SUB_PALADIN_ANCIENTS,7,Aura of Warding,Allies resist Necrotic, Psychic, and Radiant in aura.,,,,PHB (2024),2024
+CF_PALADIN_ANCIENTS_AURA_OF_WARDING,CLS_PALADIN,SUB_PALADIN_ANCIENTS,7,Aura of Warding,Allies resist Necrotic,Psychic,and Radiant in aura.,,PHB (2024),2024
 CF_PALADIN_ANCIENTS_UNDYING_SENTINEL,CLS_PALADIN,SUB_PALADIN_ANCIENTS,15,Undying Sentinel,Drop to 1 HP instead of 0 and heal; no magical aging.,,,,PHB (2024),2024
-CF_PALADIN_ANCIENTS_ELDER_CHAMPION,CLS_PALADIN,SUB_PALADIN_ANCIENTS,20,Elder Champion,Primal aura grants debuff, regen, and swift spells.,Bonus Action,,,PHB (2024),2024
+CF_PALADIN_ANCIENTS_ELDER_CHAMPION,CLS_PALADIN,SUB_PALADIN_ANCIENTS,20,Elder Champion,Primal aura grants debuff,regen,and swift spells.,Bonus Action,PHB (2024),2024
 CF_PALADIN_VENGEANCE_VOW_OF_ENMITY,CLS_PALADIN,SUB_PALADIN_VENGEANCE,3,Vow of Enmity,Channel Divinity to gain advantage vs a foe.,,,,PHB (2024),2024
 CF_PALADIN_VENGEANCE_RELENTLESS_AVENGER,CLS_PALADIN,SUB_PALADIN_VENGEANCE,7,Relentless Avenger,Opportunity attack can halt foe and move half speed.,,,,PHB (2024),2024
 CF_PALADIN_VENGEANCE_SOUL_OF_VENGEANCE,CLS_PALADIN,SUB_PALADIN_VENGEANCE,15,Soul of Vengeance,Reaction attack after target of Vow attacks.,Reaction,,,PHB (2024),2024
@@ -272,7 +285,7 @@ CF_RANGER_WEAPON_MASTERY,CLS_RANGER,,1,Weapon Mastery,Use mastery properties of 
 CF_RANGER_DEFT_EXPLORER,CLS_RANGER,,2,Deft Explorer,Gain Expertise in one skill and two languages.,,,,PHB (2024),2024
 CF_RANGER_FIGHTING_STYLE,CLS_RANGER,,2,Fighting Style,Gain Fighting Style feat or Druidic Warrior option.,,,,PHB (2024),2024
 CF_RANGER_SUBCLASS,CLS_RANGER,,3,Ranger Subclass,Choose a Ranger subclass.,,,,PHB (2024),2024
-CF_RANGER_ASI,CLS_RANGER,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_RANGER_ASI,CLS_RANGER,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_RANGER_EXTRA_ATTACK,CLS_RANGER,,5,Extra Attack,Attack twice when you take the Attack action.,,,,PHB (2024),2024
 CF_RANGER_ROVING,CLS_RANGER,,6,Roving,Speed +10; gain climb and swim speeds.,,,,PHB (2024),2024
 CF_RANGER_EXPERTISE,CLS_RANGER,,9,Expertise,Gain Expertise in two skills you lack it in.,,,,PHB (2024),2024
@@ -290,12 +303,12 @@ CF_RANGER_SUPERIOR_HUNTERS_PREY,CLS_RANGER,SUB_RANGER_HUNTER,11,Superior Hunter'
 CF_RANGER_SUPERIOR_HUNTERS_DEFENSE,CLS_RANGER,SUB_RANGER_HUNTER,15,Superior Hunter's Defense,Reaction to gain resistance to damage type.,Reaction,,,PHB (2024),2024
 CF_ROGUE_EXPERTISE,CLS_ROGUE,,1,Expertise,Double proficiency on two chosen skills.,,,,PHB (2024),2024
 CF_ROGUE_SNEAK_ATTACK,CLS_ROGUE,,1,Sneak Attack,Extra damage once per turn with finesse or ranged attack.,,,,PHB (2024),2024
-CF_ROGUE_THIEVES_CANT,CLS_ROGUE,,1,Thieves' Cant,Learn thieves' cant and one other language.,,,,PHB (2024),2024
-CF_ROGUE_WEAPON_MASTERY,CLS_ROGUE,,1,Weapon Mastery,Use mastery properties of two weapons.,,,,PHB (2024),2024
+CF_ROGUE_THIEVES_CANT,CLS_ROGUE,,1,Thieves' Cant,"You know Thieves' Cant and one other language of your choice from the language tables.",,,,PHB (2024),2024
+CF_ROGUE_WEAPON_MASTERY,CLS_ROGUE,,1,Weapon Mastery,"Use the mastery properties of two kinds of weapons of your choice with which you have proficiency. You can change the kinds of weapons you chose when you finish a Long Rest.",,,,PHB (2024),2024
 CF_ROGUE_CUNNING_ACTION,CLS_ROGUE,,2,Cunning Action,Bonus Action to Dash Disengage or Hide.,Bonus Action,,,PHB (2024),2024
 CF_ROGUE_SUBCLASS,CLS_ROGUE,,3,Rogue Subclass,Choose a Rogue subclass.,,,,PHB (2024),2024
 CF_ROGUE_STEADY_AIM,CLS_ROGUE,,3,Steady Aim,Bonus Action to gain Advantage with no movement.,Bonus Action,,,PHB (2024),2024
-CF_ROGUE_ABILITY_SCORE_IMPROVEMENT,CLS_ROGUE,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,10,12,16).,,,,PHB (2024),2024
+CF_ROGUE_ABILITY_SCORE_IMPROVEMENT,CLS_ROGUE,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,10,12,PHB (2024),2024
 CF_ROGUE_CUNNING_STRIKE,CLS_ROGUE,,5,Cunning Strike,Spend Sneak Attack dice for added effects.,,,,PHB (2024),2024
 CF_ROGUE_UNCANNY_DODGE,CLS_ROGUE,,5,Uncanny Dodge,Reaction to halve damage from a hit.,Reaction,,,PHB (2024),2024
 CF_ROGUE_EXPERTISE_2,CLS_ROGUE,,6,Expertise,Gain Expertise in two more skills.,,,,PHB (2024),2024
@@ -320,7 +333,7 @@ CF_ROGUE_ARCANE_TRICKSTER_SPELL_THIEF,CLS_ROGUE,SUB_ROGUE_ARCANE_TRICKSTER,17,Sp
 CF_ROGUE_ASSASSIN_ASSASSINATE,CLS_ROGUE,SUB_ROGUE_ASSASSIN,3,Assassinate,Advantage on initiative and surprise strike damage.,,,,PHB (2024),2024
 CF_ROGUE_ASSASSIN_ASSASSINS_TOOLS,CLS_ROGUE,SUB_ROGUE_ASSASSIN,3,Assassin's Tools,Gain Disguise Kit and Poisoner's Kit proficiency.,,,,PHB (2024),2024
 CF_ROGUE_ASSASSIN_INFILTRATION_EXPERTISE,CLS_ROGUE,SUB_ROGUE_ASSASSIN,9,Infiltration Expertise,Masterful Mimicry and Steady Aim mobility.,,,,PHB (2024),2024
-CF_ROGUE_ASSASSIN_ENVENOM_WEAPONS,CLS_ROGUE,SUB_ROGUE_ASSASSIN,13,Envenom Weapons,Poison Cunning Strike adds extra damage, ignores resistance.,,,,PHB (2024),2024
+CF_ROGUE_ASSASSIN_ENVENOM_WEAPONS,CLS_ROGUE,SUB_ROGUE_ASSASSIN,13,Envenom Weapons,Poison Cunning Strike adds extra damage,ignores resistance.,,,PHB (2024),2024
 CF_ROGUE_ASSASSIN_DEATH_STRIKE,CLS_ROGUE,SUB_ROGUE_ASSASSIN,17,Death Strike,Failed save doubles Sneak Attack damage in round 1.,,,,PHB (2024),2024
 CF_ROGUE_SOULKNIFE_PSIONIC_POWER,CLS_ROGUE,SUB_ROGUE_SOULKNIFE,3,Psionic Power,Psionic Energy Dice fuel knack and telepathy.,,,,PHB (2024),2024
 CF_ROGUE_SOULKNIFE_PSYCHIC_BLADES,CLS_ROGUE,SUB_ROGUE_SOULKNIFE,3,Psychic Blades,Manifest psychic blades for attacks and bonus attack.,,,,PHB (2024),2024
@@ -332,7 +345,7 @@ CF_SORCERER_INNATE_SORCERY,CLS_SORCERER,,1,Innate Sorcery,Bonus Action surge to 
 CF_SORCERER_FONT_OF_MAGIC,CLS_SORCERER,,2,Font of Magic,Sorcery Points for slots and effects.,,,,PHB (2024),2024
 CF_SORCERER_METAMAGIC,CLS_SORCERER,,2,Metamagic,Choose two options; gain more at 10 and 17.,,,,PHB (2024),2024
 CF_SORCERER_SUBCLASS,CLS_SORCERER,,3,Sorcerer Subclass,Choose a Sorcerer subclass.,,,,PHB (2024),2024
-CF_SORCERER_ASI,CLS_SORCERER,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_SORCERER_ASI,CLS_SORCERER,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_SORCERER_RESTORATION,CLS_SORCERER,,5,Sorcerous Restoration,Recover Sorcery Points on a Short Rest.,,,,PHB (2024),2024
 CF_SORCERER_INCARNATE,CLS_SORCERER,,7,Sorcery Incarnate,Spend points to use Innate Sorcery and double Metamagic.,,,,PHB (2024),2024
 CF_SORCERER_EPIC_BOON,CLS_SORCERER,,19,Epic Boon,Gain an Epic Boon feat.,,,,PHB (2024),2024
@@ -352,7 +365,7 @@ CF_SORCERER_CLOCKWORK_CLOCKWORK_SPELLS,CLS_SORCERER,SUB_SORCERER_CLOCKWORK,3,Clo
 CF_SORCERER_CLOCKWORK_RESTORE_BALANCE,CLS_SORCERER,SUB_SORCERER_CLOCKWORK,3,Restore Balance,Reaction to cancel advantage or disadvantage on a roll.,Reaction,,,PHB (2024),2024
 CF_SORCERER_CLOCKWORK_BASTION_OF_LAW,CLS_SORCERER,SUB_SORCERER_CLOCKWORK,6,Bastion of Law,Magic action ward that reduces damage.,Magic Action,,,PHB (2024),2024
 CF_SORCERER_CLOCKWORK_TRANCE_OF_ORDER,CLS_SORCERER,SUB_SORCERER_CLOCKWORK,14,Trance of Order,Bonus Action to prevent advantage vs you and stabilize rolls.,Bonus Action,,,PHB (2024),2024
-CF_SORCERER_CLOCKWORK_CAVALCADE,CLS_SORCERER,SUB_SORCERER_CLOCKWORK,18,Clockwork Cavalcade,Magic action to heal, repair, and dispel in a cube.,Magic Action,,,PHB (2024),2024
+CF_SORCERER_CLOCKWORK_CAVALCADE,CLS_SORCERER,SUB_SORCERER_CLOCKWORK,18,Clockwork Cavalcade,Magic action to heal,repair,and dispel in a cube.,Magic Action,PHB (2024),2024
 CF_SORCERER_WILD_MAGIC_SURGE,CLS_SORCERER,SUB_SORCERER_WILD_MAGIC,3,Wild Magic Surge,Chance to trigger a wild surge after spells.,,,,PHB (2024),2024
 CF_SORCERER_WILD_TIDES_OF_CHAOS,CLS_SORCERER,SUB_SORCERER_WILD_MAGIC,3,Tides of Chaos,Gain advantage on a d20 test; recharges on surge.,,,,PHB (2024),2024
 CF_SORCERER_WILD_BEND_LUCK,CLS_SORCERER,SUB_SORCERER_WILD_MAGIC,6,Bend Luck,Reaction to add or subtract 1d4 on a d20 test.,Reaction,,,PHB (2024),2024
@@ -362,7 +375,7 @@ CF_WARLOCK_ELDRITCH_INVOCATIONS,CLS_WARLOCK,,1,Eldritch Invocations,Gain invocat
 CF_WARLOCK_PACT_MAGIC,CLS_WARLOCK,,1,Pact Magic,Pact spellcasting with scaling slots.,,,,PHB (2024),2024
 CF_WARLOCK_MAGICAL_CUNNING,CLS_WARLOCK,,2,Magical Cunning,Ritual to regain some Pact Magic slots.,,,,PHB (2024),2024
 CF_WARLOCK_SUBCLASS,CLS_WARLOCK,,3,Warlock Subclass,Choose a Warlock patron.,,,,PHB (2024),2024
-CF_WARLOCK_ASI,CLS_WARLOCK,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_WARLOCK_ASI,CLS_WARLOCK,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_WARLOCK_CONTACT_PATRON,CLS_WARLOCK,,9,Contact Patron,Cast Contact Other Plane without a slot once per rest.,,,,PHB (2024),2024
 CF_WARLOCK_MYSTIC_ARCANUM_6,CLS_WARLOCK,,11,Mystic Arcanum (6th),Gain a level 6 arcanum spell 1/day.,,,,PHB (2024),2024
 CF_WARLOCK_MYSTIC_ARCANUM_7,CLS_WARLOCK,,13,Mystic Arcanum (7th),Gain a level 7 arcanum spell 1/day.,,,,PHB (2024),2024
@@ -400,7 +413,7 @@ CF_WIZARD_RITUAL_ADEPT,CLS_WIZARD,,1,Ritual Adept,Cast ritual spells from your s
 CF_WIZARD_ARCANE_RECOVERY,CLS_WIZARD,,1,Arcane Recovery,Recover spell slots on a Short Rest.,,,,PHB (2024),2024
 CF_WIZARD_SCHOLAR,CLS_WIZARD,,2,Scholar,Gain Expertise in a chosen Wizard skill.,,,,PHB (2024),2024
 CF_WIZARD_SUBCLASS,CLS_WIZARD,,3,Wizard Subclass,Choose a Wizard subclass.,,,,PHB (2024),2024
-CF_WIZARD_ASI,CLS_WIZARD,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,,,,PHB (2024),2024
+CF_WIZARD_ASI,CLS_WIZARD,,4,Ability Score Improvement,Gain ASI or feat (levels 4,8,12,16).,PHB (2024),2024
 CF_WIZARD_MEMORIZE_SPELL,CLS_WIZARD,,5,Memorize Spell,Swap a prepared spell after a Short Rest.,,,,PHB (2024),2024
 CF_WIZARD_SPELL_MASTERY,CLS_WIZARD,,18,Spell Mastery,At-will level 1 and 2 spells from spellbook.,,,,PHB (2024),2024
 CF_WIZARD_EPIC_BOON,CLS_WIZARD,,19,Epic Boon,Gain an Epic Boon feat.,,,,PHB (2024),2024

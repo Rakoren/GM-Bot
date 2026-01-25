@@ -32,6 +32,16 @@
       "access": "everyone",
       "roles": []
     },
+    "combat": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "setup": {
+      "enabled": true,
+      "access": "admin",
+      "roles": []
+    },
     "campaign-setup": {
       "enabled": true,
       "access": "everyone",
@@ -136,7 +146,19 @@
       "enabled": true,
       "access": "everyone",
       "roles": []
+    },
+    "wizard": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
     }
+  },
+  "channels": {
+    "gameTableChannelId": "1463255954551472209",
+    "characterCreatorChannelId": "1463255957969830020",
+    "gameTableVoiceChannelId": null,
+    "sessionVoiceChannelId": null,
+    "avraeChannelId": null
   },
   "commandRegistry": {
     "groups": {

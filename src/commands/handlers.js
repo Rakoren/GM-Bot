@@ -1,4 +1,4 @@
-import { ActionRowBuilder, ButtonBuilder, ButtonStyle } from 'discord.js';
+import { ActionRowBuilder, ButtonBuilder, ButtonStyle, ChannelType, PermissionsBitField } from 'discord.js';
 
 export async function handleChatInputCommand({
   interaction,
@@ -59,6 +59,7 @@ export async function handleChatInputCommand({
     saveProfileStore,
     ttsSpeak,
     openai,
+    updateChannelConfig,
     getLoginVoiceChannelId,
     getOrCreateVoiceConnection,
     getOrCreateAudioPlayer,
@@ -76,6 +77,66 @@ export async function handleChatInputCommand({
     const arg = interaction.options.getString('type', true);
     setMode(session, arg);
     await interaction.editReply(`Mode set to ${arg.toUpperCase()}.`);
+    return;
+  }
+
+  if (interaction.commandName === 'setup') {
+    if (!interaction.guild) {
+      await interaction.editReply('Run /setup inside a server.');
+      return;
+    }
+    const perms = interaction.memberPermissions;
+    if (!perms?.has(PermissionsBitField.Flags.ManageGuild) && !perms?.has(PermissionsBitField.Flags.Administrator)) {
+      await interaction.editReply('You need Manage Server or Administrator to run /setup.');
+      return;
+    }
+    const overwrite = interaction.options.getBoolean('overwrite', false);
+    const guild = interaction.guild;
+
+    const existingGame = guild.channels.cache.find(
+      ch => ch.type === ChannelType.GuildText && ch.name === 'game-table'
+    );
+    const existingCreator = guild.channels.cache.find(
+      ch => ch.type === ChannelType.GuildText && ch.name === 'character-creator'
+    );
+
+    const created = [];
+    const reused = [];
+
+    let gameChannel = existingGame;
+    if (!gameChannel || overwrite) {
+      gameChannel = await guild.channels.create({
+        name: 'game-table',
+        type: ChannelType.GuildText,
+        topic: 'Main play table for the DM Bot.',
+      });
+      created.push(`#${gameChannel.name}`);
+    } else {
+      reused.push(`#${gameChannel.name}`);
+    }
+
+    let creatorChannel = existingCreator;
+    if (!creatorChannel || overwrite) {
+      creatorChannel = await guild.channels.create({
+        name: 'character-creator',
+        type: ChannelType.GuildText,
+        topic: 'Character intake channel for the DM Bot.',
+      });
+      created.push(`#${creatorChannel.name}`);
+    } else {
+      reused.push(`#${creatorChannel.name}`);
+    }
+
+    updateChannelConfig({
+      gameTableChannelId: gameChannel?.id || null,
+      characterCreatorChannelId: creatorChannel?.id || null,
+    });
+
+    const lines = [];
+    if (created.length) lines.push(`Created: ${created.join(', ')}`);
+    if (reused.length) lines.push(`Using existing: ${reused.join(', ')}`);
+    lines.push('Saved channel IDs. You can now run /campaign-setup or /start in #game-table.');
+    await interaction.editReply(lines.join('\n'));
     return;
   }
 
@@ -133,6 +194,257 @@ export async function handleChatInputCommand({
     const result = rollDice(parsed.value);
     await interaction.editReply(formatDiceResult(result));
     return;
+  }
+
+  if (interaction.commandName === 'combat') {
+    if (!isGameChannel) {
+      await interaction.editReply('Use /combat in the game channel or its threads.');
+      return;
+    }
+    const {
+      combatEngine,
+      profileByUserId,
+      reloadProfileStore,
+      isCommandAllowedForMember,
+    } = ctx;
+    const sub = interaction.options.getSubcommand();
+    const isDm = interaction.memberPermissions?.has(PermissionsBitField.Flags.ManageGuild)
+      || interaction.memberPermissions?.has(PermissionsBitField.Flags.Administrator);
+    const dmOnly = ['start', 'add-npc', 'begin', 'next', 'damage', 'condition'];
+    if (dmOnly.includes(sub) && !isDm) {
+      await interaction.editReply('DM only.');
+      return;
+    }
+    const combat = combatEngine.getCombat(session);
+
+    const findCombatantByName = (name) => {
+      const cleaned = String(name || '').trim().toLowerCase();
+      if (!combat || !cleaned) return null;
+      return Object.values(combat.combatants).find(c =>
+        String(c.name || '').trim().toLowerCase() === cleaned
+      ) || null;
+    };
+
+    if (sub === 'start') {
+      const name = interaction.options.getString('name', false);
+      const created = combatEngine.createCombat(session, {
+        name,
+        channelId: interaction.channelId,
+        createdBy: interaction.user.id,
+      });
+      await interaction.editReply(`Combat started: ${created.name}. Players can /combat join.`);
+      return;
+    }
+
+    if (!combat) {
+      await interaction.editReply('No active combat. Use /combat start first.');
+      return;
+    }
+
+    if (sub === 'join') {
+      if (typeof reloadProfileStore === 'function') {
+        reloadProfileStore();
+      }
+      const profile = profileByUserId.get(interaction.user.id);
+      if (!profile) {
+        await interaction.editReply('No linked character. Use /setchar first.');
+        return;
+      }
+      const combatant = combatEngine.buildCombatantFromProfile(interaction.user.id, profile);
+      combat.combatants[combatant.id] = combatant;
+      await interaction.editReply(`${combatant.name} joined combat.`);
+      return;
+    }
+
+    if (sub === 'add-npc') {
+      const name = interaction.options.getString('name', true);
+      const hp = interaction.options.getInteger('hp', true);
+      const ac = interaction.options.getInteger('ac', true);
+      const init = interaction.options.getInteger('initiative', false);
+      const npc = combatEngine.addNpc(combat, { name, hp, ac, initiative: init });
+      await interaction.editReply(`NPC added: ${npc.name} (HP ${npc.hp}, AC ${npc.ac}).`);
+      return;
+    }
+
+    if (sub === 'init') {
+      const value = interaction.options.getInteger('value', false);
+      const adv = interaction.options.getBoolean('adv', false);
+      const dis = interaction.options.getBoolean('dis', false);
+      const combatantId = `player_${interaction.user.id}`;
+      if (!combat.combatants[combatantId]) {
+        await interaction.editReply('Join combat first with /combat join.');
+        return;
+      }
+      if (Number.isFinite(value)) {
+        combatEngine.setInitiative(combat, combatantId, value);
+        await interaction.editReply(`Initiative set to ${value}.`);
+        return;
+      }
+      const result = combatEngine.rollInitiative(combat, combatantId, { advantage: adv, disadvantage: dis });
+      await interaction.editReply(`Initiative: ${result.total} (${result.rolls.join(', ')})`);
+      return;
+    }
+
+    if (sub === 'begin') {
+      combatEngine.beginCombat(combat);
+      await interaction.editReply(combatEngine.formatCombatStatus(combat));
+      return;
+    }
+
+    if (sub === 'next') {
+      const active = combatEngine.nextTurn(combat);
+      await interaction.editReply(active ? `Turn: ${active.name}` : 'No active combatants.');
+      return;
+    }
+
+    if (sub === 'status') {
+      await interaction.editReply(combatEngine.formatCombatStatus(combat));
+      return;
+    }
+
+    if (sub === 'attack') {
+      const attackerName = interaction.options.getString('attacker', false);
+      const targetName = interaction.options.getString('target', true);
+      const weapon = interaction.options.getString('weapon', false);
+      const adv = interaction.options.getBoolean('adv', false);
+      const dis = interaction.options.getBoolean('dis', false);
+      const dmgOverride = interaction.options.getString('damage', false);
+      let attacker = null;
+      if (attackerName) {
+        if (!isDm) {
+          await interaction.editReply('Only the DM can pick an attacker.');
+          return;
+        }
+        attacker = findCombatantByName(attackerName);
+      } else {
+        attacker = combat.combatants[`player_${interaction.user.id}`];
+      }
+      if (!attacker) {
+        await interaction.editReply('Attacker not found.');
+        return;
+      }
+      if (combat.status === 'active') {
+        const active = combatEngine.getActiveCombatant(combat);
+        if (active?.id && active.id !== attacker.id && !isDm) {
+          await interaction.editReply(`It is ${active?.name}'s turn.`);
+          return;
+        }
+      }
+      const target = findCombatantByName(targetName);
+      if (!target) {
+        await interaction.editReply('Target not found.');
+        return;
+      }
+      const result = combatEngine.attack({
+        combat,
+        attackerId: attacker.id,
+        targetId: target.id,
+        weaponName: weapon,
+        advantage: adv,
+        disadvantage: dis,
+        overrideDamage: dmgOverride,
+      });
+      if (result.error) {
+        await interaction.editReply(result.error);
+        return;
+      }
+      const hitText = result.hit ? 'HIT' : 'MISS';
+      const rollText = result.roll ? `${result.roll.total} (${result.roll.rolls.join(', ')})` : '?';
+      const dmgText = result.hit
+        ? `Damage: ${result.damageTotal || 0} (${result.damageResult?.rolls?.join(', ') || ''})`
+        : '';
+      const hpText = Number.isFinite(target.hp) ? `HP: ${target.hp}/${target.maxHp ?? '?'}` : 'HP: ?';
+      await interaction.editReply(
+        `${attacker.name} attacks ${target.name} with ${result.weapon} — ${hitText}\n` +
+        `Attack roll: ${rollText}\n` +
+        `${dmgText}\n${hpText}`.trim()
+      );
+      return;
+    }
+
+    if (sub === 'damage') {
+      const targetName = interaction.options.getString('target', true);
+      const amount = interaction.options.getInteger('amount', true);
+      const target = findCombatantByName(targetName);
+      if (!target) {
+        await interaction.editReply('Target not found.');
+        return;
+      }
+      combatEngine.applyDamage(combat, target.id, amount);
+      const hpText = Number.isFinite(target.hp) ? `${target.hp}/${target.maxHp ?? '?'}` : '?';
+      await interaction.editReply(`${target.name} takes ${amount} damage. HP ${hpText}.`);
+      return;
+    }
+
+    if (sub === 'condition') {
+      const action = interaction.options.getString('action', true);
+      const targetName = interaction.options.getString('target', true);
+      const condition = interaction.options.getString('condition', true);
+      const target = findCombatantByName(targetName);
+      if (!target) {
+        await interaction.editReply('Target not found.');
+        return;
+      }
+      if (action === 'add') {
+        combatEngine.addCondition(combat, target.id, condition);
+        await interaction.editReply(`${target.name} gains ${condition}.`);
+      } else {
+        combatEngine.removeCondition(combat, target.id, condition);
+        await interaction.editReply(`${target.name} loses ${condition}.`);
+      }
+      return;
+    }
+
+    if (sub === 'cast') {
+      const level = interaction.options.getInteger('level', true);
+      const spell = interaction.options.getString('spell', true);
+      const targetName = interaction.options.getString('target', false);
+      const caster = combat.combatants[`player_${interaction.user.id}`];
+      if (!caster) {
+        await interaction.editReply('Join combat first with /combat join.');
+        return;
+      }
+      const result = combatEngine.spendSpellSlot(combat, caster.id, level);
+      if (!result.ok) {
+        await interaction.editReply(result.message);
+        return;
+      }
+      const targetText = targetName ? ` on ${targetName}` : '';
+      await interaction.editReply(`${caster.name} casts ${spell}${targetText}. Slots left: ${result.remaining}.`);
+      return;
+    }
+
+    if (sub === 'save') {
+      const ability = interaction.options.getString('ability', true);
+      const dc = interaction.options.getInteger('dc', false);
+      const targetName = interaction.options.getString('target', false);
+      const adv = interaction.options.getBoolean('adv', false);
+      const dis = interaction.options.getBoolean('dis', false);
+      let target = null;
+      if (targetName) {
+        if (!isDm) {
+          await interaction.editReply('Only the DM can pick a target.');
+          return;
+        }
+        target = findCombatantByName(targetName);
+      } else {
+        target = combat.combatants[`player_${interaction.user.id}`];
+      }
+      if (!target) {
+        await interaction.editReply('Target not found.');
+        return;
+      }
+      const result = combatEngine.rollSavingThrow(combat, target.id, ability, dc, { advantage: adv, disadvantage: dis });
+      if (result.error) {
+        await interaction.editReply(result.error);
+        return;
+      }
+      const success = Number.isFinite(dc) ? (result.success ? 'SUCCESS' : 'FAIL') : 'ROLLED';
+      await interaction.editReply(
+        `${target.name} ${ability.toUpperCase()} save: ${result.result.total} (${result.result.rolls.join(', ')}) — ${success}`
+      );
+      return;
+    }
   }
 
   if (interaction.commandName === 'campaign-setup') {
@@ -656,7 +968,34 @@ export async function handleChatInputCommand({
         .setLabel('Share to channel')
         .setStyle(ButtonStyle.Secondary)
     );
+    if (CONFIG.adminBaseUrl) {
+      const base = String(CONFIG.adminBaseUrl).replace(/\/+$/, '');
+      const portalUrl = `${base}/player.html`;
+      row.addComponents(
+        new ButtonBuilder()
+          .setLabel('Open Player Portal')
+          .setStyle(ButtonStyle.Link)
+          .setURL(portalUrl)
+      );
+    }
     await interaction.editReply({ embeds: [embed], components: [row] });
+    return;
+  }
+
+  if (interaction.commandName === 'wizard') {
+    if (!CONFIG.adminBaseUrl) {
+      await interaction.editReply('Wizard URL not configured. Set ADMIN_BASE_URL.');
+      return;
+    }
+    const base = String(CONFIG.adminBaseUrl).replace(/\/+$/, '');
+    const wizardUrl = `${base}/wizard.html`;
+    const row = new ActionRowBuilder().addComponents(
+      new ButtonBuilder()
+        .setLabel('Open Character Wizard')
+        .setStyle(ButtonStyle.Link)
+        .setURL(wizardUrl)
+    );
+    await interaction.editReply({ content: 'Open the character wizard:', components: [row] });
     return;
   }
 
@@ -686,6 +1025,7 @@ export async function handleChatInputCommand({
 
   if (interaction.commandName === 'help') {
     const helpEntries = [
+      { name: 'setup', line: '/setup [overwrite:true]' },
       { name: 'mode', line: '/mode type:<free|structured>' },
       { name: 'setchar', line: '/setchar name:<name> OR /setchar bank_id:<id>' },
       { name: 'turn', line: '/turn user:@Player' },

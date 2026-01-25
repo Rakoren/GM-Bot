@@ -18,6 +18,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createDataStore } from './src/data/store.js';
+import { createCombatEngine } from './src/combat/engine.js';
 import { commandData, COMMAND_NAMES } from './src/commands/definitions.js';
 import { handleChatInputCommand } from './src/commands/handlers.js';
 import { handleMessageCreate } from './src/commands/messageHandlers.js';
@@ -57,6 +58,7 @@ const CONFIG = {
   openaiModel: process.env.OPENAI_MODEL || 'gpt-4o-mini',
   openaiTtsModel: process.env.OPENAI_TTS_MODEL || 'gpt-4o-mini-tts',
   openaiTtsVoice: process.env.OPENAI_TTS_VOICE || 'alloy',
+  adminBaseUrl: process.env.ADMIN_BASE_URL || null,
   guildId: process.env.GUILD_ID || null,
   characterCreatorChannelId: process.env.CHARACTER_CREATOR_CHANNEL_ID || null,
   avraeChannelId: process.env.AVRAE_CHANNEL_ID || null,
@@ -134,10 +136,12 @@ const DEFAULT_FEATURE_FLAGS = {
 };
 
 const COMMAND_GROUP_BY_NAME = {
+  setup: 'setup',
   mode: 'play',
   setchar: 'play',
   turn: 'play',
   roll: 'play',
+  combat: 'play',
   lookup: 'play',
   xp: 'play',
   'campaign-setup': 'setup',
@@ -165,6 +169,13 @@ let adminConfig = {
   version: 1,
   features: { ...DEFAULT_FEATURE_FLAGS },
   commands: {},
+  channels: {
+    gameTableChannelId: null,
+    characterCreatorChannelId: null,
+    gameTableVoiceChannelId: null,
+    sessionVoiceChannelId: null,
+    avraeChannelId: null,
+  },
 };
 
 function buildDefaultAdminConfig(commandList = []) {
@@ -172,10 +183,20 @@ function buildDefaultAdminConfig(commandList = []) {
   for (const name of commandList) {
     commands[name] = { enabled: true, access: 'everyone', roles: [] };
   }
+  if (commands.setup) {
+    commands.setup.access = 'admin';
+  }
   return {
     version: 1,
     features: { ...DEFAULT_FEATURE_FLAGS },
     commands,
+    channels: {
+      gameTableChannelId: null,
+      characterCreatorChannelId: null,
+      gameTableVoiceChannelId: null,
+      sessionVoiceChannelId: null,
+      avraeChannelId: null,
+    },
     commandRegistry: {
       groups: {
         core: true,
@@ -198,6 +219,7 @@ function normalizeAdminConfig(raw, commandList = []) {
   const config = typeof raw === 'object' && raw ? raw : {};
   const features = typeof config.features === 'object' && config.features ? config.features : {};
   const commands = typeof config.commands === 'object' && config.commands ? config.commands : {};
+  const channels = typeof config.channels === 'object' && config.channels ? config.channels : {};
   const commandRegistry =
     typeof config.commandRegistry === 'object' && config.commandRegistry
       ? config.commandRegistry
@@ -233,11 +255,61 @@ function normalizeAdminConfig(raw, commandList = []) {
     };
   }
 
+  for (const [key, value] of Object.entries(base.channels)) {
+    const incoming = channels[key];
+    if (typeof incoming === 'string' && incoming.trim()) {
+      base.channels[key] = incoming.trim();
+    }
+  }
+
   if (commandPoliciesByGuild) {
     base.commandPoliciesByGuild = { ...commandPoliciesByGuild };
   }
 
   return base;
+}
+
+function applyChannelConfigFromAdmin() {
+  const channels = adminConfig?.channels || {};
+  if (!CONFIG.gameTableChannelId && channels.gameTableChannelId) {
+    CONFIG.gameTableChannelId = channels.gameTableChannelId;
+  }
+  if (!CONFIG.characterCreatorChannelId && channels.characterCreatorChannelId) {
+    CONFIG.characterCreatorChannelId = channels.characterCreatorChannelId;
+  }
+  if (!CONFIG.gameTableVoiceChannelId && channels.gameTableVoiceChannelId) {
+    CONFIG.gameTableVoiceChannelId = channels.gameTableVoiceChannelId;
+  }
+  if (!CONFIG.sessionVoiceChannelId && channels.sessionVoiceChannelId) {
+    CONFIG.sessionVoiceChannelId = channels.sessionVoiceChannelId;
+  }
+  if (!CONFIG.avraeChannelId && channels.avraeChannelId) {
+    CONFIG.avraeChannelId = channels.avraeChannelId;
+  }
+}
+
+function updateChannelConfig(nextChannels = {}) {
+  if (!adminConfig?.channels) {
+    adminConfig = { ...(adminConfig || {}), channels: { ...buildDefaultAdminConfig().channels } };
+  }
+  adminConfig.channels = { ...adminConfig.channels, ...nextChannels };
+  saveAdminConfig(adminConfig);
+  if (typeof nextChannels.gameTableChannelId === 'string' && nextChannels.gameTableChannelId) {
+    CONFIG.gameTableChannelId = nextChannels.gameTableChannelId;
+  }
+  if (typeof nextChannels.characterCreatorChannelId === 'string' && nextChannels.characterCreatorChannelId) {
+    CONFIG.characterCreatorChannelId = nextChannels.characterCreatorChannelId;
+  }
+  if (typeof nextChannels.gameTableVoiceChannelId === 'string' && nextChannels.gameTableVoiceChannelId) {
+    CONFIG.gameTableVoiceChannelId = nextChannels.gameTableVoiceChannelId;
+  }
+  if (typeof nextChannels.sessionVoiceChannelId === 'string' && nextChannels.sessionVoiceChannelId) {
+    CONFIG.sessionVoiceChannelId = nextChannels.sessionVoiceChannelId;
+  }
+  if (typeof nextChannels.avraeChannelId === 'string' && nextChannels.avraeChannelId) {
+    CONFIG.avraeChannelId = nextChannels.avraeChannelId;
+  }
+  applyChannelConfigFromAdmin();
 }
 
 function loadAdminConfig(commandList = []) {
@@ -264,8 +336,10 @@ function saveAdminConfig(config) {
 function initAdminConfig(commandList = []) {
   adminConfig = loadAdminConfig(commandList);
   saveAdminConfig(adminConfig);
+  applyChannelConfigFromAdmin();
   fs.watchFile(ADMIN_CONFIG_PATH, { interval: 1000 }, () => {
     adminConfig = loadAdminConfig(commandList);
+    applyChannelConfigFromAdmin();
     console.log('Admin config reloaded.');
   });
 }
@@ -349,6 +423,11 @@ function loadProfileStore() {
   } catch (err) {
     console.warn('Profile store load failed:', err?.message || err);
   }
+}
+
+function reloadProfileStore() {
+  profileByUserId.clear();
+  loadProfileStore();
 }
 
 function saveProfileStore() {
@@ -771,6 +850,8 @@ function saveCharacterToBank(draft, userId) {
     species: draft.species || '',
     lineage: draft.lineage || '',
     background: draft.background || '',
+    languages: draft.languages || '',
+    feat: draft.feat || '',
     trait: draft.trait || '',
     goal: draft.goal || '',
     equipment: draft.equipment || '',
@@ -784,8 +865,8 @@ function saveCharacterToBank(draft, userId) {
   };
   db.run(
     `INSERT INTO characters
-      (name, class, subclass, level, species, lineage, background, trait, goal, equipment, instruments, alignment, stats, cantrips, spells, createdBy, createdAt)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      (name, class, subclass, level, species, lineage, background, languages, feat, trait, goal, equipment, instruments, alignment, stats, cantrips, spells, createdBy, createdAt)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
     [
       payload.name,
       payload.class,
@@ -794,6 +875,8 @@ function saveCharacterToBank(draft, userId) {
       payload.species,
       payload.lineage,
       payload.background,
+      payload.languages,
+      payload.feat,
       payload.trait,
       payload.goal,
       payload.equipment,
@@ -945,15 +1028,18 @@ function formatNpcList(rows) {
 initAdminConfig(COMMAND_NAMES);
 
 async function registerGuildCommands() {
-  if (!CONFIG.guildId) {
-    console.warn('GUILD_ID not set; skipping slash command registration.');
+  const rest = new REST({ version: '10' }).setToken(CONFIG.token);
+  if (CONFIG.guildId) {
+    await rest.put(Routes.applicationGuildCommands(client.user.id, CONFIG.guildId), {
+      body: commandData,
+    });
+    console.log('Slash commands registered (guild).');
     return;
   }
-  const rest = new REST({ version: '10' }).setToken(CONFIG.token);
-  await rest.put(Routes.applicationGuildCommands(client.user.id, CONFIG.guildId), {
+  await rest.put(Routes.applicationCommands(client.user.id), {
     body: commandData,
   });
-  console.log('Slash commands registered.');
+  console.log('Slash commands registered (global). It may take a while to appear.');
 }
 
 /**
@@ -1016,10 +1102,10 @@ function getOrCreateSession(sessionId) {
   if (sessions.has(sessionId)) return sessions.get(sessionId);
 
   /** @type {SessionState} */
-  const session = {
-    sessionId,
-    mode: 'free',
-    dmSpeaking: false,
+    const session = {
+      sessionId,
+      mode: 'free',
+      dmSpeaking: false,
     dmThinking: false,
     queue: [],
     activePlayerId: null,
@@ -1045,10 +1131,11 @@ function getOrCreateSession(sessionId) {
     session0CreatorStatus: new Map(),
     session0Theme: null,
     session0PartyMode: null,
-    session0CampaignName: null,
-    session0Setting: null,
-    session0DmNotes: null,
-  };
+      session0CampaignName: null,
+      session0Setting: null,
+      session0DmNotes: null,
+      combat: null,
+    };
 
   sessions.set(sessionId, session);
   return session;
@@ -1072,13 +1159,14 @@ function getOrCreateManualLoginSet(sessionId) {
 function serializeSessions() {
   const out = [];
   for (const [sessionId, session] of sessions.entries()) {
-    out.push({
-      sessionId,
-      mode: session.mode,
-      activePlayerId: session.activePlayerId,
-      systemPrompt: session.systemPrompt,
-      history: session.history,
-      session0Active: session.session0Active,
+      out.push({
+        sessionId,
+        mode: session.mode,
+        activePlayerId: session.activePlayerId,
+        systemPrompt: session.systemPrompt,
+        history: session.history,
+        combat: session.combat || null,
+        session0Active: session.session0Active,
       session0Step: session.session0Step,
       campaignSetupActive: session.campaignSetupActive,
       campaignSetupStep: session.campaignSetupStep,
@@ -1198,6 +1286,7 @@ function applyCampaignPayload(payload) {
       session.session0CampaignName = s.session0CampaignName || null;
       session.session0Setting = s.session0Setting || null;
       session.session0DmNotes = s.session0DmNotes || null;
+      session.combat = s.combat || null;
     }
   }
 
@@ -1614,6 +1703,14 @@ function getClassNameById(classId) {
   return execToRows(result)[0]?.name || null;
 }
 
+function getClassRowById(classId) {
+  if (!classId) return null;
+  const result = db.exec(
+    `SELECT * FROM classes WHERE class_id = '${safeSqlText(classId)}' LIMIT 1`
+  );
+  return execToRows(result)[0] || null;
+}
+
 function getSubclassRowsForClassId(classId) {
   if (!classId) return [];
   const result = db.exec(
@@ -1719,6 +1816,107 @@ function formatSpeciesDetails(row) {
     row.speed ? `Speed: ${row.speed}` : '',
     row.languages ? `Languages: ${row.languages}` : '',
   ].filter(Boolean).join(' | ');
+}
+
+function formatFeatDetails(row) {
+  if (!row) return '';
+  return [
+    `Feat info: ${row.name}`,
+    row.benefit_summary ? row.benefit_summary : '',
+  ].filter(Boolean).join(' | ');
+}
+
+let languageOptionCache = null;
+
+function loadLanguageOptions() {
+  if (languageOptionCache) return languageOptionCache;
+  const readList = (fileName, column) => {
+    const filePath = path.join(DATASET_ROOT, fileName);
+    if (!fs.existsSync(filePath)) return [];
+    const text = fs.readFileSync(filePath, 'utf8');
+    const { rows } = parseCsv(text);
+    return rows.map(r => String(r[column] || '').trim()).filter(Boolean);
+  };
+
+  const standard = readList('standard_languages.csv', 'language');
+  const rare = readList('rare_languages.csv', 'language');
+  const all = [...new Set([...standard, ...rare])];
+  const lookup = new Map(all.map(name => [normalizeKey(name), name]));
+  const standardChoices = standard.filter(name => normalizeKey(name) !== 'common');
+  languageOptionCache = { standard, rare, all, lookup, standardChoices };
+  return languageOptionCache;
+}
+
+let standardLanguageRollTable = null;
+
+function loadStandardLanguageRollTable() {
+  if (standardLanguageRollTable) return standardLanguageRollTable;
+  const filePath = path.join(DATASET_ROOT, 'standard_languages.csv');
+  if (!fs.existsSync(filePath)) {
+    standardLanguageRollTable = [];
+    return standardLanguageRollTable;
+  }
+  const text = fs.readFileSync(filePath, 'utf8');
+  const { rows } = parseCsv(text);
+  standardLanguageRollTable = rows
+    .map(r => ({
+      min: Number(r.roll_min),
+      max: Number(r.roll_max),
+      language: String(r.language || '').trim(),
+    }))
+    .filter(r => Number.isFinite(r.min) && Number.isFinite(r.max) && r.language);
+  return standardLanguageRollTable;
+}
+
+function rollStandardLanguages(count = 2) {
+  const table = loadStandardLanguageRollTable();
+  const picks = [];
+  const seen = new Set();
+  let safety = 0;
+  while (picks.length < count && safety < 20) {
+    safety += 1;
+    const roll = rollDie(12);
+    const row = table.find(r => roll >= r.min && roll <= r.max);
+    if (!row) continue;
+    const key = normalizeKey(row.language);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    picks.push({ roll, language: row.language });
+  }
+  return picks;
+}
+
+function parseLanguageSource(text) {
+  if (!text) return { base: [], count: 0 };
+  const raw = String(text || '').trim();
+  if (!raw) return { base: [], count: 0 };
+  const lower = raw.toLowerCase();
+  if (lower.includes('choose') || lower.includes('any')) {
+    const wordToNumber = { one: 1, two: 2, three: 3, four: 4, five: 5 };
+    const countMatch = lower.match(/(\d+|one|two|three|four|five)/i);
+    const count = countMatch ? (Number.isFinite(Number(countMatch[1])) ? Number(countMatch[1]) : (wordToNumber[countMatch[1]] || 0)) : 0;
+    return { base: [], count };
+  }
+  return { base: parseNameList(raw), count: 0 };
+}
+
+function getLanguageRequirement(draft) {
+  const speciesRow = lookupReferenceByName('species', draft?.species);
+  const backgroundRow = lookupReferenceByName('backgrounds', draft?.background);
+  const speciesInfo = parseLanguageSource(speciesRow?.languages);
+  const backgroundInfo = parseLanguageSource(backgroundRow?.languages);
+  const base = [...new Set([...speciesInfo.base, ...backgroundInfo.base])];
+  const count = 2;
+  const options = loadLanguageOptions();
+  return { base, count, options };
+}
+
+function formatLanguageSuggestions(query, limit = 6) {
+  const { all } = loadLanguageOptions();
+  const key = normalizeKey(query);
+  if (!key) return 'No matches found.';
+  const matches = all.filter(name => normalizeKey(name).includes(key)).slice(0, limit);
+  return matches.length ? `Did you mean: ${matches.join(', ')}?` : 'No matches found.';
 }
 
 function formatSubclassDetails(row) {
@@ -1933,6 +2131,53 @@ function getSpellOptionsForClass(classId, wantCantrips, limit = 8) {
   return { options, isFallback };
 }
 
+const CREATOR_STEP_DETAILS = {
+  1: {
+    title: 'Choose a Class',
+    description:
+      'Every adventurer is a member of a class describing vocation, special talents, and favored tactics, just like the PHB says.',
+  },
+  2: {
+    title: 'Determine Origin',
+    description:
+      'Decide how your character spent the years before adventuring, who their ancestors are, and choose a background, species, and languages.',
+  },
+  3: {
+    title: 'Determine Ability Scores',
+    description:
+      'Assign the six ability scores in line with the PHB process (standard array, point buy, or rolling) so you know what your character can do.',
+  },
+  4: {
+    title: 'Choose an Alignment',
+    description:
+      'Pick the shorthand that captures your character’s moral compass.',
+  },
+  5: {
+    title: 'Fill in Details',
+    description:
+      'Use your earlier choices to finish the rest of the sheet—equipment, subclass, spells, instruments, and story beats.',
+  },
+};
+
+const FIELD_TO_CREATOR_STEP = {
+  class: 1,
+  level: 1,
+  background: 2,
+  species: 2,
+  lineage: 2,
+  languages: 2,
+  stats: 3,
+  alignment: 4,
+  equipment: 5,
+  subclass: 5,
+  cantrips: 5,
+  spells: 5,
+  instruments: 5,
+  name: 5,
+  trait: 5,
+  goal: 5,
+};
+
 function buildCreatorPrompt(field, draft) {
   const classRow = getClassRowByName(draft?.class);
   const speciesRow = lookupReferenceByName('species', draft?.species);
@@ -1948,6 +2193,9 @@ function buildCreatorPrompt(field, draft) {
     equipment: 'Starting Equipment',
     instruments: 'Musical Instruments',
     alignment: 'Alignment',
+    stats: 'Ability Scores',
+    languages: 'Languages',
+    feat: 'Background Feat',
     subclass: 'Choose Your Subclass',
     cantrips: 'Choose Cantrips',
     spells: 'Choose Spells',
@@ -2057,6 +2305,41 @@ function buildCreatorPrompt(field, draft) {
       ].join('\n');
       break;
     }
+    case 'stats': {
+      const options = ['Standard array', 'Point buy', '4d6 drop lowest'];
+      optionValues = options;
+      optionDisplay = options;
+      description = [
+        'Choose a stat method.',
+        formatOptionsLine('Options', options),
+        'Reply with: standard | point buy | 4d6',
+      ].join('\n');
+      break;
+    }
+    case 'languages': {
+      const info = getLanguageRequirement(draft);
+      const base = info.base.length ? `Base languages: ${formatNameList(info.base)}.` : 'Base languages: none listed.';
+      const countLine = `Choose exactly ${info.count} additional language${info.count === 1 ? '' : 's'}, or type "roll" to roll 2d12 ("reroll" to roll again).`;
+      const standardSample = info.options.standardChoices.slice(0, 12);
+      const rareSample = info.options.rare.slice(0, 8);
+      description = [
+        base,
+        countLine,
+        standardSample.length ? `Standard options: ${standardSample.join(', ')}${info.options.standardChoices.length > standardSample.length ? ', ...' : ''}` : '',
+        rareSample.length ? `Rare examples: ${rareSample.join(', ')}${info.options.rare.length > rareSample.length ? ', ...' : ''}` : '',
+        'Reply with a comma-separated list, or type "roll" to roll 2d12 from the standard table ("reroll" to roll again).',
+      ].filter(Boolean).join('\n');
+      break;
+    }
+    case 'feat': {
+      const backgroundRow = lookupReferenceByName('backgrounds', draft?.background);
+      const granted = backgroundRow?.feat_granted ? String(backgroundRow.feat_granted) : '';
+      description = [
+        granted ? `Background grants: ${granted}` : 'Your background grants a feat.',
+        'Reply with the feat name if you need to override it, or type "ok" to accept.',
+      ].join('\n');
+      break;
+    }
     case 'subclass': {
       const info = getSubclassRequirement(draft);
       const options = info.subclasses.map(s => s.name);
@@ -2098,7 +2381,7 @@ function buildCreatorPrompt(field, draft) {
     default: {
       const options = [
         'name', 'class', 'level', 'species', 'lineage',
-        'background', 'trait', 'goal', 'instruments',
+        'background', 'languages', 'feat', 'trait', 'goal', 'instruments',
         'equipment', 'alignment', 'subclass', 'cantrips', 'spells', 'stats',
       ];
       optionValues = options;
@@ -2108,6 +2391,13 @@ function buildCreatorPrompt(field, draft) {
         formatOptionsLine('Options', options),
       ].join('\n');
     }
+  }
+
+  const stepNumber = FIELD_TO_CREATOR_STEP[field];
+  const stepInfo = stepNumber ? CREATOR_STEP_DETAILS[stepNumber] : null;
+  if (stepInfo) {
+    const stepIntro = `Step ${stepNumber}: ${stepInfo.title}\n${stepInfo.description}`;
+    description = [stepIntro, description].filter(Boolean).join('\n\n');
   }
 
   return {
@@ -2134,6 +2424,14 @@ function parseOptionSelection(text, options) {
 }
 
 async function sendCreatorPrompt(channel, field, draft, state) {
+  if (field === 'stats') {
+    if (state) {
+      await startCreatorStatsFlow(state, channel);
+    } else {
+      await sendStatsMethodPrompt(channel);
+    }
+    return;
+  }
   const prompt = buildCreatorPrompt(field, draft);
   if (state) {
     if (!state.lastOptions) state.lastOptions = {};
@@ -2143,20 +2441,22 @@ async function sendCreatorPrompt(channel, field, draft, state) {
 }
 
 const CREATOR_FIELD_ORDER = [
-  'name',
   'class',
   'level',
-  'subclass',
+  'background',
   'species',
   'lineage',
-  'background',
-  'trait',
-  'goal',
-  'instruments',
-  'equipment',
+  'languages',
+  'stats',
   'alignment',
+  'equipment',
+  'subclass',
   'cantrips',
   'spells',
+  'instruments',
+  'name',
+  'trait',
+  'goal',
 ];
 
 function getLastFilledField(draft) {
@@ -2176,7 +2476,19 @@ function getNextMissingField(draft) {
 }
 
 function getRequiredCharacterFields(draft) {
-  const required = ['name', 'class', 'level', 'species', 'background', 'trait', 'goal', 'equipment', 'alignment'];
+  const required = [
+    'class',
+    'level',
+    'background',
+    'species',
+    'languages',
+    'stats',
+    'alignment',
+    'equipment',
+    'name',
+    'trait',
+    'goal',
+  ];
   const lineageInfo = getLineageRequirement(draft);
   if (lineageInfo.required) required.push('lineage');
   const instrumentInfo = getInstrumentRequirement(draft);
@@ -2293,6 +2605,90 @@ async function validateDraftReferences(draft, msg) {
       const details = formatBackgroundDetails(row);
       if (details) await msg.channel.send(details);
     }
+    if (!draft.feat && row.feat_granted) {
+      draft.feat = String(row.feat_granted).replace(/\(see[^)]*\)/gi, '').trim();
+    }
+    if (draft.feat && !isHelpValue(draft.feat)) {
+      const cleaned = String(draft.feat).replace(/\(see[^)]*\)/gi, '').trim();
+      const featRow = lookupReferenceByName('feats', cleaned);
+      if (featRow) {
+        draft.feat = featRow.name;
+        if (infoSent.feat !== featRow.name) {
+          infoSent.feat = featRow.name;
+          const featDetails = formatFeatDetails(featRow);
+          if (featDetails) await msg.channel.send(featDetails);
+        }
+      }
+    }
+  }
+
+  if (draft.feat && !isHelpValue(draft.feat)) {
+    const cleaned = String(draft.feat).replace(/\(see[^)]*\)/gi, '').trim();
+    const featRow = lookupReferenceByName('feats', cleaned);
+    if (!featRow) {
+      await msg.channel.send(
+        `I couldn't find that feat.\n${formatReferenceSuggestions('feats', draft.feat)}`
+      );
+      return 'feat';
+    }
+    draft.feat = featRow.name;
+    if (infoSent.feat !== featRow.name) {
+      infoSent.feat = featRow.name;
+      const featDetails = formatFeatDetails(featRow);
+      if (featDetails) await msg.channel.send(featDetails);
+    }
+  }
+
+  if (draft.languages && !isHelpValue(draft.languages)) {
+    const info = getLanguageRequirement(draft);
+    const lower = String(draft.languages).trim().toLowerCase();
+    if (!lower || lower === 'none' || lower === 'skip' || lower === 'same') {
+      draft.languages = info.base.length ? formatNameList(info.base) : 'None';
+    } else if (lower === 'roll' || lower === 'rolls' || lower === 'reroll' || lower === 're-roll' || lower.startsWith('roll ')) {
+      const rolls = rollStandardLanguages(info.count || 2);
+      if (!rolls.length) {
+        await msg.channel.send('Language roll failed; please choose from the standard list instead.');
+        return 'languages';
+      }
+      const rolledLanguages = rolls.map(r => r.language);
+      const combined = [...new Set([...(info.base || []), ...rolledLanguages])];
+      const rollLine = rolls.map(r => `${r.roll} → ${r.language}`).join(', ');
+      await msg.channel.send(`Rolled languages: ${rollLine}.`);
+      draft.languages = combined.length ? formatNameList(combined) : 'None';
+    } else if (lower === 'choose' || lower === 'list' || lower === 'pick') {
+      const prompt = buildCreatorPrompt('languages', draft);
+      await msg.channel.send({ embeds: [prompt.embed] });
+      return 'languages';
+    } else {
+      const list = parseNameList(draft.languages);
+      if (!list.length) {
+        await msg.channel.send('Please provide your language choices (comma-separated), or type "none".');
+        return 'languages';
+      }
+      const resolved = [];
+      const notFound = [];
+      for (const name of list) {
+        const match = info.options.lookup.get(normalizeKey(name));
+        if (!match) {
+          notFound.push(name);
+        } else {
+          resolved.push(match);
+        }
+      }
+      if (notFound.length) {
+        await msg.channel.send(
+          `I couldn't find language${notFound.length === 1 ? '' : 's'}: ${notFound.join(', ')}.\n` +
+          `${formatLanguageSuggestions(notFound[0])}`
+        );
+        return 'languages';
+      }
+      if (info.count && resolved.length !== info.count) {
+        await msg.channel.send(`Please choose exactly ${info.count} additional language${info.count === 1 ? '' : 's'}.`);
+        return 'languages';
+      }
+      const combined = [...new Set([...(info.base || []), ...resolved])];
+      draft.languages = combined.length ? formatNameList(combined) : 'None';
+    }
   }
 
   const classRow = draft.class ? getClassRowByName(draft.class) : null;
@@ -2406,6 +2802,8 @@ function buildProfileEmbed(user, fields, displayNameOverride) {
       { name: 'Species', value: safe(fields?.species), inline: true },
       { name: 'Lineage', value: safe(fields?.lineage), inline: true },
       { name: 'Background', value: safe(fields?.background), inline: false },
+      { name: 'Languages', value: safe(fields?.languages), inline: false },
+      { name: 'Feat', value: safe(fields?.feat), inline: false },
       { name: 'Defining trait', value: safe(fields?.trait), inline: false },
       { name: 'Personal goal', value: safe(fields?.goal), inline: false },
       { name: 'Equipment', value: safe(fields?.equipment), inline: false },
@@ -2600,9 +2998,13 @@ function parseSession0Response(content) {
     equipment: 'equipment',
     gear: 'equipment',
     'starting equipment': 'equipment',
+    language: 'languages',
+    languages: 'languages',
+    feat: 'feat',
     instrument: 'instruments',
     instruments: 'instruments',
     alignment: 'alignment',
+    stats: 'stats',
     cantrip: 'cantrips',
     cantrips: 'cantrips',
     spell: 'spells',
@@ -2683,6 +3085,8 @@ function buildSession0Summary(session) {
     if (entry.fields.species) parts.push(`Species: ${entry.fields.species}`);
     if (entry.fields.lineage) parts.push(`Lineage: ${entry.fields.lineage}`);
     if (entry.fields.background) parts.push(`Background: ${entry.fields.background}`);
+    if (entry.fields.languages) parts.push(`Languages: ${entry.fields.languages}`);
+    if (entry.fields.feat) parts.push(`Feat: ${entry.fields.feat}`);
     if (entry.fields.trait) parts.push(`Defining trait: ${entry.fields.trait}`);
     if (entry.fields.goal) parts.push(`Personal goal: ${entry.fields.goal}`);
     if (entry.fields.equipment) parts.push(`Equipment: ${entry.fields.equipment}`);
@@ -2712,6 +3116,8 @@ function buildCharacterSheetPreview(entry) {
     `Species: ${f.species || '(unknown)'}`,
     `Lineage: ${f.lineage || '(unknown)'}`,
     `Background: ${f.background || '(unknown)'}`,
+    `Languages: ${f.languages || '(unknown)'}`,
+    `Feat: ${f.feat || '(unknown)'}`,
     `Defining trait: ${f.trait || '(unknown)'}`,
     `Personal goal: ${f.goal || '(unknown)'}`,
     `Equipment: ${f.equipment || '(unknown)'}`,
@@ -2745,6 +3151,8 @@ function buildCharacterSheet(entry, label) {
     `Species: ${f.species || '(unknown)'}`,
     `Lineage: ${f.lineage || '(unknown)'}`,
     `Background: ${f.background || '(unknown)'}`,
+    `Languages: ${f.languages || '(unknown)'}`,
+    `Feat: ${f.feat || '(unknown)'}`,
     `Defining trait: ${f.trait || '(unknown)'}`,
     `Personal goal: ${f.goal || '(unknown)'}`,
     `Equipment: ${f.equipment || '(unknown)'}`,
@@ -2804,6 +3212,23 @@ function buildSession0Help(topic, draft) {
   if (t.includes('instrument')) {
     return buildInstrumentPrompt(draft || {});
   }
+  if (t.includes('language')) {
+    const options = loadLanguageOptions();
+    const standardSample = options.standard.slice(0, 10);
+    const rareSample = options.rare.slice(0, 8);
+    return [
+      'Language help: pick languages your character knows beyond any base languages.',
+      standardSample.length ? `Standard examples: ${standardSample.join(', ')}` : '',
+      rareSample.length ? `Rare examples: ${rareSample.join(', ')}` : '',
+    ].filter(Boolean).join('\n');
+  }
+  if (t.includes('feat')) {
+    const names = listReferenceNames('feats', 8);
+    return [
+      'Feat help: your background usually grants a feat. You can override it if needed.',
+      names.length ? `Examples: ${names.join(', ')}` : '',
+    ].filter(Boolean).join('\n');
+  }
   if (t.includes('cantrip') || t.includes('spell')) {
     return buildSpellPrompt(draft || {});
   }
@@ -2813,34 +3238,47 @@ function buildSession0Help(topic, draft) {
   if (t.includes('align')) {
     return 'Alignment help: pick two words like Lawful Good, Neutral Good, Chaotic Neutral, True Neutral, etc.';
   }
-  return 'Tell me which part you want help with (name, class, subclass, level, species, lineage, background, trait, goal, instruments, equipment, alignment, cantrips, spells, stats).';
+  return 'Tell me which part you want help with (name, class, subclass, level, species, lineage, background, languages, feat, trait, goal, instruments, equipment, alignment, cantrips, spells, stats).';
 }
 
 function buildCharacterCreatorPrompt() {
   return [
     'Character creator: copy/paste and fill this in (Key: value):',
-    'Name:',
     'Class:',
-    'Subclass (if applicable):',
     'Level:',
+    'Background:',
     'Species:',
     'Lineage (if applicable):',
-    'Background:',
+    'Languages (additional):',
+    'Stats (STR, DEX, CON, INT, WIS, CHA):',
+    'Alignment:',
     'Defining trait:',
     'Personal goal:',
     'Equipment:',
+    'Feat (from background, usually automatic):',
+    'Subclass (if applicable):',
     'Instruments (if applicable):',
-    'Alignment:',
+    'Name:',
     'Cantrips (if applicable):',
     'Spells (if applicable):',
   ].join('\n');
 }
 
+const CHARACTER_CREATOR_OVERVIEW = [
+  "Let's build your character step by step, just like you'd do with a DM at the table using the PHB process.",
+  "1. Choose a Class. Every adventurer is a member of a class describing a character's vocation, special talents, and favored tactics.",
+  "2. Determine Origin. Your origin includes background and species—how did you spend the years before adventure and who are your ancestors? Pick languages too.",
+  "3. Determine Ability Scores. Much of what your character does depends on the six abilities.",
+  "4. Choose an Alignment. Alignment is a shorthand for your character's moral compass.",
+  "5. Fill in Details. Use the choices you just made to finish the remaining details on the character sheet.",
+  "You can paste \"Key: value\" lines at any time.",
+].join('\\n');
+
 async function startCharacterCreator(user, channel, options = null) {
   const state = {
     step: 'collecting',
     draft: {},
-    pendingField: 'name',
+    pendingField: 'class',
     statsMethod: null,
     statsStep: null,
     statsRolls: [],
@@ -2854,12 +3292,58 @@ async function startCharacterCreator(user, channel, options = null) {
   try {
     const dm = await user.createDM();
     state.channelId = dm.id;
-    await dm.send('Let\'s build your character step by step. You can also paste "Key: value" lines at any time.');
-    await sendCreatorPrompt(dm, 'name', state.draft, state);
+    await dm.send(CHARACTER_CREATOR_OVERVIEW);
+    await sendCreatorPrompt(dm, 'class', state.draft, state);
   } catch {
     await channel.send('I could not DM you. Please enable DMs or continue here.');
-    await channel.send('Let\'s build your character step by step. You can also paste "Key: value" lines at any time.');
-    await sendCreatorPrompt(channel, 'name', state.draft, state);
+    await channel.send(CHARACTER_CREATOR_OVERVIEW);
+    await sendCreatorPrompt(channel, 'class', state.draft, state);
+  }
+}
+
+async function startCreatorStatsFlow(state, channel, options = {}) {
+  const { clearExisting = false } = options;
+  if (clearExisting) state.draft.stats = null;
+  state.step = 'stats';
+  state.pendingField = null;
+  state.statsMethod = null;
+  state.statsStep = null;
+  state.statsRolls = [];
+  await sendStatsMethodPrompt(channel);
+}
+
+async function finalizeCreatorCharacter(state, msg) {
+  const id = saveCharacterToBank(state.draft, msg.author.id);
+  creatorSessions.delete(msg.author.id);
+  await msg.channel.send(`Character saved to bank as #${id}.`);
+  await announceCharacterSaved(state.draft, id);
+  if (state.originSessionId && state.originChannelId) {
+    const session = sessions.get(state.originSessionId);
+    const channel = client.channels.cache.get(state.originChannelId);
+    if (session && channel?.isTextBased?.()) {
+      const userId = msg.author.id;
+      const displayName = msg.member?.displayName || msg.author.username;
+      const existing = session.session0Responses.find(r => r.userId === userId);
+      const entry = {
+        userId,
+        authorName: displayName,
+        fields: { ...state.draft, bank_id: id },
+        raw: '',
+      };
+      if (!existing) session.session0Responses.push(entry);
+      if (!session.session0UserIds.includes(userId)) session.session0UserIds.push(userId);
+      session.session0CreatorStatus.set(userId, { status: 'done', bankId: id });
+      setCharacter(userId, state.draft.name || msg.author.username);
+      setProfile(userId, { ...state.draft, bank_id: id });
+      await channel.send(buildCreatorStatusList(session, channel.guild));
+
+      const loggedInUserIds = getLoggedInUserIds(session.sessionId);
+      const doneCount = [...session.session0CreatorStatus.values()].filter(v => v?.status === 'done').length;
+      if (loggedInUserIds.size && doneCount >= loggedInUserIds.size) {
+        await channel.send('All logged-in players have completed character creation.');
+        await finalizeSession0(session, channel);
+      }
+    }
   }
 }
 
@@ -3001,6 +3485,10 @@ async function handleCharacterCreatorMessage(msg) {
   if (state.channelId && msg.channel.id !== state.channelId) return false;
 
   if (state.step === 'collecting') {
+    if (state.pendingField === 'stats') {
+      await startCreatorStatsFlow(state, msg.channel);
+      return true;
+    }
     if (isHelpRequest(msg.content)) {
       const topic = extractHelpTopic(msg.content);
       if (!topic) {
@@ -3025,6 +3513,10 @@ async function handleCharacterCreatorMessage(msg) {
           await msg.channel.send('Nothing to go back to yet.');
           return true;
         }
+        if (lastField === 'stats') {
+          await startCreatorStatsFlow(state, msg.channel, { clearExisting: true });
+          return true;
+        }
         state.draft[lastField] = '';
         state.pendingField = lastField;
         state.helpMode = false;
@@ -3035,6 +3527,10 @@ async function handleCharacterCreatorMessage(msg) {
 
       const editField = extractEditField(msg.content);
       if (editField) {
+        if (editField === 'stats') {
+          await startCreatorStatsFlow(state, msg.channel, { clearExisting: true });
+          return true;
+        }
         state.draft[editField] = '';
         state.pendingField = editField;
         state.helpMode = false;
@@ -3072,6 +3568,10 @@ async function handleCharacterCreatorMessage(msg) {
         return true;
       }
       if (fieldKeyword) {
+        if (fieldKeyword === 'stats') {
+          await startCreatorStatsFlow(state, msg.channel);
+          return true;
+        }
         await sendCreatorPrompt(msg.channel, fieldKeyword, state.draft, state);
         state.pendingField = fieldKeyword;
         return true;
@@ -3109,52 +3609,31 @@ async function handleCharacterCreatorMessage(msg) {
     }
     const nextMissing = getNextMissingField(state.draft);
     if (nextMissing) {
+      if (nextMissing === 'stats') {
+        await msg.channel.send(buildCharacterSheetPreview({ authorName: msg.author.username, fields: state.draft }));
+        await startCreatorStatsFlow(state, msg.channel);
+        return true;
+      }
       await sendCreatorPrompt(msg.channel, nextMissing, state.draft, state);
       state.pendingField = nextMissing;
       return true;
     }
 
-    state.step = 'stats';
-    await msg.channel.send(buildCharacterSheetPreview({ authorName: msg.author.username, fields: state.draft }));
-        await sendStatsMethodPrompt(msg.channel);
-        return true;
-      }
+    await finalizeCreatorCharacter(state, msg);
+    return true;
+  }
 
   if (state.step === 'stats') {
     await handleCreatorStatsFlow(state, msg);
     if (state.draft.stats) {
-      const id = saveCharacterToBank(state.draft, msg.author.id);
-      creatorSessions.delete(msg.author.id);
-      await msg.channel.send(`Character saved to bank as #${id}.`);
-      await announceCharacterSaved(state.draft, id);
-      if (state.originSessionId && state.originChannelId) {
-        const session = sessions.get(state.originSessionId);
-        const channel = client.channels.cache.get(state.originChannelId);
-        if (session && channel?.isTextBased?.()) {
-          const userId = msg.author.id;
-          const displayName = msg.member?.displayName || msg.author.username;
-          const existing = session.session0Responses.find(r => r.userId === userId);
-          const entry = {
-            userId,
-            authorName: displayName,
-            fields: { ...state.draft, bank_id: id },
-            raw: '',
-          };
-          if (!existing) session.session0Responses.push(entry);
-          if (!session.session0UserIds.includes(userId)) session.session0UserIds.push(userId);
-          session.session0CreatorStatus.set(userId, { status: 'done', bankId: id });
-          setCharacter(userId, state.draft.name || msg.author.username);
-          setProfile(userId, { ...state.draft, bank_id: id });
-          await channel.send(buildCreatorStatusList(session, channel.guild));
-
-          const loggedInUserIds = getLoggedInUserIds(session.sessionId);
-          const doneCount = [...session.session0CreatorStatus.values()].filter(v => v?.status === 'done').length;
-          if (loggedInUserIds.size && doneCount >= loggedInUserIds.size) {
-            await channel.send('All logged-in players have completed character creation.');
-            await finalizeSession0(session, channel);
-          }
-        }
+      state.step = 'collecting';
+      const nextMissing = getNextMissingField(state.draft);
+      if (nextMissing) {
+        await sendCreatorPrompt(msg.channel, nextMissing, state.draft, state);
+        state.pendingField = nextMissing;
+        return true;
       }
+      await finalizeCreatorCharacter(state, msg);
     }
     return true;
   }
@@ -3341,6 +3820,17 @@ function formatDiceResult(result) {
   return `Rolled ${base}${advTag}\n${rollLine}\n${totalLine}`;
 }
 
+const combatEngine = createCombatEngine({
+  datasetRoot: DATASET_ROOT,
+  parseCsv,
+  lookupReferenceByName,
+  lookupClassById: getClassRowById,
+  getClassProgressionRow,
+  parseDiceExpression,
+  rollDice,
+  formatDiceResult,
+});
+
 function standardArray() {
   return [15, 14, 13, 12, 10, 8];
 }
@@ -3478,6 +3968,8 @@ function extractHelpTopic(content) {
   if (topic.includes('goal') || topic.includes('gaol')) return 'goal';
   if (topic.includes('trait')) return 'trait';
   if (topic.includes('background')) return 'background';
+  if (topic.includes('language')) return 'languages';
+  if (topic.includes('feat')) return 'feat';
   if (topic.includes('species') || topic.includes('race')) return 'species';
   if (topic.includes('lineage') || topic.includes('subspecies') || topic.includes('heritage')) return 'lineage';
   if (topic.includes('subclass') || topic.includes('sub class')) return 'subclass';
@@ -3513,6 +4005,9 @@ function resolveFieldKeyword(text) {
     goal: 'goal',
     equipment: 'equipment',
     gear: 'equipment',
+    language: 'languages',
+    languages: 'languages',
+    feat: 'feat',
     alignment: 'alignment',
     instrument: 'instruments',
     instruments: 'instruments',
@@ -3546,6 +4041,10 @@ function isGameInSession() {
     if (session.session0Responses?.length) return true;
   }
   return false;
+}
+
+function isCampaignInSession() {
+  return isGameInSession();
 }
 
 function isSetupActive(session) {
@@ -4332,10 +4831,12 @@ client.on(Events.InteractionCreate, async (interaction) => {
         deleteNamedCampaign,
         getCharacterName,
         resolveProfileFields,
-        buildProfileEmbed,
-        saveProfileStore,
-        ttsSpeak,
+          buildProfileEmbed,
+          saveProfileStore,
+          reloadProfileStore,
+          ttsSpeak,
         openai,
+        updateChannelConfig,
         getLoginVoiceChannelId,
         getOrCreateVoiceConnection,
         getOrCreateAudioPlayer,
@@ -4344,11 +4845,12 @@ client.on(Events.InteractionCreate, async (interaction) => {
         voicePlayers,
         path,
         setMode,
-        parseDiceExpression,
-        rollDice,
-        formatDiceResult,
-        isCampaignInSession,
-      },
+          parseDiceExpression,
+          rollDice,
+          formatDiceResult,
+          isCampaignInSession,
+          combatEngine,
+        },
     });
     return;
 
@@ -4478,9 +4980,13 @@ client.once(Events.ClientReady, async () => {
   await registerGuildCommands();
 });
 
-if (!CONFIG.token || !CONFIG.gameTableChannelId) {
-  console.error('Missing DISCORD_TOKEN or GAME_TABLE_CHANNEL_ID in environment.');
+if (!CONFIG.token) {
+  console.error('Missing DISCORD_TOKEN in environment.');
   process.exit(1);
+}
+
+if (!CONFIG.gameTableChannelId) {
+  console.warn('GAME_TABLE_CHANNEL_ID is missing. Run /setup in your server to create channels and save IDs.');
 }
 
 if (!CONFIG.openaiApiKey) {

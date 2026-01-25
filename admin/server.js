@@ -16,6 +16,8 @@ const HOMEBREW_DIR = path.join(DATASET_DIR, 'homebrew_uploads');
 const ADMIN_CONFIG_PATH = process.env.ADMIN_CONFIG_PATH
   ? path.resolve(process.env.ADMIN_CONFIG_PATH)
   : path.join(ROOT_DIR, 'admin_config.json');
+const WIZARD_DATA_PATH = path.join(DATASET_DIR, 'wizard_data.json');
+const CLASSES_NORMALIZED_PATH = path.join(DATASET_DIR, 'classes_normalized.json');
 
 const ADMIN_HOST = process.env.ADMIN_HOST || '0.0.0.0';
 const ADMIN_PORT = Number(process.env.ADMIN_PORT || 3001);
@@ -24,8 +26,67 @@ const DISCORD_CLIENT_ID = process.env.DISCORD_CLIENT_ID;
 const DISCORD_CLIENT_SECRET = process.env.DISCORD_CLIENT_SECRET;
 const DISCORD_OAUTH_REDIRECT =
   process.env.DISCORD_OAUTH_REDIRECT || `${BASE_URL}/auth/discord/callback`;
+const DISCORD_OAUTH_REDIRECT_PLAYER =
+  process.env.DISCORD_OAUTH_REDIRECT_PLAYER || `${BASE_URL}/auth/discord/player/callback`;
 const ADMIN_GUILD_ID = process.env.ADMIN_GUILD_ID || process.env.GUILD_ID;
 const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN || process.env.DISCORD_TOKEN;
+const ADMIN_PERMISSION = 0x8n;
+const MANAGE_GUILD_PERMISSION = 0x20n;
+const PLAYER_ROLE_NAME = (process.env.PLAYER_ROLE_NAME || 'player').toLowerCase();
+const ONLINE_PLAYER_TTL_MS = 2 * 60 * 1000;
+const onlinePlayers = new Map();
+
+function canManageGuild(guild) {
+  if (!guild) return false;
+  if (guild.owner) return true;
+  try {
+    const permissions = BigInt(guild.permissions || 0);
+    return (permissions & ADMIN_PERMISSION) === ADMIN_PERMISSION
+      || (permissions & MANAGE_GUILD_PERMISSION) === MANAGE_GUILD_PERMISSION;
+  } catch {
+    return false;
+  }
+}
+
+function ensureJson(filePath, fallback) {
+  try {
+    if (!fs.existsSync(filePath)) return fallback;
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch (err) {
+    console.warn(`Failed to read ${path.basename(filePath)}:`, err?.message || err);
+    return fallback;
+  }
+}
+
+function loadProfiles() {
+  const profilePath = path.join(ROOT_DIR, 'profiles.json');
+  return ensureJson(profilePath, {});
+}
+
+function saveProfiles(profiles) {
+  const profilePath = path.join(ROOT_DIR, 'profiles.json');
+  fs.writeFileSync(profilePath, JSON.stringify(profiles || {}, null, 2), 'utf8');
+}
+
+function loadCharacterBank() {
+  const bankPath = path.join(ROOT_DIR, 'characters.json');
+  return ensureJson(bankPath, {});
+}
+
+function saveCharacterBank(bank) {
+  const bankPath = path.join(ROOT_DIR, 'characters.json');
+  fs.writeFileSync(bankPath, JSON.stringify(bank || {}, null, 2), 'utf8');
+}
+
+function loadTrades() {
+  const tradesPath = path.join(ROOT_DIR, 'trades.json');
+  return ensureJson(tradesPath, []);
+}
+
+function saveTrades(trades) {
+  const tradesPath = path.join(ROOT_DIR, 'trades.json');
+  fs.writeFileSync(tradesPath, JSON.stringify(trades || [], null, 2), 'utf8');
+}
 
 const COMMAND_MANIFEST = [
   { name: 'mode', description: 'Set DM mode' },
@@ -55,6 +116,7 @@ const COMMAND_MANIFEST = [
   { name: 'profile', description: 'Show your character profile card' },
   { name: 'profile-clear', description: 'Clear your saved character profile' },
   { name: 'xp', description: 'Set your XP (testing only)' },
+  { name: 'wizard', description: 'Open the web character creation wizard' },
 ];
 
 const DEFAULT_FEATURE_FLAGS = {
@@ -171,6 +233,13 @@ function normalizeLine(value) {
   return String(value || '').trim();
 }
 
+function normalizeName(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '')
+    .trim();
+}
+
 function stripLabel(value) {
   return normalizeLine(value).replace(/:\s*$/, '').toLowerCase();
 }
@@ -224,6 +293,141 @@ function csvEscape(value) {
     return `"${text.replace(/"/g, '""')}"`;
   }
   return text;
+}
+
+function cleanCsvCell(value) {
+  return String(value ?? '').trim();
+}
+
+function loadCsvRows(filePath) {
+  if (!fs.existsSync(filePath)) return { headers: [], rows: [] };
+  const content = fs.readFileSync(filePath, 'utf8');
+  const lines = content.split(/\r?\n/).filter(line => line.trim().length);
+  if (!lines.length) return { headers: [], rows: [] };
+  const headers = parseCsvLine(lines[0]).map(cleanCsvCell);
+  const rows = [];
+  for (const line of lines.slice(1)) {
+    const cols = parseCsvLine(line);
+    const row = {};
+    headers.forEach((header, idx) => {
+      if (!header) return;
+      row[header] = cleanCsvCell(cols[idx]);
+    });
+    rows.push(row);
+  }
+  return { headers, rows };
+}
+
+function buildClassIdLookup() {
+  const rows = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
+  const map = new Map();
+  for (const row of rows) {
+    const nameKey = normalizeName(row.name);
+    const classId = String(row.class_id || '').trim();
+    if (nameKey && classId) {
+      map.set(nameKey, classId);
+    }
+  }
+  return map;
+}
+
+let wizardDataCache = null;
+let wizardDataMTime = 0;
+
+function loadWizardDataArtifact() {
+  if (!fs.existsSync(WIZARD_DATA_PATH)) return null;
+  try {
+    const stats = fs.statSync(WIZARD_DATA_PATH);
+    const mtime = stats.mtimeMs;
+    if (wizardDataCache && wizardDataMTime === mtime) {
+      return wizardDataCache;
+    }
+    const content = fs.readFileSync(WIZARD_DATA_PATH, 'utf8');
+    wizardDataCache = JSON.parse(content);
+    wizardDataMTime = mtime;
+    return wizardDataCache;
+  } catch (err) {
+    console.warn('Failed to load wizard_data.json:', err?.message || err);
+    wizardDataCache = null;
+    wizardDataMTime = 0;
+    return null;
+  }
+}
+
+function loadNameSet(filePath, column = 'name') {
+  const { rows } = loadCsvRows(filePath);
+  const set = new Set();
+  for (const row of rows) {
+    const name = normalizeName(row[column]);
+    if (name) set.add(name);
+  }
+  return set;
+}
+
+function loadNormalizedClasses() {
+  if (!fs.existsSync(CLASSES_NORMALIZED_PATH)) return [];
+  try {
+    const content = fs.readFileSync(CLASSES_NORMALIZED_PATH, 'utf8');
+    return JSON.parse(content);
+  } catch (err) {
+    console.warn('Failed to load normalized classes:', err?.message || err);
+    return [];
+  }
+}
+
+function parseLanguageSource(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return { base: [], count: 0 };
+  const lower = raw.toLowerCase();
+  if (lower.includes('choose') || lower.includes('any')) {
+    return { base: [], count: 2 };
+  }
+  const base = raw
+    .split(/[,&/]/g)
+    .map(part => part.trim())
+    .filter(Boolean);
+  return { base, count: 0 };
+}
+
+const EQUIPMENT_OPTIONS_BY_CLASS = {
+  barbarian: ['Greataxe + explorer\'s pack', 'Two handaxes + explorer\'s pack'],
+  bard: ['Rapier + diplomat\'s pack + lute', 'Longsword + entertainer\'s pack + flute'],
+  cleric: ['Mace + scale mail + shield + priest\'s pack', 'Warhammer + chain mail + shield + priest\'s pack'],
+  druid: ['Wooden shield + scimitar + explorer\'s pack', 'Quarterstaff + explorer\'s pack'],
+  fighter: ['Chain mail + martial weapon + shield + explorer\'s pack', 'Leather + longbow + 20 arrows + dungeoneer\'s pack'],
+  monk: ['Shortsword + dungeoneer\'s pack', 'Simple weapon + explorer\'s pack'],
+  paladin: ['Martial weapon + shield + priest\'s pack', 'Two martial weapons + explorer\'s pack'],
+  ranger: ['Scale mail + two shortswords + dungeoneer\'s pack', 'Leather + two simple weapons + explorer\'s pack'],
+  rogue: ['Rapier + shortbow + 20 arrows + burglar\'s pack', 'Shortsword + shortbow + 20 arrows + burglar\'s pack'],
+  sorcerer: ['Light crossbow + 20 bolts + dungeoneer\'s pack', 'Simple weapon + explorer\'s pack'],
+  warlock: ['Light crossbow + 20 bolts + scholar\'s pack', 'Simple weapon + dungeoneer\'s pack'],
+  wizard: ['Quarterstaff + scholar\'s pack', 'Dagger + scholar\'s pack'],
+};
+
+function rollStandardLanguages() {
+  const artifact = loadWizardDataArtifact();
+  const table =
+    (artifact?.standardLanguages || [])
+      .map(r => ({
+        min: Number(r.roll_min),
+        max: Number(r.roll_max),
+        language: String(r.language || '').trim(),
+      }))
+      .filter(r => Number.isFinite(r.min) && Number.isFinite(r.max) && r.language);
+  const picks = [];
+  const seen = new Set();
+  let safety = 0;
+  while (picks.length < 2 && safety < 20) {
+    safety += 1;
+    const roll = Math.floor(Math.random() * 12) + 1;
+    const row = table.find(r => roll >= r.min && roll <= r.max);
+    if (!row) continue;
+    const key = row.language.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    picks.push({ roll, language: row.language });
+  }
+  return picks;
 }
 
 function loadCsvIndex(csvPath, idColumn) {
@@ -684,13 +888,13 @@ function detectType(text) {
   return '';
 }
 
-async function exchangeCodeForToken(code) {
+async function exchangeCodeForToken(code, redirectOverride = null) {
   const body = new URLSearchParams({
     client_id: DISCORD_CLIENT_ID || '',
     client_secret: DISCORD_CLIENT_SECRET || '',
     grant_type: 'authorization_code',
     code,
-    redirect_uri: DISCORD_OAUTH_REDIRECT,
+    redirect_uri: redirectOverride || DISCORD_OAUTH_REDIRECT,
   });
   const response = await fetch('https://discord.com/api/oauth2/token', {
     method: 'POST',
@@ -733,6 +937,24 @@ app.use(
 );
 app.use(express.json({ limit: '2mb' }));
 app.use(express.urlencoded({ extended: true }));
+
+const ADMIN_PAGES = new Set([
+  '/admin.html',
+  '/features.html',
+  '/commands.html',
+  '/datasets.html',
+  '/homebrew.html',
+  '/paste.html',
+]);
+
+app.use((req, res, next) => {
+  if (ADMIN_PAGES.has(req.path) && !req.session?.user?.authorized) {
+    res.redirect('/');
+    return;
+  }
+  next();
+});
+
 app.use(express.static(PUBLIC_DIR));
 
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 15 * 1024 * 1024 } });
@@ -745,12 +967,106 @@ function requireAuth(req, res, next) {
   next();
 }
 
+function requirePlayerAuth(req, res, next) {
+  ensurePlayerSessionFromAdmin(req);
+  if (!req.session?.player?.authorized) {
+    res.status(401).json({ error: 'unauthorized' });
+    return;
+  }
+  next();
+}
+
+function cleanupOnlinePlayers() {
+  const cutoff = Date.now() - ONLINE_PLAYER_TTL_MS;
+  for (const [id, data] of onlinePlayers.entries()) {
+    if (data.lastSeen < cutoff) onlinePlayers.delete(id);
+  }
+}
+
+function ensurePlayerSessionFromAdmin(req) {
+  if (req.session?.player?.authorized) return;
+  if (!req.session?.user?.authorized) return;
+  const user = req.session.user;
+  req.session.player = {
+    authorized: true,
+    id: user.id,
+    username: user.username,
+    discriminator: user.discriminator,
+    avatar: user.avatar,
+    guildId: user.guildId || null,
+    guilds: Array.isArray(user.guilds) ? user.guilds : [],
+  };
+}
+
+function getSelectedGuildId(req) {
+  return req.session?.user?.guildId || ADMIN_GUILD_ID || null;
+}
+
+function getSelectedPlayerGuildId(req) {
+  return req.session?.player?.guildId || null;
+}
+
+async function assertPlayerRole(req, res) {
+  ensurePlayerSessionFromAdmin(req);
+  const guildId = getSelectedPlayerGuildId(req);
+  if (!guildId) {
+    res.status(400).json({ error: 'guild-id-missing' });
+    return null;
+  }
+  if (!DISCORD_BOT_TOKEN) {
+    res.status(500).json({ error: 'bot-token-missing' });
+    return null;
+  }
+  const roles = await fetchDiscordJson(
+    `https://discord.com/api/guilds/${guildId}/roles`,
+    DISCORD_BOT_TOKEN,
+    'Bot'
+  );
+  const roleList = Array.isArray(roles) ? roles : [];
+  const playerRole = roleList.find(role => role?.name?.toLowerCase() === PLAYER_ROLE_NAME);
+  if (!playerRole) {
+    res.status(403).json({ error: 'player-role-missing' });
+    return null;
+  }
+  const member = await fetchDiscordJson(
+    `https://discord.com/api/guilds/${guildId}/members/${req.session.player.id}`,
+    DISCORD_BOT_TOKEN,
+    'Bot'
+  );
+  const memberRoles = Array.isArray(member?.roles) ? member.roles : [];
+  if (!memberRoles.includes(playerRole.id)) {
+    res.status(403).json({ error: 'not-player' });
+    return null;
+  }
+  return { guildId };
+}
+
 app.get('/api/me', (req, res) => {
   if (!req.session?.user?.authorized) {
     res.json({ authenticated: false });
     return;
   }
   res.json({ authenticated: true, user: req.session.user });
+});
+
+app.get('/api/guilds', requireAuth, (req, res) => {
+  const guilds = Array.isArray(req.session?.user?.guilds) ? req.session.user.guilds : [];
+  res.json({
+    guilds,
+    selectedGuildId: req.session?.user?.guildId || null,
+  });
+});
+
+app.post('/api/select-guild', requireAuth, (req, res) => {
+  const guildId = String(req.body.guildId || '').trim();
+  const guilds = Array.isArray(req.session?.user?.guilds) ? req.session.user.guilds : [];
+  const match = guilds.find(guild => guild.id === guildId);
+  if (!match) {
+    res.status(400).json({ error: 'guild-not-found' });
+    return;
+  }
+  req.session.user.guildId = match.id;
+  res.json({ ok: true, guildId: match.id });
 });
 
 app.get('/api/command-manifest', requireAuth, (req, res) => {
@@ -883,7 +1199,8 @@ app.post('/api/paste-import', requireAuth, (req, res) => {
 });
 
 app.get('/api/roles', requireAuth, async (req, res) => {
-  if (!ADMIN_GUILD_ID) {
+  const guildId = getSelectedGuildId(req);
+  if (!guildId) {
     res.status(500).json({ error: 'guild-id-missing' });
     return;
   }
@@ -893,13 +1210,13 @@ app.get('/api/roles', requireAuth, async (req, res) => {
   }
   try {
     const roles = await fetchDiscordJson(
-      `https://discord.com/api/guilds/${ADMIN_GUILD_ID}/roles`,
+      `https://discord.com/api/guilds/${guildId}/roles`,
       DISCORD_BOT_TOKEN,
       'Bot'
     );
     const cleaned = Array.isArray(roles)
       ? roles
-          .filter(role => role && role.id !== ADMIN_GUILD_ID)
+          .filter(role => role && role.id !== guildId)
           .map(role => ({
             id: role.id,
             name: role.name,
@@ -956,7 +1273,7 @@ app.post('/api/uploads/homebrew', requireAuth, upload.single('file'), (req, res)
 });
 
 app.get('/auth/discord', (req, res) => {
-  if (!DISCORD_CLIENT_ID || !DISCORD_CLIENT_SECRET || !ADMIN_GUILD_ID) {
+  if (!DISCORD_CLIENT_ID || !DISCORD_CLIENT_SECRET) {
     res.status(500).send('Discord OAuth is not configured.');
     return;
   }
@@ -972,6 +1289,10 @@ app.get('/auth/discord', (req, res) => {
   res.redirect(`https://discord.com/api/oauth2/authorize?${params.toString()}`);
 });
 
+app.get('/auth/discord/player', (req, res) => {
+  res.redirect('/auth/discord');
+});
+
 app.get('/auth/discord/callback', async (req, res) => {
   try {
     const code = String(req.query.code || '');
@@ -983,23 +1304,879 @@ app.get('/auth/discord/callback', async (req, res) => {
     const token = await exchangeCodeForToken(code);
     const user = await fetchDiscordJson('https://discord.com/api/users/@me', token.access_token);
     const guilds = await fetchDiscordJson('https://discord.com/api/users/@me/guilds', token.access_token);
-    const guild = Array.isArray(guilds) ? guilds.find(g => g.id === ADMIN_GUILD_ID) : null;
-    if (!guild || !guild.owner) {
-      res.status(403).send('You must be the guild owner to access this page.');
-      return;
+    const manageableGuilds = Array.isArray(guilds)
+      ? guilds.filter(canManageGuild).map(guild => ({
+          id: guild.id,
+          name: guild.name,
+          icon: guild.icon,
+          owner: guild.owner,
+          permissions: guild.permissions,
+        }))
+      : [];
+    const visibleGuilds = Array.isArray(guilds)
+      ? guilds.map(guild => ({
+          id: guild.id,
+          name: guild.name,
+          icon: guild.icon,
+          owner: guild.owner,
+          permissions: guild.permissions,
+        }))
+      : [];
+    const preferredGuild = ADMIN_GUILD_ID
+      ? manageableGuilds.find(guild => guild.id === ADMIN_GUILD_ID)
+      : null;
+    if (manageableGuilds.length) {
+      req.session.user = {
+        authorized: true,
+        id: user.id,
+        username: user.username,
+        discriminator: user.discriminator,
+        avatar: user.avatar,
+        guildId: preferredGuild ? preferredGuild.id : null,
+        guilds: manageableGuilds,
+      };
     }
-    req.session.user = {
+    req.session.player = {
       authorized: true,
       id: user.id,
       username: user.username,
       discriminator: user.discriminator,
       avatar: user.avatar,
-      guildId: ADMIN_GUILD_ID,
+      guildId: preferredGuild ? preferredGuild.id : null,
+      guilds: visibleGuilds,
     };
-    res.redirect('/');
+    res.redirect(manageableGuilds.length ? '/' : '/player.html');
   } catch (err) {
     console.error('OAuth error:', err);
     res.status(500).send('OAuth failed.');
+  }
+});
+
+app.get('/auth/discord/player/callback', async (req, res) => {
+  try {
+    const code = String(req.query.code || '');
+    const state = String(req.query.state || '');
+    if (!code || !state || state !== req.session.playerState) {
+      res.status(400).send('Invalid OAuth state.');
+      return;
+    }
+    const token = await exchangeCodeForToken(code, DISCORD_OAUTH_REDIRECT_PLAYER);
+    const user = await fetchDiscordJson('https://discord.com/api/users/@me', token.access_token);
+    const guilds = await fetchDiscordJson('https://discord.com/api/users/@me/guilds', token.access_token);
+    const visibleGuilds = Array.isArray(guilds)
+      ? guilds.map(guild => ({
+          id: guild.id,
+          name: guild.name,
+          icon: guild.icon,
+          owner: guild.owner,
+          permissions: guild.permissions,
+        }))
+      : [];
+    req.session.player = {
+      authorized: true,
+      id: user.id,
+      username: user.username,
+      discriminator: user.discriminator,
+      avatar: user.avatar,
+      guildId: null,
+      guilds: visibleGuilds,
+    };
+    res.redirect('/player.html');
+  } catch (err) {
+    console.error('Player OAuth error:', err);
+    res.status(500).send('OAuth failed.');
+  }
+});
+
+app.get('/api/player/me', (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  if (!req.session?.player?.authorized) {
+    res.json({ authenticated: false });
+    return;
+  }
+  res.json({ authenticated: true, user: req.session.player });
+});
+
+app.get('/api/player/guilds', requirePlayerAuth, (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  const guilds = Array.isArray(req.session?.player?.guilds) ? req.session.player.guilds : [];
+  res.json({
+    guilds,
+    selectedGuildId: req.session?.player?.guildId || null,
+  });
+});
+
+app.post('/api/player/select-guild', requirePlayerAuth, (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  const guildId = String(req.body.guildId || '').trim();
+  const guilds = Array.isArray(req.session?.player?.guilds) ? req.session.player.guilds : [];
+  const match = guilds.find(guild => guild.id === guildId);
+  if (!match) {
+    res.status(400).json({ error: 'guild-not-found' });
+    return;
+  }
+  req.session.player.guildId = match.id;
+  res.json({ ok: true, guildId: match.id });
+});
+
+app.get('/api/player/profile', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const profiles = loadProfiles();
+    const profile = profiles?.[req.session.player.id] || null;
+    res.json({ profile });
+  } catch (err) {
+    console.error('Player profile fetch failed:', err);
+    res.status(500).json({ error: 'player-profile-failed' });
+  }
+});
+
+app.get('/api/player/characters/list', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const bank = loadCharacterBank();
+    const entries = bank?.[req.session.player.id] || {};
+    const list = Object.values(entries)
+      .filter(entry => entry && entry.name)
+      .map(entry => ({
+        id: entry.id,
+        name: entry.name,
+        updatedAt: entry.updatedAt,
+      }))
+      .sort((a, b) => String(a.name).localeCompare(String(b.name)));
+    res.json({ characters: list });
+  } catch (err) {
+    console.error('Character list failed:', err);
+    res.status(500).json({ error: 'character-list-failed' });
+  }
+});
+
+app.post('/api/player/characters/save-as', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const body = typeof req.body === 'object' && req.body ? req.body : {};
+    const name = String(body.name || '').trim();
+    if (!name) {
+      res.status(400).json({ error: 'name-required' });
+      return;
+    }
+    const payload = body.payload && typeof body.payload === 'object' ? body.payload : {};
+    const bank = loadCharacterBank();
+    const playerId = req.session.player.id;
+    const entries = bank[playerId] || {};
+    const key = normalizeName(name);
+    const existing = entries[key];
+    const id = existing?.id || crypto.randomUUID();
+    entries[key] = {
+      id,
+      name,
+      payload,
+      updatedAt: new Date().toISOString(),
+    };
+    bank[playerId] = entries;
+    saveCharacterBank(bank);
+    res.json({ ok: true, id });
+  } catch (err) {
+    console.error('Character save-as failed:', err);
+    res.status(500).json({ error: 'character-save-failed' });
+  }
+});
+
+app.post('/api/player/characters/load', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const body = typeof req.body === 'object' && req.body ? req.body : {};
+    const id = String(body.id || '').trim();
+    const name = String(body.name || '').trim();
+    const bank = loadCharacterBank();
+    const entries = bank?.[req.session.player.id] || {};
+    let match = null;
+    if (id) {
+      match = Object.values(entries).find(entry => entry?.id === id) || null;
+    }
+    if (!match && name) {
+      const key = normalizeName(name);
+      match = entries[key] || null;
+    }
+    if (!match) {
+      res.status(404).json({ error: 'character-not-found' });
+      return;
+    }
+    res.json({ character: match.payload || null, name: match.name, id: match.id });
+  } catch (err) {
+    console.error('Character load failed:', err);
+    res.status(500).json({ error: 'character-load-failed' });
+  }
+});
+
+app.get('/api/player/wizard-data', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const artifact = loadWizardDataArtifact();
+    if (artifact) {
+      const equipmentOptions = {};
+      if (Array.isArray(artifact.normalizedClasses)) {
+        artifact.normalizedClasses.forEach(entry => {
+          const nameKey = normalizeName(entry?.name);
+          if (!nameKey) return;
+          const options = Array.isArray(entry.equipment_options) ? entry.equipment_options : [];
+          if (options.length) equipmentOptions[nameKey] = options;
+        });
+      }
+      res.json({
+        classes: artifact.classes || [],
+        backgrounds: artifact.backgrounds || [],
+        species: artifact.species || [],
+        lineages: artifact.lineages || [],
+        subclasses: artifact.subclasses || [],
+        equipmentOptions: Object.keys(equipmentOptions).length ? equipmentOptions : EQUIPMENT_OPTIONS_BY_CLASS,
+        standardArrayByClass: artifact.standardArrayByClass || {},
+        standardArrayByClassNormalized: artifact.standardArrayByClassNormalized || {},
+        standardArrayByClassId: artifact.standardArrayByClassId || {},
+        pointBuyCosts: artifact.pointBuyCosts || {},
+        adventuringGear: artifact.adventuringGear || [],
+        trinkets: artifact.trinkets || [],
+        adventuringPacks: artifact.adventuringPacks || {},
+        creatures: artifact.creatures || [],
+        normalizedClasses: artifact.normalizedClasses || [],
+        armor: artifact.shopInventory?.armor || [],
+        weapons: artifact.shopInventory?.weapons || [],
+        abilityModifiers: artifact.abilityModifiers || [],
+        abilityScoreRanges: artifact.abilityScoreRanges || [],
+        startingEquipmentHigherLevels: artifact.startingEquipmentHigherLevels || [],
+        classProgression: artifact.classProgression || [],
+        featureChoices: artifact.featureChoices || [],
+        classIdByName: artifact.classIdByName || {},
+        standardLanguages: artifact.standardLanguages || [],
+        rareLanguages: artifact.rareLanguages || [],
+      });
+      return;
+    }
+    const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows.map(row => ({
+      class_id: row.class_id,
+      name: row.name,
+      primary_ability: row.primary_ability,
+      saving_throws: row.saving_throws,
+      starting_equipment_notes: row.starting_equipment_notes,
+    }));
+    const backgrounds = loadCsvRows(path.join(DATASET_DIR, 'backgrounds.csv')).rows.map(row => ({
+      name: row.name,
+      feat_granted: row.feat_granted,
+      languages: row.languages,
+      language_info: parseLanguageSource(row.languages),
+    }));
+    const species = loadCsvRows(path.join(DATASET_DIR, 'species.csv')).rows.map(row => ({
+      name: row.name,
+      species_id: row.species_id,
+      languages: row.languages,
+      language_info: parseLanguageSource(row.languages),
+    }));
+    const lineages = loadCsvRows(path.join(DATASET_DIR, 'species_lineages.csv')).rows.map(row => ({
+      name: row.name,
+      species_id: row.species_id,
+    }));
+    const subclasses = loadCsvRows(path.join(DATASET_DIR, 'subclasses.csv')).rows.map(row => ({
+      name: row.name,
+      class_id: row.class_id,
+    }));
+    const standardArrayRows = loadCsvRows(path.join(DATASET_DIR, 'standard_array_by_class.csv')).rows;
+    const pointBuyRows = loadCsvRows(path.join(DATASET_DIR, 'ability_score_point_costs.csv')).rows;
+    const classMap = new Map(classes.map(row => [row.class_id || row.name, row.name]));
+    const subclassesWithClass = subclasses.map(row => ({
+      ...row,
+      class_name: classMap.get(row.class_id) || '',
+    }));
+    const standardArrayByClass = standardArrayRows.reduce((acc, row) => {
+      const name = row.class_name || row.class;
+      if (!name) return acc;
+      acc[name] = {
+        str: row.str,
+        dex: row.dex,
+        con: row.con,
+        int: row.int,
+        wis: row.wis,
+        cha: row.cha,
+      };
+      return acc;
+    }, {});
+    const standardArrayByClassNormalized = Object.entries(standardArrayByClass).reduce((acc, [name, values]) => {
+      acc[normalizeName(name)] = values;
+      return acc;
+    }, {});
+    const classIdByName = new Map(classes.map(row => [normalizeName(row.name), row.class_id]));
+    const standardArrayByClassId = Object.entries(standardArrayByClass).reduce((acc, [name, values]) => {
+      const classId = classIdByName.get(normalizeName(name));
+      if (!classId) return acc;
+      acc[classId] = values;
+      return acc;
+    }, {});
+    const pointBuyCosts = pointBuyRows.reduce((acc, row) => {
+      if (!row.score) return acc;
+      acc[String(row.score)] = Number(row.cost) || 0;
+      return acc;
+    }, {});
+
+    const adventuringGear = loadCsvRows(path.join(DATASET_DIR, 'adventuring_gear.csv')).rows.map(row => ({
+      name: row.name,
+      weight: row.weight,
+      cost: row.cost,
+    }));
+    const trinkets = loadCsvRows(path.join(DATASET_DIR, 'trinkets.csv')).rows
+      .map(row => row.trinket)
+      .filter(Boolean);
+    const normalizedClasses = loadNormalizedClasses();
+    const armor = loadCsvRows(path.join(DATASET_DIR, 'armor.csv')).rows.map(row => ({
+      name: row.name,
+      ac: row.ac,
+      strength: row.strength,
+      stealth: row.stealth,
+      weight: row.weight,
+      cost: row.cost,
+      category: row.category,
+    }));
+    res.json({
+      classes,
+      backgrounds,
+      species,
+      lineages,
+      subclasses: subclassesWithClass,
+      equipmentOptions: EQUIPMENT_OPTIONS_BY_CLASS,
+      standardArrayByClass,
+      standardArrayByClassNormalized,
+      standardArrayByClassId,
+      pointBuyCosts,
+      adventuringGear,
+      trinkets,
+      adventuringPacks: (() => {
+        const rows = loadCsvRows(path.join(DATASET_DIR, 'adventuring_packs.csv')).rows;
+        const packs = {};
+        rows.forEach(row => {
+          const name = String(row.name || '').trim();
+          if (!name) return;
+          const items = [];
+          for (let i = 1; i <= 14; i += 1) {
+            const key = `item_${i}`;
+            const raw = String(row[key] || '').trim();
+            if (!raw) continue;
+            const match = raw.match(/^(\\d+)\\s+(.*)$/);
+            const qty = match ? Number(match[1]) : 1;
+            const itemName = (match ? match[2] : raw).replace(/\\.$/, '').trim();
+            if (itemName) items.push({ name: itemName, qty });
+          }
+          packs[normalizeName(name)] = {
+            name,
+            items,
+          };
+        });
+        return packs;
+      })(),
+      normalizedClasses,
+      armor,
+      weapons: loadCsvRows(path.join(DATASET_DIR, 'weapons.csv')).rows.map(row => ({
+        name: row.name,
+        category: row.category,
+        damage: row.damage,
+        properties_1: row.properties_1,
+        properties_2: row.properties_2,
+        properties_3: row.properties_3,
+        properties_4: row.properties_4,
+      })),
+      abilityModifiers: loadCsvRows(path.join(DATASET_DIR, 'ability_modifiers.csv')).rows,
+      abilityScoreRanges: loadCsvRows(path.join(DATASET_DIR, 'ability_score_ranges.csv')).rows,
+      startingEquipmentHigherLevels: loadCsvRows(path.join(DATASET_DIR, 'starting_equipment_higher_levels.csv')).rows,
+      classProgression: loadCsvRows(path.join(DATASET_DIR, 'class_progression.csv')).rows,
+      classIdByName: (() => {
+        const rows = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
+        const lookup = {};
+        for (const row of rows) {
+          const name = normalizeName(row.name);
+          if (name && row.class_id) lookup[name] = row.class_id;
+        }
+        return lookup;
+      })(),
+      creatures: loadCsvRows(path.join(DATASET_DIR, 'creature_stat_blocks.csv')).rows,
+      standardLanguages: loadCsvRows(path.join(DATASET_DIR, 'standard_languages.csv')).rows,
+      rareLanguages: loadCsvRows(path.join(DATASET_DIR, 'rare_languages.csv')).rows,
+    });
+  } catch (err) {
+    console.error('Wizard data failed:', err);
+    res.status(500).json({ error: 'wizard-data-failed' });
+  }
+});
+
+app.post('/api/player/wizard/roll-languages', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const picks = rollStandardLanguages();
+    res.json({ picks });
+  } catch (err) {
+    console.error('Wizard roll languages failed:', err);
+    res.status(500).json({ error: 'wizard-roll-failed' });
+  }
+});
+
+app.post('/api/player/wizard/save', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const body = typeof req.body === 'object' && req.body ? req.body : {};
+    const profiles = loadProfiles();
+    const existing = profiles?.[req.session.player.id] || {};
+    const payload = {
+      name: String(body.name || existing.name || '').trim(),
+      class: String(body.class || existing.class || '').trim(),
+      level: String(body.level || existing.level || '').trim(),
+      background: String(body.background || existing.background || '').trim(),
+      species: String(body.species || existing.species || '').trim(),
+      lineage: String(body.lineage || existing.lineage || '').trim(),
+      feat: String(body.feat || existing.feat || '').trim(),
+      languages: String(body.languages || existing.languages || '').trim(),
+      stats: String(body.stats || existing.stats || '').trim(),
+      alignment: String(body.alignment || existing.alignment || '').trim(),
+      trait: String(body.trait || existing.trait || '').trim(),
+      goal: String(body.goal || existing.goal || '').trim(),
+      notes: String(body.notes || existing.notes || '').trim(),
+      background_notes: String(body.background_notes || existing.background_notes || '').trim(),
+      personality_notes: String(body.personality_notes || existing.personality_notes || '').trim(),
+      class_skill_choices: String(body.class_skill_choices || existing.class_skill_choices || '').trim(),
+      equipment: String(body.equipment || existing.equipment || '').trim(),
+      instruments: String(body.instruments || existing.instruments || '').trim(),
+      subclass: String(body.subclass || existing.subclass || '').trim(),
+      cantrips: String(body.cantrips || existing.cantrips || '').trim(),
+      spells: String(body.spells || existing.spells || '').trim(),
+      currency: String(body.currency || existing.currency || '').trim(),
+      feature_choices: String(body.feature_choices || existing.feature_choices || '').trim(),
+      wild_shape_forms: String(body.wild_shape_forms || existing.wild_shape_forms || '').trim(),
+      wild_shape_spent: String(body.wild_shape_spent || existing.wild_shape_spent || '').trim(),
+      wild_companion_active: String(body.wild_companion_active || existing.wild_companion_active || '').trim(),
+      wild_companion_source: String(body.wild_companion_source || existing.wild_companion_source || '').trim(),
+        spell_slot_expended: String(body.spell_slot_expended || existing.spell_slot_expended || '').trim(),
+        manual_inventory: String(body.manual_inventory || existing.manual_inventory || '').trim(),
+        inventory_items: String(body.inventory_items || existing.inventory_items || '').trim(),
+        equipped_items: String(body.equipped_items || existing.equipped_items || '').trim(),
+        hand_equip: String(body.hand_equip || existing.hand_equip || '').trim(),
+        equipped_armor_key: String(body.equipped_armor_key || existing.equipped_armor_key || '').trim(),
+        combat_ac: String(body.combat_ac || existing.combat_ac || '').trim(),
+        combat_max_hp: String(body.combat_max_hp || existing.combat_max_hp || '').trim(),
+        combat_current_hp: String(body.combat_current_hp || existing.combat_current_hp || '').trim(),
+        combat_temp_hp: String(body.combat_temp_hp || existing.combat_temp_hp || '').trim(),
+      };
+    profiles[req.session.player.id] = payload;
+    saveProfiles(profiles);
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('Wizard save failed:', err);
+    res.status(500).json({ error: 'wizard-save-failed' });
+  }
+});
+
+app.post('/api/player/wizard/validate', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const body = typeof req.body === 'object' && req.body ? req.body : {};
+    const errors = [];
+
+    const className = String(body.class || '').trim();
+    const backgroundName = String(body.background || '').trim();
+    const speciesName = String(body.species || '').trim();
+    const lineageName = String(body.lineage || '').trim();
+    const subclassName = String(body.subclass || '').trim();
+    let featName = String(body.feat || '').trim();
+    const languages = String(body.languages || '').trim();
+    const cantrips = String(body.cantrips || '').trim();
+    const spells = String(body.spells || '').trim();
+    const stats = String(body.stats || '').trim();
+
+    if (!className) errors.push('Class is required.');
+    if (!backgroundName) errors.push('Background is required.');
+    if (!speciesName) errors.push('Species is required.');
+    if (!stats) errors.push('Ability scores are required.');
+
+    const classSet = loadNameSet(path.join(DATASET_DIR, 'classes.csv'));
+    if (className && !classSet.has(normalizeName(className))) {
+      errors.push('Class not found.');
+    }
+
+    const backgroundSet = loadNameSet(path.join(DATASET_DIR, 'backgrounds.csv'));
+    if (backgroundName && !backgroundSet.has(normalizeName(backgroundName))) {
+      errors.push('Background not found.');
+    }
+
+    const speciesRows = loadCsvRows(path.join(DATASET_DIR, 'species.csv')).rows;
+    const speciesRow = speciesRows.find(row => normalizeName(row.name) === normalizeName(speciesName));
+    if (speciesName && !speciesRow) {
+      errors.push('Species not found.');
+    }
+
+    if (lineageName) {
+      const lineages = loadCsvRows(path.join(DATASET_DIR, 'species_lineages.csv')).rows;
+      const lineageRow = lineages.find(row => normalizeName(row.name) === normalizeName(lineageName));
+      if (!lineageRow) {
+        errors.push('Lineage not found.');
+      } else if (speciesRow && lineageRow.species_id && lineageRow.species_id !== speciesRow.species_id) {
+        errors.push('Lineage does not match species.');
+      }
+    }
+
+    if (subclassName) {
+      const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
+      const classRow = classes.find(row => normalizeName(row.name) === normalizeName(className));
+      const subclasses = loadCsvRows(path.join(DATASET_DIR, 'subclasses.csv')).rows;
+      const subclassRow = subclasses.find(row => normalizeName(row.name) === normalizeName(subclassName));
+      if (!subclassRow) {
+        errors.push('Subclass not found.');
+      } else if (classRow && subclassRow.class_id && subclassRow.class_id !== classRow.class_id) {
+        errors.push('Subclass does not match class.');
+      }
+    }
+
+    if (featName) {
+      featName = featName.replace(/\(see[^)]*\)/gi, '').trim();
+      const featSet = loadNameSet(path.join(DATASET_DIR, 'feats.csv'));
+      if (!featSet.has(normalizeName(featName))) {
+        errors.push('Feat not found.');
+      }
+    }
+
+    if (languages) {
+      const languageSet = new Set([
+        ...loadCsvRows(path.join(DATASET_DIR, 'standard_languages.csv')).rows.map(r => normalizeName(r.language)),
+        ...loadCsvRows(path.join(DATASET_DIR, 'rare_languages.csv')).rows.map(r => normalizeName(r.language)),
+      ].filter(Boolean));
+      const selected = languages.split(',').map(item => item.trim()).filter(Boolean);
+      const backgroundRow = loadCsvRows(path.join(DATASET_DIR, 'backgrounds.csv')).rows
+        .find(row => normalizeName(row.name) === normalizeName(backgroundName));
+      const backgroundLang = parseLanguageSource(backgroundRow?.languages || '');
+      const speciesLang = parseLanguageSource(speciesRow?.languages || '');
+      const base = [...new Set([...(backgroundLang.base || []), ...(speciesLang.base || [])])];
+      const additional = selected.filter(lang => !base.some(baseLang => normalizeName(baseLang) === normalizeName(lang)));
+
+      for (const lang of selected) {
+        if (!languageSet.has(normalizeName(lang))) {
+          errors.push(`Unknown language: ${lang}.`);
+        }
+      }
+      if (additional.length && additional.length !== 2) {
+        errors.push('Choose exactly 2 additional languages (base languages do not count).');
+      }
+    }
+
+    if (stats) {
+      const statMap = {};
+      const matches = stats.toUpperCase().match(/(STR|DEX|CON|INT|WIS|CHA)[^0-9]*([0-9]{1,2})/g) || [];
+      for (const m of matches) {
+        const parts = m.match(/(STR|DEX|CON|INT|WIS|CHA)[^0-9]*([0-9]{1,2})/);
+        if (!parts) continue;
+        statMap[parts[1]] = Number(parts[2]);
+      }
+      if (Object.keys(statMap).length < 6) {
+        errors.push('Ability scores must include STR, DEX, CON, INT, WIS, CHA.');
+      }
+    }
+
+    if (cantrips || spells) {
+      const spellRows = loadCsvRows(path.join(DATASET_DIR, 'spells.csv')).rows;
+      const spellMap = new Map(spellRows.map(row => [normalizeName(row.name), row]));
+      const validateList = (value, kind) => {
+        const list = value.split(',').map(item => item.trim()).filter(Boolean);
+        for (const name of list) {
+          const row = spellMap.get(normalizeName(name));
+          if (!row) {
+            errors.push(`${kind} not found: ${name}.`);
+            continue;
+          }
+          const level = String(row.level || '').toLowerCase();
+          const isCantrip = level.includes('cantrip') || level.startsWith('0') || Number(row.level) === 0;
+          if (kind === 'Cantrip' && !isCantrip) errors.push(`${name} is not a cantrip.`);
+          if (kind === 'Spell' && isCantrip) errors.push(`${name} is a cantrip, not a spell.`);
+        }
+      };
+      if (cantrips) validateList(cantrips, 'Cantrip');
+      if (spells) validateList(spells, 'Spell');
+    }
+
+    res.json({ ok: errors.length === 0, errors });
+  } catch (err) {
+    console.error('Wizard validate failed:', err);
+    res.status(500).json({ error: 'wizard-validate-failed' });
+  }
+});
+
+app.get('/api/player/wizard/spell-options', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const className = String(req.query.class || '').trim();
+    if (!className) {
+      res.json({ cantrips: [], spells: [] });
+      return;
+    }
+    const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
+    const classRow = classes.find(row => normalizeName(row.name) === normalizeName(className)
+      || String(row.class_id || '') === String(className));
+    if (!classRow?.class_id) {
+      res.json({ cantrips: [], spells: [] });
+      return;
+    }
+    const spellRows = loadCsvRows(path.join(DATASET_DIR, 'spells.csv')).rows;
+    const toSpellId = name => `SPL_${String(name || '').toUpperCase().replace(/[^A-Z0-9]+/g, '_').replace(/^_+|_+$/g, '')}`;
+    const nameFromId = spellId =>
+      String(spellId || '')
+        .replace(/^SPL_/, '')
+        .toLowerCase()
+        .split('_')
+        .map(part => part ? part[0].toUpperCase() + part.slice(1) : '')
+        .join(' ');
+    const spellMap = new Map();
+    for (const row of spellRows) {
+      const spellId = row.spell_id || toSpellId(row.name);
+      if (spellId) spellMap.set(spellId, row);
+    }
+    const listRows = loadCsvRows(path.join(DATASET_DIR, 'class_spell_lists.csv')).rows;
+    const classSpells = listRows.filter(row => row.class_id === classRow.class_id);
+    const cantrips = [];
+    const spells = [];
+    for (const row of classSpells) {
+      const spellId = row.spell_id;
+      if (!spellId) continue;
+      const spell = spellMap.get(spellId);
+      const name = spell?.name || row.name || nameFromId(spellId);
+      const listLevel = String(row.spell_level || '').trim();
+      const levelText = String(spell?.level || '').toLowerCase();
+      const isCantrip = listLevel
+        ? listLevel === '0' || listLevel.toLowerCase().includes('cantrip')
+        : (levelText.includes('cantrip') || levelText.startsWith('0'));
+      if (isCantrip) cantrips.push(name);
+      else spells.push(name);
+    }
+    res.json({
+      cantrips: cantrips.sort((a, b) => a.localeCompare(b)),
+      spells: spells.sort((a, b) => a.localeCompare(b)),
+    });
+  } catch (err) {
+    console.error('Wizard spell options failed:', err);
+    res.status(500).json({ error: 'wizard-spell-options-failed' });
+  }
+});
+
+app.post('/api/player/online/ping', requirePlayerAuth, (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  cleanupOnlinePlayers();
+  const player = req.session.player;
+  onlinePlayers.set(player.id, {
+    id: player.id,
+    username: player.username,
+    guildId: player.guildId || null,
+    lastSeen: Date.now(),
+  });
+  res.json({ ok: true });
+});
+
+app.get('/api/player/online', requirePlayerAuth, (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  cleanupOnlinePlayers();
+  const guildId = req.session.player?.guildId || null;
+  const list = Array.from(onlinePlayers.values())
+    .filter(entry => !guildId || entry.guildId === guildId)
+    .map(entry => ({ id: entry.id, username: entry.username }));
+  res.json({ players: list });
+});
+
+app.post('/api/player/trade/request', requirePlayerAuth, (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const body = typeof req.body === 'object' && req.body ? req.body : {};
+    const toPlayerId = String(body.toPlayerId || '').trim();
+    const item = String(body.item || '').trim();
+    const qty = Math.max(1, Number(body.qty) || 1);
+    if (!toPlayerId || !item) {
+      res.status(400).json({ error: 'missing-fields' });
+      return;
+    }
+    const trades = loadTrades();
+    const trade = {
+      id: crypto.randomUUID(),
+      fromId: req.session.player.id,
+      fromName: req.session.player.username,
+      toId: toPlayerId,
+      item,
+      qty,
+      status: 'pending',
+      createdAt: new Date().toISOString(),
+      guildId: req.session.player.guildId || null,
+    };
+    trades.push(trade);
+    saveTrades(trades);
+    res.json({ ok: true, trade });
+  } catch (err) {
+    console.error('Trade request failed:', err);
+    res.status(500).json({ error: 'trade-request-failed' });
+  }
+});
+
+app.get('/api/player/trade/inbox', requirePlayerAuth, (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const trades = loadTrades();
+    const list = trades.filter(trade =>
+      trade.toId === req.session.player.id && trade.status === 'pending'
+    );
+    res.json({ trades: list });
+  } catch (err) {
+    console.error('Trade inbox failed:', err);
+    res.status(500).json({ error: 'trade-inbox-failed' });
+  }
+});
+
+app.post('/api/player/trade/respond', requirePlayerAuth, (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const body = typeof req.body === 'object' && req.body ? req.body : {};
+    const tradeId = String(body.tradeId || '').trim();
+    const action = String(body.action || '').trim();
+    if (!tradeId || !['accept', 'reject'].includes(action)) {
+      res.status(400).json({ error: 'invalid-request' });
+      return;
+    }
+    const trades = loadTrades();
+    const trade = trades.find(entry => entry.id === tradeId);
+    if (!trade || trade.toId !== req.session.player.id) {
+      res.status(404).json({ error: 'trade-not-found' });
+      return;
+    }
+    if (trade.status !== 'pending') {
+      res.status(400).json({ error: 'trade-not-pending' });
+      return;
+    }
+    trade.status = action === 'accept' ? 'accepted' : 'rejected';
+    trade.respondedAt = new Date().toISOString();
+    saveTrades(trades);
+    res.json({ ok: true, trade });
+  } catch (err) {
+    console.error('Trade respond failed:', err);
+    res.status(500).json({ error: 'trade-respond-failed' });
+  }
+});
+
+app.get('/api/player/wizard/class-spells', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const className = String(req.query.class || '').trim();
+    if (!className) {
+      res.json({ spells: [] });
+      return;
+    }
+    const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
+    const classRow = classes.find(row => normalizeName(row.name) === normalizeName(className)
+      || String(row.class_id || '') === String(className));
+    if (!classRow?.class_id) {
+      res.json({ spells: [] });
+      return;
+    }
+    const spellRows = loadCsvRows(path.join(DATASET_DIR, 'spells.csv')).rows;
+    const toSpellId = name => `SPL_${String(name || '').toUpperCase().replace(/[^A-Z0-9]+/g, '_').replace(/^_+|_+$/g, '')}`;
+    const nameFromId = spellId =>
+      String(spellId || '')
+        .replace(/^SPL_/, '')
+        .toLowerCase()
+        .split('_')
+        .map(part => part ? part[0].toUpperCase() + part.slice(1) : '')
+        .join(' ');
+    const spellMap = new Map();
+    for (const row of spellRows) {
+      const spellId = row.spell_id || toSpellId(row.name);
+      if (spellId) spellMap.set(spellId, row);
+    }
+    const listRows = loadCsvRows(path.join(DATASET_DIR, 'class_spell_lists.csv')).rows;
+    const classSpells = listRows.filter(row => row.class_id === classRow.class_id);
+    const spells = classSpells
+      .map(row => {
+        const spellId = row.spell_id;
+        if (!spellId) return null;
+        const spell = spellMap.get(spellId);
+        const name = spell?.name || row.name || nameFromId(spellId);
+        const listLevel = String(row.spell_level || '').trim();
+        const levelText = String(spell?.level || '').toLowerCase();
+        let level = null;
+        if (listLevel) {
+          level = Number(listLevel);
+        } else if (levelText.includes('cantrip') || levelText.startsWith('0')) {
+          level = 0;
+        } else {
+          const parsed = Number(spell?.level);
+          level = Number.isFinite(parsed) ? parsed : null;
+        }
+        return {
+          spell_id: spellId,
+          name,
+          level,
+          casting_time: spell?.casting_time || '',
+          range: spell?.range || '',
+          components: spell?.components || '',
+          duration: spell?.duration || '',
+          description: spell?.description || '',
+        };
+      })
+      .filter(Boolean)
+      .sort((a, b) => {
+        if (a.level === b.level) return a.name.localeCompare(b.name);
+        if (a.level === null) return 1;
+        if (b.level === null) return -1;
+        return a.level - b.level;
+      });
+    res.json({ spells });
+  } catch (err) {
+    console.error('Wizard class spells failed:', err);
+    res.status(500).json({ error: 'wizard-class-spells-failed' });
+  }
+});
+
+app.get('/api/player/wizard/spell-level', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const className = String(req.query.class || '').trim();
+    const level = Number(req.query.level || 0);
+    if (!className || !Number.isFinite(level) || level < 1) {
+      res.json({ maxSpellLevel: null });
+      return;
+    }
+    const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
+    const classRow = classes.find(row => normalizeName(row.name) === normalizeName(className)
+      || String(row.class_id || '') === String(className));
+    if (!classRow?.class_id) {
+      res.json({ maxSpellLevel: null });
+      return;
+    }
+    const progressionRows = loadCsvRows(path.join(DATASET_DIR, 'class_progression.csv')).rows;
+    const row = progressionRows.find(entry =>
+      entry.class_id === classRow.class_id && String(entry.level) === String(level)
+    );
+    const raw = row?.spell_level ?? '';
+    const parsed = Number(raw);
+    res.json({ maxSpellLevel: Number.isFinite(parsed) ? parsed : null });
+  } catch (err) {
+    console.error('Wizard spell level failed:', err);
+    res.status(500).json({ error: 'wizard-spell-level-failed' });
   }
 });
 

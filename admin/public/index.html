@@ -15,64 +15,40 @@
     <header class="hero">
       <div>
         <p class="eyebrow">Dungeon Master Console</p>
-        <h1>Control Room</h1>
+        <h1>Welcome</h1>
         <p class="lede">
-          Tune the bot, toggle commands, and ship fresh rules data without touching Discord.
+          Choose your portal. Players can view their sheets. Admins can manage the bot.
         </p>
       </div>
-      <div class="hero-card" id="auth-card">
-        <p class="card-title">Discord Access</p>
-        <p class="card-body" id="auth-status">Checking session...</p>
-        <div class="card-actions" id="auth-actions"></div>
+      <div class="hero-card" id="landing-card">
+        <p class="card-title">Access</p>
+        <p class="card-body" id="landing-status">Checking session...</p>
+        <div class="card-actions" id="landing-actions"></div>
       </div>
     </header>
 
-    <main class="grid home-grid">
-      <a class="panel nav-card" href="/features.html">
+    <main class="grid home-grid" id="landing-links">
+      <a class="panel nav-card" href="/player.html">
         <div class="panel-head">
-          <h2>Feature Switches</h2>
-          <p>Master toggles for major systems.</p>
+          <h2>Player Portal</h2>
+          <p>View your character sheet.</p>
         </div>
-        <p class="panel-note">Turn the big levers that gate bot behavior.</p>
+        <p class="panel-note">Sign in to see spells and inventory.</p>
       </a>
 
-      <a class="panel nav-card" href="/commands.html">
+      <a class="panel nav-card" href="/admin.html" id="admin-link">
         <div class="panel-head">
-          <h2>Command Matrix</h2>
-          <p>Slash command access and roles.</p>
+          <h2>Admin Panel</h2>
+          <p>Configure the bot and data.</p>
         </div>
-        <p class="panel-note">Enable, restrict, and assign to roles.</p>
-      </a>
-
-      <a class="panel nav-card" href="/datasets.html">
-        <div class="panel-head">
-          <h2>Data Sets</h2>
-          <p>Swap CSV/JSON reference files.</p>
-        </div>
-        <p class="panel-note">Upload new rules data and reload.</p>
-      </a>
-
-      <a class="panel nav-card" href="/homebrew.html">
-        <div class="panel-head">
-          <h2>Homebrew</h2>
-          <p>Stage homebrew files for import.</p>
-        </div>
-        <p class="panel-note">Collect brews before in-bot ingestion.</p>
-      </a>
-
-      <a class="panel nav-card" href="/paste.html">
-        <div class="panel-head">
-          <h2>Paste Imports</h2>
-          <p>Paste raw handbook text.</p>
-        </div>
-        <p class="panel-note">Parse, dedupe, and append entries.</p>
+        <p class="panel-note">Admins only.</p>
       </a>
     </main>
 
     <footer class="footer">
-      <span class="panel-note">Select a workspace to manage the bot.</span>
+      <span class="panel-note">Players won’t see the admin panel unless authorized.</span>
     </footer>
 
-    <script src="/app.js"></script>
+    <script src="/landing.js"></script>
   </body>
 </html>
