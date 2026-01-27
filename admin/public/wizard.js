@@ -230,9 +230,29 @@ function getBackgroundNotes() {
   return document.getElementById('background-notes');
 }
 
-function getPersonalityNotes() {
-  return document.getElementById('personality-notes');
-}
+  function getPersonalityNotes() {
+    return document.getElementById('personality-notes');
+  }
+
+  function updateCharacterArtPreview(file) {
+    const preview = getCharacterArtPreview();
+    if (!preview) return;
+    if (!file) {
+      preview.textContent = 'No image';
+      preview.style.backgroundImage = '';
+      return;
+    }
+    if (!file.type || !file.type.startsWith('image/')) {
+      preview.textContent = 'Unsupported file type';
+      preview.style.backgroundImage = '';
+      return;
+    }
+    const url = URL.createObjectURL(file);
+    preview.textContent = '';
+    preview.style.backgroundImage = `url(${url})`;
+    preview.style.backgroundSize = 'cover';
+    preview.style.backgroundPosition = 'center';
+  }
 
 function getInventoryOptionButtons() {
   return Array.from(document.querySelectorAll('.inventory-option-btn'));
@@ -4245,7 +4265,84 @@ async function applyProfile(profile = {}) {
   maybePromptLevelSelections();
 }
 
+function getLoadCharacterId() {
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('load');
+  return id ? String(id).trim() : '';
+}
+
+function getNewCharacterFlag() {
+  const params = new URLSearchParams(window.location.search);
+  const flag = params.get('new');
+  return flag === '1' || flag === 'true';
+}
+
+function setLoadCharacterId(id) {
+  const url = new URL(window.location.href);
+  if (id) {
+    url.searchParams.set('load', String(id));
+    url.searchParams.delete('new');
+  } else {
+    url.searchParams.delete('load');
+  }
+  window.history.replaceState({}, '', url.toString());
+}
+
+function showWizardWarning(message) {
+  let banner = document.getElementById('wizard-load-warning');
+  if (!banner) {
+    banner = document.createElement('div');
+    banner.id = 'wizard-load-warning';
+    banner.className = 'wizard-warning';
+    banner.setAttribute('role', 'alert');
+    const nav = document.querySelector('.header-nav');
+    if (nav && nav.parentElement) {
+      nav.insertAdjacentElement('afterend', banner);
+    } else {
+      document.body.insertAdjacentElement('afterbegin', banner);
+    }
+  }
+  banner.textContent = message;
+  banner.hidden = false;
+}
+
 async function loadSavedProfile() {
+  const loadId = getLoadCharacterId();
+  if (loadId) {
+    try {
+      const response = await fetch('/api/player/characters/load', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: loadId }),
+      });
+      if (!response.ok) {
+        let detail = '';
+        try {
+          const errData = await response.json();
+          detail = errData?.error ? ` (${errData.error})` : '';
+        } catch {
+          detail = '';
+        }
+        throw new Error(`HTTP ${response.status}${detail}`);
+      }
+      const data = await response.json();
+      console.log('[wizard] load id', loadId, 'response', data);
+      if (data?.id && data.id !== loadId) {
+        showWizardWarning(`Loaded character mismatch: requested ${loadId}, got ${data.id}.`);
+        return;
+      }
+      await applyProfile(data.character || {});
+      const loadedName = data?.name || data?.character?.name || loadId;
+      const loadedId = data?.id || loadId;
+      setLoadCharacterId(loadedId);
+      showWizardWarning(`Loaded character: ${loadedName} (id: ${loadedId})`);
+      return;
+    } catch (err) {
+      console.warn('Unable to load character from link', err);
+      showWizardWarning(`Unable to load character from link (${loadId}): ${err.message}`);
+      return;
+    }
+  }
   try {
     const response = await fetch('/api/player/profile');
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -4365,6 +4462,7 @@ async function loadCharacterFromBank() {
     }
     const data = await response.json();
     await applyProfile(data.character || {});
+    setLoadCharacterId(data?.id || select.value);
     if (status) status.textContent = 'Loaded';
   } catch (err) {
     console.warn('Load failed', err);
@@ -4383,6 +4481,44 @@ async function startNewCharacter() {
   const confirmReset = confirm('Start a new character? Unsaved changes will be lost.');
   if (!confirmReset) return;
   await applyProfile({ level: 0 });
+  setLoadCharacterId('');
+  const abilities = getAbilityInputs();
+  Object.keys(abilities).forEach(key => {
+    setAbilityScore(key, Number.NaN);
+  });
+  const levelSelect = getLevelSelect();
+  if (levelSelect) levelSelect.value = '0';
+  const maxHp = getMaxHpInput();
+  if (maxHp) maxHp.value = '';
+  const tempHp = getTempHpInput();
+  if (tempHp) tempHp.value = '';
+  const hitDiceTotal = getHitDiceTotalInput();
+  if (hitDiceTotal) hitDiceTotal.value = '';
+  const hitDiceSpent = getHitDiceSpentInput();
+  if (hitDiceSpent) hitDiceSpent.value = '';
+  const currentHp = document.querySelector('.hp-current');
+  if (currentHp) currentHp.value = '';
+  updateEquippedGearFromInventory();
+  updateSpellcastingStats();
+  updateClassFeatures();
+  updateSpeciesTraits();
+  updateFeatsFromBackground();
+  renderLanguagesSelection([]);
+  state.pendingFirstLevelPrompt = true;
+  state.forceFirstLevelModal = true;
+  const classSelect = getClassSelect();
+  if (classSelect && String(classSelect.value || '').trim()) {
+    const nextRow = getClassProgressionRowForLevel(1);
+    if (nextRow) {
+      showLevelUpModal(null, nextRow);
+    }
+    state.pendingFirstLevelPrompt = false;
+  }
+}
+
+async function startNewCharacterSilently() {
+  await applyProfile({ level: 0 });
+  setLoadCharacterId('');
   const abilities = getAbilityInputs();
   Object.keys(abilities).forEach(key => {
     setAbilityScore(key, Number.NaN);
@@ -4635,19 +4771,34 @@ function attachListeners() {
   }
   if (artInput) {
     artInput.addEventListener('change', () => {
-      const preview = getCharacterArtPreview();
-      if (!preview) return;
       const file = artInput.files && artInput.files[0];
-      if (!file) {
-        preview.textContent = 'No image';
-        preview.style.backgroundImage = '';
-        return;
+      updateCharacterArtPreview(file);
+    });
+  }
+
+  const artPreview = getCharacterArtPreview();
+  if (artPreview) {
+    artPreview.addEventListener('click', () => {
+      if (artInput) artInput.click();
+    });
+    artPreview.addEventListener('dragover', event => {
+      event.preventDefault();
+      artPreview.classList.add('dragover');
+    });
+    artPreview.addEventListener('dragleave', () => {
+      artPreview.classList.remove('dragover');
+    });
+    artPreview.addEventListener('drop', event => {
+      event.preventDefault();
+      artPreview.classList.remove('dragover');
+      const file = event.dataTransfer?.files && event.dataTransfer.files[0];
+      if (!file) return;
+      updateCharacterArtPreview(file);
+      if (artInput && window.DataTransfer) {
+        const data = new DataTransfer();
+        data.items.add(file);
+        artInput.files = data.files;
       }
-      const url = URL.createObjectURL(file);
-      preview.textContent = '';
-      preview.style.backgroundImage = `url(${url})`;
-      preview.style.backgroundSize = 'cover';
-      preview.style.backgroundPosition = 'center';
     });
   }
   inventoryButtons.forEach(button => {
@@ -4811,7 +4962,11 @@ window.addEventListener('DOMContentLoaded', async () => {
   buildLevelOptions();
   attachListeners();
   await loadWizardData();
-  await loadSavedProfile();
+  if (getNewCharacterFlag()) {
+    await startNewCharacterSilently();
+  } else {
+    await loadSavedProfile();
+  }
   await refreshSavedCharactersList();
   setInterval(() => {
     fetch('/api/player/online/ping', { method: 'POST' }).catch(() => {});

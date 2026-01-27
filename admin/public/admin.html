@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DM Bot Control Room</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260125" />
   </head>
   <body>
     <div class="ambient">
@@ -28,6 +28,24 @@
     </header>
 
     <main class="grid home-grid">
+      <a class="panel nav-card" href="/dashboard.html">
+        <div class="panel-head">
+          <h2>Live Dashboard</h2>
+          <p>Combat status and shared loot.</p>
+        </div>
+        <p class="panel-note">Monitor initiative and conditions in real time.</p>
+      </a>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>AI Agency</h2>
+          <p>Switch the narrator between active and passive modes.</p>
+        </div>
+        <div class="panel-body">
+          <div class="ai-mode-row" id="ai-mode-row"></div>
+        </div>
+      </section>
+
       <a class="panel nav-card" href="/features.html">
         <div class="panel-head">
           <h2>Feature Switches</h2>
@@ -76,3 +94,4 @@
     <script src="/app.js"></script>
   </body>
 </html>
+

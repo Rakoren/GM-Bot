@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "aiMode": "active",
   "features": {
     "enableSlashCommands": true,
     "enableMessageCommands": true,
@@ -12,6 +13,11 @@
     "enableUploads": true
   },
   "commands": {
+    "status": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
     "mode": {
       "enabled": true,
       "access": "everyone",

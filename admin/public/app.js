@@ -1,6 +1,8 @@
 const authStatus = document.getElementById('auth-status');
 const authActions = document.getElementById('auth-actions');
 const featuresList = document.getElementById('features-list');
+const aiModeRow = document.getElementById('ai-mode-row');
+const aiModePill = document.getElementById('ai-mode-pill');
 const commandRegistryList = document.getElementById('command-registry-list');
 const commandsList = document.getElementById('commands-list');
 const saveBtn = document.getElementById('save-config');
@@ -34,6 +36,19 @@ const featureLabels = [
   { key: 'enableImports', label: 'Paste imports', detail: 'Allow paste-based imports.' },
   { key: 'enableDataReload', label: 'Data reload', detail: 'Allow CSV reload command.' },
   { key: 'enableUploads', label: 'File uploads', detail: 'Enable uploads in this UI.' },
+];
+
+const aiModeOptions = [
+  {
+    value: 'active',
+    label: 'AI-Active',
+    detail: 'AI drives narrative responses and narration.',
+  },
+  {
+    value: 'passive',
+    label: 'AI-Passive',
+    detail: 'AI only responds to lookup or explicit requests.',
+  },
 ];
 
 const commandGroupLabels = [
@@ -145,6 +160,38 @@ function setControlsDisabled(disabled) {
 }
 
 function renderFeatures() {
+  if (aiModePill) {
+    const mode = (currentConfig?.aiMode || 'active').toLowerCase() === 'passive'
+      ? 'AI-Passive'
+      : 'AI-Active';
+    aiModePill.textContent = mode;
+    aiModePill.classList.toggle('status-pill--passive', mode === 'AI-Passive');
+  }
+  if (aiModeRow) {
+    aiModeRow.innerHTML = '';
+    const label = document.createElement('label');
+    label.textContent = 'AI Agency';
+    const select = document.createElement('select');
+    select.id = 'ai-mode-select';
+    aiModeOptions.forEach(option => {
+      const opt = document.createElement('option');
+      opt.value = option.value;
+      opt.textContent = option.label;
+      select.appendChild(opt);
+    });
+    select.value = currentConfig?.aiMode || 'active';
+    const detail = document.createElement('small');
+    detail.textContent = aiModeOptions.find(opt => opt.value === select.value)?.detail || '';
+    select.addEventListener('change', () => {
+      detail.textContent = aiModeOptions.find(opt => opt.value === select.value)?.detail || '';
+    });
+    const stack = document.createElement('div');
+    stack.className = 'ai-mode-stack';
+    stack.appendChild(label);
+    stack.appendChild(select);
+    stack.appendChild(detail);
+    aiModeRow.appendChild(stack);
+  }
   if (!featuresList) return;
   featuresList.innerHTML = '';
   featureLabels.forEach(feature => {
@@ -258,6 +305,10 @@ function collectConfigFromUI() {
   const next = JSON.parse(JSON.stringify(currentConfig || {}));
   next.features = next.features || {};
   next.commands = next.commands || {};
+  const aiModeSelect = document.getElementById('ai-mode-select');
+  if (aiModeSelect) {
+    next.aiMode = aiModeSelect.value || 'active';
+  }
   next.commandRegistry = next.commandRegistry || { groups: {} };
   next.commandRegistry.groups = next.commandRegistry.groups || {};
   if (featuresList) {

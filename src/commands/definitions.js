@@ -2,6 +2,9 @@ import { SlashCommandBuilder } from 'discord.js';
 
 export const commandData = [
   new SlashCommandBuilder()
+    .setName('status')
+    .setDescription('Show bot status'),
+  new SlashCommandBuilder()
     .setName('mode')
     .setDescription('Set DM mode')
     .addStringOption(opt =>
@@ -20,7 +23,7 @@ export const commandData = [
     .addStringOption(opt =>
       opt.setName('name').setDescription('Character name').setRequired(false)
     )
-    .addIntegerOption(opt =>
+    .addStringOption(opt =>
       opt.setName('bank_id').setDescription('Character ID from /bank list').setRequired(false)
     ),
   new SlashCommandBuilder()
@@ -34,6 +37,62 @@ export const commandData = [
     .setDescription('Roll dice (e.g., 1d20+5, 2d6, d8, 1d20 adv)')
     .addStringOption(opt =>
       opt.setName('expression').setDescription('Dice expression').setRequired(true)
+    ),
+  new SlashCommandBuilder()
+    .setName('check')
+    .setDescription('Roll an ability/skill check')
+    .addStringOption(opt =>
+      opt
+        .setName('ability')
+        .setDescription('Ability score')
+        .setRequired(true)
+        .addChoices(
+          { name: 'STR', value: 'str' },
+          { name: 'DEX', value: 'dex' },
+          { name: 'CON', value: 'con' },
+          { name: 'INT', value: 'int' },
+          { name: 'WIS', value: 'wis' },
+          { name: 'CHA', value: 'cha' }
+        )
+    )
+    .addStringOption(opt =>
+      opt
+        .setName('skill')
+        .setDescription('Skill (optional)')
+        .setRequired(false)
+    )
+    .addIntegerOption(opt =>
+      opt.setName('dc').setDescription('Difficulty Class').setRequired(false)
+    )
+    .addBooleanOption(opt =>
+      opt.setName('adv').setDescription('Advantage').setRequired(false)
+    )
+    .addBooleanOption(opt =>
+      opt.setName('dis').setDescription('Disadvantage').setRequired(false)
+    ),
+  new SlashCommandBuilder()
+    .setName('percent')
+    .setDescription('Roll a percentile check')
+    .addIntegerOption(opt =>
+      opt.setName('chance').setDescription('Percent chance (1-100)').setRequired(true)
+    ),
+  new SlashCommandBuilder()
+    .setName('rolltable')
+    .setDescription('Roll a random table die')
+    .addStringOption(opt =>
+      opt
+        .setName('die')
+        .setDescription('Die to roll')
+        .setRequired(true)
+        .addChoices(
+          { name: 'd4', value: '4' },
+          { name: 'd6', value: '6' },
+          { name: 'd8', value: '8' },
+          { name: 'd10', value: '10' },
+          { name: 'd12', value: '12' },
+          { name: 'd20', value: '20' },
+          { name: 'd100', value: '100' }
+        )
     ),
   new SlashCommandBuilder()
     .setName('combat')
@@ -91,6 +150,47 @@ export const commandData = [
       sub
         .setName('next')
         .setDescription('Advance to the next turn')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('use')
+        .setDescription('Mark an action/bonus/reaction as used')
+        .addStringOption(opt =>
+          opt
+            .setName('type')
+            .setDescription('Which resource to spend')
+            .setRequired(true)
+            .addChoices(
+              { name: 'action', value: 'action' },
+              { name: 'bonus', value: 'bonus' },
+              { name: 'reaction', value: 'reaction' }
+            )
+        )
+        .addUserOption(opt =>
+          opt.setName('user').setDescription('Target player (DM only)').setRequired(false)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('phase')
+        .setDescription('Set combat phase')
+        .addStringOption(opt =>
+          opt
+            .setName('value')
+            .setDescription('turn-start, action, bonus-reaction, turn-end')
+            .setRequired(true)
+            .addChoices(
+              { name: 'turn-start', value: 'turn-start' },
+              { name: 'action', value: 'action' },
+              { name: 'bonus-reaction', value: 'bonus-reaction' },
+              { name: 'turn-end', value: 'turn-end' }
+            )
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('next-phase')
+        .setDescription('Advance to the next phase')
     )
     .addSubcommand(sub =>
       sub
@@ -388,7 +488,7 @@ export const commandData = [
     .addUserOption(opt =>
       opt.setName('user').setDescription('Player to view').setRequired(false)
     )
-    .addIntegerOption(opt =>
+    .addStringOption(opt =>
       opt.setName('bank_id').setDescription('Character ID from /bank list').setRequired(false)
     ),
   new SlashCommandBuilder()
@@ -435,7 +535,7 @@ export const commandData = [
       sub
         .setName('take')
         .setDescription('Take a character from the bank')
-        .addIntegerOption(opt =>
+        .addStringOption(opt =>
           opt.setName('id').setDescription('Character ID from /bank list').setRequired(true)
         )
     )
@@ -443,7 +543,7 @@ export const commandData = [
       sub
         .setName('info')
         .setDescription('Show full details for a banked character')
-        .addIntegerOption(opt =>
+        .addStringOption(opt =>
           opt.setName('id').setDescription('Character ID from /bank list').setRequired(true)
         )
     )
@@ -451,7 +551,7 @@ export const commandData = [
       sub
         .setName('delete')
         .setDescription('Delete a character from the bank')
-        .addIntegerOption(opt =>
+        .addStringOption(opt =>
           opt.setName('id').setDescription('Character ID from /bank list').setRequired(false)
         )
         .addStringOption(opt =>

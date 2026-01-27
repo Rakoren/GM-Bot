@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Player Portal | DM Bot</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260126b" />
   </head>
   <body>
     <div class="ambient">
@@ -27,86 +27,16 @@
     </header>
 
     <div class="layout">
-      <nav class="side-nav">
-        <p class="side-title">Player</p>
-        <a href="/player.html" class="active">Portal</a>
-        <a href="/">Admin Home</a>
-      </nav>
-
+      <aside class="nav-card">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/wizard.html?new=1" class="nav-link">New Character</a>
+        <a href="/player.html#bank" class="nav-link">Character Bank</a>
+        <a href="/player.html#maps" class="nav-link">Maps</a>
+      </aside>
       <main class="sheet">
-        <section class="panel sheet-card" id="player-profile-panel">
-          <div class="panel-head">
-            <h2>Character Sheet</h2>
-            <p id="player-profile-status">Sign in to load your profile.</p>
-          </div>
-          <div class="panel-body sheet-grid" id="player-profile-body">
-            <div class="sheet-section sheet-identity">
-              <div class="sheet-field">
-                <span class="sheet-label">Character</span>
-                <span class="sheet-value" data-field="name">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Class</span>
-                <span class="sheet-value" data-field="class">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Level</span>
-                <span class="sheet-value" data-field="level">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Species</span>
-                <span class="sheet-value" data-field="species">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Background</span>
-                <span class="sheet-value" data-field="background">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Languages</span>
-                <span class="sheet-value" data-field="languages">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Feat</span>
-                <span class="sheet-value" data-field="feat">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Alignment</span>
-                <span class="sheet-value" data-field="alignment">—</span>
-              </div>
-            </div>
-
-            <div class="sheet-section sheet-stats" id="sheet-stats"></div>
-
-            <div class="sheet-section sheet-traits">
-              <h3>Traits & Goals</h3>
-              <div class="sheet-field">
-                <span class="sheet-label">Trait</span>
-                <span class="sheet-value" data-field="trait">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Goal</span>
-                <span class="sheet-value" data-field="goal">—</span>
-              </div>
-            </div>
-
-            <div class="sheet-section sheet-spells">
-              <h3>Spellbook</h3>
-              <div class="sheet-field">
-                <span class="sheet-label">Cantrips</span>
-                <span class="sheet-value" data-field="cantrips">—</span>
-              </div>
-              <div class="sheet-field">
-                <span class="sheet-label">Spells</span>
-                <span class="sheet-value" data-field="spells">—</span>
-              </div>
-            </div>
-
-            <div class="sheet-section sheet-inventory">
-              <h3>Inventory</h3>
-              <span class="sheet-value" data-field="equipment">—</span>
-            </div>
-          </div>
-        </section>
+        <div class="section-bar">Character Sheets</div>
+        <p id="player-profile-status" class="player-status">Sign in to load your profile.</p>
+        <div class="character-grid" id="player-profile-body"></div>
       </main>
     </div>
 
@@ -114,6 +44,25 @@
       <span class="panel-note">Need access? Ask the DM to assign the Player role.</span>
     </footer>
 
-    <script src="/player.js"></script>
+    <div class="modal-overlay" id="delete-modal" aria-hidden="true">
+      <div class="modal-card">
+        <div class="section-header">Delete Character</div>
+        <div class="modal-body">
+          <p class="modal-help">Type the character name to confirm deletion.</p>
+          <label class="modal-label">Character Name
+            <input type="text" id="delete-confirm-input" placeholder="Type name to confirm">
+          </label>
+          <div class="modal-error" id="delete-modal-error"></div>
+        </div>
+        <div class="modal-actions">
+          <button type="button" id="delete-modal-cancel">Cancel</button>
+          <button type="button" id="delete-modal-confirm">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/player.js?v=20260126e"></script>
   </body>
 </html>
+
+

@@ -4,3 +4,6 @@ node_modules/
 Backups/
 campaign_save.json
 campaigns/
+combat_state.json
+loot_state.json
+admin_sessions.json

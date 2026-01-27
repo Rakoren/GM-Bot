@@ -2,6 +2,11 @@ const playerAuthStatus = document.getElementById('player-auth-status');
 const playerAuthActions = document.getElementById('player-auth-actions');
 const profileStatus = document.getElementById('player-profile-status');
 const profileBody = document.getElementById('player-profile-body');
+const deleteModal = document.getElementById('delete-modal');
+const deleteConfirmInput = document.getElementById('delete-confirm-input');
+const deleteModalError = document.getElementById('delete-modal-error');
+const deleteModalCancel = document.getElementById('delete-modal-cancel');
+const deleteModalConfirm = document.getElementById('delete-modal-confirm');
 
 let player = null;
 let guilds = [];
@@ -89,7 +94,7 @@ function renderGuildPicker() {
       return;
     }
     selectedGuildId = select.value;
-    await loadProfile();
+    await loadCharacters();
     setAuthUI();
   });
   wrapper.appendChild(applyBtn);
@@ -123,68 +128,149 @@ async function loadGuilds() {
   selectedGuildId = data.selectedGuildId || null;
 }
 
-function parseStats(raw) {
-  const text = String(raw || '');
-  const map = {};
-  const regex = /\b(STR|DEX|CON|INT|WIS|CHA)\s*(\d+)/gi;
-  let match;
-  while ((match = regex.exec(text))) {
-    map[match[1].toUpperCase()] = Number(match[2]);
+function getCharacterArtUrl(entry) {
+  if (!entry || typeof entry !== 'object') return '';
+  return (
+    entry.art ||
+    entry.image ||
+    entry.art_url ||
+    entry.character_art ||
+    entry.portrait ||
+    entry.avatar ||
+    ''
+  );
+}
+
+function createCharacterCard(name, artUrl, id) {
+  const card = document.createElement('a');
+  card.className = 'character-card';
+  if (id) {
+    card.dataset.characterId = id;
+    card.href = `/wizard.html?load=${encodeURIComponent(id)}`;
+    card.addEventListener('click', event => {
+      event.preventDefault();
+      window.location.assign(card.href);
+    });
   }
-  return map;
-}
 
-function setFieldValue(field, value) {
-  const el = profileBody?.querySelector(`[data-field="${field}"]`);
-  if (el) el.textContent = value || '—';
-}
+  const art = document.createElement('div');
+  art.className = 'character-art';
+  art.setAttribute('aria-hidden', 'true');
 
-function renderStats(statsMap) {
-  const statsEl = document.getElementById('sheet-stats');
-  if (!statsEl) return;
-  const order = ['STR', 'DEX', 'CON', 'INT', 'WIS', 'CHA'];
-  statsEl.innerHTML = '';
-  order.forEach(key => {
-    const score = statsMap?.[key];
-    const block = document.createElement('div');
-    block.className = 'stat-card';
-    block.innerHTML = `
-      <span class="stat-label">${key}</span>
-      <span class="stat-score">${Number.isFinite(score) ? score : '—'}</span>
-    `;
-    statsEl.appendChild(block);
+  const img = document.createElement('img');
+  img.className = 'character-art-img';
+  img.alt = '';
+
+  const fallback = document.createElement('span');
+  fallback.className = 'character-art-text';
+
+  const initials = String(name || '')
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 2)
+    .map(word => word[0]?.toUpperCase())
+    .join('');
+  fallback.textContent = initials || '?';
+
+  if (artUrl) {
+    img.src = artUrl;
+    img.style.display = 'block';
+    fallback.style.display = 'none';
+  } else {
+    img.style.display = 'none';
+    fallback.style.display = 'block';
+  }
+
+  art.appendChild(img);
+  art.appendChild(fallback);
+
+  const nameEl = document.createElement('div');
+  nameEl.className = 'character-name';
+  nameEl.textContent = name || 'Unknown';
+  card.title = `Open ${name || 'character'}`;
+
+  card.appendChild(art);
+  card.appendChild(nameEl);
+
+  const actions = document.createElement('div');
+  actions.className = 'character-actions';
+
+  const deleteBtn = document.createElement('button');
+  deleteBtn.type = 'button';
+  deleteBtn.className = 'delete-button';
+  deleteBtn.textContent = '🗑';
+  deleteBtn.title = 'Delete character';
+  console.log('attach delete', { id, name });
+  deleteBtn.addEventListener('click', event => {
+    event.preventDefault();
+    event.stopPropagation();
+    openDeleteModal({ id, name: name || 'Unknown' });
   });
+
+  actions.appendChild(deleteBtn);
+  card.appendChild(actions);
+
+  return card;
 }
 
-function renderProfile(profile) {
-  if (!profileBody || !profileStatus) return;
-  if (!profile) {
-    profileStatus.textContent = 'No profile found for this account.';
+let deleteTarget = null;
+
+function openDeleteModal(target) {
+  if (!deleteModal || !deleteConfirmInput) return;
+  console.log('open delete modal', target);
+  deleteTarget = target;
+  deleteConfirmInput.value = '';
+  if (deleteModalError) deleteModalError.textContent = '';
+  deleteModal.classList.add('active');
+  deleteModal.setAttribute('aria-hidden', 'false');
+  deleteConfirmInput.focus();
+}
+
+function closeDeleteModal() {
+  if (!deleteModal) return;
+  deleteModal.classList.remove('active');
+  deleteModal.setAttribute('aria-hidden', 'true');
+  deleteTarget = null;
+}
+
+async function confirmDelete() {
+  if (!deleteTarget || !deleteConfirmInput) return;
+  const typed = String(deleteConfirmInput.value || '').trim();
+  if (typed !== deleteTarget.name) {
+    if (deleteModalError) deleteModalError.textContent = 'Name does not match.';
     return;
   }
-  profileStatus.textContent = '';
-
-  setFieldValue('name', profile.name);
-  setFieldValue('class', profile.class);
-  setFieldValue('level', profile.level);
-  setFieldValue('species', profile.species || profile.lineage);
-  setFieldValue('background', profile.background);
-  setFieldValue('languages', profile.languages);
-  setFieldValue('feat', profile.feat);
-  setFieldValue('alignment', profile.alignment);
-  setFieldValue('trait', profile.trait);
-  setFieldValue('goal', profile.goal);
-  setFieldValue('cantrips', profile.cantrips);
-  setFieldValue('spells', profile.spells);
-  setFieldValue('equipment', profile.equipment);
-
-  renderStats(parseStats(profile.stats));
+  if (deleteModalError) deleteModalError.textContent = '';
+  try {
+    const response = await fetch('/api/player/characters/delete', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: deleteTarget.id, name: deleteTarget.name }),
+    });
+    if (!response.ok) {
+      const data = await response.json().catch(() => ({}));
+      throw new Error(data?.error || `HTTP ${response.status}`);
+    }
+    closeDeleteModal();
+    await loadCharacters();
+  } catch (err) {
+    if (deleteModalError) deleteModalError.textContent = `Delete failed: ${err.message}`;
+  }
 }
 
-async function loadProfile() {
-  if (!profileStatus) return;
-  profileStatus.textContent = 'Loading profile...';
-  const response = await fetch('/api/player/profile');
+if (deleteModalCancel) {
+  deleteModalCancel.addEventListener('click', closeDeleteModal);
+}
+if (deleteModalConfirm) {
+  deleteModalConfirm.addEventListener('click', confirmDelete);
+}
+
+async function loadCharacters() {
+  if (!profileStatus || !profileBody) return;
+  profileStatus.textContent = 'Loading characters...';
+  profileBody.innerHTML = '';
+
+  const response = await fetch('/api/player/characters/list');
   if (!response.ok) {
     const data = await response.json().catch(() => ({}));
     if (data.error === 'player-role-missing') {
@@ -199,18 +285,33 @@ async function loadProfile() {
       profileStatus.textContent = 'Select a server to continue.';
       return;
     }
-    profileStatus.textContent = 'Failed to load profile.';
+    profileStatus.textContent = 'Failed to load characters.';
     return;
   }
+
   const data = await response.json();
-  renderProfile(data.profile);
+  const characters = Array.isArray(data.characters) ? data.characters : [];
+  if (!characters.length) {
+    profileStatus.textContent = 'No saved characters yet.';
+    return;
+  }
+
+  profileStatus.textContent = '';
+
+  characters.forEach(entry => {
+    const name = String(entry?.name || '').trim();
+    const artUrl = getCharacterArtUrl(entry);
+    const card = createCharacterCard(name || 'Unknown', artUrl, entry.id);
+    profileBody.appendChild(card);
+  });
 }
 
 async function init() {
   await loadAuth();
   if (player && selectedGuildId) {
-    await loadProfile();
+    await loadCharacters();
   }
 }
 
 init();
+

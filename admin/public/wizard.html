@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&D 2024 Character Sheet</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260126c">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@400;500;700&family=Scala+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -14,6 +14,7 @@
         <a href="/player.html" class="nav-link">Player Panel</a>
         <a href="/admin.html" class="nav-link">Admin Panel</a>
     </nav>
+    <div id="wizard-load-warning" class="wizard-warning" role="alert" hidden></div>
 
 <div class="page-layout">
     <aside class="left-sidebar">
@@ -656,8 +657,8 @@
     <aside class="right-sidebar">
         <div class="sidebar-card">
             <div class="section-header">Character Art</div>
-            <input id="character-art-input" type="file" accept="image/*">
-            <div class="art-preview" id="character-art-preview">No image</div>
+            <input id="character-art-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif">
+            <div class="art-preview" id="character-art-preview">Drop PNG/JPG/WebP/GIF here or click to upload</div>
         </div>
         <div class="sidebar-card">
             <div class="section-header">Notes</div>
@@ -684,7 +685,7 @@
     </aside>
 </div>
 
-<script src="/wizard.js" defer></script>
+<script src="/wizard.js?v=20260126e" defer></script>
 
 <div class="modal-overlay" id="level-up-modal" aria-hidden="true">
     <div class="modal-card">
@@ -780,4 +781,5 @@
 </div>
 </body>
 </html>
+
 

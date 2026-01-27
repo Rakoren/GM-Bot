@@ -8,6 +8,55 @@ export async function handleChatInputCommand({
   isCreatorChannel,
   ctx,
 }) {
+  const abilityKey = (value) => String(value || '').toLowerCase().slice(0, 3);
+  const abilityMod = (score) => {
+    const num = Number(score);
+    if (!Number.isFinite(num)) return 0;
+    return Math.floor((num - 10) / 2);
+  };
+  const parseStatLine = (content) => {
+    const text = String(content || '').toUpperCase();
+    const map = {};
+    const matches = text.match(/(STR|DEX|CON|INT|WIS|CHA)[^0-9]*([0-9]{1,2})/g);
+    if (!matches) return null;
+    for (const m of matches) {
+      const parts = m.match(/(STR|DEX|CON|INT|WIS|CHA)[^0-9]*([0-9]{1,2})/);
+      if (!parts) continue;
+      map[parts[1].toLowerCase()] = Number(parts[2]);
+    }
+    return map;
+  };
+  const proficiencyBonus = (level) => {
+    const lvl = Number(level);
+    if (!Number.isFinite(lvl) || lvl < 1) return 2;
+    if (lvl <= 4) return 2;
+    if (lvl <= 8) return 3;
+    if (lvl <= 12) return 4;
+    if (lvl <= 16) return 5;
+    return 6;
+  };
+  const skillToAbility = {
+    acrobatics: 'dex',
+    'animal handling': 'wis',
+    arcana: 'int',
+    athletics: 'str',
+    deception: 'cha',
+    history: 'int',
+    insight: 'wis',
+    intimidation: 'cha',
+    investigation: 'int',
+    medicine: 'wis',
+    nature: 'int',
+    perception: 'wis',
+    performance: 'cha',
+    persuasion: 'cha',
+    religion: 'int',
+    'sleight of hand': 'dex',
+    stealth: 'dex',
+    survival: 'wis',
+  };
+  const normalizeSkill = (value) =>
+    String(value || '').trim().toLowerCase().replace(/\s+/g, ' ');
   const {
     CONFIG,
     campaignState,
@@ -58,6 +107,8 @@ export async function handleChatInputCommand({
     buildProfileEmbed,
     saveProfileStore,
     ttsSpeak,
+    saveCombatState,
+    saveLootState,
     openai,
     updateChannelConfig,
     getLoginVoiceChannelId,
@@ -145,11 +196,18 @@ export async function handleChatInputCommand({
       await interaction.editReply('Use /setchar in the game channel or its threads.');
       return;
     }
-    const bankId = interaction.options.getInteger('bank_id', false);
+    const bankId = interaction.options.getString('bank_id', false);
     if (bankId) {
-      const row = getCharacterById(bankId);
+      const cleanedId = String(bankId).trim().replace(/^#/, '');
+      if (!cleanedId) {
+        await interaction.editReply('Provide a valid bank_id.');
+        return;
+      }
+      const isDm = interaction.memberPermissions?.has(PermissionsBitField.Flags.ManageGuild)
+        || interaction.memberPermissions?.has(PermissionsBitField.Flags.Administrator);
+      const row = getCharacterById(cleanedId, { userId: interaction.user.id, isDm });
       if (!row) {
-        await interaction.editReply(`No character found for ID ${bankId}.`);
+        await interaction.editReply(`No character found for ID ${cleanedId}.`);
         return;
       }
       setCharacter(interaction.user.id, row.name || interaction.user.username);
@@ -196,6 +254,91 @@ export async function handleChatInputCommand({
     return;
   }
 
+  if (interaction.commandName === 'check') {
+    if (!isGameChannel) {
+      await interaction.editReply('Use /check in the game channel or its threads.');
+      return;
+    }
+    const ability = interaction.options.getString('ability', true);
+    const skill = interaction.options.getString('skill', false);
+    const dc = interaction.options.getInteger('dc', false);
+    const adv = interaction.options.getBoolean('adv', false);
+    const dis = interaction.options.getBoolean('dis', false);
+
+    const profile = ctx.profileByUserId?.get(interaction.user.id) || null;
+    const statsMap = parseStatLine(profile?.stats || '');
+    const level = profile?.level || 1;
+    const prof = proficiencyBonus(level);
+
+    const skillKey = normalizeSkill(skill);
+    const abilityFromSkill = skillKey ? skillToAbility[skillKey] : null;
+    const abilityUsed = abilityFromSkill || abilityKey(ability);
+    const abilityScore = statsMap?.[abilityUsed];
+    const mod = abilityMod(abilityScore);
+
+    const profSkills = profile?.skills || profile?.skill_proficiencies || profile?.skillProficiencies || [];
+    const hasSkillProf =
+      Array.isArray(profSkills) && skillKey
+        ? profSkills.map(s => normalizeSkill(s)).includes(skillKey)
+        : false;
+    const totalMod = mod + (hasSkillProf ? prof : 0);
+
+    const result = ctx.rollDice({
+      count: 1,
+      sides: 20,
+      mod: totalMod,
+      advantage: !!adv,
+      disadvantage: !!dis,
+    });
+    const rollText = result.advantage || result.disadvantage
+      ? `${result.rolls.join(', ')} -> ${result.chosen}`
+      : result.rolls.join(', ');
+    const skillLabel = skillKey ? ` (${skillKey})` : '';
+    const dcText = Number.isFinite(dc) ? ` vs DC ${dc}` : '';
+    const success = Number.isFinite(dc) ? (result.total >= dc ? 'SUCCESS' : 'FAIL') : 'ROLLED';
+
+    await interaction.editReply(
+      `${interaction.user.username}: ${abilityUsed.toUpperCase()}${skillLabel} check${dcText}\n` +
+      `Roll: ${rollText} ${totalMod >= 0 ? '+' : ''}${totalMod} = ${result.total} — ${success}`
+    );
+    return;
+  }
+
+  if (interaction.commandName === 'percent') {
+    const chance = interaction.options.getInteger('chance', true);
+    const clamped = Math.min(100, Math.max(1, Number(chance)));
+    const result = ctx.rollDice({ count: 1, sides: 100, mod: 0 });
+    const roll = result.total;
+    const success = roll <= clamped ? 'SUCCESS' : 'FAIL';
+    await interaction.editReply(`Percentile: ${roll} vs ${clamped}% — ${success}`);
+    return;
+  }
+
+  if (interaction.commandName === 'rolltable') {
+    const die = interaction.options.getString('die', true);
+    const sides = Number(die);
+    if (!Number.isFinite(sides) || sides < 2) {
+      await interaction.editReply('Invalid die.');
+      return;
+    }
+    const result = ctx.rollDice({ count: 1, sides, mod: 0 });
+    await interaction.editReply(`Rolled d${sides}: ${result.total}`);
+    return;
+  }
+
+  if (interaction.commandName === 'status') {
+    const aiMode = typeof ctx.getAiMode === 'function' ? ctx.getAiMode() : 'active';
+    const lines = [
+      `AI mode: ${aiMode === 'passive' ? 'AI-Passive' : 'AI-Active'}`,
+      `Session mode: ${session.mode || 'free'}`,
+      `Auto replies: ${ctx.isFeatureEnabled?.('enableAutoReplies') ? 'on' : 'off'}`,
+      `TTS: ${ctx.isFeatureEnabled?.('enableTts') ? 'on' : 'off'}`,
+      `Voice features: ${ctx.isFeatureEnabled?.('enableVoice') ? 'on' : 'off'}`,
+    ];
+    await interaction.editReply(lines.join('\n'));
+    return;
+  }
+
   if (interaction.commandName === 'combat') {
     if (!isGameChannel) {
       await interaction.editReply('Use /combat in the game channel or its threads.');
@@ -210,12 +353,25 @@ export async function handleChatInputCommand({
     const sub = interaction.options.getSubcommand();
     const isDm = interaction.memberPermissions?.has(PermissionsBitField.Flags.ManageGuild)
       || interaction.memberPermissions?.has(PermissionsBitField.Flags.Administrator);
-    const dmOnly = ['start', 'add-npc', 'begin', 'next', 'damage', 'condition'];
+    const dmOnly = ['start', 'add-npc', 'begin', 'next', 'damage', 'condition', 'phase', 'next-phase'];
     if (dmOnly.includes(sub) && !isDm) {
       await interaction.editReply('DM only.');
       return;
     }
     const combat = combatEngine.getCombat(session);
+    const persistCombat = () => saveCombatState?.(session);
+    const persistLoot = () => saveLootState?.(session);
+    const sendCombatHud = async () => {
+      if (!combat) return;
+      const active = combatEngine.getActiveCombatant(combat);
+      const round = combat.round || 0;
+      const phase = combat.phase || '—';
+      const turn = active ? ` · Turn: ${active.name}` : '';
+      const line = `HUD — ${combat.name} · Round ${round} · Phase ${phase}${turn}`;
+      try {
+        await interaction.followUp({ content: line });
+      } catch {}
+    };
 
     const findCombatantByName = (name) => {
       const cleaned = String(name || '').trim().toLowerCase();
@@ -232,7 +388,10 @@ export async function handleChatInputCommand({
         channelId: interaction.channelId,
         createdBy: interaction.user.id,
       });
+      persistCombat();
+      persistLoot();
       await interaction.editReply(`Combat started: ${created.name}. Players can /combat join.`);
+      await sendCombatHud();
       return;
     }
 
@@ -252,7 +411,9 @@ export async function handleChatInputCommand({
       }
       const combatant = combatEngine.buildCombatantFromProfile(interaction.user.id, profile);
       combat.combatants[combatant.id] = combatant;
+      persistCombat();
       await interaction.editReply(`${combatant.name} joined combat.`);
+      await sendCombatHud();
       return;
     }
 
@@ -262,7 +423,9 @@ export async function handleChatInputCommand({
       const ac = interaction.options.getInteger('ac', true);
       const init = interaction.options.getInteger('initiative', false);
       const npc = combatEngine.addNpc(combat, { name, hp, ac, initiative: init });
+      persistCombat();
       await interaction.editReply(`NPC added: ${npc.name} (HP ${npc.hp}, AC ${npc.ac}).`);
+      await sendCombatHud();
       return;
     }
 
@@ -277,23 +440,84 @@ export async function handleChatInputCommand({
       }
       if (Number.isFinite(value)) {
         combatEngine.setInitiative(combat, combatantId, value);
+        persistCombat();
         await interaction.editReply(`Initiative set to ${value}.`);
+        await sendCombatHud();
         return;
       }
       const result = combatEngine.rollInitiative(combat, combatantId, { advantage: adv, disadvantage: dis });
+      persistCombat();
       await interaction.editReply(`Initiative: ${result.total} (${result.rolls.join(', ')})`);
+      await sendCombatHud();
       return;
     }
 
     if (sub === 'begin') {
       combatEngine.beginCombat(combat);
+      persistCombat();
       await interaction.editReply(combatEngine.formatCombatStatus(combat));
+      await sendCombatHud();
       return;
     }
 
     if (sub === 'next') {
       const active = combatEngine.nextTurn(combat);
+      persistCombat();
       await interaction.editReply(active ? `Turn: ${active.name}` : 'No active combatants.');
+      await sendCombatHud();
+      return;
+    }
+
+    if (sub === 'use') {
+      const type = interaction.options.getString('type', true);
+      const targetUser = interaction.options.getUser('user', false);
+      const active = combatEngine.getActiveCombatant(combat);
+      if (!active) {
+        await interaction.editReply('No active combatant.');
+        return;
+      }
+      if (!isDm && targetUser && targetUser.id !== interaction.user.id) {
+        await interaction.editReply('Only the DM can spend resources for another player.');
+        return;
+      }
+      if (!isDm && active.userId && active.userId !== interaction.user.id) {
+        await interaction.editReply(`It is ${active.name}'s turn.`);
+        return;
+      }
+      const combatantId = targetUser
+        ? `player_${targetUser.id}`
+        : active.userId
+          ? `player_${interaction.user.id}`
+          : active.id;
+      let state = null;
+      if (type === 'action') state = combatEngine.useAction(combat, combatantId);
+      if (type === 'bonus') state = combatEngine.useBonusAction(combat, combatantId);
+      if (type === 'reaction') state = combatEngine.useReaction(combat, combatantId);
+      persistCombat();
+      if (!state) {
+        await interaction.editReply('Unable to update turn resources.');
+        return;
+      }
+      const targetName = targetUser?.username || active.name;
+      await interaction.editReply(`Marked ${type} used for ${targetName}.`);
+      await sendCombatHud();
+      return;
+    }
+
+    if (sub === 'phase') {
+      const value = interaction.options.getString('value', true);
+      const phase = combatEngine.setPhase(combat, value);
+      persistCombat();
+      await interaction.editReply(phase ? `Phase set: ${phase}` : 'Unable to set phase.');
+      if (phase) await sendCombatHud();
+      return;
+    }
+
+    if (sub === 'next-phase') {
+      const phase = combatEngine.advancePhase(combat);
+      persistCombat();
+      await interaction.editReply(phase ? `Phase: ${phase}` : 'Unable to advance phase.');
+      if (phase) await sendCombatHud();
       return;
     }
 
@@ -344,6 +568,8 @@ export async function handleChatInputCommand({
         disadvantage: dis,
         overrideDamage: dmgOverride,
       });
+      combatEngine.useAction(combat, attacker.id);
+      persistCombat();
       if (result.error) {
         await interaction.editReply(result.error);
         return;
@@ -359,6 +585,7 @@ export async function handleChatInputCommand({
         `Attack roll: ${rollText}\n` +
         `${dmgText}\n${hpText}`.trim()
       );
+      await sendCombatHud();
       return;
     }
 
@@ -371,8 +598,10 @@ export async function handleChatInputCommand({
         return;
       }
       combatEngine.applyDamage(combat, target.id, amount);
+      persistCombat();
       const hpText = Number.isFinite(target.hp) ? `${target.hp}/${target.maxHp ?? '?'}` : '?';
       await interaction.editReply(`${target.name} takes ${amount} damage. HP ${hpText}.`);
+      await sendCombatHud();
       return;
     }
 
@@ -387,10 +616,14 @@ export async function handleChatInputCommand({
       }
       if (action === 'add') {
         combatEngine.addCondition(combat, target.id, condition);
+        persistCombat();
         await interaction.editReply(`${target.name} gains ${condition}.`);
+        await sendCombatHud();
       } else {
         combatEngine.removeCondition(combat, target.id, condition);
+        persistCombat();
         await interaction.editReply(`${target.name} loses ${condition}.`);
+        await sendCombatHud();
       }
       return;
     }
@@ -405,12 +638,15 @@ export async function handleChatInputCommand({
         return;
       }
       const result = combatEngine.spendSpellSlot(combat, caster.id, level);
+      combatEngine.useAction(combat, caster.id);
+      persistCombat();
       if (!result.ok) {
         await interaction.editReply(result.message);
         return;
       }
       const targetText = targetName ? ` on ${targetName}` : '';
       await interaction.editReply(`${caster.name} casts ${spell}${targetText}. Slots left: ${result.remaining}.`);
+      await sendCombatHud();
       return;
     }
 
@@ -443,6 +679,8 @@ export async function handleChatInputCommand({
       await interaction.editReply(
         `${target.name} ${ability.toUpperCase()} save: ${result.result.total} (${result.result.rolls.join(', ')}) — ${success}`
       );
+      persistCombat();
+      await sendCombatHud();
       return;
     }
   }
@@ -677,11 +915,18 @@ export async function handleChatInputCommand({
   }
 
   if (interaction.commandName === 'sheet') {
-    const bankId = interaction.options.getInteger('bank_id', false);
+    const bankId = interaction.options.getString('bank_id', false);
     if (bankId) {
-      const row = getCharacterById(bankId);
+      const cleanedId = String(bankId).trim().replace(/^#/, '');
+      if (!cleanedId) {
+        await interaction.editReply('Provide a valid bank_id.');
+        return;
+      }
+      const isDm = interaction.memberPermissions?.has(PermissionsBitField.Flags.ManageGuild)
+        || interaction.memberPermissions?.has(PermissionsBitField.Flags.Administrator);
+      const row = getCharacterById(cleanedId, { userId: interaction.user.id, isDm });
       if (!row) {
-        await interaction.editReply(`No character found for ID ${bankId}.`);
+        await interaction.editReply(`No character found for ID ${cleanedId}.`);
         return;
       }
       await interaction.editReply(buildCharacterSheet({ fields: row }, row.name || `#${bankId}`));
@@ -710,6 +955,8 @@ export async function handleChatInputCommand({
 
   if (interaction.commandName === 'bank') {
     const sub = interaction.options.getSubcommand();
+    const isDm = interaction.memberPermissions?.has(PermissionsBitField.Flags.ManageGuild)
+      || interaction.memberPermissions?.has(PermissionsBitField.Flags.Administrator);
     if (sub === 'create') {
       if (!isCreatorChannel) {
         await interaction.editReply('Use /bank create in #character-creator.');
@@ -724,7 +971,7 @@ export async function handleChatInputCommand({
         await interaction.editReply('Use /bank list in the game or character-creator channel.');
         return;
       }
-      const rows = listCharacters();
+      const rows = listCharacters({ userId: interaction.user.id, isDm });
       await interaction.editReply(formatBankList(rows));
       return;
     }
@@ -733,10 +980,11 @@ export async function handleChatInputCommand({
         await interaction.editReply('Use /bank take in the game channel.');
         return;
       }
-      const id = interaction.options.getInteger('id', true);
-      const row = getCharacterById(id);
+      const id = interaction.options.getString('id', true);
+      const cleanedId = String(id).trim().replace(/^#/, '');
+      const row = getCharacterById(cleanedId, { userId: interaction.user.id, isDm });
       if (!row) {
-        await interaction.editReply(`No character found for ID ${id}.`);
+        await interaction.editReply(`No character found for ID ${cleanedId}.`);
         return;
       }
       setCharacter(interaction.user.id, row.name || interaction.user.username);
@@ -745,33 +993,39 @@ export async function handleChatInputCommand({
       return;
     }
     if (sub === 'info') {
-      const id = interaction.options.getInteger('id', true);
-      const row = getCharacterById(id);
+      const id = interaction.options.getString('id', true);
+      const cleanedId = String(id).trim().replace(/^#/, '');
+      const row = getCharacterById(cleanedId, { userId: interaction.user.id, isDm });
       if (!row) {
-        await interaction.editReply(`No character found for ID ${id}.`);
+        await interaction.editReply(`No character found for ID ${cleanedId}.`);
         return;
       }
-      await interaction.editReply(buildCharacterSheet({ fields: row }, row.name || `#${id}`));
+      await interaction.editReply(buildCharacterSheet({ fields: row }, row.name || `#${cleanedId}`));
       return;
     }
     if (sub === 'delete') {
-      const id = interaction.options.getInteger('id', false);
+      const id = interaction.options.getString('id', false);
       const name = interaction.options.getString('name', false);
       if (!id && !name) {
         await interaction.editReply('Provide either id or name to delete.');
         return;
       }
       if (id) {
-        const row = getCharacterById(id);
+        const cleanedId = String(id).trim().replace(/^#/, '');
+        const row = getCharacterById(cleanedId, { userId: interaction.user.id, isDm });
         if (!row) {
-          await interaction.editReply(`No character found for ID ${id}.`);
+          await interaction.editReply(`No character found for ID ${cleanedId}.`);
           return;
         }
-        deleteCharacterById(id);
-        await interaction.editReply(`Deleted character #${id} (${row.name || 'Unknown'}).`);
+        const deleted = deleteCharacterById(cleanedId, { userId: interaction.user.id, isDm });
+        if (!deleted) {
+          await interaction.editReply('Unable to delete that character.');
+          return;
+        }
+        await interaction.editReply(`Deleted character #${cleanedId} (${row.name || 'Unknown'}).`);
         return;
       }
-      const count = deleteCharactersByName(name);
+      const count = deleteCharactersByName(name, { userId: interaction.user.id, isDm });
       if (!count) {
         await interaction.editReply(`No characters found with name "${name}".`);
         return;
@@ -1027,6 +1281,9 @@ export async function handleChatInputCommand({
     const helpEntries = [
       { name: 'setup', line: '/setup [overwrite:true]' },
       { name: 'mode', line: '/mode type:<free|structured>' },
+      { name: 'check', line: '/check ability:<str|dex|con|int|wis|cha> [skill:<name>] [dc:<n>] [adv|dis]' },
+      { name: 'percent', line: '/percent chance:<1-100>' },
+      { name: 'rolltable', line: '/rolltable die:<d4|d6|d8|d10|d12|d20|d100>' },
       { name: 'setchar', line: '/setchar name:<name> OR /setchar bank_id:<id>' },
       { name: 'turn', line: '/turn user:@Player' },
       { name: 'roll', line: '/roll expression:<NdM[+/-K]> [adv|dis]' },

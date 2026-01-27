@@ -277,10 +277,12 @@ export function createCombatEngine({
       channelId,
       createdBy,
       status: 'setup',
+      phase: 'initiative',
       round: 0,
       turnIndex: 0,
       initiativeOrder: [],
       combatants: {},
+      turnState: {},
       log: [],
     };
     session.combat = combat;
@@ -347,6 +349,9 @@ export function createCombatEngine({
     combat.round = 1;
     combat.turnIndex = 0;
     combat.status = 'active';
+    combat.phase = 'turn-start';
+    const activeId = combat.initiativeOrder[combat.turnIndex];
+    if (activeId) resetTurnState(combat, activeId);
     return combat;
   }
 
@@ -361,7 +366,65 @@ export function createCombatEngine({
     if (!combat.initiativeOrder.length) return null;
     combat.turnIndex = (combat.turnIndex + 1) % combat.initiativeOrder.length;
     if (combat.turnIndex === 0) combat.round += 1;
+    combat.phase = 'turn-start';
+    const activeId = combat.initiativeOrder[combat.turnIndex];
+    if (activeId) resetTurnState(combat, activeId);
     return getActiveCombatant(combat);
+  }
+
+  function resetTurnState(combat, combatantId) {
+    if (!combat || !combatantId) return null;
+    combat.turnState[combatantId] = {
+      actionUsed: false,
+      bonusUsed: false,
+      reactionUsed: false,
+    };
+    return combat.turnState[combatantId];
+  }
+
+  function getTurnState(combat, combatantId) {
+    if (!combat || !combatantId) return null;
+    return combat.turnState[combatantId] || resetTurnState(combat, combatantId);
+  }
+
+  function useAction(combat, combatantId) {
+    const state = getTurnState(combat, combatantId);
+    if (!state) return null;
+    state.actionUsed = true;
+    return state;
+  }
+
+  function useBonusAction(combat, combatantId) {
+    const state = getTurnState(combat, combatantId);
+    if (!state) return null;
+    state.bonusUsed = true;
+    return state;
+  }
+
+  function useReaction(combat, combatantId) {
+    const state = getTurnState(combat, combatantId);
+    if (!state) return null;
+    state.reactionUsed = true;
+    return state;
+  }
+
+  function setPhase(combat, phase) {
+    if (!combat || combat.status !== 'active') return null;
+    const next = String(phase || '').trim().toLowerCase();
+    const allowed = ['turn-start', 'action', 'bonus-reaction', 'turn-end'];
+    if (!allowed.includes(next)) return null;
+    combat.phase = next;
+    return combat.phase;
+  }
+
+  function advancePhase(combat) {
+    if (!combat || combat.status !== 'active') return null;
+    const order = ['turn-start', 'action', 'bonus-reaction', 'turn-end'];
+    const current = order.includes(combat.phase) ? combat.phase : 'turn-start';
+    const idx = order.indexOf(current);
+    const next = order[(idx + 1) % order.length];
+    combat.phase = next;
+    return combat.phase;
   }
 
   function attack({
@@ -478,9 +541,21 @@ export function createCombatEngine({
     if (!combat) return 'No active combat.';
     const lines = [`${combat.name} (${combat.status})`];
     lines.push(`Round: ${combat.round || 0}`);
+    if (combat.phase) lines.push(`Phase: ${combat.phase}`);
     if (combat.status === 'active') {
       const active = getActiveCombatant(combat);
-      if (active) lines.push(`Turn: ${active.name}`);
+      if (active) {
+        lines.push(`Turn: ${active.name}`);
+        const state = getTurnState(combat, active.id);
+        if (state) {
+          const flags = [
+            state.actionUsed ? 'Action: used' : 'Action: open',
+            state.bonusUsed ? 'Bonus: used' : 'Bonus: open',
+            state.reactionUsed ? 'Reaction: used' : 'Reaction: open',
+          ];
+          lines.push(`Turn state: ${flags.join(' | ')}`);
+        }
+      }
     }
     const order = combat.initiativeOrder.map(id => {
       const c = combat.combatants[id];
@@ -514,6 +589,12 @@ export function createCombatEngine({
     removeCondition,
     spendSpellSlot,
     rollSavingThrow,
+    setPhase,
+    advancePhase,
+    getTurnState,
+    useAction,
+    useBonusAction,
+    useReaction,
     formatCombatStatus,
   };
 }

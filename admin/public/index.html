@@ -4,20 +4,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>DM Bot Control Room</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260125" />
   </head>
-  <body>
+  <body class="landing">
     <div class="ambient">
       <span></span>
       <span></span>
       <span></span>
     </div>
     <header class="hero">
+      <div class="maw" aria-hidden="true"></div>
+      <div class="tongue" aria-hidden="true"></div>
       <div>
         <p class="eyebrow">Dungeon Master Console</p>
-        <h1>Welcome</h1>
+        <h1>Welcome to Mimic</h1>
         <p class="lede">
-          Choose your portal. Players can view their sheets. Admins can manage the bot.
+          Mimic is a Discord-powered tabletop companion that keeps your campaign running smoothly.
+        </p>
+        <p class="lede">
+          Choose a portal to manage the bot or dive into your character.
         </p>
       </div>
       <div class="hero-card" id="landing-card">
@@ -31,24 +36,26 @@
       <a class="panel nav-card" href="/player.html">
         <div class="panel-head">
           <h2>Player Portal</h2>
-          <p>View your character sheet.</p>
+          <p>Build characters, manage inventory, and view your sheet.</p>
         </div>
-        <p class="panel-note">Sign in to see spells and inventory.</p>
+        <p class="panel-note">This is where players handle their character details.</p>
       </a>
 
       <a class="panel nav-card" href="/admin.html" id="admin-link">
         <div class="panel-head">
           <h2>Admin Panel</h2>
-          <p>Configure the bot and data.</p>
+          <p>Set up the bot, channels, and feature toggles.</p>
         </div>
-        <p class="panel-note">Admins only.</p>
+        <p class="panel-note">Discord setup, categories, and system controls.</p>
       </a>
     </main>
 
     <footer class="footer">
-      <span class="panel-note">Players won’t see the admin panel unless authorized.</span>
+      <span class="panel-note">Players won't see the admin panel unless authorized.</span>
     </footer>
 
     <script src="/landing.js"></script>
   </body>
 </html>
+
+

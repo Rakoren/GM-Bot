@@ -122,6 +122,10 @@ const CAMPAIGN_DIR = path.join(__dirname, 'campaigns');
 const ADMIN_CONFIG_PATH = process.env.ADMIN_CONFIG_PATH
   ? path.resolve(process.env.ADMIN_CONFIG_PATH)
   : path.join(__dirname, 'admin_config.json');
+const COMBAT_STATE_PATH = path.join(__dirname, 'combat_state.json');
+const LOOT_STATE_PATH = path.join(__dirname, 'loot_state.json');
+const WEB_CHARACTER_BANK_PATH = path.join(__dirname, 'characters.json');
+const NPC_PERSONAS_PATH = path.join(__dirname, 'npc_personas.json');
 
 const DEFAULT_FEATURE_FLAGS = {
   enableSlashCommands: true,
@@ -134,8 +138,13 @@ const DEFAULT_FEATURE_FLAGS = {
   enableDataReload: true,
   enableUploads: true,
 };
+const DEFAULT_AI_MODE = 'active';
 
 const COMMAND_GROUP_BY_NAME = {
+  check: 'core',
+  percent: 'core',
+  rolltable: 'core',
+  status: 'core',
   setup: 'setup',
   mode: 'play',
   setchar: 'play',
@@ -167,6 +176,7 @@ const COMMAND_GROUP_BY_NAME = {
 
 let adminConfig = {
   version: 1,
+  aiMode: DEFAULT_AI_MODE,
   features: { ...DEFAULT_FEATURE_FLAGS },
   commands: {},
   channels: {
@@ -188,6 +198,7 @@ function buildDefaultAdminConfig(commandList = []) {
   }
   return {
     version: 1,
+    aiMode: DEFAULT_AI_MODE,
     features: { ...DEFAULT_FEATURE_FLAGS },
     commands,
     channels: {
@@ -228,6 +239,11 @@ function normalizeAdminConfig(raw, commandList = []) {
     typeof config.commandPoliciesByGuild === 'object' && config.commandPoliciesByGuild
       ? config.commandPoliciesByGuild
       : null;
+  const aiMode =
+    typeof config.aiMode === 'string' ? config.aiMode.trim().toLowerCase() : '';
+  if (aiMode === 'active' || aiMode === 'passive') {
+    base.aiMode = aiMode;
+  }
 
   base.features = { ...base.features };
   for (const [key, value] of Object.entries(features)) {
@@ -333,6 +349,25 @@ function saveAdminConfig(config) {
   }
 }
 
+function saveJsonSafe(filePath, payload) {
+  try {
+    fs.writeFileSync(filePath, JSON.stringify(payload, null, 2), 'utf8');
+  } catch (err) {
+    console.warn(`Failed to write ${path.basename(filePath)}:`, err?.message || err);
+  }
+}
+
+function loadJsonObject(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) return {};
+    const raw = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return raw && typeof raw === 'object' ? raw : {};
+  } catch (err) {
+    console.warn(`Failed to read ${path.basename(filePath)}:`, err?.message || err);
+    return {};
+  }
+}
+
 function initAdminConfig(commandList = []) {
   adminConfig = loadAdminConfig(commandList);
   saveAdminConfig(adminConfig);
@@ -346,6 +381,69 @@ function initAdminConfig(commandList = []) {
 
 function isFeatureEnabled(key) {
   return adminConfig?.features?.[key] !== false;
+}
+
+function getAiMode() {
+  return adminConfig?.aiMode === 'passive' ? 'passive' : 'active';
+}
+
+function isAiActive() {
+  return getAiMode() === 'active';
+}
+
+function buildCombatSnapshot(combat) {
+  if (!combat) {
+    return { active: false, updatedAt: new Date().toISOString() };
+  }
+  const activeCombatant = combat.status === 'active' ? combat.initiativeOrder[combat.turnIndex] : null;
+  const order = combat.initiativeOrder.map(id => {
+    const c = combat.combatants[id];
+    if (!c) return null;
+    return {
+      id: c.id,
+      name: c.name,
+      initiative: c.initiative ?? null,
+      hp: Number.isFinite(c.hp) ? c.hp : null,
+      maxHp: Number.isFinite(c.maxHp) ? c.maxHp : null,
+      ac: Number.isFinite(c.ac) ? c.ac : null,
+      conditions: Array.isArray(c.conditions) ? c.conditions : [],
+      type: c.type,
+    };
+  }).filter(Boolean);
+  const roster = Object.values(combat.combatants).map(c => ({
+    id: c.id,
+    name: c.name,
+    initiative: c.initiative ?? null,
+    hp: Number.isFinite(c.hp) ? c.hp : null,
+    maxHp: Number.isFinite(c.maxHp) ? c.maxHp : null,
+    ac: Number.isFinite(c.ac) ? c.ac : null,
+    conditions: Array.isArray(c.conditions) ? c.conditions : [],
+    type: c.type,
+  }));
+  return {
+    active: combat.status === 'active',
+    status: combat.status,
+    phase: combat.phase || null,
+    round: combat.round || 0,
+    name: combat.name || 'Combat',
+    activeCombatantId: activeCombatant || null,
+    initiativeOrder: order,
+    roster,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+function saveCombatState(session) {
+  const payload = buildCombatSnapshot(session?.combat || null);
+  saveJsonSafe(COMBAT_STATE_PATH, payload);
+}
+
+function saveLootState(session) {
+  const items = Array.isArray(session?.sharedLoot) ? session.sharedLoot : [];
+  saveJsonSafe(LOOT_STATE_PATH, {
+    items,
+    updatedAt: new Date().toISOString(),
+  });
 }
 
 function isCommandEnabled(name) {
@@ -917,12 +1015,104 @@ function formatBankList(rows) {
   if (!rows.length) return 'Character bank is empty.';
   const lines = ['Character bank (latest 10):'];
   for (const r of rows) {
-    lines.push(`#${r.id} - ${r.name} (${r.class || 'unknown'} ${r.level || ''}) ${r.species || ''}`.trim());
+    const owner = r.ownerId ? ` [${r.ownerId}]` : '';
+    lines.push(`#${r.id} - ${r.name}${owner} (${r.class || 'unknown'} ${r.level || ''}) ${r.species || ''}`.trim());
   }
   return lines.join('\n');
 }
 
-function listCharacters() {
+function loadWebCharacterBank() {
+  try {
+    if (!fs.existsSync(WEB_CHARACTER_BANK_PATH)) return null;
+    const raw = JSON.parse(fs.readFileSync(WEB_CHARACTER_BANK_PATH, 'utf8'));
+    return raw && typeof raw === 'object' ? raw : null;
+  } catch (err) {
+    console.warn('Failed to read characters.json:', err?.message || err);
+    return null;
+  }
+}
+
+function saveWebCharacterBank(bank) {
+  try {
+    fs.writeFileSync(WEB_CHARACTER_BANK_PATH, JSON.stringify(bank || {}, null, 2), 'utf8');
+  } catch (err) {
+    console.warn('Failed to write characters.json:', err?.message || err);
+  }
+}
+
+function loadNpcPersonas() {
+  return loadJsonObject(NPC_PERSONAS_PATH);
+}
+
+function saveNpcPersonas(personas) {
+  saveJsonSafe(NPC_PERSONAS_PATH, personas || {});
+}
+
+function getNpcPersona(npcId) {
+  const personas = loadNpcPersonas();
+  return personas?.[String(npcId)] || null;
+}
+
+function setNpcPersona(npcId, persona) {
+  if (!npcId) return null;
+  const personas = loadNpcPersonas();
+  personas[String(npcId)] = {
+    ...(personas[String(npcId)] || {}),
+    ...(persona || {}),
+    updatedAt: new Date().toISOString(),
+  };
+  saveNpcPersonas(personas);
+  return personas[String(npcId)];
+}
+
+function deleteNpcPersona(npcId) {
+  if (!npcId) return false;
+  const personas = loadNpcPersonas();
+  if (!personas[String(npcId)]) return false;
+  delete personas[String(npcId)];
+  saveNpcPersonas(personas);
+  return true;
+}
+
+function buildWebCharacterRow(entry, ownerId) {
+  const payload = entry?.payload && typeof entry.payload === 'object' ? entry.payload : {};
+  const name = entry?.name || payload.name || 'Unknown';
+  return {
+    id: entry?.id || entry?.key || name,
+    name,
+    class: payload.class || payload.class_id || payload.className || '',
+    level: payload.level || '',
+    species: payload.species || payload.species_name || '',
+    alignment: payload.alignment || '',
+    stats: payload.stats || '',
+    updatedAt: entry?.updatedAt || payload.updatedAt || payload.updated_at || null,
+    ownerId: ownerId || '',
+    ...payload,
+  };
+}
+
+function listCharacters({ userId, isDm = false } = {}) {
+  const bank = loadWebCharacterBank();
+  if (bank) {
+    const rows = [];
+    Object.entries(bank).forEach(([ownerId, entries]) => {
+      if (!isDm && ownerId !== userId) return;
+      const list = entries && typeof entries === 'object' ? Object.values(entries) : [];
+      list.forEach(entry => {
+        const row = buildWebCharacterRow(entry, ownerId);
+        if (!isDm) row.ownerId = '';
+        rows.push(row);
+      });
+    });
+    if (rows.length) {
+      rows.sort((a, b) => {
+        const at = Date.parse(a.updatedAt || a.updated_at || '') || 0;
+        const bt = Date.parse(b.updatedAt || b.updated_at || '') || 0;
+        return bt - at;
+      });
+      return rows.slice(0, 10);
+    }
+  }
   const result = db.exec(
     `SELECT id, name, class, level, species, alignment, stats
      FROM characters
@@ -932,19 +1122,76 @@ function listCharacters() {
   return execToRows(result);
 }
 
-function getCharacterById(id) {
+function findWebCharacterById(id, { userId, isDm = false } = {}) {
+  const rawId = String(id || '').trim();
+  if (!rawId) return null;
+  const bank = loadWebCharacterBank();
+  if (!bank) return null;
+  for (const [ownerId, entries] of Object.entries(bank)) {
+    if (!isDm && ownerId !== userId) continue;
+    const list = entries && typeof entries === 'object' ? Object.values(entries) : [];
+    const match = list.find(entry => String(entry?.id || '').trim() === rawId);
+    if (match) return buildWebCharacterRow(match, ownerId);
+  }
+  return null;
+}
+
+function getCharacterById(id, opts = {}) {
+  const web = findWebCharacterById(id, opts);
+  if (web) return web;
+  const numeric = Number(id);
+  if (!Number.isFinite(numeric)) return null;
   const result = db.exec(
-    `SELECT * FROM characters WHERE id = ${Number(id)} LIMIT 1`
+    `SELECT * FROM characters WHERE id = ${numeric} LIMIT 1`
   );
   return execToRows(result)[0] || null;
 }
 
-function deleteCharacterById(id) {
-  db.run(`DELETE FROM characters WHERE id = ${Number(id)}`);
+function deleteCharacterById(id, { userId, isDm = false } = {}) {
+  const rawId = String(id || '').trim();
+  const bank = loadWebCharacterBank();
+  if (bank && rawId) {
+    for (const [ownerId, entries] of Object.entries(bank)) {
+      if (!isDm && ownerId !== userId) continue;
+      if (!entries || typeof entries !== 'object') continue;
+      const key = Object.keys(entries).find(k => String(entries[k]?.id || '').trim() === rawId);
+      if (key) {
+        delete entries[key];
+        bank[ownerId] = entries;
+        saveWebCharacterBank(bank);
+        return true;
+      }
+    }
+    return false;
+  }
+  const numeric = Number(id);
+  if (!Number.isFinite(numeric)) return false;
+  db.run(`DELETE FROM characters WHERE id = ${numeric}`);
   saveDatabase();
+  return true;
 }
 
-function deleteCharactersByName(name) {
+function deleteCharactersByName(name, { userId, isDm = false } = {}) {
+  const target = String(name || '').trim().toLowerCase();
+  if (!target) return 0;
+  const bank = loadWebCharacterBank();
+  if (bank) {
+    let deleted = 0;
+    for (const [ownerId, entries] of Object.entries(bank)) {
+      if (!isDm && ownerId !== userId) continue;
+      if (!entries || typeof entries !== 'object') continue;
+      for (const [key, entry] of Object.entries(entries)) {
+        const entryName = String(entry?.name || '').trim().toLowerCase();
+        if (entryName && entryName === target) {
+          delete entries[key];
+          deleted += 1;
+        }
+      }
+      bank[ownerId] = entries;
+    }
+    if (deleted) saveWebCharacterBank(bank);
+    return deleted;
+  }
   const safe = String(name).replace(/'/g, "''");
   const result = db.exec(`SELECT id FROM characters WHERE name = '${safe}'`);
   const rows = execToRows(result);
@@ -1113,6 +1360,8 @@ function getOrCreateSession(sessionId) {
     lastTypingMs: 0,
     history: [],
     systemPrompt: buildBaseSystemPrompt(),
+    aiPassiveNotified: false,
+    sharedLoot: [],
     session0Active: false,
     session0Step: null,
     campaignSetupActive: false,
@@ -3901,6 +4150,10 @@ function buildGameStartPrompt(session) {
 }
 
 async function startGameIntro(session, channel) {
+  if (!isAiActive()) {
+    await channel.send('AI is in passive mode. Switch to AI-Active to generate the opening scene.');
+    return;
+  }
   const guild = channel.guild;
   const rosterBlock = buildRosterBlock(session.sessionId, guild);
   const introPrompt = buildGameStartPrompt(session);
@@ -4592,6 +4845,15 @@ async function processQueue(session, msgContext) {
   const channel = msgContext.channel;
   const guild = msgContext.guild;
 
+  if (!isAiActive()) {
+    session.queue.length = 0;
+    if (!session.aiPassiveNotified) {
+      session.aiPassiveNotified = true;
+      await channel.send('AI is in passive mode. Use /lookup or explicit generation commands.');
+    }
+    return;
+  }
+
   // Structured mode gating
   if (session.mode === 'structured') {
     const next = session.queue[0];
@@ -4797,6 +5059,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
         xpByUserId,
         pendingPasteImports,
         isFeatureEnabled,
+        getAiMode,
         isCommandEnabled,
         isCommandAllowedForMember,
         getOrCreateManualLoginSet,
@@ -4837,6 +5100,8 @@ client.on(Events.InteractionCreate, async (interaction) => {
           ttsSpeak,
         openai,
         updateChannelConfig,
+        saveCombatState,
+        saveLootState,
         getLoginVoiceChannelId,
         getOrCreateVoiceConnection,
         getOrCreateAudioPlayer,

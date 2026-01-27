@@ -10,7 +10,7 @@
     "openai": "^6.16.0",
     "sql.js": "^1.13.0"
   },
-    "name": "discord-dm-bot",
+    "name": "mimic",
     "version": "1.0.0",
     "type": "module",
     "main": "index.js",

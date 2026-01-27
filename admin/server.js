@@ -35,6 +35,15 @@ const MANAGE_GUILD_PERMISSION = 0x20n;
 const PLAYER_ROLE_NAME = (process.env.PLAYER_ROLE_NAME || 'player').toLowerCase();
 const ONLINE_PLAYER_TTL_MS = 2 * 60 * 1000;
 const onlinePlayers = new Map();
+const BUILD_ID = (process.env.BUILD_ID || new Date().toISOString()).replace(/[-:.TZ]/g, '');
+const ADMIN_COOKIE_SECURE =
+  process.env.ADMIN_COOKIE_SECURE === 'true' || process.env.NODE_ENV === 'production';
+const ADMIN_SESSION_STORE = (process.env.ADMIN_SESSION_STORE || 'memory').toLowerCase();
+const ADMIN_SESSION_FILE =
+  process.env.ADMIN_SESSION_FILE || path.join(ROOT_DIR, 'admin_sessions.json');
+const ADMIN_SESSION_TTL_MS = Number(process.env.ADMIN_SESSION_TTL_MS || 1000 * 60 * 60 * 24 * 7);
+const COMBAT_STATE_PATH = path.join(ROOT_DIR, 'combat_state.json');
+const LOOT_STATE_PATH = path.join(ROOT_DIR, 'loot_state.json');
 
 function canManageGuild(guild) {
   if (!guild) return false;
@@ -89,6 +98,10 @@ function saveTrades(trades) {
 }
 
 const COMMAND_MANIFEST = [
+  { name: 'status', description: 'Show bot status' },
+  { name: 'check', description: 'Roll an ability or skill check' },
+  { name: 'percent', description: 'Roll a percentile check' },
+  { name: 'rolltable', description: 'Roll a random table die' },
   { name: 'mode', description: 'Set DM mode' },
   { name: 'setchar', description: 'Link your Discord user to a character name' },
   { name: 'turn', description: 'Set the active turn to a user' },
@@ -130,6 +143,7 @@ const DEFAULT_FEATURE_FLAGS = {
   enableDataReload: true,
   enableUploads: true,
 };
+const DEFAULT_AI_MODE = 'active';
 
 function buildDefaultConfig() {
   const commands = {};
@@ -138,6 +152,7 @@ function buildDefaultConfig() {
   }
   return {
     version: 1,
+    aiMode: DEFAULT_AI_MODE,
     features: { ...DEFAULT_FEATURE_FLAGS },
     commands,
     commandRegistry: {
@@ -168,6 +183,11 @@ function normalizeConfig(raw) {
     config.commandPoliciesByGuild && typeof config.commandPoliciesByGuild === 'object'
       ? config.commandPoliciesByGuild
       : null;
+  const aiMode =
+    typeof config.aiMode === 'string' ? config.aiMode.trim().toLowerCase() : '';
+  if (aiMode === 'active' || aiMode === 'passive') {
+    base.aiMode = aiMode;
+  }
   if (config.features && typeof config.features === 'object') {
     for (const [key, value] of Object.entries(config.features)) {
       if (typeof value === 'boolean') base.features[key] = value;
@@ -217,6 +237,97 @@ function saveConfig(config) {
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+}
+
+function loadJsonSafe(filePath, fallback) {
+  try {
+    if (!fs.existsSync(filePath)) return fallback;
+    const raw = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return raw && typeof raw === 'object' ? raw : fallback;
+  } catch (err) {
+    console.warn(`Failed to read ${path.basename(filePath)}:`, err?.message || err);
+    return fallback;
+  }
+}
+
+function createFileSessionStore(sessionModule) {
+  const { Store } = sessionModule;
+  let cache = {};
+
+  function loadFromDisk() {
+    if (!fs.existsSync(ADMIN_SESSION_FILE)) return;
+    try {
+      const data = JSON.parse(fs.readFileSync(ADMIN_SESSION_FILE, 'utf8'));
+      if (data && typeof data === 'object') cache = data;
+    } catch (err) {
+      console.warn('Failed to read admin session store:', err?.message || err);
+    }
+  }
+
+  function saveToDisk() {
+    try {
+      fs.writeFileSync(ADMIN_SESSION_FILE, JSON.stringify(cache || {}, null, 2), 'utf8');
+    } catch (err) {
+      console.warn('Failed to write admin session store:', err?.message || err);
+    }
+  }
+
+  function isExpired(sess) {
+    const expires = sess?.cookie?.expires;
+    if (!expires) return false;
+    const exp = new Date(expires).getTime();
+    if (!Number.isFinite(exp)) return false;
+    return exp <= Date.now();
+  }
+
+  class FileStore extends Store {
+    get(sid, callback) {
+      const entry = cache[sid];
+      if (!entry) return callback(null, null);
+      if (isExpired(entry)) {
+        delete cache[sid];
+        saveToDisk();
+        return callback(null, null);
+      }
+      return callback(null, entry);
+    }
+
+    set(sid, sessionData, callback) {
+      cache[sid] = sessionData;
+      saveToDisk();
+      callback?.(null);
+    }
+
+    destroy(sid, callback) {
+      delete cache[sid];
+      saveToDisk();
+      callback?.(null);
+    }
+
+    touch(sid, sessionData, callback) {
+      cache[sid] = sessionData;
+      saveToDisk();
+      callback?.(null);
+    }
+  }
+
+  loadFromDisk();
+  setInterval(() => {
+    const now = Date.now();
+    let changed = false;
+    for (const [sid, sess] of Object.entries(cache)) {
+      const expires = sess?.cookie?.expires;
+      if (!expires) continue;
+      const exp = new Date(expires).getTime();
+      if (Number.isFinite(exp) && exp <= now) {
+        delete cache[sid];
+        changed = true;
+      }
+    }
+    if (changed) saveToDisk();
+  }, 30 * 60 * 1000);
+
+  return new FileStore();
 }
 
 function listDatasetFiles() {
@@ -918,6 +1029,12 @@ async function fetchDiscordJson(url, token, tokenType = 'Bearer') {
 }
 
 const app = express();
+if (ADMIN_COOKIE_SECURE) {
+  app.set('trust proxy', 1);
+}
+if (ADMIN_SESSION_STORE === 'memory' && process.env.NODE_ENV === 'production') {
+  console.warn('ADMIN_SESSION_STORE is memory in production. Consider ADMIN_SESSION_STORE=file.');
+}
 
 const sessionSecret = process.env.ADMIN_SESSION_SECRET || crypto.randomBytes(32).toString('hex');
 if (!process.env.ADMIN_SESSION_SECRET) {
@@ -926,12 +1043,15 @@ if (!process.env.ADMIN_SESSION_SECRET) {
 
 app.use(
   session({
+    store: ADMIN_SESSION_STORE === 'file' ? createFileSessionStore(session) : undefined,
     secret: sessionSecret,
     resave: false,
     saveUninitialized: false,
     cookie: {
       sameSite: 'lax',
       httpOnly: true,
+      secure: ADMIN_COOKIE_SECURE,
+      maxAge: ADMIN_SESSION_TTL_MS,
     },
   })
 );
@@ -940,6 +1060,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const ADMIN_PAGES = new Set([
   '/admin.html',
+  '/dashboard.html',
   '/features.html',
   '/commands.html',
   '/datasets.html',
@@ -955,7 +1076,29 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(express.static(PUBLIC_DIR));
+app.get('*.html', (req, res, next) => {
+  const safePath = `.${req.path}`;
+  const filePath = path.resolve(PUBLIC_DIR, safePath);
+  if (!filePath.startsWith(PUBLIC_DIR + path.sep)) {
+    return next();
+  }
+  if (!fs.existsSync(filePath)) {
+    return next();
+  }
+  const html = fs
+    .readFileSync(filePath, 'utf8')
+    .replace(/\/styles\.css(\?v=[^"]*)?/g, `/styles.css?v=${BUILD_ID}`);
+  res.setHeader('Cache-Control', 'no-store');
+  res.type('html').send(html);
+});
+
+app.use(express.static(PUBLIC_DIR, {
+  setHeaders: (res, filePath) => {
+    if (/\.(css|js|png|jpg|jpeg|svg|webp|ico)$/.test(filePath)) {
+      res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+    }
+  },
+}));
 
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 15 * 1024 * 1024 } });
 
@@ -1071,6 +1214,16 @@ app.post('/api/select-guild', requireAuth, (req, res) => {
 
 app.get('/api/command-manifest', requireAuth, (req, res) => {
   res.json(COMMAND_MANIFEST);
+});
+
+app.get('/api/combat/state', requireAuth, (req, res) => {
+  const payload = loadJsonSafe(COMBAT_STATE_PATH, { active: false, updatedAt: null });
+  res.json(payload);
+});
+
+app.get('/api/loot', requireAuth, (req, res) => {
+  const payload = loadJsonSafe(LOOT_STATE_PATH, { items: [], updatedAt: null });
+  res.json(payload);
 });
 
 app.get('/api/config', requireAuth, (req, res) => {
@@ -1325,6 +1478,9 @@ app.get('/auth/discord/callback', async (req, res) => {
     const preferredGuild = ADMIN_GUILD_ID
       ? manageableGuilds.find(guild => guild.id === ADMIN_GUILD_ID)
       : null;
+    await new Promise((resolve, reject) => {
+      req.session.regenerate(err => (err ? reject(err) : resolve()));
+    });
     if (manageableGuilds.length) {
       req.session.user = {
         authorized: true,
@@ -1372,6 +1528,9 @@ app.get('/auth/discord/player/callback', async (req, res) => {
           permissions: guild.permissions,
         }))
       : [];
+    await new Promise((resolve, reject) => {
+      req.session.regenerate(err => (err ? reject(err) : resolve()));
+    });
     req.session.player = {
       authorized: true,
       id: user.id,
@@ -1445,6 +1604,13 @@ app.get('/api/player/characters/list', requirePlayerAuth, async (req, res) => {
       .map(entry => ({
         id: entry.id,
         name: entry.name,
+        art: entry?.payload?.art
+          || entry?.payload?.image
+          || entry?.payload?.art_url
+          || entry?.payload?.character_art
+          || entry?.payload?.portrait
+          || entry?.payload?.avatar
+          || '',
         updatedAt: entry.updatedAt,
       }))
       .sort((a, b) => String(a.name).localeCompare(String(b.name)));
@@ -1514,6 +1680,43 @@ app.post('/api/player/characters/load', requirePlayerAuth, async (req, res) => {
   } catch (err) {
     console.error('Character load failed:', err);
     res.status(500).json({ error: 'character-load-failed' });
+  }
+});
+
+app.post('/api/player/characters/delete', requirePlayerAuth, async (req, res) => {
+  ensurePlayerSessionFromAdmin(req);
+  try {
+    const roleCheck = await assertPlayerRole(req, res);
+    if (!roleCheck) return;
+    const body = typeof req.body === 'object' && req.body ? req.body : {};
+    const id = String(body.id || '').trim();
+    const name = String(body.name || '').trim();
+    if (!id && !name) {
+      res.status(400).json({ error: 'missing-id' });
+      return;
+    }
+    const bank = loadCharacterBank();
+    const entries = bank?.[req.session.player.id] || {};
+    let keyToDelete = '';
+    if (id) {
+      const match = Object.entries(entries).find(([, entry]) => entry?.id === id);
+      if (match) keyToDelete = match[0];
+    }
+    if (!keyToDelete && name) {
+      const key = normalizeName(name);
+      if (entries[key]) keyToDelete = key;
+    }
+    if (!keyToDelete) {
+      res.status(404).json({ error: 'character-not-found' });
+      return;
+    }
+    delete entries[keyToDelete];
+    bank[req.session.player.id] = entries;
+    saveCharacterBank(bank);
+    res.json({ ok: true });
+  } catch (err) {
+    console.error('Character delete failed:', err);
+    res.status(500).json({ error: 'character-delete-failed' });
   }
 });
 

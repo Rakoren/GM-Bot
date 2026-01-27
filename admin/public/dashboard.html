@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Feature Switches | DM Bot Control Room</title>
+    <title>Dashboard | DM Bot Control Room</title>
     <link rel="stylesheet" href="/styles.css?v=20260125" />
   </head>
   <body>
@@ -15,8 +15,8 @@
     <header class="hero">
       <div>
         <p class="eyebrow">Dungeon Master Console</p>
-        <h1>Feature Switches <span class="status-pill" id="ai-mode-pill">AI-Active</span></h1>
-        <p class="lede">Flip the master toggles that gate the bot's major systems.</p>
+        <h1>Live Dashboard</h1>
+        <p class="lede">Combat flow, conditions, and shared loot at a glance.</p>
       </div>
       <div class="hero-card" id="auth-card">
         <p class="card-title">Discord Access</p>
@@ -28,8 +28,8 @@
     <div class="layout">
       <nav class="side-nav">
         <p class="side-title">Control Pages</p>
-        <a href="/dashboard.html">Dashboard</a>
-        <a href="/features.html" class="active">Feature Switches</a>
+        <a href="/dashboard.html" class="active">Dashboard</a>
+        <a href="/features.html">Feature Switches</a>
         <a href="/commands.html">Command Matrix</a>
         <a href="/datasets.html">Data Sets</a>
         <a href="/homebrew.html">Homebrew</a>
@@ -38,25 +38,36 @@
       </nav>
 
       <main class="grid">
-        <section class="panel" id="features-panel">
+        <section class="panel">
           <div class="panel-head">
-            <h2>Feature Switches</h2>
-            <p>Hot reloads live on the bot.</p>
+            <h2>Combat Snapshot</h2>
+            <p id="combat-status">Awaiting combat data...</p>
           </div>
-          <div class="panel-body">
-            <div class="ai-mode-row" id="ai-mode-row"></div>
-            <div id="features-list"></div>
+          <div class="panel-body" id="combat-summary"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Initiative Order</h2>
+            <p>Active turn and current phase.</p>
           </div>
+          <div class="panel-body" id="initiative-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Shared Loot</h2>
+            <p>Party inventory synced from the bot.</p>
+          </div>
+          <div class="panel-body" id="loot-list"></div>
         </section>
       </main>
     </div>
 
     <footer class="footer">
-      <button class="save" id="save-config">Save Configuration</button>
-      <span id="save-status"></span>
+      <span class="panel-note" id="dashboard-updated">Last updated: —</span>
     </footer>
 
-    <script src="/app.js"></script>
+    <script src="/dashboard.js"></script>
   </body>
 </html>
-
