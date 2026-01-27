@@ -1,0 +1,49 @@
+{
+  "chapter": 2,
+  "title": "Creating a Character",
+  "pipeline": {
+    "id": "character.creation.pipeline",
+    "steps": [
+      "choose_class",
+      "choose_background",
+      "choose_species",
+      "assign_ability_scores",
+      "choose_alignment",
+      "fill_numbers",
+      "describe_character"
+    ]
+  },
+  "class": {
+    "id": "character.class",
+    "properties": ["primary_ability", "hit_die", "proficiencies", "features"]
+  },
+  "background": {
+    "id": "character.background",
+    "grants": ["skills", "tools", "languages", "feat"]
+  },
+  "species": {
+    "id": "character.species",
+    "grants": ["ability_increases", "languages", "traits"]
+  },
+  "ability_scores": {
+    "methods": {
+      "standard_array": [15, 14, 13, 12, 10, 8],
+      "point_buy": "cost_table",
+      "rolling": "dm_approval"
+    }
+  },
+  "alignment": {
+    "axes": ["law_chaos", "good_evil"],
+    "enforced": false
+  },
+  "leveling": {
+    "xp_based": true,
+    "milestone_optional": true,
+    "proficiency_scales_by": "character_level"
+  },
+  "multiclassing": {
+    "optional": true,
+    "requires": "ability_prerequisites",
+    "spell_slots": "shared_progression"
+  }
+}

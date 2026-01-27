@@ -1,0 +1,83 @@
+{
+  "id": "subclass.wl.fiend",
+  "parent_class": "class.warlock",
+  "chapter": 3,
+  "title": "The Fiend",
+  "source": {
+    "file": "Character Classes (Continued) 61-80.pdf",
+    "pages": [77, 80],
+    "section_hint": "Warlock Patron: The Fiend"
+  },
+
+  "feature_levels": [3, 6, 10, 14],
+
+  "always_prepared_spells": {
+    "3": ["Burning Hands", "Command"],
+    "5": ["Blindness/Deafness", "Scorching Ray"],
+    "7": ["Fireball", "Stinking Cloud"],
+    "9": ["Blight", "Fire Shield"]
+  },
+
+  "features_by_level": {
+    "3": ["dark_ones_blessing"],
+    "6": ["dark_ones_own_luck"],
+    "10": ["fiendish_resilience"],
+    "14": ["hurl_through_hell"]
+  },
+
+  "feature_defs": [
+    {
+      "id": "feat.fiend.dark_ones_blessing",
+      "action_type": "none",
+      "trigger": "when you reduce a hostile creature to 0 hit points",
+      "effects": [
+        "gain temporary hit points equal to your Charisma modifier + your warlock level"
+      ],
+      "limits": [
+        "temporary hit points do not stack"
+      ]
+    },
+    {
+      "id": "feat.fiend.dark_ones_own_luck",
+      "action_type": "reaction",
+      "trigger": "after you roll a d20 test but before the outcome is determined",
+      "effects": [
+        "add 1d10 to the roll"
+      ],
+      "limits": [
+        "once per short or long rest"
+      ]
+    },
+    {
+      "id": "feat.fiend.fiendish_resilience",
+      "action_type": "none",
+      "trigger": "when you finish a short or long rest",
+      "effects": [
+        "choose one damage type (other than force)",
+        "gain resistance to the chosen damage type"
+      ],
+      "limits": [
+        "you can change the chosen damage type when you finish a short or long rest"
+      ]
+    },
+    {
+      "id": "feat.fiend.hurl_through_hell",
+      "action_type": "reaction",
+      "trigger": "when you hit a creature with an attack",
+      "effects": [
+        "target is removed from the battlefield and experiences a hellish vision",
+        "target takes 10d10 psychic damage at the end of your next turn"
+      ],
+      "limits": [
+        "once per long rest"
+      ]
+    }
+  ],
+
+  "notes": [
+    "The Fiend patron emphasizes survivability, burst damage, and punishment on hit.",
+    "Dark One’s Own Luck modifies rolls before the outcome is known.",
+    "Hurl Through Hell temporarily removes the target from play, then returns it to its previous space or the nearest unoccupied space."
+  ]
+}
+

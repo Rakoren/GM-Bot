@@ -1,0 +1,34 @@
+{
+  "id": "class.sorcerer",
+  "name": "Sorcerer",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "CHA",
+  "hit_die": "d6",
+  "saving_throws": ["CON", "CHA"],
+
+  "proficiencies": {
+    "armor": [],
+    "weapons": ["simple"]
+  },
+
+  "spellcasting": {
+    "caster_type": "prepared",
+    "spellcasting_ability": "CHA",
+    "spell_list_ref": "spell_list.sorcerer"
+  },
+
+  "resources": ["res.sorcery_points", "res.innate_sorcery", "res.tides_of_chaos"],
+
+  "features_by_level": {
+    "1": ["spellcasting", "innate_sorcery"],
+    "2": ["font_of_magic", "metamagic"],
+    "3": ["subclass_choice"],
+    "5": ["sorcerous_restoration"],
+    "19": ["epic_boon"],
+    "20": ["arcane_apotheosis"]
+  },
+
+  "subclasses": ["sorcerer.aberrant", "sorcerer.clockwork", "sorcerer.draconic", "sorcerer.wild_magic"]
+}

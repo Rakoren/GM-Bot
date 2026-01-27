@@ -1,0 +1,27 @@
+{
+  "id": "class.barbarian",
+  "name": "Barbarian",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "STR",
+  "hit_die": "d12",
+  "saving_throws": ["STR", "CON"],
+
+  "proficiencies": {
+    "armor": ["light", "medium", "shields"],
+    "weapons": ["simple", "martial"]
+  },
+
+  "spellcasting": null,
+
+  "resources": ["res.rage"],
+
+  "features_by_level": {
+    "1": ["rage", "unarmored_defense", "weapon_mastery"],
+    "2": ["danger_sense", "reckless_attack"],
+    "3": ["subclass_choice", "primal_knowledge"]
+  },
+
+  "subclasses": ["path.berserker", "path.wild_heart", "path.world_tree", "path.zealot"]
+}

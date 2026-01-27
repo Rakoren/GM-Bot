@@ -1,0 +1,80 @@
+{
+  "chapter": 3,
+  "title": "Character Classes",
+  "source": "PHB 2024",
+  "version": "0.5.0",
+  "status": "active",
+
+  "description": "Structured, LLM-readable representation of Player's Handbook Chapter 3. Core systems are shared; each class and subclass is modularized into its own shard.",
+
+  "load_order": [
+    "core",
+    "spells",
+    "classes",
+    "subclasses"
+  ],
+
+  "includes": [
+    "core/03-core.schema.json",
+    "core/03-core.resources.json",
+    "core/03-core.features.json",
+
+    "spells/spell_list.bard.json",
+    "spells/spell_list.cleric.json",
+    "spells/spell_list.druid.json",
+    "spells/spell_list.paladin.json",
+    "spells/spell_list.ranger.json",
+    "spells/spell_list.sorcerer.json",
+    "spells/spell_list.warlock.json",
+    "spells/spell_list.wizard.json",
+
+    "classes/barbarian.json",
+    "classes/bard.json",
+    "classes/cleric.json",
+    "classes/druid.json",
+    "classes/fighter.json",
+    "classes/monk.json",
+    "classes/paladin.json",
+    "classes/ranger.json",
+    "classes/rogue.json",
+    "classes/sorcerer.json",
+    "classes/warlock.json",
+    "classes/wizard.json",
+
+    "subclasses/rogue.assassin.json",
+    "subclasses/rogue.arcane_trickster.json",
+    "subclasses/rogue.soulknife.json",
+    "subclasses/rogue.thief.json",
+
+    "subclasses/sorc.aberrant.json",
+    "subclasses/sorc.clockwork.json",
+    "subclasses/sorc.draconic.json",
+    "subclasses/sorc.wild_magic.json",
+
+    "subclasses/ranger.beast_master.json",
+    "subclasses/ranger.fey_wanderer.json",
+    "subclasses/ranger.gloom_stalker.json",
+    "subclasses/ranger.hunter.json",
+
+    "subclasses/paladin.devotion.json",
+    "subclasses/paladin.ancients.json",
+    "subclasses/paladin.glory.json",
+    "subclasses/paladin.vengeance.json",
+
+    "subclasses/wl.archfey.json",
+    "subclasses/wl.celestial.json",
+    "subclasses/wl.fiend.json",
+    "subclasses/wl.great_old_one.json",
+
+    "subclasses/wiz.abjurer.json",
+    "subclasses/wiz.diviner.json",
+    "subclasses/wiz.evoker.json",
+    "subclasses/wiz.illusionist.json"
+  ],
+
+  "notes": [
+    "This manifest is the only entry point an LLM or rules engine needs.",
+    "Files listed but not yet created may be stubbed or marked pending.",
+    "Warlock and Wizard subclasses continue in later chunks and will be hardened incrementally."
+  ]
+}

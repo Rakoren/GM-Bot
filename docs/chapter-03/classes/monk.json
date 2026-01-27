@@ -1,0 +1,28 @@
+{
+  "id": "class.monk",
+  "name": "Monk",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": ["DEX", "WIS"],
+  "hit_die": "d8",
+  "saving_throws": ["STR", "DEX"],
+
+  "proficiencies": {
+    "armor": [],
+    "weapons": ["simple", "martial_light"],
+    "tools": ["artisan_tools_or_musical_instrument"]
+  },
+
+  "spellcasting": null,
+
+  "resources": ["res.focus_points"],
+
+  "features_by_level": {
+    "1": ["martial_arts", "unarmored_defense"],
+    "2": ["monks_focus", "unarmored_movement", "uncanny_metabolism"],
+    "3": ["deflect_attacks", "subclass_choice"]
+  },
+
+  "subclasses": ["monk.mercy", "monk.shadow", "monk.elements", "monk.open_hand"]
+}

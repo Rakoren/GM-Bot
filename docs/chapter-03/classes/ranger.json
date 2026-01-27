@@ -1,0 +1,35 @@
+{
+  "id": "class.ranger",
+  "name": "Ranger",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "DEX_or_STR",
+  "hit_die": "d10",
+  "saving_throws": ["STR", "DEX"],
+
+  "proficiencies": {
+    "armor": ["light", "medium", "shields"],
+    "weapons": ["simple", "martial"]
+  },
+
+  "spellcasting": {
+    "caster_type": "prepared",
+    "spellcasting_ability": "WIS",
+    "spell_list_ref": "spell_list.ranger"
+  },
+
+  "resources": ["res.hunters_mark.free", "res.natures_veil"],
+
+  "features_by_level": {
+    "1": ["favored_enemy", "weapon_mastery"],
+    "2": ["fighting_style", "spellcasting"],
+    "3": ["subclass_choice"],
+    "5": ["extra_attack"],
+    "10": ["tireless"],
+    "14": ["natures_veil"],
+    "19": ["epic_boon"]
+  },
+
+  "subclasses": ["ranger.beast_master", "ranger.fey_wanderer", "ranger.gloom_stalker", "ranger.hunter"]
+}

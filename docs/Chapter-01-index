@@ -1,0 +1,59 @@
+{
+  "chapter": 1,
+  "title": "Playing the Game",
+  "concepts": [
+    {
+      "id": "game.roles",
+      "type": "concept",
+      "players": "Control characters and declare actions",
+      "dm": "Adjudicates rules and narrates the world"
+    },
+    {
+      "id": "game.rhythm",
+      "type": "loop",
+      "modes": ["exploration", "social", "combat"]
+    }
+  ],
+  "mechanics": [
+    {
+      "id": "d20.test",
+      "type": "mechanic",
+      "steps": ["roll d20", "add modifiers", "compare to target"],
+      "variants": ["ability_check", "saving_throw", "attack_roll"]
+    },
+    {
+      "id": "advantage.disadvantage",
+      "type": "modifier",
+      "advantage": "roll two d20, take higher",
+      "disadvantage": "roll two d20, take lower",
+      "stacking": false
+    }
+  ],
+  "abilities": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
+  "actions": [
+    "attack",
+    "dash",
+    "disengage",
+    "dodge",
+    "help",
+    "hide",
+    "ready",
+    "search",
+    "use_object"
+  ],
+  "proficiency": {
+    "description": "Scaling bonus representing training",
+    "expertise": "Double proficiency bonus"
+  },
+  "environment": {
+    "light": ["bright", "dim", "darkness"],
+    "obscurement": ["lightly_obscured", "heavily_obscured"]
+  },
+  "travel": {
+    "paces": {
+      "fast": {"perception": -5},
+      "normal": {},
+      "slow": {"perception": "advantage"}
+    }
+  }
+}

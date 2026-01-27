@@ -1,0 +1,36 @@
+{
+  "id": "class.paladin",
+  "name": "Paladin",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "STR_or_CHA",
+  "hit_die": "d10",
+  "saving_throws": ["WIS", "CHA"],
+
+  "proficiencies": {
+    "armor": ["light", "medium", "heavy", "shields"],
+    "weapons": ["simple", "martial"]
+  },
+
+  "spellcasting": {
+    "caster_type": "prepared",
+    "spellcasting_ability": "CHA",
+    "spell_list_ref": "spell_list.paladin"
+  },
+
+  "resources": ["res.lay_on_hands", "res.channel_divinity.paladin", "res.divine_smite.free"],
+
+  "features_by_level": {
+    "1": ["lay_on_hands", "martial_training"],
+    "2": ["fighting_style", "spellcasting"],
+    "3": ["subclass_choice", "channel_divinity"],
+    "5": ["extra_attack"],
+    "6": ["aura_of_protection"],
+    "11": ["improved_divine_smite"],
+    "19": ["epic_boon"],
+    "20": ["subclass_capstone"]
+  },
+
+  "subclasses": ["oath.devotion", "oath.glory", "oath.ancients", "oath.vengeance"]
+}

@@ -38,6 +38,21 @@
       "access": "everyone",
       "roles": []
     },
+    "check": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "percent": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
+    "rolltable": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
     "combat": {
       "enabled": true,
       "access": "everyone",

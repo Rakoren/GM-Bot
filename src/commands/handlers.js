@@ -92,6 +92,10 @@ export async function handleChatInputCommand({
     deleteNpcById,
     buildNpcSheet,
     formatNpcList,
+    getNpcByName,
+    getNpcPersona,
+    setNpcPersona,
+    deleteNpcPersona,
     startCharacterCreator,
     setCharacter,
     setProfile,
@@ -111,6 +115,7 @@ export async function handleChatInputCommand({
     saveLootState,
     openai,
     updateChannelConfig,
+    isAiActive,
     getLoginVoiceChannelId,
     getOrCreateVoiceConnection,
     getOrCreateAudioPlayer,
@@ -465,6 +470,37 @@ export async function handleChatInputCommand({
       persistCombat();
       await interaction.editReply(active ? `Turn: ${active.name}` : 'No active combatants.');
       await sendCombatHud();
+      if (active && active.type === 'npc' && isAiActive?.()) {
+        try {
+          const npcRow = getNpcByName?.(active.name);
+          const persona = npcRow ? getNpcPersona?.(npcRow.id) : null;
+          const lines = [
+            `NPC turn: ${active.name}`,
+            npcRow?.role ? `Role: ${npcRow.role}` : '',
+            persona?.personality ? `Personality: ${persona.personality}` : '',
+            persona?.motive ? `Motive: ${persona.motive}` : '',
+            persona?.voice ? `Voice: ${persona.voice}` : '',
+            persona?.quirk ? `Quirk: ${persona.quirk}` : '',
+            persona?.appearance ? `Appearance: ${persona.appearance}` : '',
+            'Describe the NPC action in 2-4 short sentences.',
+          ].filter(Boolean).join('\n');
+          const response = await ctx.openai.chat.completions.create({
+            model: ctx.CONFIG.openaiModel,
+            messages: [
+              { role: 'system', content: 'You narrate concise NPC actions in combat.' },
+              { role: 'user', content: lines },
+            ],
+            temperature: 0.7,
+            max_completion_tokens: 120,
+          });
+          const text = response.choices?.[0]?.message?.content?.trim();
+          if (text) {
+            await interaction.followUp({ content: text });
+          }
+        } catch (err) {
+          console.error('NPC tactical narration failed:', err);
+        }
+      }
       return;
     }
 
@@ -1040,6 +1076,11 @@ export async function handleChatInputCommand({
     if (sub === 'create') {
       const name = interaction.options.getString('name', true);
       const role = interaction.options.getString('role', false);
+      const personality = interaction.options.getString('personality', false);
+      const motive = interaction.options.getString('motive', false);
+      const voice = interaction.options.getString('voice', false);
+      const quirk = interaction.options.getString('quirk', false);
+      const appearance = interaction.options.getString('appearance', false);
       const stats = interaction.options.getString('stats', false);
       const notes = interaction.options.getString('notes', false);
       const id = createNpc({
@@ -1049,12 +1090,66 @@ export async function handleChatInputCommand({
         notes,
         createdBy: interaction.user.id,
       });
+      if (id) {
+        setNpcPersona?.(id, { name, role, personality, motive, voice, quirk, appearance });
+      }
       await interaction.editReply(`NPC created: #${id} ${name}`);
+      return;
+    }
+    if (sub === 'quick') {
+      const name = interaction.options.getString('name', true);
+      const role = interaction.options.getString('role', false);
+      const personality = interaction.options.getString('personality', false);
+      const motive = interaction.options.getString('motive', false);
+      const voice = interaction.options.getString('voice', false);
+      const quirk = interaction.options.getString('quirk', false);
+      const appearance = interaction.options.getString('appearance', false);
+      const notes = interaction.options.getString('notes', false);
+      const id = createNpc({
+        name,
+        role,
+        statBlock: '',
+        notes,
+        createdBy: interaction.user.id,
+      });
+      if (id) {
+        setNpcPersona?.(id, { name, role, personality, motive, voice, quirk, appearance });
+      }
+      await interaction.editReply(`NPC saved: #${id} ${name}`);
       return;
     }
     if (sub === 'list') {
       const rows = listNpcs();
       await interaction.editReply(formatNpcList(rows));
+      return;
+    }
+    if (sub === 'generate') {
+      const culture = interaction.options.getString('culture', false);
+      const role = interaction.options.getString('role', false);
+      const count = Math.min(10, Math.max(1, interaction.options.getInteger('count', false) || 5));
+      const prompt = [
+        'Generate concise NPC name + lore seed entries for a D&D game.',
+        `Count: ${count}`,
+        role ? `Role: ${role}` : '',
+        culture ? `Culture/Region: ${culture}` : '',
+        'Format as a numbered list: Name — 1 sentence lore seed.',
+      ].filter(Boolean).join('\n');
+      try {
+        const response = await openai.chat.completions.create({
+          model: CONFIG.openaiModel,
+          messages: [
+            { role: 'system', content: 'You are a concise D&D name and lore generator.' },
+            { role: 'user', content: prompt },
+          ],
+          temperature: 0.7,
+          max_completion_tokens: 220,
+        });
+        const text = response.choices?.[0]?.message?.content?.trim();
+        await interaction.editReply(text || 'No results.');
+      } catch (err) {
+        console.error('NPC generate error:', err);
+        await interaction.editReply('NPC generation failed.');
+      }
       return;
     }
     if (sub === 'sheet') {
@@ -1064,7 +1159,8 @@ export async function handleChatInputCommand({
         await interaction.editReply(`No NPC found for ID ${id}.`);
         return;
       }
-      await interaction.editReply(buildNpcSheet(npc));
+      const persona = getNpcPersona?.(id);
+      await interaction.editReply(buildNpcSheet(npc, persona));
       return;
     }
     if (sub === 'delete') {
@@ -1075,6 +1171,7 @@ export async function handleChatInputCommand({
         return;
       }
       deleteNpcById(id);
+      deleteNpcPersona?.(id);
       await interaction.editReply(`Deleted NPC #${id} (${npc.name || 'Unknown'}).`);
     }
     return;
@@ -1295,7 +1392,7 @@ export async function handleChatInputCommand({
       { name: 'homebrew', line: '/homebrew class|species|background|subclass|feat|spell ...' },
       { name: 'sheet', line: '/sheet [user:@Player] [bank_id:<id>]' },
       { name: 'bank', line: '/bank create | /bank list | /bank take id:<id> | /bank info id:<id> | /bank delete id:<id> | /bank delete name:<name>' },
-      { name: 'npc', line: '/npc create | /npc list | /npc sheet id:<id> | /npc delete id:<id>' },
+      { name: 'npc', line: '/npc create | /npc quick | /npc generate | /npc list | /npc sheet id:<id> | /npc delete id:<id>' },
       { name: 'log-in', line: '/log-in' },
       { name: 'log-out', line: '/log-out' },
       { name: 'say', line: '/say text:<message>' },

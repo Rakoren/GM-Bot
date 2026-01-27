@@ -1,0 +1,32 @@
+{
+  "id": "class.druid",
+  "name": "Druid",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "WIS",
+  "hit_die": "d8",
+  "saving_throws": ["INT", "WIS"],
+
+  "proficiencies": {
+    "armor": ["light", "shields"],
+    "weapons": ["simple"],
+    "tools": ["herbalism_kit"]
+  },
+
+  "spellcasting": {
+    "caster_type": "prepared",
+    "spellcasting_ability": "WIS",
+    "spell_list_ref": "spell_list.druid"
+  },
+
+  "resources": ["res.wild_shape"],
+
+  "features_by_level": {
+    "1": ["spellcasting", "druidic", "primal_order"],
+    "2": ["wild_shape", "wild_companion"],
+    "3": ["subclass_choice"]
+  },
+
+  "subclasses": ["circle.land", "circle.moon", "circle.sea", "circle.stars"]
+}

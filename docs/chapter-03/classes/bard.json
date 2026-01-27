@@ -1,0 +1,35 @@
+{
+  "id": "class.bard",
+  "name": "Bard",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "CHA",
+  "hit_die": "d8",
+  "saving_throws": ["DEX", "CHA"],
+
+  "proficiencies": {
+    "armor": ["light"],
+    "weapons": ["simple"]
+  },
+
+  "spellcasting": {
+    "caster_type": "known",
+    "spellcasting_ability": "CHA",
+    "spell_list_ref": "spell_list.bard"
+  },
+
+  "resources": ["res.bardic_inspiration"],
+
+  "features_by_level": {
+    "1": ["bardic_inspiration", "spellcasting"],
+    "2": ["jack_of_all_trades", "expertise"],
+    "3": ["subclass_choice"],
+    "5": ["font_of_inspiration"],
+    "10": ["magical_secrets"],
+    "19": ["epic_boon"],
+    "20": ["words_of_creation"]
+  },
+
+  "subclasses": ["college.dance", "college.glamour", "college.lore", "college.valor"]
+}

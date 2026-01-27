@@ -28,6 +28,15 @@ export async function handleMessageCreate({ msg, ctx }) {
     setCharacter,
     setProfile,
     getCharacterName,
+    openai,
+    CONFIG,
+    isAiActive,
+    combatEngine,
+    profileByUserId,
+    reloadProfileStore,
+    saveCombatState,
+    saveLootState,
+    buildNpcPersonaBlock,
     enqueueMessage,
     now,
     path,
@@ -87,6 +96,83 @@ export async function handleMessageCreate({ msg, ctx }) {
       return;
     }
 
+    const resolvePendingCombat = async () => {
+      const pending = session.pendingCombatAction;
+      if (!pending || pending.userId !== msg.author.id) return false;
+      const combat = combatEngine?.getCombat(session);
+      if (!combat) {
+        session.pendingCombatAction = null;
+        return false;
+      }
+      const text = String(msg.content || '').toLowerCase();
+      if (pending.type === 'cast') {
+        if (text.includes('miss') || text.includes('fail')) {
+          await msg.channel.send('Got it - spell missed or failed.');
+          session.pendingCombatAction = null;
+          return true;
+        }
+        if (text.includes('hit') || text.includes('success')) {
+          await msg.channel.send('Got it - spell hits or succeeds.');
+          session.pendingCombatAction = null;
+          return true;
+        }
+        const nums = text.match(/\d+/g)?.map(n => Number(n)) || [];
+        if (!nums.length) return false;
+        await msg.channel.send(`Got it - spell results recorded (${nums.join(', ')}).`);
+        session.pendingCombatAction = null;
+        return true;
+      }
+      if (text.includes('miss') || text.includes('fail')) {
+        await msg.channel.send('Got it - miss.');
+        session.pendingCombatAction = null;
+        return true;
+      }
+      const nums = text.match(/\d+/g)?.map(n => Number(n)) || [];
+      if (!nums.length) return false;
+      const toHit = nums[0];
+      const dmg = nums.length > 1 ? nums[1] : null;
+      const target = combat.combatants?.[pending.targetId];
+      if (!target) {
+        session.pendingCombatAction = null;
+        await msg.channel.send('Target not found anymore.');
+        return true;
+      }
+      let hit = true;
+      if (Number.isFinite(target.ac)) {
+        hit = toHit >= target.ac;
+      }
+      if (!hit) {
+        await msg.channel.send(`Attack total ${toHit} - miss.`);
+        session.pendingCombatAction = null;
+        return true;
+      }
+      if (dmg === null) {
+        await msg.channel.send(`Hit with ${toHit}. What is the damage total?`);
+        return true;
+      }
+      combatEngine.applyDamage(combat, target.id, dmg);
+      await msg.channel.send(
+        `Hit (${toHit}). Damage ${dmg}. ${target.name} HP: ${target.hp}/${target.maxHp ?? '?'}`
+      );
+      if (typeof saveCombatState === 'function') saveCombatState(session);
+      session.pendingCombatAction = null;
+      return true;
+    };
+
+    const detectCombatIntent = (text) => {
+      const t = String(text || '').toLowerCase();
+      return (
+        /\battack\b/.test(t) ||
+        /\bstrike\b/.test(t) ||
+        /\bswing\b/.test(t) ||
+        /\bshoot\b/.test(t) ||
+        /\bstab\b/.test(t) ||
+        /\bbite\b/.test(t) ||
+        /\bcast\b/.test(t) ||
+        /\bsmite\b/.test(t)
+      );
+    };
+
     const hasSession0Data = session.session0Responses.some(r => r.userId === msg.author.id);
     const hasCharacter = characterByUserId.has(msg.author.id);
     if (!session.session0Active && !hasSession0Data && !hasCharacter) {
@@ -101,6 +187,194 @@ export async function handleMessageCreate({ msg, ctx }) {
         );
       }
       return;
+    }
+
+    if (combatEngine && (await resolvePendingCombat())) {
+      return;
+    }
+
+    if (combatEngine && detectCombatIntent(msg.content)) {
+      const existing = combatEngine.getCombat(session);
+      if (!existing || existing.status !== 'active') {
+        if (typeof reloadProfileStore === 'function') {
+          reloadProfileStore();
+        }
+        const profile = profileByUserId.get(msg.author.id);
+        if (!profile) {
+          await msg.channel.send('Link a character first with /setchar or /bank take.');
+          return;
+        }
+        const combat = existing || combatEngine.createCombat(session, {
+          name: 'Combat',
+          channelId: msg.channel.id,
+          createdBy: msg.author.id,
+        });
+        const combatant = combatEngine.buildCombatantFromProfile(msg.author.id, profile);
+        combat.combatants[combatant.id] = combatant;
+        combatEngine.rollInitiative(combat, combatant.id, {});
+        combatEngine.beginCombat(combat);
+        if (typeof saveCombatState === 'function') saveCombatState(session);
+        if (typeof saveLootState === 'function') saveLootState(session);
+        await msg.channel.send(combatEngine.formatCombatStatus(combat));
+        return;
+      }
+
+      if (existing.channelId && existing.channelId !== msg.channel.id) {
+        return;
+      }
+
+      const active = combatEngine.getActiveCombatant(existing);
+      if (active?.userId && active.userId !== msg.author.id) {
+        await msg.channel.send(`It is ${active.name}'s turn. Use /combat next if you are the DM.`);
+        return;
+      }
+
+      const lowered = String(msg.content || '').toLowerCase();
+      let targets = Object.values(existing.combatants || {});
+      if (!targets.some(t => t.type === 'npc')) {
+        if (lowered.includes('goblin')) {
+          const a = combatEngine.addNpc(existing, { name: 'Goblin A', hp: 7, ac: 13 });
+          const b = combatEngine.addNpc(existing, { name: 'Goblin B', hp: 7, ac: 13 });
+          if (a && b) {
+            await msg.channel.send('Goblins appear: Goblin A and Goblin B.');
+          }
+        }
+      }
+      targets = Object.values(existing.combatants || {});
+      const attacker = active || targets.find(t => t?.userId === msg.author.id);
+      if (!attacker) {
+        await msg.channel.send('No active combatant found for you. Use /combat join.');
+        return;
+      }
+
+      if (!isAiActive?.() || !openai) {
+        await msg.channel.send('AI is passive or unavailable. Please be explicit about your target.');
+        return;
+      }
+
+      const context = {
+        attacker: {
+          name: attacker.name,
+          weapons: Array.isArray(attacker.weapons) ? attacker.weapons : [],
+        },
+        targets: targets.map(t => ({
+          id: t.id,
+          name: t.name,
+          type: t.type,
+        })),
+        phase: existing.phase,
+      };
+
+      const prompt = [
+        'Interpret the player intent and return JSON only.',
+        'If target or action is unclear, return: {"type":"ask","question":"..."}',
+        'Otherwise return one of:',
+        '{"type":"attack","target":"<name>","weapon":"<optional>","adv":true|false,"dis":true|false}',
+        '{"type":"cast","spell":"<name>","actionType":"action|bonus","target":"<optional>","level":<optional number>}',
+        '{"type":"sequence","steps":[{...},{...}]} (steps use attack/cast types)',
+        `Player intent: "${msg.content}"`,
+        `Context: ${JSON.stringify(context)}`,
+      ].join('\n');
+
+      try {
+        const response = await openai.chat.completions.create({
+          model: CONFIG.openaiModel,
+          messages: [
+            { role: 'system', content: 'You are a combat intent parser.' },
+            { role: 'user', content: prompt },
+          ],
+          temperature: 0.2,
+          max_completion_tokens: 120,
+        });
+        const text = response.choices?.[0]?.message?.content?.trim() || '';
+        let parsed = null;
+        try {
+          parsed = JSON.parse(text);
+        } catch {
+          parsed = null;
+        }
+        if (!parsed) {
+          await msg.channel.send('I need a clearer target or action. Who are you attacking?');
+          return;
+        }
+        if (parsed.type === 'ask' && parsed.question) {
+          await msg.channel.send(parsed.question);
+          return;
+        }
+        if (parsed.type === 'attack') {
+          const targetName = String(parsed.target || '').toLowerCase();
+          const target = targets.find(t => String(t.name || '').toLowerCase() === targetName);
+          if (!target) {
+            await msg.channel.send('Who are you attacking?');
+            return;
+          }
+          const weaponText = parsed.weapon ? ` with ${parsed.weapon}` : '';
+          const advText = parsed.adv ? ' (advantage)' : parsed.dis ? ' (disadvantage)' : '';
+          await msg.channel.send(
+            `${attacker.name} attacks ${target.name}${weaponText}.${advText}\n` +
+            `Please roll to hit and damage, then tell me the totals.`
+          );
+          session.pendingCombatAction = {
+            type: 'attack',
+            userId: msg.author.id,
+            attackerId: attacker.id,
+            targetId: target.id,
+          };
+          return;
+        }
+        if (parsed.type === 'cast') {
+          const actionType = parsed.actionType === 'bonus' ? 'bonus' : 'action';
+          await msg.channel.send(
+            `${attacker.name} casts ${parsed.spell || 'a spell'}${parsed.target ? ` on ${parsed.target}` : ''} (${actionType}).\n` +
+            `Please roll any required attack or save and damage, then tell me the results.`
+          );
+          session.pendingCombatAction = {
+            type: 'cast',
+            userId: msg.author.id,
+            attackerId: attacker.id,
+          };
+          return;
+        }
+        if (parsed.type === 'sequence' && Array.isArray(parsed.steps)) {
+          for (const step of parsed.steps) {
+            if (step.type === 'cast') {
+              const actionType = step.actionType === 'bonus' ? 'bonus' : 'action';
+              await msg.channel.send(
+                `${attacker.name} casts ${step.spell || 'a spell'}${step.target ? ` on ${step.target}` : ''} (${actionType}).\n` +
+                `Please roll any required attack/save and damage, then tell me the results.`
+              );
+              session.pendingCombatAction = {
+                type: 'cast',
+                userId: msg.author.id,
+                attackerId: attacker.id,
+              };
+            }
+            if (step.type === 'attack') {
+              const targetName = String(step.target || '').toLowerCase();
+              const target = targets.find(t => String(t.name || '').toLowerCase() === targetName);
+              if (!target) {
+                await msg.channel.send('Who are you attacking?');
+                return;
+              }
+              await msg.channel.send(
+                `${attacker.name} attacks ${target.name}${step.weapon ? ` with ${step.weapon}` : ''}.\n` +
+                `Please roll to hit and damage, then tell me the totals.`
+              );
+              session.pendingCombatAction = {
+                type: 'attack',
+                userId: msg.author.id,
+                attackerId: attacker.id,
+                targetId: target.id,
+              };
+            }
+          }
+          return;
+        }
+      } catch (err) {
+        console.error('Combat intent parsing failed:', err);
+        await msg.channel.send('I need a clearer target or action. Who are you attacking?');
+        return;
+      }
     }
 
     if (msg.content.startsWith('/save:')) {
@@ -309,6 +583,22 @@ export async function handleMessageCreate({ msg, ctx }) {
       await msg.channel.send('DM replies are disabled by the admin.');
       return;
     }
+    // If a message explicitly addresses a known NPC by name, route with persona context.
+    if (typeof buildNpcPersonaBlock === 'function') {
+      const npcBlock = buildNpcPersonaBlock([
+        {
+          content: msg.content,
+        },
+      ]);
+      if (npcBlock) {
+        const original = session.systemPrompt;
+        session.systemPrompt = `${original}\n\nNPC PERSONAS:\n${npcBlock}`;
+        await enqueueMessage(session, msg);
+        session.systemPrompt = original;
+        return;
+      }
+    }
+
     await enqueueMessage(session, msg);
   } catch (err) {
     console.error(err);

@@ -6,10 +6,7 @@
 The AI acts as the creative brain of the system, capable of switching between a primary narrator and a background assistant.
 
 - Multimodal Narration: Text + Text-to-Speech (TTS) voice acting for NPCs and atmospheric descriptions in Discord voice channels.
-- Procedural Content Generation:
-  - The Name & Lore Smith: Context-aware names for NPCs, taverns, and cities based on world culture or language.
-  - Visual Background Synthesis: Web UI generates high-fidelity environmental art for Theatre of the Mind.
-  - Dynamic NPC Orchestration: Persistent personalities, hidden motives, and unique dialogue styles with real-time roleplay.
+- AI should interact with the combat engine when player are fights
 
 ### 2. The Web UI (The Command Center)
 The Web UI is the Source of Truth and the primary visual interface.
@@ -54,6 +51,7 @@ The rules-enforcement layer for D&D 5e (or chosen system).
 - `src/`: bot logic (commands, combat engine, session state, data store, voice).
 - `admin/public/`: admin UI (HTML/JS/CSS).
 - `data_sets/`: CSV/JSON content used by the bot and wizard.
+- `docs/`: PHB markdown + chapter index reference materials.
 
 ## Setup
 - Install deps: `npm install`

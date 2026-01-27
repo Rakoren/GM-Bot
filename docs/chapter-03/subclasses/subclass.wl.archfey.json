@@ -1,0 +1,90 @@
+{
+  "id": "subclass.wl.archfey",
+  "parent_class": "class.warlock",
+  "chapter": 3,
+  "title": "The Archfey",
+  "source": {
+    "file": "Character Classes (Continued) 61-80.pdf",
+    "pages": [70, 74],
+    "section_hint": "Warlock Patron: The Archfey"
+  },
+
+  "feature_levels": [3, 6, 10, 14],
+
+  "always_prepared_spells": {
+    "3": ["Faerie Fire", "Sleep"],
+    "5": ["Calm Emotions", "Phantasmal Force"],
+    "7": ["Blink", "Plant Growth"],
+    "9": ["Dominate Person", "Greater Invisibility"]
+  },
+
+  "features_by_level": {
+    "3": ["fey_presence"],
+    "6": ["misty_escape"],
+    "10": ["beguiling_defenses"],
+    "14": ["dark_delirium"]
+  },
+
+  "feature_defs": [
+    {
+      "id": "feat.archfey.fey_presence",
+      "action_type": "action",
+      "trigger": "on your turn",
+      "effects": [
+        "each creature in a 10 ft cube originating from you must succeed on a Wisdom saving throw or be charmed or frightened by you"
+      ],
+      "limits": [
+        "choose charmed or frightened for each creature",
+        "effect lasts until the end of your next turn"
+      ],
+      "dc": "spell_save_dc"
+    },
+    {
+      "id": "feat.archfey.misty_escape",
+      "action_type": "reaction",
+      "trigger": "when you take damage",
+      "effects": [
+        "become invisible until the start of your next turn",
+        "teleport up to 60 ft to an unoccupied space you can see"
+      ],
+      "limits": [
+        "can be used once per short or long rest"
+      ]
+    },
+    {
+      "id": "feat.archfey.beguiling_defenses",
+      "action_type": "none",
+      "trigger": "when a creature attempts to charm you",
+      "effects": [
+        "you are immune to being charmed",
+        "if the creature is within 30 ft it must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn"
+      ],
+      "dc": "spell_save_dc"
+    },
+    {
+      "id": "feat.archfey.dark_delirium",
+      "action_type": "action",
+      "trigger": "on your turn",
+      "effects": [
+        "a creature you can see within 60 ft must succeed on a Wisdom saving throw or be charmed or frightened",
+        "target is incapacitated and speed becomes 0",
+        "illusory realm blocks perception of other creatures"
+      ],
+      "duration": {
+        "kind": "minutes",
+        "value": 1
+      },
+      "limits": [
+        "repeat saving throw at the end of each of its turns",
+        "ends early if target succeeds on save"
+      ],
+      "dc": "spell_save_dc"
+    }
+  ],
+
+  "notes": [
+    "Archfey patron focuses on charm, fear, and battlefield control.",
+    "No additional resources beyond standard warlock Pact Magic.",
+    "Feature triggers and limits are intentionally human-readable."
+  ]
+}

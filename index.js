@@ -446,6 +446,96 @@ function saveLootState(session) {
   });
 }
 
+function collectKnownPlayerNames(session) {
+  const names = new Set();
+  if (Array.isArray(session?.session0Responses)) {
+    session.session0Responses.forEach(entry => {
+      if (entry?.fields?.name) names.add(String(entry.fields.name).trim().toLowerCase());
+    });
+  }
+  for (const name of characterByUserId.values()) {
+    if (name) names.add(String(name).trim().toLowerCase());
+  }
+  return names;
+}
+
+async function autoSaveNpcFromNarration(text, session) {
+  const match = String(text || '').match(/Spotlight:\s*([A-Za-z][A-Za-z'\- ]{1,40})/i);
+  if (!match) return null;
+  const name = match[1].trim();
+  if (!name) return null;
+  const playerNames = collectKnownPlayerNames(session);
+  if (playerNames.has(name.toLowerCase())) return null;
+  if (getNpcByName(name)) return null;
+  const id = createNpc({
+    name,
+    role: 'auto',
+    statBlock: '',
+    notes: 'Auto-saved from narration.',
+    createdBy: 'system',
+  });
+  if (id) {
+    setNpcPersona(id, { name, role: 'auto' });
+  }
+  return id || null;
+}
+
+function buildNpcPersonaBlock(playerBatch) {
+  const names = new Set();
+  for (const msg of playerBatch || []) {
+    const content = String(msg.content || '');
+    const quoted = content.match(/["“”']([A-Za-z][A-Za-z'\- ]{1,40})["“”']/g) || [];
+    quoted.forEach(match => {
+      const cleaned = match.replace(/^["“”']|["“”']$/g, '').trim();
+      if (cleaned) names.add(cleaned);
+    });
+    const direct = content.match(/\b([A-Z][a-z]{2,})\b/g) || [];
+    direct.forEach(name => names.add(name));
+  }
+  const personas = [];
+  for (const name of names) {
+    const npc = getNpcByName(name);
+    if (!npc) continue;
+    const persona = getNpcPersona(npc.id);
+    const parts = [
+      `Name: ${npc.name}`,
+      npc.role ? `Role: ${npc.role}` : '',
+      persona?.personality ? `Personality: ${persona.personality}` : '',
+      persona?.motive ? `Motive: ${persona.motive}` : '',
+      persona?.voice ? `Voice: ${persona.voice}` : '',
+      persona?.quirk ? `Quirk: ${persona.quirk}` : '',
+      persona?.appearance ? `Appearance: ${persona.appearance}` : '',
+    ].filter(Boolean);
+    if (parts.length) personas.push(parts.join(' | '));
+  }
+  if (!personas.length) return '';
+  return personas.join('\n');
+}
+
+async function generateNpcFromOoc(prompt) {
+  const instructions = [
+    'Create a concise NPC persona for a D&D game.',
+    'Return JSON only with keys: name, role, personality, motive, voice, quirk, appearance.',
+  ].join('\n');
+  const response = await openai.chat.completions.create({
+    model: CONFIG.openaiModel,
+    messages: [
+      { role: 'system', content: instructions },
+      { role: 'user', content: prompt },
+    ],
+    temperature: 0.7,
+    max_completion_tokens: 200,
+  });
+  const text = response.choices?.[0]?.message?.content?.trim();
+  if (!text) return null;
+  try {
+    const parsed = JSON.parse(text);
+    return parsed && typeof parsed === 'object' ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
 function isCommandEnabled(name) {
   return (
     isCommandGroupEnabled(name) &&
@@ -1237,6 +1327,15 @@ function listNpcs() {
   return execToRows(result);
 }
 
+function getNpcByName(name) {
+  const safe = String(name || '').replace(/'/g, "''").trim().toLowerCase();
+  if (!safe) return null;
+  const result = db.exec(
+    `SELECT * FROM npcs WHERE LOWER(name) = '${safe}' LIMIT 1`
+  );
+  return execToRows(result)[0] || null;
+}
+
 function getNpcById(id) {
   const result = db.exec(
     `SELECT * FROM npcs WHERE id = ${Number(id)} LIMIT 1`
@@ -1247,15 +1346,23 @@ function getNpcById(id) {
 function deleteNpcById(id) {
   db.run(`DELETE FROM npcs WHERE id = ${Number(id)}`);
   saveDatabase();
+  deleteNpcPersona(id);
 }
 
-function buildNpcSheet(npc) {
+function buildNpcSheet(npc, persona = null) {
   if (!npc) return 'NPC not found.';
   const lines = [
     `NPC #${npc.id}: ${npc.name || 'Unknown'}`,
   ];
   if (npc.role) lines.push(`Role: ${npc.role}`);
   if (npc.stat_block) lines.push(`Stats:\n${npc.stat_block}`);
+  if (persona) {
+    if (persona.personality) lines.push(`Personality: ${persona.personality}`);
+    if (persona.motive) lines.push(`Motive: ${persona.motive}`);
+    if (persona.voice) lines.push(`Voice: ${persona.voice}`);
+    if (persona.quirk) lines.push(`Quirk: ${persona.quirk}`);
+    if (persona.appearance) lines.push(`Appearance: ${persona.appearance}`);
+  }
   if (npc.notes) lines.push(`Notes:\n${npc.notes}`);
   if (npc.createdAt) lines.push(`Created: ${npc.createdAt}`);
   return lines.join('\n');
@@ -1362,6 +1469,7 @@ function getOrCreateSession(sessionId) {
     systemPrompt: buildBaseSystemPrompt(),
     aiPassiveNotified: false,
     sharedLoot: [],
+    pendingCombatAction: null,
     session0Active: false,
     session0Step: null,
     campaignSetupActive: false,
@@ -4906,10 +5014,15 @@ async function runDmTurn(session, channel, guild, playerBatch) {
   const rosterBlock = buildRosterBlock(session.sessionId, guild);
 
   // Build model response
+  let systemPrompt = session.systemPrompt;
+  const npcPersonaBlock = buildNpcPersonaBlock(playerBatch);
+  if (npcPersonaBlock) {
+    systemPrompt = `${systemPrompt}\n\nNPC PERSONAS:\n${npcPersonaBlock}`;
+  }
   const { text } = await callDmModel({
     openai,
     model: CONFIG.openaiModel,
-    systemPrompt: session.systemPrompt,
+    systemPrompt,
     rosterBlock,
     mode: session.mode,
     history: session.history,
@@ -4924,6 +5037,8 @@ async function runDmTurn(session, channel, guild, playerBatch) {
   if (session.history.length > 40) session.history = session.history.slice(-40);
 
   session.dmThinking = false;
+
+  await autoSaveNpcFromNarration(text, session);
 
   // Send text summary (optional, but recommended)
   await channel.send(text);
@@ -4956,6 +5071,41 @@ async function handleOocMessage(session, msg) {
   if (!content) {
     await msg.channel.send('OOC: what do you want to know?');
     return;
+  }
+
+  const lowered = content.toLowerCase();
+  if (lowered.includes('npc') && (lowered.includes('make') || lowered.includes('create') || lowered.includes('new'))) {
+    try {
+      const persona = await generateNpcFromOoc(content);
+      if (persona?.name) {
+        const id = createNpc({
+          name: persona.name,
+          role: persona.role || 'auto',
+          statBlock: '',
+          notes: 'Generated from OOC request.',
+          createdBy: msg.author.id,
+        });
+        if (id) {
+          setNpcPersona(id, {
+            name: persona.name,
+            role: persona.role || 'auto',
+            personality: persona.personality || '',
+            motive: persona.motive || '',
+            voice: persona.voice || '',
+            quirk: persona.quirk || '',
+            appearance: persona.appearance || '',
+          });
+          await msg.channel.send(`OOC: NPC saved (#${id}) — ${persona.name} (${persona.role || 'auto'})`);
+          return;
+        }
+      }
+      await msg.channel.send('OOC: Unable to generate an NPC right now.');
+      return;
+    } catch (err) {
+      console.error('OOC NPC generation failed:', err);
+      await msg.channel.send('OOC: NPC generation failed.');
+      return;
+    }
   }
 
   const rosterBlock = buildRosterBlock(session.sessionId, msg.guild);
@@ -5059,6 +5209,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
         xpByUserId,
         pendingPasteImports,
         isFeatureEnabled,
+        isAiActive,
         getAiMode,
         isCommandEnabled,
         isCommandAllowedForMember,
@@ -5078,9 +5229,13 @@ client.on(Events.InteractionCreate, async (interaction) => {
         formatBankList,
         createNpc,
         listNpcs,
+        getNpcByName,
         getNpcById,
         deleteNpcById,
         buildNpcSheet,
+        getNpcPersona,
+        setNpcPersona,
+        deleteNpcPersona,
         formatNpcList,
         startCharacterCreator,
         setCharacter,
@@ -5134,9 +5289,9 @@ client.on(Events.InteractionCreate, async (interaction) => {
 // -------------------- MESSAGE HANDLER --------------------
 
   client.on('messageCreate', async (msg) => {
-  await handleMessageCreate({
-    msg,
-    ctx: {
+      await handleMessageCreate({
+        msg,
+        ctx: {
       pendingPasteImports,
       importPastedDataToCsv,
       isFeatureEnabled,
@@ -5158,16 +5313,25 @@ client.on(Events.InteractionCreate, async (interaction) => {
       loadNamedCampaign,
       deleteNamedCampaign,
       saveCampaignState,
-      parseDiceExpression,
-      rollDice,
-      formatDiceResult,
-      setMode,
-      setCharacter,
-      setProfile,
-      getCharacterName,
-      enqueueMessage,
-      now,
-      path,
+        parseDiceExpression,
+        rollDice,
+        formatDiceResult,
+        setMode,
+        setCharacter,
+          setProfile,
+          getCharacterName,
+          openai,
+          CONFIG,
+          isAiActive,
+          combatEngine,
+          profileByUserId,
+          reloadProfileStore,
+          saveCombatState,
+          saveLootState,
+        buildNpcPersonaBlock,
+        enqueueMessage,
+        now,
+        path,
     },
   });
 });

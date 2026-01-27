@@ -1,0 +1,80 @@
+{
+  "id": "subclass.wiz.evoker",
+  "parent_class": "class.wizard",
+  "chapter": 3,
+  "title": "School of Evocation",
+  "status": "complete",
+  "source": {
+    "file": "Character Classes (Continued) 81-94.pdf",
+    "pages": [85, 88],
+    "section_hint": "Evoker"
+  },
+  "feature_levels": [3, 6, 10, 14],
+  "features_by_level": {
+    "3": ["evocation_savant", "potent_cantrip"],
+    "6": ["sculpt_spells"],
+    "10": ["empowered_evocation"],
+    "14": ["overchannel"]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.evoker.evocation_savant",
+      "action_type": "none",
+      "trigger": "when you add an evocation spell to your spellbook",
+      "effects": [
+        "the gold and time you must spend to copy the spell are halved"
+      ]
+    },
+    {
+      "id": "feat.evoker.potent_cantrip",
+      "action_type": "none",
+      "trigger": "when a creature succeeds on a saving throw against your cantrip or when you miss with a cantrip attack roll",
+      "effects": [
+        "the creature takes half the cantrip’s damage (if the cantrip deals damage)"
+      ],
+      "limits": [
+        "does not apply if the cantrip has no damage"
+      ]
+    },
+    {
+      "id": "feat.evoker.sculpt_spells",
+      "action_type": "none",
+      "trigger": "when you cast an evocation spell that affects other creatures you can see",
+      "effects": [
+        "choose a number of those creatures equal to 1 + the spell’s level",
+        "chosen creatures automatically succeed on saving throws against the spell",
+        "chosen creatures take no damage if the spell would normally deal half damage on a successful save"
+      ]
+    },
+    {
+      "id": "feat.evoker.empowered_evocation",
+      "action_type": "none",
+      "trigger": "when you roll damage for a wizard evocation spell",
+      "effects": [
+        "add your Intelligence modifier to one damage roll"
+      ],
+      "limits": [
+        "add Intelligence modifier only once per spell"
+      ]
+    },
+    {
+      "id": "feat.evoker.overchannel",
+      "action_type": "special",
+      "trigger": "when you cast a wizard spell of levels 1–5 that deals damage",
+      "effects": [
+        "you can choose to maximize the spell’s damage"
+      ],
+      "limits": [
+        "first use between long rests has no drawback",
+        "each additional use before a long rest deals necrotic damage to you per subclass text, increasing by 1d12 each time",
+        "this necrotic damage ignores resistance and immunity"
+      ],
+      "notes": [
+        "Rules engine should track overchannel_uses_since_long_rest to compute backlash dice."
+      ]
+    }
+  ],
+  "notes": [
+    "Sculpt Spells protects 1 + spell level creatures and prevents half-damage spillover on success."
+  ]
+}

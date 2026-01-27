@@ -166,6 +166,18 @@ function getCharacterNameInput() {
   return document.getElementById('character-name-input');
 }
 
+function getGenerateNameButton() {
+  return document.getElementById('generate-name-btn');
+}
+
+function getGenerateBackgroundButton() {
+  return document.getElementById('generate-background-btn');
+}
+
+function getGenModeToggle() {
+  return document.getElementById('gen-mode-toggle');
+}
+
 function getSaveButton() {
   return document.getElementById('save-button');
 }
@@ -214,6 +226,10 @@ function getSidebarBackButton() {
   return document.getElementById('sidebar-back');
 }
 
+function getWizardLoadWarning() {
+  return document.getElementById('wizard-load-warning');
+}
+
 function getCharacterArtInput() {
   return document.getElementById('character-art-input');
 }
@@ -253,6 +269,150 @@ function getBackgroundNotes() {
     preview.style.backgroundSize = 'cover';
     preview.style.backgroundPosition = 'center';
   }
+
+function getGeneratorMode() {
+  return 'local';
+}
+
+function setGeneratorMode(mode) {
+  return mode === 'ai' ? 'ai' : 'local';
+}
+
+function getGeneratorContext() {
+  const species = getSpeciesSelect()?.value || '';
+  const lineage = getLineageSelect()?.value || '';
+  const className = getClassSelect()?.value || '';
+  const background = getBackgroundSelect()?.value || '';
+  return { species, lineage, className, background };
+}
+
+function localNameGenerator({ species, lineage, className }) {
+  const prefixes = ['Ar', 'Bel', 'Cor', 'Da', 'El', 'Fa', 'Ka', 'La', 'Mor', 'Ra', 'Sa', 'Tal', 'Vor'];
+  const middles = ['an', 'er', 'il', 'or', 'un', 'en', 'is', 'ar', 'el', 'ir'];
+  const suffixes = ['a', 'en', 'in', 'or', 'us', 'yn', 'iel', 'or', 'eth', 'on'];
+  const speciesHint = String(species || lineage || className || '').toLowerCase();
+  if (speciesHint.includes('elf')) {
+    prefixes.push('Ae', 'Eli', 'Lia', 'Syl');
+    suffixes.push('wyn', 'thir', 'lith');
+  }
+  if (speciesHint.includes('dwarf')) {
+    prefixes.push('Bru', 'Dur', 'Thra');
+    suffixes.push('din', 'grin', 'bek');
+  }
+  const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+  return `${pick(prefixes)}${pick(middles)}${pick(suffixes)}`.replace(/\s+/g, '');
+}
+
+function localBackgroundGenerator({ className, background, species }) {
+  const origins = [
+    'grew up among traveling traders',
+    'was raised by a quiet order of scholars',
+    'survived a harsh frontier settlement',
+    'served in a small militia before adventuring',
+    'learned the old ways from a wandering mentor',
+  ];
+  const hooks = [
+    'seeks a lost relic tied to their family',
+    'owes a debt to a mysterious patron',
+    'is chasing rumors of a hidden sanctuary',
+    'hopes to restore a broken community',
+    'is trying to prove themselves after a failure',
+  ];
+  const traits = [
+    'calm under pressure',
+    'curious to a fault',
+    'stubborn but loyal',
+    'wryly humorous',
+    'cautious and observant',
+  ];
+  const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+  const bg = [
+    `A ${background || className || 'traveler'} who ${pick(origins)}.`,
+    `They ${pick(hooks)}.`,
+    `Their manner is ${pick(traits)}.`,
+  ].join(' ');
+  const personality = `A ${pick(traits)} ${species || 'adventurer'} with a lingering sense of purpose.`;
+  return { background: bg, personality };
+}
+
+async function generateName() {
+  const nameInput = getCharacterNameInput();
+  if (!nameInput) return;
+  const status = getSaveStatus();
+  const ctx = getGeneratorContext();
+  if (getGeneratorMode() === 'ai') {
+    try {
+      const response = await fetch('/api/wizard/generate-name', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(ctx),
+      });
+      if (!response.ok) throw new Error('ai-failed');
+      const data = await response.json();
+      if (data?.name) {
+        nameInput.value = data.name;
+        status && (status.textContent = 'Name generated (AI).');
+        return;
+      }
+    } catch {
+      status && (status.textContent = 'AI failed, using local.');
+    }
+  }
+  nameInput.value = localNameGenerator(ctx);
+  status && (status.textContent = 'Name generated (Local).');
+}
+
+async function generateBackground() {
+  const backgroundNotes = getBackgroundNotes();
+  const personalityNotes = getPersonalityNotes?.();
+  if (!backgroundNotes) return;
+  const status = getSaveStatus();
+  const ctx = getGeneratorContext();
+  if (getGeneratorMode() === 'ai') {
+    try {
+      const response = await fetch('/api/wizard/generate-background', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(ctx),
+      });
+      if (!response.ok) throw new Error('ai-failed');
+      const data = await response.json();
+      if (data?.background) backgroundNotes.value = data.background;
+      if (personalityNotes && data?.personality) personalityNotes.value = data.personality;
+      status && (status.textContent = 'Background generated (AI).');
+      return;
+    } catch {
+      status && (status.textContent = 'AI failed, using local.');
+    }
+  }
+  const local = localBackgroundGenerator(ctx);
+  backgroundNotes.value = local.background;
+  if (personalityNotes) personalityNotes.value = local.personality;
+  status && (status.textContent = 'Background generated (Local).');
+}
+
+async function ensurePlayerAuth() {
+  const warning = getWizardLoadWarning();
+  try {
+    const res = await fetch('/api/player/me');
+    if (!res.ok) throw new Error('unauthorized');
+    const data = await res.json();
+    if (!data?.authenticated) throw new Error('unauthorized');
+    if (warning) {
+      warning.hidden = true;
+      warning.textContent = '';
+    }
+    return true;
+  } catch {
+    if (warning) {
+      warning.hidden = false;
+      warning.innerHTML =
+        'Please log in with Discord to use the character wizard. ' +
+        '<a href="/auth/discord/player">Connect Discord</a>';
+    }
+    return false;
+  }
+}
 
 function getInventoryOptionButtons() {
   return Array.from(document.querySelectorAll('.inventory-option-btn'));
@@ -4587,6 +4747,8 @@ function attachListeners() {
   const wildCompanionSummon = getWildCompanionSummonButton();
   const wildCompanionDismiss = getWildCompanionDismissButton();
   const currencyInputs = getCurrencyInputs();
+  const genName = getGenerateNameButton();
+  const genBackground = getGenerateBackgroundButton();
   if (classSelect) {
     classSelect.addEventListener('change', () => {
       state.inventoryOverride = false;
@@ -4952,6 +5114,12 @@ function attachListeners() {
       openTradeModal();
     });
   }
+  if (genName) {
+    genName.addEventListener('click', generateName);
+  }
+  if (genBackground) {
+    genBackground.addEventListener('click', generateBackground);
+  }
 
   document.querySelectorAll('.skill-row input[type="checkbox"]').forEach(input => {
     input.addEventListener('change', () => handleSkillToggle(input));
@@ -4959,6 +5127,8 @@ function attachListeners() {
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
+  const authed = await ensurePlayerAuth();
+  if (!authed) return;
   buildLevelOptions();
   attachListeners();
   await loadWizardData();

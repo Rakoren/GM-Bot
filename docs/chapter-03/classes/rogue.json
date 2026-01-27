@@ -1,0 +1,34 @@
+{
+  "id": "class.rogue",
+  "name": "Rogue",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "DEX",
+  "hit_die": "d8",
+  "saving_throws": ["DEX", "INT"],
+
+  "proficiencies": {
+    "armor": ["light"],
+    "weapons": ["simple", "martial_finesse_or_light"],
+    "tools": ["thieves_tools"]
+  },
+
+  "spellcasting": null,
+
+  "resources": [],
+
+  "features_by_level": {
+    "1": ["expertise", "sneak_attack", "thieves_cant", "weapon_mastery"],
+    "2": ["cunning_action"],
+    "3": ["subclass_choice", "steady_aim"],
+    "5": ["cunning_strike", "uncanny_dodge"],
+    "7": ["evasion", "reliable_talent"],
+    "13": ["use_magic_device"],
+    "17": ["thiefs_reflexes"],
+    "19": ["epic_boon"],
+    "20": ["stroke_of_luck"]
+  },
+
+  "subclasses": ["rogue.arcane_trickster", "rogue.assassin", "rogue.soulknife", "rogue.thief"]
+}

@@ -1,0 +1,178 @@
+{
+  "schema_id": "phb2024.chapter03.core.schema",
+  "schema_version": "0.5.0",
+  "chapter": 3,
+  "title": "Core Schema",
+  "status": "active",
+
+  "conventions": {
+    "id_format": "lowercase dotted ids (e.g., class.warlock, feat.wild_magic.bend_luck, res.sorcery_points)",
+    "no_inline_rules_text": "store long prose in markdown; index stores structure and references only",
+    "triggers_are_strings": "all triggers/limits are human-readable strings (Option A)",
+    "time_units": "use 'round', 'turn', 'minute', 'hour', 'day' strings or structured duration objects"
+  },
+
+  "enums": {
+    "ability": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
+    "caster_type": ["none", "prepared", "known", "third", "pact"],
+    "action_type": [
+      "none",
+      "action",
+      "bonus_action",
+      "reaction",
+      "magic_action",
+      "free_action",
+      "special"
+    ],
+    "recharge": [
+      "none",
+      "short_rest",
+      "long_rest",
+      "short_or_long_rest",
+      "initiative",
+      "daily",
+      "special"
+    ],
+    "rest_timing": ["end_of_short_rest", "end_of_long_rest", "during_short_rest", "during_long_rest"],
+    "resource_pool_type": [
+      "fixed",
+      "by_level",
+      "by_ability_mod",
+      "by_proficiency_bonus",
+      "see_class_table",
+      "see_subclass_table",
+      "special"
+    ],
+    "effect_kind": [
+      "grant_advantage",
+      "impose_disadvantage",
+      "add_damage",
+      "reduce_damage",
+      "heal",
+      "gain_temp_hp",
+      "gain_resistance",
+      "gain_immunity",
+      "teleport",
+      "move",
+      "condition_apply",
+      "condition_remove",
+      "cast_spell",
+      "modify_spell",
+      "modify_roll",
+      "replace_attack",
+      "extra_attack",
+      "resource_regain",
+      "prepared_spell_change",
+      "attunement_change",
+      "sense",
+      "summon",
+      "other"
+    ]
+  },
+
+  "types": {
+    "source_ref": {
+      "file": "string",
+      "pages": "number[]",
+      "section_hint": "string (optional)"
+    },
+
+    "duration": {
+      "kind": "string (e.g., 'instant', 'rounds', 'minutes', 'hours', 'special')",
+      "value": "number (optional)",
+      "notes": "string[] (optional)"
+    },
+
+    "resource_ref": {
+      "id": "string (res.*)",
+      "cost": "number|string (optional)",
+      "consume_only_on_success": "boolean (optional)",
+      "free_first_use_each_long_rest": "boolean (optional)"
+    },
+
+    "feature_def": {
+      "id": "string (feat.* or inv.*)",
+      "action_type": "enum.action_type",
+      "trigger": "string (Option A)",
+      "limits": "string[] (optional)",
+      "resource": "types.resource_ref (optional)",
+      "dc": "string (optional) e.g., 'spell_save_dc' or '8 + DEX_mod + proficiency_bonus'",
+      "range": "string (optional) e.g., '30 ft', 'self', 'touch', '120 ft'",
+      "duration": "types.duration|string (optional)",
+      "effects": "string[] (optional, human-readable short effect clauses)",
+      "scaling": "object (optional; keys are level numbers as strings, values are strings or objects)",
+      "notes": "string[] (optional)",
+      "source": "types.source_ref (optional)"
+    },
+
+    "resource_def": {
+      "id": "string (res.*)",
+      "name": "string",
+      "pool_type": "enum.resource_pool_type",
+      "pool": "number|string (supports formulas or 'see_class_table')",
+      "uses_initial": "number (optional)",
+      "recharge": "enum.recharge|string",
+      "activation": "enum.action_type|string (optional)",
+      "rest_timing": "enum.rest_timing (optional)",
+      "die": "string|object (optional; e.g., 'd6' or {\"3\":\"d8\",\"10\":\"d10\"})",
+      "duration": "types.duration|string (optional)",
+      "notes": "string[] (optional)",
+      "source": "types.source_ref (optional)"
+    },
+
+    "spell_list_ref": {
+      "id": "string (spell_list.*)",
+      "class_id": "string (class.*)",
+      "source": "types.source_ref",
+      "ordering": "string",
+      "entry_schema": {
+        "name": "string",
+        "school": "string",
+        "special_flags": "object (e.g., {\"C\":\"concentration\",\"R\":\"ritual\"})"
+      },
+      "notes": "string (optional)"
+    },
+
+    "class_def": {
+      "id": "string (class.*)",
+      "primary_ability": "string|string[]",
+      "hit_die": "string",
+      "saving_throws": "string[]",
+      "proficiencies": "object",
+      "spellcasting": "object (optional)",
+      "resources": "string[] (optional; array of res.* ids)",
+      "features": "object (map of level -> string[] feature ids)",
+      "subclasses": "string[] (optional; subclass ids)",
+      "notes": "string|string[] (optional)",
+      "source": "types.source_ref (optional)"
+    },
+
+    "subclass_def": {
+      "id": "string",
+      "parent_class": "string (class.*)",
+      "feature_levels": "number[]",
+      "resources": "string[] (optional; res.* ids)",
+      "always_prepared_spells": "object (optional; map of spell level -> string[] spell names)",
+      "features_by_level": "object (map of class level -> string[] feature ids)",
+      "tables": "string[] (optional)",
+      "notes": "string|string[] (optional)",
+      "source": "types.source_ref (optional)"
+    }
+  },
+
+  "validation_rules": [
+    "All ids must be unique across their namespace (class.*, res.*, feat.*, inv.*, spell_list.*).",
+    "feature_defs[*].resource.id must exist in resource_defs.",
+    "class_def.resources must only contain ids that exist in resource_defs.",
+    "subclass_def.parent_class must match a class_def.id.",
+    "spell_list_ref.class_id must match a class_def.id.",
+    "Triggers/limits are strings; keep them short and declarative, not paragraphs."
+  ],
+
+  "glossary": {
+    "trigger": "A human-readable statement of when a feature can be used (Option A).",
+    "limit": "A constraint on frequency/conditions (e.g., 'once per turn', 'requires dim light').",
+    "resource": "A consumable pool or usage counter (e.g., Sorcery Points).",
+    "effect": "A short outcome clause; detailed wording stays in markdown."
+  }
+}

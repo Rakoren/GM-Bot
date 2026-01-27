@@ -1,0 +1,151 @@
+{
+  "core_id": "phb2024.chapter03.core.features",
+  "core_version": "0.5.0",
+  "chapter": 3,
+  "title": "Core Feature Definitions",
+  "status": "active",
+
+  "feature_defs": [
+    {
+      "id": "feat.rage",
+      "action_type": "bonus_action",
+      "trigger": "on your turn",
+      "resource": { "id": "res.rage", "cost": 1 },
+      "duration": { "kind": "minutes", "value": 1 },
+      "effects": [
+        "gain advantage on Strength checks and Strength saving throws",
+        "gain bonus damage on Strength-based attacks",
+        "gain resistance to bludgeoning, piercing, and slashing damage"
+      ],
+      "limits": [
+        "ends early if you do not attack or take damage on your turn",
+        "ends early if you are incapacitated"
+      ]
+    },
+    {
+      "id": "feat.bardic_inspiration",
+      "action_type": "bonus_action",
+      "trigger": "on your turn",
+      "resource": { "id": "res.bardic_inspiration", "cost": 1 },
+      "range": "60 ft",
+      "effects": [
+        "grant Bardic Inspiration die to one creature who can hear you"
+      ]
+    },
+    {
+      "id": "feat.channel_divinity",
+      "action_type": "special",
+      "trigger": "when you activate a Channel Divinity option",
+      "resource": { "id": "res.channel_divinity.cleric", "cost": 1 },
+      "effects": [
+        "apply the chosen Channel Divinity effect"
+      ]
+    },
+    {
+      "id": "feat.wild_shape",
+      "action_type": "bonus_action",
+      "trigger": "on your turn",
+      "resource": { "id": "res.wild_shape", "cost": 1 },
+      "effects": [
+        "transform into a beast form you have learned"
+      ],
+      "limits": [
+        "cannot cast spells while transformed",
+        "can maintain concentration on spells cast before transforming"
+      ]
+    },
+    {
+      "id": "feat.second_wind",
+      "action_type": "bonus_action",
+      "trigger": "on your turn",
+      "resource": { "id": "res.second_wind", "cost": 1 },
+      "effects": [
+        "regain hit points equal to 1d10 + fighter level"
+      ]
+    },
+    {
+      "id": "feat.action_surge",
+      "action_type": "free_action",
+      "trigger": "on your turn",
+      "resource": { "id": "res.action_surge", "cost": 1 },
+      "effects": [
+        "take one additional action on your turn"
+      ],
+      "limits": [
+        "can be used only once on a turn"
+      ]
+    },
+    {
+      "id": "feat.cunning_action",
+      "action_type": "bonus_action",
+      "trigger": "on your turn",
+      "effects": [
+        "take the Dash, Disengage, or Hide action"
+      ]
+    },
+    {
+      "id": "feat.steady_aim",
+      "action_type": "bonus_action",
+      "trigger": "on your turn",
+      "effects": [
+        "gain advantage on your next attack roll this turn"
+      ],
+      "limits": [
+        "your speed becomes 0 until the end of the turn",
+        "cannot have moved this turn"
+      ]
+    },
+    {
+      "id": "feat.uncanny_dodge",
+      "action_type": "reaction",
+      "trigger": "when an attacker you can see hits you with an attack",
+      "effects": [
+        "halve the attack's damage against you"
+      ]
+    },
+    {
+      "id": "feat.evasion",
+      "action_type": "none",
+      "trigger": "when you are subjected to an effect that allows a Dexterity saving throw for half damage",
+      "effects": [
+        "take no damage on a successful save",
+        "take half damage on a failed save"
+      ]
+    },
+    {
+      "id": "feat.metamagic",
+      "action_type": "special",
+      "trigger": "when you cast a spell",
+      "resource": { "id": "res.sorcery_points", "cost": "varies" },
+      "effects": [
+        "modify the spell using a chosen Metamagic option"
+      ],
+      "limits": [
+        "normally only one Metamagic option per spell unless otherwise stated"
+      ]
+    },
+    {
+      "id": "feat.pact_magic",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "cast warlock spells using Pact Magic spell slots"
+      ]
+    },
+    {
+      "id": "feat.arcane_recovery",
+      "action_type": "special",
+      "trigger": "at the end of a short rest",
+      "resource": { "id": "res.arcane_recovery", "cost": 1 },
+      "effects": [
+        "recover expended spell slots"
+      ]
+    }
+  ],
+
+  "notes": [
+    "These are shared, reusable feature patterns referenced by class and subclass files.",
+    "Subclass- or option-specific variants (e.g., individual Metamagic options, Eldritch Invocations) live outside this file.",
+    "Triggers and limits are intentionally human-readable (Option A)."
+  ]
+}

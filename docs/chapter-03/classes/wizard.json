@@ -1,0 +1,127 @@
+{
+  "id": "class.wizard",
+  "chapter": 3,
+  "title": "Wizard",
+  "status": "complete",
+  "source": {
+    "file": "Character Classes (Continued) 61-80.pdf; 81-94.pdf",
+    "pages": [61, 94],
+    "section_hint": "Wizard"
+  },
+
+  "primary_ability": "INT",
+  "hit_die": "d6",
+  "saving_throws": ["INT", "WIS"],
+
+  "proficiencies": {
+    "armor": [],
+    "weapons": ["simple"],
+    "tools": [],
+    "skills_choose": {
+      "count": 2,
+      "from": [
+        "arcana",
+        "history",
+        "insight",
+        "investigation",
+        "medicine",
+        "nature",
+        "religion"
+      ]
+    }
+  },
+
+  "spellcasting": {
+    "caster_type": "prepared",
+    "spellcasting_ability": "INT",
+    "spell_list_ref": "spell_list.wizard",
+    "spellbook_rules": [
+      "spellbook_starts_with_6_level1_spells",
+      "add_2_spells_on_each_level_up_after_1",
+      "can_copy_spells_into_spellbook_with_gold_and_time",
+      "prepared_spells_count_from_wizard_table",
+      "can_change_prepared_spells_on_long_rest"
+    ]
+  },
+
+  "resources": [
+    "res.arcane_recovery"
+  ],
+
+  "features": {
+    "1": ["spellcasting", "ritual_adept", "arcane_recovery", "spellbook"],
+    "2": ["scholar"],
+    "3": ["subclass_choice"],
+    "4": ["ability_score_improvement"],
+    "5": ["memorize_spell"],
+    "8": ["ability_score_improvement"],
+    "12": ["ability_score_improvement"],
+    "16": ["ability_score_improvement"],
+    "18": ["spell_mastery"],
+    "19": ["epic_boon"],
+    "20": ["signature_spells"]
+  },
+
+  "feature_defs": [
+    {
+      "id": "feat.wizard.memorize_spell",
+      "level": 5,
+      "action_type": "special",
+      "trigger": "when you finish a short rest",
+      "effects": [
+        "replace one prepared wizard spell of level 1 or higher with another wizard spell from your spellbook"
+      ],
+      "limits": [
+        "the new spell must be of a level for which you have spell slots",
+        "the replaced spell must be of level 1 or higher"
+      ],
+      "notes": [
+        "This feature does not allow changing cantrips."
+      ]
+    },
+    {
+      "id": "feat.wizard.spell_mastery",
+      "level": 18,
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "choose one 1st-level wizard spell and one 2nd-level wizard spell that you have prepared",
+        "you can cast each of the chosen spells at will without expending a spell slot"
+      ],
+      "limits": [
+        "both spells must have a casting time of 1 action",
+        "you can change the chosen spells when you finish a long rest"
+      ],
+      "notes": [
+        "Casting these spells at higher levels still requires spell slots."
+      ]
+    },
+    {
+      "id": "feat.wizard.signature_spells",
+      "level": 20,
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "choose two 3rd-level wizard spells in your spellbook",
+        "you can cast each chosen spell once without expending a spell slot",
+        "when you cast a chosen spell using this feature, it is cast at 3rd level"
+      ],
+      "limits": [
+        "you regain the ability to cast each spell for free when you finish a short or long rest"
+      ]
+    }
+  ],
+
+  "subclasses": [
+    "subclass.wiz.abjurer",
+    "subclass.wiz.diviner",
+    "subclass.wiz.evoker",
+    "subclass.wiz.illusionist"
+  ],
+
+  "notes": [
+    "Wizard spell slot progression is defined in the class table and referenced by spellcasting rules.",
+    "Arcane Recovery remains a core resource and is not duplicated here.",
+    "Spell Mastery and Signature Spells explicitly restrict eligible spells to those with a 1-action casting time."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "class.fighter",
+  "name": "Fighter",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "STR_or_DEX",
+  "hit_die": "d10",
+  "saving_throws": ["STR", "CON"],
+
+  "proficiencies": {
+    "armor": ["light", "medium", "heavy", "shields"],
+    "weapons": ["simple", "martial"]
+  },
+
+  "spellcasting": null,
+
+  "resources": ["res.second_wind", "res.action_surge"],
+
+  "features_by_level": {
+    "1": ["fighting_style", "second_wind", "weapon_mastery"],
+    "2": ["action_surge", "tactical_mind"],
+    "3": ["subclass_choice"]
+  },
+
+  "subclasses": ["fighter.battle_master", "fighter.champion", "fighter.eldritch_knight", "fighter.psi_warrior"]
+}

@@ -44,6 +44,7 @@ const ADMIN_SESSION_FILE =
 const ADMIN_SESSION_TTL_MS = Number(process.env.ADMIN_SESSION_TTL_MS || 1000 * 60 * 60 * 24 * 7);
 const COMBAT_STATE_PATH = path.join(ROOT_DIR, 'combat_state.json');
 const LOOT_STATE_PATH = path.join(ROOT_DIR, 'loot_state.json');
+const NPC_PERSONAS_PATH = path.join(ROOT_DIR, 'npc_personas.json');
 
 function canManageGuild(guild) {
   if (!guild) return false;
@@ -1061,6 +1062,7 @@ app.use(express.urlencoded({ extended: true }));
 const ADMIN_PAGES = new Set([
   '/admin.html',
   '/dashboard.html',
+  '/npcs.html',
   '/features.html',
   '/commands.html',
   '/datasets.html',
@@ -1225,6 +1227,38 @@ app.get('/api/loot', requireAuth, (req, res) => {
   const payload = loadJsonSafe(LOOT_STATE_PATH, { items: [], updatedAt: null });
   res.json(payload);
 });
+
+app.get('/api/npcs', requireAuth, (req, res) => {
+  const personas = loadJsonSafe(NPC_PERSONAS_PATH, {});
+  const list = Object.entries(personas).map(([id, persona]) => ({
+    id,
+    name: persona?.name || 'Unknown',
+    role: persona?.role || '',
+    personality: persona?.personality || '',
+    motive: persona?.motive || '',
+    voice: persona?.voice || '',
+    quirk: persona?.quirk || '',
+    appearance: persona?.appearance || '',
+    updatedAt: persona?.updatedAt || null,
+  }));
+  list.sort((a, b) => {
+    const at = Date.parse(a.updatedAt || '') || 0;
+    const bt = Date.parse(b.updatedAt || '') || 0;
+    return bt - at;
+  });
+  res.json({ npcs: list });
+});
+
+app.get('/api/npcs/:id', requireAuth, (req, res) => {
+  const personas = loadJsonSafe(NPC_PERSONAS_PATH, {});
+  const npc = personas?.[String(req.params.id)] || null;
+  if (!npc) {
+    res.status(404).json({ error: 'not-found' });
+    return;
+  }
+  res.json({ id: String(req.params.id), ...npc });
+});
+
 
 app.get('/api/config', requireAuth, (req, res) => {
   res.json(loadConfig());

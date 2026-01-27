@@ -567,13 +567,39 @@ export const commandData = [
         .setDescription('Create an NPC')
         .addStringOption(opt => opt.setName('name').setDescription('NPC name').setRequired(true))
         .addStringOption(opt => opt.setName('role').setDescription('Role or archetype').setRequired(false))
+        .addStringOption(opt => opt.setName('personality').setDescription('Personality summary').setRequired(false))
+        .addStringOption(opt => opt.setName('motive').setDescription('Core motive or goal').setRequired(false))
+        .addStringOption(opt => opt.setName('voice').setDescription('Voice or dialogue style').setRequired(false))
+        .addStringOption(opt => opt.setName('quirk').setDescription('Distinctive quirk').setRequired(false))
+        .addStringOption(opt => opt.setName('appearance').setDescription('Appearance cues').setRequired(false))
         .addStringOption(opt => opt.setName('stats').setDescription('Stat block or summary').setRequired(false))
+        .addStringOption(opt => opt.setName('notes').setDescription('Notes').setRequired(false))
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('quick')
+        .setDescription('Quick save an NPC')
+        .addStringOption(opt => opt.setName('name').setDescription('NPC name').setRequired(true))
+        .addStringOption(opt => opt.setName('role').setDescription('Role or archetype').setRequired(false))
+        .addStringOption(opt => opt.setName('personality').setDescription('Personality summary').setRequired(false))
+        .addStringOption(opt => opt.setName('motive').setDescription('Core motive or goal').setRequired(false))
+        .addStringOption(opt => opt.setName('voice').setDescription('Voice or dialogue style').setRequired(false))
+        .addStringOption(opt => opt.setName('quirk').setDescription('Distinctive quirk').setRequired(false))
+        .addStringOption(opt => opt.setName('appearance').setDescription('Appearance cues').setRequired(false))
         .addStringOption(opt => opt.setName('notes').setDescription('Notes').setRequired(false))
     )
     .addSubcommand(sub =>
       sub
         .setName('list')
         .setDescription('List recent NPCs')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('generate')
+        .setDescription('Generate NPC name and lore seeds')
+        .addStringOption(opt => opt.setName('culture').setDescription('Culture or region').setRequired(false))
+        .addStringOption(opt => opt.setName('role').setDescription('Role or archetype').setRequired(false))
+        .addIntegerOption(opt => opt.setName('count').setDescription('How many').setRequired(false))
     )
     .addSubcommand(sub =>
       sub

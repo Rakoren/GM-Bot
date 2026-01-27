@@ -1,0 +1,67 @@
+{
+  "id": "spell_list.paladin",
+  "class_id": "class.paladin",
+  "levels": {
+    "1": [
+      {"name":"Bless","school":"Enchantment","special":["C","M"]},
+      {"name":"Command","school":"Enchantment","special":[]},
+      {"name":"Compelled Duel","school":"Enchantment","special":["C"]},
+      {"name":"Cure Wounds","school":"Abjuration","special":[]},
+      {"name":"Detect Evil and Good","school":"Divination","special":["C"]},
+      {"name":"Detect Magic","school":"Divination","special":["C","R"]},
+      {"name":"Detect Poison and Disease","school":"Divination","special":["C","R"]},
+      {"name":"Divine Favor","school":"Transmutation","special":[]},
+      {"name":"Divine Smite","school":"Evocation","special":[]},
+      {"name":"Heroism","school":"Enchantment","special":["C"]},
+      {"name":"Protection from Evil and Good","school":"Abjuration","special":["C","M"]},
+      {"name":"Purify Food and Drink","school":"Transmutation","special":["R"]},
+      {"name":"Searing Smite","school":"Evocation","special":[]},
+      {"name":"Shield of Faith","school":"Abjuration","special":["C"]},
+      {"name":"Thunderous Smite","school":"Evocation","special":[]},
+      {"name":"Wrathful Smite","school":"Necromancy","special":[]}
+    ],
+    "2": [
+      {"name":"Aid","school":"Abjuration","special":[]},
+      {"name":"Find Steed","school":"Conjuration","special":[]},
+      {"name":"Gentle Repose","school":"Necromancy","special":["R","M"]},
+      {"name":"Lesser Restoration","school":"Abjuration","special":[]},
+      {"name":"Locate Object","school":"Divination","special":["C"]},
+      {"name":"Magic Weapon","school":"Transmutation","special":[]},
+      {"name":"Prayer of Healing","school":"Abjuration","special":[]},
+      {"name":"Protection from Poison","school":"Abjuration","special":[]},
+      {"name":"Shining Smite","school":"Transmutation","special":["C"]},
+      {"name":"Warding Bond","school":"Abjuration","special":["M"]},
+      {"name":"Zone of Truth","school":"Enchantment","special":[]}
+    ],
+    "3": [
+      {"name":"Aura of Vitality","school":"Abjuration","special":["C"]},
+      {"name":"Blinding Smite","school":"Evocation","special":[]},
+      {"name":"Create Food and Water","school":"Conjuration","special":[]},
+      {"name":"Crusader’s Mantle","school":"Transmutation","special":["C"]},
+      {"name":"Daylight","school":"Evocation","special":[]},
+      {"name":"Dispel Magic","school":"Abjuration","special":[]},
+      {"name":"Elemental Weapon","school":"Transmutation","special":["C"]},
+      {"name":"Magic Circle","school":"Abjuration","special":["M"]},
+      {"name":"Remove Curse","school":"Abjuration","special":[]},
+      {"name":"Revivify","school":"Necromancy","special":["M"]}
+    ],
+    "4": [
+      {"name":"Aura of Life","school":"Abjuration","special":["C"]},
+      {"name":"Aura of Purity","school":"Abjuration","special":["C"]},
+      {"name":"Banishment","school":"Abjuration","special":["C"]},
+      {"name":"Death Ward","school":"Abjuration","special":[]},
+      {"name":"Locate Creature","school":"Divination","special":["C"]},
+      {"name":"Staggering Smite","school":"Enchantment","special":[]}
+    ],
+    "5": [
+      {"name":"Banishing Smite","school":"Conjuration","special":["C"]},
+      {"name":"Circle of Power","school":"Abjuration","special":["C"]},
+      {"name":"Destructive Wave","school":"Evocation","special":[]},
+      {"name":"Dispel Evil and Good","school":"Abjuration","special":["C"]},
+      {"name":"Geas","school":"Enchantment","special":[]},
+      {"name":"Greater Restoration","school":"Abjuration","special":["M"]},
+      {"name":"Raise Dead","school":"Necromancy","special":["M"]},
+      {"name":"Summon Celestial","school":"Conjuration","special":["C","M"]}
+    ]
+  }
+}

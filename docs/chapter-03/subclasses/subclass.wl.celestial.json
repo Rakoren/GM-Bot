@@ -1,0 +1,105 @@
+{
+  "id": "subclass.wl.celestial",
+  "parent_class": "class.warlock",
+  "chapter": 3,
+  "title": "The Celestial",
+  "source": {
+    "file": "Character Classes (Continued) 61-80.pdf",
+    "pages": [74, 77],
+    "section_hint": "Warlock Patron: The Celestial"
+  },
+
+  "feature_levels": [3, 6, 10, 14],
+
+  "always_prepared_spells": {
+    "3": ["Cure Wounds", "Guiding Bolt"],
+    "5": ["Flaming Sphere", "Lesser Restoration"],
+    "7": ["Daylight", "Revivify"],
+    "9": ["Guardian of Faith", "Wall of Fire"]
+  },
+
+  "resources": ["res.healing_light_dice"],
+
+  "features_by_level": {
+    "3": ["healing_light", "radiant_soul"],
+    "6": ["radiant_resilience"],
+    "10": ["celestial_resistance"],
+    "14": ["searing_vengeance"]
+  },
+
+  "feature_defs": [
+    {
+      "id": "feat.celestial.healing_light",
+      "action_type": "bonus_action",
+      "trigger": "on your turn",
+      "resource": {
+        "id": "res.healing_light_dice",
+        "cost": "1_to_CHA_mod"
+      },
+      "range": "60 ft",
+      "effects": [
+        "a creature you can see regains hit points equal to the total rolled on the expended d6s"
+      ],
+      "limits": [
+        "cannot target constructs or undead",
+        "maximum dice spent per use equals your Charisma modifier (minimum 1)"
+      ]
+    },
+    {
+      "id": "feat.celestial.radiant_soul",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "gain resistance to radiant damage",
+        "when you cast a spell that deals radiant or fire damage add your Charisma modifier to one damage roll"
+      ],
+      "limits": [
+        "add Charisma modifier only once per spell"
+      ]
+    },
+    {
+      "id": "feat.celestial.radiant_resilience",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "when you finish a long rest choose yourself and up to five creatures",
+        "chosen creatures gain temporary hit points equal to your warlock level + your Charisma modifier"
+      ],
+      "limits": [
+        "temporary hit points last until expended or until the next long rest"
+      ]
+    },
+    {
+      "id": "feat.celestial.celestial_resistance",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "you and friendly creatures within 10 ft gain resistance to radiant damage"
+      ],
+      "limits": [
+        "aura is suppressed while you are incapacitated"
+      ]
+    },
+    {
+      "id": "feat.celestial.searing_vengeance",
+      "action_type": "reaction",
+      "trigger": "when you are reduced to 0 hit points",
+      "effects": [
+        "regain hit points equal to half your hit point maximum",
+        "stand up if prone",
+        "each enemy within 30 ft takes radiant damage and is blinded until the end of its next turn"
+      ],
+      "limits": [
+        "once per long rest",
+        "if this effect triggers you do not fall unconscious"
+      ],
+      "dc": "spell_save_dc"
+    }
+  ],
+
+  "notes": [
+    "The Celestial patron emphasizes healing, radiant damage, and protective auras.",
+    "Healing Light uses a dedicated d6 pool defined in core resources.",
+    "All triggers and limits are expressed in human-readable form (Option A)."
+  ]
+}

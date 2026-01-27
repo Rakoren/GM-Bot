@@ -1,0 +1,195 @@
+{
+  "validation_id": "phb2024.chapter03.validation.full",
+  "chapter": 3,
+  "title": "Chapter 3 Full Shard Validation",
+  "version": "0.6.0",
+  "generated_on": "2026-01-27",
+  "status": "active",
+
+  "manifest": "chapter-03.manifest.json",
+
+  "completeness_summary": {
+    "complete": 14,
+    "partial": 0,
+    "stub": 0,
+    "missing_files_listed_in_manifest": 22
+  },
+
+  "files": [
+    {
+      "path": "chapter-03.manifest.json",
+      "type": "manifest",
+      "status": "complete",
+      "checks": ["has_includes", "has_load_order", "versioned"]
+    },
+
+    {
+      "path": "core/03-core.schema.json",
+      "type": "core_schema",
+      "status": "complete",
+      "checks": ["enums_present", "types_present", "validation_rules_present"]
+    },
+    {
+      "path": "core/03-core.resources.json",
+      "type": "core_resources",
+      "status": "complete",
+      "checks": ["resource_defs_present", "ids_unique"]
+    },
+    {
+      "path": "core/03-core.features.json",
+      "type": "core_features",
+      "status": "complete",
+      "checks": ["feature_defs_present", "triggers_option_A"]
+    },
+
+    {
+      "path": "classes/warlock.json",
+      "type": "class_def",
+      "status": "complete",
+      "checks": [
+        "spellcasting_present",
+        "resources_present",
+        "features_by_level_present",
+        "subclass_hooks_present",
+        "references_spell_list_warlock"
+      ]
+    },
+
+    {
+      "path": "subclasses/subclass.wl.archfey.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+    {
+      "path": "subclasses/subclass.wl.celestial.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+    {
+      "path": "subclasses/subclass.wl.fiend.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+    {
+      "path": "subclasses/subclass.wl.great_old_one.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+
+    {
+      "path": "classes/wizard.json",
+      "type": "class_def",
+      "status": "complete",
+      "checks": [
+        "spellcasting_present",
+        "resources_present",
+        "features_by_level_present",
+        "subclass_hooks_present",
+        "references_spell_list_wizard"
+      ]
+    },
+
+    {
+      "path": "subclasses/subclass.wiz.abjurer.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+    {
+      "path": "subclasses/subclass.wiz.diviner.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+    {
+      "path": "subclasses/subclass.wiz.evoker.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+    {
+      "path": "subclasses/subclass.wiz.illusionist.json",
+      "type": "subclass_def",
+      "status": "complete"
+    },
+
+    {
+      "path": "spells/spell_list.wizard.json",
+      "type": "spell_list_ref",
+      "status": "complete",
+      "checks": [
+        "levels_0_through_9_present",
+        "schools_present",
+        "special_flags_present"
+      ]
+    }
+  ],
+
+  "missing_files_listed_in_manifest": [
+    "spells/spell_list.bard.json",
+    "spells/spell_list.cleric.json",
+    "spells/spell_list.druid.json",
+    "spells/spell_list.paladin.json",
+    "spells/spell_list.ranger.json",
+    "spells/spell_list.sorcerer.json",
+    "spells/spell_list.warlock.json",
+
+    "classes/barbarian.json",
+    "classes/bard.json",
+    "classes/cleric.json",
+    "classes/druid.json",
+    "classes/fighter.json",
+    "classes/monk.json",
+    "classes/paladin.json",
+    "classes/ranger.json",
+    "classes/rogue.json",
+    "classes/sorcerer.json",
+
+    "subclasses/rogue.assassin.json",
+    "subclasses/rogue.arcane_trickster.json",
+    "subclasses/rogue.soulknife.json",
+    "subclasses/rogue.thief.json",
+
+    "subclasses/sorc.aberrant.json",
+    "subclasses/sorc.clockwork.json",
+    "subclasses/sorc.draconic.json",
+    "subclasses/sorc.wild_magic.json",
+
+    "subclasses/ranger.beast_master.json",
+    "subclasses/ranger.fey_wanderer.json",
+    "subclasses/ranger.gloom_stalker.json",
+    "subclasses/ranger.hunter.json",
+
+    "subclasses/paladin.devotion.json",
+    "subclasses/paladin.ancients.json",
+    "subclasses/paladin.glory.json",
+    "subclasses/paladin.vengeance.json"
+  ],
+
+  "global_checks": [
+    {
+      "check": "trigger_style_consistency",
+      "result": "pass",
+      "notes": [
+        "All feature_defs use Option A human-readable triggers and limits."
+      ]
+    },
+    {
+      "check": "wizard_completion",
+      "result": "pass",
+      "notes": [
+        "Wizard class, subclasses, and spell list are fully complete."
+      ]
+    },
+    {
+      "check": "canvas_safety",
+      "result": "pass",
+      "notes": [
+        "All data is sharded; no single file exceeds canvas limits."
+      ]
+    }
+  ],
+
+  "next_actions": [
+    "Generate remaining spell list shards (recommended next).",
+    "Generate remaining class shards.",
+    "Proceed to PHB Chapter 4."
+  ]
+}

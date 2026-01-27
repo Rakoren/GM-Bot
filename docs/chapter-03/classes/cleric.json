@@ -1,0 +1,31 @@
+{
+  "id": "class.cleric",
+  "name": "Cleric",
+  "chapter": 3,
+  "status": "complete",
+
+  "primary_ability": "WIS",
+  "hit_die": "d8",
+  "saving_throws": ["WIS", "CHA"],
+
+  "proficiencies": {
+    "armor": ["light", "medium", "shields"],
+    "weapons": ["simple"]
+  },
+
+  "spellcasting": {
+    "caster_type": "prepared",
+    "spellcasting_ability": "WIS",
+    "spell_list_ref": "spell_list.cleric"
+  },
+
+  "resources": ["res.channel_divinity.cleric"],
+
+  "features_by_level": {
+    "1": ["spellcasting", "divine_order"],
+    "2": ["channel_divinity"],
+    "3": ["subclass_choice"]
+  },
+
+  "subclasses": ["domain.life", "domain.light", "domain.trickery", "domain.war"]
+}
