@@ -28,5 +28,9 @@
     "3": ["subclass_choice"]
   },
 
-  "subclasses": ["circle.land", "circle.moon", "circle.sea", "circle.stars"]
+  "subclasses": [
+  "circle.land", 
+  "circle.moon", 
+  "circle.sea", 
+  "circle.stars"]
 }

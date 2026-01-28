@@ -23,5 +23,9 @@
     "3": ["subclass_choice"]
   },
 
-  "subclasses": ["fighter.battle_master", "fighter.champion", "fighter.eldritch_knight", "fighter.psi_warrior"]
+  "subclasses": [
+  "fighter.battle_master", 
+  "fighter.champion", 
+  "fighter.eldritch_knight", 
+  "fighter.psi_warrior"]
 }

@@ -19,7 +19,10 @@
     "spell_list_ref": "spell_list.sorcerer"
   },
 
-  "resources": ["res.sorcery_points", "res.innate_sorcery", "res.tides_of_chaos"],
+  "resources": [
+  "res.sorcery_points", 
+  "res.innate_sorcery", 
+  "res.tides_of_chaos"],
 
   "features_by_level": {
     "1": ["spellcasting", "innate_sorcery"],
@@ -30,5 +33,9 @@
     "20": ["arcane_apotheosis"]
   },
 
-  "subclasses": ["sorcerer.aberrant", "sorcerer.clockwork", "sorcerer.draconic", "sorcerer.wild_magic"]
+  "subclasses": [
+  "sorcerer.aberrant", 
+  "sorcerer.clockwork", 
+  "sorcerer.draconic", 
+  "sorcerer.wild_magic"]
 }

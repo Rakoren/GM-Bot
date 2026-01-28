@@ -1,0 +1,15 @@
+{
+  "id": "res.magical_cunning",
+  "name": "Magical Cunning",
+  "chapter": 3,
+
+  "pool": 1,
+  "recharge": "long_rest",
+
+  "activation": "special",
+  "notes": [
+    "Used by the Warlock feature Magical Cunning.",
+    "When used, it restores Pact Magic slots per the feature text.",
+    "Refreshes when you finish a Long Rest."
+  ]
+}

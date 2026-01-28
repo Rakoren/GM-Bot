@@ -1,0 +1,20 @@
+{
+  "id": "inv.pact_of_the_blade",
+  "name": "Pact of the Blade",
+  "chapter": 3,
+  "status": "complete",
+
+  "prereqs": ["class.warlock:level>=3", "feature:pact_boon"],
+
+  "effects": [
+    "gain_pact_boon:pact_of_the_blade",
+    "pact_weapon:you_can_create_or_bind_a_weapon_as_your_pact_weapon_per_feature_text",
+    "pact_weapon:you_can_use_your_pact_weapon_as_a_spellcasting_focus_for_warlock_spells_if_feature_text_allows",
+    "pact_weapon:you_can_summon_or_dismiss_pact_weapon_per_feature_text"
+  ],
+
+  "notes": [
+    "This shard models the Pact Boon selection. Detailed weapon binding/summoning steps should live in feat.warlock.pact_boon or a dedicated feat shard.",
+    "Related invocations (e.g., upgrades that require Pact of the Blade) should list this id in their prereqs."
+  ]
+}

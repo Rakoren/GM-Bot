@@ -3,7 +3,7 @@
   "chapter": 3,
   "class_id": "class.wizard",
   "title": "Wizard Spell List",
-  "status": "complete_levels_1_to_9_missing_cantrips",
+  "status": "complete",
   "source": {
     "file": "Character Classes (Continued) 81-94.pdf",
     "pages": [82, 88],
@@ -22,7 +22,7 @@
   "levels_present": [0,1, 2, 3, 4, 5, 6, 7, 8, 9],
   "missing_levels": [],
   "entries": [
-     { "level": 0, "name": "Acid Splash", "school": "Evocation", "special_flags": [] },
+    { "level": 0, "name": "Acid Splash", "school": "Evocation", "special_flags": [] },
     { "level": 0, "name": "Blade Ward", "school": "Abjuration", "special_flags": ["C"] },
     { "level": 0, "name": "Chill Touch", "school": "Necromancy", "special_flags": [] },
     { "level": 0, "name": "Dancing Lights", "school": "Illusion", "special_flags": ["C"] },

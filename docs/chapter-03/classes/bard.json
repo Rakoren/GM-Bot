@@ -31,5 +31,9 @@
     "20": ["words_of_creation"]
   },
 
-  "subclasses": ["college.dance", "college.glamour", "college.lore", "college.valor"]
+  "subclasses": [
+  "college.dance", 
+  "college.glamour", 
+  "college.lore", 
+  "college.valor"]
 }

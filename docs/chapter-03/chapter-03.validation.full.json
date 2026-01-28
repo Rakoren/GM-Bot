@@ -1,195 +1,111 @@
 {
-  "validation_id": "phb2024.chapter03.validation.full",
+  "schema_version": "0.4.0",
   "chapter": 3,
-  "title": "Chapter 3 Full Shard Validation",
-  "version": "0.6.0",
-  "generated_on": "2026-01-27",
-  "status": "active",
+  "title": "chapter-03.validation.full",
+  "generated_at": "2026-01-27",
 
-  "manifest": "chapter-03.manifest.json",
-
-  "completeness_summary": {
-    "complete": 14,
-    "partial": 0,
-    "stub": 0,
-    "missing_files_listed_in_manifest": 22
+  "validation_profile": "full",
+  "inputs": {
+    "manifest_path": "chapter-03/manifest.json",
+    "index_aggregate_optional": "Chapter-03-index-hardened-v2"
   },
 
-  "files": [
-    {
-      "path": "chapter-03.manifest.json",
-      "type": "manifest",
-      "status": "complete",
-      "checks": ["has_includes", "has_load_order", "versioned"]
-    },
+  "required_types": ["class", "spell_list", "resource"],
+  "optional_types": ["feature", "subclass", "enum"],
 
+  "checks": [
     {
-      "path": "core/03-core.schema.json",
-      "type": "core_schema",
-      "status": "complete",
-      "checks": ["enums_present", "types_present", "validation_rules_present"]
+      "id": "manifest.shards.unique_ids",
+      "type": "integrity",
+      "severity": "error",
+      "rule": "All shards[].id must be unique across the manifest."
     },
     {
-      "path": "core/03-core.resources.json",
-      "type": "core_resources",
-      "status": "complete",
-      "checks": ["resource_defs_present", "ids_unique"]
+      "id": "manifest.shards.paths.present",
+      "type": "filesystem",
+      "severity": "error",
+      "rule": "Every shards[].path must exist on disk."
     },
     {
-      "path": "core/03-core.features.json",
-      "type": "core_features",
-      "status": "complete",
-      "checks": ["feature_defs_present", "triggers_option_A"]
-    },
-
-    {
-      "path": "classes/warlock.json",
-      "type": "class_def",
-      "status": "complete",
-      "checks": [
-        "spellcasting_present",
-        "resources_present",
-        "features_by_level_present",
-        "subclass_hooks_present",
-        "references_spell_list_warlock"
-      ]
-    },
-
-    {
-      "path": "subclasses/subclass.wl.archfey.json",
-      "type": "subclass_def",
-      "status": "complete"
+      "id": "class.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "class" },
+      "rule": "Class shard must include: id, name, chapter, status, primary_ability, hit_die, saving_throws, proficiencies, spellcasting (nullable), resources (array), features_by_level (object), subclasses (array)."
     },
     {
-      "path": "subclasses/subclass.wl.celestial.json",
-      "type": "subclass_def",
-      "status": "complete"
+      "id": "class.features_by_level.keys_are_numeric_strings",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "class" },
+      "rule": "features_by_level keys must be numeric strings (e.g., \"1\", \"2\", \"3\")."
     },
     {
-      "path": "subclasses/subclass.wl.fiend.json",
-      "type": "subclass_def",
-      "status": "complete"
+      "id": "class.spell_list_ref_resolves",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "class" },
+      "rule": "If class.spellcasting.spell_list_ref is set, it must resolve to a spell_list shard id in manifest."
     },
     {
-      "path": "subclasses/subclass.wl.great_old_one.json",
-      "type": "subclass_def",
-      "status": "complete"
-    },
-
-    {
-      "path": "classes/wizard.json",
-      "type": "class_def",
-      "status": "complete",
-      "checks": [
-        "spellcasting_present",
-        "resources_present",
-        "features_by_level_present",
-        "subclass_hooks_present",
-        "references_spell_list_wizard"
-      ]
-    },
-
-    {
-      "path": "subclasses/subclass.wiz.abjurer.json",
-      "type": "subclass_def",
-      "status": "complete"
+      "id": "spell_list.class_id_consistency",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "spell_list" },
+      "rule": "spell_list.class_id (if present) must match a class shard id."
     },
     {
-      "path": "subclasses/subclass.wiz.diviner.json",
-      "type": "subclass_def",
-      "status": "complete"
+      "id": "class.resources.resolve",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "class" },
+      "rule": "Each id in class.resources must resolve to a resource shard id in manifest."
     },
     {
-      "path": "subclasses/subclass.wiz.evoker.json",
-      "type": "subclass_def",
-      "status": "complete"
+      "id": "class.subclasses.expected_ids",
+      "type": "consistency",
+      "severity": "warn",
+      "targets": { "type": "class" },
+      "rule": "Each subclass id in class.subclasses should be included in manifest.expected_subclass_ids. (Warn only; allow custom subclasses.)"
     },
     {
-      "path": "subclasses/subclass.wiz.illusionist.json",
-      "type": "subclass_def",
-      "status": "complete"
+      "id": "spell_list.entries.required_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "spell_list" },
+      "rule": "Each spell_list entry must include: level (int), name (string), school (string), special_flags (array)."
     },
-
     {
-      "path": "spells/spell_list.wizard.json",
-      "type": "spell_list_ref",
-      "status": "complete",
-      "checks": [
-        "levels_0_through_9_present",
-        "schools_present",
-        "special_flags_present"
-      ]
+      "id": "spell_list.special_flags.allowed",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "spell_list" },
+      "rule": "special_flags may only contain: \"C\", \"R\", \"M\"."
+    },
+    {
+      "id": "warlock.pact_magic_caster_type",
+      "type": "consistency",
+      "severity": "error",
+      "targets": { "id": "class.warlock" },
+      "rule": "class.warlock.spellcasting.caster_type must equal \"pact_magic\"."
+    },
+    {
+      "id": "wizard.placeholder_spell_list_ok",
+      "type": "consistency",
+      "severity": "warn",
+      "targets": { "id": "spell_list.wizard" },
+      "rule": "If spell_list.wizard is a placeholder pending the Spells chapter, allow empty or partial entries but require a notes field explaining placeholder status."
     }
   ],
 
-  "missing_files_listed_in_manifest": [
-    "spells/spell_list.bard.json",
-    "spells/spell_list.cleric.json",
-    "spells/spell_list.druid.json",
-    "spells/spell_list.paladin.json",
-    "spells/spell_list.ranger.json",
-    "spells/spell_list.sorcerer.json",
-    "spells/spell_list.warlock.json",
+  "outputs": {
+    "report_path": "chapter-03/validation.full.report.json",
+    "on_success": "pass",
+    "on_failure": "fail"
+  },
 
-    "classes/barbarian.json",
-    "classes/bard.json",
-    "classes/cleric.json",
-    "classes/druid.json",
-    "classes/fighter.json",
-    "classes/monk.json",
-    "classes/paladin.json",
-    "classes/ranger.json",
-    "classes/rogue.json",
-    "classes/sorcerer.json",
-
-    "subclasses/rogue.assassin.json",
-    "subclasses/rogue.arcane_trickster.json",
-    "subclasses/rogue.soulknife.json",
-    "subclasses/rogue.thief.json",
-
-    "subclasses/sorc.aberrant.json",
-    "subclasses/sorc.clockwork.json",
-    "subclasses/sorc.draconic.json",
-    "subclasses/sorc.wild_magic.json",
-
-    "subclasses/ranger.beast_master.json",
-    "subclasses/ranger.fey_wanderer.json",
-    "subclasses/ranger.gloom_stalker.json",
-    "subclasses/ranger.hunter.json",
-
-    "subclasses/paladin.devotion.json",
-    "subclasses/paladin.ancients.json",
-    "subclasses/paladin.glory.json",
-    "subclasses/paladin.vengeance.json"
-  ],
-
-  "global_checks": [
-    {
-      "check": "trigger_style_consistency",
-      "result": "pass",
-      "notes": [
-        "All feature_defs use Option A human-readable triggers and limits."
-      ]
-    },
-    {
-      "check": "wizard_completion",
-      "result": "pass",
-      "notes": [
-        "Wizard class, subclasses, and spell list are fully complete."
-      ]
-    },
-    {
-      "check": "canvas_safety",
-      "result": "pass",
-      "notes": [
-        "All data is sharded; no single file exceeds canvas limits."
-      ]
-    }
-  ],
-
-  "next_actions": [
-    "Generate remaining spell list shards (recommended next).",
-    "Generate remaining class shards.",
-    "Proceed to PHB Chapter 4."
+  "notes": [
+    "This is the full validation spec; it assumes you have a validator that reads manifest.json and executes checks.",
+    "If you also want a smaller validator, create validation.shards.json with only filesystem+reference checks."
   ]
 }

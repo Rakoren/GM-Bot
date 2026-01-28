@@ -1,0 +1,28 @@
+{
+  "id": "feat.warlock.mystic_arcanum",
+  "name": "Mystic Arcanum",
+  "chapter": 3,
+  "status": "complete",
+
+  "action_type": "special",
+
+  "resource_interactions": [
+    {
+      "resource_id": "res.mystic_arcanum",
+      "mode": "free_cast",
+      "notes": [
+        "Typically modeled as 1 free cast per long rest per Arcanum spell gained (6th/7th/8th/9th)."
+      ]
+    }
+  ],
+
+  "rules": [
+    "gain_arcanum_spell_at_specified_levels",
+    "each_arcanum_spell_has_one_free_cast_per_long_rest"
+  ],
+
+  "notes": [
+    "If you want strict modeling, split resource into res.mystic_arcanum.6/.7/.8/.9 and reference those per level.",
+    "The actual arcanum spells belong in spell data (chapter 7). This feature only grants access + free cast."
+  ]
+}

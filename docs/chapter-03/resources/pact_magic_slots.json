@@ -1,0 +1,14 @@
+{
+  "id": "res.pact_magic_slots",
+  "name": "Pact Magic Slots",
+  "chapter": 3,
+
+  "pool": "see_class_table",
+  "recharge": "short_or_long_rest",
+
+  "notes": [
+    "Pact Magic slots are used to cast Warlock spells.",
+    "All Pact Magic slots are the same level (determined by the Warlock table).",
+    "All expended Pact Magic slots recharge when you finish a Short Rest or Long Rest."
+  ]
+}

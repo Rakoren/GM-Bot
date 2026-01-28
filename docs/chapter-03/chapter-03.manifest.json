@@ -1,80 +1,95 @@
 {
+  "schema_version": "0.4.0",
   "chapter": 3,
   "title": "Character Classes",
-  "source": "PHB 2024",
-  "version": "0.5.0",
-  "status": "active",
+  "generated_at": "2026-01-27",
+  "root_index_hint": "Chapter-03-index-hardened-v2 (legacy aggregate; prefer shards below)",
 
-  "description": "Structured, LLM-readable representation of Player's Handbook Chapter 3. Core systems are shared; each class and subclass is modularized into its own shard.",
+  "paths": {
+    "classes_dir": "chapter-03/classes",
+    "subclasses_dir": "chapter-03/subclasses",
+    "resources_dir": "chapter-03/resources",
+    "features_dir": "chapter-03/features",
+    "spells_dir": "chapter-03/spells"
+  },
 
-  "load_order": [
-    "core",
-    "spells",
-    "classes",
-    "subclasses"
+  "shards": [
+    { "id": "class.barbarian", "type": "class", "path": "chapter-03/classes/barbarian.json" },
+    { "id": "class.bard", "type": "class", "path": "chapter-03/classes/bard.json" },
+    { "id": "class.cleric", "type": "class", "path": "chapter-03/classes/cleric.json" },
+    { "id": "class.druid", "type": "class", "path": "chapter-03/classes/druid.json" },
+    { "id": "class.fighter", "type": "class", "path": "chapter-03/classes/fighter.json" },
+    { "id": "class.monk", "type": "class", "path": "chapter-03/classes/monk.json" },
+    { "id": "class.paladin", "type": "class", "path": "chapter-03/classes/paladin.json" },
+    { "id": "class.ranger", "type": "class", "path": "chapter-03/classes/ranger.json" },
+    { "id": "class.rogue", "type": "class", "path": "chapter-03/classes/rogue.json" },
+    { "id": "class.sorcerer", "type": "class", "path": "chapter-03/classes/sorcerer.json" },
+    { "id": "class.warlock", "type": "class", "path": "chapter-03/classes/warlock.json" },
+    { "id": "class.wizard", "type": "class", "path": "chapter-03/classes/wizard.json" },
+
+    { "id": "spell_list.bard", "type": "spell_list", "path": "chapter-03/spells/spell_list.bard.json" },
+    { "id": "spell_list.cleric", "type": "spell_list", "path": "chapter-03/spells/spell_list.cleric.json" },
+    { "id": "spell_list.druid", "type": "spell_list", "path": "chapter-03/spells/spell_list.druid.json" },
+    { "id": "spell_list.paladin", "type": "spell_list", "path": "chapter-03/spells/spell_list.paladin.json" },
+    { "id": "spell_list.ranger", "type": "spell_list", "path": "chapter-03/spells/spell_list.ranger.json" },
+    { "id": "spell_list.sorcerer", "type": "spell_list", "path": "chapter-03/spells/spell_list.sorcerer.json" },
+    { "id": "spell_list.warlock", "type": "spell_list", "path": "chapter-03/spells/spell_list.warlock.json" },
+    { "id": "spell_list.wizard", "type": "spell_list", "path": "chapter-03/spells/spell_list.wizard.json" },
+
+    { "id": "res.rage", "type": "resource", "path": "chapter-03/resources/rage.json" },
+    { "id": "res.bardic_inspiration", "type": "resource", "path": "chapter-03/resources/bardic_inspiration.json" },
+    { "id": "res.channel_divinity.cleric", "type": "resource", "path": "chapter-03/resources/channel_divinity.cleric.json" },
+    { "id": "res.wild_shape", "type": "resource", "path": "chapter-03/resources/wild_shape.json" },
+    { "id": "res.second_wind", "type": "resource", "path": "chapter-03/resources/second_wind.json" },
+    { "id": "res.action_surge", "type": "resource", "path": "chapter-03/resources/action_surge.json" },
+    { "id": "res.superiority_dice", "type": "resource", "path": "chapter-03/resources/superiority_dice.json" },
+    { "id": "res.psionic_energy_dice.fighter", "type": "resource", "path": "chapter-03/resources/psionic_energy_dice.fighter.json" },
+    { "id": "res.focus_points", "type": "resource", "path": "chapter-03/resources/focus_points.json" },
+    { "id": "res.channel_divinity.paladin", "type": "resource", "path": "chapter-03/resources/channel_divinity.paladin.json" },
+    { "id": "res.lay_on_hands", "type": "resource", "path": "chapter-03/resources/lay_on_hands.json" },
+    { "id": "res.divine_smite.free", "type": "resource", "path": "chapter-03/resources/divine_smite.free.json" },
+    { "id": "res.hunters_mark.free", "type": "resource", "path": "chapter-03/resources/hunters_mark.free.json" },
+    { "id": "res.natures_veil", "type": "resource", "path": "chapter-03/resources/natures_veil.json" },
+    { "id": "res.psionic_energy_dice.soulknife", "type": "resource", "path": "chapter-03/resources/psionic_energy_dice.soulknife.json" },
+    { "id": "res.spell_thief", "type": "resource", "path": "chapter-03/resources/spell_thief.json" },
+    { "id": "res.sorcery_points", "type": "resource", "path": "chapter-03/resources/sorcery_points.json" },
+    { "id": "res.innate_sorcery", "type": "resource", "path": "chapter-03/resources/innate_sorcery.json" },
+    { "id": "res.tides_of_chaos", "type": "resource", "path": "chapter-03/resources/tides_of_chaos.json" },
+    { "id": "res.pact_magic_slots", "type": "resource", "path": "chapter-03/resources/pact_magic_slots.json" },
+    { "id": "res.magical_cunning", "type": "resource", "path": "chapter-03/resources/magical_cunning.json" },
+    { "id": "res.mystic_arcanum", "type": "resource", "path": "chapter-03/resources/mystic_arcanum.json" },
+
+    { "id": "inv.pact_of_the_blade", "type": "invocation", "path": "chapter-03/invocations/pact_of_the_blade.json" },
+    { "id": "inv.pact_of_the_chain", "type": "invocation", "path": "chapter-03/invocations/pact_of_the_chain.json" },
+    { "id": "inv.pact_of_the_tome", "type": "invocation", "path": "chapter-03/invocations/pact_of_the_tome.json" },
+
+    { "id": "feat.warlock.pact_magic", "type": "feature", "path": "chapter-03/features/warlock/pact_magic.json" },
+    { "id": "feat.warlock.eldritch_invocations", "type": "feature", "path": "chapter-03/features/warlock/eldritch_invocations.json" },
+    { "id": "feat.warlock.magical_cunning", "type": "feature", "path": "chapter-03/features/warlock/magical_cunning.json" },
+    { "id": "feat.warlock.contact_patron", "type": "feature", "path": "chapter-03/features/warlock/contact_patron.json" },
+    { "id": "feat.warlock.mystic_arcanum", "type": "feature", "path": "chapter-03/features/warlock/mystic_arcanum.json" },
+    { "id": "feat.warlock.eldritch_master", "type": "feature", "path": "chapter-03/features/warlock/eldritch_master.json" }
+
+
   ],
 
-  "includes": [
-    "core/03-core.schema.json",
-    "core/03-core.resources.json",
-    "core/03-core.features.json",
-
-    "spells/spell_list.bard.json",
-    "spells/spell_list.cleric.json",
-    "spells/spell_list.druid.json",
-    "spells/spell_list.paladin.json",
-    "spells/spell_list.ranger.json",
-    "spells/spell_list.sorcerer.json",
-    "spells/spell_list.warlock.json",
-    "spells/spell_list.wizard.json",
-
-    "classes/barbarian.json",
-    "classes/bard.json",
-    "classes/cleric.json",
-    "classes/druid.json",
-    "classes/fighter.json",
-    "classes/monk.json",
-    "classes/paladin.json",
-    "classes/ranger.json",
-    "classes/rogue.json",
-    "classes/sorcerer.json",
-    "classes/warlock.json",
-    "classes/wizard.json",
-
-    "subclasses/rogue.assassin.json",
-    "subclasses/rogue.arcane_trickster.json",
-    "subclasses/rogue.soulknife.json",
-    "subclasses/rogue.thief.json",
-
-    "subclasses/sorc.aberrant.json",
-    "subclasses/sorc.clockwork.json",
-    "subclasses/sorc.draconic.json",
-    "subclasses/sorc.wild_magic.json",
-
-    "subclasses/ranger.beast_master.json",
-    "subclasses/ranger.fey_wanderer.json",
-    "subclasses/ranger.gloom_stalker.json",
-    "subclasses/ranger.hunter.json",
-
-    "subclasses/paladin.devotion.json",
-    "subclasses/paladin.ancients.json",
-    "subclasses/paladin.glory.json",
-    "subclasses/paladin.vengeance.json",
-
-    "subclasses/wl.archfey.json",
-    "subclasses/wl.celestial.json",
-    "subclasses/wl.fiend.json",
-    "subclasses/wl.great_old_one.json",
-
-    "subclasses/wiz.abjurer.json",
-    "subclasses/wiz.diviner.json",
-    "subclasses/wiz.evoker.json",
-    "subclasses/wiz.illusionist.json"
+  "expected_subclass_ids": [
+    "path.berserker", "path.wild_heart", "path.world_tree", "path.zealot",
+    "college.dance", "college.glamour", "college.lore", "college.valor",
+    "domain.life", "domain.light", "domain.trickery", "domain.war",
+    "circle.land", "circle.moon", "circle.sea", "circle.stars",
+    "fighter.battle_master", "fighter.champion", "fighter.eldritch_knight", "fighter.psi_warrior",
+    "monk.mercy", "monk.shadow", "monk.elements", "monk.open_hand",
+    "oath.devotion", "oath.glory", "oath.ancients", "oath.vengeance",
+    "ranger.beast_master", "ranger.fey_wanderer", "ranger.gloom_stalker", "ranger.hunter",
+    "rogue.arcane_trickster", "rogue.assassin", "rogue.soulknife", "rogue.thief",
+    "sorcerer.aberrant", "sorcerer.clockwork", "sorcerer.draconic", "sorcerer.wild_magic",
+    "wl.archfey", "wl.celestial", "wl.fiend", "wl.great_old_one",
+    "wizard.abjurer", "wizard.diviner", "wizard.evoker", "wizard.illusionist"
   ],
 
   "notes": [
-    "This manifest is the only entry point an LLM or rules engine needs.",
-    "Files listed but not yet created may be stubbed or marked pending.",
-    "Warlock and Wizard subclasses continue in later chunks and will be hardened incrementally."
+    "If a shard listed here does not exist yet, keep it in the manifest anyway and mark it missing in validation output.",
+    "Subclasses are listed as expected IDs even if subclass files are not yet generated."
   ]
 }

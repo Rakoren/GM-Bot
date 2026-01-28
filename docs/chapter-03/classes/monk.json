@@ -24,5 +24,9 @@
     "3": ["deflect_attacks", "subclass_choice"]
   },
 
-  "subclasses": ["monk.mercy", "monk.shadow", "monk.elements", "monk.open_hand"]
+  "subclasses": [
+  "monk.mercy", 
+  "monk.shadow", 
+  "monk.elements", 
+  "monk.open_hand"]
 }

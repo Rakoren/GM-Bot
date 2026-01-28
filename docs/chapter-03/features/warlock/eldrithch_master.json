@@ -1,0 +1,22 @@
+{
+  "id": "feat.warlock.eldritch_master",
+  "name": "Eldritch Master",
+  "chapter": 3,
+  "status": "complete",
+
+  "action_type": "special",
+
+  "rules": [
+    "capstone_effect_per_feature_text",
+    "dm_or_rest_timing_constraints_apply"
+  ],
+
+  "effects": [
+    "restore_or_refresh_warlock_spellcasting_resources_per_text"
+  ],
+
+  "notes": [
+    "Leave abstract until you encode the exact capstone text.",
+    "Once hardened, this likely becomes a conditional restore of Pact Magic slots and/or other warlock resources."
+  ]
+}

@@ -1,8 +1,0 @@
-Spell Level, Village, Town, City, Cost
-Cantrip    , yes    , yes , yes , 30 GP
-1          , yes    , yes , yes , 50 GP
-2          , yes    , yes , yes , 200 GP
-3          , no     , yes , yes , 300 GP
-4–5        , no     , yes , yes , 2000 GP
-6–8        , no     , no  , yes , 20000 GP
-9          , no     , no  , yes , 100000 GP

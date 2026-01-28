@@ -1,9 +1,0 @@
-lineage_id,species_id,name,level1,level3,level5,source,version
-LIN_ELF_DROW,SPC_ELF,Drow,"Darkvision 120 feet; know Dancing Lights cantrip.",Faerie Fire,Darkness,PHB (2024),2024
-LIN_ELF_HIGH,SPC_ELF,High Elf,"Know Prestidigitation cantrip; can swap cantrip from Wizard list on Long Rest.",Detect Magic,Misty Step,PHB (2024),2024
-LIN_ELF_WOOD,SPC_ELF,Wood Elf,"Speed 35; know Druidcraft cantrip.",Longstrider,Pass without Trace,PHB (2024),2024
-LIN_GNOME_FOREST,SPC_GNOME,Forest Gnome,"Know Minor Illusion cantrip; Speak with Animals prepared; cast it PB times per long rest.",Speak with Animals,Speak with Animals,PHB (2024),2024
-LIN_GNOME_ROCK,SPC_GNOME,Rock Gnome,"Know Mending and Prestidigitation; can build tiny clockwork devices with Prestidigitation.",Prestidigitation,Prestidigitation,PHB (2024),2024
-LIN_TIEFLING_ABYSSAL,SPC_TIEFLING,Abyssal,"Resist poison; know Poison Spray cantrip.",Ray of Sickness,Hold Person,PHB (2024),2024
-LIN_TIEFLING_CHTHONIC,SPC_TIEFLING,Chthonic,"Resist necrotic; know Chill Touch cantrip.",False Life,Ray of Enfeeblement,PHB (2024),2024
-LIN_TIEFLING_INFERNAL,SPC_TIEFLING,Infernal,"Resist fire; know Fire Bolt cantrip.",Hellish Rebuke,Darkness,PHB (2024),2024

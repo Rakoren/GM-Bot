@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chapter-03.schema.json",
+  "title": "Chapter 03 Shards Schema",
+  "type": "object",
+  "oneOf": [
+  { "$ref": "#/$defs/sourceRef" },
+  { "$ref": "#/$defs/featureShard" },
+  { "$ref": "#/$defs/invocationShard" },
+  { "$ref": "#/$defs/classShard" },
+  { "$ref": "#/$defs/spellListShard" },
+  { "$ref": "#/$defs/resourceShard" },
+  { "$ref": "#/$defs/manifest" },
+  { "$ref": "#/$defs/validationFile" }
+  
+
+]
+,
+  "$defs": {
+    "idString": { "type": "string", "minLength": 1 },
+
+    "spellFlags": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["C", "R", "M"] },
+      "uniqueItems": true
+    },
+
+    "classSpellcasting": {
+      "type": ["object", "null"],
+      "properties": {
+        "caster_type": {
+          "type": "string",
+          "enum": ["prepared", "known", "pact_magic", "third", "none"]
+        },
+        "spellcasting_ability": { "type": "string" },
+        "spell_list_ref": { "type": "string" },
+        "prepared_spells_rule": { "type": "string" },
+        "pact_magic_rule": { "type": "string" }
+      },
+      "required": ["caster_type"]
+    },
+
+    "classShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^class\\.[a-z0-9_]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 3 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+
+        "source": {
+          "type": "object",
+          "properties": {
+            "file": { "type": "string" },
+            "pages": { "type": "array", "items": { "type": "integer" } },
+            "section_hint": { "type": "string" }
+          },
+          "required": ["file"]
+        },
+
+        "primary_ability": { "type": ["string", "array"] },
+        "hit_die": { "type": "string" },
+        "saving_throws": { "type": "array", "items": { "type": "string" } },
+
+        "proficiencies": { "type": "object" },
+
+        "spellcasting": { "$ref": "#/$defs/classSpellcasting" },
+
+        "resources": { "type": "array", "items": { "$ref": "#/$defs/idString" } },
+
+        "features_by_level": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": false
+        },
+
+        "subclasses": { "type": "array", "items": { "type": "string" } },
+
+        "feature_refs": { "type": "array", "items": { "type": "string" } },
+        "invocation_refs": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": [
+        "id",
+        "name",
+        "chapter",
+        "status",
+        "primary_ability",
+        "hit_die",
+        "saving_throws",
+        "proficiencies",
+        "resources",
+        "features_by_level",
+        "subclasses"
+      ],
+      "additionalProperties": true
+    },
+
+    "spellListEntry": {
+      "type": "object",
+      "properties": {
+        "level": { "type": "integer", "minimum": 0, "maximum": 9 },
+        "name": { "type": "string" },
+        "school": { "type": "string" },
+        "special_flags": { "$ref": "#/$defs/spellFlags" }
+      },
+      "required": ["level", "name", "school", "special_flags"],
+      "additionalProperties": false
+    },
+
+    "spellListShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^spell_list\\.[a-z0-9_]+$" },
+        "chapter": { "type": "integer", "const": 3 },
+        "class_id": { "type": "string" },
+        "title": { "type": "string" },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "source": { "type": "object" },
+        "ordering": { "type": "string" },
+        "entry_schema": { "type": "object" },
+        "levels_present": { "type": "array", "items": { "type": "integer" } },
+        "entries": { "type": "array", "items": { "$ref": "#/$defs/spellListEntry" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "chapter", "title", "status", "entries"],
+      "additionalProperties": true
+    },
+
+    "resourceShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^res\\.[A-Za-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 3 },
+        "pool": {},
+        "recharge": { "type": "string" },
+        "activation": { "type": "string" },
+        "duration": { "type": "string" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter"],
+      "additionalProperties": true
+    },
+
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string" },
+        "chapter": { "type": "integer", "const": 3 },
+        "title": { "type": "string" },
+        "shards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "type": { "type": "string" },
+              "path": { "type": "string" }
+            },
+            "required": ["id", "type", "path"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["schema_version", "chapter", "title", "shards"],
+      "additionalProperties": true
+    },
+    "validationFile": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string" },
+        "chapter": { "type": "integer" },
+        "title": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "validation_profile": { "type": "string" },
+        "inputs": { "type": "object" },
+        "required_types": { "type": "array" },
+        "optional_types": { "type": "array" },
+        "checks": { "type": "array" }
+      },
+      "required": ["schema_version", "chapter", "title", "checks"],
+      "additionalProperties": true
+    },
+    "invocationShard": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string", "pattern": "^inv\\.[a-z0-9_.]+$" },
+            "name": { "type": "string" },
+            "chapter": { "type": "integer", "const": 3 },
+            "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+            "prereqs": { "type": "array", "items": { "type": "string" } },
+            "effects": { "type": "array", "items": { "type": "string" } },
+            "notes": { "type": "array", "items": { "type": "string" } }
+          },
+          "required": ["id", "name", "chapter", "status"],
+          "additionalProperties": true
+      },
+    "featureShard": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "pattern": "^feat\\.[a-z0-9_.]+$" },
+          "name": { "type": "string" },
+          "chapter": { "type": "integer", "const": 3 },
+          "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+          "action_type": { "type": "string" },
+          "resource_cost": {
+            "type": "object",
+            "properties": {
+              "resource_id": { "type": "string", "pattern": "^res\\.[a-z0-9_.]+$" },
+              "cost": { "type": "integer" }
+            },
+            "required": ["resource_id", "cost"]
+          },
+          "effects": { "type": "array", "items": { "type": "string" } },
+          "rules": { "type": "array", "items": { "type": "string" } },
+          "selection": { "type": "object" },
+          "notes": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["id", "name", "chapter", "status"],
+        "additionalProperties": true
+    },
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Repo-relative path to the canonical source PDF/text."
+        },
+        "pages": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 1 },
+          "minItems": 1,
+          "maxItems": 2,
+          "description": "Either [page] or [start, end]. Printed pagination preferred."
+        },
+        "section": {
+          "type": "string",
+          "description": "Human hint, e.g. 'Warlock', 'Pact Magic'."
+        },
+        "quote": {
+          "type": "string",
+          "maxLength": 240,
+          "description": "Optional short excerpt for debugging. Keep very short."
+        }
+      },
+      "required": ["file"],
+      "additionalProperties": false
+    }
+  }
+}
+
+
+  
+

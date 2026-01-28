@@ -1,0 +1,34 @@
+{
+  "id": "feat.warlock.pact_magic",
+  "name": "Pact Magic",
+  "chapter": 3,
+  "status": "complete",
+
+  "action_type": "none",
+
+  "resource_interactions": [
+    {
+      "resource_id": "res.pact_magic_slots",
+      "mode": "spend_to_cast_spell",
+      "notes": [
+        "All Pact Magic slots are the same level; slot level determined by the Warlock table.",
+        "Slots recharge on short or long rest."
+      ]
+    }
+  ],
+
+  "rules": [
+    "warlock_spellcasting_uses_pact_magic_slots",
+    "pact_slots_all_same_level_by_warlock_table",
+    "short_or_long_rest_recharges_all_pact_slots"
+  ],
+
+  "references": {
+    "spell_list_ref": "spell_list.warlock"
+  },
+
+  "notes": [
+    "This shard describes the Pact Magic spellcasting model at a high level.",
+    "Exact slot counts, slot level progression, and spells prepared are table-driven; store those in a separate class table shard if you ingest tables later."
+  ]
+}

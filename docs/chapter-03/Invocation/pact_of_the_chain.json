@@ -1,0 +1,20 @@
+{
+  "id": "inv.pact_of_the_chain",
+  "name": "Pact of the Chain",
+  "chapter": 3,
+  "status": "complete",
+
+  "prereqs": ["class.warlock:level>=3", "feature:pact_boon"],
+
+  "effects": [
+    "gain_pact_boon:pact_of_the_chain",
+    "gain_familiar:enhanced_familiar_per_feature_text",
+    "familiar:acts_independently_but_obeys_your_commands_per_feature_text",
+    "familiar:use_familiar_as_conduit_for_touch_spells_if_feature_text_allows"
+  ],
+
+  "notes": [
+    "Do not hardcode a familiar statblock here; keep this as a reference to rules in the Pact Boon feature text.",
+    "If you later ingest familiar options and special rules, create a separate data set (e.g., chapter-03/companions/familiars/*.json) and reference them here."
+  ]
+}

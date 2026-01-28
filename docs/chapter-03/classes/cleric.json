@@ -27,5 +27,9 @@
     "3": ["subclass_choice"]
   },
 
-  "subclasses": ["domain.life", "domain.light", "domain.trickery", "domain.war"]
+  "subclasses": [
+  "domain.life", 
+  "domain.light", 
+  "domain.trickery", 
+  "domain.war"]
 }

@@ -32,5 +32,9 @@
     "20": ["subclass_capstone"]
   },
 
-  "subclasses": ["oath.devotion", "oath.glory", "oath.ancients", "oath.vengeance"]
+  "subclasses": [
+  "oath.devotion", 
+  "oath.glory", 
+  "oath.ancients", 
+  "oath.vengeance"]
 }

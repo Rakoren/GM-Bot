@@ -1,7 +1,0 @@
-ability_id,name,description,source,version
-ABL_STR,Strength,Physical might,PHB (2024),2024
-ABL_DEX,Dexterity,"Agility, reflexes, and balance",PHB (2024),2024
-ABL_CON,Constitution,Health and stamina,PHB (2024),2024
-ABL_INT,Intelligence,Reasoning and memory,PHB (2024),2024
-ABL_WIS,Wisdom,Perceptiveness and mental fortitude,PHB (2024),2024
-ABL_CHA,Charisma,"Confidence, poise, and charm",PHB (2024),2024

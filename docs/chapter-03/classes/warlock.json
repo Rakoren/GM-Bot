@@ -1,7 +1,8 @@
 {
   "id": "class.warlock",
+  "name": "Warlock",
+  "status": "complete",
   "chapter": 3,
-  "title": "Warlock",
   "source": {
     "file": "Character Classes (Continued) 61-80.pdf",
     "pages": [61, 80],
@@ -23,7 +24,7 @@
   },
 
   "spellcasting": {
-    "caster_type": "pact",
+    "caster_type": "pact_magic",
     "spellcasting_ability": "CHA",
     "spell_list_ref": "spell_list.warlock",
     "prepared_spells_rule": "prepared_spells_count_from_warlock_table; can change prepared spells on level up",
@@ -36,7 +37,7 @@
     "res.mystic_arcanum"
   ],
 
-  "features": {
+  "features_by_level": {
     "1": ["pact_magic", "eldritch_invocations"],
     "2": ["magical_cunning"],
     "3": ["subclass_choice", "pact_boon"],
@@ -72,8 +73,9 @@
     "feat.warlock.magical_cunning",
     "feat.warlock.contact_patron",
     "feat.warlock.mystic_arcanum",
-    "feat.warlock.eldritch_master",
-
+    "feat.warlock.eldritch_master"
+  ],
+  "invocation_refs": [
     "inv.pact_of_the_blade",
     "inv.pact_of_the_chain",
     "inv.pact_of_the_tome"

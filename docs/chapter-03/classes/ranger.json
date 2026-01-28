@@ -31,5 +31,9 @@
     "19": ["epic_boon"]
   },
 
-  "subclasses": ["ranger.beast_master", "ranger.fey_wanderer", "ranger.gloom_stalker", "ranger.hunter"]
+  "subclasses": [ 
+  "ranger.beast_master",
+  "ranger.fey_wanderer", 
+  "ranger.gloom_stalker", 
+  "ranger.hunter"]
 }

@@ -1,0 +1,27 @@
+{
+  "id": "feat.warlock.eldritch_invocations",
+  "name": "Eldritch Invocations",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+
+  "rules": [
+    "choose_invocations_from_warlock_list",
+    "invocations_have_prerequisites",
+    "invocations_are_permanent_choices_until_retrained_if_rules_allow"
+  ],
+
+  "selection": {
+    "type": "invocation_choice",
+    "invocation_ref_field": "invocation_refs",
+    "notes": [
+      "The chosen Pact Boon is represented as an invocation (inv.pact_of_the_*).",
+      "Additional invocations should be added as inv.* shards and referenced in the class selection system."
+    ]
+  },
+
+  "notes": [
+    "This shard defines the framework for invocations. Individual invocations are separate inv.* shards.",
+    "Later: add a warlock invocation catalog + selection counts by level if you ingest the Warlock class table."
+  ]
+}

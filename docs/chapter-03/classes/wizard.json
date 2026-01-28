@@ -1,5 +1,6 @@
 {
   "id": "class.wizard",
+  "name": "Wizard",
   "chapter": 3,
   "title": "Wizard",
   "status": "complete",
@@ -48,7 +49,7 @@
     "res.arcane_recovery"
   ],
 
-  "features": {
+  "features_by_level": {
     "1": ["spellcasting", "ritual_adept", "arcane_recovery", "spellbook"],
     "2": ["scholar"],
     "3": ["subclass_choice"],

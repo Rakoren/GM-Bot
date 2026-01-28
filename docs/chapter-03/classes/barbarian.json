@@ -23,5 +23,9 @@
     "3": ["subclass_choice", "primal_knowledge"]
   },
 
-  "subclasses": ["path.berserker", "path.wild_heart", "path.world_tree", "path.zealot"]
+  "subclasses": [
+  "path.berserker", 
+  "path.wild_heart", 
+  "path.world_tree", 
+  "path.zealot"]
 }
