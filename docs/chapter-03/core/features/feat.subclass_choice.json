@@ -1,0 +1,14 @@
+{
+  "type": "feature",
+  "id": "feat.subclass_choice",
+  "name": "Subclass Choice",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "rules": [
+    "Choose a subclass when your class grants this feature.",
+    "You gain your subclass features at the levels listed in the subclass."
+  ],
+  "notes": [],
+  "trigger": "when your class grants a subclass"
+}

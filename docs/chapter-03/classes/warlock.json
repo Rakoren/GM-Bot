@@ -5,24 +5,39 @@
   "chapter": 3,
   "source": {
     "file": "Character Classes (Continued) 61-80.pdf",
-    "pages": [61, 80],
+    "pages": [
+      61,
+      80
+    ],
     "section_hint": "Warlock"
   },
-
   "primary_ability": "CHA",
   "hit_die": "d8",
-  "saving_throws": ["WIS", "CHA"],
-
+  "saving_throws": [
+    "WIS",
+    "CHA"
+  ],
   "proficiencies": {
-    "armor": ["light"],
-    "weapons": ["simple"],
+    "armor": [
+      "light"
+    ],
+    "weapons": [
+      "simple"
+    ],
     "tools": [],
     "skills_choose": {
       "count": 2,
-      "from": ["arcana", "deception", "history", "intimidation", "investigation", "nature", "religion"]
+      "from": [
+        "arcana",
+        "deception",
+        "history",
+        "intimidation",
+        "investigation",
+        "nature",
+        "religion"
+      ]
     }
   },
-
   "spellcasting": {
     "caster_type": "pact_magic",
     "spellcasting_ability": "CHA",
@@ -30,43 +45,74 @@
     "prepared_spells_rule": "prepared_spells_count_from_warlock_table; can change prepared spells on level up",
     "pact_magic_rule": "use Pact Magic spell slots for warlock spells; all Pact slots are the same level; slots recharge on a short or long rest"
   },
-
   "resources": [
     "res.pact_magic_slots",
     "res.magical_cunning",
     "res.mystic_arcanum"
   ],
-
+  "tables": [
+    "table.warlock.class_features"
+  ],
   "features_by_level": {
-    "1": ["pact_magic", "eldritch_invocations"],
-    "2": ["magical_cunning"],
-    "3": ["subclass_choice", "pact_boon"],
-    "4": ["ability_score_improvement"],
-    "5": ["patron_feature"],
-    "6": ["patron_feature"],
-    "7": ["patron_feature"],
-    "8": ["ability_score_improvement"],
-    "9": ["contact_patron"],
-    "10": ["patron_feature"],
-    "11": ["mystic_arcanum"],
-    "12": ["ability_score_improvement"],
-    "13": ["mystic_arcanum"],
-    "14": ["patron_feature"],
-    "15": ["mystic_arcanum"],
-    "16": ["ability_score_improvement"],
-    "17": ["mystic_arcanum"],
-    "18": ["patron_feature"],
-    "19": ["epic_boon"],
-    "20": ["eldritch_master"]
+    "1": [
+      "eldritch_invocations",
+      "pact_magic"
+    ],
+    "2": [
+      "magical_cunning"
+    ],
+    "3": [
+      "subclass_choice"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "6": [
+      "subclass_feature"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "9": [
+      "contact_patron"
+    ],
+    "10": [
+      "subclass_feature"
+    ],
+    "11": [
+      "mystic_arcanum_6"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "13": [
+      "mystic_arcanum_7"
+    ],
+    "14": [
+      "subclass_feature"
+    ],
+    "15": [
+      "mystic_arcanum_8"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "mystic_arcanum_9"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "eldritch_master"
+    ]
   },
-
   "subclasses": [
     "wl.archfey",
     "wl.celestial",
     "wl.fiend",
     "wl.great_old_one"
   ],
-
   "feature_refs": [
     "feat.warlock.pact_magic",
     "feat.warlock.eldritch_invocations",
@@ -80,7 +126,6 @@
     "inv.pact_of_the_chain",
     "inv.pact_of_the_tome"
   ],
-
   "notes": [
     "Warlock uses Pact Magic slots that recharge on short rests.",
     "Eldritch Invocations are modeled as feature_defs with human-readable triggers and prereq strings.",

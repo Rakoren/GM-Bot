@@ -1,0 +1,60 @@
+{
+  "id": "table.paladin.oath_ancients_spells",
+  "name": "Oath of the Ancients Spells",
+  "chapter": 3,
+  "status": "complete",
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "paladin_level",
+      "spells"
+    ]
+  },
+  "notes": [
+    "These spells are always prepared."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14
+    ],
+    "section": "Oath of the Ancients Spells"
+  },
+  "entries": [
+    {
+      "paladin_level": 3,
+      "spells": [
+        "Ensnaring Strike",
+        "Speak with Animals"
+      ]
+    },
+    {
+      "paladin_level": 5,
+      "spells": [
+        "Misty Step",
+        "Moonbeam"
+      ]
+    },
+    {
+      "paladin_level": 9,
+      "spells": [
+        "Plant Growth",
+        "Protection from Energy"
+      ]
+    },
+    {
+      "paladin_level": 13,
+      "spells": [
+        "Ice Storm",
+        "Stoneskin"
+      ]
+    },
+    {
+      "paladin_level": 17,
+      "spells": [
+        "Commune with Nature",
+        "Tree Stride"
+      ]
+    }
+  ]
+}

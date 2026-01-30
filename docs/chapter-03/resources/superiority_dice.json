@@ -1,0 +1,17 @@
+{
+  "id": "res.superiority_dice",
+  "name": "Superiority Dice",
+  "chapter": 3,
+  "pool_type": "see_subclass_table",
+  "pool": "see_subclass_table",
+  "recharge": "short_or_long_rest",
+  "die": {
+    "3": "d8",
+    "10": "d10",
+    "18": "d12"
+  },
+  "notes": [
+    "battle_master_only",
+    "save_dc_8_plus_str_or_dex_plus_pb"
+  ]
+}

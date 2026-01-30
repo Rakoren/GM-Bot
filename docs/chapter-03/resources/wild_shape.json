@@ -1,0 +1,21 @@
+{
+  "id": "res.wild_shape",
+  "name": "Wild Shape",
+  "chapter": 3,
+  "pool_type": "see_class_table",
+  "pool": "see_class_table",
+  "uses_initial": 2,
+  "recharge": "short_or_long_rest",
+  "activation": "bonus_action",
+  "duration": {
+    "kind": "hours",
+    "notes": [
+      "equals_half_druid_level_round_down"
+    ]
+  },
+  "notes": [
+    "druid_only",
+    "temp_hp_equals_druid_level_on_shift",
+    "no_spellcasting_while_shifted_but_concentration_persists"
+  ]
+}

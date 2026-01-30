@@ -1,0 +1,56 @@
+{
+  "id": "species.tiefling",
+  "name": "Tiefling",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      22,
+      23
+    ],
+    "section": "Tiefling"
+  },
+  "creature_type": "Humanoid",
+  "size": [
+    "Medium",
+    "Small"
+  ],
+  "size_notes": "Medium about 4-7 feet tall; Small about 3-4 feet tall.",
+  "speed": 30,
+  "traits": [
+    {
+      "name": "Darkvision",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "darkvision 60 ft"
+      ]
+    },
+    {
+      "name": "Fiendish Legacy",
+      "action_type": "none",
+      "trigger": "when you choose this species",
+      "effects": [
+        "choose a legacy from the Fiendish Legacies table",
+        "gain the level 1 benefit",
+        "at levels 3 and 5, learn the listed spells; always have them prepared",
+        "you can cast each listed spell once without a slot per long rest and also using spell slots"
+      ],
+      "table_ref": "table.species.fiendish_legacies",
+      "notes": [
+        "choose Intelligence, Wisdom, or Charisma as your spellcasting ability for these spells"
+      ]
+    },
+    {
+      "name": "Otherworldly Presence",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "you know the Thaumaturgy cantrip",
+        "the spell uses the same spellcasting ability as Fiendish Legacy"
+      ]
+    }
+  ],
+  "notes": []
+}

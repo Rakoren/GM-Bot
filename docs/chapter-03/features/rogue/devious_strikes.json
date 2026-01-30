@@ -1,0 +1,25 @@
+{
+  "id": "feat.rogue.devious_strikes",
+  "name": "Devious Strikes",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you use Cunning Strike",
+  "effects": [
+    "you gain additional Cunning Strike options"
+  ],
+  "limits": [
+    "Daze (cost 2d6): target makes a Constitution save or on its next turn can do only one of move, action, or bonus action",
+    "Knock Out (cost 6d6): target makes a Constitution save or is Unconscious for 1 minute or until it takes damage; repeats save at end of turns",
+    "Obscure (cost 3d6): target makes a Dexterity save or is Blinded until the end of its next turn"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      34,
+      35
+    ],
+    "section": "Devious Strikes"
+  }
+}

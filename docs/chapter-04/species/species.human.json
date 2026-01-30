@@ -1,0 +1,47 @@
+{
+  "id": "species.human",
+  "name": "Human",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Human"
+  },
+  "creature_type": "Humanoid",
+  "size": [
+    "Medium",
+    "Small"
+  ],
+  "size_notes": "Medium about 4-7 feet tall; Small about 2-4 feet tall.",
+  "speed": 30,
+  "traits": [
+    {
+      "name": "Resourceful",
+      "action_type": "none",
+      "trigger": "when you finish a long rest",
+      "effects": [
+        "you gain Heroic Inspiration"
+      ]
+    },
+    {
+      "name": "Skillful",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "gain proficiency in one skill of your choice"
+      ]
+    },
+    {
+      "name": "Versatile",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "gain an origin feat of your choice (Skilled recommended)"
+      ]
+    }
+  ],
+  "notes": []
+}

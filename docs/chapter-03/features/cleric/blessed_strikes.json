@@ -1,0 +1,20 @@
+{
+  "id": "feat.cleric.blessed_strikes",
+  "name": "Blessed Strikes",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you choose a Blessed Strikes option",
+  "effects": [
+    "Divine Strike: once on each of your turns when you hit with a weapon attack, you can deal an extra 1d8 necrotic or radiant damage",
+    "Potent Spellcasting: add your Wisdom modifier to the damage you deal with any cleric cantrip"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      36
+    ],
+    "section": "Blessed Strikes"
+  }
+}

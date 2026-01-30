@@ -1,0 +1,22 @@
+{
+  "id": "feat.monk.heightened_focus",
+  "name": "Heightened Focus",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you expend Focus Points on core techniques",
+  "effects": [
+    "Flurry of Blows: if you expend 1 Focus Point, you can make three Unarmed Strikes instead of two",
+    "Patient Defense: when you expend 1 Focus Point, you gain temporary hit points equal to two rolls of your Martial Arts die",
+    "Step of the Wind: when you expend 1 Focus Point, you can move a willing Large or smaller creature within 5 feet with you until end of turn without provoking opportunity attacks"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      80,
+      81
+    ],
+    "section": "Heightened Focus"
+  }
+}

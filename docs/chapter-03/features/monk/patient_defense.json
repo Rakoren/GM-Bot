@@ -1,0 +1,27 @@
+{
+  "id": "feat.monk.patient_defense",
+  "name": "Patient Defense",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you choose to defend",
+  "effects": [
+    "you can take the Disengage action as a bonus action",
+    "if you expend 1 Focus Point, you can take both the Disengage and Dodge actions as a bonus action"
+  ],
+  "limits": [
+    "the combined Disengage + Dodge option costs 1 Focus Point"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.focus_points",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      79
+    ],
+    "section": "Patient Defense"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "inv.gaze_of_two_minds",
+  "name": "Gaze of Two Minds",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=5"
+  ],
+  "effects": [
+    "as a bonus action, touch a willing creature and perceive through its senses until the end of your next turn",
+    "as long as the creature is on the same plane, you can take a bonus action on subsequent turns to maintain the connection, extending it until the end of your next turn",
+    "while perceiving, you benefit from the creature's special senses",
+    "you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

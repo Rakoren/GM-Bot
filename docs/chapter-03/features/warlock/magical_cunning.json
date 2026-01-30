@@ -1,0 +1,29 @@
+{
+  "id": "feat.warlock.magical_cunning",
+  "name": "Magical Cunning",
+  "chapter": 3,
+  "status": "complete",
+
+  "action_type": "special",
+  "trigger": "when you perform a 1-minute esoteric rite",
+
+  "resource_cost": {
+    "resource_id": "res.magical_cunning",
+    "cost": 1
+  },
+
+  "effects": [
+    "at the end of the rite, you regain expended Pact Magic spell slots up to a number equal to half your maximum (round up)"
+  ],
+  "limits": [
+    "once you use this feature, you cannot use it again until you finish a long rest"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      65
+    ],
+    "section": "Magical Cunning"
+  }
+}

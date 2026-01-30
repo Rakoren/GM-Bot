@@ -4,7 +4,6 @@
   "title": "Character Classes",
   "generated_at": "2026-01-27",
   "root_index_hint": "Chapter-03-index-hardened-v2 (legacy aggregate; prefer shards below)",
-
   "paths": {
     "classes_dir": "chapter-03/classes",
     "subclasses_dir": "chapter-03/subclasses",
@@ -12,82 +11,1563 @@
     "features_dir": "chapter-03/features",
     "spells_dir": "chapter-03/spells"
   },
-
   "shards": [
-    { "id": "class.barbarian", "type": "class", "path": "chapter-03/classes/barbarian.json" },
-    { "id": "class.bard", "type": "class", "path": "chapter-03/classes/bard.json" },
-    { "id": "class.cleric", "type": "class", "path": "chapter-03/classes/cleric.json" },
-    { "id": "class.druid", "type": "class", "path": "chapter-03/classes/druid.json" },
-    { "id": "class.fighter", "type": "class", "path": "chapter-03/classes/fighter.json" },
-    { "id": "class.monk", "type": "class", "path": "chapter-03/classes/monk.json" },
-    { "id": "class.paladin", "type": "class", "path": "chapter-03/classes/paladin.json" },
-    { "id": "class.ranger", "type": "class", "path": "chapter-03/classes/ranger.json" },
-    { "id": "class.rogue", "type": "class", "path": "chapter-03/classes/rogue.json" },
-    { "id": "class.sorcerer", "type": "class", "path": "chapter-03/classes/sorcerer.json" },
-    { "id": "class.warlock", "type": "class", "path": "chapter-03/classes/warlock.json" },
-    { "id": "class.wizard", "type": "class", "path": "chapter-03/classes/wizard.json" },
-
-    { "id": "spell_list.bard", "type": "spell_list", "path": "chapter-03/spells/spell_list.bard.json" },
-    { "id": "spell_list.cleric", "type": "spell_list", "path": "chapter-03/spells/spell_list.cleric.json" },
-    { "id": "spell_list.druid", "type": "spell_list", "path": "chapter-03/spells/spell_list.druid.json" },
-    { "id": "spell_list.paladin", "type": "spell_list", "path": "chapter-03/spells/spell_list.paladin.json" },
-    { "id": "spell_list.ranger", "type": "spell_list", "path": "chapter-03/spells/spell_list.ranger.json" },
-    { "id": "spell_list.sorcerer", "type": "spell_list", "path": "chapter-03/spells/spell_list.sorcerer.json" },
-    { "id": "spell_list.warlock", "type": "spell_list", "path": "chapter-03/spells/spell_list.warlock.json" },
-    { "id": "spell_list.wizard", "type": "spell_list", "path": "chapter-03/spells/spell_list.wizard.json" },
-
-    { "id": "res.rage", "type": "resource", "path": "chapter-03/resources/rage.json" },
-    { "id": "res.bardic_inspiration", "type": "resource", "path": "chapter-03/resources/bardic_inspiration.json" },
-    { "id": "res.channel_divinity.cleric", "type": "resource", "path": "chapter-03/resources/channel_divinity.cleric.json" },
-    { "id": "res.wild_shape", "type": "resource", "path": "chapter-03/resources/wild_shape.json" },
-    { "id": "res.second_wind", "type": "resource", "path": "chapter-03/resources/second_wind.json" },
-    { "id": "res.action_surge", "type": "resource", "path": "chapter-03/resources/action_surge.json" },
-    { "id": "res.superiority_dice", "type": "resource", "path": "chapter-03/resources/superiority_dice.json" },
-    { "id": "res.psionic_energy_dice.fighter", "type": "resource", "path": "chapter-03/resources/psionic_energy_dice.fighter.json" },
-    { "id": "res.focus_points", "type": "resource", "path": "chapter-03/resources/focus_points.json" },
-    { "id": "res.channel_divinity.paladin", "type": "resource", "path": "chapter-03/resources/channel_divinity.paladin.json" },
-    { "id": "res.lay_on_hands", "type": "resource", "path": "chapter-03/resources/lay_on_hands.json" },
-    { "id": "res.divine_smite.free", "type": "resource", "path": "chapter-03/resources/divine_smite.free.json" },
-    { "id": "res.hunters_mark.free", "type": "resource", "path": "chapter-03/resources/hunters_mark.free.json" },
-    { "id": "res.natures_veil", "type": "resource", "path": "chapter-03/resources/natures_veil.json" },
-    { "id": "res.psionic_energy_dice.soulknife", "type": "resource", "path": "chapter-03/resources/psionic_energy_dice.soulknife.json" },
-    { "id": "res.spell_thief", "type": "resource", "path": "chapter-03/resources/spell_thief.json" },
-    { "id": "res.sorcery_points", "type": "resource", "path": "chapter-03/resources/sorcery_points.json" },
-    { "id": "res.innate_sorcery", "type": "resource", "path": "chapter-03/resources/innate_sorcery.json" },
-    { "id": "res.tides_of_chaos", "type": "resource", "path": "chapter-03/resources/tides_of_chaos.json" },
-    { "id": "res.pact_magic_slots", "type": "resource", "path": "chapter-03/resources/pact_magic_slots.json" },
-    { "id": "res.magical_cunning", "type": "resource", "path": "chapter-03/resources/magical_cunning.json" },
-    { "id": "res.mystic_arcanum", "type": "resource", "path": "chapter-03/resources/mystic_arcanum.json" },
-
-    { "id": "inv.pact_of_the_blade", "type": "invocation", "path": "chapter-03/invocations/pact_of_the_blade.json" },
-    { "id": "inv.pact_of_the_chain", "type": "invocation", "path": "chapter-03/invocations/pact_of_the_chain.json" },
-    { "id": "inv.pact_of_the_tome", "type": "invocation", "path": "chapter-03/invocations/pact_of_the_tome.json" },
-
-    { "id": "feat.warlock.pact_magic", "type": "feature", "path": "chapter-03/features/warlock/pact_magic.json" },
-    { "id": "feat.warlock.eldritch_invocations", "type": "feature", "path": "chapter-03/features/warlock/eldritch_invocations.json" },
-    { "id": "feat.warlock.magical_cunning", "type": "feature", "path": "chapter-03/features/warlock/magical_cunning.json" },
-    { "id": "feat.warlock.contact_patron", "type": "feature", "path": "chapter-03/features/warlock/contact_patron.json" },
-    { "id": "feat.warlock.mystic_arcanum", "type": "feature", "path": "chapter-03/features/warlock/mystic_arcanum.json" },
-    { "id": "feat.warlock.eldritch_master", "type": "feature", "path": "chapter-03/features/warlock/eldritch_master.json" }
-
-
+    {
+      "id": "class.barbarian",
+      "type": "class",
+      "path": "chapter-03/classes/barbarian.json"
+    },
+    {
+      "id": "class.bard",
+      "type": "class",
+      "path": "chapter-03/classes/bard.json"
+    },
+    {
+      "id": "class.cleric",
+      "type": "class",
+      "path": "chapter-03/classes/cleric.json"
+    },
+    {
+      "id": "class.druid",
+      "type": "class",
+      "path": "chapter-03/classes/druid.json"
+    },
+    {
+      "id": "class.fighter",
+      "type": "class",
+      "path": "chapter-03/classes/fighter.json"
+    },
+    {
+      "id": "class.monk",
+      "type": "class",
+      "path": "chapter-03/classes/monk.json"
+    },
+    {
+      "id": "class.paladin",
+      "type": "class",
+      "path": "chapter-03/classes/paladin.json"
+    },
+    {
+      "id": "class.ranger",
+      "type": "class",
+      "path": "chapter-03/classes/ranger.json"
+    },
+    {
+      "id": "class.rogue",
+      "type": "class",
+      "path": "chapter-03/classes/rogue.json"
+    },
+    {
+      "id": "class.sorcerer",
+      "type": "class",
+      "path": "chapter-03/classes/sorcerer.json"
+    },
+    {
+      "id": "class.warlock",
+      "type": "class",
+      "path": "chapter-03/classes/warlock.json"
+    },
+    {
+      "id": "class.wizard",
+      "type": "class",
+      "path": "chapter-03/classes/wizard.json"
+    },
+    {
+      "id": "circle.land",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.circle.land.json"
+    },
+    {
+      "id": "circle.moon",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.circle.moon.json"
+    },
+    {
+      "id": "circle.sea",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.circle.sea.json"
+    },
+    {
+      "id": "circle.stars",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.circle.stars.json"
+    },
+    {
+      "id": "college.dance",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.college.dance.json"
+    },
+    {
+      "id": "college.glamour",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.college.glamour.json"
+    },
+    {
+      "id": "college.lore",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.college.lore.json"
+    },
+    {
+      "id": "college.valor",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.college.valor.json"
+    },
+    {
+      "id": "domain.life",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.domain.life.json"
+    },
+    {
+      "id": "domain.light",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.domain.light.json"
+    },
+    {
+      "id": "domain.trickery",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.domain.trickery.json"
+    },
+    {
+      "id": "domain.war",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.domain.war.json"
+    },
+    {
+      "id": "fighter.battle_master",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.fighter.battle_master.json"
+    },
+    {
+      "id": "fighter.champion",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.fighter.champion.json"
+    },
+    {
+      "id": "fighter.eldritch_knight",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.fighter.eldritch_knight.json"
+    },
+    {
+      "id": "fighter.psi_warrior",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.fighter.psi_warrior.json"
+    },
+    {
+      "id": "monk.elements",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.monk.elements.json"
+    },
+    {
+      "id": "monk.mercy",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.monk.mercy.json"
+    },
+    {
+      "id": "monk.open_hand",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.monk.open_hand.json"
+    },
+    {
+      "id": "monk.shadow",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.monk.shadow.json"
+    },
+    {
+      "id": "oath.ancients",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.oath.ancients.json"
+    },
+    {
+      "id": "oath.devotion",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.oath.devotion.json"
+    },
+    {
+      "id": "oath.glory",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.oath.glory.json"
+    },
+    {
+      "id": "oath.vengeance",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.oath.vengeance.json"
+    },
+    {
+      "id": "path.world_tree",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.path.world_tree.json"
+    },
+    {
+      "id": "path.zealot",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.path.zealot.json"
+    },
+    {
+      "id": "ranger.beast_master",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.ranger.beast_master.json"
+    },
+    {
+      "id": "ranger.fey_wanderer",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.ranger.fey_wanderer.json"
+    },
+    {
+      "id": "ranger.gloom_stalker",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.ranger.gloom_stalker.json"
+    },
+    {
+      "id": "ranger.hunter",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.ranger.hunter.json"
+    },
+    {
+      "id": "rogue.arcane_trickster",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.rogue.arcane_trickster.json"
+    },
+    {
+      "id": "rogue.assassin",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.rogue.assassin.json"
+    },
+    {
+      "id": "rogue.soulknife",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.rogue.soulknife.json"
+    },
+    {
+      "id": "rogue.thief",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.rogue.thief.json"
+    },
+    {
+      "id": "sorcerer.aberrant",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.sorcerer.aberrant.json"
+    },
+    {
+      "id": "sorcerer.clockwork",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.sorcerer.clockwork.json"
+    },
+    {
+      "id": "sorcerer.draconic",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.sorcerer.draconic.json"
+    },
+    {
+      "id": "sorcerer.wild_magic",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.sorcerer.wild_magic.json"
+    },
+    {
+      "id": "wizard.abjurer",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wizard.abjurer.json"
+    },
+    {
+      "id": "wizard.diviner",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wizard.diviner.json"
+    },
+    {
+      "id": "wizard.evoker",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wizard.evoker.json"
+    },
+    {
+      "id": "wizard.illusionist",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wizard.illusionist.json"
+    },
+    {
+      "id": "wl.archfey",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wl.archfey.json"
+    },
+    {
+      "id": "wl.celestial",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wl.celestial.json"
+    },
+    {
+      "id": "wl.fiend",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wl.fiend.json"
+    },
+    {
+      "id": "wl.great_old_one",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.wl.great_old_one.json"
+    },
+    {
+      "id": "path.berserker",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.path.berserker.json"
+    },
+    {
+      "id": "path.wild_heart",
+      "type": "subclass",
+      "path": "chapter-03/subclasses/subclass.path.wild_heart.json"
+    },
+    {
+      "id": "spell_list.bard",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.bard.json"
+    },
+    {
+      "id": "spell_list.cleric",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.cleric.json"
+    },
+    {
+      "id": "spell_list.druid",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.druid.json"
+    },
+    {
+      "id": "spell_list.paladin",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.paladin.json"
+    },
+    {
+      "id": "spell_list.ranger",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.ranger.json"
+    },
+    {
+      "id": "spell_list.sorcerer",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.sorcerer.json"
+    },
+    {
+      "id": "spell_list.warlock",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.warlock.json"
+    },
+    {
+      "id": "spell_list.wizard",
+      "type": "spell_list",
+      "path": "chapter-03/spells/spell_list.wizard.json"
+    },
+    {
+      "id": "res.rage",
+      "type": "resource",
+      "path": "chapter-03/resources/rage.json"
+    },
+    {
+      "id": "res.bardic_inspiration",
+      "type": "resource",
+      "path": "chapter-03/resources/bardic_inspiration.json"
+    },
+    {
+      "id": "res.channel_divinity.cleric",
+      "type": "resource",
+      "path": "chapter-03/resources/channel_divinity.cleric.json"
+    },
+    {
+      "id": "res.wild_shape",
+      "type": "resource",
+      "path": "chapter-03/resources/wild_shape.json"
+    },
+    {
+      "id": "res.second_wind",
+      "type": "resource",
+      "path": "chapter-03/resources/second_wind.json"
+    },
+    {
+      "id": "res.action_surge",
+      "type": "resource",
+      "path": "chapter-03/resources/action_surge.json"
+    },
+    {
+      "id": "res.superiority_dice",
+      "type": "resource",
+      "path": "chapter-03/resources/superiority_dice.json"
+    },
+    {
+      "id": "res.psionic_energy_dice.fighter",
+      "type": "resource",
+      "path": "chapter-03/resources/psionic_energy_dice.fighter.json"
+    },
+    {
+      "id": "res.focus_points",
+      "type": "resource",
+      "path": "chapter-03/resources/focus_points.json"
+    },
+    {
+      "id": "res.channel_divinity.paladin",
+      "type": "resource",
+      "path": "chapter-03/resources/channel_divinity.paladin.json"
+    },
+    {
+      "id": "res.lay_on_hands",
+      "type": "resource",
+      "path": "chapter-03/resources/lay_on_hands.json"
+    },
+    {
+      "id": "res.divine_smite.free",
+      "type": "resource",
+      "path": "chapter-03/resources/divine_smite.free.json"
+    },
+    {
+      "id": "res.hunters_mark.free",
+      "type": "resource",
+      "path": "chapter-03/resources/hunters_mark.free.json"
+    },
+    {
+      "id": "res.natures_veil",
+      "type": "resource",
+      "path": "chapter-03/resources/natures_veil.json"
+    },
+    {
+      "id": "res.psionic_energy_dice.soulknife",
+      "type": "resource",
+      "path": "chapter-03/resources/psionic_energy_dice.soulknife.json"
+    },
+    {
+      "id": "res.spell_thief",
+      "type": "resource",
+      "path": "chapter-03/resources/spell_thief.json"
+    },
+    {
+      "id": "res.sorcery_points",
+      "type": "resource",
+      "path": "chapter-03/resources/sorcery_points.json"
+    },
+    {
+      "id": "res.innate_sorcery",
+      "type": "resource",
+      "path": "chapter-03/resources/innate_sorcery.json"
+    },
+    {
+      "id": "res.tides_of_chaos",
+      "type": "resource",
+      "path": "chapter-03/resources/tides_of_chaos.json"
+    },
+    {
+      "id": "res.pact_magic_slots",
+      "type": "resource",
+      "path": "chapter-03/resources/pact_magic_slots.json"
+    },
+    {
+      "id": "res.magical_cunning",
+      "type": "resource",
+      "path": "chapter-03/resources/magical_cunning.json"
+    },
+    {
+      "id": "res.mystic_arcanum",
+      "type": "resource",
+      "path": "chapter-03/resources/mystic_arcanum.json"
+    },
+    {
+      "id": "inv.pact_of_the_blade",
+      "type": "invocation",
+      "path": "chapter-03/invocations/pact_of_the_blade.json"
+    },
+    {
+      "id": "inv.pact_of_the_chain",
+      "type": "invocation",
+      "path": "chapter-03/invocations/pact_of_the_chain.json"
+    },
+    {
+      "id": "inv.pact_of_the_tome",
+      "type": "invocation",
+      "path": "chapter-03/invocations/pact_of_the_tome.json"
+    },
+    {
+      "id": "feat.warlock.pact_magic",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/pact_magic.json"
+    },
+    {
+      "id": "feat.warlock.eldritch_invocations",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/eldritch_invocations.json"
+    },
+    {
+      "id": "feat.warlock.magical_cunning",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/magical_cunning.json"
+    },
+    {
+      "id": "feat.warlock.contact_patron",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/contact_patron.json"
+    },
+    {
+      "id": "feat.warlock.mystic_arcanum",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/mystic_arcanum.json"
+    },
+    {
+      "id": "feat.warlock.eldritch_master",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/eldritch_master.json"
+    },
+    {
+      "id": "feat.barbarian.unarmored_defense",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/unarmored_defense.json"
+    },
+    {
+      "id": "feat.barbarian.danger_sense",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/danger_sense.json"
+    },
+    {
+      "id": "feat.barbarian.reckless_attack",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/reckless_attack.json"
+    },
+    {
+      "id": "feat.barbarian.primal_knowledge",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/primal_knowledge.json"
+    },
+    {
+      "id": "feat.barbarian.fast_movement",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/fast_movement.json"
+    },
+    {
+      "id": "feat.barbarian.feral_instinct",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/feral_instinct.json"
+    },
+    {
+      "id": "feat.barbarian.instinctive_pounce",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/instinctive_pounce.json"
+    },
+    {
+      "id": "feat.barbarian.brutal_strike",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/brutal_strike.json"
+    },
+    {
+      "id": "feat.barbarian.relentless_rage",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/relentless_rage.json"
+    },
+    {
+      "id": "feat.barbarian.improved_brutal_strike",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/improved_brutal_strike.json"
+    },
+    {
+      "id": "feat.barbarian.persistent_rage",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/persistent_rage.json"
+    },
+    {
+      "id": "feat.barbarian.indomitable_might",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/indomitable_might.json"
+    },
+    {
+      "id": "feat.barbarian.primal_champion",
+      "type": "feature",
+      "path": "chapter-03/features/barbarian/primal_champion.json"
+    },
+    {
+      "id": "feat.bard.spellcasting",
+      "type": "feature",
+      "path": "chapter-03/features/bard/spellcasting.json"
+    },
+    {
+      "id": "feat.bard.expertise",
+      "type": "feature",
+      "path": "chapter-03/features/bard/expertise.json"
+    },
+    {
+      "id": "feat.bard.jack_of_all_trades",
+      "type": "feature",
+      "path": "chapter-03/features/bard/jack_of_all_trades.json"
+    },
+    {
+      "id": "feat.bard.font_of_inspiration",
+      "type": "feature",
+      "path": "chapter-03/features/bard/font_of_inspiration.json"
+    },
+    {
+      "id": "feat.bard.countercharm",
+      "type": "feature",
+      "path": "chapter-03/features/bard/countercharm.json"
+    },
+    {
+      "id": "feat.bard.magical_secrets",
+      "type": "feature",
+      "path": "chapter-03/features/bard/magical_secrets.json"
+    },
+    {
+      "id": "feat.bard.superior_inspiration",
+      "type": "feature",
+      "path": "chapter-03/features/bard/superior_inspiration.json"
+    },
+    {
+      "id": "feat.bard.words_of_creation",
+      "type": "feature",
+      "path": "chapter-03/features/bard/words_of_creation.json"
+    },
+    {
+      "id": "feat.cleric.spellcasting",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/spellcasting.json"
+    },
+    {
+      "id": "feat.cleric.divine_order",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/divine_order.json"
+    },
+    {
+      "id": "feat.cleric.divine_spark",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/divine_spark.json"
+    },
+    {
+      "id": "feat.cleric.turn_undead",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/turn_undead.json"
+    },
+    {
+      "id": "feat.cleric.sear_undead",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/sear_undead.json"
+    },
+    {
+      "id": "feat.cleric.blessed_strikes",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/blessed_strikes.json"
+    },
+    {
+      "id": "feat.cleric.divine_intervention",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/divine_intervention.json"
+    },
+    {
+      "id": "feat.cleric.improved_blessed_strikes",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/improved_blessed_strikes.json"
+    },
+    {
+      "id": "feat.cleric.greater_divine_intervention",
+      "type": "feature",
+      "path": "chapter-03/features/cleric/greater_divine_intervention.json"
+    },
+    {
+      "id": "feat.druid.spellcasting",
+      "type": "feature",
+      "path": "chapter-03/features/druid/spellcasting.json"
+    },
+    {
+      "id": "feat.druid.druidic",
+      "type": "feature",
+      "path": "chapter-03/features/druid/druidic.json"
+    },
+    {
+      "id": "feat.druid.primal_order",
+      "type": "feature",
+      "path": "chapter-03/features/druid/primal_order.json"
+    },
+    {
+      "id": "feat.druid.wild_companion",
+      "type": "feature",
+      "path": "chapter-03/features/druid/wild_companion.json"
+    },
+    {
+      "id": "feat.druid.wild_resurgence",
+      "type": "feature",
+      "path": "chapter-03/features/druid/wild_resurgence.json"
+    },
+    {
+      "id": "feat.druid.elemental_fury",
+      "type": "feature",
+      "path": "chapter-03/features/druid/elemental_fury.json"
+    },
+    {
+      "id": "feat.druid.improved_elemental_fury",
+      "type": "feature",
+      "path": "chapter-03/features/druid/improved_elemental_fury.json"
+    },
+    {
+      "id": "feat.druid.beast_spells",
+      "type": "feature",
+      "path": "chapter-03/features/druid/beast_spells.json"
+    },
+    {
+      "id": "feat.druid.archdruid",
+      "type": "feature",
+      "path": "chapter-03/features/druid/archdruid.json"
+    },
+    {
+      "id": "feat.fighter.tactical_mind",
+      "type": "feature",
+      "path": "chapter-03/features/fighter/tactical_mind.json"
+    },
+    {
+      "id": "feat.fighter.tactical_shift",
+      "type": "feature",
+      "path": "chapter-03/features/fighter/tactical_shift.json"
+    },
+    {
+      "id": "feat.fighter.indomitable",
+      "type": "feature",
+      "path": "chapter-03/features/fighter/indomitable.json"
+    },
+    {
+      "id": "feat.fighter.tactical_master",
+      "type": "feature",
+      "path": "chapter-03/features/fighter/tactical_master.json"
+    },
+    {
+      "id": "feat.fighter.two_extra_attacks",
+      "type": "feature",
+      "path": "chapter-03/features/fighter/two_extra_attacks.json"
+    },
+    {
+      "id": "feat.fighter.studied_attacks",
+      "type": "feature",
+      "path": "chapter-03/features/fighter/studied_attacks.json"
+    },
+    {
+      "id": "feat.fighter.three_extra_attacks",
+      "type": "feature",
+      "path": "chapter-03/features/fighter/three_extra_attacks.json"
+    },
+    {
+      "id": "feat.monk.martial_arts",
+      "type": "feature",
+      "path": "chapter-03/features/monk/martial_arts.json"
+    },
+    {
+      "id": "feat.monk.unarmored_defense",
+      "type": "feature",
+      "path": "chapter-03/features/monk/unarmored_defense.json"
+    },
+    {
+      "id": "feat.monk.monks_focus",
+      "type": "feature",
+      "path": "chapter-03/features/monk/monks_focus.json"
+    },
+    {
+      "id": "feat.monk.flurry_of_blows",
+      "type": "feature",
+      "path": "chapter-03/features/monk/flurry_of_blows.json"
+    },
+    {
+      "id": "feat.monk.patient_defense",
+      "type": "feature",
+      "path": "chapter-03/features/monk/patient_defense.json"
+    },
+    {
+      "id": "feat.monk.step_of_the_wind",
+      "type": "feature",
+      "path": "chapter-03/features/monk/step_of_the_wind.json"
+    },
+    {
+      "id": "feat.monk.unarmored_movement",
+      "type": "feature",
+      "path": "chapter-03/features/monk/unarmored_movement.json"
+    },
+    {
+      "id": "feat.monk.uncanny_metabolism",
+      "type": "feature",
+      "path": "chapter-03/features/monk/uncanny_metabolism.json"
+    },
+    {
+      "id": "feat.monk.deflect_attacks",
+      "type": "feature",
+      "path": "chapter-03/features/monk/deflect_attacks.json"
+    },
+    {
+      "id": "feat.monk.slow_fall",
+      "type": "feature",
+      "path": "chapter-03/features/monk/slow_fall.json"
+    },
+    {
+      "id": "feat.monk.stunning_strike",
+      "type": "feature",
+      "path": "chapter-03/features/monk/stunning_strike.json"
+    },
+    {
+      "id": "feat.monk.empowered_strikes",
+      "type": "feature",
+      "path": "chapter-03/features/monk/empowered_strikes.json"
+    },
+    {
+      "id": "feat.monk.evasion",
+      "type": "feature",
+      "path": "chapter-03/features/monk/evasion.json"
+    },
+    {
+      "id": "feat.monk.acrobatic_movement",
+      "type": "feature",
+      "path": "chapter-03/features/monk/acrobatic_movement.json"
+    },
+    {
+      "id": "feat.monk.heightened_focus",
+      "type": "feature",
+      "path": "chapter-03/features/monk/heightened_focus.json"
+    },
+    {
+      "id": "feat.monk.self_restoration",
+      "type": "feature",
+      "path": "chapter-03/features/monk/self_restoration.json"
+    },
+    {
+      "id": "feat.monk.deflect_energy",
+      "type": "feature",
+      "path": "chapter-03/features/monk/deflect_energy.json"
+    },
+    {
+      "id": "feat.monk.disciplined_survivor",
+      "type": "feature",
+      "path": "chapter-03/features/monk/disciplined_survivor.json"
+    },
+    {
+      "id": "feat.monk.perfect_focus",
+      "type": "feature",
+      "path": "chapter-03/features/monk/perfect_focus.json"
+    },
+    {
+      "id": "feat.monk.superior_defense",
+      "type": "feature",
+      "path": "chapter-03/features/monk/superior_defense.json"
+    },
+    {
+      "id": "feat.monk.body_and_mind",
+      "type": "feature",
+      "path": "chapter-03/features/monk/body_and_mind.json"
+    },
+    {
+      "id": "feat.paladin.lay_on_hands",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/lay_on_hands.json"
+    },
+    {
+      "id": "feat.paladin.spellcasting",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/spellcasting.json"
+    },
+    {
+      "id": "feat.paladin.paladins_smite",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/paladins_smite.json"
+    },
+    {
+      "id": "feat.paladin.channel_divinity",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/channel_divinity.json"
+    },
+    {
+      "id": "feat.paladin.divine_sense",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/divine_sense.json"
+    },
+    {
+      "id": "feat.paladin.faithful_steed",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/faithful_steed.json"
+    },
+    {
+      "id": "feat.paladin.aura_of_protection",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/aura_of_protection.json"
+    },
+    {
+      "id": "feat.paladin.abjure_foes",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/abjure_foes.json"
+    },
+    {
+      "id": "feat.paladin.aura_of_courage",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/aura_of_courage.json"
+    },
+    {
+      "id": "feat.paladin.radiant_strikes",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/radiant_strikes.json"
+    },
+    {
+      "id": "feat.paladin.restoring_touch",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/restoring_touch.json"
+    },
+    {
+      "id": "feat.ranger.spellcasting",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/spellcasting.json"
+    },
+    {
+      "id": "feat.ranger.favored_enemy",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/favored_enemy.json"
+    },
+    {
+      "id": "feat.ranger.deft_explorer",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/deft_explorer.json"
+    },
+    {
+      "id": "feat.ranger.roving",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/roving.json"
+    },
+    {
+      "id": "feat.ranger.expertise",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/expertise.json"
+    },
+    {
+      "id": "feat.ranger.tireless",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/tireless.json"
+    },
+    {
+      "id": "feat.ranger.relentless_hunter",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/relentless_hunter.json"
+    },
+    {
+      "id": "feat.ranger.natures_veil",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/natures_veil.json"
+    },
+    {
+      "id": "feat.ranger.precise_hunter",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/precise_hunter.json"
+    },
+    {
+      "id": "feat.ranger.feral_senses",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/feral_senses.json"
+    },
+    {
+      "id": "feat.ranger.foe_slayer",
+      "type": "feature",
+      "path": "chapter-03/features/ranger/foe_slayer.json"
+    },
+    {
+      "id": "feat.rogue.expertise",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/expertise.json"
+    },
+    {
+      "id": "feat.rogue.sneak_attack",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/sneak_attack.json"
+    },
+    {
+      "id": "feat.rogue.thieves_cant",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/thieves_cant.json"
+    },
+    {
+      "id": "feat.rogue.cunning_strike",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/cunning_strike.json"
+    },
+    {
+      "id": "feat.rogue.reliable_talent",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/reliable_talent.json"
+    },
+    {
+      "id": "feat.rogue.improved_cunning_strike",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/improved_cunning_strike.json"
+    },
+    {
+      "id": "feat.rogue.devious_strikes",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/devious_strikes.json"
+    },
+    {
+      "id": "feat.rogue.slippery_mind",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/slippery_mind.json"
+    },
+    {
+      "id": "feat.rogue.elusive",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/elusive.json"
+    },
+    {
+      "id": "feat.rogue.stroke_of_luck",
+      "type": "feature",
+      "path": "chapter-03/features/rogue/stroke_of_luck.json"
+    },
+    {
+      "id": "feat.sorcerer.spellcasting",
+      "type": "feature",
+      "path": "chapter-03/features/sorcerer/spellcasting.json"
+    },
+    {
+      "id": "feat.sorcerer.innate_sorcery",
+      "type": "feature",
+      "path": "chapter-03/features/sorcerer/innate_sorcery.json"
+    },
+    {
+      "id": "feat.sorcerer.font_of_magic",
+      "type": "feature",
+      "path": "chapter-03/features/sorcerer/font_of_magic.json"
+    },
+    {
+      "id": "feat.sorcerer.sorcerous_restoration",
+      "type": "feature",
+      "path": "chapter-03/features/sorcerer/sorcerous_restoration.json"
+    },
+    {
+      "id": "feat.sorcerer.sorcery_incarnate",
+      "type": "feature",
+      "path": "chapter-03/features/sorcerer/sorcery_incarnate.json"
+    },
+    {
+      "id": "feat.sorcerer.arcane_apotheosis",
+      "type": "feature",
+      "path": "chapter-03/features/sorcerer/arcane_apotheosis.json"
+    },
+    {
+      "id": "feat.wizard.spellcasting",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/spellcasting.json"
+    },
+    {
+      "id": "feat.wizard.spellbook",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/spellbook.json"
+    },
+    {
+      "id": "feat.wizard.ritual_adept",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/ritual_adept.json"
+    },
+    {
+      "id": "feat.wizard.arcane_recovery",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/arcane_recovery.json"
+    },
+    {
+      "id": "feat.wizard.scholar",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/scholar.json"
+    },
+    {
+      "id": "feat.wizard.memorize_spell",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/memorize_spell.json"
+    },
+    {
+      "id": "feat.wizard.spell_mastery",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/spell_mastery.json"
+    },
+    {
+      "id": "feat.wizard.signature_spells",
+      "type": "feature",
+      "path": "chapter-03/features/wizard/signature_spells.json"
+    },
+    {
+      "id": "table.maneuvers.battle_master",
+      "type": "table",
+      "path": "chapter-03/tables/table.maneuvers.battle_master.json"
+    },
+    {
+      "id": "table.warlock.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.warlock.class_features.json"
+    },
+    {
+      "id": "inv.agonizing_blast",
+      "type": "invocation",
+      "path": "chapter-03/invocations/agonizing_blast.json"
+    },
+    {
+      "id": "inv.armor_of_shadows",
+      "type": "invocation",
+      "path": "chapter-03/invocations/armor_of_shadows.json"
+    },
+    {
+      "id": "inv.ascendant_step",
+      "type": "invocation",
+      "path": "chapter-03/invocations/ascendant_step.json"
+    },
+    {
+      "id": "inv.devils_sight",
+      "type": "invocation",
+      "path": "chapter-03/invocations/devils_sight.json"
+    },
+    {
+      "id": "inv.devouring_blade",
+      "type": "invocation",
+      "path": "chapter-03/invocations/devouring_blade.json"
+    },
+    {
+      "id": "inv.eldritch_mind",
+      "type": "invocation",
+      "path": "chapter-03/invocations/eldritch_mind.json"
+    },
+    {
+      "id": "inv.eldritch_smite",
+      "type": "invocation",
+      "path": "chapter-03/invocations/eldritch_smite.json"
+    },
+    {
+      "id": "inv.eldritch_spear",
+      "type": "invocation",
+      "path": "chapter-03/invocations/eldritch_spear.json"
+    },
+    {
+      "id": "inv.fiendish_vigor",
+      "type": "invocation",
+      "path": "chapter-03/invocations/fiendish_vigor.json"
+    },
+    {
+      "id": "inv.gaze_of_two_minds",
+      "type": "invocation",
+      "path": "chapter-03/invocations/gaze_of_two_minds.json"
+    },
+    {
+      "id": "inv.gift_of_the_depths",
+      "type": "invocation",
+      "path": "chapter-03/invocations/gift_of_the_depths.json"
+    },
+    {
+      "id": "inv.gift_of_the_protectors",
+      "type": "invocation",
+      "path": "chapter-03/invocations/gift_of_the_protectors.json"
+    },
+    {
+      "id": "inv.investment_of_the_chain_master",
+      "type": "invocation",
+      "path": "chapter-03/invocations/investment_of_the_chain_master.json"
+    },
+    {
+      "id": "inv.lessons_of_the_first_ones",
+      "type": "invocation",
+      "path": "chapter-03/invocations/lessons_of_the_first_ones.json"
+    },
+    {
+      "id": "inv.lifedrinker",
+      "type": "invocation",
+      "path": "chapter-03/invocations/lifedrinker.json"
+    },
+    {
+      "id": "inv.mask_of_many_faces",
+      "type": "invocation",
+      "path": "chapter-03/invocations/mask_of_many_faces.json"
+    },
+    {
+      "id": "inv.master_of_myriad_forms",
+      "type": "invocation",
+      "path": "chapter-03/invocations/master_of_myriad_forms.json"
+    },
+    {
+      "id": "inv.misty_visions",
+      "type": "invocation",
+      "path": "chapter-03/invocations/misty_visions.json"
+    },
+    {
+      "id": "inv.one_with_shadows",
+      "type": "invocation",
+      "path": "chapter-03/invocations/one_with_shadows.json"
+    },
+    {
+      "id": "inv.otherworldly_leap",
+      "type": "invocation",
+      "path": "chapter-03/invocations/otherworldly_leap.json"
+    },
+    {
+      "id": "inv.repelling_blast",
+      "type": "invocation",
+      "path": "chapter-03/invocations/repelling_blast.json"
+    },
+    {
+      "id": "inv.thirsting_blade",
+      "type": "invocation",
+      "path": "chapter-03/invocations/thirsting_blade.json"
+    },
+    {
+      "id": "inv.visions_of_distant_realms",
+      "type": "invocation",
+      "path": "chapter-03/invocations/visions_of_distant_realms.json"
+    },
+    {
+      "id": "inv.whispers_of_the_grave",
+      "type": "invocation",
+      "path": "chapter-03/invocations/whispers_of_the_grave.json"
+    },
+    {
+      "id": "inv.witch_sight",
+      "type": "invocation",
+      "path": "chapter-03/invocations/witch_sight.json"
+    },
+    {
+      "id": "table.barbarian.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.barbarian.class_features.json"
+    },
+    {
+      "id": "table.bard.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.bard.class_features.json"
+    },
+    {
+      "id": "res.arcane_recovery",
+      "type": "resource",
+      "path": "chapter-03/resources/arcane_recovery.json"
+    },
+    {
+      "id": "table.cleric.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.cleric.class_features.json"
+    },
+    {
+      "id": "table.druid.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.druid.class_features.json"
+    },
+    {
+      "id": "table.fighter.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.fighter.class_features.json"
+    },
+    {
+      "id": "table.monk.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.monk.class_features.json"
+    },
+    {
+      "id": "table.paladin.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.paladin.class_features.json"
+    },
+    {
+      "id": "table.ranger.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.ranger.class_features.json"
+    },
+    {
+      "id": "table.rogue.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.rogue.class_features.json"
+    },
+    {
+      "id": "table.sorcerer.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.sorcerer.class_features.json"
+    },
+    {
+      "id": "table.wizard.class_features",
+      "type": "table",
+      "path": "chapter-03/tables/table.wizard.class_features.json"
+    },
+    {
+      "id": "table.druid.beast_shapes",
+      "type": "table",
+      "path": "chapter-03/tables/table.druid.beast_shapes.json"
+    },
+    {
+      "id": "table.druid.circle_moon_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.druid.circle_moon_spells.json"
+    },
+    {
+      "id": "table.druid.circle_sea_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.druid.circle_sea_spells.json"
+    },
+    {
+      "id": "table.druid.natures_ward",
+      "type": "table",
+      "path": "chapter-03/tables/table.druid.natures_ward.json"
+    },
+    {
+      "id": "table.druid.star_map",
+      "type": "table",
+      "path": "chapter-03/tables/table.druid.star_map.json"
+    },
+    {
+      "id": "table.fighter.eldritch_knight_spellcasting",
+      "type": "table",
+      "path": "chapter-03/tables/table.fighter.eldritch_knight_spellcasting.json"
+    },
+    {
+      "id": "table.fighter.psi_warrior_energy_dice",
+      "type": "table",
+      "path": "chapter-03/tables/table.fighter.psi_warrior_energy_dice.json"
+    },
+    {
+      "id": "table.paladin.oath_devotion_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.paladin.oath_devotion_spells.json"
+    },
+    {
+      "id": "table.paladin.oath_glory_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.paladin.oath_glory_spells.json"
+    },
+    {
+      "id": "table.paladin.oath_ancients_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.paladin.oath_ancients_spells.json"
+    },
+    {
+      "id": "table.paladin.oath_vengeance_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.paladin.oath_vengeance_spells.json"
+    },
+    {
+      "id": "table.ranger.fey_wanderer_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.ranger.fey_wanderer_spells.json"
+    },
+    {
+      "id": "table.ranger.feywild_gifts",
+      "type": "table",
+      "path": "chapter-03/tables/table.ranger.feywild_gifts.json"
+    },
+    {
+      "id": "table.ranger.gloom_stalker_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.ranger.gloom_stalker_spells.json"
+    },
+    {
+      "id": "table.rogue.arcane_trickster_spellcasting",
+      "type": "table",
+      "path": "chapter-03/tables/table.rogue.arcane_trickster_spellcasting.json"
+    },
+    {
+      "id": "table.rogue.soulknife_energy_dice",
+      "type": "table",
+      "path": "chapter-03/tables/table.rogue.soulknife_energy_dice.json"
+    },
+    {
+      "id": "table.sorcerer.psionic_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.sorcerer.psionic_spells.json"
+    },
+    {
+      "id": "table.sorcerer.clockwork_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.sorcerer.clockwork_spells.json"
+    },
+    {
+      "id": "table.sorcerer.manifestations_of_order",
+      "type": "table",
+      "path": "chapter-03/tables/table.sorcerer.manifestations_of_order.json"
+    },
+    {
+      "id": "table.sorcerer.draconic_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.sorcerer.draconic_spells.json"
+    },
+    {
+      "id": "table.sorcerer.wild_magic_surge",
+      "type": "table",
+      "path": "chapter-03/tables/table.sorcerer.wild_magic_surge.json"
+    },
+    {
+      "id": "table.warlock.archfey_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.warlock.archfey_spells.json"
+    },
+    {
+      "id": "table.warlock.celestial_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.warlock.celestial_spells.json"
+    },
+    {
+      "id": "table.warlock.fiend_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.warlock.fiend_spells.json"
+    },
+    {
+      "id": "table.warlock.great_old_one_spells",
+      "type": "table",
+      "path": "chapter-03/tables/table.warlock.great_old_one_spells.json"
+    },
+    {
+      "id": "feat.rage",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.rage.json"
+    },
+    {
+      "id": "feat.bardic_inspiration",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.bardic_inspiration.json"
+    },
+    {
+      "id": "feat.channel_divinity.cleric",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.channel_divinity.cleric.json"
+    },
+    {
+      "id": "feat.wild_shape",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.wild_shape.json"
+    },
+    {
+      "id": "feat.second_wind",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.second_wind.json"
+    },
+    {
+      "id": "feat.action_surge",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.action_surge.json"
+    },
+    {
+      "id": "feat.cunning_action",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.cunning_action.json"
+    },
+    {
+      "id": "feat.steady_aim",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.steady_aim.json"
+    },
+    {
+      "id": "feat.uncanny_dodge",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.uncanny_dodge.json"
+    },
+    {
+      "id": "feat.evasion",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.evasion.json"
+    },
+    {
+      "id": "feat.metamagic",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.metamagic.json"
+    },
+    {
+      "id": "feat.ability_score_improvement",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.ability_score_improvement.json"
+    },
+    {
+      "id": "feat.epic_boon",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.epic_boon.json"
+    },
+    {
+      "id": "feat.subclass_choice",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.subclass_choice.json"
+    },
+    {
+      "id": "feat.weapon_mastery",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.weapon_mastery.json"
+    },
+    {
+      "id": "feat.fighting_style",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.fighting_style.json"
+    },
+    {
+      "id": "feat.extra_attack",
+      "type": "feature",
+      "path": "chapter-03/core/features/feat.extra_attack.json"
+    },
+    {
+      "id": "feat.paladin.aura_expansion",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/aura_expansion.json"
+    },
+    {
+      "id": "feat.paladin.improved_divine_smite",
+      "type": "feature",
+      "path": "chapter-03/features/paladin/improved_divine_smite.json"
+    },
+    {
+      "id": "feat.warlock.pact_boon",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/pact_boon.json"
+    },
+    {
+      "id": "feat.warlock.mystic_arcanum_6",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/mystic_arcanum_6.json"
+    },
+    {
+      "id": "feat.warlock.mystic_arcanum_7",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/mystic_arcanum_7.json"
+    },
+    {
+      "id": "feat.warlock.mystic_arcanum_8",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/mystic_arcanum_8.json"
+    },
+    {
+      "id": "feat.warlock.mystic_arcanum_9",
+      "type": "feature",
+      "path": "chapter-03/features/warlock/mystic_arcanum_9.json"
+    },
+    {
+      "id": "res.find_steed.free",
+      "type": "resource",
+      "path": "chapter-03/resources/find_steed.free.json"
+    }
   ],
-
   "expected_subclass_ids": [
-    "path.berserker", "path.wild_heart", "path.world_tree", "path.zealot",
-    "college.dance", "college.glamour", "college.lore", "college.valor",
-    "domain.life", "domain.light", "domain.trickery", "domain.war",
-    "circle.land", "circle.moon", "circle.sea", "circle.stars",
-    "fighter.battle_master", "fighter.champion", "fighter.eldritch_knight", "fighter.psi_warrior",
-    "monk.mercy", "monk.shadow", "monk.elements", "monk.open_hand",
-    "oath.devotion", "oath.glory", "oath.ancients", "oath.vengeance",
-    "ranger.beast_master", "ranger.fey_wanderer", "ranger.gloom_stalker", "ranger.hunter",
-    "rogue.arcane_trickster", "rogue.assassin", "rogue.soulknife", "rogue.thief",
-    "sorcerer.aberrant", "sorcerer.clockwork", "sorcerer.draconic", "sorcerer.wild_magic",
-    "wl.archfey", "wl.celestial", "wl.fiend", "wl.great_old_one",
-    "wizard.abjurer", "wizard.diviner", "wizard.evoker", "wizard.illusionist"
+    "path.berserker",
+    "path.wild_heart",
+    "path.world_tree",
+    "path.zealot",
+    "college.dance",
+    "college.glamour",
+    "college.lore",
+    "college.valor",
+    "domain.life",
+    "domain.light",
+    "domain.trickery",
+    "domain.war",
+    "circle.land",
+    "circle.moon",
+    "circle.sea",
+    "circle.stars",
+    "fighter.battle_master",
+    "fighter.champion",
+    "fighter.eldritch_knight",
+    "fighter.psi_warrior",
+    "monk.mercy",
+    "monk.shadow",
+    "monk.elements",
+    "monk.open_hand",
+    "oath.devotion",
+    "oath.glory",
+    "oath.ancients",
+    "oath.vengeance",
+    "ranger.beast_master",
+    "ranger.fey_wanderer",
+    "ranger.gloom_stalker",
+    "ranger.hunter",
+    "rogue.arcane_trickster",
+    "rogue.assassin",
+    "rogue.soulknife",
+    "rogue.thief",
+    "sorcerer.aberrant",
+    "sorcerer.clockwork",
+    "sorcerer.draconic",
+    "sorcerer.wild_magic",
+    "wl.archfey",
+    "wl.celestial",
+    "wl.fiend",
+    "wl.great_old_one",
+    "wizard.abjurer",
+    "wizard.diviner",
+    "wizard.evoker",
+    "wizard.illusionist"
   ],
-
   "notes": [
     "If a shard listed here does not exist yet, keep it in the manifest anyway and mark it missing in validation output.",
     "Subclasses are listed as expected IDs even if subclass files are not yet generated."

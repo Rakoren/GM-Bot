@@ -1,0 +1,49 @@
+{
+  "id": "species.gnome",
+  "name": "Gnome",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      17
+    ],
+    "section": "Gnome"
+  },
+  "creature_type": "Humanoid",
+  "size": "Small",
+  "size_notes": "About 3-4 feet tall.",
+  "speed": 30,
+  "traits": [
+    {
+      "name": "Darkvision",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "darkvision 60 ft"
+      ]
+    },
+    {
+      "name": "Gnomish Cunning",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "advantage on Intelligence, Wisdom, and Charisma saving throws"
+      ]
+    },
+    {
+      "name": "Gnomish Lineage",
+      "action_type": "none",
+      "trigger": "when you choose this species",
+      "effects": [
+        "choose one lineage: Forest Gnome or Rock Gnome",
+        "choose Intelligence, Wisdom, or Charisma as spellcasting ability for these spells"
+      ],
+      "notes": [
+        "Forest Gnome: know Minor Illusion cantrip; always have Speak with Animals prepared; cast it without a slot a number of times equal to proficiency bonus per long rest, or using spell slots",
+        "Rock Gnome: know Mending and Prestidigitation cantrips; you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP) with one Prestidigitation effect; activate with a Bonus Action touch; keep up to three devices; each lasts 8 hours or until dismantled with a touch as a Utilize action"
+      ]
+    }
+  ],
+  "notes": []
+}

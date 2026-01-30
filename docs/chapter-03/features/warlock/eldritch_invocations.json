@@ -4,11 +4,17 @@
   "chapter": 3,
   "status": "complete",
   "action_type": "none",
+  "trigger": "passive",
 
-  "rules": [
-    "choose_invocations_from_warlock_list",
-    "invocations_have_prerequisites",
-    "invocations_are_permanent_choices_until_retrained_if_rules_allow"
+  "effects": [
+    "you gain one Eldritch Invocation of your choice from the invocation list"
+  ],
+  "limits": [
+    "you must meet an invocation's prerequisites to learn it",
+    "whenever you gain a Warlock level, you can replace one invocation with another for which you qualify",
+    "you cannot replace an invocation if it is a prerequisite for another invocation you have",
+    "when you gain certain Warlock levels, you gain more invocations as shown in the Warlock Features table",
+    "you cannot pick the same invocation more than once unless its description says otherwise"
   ],
 
   "selection": {
@@ -23,5 +29,12 @@
   "notes": [
     "This shard defines the framework for invocations. Individual invocations are separate inv.* shards.",
     "Later: add a warlock invocation catalog + selection counts by level if you ingest the Warlock class table."
-  ]
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      64
+    ],
+    "section": "Eldritch Invocations"
+  }
 }

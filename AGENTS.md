@@ -1,6 +1,7 @@
 # AGENTS.md
 > Canonical data architecture and shard rules are defined in `docs/DESIGN.md`.
 > All agents must follow it.
+> Use javascripe
 
 ## Scope Outline
 

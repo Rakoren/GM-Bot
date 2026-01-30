@@ -1,0 +1,27 @@
+{
+  "id": "feat.monk.disciplined_survivor",
+  "name": "Disciplined Survivor",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you gain proficiency in all saving throws",
+    "when you fail a saving throw, you can expend 1 Focus Point to reroll it and must use the new roll"
+  ],
+  "limits": [
+    "reroll costs 1 Focus Point"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.focus_points",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      81
+    ],
+    "section": "Disciplined Survivor"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "feat.druid.archdruid",
+  "name": "Archdruid",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "Evergreen Wild Shape: when you roll initiative and have no uses of Wild Shape left, you regain one use",
+    "Nature Magician: you can convert Wild Shape uses into a spell slot; each use contributes 2 spell levels",
+    "Longevity: for every 10 years that pass, your body ages only 1 year"
+  ],
+  "limits": [
+    "once you use Nature Magician, you cannot do so again until you finish a long rest"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      51
+    ],
+    "section": "Archdruid"
+  }
+}

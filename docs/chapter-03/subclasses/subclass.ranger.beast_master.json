@@ -1,0 +1,85 @@
+﻿{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "ranger.beast_master",
+  "parent_class": "class.ranger",
+  "chapter": 3,
+  "title": "Beast Master",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      23,
+      25
+    ],
+    "section_hint": "Beast Master"
+  },
+  "feature_levels": [
+    3,
+    7,
+    11,
+    15
+  ],
+  "features_by_level": {
+    "3": [
+      "primal_companion"
+    ],
+    "7": [
+      "exceptional_training"
+    ],
+    "11": [
+      "bestial_fury"
+    ],
+    "15": [
+      "share_spells"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.ranger.beast_master.primal_companion",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You summon a primal beast companion (Beast of the Land, Sea, or Sky); it is friendly and obeys your commands.",
+        "The beast bears primal markings indicating its supernatural origin and vanishes if you die.",
+        "In combat, the beast acts on your turn; it can move and use its reaction on its own, but it takes only the Dodge action unless you command it.",
+        "You can use a bonus action to command it to take an action in its stat block or another action.",
+        "You can forgo one attack when you take the Attack action to command the beast to take the Beast's Strike action.",
+        "If you have the Incapacitated condition, the beast acts on its own and isn't limited to the Dodge action.",
+        "If the beast died within the last hour, you can take a Magic action to touch it and expend a spell slot; it returns to life after 1 minute with all hit points restored.",
+        "If you summon a new beast, the old one vanishes."
+      ],
+      "limits": [
+        "When you finish a long rest, you can summon a different primal beast, which appears in an unoccupied space within 5 feet of you."
+      ]
+    },
+    {
+      "id": "feat.ranger.beast_master.exceptional_training",
+      "action_type": "none",
+      "trigger": "when you command your primal companion with a bonus action",
+      "effects": [
+        "It can also take the Dash, Disengage, Dodge, or Help action using its bonus action.",
+        "When it hits with an attack roll and deals damage, it can deal Force damage or its normal damage type (your choice)."
+      ]
+    },
+    {
+      "id": "feat.ranger.beast_master.bestial_fury",
+      "action_type": "none",
+      "trigger": "when you command the beast to take the Beast's Strike action",
+      "effects": [
+        "The beast can use Beast's Strike twice.",
+        "The first time each turn it hits a creature under your Hunter's Mark, it deals extra Force damage equal to the bonus damage of that spell."
+      ]
+    },
+    {
+      "id": "feat.ranger.beast_master.share_spells",
+      "action_type": "none",
+      "trigger": "when you cast a spell targeting yourself",
+      "effects": [
+        "You can also affect your primal companion with the spell if it is within 30 feet of you."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ]
+}

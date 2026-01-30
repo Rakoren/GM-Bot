@@ -1,0 +1,108 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "circle.land",
+  "parent_class": "class.druid",
+  "chapter": 3,
+  "title": "Circle of the Land",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      56,
+      58
+    ],
+    "section_hint": "Circle of the Land"
+  },
+  "feature_levels": [
+    3,
+    6,
+    10,
+    14
+  ],
+  "features_by_level": {
+    "3": [
+      "circle_of_the_land_spells",
+      "land_s_aid"
+    ],
+    "6": [
+      "natural_recovery"
+    ],
+    "10": [
+      "nature_s_ward"
+    ],
+    "14": [
+      "nature_s_sanctuary"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.circle.land.circle_of_the_land_spells",
+      "action_type": "none",
+      "trigger": "when you finish a long rest",
+      "effects": [
+        "Choose a land type (arid, polar, temperate, or tropical).",
+        "You always have the circle spells for that land type prepared (see table)."
+      ],
+      "limits": [
+        "You can change the land type after each long rest."
+      ]
+    },
+    {
+      "id": "feat.circle.land.land_s_aid",
+      "action_type": "action",
+      "trigger": "as a magic action",
+      "effects": [
+        "You expend one use of Wild Shape to create a 10-foot-radius sphere within 60 feet.",
+        "Creatures of your choice in the sphere make a Constitution save against your spell save DC; on a failed save, a creature takes 2d6 necrotic damage (half on a success).",
+        "One creature of your choice in the sphere regains 2d6 hit points."
+      ],
+      "notes": [
+        "saving throw DC formula noted in effects"
+      ],
+      "scaling": {
+        "10": "damage/healing +1d6 (3d6)",
+        "14": "damage/healing +1d6 (4d6)"
+      }
+    },
+    {
+      "id": "feat.circle.land.natural_recovery",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Once per long rest, you can cast one level 1+ spell prepared from your Circle Spells feature without expending a spell slot.",
+        "After a short rest, you can recover expended spell slots totaling up to half your druid level (round up); no slot can be level 6 or higher."
+      ],
+      "limits": [
+        "Once per long rest."
+      ]
+    },
+    {
+      "id": "feat.circle.land.nature_s_ward",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You are immune to the Poisoned condition.",
+        "You gain a resistance based on your current land choice (see table)."
+      ]
+    },
+    {
+      "id": "feat.circle.land.nature_s_sanctuary",
+      "action_type": "action",
+      "trigger": "as a magic action",
+      "effects": [
+        "You expend one use of Wild Shape to create a 15-foot cube on the ground within 120 feet for 1 minute.",
+        "You and your allies in the cube gain half cover and your Nature’s Ward resistance.",
+        "As a bonus action, you can move the cube up to 60 feet."
+      ],
+      "limits": [
+        "The cube ends early if you are Incapacitated or die."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ],
+  "tables": [
+    "table.druid.natures_ward"
+  ]
+}

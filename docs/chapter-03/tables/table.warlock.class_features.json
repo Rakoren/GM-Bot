@@ -1,0 +1,268 @@
+{
+  "id": "table.warlock.class_features",
+  "name": "Warlock Features Table",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      63,
+      64
+    ],
+    "section": "Warlock Features"
+  },
+  "entry_schema": {
+    "type": "class_features_table",
+    "fields": [
+      "level",
+      "proficiency_bonus",
+      "class_features",
+      "eldritch_invocations",
+      "cantrips",
+      "prepared_spells",
+      "spell_slots",
+      "slot_level"
+    ]
+  },
+  "entries": [
+    {
+      "level": 1,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "eldritch_invocations",
+        "pact_magic"
+      ],
+      "eldritch_invocations": 1,
+      "cantrips": 2,
+      "prepared_spells": 2,
+      "spell_slots": 1,
+      "slot_level": 1
+    },
+    {
+      "level": 2,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "magical_cunning"
+      ],
+      "eldritch_invocations": 3,
+      "cantrips": 2,
+      "prepared_spells": 3,
+      "spell_slots": 2,
+      "slot_level": 1
+    },
+    {
+      "level": 3,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "subclass_choice"
+      ],
+      "eldritch_invocations": 3,
+      "cantrips": 2,
+      "prepared_spells": 4,
+      "spell_slots": 2,
+      "slot_level": 2
+    },
+    {
+      "level": 4,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "eldritch_invocations": 3,
+      "cantrips": 3,
+      "prepared_spells": 5,
+      "spell_slots": 2,
+      "slot_level": 2
+    },
+    {
+      "level": 5,
+      "proficiency_bonus": 3,
+      "class_features": [],
+      "eldritch_invocations": 5,
+      "cantrips": 3,
+      "prepared_spells": 6,
+      "spell_slots": 2,
+      "slot_level": 3
+    },
+    {
+      "level": 6,
+      "proficiency_bonus": 3,
+      "class_features": [
+        "subclass_feature"
+      ],
+      "eldritch_invocations": 5,
+      "cantrips": 3,
+      "prepared_spells": 7,
+      "spell_slots": 2,
+      "slot_level": 3
+    },
+    {
+      "level": 7,
+      "proficiency_bonus": 3,
+      "class_features": [],
+      "eldritch_invocations": 6,
+      "cantrips": 3,
+      "prepared_spells": 8,
+      "spell_slots": 2,
+      "slot_level": 4
+    },
+    {
+      "level": 8,
+      "proficiency_bonus": 3,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "eldritch_invocations": 6,
+      "cantrips": 3,
+      "prepared_spells": 9,
+      "spell_slots": 2,
+      "slot_level": 4
+    },
+    {
+      "level": 9,
+      "proficiency_bonus": 4,
+      "class_features": [
+        "contact_patron"
+      ],
+      "eldritch_invocations": 7,
+      "cantrips": 3,
+      "prepared_spells": 10,
+      "spell_slots": 2,
+      "slot_level": 5
+    },
+    {
+      "level": 10,
+      "proficiency_bonus": 4,
+      "class_features": [
+        "subclass_feature"
+      ],
+      "eldritch_invocations": 7,
+      "cantrips": 4,
+      "prepared_spells": 10,
+      "spell_slots": 2,
+      "slot_level": 5
+    },
+    {
+      "level": 11,
+      "proficiency_bonus": 4,
+      "class_features": [
+        "mystic_arcanum_6"
+      ],
+      "eldritch_invocations": 7,
+      "cantrips": 4,
+      "prepared_spells": 11,
+      "spell_slots": 3,
+      "slot_level": 5
+    },
+    {
+      "level": 12,
+      "proficiency_bonus": 4,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "eldritch_invocations": 8,
+      "cantrips": 4,
+      "prepared_spells": 11,
+      "spell_slots": 3,
+      "slot_level": 5
+    },
+    {
+      "level": 13,
+      "proficiency_bonus": 5,
+      "class_features": [
+        "mystic_arcanum_7"
+      ],
+      "eldritch_invocations": 8,
+      "cantrips": 4,
+      "prepared_spells": 12,
+      "spell_slots": 3,
+      "slot_level": 5
+    },
+    {
+      "level": 14,
+      "proficiency_bonus": 5,
+      "class_features": [
+        "subclass_feature"
+      ],
+      "eldritch_invocations": 8,
+      "cantrips": 4,
+      "prepared_spells": 12,
+      "spell_slots": 3,
+      "slot_level": 5
+    },
+    {
+      "level": 15,
+      "proficiency_bonus": 5,
+      "class_features": [
+        "mystic_arcanum_8"
+      ],
+      "eldritch_invocations": 9,
+      "cantrips": 4,
+      "prepared_spells": 13,
+      "spell_slots": 3,
+      "slot_level": 5
+    },
+    {
+      "level": 16,
+      "proficiency_bonus": 5,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "eldritch_invocations": 9,
+      "cantrips": 4,
+      "prepared_spells": 13,
+      "spell_slots": 3,
+      "slot_level": 5
+    },
+    {
+      "level": 17,
+      "proficiency_bonus": 6,
+      "class_features": [
+        "mystic_arcanum_9"
+      ],
+      "eldritch_invocations": 9,
+      "cantrips": 4,
+      "prepared_spells": 14,
+      "spell_slots": 4,
+      "slot_level": 5
+    },
+    {
+      "level": 18,
+      "proficiency_bonus": 6,
+      "class_features": [],
+      "eldritch_invocations": 10,
+      "cantrips": 4,
+      "prepared_spells": 14,
+      "spell_slots": 4,
+      "slot_level": 5
+    },
+    {
+      "level": 19,
+      "proficiency_bonus": 6,
+      "class_features": [
+        "epic_boon"
+      ],
+      "eldritch_invocations": 10,
+      "cantrips": 4,
+      "prepared_spells": 15,
+      "spell_slots": 4,
+      "slot_level": 5
+    },
+    {
+      "level": 20,
+      "proficiency_bonus": 6,
+      "class_features": [
+        "eldritch_master"
+      ],
+      "eldritch_invocations": 10,
+      "cantrips": 4,
+      "prepared_spells": 15,
+      "spell_slots": 4,
+      "slot_level": 5
+    }
+  ],
+  "notes": [
+    "Class features are identifiers aligned to feature shards where possible.",
+    "Misty Arcanum entries use level-specific labels for clarity."
+  ]
+}

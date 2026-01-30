@@ -1,0 +1,107 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "circle.stars",
+  "parent_class": "class.druid",
+  "chapter": 3,
+  "title": "Circle of the Stars",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      61,
+      87
+    ],
+    "section_hint": "Circle of the Stars"
+  },
+  "feature_levels": [
+    3,
+    6,
+    10,
+    14
+  ],
+  "features_by_level": {
+    "3": [
+      "star_map",
+      "starry_form"
+    ],
+    "6": [
+      "cosmic_omen"
+    ],
+    "10": [
+      "twinkling_constellations"
+    ],
+    "14": [
+      "full_of_stars"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.circle.stars.star_map",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You create a star map (a Tiny object); you can use it as a spellcasting focus for druid spells.",
+        "You determine the map’s form by rolling on the Star Map table or choosing one.",
+        "While holding the map, you have Guidance and Guiding Bolt prepared, and you can cast Guiding Bolt without expending a spell slot.",
+        "If you lose the map, you can perform a 1-hour ceremony during a short or long rest to create a replacement; the old map is destroyed."
+      ],
+      "limits": [
+        "You can cast Guiding Bolt this way a number of times equal to your Wisdom modifier (minimum 1), and you regain all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "id": "feat.circle.stars.starry_form",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "You expend one use of Wild Shape to take a starry form for 10 minutes.",
+        "You retain your game statistics while in this form.",
+        "You shed bright light in a 10-foot radius and dim light for 10 more feet.",
+        "When you assume the form, choose a constellation; you gain its benefits while the form lasts:",
+        "Archer: when you activate the form and as a bonus action on subsequent turns, you can make a ranged spell attack (60 feet) that deals 1d8 + your Wisdom modifier radiant damage on a hit.",
+        "Chalice: when you cast a spell using a spell slot that restores hit points, you or another creature within 30 feet regains hit points equal to 1d8 + your Wisdom modifier.",
+        "Dragon: when you make an Intelligence or Wisdom check or a Constitution save to maintain Concentration, you can treat a roll of 9 or lower as a 10."
+      ],
+      "limits": [
+        "The form ends early if you dismiss it (no action required), have the Incapacitated condition, or use this feature again."
+      ]
+    },
+    {
+      "id": "feat.circle.stars.cosmic_omen",
+      "action_type": "none",
+      "trigger": "when you finish a long rest",
+      "effects": [
+        "You consult your star map and roll a die; you gain a reaction based on the result until your next long rest:",
+        "Weal (even): when a creature you can see within 30 feet is about to make a d20 test, you can roll 1d6 and add it to the roll.",
+        "Woe (odd): when a creature you can see within 30 feet is about to make a d20 test, you can roll 1d6 and subtract it from the roll."
+      ],
+      "limits": [
+        "You can use this reaction a number of times equal to your Wisdom modifier (minimum 1), and you regain all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "id": "feat.circle.stars.twinkling_constellations",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Archer and Chalice damage becomes 2d8.",
+        "Dragon grants a fly speed of 20 feet and you can hover.",
+        "At the start of each of your turns in Starry Form, you can change the constellation."
+      ]
+    },
+    {
+      "id": "feat.circle.stars.full_of_stars",
+      "action_type": "none",
+      "trigger": "while you are in Starry Form",
+      "effects": [
+        "You are partially incorporeal and have resistance to bludgeoning, piercing, and slashing damage."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ],
+  "tables": [
+    "table.druid.star_map"
+  ]
+}

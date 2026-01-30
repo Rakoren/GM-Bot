@@ -1,0 +1,14 @@
+{
+  "id": "res.tides_of_chaos",
+  "name": "Tides of Chaos",
+  "chapter": 3,
+  "pool_type": "fixed",
+  "pool": 1,
+  "recharge": "special",
+  "activation": "special",
+  "notes": [
+    "sorcerer_only",
+    "regains_after_casting_sorcerer_spell_with_slot_or_long_rest",
+    "casting_with_slot_triggers_wild_magic_surge"
+  ]
+}

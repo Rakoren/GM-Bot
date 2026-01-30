@@ -1,0 +1,23 @@
+{
+  "id": "feat.monk.uncanny_metabolism",
+  "name": "Uncanny Metabolism",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you roll initiative",
+  "effects": [
+    "you can regain all expended Focus Points",
+    "you regain hit points equal to your Monk level plus a roll of your Martial Arts die"
+  ],
+  "limits": [
+    "once you use this feature, you cannot use it again until you finish a long rest"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      80
+    ],
+    "section": "Uncanny Metabolism"
+  }
+}

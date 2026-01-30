@@ -1,0 +1,51 @@
+{
+  "id": "background.farmer",
+  "name": "Farmer",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      4,
+      5
+    ],
+    "section": "Farmer"
+  },
+  "ability_scores": [
+    "Strength",
+    "Constitution",
+    "Wisdom"
+  ],
+  "origin_feat_ref": "origin_feat.tough",
+  "skill_proficiencies": [
+    "Animal Handling",
+    "Nature"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Carpenter's Tools"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Sickle",
+        "Carpenter's Tools",
+        "Healer's Kit",
+        "Iron Pot",
+        "Shovel",
+        "Traveler's Clothes"
+      ],
+      "gp": 30
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You grew up close to the land, tending animals and cultivating fields. Hard work gave you patience, health, and respect for nature.",
+  "notes": []
+}

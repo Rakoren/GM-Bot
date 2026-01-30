@@ -1,0 +1,97 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "fighter.champion",
+  "parent_class": "class.fighter",
+  "chapter": 3,
+  "title": "Champion",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      71,
+      72
+    ],
+    "section_hint": "Champion"
+  },
+  "feature_levels": [
+    3,
+    7,
+    10,
+    15,
+    18
+  ],
+  "features_by_level": {
+    "3": [
+      "improved_critical",
+      "remarkable_athlete"
+    ],
+    "7": [
+      "additional_fighting_style"
+    ],
+    "10": [
+      "heroic_warrior"
+    ],
+    "15": [
+      "superior_critical"
+    ],
+    "18": [
+      "survivor"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.fighter.champion.improved_critical",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your weapon attacks and unarmed strikes score a critical hit on a roll of 19–20."
+      ]
+    },
+    {
+      "id": "feat.fighter.champion.remarkable_athlete",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You have advantage on initiative rolls and Strength (Athletics) checks.",
+        "Immediately after you score a critical hit, you can move up to half your speed without provoking opportunity attacks."
+      ]
+    },
+    {
+      "id": "feat.fighter.champion.additional_fighting_style",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain another Fighting Style feat of your choice."
+      ]
+    },
+    {
+      "id": "feat.fighter.champion.heroic_warrior",
+      "action_type": "none",
+      "trigger": "when you start your turn in combat without Heroic Inspiration",
+      "effects": [
+        "You gain Heroic Inspiration."
+      ]
+    },
+    {
+      "id": "feat.fighter.champion.superior_critical",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your weapon attacks and unarmed strikes score a critical hit on a roll of 18–20."
+      ]
+    },
+    {
+      "id": "feat.fighter.champion.survivor",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You have advantage on death saving throws.",
+        "When you roll 18–20 on a death saving throw, it counts as a 20.",
+        "Heroic Rally: at the start of each of your turns, if you are bloodied and have at least 1 hit point, you regain hit points equal to 5 + your Constitution modifier."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ]
+}

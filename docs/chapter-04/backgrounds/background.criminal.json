@@ -1,0 +1,50 @@
+{
+  "id": "background.criminal",
+  "name": "Criminal",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3,
+      4
+    ],
+    "section": "Criminal"
+  },
+  "ability_scores": [
+    "Dexterity",
+    "Constitution",
+    "Intelligence"
+  ],
+  "origin_feat_ref": "origin_feat.alert",
+  "skill_proficiencies": [
+    "Sleight of Hand",
+    "Stealth"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Thieves' Tools"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "2 Daggers",
+        "Thieves' Tools",
+        "Crowbar",
+        "2 Pouches",
+        "Traveler's Clothes"
+      ],
+      "gp": 16
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You lived by theft and burglary, whether as part of a small gang or as a lone operator. You learned to survive among thieves and worse.",
+  "notes": []
+}

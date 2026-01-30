@@ -1,0 +1,55 @@
+{
+  "id": "table.ranger.gloom_stalker_spells",
+  "name": "Gloom Stalker Spells",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      28
+    ],
+    "section": "Gloom Stalker Spells"
+  },
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "ranger_level",
+      "spells"
+    ]
+  },
+  "entries": [
+    {
+      "ranger_level": 3,
+      "spells": [
+        "Disguise Self"
+      ]
+    },
+    {
+      "ranger_level": 5,
+      "spells": [
+        "Rope Trick"
+      ]
+    },
+    {
+      "ranger_level": 9,
+      "spells": [
+        "Fear"
+      ]
+    },
+    {
+      "ranger_level": 13,
+      "spells": [
+        "Greater Invisibility"
+      ]
+    },
+    {
+      "ranger_level": 17,
+      "spells": [
+        "Seeming"
+      ]
+    }
+  ],
+  "notes": [
+    "These spells are always prepared."
+  ]
+}

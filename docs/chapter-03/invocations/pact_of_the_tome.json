@@ -1,0 +1,20 @@
+{
+  "id": "inv.pact_of_the_tome",
+  "name": "Pact of the Tome",
+  "chapter": 3,
+  "status": "complete",
+
+  "prereqs": ["class.warlock:level>=3", "feature:pact_boon"],
+
+  "effects": [
+    "gain_pact_boon:pact_of_the_tome",
+    "gain_book_of_shadows_per_feature_text",
+    "learn_additional_cantrips_per_feature_text",
+    "book_of_shadows:can_add_ritual_spells_per_feature_text"
+  ],
+
+  "notes": [
+    "Keep the exact Book of Shadows and cantrip/ritual rules in the Pact Boon feature text or a dedicated shard.",
+    "If you later ingest ritual rules and spell lists, link them here."
+  ]
+}

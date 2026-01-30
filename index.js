@@ -7,8 +7,6 @@ import {
   GatewayIntentBits,
   Partials,
   ChannelType,
-  PermissionsBitField,
-  Events,
   REST,
   Routes,
   MessageFlags,
@@ -16,7 +14,6 @@ import {
 import OpenAI from 'openai';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { createDataStore } from './src/data/store.js';
 import { createCombatEngine } from './src/combat/engine.js';
 import { commandData, COMMAND_NAMES } from './src/commands/definitions.js';
@@ -25,6 +22,30 @@ import { handleMessageCreate } from './src/commands/messageHandlers.js';
 import { callDmModel } from './src/dm/model.js';
 import { getOrCreateAudioPlayer, getOrCreateVoiceConnection } from './src/voice/connection.js';
 import { ttsSpeak } from './src/voice/tts.js';
+import { registerEvents } from './src/discord/registerEvents.js';
+import {
+  ADMIN_CONFIG_PATH,
+  CAMPAIGN_DIR,
+  CAMPAIGN_SAVE_PATH,
+  COMBAT_STATE_PATH,
+  CONFIG,
+  DATASET_GROUP,
+  LOOT_STATE_PATH,
+  NPC_PERSONAS_PATH,
+  PROFILE_STORE_PATH,
+  ROOT_DIR,
+  WEB_CHARACTER_BANK_PATH,
+} from './src/config/runtime.js';
+import {
+  initAdminConfig,
+  isAiActive,
+  getAiMode,
+  isCommandAllowedForMember,
+  isCommandEnabled,
+  isFeatureEnabled,
+  isMessageCommandEnabled,
+  updateChannelConfig,
+} from './src/config/adminConfig.js';
 import {
   campaignState,
   characterByUserId,
@@ -51,40 +72,6 @@ import {
 } from './src/session/helpers.js';
 
 // -------------------- CONFIG --------------------
-const CONFIG = {
-  // REQUIRED: set these in .env
-  token: process.env.DISCORD_TOKEN,
-  openaiApiKey: process.env.OPENAI_API_KEY,
-  openaiModel: process.env.OPENAI_MODEL || 'gpt-4o-mini',
-  openaiTtsModel: process.env.OPENAI_TTS_MODEL || 'gpt-4o-mini-tts',
-  openaiTtsVoice: process.env.OPENAI_TTS_VOICE || 'alloy',
-  adminBaseUrl: process.env.ADMIN_BASE_URL || null,
-  guildId: process.env.GUILD_ID || null,
-  characterCreatorChannelId: process.env.CHARACTER_CREATOR_CHANNEL_ID || null,
-  avraeChannelId: process.env.AVRAE_CHANNEL_ID || null,
-  avraeBotUserId: process.env.AVRAE_BOT_USER_ID || null,
-
-  // Put your #game-table channel id here (the parent channel for play)
-  gameTableChannelId: process.env.GAME_TABLE_CHANNEL_ID,
-
-  // Optional: voice channel id used to treat users as "logged in"
-  gameTableVoiceChannelId: process.env.GAME_TABLE_VOICE_CHANNEL_ID || null,
-
-  // Optional: voice channel id for the "session VC" where DM narrates
-  sessionVoiceChannelId: process.env.SESSION_VOICE_CHANNEL_ID || null,
-
-  // How long (ms) since last text message to count as "ACTIVE"
-  activeWindowMs: 10 * 60 * 1000, // 10 min
-
-  // In FREE mode, wait this long after last message before DM responds (ms)
-  freeModeIdleMs: 3500,
-  // Wait this long after last typing indicator before DM responds (ms)
-  typingIdleMs: 2500,
-
-  // If true: only allow play in threads under #game-table (recommended).
-  // If false: allow play directly in #game-table as well.
-  threadsOnly: false,
-};
 
 // -------------------- DISCORD CLIENT --------------------
 const client = new Client({
@@ -114,241 +101,6 @@ process.on('warning', (warning) => {
 });
 
 // -------------------- CHARACTER BANK (SQLite) --------------------
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATASET_GROUP = process.env.DATASET_GROUP || 'D&D';
-const PROFILE_STORE_PATH = path.join(__dirname, 'profiles.json');
-const CAMPAIGN_SAVE_PATH = path.join(__dirname, 'campaign_save.json');
-const CAMPAIGN_DIR = path.join(__dirname, 'campaigns');
-const ADMIN_CONFIG_PATH = process.env.ADMIN_CONFIG_PATH
-  ? path.resolve(process.env.ADMIN_CONFIG_PATH)
-  : path.join(__dirname, 'admin_config.json');
-const COMBAT_STATE_PATH = path.join(__dirname, 'combat_state.json');
-const LOOT_STATE_PATH = path.join(__dirname, 'loot_state.json');
-const WEB_CHARACTER_BANK_PATH = path.join(__dirname, 'characters.json');
-const NPC_PERSONAS_PATH = path.join(__dirname, 'npc_personas.json');
-
-const DEFAULT_FEATURE_FLAGS = {
-  enableSlashCommands: true,
-  enableMessageCommands: true,
-  enableAutoReplies: true,
-  enableTts: true,
-  enableVoice: true,
-  enableHomebrew: true,
-  enableImports: true,
-  enableDataReload: true,
-  enableUploads: true,
-};
-const DEFAULT_AI_MODE = 'active';
-
-const COMMAND_GROUP_BY_NAME = {
-  check: 'core',
-  percent: 'core',
-  rolltable: 'core',
-  status: 'core',
-  setup: 'setup',
-  mode: 'play',
-  setchar: 'play',
-  turn: 'play',
-  roll: 'play',
-  combat: 'play',
-  lookup: 'play',
-  xp: 'play',
-  'campaign-setup': 'setup',
-  'character-setup': 'setup',
-  start: 'setup',
-  test: 'setup',
-  bank: 'bank',
-  npc: 'npc',
-  sheet: 'bank',
-  profile: 'profile',
-  'profile-clear': 'profile',
-  save: 'save',
-  load: 'save',
-  delete: 'save',
-  reset: 'save',
-  clear: 'save',
-  'log-in': 'voice',
-  'log-out': 'voice',
-  say: 'voice',
-  homebrew: 'homebrew',
-  help: 'core',
-};
-
-let adminConfig = {
-  version: 1,
-  aiMode: DEFAULT_AI_MODE,
-  features: { ...DEFAULT_FEATURE_FLAGS },
-  commands: {},
-  channels: {
-    gameTableChannelId: null,
-    characterCreatorChannelId: null,
-    gameTableVoiceChannelId: null,
-    sessionVoiceChannelId: null,
-    avraeChannelId: null,
-  },
-};
-
-function buildDefaultAdminConfig(commandList = []) {
-  const commands = {};
-  for (const name of commandList) {
-    commands[name] = { enabled: true, access: 'everyone', roles: [] };
-  }
-  if (commands.setup) {
-    commands.setup.access = 'admin';
-  }
-  return {
-    version: 1,
-    aiMode: DEFAULT_AI_MODE,
-    features: { ...DEFAULT_FEATURE_FLAGS },
-    commands,
-    channels: {
-      gameTableChannelId: null,
-      characterCreatorChannelId: null,
-      gameTableVoiceChannelId: null,
-      sessionVoiceChannelId: null,
-      avraeChannelId: null,
-    },
-    commandRegistry: {
-      groups: {
-        core: true,
-        setup: true,
-        play: true,
-      bank: true,
-      npc: true,
-      profile: true,
-        save: true,
-        voice: true,
-        homebrew: true,
-      },
-    },
-    commandPoliciesByGuild: {},
-  };
-}
-
-function normalizeAdminConfig(raw, commandList = []) {
-  const base = buildDefaultAdminConfig(commandList);
-  const config = typeof raw === 'object' && raw ? raw : {};
-  const features = typeof config.features === 'object' && config.features ? config.features : {};
-  const commands = typeof config.commands === 'object' && config.commands ? config.commands : {};
-  const channels = typeof config.channels === 'object' && config.channels ? config.channels : {};
-  const commandRegistry =
-    typeof config.commandRegistry === 'object' && config.commandRegistry
-      ? config.commandRegistry
-      : null;
-  const commandPoliciesByGuild =
-    typeof config.commandPoliciesByGuild === 'object' && config.commandPoliciesByGuild
-      ? config.commandPoliciesByGuild
-      : null;
-  const aiMode =
-    typeof config.aiMode === 'string' ? config.aiMode.trim().toLowerCase() : '';
-  if (aiMode === 'active' || aiMode === 'passive') {
-    base.aiMode = aiMode;
-  }
-
-  base.features = { ...base.features };
-  for (const [key, value] of Object.entries(features)) {
-    if (typeof value === 'boolean') base.features[key] = value;
-  }
-
-  for (const name of commandList) {
-    const entry = commands[name];
-    if (typeof entry === 'boolean') {
-      base.commands[name].enabled = entry;
-      continue;
-    }
-    if (typeof entry === 'object' && entry) {
-      if (typeof entry.enabled === 'boolean') base.commands[name].enabled = entry.enabled;
-      if (typeof entry.access === 'string') base.commands[name].access = entry.access;
-      if (Array.isArray(entry.roles)) {
-        base.commands[name].roles = entry.roles.map(id => String(id)).filter(Boolean);
-      }
-    }
-  }
-
-  if (commandRegistry && typeof commandRegistry.groups === 'object') {
-    base.commandRegistry = {
-      groups: { ...base.commandRegistry.groups, ...commandRegistry.groups },
-    };
-  }
-
-  for (const [key, value] of Object.entries(base.channels)) {
-    const incoming = channels[key];
-    if (typeof incoming === 'string' && incoming.trim()) {
-      base.channels[key] = incoming.trim();
-    }
-  }
-
-  if (commandPoliciesByGuild) {
-    base.commandPoliciesByGuild = { ...commandPoliciesByGuild };
-  }
-
-  return base;
-}
-
-function applyChannelConfigFromAdmin() {
-  const channels = adminConfig?.channels || {};
-  if (!CONFIG.gameTableChannelId && channels.gameTableChannelId) {
-    CONFIG.gameTableChannelId = channels.gameTableChannelId;
-  }
-  if (!CONFIG.characterCreatorChannelId && channels.characterCreatorChannelId) {
-    CONFIG.characterCreatorChannelId = channels.characterCreatorChannelId;
-  }
-  if (!CONFIG.gameTableVoiceChannelId && channels.gameTableVoiceChannelId) {
-    CONFIG.gameTableVoiceChannelId = channels.gameTableVoiceChannelId;
-  }
-  if (!CONFIG.sessionVoiceChannelId && channels.sessionVoiceChannelId) {
-    CONFIG.sessionVoiceChannelId = channels.sessionVoiceChannelId;
-  }
-  if (!CONFIG.avraeChannelId && channels.avraeChannelId) {
-    CONFIG.avraeChannelId = channels.avraeChannelId;
-  }
-}
-
-function updateChannelConfig(nextChannels = {}) {
-  if (!adminConfig?.channels) {
-    adminConfig = { ...(adminConfig || {}), channels: { ...buildDefaultAdminConfig().channels } };
-  }
-  adminConfig.channels = { ...adminConfig.channels, ...nextChannels };
-  saveAdminConfig(adminConfig);
-  if (typeof nextChannels.gameTableChannelId === 'string' && nextChannels.gameTableChannelId) {
-    CONFIG.gameTableChannelId = nextChannels.gameTableChannelId;
-  }
-  if (typeof nextChannels.characterCreatorChannelId === 'string' && nextChannels.characterCreatorChannelId) {
-    CONFIG.characterCreatorChannelId = nextChannels.characterCreatorChannelId;
-  }
-  if (typeof nextChannels.gameTableVoiceChannelId === 'string' && nextChannels.gameTableVoiceChannelId) {
-    CONFIG.gameTableVoiceChannelId = nextChannels.gameTableVoiceChannelId;
-  }
-  if (typeof nextChannels.sessionVoiceChannelId === 'string' && nextChannels.sessionVoiceChannelId) {
-    CONFIG.sessionVoiceChannelId = nextChannels.sessionVoiceChannelId;
-  }
-  if (typeof nextChannels.avraeChannelId === 'string' && nextChannels.avraeChannelId) {
-    CONFIG.avraeChannelId = nextChannels.avraeChannelId;
-  }
-  applyChannelConfigFromAdmin();
-}
-
-function loadAdminConfig(commandList = []) {
-  if (!fs.existsSync(ADMIN_CONFIG_PATH)) {
-    return buildDefaultAdminConfig(commandList);
-  }
-  try {
-    const raw = JSON.parse(fs.readFileSync(ADMIN_CONFIG_PATH, 'utf8'));
-    return normalizeAdminConfig(raw, commandList);
-  } catch (err) {
-    console.warn('Failed to load admin_config.json, using defaults:', err?.message || err);
-    return buildDefaultAdminConfig(commandList);
-  }
-}
-
-function saveAdminConfig(config) {
-  try {
-    fs.writeFileSync(ADMIN_CONFIG_PATH, JSON.stringify(config, null, 2), 'utf8');
-  } catch (err) {
-    console.warn('Failed to write admin_config.json:', err?.message || err);
-  }
-}
-
 function saveJsonSafe(filePath, payload) {
   try {
     fs.writeFileSync(filePath, JSON.stringify(payload, null, 2), 'utf8');
@@ -366,29 +118,6 @@ function loadJsonObject(filePath) {
     console.warn(`Failed to read ${path.basename(filePath)}:`, err?.message || err);
     return {};
   }
-}
-
-function initAdminConfig(commandList = []) {
-  adminConfig = loadAdminConfig(commandList);
-  saveAdminConfig(adminConfig);
-  applyChannelConfigFromAdmin();
-  fs.watchFile(ADMIN_CONFIG_PATH, { interval: 1000 }, () => {
-    adminConfig = loadAdminConfig(commandList);
-    applyChannelConfigFromAdmin();
-    console.log('Admin config reloaded.');
-  });
-}
-
-function isFeatureEnabled(key) {
-  return adminConfig?.features?.[key] !== false;
-}
-
-function getAiMode() {
-  return adminConfig?.aiMode === 'passive' ? 'passive' : 'active';
-}
-
-function isAiActive() {
-  return getAiMode() === 'active';
 }
 
 function buildCombatSnapshot(combat) {
@@ -536,54 +265,7 @@ async function generateNpcFromOoc(prompt) {
   }
 }
 
-function isCommandEnabled(name) {
-  return (
-    isCommandGroupEnabled(name) &&
-    isFeatureEnabled('enableSlashCommands') &&
-    adminConfig?.commands?.[name]?.enabled !== false
-  );
-}
-
-function isMessageCommandEnabled(name) {
-  return (
-    isCommandGroupEnabled(name) &&
-    isFeatureEnabled('enableMessageCommands') &&
-    adminConfig?.commands?.[name]?.enabled !== false
-  );
-}
-
-function isCommandGroupEnabled(name) {
-  const group = COMMAND_GROUP_BY_NAME[name] || 'core';
-  return adminConfig?.commandRegistry?.groups?.[group] !== false;
-}
-
-function getCommandAccess(name) {
-  return adminConfig?.commands?.[name]?.access || 'everyone';
-}
-
-function getCommandRoles(name) {
-  return adminConfig?.commands?.[name]?.roles || [];
-}
-
-function hasAdminAccess(member, userId, guild) {
-  if (!guild) return false;
-  if (guild.ownerId && userId === guild.ownerId) return true;
-  return !!member?.permissions?.has(PermissionsBitField.Flags.Administrator);
-}
-
-function hasRoleAccess(member, roleIds) {
-  if (!member || !Array.isArray(roleIds) || roleIds.length === 0) return false;
-  return roleIds.some(roleId => member.roles?.cache?.has(roleId));
-}
-
-function isCommandAllowedForMember({ name, member, userId, guild }) {
-  if (name === 'homebrew') return true;
-  const access = getCommandAccess(name);
-  if (access === 'admin') return hasAdminAccess(member, userId, guild);
-  if (access === 'roles') return hasRoleAccess(member, getCommandRoles(name));
-  return true;
-}
-const dataStore = await createDataStore({ rootDir: __dirname, datasetGroup: DATASET_GROUP });
+const dataStore = await createDataStore({ rootDir: ROOT_DIR, datasetGroup: DATASET_GROUP });
 const {
   db,
   DATASET_ROOT,
@@ -1379,7 +1061,11 @@ function formatNpcList(rows) {
 }
 
 // -------------------- SLASH COMMANDS --------------------
-initAdminConfig(COMMAND_NAMES);
+initAdminConfig({
+  config: CONFIG,
+  adminConfigPath: ADMIN_CONFIG_PATH,
+  commandList: COMMAND_NAMES,
+});
 
 async function registerGuildCommands() {
   const rest = new REST({ version: '10' }).setToken(CONFIG.token);
@@ -5133,7 +4819,7 @@ async function handleOocMessage(session, msg) {
 
 // -------------------- SLASH COMMAND HANDLER --------------------
 
-client.on(Events.InteractionCreate, async (interaction) => {
+async function onInteractionCreate(interaction) {
   try {
     if (interaction.isButton()) {
       if (!interaction.customId?.startsWith('profile_share:')) return;
@@ -5284,14 +4970,14 @@ client.on(Events.InteractionCreate, async (interaction) => {
       } catch {}
     }
   }
-});
+}
 
 // -------------------- MESSAGE HANDLER --------------------
 
-  client.on('messageCreate', async (msg) => {
-      await handleMessageCreate({
-        msg,
-        ctx: {
+async function onMessageCreate(msg) {
+  await handleMessageCreate({
+    msg,
+    ctx: {
       pendingPasteImports,
       importPastedDataToCsv,
       isFeatureEnabled,
@@ -5334,19 +5020,19 @@ client.on(Events.InteractionCreate, async (interaction) => {
         path,
     },
   });
-});
+}
 
-client.on('typingStart', (typing) => {
+function onTypingStart(typing) {
   if (typing.user?.bot) return;
   if (!isGameTableChannel(typing.channel)) return;
   const sessionId = getSessionIdFromChannel(typing.channel);
   const session = getOrCreateSession(sessionId);
   session.lastTypingMs = now();
-});
+}
 
 // -------------------- VOICE TRACKING --------------------
 
-client.on('voiceStateUpdate', (oldState, newState) => {
+function onVoiceStateUpdate(oldState, newState) {
   if (!isFeatureEnabled('enableVoice')) return;
   const userId = newState.id;
 
@@ -5385,11 +5071,11 @@ client.on('voiceStateUpdate', (oldState, newState) => {
       }
     }
   }
-});
+}
 
 // -------------------- READY --------------------
 
-client.once(Events.ClientReady, async () => {
+async function onClientReady() {
   console.log(`Logged in as ${client.user.tag}`);
   console.log(`Game table channel id: ${CONFIG.gameTableChannelId}`);
   loadAutosaveCampaign();
@@ -5408,6 +5094,15 @@ client.once(Events.ClientReady, async () => {
     }
   }
   await registerGuildCommands();
+}
+
+registerEvents({
+  client,
+  onInteractionCreate,
+  onMessageCreate,
+  onTypingStart,
+  onVoiceStateUpdate,
+  onReady: onClientReady,
 });
 
 if (!CONFIG.token) {

@@ -1,83 +1,92 @@
 {
-  "id": "subclass.wl.fiend",
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "wl.fiend",
   "parent_class": "class.warlock",
   "chapter": 3,
-  "title": "The Fiend",
+  "title": "Fiend Patron",
+  "status": "complete",
   "source": {
-    "file": "Character Classes (Continued) 61-80.pdf",
-    "pages": [77, 80],
-    "section_hint": "Warlock Patron: The Fiend"
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      75,
+      76
+    ],
+    "section_hint": "Fiend Patron"
   },
-
-  "feature_levels": [3, 6, 10, 14],
-
-  "always_prepared_spells": {
-    "3": ["Burning Hands", "Command"],
-    "5": ["Blindness/Deafness", "Scorching Ray"],
-    "7": ["Fireball", "Stinking Cloud"],
-    "9": ["Blight", "Fire Shield"]
-  },
-
+  "feature_levels": [
+    3,
+    6,
+    10,
+    14
+  ],
   "features_by_level": {
-    "3": ["dark_ones_blessing"],
-    "6": ["dark_ones_own_luck"],
-    "10": ["fiendish_resilience"],
-    "14": ["hurl_through_hell"]
+    "3": [
+      "dark_one_s_blessing",
+      "fiend_spells"
+    ],
+    "6": [
+      "dark_one_s_own_luck"
+    ],
+    "10": [
+      "fiendish_resilience"
+    ],
+    "14": [
+      "hurl_through_hell"
+    ]
   },
-
   "feature_defs": [
     {
-      "id": "feat.fiend.dark_ones_blessing",
+      "id": "feat.wl.fiend.dark_one_s_blessing",
       "action_type": "none",
-      "trigger": "when you reduce a hostile creature to 0 hit points",
+      "trigger": "when you or a creature within 10 feet reduces an enemy to 0 hit points",
       "effects": [
-        "gain temporary hit points equal to your Charisma modifier + your warlock level"
-      ],
-      "limits": [
-        "temporary hit points do not stack"
+        "You gain temporary hit points equal to your Charisma modifier + your Warlock level (minimum 1)."
       ]
     },
     {
-      "id": "feat.fiend.dark_ones_own_luck",
-      "action_type": "reaction",
-      "trigger": "after you roll a d20 test but before the outcome is determined",
+      "id": "feat.wl.fiend.fiend_spells",
+      "action_type": "none",
+      "trigger": "passive",
       "effects": [
-        "add 1d10 to the roll"
-      ],
-      "limits": [
-        "once per short or long rest"
+        "You always have the spells in the Fiend Spells table prepared at the warlock levels shown."
       ]
     },
     {
-      "id": "feat.fiend.fiendish_resilience",
+      "id": "feat.wl.fiend.dark_one_s_own_luck",
+      "action_type": "none",
+      "trigger": "when you make an ability check or saving throw",
+      "effects": [
+        "You can add 1d10 to the roll (after seeing the roll but before any effects occur)."
+      ],
+      "limits": [
+        "You can use this feature a number of times equal to your Charisma modifier (minimum 1), no more than once per roll, and you regain all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "id": "feat.wl.fiend.fiendish_resilience",
       "action_type": "none",
       "trigger": "when you finish a short or long rest",
       "effects": [
-        "choose one damage type (other than force)",
-        "gain resistance to the chosen damage type"
-      ],
-      "limits": [
-        "you can change the chosen damage type when you finish a short or long rest"
+        "Choose one damage type other than force; you have resistance to that type until you choose a different one with this feature."
       ]
     },
     {
-      "id": "feat.fiend.hurl_through_hell",
-      "action_type": "reaction",
-      "trigger": "when you hit a creature with an attack",
+      "id": "feat.wl.fiend.hurl_through_hell",
+      "action_type": "none",
+      "trigger": "once per turn when you hit a creature with an attack roll",
       "effects": [
-        "target is removed from the battlefield and experiences a hellish vision",
-        "target takes 10d10 psychic damage at the end of your next turn"
+        "The target must make a Charisma save against your spell save DC or be transported through the Lower Planes.",
+        "On a failed save, the target takes 8d10 psychic damage (if it isn’t a fiend), is Incapacitated until the end of your next turn, and returns to its previous space or the nearest unoccupied space."
       ],
       "limits": [
-        "once per long rest"
+        "Once you use this feature, you can’t use it again until you finish a long rest unless you expend a Pact Magic spell slot (no action required) to restore its use."
       ]
     }
   ],
-
   "notes": [
-    "The Fiend patron emphasizes survivability, burst damage, and punishment on hit.",
-    "Dark One’s Own Luck modifies rolls before the outcome is known.",
-    "Hurl Through Hell temporarily removes the target from play, then returns it to its previous space or the nearest unoccupied space."
+    "Normalized from HTML rules text into concise clauses."
+  ],
+  "tables": [
+    "table.warlock.fiend_spells"
   ]
 }
-

@@ -1,0 +1,23 @@
+{
+  "id": "feat.cleric.sear_undead",
+  "name": "Sear Undead",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you use Turn Undead",
+  "effects": [
+    "roll a number of d8s equal to your Wisdom modifier (minimum 1d8)",
+    "each Undead that fails its save against Turn Undead takes radiant damage equal to the roll total"
+  ],
+  "limits": [
+    "this damage does not end the Turn Undead effect"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35
+    ],
+    "section": "Sear Undead"
+  }
+}

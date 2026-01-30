@@ -1,0 +1,19 @@
+{
+  "id": "feat.fighter.studied_attacks",
+  "name": "Studied Attacks",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you miss an attack roll against a creature",
+  "effects": [
+    "you have advantage on your next attack roll against that creature before the end of your next turn"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      67
+    ],
+    "section": "Studied Attacks"
+  }
+}

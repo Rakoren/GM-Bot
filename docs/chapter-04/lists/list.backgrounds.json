@@ -1,0 +1,24 @@
+{
+  "id": "list.backgrounds",
+  "name": "Backgrounds (Chapter 4)",
+  "chapter": 4,
+  "status": "complete",
+  "items": [
+    "background.acolyte",
+    "background.artisan",
+    "background.charlatan",
+    "background.criminal",
+    "background.entertainer",
+    "background.farmer",
+    "background.guard",
+    "background.guide",
+    "background.hermit",
+    "background.merchant",
+    "background.noble",
+    "background.sage",
+    "background.sailor",
+    "background.scribe",
+    "background.soldier",
+    "background.wayfarer"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "feature",
+  "id": "feat.epic_boon",
+  "name": "Epic Boon",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "rules": [
+    "You gain an Epic Boon feat or another feat you qualify for."
+  ],
+  "notes": [
+    "See chapter 5 for Epic Boon feats."
+  ],
+  "trigger": "passive"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "inv.devouring_blade",
+  "name": "Devouring Blade",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=12",
+    "inv.thirsting_blade"
+  ],
+  "effects": [
+    "the Extra Attack from Thirsting Blade confers two extra attacks rather than one"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

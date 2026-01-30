@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "monk.open_hand",
+  "parent_class": "class.monk",
+  "chapter": 3,
+  "title": "Warrior of the Open Hand",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      86,
+      87
+    ],
+    "section_hint": "Warrior of the Open Hand"
+  },
+  "feature_levels": [
+    3,
+    6,
+    11,
+    17
+  ],
+  "features_by_level": {
+    "3": [
+      "open_hand_technique"
+    ],
+    "6": [
+      "wholeness_of_body"
+    ],
+    "11": [
+      "fleet_step"
+    ],
+    "17": [
+      "quivering_palm"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.monk.open_hand.open_hand_technique",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack granted by Flurry of Blows",
+      "effects": [
+        "Choose one effect:",
+        "Addle: the target can’t make opportunity attacks until the start of its next turn.",
+        "Push: the target must succeed on a Strength save or be pushed up to 15 feet away from you.",
+        "Topple: the target must succeed on a Dexterity save or be prone."
+      ]
+    },
+    {
+      "id": "feat.monk.open_hand.wholeness_of_body",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "You regain hit points equal to your Martial Arts die + your Wisdom modifier (minimum 1)."
+      ],
+      "limits": [
+        "You can use this feature a number of times equal to your Wisdom modifier (minimum 1), and you regain all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "id": "feat.monk.open_hand.fleet_step",
+      "action_type": "none",
+      "trigger": "when you take a bonus action other than Step of the Wind",
+      "effects": [
+        "You can use Step of the Wind immediately after that bonus action."
+      ]
+    },
+    {
+      "id": "feat.monk.open_hand.quivering_palm",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an unarmed strike",
+      "effects": [
+        "You can expend 4 Focus Points to start imperceptible vibrations that last for a number of days equal to your monk level.",
+        "The vibrations are harmless unless you end them; to end them, you and the target must be on the same plane.",
+        "When you end the vibrations, the target makes a Constitution save; on a failed save it takes 10d12 force damage, or half as much on a success.",
+        "You can have only one creature affected at a time.",
+        "You can end the vibrations harmlessly (no action required)."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ]
+}

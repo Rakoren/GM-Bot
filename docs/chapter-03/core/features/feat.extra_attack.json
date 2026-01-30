@@ -9,5 +9,6 @@
     "When you take the Attack action, you can attack twice instead of once",
     "Only applies to weapon attacks unless a feature says otherwise"
   ],
-  "notes": []
+  "notes": [],
+  "trigger": "when you take the Attack action"
 }

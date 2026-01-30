@@ -1,0 +1,22 @@
+{
+  "id": "feat.sorcerer.sorcerous_restoration",
+  "name": "Sorcerous Restoration",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you finish a short rest",
+  "effects": [
+    "you can regain expended Sorcery Points up to half your sorcerer level (round down)"
+  ],
+  "limits": [
+    "once you use this feature, you cannot use it again until you finish a long rest"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      47
+    ],
+    "section": "Sorcerous Restoration"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "chapter": 4,
+  "title": "Character Origins",
+  "backgrounds": [
+    "background.acolyte",
+    "background.artisan",
+    "background.charlatan",
+    "background.criminal",
+    "background.entertainer",
+    "background.farmer",
+    "background.guard",
+    "background.guide",
+    "background.hermit",
+    "background.merchant",
+    "background.noble",
+    "background.sage",
+    "background.sailor",
+    "background.scribe",
+    "background.soldier",
+    "background.wayfarer"
+  ],
+  "species": [
+    "species.aasimar",
+    "species.dragonborn",
+    "species.dwarf",
+    "species.elf",
+    "species.gnome",
+    "species.goliath",
+    "species.halfling",
+    "species.human",
+    "species.orc",
+    "species.tiefling"
+  ],
+  "origin_feats": [
+    "origin_feat.magic_initiate_cleric",
+    "origin_feat.crafter",
+    "origin_feat.skilled",
+    "origin_feat.alert",
+    "origin_feat.musician",
+    "origin_feat.tough",
+    "origin_feat.magic_initiate_druid",
+    "origin_feat.healer",
+    "origin_feat.lucky",
+    "origin_feat.magic_initiate_wizard",
+    "origin_feat.tavern_brawler",
+    "origin_feat.savage_attacker"
+  ],
+  "tables": [
+    "table.species.draconic_ancestors",
+    "table.species.elven_lineages",
+    "table.species.fiendish_legacies"
+  ]
+}

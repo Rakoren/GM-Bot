@@ -1,0 +1,19 @@
+{
+  "id": "feat.fighter.tactical_master",
+  "name": "Tactical Master",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you attack with a weapon whose mastery property you can use",
+  "effects": [
+    "you can replace that mastery property with Push, Sap, or Slow for that attack"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      67
+    ],
+    "section": "Tactical Master"
+  }
+}

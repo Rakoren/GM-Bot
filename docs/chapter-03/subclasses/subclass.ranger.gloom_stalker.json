@@ -1,0 +1,108 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "ranger.gloom_stalker",
+  "parent_class": "class.ranger",
+  "chapter": 3,
+  "title": "Gloom Stalker",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      27,
+      29
+    ],
+    "section_hint": "Gloom Stalker"
+  },
+  "feature_levels": [
+    3,
+    7,
+    11,
+    15
+  ],
+  "features_by_level": {
+    "3": [
+      "dread_ambusher",
+      "gloom_stalker_spells",
+      "umbral_sight"
+    ],
+    "7": [
+      "iron_mind"
+    ],
+    "11": [
+      "stalker_s_flurry"
+    ],
+    "15": [
+      "shadowy_dodge"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.ranger.gloom_stalker.dread_ambusher",
+      "action_type": "none",
+      "trigger": "at the start of your first turn of each combat",
+      "effects": [
+        "Ambusher’s Leap: your speed increases by 10 feet until the end of that turn.",
+        "Dreadful Strike: when you hit with a weapon, you can deal an extra 2d6 psychic damage (once per turn).",
+        "Initiative Bonus: when you roll initiative, add your Wisdom modifier to the roll."
+      ],
+      "limits": [
+        "You can use Dreadful Strike a number of times equal to your Wisdom modifier (minimum 1), and you regain all expended uses when you finish a long rest."
+      ]
+    },
+    {
+      "id": "feat.ranger.gloom_stalker.gloom_stalker_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have the spells in the Gloom Stalker Spells table prepared at the ranger levels shown."
+      ]
+    },
+    {
+      "id": "feat.ranger.gloom_stalker.umbral_sight",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain darkvision 60 feet (or extend existing darkvision by 60 feet).",
+        "While entirely in darkness, you are Invisible to any creature that relies on darkvision to see you in that darkness."
+      ]
+    },
+    {
+      "id": "feat.ranger.gloom_stalker.iron_mind",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain proficiency in Wisdom saving throws.",
+        "If you already have it, you gain proficiency in Intelligence or Charisma saving throws (your choice)."
+      ]
+    },
+    {
+      "id": "feat.ranger.gloom_stalker.stalker_s_flurry",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your Dreadful Strike psychic damage becomes 2d8.",
+        "When you use Dreadful Strike, choose one additional effect:",
+        "Sudden Strike: make another attack with the same weapon against a different creature within 5 feet of the original target and within the weapon’s range.",
+        "Mass Fear: the target and each creature within 10 feet of it make a Wisdom save against your spell save DC or are Frightened until the start of your next turn."
+      ],
+      "notes": [
+        "saving throw DC formula noted in effects"
+      ]
+    },
+    {
+      "id": "feat.ranger.gloom_stalker.shadowy_dodge",
+      "action_type": "reaction",
+      "trigger": "when a creature makes an attack roll against you",
+      "effects": [
+        "You impose disadvantage on that roll.",
+        "Whether the attack hits or misses, you can teleport up to 30 feet to an unoccupied space you can see."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ],
+  "tables": [
+    "table.ranger.gloom_stalker_spells"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "res.innate_sorcery",
+  "name": "Innate Sorcery",
+  "chapter": 3,
+  "pool_type": "see_class_table",
+  "pool": "see_class_table",
+  "recharge": "long_rest",
+  "activation": "bonus_action",
+  "notes": [
+    "sorcerer_only",
+    "level_7_can_activate_with_2_sorcery_points_if_empty",
+    "while_active_can_apply_two_metamagics_per_spell",
+    "level_20_one_metamagic_per_turn_free"
+  ]
+}

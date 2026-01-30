@@ -1,0 +1,27 @@
+{
+  "id": "feat.cleric.turn_undead",
+  "name": "Turn Undead",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "action",
+  "trigger": "when you present your holy symbol against Undead within 30 feet",
+  "effects": [
+    "each Undead of your choice within 30 feet must make a Wisdom saving throw",
+    "on a failed save, the creature is Frightened and Incapacitated for 1 minute and tries to move as far from you as it can"
+  ],
+  "limits": [
+    "the effect ends early if the creature takes any damage, if you have the Incapacitated condition, or if you die"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.channel_divinity.cleric",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35
+    ],
+    "section": "Turn Undead"
+  }
+}

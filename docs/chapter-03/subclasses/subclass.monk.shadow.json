@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "monk.shadow",
+  "parent_class": "class.monk",
+  "chapter": 3,
+  "title": "Warrior of Shadow",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      83,
+      84
+    ],
+    "section_hint": "Warrior of Shadow"
+  },
+  "feature_levels": [
+    3,
+    6,
+    11,
+    17
+  ],
+  "features_by_level": {
+    "3": [
+      "shadow_arts"
+    ],
+    "6": [
+      "shadow_step"
+    ],
+    "11": [
+      "improved_shadow_step"
+    ],
+    "17": [
+      "cloak_of_shadows"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.monk.shadow.shadow_arts",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Darkness: you can expend 1 Focus Point to cast Darkness without components; you can see within its area when you cast it with this feature.",
+        "While the spell persists, you can move its area to a space within 60 feet at the start of each of your turns.",
+        "Darkvision: you gain darkvision to 60 feet (or extend existing darkvision by 60 feet).",
+        "Shadowy Figments: you know Minor Illusion; Wisdom is your spellcasting ability for it."
+      ]
+    },
+    {
+      "id": "feat.monk.shadow.shadow_step",
+      "action_type": "bonus_action",
+      "trigger": "while entirely within dim light or darkness",
+      "effects": [
+        "You can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness.",
+        "You have advantage on the next melee attack you make before the end of the current turn."
+      ]
+    },
+    {
+      "id": "feat.monk.shadow.improved_shadow_step",
+      "action_type": "none",
+      "trigger": "when you use Shadow Step",
+      "effects": [
+        "You can expend 1 Focus Point to ignore the requirement that you start and end in dim light or darkness for that use.",
+        "As part of the same bonus action, you can make one unarmed strike immediately after you teleport."
+      ]
+    },
+    {
+      "id": "feat.monk.shadow.cloak_of_shadows",
+      "action_type": "action",
+      "trigger": "as a magic action while entirely within dim light or darkness",
+      "effects": [
+        "You expend 3 Focus Points to shroud yourself with shadows for 1 minute (ends if you are Incapacitated or if you end your turn in bright light).",
+        "Invisibility: you have the Invisible condition.",
+        "Partially Incorporeal: you can move through occupied spaces as if difficult terrain; if you end your turn in such a space, you are shunted to the last unoccupied space.",
+        "Shadow Flurry: you can use Flurry of Blows without expending Focus Points."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ]
+}

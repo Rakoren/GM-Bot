@@ -1,0 +1,47 @@
+{
+  "id": "background.noble",
+  "name": "Noble",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7,
+      8
+    ],
+    "section": "Noble"
+  },
+  "ability_scores": [
+    "Strength",
+    "Intelligence",
+    "Charisma"
+  ],
+  "origin_feat_ref": "origin_feat.skilled",
+  "skill_proficiencies": [
+    "History",
+    "Persuasion"
+  ],
+  "tool_proficiency": {
+    "type": "category",
+    "category": "Gaming Set",
+    "choose": 1
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Gaming Set (same as chosen)",
+        "Fine Clothes",
+        "Perfume"
+      ],
+      "gp": 29
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "Raised amid wealth and privilege, you received a first-class education and learned leadership by observing courtly life.",
+  "notes": []
+}

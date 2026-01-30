@@ -1,0 +1,20 @@
+{
+  "id": "feat.druid.elemental_fury",
+  "name": "Elemental Fury",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you choose your Elemental Fury option",
+  "effects": [
+    "Potent Spellcasting: add your Wisdom modifier to the damage you deal with any druid cantrip",
+    "Primal Strike: once on each of your turns when you hit with a weapon attack or a Beast form attack, you can deal an extra 1d8 cold, fire, lightning, or thunder damage (choose when you hit)"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      50
+    ],
+    "section": "Elemental Fury"
+  }
+}

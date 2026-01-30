@@ -1,0 +1,208 @@
+{
+  "id": "table.rogue.arcane_trickster_spellcasting",
+  "name": "Arcane Trickster Spellcasting",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      36,
+      37
+    ],
+    "section": "Arcane Trickster Spellcasting"
+  },
+  "entry_schema": {
+    "type": "subclass_spellcasting_table",
+    "fields": [
+      "rogue_level",
+      "prepared_spells",
+      "spell_slots"
+    ]
+  },
+  "entries": [
+    {
+      "rogue_level": 3,
+      "prepared_spells": 3,
+      "spell_slots": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 4,
+      "prepared_spells": 4,
+      "spell_slots": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 5,
+      "prepared_spells": 4,
+      "spell_slots": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 6,
+      "prepared_spells": 4,
+      "spell_slots": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 7,
+      "prepared_spells": 5,
+      "spell_slots": {
+        "1": 4,
+        "2": 2,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 8,
+      "prepared_spells": 6,
+      "spell_slots": {
+        "1": 4,
+        "2": 2,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 9,
+      "prepared_spells": 6,
+      "spell_slots": {
+        "1": 4,
+        "2": 2,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 10,
+      "prepared_spells": 7,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 11,
+      "prepared_spells": 8,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 12,
+      "prepared_spells": 8,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 13,
+      "prepared_spells": 9,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 14,
+      "prepared_spells": 10,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 15,
+      "prepared_spells": 10,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 16,
+      "prepared_spells": 11,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 17,
+      "prepared_spells": 11,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 18,
+      "prepared_spells": 11,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 0
+      }
+    },
+    {
+      "rogue_level": 19,
+      "prepared_spells": 12,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 1
+      }
+    },
+    {
+      "rogue_level": 20,
+      "prepared_spells": 13,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 1
+      }
+    }
+  ],
+  "notes": [
+    "Spell slots are counts per spell level (1-4).",
+    "Prepared spells follow the Arcane Trickster Spellcasting table."
+  ]
+}

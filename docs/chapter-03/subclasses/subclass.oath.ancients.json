@@ -1,0 +1,98 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "oath.ancients",
+  "parent_class": "class.paladin",
+  "chapter": 3,
+  "title": "Oath of the Ancients",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14,
+      15
+    ],
+    "section_hint": "Oath of the Ancients"
+  },
+  "feature_levels": [
+    3,
+    7,
+    15,
+    20
+  ],
+  "features_by_level": {
+    "3": [
+      "nature_s_wrath",
+      "oath_of_the_ancients_spells"
+    ],
+    "7": [
+      "aura_of_warding"
+    ],
+    "15": [
+      "undying_sentinel"
+    ],
+    "20": [
+      "elder_champion"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.oath.ancients.nature_s_wrath",
+      "action_type": "action",
+      "trigger": "as a magic action",
+      "effects": [
+        "You can expend one use of Channel Divinity to conjure spectral vines.",
+        "Creatures of your choice you can see within 15 feet must make a Strength save or be Restrained for 1 minute.",
+        "A restrained creature repeats the save at the end of each of its turns, ending the effect on a success."
+      ]
+    },
+    {
+      "id": "feat.oath.ancients.oath_of_the_ancients_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have the spells in the Oath of the Ancients Spells table prepared at the paladin levels shown."
+      ]
+    },
+    {
+      "id": "feat.oath.ancients.aura_of_warding",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You and your allies have resistance to necrotic, psychic, and radiant damage while in your Aura of Protection."
+      ]
+    },
+    {
+      "id": "feat.oath.ancients.undying_sentinel",
+      "action_type": "none",
+      "trigger": "when you are reduced to 0 hit points and not killed outright",
+      "effects": [
+        "You instead drop to 1 hit point and regain hit points equal to three times your paladin level.",
+        "You can’t be aged magically, and you cease visibly aging."
+      ],
+      "limits": [
+        "Once you use this feature, you can’t do so again until you finish a long rest."
+      ]
+    },
+    {
+      "id": "feat.oath.ancients.elder_champion",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "You imbue your Aura of Protection with primal power for 1 minute (or until you end it).",
+        "Diminish Defiance: enemies in the aura have disadvantage on saving throws against your spells and Channel Divinity options.",
+        "Regeneration: at the start of each of your turns, you regain 10 hit points.",
+        "Swift Spells: when you cast a spell with a casting time of 1 action, you can cast it using a bonus action instead."
+      ],
+      "limits": [
+        "Once you use this feature, you can’t use it again until you finish a long rest.",
+        "You can restore your use of this feature by expending a level 5 spell slot (no action required)."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ],
+  "tables": [
+    "table.paladin.oath_ancients_spells"
+  ]
+}

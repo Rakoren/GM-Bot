@@ -1,0 +1,57 @@
+{
+  "id": "table.warlock.archfey_spells",
+  "name": "Archfey Spells",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      73,
+      74
+    ],
+    "section": "Archfey Spells"
+  },
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "warlock_level",
+      "spells"
+    ]
+  },
+  "entries": [
+    {
+      "warlock_level": 3,
+      "spells": [
+        "Calm Emotions",
+        "Faerie Fire",
+        "Misty Step",
+        "Phantasmal Force",
+        "Sleep"
+      ]
+    },
+    {
+      "warlock_level": 5,
+      "spells": [
+        "Blink",
+        "Plant Growth"
+      ]
+    },
+    {
+      "warlock_level": 7,
+      "spells": [
+        "Dominate Beast",
+        "Greater Invisibility"
+      ]
+    },
+    {
+      "warlock_level": 9,
+      "spells": [
+        "Dominate Person",
+        "Seeming"
+      ]
+    }
+  ],
+  "notes": [
+    "These spells are always prepared."
+  ]
+}

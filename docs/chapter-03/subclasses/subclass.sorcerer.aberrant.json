@@ -1,0 +1,111 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "sorcerer.aberrant",
+  "parent_class": "class.sorcerer",
+  "chapter": 3,
+  "title": "Aberrant Sorcery",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      55,
+      56
+    ],
+    "section_hint": "Aberrant Sorcery"
+  },
+  "feature_levels": [
+    3,
+    6,
+    14,
+    18
+  ],
+  "features_by_level": {
+    "3": [
+      "psionic_spells",
+      "telepathic_speech"
+    ],
+    "6": [
+      "psionic_sorcery",
+      "psychic_defenses"
+    ],
+    "14": [
+      "revelation_in_flesh"
+    ],
+    "18": [
+      "warping_implosion"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.sorcerer.aberrant.psionic_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have the spells in the Psionic Spells table prepared at the sorcerer levels shown."
+      ]
+    },
+    {
+      "id": "feat.sorcerer.aberrant.telepathic_speech",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "Choose one creature you can see within 30 feet; you and the creature can communicate telepathically while within a number of miles of each other equal to your Charisma modifier (minimum 1 mile).",
+        "You must each know a language the other knows to understand each other.",
+        "The connection lasts for a number of minutes equal to your Sorcerer level and ends early if you connect with a different creature."
+      ]
+    },
+    {
+      "id": "feat.sorcerer.aberrant.psionic_sorcery",
+      "action_type": "none",
+      "trigger": "when you cast a level 1+ spell from your Psionic Spells feature",
+      "effects": [
+        "You can cast it by expending a spell slot as normal or by spending sorcery points equal to the spell’s level.",
+        "If you cast it using sorcery points, it requires no verbal or somatic components, and no material components unless they are consumed or have a cost."
+      ]
+    },
+    {
+      "id": "feat.sorcerer.aberrant.psychic_defenses",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You have resistance to psychic damage.",
+        "You have advantage on saving throws to avoid or end the Charmed or Frightened condition."
+      ]
+    },
+    {
+      "id": "feat.sorcerer.aberrant.revelation_in_flesh",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "You can spend 1 or more sorcery points to magically alter your body for 10 minutes.",
+        "For each sorcery point you spend, you gain one benefit of your choice until the alteration ends.",
+        "Aquatic Adaptation: you gain a swim speed equal to twice your speed, and you can breathe underwater.",
+        "Glistening Flight: you gain a fly speed equal to your speed, and you can hover.",
+        "See the Invisible: you can see any Invisible creature within 60 feet that isn’t behind total cover.",
+        "Wormlike Movement: you can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the Grappled condition."
+      ]
+    },
+    {
+      "id": "feat.sorcerer.aberrant.warping_implosion",
+      "action_type": "action",
+      "trigger": "as a magic action",
+      "effects": [
+        "You teleport to an unoccupied space you can see within 120 feet.",
+        "Immediately after you disappear, each creature within 30 feet of the space you left must make a Strength save against your spell save DC.",
+        "On a failed save, a creature takes 3d10 force damage and is pulled toward the space you left to the nearest unoccupied space; on a success, it takes half damage."
+      ],
+      "limits": [
+        "Once you use this feature, you can't do so again until you finish a long rest unless you spend 5 sorcery points (no action required) to restore its use."
+      ],
+      "notes": [
+        "saving throw DC formula noted in effects"
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ],
+  "tables": [
+    "table.sorcerer.psionic_spells"
+  ]
+}

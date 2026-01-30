@@ -1,0 +1,20 @@
+{
+  "id": "feat.wizard.ritual_adept",
+  "name": "Ritual Adept",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you cast a ritual spell",
+  "effects": [
+    "you can cast any ritual-tagged spell in your spellbook as a ritual without preparing it",
+    "you must read from the spellbook to cast the ritual"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      82
+    ],
+    "section": "Ritual Adept"
+  }
+}

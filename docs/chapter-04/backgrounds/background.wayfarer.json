@@ -1,0 +1,50 @@
+{
+  "id": "background.wayfarer",
+  "name": "Wayfarer",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      10
+    ],
+    "section": "Wayfarer"
+  },
+  "ability_scores": [
+    "Dexterity",
+    "Wisdom",
+    "Charisma"
+  ],
+  "origin_feat_ref": "origin_feat.lucky",
+  "skill_proficiencies": [
+    "Insight",
+    "Stealth"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Thieves' Tools"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "2 Daggers",
+        "Thieves' Tools",
+        "Gaming Set (any)",
+        "Bedroll",
+        "2 Pouches",
+        "Traveler's Clothes"
+      ],
+      "gp": 16
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You grew up on the streets among other castoffs. You did odd jobs to survive and sometimes stole when hunger was unbearable.",
+  "notes": []
+}

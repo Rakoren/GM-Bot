@@ -6,7 +6,7 @@
 
   "validation_profile": "full",
   "inputs": {
-    "manifest_path": "chapter-03/manifest.json",
+    "manifest_path": "chapter-03/chapter-03.manifest.json",
     "index_aggregate_optional": "Chapter-03-index-hardened-v2"
   },
 

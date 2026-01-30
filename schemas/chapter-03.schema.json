@@ -10,6 +10,8 @@
   { "$ref": "#/$defs/classShard" },
   { "$ref": "#/$defs/spellListShard" },
   { "$ref": "#/$defs/resourceShard" },
+  { "$ref": "#/$defs/tableShard" },
+  { "$ref": "#/$defs/subclassShard" },
   { "$ref": "#/$defs/manifest" },
   { "$ref": "#/$defs/validationFile" }
   
@@ -142,6 +144,88 @@
         "notes": { "type": "array", "items": { "type": "string" } }
       },
       "required": ["id", "name", "chapter"],
+      "additionalProperties": true
+    },
+    "tableShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^table\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 3 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "entry_schema": { "type": "object" },
+        "columns": { "type": "array", "items": { "type": "string" } },
+        "entries": { "type": "array", "items": { "type": "object" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "entries"],
+      "additionalProperties": true
+    },
+    "subclassShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "parent_class": { "type": "string" },
+        "chapter": { "type": "integer", "const": 3 },
+        "title": { "type": "string" },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "source": {
+          "type": "object",
+          "properties": {
+            "file": { "type": "string" },
+            "pages": { "type": "array", "items": { "type": "integer" } },
+            "section_hint": { "type": "string" }
+          },
+          "required": ["file"]
+        },
+        "feature_levels": {
+          "type": "array",
+          "items": { "type": "integer" }
+        },
+        "features_by_level": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": false
+        },
+        "feature_defs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "action_type": { "type": "string" },
+              "trigger": { "type": "string" },
+              "effects": { "type": "array", "items": { "type": "string" } },
+              "limits": { "type": "array", "items": { "type": "string" } },
+              "notes": { "type": "array", "items": { "type": "string" } },
+              "resource": { "type": "object" },
+              "dc": { "type": "string" },
+              "range": { "type": "string" },
+              "duration": {},
+              "scaling": { "type": "object" }
+            },
+            "required": ["id", "action_type", "trigger"],
+            "additionalProperties": true
+          }
+        },
+        "resources": { "type": "array", "items": { "type": "string" } },
+        "always_prepared_spells": { "type": "object" },
+        "tables": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": [
+        "id",
+        "parent_class",
+        "chapter",
+        "title",
+        "status",
+        "feature_levels",
+        "features_by_level",
+        "feature_defs"
+      ],
       "additionalProperties": true
     },
 

@@ -1,0 +1,22 @@
+{
+  "id": "inv.fiendish_vigor",
+  "name": "Fiendish Vigor",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=2"
+  ],
+  "effects": [
+    "you can cast False Life on yourself without expending a spell slot",
+    "when you cast it with this feature, you gain the highest number possible on the Temporary Hit Points die"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

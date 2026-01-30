@@ -1,0 +1,24 @@
+{
+  "id": "feat.paladin.divine_sense",
+  "name": "Divine Sense",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you open your awareness with a holy symbol",
+  "effects": [
+    "for the next 10 minutes or until you have the Incapacitated condition, you know the location and creature type of any Celestial, Fiend, or Undead within 60 feet",
+    "within the same radius, you detect the presence of any place or object that is consecrated or desecrated (as with Hallow)"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.channel_divinity.paladin",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Divine Sense"
+  }
+}

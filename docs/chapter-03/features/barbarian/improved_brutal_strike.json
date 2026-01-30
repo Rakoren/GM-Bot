@@ -1,0 +1,25 @@
+{
+  "id": "feat.barbarian.improved_brutal_strike",
+  "name": "Improved Brutal Strike",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you gain additional Brutal Strike options: Staggering Blow and Sundering Blow"
+  ],
+  "limits": [
+    "Staggering Blow: the target has disadvantage on its next saving throw and cannot make opportunity attacks until the start of your next turn",
+    "Sundering Blow: before the start of your next turn, the next attack roll made by another creature against the target gains +5; only one Sundering Blow bonus can apply"
+  ],
+  "notes": [
+    "At Barbarian level 17, Brutal Strike damage increases to 2d10 and you can use two different Brutal Strike effects per use."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Improved Brutal Strike"
+  }
+}

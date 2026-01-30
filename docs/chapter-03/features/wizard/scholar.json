@@ -1,0 +1,19 @@
+{
+  "id": "feat.wizard.scholar",
+  "name": "Scholar",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "choose one proficient skill from Arcana, History, Investigation, Medicine, Nature, or Religion; you gain Expertise in it"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      82
+    ],
+    "section": "Scholar"
+  }
+}

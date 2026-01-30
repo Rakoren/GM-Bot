@@ -3,34 +3,93 @@
   "name": "Druid",
   "chapter": 3,
   "status": "complete",
-
   "primary_ability": "WIS",
   "hit_die": "d8",
-  "saving_throws": ["INT", "WIS"],
-
+  "saving_throws": [
+    "INT",
+    "WIS"
+  ],
   "proficiencies": {
-    "armor": ["light", "shields"],
-    "weapons": ["simple"],
-    "tools": ["herbalism_kit"]
+    "armor": [
+      "light",
+      "shields"
+    ],
+    "weapons": [
+      "simple"
+    ],
+    "tools": [
+      "herbalism_kit"
+    ]
   },
-
   "spellcasting": {
     "caster_type": "prepared",
     "spellcasting_ability": "WIS",
     "spell_list_ref": "spell_list.druid"
   },
-
-  "resources": ["res.wild_shape"],
-
+  "resources": [
+    "res.wild_shape"
+  ],
+  "tables": [
+    "table.druid.class_features",
+    "table.druid.beast_shapes"
+  ],
   "features_by_level": {
-    "1": ["spellcasting", "druidic", "primal_order"],
-    "2": ["wild_shape", "wild_companion"],
-    "3": ["subclass_choice"]
+    "1": [
+      "spellcasting",
+      "druidic",
+      "primal_order"
+    ],
+    "2": [
+      "wild_shape",
+      "wild_companion"
+    ],
+    "3": [
+      "subclass_choice"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "5": [
+      "wild_resurgence"
+    ],
+    "6": [
+      "subclass_feature"
+    ],
+    "7": [
+      "elemental_fury"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "10": [
+      "subclass_feature"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "14": [
+      "subclass_feature"
+    ],
+    "15": [
+      "improved_elemental_fury"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "18": [
+      "beast_spells"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "archdruid"
+    ]
   },
-
   "subclasses": [
-  "circle.land", 
-  "circle.moon", 
-  "circle.sea", 
-  "circle.stars"]
+    "circle.land",
+    "circle.moon",
+    "circle.sea",
+    "circle.stars"
+  ]
 }

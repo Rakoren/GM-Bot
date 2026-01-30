@@ -1,0 +1,13 @@
+{
+  "id": "res.divine_smite.free",
+  "name": "Divine Smite (Free Cast)",
+  "chapter": 3,
+  "pool_type": "fixed",
+  "pool": 1,
+  "recharge": "long_rest",
+  "activation": "special",
+  "notes": [
+    "paladin_only",
+    "free_cast_of_divine_smite"
+  ]
+}

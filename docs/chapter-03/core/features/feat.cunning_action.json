@@ -1,0 +1,20 @@
+{
+  "type": "feature",
+  "id": "feat.cunning_action",
+  "name": "Cunning Action",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "rules": [
+    "You can take the Dash, Disengage, or Hide action as a bonus action on your turn."
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      33
+    ],
+    "section": "Cunning Action"
+  },
+  "trigger": "on your turn"
+}

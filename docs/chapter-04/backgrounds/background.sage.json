@@ -1,0 +1,49 @@
+{
+  "id": "background.sage",
+  "name": "Sage",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Sage"
+  },
+  "ability_scores": [
+    "Constitution",
+    "Intelligence",
+    "Wisdom"
+  ],
+  "origin_feat_ref": "origin_feat.magic_initiate_wizard",
+  "skill_proficiencies": [
+    "Arcana",
+    "History"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Calligrapher's Supplies"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Quarterstaff",
+        "Calligrapher's Supplies",
+        "Book (history)",
+        "Parchment (8 sheets)",
+        "Robe"
+      ],
+      "gp": 8
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You traveled between manors and monasteries, trading work for access to libraries. You studied lore and learned rudiments of magic.",
+  "notes": []
+}

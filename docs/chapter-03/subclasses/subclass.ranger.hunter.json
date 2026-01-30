@@ -1,0 +1,92 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "ranger.hunter",
+  "parent_class": "class.ranger",
+  "chapter": 3,
+  "title": "Hunter",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      29,
+      36
+    ],
+    "section_hint": "Hunter"
+  },
+  "feature_levels": [
+    3,
+    7,
+    11,
+    15
+  ],
+  "features_by_level": {
+    "3": [
+      "hunter_s_lore",
+      "hunter_s_prey"
+    ],
+    "7": [
+      "defensive_tactics"
+    ],
+    "11": [
+      "superior_hunter_s_prey"
+    ],
+    "15": [
+      "superior_hunter_s_defense"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.ranger.hunter.hunter_s_lore",
+      "action_type": "none",
+      "trigger": "while a creature is marked by your hunter's mark",
+      "effects": [
+        "You know whether the creature has any immunities, resistances, or vulnerabilities, and if so, what they are."
+      ]
+    },
+    {
+      "id": "feat.ranger.hunter.hunter_s_prey",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Choose one option:",
+        "Colossus Slayer: once per turn when you hit with a weapon, deal +1d8 damage if the target is missing any hit points.",
+        "Horde Breaker: once on each of your turns when you attack with a weapon, you can make another attack with the same weapon against a different creature within 5 feet of the original target, within the weapon's range, and not already attacked by you this turn."
+      ],
+      "limits": [
+        "When you finish a short or long rest, you can replace the chosen option with the other one."
+      ]
+    },
+    {
+      "id": "feat.ranger.hunter.defensive_tactics",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Choose one option:",
+        "Escape the Horde: opportunity attacks have disadvantage against you.",
+        "Multiattack Defense: when a creature hits you with an attack roll, that creature has disadvantage on all other attack rolls against you this turn."
+      ],
+      "limits": [
+        "When you finish a short or long rest, you can replace the chosen option with the other one."
+      ]
+    },
+    {
+      "id": "feat.ranger.hunter.superior_hunter_s_prey",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Once per turn when you deal Hunter's Mark extra damage to a marked creature, you can also deal that extra damage to a different creature you can see within 30 feet of the first."
+      ]
+    },
+    {
+      "id": "feat.ranger.hunter.superior_hunter_s_defense",
+      "action_type": "reaction",
+      "trigger": "when you take damage",
+      "effects": [
+        "You gain resistance to that damage and any other damage of the same type until the end of the current turn."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for subclass scope and concise clauses."
+  ]
+}

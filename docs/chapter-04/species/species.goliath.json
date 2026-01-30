@@ -1,0 +1,58 @@
+{
+  "id": "species.goliath",
+  "name": "Goliath",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Goliath"
+  },
+  "creature_type": "Humanoid",
+  "size": "Medium",
+  "size_notes": "About 7-8 feet tall.",
+  "speed": 35,
+  "traits": [
+    {
+      "name": "Giant Ancestry",
+      "action_type": "none",
+      "trigger": "when you choose this species",
+      "effects": [
+        "choose one boon from your ancestry; uses equal to proficiency bonus per long rest"
+      ],
+      "notes": [
+        "Cloud's Jaunt (Cloud Giant): bonus action teleport up to 30 feet to an unoccupied space you can see",
+        "Fire's Burn (Fire Giant): when you hit with an attack and deal damage, deal 1d10 fire damage to the target",
+        "Frost's Chill (Frost Giant): when you hit with an attack and deal damage, deal 1d6 cold damage and reduce target's speed by 10 feet until the start of your next turn",
+        "Hill's Tumble (Hill Giant): when you hit a Large or smaller creature with an attack and deal damage, you can knock it prone",
+        "Stone's Endurance (Stone Giant): reaction when you take damage; roll 1d12 + Constitution modifier; reduce damage by that total",
+        "Storm's Thunder (Storm Giant): reaction when you take damage from a creature within 60 feet; deal 1d8 thunder damage to that creature"
+      ]
+    },
+    {
+      "name": "Large Form",
+      "action_type": "bonus_action",
+      "trigger": "when you reach character level 5 and are in a large enough space",
+      "effects": [
+        "become Large for 10 minutes",
+        "advantage on Strength checks",
+        "speed increases by 10 feet"
+      ],
+      "limits": [
+        "usable once per long rest"
+      ]
+    },
+    {
+      "name": "Powerful Build",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "advantage on ability checks to end the grappled condition",
+        "count as one size larger for carrying capacity"
+      ]
+    }
+  ],
+  "notes": []
+}

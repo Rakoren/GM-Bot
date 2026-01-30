@@ -1,0 +1,52 @@
+{
+  "id": "table.druid.circle_moon_spells",
+  "name": "Circle of the Moon Spells",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      59
+    ],
+    "section": "Circle of the Moon Spells"
+  },
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "druid_level",
+      "spells"
+    ]
+  },
+  "entries": [
+    {
+      "druid_level": 3,
+      "spells": [
+        "Cure Wounds",
+        "Moonbeam",
+        "Starry Wisp"
+      ]
+    },
+    {
+      "druid_level": 5,
+      "spells": [
+        "Conjure Animals"
+      ]
+    },
+    {
+      "druid_level": 7,
+      "spells": [
+        "Fount of Moonlight"
+      ]
+    },
+    {
+      "druid_level": 9,
+      "spells": [
+        "Mass Cure Wounds"
+      ]
+    }
+  ],
+  "notes": [
+    "These spells are always prepared.",
+    "Circle of the Moon allows casting these spells while in Wild Shape."
+  ]
+}

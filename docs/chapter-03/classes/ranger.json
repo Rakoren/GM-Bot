@@ -3,37 +3,104 @@
   "name": "Ranger",
   "chapter": 3,
   "status": "complete",
-
   "primary_ability": "DEX_or_STR",
   "hit_die": "d10",
-  "saving_throws": ["STR", "DEX"],
-
+  "saving_throws": [
+    "STR",
+    "DEX"
+  ],
   "proficiencies": {
-    "armor": ["light", "medium", "shields"],
-    "weapons": ["simple", "martial"]
+    "armor": [
+      "light",
+      "medium",
+      "shields"
+    ],
+    "weapons": [
+      "simple",
+      "martial"
+    ]
   },
-
   "spellcasting": {
     "caster_type": "prepared",
     "spellcasting_ability": "WIS",
     "spell_list_ref": "spell_list.ranger"
   },
-
-  "resources": ["res.hunters_mark.free", "res.natures_veil"],
-
+  "resources": [
+    "res.hunters_mark.free",
+    "res.natures_veil"
+  ],
+  "tables": [
+    "table.ranger.class_features"
+  ],
   "features_by_level": {
-    "1": ["favored_enemy", "weapon_mastery"],
-    "2": ["fighting_style", "spellcasting"],
-    "3": ["subclass_choice"],
-    "5": ["extra_attack"],
-    "10": ["tireless"],
-    "14": ["natures_veil"],
-    "19": ["epic_boon"]
+    "1": [
+      "spellcasting",
+      "favored_enemy",
+      "weapon_mastery"
+    ],
+    "2": [
+      "deft_explorer",
+      "fighting_style"
+    ],
+    "3": [
+      "subclass_choice"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "5": [
+      "extra_attack"
+    ],
+    "6": [
+      "roving"
+    ],
+    "7": [
+      "subclass_feature"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "9": [
+      "expertise"
+    ],
+    "10": [
+      "tireless"
+    ],
+    "11": [
+      "subclass_feature"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "13": [
+      "relentless_hunter"
+    ],
+    "14": [
+      "natures_veil"
+    ],
+    "15": [
+      "subclass_feature"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "precise_hunter"
+    ],
+    "18": [
+      "feral_senses"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "foe_slayer"
+    ]
   },
-
-  "subclasses": [ 
-  "ranger.beast_master",
-  "ranger.fey_wanderer", 
-  "ranger.gloom_stalker", 
-  "ranger.hunter"]
+  "subclasses": [
+    "ranger.beast_master",
+    "ranger.fey_wanderer",
+    "ranger.gloom_stalker",
+    "ranger.hunter"
+  ]
 }

@@ -1,0 +1,60 @@
+{
+  "id": "table.paladin.oath_vengeance_spells",
+  "name": "Oath of Vengeance Spells",
+  "chapter": 3,
+  "status": "complete",
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "paladin_level",
+      "spells"
+    ]
+  },
+  "notes": [
+    "These spells are always prepared."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Oath of Vengeance Spells"
+  },
+  "entries": [
+    {
+      "paladin_level": 3,
+      "spells": [
+        "Bane",
+        "Hunter's Mark"
+      ]
+    },
+    {
+      "paladin_level": 5,
+      "spells": [
+        "Hold Person",
+        "Misty Step"
+      ]
+    },
+    {
+      "paladin_level": 9,
+      "spells": [
+        "Haste",
+        "Protection from Energy"
+      ]
+    },
+    {
+      "paladin_level": 13,
+      "spells": [
+        "Banishment",
+        "Dimension Door"
+      ]
+    },
+    {
+      "paladin_level": 17,
+      "spells": [
+        "Hold Monster",
+        "Scrying"
+      ]
+    }
+  ]
+}

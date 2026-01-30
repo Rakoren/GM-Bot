@@ -1,0 +1,11 @@
+{
+  "id": "res.focus_points",
+  "name": "Focus Points",
+  "chapter": 3,
+  "pool_type": "by_level",
+  "pool": "monk_level",
+  "recharge": "short_or_long_rest",
+  "notes": [
+    "monk_only"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "res.arcane_recovery",
+  "name": "Arcane Recovery",
+  "chapter": 3,
+  "pool_type": "fixed",
+  "pool": 1,
+  "recharge": "long_rest",
+  "activation": "end_of_short_rest",
+  "notes": [
+    "wizard_only",
+    "recover_spell_slots_total_levels_up_to_half_wizard_level_round_up",
+    "no_slot_level_6_plus"
+  ]
+}

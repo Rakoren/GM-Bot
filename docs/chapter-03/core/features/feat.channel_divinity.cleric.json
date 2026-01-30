@@ -1,0 +1,24 @@
+{
+  "type": "feature",
+  "id": "feat.channel_divinity.cleric",
+  "name": "Channel Divinity (Cleric)",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "rules": [
+    "You can use Channel Divinity effects such as Divine Spark or Turn Undead.",
+    "When a Channel Divinity effect requires a saving throw, the DC equals your cleric spell save DC."
+  ],
+  "limits": [
+    "Uses per class table; regain one use on a short rest and all uses on a long rest."
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35
+    ],
+    "section": "Channel Divinity"
+  },
+  "trigger": "when you choose to use Channel Divinity"
+}

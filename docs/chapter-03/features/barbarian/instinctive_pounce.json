@@ -1,0 +1,19 @@
+{
+  "id": "feat.barbarian.instinctive_pounce",
+  "name": "Instinctive Pounce",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you enter your Rage",
+  "effects": [
+    "you can move up to half your Speed as part of the same bonus action"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Instinctive Pounce"
+  }
+}

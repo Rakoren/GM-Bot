@@ -1,0 +1,22 @@
+{
+  "id": "feat.bard.font_of_inspiration",
+  "name": "Font of Inspiration",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you finish a short or long rest",
+  "effects": [
+    "you regain all expended uses of Bardic Inspiration"
+  ],
+  "limits": [
+    "you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Font of Inspiration"
+  }
+}

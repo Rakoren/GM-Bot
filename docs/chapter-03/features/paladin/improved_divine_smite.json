@@ -1,0 +1,14 @@
+{
+  "id": "feat.paladin.improved_divine_smite",
+  "name": "Improved Divine Smite",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you hit a creature with a melee weapon attack",
+  "effects": [
+    "the target takes extra Radiant damage"
+  ],
+  "notes": [
+    "See the class rules for the exact damage value and interaction with Divine Smite."
+  ]
+}

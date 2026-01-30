@@ -1,0 +1,20 @@
+{
+  "id": "feat.druid.primal_order",
+  "name": "Primal Order",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you choose your primal order",
+  "effects": [
+    "Magician: you learn one extra druid cantrip and gain a bonus to Intelligence (Arcana or Nature) checks equal to your Wisdom modifier (minimum +1)",
+    "Warden: you gain proficiency with Martial weapons and training with Medium armor"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      49
+    ],
+    "section": "Primal Order"
+  }
+}

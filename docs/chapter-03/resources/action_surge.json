@@ -1,0 +1,14 @@
+{
+  "id": "res.action_surge",
+  "name": "Action Surge",
+  "chapter": 3,
+  "pool_type": "see_class_table",
+  "pool": "see_class_table",
+  "recharge": "short_or_long_rest",
+  "activation": "free_action",
+  "notes": [
+    "fighter_only",
+    "extra_action_not_magic",
+    "second_use_at_level_17"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "feat.monk.deflect_energy",
+  "name": "Deflect Energy",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you use Deflect Attacks",
+  "effects": [
+    "you can use Deflect Attacks against attacks that deal any damage type"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      81
+    ],
+    "section": "Deflect Energy"
+  }
+}

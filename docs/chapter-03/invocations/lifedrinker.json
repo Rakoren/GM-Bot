@@ -1,0 +1,23 @@
+{
+  "id": "inv.lifedrinker",
+  "name": "Lifedrinker",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=9",
+    "inv.pact_of_the_blade"
+  ],
+  "effects": [
+    "once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 necrotic, psychic, or radiant damage (your choice)",
+    "you can expend one of your Hit Point Dice to roll it and regain hit points equal to the roll plus your Constitution modifier (minimum of 1)"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

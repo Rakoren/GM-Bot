@@ -1,0 +1,13 @@
+{
+  "id": "res.spell_thief",
+  "name": "Spell Thief",
+  "chapter": 3,
+  "pool_type": "fixed",
+  "pool": 1,
+  "recharge": "long_rest",
+  "activation": "reaction",
+  "notes": [
+    "rogue_arcane_trickster_only",
+    "use_on_spell_targeting_or_including_you"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "res.channel_divinity.cleric",
+  "name": "Channel Divinity (Cleric)",
+  "chapter": 3,
+  "pool_type": "see_class_table",
+  "pool": "see_class_table",
+  "uses_initial": 2,
+  "recharge": "short_or_long_rest",
+  "notes": [
+    "cleric_only",
+    "dc_uses_spell_save_dc"
+  ]
+}

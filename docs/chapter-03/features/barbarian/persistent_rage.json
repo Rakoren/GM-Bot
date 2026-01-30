@@ -1,0 +1,24 @@
+{
+  "id": "feat.barbarian.persistent_rage",
+  "name": "Persistent Rage",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you roll initiative",
+  "effects": [
+    "you can regain all expended uses of Rage"
+  ],
+  "limits": [
+    "after you regain uses in this way, you cannot do so again until you finish a long rest",
+    "your Rage lasts for 10 minutes without requiring round-by-round extension",
+    "your Rage ends early if you have the Unconscious condition or don Heavy armor"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Persistent Rage"
+  }
+}

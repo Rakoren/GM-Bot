@@ -3,30 +3,106 @@
   "name": "Monk",
   "chapter": 3,
   "status": "complete",
-
-  "primary_ability": ["DEX", "WIS"],
+  "primary_ability": [
+    "DEX",
+    "WIS"
+  ],
   "hit_die": "d8",
-  "saving_throws": ["STR", "DEX"],
-
+  "saving_throws": [
+    "STR",
+    "DEX"
+  ],
   "proficiencies": {
     "armor": [],
-    "weapons": ["simple", "martial_light"],
-    "tools": ["artisan_tools_or_musical_instrument"]
+    "weapons": [
+      "simple",
+      "martial_light"
+    ],
+    "tools": [
+      "artisan_tools_or_musical_instrument"
+    ]
   },
-
   "spellcasting": null,
-
-  "resources": ["res.focus_points"],
-
+  "resources": [
+    "res.focus_points"
+  ],
+  "tables": [
+    "table.monk.class_features"
+  ],
   "features_by_level": {
-    "1": ["martial_arts", "unarmored_defense"],
-    "2": ["monks_focus", "unarmored_movement", "uncanny_metabolism"],
-    "3": ["deflect_attacks", "subclass_choice"]
+    "1": [
+      "martial_arts",
+      "unarmored_defense"
+    ],
+    "2": [
+      "monks_focus",
+      "unarmored_movement",
+      "uncanny_metabolism"
+    ],
+    "3": [
+      "deflect_attacks",
+      "subclass_choice"
+    ],
+    "4": [
+      "ability_score_improvement",
+      "slow_fall"
+    ],
+    "5": [
+      "extra_attack",
+      "stunning_strike"
+    ],
+    "6": [
+      "empowered_strikes",
+      "subclass_feature"
+    ],
+    "7": [
+      "evasion"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "9": [
+      "acrobatic_movement"
+    ],
+    "10": [
+      "heightened_focus",
+      "self_restoration"
+    ],
+    "11": [
+      "subclass_feature"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "13": [
+      "deflect_energy"
+    ],
+    "14": [
+      "disciplined_survivor"
+    ],
+    "15": [
+      "perfect_focus"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "subclass_feature"
+    ],
+    "18": [
+      "superior_defense"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "body_and_mind"
+    ]
   },
-
   "subclasses": [
-  "monk.mercy", 
-  "monk.shadow", 
-  "monk.elements", 
-  "monk.open_hand"]
+    "monk.mercy",
+    "monk.shadow",
+    "monk.elements",
+    "monk.open_hand"
+  ]
 }

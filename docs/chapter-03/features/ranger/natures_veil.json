@@ -1,0 +1,27 @@
+{
+  "id": "feat.ranger.natures_veil",
+  "name": "Nature's Veil",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you invoke spirits of nature to hide yourself",
+  "effects": [
+    "you gain the Invisible condition until the end of your next turn"
+  ],
+  "limits": [
+    "you can use this feature a number of times equal to your Wisdom modifier (minimum of once)",
+    "you regain all expended uses when you finish a long rest"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.natures_veil",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Nature's Veil"
+  }
+}

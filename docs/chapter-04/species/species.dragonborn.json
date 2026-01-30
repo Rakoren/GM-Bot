@@ -1,0 +1,72 @@
+{
+  "id": "species.dragonborn",
+  "name": "Dragonborn",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      12,
+      13
+    ],
+    "section": "Dragonborn"
+  },
+  "creature_type": "Humanoid",
+  "size": "Medium",
+  "size_notes": "About 5-7 feet tall.",
+  "speed": 30,
+  "traits": [
+    {
+      "name": "Draconic Ancestry",
+      "action_type": "none",
+      "trigger": "when you choose this species",
+      "effects": [
+        "choose a dragon lineage from the Draconic Ancestors table; this affects Breath Weapon and Damage Resistance"
+      ],
+      "table_ref": "table.species.draconic_ancestors"
+    },
+    {
+      "name": "Breath Weapon",
+      "action_type": "special",
+      "trigger": "when you take the Attack action, you can replace one attack",
+      "effects": [
+        "exhale magical energy in a 15-foot cone or 30-foot line (5 feet wide)",
+        "Dexterity save DC 8 + Constitution modifier + proficiency bonus",
+        "failed save: 1d10 damage of ancestry type; success: half damage",
+        "damage increases at levels 5 (2d10), 11 (3d10), 17 (4d10)"
+      ],
+      "limits": [
+        "uses equal to proficiency bonus per long rest"
+      ]
+    },
+    {
+      "name": "Damage Resistance",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "resistance to damage type from Draconic Ancestry"
+      ]
+    },
+    {
+      "name": "Darkvision",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "darkvision 60 ft"
+      ]
+    },
+    {
+      "name": "Draconic Flight",
+      "action_type": "bonus_action",
+      "trigger": "when you reach character level 5",
+      "effects": [
+        "sprout spectral wings for 10 minutes, granting fly speed equal to your speed"
+      ],
+      "limits": [
+        "usable once per long rest",
+        "ends early if you retract wings (no action) or become incapacitated"
+      ]
+    }
+  ],
+  "notes": []
+}

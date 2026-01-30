@@ -1,0 +1,50 @@
+{
+  "id": "species.orc",
+  "name": "Orc",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Orc"
+  },
+  "creature_type": "Humanoid",
+  "size": "Medium",
+  "size_notes": "About 6-7 feet tall.",
+  "speed": 30,
+  "traits": [
+    {
+      "name": "Adrenaline Rush",
+      "action_type": "bonus_action",
+      "trigger": "when you take the Dash action as a bonus action",
+      "effects": [
+        "gain temporary hit points equal to your proficiency bonus"
+      ],
+      "limits": [
+        "uses equal to proficiency bonus per short or long rest"
+      ]
+    },
+    {
+      "name": "Darkvision",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "darkvision 120 ft"
+      ]
+    },
+    {
+      "name": "Relentless Endurance",
+      "action_type": "none",
+      "trigger": "when you are reduced to 0 hit points but not killed outright",
+      "effects": [
+        "drop to 1 hit point instead"
+      ],
+      "limits": [
+        "usable once per long rest"
+      ]
+    }
+  ],
+  "notes": []
+}

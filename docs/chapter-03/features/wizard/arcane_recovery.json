@@ -1,0 +1,27 @@
+{
+  "id": "feat.wizard.arcane_recovery",
+  "name": "Arcane Recovery",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "special",
+  "trigger": "when you finish a short rest",
+  "effects": [
+    "you can recover expended spell slots with a combined level equal to no more than half your wizard level (round up)",
+    "no recovered slot can be level 6 or higher"
+  ],
+  "limits": [
+    "once you use this feature, you cannot use it again until you finish a long rest"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.arcane_recovery",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      82
+    ],
+    "section": "Arcane Recovery"
+  }
+}

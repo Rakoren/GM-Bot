@@ -1,0 +1,23 @@
+{
+  "id": "feat.cleric.divine_intervention",
+  "name": "Divine Intervention",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "action",
+  "trigger": "when you call on your deity or pantheon to intervene",
+  "effects": [
+    "choose any cleric spell of level 5 or lower that does not require a reaction",
+    "cast it as part of the same action without expending a spell slot or material components"
+  ],
+  "limits": [
+    "you cannot use this feature again until you finish a long rest"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      36
+    ],
+    "section": "Divine Intervention"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "feat.ranger.tireless",
+  "name": "Tireless",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "action",
+  "trigger": "when you draw on primal endurance",
+  "effects": [
+    "you gain Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1)",
+    "whenever you finish a Short Rest, your Exhaustion level decreases by 1"
+  ],
+  "limits": [
+    "you can use the temporary hit point action a number of times equal to your Wisdom modifier (minimum of once)",
+    "you regain all expended uses when you finish a long rest"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Tireless"
+  }
+}

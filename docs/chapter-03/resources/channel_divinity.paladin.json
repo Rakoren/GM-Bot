@@ -1,0 +1,12 @@
+{
+  "id": "res.channel_divinity.paladin",
+  "name": "Channel Divinity (Paladin)",
+  "chapter": 3,
+  "pool_type": "see_class_table",
+  "pool": "see_class_table",
+  "uses_initial": 2,
+  "recharge": "short_or_long_rest",
+  "notes": [
+    "paladin_only"
+  ]
+}

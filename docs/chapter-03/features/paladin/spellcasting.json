@@ -1,0 +1,31 @@
+{
+  "id": "feat.paladin.spellcasting",
+  "name": "Spellcasting",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "spellcasting ability: Charisma",
+    "spell list: spell_list.paladin",
+    "prepared spells: at level 1, prepare two level 1+ paladin spells",
+    "prepared spells: total prepared spells are shown on the class table",
+    "spell slots: per class table; regain all expended slots on a long rest",
+    "spellcasting focus: you can use a Holy Symbol"
+  ],
+  "limits": [
+    "prepared spell swap: on a long rest, replace one prepared paladin spell with another paladin spell you can cast",
+    "prepared spells must be of a level for which you have spell slots",
+    "always prepared: spells from other paladin features are always prepared and don't count against prepared spells"
+  ],
+  "notes": [
+    "See chapter 7 for general spellcasting rules and the Paladin spell list in this chapter."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Spellcasting"
+  }
+}

@@ -3,33 +3,85 @@
   "name": "Cleric",
   "chapter": 3,
   "status": "complete",
-
   "primary_ability": "WIS",
   "hit_die": "d8",
-  "saving_throws": ["WIS", "CHA"],
-
+  "saving_throws": [
+    "WIS",
+    "CHA"
+  ],
   "proficiencies": {
-    "armor": ["light", "medium", "shields"],
-    "weapons": ["simple"]
+    "armor": [
+      "light",
+      "medium",
+      "shields"
+    ],
+    "weapons": [
+      "simple"
+    ]
   },
-
   "spellcasting": {
     "caster_type": "prepared",
     "spellcasting_ability": "WIS",
     "spell_list_ref": "spell_list.cleric"
   },
-
-  "resources": ["res.channel_divinity.cleric"],
-
+  "resources": [
+    "res.channel_divinity.cleric"
+  ],
+  "tables": [
+    "table.cleric.class_features"
+  ],
   "features_by_level": {
-    "1": ["spellcasting", "divine_order"],
-    "2": ["channel_divinity"],
-    "3": ["subclass_choice"]
+    "1": [
+      "spellcasting",
+      "divine_order"
+    ],
+    "2": [
+      "channel_divinity.cleric"
+    ],
+    "3": [
+      "subclass_choice"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "5": [
+      "sear_undead"
+    ],
+    "6": [
+      "subclass_feature"
+    ],
+    "7": [
+      "blessed_strikes"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "10": [
+      "divine_intervention"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "14": [
+      "improved_blessed_strikes"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "subclass_feature"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "greater_divine_intervention"
+    ]
   },
-
   "subclasses": [
-  "domain.life", 
-  "domain.light", 
-  "domain.trickery", 
-  "domain.war"]
+    "domain.life",
+    "domain.light",
+    "domain.trickery",
+    "domain.war"
+  ]
 }

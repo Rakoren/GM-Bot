@@ -1,0 +1,20 @@
+{
+  "id": "feat.cleric.divine_order",
+  "name": "Divine Order",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you choose your divine order",
+  "effects": [
+    "Protector: you gain proficiency with Martial weapons and training with Heavy armor",
+    "Thaumaturge: you learn one extra cleric cantrip and gain a bonus to Intelligence (Arcana or Religion) checks equal to your Wisdom modifier (minimum +1)"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35
+    ],
+    "section": "Divine Order"
+  }
+}

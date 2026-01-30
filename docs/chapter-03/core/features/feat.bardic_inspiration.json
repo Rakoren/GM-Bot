@@ -1,0 +1,27 @@
+{
+  "type": "feature",
+  "id": "feat.bardic_inspiration",
+  "name": "Bardic Inspiration",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "rules": [
+    "Choose a creature within 60 feet that can see or hear you; it gains one Bardic Inspiration die.",
+    "Within the next hour, when the creature fails a d20 test, it can roll the die and add the result to the d20."
+  ],
+  "limits": [
+    "A creature can have only one Bardic Inspiration die at a time.",
+    "Uses equal your Charisma modifier (minimum of 1); regain all uses on a long rest.",
+    "The die scales to d8 at level 5, d10 at level 10, and d12 at level 15 (see class table)."
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18,
+      19
+    ],
+    "section": "Bardic Inspiration"
+  },
+  "trigger": "when you choose a creature within 60 feet who can see or hear you"
+}

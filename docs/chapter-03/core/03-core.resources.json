@@ -1,10 +1,10 @@
 {
+  "$schema": "../../../schemas/chapter-03.core.schema.json",
   "core_id": "phb2024.chapter03.core.resources",
   "core_version": "0.5.0",
   "chapter": 3,
   "title": "Core Resources",
   "status": "active",
-
   "resource_defs": [
     {
       "id": "res.rage",
@@ -13,7 +13,10 @@
       "pool": "see_class_table",
       "recharge": "long_rest",
       "activation": "bonus_action",
-      "duration": { "kind": "minutes", "value": 1 },
+      "duration": {
+        "kind": "minutes",
+        "value": 1
+      },
       "notes": [
         "barbarian_only",
         "ends_early_if_no_attack_or_damage_taken_on_turn"
@@ -26,7 +29,11 @@
       "pool": "see_class_table",
       "recharge": "see_class_table",
       "activation": "bonus_action",
-      "die": { "5": "d8", "10": "d10", "15": "d12" },
+      "die": {
+        "5": "d8",
+        "10": "d10",
+        "15": "d12"
+      },
       "notes": [
         "bard_only",
         "die_size_scales_by_level"
@@ -54,7 +61,9 @@
       "activation": "bonus_action",
       "duration": {
         "kind": "hours",
-        "notes": ["equals_half_druid_level_round_down"]
+        "notes": [
+          "equals_half_druid_level_round_down"
+        ]
       },
       "notes": [
         "druid_only",
@@ -69,7 +78,9 @@
       "pool": 1,
       "recharge": "short_or_long_rest",
       "activation": "bonus_action",
-      "notes": ["fighter_only"]
+      "notes": [
+        "fighter_only"
+      ]
     },
     {
       "id": "res.action_surge",
@@ -78,7 +89,9 @@
       "pool": "see_class_table",
       "recharge": "short_or_long_rest",
       "activation": "free_action",
-      "notes": ["fighter_only"]
+      "notes": [
+        "fighter_only"
+      ]
     },
     {
       "id": "res.superiority_dice",
@@ -86,7 +99,11 @@
       "pool_type": "see_subclass_table",
       "pool": "see_subclass_table",
       "recharge": "short_or_long_rest",
-      "die": { "3": "d8", "10": "d10", "18": "d12" },
+      "die": {
+        "3": "d8",
+        "10": "d10",
+        "18": "d12"
+      },
       "notes": [
         "battle_master_only",
         "save_dc_8_plus_str_or_dex_plus_pb"
@@ -98,7 +115,9 @@
       "pool_type": "by_level",
       "pool": "monk_level",
       "recharge": "short_or_long_rest",
-      "notes": ["monk_only"]
+      "notes": [
+        "monk_only"
+      ]
     },
     {
       "id": "res.sorcery_points",
@@ -112,11 +131,26 @@
         "create_spell_slot_bonus_action_created_slots_vanish_long_rest"
       ],
       "create_spell_slot_costs": {
-        "1": { "cost": 2, "min_level": 2 },
-        "2": { "cost": 3, "min_level": 3 },
-        "3": { "cost": 5, "min_level": 5 },
-        "4": { "cost": 6, "min_level": 7 },
-        "5": { "cost": 7, "min_level": 9 }
+        "1": {
+          "cost": 2,
+          "min_level": 2
+        },
+        "2": {
+          "cost": 3,
+          "min_level": 3
+        },
+        "3": {
+          "cost": 5,
+          "min_level": 5
+        },
+        "4": {
+          "cost": 6,
+          "min_level": 7
+        },
+        "5": {
+          "cost": 7,
+          "min_level": 9
+        }
       }
     },
     {
@@ -152,7 +186,10 @@
       "pool": 1,
       "recharge": "long_rest",
       "activation": "special",
-      "duration": { "kind": "minutes", "value": 1 },
+      "duration": {
+        "kind": "minutes",
+        "value": 1
+      },
       "notes": [
         "warlock_only",
         "regain_pact_slots_up_to_half_max_round_up",
@@ -184,10 +221,10 @@
       ]
     }
   ],
-
   "notes": [
     "This file defines only shared resource mechanics.",
     "Class- or subclass-specific limits are enforced via feature_defs.",
     "Numeric scaling tables remain authoritative in class JSON files."
-  ]
+  ],
+  "type": "core_pack"
 }

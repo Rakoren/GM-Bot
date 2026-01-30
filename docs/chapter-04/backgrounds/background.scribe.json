@@ -1,0 +1,49 @@
+{
+  "id": "background.scribe",
+  "name": "Scribe",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Scribe"
+  },
+  "ability_scores": [
+    "Dexterity",
+    "Intelligence",
+    "Wisdom"
+  ],
+  "origin_feat_ref": "origin_feat.skilled",
+  "skill_proficiencies": [
+    "Investigation",
+    "Perception"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Calligrapher's Supplies"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Calligrapher's Supplies",
+        "Fine Clothes",
+        "Lamp",
+        "Oil (3 flasks)",
+        "Parchment (12 sheets)"
+      ],
+      "gp": 23
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You worked in a scriptorium or agency, copying and preserving texts. You learned careful writing and attention to detail.",
+  "notes": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "table.species.fiendish_legacies",
+  "name": "Fiendish Legacies",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Fiendish Legacies"
+  },
+  "columns": [
+    "legacy",
+    "level_1",
+    "level_3",
+    "level_5"
+  ],
+  "entries": [
+    {
+      "legacy": "Abyssal",
+      "level_1": "Resistance to poison damage; know the Poison Spray cantrip",
+      "level_3": "Ray of Sickness",
+      "level_5": "Hold Person"
+    },
+    {
+      "legacy": "Chthonic",
+      "level_1": "Resistance to necrotic damage; know the Chill Touch cantrip",
+      "level_3": "False Life",
+      "level_5": "Ray of Enfeeblement"
+    },
+    {
+      "legacy": "Infernal",
+      "level_1": "Resistance to fire damage; know the Fire Bolt cantrip",
+      "level_3": "Hellish Rebuke",
+      "level_5": "Darkness"
+    }
+  ],
+  "notes": []
+}

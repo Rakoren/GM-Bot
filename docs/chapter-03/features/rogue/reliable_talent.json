@@ -1,0 +1,19 @@
+{
+  "id": "feat.rogue.reliable_talent",
+  "name": "Reliable Talent",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you make an ability check using a skill or tool proficiency",
+  "effects": [
+    "treat a d20 roll of 9 or lower as a 10"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      34
+    ],
+    "section": "Reliable Talent"
+  }
+}

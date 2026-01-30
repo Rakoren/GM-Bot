@@ -1,0 +1,100 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "path.zealot",
+  "parent_class": "class.barbarian",
+  "chapter": 3,
+  "title": "Path of the Zealot",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14,
+      26
+    ],
+    "section_hint": "Path of the Zealot"
+  },
+  "feature_levels": [
+    3,
+    6,
+    10,
+    14,
+    18
+  ],
+  "features_by_level": {
+    "3": [
+      "divine_fury",
+      "warrior_of_the_gods"
+    ],
+    "6": [
+      "fanatical_focus"
+    ],
+    "10": [
+      "zealous_presence"
+    ],
+    "14": [
+      "rage_of_the_gods"
+    ],
+    "18": [
+      "rage_of_the_gods"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.path.zealot.divine_fury",
+      "action_type": "none",
+      "trigger": "on each of your turns while your Rage is active",
+      "effects": [
+        "The first creature you hit with a weapon or unarmed strike takes extra damage equal to 1d6 + half your Barbarian level (round down).",
+        "You choose necrotic or radiant damage each time you deal the extra damage."
+      ]
+    },
+    {
+      "id": "feat.path.zealot.warrior_of_the_gods",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "You have a pool of d12s equal to 4 + your Barbarian level increases (5 at level 6, 6 at level 12, 7 at level 17).",
+        "You expend dice from the pool, roll them, and regain hit points equal to the total."
+      ],
+      "limits": [
+        "You regain all expended dice when you finish a long rest."
+      ]
+    },
+    {
+      "id": "feat.path.zealot.fanatical_focus",
+      "action_type": "none",
+      "trigger": "once per active Rage when you fail a saving throw",
+      "effects": [
+        "You can reroll the saving throw with a bonus equal to your Rage Damage bonus; you must use the new roll."
+      ]
+    },
+    {
+      "id": "feat.path.zealot.zealous_presence",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "Up to ten other creatures of your choice within 60 feet gain advantage on attack rolls and saving throws until the start of your next turn."
+      ],
+      "limits": [
+        "Once you use this feature, you can’t use it again until you finish a long rest unless you expend a use of your Rage (no action required) to restore its use."
+      ]
+    },
+    {
+      "id": "feat.path.zealot.rage_of_the_gods",
+      "action_type": "none",
+      "trigger": "when you activate your Rage",
+      "effects": [
+        "You can assume a divine warrior form for 1 minute or until you drop to 0 hit points.",
+        "Flight: you have a fly speed equal to your speed and can hover.",
+        "Resistance: you have resistance to necrotic, psychic, and radiant damage.",
+        "Revivification: when a creature within 30 feet would drop to 0 hit points, you can use your reaction and expend a Rage use to instead set its hit points to a number equal to your Barbarian level."
+      ],
+      "limits": [
+        "Once you use this feature, you can’t do so again until you finish a long rest."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ]
+}

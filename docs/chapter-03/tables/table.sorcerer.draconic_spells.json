@@ -1,0 +1,55 @@
+{
+  "id": "table.sorcerer.draconic_spells",
+  "name": "Draconic Spells",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      58
+    ],
+    "section": "Draconic Spells"
+  },
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "sorcerer_level",
+      "spells"
+    ]
+  },
+  "entries": [
+    {
+      "sorcerer_level": 3,
+      "spells": [
+        "Alter Self",
+        "Chromatic Orb",
+        "Command",
+        "Dragon's Breath"
+      ]
+    },
+    {
+      "sorcerer_level": 5,
+      "spells": [
+        "Fear",
+        "Fly"
+      ]
+    },
+    {
+      "sorcerer_level": 7,
+      "spells": [
+        "Arcane Eye",
+        "Charm Monster"
+      ]
+    },
+    {
+      "sorcerer_level": 9,
+      "spells": [
+        "Legend Lore",
+        "Summon Dragon"
+      ]
+    }
+  ],
+  "notes": [
+    "These spells are always prepared."
+  ]
+}

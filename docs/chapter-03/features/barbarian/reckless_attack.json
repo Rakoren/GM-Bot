@@ -1,0 +1,21 @@
+{
+  "id": "feat.barbarian.reckless_attack",
+  "name": "Reckless Attack",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you make your first attack roll on your turn",
+  "effects": [
+    "you can decide to attack recklessly",
+    "if you do, you have advantage on Strength-based attack rolls until the start of your next turn",
+    "attack rolls against you have advantage until the start of your next turn"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Reckless Attack"
+  }
+}

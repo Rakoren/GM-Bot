@@ -1,0 +1,56 @@
+{
+  "id": "table.rogue.soulknife_energy_dice",
+  "name": "Soulknife Energy Dice",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      40
+    ],
+    "section": "Soulknife Energy Dice"
+  },
+  "entry_schema": {
+    "type": "subclass_resource_table",
+    "fields": [
+      "rogue_level",
+      "die_size",
+      "dice_count"
+    ]
+  },
+  "entries": [
+    {
+      "rogue_level": 3,
+      "die_size": "d6",
+      "dice_count": 4
+    },
+    {
+      "rogue_level": 5,
+      "die_size": "d8",
+      "dice_count": 6
+    },
+    {
+      "rogue_level": 9,
+      "die_size": "d8",
+      "dice_count": 8
+    },
+    {
+      "rogue_level": 11,
+      "die_size": "d10",
+      "dice_count": 8
+    },
+    {
+      "rogue_level": 13,
+      "die_size": "d10",
+      "dice_count": 10
+    },
+    {
+      "rogue_level": 17,
+      "die_size": "d12",
+      "dice_count": 12
+    }
+  ],
+  "notes": [
+    "Energy Dice recharge: regain one on short rest, all on long rest (feature text)."
+  ]
+}

@@ -85,14 +85,19 @@ Barbarians are driven by **Rage**, trading defense and control for raw power.
 
 ## Barbarian Subclasses (Paths)
 
-* **Path of the Berserker** – Unrestrained fury
-* **Path of the Wild Heart** – Animal and nature aspects
-* **Path of the World Tree** – Cosmic vitality and teleportation
-* **Path of the Zealot** – Divine rage and resilience
+* **Path of the Berserker** (id: `path.berserker`) - Unrestrained fury
+* **Path of the Wild Heart** (id: `path.wild_heart`) - Animal and nature aspects
+* **Path of the World Tree** (id: `path.world_tree`) - Cosmic vitality and teleportation
+* **Path of the Zealot** (id: `path.zealot`) - Divine rage and resilience
 
 Each path grants features at levels 3, 6, 10, and 14.
 
 ---
+
+## Barbarian Engine References
+
+* **Class shard:** `class.barbarian`
+* **Subclass shards:** `path.berserker`, `path.wild_heart`, `path.world_tree`, `path.zealot`
 
 # Bard
 
@@ -152,10 +157,10 @@ You always have **Power Word Heal** and **Power Word Kill** prepared. When you c
 
 ## Bard Subclasses (Colleges)
 
-* **College of Dance** – Agile battlefield control and movement-based inspiration
-* **College of Glamour** – Fey enchantment and battlefield manipulation
-* **College of Lore** – Knowledge mastery and spell versatility
-* **College of Valor** – Martial inspiration and frontline support
+* **College of Dance** (id: `college.dance`) - Agile battlefield control and movement-based inspiration
+* **College of Glamour** (id: `college.glamour`) - Fey enchantment and battlefield manipulation
+* **College of Lore** (id: `college.lore`) - Knowledge mastery and spell versatility
+* **College of Valor** (id: `college.valor`) - Martial inspiration and frontline support
 
 Each college grants features at levels 3, 6, 10, and 14.
 
@@ -184,6 +189,11 @@ Each college grants features at levels 3, 6, 10, and 14.
 * **Level 14:** Battle Magic
 
 ---
+
+## Bard Engine References
+
+* **Class shard:** `class.bard`
+* **Subclass shards:** `college.dance`, `college.glamour`, `college.lore`, `college.valor`
 
 # Cleric
 
@@ -246,10 +256,10 @@ Clerics draw divine power from gods, pantheons, or cosmic forces and channel it 
 
 ## Cleric Subclasses (Domains)
 
-* **Life Domain** – Healing and vitality
-* **Light Domain** – Radiance and fire
-* **Trickery Domain** – Deception and illusion
-* **War Domain** – Martial prowess and battle blessings
+* **Life Domain** (id: `domain.life`) - Healing and vitality
+* **Light Domain** (id: `domain.light`) - Radiance and fire
+* **Trickery Domain** (id: `domain.trickery`) - Deception and illusion
+* **War Domain** (id: `domain.war`) - Martial prowess and battle blessings
 
 Each domain grants features at Cleric levels 3, 6, 10, and 17.
 
@@ -261,21 +271,21 @@ Each domain grants features at Cleric levels 3, 6, 10, and 17.
 
 * **Level 3: Disciple of Life** — Healing spells that use a spell slot restore extra HP equal to **2 + slot level**.
 * **Level 3: Life Domain Spells** — Always-prepared spells by Cleric level (Aid, Bless, Cure Wounds, Lesser Restoration; then Mass Healing Word, Revivify; Aura of Life, Death Ward; Greater Restoration, Mass Cure Wounds).
-* **Level 3: Preserve Life (Channel Divinity; Magic action)** — Restore **5 × Cleric level** HP split among **Bloodied** creatures within 30 ft; can’t heal a creature above half HP max with this feature.
+* **Level 3: Preserve Life (Channel Divinity; Action)** — Restore **5 × Cleric level** HP split among **Bloodied** creatures within 30 ft; can’t heal a creature above half HP max with this feature.
 * **Level 6: Blessed Healer** — When you heal others with a spell slot, you also heal yourself for **2 + slot level**.
 * **Level 17: Supreme Healing** — Healing dice become max value (no rolling).
 
 ### Light Domain
 
 * **Level 3: Light Domain Spells** — Always-prepared spells by Cleric level (Burning Hands, Faerie Fire, Scorching Ray, See Invisibility; then Daylight, Fireball; Arcane Eye, Wall of Fire; Flame Strike, Scrying).
-* **Level 3: Radiance of the Dawn (Channel Divinity; Magic action)** — 30-ft emanation; dispels magical Darkness in area; creatures of your choice make CON save or take **2d10 + Cleric level** radiant (half on success).
+* **Level 3: Radiance of the Dawn (Channel Divinity; Action)** — 30-ft emanation; dispels magical Darkness in area; creatures of your choice make CON save or take **2d10 + Cleric level** radiant (half on success).
 * **Level 3: Warding Flare (Reaction)** — Impose Disadvantage on an attack roll you can see within 30 ft; uses = WIS mod (min 1), refresh Long Rest.
 * **Level 6: Improved Warding Flare** — Warding Flare refreshes on Short/Long Rest; when used, you can grant Temp HP **2d6 + WIS mod** to the attack’s target.
-* **Level 17: Corona of Light (Magic action; 1 minute)** — Bright 60 ft + dim 30 ft; enemies in bright light have Disadvantage on saves vs Radiance of the Dawn and any Fire/Radiant spell. Uses = WIS mod (min 1), refresh Long Rest.
+* **Level 17: Corona of Light (Action; 1 minute)** — Bright 60 ft + dim 30 ft; enemies in bright light have Disadvantage on saves vs Radiance of the Dawn and any Fire/Radiant spell. Uses = WIS mod (min 1), refresh Long Rest.
 
 ### Trickery Domain
 
-* **Level 3: Blessing of the Trickster (Magic action)** — Give Advantage on DEX (Stealth) checks to you or a willing creature within 30 ft until Long Rest or used again.
+* **Level 3: Blessing of the Trickster (Action)** — Give Advantage on DEX (Stealth) checks to you or a willing creature within 30 ft until Long Rest or used again.
 * **Level 3: Trickery Domain Spells** — Always-prepared spells by Cleric level (Charm Person, Disguise Self, Invisibility, Pass without Trace; then Hypnotic Pattern, Nondetection; Confusion, Dimension Door; Dominate Person, Modify Memory).
 * **Level 3: Invoke Duplicity (Bonus Action; Channel Divinity; 1 minute)** — Create an illusion within 30 ft; cast spells as though in its space (using your senses), gain Advantage on attacks when both you and illusion are within 5 ft of a creature that can see it; can move illusion 30 ft as Bonus Action (within 120 ft).
 * **Level 6: Trickster’s Transposition** — When you create or move the illusion (Invoke Duplicity), you can teleport and swap places with it.
@@ -290,6 +300,11 @@ Each domain grants features at Cleric levels 3, 6, 10, and 17.
 * **Level 17: Avatar of Battle** — Resistance to bludgeoning, piercing, and slashing damage.
 
 ---
+
+## Cleric Engine References
+
+* **Class shard:** `class.cleric`
+* **Subclass shards:** `domain.life`, `domain.light`, `domain.trickery`, `domain.war`
 
 # Druid
 
@@ -318,7 +333,7 @@ Each domain grants features at Cleric levels 3, 6, 10, and 17.
 ### Level 2
 
 * **Wild Shape (Bonus Action)** — Duration: hours = half Druid level; uses: 2 (regain 1 on Short Rest, all on Long Rest); known forms, CR limits, fly speed unlock at level 8; special rules while shape-shifted (temp HP = Druid level; replace stats with beast block except keep key mental stats; can’t cast spells but concentration persists; equipment handling rules).
-* **Wild Companion (Magic action)** — Spend a spell slot or Wild Shape use to cast Find Familiar (no material components); familiar is Fey and vanishes after Long Rest.
+* **Wild Companion (Action)** — Spend a spell slot or Wild Shape use to cast Find Familiar (no material components); familiar is Fey and vanishes after Long Rest.
 
 ### Level 3
 
@@ -357,10 +372,10 @@ The Druid spell list is presented by spell level with school and special flags (
 ### Circle of the Land
 
 * **Level 3: Circle Spells** — Choose a land type on Long Rest (Arid/Polar/Temperate/Tropical) and gain its listed spells prepared based on Druid level.
-* **Level 3: Land’s Aid (Magic action; Wild Shape use)** — 10-ft sphere within 60 ft; CON save vs spell DC: **2d6 necrotic** (half on success) and one chosen creature heals **2d6**; scales at Druid 10 (3d6) and 14 (4d6).
+* **Level 3: Land’s Aid (Action; Wild Shape use)** — 10-ft sphere within 60 ft; CON save vs spell DC: **2d6 necrotic** (half on success) and one chosen creature heals **2d6**; scales at Druid 10 (3d6) and 14 (4d6).
 * **Level 6: Natural Recovery** — Cast a prepared Circle Spell without a slot (1/Long Rest); on Short Rest, recover spell slots totaling ≤ half Druid level (round up), none 6+.
 * **Level 10: Nature’s Ward** — Immune to Poisoned; gain resistance based on land choice (Arid Fire, Polar Cold, Temperate Lightning, Tropical Poison).
-* **Level 14: Nature’s Sanctuary (Magic action; Wild Shape use)** — 15-ft cube within 120 ft for 1 minute; you/allies have half cover inside; allies gain your current Nature’s Ward resistance; move cube 60 ft as Bonus Action.
+* **Level 14: Nature’s Sanctuary (Action; Wild Shape use)** — 15-ft cube within 120 ft for 1 minute; you/allies have half cover inside; allies gain your current Nature’s Ward resistance; move cube 60 ft as Bonus Action.
 
 ### Circle of the Moon
 
@@ -397,6 +412,22 @@ The Druid spell list is presented by spell level with school and special flags (
 * **Level 14: Full of Stars** — While in Starry Form, gain resistance to bludgeoning, piercing, and slashing damage.
 
 ---
+
+## Druid Subclasses (Circles)
+
+* **Circle of the Land** (id: `circle.land`) - Terrain magic and recovery
+* **Circle of the Moon** (id: `circle.moon`) - Primal beast forms and lunar power
+* **Circle of the Sea** (id: `circle.sea`) - Tides, storms, and aquatic strength
+* **Circle of the Stars** (id: `circle.stars`) - Constellation magic and stellar forms
+
+Each circle grants features at Druid levels 3, 6, 10, and 14.
+
+---
+
+## Druid Engine References
+
+* **Class shard:** `class.druid`
+* **Subclass shards:** `circle.land`, `circle.moon`, `circle.sea`, `circle.stars`
 
 # Fighter
 
@@ -464,6 +495,22 @@ The Druid spell list is presented by spell level with school and special flags (
 
 ---
 
+## Fighter Subclasses
+
+* **Battle Master** (id: `fighter.battle_master`) - Maneuvers and tactical control
+* **Champion** (id: `fighter.champion`) - Raw athletic prowess and critical strikes
+* **Eldritch Knight** (id: `fighter.eldritch_knight`) - Martial arcane hybrid
+* **Psi Warrior** (id: `fighter.psi_warrior`) - Psionic power and force manipulation
+
+Each fighter archetype grants features at Fighter levels 3, 7, 10, 15, and 18.
+
+---
+
+## Fighter Engine References
+
+* **Class shard:** `class.fighter`
+* **Subclass shards:** `fighter.battle_master`, `fighter.champion`, `fighter.eldritch_knight`, `fighter.psi_warrior`
+
 # Monk
 
 ## Core Monk Traits
@@ -526,3 +573,370 @@ The Druid spell list is presented by spell level with school and special flags (
 * **Level 6:** Wholeness of Body
 * **Level 11:** Fleet Step
 * **Level 17:** Quivering Palm
+
+---
+
+## Monk Subclasses
+
+* **Warrior of Mercy** (id: `monk.mercy`) - Healing and harm in equal measure
+* **Warrior of Shadow** (id: `monk.shadow`) - Stealth and shadow magic
+* **Warrior of the Elements** (id: `monk.elements`) - Elemental techniques and bursts
+* **Warrior of the Open Hand** (id: `monk.open_hand`) - Classic unarmed mastery
+
+Each monk tradition grants features at Monk levels 3, 6, 11, and 17.
+
+---
+
+## Monk Engine References
+
+* **Class shard:** `class.monk`
+* **Subclass shards:** `monk.mercy`, `monk.shadow`, `monk.elements`, `monk.open_hand`
+
+
+---
+
+# Paladin
+
+## Core Paladin Traits
+
+* **Primary Ability:** Strength or Charisma
+* **Hit Die:** d10
+* **Armor:** Light, Medium, Heavy, Shields
+* **Weapons:** Simple, Martial
+* **Saving Throws:** Wisdom, Charisma
+
+Paladins are oath-bound champions who blend martial prowess with divine magic.
+
+---
+
+## Paladin Features by Level (Summary)
+
+* **Level 1:** Lay On Hands, Spellcasting, Weapon Mastery
+* **Level 2:** Fighting Style, Paladin's Smite
+* **Level 3:** Channel Divinity, Subclass Choice (Oath)
+* **Level 4 / 8 / 12 / 16:** Ability Score Improvement
+* **Level 5:** Extra Attack, Faithful Steed
+* **Level 6:** Aura of Protection
+* **Level 7 / 15 / 20:** Subclass feature
+* **Level 9:** Abjure Foes
+* **Level 10:** Aura of Courage
+* **Level 11:** Radiant Strikes
+* **Level 14:** Restoring Touch
+* **Level 18:** Aura Expansion
+* **Level 19:** Epic Boon
+
+---
+
+## Paladin High-Level Features
+
+### Level 18: Aura Expansion
+
+Your Paladin auras expand in range.
+
+### Level 20: Subclass Capstone
+
+You gain your oath's capstone feature.
+
+---
+
+## Paladin Subclasses (Oaths)
+
+* **Oath of Devotion** (id: `oath.devotion`) - Sacred weaponry and unwavering virtue
+* **Oath of Glory** (id: `oath.glory`) - Heroic feats and legendary presence
+* **Oath of the Ancients** (id: `oath.ancients`) - Nature's light and resilience
+* **Oath of Vengeance** (id: `oath.vengeance`) - Relentless pursuit of foes
+
+Each oath grants features at Paladin levels 3, 7, 15, and 20.
+
+---
+
+## Paladin Engine References
+
+* **Class shard:** `class.paladin`
+* **Subclass shards:** `oath.devotion`, `oath.glory`, `oath.ancients`, `oath.vengeance`
+
+# Ranger
+
+## Core Ranger Traits
+
+* **Primary Ability:** Dexterity or Strength
+* **Hit Die:** d10
+* **Armor:** Light, Medium, Shields
+* **Weapons:** Simple, Martial
+* **Saving Throws:** Strength, Dexterity
+
+Rangers blend martial skill with nature magic and relentless hunting.
+
+---
+
+## Ranger Features by Level (Summary)
+
+* **Level 1:** Spellcasting, Favored Enemy, Weapon Mastery
+* **Level 2:** Deft Explorer, Fighting Style
+* **Level 3:** Subclass Choice (Conclave)
+* **Level 4 / 8 / 12 / 16:** Ability Score Improvement
+* **Level 5:** Extra Attack
+* **Level 6:** Roving
+* **Level 9:** Expertise
+* **Level 10:** Tireless
+* **Level 13:** Relentless Hunter
+* **Level 14:** Nature's Veil
+* **Level 17:** Precise Hunter
+* **Level 18:** Feral Senses
+* **Level 19:** Epic Boon
+* **Level 20:** Foe Slayer
+
+---
+
+## Ranger Subclasses
+
+* **Beast Master** (id: `ranger.beast_master`) - Primal companion and coordinated tactics
+* **Fey Wanderer** (id: `ranger.fey_wanderer`) - Fey magic and uncanny charm
+* **Gloom Stalker** (id: `ranger.gloom_stalker`) - Ambush and darkness mastery
+* **Hunter** (id: `ranger.hunter`) - Adaptive tactics against dangerous foes
+
+Each subclass grants features at Ranger levels 3, 7, 11, and 15.
+
+---
+
+## Ranger High-Level Features
+
+### Level 18: Feral Senses
+
+You gain heightened awareness that defeats hidden threats.
+
+### Level 20: Foe Slayer
+
+You deliver a decisive finishing strike against favored enemies.
+
+---
+
+## Ranger Engine References
+
+* **Class shard:** `class.ranger`
+* **Subclass shards:** `ranger.beast_master`, `ranger.fey_wanderer`, `ranger.gloom_stalker`, `ranger.hunter`
+
+# Rogue
+
+## Core Rogue Traits
+
+* **Primary Ability:** Dexterity
+* **Hit Die:** d8
+* **Armor:** Light
+* **Weapons:** Simple, plus Martial weapons with the Finesse or Light property
+* **Tools:** Thieves' Tools
+* **Saving Throws:** Dexterity, Intelligence
+
+Rogues rely on skill, stealth, and precise strikes to control the battlefield.
+
+---
+
+## Rogue Features by Level (Summary)
+
+* **Level 1:** Expertise, Sneak Attack, Thieves' Cant, Weapon Mastery
+* **Level 2:** Cunning Action
+* **Level 3:** Subclass Choice (Roguish Archetype), Steady Aim
+* **Level 4 / 8 / 12 / 16:** Ability Score Improvement
+* **Level 5:** Cunning Strike, Uncanny Dodge
+* **Level 7:** Evasion, Reliable Talent
+* **Level 11:** Improved Cunning Strike
+* **Level 14:** Devious Strikes
+* **Level 15:** Slippery Mind
+* **Level 18:** Elusive
+* **Level 19:** Epic Boon
+* **Level 20:** Stroke of Luck
+
+---
+
+## Rogue Subclasses
+
+* **Arcane Trickster** (id: `rogue.arcane_trickster`) - Illusion and enchantment magic
+* **Assassin** (id: `rogue.assassin`) - Ambush, poison, and lethal precision
+* **Soulknife** (id: `rogue.soulknife`) - Psionic blades and mental power
+* **Thief** (id: `rogue.thief`) - Supreme infiltration and mastery of items
+
+Each subclass grants features at Rogue levels 3, 9, 13, and 17.
+
+---
+
+## Rogue High-Level Features
+
+### Level 18: Elusive
+
+You are extraordinarily hard to pin down in combat.
+
+### Level 20: Stroke of Luck
+
+You can turn failure into success at the critical moment.
+
+---
+
+## Rogue Engine References
+
+* **Class shard:** `class.rogue`
+* **Subclass shards:** `rogue.arcane_trickster`, `rogue.assassin`, `rogue.soulknife`, `rogue.thief`
+
+# Sorcerer
+
+## Core Sorcerer Traits
+
+* **Primary Ability:** Charisma
+* **Hit Die:** d6
+* **Armor:** None
+* **Weapons:** Simple
+* **Saving Throws:** Constitution, Charisma
+
+Sorcerers wield innate magic shaped by will and bloodline.
+
+---
+
+## Sorcerer Features by Level (Summary)
+
+* **Level 1:** Spellcasting, Innate Sorcery
+* **Level 2:** Font of Magic, Metamagic
+* **Level 3:** Subclass Choice (Sorcerous Origin)
+* **Level 4 / 8 / 12 / 16:** Ability Score Improvement
+* **Level 5:** Sorcerous Restoration
+* **Level 7:** Sorcery Incarnate
+* **Level 19:** Epic Boon
+* **Level 20:** Arcane Apotheosis
+
+---
+
+## Sorcerer Subclasses (Sorcerous Origins)
+
+* **Aberrant Sorcery** (id: `sorcerer.aberrant`) - Psionic mind and alien magic
+* **Clockwork Sorcery** (id: `sorcerer.clockwork`) - Order, balance, and cosmic design
+* **Draconic Sorcery** (id: `sorcerer.draconic`) - Draconic power and elemental might
+* **Wild Magic** (id: `sorcerer.wild_magic`) - Chaotic surges and unstable power
+
+Each origin grants features at Sorcerer levels 3, 6, 14, and 18.
+
+---
+
+## Sorcerer High-Level Features
+
+### Level 7: Sorcery Incarnate
+
+You enter a heightened state that amplifies your innate magic.
+
+### Level 20: Arcane Apotheosis
+
+You embody your magic at its peak.
+
+---
+
+## Sorcerer Engine References
+
+* **Class shard:** `class.sorcerer`
+* **Subclass shards:** `sorcerer.aberrant`, `sorcerer.clockwork`, `sorcerer.draconic`, `sorcerer.wild_magic`
+
+# Warlock
+
+## Core Warlock Traits
+
+* **Primary Ability:** Charisma
+* **Hit Die:** d8
+* **Armor:** Light
+* **Weapons:** Simple
+* **Saving Throws:** Wisdom, Charisma
+
+Warlocks gain power from a pact with an otherworldly patron.
+
+---
+
+## Warlock Features by Level (Summary)
+
+* **Level 1:** Pact Magic, Eldritch Invocations
+* **Level 2:** Magical Cunning
+* **Level 3:** Subclass Choice (Patron), Pact Boon
+* **Level 4 / 8 / 12 / 16:** Ability Score Improvement
+* **Level 9:** Contact Patron
+* **Level 11 / 13 / 15 / 17:** Mystic Arcanum
+* **Level 19:** Epic Boon
+* **Level 20:** Eldritch Master
+
+---
+
+## Warlock Subclasses (Patrons)
+
+* **Archfey Patron** (id: `wl.archfey`) - Fey magic and teleportation
+* **Celestial Patron** (id: `wl.celestial`) - Healing and radiant power
+* **Fiend Patron** (id: `wl.fiend`) - Infernal resilience and destructive magic
+* **Great Old One Patron** (id: `wl.great_old_one`) - Psychic intrusion and forbidden lore
+
+Each patron grants features at Warlock levels 3, 6, 10, and 14.
+
+---
+
+## Warlock High-Level Features
+
+### Level 11+: Mystic Arcanum
+
+You gain powerful once-per-rest spells at higher levels.
+
+### Level 20: Eldritch Master
+
+You can draw deeply on your patron's power to restore Pact Magic.
+
+---
+
+## Warlock Engine References
+
+* **Class shard:** `class.warlock`
+* **Subclass shards:** `wl.archfey`, `wl.celestial`, `wl.fiend`, `wl.great_old_one`
+
+# Wizard
+
+## Core Wizard Traits
+
+* **Primary Ability:** Intelligence
+* **Hit Die:** d6
+* **Armor:** None
+* **Weapons:** Simple
+* **Saving Throws:** Intelligence, Wisdom
+
+Wizards master spells through study, preparation, and arcane theory.
+
+---
+
+## Wizard Features by Level (Summary)
+
+* **Level 1:** Spellcasting, Ritual Adept, Arcane Recovery, Spellbook
+* **Level 2:** Scholar
+* **Level 3:** Subclass Choice (Arcane Tradition)
+* **Level 4 / 8 / 12 / 16:** Ability Score Improvement
+* **Level 5:** Memorize Spell
+* **Level 18:** Spell Mastery
+* **Level 19:** Epic Boon
+* **Level 20:** Signature Spells
+
+---
+
+## Wizard Subclasses (Arcane Traditions)
+
+* **School of Abjuration** (id: `wizard.abjurer`) - Wards and protection
+* **School of Divination** (id: `wizard.diviner`) - Omens and foresight
+* **School of Evocation** (id: `wizard.evoker`) - Destructive power and precision
+* **School of Illusion** (id: `wizard.illusionist`) - Deception and misdirection
+
+Each tradition grants features at Wizard levels 3, 6, 10, and 14.
+
+---
+
+## Wizard High-Level Features
+
+### Level 18: Spell Mastery
+
+You can cast a pair of low-level spells at will.
+
+### Level 20: Signature Spells
+
+You gain limited free casts of two 3rd-level spells.
+
+---
+
+## Wizard Engine References
+
+* **Class shard:** `class.wizard`
+* **Subclass shards:** `wizard.abjurer`, `wizard.diviner`, `wizard.evoker`, `wizard.illusionist`

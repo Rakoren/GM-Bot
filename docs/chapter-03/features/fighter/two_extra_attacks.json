@@ -1,0 +1,19 @@
+{
+  "id": "feat.fighter.two_extra_attacks",
+  "name": "Two Extra Attacks",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you take the Attack action",
+  "effects": [
+    "you can attack three times instead of once"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      67
+    ],
+    "section": "Two Extra Attacks"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "background.charlatan",
+  "name": "Charlatan",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Charlatan"
+  },
+  "ability_scores": [
+    "Dexterity",
+    "Constitution",
+    "Charisma"
+  ],
+  "origin_feat_ref": "origin_feat.skilled",
+  "skill_proficiencies": [
+    "Deception",
+    "Sleight of Hand"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Forgery Kit"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Forgery Kit",
+        "Costume",
+        "Fine Clothes"
+      ],
+      "gp": 15
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You learned to con and swindle by preying on those seeking a comforting lie. You hawked sham goods and forged records in taverns and markets.",
+  "notes": []
+}

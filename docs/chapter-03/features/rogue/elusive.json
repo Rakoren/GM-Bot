@@ -1,0 +1,19 @@
+{
+  "id": "feat.rogue.elusive",
+  "name": "Elusive",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "no attack roll has advantage against you unless you have the Incapacitated condition"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35
+    ],
+    "section": "Elusive"
+  }
+}

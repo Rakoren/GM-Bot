@@ -1,0 +1,19 @@
+{
+  "id": "feat.bard.jack_of_all_trades",
+  "name": "Jack of All Trades",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you make an ability check that does not include your proficiency bonus",
+  "effects": [
+    "add half your proficiency bonus (round down) to the check"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Jack of All Trades"
+  }
+}

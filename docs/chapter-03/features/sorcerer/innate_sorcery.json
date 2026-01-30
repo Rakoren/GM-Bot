@@ -1,0 +1,27 @@
+{
+  "id": "feat.sorcerer.innate_sorcery",
+  "name": "Innate Sorcery",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you unleash your innate magic",
+  "effects": [
+    "for 1 minute, your sorcerer spell save DC increases by 1",
+    "for 1 minute, you have advantage on attack rolls of sorcerer spells you cast"
+  ],
+  "limits": [
+    "you can use this feature twice and regain all uses when you finish a long rest"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.innate_sorcery",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      46
+    ],
+    "section": "Innate Sorcery"
+  }
+}

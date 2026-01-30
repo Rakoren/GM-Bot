@@ -1,0 +1,20 @@
+{
+  "id": "feat.druid.improved_elemental_fury",
+  "name": "Improved Elemental Fury",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "Potent Spellcasting: when you cast a druid cantrip with range 10 feet or greater, the range increases by 300 feet",
+    "Primal Strike: the extra damage increases to 2d8"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      50
+    ],
+    "section": "Improved Elemental Fury"
+  }
+}

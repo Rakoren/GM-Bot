@@ -1,0 +1,52 @@
+{
+  "id": "species.halfling",
+  "name": "Halfling",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Halfling"
+  },
+  "creature_type": "Humanoid",
+  "size": "Small",
+  "size_notes": "About 2-3 feet tall.",
+  "speed": 30,
+  "traits": [
+    {
+      "name": "Brave",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "advantage on saving throws to avoid or end the frightened condition"
+      ]
+    },
+    {
+      "name": "Halfling Nimbleness",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "you can move through the space of any creature that is a size larger than you, but you cannot stop in the same space"
+      ]
+    },
+    {
+      "name": "Luck",
+      "action_type": "none",
+      "trigger": "when you roll a 1 on the d20 of a D20 Test",
+      "effects": [
+        "you can reroll the die and must use the new roll"
+      ]
+    },
+    {
+      "name": "Naturally Stealthy",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "you can take the Hide action even when you are obscured only by a creature at least one size larger than you"
+      ]
+    }
+  ],
+  "notes": []
+}

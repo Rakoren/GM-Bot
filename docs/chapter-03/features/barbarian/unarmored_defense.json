@@ -1,0 +1,20 @@
+{
+  "id": "feat.barbarian.unarmored_defense",
+  "name": "Unarmored Defense",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "while you are not wearing armor",
+  "effects": [
+    "your base Armor Class equals 10 + your Dexterity modifier + your Constitution modifier",
+    "you can use a shield and still gain this benefit"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Unarmored Defense"
+  }
+}

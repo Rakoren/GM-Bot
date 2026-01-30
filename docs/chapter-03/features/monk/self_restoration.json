@@ -1,0 +1,20 @@
+{
+  "id": "feat.monk.self_restoration",
+  "name": "Self-Restoration",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "at the end of each of your turns",
+  "effects": [
+    "you can remove one of the following conditions from yourself: Charmed, Frightened, or Poisoned",
+    "you do not gain levels of Exhaustion from forgoing food and drink"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      81
+    ],
+    "section": "Self-Restoration"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "feat.fighter.tactical_shift",
+  "name": "Tactical Shift",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you activate Second Wind",
+  "effects": [
+    "you can move up to half your speed without provoking opportunity attacks"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      67
+    ],
+    "section": "Tactical Shift"
+  }
+}

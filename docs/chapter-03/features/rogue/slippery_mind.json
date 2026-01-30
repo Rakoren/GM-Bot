@@ -1,0 +1,19 @@
+{
+  "id": "feat.rogue.slippery_mind",
+  "name": "Slippery Mind",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you gain proficiency in Wisdom and Charisma saving throws"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35
+    ],
+    "section": "Slippery Mind"
+  }
+}

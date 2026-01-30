@@ -1,0 +1,19 @@
+{
+  "id": "feat.monk.empowered_strikes",
+  "name": "Empowered Strikes",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you deal damage with an Unarmed Strike",
+  "effects": [
+    "you can choose for it to deal Force damage instead of its normal damage type"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      80
+    ],
+    "section": "Empowered Strikes"
+  }
+}

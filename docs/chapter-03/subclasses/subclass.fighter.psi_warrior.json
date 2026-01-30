@@ -1,0 +1,109 @@
+﻿{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "fighter.psi_warrior",
+  "parent_class": "class.fighter",
+  "chapter": 3,
+  "title": "Psi Warrior",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      75,
+      81
+    ],
+    "section_hint": "Psi Warrior"
+  },
+  "feature_levels": [
+    3,
+    7,
+    10,
+    15,
+    18
+  ],
+  "features_by_level": {
+    "3": [
+      "psionic_power"
+    ],
+    "7": [
+      "telekinetic_adept"
+    ],
+    "10": [
+      "guarded_mind"
+    ],
+    "15": [
+      "bulwark_of_force"
+    ],
+    "18": [
+      "telekinetic_master"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.fighter.psi_warrior.psionic_power",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain Psionic Energy Dice, which fuel psi warrior powers (see the Psi Warrior Energy Dice table).",
+        "Any feature from this subclass that uses a Psionic Energy Die uses only these dice.",
+        "You can't use a power that requires a Psionic Energy Die if all your dice are expended.",
+        "Protective Field: when you or another creature you can see within 30 feet takes damage, you can use your reaction to expend one Psionic Energy Die, roll it, and reduce the damage by the roll plus your Intelligence modifier (minimum 1).",
+        "Psionic Strike: once on each of your turns, immediately after you hit a target within 30 feet with a weapon attack and deal damage, you can expend one Psionic Energy Die to deal force damage equal to the die roll plus your Intelligence modifier.",
+        "Telekinetic Movement: as a Magic action, choose a target you can see within 30 feet; it must be a loose object (Large or smaller) or one willing creature other than you; you transport it up to 30 feet to an unoccupied space you can see, or if it is Tiny you can move it to or from your hand."
+      ],
+      "limits": [
+        "You regain one expended Psionic Energy Die when you finish a short rest, and you regain all when you finish a long rest.",
+        "After you use Telekinetic Movement, you can't do so again until you finish a short or long rest unless you expend a Psionic Energy Die (no action required) to restore its use."
+      ]
+    },
+    {
+      "id": "feat.fighter.psi_warrior.telekinetic_adept",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Psi-Powered Leap: as a bonus action, you gain a fly speed equal to twice your speed until the end of the current turn.",
+        "Telekinetic Thrust: when you deal damage with your Psionic Strike, you can force the target to make a Strength save (DC 8 + your Intelligence modifier + Proficiency Bonus); on a failed save, you can knock it prone or move it up to 10 feet horizontally."
+      ],
+      "limits": [
+        "After you use Psi-Powered Leap, you can't use it again until you finish a short or long rest unless you expend a Psionic Energy Die (no action required) to restore its use."
+      ]
+    },
+    {
+      "id": "feat.fighter.psi_warrior.guarded_mind",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You have Resistance to Psychic damage.",
+        "If you start your turn with the Charmed or Frightened condition, you can expend a Psionic Energy Die (no action required) to end those effects on yourself."
+      ]
+    },
+    {
+      "id": "feat.fighter.psi_warrior.bulwark_of_force",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "Choose creatures you can see within 30 feet, up to your Intelligence modifier (minimum 1); each has half cover for 1 minute or until you have the Incapacitated condition."
+      ],
+      "limits": [
+        "Once you use this feature, you can't use it again until you finish a long rest unless you expend a Psionic Energy Die (no action required) to restore its use."
+      ]
+    },
+    {
+      "id": "feat.fighter.psi_warrior.telekinetic_master",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have Telekinesis prepared and can cast it without a spell slot or components; Intelligence is your spellcasting ability for it.",
+        "While you maintain concentration on Telekinesis, you can make one weapon attack as a bonus action on each of your turns (including the turn you cast it)."
+      ],
+      "limits": [
+        "Once you cast Telekinesis with this feature, you can't do so again until you finish a long rest unless you expend a Psionic Energy Die (no action required) to restore its use."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for subclass scope and concise clauses."
+  ],
+  "tables": [
+    "table.fighter.psi_warrior_energy_dice"
+  ]
+}

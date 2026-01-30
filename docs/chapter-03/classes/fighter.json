@@ -3,29 +3,105 @@
   "name": "Fighter",
   "chapter": 3,
   "status": "complete",
-
   "primary_ability": "STR_or_DEX",
   "hit_die": "d10",
-  "saving_throws": ["STR", "CON"],
-
+  "saving_throws": [
+    "STR",
+    "CON"
+  ],
   "proficiencies": {
-    "armor": ["light", "medium", "heavy", "shields"],
-    "weapons": ["simple", "martial"]
+    "armor": [
+      "light",
+      "medium",
+      "heavy",
+      "shields"
+    ],
+    "weapons": [
+      "simple",
+      "martial"
+    ]
   },
-
   "spellcasting": null,
-
-  "resources": ["res.second_wind", "res.action_surge"],
-
+  "resources": [
+    "res.second_wind",
+    "res.action_surge"
+  ],
+  "tables": [
+    "table.fighter.class_features"
+  ],
   "features_by_level": {
-    "1": ["fighting_style", "second_wind", "weapon_mastery"],
-    "2": ["action_surge", "tactical_mind"],
-    "3": ["subclass_choice"]
+    "1": [
+      "fighting_style",
+      "second_wind",
+      "weapon_mastery"
+    ],
+    "2": [
+      "action_surge",
+      "tactical_mind"
+    ],
+    "3": [
+      "subclass_choice"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "5": [
+      "extra_attack",
+      "tactical_shift"
+    ],
+    "6": [
+      "ability_score_improvement"
+    ],
+    "7": [
+      "subclass_feature"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "9": [
+      "indomitable",
+      "tactical_master"
+    ],
+    "10": [
+      "subclass_feature"
+    ],
+    "11": [
+      "two_extra_attacks"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "13": [
+      "indomitable",
+      "studied_attacks"
+    ],
+    "14": [
+      "ability_score_improvement"
+    ],
+    "15": [
+      "subclass_feature"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "action_surge",
+      "indomitable"
+    ],
+    "18": [
+      "subclass_feature"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "three_extra_attacks"
+    ]
   },
-
   "subclasses": [
-  "fighter.battle_master", 
-  "fighter.champion", 
-  "fighter.eldritch_knight", 
-  "fighter.psi_warrior"]
+    "fighter.battle_master",
+    "fighter.champion",
+    "fighter.eldritch_knight",
+    "fighter.psi_warrior"
+  ]
 }

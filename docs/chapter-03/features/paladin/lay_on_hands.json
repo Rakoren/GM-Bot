@@ -1,0 +1,28 @@
+{
+  "id": "feat.paladin.lay_on_hands",
+  "name": "Lay On Hands",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you touch a creature to draw from your healing pool",
+  "effects": [
+    "restore hit points up to the amount remaining in your healing pool",
+    "the pool equals five times your Paladin level"
+  ],
+  "limits": [
+    "you regain the pool when you finish a long rest",
+    "you can expend 5 hit points from the pool to remove the Poisoned condition instead of restoring hit points"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.lay_on_hands",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Lay On Hands"
+  }
+}

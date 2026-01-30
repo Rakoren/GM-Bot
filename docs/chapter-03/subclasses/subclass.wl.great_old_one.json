@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "wl.great_old_one",
+  "parent_class": "class.warlock",
+  "chapter": 3,
+  "title": "Great Old One Patron",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      76,
+      78
+    ],
+    "section_hint": "Great Old One Patron"
+  },
+  "feature_levels": [
+    3,
+    6,
+    10,
+    14
+  ],
+  "features_by_level": {
+    "3": [
+      "awakened_mind",
+      "great_old_one_spells",
+      "psychic_spells"
+    ],
+    "6": [
+      "clairvoyant_combatant"
+    ],
+    "10": [
+      "eldritch_hex",
+      "thought_shield"
+    ],
+    "14": [
+      "create_thrall"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.wl.great_old_one.awakened_mind",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "Choose one creature you can see within 30 feet; you and the creature can communicate telepathically while within a number of miles of each other equal to your Charisma modifier (minimum 1 mile).",
+        "You must each know a language the other knows to understand each other.",
+        "The connection lasts for a number of minutes equal to your Warlock level and ends early if you connect with a different creature."
+      ]
+    },
+    {
+      "id": "feat.wl.great_old_one.great_old_one_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have the spells in the Great Old One Spells table prepared at the warlock levels shown."
+      ]
+    },
+    {
+      "id": "feat.wl.great_old_one.psychic_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you cast a warlock spell that deals damage, you can change its damage type to Psychic.",
+        "When you cast a warlock spell that is an enchantment or illusion, you can do so without verbal or somatic components."
+      ]
+    },
+    {
+      "id": "feat.wl.great_old_one.clairvoyant_combatant",
+      "action_type": "none",
+      "trigger": "when you form a telepathic bond with a creature using Awakened Mind",
+      "effects": [
+        "You can force the creature to make a Wisdom saving throw against your spell save DC.",
+        "On a failed save, the creature has disadvantage on attack rolls against you and you have advantage on attack rolls against it for the duration of the bond."
+      ],
+      "limits": [
+        "Once you use this feature, you can’t use it again until you finish a short or long rest unless you expend a Pact Magic spell slot (no action required) to restore its use."
+      ]
+    },
+    {
+      "id": "feat.wl.great_old_one.eldritch_hex",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have Hex prepared.",
+        "When you cast Hex and choose an ability, the target also has disadvantage on saving throws of the chosen ability for the duration of the spell."
+      ]
+    },
+    {
+      "id": "feat.wl.great_old_one.thought_shield",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your thoughts can’t be read by telepathy or other means unless you allow it.",
+        "You have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you take."
+      ]
+    },
+    {
+      "id": "feat.wl.great_old_one.create_thrall",
+      "action_type": "none",
+      "trigger": "when you cast Summon Aberration",
+      "effects": [
+        "You can cast it without concentration; if you do, its duration becomes 1 minute for that casting.",
+        "The summoned aberration gains temporary hit points equal to your Warlock level + your Charisma modifier.",
+        "The first time each turn the aberration hits a creature under your Hex, it deals extra psychic damage equal to Hex’s bonus damage."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized from HTML rules text into concise clauses."
+  ],
+  "tables": [
+    "table.warlock.great_old_one_spells"
+  ]
+}

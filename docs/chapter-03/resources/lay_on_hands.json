@@ -1,0 +1,13 @@
+{
+  "id": "res.lay_on_hands",
+  "name": "Lay On Hands",
+  "chapter": 3,
+  "pool_type": "by_level",
+  "pool": "paladin_level_x5",
+  "recharge": "long_rest",
+  "activation": "bonus_action",
+  "notes": [
+    "paladin_only",
+    "can_spend_5_points_to_end_poisoned"
+  ]
+}

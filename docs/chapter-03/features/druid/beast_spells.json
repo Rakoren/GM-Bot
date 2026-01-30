@@ -1,0 +1,19 @@
+{
+  "id": "feat.druid.beast_spells",
+  "name": "Beast Spells",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "while you are in Wild Shape",
+  "effects": [
+    "you can cast spells in Beast form except for spells with a material component that has a cost or is consumed"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      50
+    ],
+    "section": "Beast Spells"
+  }
+}

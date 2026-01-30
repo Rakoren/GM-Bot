@@ -1,0 +1,19 @@
+{
+  "id": "feat.barbarian.fast_movement",
+  "name": "Fast Movement",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "while you are not wearing Heavy armor",
+  "effects": [
+    "your speed increases by 10 feet"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Fast Movement"
+  }
+}

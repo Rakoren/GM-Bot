@@ -1,0 +1,25 @@
+{
+  "id": "feat.barbarian.brutal_strike",
+  "name": "Brutal Strike",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you use Reckless Attack",
+  "effects": [
+    "you can forgo advantage on one Strength-based attack roll on your turn (must not have disadvantage)",
+    "if the chosen attack hits, it deals an extra 1d10 damage of the same type as the weapon or Unarmed Strike",
+    "choose one Brutal Strike effect: Forceful Blow or Hamstring Blow"
+  ],
+  "limits": [
+    "Forceful Blow: the target is pushed 15 feet straight away; you may move up to half your Speed straight toward it without provoking opportunity attacks",
+    "Hamstring Blow: the target's Speed is reduced by 15 feet until the start of your next turn; only one Hamstring Blow affects a target at a time"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Brutal Strike"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "feat.barbarian.relentless_rage",
+  "name": "Relentless Rage",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you drop to 0 hit points while your Rage is active and do not die outright",
+  "effects": [
+    "make a DC 10 Constitution saving throw; on success, your hit points become twice your Barbarian level"
+  ],
+  "limits": [
+    "each time you use this feature after the first, the DC increases by 5",
+    "the DC resets to 10 when you finish a short or long rest"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Relentless Rage"
+  }
+}

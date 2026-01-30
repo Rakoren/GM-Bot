@@ -1,0 +1,29 @@
+{
+  "id": "feat.fighter.tactical_mind",
+  "name": "Tactical Mind",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you fail an ability check",
+  "effects": [
+    "you can expend a use of Second Wind to add 1d10 to the check",
+    "if the check still fails, the use of Second Wind is not expended"
+  ],
+  "limits": [
+    "expends Second Wind only on success"
+  ],
+  "notes": [
+    "This feature replaces the healing effect of Second Wind for that use."
+  ],
+  "resource_cost": {
+    "resource_id": "res.second_wind",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66
+    ],
+    "section": "Tactical Mind"
+  }
+}

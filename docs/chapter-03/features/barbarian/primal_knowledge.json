@@ -1,0 +1,20 @@
+{
+  "id": "feat.barbarian.primal_knowledge",
+  "name": "Primal Knowledge",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "gain proficiency in one skill from the Barbarian level 1 skill list",
+    "while raging, you can make Acrobatics, Intimidation, Perception, Stealth, or Survival checks as Strength checks"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Primal Knowledge"
+  }
+}

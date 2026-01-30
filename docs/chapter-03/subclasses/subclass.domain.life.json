@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "domain.life",
+  "parent_class": "class.cleric",
+  "chapter": 3,
+  "title": "Life Domain",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      41,
+      42
+    ],
+    "section_hint": "Life Domain"
+  },
+  "feature_levels": [
+    3,
+    6,
+    17
+  ],
+  "features_by_level": {
+    "3": [
+      "disciple_of_life",
+      "life_domain_spells",
+      "preserve_life"
+    ],
+    "6": [
+      "blessed_healer"
+    ],
+    "17": [
+      "supreme_healing"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.domain.life.disciple_of_life",
+      "action_type": "none",
+      "trigger": "when you cast a spell with a spell slot that restores hit points",
+      "effects": [
+        "The creature regains additional hit points equal to 2 + the spell slot’s level."
+      ]
+    },
+    {
+      "id": "feat.domain.life.life_domain_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have the spells in the Life Domain Spells table prepared at the cleric levels shown."
+      ]
+    },
+    {
+      "id": "feat.domain.life.preserve_life",
+      "action_type": "action",
+      "trigger": "as a magic action",
+      "effects": [
+        "You expend one use of Channel Divinity to restore a total of hit points equal to five times your cleric level.",
+        "Choose bloodied creatures within 30 feet (including you) and divide the healing among them."
+      ],
+      "limits": [
+        "This feature can restore a creature to no more than half its hit point maximum."
+      ]
+    },
+    {
+      "id": "feat.domain.life.blessed_healer",
+      "action_type": "none",
+      "trigger": "immediately after you cast a spell with a spell slot that restores hit points to one or more creatures other than yourself",
+      "effects": [
+        "You regain hit points equal to 2 + the spell slot’s level."
+      ]
+    },
+    {
+      "id": "feat.domain.life.supreme_healing",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you roll dice to determine the number of hit points you restore with a spell, you use the highest number possible for each die."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ]
+}

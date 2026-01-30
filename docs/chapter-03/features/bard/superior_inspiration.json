@@ -1,0 +1,19 @@
+{
+  "id": "feat.bard.superior_inspiration",
+  "name": "Superior Inspiration",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you roll initiative",
+  "effects": [
+    "you regain expended uses of Bardic Inspiration until you have two if you have fewer than that"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Superior Inspiration"
+  }
+}

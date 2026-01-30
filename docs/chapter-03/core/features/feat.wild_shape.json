@@ -1,0 +1,32 @@
+{
+  "type": "feature",
+  "id": "feat.wild_shape",
+  "name": "Wild Shape",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "rules": [
+    "Transform into a known Beast form for a number of hours equal to half your druid level.",
+    "You gain temporary hit points equal to your druid level when you assume a form.",
+    "Your game statistics are replaced by the Beast stat block, but you retain your creature type, hit points, hit dice, Intelligence, Wisdom, Charisma, class features, languages, feats, and proficiencies (use the higher value).",
+    "You cannot cast spells while in Beast form, but you can maintain concentration.",
+    "You choose whether equipment falls, merges, or is worn; merged gear has no effect."
+  ],
+  "limits": [
+    "Uses per class table; regain one use on a short rest and all uses on a long rest.",
+    "Known forms and maximum CR increase at higher levels; Fly speed forms unlock at level 8.",
+    "You can end the form early as a bonus action."
+  ],
+  "notes": [
+    "See the Beast Shapes table for known forms and max CR scaling."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      49,
+      50
+    ],
+    "section": "Wild Shape"
+  },
+  "trigger": "when you choose to transform into a known Beast form"
+}

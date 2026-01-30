@@ -1,0 +1,98 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "oath.devotion",
+  "parent_class": "class.paladin",
+  "chapter": 3,
+  "title": "Oath of Devotion",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11,
+      12
+    ],
+    "section_hint": "Oath of Devotion"
+  },
+  "feature_levels": [
+    3,
+    7,
+    15,
+    20
+  ],
+  "features_by_level": {
+    "3": [
+      "oath_of_devotion_spells",
+      "sacred_weapon"
+    ],
+    "7": [
+      "aura_of_devotion"
+    ],
+    "15": [
+      "smite_of_protection"
+    ],
+    "20": [
+      "holy_nimbus"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.oath.devotion.oath_of_devotion_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have the spells in the Oath of Devotion Spells table prepared at the paladin levels shown."
+      ]
+    },
+    {
+      "id": "feat.oath.devotion.sacred_weapon",
+      "action_type": "action",
+      "trigger": "as a magic action",
+      "effects": [
+        "You can imbue one weapon that you are holding with sacred power.",
+        "For 10 minutes, you add your Charisma modifier to attack rolls made with that weapon, and the weapon emits bright light in a 20-foot radius and dim light for 20 more feet.",
+        "You can end the effect early (no action required)."
+      ],
+      "limits": [
+        "Once you use this feature, you can't use it again until you finish a short or long rest."
+      ]
+    },
+    {
+      "id": "feat.oath.devotion.aura_of_devotion",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You and your allies are immune to the Charmed condition while in your Aura of Protection.",
+        "If a charmed ally enters the aura, that condition has no effect on that ally while there."
+      ]
+    },
+    {
+      "id": "feat.oath.devotion.smite_of_protection",
+      "action_type": "none",
+      "trigger": "when you cast Divine Smite",
+      "effects": [
+        "You and your allies have half cover while in your Aura of Protection until the start of your next turn."
+      ]
+    },
+    {
+      "id": "feat.oath.devotion.holy_nimbus",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "You imbue your Aura of Protection with holy power for 10 minutes (or until you end it).",
+        "Holy Ward: you have advantage on saving throws forced by fiends or undead.",
+        "Radiant Damage: when an enemy starts its turn in the aura, it takes radiant damage equal to your Charisma modifier + your Proficiency Bonus.",
+        "Sunlight: the aura is filled with bright light that is sunlight."
+      ],
+      "limits": [
+        "Once you use this feature, you can't use it again until you finish a long rest.",
+        "You can restore your use of this feature by expending a level 5 spell slot (no action required)."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ],
+  "tables": [
+    "table.paladin.oath_devotion_spells"
+  ]
+}

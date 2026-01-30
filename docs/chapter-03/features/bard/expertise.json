@@ -1,0 +1,22 @@
+{
+  "id": "feat.bard.expertise",
+  "name": "Expertise",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "choose two skill proficiencies; you gain Expertise in them"
+  ],
+  "limits": [
+    "at bard level 9, you gain Expertise in two additional skill proficiencies"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Expertise"
+  }
+}

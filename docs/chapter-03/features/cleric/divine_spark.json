@@ -1,0 +1,29 @@
+{
+  "id": "feat.cleric.divine_spark",
+  "name": "Divine Spark",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "action",
+  "trigger": "when you present your holy symbol to a creature within 30 feet",
+  "effects": [
+    "roll 1d8 and add your Wisdom modifier",
+    "either restore hit points to the creature equal to the total or force it to make a Constitution saving throw",
+    "on a failed save, it takes necrotic or radiant damage (your choice) equal to the total; on a success, it takes half damage (round down)"
+  ],
+  "limits": [
+    "uses Channel Divinity",
+    "damage/healing scales to 2d8 at cleric level 7, 3d8 at level 13, and 4d8 at level 18"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.channel_divinity.cleric",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35
+    ],
+    "section": "Divine Spark"
+  }
+}

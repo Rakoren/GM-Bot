@@ -1,0 +1,18 @@
+{
+  "id": "feat.warlock.mystic_arcanum_7",
+  "name": "Mystic Arcanum (7th-level)",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you gain this feature",
+  "effects": [
+    "choose one 7th-level warlock spell as your arcanum",
+    "you can cast that spell once without expending a spell slot"
+  ],
+  "limits": [
+    "you regain the ability to cast your arcanum when you finish a long rest"
+  ],
+  "notes": [
+    "Changing arcanum spells follows the Mystic Arcanum feature rules."
+  ]
+}

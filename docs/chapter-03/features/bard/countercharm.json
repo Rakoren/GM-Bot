@@ -1,0 +1,19 @@
+{
+  "id": "feat.bard.countercharm",
+  "name": "Countercharm",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "reaction",
+  "trigger": "when you or a creature within 30 feet fails a saving throw against an effect that applies the Charmed or Frightened condition",
+  "effects": [
+    "the creature rerolls the saving throw with advantage"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Countercharm"
+  }
+}

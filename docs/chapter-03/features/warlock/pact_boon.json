@@ -1,0 +1,15 @@
+{
+  "id": "feat.warlock.pact_boon",
+  "name": "Pact Boon",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you gain a Pact Boon",
+  "effects": [
+    "choose a Pact Boon option",
+    "you gain the benefits of the chosen boon and can take invocations that require it"
+  ],
+  "notes": [
+    "Pact Boon options are modeled as invocations (Pact of the Blade, Chain, Tome)."
+  ]
+}

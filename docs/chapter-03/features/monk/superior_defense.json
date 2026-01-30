@@ -1,0 +1,26 @@
+{
+  "id": "feat.monk.superior_defense",
+  "name": "Superior Defense",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "at the start of your turn",
+  "effects": [
+    "you can expend 3 Focus Points to gain resistance to all damage except Force for 1 minute or until you have the Incapacitated condition"
+  ],
+  "limits": [
+    "costs 3 Focus Points"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.focus_points",
+    "cost": 3
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      81
+    ],
+    "section": "Superior Defense"
+  }
+}

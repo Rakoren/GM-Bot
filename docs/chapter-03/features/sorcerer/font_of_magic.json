@@ -1,0 +1,27 @@
+{
+  "id": "feat.sorcerer.font_of_magic",
+  "name": "Font of Magic",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you gain Sorcery Points as shown on the class table",
+    "you regain all expended Sorcery Points when you finish a long rest",
+    "you can convert spell slots into Sorcery Points (no action)",
+    "you can create spell slots as a bonus action using Sorcery Points (see class table); created slots vanish on long rest"
+  ],
+  "limits": [
+    "you cannot have more Sorcery Points than the number shown for your level",
+    "you can create spell slots no higher than level 5"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      46,
+      47
+    ],
+    "section": "Font of Magic"
+  }
+}

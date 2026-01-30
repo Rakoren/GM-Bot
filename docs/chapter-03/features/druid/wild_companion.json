@@ -1,0 +1,23 @@
+{
+  "id": "feat.druid.wild_companion",
+  "name": "Wild Companion",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "action",
+  "trigger": "when you expend a spell slot or a use of Wild Shape to summon a nature spirit",
+  "effects": [
+    "you cast Find Familiar without material components",
+    "the familiar is Fey and disappears when you finish a long rest"
+  ],
+  "limits": [
+    "requires expending a spell slot or a use of Wild Shape"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      50
+    ],
+    "section": "Wild Companion"
+  }
+}

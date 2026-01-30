@@ -1,0 +1,19 @@
+{
+  "id": "feat.rogue.improved_cunning_strike",
+  "name": "Improved Cunning Strike",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you deal Sneak Attack damage",
+  "effects": [
+    "you can use up to two Cunning Strike effects, paying the die cost for each"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      34
+    ],
+    "section": "Improved Cunning Strike"
+  }
+}

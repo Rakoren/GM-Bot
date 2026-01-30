@@ -1,0 +1,319 @@
+{
+  "id": "table.maneuvers.battle_master",
+  "name": "Battle Master Maneuvers",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player\u00e2\u20ac\u2122s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      69,
+      71
+    ],
+    "section": "Maneuver Options"
+  },
+  "entry_schema": {
+    "type": "maneuver_option",
+    "fields": [
+      "id",
+      "name",
+      "action_type",
+      "trigger",
+      "effects",
+      "limits",
+      "resource_cost"
+    ]
+  },
+  "entries": [
+    {
+      "id": "maneuver.ambush",
+      "name": "Ambush",
+      "action_type": "none",
+      "trigger": "when you make a Dexterity (Stealth) check or an Initiative roll",
+      "effects": [
+        "expend one Superiority Die and add the die to the roll"
+      ],
+      "limits": [
+        "you must not have the Incapacitated condition"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.bait_and_switch",
+      "name": "Bait and Switch",
+      "action_type": "none",
+      "trigger": "when you're within 5 feet of a creature on your turn",
+      "effects": [
+        "expend one Superiority Die and switch places with the creature after spending at least 5 feet of movement",
+        "this movement does not provoke Opportunity Attacks",
+        "roll the Superiority Die; until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled"
+      ],
+      "limits": [
+        "the creature must be willing and not have the Incapacitated condition"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.commanders_strike",
+      "name": "Commander's Strike",
+      "action_type": "none",
+      "trigger": "when you take the Attack action on your turn",
+      "effects": [
+        "replace one of your attacks to direct a willing creature who can see or hear you to strike",
+        "the creature can immediately use its Reaction to make one attack with a weapon or an Unarmed Strike",
+        "on a hit, add the Superiority Die to the attack damage roll"
+      ],
+      "limits": [
+        "the creature must be willing and able to take a Reaction"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.commanding_presence",
+      "name": "Commanding Presence",
+      "action_type": "none",
+      "trigger": "when you make a Charisma (Intimidation, Performance, or Persuasion) check",
+      "effects": [
+        "expend one Superiority Die and add the die to the roll"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.disarming_attack",
+      "name": "Disarming Attack",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack roll",
+      "effects": [
+        "expend one Superiority Die and add the die to the attack damage roll",
+        "the target must succeed on a Strength saving throw or drop one object of your choice that it is holding; the object lands in its space"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.distracting_strike",
+      "name": "Distracting Strike",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack roll",
+      "effects": [
+        "expend one Superiority Die and add the die to the attack damage roll",
+        "the next attack roll against the target by an attacker other than you has advantage if made before the start of your next turn"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.evasive_footwork",
+      "name": "Evasive Footwork",
+      "action_type": "bonus_action",
+      "trigger": "when you choose to move defensively",
+      "effects": [
+        "expend one Superiority Die and take the Disengage action",
+        "roll the Superiority Die and add the number rolled to your AC until the start of your next turn"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.feinting_attack",
+      "name": "Feinting Attack",
+      "action_type": "bonus_action",
+      "trigger": "when you feint against a creature within 5 feet of you",
+      "effects": [
+        "expend one Superiority Die to gain advantage on your next attack roll against that target this turn",
+        "if that attack hits, add the Superiority Die to the attack damage roll"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.goading_attack",
+      "name": "Goading Attack",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack roll",
+      "effects": [
+        "expend one Superiority Die and add the die to the attack damage roll",
+        "the target must succeed on a Wisdom saving throw or have disadvantage on attack rolls against targets other than you until the end of your next turn"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.lunging_attack",
+      "name": "Lunging Attack",
+      "action_type": "bonus_action",
+      "trigger": "when you choose to lunge",
+      "effects": [
+        "expend one Superiority Die and take the Dash action",
+        "if you move at least 5 feet in a straight line immediately before hitting with a melee attack as part of the Attack action this turn, add the Superiority Die to the attack damage roll"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.maneuvering_attack",
+      "name": "Maneuvering Attack",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack roll",
+      "effects": [
+        "expend one Superiority Die and add the die to the attack damage roll",
+        "choose a willing creature who can see or hear you; that creature can use its Reaction to move up to half its Speed without provoking Opportunity Attacks from the target of your attack"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.menacing_attack",
+      "name": "Menacing Attack",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack roll",
+      "effects": [
+        "expend one Superiority Die and add the die to the attack damage roll",
+        "the target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.parry",
+      "name": "Parry",
+      "action_type": "reaction",
+      "trigger": "when another creature damages you with a melee attack roll",
+      "effects": [
+        "expend one Superiority Die and reduce the damage by the number you roll on the Superiority Die plus your Strength or Dexterity modifier (your choice)"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.precision_attack",
+      "name": "Precision Attack",
+      "action_type": "none",
+      "trigger": "when you miss with an attack roll",
+      "effects": [
+        "expend one Superiority Die, roll it, and add it to the attack roll, potentially causing the attack to hit"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.pushing_attack",
+      "name": "Pushing Attack",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack roll using a weapon or an Unarmed Strike",
+      "effects": [
+        "expend one Superiority Die and add the die to the attack damage roll",
+        "if the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.rally",
+      "name": "Rally",
+      "action_type": "bonus_action",
+      "trigger": "when you bolster a companion",
+      "effects": [
+        "expend one Superiority Die and choose an ally within 30 feet who can see or hear you",
+        "the ally gains Temporary Hit Points equal to the Superiority Die roll plus half your Fighter level (round down)"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.riposte",
+      "name": "Riposte",
+      "action_type": "reaction",
+      "trigger": "when a creature misses you with a melee attack roll",
+      "effects": [
+        "expend one Superiority Die to make a melee attack roll with a weapon or an Unarmed Strike against the creature",
+        "if you hit, add the Superiority Die to the attack damage roll"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.sweeping_attack",
+      "name": "Sweeping Attack",
+      "action_type": "none",
+      "trigger": "when you hit a creature with a melee attack roll using a weapon or an Unarmed Strike",
+      "effects": [
+        "expend one Superiority Die to attempt to damage another creature",
+        "choose another creature within 5 feet of the original target and within your reach",
+        "if the original attack roll would hit the second creature, it takes damage equal to the Superiority Die roll",
+        "the damage is of the same type dealt by the original attack"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.tactical_assessment",
+      "name": "Tactical Assessment",
+      "action_type": "none",
+      "trigger": "when you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check",
+      "effects": [
+        "expend one Superiority Die and add the die to the ability check"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    },
+    {
+      "id": "maneuver.trip_attack",
+      "name": "Trip Attack",
+      "action_type": "none",
+      "trigger": "when you hit a creature with an attack roll using a weapon or an Unarmed Strike",
+      "effects": [
+        "expend one Superiority Die and add the die to the attack damage roll",
+        "if the target is Large or smaller, it must succeed on a Strength saving throw or have the Prone condition"
+      ],
+      "resource_cost": {
+        "resource_id": "res.superiority_dice",
+        "cost": 1
+      }
+    }
+  ],
+  "notes": [
+    "All maneuvers require expending one Superiority Die unless otherwise noted."
+  ]
+}

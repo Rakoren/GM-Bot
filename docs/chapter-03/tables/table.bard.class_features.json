@@ -1,0 +1,446 @@
+{
+  "id": "table.bard.class_features",
+  "name": "Bard Features Table",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      17,
+      18
+    ],
+    "section": "Bard Features"
+  },
+  "entry_schema": {
+    "type": "class_features_table",
+    "fields": [
+      "level",
+      "proficiency_bonus",
+      "class_features",
+      "bardic_die",
+      "cantrips",
+      "prepared_spells",
+      "spell_slots"
+    ]
+  },
+  "entries": [
+    {
+      "level": 1,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "bardic_inspiration",
+        "spellcasting"
+      ],
+      "bardic_die": "d6",
+      "cantrips": 2,
+      "prepared_spells": 4,
+      "spell_slots": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 2,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "expertise",
+        "jack_of_all_trades"
+      ],
+      "bardic_die": "d6",
+      "cantrips": 2,
+      "prepared_spells": 5,
+      "spell_slots": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 3,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "subclass_choice"
+      ],
+      "bardic_die": "d6",
+      "cantrips": 2,
+      "prepared_spells": 6,
+      "spell_slots": {
+        "1": 4,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 4,
+      "proficiency_bonus": 2,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "bardic_die": "d6",
+      "cantrips": 3,
+      "prepared_spells": 7,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 5,
+      "proficiency_bonus": 3,
+      "class_features": [
+        "font_of_inspiration"
+      ],
+      "bardic_die": "d8",
+      "cantrips": 3,
+      "prepared_spells": 9,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 6,
+      "proficiency_bonus": 3,
+      "class_features": [
+        "subclass_feature"
+      ],
+      "bardic_die": "d8",
+      "cantrips": 3,
+      "prepared_spells": 10,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 7,
+      "proficiency_bonus": 3,
+      "class_features": [
+        "countercharm"
+      ],
+      "bardic_die": "d8",
+      "cantrips": 3,
+      "prepared_spells": 11,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 8,
+      "proficiency_bonus": 3,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "bardic_die": "d8",
+      "cantrips": 3,
+      "prepared_spells": 12,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 9,
+      "proficiency_bonus": 4,
+      "class_features": [
+        "expertise"
+      ],
+      "bardic_die": "d8",
+      "cantrips": 3,
+      "prepared_spells": 14,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 10,
+      "proficiency_bonus": 4,
+      "class_features": [
+        "magical_secrets"
+      ],
+      "bardic_die": "d10",
+      "cantrips": 4,
+      "prepared_spells": 15,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 11,
+      "proficiency_bonus": 4,
+      "class_features": [],
+      "bardic_die": "d10",
+      "cantrips": 4,
+      "prepared_spells": 16,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 12,
+      "proficiency_bonus": 4,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "bardic_die": "d10",
+      "cantrips": 4,
+      "prepared_spells": 16,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 13,
+      "proficiency_bonus": 5,
+      "class_features": [],
+      "bardic_die": "d10",
+      "cantrips": 4,
+      "prepared_spells": 17,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 14,
+      "proficiency_bonus": 5,
+      "class_features": [
+        "subclass_feature"
+      ],
+      "bardic_die": "d10",
+      "cantrips": 4,
+      "prepared_spells": 17,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 0,
+        "9": 0
+      }
+    },
+    {
+      "level": 15,
+      "proficiency_bonus": 5,
+      "class_features": [],
+      "bardic_die": "d12",
+      "cantrips": 4,
+      "prepared_spells": 18,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "level": 16,
+      "proficiency_bonus": 5,
+      "class_features": [
+        "ability_score_improvement"
+      ],
+      "bardic_die": "d12",
+      "cantrips": 4,
+      "prepared_spells": 18,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 0
+      }
+    },
+    {
+      "level": 17,
+      "proficiency_bonus": 6,
+      "class_features": [],
+      "bardic_die": "d12",
+      "cantrips": 4,
+      "prepared_spells": 19,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      }
+    },
+    {
+      "level": 18,
+      "proficiency_bonus": 6,
+      "class_features": [
+        "superior_inspiration"
+      ],
+      "bardic_die": "d12",
+      "cantrips": 4,
+      "prepared_spells": 20,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      }
+    },
+    {
+      "level": 19,
+      "proficiency_bonus": 6,
+      "class_features": [
+        "epic_boon"
+      ],
+      "bardic_die": "d12",
+      "cantrips": 4,
+      "prepared_spells": 21,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      }
+    },
+    {
+      "level": 20,
+      "proficiency_bonus": 6,
+      "class_features": [
+        "words_of_creation"
+      ],
+      "bardic_die": "d12",
+      "cantrips": 4,
+      "prepared_spells": 22,
+      "spell_slots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 2,
+        "7": 2,
+        "8": 1,
+        "9": 1
+      }
+    }
+  ],
+  "notes": [
+    "Class features are identifiers aligned to feature shards where possible.",
+    "Spell slots follow the Bard Features table; values are counts per spell level."
+  ]
+}

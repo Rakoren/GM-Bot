@@ -1,0 +1,73 @@
+﻿{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "college.valor",
+  "parent_class": "class.bard",
+  "chapter": 3,
+  "title": "College of Valor",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      30,
+      31
+    ],
+    "section_hint": "College of Valor"
+  },
+  "feature_levels": [
+    3,
+    6,
+    14
+  ],
+  "features_by_level": {
+    "3": [
+      "combat_inspiration",
+      "martial_training"
+    ],
+    "6": [
+      "extra_attack"
+    ],
+    "14": [
+      "battle_magic"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.college.valor.combat_inspiration",
+      "action_type": "none",
+      "trigger": "when a creature has one of your bardic inspiration dice",
+      "effects": [
+        "Defense: when the creature is hit by an attack roll, it can use its reaction to roll the bardic inspiration die and add the number to its AC for that attack.",
+        "Offense: immediately after the creature hits with an attack roll, it can roll the bardic inspiration die and add the number to the attackâ€™s damage."
+      ]
+    },
+    {
+      "id": "feat.college.valor.martial_training",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain proficiency with martial weapons and training with medium armor and shields.",
+        "You can use a simple or martial weapon as a spellcasting focus for bard spells."
+      ]
+    },
+    {
+      "id": "feat.college.valor.extra_attack",
+      "action_type": "none",
+      "trigger": "when you take the attack action on your turn",
+      "effects": [
+        "You can attack twice instead of once.",
+        "You can cast a bard cantrip with a casting time of 1 action in place of one of those attacks."
+      ]
+    },
+    {
+      "id": "feat.college.valor.battle_magic",
+      "action_type": "bonus_action",
+      "trigger": "after you cast a spell with a casting time of 1 action",
+      "effects": [
+        "You can make one weapon attack."
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for subclass scope and concise clauses."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "table.ranger.feywild_gifts",
+  "name": "Feywild Gifts",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      26
+    ],
+    "section": "Feywild Gifts"
+  },
+  "entry_schema": {
+    "type": "roll_table",
+    "fields": [
+      "roll",
+      "gift"
+    ]
+  },
+  "entries": [
+    {
+      "roll": "1",
+      "gift": "Illusory butterflies flutter around you while you take a Short or Long Rest."
+    },
+    {
+      "roll": "2",
+      "gift": "Flowers bloom from your hair each dawn."
+    },
+    {
+      "roll": "3",
+      "gift": "You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice."
+    },
+    {
+      "roll": "4",
+      "gift": "Your shadow dances while no one is looking directly at it."
+    },
+    {
+      "roll": "5",
+      "gift": "Horns or antlers sprout from your head."
+    },
+    {
+      "roll": "6",
+      "gift": "Your skin and hair change color each dawn."
+    }
+  ],
+  "notes": [
+    "Roll 1d6 or choose a gift when you gain the Fey Wanderer feature."
+  ]
+}

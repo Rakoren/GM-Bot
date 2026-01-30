@@ -1,0 +1,21 @@
+{
+  "id": "feat.rogue.sneak_attack",
+  "name": "Sneak Attack",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "once per turn when you hit with a Finesse or Ranged weapon attack",
+  "effects": [
+    "deal extra damage equal to your Sneak Attack dice if you have advantage on the attack roll",
+    "you can also deal Sneak Attack if an ally is within 5 feet of the target, the ally is not incapacitated, and you do not have disadvantage",
+    "the extra damage is the same type as the weapon and scales by Rogue level"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      33
+    ],
+    "section": "Sneak Attack"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "circle.sea",
+  "parent_class": "class.druid",
+  "chapter": 3,
+  "title": "Circle of the Sea",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      60,
+      67
+    ],
+    "section_hint": "Circle of the Sea"
+  },
+  "feature_levels": [
+    3,
+    6,
+    10,
+    14
+  ],
+  "features_by_level": {
+    "3": [
+      "circle_of_the_sea_spells",
+      "wrath_of_the_sea"
+    ],
+    "6": [
+      "aquatic_affinity"
+    ],
+    "10": [
+      "stormborn"
+    ],
+    "14": [
+      "oceanic_gift"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.circle.sea.circle_of_the_sea_spells",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You always have the spells in the Circle of the Sea Spells table prepared at the druid levels shown."
+      ]
+    },
+    {
+      "id": "feat.circle.sea.wrath_of_the_sea",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "You expend one use of Wild Shape to manifest a 5-foot emanation of ocean spray for 10 minutes.",
+        "When you manifest it and as a bonus action on subsequent turns, choose a creature you can see in the emanation; it makes a Constitution save against your spell save DC or takes cold damage and (if Large or smaller) is pushed up to 15 feet away.",
+        "Damage equals a number of d6s equal to your Wisdom modifier (minimum 1)."
+      ],
+      "limits": [
+        "The emanation ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition."
+      ],
+      "notes": [
+        "saving throw DC formula noted in effects"
+      ]
+    },
+    {
+      "id": "feat.circle.sea.aquatic_affinity",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your Wrath of the Sea emanation increases to 10 feet.",
+        "You gain a swim speed equal to your speed."
+      ]
+    },
+    {
+      "id": "feat.circle.sea.stormborn",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "While Wrath of the Sea is active, you gain a fly speed equal to your speed.",
+        "You have resistance to cold, lightning, and thunder damage."
+      ]
+    },
+    {
+      "id": "feat.circle.sea.oceanic_gift",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You can manifest Wrath of the Sea around one willing creature within 60 feet instead of yourself; it uses your spell save DC and Wisdom modifier.",
+        "If you expend two uses of Wild Shape, you can manifest it around both the creature and yourself."
+      ],
+      "notes": [
+        "saving throw DC formula noted in effects"
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ],
+  "tables": [
+    "table.druid.circle_sea_spells"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "feat.paladin.paladins_smite",
+  "name": "Paladin's Smite",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you always have Divine Smite prepared",
+    "you can cast Divine Smite once without expending a spell slot"
+  ],
+  "limits": [
+    "you regain the free use when you finish a long rest"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.divine_smite.free",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Paladin's Smite"
+  }
+}

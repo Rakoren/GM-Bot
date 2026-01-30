@@ -1,0 +1,46 @@
+{
+  "id": "table.druid.beast_shapes",
+  "name": "Beast Shapes",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      49
+    ],
+    "section": "Beast Shapes"
+  },
+  "entry_schema": {
+    "type": "beast_shapes_table",
+    "fields": [
+      "druid_level",
+      "known_forms",
+      "max_cr",
+      "fly_speed"
+    ]
+  },
+  "entries": [
+    {
+      "druid_level": 2,
+      "known_forms": 4,
+      "max_cr": "1/4",
+      "fly_speed": "no"
+    },
+    {
+      "druid_level": 4,
+      "known_forms": 6,
+      "max_cr": "1/2",
+      "fly_speed": "no"
+    },
+    {
+      "druid_level": 8,
+      "known_forms": 8,
+      "max_cr": "1",
+      "fly_speed": "yes"
+    }
+  ],
+  "notes": [
+    "This table controls Wild Shape known forms and max CR progression.",
+    "Fly Speed becomes available starting at level 8."
+  ]
+}

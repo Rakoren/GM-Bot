@@ -1,11 +1,11 @@
 {
+  "$schema": "../../../schemas/chapter-03.core.schema.json",
   "type": "core_pack",
   "core_id": "phb2024.chapter03.core.features",
   "core_version": "0.5.0",
   "chapter": 3,
   "title": "Core Feature Definitions",
   "status": "active",
-
   "feature_refs": [
     "feat.rage",
     "feat.bardic_inspiration",
@@ -19,16 +19,13 @@
     "feat.evasion",
     "feat.metamagic",
     "feat.warlock.pact_magic",
-
     "feat.ability_score_improvement",
-    "feat.spellcasting",
     "feat.extra_attack",
     "feat.epic_boon",
     "feat.subclass_choice",
     "feat.weapon_mastery",
     "feat.fighting_style"
   ],
-
   "notes": [
     "This file is an index of reusable feature shards used by Chapter 3 classes/subclasses.",
     "Each feature is defined in its own feat.* shard JSON file."

@@ -1,0 +1,19 @@
+{
+  "id": "feat.barbarian.feral_instinct",
+  "name": "Feral Instinct",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you have advantage on initiative rolls"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Feral Instinct"
+  }
+}

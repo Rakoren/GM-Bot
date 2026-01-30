@@ -1,0 +1,55 @@
+{
+  "id": "table.sorcerer.clockwork_spells",
+  "name": "Clockwork Spells",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      56
+    ],
+    "section": "Clockwork Spells"
+  },
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "sorcerer_level",
+      "spells"
+    ]
+  },
+  "entries": [
+    {
+      "sorcerer_level": 3,
+      "spells": [
+        "Aid",
+        "Alarm",
+        "Lesser Restoration",
+        "Protection from Evil and Good"
+      ]
+    },
+    {
+      "sorcerer_level": 5,
+      "spells": [
+        "Dispel Magic",
+        "Protection from Energy"
+      ]
+    },
+    {
+      "sorcerer_level": 7,
+      "spells": [
+        "Freedom of Movement",
+        "Summon Construct"
+      ]
+    },
+    {
+      "sorcerer_level": 9,
+      "spells": [
+        "Greater Restoration",
+        "Wall of Force"
+      ]
+    }
+  ],
+  "notes": [
+    "These spells are always prepared."
+  ]
+}

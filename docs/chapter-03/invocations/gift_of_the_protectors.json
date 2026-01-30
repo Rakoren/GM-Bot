@@ -1,0 +1,27 @@
+{
+  "id": "inv.gift_of_the_protectors",
+  "name": "Gift of the Protectors",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=9",
+    "inv.pact_of_the_tome"
+  ],
+  "effects": [
+    "a new page appears in your Book of Shadows when you conjure it",
+    "with your permission, a creature can take an action to write its name on the page; the page can contain a number of names equal to your Charisma modifier (minimum of one)",
+    "when a creature whose name is on the page is reduced to 0 hit points but not killed outright, it instead drops to 1 hit point",
+    "as a Magic action, you can erase a name on the page by touching it"
+  ],
+  "notes": [
+    "Once this magic is triggered, no creature can benefit from it until you finish a long rest."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "background.guide",
+  "name": "Guide",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5,
+      6
+    ],
+    "section": "Guide"
+  },
+  "ability_scores": [
+    "Dexterity",
+    "Constitution",
+    "Wisdom"
+  ],
+  "origin_feat_ref": "origin_feat.magic_initiate_druid",
+  "skill_proficiencies": [
+    "Stealth",
+    "Survival"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Cartographer's Tools"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Shortbow",
+        "20 Arrows",
+        "Cartographer's Tools",
+        "Bedroll",
+        "Quiver",
+        "Tent",
+        "Traveler's Clothes"
+      ],
+      "gp": 3
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You came of age outdoors, exploring wilds and guiding others through them. Friendly nature priests taught you the basics of channeling the wild.",
+  "notes": []
+}

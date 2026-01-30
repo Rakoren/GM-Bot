@@ -1,0 +1,49 @@
+{
+  "id": "table.druid.star_map",
+  "name": "Star Map",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      62
+    ],
+    "section": "Star Map"
+  },
+  "entry_schema": {
+    "type": "roll_table",
+    "fields": [
+      "roll",
+      "result"
+    ]
+  },
+  "entries": [
+    {
+      "roll": "1",
+      "result": "A scroll bearing depictions of constellations"
+    },
+    {
+      "roll": "2",
+      "result": "A stone tablet with fine holes drilled through it"
+    },
+    {
+      "roll": "3",
+      "result": "An owlbear hide tooled with stellar symbols"
+    },
+    {
+      "roll": "4",
+      "result": "A collection of maps bound in an ebony cover"
+    },
+    {
+      "roll": "5",
+      "result": "A crystal engraved with starry patterns"
+    },
+    {
+      "roll": "6",
+      "result": "A glass disk etched with constellations"
+    }
+  ],
+  "notes": [
+    "Roll 1d6 or choose a form when creating the Star Map."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "table.sorcerer.manifestations_of_order",
+  "name": "Manifestations of Order",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      57
+    ],
+    "section": "Manifestations of Order"
+  },
+  "entry_schema": {
+    "type": "roll_table",
+    "fields": [
+      "roll",
+      "manifestation"
+    ]
+  },
+  "entries": [
+    {
+      "roll": "1",
+      "manifestation": "Spectral cogwheels hover behind you."
+    },
+    {
+      "roll": "2",
+      "manifestation": "The hands of a clock spin in your eyes."
+    },
+    {
+      "roll": "3",
+      "manifestation": "Your skin glows with a brassy sheen."
+    },
+    {
+      "roll": "4",
+      "manifestation": "Floating equations and geometric objects overlay your body."
+    },
+    {
+      "roll": "5",
+      "manifestation": "Your Spellcasting Focus temporarily takes the form of a Tiny clockwork mechanism."
+    },
+    {
+      "roll": "6",
+      "manifestation": "The ticking of gears or ringing of a clock can be heard by you and those affected by your magic."
+    }
+  ],
+  "notes": [
+    "Roll 1d6 or choose a manifestation while casting Sorcerer spells."
+  ]
+}

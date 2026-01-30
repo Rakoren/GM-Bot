@@ -3,36 +3,101 @@
   "name": "Rogue",
   "chapter": 3,
   "status": "complete",
-
   "primary_ability": "DEX",
   "hit_die": "d8",
-  "saving_throws": ["DEX", "INT"],
-
+  "saving_throws": [
+    "DEX",
+    "INT"
+  ],
   "proficiencies": {
-    "armor": ["light"],
-    "weapons": ["simple", "martial_finesse_or_light"],
-    "tools": ["thieves_tools"]
+    "armor": [
+      "light"
+    ],
+    "weapons": [
+      "simple",
+      "martial_finesse_or_light"
+    ],
+    "tools": [
+      "thieves_tools"
+    ]
   },
-
   "spellcasting": null,
-
   "resources": [],
-
+  "tables": [
+    "table.rogue.class_features"
+  ],
   "features_by_level": {
-    "1": ["expertise", "sneak_attack", "thieves_cant", "weapon_mastery"],
-    "2": ["cunning_action"],
-    "3": ["subclass_choice", "steady_aim"],
-    "5": ["cunning_strike", "uncanny_dodge"],
-    "7": ["evasion", "reliable_talent"],
-    "13": ["use_magic_device"],
-    "17": ["thiefs_reflexes"],
-    "19": ["epic_boon"],
-    "20": ["stroke_of_luck"]
+    "1": [
+      "expertise",
+      "sneak_attack",
+      "thieves_cant",
+      "weapon_mastery"
+    ],
+    "2": [
+      "cunning_action"
+    ],
+    "3": [
+      "subclass_choice",
+      "steady_aim"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "5": [
+      "cunning_strike",
+      "uncanny_dodge"
+    ],
+    "6": [
+      "expertise"
+    ],
+    "7": [
+      "evasion",
+      "reliable_talent"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "9": [
+      "subclass_feature"
+    ],
+    "10": [
+      "ability_score_improvement"
+    ],
+    "11": [
+      "improved_cunning_strike"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "13": [
+      "subclass_feature"
+    ],
+    "14": [
+      "devious_strikes"
+    ],
+    "15": [
+      "slippery_mind"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "subclass_feature"
+    ],
+    "18": [
+      "elusive"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "stroke_of_luck"
+    ]
   },
-
   "subclasses": [
-  "rogue.arcane_trickster", 
-  "rogue.assassin", 
-  "rogue.soulknife", 
-  "rogue.thief"]
+    "rogue.arcane_trickster",
+    "rogue.assassin",
+    "rogue.soulknife",
+    "rogue.thief"
+  ]
 }

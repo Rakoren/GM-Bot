@@ -1,0 +1,49 @@
+{
+  "id": "background.sailor",
+  "name": "Sailor",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8,
+      9
+    ],
+    "section": "Sailor"
+  },
+  "ability_scores": [
+    "Strength",
+    "Dexterity",
+    "Wisdom"
+  ],
+  "origin_feat_ref": "origin_feat.tavern_brawler",
+  "skill_proficiencies": [
+    "Acrobatics",
+    "Perception"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Navigator's Tools"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Dagger",
+        "Navigator's Tools",
+        "Rope",
+        "Traveler's Clothes"
+      ],
+      "gp": 20
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You lived as a seafarer and weathered storms and long voyages. You have countless stories from ports and crew life.",
+  "notes": []
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": 4,
+  "title": "Character Origins",
+  "generated_at": "2026-01-29",
+  "paths": {
+    "backgrounds_dir": "chapter-04/backgrounds",
+    "species_dir": "chapter-04/species",
+    "origin_feats_dir": "chapter-04/origin_feats",
+    "tables_dir": "chapter-04/tables",
+    "lists_dir": "chapter-04/lists"
+  },
+  "shards": [
+    {
+      "id": "background.acolyte",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.acolyte.json"
+    },
+    {
+      "id": "background.artisan",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.artisan.json"
+    },
+    {
+      "id": "background.charlatan",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.charlatan.json"
+    },
+    {
+      "id": "background.criminal",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.criminal.json"
+    },
+    {
+      "id": "background.entertainer",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.entertainer.json"
+    },
+    {
+      "id": "background.farmer",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.farmer.json"
+    },
+    {
+      "id": "background.guard",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.guard.json"
+    },
+    {
+      "id": "background.guide",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.guide.json"
+    },
+    {
+      "id": "background.hermit",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.hermit.json"
+    },
+    {
+      "id": "background.merchant",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.merchant.json"
+    },
+    {
+      "id": "background.noble",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.noble.json"
+    },
+    {
+      "id": "background.sage",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.sage.json"
+    },
+    {
+      "id": "background.sailor",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.sailor.json"
+    },
+    {
+      "id": "background.scribe",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.scribe.json"
+    },
+    {
+      "id": "background.soldier",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.soldier.json"
+    },
+    {
+      "id": "background.wayfarer",
+      "type": "background",
+      "path": "chapter-04/backgrounds/background.wayfarer.json"
+    },
+    {
+      "id": "species.aasimar",
+      "type": "species",
+      "path": "chapter-04/species/species.aasimar.json"
+    },
+    {
+      "id": "species.dragonborn",
+      "type": "species",
+      "path": "chapter-04/species/species.dragonborn.json"
+    },
+    {
+      "id": "species.dwarf",
+      "type": "species",
+      "path": "chapter-04/species/species.dwarf.json"
+    },
+    {
+      "id": "species.elf",
+      "type": "species",
+      "path": "chapter-04/species/species.elf.json"
+    },
+    {
+      "id": "species.gnome",
+      "type": "species",
+      "path": "chapter-04/species/species.gnome.json"
+    },
+    {
+      "id": "species.goliath",
+      "type": "species",
+      "path": "chapter-04/species/species.goliath.json"
+    },
+    {
+      "id": "species.halfling",
+      "type": "species",
+      "path": "chapter-04/species/species.halfling.json"
+    },
+    {
+      "id": "species.human",
+      "type": "species",
+      "path": "chapter-04/species/species.human.json"
+    },
+    {
+      "id": "species.orc",
+      "type": "species",
+      "path": "chapter-04/species/species.orc.json"
+    },
+    {
+      "id": "species.tiefling",
+      "type": "species",
+      "path": "chapter-04/species/species.tiefling.json"
+    },
+    {
+      "id": "origin_feat.magic_initiate_cleric",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.magic_initiate_cleric.json"
+    },
+    {
+      "id": "origin_feat.crafter",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.crafter.json"
+    },
+    {
+      "id": "origin_feat.skilled",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.skilled.json"
+    },
+    {
+      "id": "origin_feat.alert",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.alert.json"
+    },
+    {
+      "id": "origin_feat.musician",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.musician.json"
+    },
+    {
+      "id": "origin_feat.tough",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.tough.json"
+    },
+    {
+      "id": "origin_feat.magic_initiate_druid",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.magic_initiate_druid.json"
+    },
+    {
+      "id": "origin_feat.healer",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.healer.json"
+    },
+    {
+      "id": "origin_feat.lucky",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.lucky.json"
+    },
+    {
+      "id": "origin_feat.magic_initiate_wizard",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.magic_initiate_wizard.json"
+    },
+    {
+      "id": "origin_feat.tavern_brawler",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.tavern_brawler.json"
+    },
+    {
+      "id": "origin_feat.savage_attacker",
+      "type": "origin_feat",
+      "path": "chapter-04/origin_feats/origin_feat.savage_attacker.json"
+    },
+    {
+      "id": "table.species.draconic_ancestors",
+      "type": "table",
+      "path": "chapter-04/tables/table.species.draconic_ancestors.json"
+    },
+    {
+      "id": "table.species.elven_lineages",
+      "type": "table",
+      "path": "chapter-04/tables/table.species.elven_lineages.json"
+    },
+    {
+      "id": "table.species.fiendish_legacies",
+      "type": "table",
+      "path": "chapter-04/tables/table.species.fiendish_legacies.json"
+    },
+    {
+      "id": "list.backgrounds",
+      "type": "list",
+      "path": "chapter-04/lists/list.backgrounds.json"
+    },
+    {
+      "id": "list.species",
+      "type": "list",
+      "path": "chapter-04/lists/list.species.json"
+    }
+  ]
+}

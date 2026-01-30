@@ -1,0 +1,19 @@
+{
+  "id": "feat.monk.perfect_focus",
+  "name": "Perfect Focus",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you roll initiative and do not use Uncanny Metabolism",
+  "effects": [
+    "you regain expended Focus Points until you have 4 if you have 3 or fewer"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      81
+    ],
+    "section": "Perfect Focus"
+  }
+}

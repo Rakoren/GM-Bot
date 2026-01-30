@@ -1,0 +1,130 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chapter-04.schema.json",
+  "title": "Chapter 04 Shards Schema",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/sourceRef" },
+    { "$ref": "#/$defs/backgroundShard" },
+    { "$ref": "#/$defs/speciesShard" },
+    { "$ref": "#/$defs/originFeatShard" },
+    { "$ref": "#/$defs/tableShard" },
+    { "$ref": "#/$defs/listShard" },
+    { "$ref": "#/$defs/manifest" }
+  ],
+  "$defs": {
+    "idString": { "type": "string", "minLength": 1 },
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "file": { "type": "string" },
+        "pages": { "type": "array", "items": { "type": "integer" } },
+        "section": { "type": "string" }
+      },
+      "required": ["file", "pages", "section"],
+      "additionalProperties": false
+    },
+    "backgroundShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^background\\.[a-z0-9_]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 4 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "ability_scores": { "type": "array", "items": { "type": "string" } },
+        "origin_feat_ref": { "type": "string" },
+        "skill_proficiencies": { "type": "array", "items": { "type": "string" } },
+        "tool_proficiency": { "type": "object" },
+        "equipment_options": { "type": "array", "items": { "type": "object" } },
+        "narrative": { "type": "string" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": [
+        "id",
+        "name",
+        "chapter",
+        "status",
+        "sourceRef",
+        "ability_scores",
+        "origin_feat_ref",
+        "skill_proficiencies",
+        "tool_proficiency",
+        "equipment_options"
+      ],
+      "additionalProperties": true
+    },
+    "speciesShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^species\\.[a-z0-9_]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 4 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "creature_type": { "type": "string" },
+        "size": { "type": ["string", "array"] },
+        "size_notes": { "type": "string" },
+        "speed": { "type": "integer" },
+        "traits": { "type": "array", "items": { "type": "object" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "sourceRef", "creature_type", "size", "speed", "traits"],
+      "additionalProperties": true
+    },
+    "originFeatShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^origin_feat\\.[a-z0-9_]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 4 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status"],
+      "additionalProperties": true
+    },
+    "tableShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^table\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 4 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "columns": { "type": "array", "items": { "type": "string" } },
+        "entries": { "type": "array", "items": { "type": "object" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "sourceRef", "entries"],
+      "additionalProperties": true
+    },
+    "listShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^list\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 4 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "items": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "items"],
+      "additionalProperties": true
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string" },
+        "chapter": { "type": "integer", "const": 4 },
+        "title": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "paths": { "type": "object" },
+        "shards": { "type": "array", "items": { "type": "object" } }
+      },
+      "required": ["schema_version", "chapter", "title", "shards"],
+      "additionalProperties": true
+    }
+  }
+}

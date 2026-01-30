@@ -1,0 +1,14 @@
+{
+  "id": "feat.paladin.aura_expansion",
+  "name": "Aura Expansion",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "your paladin aura range increases from 10 feet to 30 feet"
+  ],
+  "notes": [
+    "Applies to your Aura of Protection, Aura of Courage, and any other paladin auras."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "inv.investment_of_the_chain_master",
+  "name": "Investment of the Chain Master",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=5",
+    "inv.pact_of_the_chain"
+  ],
+  "effects": [
+    "when you cast Find Familiar, you infuse the familiar with your power",
+    "the familiar gains either a Fly Speed or a Swim Speed of 40 feet (your choice)",
+    "as a bonus action, you can command the familiar to take the Attack action",
+    "when the familiar deals bludgeoning, piercing, or slashing damage, you can make it deal necrotic or radiant damage instead",
+    "if the familiar forces a creature to make a saving throw, it uses your spell save DC",
+    "when the familiar takes damage, you can take a reaction to grant it resistance against that damage"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "table.druid.circle_sea_spells",
+  "name": "Circle of the Sea Spells",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      61
+    ],
+    "section": "Circle of the Sea Spells"
+  },
+  "entry_schema": {
+    "type": "subclass_spell_table",
+    "fields": [
+      "druid_level",
+      "spells"
+    ]
+  },
+  "entries": [
+    {
+      "druid_level": 3,
+      "spells": [
+        "Fog Cloud",
+        "Gust of Wind",
+        "Ray of Frost",
+        "Shatter",
+        "Thunderwave"
+      ]
+    },
+    {
+      "druid_level": 5,
+      "spells": [
+        "Lightning Bolt",
+        "Water Breathing"
+      ]
+    },
+    {
+      "druid_level": 7,
+      "spells": [
+        "Control Water",
+        "Ice Storm"
+      ]
+    },
+    {
+      "druid_level": 9,
+      "spells": [
+        "Conjure Elemental",
+        "Hold Monster"
+      ]
+    }
+  ],
+  "notes": [
+    "These spells are always prepared."
+  ]
+}

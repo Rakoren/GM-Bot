@@ -1,0 +1,22 @@
+{
+  "id": "feat.paladin.aura_of_courage",
+  "name": "Aura of Courage",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "while you or an ally is within your Aura of Protection",
+  "effects": [
+    "you and allies in the aura are immune to the Frightened condition"
+  ],
+  "limits": [
+    "if a frightened ally enters the aura, the condition has no effect while there"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Aura of Courage"
+  }
+}

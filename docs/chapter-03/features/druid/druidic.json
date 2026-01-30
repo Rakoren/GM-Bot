@@ -1,0 +1,25 @@
+{
+  "id": "feat.druid.druidic",
+  "name": "Druidic",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you know Druidic, the secret language of druids",
+    "you always have Speak with Animals prepared"
+  ],
+  "limits": [
+    "others detect a hidden Druidic message with a successful DC 15 Intelligence (Investigation) check but cannot decipher it without magic"
+  ],
+  "notes": [
+    "Druids and others who know Druidic automatically spot such hidden messages."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      49
+    ],
+    "section": "Druidic"
+  }
+}

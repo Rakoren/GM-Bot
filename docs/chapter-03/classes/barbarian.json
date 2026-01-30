@@ -3,29 +3,102 @@
   "name": "Barbarian",
   "chapter": 3,
   "status": "complete",
-
   "primary_ability": "STR",
   "hit_die": "d12",
-  "saving_throws": ["STR", "CON"],
-
+  "saving_throws": [
+    "STR",
+    "CON"
+  ],
   "proficiencies": {
-    "armor": ["light", "medium", "shields"],
-    "weapons": ["simple", "martial"]
+    "armor": [
+      "light",
+      "medium",
+      "shields"
+    ],
+    "weapons": [
+      "simple",
+      "martial"
+    ]
   },
-
   "spellcasting": null,
-
-  "resources": ["res.rage"],
-
+  "resources": [
+    "res.rage"
+  ],
+  "tables": [
+    "table.barbarian.class_features"
+  ],
   "features_by_level": {
-    "1": ["rage", "unarmored_defense", "weapon_mastery"],
-    "2": ["danger_sense", "reckless_attack"],
-    "3": ["subclass_choice", "primal_knowledge"]
+    "1": [
+      "rage",
+      "unarmored_defense",
+      "weapon_mastery"
+    ],
+    "2": [
+      "danger_sense",
+      "reckless_attack"
+    ],
+    "3": [
+      "subclass_choice",
+      "primal_knowledge"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "5": [
+      "extra_attack",
+      "fast_movement"
+    ],
+    "6": [
+      "subclass_feature"
+    ],
+    "7": [
+      "feral_instinct",
+      "instinctive_pounce"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "9": [
+      "brutal_strike"
+    ],
+    "10": [
+      "subclass_feature"
+    ],
+    "11": [
+      "relentless_rage"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "13": [
+      "improved_brutal_strike"
+    ],
+    "14": [
+      "subclass_feature"
+    ],
+    "15": [
+      "persistent_rage"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "improved_brutal_strike"
+    ],
+    "18": [
+      "indomitable_might"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "primal_champion"
+    ]
   },
-
   "subclasses": [
-  "path.berserker", 
-  "path.wild_heart", 
-  "path.world_tree", 
-  "path.zealot"]
+    "path.berserker",
+    "path.wild_heart",
+    "path.world_tree",
+    "path.zealot"
+  ]
 }

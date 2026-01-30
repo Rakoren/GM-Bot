@@ -1,0 +1,17 @@
+{
+  "id": "res.rage",
+  "name": "Rage",
+  "chapter": 3,
+  "pool_type": "see_class_table",
+  "pool": "see_class_table",
+  "recharge": "long_rest",
+  "activation": "bonus_action",
+  "duration": {
+    "kind": "minutes",
+    "value": 1
+  },
+  "notes": [
+    "barbarian_only",
+    "ends_early_if_no_attack_or_damage_taken_on_turn"
+  ]
+}

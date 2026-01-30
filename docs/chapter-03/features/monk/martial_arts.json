@@ -1,0 +1,22 @@
+{
+  "id": "feat.monk.martial_arts",
+  "name": "Martial Arts",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "while you are unarmed or wielding only Monk weapons and are not wearing armor or a shield",
+  "effects": [
+    "you can make an Unarmed Strike as a bonus action",
+    "you can use a Martial Arts die for Unarmed Strike or Monk weapon damage (scales by level)",
+    "you can use Dexterity instead of Strength for attack and damage rolls with Unarmed Strikes and Monk weapons",
+    "you can use Dexterity instead of Strength for Grapple/Shove save DCs from your Unarmed Strike"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      79
+    ],
+    "section": "Martial Arts"
+  }
+}

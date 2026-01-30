@@ -1,0 +1,126 @@
+{
+  "id": "table.sorcerer.wild_magic_surge",
+  "name": "Wild Magic Surge",
+  "chapter": 3,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      60,
+      61
+    ],
+    "section": "Wild Magic Surge"
+  },
+  "entry_schema": {
+    "type": "roll_table",
+    "fields": [
+      "roll",
+      "effect"
+    ]
+  },
+  "entries": [
+    {
+      "roll": "01-04",
+      "effect": "Roll on this table at the start of each of your turns for the next minute, ignoring this result on subsequent rolls."
+    },
+    {
+      "roll": "05-08",
+      "effect": "A friendly creature appears in a random unoccupied space within 60 feet of you; it is under the DM's control and disappears 1 minute later. Roll 1d4: 1 Modron Duodrone, 2 Flumph, 3 Modron Monodrone, 4 Unicorn."
+    },
+    {
+      "roll": "09-12",
+      "effect": "For the next minute, you regain 5 hit points at the start of each of your turns."
+    },
+    {
+      "roll": "13-16",
+      "effect": "Creatures have disadvantage on saving throws against the next spell you cast in the next minute that involves a saving throw."
+    },
+    {
+      "roll": "17-20",
+      "effect": "You are subjected to an effect that lasts for 1 minute unless its description says otherwise. Roll 1d8: 1 faint ethereal music within 5 feet; 2 your size increases by one category; 3 long feather beard until you sneeze (feathers vanish); 4 you must shout when you speak; 5 illusory butterflies flutter within 10 feet; 6 an eye appears on your forehead (advantage on Wisdom (Perception) checks); 7 pink bubbles float from your mouth when you speak; 8 your skin turns a vibrant shade of blue for 24 hours or until ended by Remove Curse."
+    },
+    {
+      "roll": "21-24",
+      "effect": "For the next minute, all your spells with a casting time of an action have a casting time of a bonus action."
+    },
+    {
+      "roll": "25-28",
+      "effect": "You are transported to the Astral Plane until the end of your next turn, then return to the space you previously occupied or the nearest unoccupied space."
+    },
+    {
+      "roll": "29-32",
+      "effect": "The next time you cast a spell that deals damage within the next minute, don't roll the spell's damage dice; use the highest number possible for each damage die."
+    },
+    {
+      "roll": "33-36",
+      "effect": "You have resistance to all damage for the next minute."
+    },
+    {
+      "roll": "37-40",
+      "effect": "You turn into a potted plant until the start of your next turn. While a plant, you have the Incapacitated condition and vulnerability to all damage. If you drop to 0 hit points, your pot breaks and your form reverts."
+    },
+    {
+      "roll": "41-44",
+      "effect": "For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns."
+    },
+    {
+      "roll": "45-48",
+      "effect": "You and up to three creatures you choose within 30 feet have the Invisible condition for 1 minute. This invisibility ends on a creature immediately after it makes an attack roll, deals damage, or casts a spell."
+    },
+    {
+      "roll": "49-52",
+      "effect": "A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to Magic Missile."
+    },
+    {
+      "roll": "53-56",
+      "effect": "You can take one extra action on this turn."
+    },
+    {
+      "roll": "57-60",
+      "effect": "You cast a random spell. If the spell normally requires Concentration, it doesn't require Concentration; the spell lasts for its full duration. Roll 1d10: 1 Confusion, 2 Fireball, 3 Fog Cloud, 4 Fly (cast on a random creature within 60 feet), 5 Grease, 6 Levitate (cast on yourself), 7 Magic Missile (cast as a level 5 spell), 8 Mirror Image, 9 Polymorph (cast on yourself; if you fail the save, you turn into a Goat), 10 See Invisibility."
+    },
+    {
+      "roll": "61-64",
+      "effect": "For the next minute, any flammable nonmagical object you touch that isn't being worn or carried by another creature bursts into flame, takes 1d4 fire damage, and is burning."
+    },
+    {
+      "roll": "65-68",
+      "effect": "If you die within the next hour, you immediately revive as if by the Reincarnate spell."
+    },
+    {
+      "roll": "69-72",
+      "effect": "You have the Frightened condition until the end of your next turn. The DM determines the source of your fear."
+    },
+    {
+      "roll": "73-76",
+      "effect": "You teleport up to 60 feet to an unoccupied space you can see."
+    },
+    {
+      "roll": "77-80",
+      "effect": "A random creature within 60 feet of you has the Poisoned condition for 1d4 hours."
+    },
+    {
+      "roll": "81-84",
+      "effect": "You radiate bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5 feet of you has the Blinded condition until the end of its next turn."
+    },
+    {
+      "roll": "85-88",
+      "effect": "Up to three creatures of your choice that you can see within 30 feet take 1d10 necrotic damage. You regain hit points equal to the sum of the necrotic damage dealt."
+    },
+    {
+      "roll": "89-92",
+      "effect": "Up to three creatures of your choice that you can see within 30 feet take 4d10 lightning damage."
+    },
+    {
+      "roll": "93-96",
+      "effect": "You and all creatures within 30 feet of you have vulnerability to piercing damage for the next minute."
+    },
+    {
+      "roll": "97-00",
+      "effect": "Roll 1d6: 1 you regain 2d10 hit points; 2 one ally you choose within 300 feet regains 2d10 hit points; 3 you regain your lowest-level expended spell slot; 4 one ally you choose within 300 feet regains their lowest-level expended spell slot; 5 you regain all expended Sorcery Points; 6 all the effects of row 17-20 affect you simultaneously."
+    }
+  ],
+  "notes": [
+    "Roll 1d100 when the Wild Magic Surge feature triggers."
+  ]
+}

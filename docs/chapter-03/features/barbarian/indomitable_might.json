@@ -1,0 +1,19 @@
+{
+  "id": "feat.barbarian.indomitable_might",
+  "name": "Indomitable Might",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when your total for a Strength check or Strength saving throw is less than your Strength score",
+  "effects": [
+    "you can use your Strength score in place of the total"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Indomitable Might"
+  }
+}

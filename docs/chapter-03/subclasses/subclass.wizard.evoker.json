@@ -1,0 +1,95 @@
+{
+    "$schema":  "../../../schemas/chapter-03.schema.json",
+    "id":  "wizard.evoker",
+    "parent_class":  "class.wizard",
+    "chapter":  3,
+    "title":  "School of Evocation",
+    "status":  "complete",
+    "source":  {
+                   "file":  "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons \u0026 Dragons - Sources - D\u0026D Beyond.pdf",
+                   "pages":  [
+                                 94,
+                                 95
+                             ],
+                   "section_hint":  "Evoker"
+               },
+    "feature_levels":  [
+                           3,
+                           6,
+                           10,
+                           14
+                       ],
+    "features_by_level":  {
+                              "3":  [
+                                        "evocation_savant",
+                                        "potent_cantrip"
+                                    ],
+                              "6":  [
+                                        "sculpt_spells"
+                                    ],
+                              "10":  [
+                                         "empowered_evocation"
+                                     ],
+                              "14":  [
+                                         "overchannel"
+                                     ]
+                          },
+    "feature_defs":  [
+                         {
+                             "id":  "feat.wizard.evoker.evocation_savant",
+                             "action_type":  "none",
+                             "trigger":  "passive",
+                             "effects":  [
+                                             "Choose two Wizard spells from the Evocation school, each of which must be no higher than level 2, and add them to your spellbook for free.",
+                                             "In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Evocation school to your spellbook for free.",
+                                             "The chosen spell must be of a level for which you have spell slots."
+                                         ]
+                         },
+                         {
+                             "id":  "feat.wizard.evoker.potent_cantrip",
+                             "action_type":  "none",
+                             "trigger":  "when you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip.",
+                             "effects":  [
+                                             "Your damaging cantrips affect even creatures that avoid the brunt of the effect.",
+                                             "When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip."
+                                         ]
+                         },
+                         {
+                             "id":  "feat.wizard.evoker.sculpt_spells",
+                             "action_type":  "none",
+                             "trigger":  "when you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell’s level.",
+                             "effects":  [
+                                             "You can create pockets of relative safety within the effects of your evocations.",
+                                             "When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell’s level.",
+                                             "The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+                                         ]
+                         },
+                         {
+                             "id":  "feat.wizard.evoker.empowered_evocation",
+                             "action_type":  "none",
+                             "trigger":  "whenever you cast a wizard spell from the evocation school, you can add your intelligence modifier to one damage roll of that spell.",
+                             "effects":  [
+                                             "Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell."
+                                         ]
+                         },
+                         {
+                             "id":  "feat.wizard.evoker.overchannel",
+                             "action_type":  "none",
+                             "trigger":  "when you cast a wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.",
+                             "effects":  [
+                                             "You can increase the power of your spells.",
+                                             "When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.",
+                                             "The first time you do so, you suffer no adverse effect.",
+                                             "This damage ignores Resistance and Immunity.",
+                                             "Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12."
+                                         ],
+                             "limits":  [
+                                            "If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it."
+                                        ]
+                         }
+                     ],
+    "notes":  [
+                  "Auto-extracted from the PHB PDF; effects preserve raw rule text.",
+                  "Normalized for concise clauses."
+              ]
+}

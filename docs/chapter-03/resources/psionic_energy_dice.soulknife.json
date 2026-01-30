@@ -1,0 +1,13 @@
+{
+  "id": "res.psionic_energy_dice.soulknife",
+  "name": "Psionic Energy Dice (Soulknife)",
+  "chapter": 3,
+  "pool_type": "see_subclass_table",
+  "pool": "see_subclass_table",
+  "recharge": "see_subclass_table",
+  "notes": [
+    "soulknife_only",
+    "die_size_scales_by_level",
+    "see_subclass_table_for_pool_and_recharge"
+  ]
+}

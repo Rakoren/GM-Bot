@@ -1,0 +1,19 @@
+{
+  "id": "feat.monk.slow_fall",
+  "name": "Slow Fall",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "reaction",
+  "trigger": "when you fall",
+  "effects": [
+    "reduce falling damage by an amount equal to five times your Monk level"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      80
+    ],
+    "section": "Slow Fall"
+  }
+}

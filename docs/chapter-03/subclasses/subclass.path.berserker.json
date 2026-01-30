@@ -1,0 +1,85 @@
+{
+  "$schema": "../../../schemas/chapter-03.schema.json",
+  "id": "path.berserker",
+  "parent_class": "class.barbarian",
+  "chapter": 3,
+  "title": "Path of the Berserker",
+  "status": "complete",
+  "source": {
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      10,
+      11
+    ],
+    "section_hint": "Path of the Berserker"
+  },
+  "feature_levels": [
+    3,
+    6,
+    10,
+    14
+  ],
+  "features_by_level": {
+    "3": [
+      "frenzy"
+    ],
+    "6": [
+      "mindless_rage"
+    ],
+    "10": [
+      "retaliation"
+    ],
+    "14": [
+      "intimidating_presence"
+    ]
+  },
+  "feature_defs": [
+    {
+      "id": "feat.path.berserker.frenzy",
+      "action_type": "none",
+      "trigger": "when you use Reckless Attack while your Rage is active",
+      "effects": [
+        "You deal extra damage to the first target you hit on your turn with a Strength-based attack.",
+        "Extra damage equals a number of d6s equal to your Rage Damage bonus; add the dice together.",
+        "The extra damage is the same type as the weapon or unarmed strike used."
+      ]
+    },
+    {
+      "id": "feat.path.berserker.mindless_rage",
+      "action_type": "none",
+      "trigger": "while your Rage is active",
+      "effects": [
+        "You are immune to the Charmed and Frightened conditions."
+      ],
+      "limits": [
+        "If you are Charmed or Frightened when you enter your Rage, the condition ends on you."
+      ]
+    },
+    {
+      "id": "feat.path.berserker.retaliation",
+      "action_type": "reaction",
+      "trigger": "when you take damage from a creature within 5 feet of you",
+      "effects": [
+        "You make one melee attack against that creature with a weapon or an unarmed strike."
+      ]
+    },
+    {
+      "id": "feat.path.berserker.intimidating_presence",
+      "action_type": "bonus_action",
+      "trigger": "as a bonus action",
+      "effects": [
+        "Creatures of your choice in a 30-foot emanation make a Wisdom saving throw.",
+        "On a failed save, a creature is Frightened for 1 minute and repeats the save at the end of each of its turns, ending the effect on a success."
+      ],
+      "limits": [
+        "Once you use this feature, you can't use it again until you finish a long rest unless you expend a use of your Rage (no action required) to restore its use."
+      ],
+      "notes": [
+        "saving throw DC is 8 + Strength modifier + proficiency bonus"
+      ]
+    }
+  ],
+  "notes": [
+    "Normalized for concise clauses."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "background.acolyte",
+  "name": "Acolyte",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Acolyte"
+  },
+  "ability_scores": [
+    "Intelligence",
+    "Wisdom",
+    "Charisma"
+  ],
+  "origin_feat_ref": "origin_feat.magic_initiate_cleric",
+  "skill_proficiencies": [
+    "Insight",
+    "Religion"
+  ],
+  "tool_proficiency": {
+    "type": "specific",
+    "options": [
+      "Calligrapher's Supplies"
+    ]
+  },
+  "equipment_options": [
+    {
+      "option": "A",
+      "items": [
+        "Calligrapher's Supplies",
+        "Book (prayers)",
+        "Holy Symbol",
+        "Parchment (10 sheets)",
+        "Robe"
+      ],
+      "gp": 8
+    },
+    {
+      "option": "B",
+      "items": [],
+      "gp": 50
+    }
+  ],
+  "narrative": "You devoted yourself to service in a temple, performing rites and studying religion. Your devotion and training taught you to channel a small measure of divine power.",
+  "notes": []
+}

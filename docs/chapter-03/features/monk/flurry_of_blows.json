@@ -1,0 +1,26 @@
+{
+  "id": "feat.monk.flurry_of_blows",
+  "name": "Flurry of Blows",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "trigger": "when you expend 1 Focus Point",
+  "effects": [
+    "make two Unarmed Strikes"
+  ],
+  "limits": [
+    "costs 1 Focus Point"
+  ],
+  "notes": [],
+  "resource_cost": {
+    "resource_id": "res.focus_points",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      79
+    ],
+    "section": "Flurry of Blows"
+  }
+}

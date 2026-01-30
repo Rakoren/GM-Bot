@@ -1,0 +1,19 @@
+{
+  "id": "feat.monk.unarmored_movement",
+  "name": "Unarmored Movement",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "while you are not wearing armor or wielding a shield",
+  "effects": [
+    "your speed increases by 10 feet at level 2 and scales higher by level (see class table)"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      79
+    ],
+    "section": "Unarmored Movement"
+  }
+}

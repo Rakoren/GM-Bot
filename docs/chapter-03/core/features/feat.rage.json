@@ -1,0 +1,29 @@
+{
+  "type": "feature",
+  "id": "feat.rage",
+  "name": "Rage",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "bonus_action",
+  "rules": [
+    "Enter a Rage if you are not wearing Heavy armor.",
+    "While raging, you have resistance to bludgeoning, piercing, and slashing damage.",
+    "While raging, you add a Rage damage bonus to Strength-based weapon or Unarmed Strike damage (per class table).",
+    "While raging, you have advantage on Strength checks and Strength saving throws.",
+    "While raging, you cannot cast spells or maintain concentration."
+  ],
+  "limits": [
+    "Uses equal the Rages column for your Barbarian level; regain 1 use on a short rest and all uses on a long rest.",
+    "Rage ends at the end of your next turn unless you attack, force a saving throw, or take a bonus action to extend it; a Rage can last up to 10 minutes.",
+    "Rage ends early if you don Heavy armor or become Incapacitated."
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Rage"
+  },
+  "trigger": "when you choose to enter a Rage"
+}

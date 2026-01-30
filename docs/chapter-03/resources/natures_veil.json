@@ -1,0 +1,17 @@
+{
+  "id": "res.natures_veil",
+  "name": "Nature's Veil",
+  "chapter": 3,
+  "pool_type": "by_ability",
+  "pool": "wis_mod_min_1",
+  "recharge": "long_rest",
+  "activation": "bonus_action",
+  "duration": {
+    "kind": "rounds",
+    "value": 1
+  },
+  "notes": [
+    "ranger_only",
+    "grants_invisible_until_end_of_next_turn"
+  ]
+}

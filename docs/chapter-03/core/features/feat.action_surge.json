@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "id": "feat.action_surge",
+  "name": "Action Surge",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "free_action",
+  "rules": [
+    "On your turn, take one additional action."
+  ],
+  "limits": [
+    "The extra action cannot be used for the Magic action.",
+    "Once you use this feature, you can't use it again until you finish a short or long rest.",
+    "Starting at level 17, you can use Action Surge twice between rests but only once on a turn."
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66
+    ],
+    "section": "Action Surge"
+  },
+  "trigger": "on your turn"
+}

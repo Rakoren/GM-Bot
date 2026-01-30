@@ -1,0 +1,22 @@
+{
+  "id": "feat.monk.evasion",
+  "name": "Evasion",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you are subjected to an effect that allows a Dexterity saving throw for half damage",
+  "effects": [
+    "you take no damage on a success and half damage on a failure"
+  ],
+  "limits": [
+    "you do not benefit from this feature while you have the Incapacitated condition"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      80
+    ],
+    "section": "Evasion"
+  }
+}

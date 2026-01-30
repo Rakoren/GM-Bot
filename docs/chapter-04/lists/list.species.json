@@ -1,0 +1,18 @@
+{
+  "id": "list.species",
+  "name": "Species (Chapter 4)",
+  "chapter": 4,
+  "status": "complete",
+  "items": [
+    "species.aasimar",
+    "species.dragonborn",
+    "species.dwarf",
+    "species.elf",
+    "species.gnome",
+    "species.goliath",
+    "species.halfling",
+    "species.human",
+    "species.orc",
+    "species.tiefling"
+  ]
+}

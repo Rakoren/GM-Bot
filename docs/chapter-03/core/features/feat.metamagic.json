@@ -1,0 +1,25 @@
+{
+  "type": "feature",
+  "id": "feat.metamagic",
+  "name": "Metamagic",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "rules": [
+    "Choose two Metamagic options; you use them to modify spells by spending Sorcery Points.",
+    "You can use only one Metamagic option on a spell when you cast it unless an option says otherwise."
+  ],
+  "limits": [
+    "Whenever you gain a Sorcerer level, you can replace one Metamagic option.",
+    "You gain two additional options at Sorcerer level 10 and two more at level 17."
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      47
+    ],
+    "section": "Metamagic"
+  },
+  "trigger": "when you cast a spell"
+}

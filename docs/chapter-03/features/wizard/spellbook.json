@@ -1,0 +1,24 @@
+{
+  "id": "feat.wizard.spellbook",
+  "name": "Spellbook",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "your spellbook is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting Identify",
+    "you determine the spellbookâ€™s appearance and materials",
+    "it starts with six level 1 wizard spells of your choice",
+    "whenever you gain a wizard level after 1, add two wizard spells of a level you can cast to the spellbook"
+  ],
+  "notes": [
+    "Spell preparation draws from the spellbook as described in Spellcasting."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      81
+    ],
+    "section": "Spellbook"
+  }
+}

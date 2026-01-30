@@ -1,0 +1,23 @@
+{
+  "id": "inv.lessons_of_the_first_ones",
+  "name": "Lessons of the First Ones",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=2"
+  ],
+  "effects": [
+    "you gain one Origin feat of your choice"
+  ],
+  "notes": [
+    "Repeatable; choose a different Origin feat each time."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

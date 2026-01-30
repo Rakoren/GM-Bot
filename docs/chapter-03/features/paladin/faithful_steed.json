@@ -1,0 +1,30 @@
+{
+  "id": "feat.paladin.faithful_steed",
+  "name": "Faithful Steed",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you always have Find Steed prepared",
+    "you can cast Find Steed once without expending a spell slot"
+  ],
+  "limits": [
+    "you regain the free use when you finish a long rest"
+  ],
+  "notes": [
+    "If you do not track Find Steed as a resource, ignore resource_cost and rely on the limit text."
+  ],
+  "resource_cost": {
+    "resource_id": "res.find_steed.free",
+    "cost": 1
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7,
+      8
+    ],
+    "section": "Faithful Steed"
+  }
+}

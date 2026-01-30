@@ -3,39 +3,87 @@
   "name": "Sorcerer",
   "chapter": 3,
   "status": "complete",
-
   "primary_ability": "CHA",
   "hit_die": "d6",
-  "saving_throws": ["CON", "CHA"],
-
+  "saving_throws": [
+    "CON",
+    "CHA"
+  ],
   "proficiencies": {
     "armor": [],
-    "weapons": ["simple"]
+    "weapons": [
+      "simple"
+    ]
   },
-
   "spellcasting": {
     "caster_type": "prepared",
     "spellcasting_ability": "CHA",
     "spell_list_ref": "spell_list.sorcerer"
   },
-
   "resources": [
-  "res.sorcery_points", 
-  "res.innate_sorcery", 
-  "res.tides_of_chaos"],
-
+    "res.sorcery_points",
+    "res.innate_sorcery",
+    "res.tides_of_chaos"
+  ],
+  "tables": [
+    "table.sorcerer.class_features"
+  ],
   "features_by_level": {
-    "1": ["spellcasting", "innate_sorcery"],
-    "2": ["font_of_magic", "metamagic"],
-    "3": ["subclass_choice"],
-    "5": ["sorcerous_restoration"],
-    "19": ["epic_boon"],
-    "20": ["arcane_apotheosis"]
+    "1": [
+      "spellcasting",
+      "innate_sorcery"
+    ],
+    "2": [
+      "font_of_magic",
+      "metamagic"
+    ],
+    "3": [
+      "subclass_choice"
+    ],
+    "4": [
+      "ability_score_improvement"
+    ],
+    "5": [
+      "sorcerous_restoration"
+    ],
+    "6": [
+      "subclass_feature"
+    ],
+    "7": [
+      "sorcery_incarnate"
+    ],
+    "8": [
+      "ability_score_improvement"
+    ],
+    "10": [
+      "metamagic"
+    ],
+    "12": [
+      "ability_score_improvement"
+    ],
+    "14": [
+      "subclass_feature"
+    ],
+    "16": [
+      "ability_score_improvement"
+    ],
+    "17": [
+      "metamagic"
+    ],
+    "18": [
+      "subclass_feature"
+    ],
+    "19": [
+      "epic_boon"
+    ],
+    "20": [
+      "arcane_apotheosis"
+    ]
   },
-
   "subclasses": [
-  "sorcerer.aberrant", 
-  "sorcerer.clockwork", 
-  "sorcerer.draconic", 
-  "sorcerer.wild_magic"]
+    "sorcerer.aberrant",
+    "sorcerer.clockwork",
+    "sorcerer.draconic",
+    "sorcerer.wild_magic"
+  ]
 }

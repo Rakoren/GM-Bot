@@ -1,0 +1,22 @@
+{
+  "id": "feat.cleric.greater_divine_intervention",
+  "name": "Greater Divine Intervention",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "when you use Divine Intervention",
+  "effects": [
+    "you can choose Wish when you select a spell"
+  ],
+  "limits": [
+    "if you choose Wish, you cannot use Divine Intervention again until you finish 2d4 long rests"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      36
+    ],
+    "section": "Greater Divine Intervention"
+  }
+}

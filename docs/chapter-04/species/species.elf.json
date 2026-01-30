@@ -1,0 +1,69 @@
+{
+  "id": "species.elf",
+  "name": "Elf",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      15,
+      16
+    ],
+    "section": "Elf"
+  },
+  "creature_type": "Humanoid",
+  "size": "Medium",
+  "size_notes": "About 5-6 feet tall.",
+  "speed": 30,
+  "traits": [
+    {
+      "name": "Darkvision",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "darkvision 60 ft"
+      ]
+    },
+    {
+      "name": "Elven Lineage",
+      "action_type": "none",
+      "trigger": "when you choose this species",
+      "effects": [
+        "choose a lineage from the Elven Lineages table",
+        "gain the level 1 benefit",
+        "at levels 3 and 5, learn the listed spells; always have them prepared",
+        "you can cast each listed spell once without a slot per long rest and also using spell slots"
+      ],
+      "table_ref": "table.species.elven_lineages",
+      "notes": [
+        "choose Intelligence, Wisdom, or Charisma as your spellcasting ability for these spells"
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "advantage on saving throws to avoid or end the charmed condition"
+      ]
+    },
+    {
+      "name": "Keen Senses",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "gain proficiency in Insight, Perception, or Survival"
+      ]
+    },
+    {
+      "name": "Trance",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "you do not need to sleep and magic cannot put you to sleep",
+        "you can finish a long rest in 4 hours by meditating while conscious"
+      ]
+    }
+  ],
+  "notes": []
+}

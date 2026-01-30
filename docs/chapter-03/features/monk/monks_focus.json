@@ -1,0 +1,23 @@
+{
+  "id": "feat.monk.monks_focus",
+  "name": "Monk's Focus",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you gain Focus Points equal to your Monk level (see class table)",
+    "you regain all expended Focus Points when you finish a short or long rest",
+    "Focus Point save DC equals 8 + your Wisdom modifier + proficiency bonus"
+  ],
+  "notes": [
+    "See Flurry of Blows, Patient Defense, and Step of the Wind for baseline Focus Point options."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      79
+    ],
+    "section": "Monk's Focus"
+  }
+}

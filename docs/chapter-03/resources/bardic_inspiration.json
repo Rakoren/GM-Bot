@@ -1,0 +1,18 @@
+{
+  "id": "res.bardic_inspiration",
+  "name": "Bardic Inspiration",
+  "chapter": 3,
+  "pool_type": "see_class_table",
+  "pool": "see_class_table",
+  "recharge": "see_class_table",
+  "activation": "bonus_action",
+  "die": {
+    "5": "d8",
+    "10": "d10",
+    "15": "d12"
+  },
+  "notes": [
+    "bard_only",
+    "die_size_scales_by_level"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "feat.monk.acrobatic_movement",
+  "name": "Acrobatic Movement",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "while you are not wearing armor or wielding a shield",
+  "effects": [
+    "you can move along vertical surfaces and across liquids on your turn without falling during the movement"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      80
+    ],
+    "section": "Acrobatic Movement"
+  }
+}

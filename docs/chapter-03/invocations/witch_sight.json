@@ -1,0 +1,21 @@
+{
+  "id": "inv.witch_sight",
+  "name": "Witch Sight",
+  "chapter": 3,
+  "status": "complete",
+  "prereqs": [
+    "class.warlock:level>=15"
+  ],
+  "effects": [
+    "you have Truesight with a range of 30 feet"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player???s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      66,
+      70
+    ],
+    "section": "Eldritch Invocation Options"
+  }
+}

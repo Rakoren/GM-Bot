@@ -1,0 +1,20 @@
+{
+  "id": "feat.bard.words_of_creation",
+  "name": "Words of Creation",
+  "chapter": 3,
+  "status": "complete",
+  "action_type": "none",
+  "trigger": "passive",
+  "effects": [
+    "you always have Power Word Heal and Power Word Kill prepared",
+    "when you cast either spell, you can target a second creature within 10 feet of the first target"
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Words of Creation"
+  }
+}
