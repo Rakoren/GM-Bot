@@ -1,0 +1,19 @@
+{
+  "id": "glossary.app",
+  "name": "APP",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "© 2017-2026 WIZARDS OF THE COAST LLC | ALL RIGHTS RESERVED Dungeons & Dragons, D&D Beyond, D&D, Wizards of the Coast, the dragon ampersand, and all other Wizards of the Coast product names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark Wizards of the Coast in the U.S.A. and other countries. © 2026 Wizards."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      30
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

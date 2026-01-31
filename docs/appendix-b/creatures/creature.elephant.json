@@ -1,0 +1,91 @@
+{
+  "id": "creature.elephant",
+  "name": "ELEPHANT",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Huge Beast, Unaligned",
+  "size": "Huge",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "initiative": "-1",
+  "initiative_score": 9,
+  "hit_points": 76,
+  "hit_dice": "8d12 + 24",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6",
+      "save": "+6"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1",
+      "save": "-1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2",
+      "save": "-2"
+    }
+  },
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The elephant makes two Gore attacks."
+    },
+    {
+      "name": "Gore",
+      "text": ""
+    },
+    {
+      "name": "Melee Attack Roll: +8, reach 5 ft",
+      "text": "Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight"
+    },
+    {
+      "name": "toward it immediately before the hit, the target has the Prone condition",
+      "text": "Bonus Actions"
+    },
+    {
+      "name": "Trample",
+      "text": "Dexterity Saving Throw: DC 16, one creature within 5 feet that has"
+    },
+    {
+      "name": "the Prone condition",
+      "text": "Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

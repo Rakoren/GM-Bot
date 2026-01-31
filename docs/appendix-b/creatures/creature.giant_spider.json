@@ -1,0 +1,100 @@
+{
+  "id": "creature.giant_spider",
+  "name": "GIANT SPIDER",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "initiative": "+3",
+  "initiative_score": 13,
+  "hit_points": 26,
+  "hit_dice": "4d10 + 4",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3",
+      "save": "-3"
+    }
+  },
+  "skills": "Perception +4, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "None",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The spider can climb difficult surfaces, including along ceilings,"
+    },
+    {
+      "name": "without needing to make an ability check",
+      "text": ""
+    },
+    {
+      "name": "Web Walker",
+      "text": "The spider ignores movement restrictions caused by webs, and it"
+    },
+    {
+      "name": "knows the location of any other creature in contact with the same web",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage."
+    },
+    {
+      "name": "Web (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 13, one creature the spider"
+    },
+    {
+      "name": "can see within 60 feet",
+      "text": "Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to"
+    },
+    {
+      "name": "Poison and Psychic damage)",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

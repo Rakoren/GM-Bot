@@ -1,0 +1,39 @@
+{
+  "id": "spell.hallucinatory_terrain",
+  "name": "Hallucinatory Terrain",
+  "chapter": 7,
+  "status": "complete",
+  "level": 4,
+  "school": "Illusion",
+  "classes": [
+    "class.bard",
+    "class.druid",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "10 minutes",
+  "range": "300 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a mushroom"
+  },
+  "duration": "24 hours",
+  "description": [
+    "You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed. The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn't obvious by touch, a creature examining the illusion can take the Study action to make an Intelligence (Investigation) check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain. Harm",
+    "-- 71 of 163 --",
+    "Level 6 Necromancy (Cleric) Casting Time: Action Range: 60 feet Components: V, S Duration: Instantaneous You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes 14d6 Necrotic damage, and its Hit Point maximum is reduced by an amount equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell can't reduce a target's Hit Point maximum below 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      70
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

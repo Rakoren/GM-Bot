@@ -1,0 +1,19 @@
+{
+  "id": "glossary.dodge_action",
+  "name": "Dodge",
+  "tag": "Action",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has Disadvantage if you can see the attacker, and you make Dexterity saving throws with Advantage. You lose these benefits if you have the Incapacitated condition or if your Speed is 0."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      12
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

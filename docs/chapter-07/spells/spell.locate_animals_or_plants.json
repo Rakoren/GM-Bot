@@ -1,0 +1,37 @@
+{
+  "id": "spell.locate_animals_or_plants",
+  "name": "Locate Animals or Plants",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Divination",
+  "classes": [
+    "class.bard",
+    "class.druid",
+    "class.ranger"
+  ],
+  "casting_time": "Action or Ritual",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "fur from a bloodhound"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Describe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.",
+    "-- 85 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      84
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

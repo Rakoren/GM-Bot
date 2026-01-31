@@ -1,0 +1,19 @@
+{
+  "id": "glossary.surprise",
+  "name": "Surprise",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have Disadvantage on its Initiative roll. See also chapter 1 (\"Combat\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      27
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.see_2",
+  "name": "See",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "also chapter 1 (\"Damage and Healing\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      29
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

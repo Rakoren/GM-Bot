@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "appendix-a",
+  "title": "Appendix A: The Multiverse",
+  "generated_at": "2026-01-31",
+  "paths": {
+    "tables_dir": "appendix-a/tables"
+  },
+  "shards": [
+    {
+      "id": "table.appendix_a.material_realms",
+      "type": "table",
+      "path": "appendix-a/tables/table.appendix_a.material_realms.json"
+    },
+    {
+      "id": "table.appendix_a.transitive_planes",
+      "type": "table",
+      "path": "appendix-a/tables/table.appendix_a.transitive_planes.json"
+    },
+    {
+      "id": "table.appendix_a.inner_planes",
+      "type": "table",
+      "path": "appendix-a/tables/table.appendix_a.inner_planes.json"
+    },
+    {
+      "id": "table.appendix_a.outer_planes_summary",
+      "type": "table",
+      "path": "appendix-a/tables/table.appendix_a.outer_planes_summary.json"
+    },
+    {
+      "id": "table.appendix_a.outer_planes_alignment",
+      "type": "table",
+      "path": "appendix-a/tables/table.appendix_a.outer_planes_alignment.json"
+    },
+    {
+      "id": "table.appendix_a.planes_all",
+      "type": "table",
+      "path": "appendix-a/tables/table.appendix_a.planes_all.json"
+    }
+  ]
+}

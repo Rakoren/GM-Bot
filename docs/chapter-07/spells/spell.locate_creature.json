@@ -1,0 +1,39 @@
+{
+  "id": "spell.locate_creature",
+  "name": "Locate Creature",
+  "chapter": 7,
+  "status": "complete",
+  "level": 4,
+  "school": "Divination",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid",
+    "class.paladin",
+    "class.ranger",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "fur from a bloodhound"
+  },
+  "duration": "Concentration, up to 1 hour",
+  "description": [
+    "Describe or name a creature that is familiar to you. You sense the direction to the creature's location if that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement. The spell can locate a specific creature known to you or the nearest creature of a specific kind (such as a human or a unicorn) if you have seen such a creature up close-within 30 feet-at least once. If the creature you described or named is in a different form, such as under the effects of a Flesh to Stone or Polymorph spell, this spell doesn't locate the creature. This spell can't locate a creature if any thickness of lead blocks a direct path between you and the creature."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      85
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

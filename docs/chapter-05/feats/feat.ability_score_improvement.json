@@ -1,0 +1,37 @@
+{
+  "id": "feat.ability_score_improvement",
+  "name": "Ability Score Improvement",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": true,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Benefit",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20."
+      ]
+    },
+    {
+      "name": "Repeatable",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You can take this feat more than once."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Ability Score Improvement"
+  }
+}

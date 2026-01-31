@@ -1,0 +1,36 @@
+{
+  "id": "spell.message",
+  "name": "Message",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Transmutation",
+  "classes": [
+    "class.bard",
+    "class.druid",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": {
+    "flags": [
+      "S",
+      "M"
+    ],
+    "material": "a copper wire"
+  },
+  "duration": "1 round",
+  "description": [
+    "You point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear. You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      92
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

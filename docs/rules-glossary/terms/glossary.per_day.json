@@ -1,0 +1,19 @@
+{
+  "id": "glossary.per_day",
+  "name": "Per Day",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If a rule says you can use something a certain number of times per day, that means you must finish a Long Rest to use it again after you run out of uses."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

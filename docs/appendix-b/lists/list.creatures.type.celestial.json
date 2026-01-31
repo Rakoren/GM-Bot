@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.type.celestial",
+  "name": "Creatures (Type: Celestial)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.sphinx_of_wonder"
+  ]
+}

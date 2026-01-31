@@ -1,0 +1,34 @@
+{
+  "id": "spell.guardian_of_faith",
+  "name": "Guardian of Faith",
+  "chapter": 7,
+  "status": "complete",
+  "level": 4,
+  "school": "Conjuration",
+  "classes": [
+    "class.cleric"
+  ],
+  "casting_time": "Action",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "8 hours",
+  "description": [
+    "A HALFLING CLERIC CASTS GUARDIAN OF FAITH TO FEND OFF A RAVENOUS WORG ARTIST: RINA NORDSOL",
+    "-- 68 of 163 --",
+    "A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon. Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      67
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

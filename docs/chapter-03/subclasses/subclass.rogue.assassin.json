@@ -6,7 +6,7 @@
   "title": "Assassin",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       38,
       40
@@ -41,7 +41,7 @@
       "trigger": "passive",
       "effects": [
         "You have advantage on initiative rolls.",
-        "During the first round of combat, you have advantage on attack rolls against creatures that haven’t taken a turn.",
+        "During the first round of combat, you have advantage on attack rolls against creatures that havent taken a turn.",
         "If your Sneak Attack hits during that round, the target takes extra damage equal to your Rogue level (weapon type)."
       ]
     },
@@ -50,7 +50,7 @@
       "action_type": "none",
       "trigger": "passive",
       "effects": [
-        "You gain a Disguise Kit and a Poisoner’s Kit, and you have proficiency with them."
+        "You gain a Disguise Kit and a Poisoners Kit, and you have proficiency with them."
       ]
     },
     {
@@ -59,7 +59,7 @@
       "trigger": "passive",
       "effects": [
         "Masterful Mimicry: you can mimic speech or handwriting after 1 hour of study.",
-        "Roving Aim: Steady Aim doesn’t reduce your speed to 0."
+        "Roving Aim: Steady Aim doesnt reduce your speed to 0."
       ]
     },
     {
@@ -75,7 +75,7 @@
       "action_type": "none",
       "trigger": "when you hit with Sneak Attack on the first round of combat",
       "effects": [
-        "The target must make a Constitution save (DC 8 + your Dexterity modifier + Proficiency Bonus) or the attack’s damage is doubled."
+        "The target must make a Constitution save (DC 8 + your Dexterity modifier + Proficiency Bonus) or the attacks damage is doubled."
       ]
     }
   ],

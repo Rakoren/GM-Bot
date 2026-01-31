@@ -1,0 +1,19 @@
+{
+  "id": "glossary.unconscious",
+  "name": "Unconscious",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A condition doesn't stack with itself; a recipient either has a condition or doesn't. The Exhaustion condition is an exception to that rule. See also chapter 1 (\"Conditions\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

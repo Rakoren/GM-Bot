@@ -1,0 +1,46 @@
+{
+  "id": "table.appendix_a.inner_planes",
+  "name": "The Inner Planes",
+  "chapter": "appendix-a",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-a/11-The Multiverse - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "section": "Appendix A: The Multiverse"
+  },
+  "columns": [
+    "plane",
+    "description"
+  ],
+  "entries": [
+    {
+      "plane": "Elemental Plane of Air",
+      "description": "Winds blow clouds and floating islands across this boundless sky."
+    },
+    {
+      "plane": "Elemental Plane of Earth",
+      "description": "This maze of caverns winds through stone and untold mineral riches."
+    },
+    {
+      "plane": "Elemental Plane of Fire",
+      "description": "An everlasting inferno, this realm blazes with life on volcanic islands."
+    },
+    {
+      "plane": "Elemental Plane of Water",
+      "description": "This bottomless ocean churns with mysterious sea life."
+    },
+    {
+      "plane": "Elemental Chaos",
+      "description": "Here on the fringes of the Inner Planes, elemental forces clash unpredictably."
+    },
+    {
+      "plane": "Para-Elemental Planes",
+      "description": "In these borderlands between the Elemental Planes, elemental forces combine into realms of ash, ice, magma, and ooze."
+    }
+  ],
+  "notes": []
+}

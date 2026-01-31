@@ -1,0 +1,19 @@
+{
+  "id": "glossary.weapon",
+  "name": "Weapon",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A weapon is an object that is in the Simple or Martial weapon category. See also chapter 6 (\"Weapons\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      29
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

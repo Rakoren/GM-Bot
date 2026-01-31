@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.type.fey",
+  "name": "Creatures (Type: Fey)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.sprite"
+  ]
+}

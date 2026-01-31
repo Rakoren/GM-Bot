@@ -1,0 +1,36 @@
+{
+  "id": "spell.arcane_gate",
+  "name": "Arcane Gate",
+  "chapter": 7,
+  "status": "complete",
+  "level": 6,
+  "school": "Conjuration",
+  "classes": [
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "500 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 10 minutes",
+  "description": [
+    "You create linked teleportation portals. Choose two Large, unoccupied spaces on the ground that you can see, one space within range and the other one within 10 feet of you. A circular portal opens in each of those spaces and remains for the duration. The portals are two-dimensional glowing rings filled with mist that blocks sight. They hover inches from the ground and are perpendicular to it. A portal is open on only one side (you choose which). Anything entering the open side of a portal exits from the open side of the other portal as if the two were adjacent to each other. As a Bonus Action, you can change the facing of the open sides.",
+    "-- 6 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

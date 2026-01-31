@@ -1,0 +1,37 @@
+{
+  "id": "feat.resilient",
+  "name": "Resilient",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Choose one ability in which you lack saving throw proficiency. Increase the chosen ability score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Saving Throw Proficiency",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain saving throw proficiency with the chosen ability."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Resilient"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "spell.contagion",
+  "name": "Contagion",
+  "chapter": 7,
+  "status": "complete",
+  "level": 5,
+  "school": "Necromancy",
+  "classes": [
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": null,
+  "duration": "7 days",
+  "description": [
+    "Your touch inflicts a magical contagion. The target must succeed on a Constitution saving throw or take 11d8 Necrotic damage and have the Poisoned condition. Also, choose one ability when you cast the spell. While Poisoned, the target has Disadvantage on saving throws made with the chosen ability. The target must repeat the saving throw at the end of each of its turns until it gets three successes or failures. If the target succeeds on three of these saves, the spell ends on the target. If the target fails three of the saves, the spell lasts for 7 days on it. Whenever the Poisoned target receives an effect that would end the Poisoned condition, the target must succeed on a Constitution saving throw, or the Poisoned condition doesn't end on it."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      27
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

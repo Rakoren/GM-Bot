@@ -1,0 +1,19 @@
+{
+  "id": "glossary.death_saving_throw",
+  "name": "Death Saving Throw",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A player character must make a Death Saving Throw (also called a Death Save) if they start their turn with 0 Hit Points. See also chapter 1 (\"Damage and Healing\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      10
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "list.creatures.cr.1",
+  "name": "Creatures (CR: 1)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.brown_bear",
+    "creature.giant_spider",
+    "creature.imp",
+    "creature.lion",
+    "creature.quasit",
+    "creature.sphinx_of_wonder",
+    "creature.tiger"
+  ]
+}

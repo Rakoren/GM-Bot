@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.type.fiend_demon",
+  "name": "Creatures (Type: Fiend (Demon))",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.quasit"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "feat.shield_master",
+  "name": "Shield Master",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Shield Training"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Strength score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Shield Bash",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns."
+      ]
+    },
+    {
+      "name": "Interpose Shield",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "If you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      15
+    ],
+    "section": "Shield Master"
+  }
+}

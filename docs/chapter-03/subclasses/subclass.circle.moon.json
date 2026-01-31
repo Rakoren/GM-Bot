@@ -6,7 +6,7 @@
   "title": "Circle of the Moon",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       58,
       60
@@ -41,8 +41,8 @@
       "trigger": "passive",
       "effects": [
         "When you assume Wild Shape, you gain these benefits:",
-        "Challenge Rating: the form’s maximum CR equals your druid level divided by 3 (round down).",
-        "Armor Class: your AC equals 13 + your Wisdom modifier if higher than the beast’s AC.",
+        "Challenge Rating: the forms maximum CR equals your druid level divided by 3 (round down).",
+        "Armor Class: your AC equals 13 + your Wisdom modifier if higher than the beasts AC.",
         "Temporary Hit Points: you gain temporary hit points equal to three times your druid level."
       ]
     },

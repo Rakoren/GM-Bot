@@ -1,0 +1,102 @@
+{
+  "id": "table.food_drink_lodging",
+  "name": "Food, Drink, and Lodging",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      29
+    ],
+    "section": "Food, Drink, and Lodging"
+  },
+  "columns": [
+    "item",
+    "cost"
+  ],
+  "entries": [
+    {
+      "item": "Ale (mug)",
+      "cost": "4 CP"
+    },
+    {
+      "item": "Bread (loaf)",
+      "cost": "2 CP"
+    },
+    {
+      "item": "Cheese (wedge)",
+      "cost": "1 SP"
+    },
+    {
+      "item": "Inn Stay per Day: Squalid",
+      "cost": "7 CP",
+      "group": "Inn Stay per Day"
+    },
+    {
+      "item": "Inn Stay per Day: Poor",
+      "cost": "1 SP",
+      "group": "Inn Stay per Day"
+    },
+    {
+      "item": "Inn Stay per Day: Modest",
+      "cost": "5 SP",
+      "group": "Inn Stay per Day"
+    },
+    {
+      "item": "Inn Stay per Day: Comfortable",
+      "cost": "8 SP",
+      "group": "Inn Stay per Day"
+    },
+    {
+      "item": "Inn Stay per Day: Wealthy",
+      "cost": "2 GP",
+      "group": "Inn Stay per Day"
+    },
+    {
+      "item": "Inn Stay per Day: Aristocratic",
+      "cost": "4 GP",
+      "group": "Inn Stay per Day"
+    },
+    {
+      "item": "Meal: Squalid",
+      "cost": "1 CP",
+      "group": "Meal"
+    },
+    {
+      "item": "Meal: Poor",
+      "cost": "2 CP",
+      "group": "Meal"
+    },
+    {
+      "item": "Meal: Modest",
+      "cost": "1 SP",
+      "group": "Meal"
+    },
+    {
+      "item": "Meal: Comfortable",
+      "cost": "2 SP",
+      "group": "Meal"
+    },
+    {
+      "item": "Meal: Wealthy",
+      "cost": "3 SP",
+      "group": "Meal"
+    },
+    {
+      "item": "Meal: Aristocratic",
+      "cost": "6 SP",
+      "group": "Meal"
+    },
+    {
+      "item": "Meal: Common",
+      "cost": "2 SP",
+      "group": "Meal"
+    },
+    {
+      "item": "Meal: Fine",
+      "cost": "10 GP",
+      "group": "Meal"
+    }
+  ],
+  "notes": []
+}

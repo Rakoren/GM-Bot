@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chapter-07.schema.json",
+  "title": "Chapter 07 Shards Schema",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/sourceRef" },
+    { "$ref": "#/$defs/spellShard" },
+    { "$ref": "#/$defs/tableShard" },
+    { "$ref": "#/$defs/listShard" },
+    { "$ref": "#/$defs/manifest" }
+  ],
+  "$defs": {
+    "idString": { "type": "string", "minLength": 1 },
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "file": { "type": "string" },
+        "pages": { "type": "array", "items": { "type": "integer" } },
+        "section": { "type": "string" }
+      },
+      "required": ["file", "pages", "section"],
+      "additionalProperties": false
+    },
+    "spellShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^spell\\.[a-z0-9_]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 7 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "level": { "type": "integer", "minimum": 0, "maximum": 9 },
+        "school": { "type": "string" },
+        "classes": { "type": "array", "items": { "type": "string" } },
+        "casting_time": { "type": "string" },
+        "range": { "type": "string" },
+        "components": {
+          "type": ["object", "null"],
+          "properties": {
+            "flags": { "type": "array", "items": { "type": "string" } },
+            "material": { "type": ["string", "null"] }
+          },
+          "required": ["flags"],
+          "additionalProperties": false
+        },
+        "duration": { "type": "string" },
+        "description": { "type": "array", "items": { "type": "string" } },
+        "higher_level": { "type": ["string", "null"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": [
+        "id",
+        "name",
+        "chapter",
+        "status",
+        "level",
+        "school",
+        "casting_time",
+        "range",
+        "components",
+        "duration",
+        "description"
+      ],
+      "additionalProperties": true
+    },
+    "tableShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^table\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 7 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "columns": { "type": "array", "items": { "type": "string" } },
+        "entries": { "type": "array", "items": { "type": "object" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "sourceRef", "entries"],
+      "additionalProperties": true
+    },
+    "listShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^list\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 7 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "items": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "items"],
+      "additionalProperties": true
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string" },
+        "chapter": { "type": "integer", "const": 7 },
+        "title": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "paths": { "type": "object" },
+        "shards": { "type": "array", "items": { "type": "object" } }
+      },
+      "required": ["schema_version", "chapter", "title", "shards"],
+      "additionalProperties": true
+    }
+  }
+}

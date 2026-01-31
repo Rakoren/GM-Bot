@@ -1,0 +1,25 @@
+{
+  "id": "item.armor.chain_mail",
+  "name": "Chain Mail",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "armor",
+  "armor_category": "Heavy",
+  "armor_class": "16",
+  "strength": "Str 13",
+  "stealth": "Disadvantage",
+  "weight": "55 lb.",
+  "cost": "75 GP",
+  "don_time": "10 Minutes",
+  "doff_time": "5 Minutes",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6,
+      7,
+      8
+    ],
+    "section": "Armor"
+  },
+  "notes": []
+}

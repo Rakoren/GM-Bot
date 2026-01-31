@@ -1,4 +1,4 @@
-# Chapter 03 – Feature & Class Architecture (PHB 2024)
+# Chapter 03  Feature & Class Architecture (PHB 2024)
 
 ## Status
 
@@ -44,59 +44,59 @@ This document defines the **data architecture, schema conventions, and modeling 
 
 ```
 docs/chapter-03/
-├─ classes/
-│  ├─ barbarian.json
-│  ├─ bard.json
-│  ├─ cleric.json
-│  ├─ druid.json\...
-│
-├─ features/
-│  ├─ core/
-│  │  ├─ ability_score_improvement.json
-│  │  ├─ spellcasting.json
-│  │  ├─ extra_attack.json
-│  │  ├─ epic_boon.json
-│  │  ├─ subclass_choice.json
-│  │  ├─ fighting_style.json
-│  │  └─ weapon_mastery.json
-│  │
-│  └─ warlock/
-│     ├─ pact_magic.json
-│     ├─ eldritch_invocations.json
-│     ├─ magical_cunning.json
-│     ├─ contact_patron.json
-│     ├─ mystic_arcanum.json
-│     └─ eldritch_master.json
-│
-├─ invocations/
-│  ├─ pact_of_the_blade.json
-│  ├─ pact_of_the_chain.json
-│  └─ pact_of_the_tome.json
-│
-├─ resources/
-│  ├─ rage.json
-│  ├─ bardic_inspiration.json
-│  ├─ channel_divinity.json
-│  ├─ wild_shape.json
-│  ├─ pact_magic_slots.json
-│  └─ sorcery_points.json
-│
-├─ spells/
-│  ├─ spell_list.bard.json
-│  ├─ spell_list.cleric.json
-│  ├─ spell_list.druid.json
-│  ├─ spell_list.paladin.json
-│  ├─ spell_list.ranger.json
-│  ├─ spell_list.sorcerer.json
-│  ├─ spell_list.warlock.json
-│  └─ spell_list.wizard.json
-│
-├─ subclasses/
-│  └─ wl.*
-│
-├─ chapter-03.schema.json
-├─ chapter-03.manifest.json
-└─ chapter-03.validation.full.json
+ classes/
+   barbarian.json
+   bard.json
+   cleric.json
+   druid.json\...
+
+ features/
+   core/
+     ability_score_improvement.json
+     spellcasting.json
+     extra_attack.json
+     epic_boon.json
+     subclass_choice.json
+     fighting_style.json
+     weapon_mastery.json
+  
+   warlock/
+      pact_magic.json
+      eldritch_invocations.json
+      magical_cunning.json
+      contact_patron.json
+      mystic_arcanum.json
+      eldritch_master.json
+
+ invocations/
+   pact_of_the_blade.json
+   pact_of_the_chain.json
+   pact_of_the_tome.json
+
+ resources/
+   rage.json
+   bardic_inspiration.json
+   channel_divinity.json
+   wild_shape.json
+   pact_magic_slots.json
+   sorcery_points.json
+
+ spells/
+   spell_list.bard.json
+   spell_list.cleric.json
+   spell_list.druid.json
+   spell_list.paladin.json
+   spell_list.ranger.json
+   spell_list.sorcerer.json
+   spell_list.warlock.json
+   spell_list.wizard.json
+
+ subclasses/
+   wl.*
+
+ chapter-03.schema.json
+ chapter-03.manifest.json
+ chapter-03.validation.full.json
 ```
 
 ---
@@ -273,9 +273,9 @@ Define **limited-use pools**.
 * **Human-debuggable**
 
 > If a rule lives in the PHB, it becomes a shard.
-> If it changes behavior, it’s a feature.
-> If it’s selectable, it’s an invocation.
-> If it’s limited, it’s a resource.
+> If it changes behavior, its a feature.
+> If its selectable, its an invocation.
+> If its limited, its a resource.
 
 ---
 

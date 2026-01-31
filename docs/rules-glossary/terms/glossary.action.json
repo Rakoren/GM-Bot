@@ -1,0 +1,19 @@
+{
+  "id": "glossary.action",
+  "name": "Action",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "On your turn, you can take one action. Choose which action to take from those below or from the special actions provided by your features. See also chapter 1 (\"Actions\"). These actions are defined elsewhere in this glossary:"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

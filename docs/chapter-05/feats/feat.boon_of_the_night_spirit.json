@@ -1,0 +1,45 @@
+{
+  "id": "feat.boon_of_the_night_spirit",
+  "name": "Boon of the Night Spirit",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Epic Boon",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 19+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase one ability score of your choice by 1, to a maximum of 30."
+      ]
+    },
+    {
+      "name": "Merge with Shadows",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction."
+      ]
+    },
+    {
+      "name": "Shadowy Form",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      22
+    ],
+    "section": "Boon of the Night Spirit"
+  }
+}

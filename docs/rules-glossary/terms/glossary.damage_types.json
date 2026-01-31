@@ -1,0 +1,19 @@
+{
+  "id": "glossary.damage_types",
+  "name": "Damage Types",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Attacks and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as Resistance, rely on the types. The Damage Types table offers examples to help a DM assign a type to a new effect."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

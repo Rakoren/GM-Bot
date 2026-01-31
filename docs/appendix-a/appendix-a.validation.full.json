@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "appendix-a",
+  "title": "appendix-a.validation.full",
+  "generated_at": "2026-01-31",
+
+  "validation_profile": "full",
+  "inputs": {
+    "manifest_path": "appendix-a/appendix-a.manifest.json"
+  },
+
+  "required_types": ["table"],
+  "optional_types": [],
+
+  "checks": [
+    {
+      "id": "manifest.shards.unique_ids",
+      "type": "integrity",
+      "severity": "error",
+      "rule": "All shards[].id must be unique across the manifest."
+    },
+    {
+      "id": "manifest.shards.paths.present",
+      "type": "filesystem",
+      "severity": "error",
+      "rule": "Every shards[].path must exist on disk."
+    },
+    {
+      "id": "table.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "table" },
+      "rule": "Table shard must include: id, name, chapter, status, sourceRef, entries."
+    }
+  ],
+
+  "outputs": {
+    "report_path": "appendix-a/validation.full.report.json",
+    "on_success": "pass",
+    "on_failure": "fail"
+  },
+
+  "notes": [
+    "Appendix A validation focuses on shard presence and required fields."
+  ]
+}

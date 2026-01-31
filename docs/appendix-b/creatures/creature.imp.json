@@ -1,0 +1,100 @@
+{
+  "id": "creature.imp",
+  "name": "IMP",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Fiend (Devil), Lawful Evil",
+  "size": "Tiny",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 13,
+  "initiative": "+3",
+  "initiative_score": 13,
+  "hit_points": 21,
+  "hit_dice": "6d4 + 6",
+  "speed": "20 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2",
+      "save": "-2"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    }
+  },
+  "skills": "Deception +4, Insight +3, Stealth +5",
+  "resistances": "Cold",
+  "immunities": "Fire, Poison; Poisoned",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Common, Infernal",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The imp has Advantage on saving throws against spells"
+    },
+    {
+      "name": "and other magical effects",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Sting",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage plus 7 (2d6) Poison damage."
+    },
+    {
+      "name": "Invisibility",
+      "text": "The imp casts Invisibility on itself, requiring no spell components"
+    },
+    {
+      "name": "and using Charisma as the spellcasting ability",
+      "text": ""
+    },
+    {
+      "name": "Shape-Shift",
+      "text": "The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its"
+    },
+    {
+      "name": "game statistics are the same in each form, except for its Speed",
+      "text": "Any"
+    },
+    {
+      "name": "equipment it is wearing or carrying isn't transformed",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      10
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

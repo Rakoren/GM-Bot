@@ -1,0 +1,12 @@
+{
+  "appendix": "A",
+  "title": "The Multiverse",
+  "tables": [
+    "table.appendix_a.material_realms",
+    "table.appendix_a.transitive_planes",
+    "table.appendix_a.inner_planes",
+    "table.appendix_a.outer_planes_summary",
+    "table.appendix_a.outer_planes_alignment",
+    "table.appendix_a.planes_all"
+  ]
+}

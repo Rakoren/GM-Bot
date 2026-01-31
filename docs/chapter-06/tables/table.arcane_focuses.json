@@ -1,0 +1,46 @@
+{
+  "id": "table.arcane_focuses",
+  "name": "Arcane Focuses",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Arcane Focuses"
+  },
+  "columns": [
+    "focus",
+    "weight",
+    "cost"
+  ],
+  "entries": [
+    {
+      "focus": "Crystal",
+      "weight": "1 lb.",
+      "cost": "10 GP"
+    },
+    {
+      "focus": "Orb",
+      "weight": "3 lb.",
+      "cost": "20 GP"
+    },
+    {
+      "focus": "Rod",
+      "weight": "2 lb.",
+      "cost": "10 GP"
+    },
+    {
+      "focus": "Staff (also a Quarterstaff)",
+      "weight": "4 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "focus": "Wand",
+      "weight": "1 lb.",
+      "cost": "10 GP"
+    }
+  ],
+  "notes": []
+}

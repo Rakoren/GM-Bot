@@ -1,0 +1,33 @@
+{
+  "id": "spell.beast_sense",
+  "name": "Beast Sense",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Divination",
+  "classes": [
+    "class.druid",
+    "class.ranger"
+  ],
+  "casting_time": "Action or Ritual",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 hour",
+  "description": [
+    "You touch a willing Beast. For the duration, you can perceive through the Beast's senses as well as your own. When perceiving through the Beast's senses, you benefit from any special senses it has."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

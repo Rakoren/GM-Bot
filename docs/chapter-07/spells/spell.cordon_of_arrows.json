@@ -1,0 +1,36 @@
+{
+  "id": "spell.cordon_of_arrows",
+  "name": "Cordon of Arrows",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Transmutation",
+  "classes": [
+    "class.ranger"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "an ornamental braid"
+  },
+  "duration": "8 hours",
+  "description": [
+    "You touch up to four nonmagical Arrows or Bolts and plant them in the ground in your space. Until the spell ends, the ammunition can't be physically uprooted, and whenever a creature other than you enters a space within 30 feet of the ammunition for the first time on a turn or ends its turn there, one piece of ammunition flies up to strike it. The creature must succeed on a Dexterity saving throw or take 2d4 Piercing damage. The piece of ammunition is then destroyed. The spell ends when none of the ammunition remains planted in the ground. When you cast this spell, you can designate any creatures you choose, and the spell ignores them. Using a Higher-Level Spell Slot. The amount of ammunition that can be affected increases by two for each spell slot level above 2. Counterspell",
+    "-- 31 of 163 --",
+    "Level 3 Abjuration (Sorcerer, Warlock, Wizard) Casting Time: Reaction, which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components Range: 60 feet Components: S Duration: Instantaneous You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      30
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

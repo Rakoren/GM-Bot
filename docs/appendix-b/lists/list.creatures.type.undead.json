@@ -1,0 +1,10 @@
+{
+  "id": "list.creatures.type.undead",
+  "name": "Creatures (Type: Undead)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.skeleton",
+    "creature.zombie"
+  ]
+}

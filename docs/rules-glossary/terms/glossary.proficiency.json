@@ -1,0 +1,19 @@
+{
+  "id": "glossary.proficiency",
+  "name": "Proficiency",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If you have proficiency with something, you can add your Proficiency Bonus to any D20 Test you make using that thing. A creature might have proficiency in a skill or saving throw or with a weapon or tool. See also chapter 1 (\"Proficiency\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

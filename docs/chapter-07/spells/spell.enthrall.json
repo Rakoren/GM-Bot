@@ -1,0 +1,34 @@
+{
+  "id": "spell.enthrall",
+  "name": "Enthrall",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard",
+    "class.warlock"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You weave a distracting string of words, causing creatures of your choice that you can see within range to make a Wisdom saving throw. Any creature you or your companions are fighting automatically succeeds on this save. On a failed save, a target has a 10 penalty to Wisdom (Perception) checks and Passive Perception until the spell ends."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      49
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

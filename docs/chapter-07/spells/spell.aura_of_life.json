@@ -1,0 +1,33 @@
+{
+  "id": "spell.aura_of_life",
+  "name": "Aura of Life",
+  "chapter": 7,
+  "status": "complete",
+  "level": 4,
+  "school": "Abjuration",
+  "classes": [
+    "class.cleric",
+    "class.paladin"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 10 minutes",
+  "description": [
+    "An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can't be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains 1 Hit Point."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

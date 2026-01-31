@@ -1,0 +1,88 @@
+{
+  "id": "creature.giant_seahorse",
+  "name": "GIANT SEAHORSE",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "initiative": "+1",
+  "initiative_score": 11,
+  "hit_points": 16,
+  "hit_dice": "3d10",
+  "speed": "5 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3",
+      "save": "-3"
+    }
+  },
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The seahorse can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Ram",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet straight"
+    },
+    {
+      "name": "toward the target immediately before the hit",
+      "text": "Bonus Actions"
+    },
+    {
+      "name": "Bubble Dash",
+      "text": "While underwater, the seahorse moves up to half its Swim Speed"
+    },
+    {
+      "name": "without provoking Opportunity Attacks",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

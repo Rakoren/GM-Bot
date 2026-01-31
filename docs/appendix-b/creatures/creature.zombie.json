@@ -1,0 +1,84 @@
+{
+  "id": "creature.zombie",
+  "name": "ZOMBIE",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 8,
+  "initiative": "-2",
+  "initiative_score": 8,
+  "hit_points": 15,
+  "hit_dice": "2d8 + 6",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "DEX": {
+      "score": 6,
+      "mod": "-2",
+      "save": "-2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 6,
+      "mod": "-2",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3",
+      "save": "-3"
+    }
+  },
+  "skills": null,
+  "resistances": null,
+  "immunities": "Poison; Exhaustion, Poisoned",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 8",
+  "languages": "Understands Common plus one other language but can't speak",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Undead Fortitude",
+      "text": "If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is"
+    },
+    {
+      "name": "Radiant or from a Critical Hit",
+      "text": "On a successful save, the zombie drops to 1 Hit"
+    },
+    {
+      "name": "Point instead",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Bludgeoning damage."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      22
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

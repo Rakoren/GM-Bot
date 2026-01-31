@@ -1,0 +1,35 @@
+{
+  "id": "spell.pass_without_trace",
+  "name": "Pass without Trace",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Abjuration",
+  "classes": [
+    "class.druid",
+    "class.ranger"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "ashes from burned mistletoe"
+  },
+  "duration": "Concentration, up to 1 hour",
+  "description": [
+    "You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity (Stealth) checks and leave no tracks."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      101
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

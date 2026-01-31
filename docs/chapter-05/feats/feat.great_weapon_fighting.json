@@ -1,0 +1,29 @@
+{
+  "id": "feat.great_weapon_fighting",
+  "name": "Great Weapon Fighting",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Fighting Style",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Fighting Style Feature"
+  ],
+  "benefits": [
+    {
+      "name": "Benefit",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Great Weapon Fighting"
+  }
+}

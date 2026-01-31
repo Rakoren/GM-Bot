@@ -1,0 +1,35 @@
+{
+  "id": "spell.feather_fall",
+  "name": "Feather Fall",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Transmutation",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Reaction, which you take when you or a creature you can see within 60 feet of you falls",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "M"
+    ],
+    "material": "a small feather or piece of down"
+  },
+  "duration": "1 minute",
+  "description": [
+    "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

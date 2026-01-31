@@ -1,0 +1,53 @@
+{
+  "id": "feat.athlete",
+  "name": "Athlete",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Strength or Dexterity 13+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Climb Speed",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain a Climb Speed equal to your Speed."
+      ]
+    },
+    {
+      "name": "Hop Up",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you have the Prone condition, you can right yourself with only 5 feet of movement."
+      ]
+    },
+    {
+      "name": "Jumping",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You can make a running Long or High Jump after moving only 5 feet."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Athlete"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "feat.alert",
+  "name": "Alert",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Origin",
+  "repeatable": false,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Alert"
+  },
+  "prerequisites": [],
+  "benefits": [
+    {
+      "name": "Initiative Proficiency",
+      "action_type": "none",
+      "trigger": "when you roll initiative",
+      "effects": [
+        "add your proficiency bonus to the roll"
+      ]
+    },
+    {
+      "name": "Initiative Swap",
+      "action_type": "none",
+      "trigger": "immediately after you roll initiative",
+      "effects": [
+        "swap your initiative with one willing ally in the same combat"
+      ],
+      "limits": [
+        "cannot swap if you or the ally has the incapacitated condition"
+      ]
+    }
+  ],
+  "notes": []
+}

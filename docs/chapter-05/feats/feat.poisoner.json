@@ -1,0 +1,46 @@
+{
+  "id": "feat.poisoner",
+  "name": "Poisoner",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Dexterity or Intelligence score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Potent Poison",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you make a damage roll that deals Poison damage, it ignores Resistance to Poison damage."
+      ]
+    },
+    {
+      "name": "Brew Poison",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain proficiency with the Poisoner's Kit. With 1 hour of work using such a kit and expending 50 GP worth of materials, you can create a number of poison doses equal to your Proficiency Bonus. As a Bonus Action, you can apply a poison dose to a weapon or piece of ammunition. Once applied, the poison retains its potency for 1 minute or until until you deal damage with the poisoned item, whichever is shorter. When a creature takes damage from the poisoned item, that creature must succeed on a Constitution saving throw (DC 8 plus the modifier of the ability increased by this feat and your Proficiency Bonus) or take 2d8 Poison damage and have the Poisoned condition until the end of your next turn. ARTIST: WAYNE ENGLAND"
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      12,
+      13
+    ],
+    "section": "Poisoner"
+  }
+}

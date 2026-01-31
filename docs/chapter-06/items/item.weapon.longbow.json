@@ -1,0 +1,28 @@
+{
+  "id": "item.weapon.longbow",
+  "name": "Longbow",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "weapon",
+  "weapon_category": "Martial",
+  "weapon_type": "Ranged",
+  "damage": "1d8",
+  "damage_type": "Piercing",
+  "properties": [
+    "Ammunition (Range 150/600; Arrow)",
+    "Heavy",
+    "Two-Handed"
+  ],
+  "mastery": "Slow",
+  "weight": "2 lb.",
+  "cost": "50 GP",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "section": "Weapons"
+  },
+  "notes": []
+}

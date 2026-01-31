@@ -1,0 +1,35 @@
+{
+  "id": "spell.mass_cure_wounds",
+  "name": "Mass Cure Wounds",
+  "chapter": 7,
+  "status": "complete",
+  "level": 5,
+  "school": "Abjuration",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "A wave of healing energy washes out from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier. Using a Higher-Level Spell Slot. The healing increases by 1d8 for each spell slot level above 5."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      89
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

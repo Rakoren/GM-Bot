@@ -1,0 +1,37 @@
+{
+  "id": "spell.fear",
+  "name": "Fear",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Illusion",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a white feather"
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the Frightened condition for the duration. A Frightened creature takes the Dash action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "spell.color_spray",
+  "name": "Color Spray",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Illusion",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a pinch of colorful sand"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn. Command",
+    "-- 21 of 163 --",
+    "Level 1 Enchantment (Bard, Cleric, Paladin) Casting Time: Action Range: 60 feet Components: V Duration: Instantaneous You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options: Approach. The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you. Drop. The target drops whatever it is holding and then ends its turn. Flee. The target spends its turn moving away from you by the fastest available means. Grovel. The target has the Prone condition and then ends its turn. Halt. On its turn, the target doesn't move and takes no action or Bonus Action. Using a Higher-Level Spell Slot. You can affect one additional creature for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

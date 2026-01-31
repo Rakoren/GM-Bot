@@ -1,0 +1,2038 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": 7,
+  "title": "Spells",
+  "generated_at": "2026-01-31",
+  "paths": {
+    "spells_dir": "chapter-07/spells",
+    "tables_dir": "chapter-07/tables",
+    "lists_dir": "chapter-07/lists"
+  },
+  "shards": [
+    {
+      "id": "spell.acid_splash",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.acid_splash.json"
+    },
+    {
+      "id": "spell.aid",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.aid.json"
+    },
+    {
+      "id": "spell.alarm",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.alarm.json"
+    },
+    {
+      "id": "spell.alter_self",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.alter_self.json"
+    },
+    {
+      "id": "spell.animal_friendship",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.animal_friendship.json"
+    },
+    {
+      "id": "spell.animal_messenger",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.animal_messenger.json"
+    },
+    {
+      "id": "spell.animal_shapes",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.animal_shapes.json"
+    },
+    {
+      "id": "spell.animate_dead",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.animate_dead.json"
+    },
+    {
+      "id": "spell.animate_objects",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.animate_objects.json"
+    },
+    {
+      "id": "spell.antilife_shell",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.antilife_shell.json"
+    },
+    {
+      "id": "spell.antimagic_field",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.antimagic_field.json"
+    },
+    {
+      "id": "spell.antipathy_sympathy",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.antipathy_sympathy.json"
+    },
+    {
+      "id": "spell.arcane_eye",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.arcane_eye.json"
+    },
+    {
+      "id": "spell.arcane_gate",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.arcane_gate.json"
+    },
+    {
+      "id": "spell.arcane_lock",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.arcane_lock.json"
+    },
+    {
+      "id": "spell.arcane_vigor",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.arcane_vigor.json"
+    },
+    {
+      "id": "spell.armor_of_agathys",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.armor_of_agathys.json"
+    },
+    {
+      "id": "spell.arms_of_hadar",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.arms_of_hadar.json"
+    },
+    {
+      "id": "spell.astral_projection",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.astral_projection.json"
+    },
+    {
+      "id": "spell.augury",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.augury.json"
+    },
+    {
+      "id": "spell.aura_of_life",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.aura_of_life.json"
+    },
+    {
+      "id": "spell.aura_of_purity",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.aura_of_purity.json"
+    },
+    {
+      "id": "spell.aura_of_vitality",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.aura_of_vitality.json"
+    },
+    {
+      "id": "spell.awaken",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.awaken.json"
+    },
+    {
+      "id": "spell.bane",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.bane.json"
+    },
+    {
+      "id": "spell.banishing_smite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.banishing_smite.json"
+    },
+    {
+      "id": "spell.banishment",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.banishment.json"
+    },
+    {
+      "id": "spell.barkskin",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.barkskin.json"
+    },
+    {
+      "id": "spell.beacon_of_hope",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.beacon_of_hope.json"
+    },
+    {
+      "id": "spell.beast_sense",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.beast_sense.json"
+    },
+    {
+      "id": "spell.befuddlement",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.befuddlement.json"
+    },
+    {
+      "id": "spell.bestow_curse",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.bestow_curse.json"
+    },
+    {
+      "id": "spell.bigby_s_hand",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.bigby_s_hand.json"
+    },
+    {
+      "id": "spell.blade_barrier",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.blade_barrier.json"
+    },
+    {
+      "id": "spell.blade_ward",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.blade_ward.json"
+    },
+    {
+      "id": "spell.bless",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.bless.json"
+    },
+    {
+      "id": "spell.blinding_smite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.blinding_smite.json"
+    },
+    {
+      "id": "spell.blindness_deafness",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.blindness_deafness.json"
+    },
+    {
+      "id": "spell.blink",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.blink.json"
+    },
+    {
+      "id": "spell.blur",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.blur.json"
+    },
+    {
+      "id": "spell.burning_hands",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.burning_hands.json"
+    },
+    {
+      "id": "spell.call_lightning",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.call_lightning.json"
+    },
+    {
+      "id": "spell.calm_emotions",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.calm_emotions.json"
+    },
+    {
+      "id": "spell.chain_lightning",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.chain_lightning.json"
+    },
+    {
+      "id": "spell.charm_monster",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.charm_monster.json"
+    },
+    {
+      "id": "spell.charm_person",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.charm_person.json"
+    },
+    {
+      "id": "spell.chill_touch",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.chill_touch.json"
+    },
+    {
+      "id": "spell.chromatic_orb",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.chromatic_orb.json"
+    },
+    {
+      "id": "spell.circle_of_death",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.circle_of_death.json"
+    },
+    {
+      "id": "spell.circle_of_power",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.circle_of_power.json"
+    },
+    {
+      "id": "spell.clairvoyance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.clairvoyance.json"
+    },
+    {
+      "id": "spell.clone",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.clone.json"
+    },
+    {
+      "id": "spell.cloudkill",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.cloudkill.json"
+    },
+    {
+      "id": "spell.cloud_of_daggers",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.cloud_of_daggers.json"
+    },
+    {
+      "id": "spell.color_spray",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.color_spray.json"
+    },
+    {
+      "id": "spell.commune",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.commune.json"
+    },
+    {
+      "id": "spell.commune_with_nature",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.commune_with_nature.json"
+    },
+    {
+      "id": "spell.compelled_duel",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.compelled_duel.json"
+    },
+    {
+      "id": "spell.comprehend_languages",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.comprehend_languages.json"
+    },
+    {
+      "id": "spell.compulsion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.compulsion.json"
+    },
+    {
+      "id": "spell.cone_of_cold",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.cone_of_cold.json"
+    },
+    {
+      "id": "spell.confusion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.confusion.json"
+    },
+    {
+      "id": "spell.conjure_animals",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_animals.json"
+    },
+    {
+      "id": "spell.conjure_barrage",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_barrage.json"
+    },
+    {
+      "id": "spell.conjure_celestial",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_celestial.json"
+    },
+    {
+      "id": "spell.conjure_elemental",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_elemental.json"
+    },
+    {
+      "id": "spell.conjure_fey",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_fey.json"
+    },
+    {
+      "id": "spell.conjure_minor_elementals",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_minor_elementals.json"
+    },
+    {
+      "id": "spell.conjure_volley",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_volley.json"
+    },
+    {
+      "id": "spell.conjure_woodland_beings",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.conjure_woodland_beings.json"
+    },
+    {
+      "id": "spell.contact_other_plane",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.contact_other_plane.json"
+    },
+    {
+      "id": "spell.contagion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.contagion.json"
+    },
+    {
+      "id": "spell.contingency",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.contingency.json"
+    },
+    {
+      "id": "spell.continual_flame",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.continual_flame.json"
+    },
+    {
+      "id": "spell.control_water",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.control_water.json"
+    },
+    {
+      "id": "spell.control_weather",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.control_weather.json"
+    },
+    {
+      "id": "spell.cordon_of_arrows",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.cordon_of_arrows.json"
+    },
+    {
+      "id": "spell.create_food_and_water",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.create_food_and_water.json"
+    },
+    {
+      "id": "spell.create_or_destroy_water",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.create_or_destroy_water.json"
+    },
+    {
+      "id": "spell.create_undead",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.create_undead.json"
+    },
+    {
+      "id": "spell.creation",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.creation.json"
+    },
+    {
+      "id": "spell.crown_of_madness",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.crown_of_madness.json"
+    },
+    {
+      "id": "spell.crusader_s_mantle",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.crusader_s_mantle.json"
+    },
+    {
+      "id": "spell.cure_wounds",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.cure_wounds.json"
+    },
+    {
+      "id": "spell.dancing_lights",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dancing_lights.json"
+    },
+    {
+      "id": "spell.darkness",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.darkness.json"
+    },
+    {
+      "id": "spell.darkvision",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.darkvision.json"
+    },
+    {
+      "id": "spell.daylight",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.daylight.json"
+    },
+    {
+      "id": "spell.death_ward",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.death_ward.json"
+    },
+    {
+      "id": "spell.delayed_blast_fireball",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.delayed_blast_fireball.json"
+    },
+    {
+      "id": "spell.demiplane",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.demiplane.json"
+    },
+    {
+      "id": "spell.destructive_wave",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.destructive_wave.json"
+    },
+    {
+      "id": "spell.detect_evil_and_good",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.detect_evil_and_good.json"
+    },
+    {
+      "id": "spell.detect_magic",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.detect_magic.json"
+    },
+    {
+      "id": "spell.detect_poison_and_disease",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.detect_poison_and_disease.json"
+    },
+    {
+      "id": "spell.detect_thoughts",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.detect_thoughts.json"
+    },
+    {
+      "id": "spell.dimension_door",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dimension_door.json"
+    },
+    {
+      "id": "spell.disguise_self",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.disguise_self.json"
+    },
+    {
+      "id": "spell.disintegrate",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.disintegrate.json"
+    },
+    {
+      "id": "spell.dispel_evil_and_good",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dispel_evil_and_good.json"
+    },
+    {
+      "id": "spell.dispel_magic",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dispel_magic.json"
+    },
+    {
+      "id": "spell.dissonant_whispers",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dissonant_whispers.json"
+    },
+    {
+      "id": "spell.divination",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.divination.json"
+    },
+    {
+      "id": "spell.divine_favor",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.divine_favor.json"
+    },
+    {
+      "id": "spell.divine_word",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.divine_word.json"
+    },
+    {
+      "id": "spell.dominate_beast",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dominate_beast.json"
+    },
+    {
+      "id": "spell.dominate_monster",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dominate_monster.json"
+    },
+    {
+      "id": "spell.dominate_person",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dominate_person.json"
+    },
+    {
+      "id": "spell.dragon_s_breath",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dragon_s_breath.json"
+    },
+    {
+      "id": "spell.drawmij_s_instant_summons",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.drawmij_s_instant_summons.json"
+    },
+    {
+      "id": "spell.dream",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.dream.json"
+    },
+    {
+      "id": "spell.earthquake",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.earthquake.json"
+    },
+    {
+      "id": "spell.eldritch_blast",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.eldritch_blast.json"
+    },
+    {
+      "id": "spell.elementalism",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.elementalism.json"
+    },
+    {
+      "id": "spell.elemental_weapon",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.elemental_weapon.json"
+    },
+    {
+      "id": "spell.enhance_ability",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.enhance_ability.json"
+    },
+    {
+      "id": "spell.enlarge_reduce",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.enlarge_reduce.json"
+    },
+    {
+      "id": "spell.ensnaring_strike",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.ensnaring_strike.json"
+    },
+    {
+      "id": "spell.entangle",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.entangle.json"
+    },
+    {
+      "id": "spell.enthrall",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.enthrall.json"
+    },
+    {
+      "id": "spell.etherealness",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.etherealness.json"
+    },
+    {
+      "id": "spell.evard_s_black_tentacles",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.evard_s_black_tentacles.json"
+    },
+    {
+      "id": "spell.expeditious_retreat",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.expeditious_retreat.json"
+    },
+    {
+      "id": "spell.eyebite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.eyebite.json"
+    },
+    {
+      "id": "spell.fabricate",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fabricate.json"
+    },
+    {
+      "id": "spell.faerie_fire",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.faerie_fire.json"
+    },
+    {
+      "id": "spell.false_life",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.false_life.json"
+    },
+    {
+      "id": "spell.fear",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fear.json"
+    },
+    {
+      "id": "spell.feather_fall",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.feather_fall.json"
+    },
+    {
+      "id": "spell.feign_death",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.feign_death.json"
+    },
+    {
+      "id": "spell.find_familiar",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.find_familiar.json"
+    },
+    {
+      "id": "spell.find_steed",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.find_steed.json"
+    },
+    {
+      "id": "spell.find_the_path",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.find_the_path.json"
+    },
+    {
+      "id": "spell.find_traps",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.find_traps.json"
+    },
+    {
+      "id": "spell.finger_of_death",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.finger_of_death.json"
+    },
+    {
+      "id": "spell.fireball",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fireball.json"
+    },
+    {
+      "id": "spell.fire_bolt",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fire_bolt.json"
+    },
+    {
+      "id": "spell.fire_shield",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fire_shield.json"
+    },
+    {
+      "id": "spell.fire_storm",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fire_storm.json"
+    },
+    {
+      "id": "spell.flame_blade",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.flame_blade.json"
+    },
+    {
+      "id": "spell.flame_strike",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.flame_strike.json"
+    },
+    {
+      "id": "spell.flaming_sphere",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.flaming_sphere.json"
+    },
+    {
+      "id": "spell.flesh_to_stone",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.flesh_to_stone.json"
+    },
+    {
+      "id": "spell.fly",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fly.json"
+    },
+    {
+      "id": "spell.fog_cloud",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fog_cloud.json"
+    },
+    {
+      "id": "spell.forbiddance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.forbiddance.json"
+    },
+    {
+      "id": "spell.forcecage",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.forcecage.json"
+    },
+    {
+      "id": "spell.foresight",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.foresight.json"
+    },
+    {
+      "id": "spell.fount_of_moonlight",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.fount_of_moonlight.json"
+    },
+    {
+      "id": "spell.freedom_of_movement",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.freedom_of_movement.json"
+    },
+    {
+      "id": "spell.friends",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.friends.json"
+    },
+    {
+      "id": "spell.gate",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.gate.json"
+    },
+    {
+      "id": "spell.geas",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.geas.json"
+    },
+    {
+      "id": "spell.gentle_repose",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.gentle_repose.json"
+    },
+    {
+      "id": "spell.giant_insect",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.giant_insect.json"
+    },
+    {
+      "id": "spell.glibness",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.glibness.json"
+    },
+    {
+      "id": "spell.globe_of_invulnerability",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.globe_of_invulnerability.json"
+    },
+    {
+      "id": "spell.glyph_of_warding",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.glyph_of_warding.json"
+    },
+    {
+      "id": "spell.goodberry",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.goodberry.json"
+    },
+    {
+      "id": "spell.grasping_vine",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.grasping_vine.json"
+    },
+    {
+      "id": "spell.grease",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.grease.json"
+    },
+    {
+      "id": "spell.greater_invisibility",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.greater_invisibility.json"
+    },
+    {
+      "id": "spell.greater_restoration",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.greater_restoration.json"
+    },
+    {
+      "id": "spell.guardian_of_faith",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.guardian_of_faith.json"
+    },
+    {
+      "id": "spell.guards_and_wards",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.guards_and_wards.json"
+    },
+    {
+      "id": "spell.guidance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.guidance.json"
+    },
+    {
+      "id": "spell.guiding_bolt",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.guiding_bolt.json"
+    },
+    {
+      "id": "spell.gust_of_wind",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.gust_of_wind.json"
+    },
+    {
+      "id": "spell.hail_of_thorns",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hail_of_thorns.json"
+    },
+    {
+      "id": "spell.hallow",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hallow.json"
+    },
+    {
+      "id": "spell.hallucinatory_terrain",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hallucinatory_terrain.json"
+    },
+    {
+      "id": "spell.haste",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.haste.json"
+    },
+    {
+      "id": "spell.heal",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.heal.json"
+    },
+    {
+      "id": "spell.healing_word",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.healing_word.json"
+    },
+    {
+      "id": "spell.heat_metal",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.heat_metal.json"
+    },
+    {
+      "id": "spell.hellish_rebuke",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hellish_rebuke.json"
+    },
+    {
+      "id": "spell.heroes_feast",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.heroes_feast.json"
+    },
+    {
+      "id": "spell.heroism",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.heroism.json"
+    },
+    {
+      "id": "spell.hex",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hex.json"
+    },
+    {
+      "id": "spell.hold_monster",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hold_monster.json"
+    },
+    {
+      "id": "spell.hold_person",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hold_person.json"
+    },
+    {
+      "id": "spell.holy_aura",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.holy_aura.json"
+    },
+    {
+      "id": "spell.hunger_of_hadar",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hunger_of_hadar.json"
+    },
+    {
+      "id": "spell.hunter_s_mark",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hunter_s_mark.json"
+    },
+    {
+      "id": "spell.hypnotic_pattern",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.hypnotic_pattern.json"
+    },
+    {
+      "id": "spell.ice_knife",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.ice_knife.json"
+    },
+    {
+      "id": "spell.ice_storm",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.ice_storm.json"
+    },
+    {
+      "id": "spell.identify",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.identify.json"
+    },
+    {
+      "id": "spell.illusory_script",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.illusory_script.json"
+    },
+    {
+      "id": "spell.imprisonment",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.imprisonment.json"
+    },
+    {
+      "id": "spell.incendiary_cloud",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.incendiary_cloud.json"
+    },
+    {
+      "id": "spell.inflict_wounds",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.inflict_wounds.json"
+    },
+    {
+      "id": "spell.insect_plague",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.insect_plague.json"
+    },
+    {
+      "id": "spell.invisibility",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.invisibility.json"
+    },
+    {
+      "id": "spell.jallarzi_s_storm_of_radiance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.jallarzi_s_storm_of_radiance.json"
+    },
+    {
+      "id": "spell.jump",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.jump.json"
+    },
+    {
+      "id": "spell.knock",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.knock.json"
+    },
+    {
+      "id": "spell.legend_lore",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.legend_lore.json"
+    },
+    {
+      "id": "spell.leomund_s_secret_chest",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.leomund_s_secret_chest.json"
+    },
+    {
+      "id": "spell.leomund_s_tiny_hut",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.leomund_s_tiny_hut.json"
+    },
+    {
+      "id": "spell.lesser_restoration",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.lesser_restoration.json"
+    },
+    {
+      "id": "spell.levitate",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.levitate.json"
+    },
+    {
+      "id": "spell.light",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.light.json"
+    },
+    {
+      "id": "spell.lightning_arrow",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.lightning_arrow.json"
+    },
+    {
+      "id": "spell.lightning_bolt",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.lightning_bolt.json"
+    },
+    {
+      "id": "spell.locate_animals_or_plants",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.locate_animals_or_plants.json"
+    },
+    {
+      "id": "spell.locate_creature",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.locate_creature.json"
+    },
+    {
+      "id": "spell.locate_object",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.locate_object.json"
+    },
+    {
+      "id": "spell.longstrider",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.longstrider.json"
+    },
+    {
+      "id": "spell.mage_armor",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mage_armor.json"
+    },
+    {
+      "id": "spell.mage_hand",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mage_hand.json"
+    },
+    {
+      "id": "spell.magic_circle",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.magic_circle.json"
+    },
+    {
+      "id": "spell.magic_jar",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.magic_jar.json"
+    },
+    {
+      "id": "spell.magic_missile",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.magic_missile.json"
+    },
+    {
+      "id": "spell.magic_mouth",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.magic_mouth.json"
+    },
+    {
+      "id": "spell.magic_weapon",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.magic_weapon.json"
+    },
+    {
+      "id": "spell.major_image",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.major_image.json"
+    },
+    {
+      "id": "spell.mass_cure_wounds",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mass_cure_wounds.json"
+    },
+    {
+      "id": "spell.mass_heal",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mass_heal.json"
+    },
+    {
+      "id": "spell.mass_healing_word",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mass_healing_word.json"
+    },
+    {
+      "id": "spell.mass_suggestion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mass_suggestion.json"
+    },
+    {
+      "id": "spell.maze",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.maze.json"
+    },
+    {
+      "id": "spell.meld_into_stone",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.meld_into_stone.json"
+    },
+    {
+      "id": "spell.melf_s_acid_arrow",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.melf_s_acid_arrow.json"
+    },
+    {
+      "id": "spell.mending",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mending.json"
+    },
+    {
+      "id": "spell.message",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.message.json"
+    },
+    {
+      "id": "spell.meteor_swarm",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.meteor_swarm.json"
+    },
+    {
+      "id": "spell.mind_blank",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mind_blank.json"
+    },
+    {
+      "id": "spell.mind_sliver",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mind_sliver.json"
+    },
+    {
+      "id": "spell.mind_spike",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mind_spike.json"
+    },
+    {
+      "id": "spell.minor_illusion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.minor_illusion.json"
+    },
+    {
+      "id": "spell.mirage_arcane",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mirage_arcane.json"
+    },
+    {
+      "id": "spell.mirror_image",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mirror_image.json"
+    },
+    {
+      "id": "spell.mislead",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mislead.json"
+    },
+    {
+      "id": "spell.misty_step",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.misty_step.json"
+    },
+    {
+      "id": "spell.modify_memory",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.modify_memory.json"
+    },
+    {
+      "id": "spell.moonbeam",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.moonbeam.json"
+    },
+    {
+      "id": "spell.mordenkainen_s_faithful_hound",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mordenkainen_s_faithful_hound.json"
+    },
+    {
+      "id": "spell.mordenkainen_s_magnificent_mansion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mordenkainen_s_magnificent_mansion.json"
+    },
+    {
+      "id": "spell.mordenkainen_s_sword",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.mordenkainen_s_sword.json"
+    },
+    {
+      "id": "spell.move_earth",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.move_earth.json"
+    },
+    {
+      "id": "spell.nondetection",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.nondetection.json"
+    },
+    {
+      "id": "spell.nystul_s_magic_aura",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.nystul_s_magic_aura.json"
+    },
+    {
+      "id": "spell.otiluke_s_freezing_sphere",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.otiluke_s_freezing_sphere.json"
+    },
+    {
+      "id": "spell.otiluke_s_resilient_sphere",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.otiluke_s_resilient_sphere.json"
+    },
+    {
+      "id": "spell.otto_s_irresistible_dance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.otto_s_irresistible_dance.json"
+    },
+    {
+      "id": "spell.passwall",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.passwall.json"
+    },
+    {
+      "id": "spell.pass_without_trace",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.pass_without_trace.json"
+    },
+    {
+      "id": "spell.phantasmal_force",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.phantasmal_force.json"
+    },
+    {
+      "id": "spell.phantasmal_killer",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.phantasmal_killer.json"
+    },
+    {
+      "id": "spell.phantom_steed",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.phantom_steed.json"
+    },
+    {
+      "id": "spell.planar_ally",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.planar_ally.json"
+    },
+    {
+      "id": "spell.planar_binding",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.planar_binding.json"
+    },
+    {
+      "id": "spell.plane_shift",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.plane_shift.json"
+    },
+    {
+      "id": "spell.plant_growth",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.plant_growth.json"
+    },
+    {
+      "id": "spell.poison_spray",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.poison_spray.json"
+    },
+    {
+      "id": "spell.polymorph",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.polymorph.json"
+    },
+    {
+      "id": "spell.power_word_fortify",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.power_word_fortify.json"
+    },
+    {
+      "id": "spell.power_word_heal",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.power_word_heal.json"
+    },
+    {
+      "id": "spell.power_word_kill",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.power_word_kill.json"
+    },
+    {
+      "id": "spell.power_word_stun",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.power_word_stun.json"
+    },
+    {
+      "id": "spell.prayer_of_healing",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.prayer_of_healing.json"
+    },
+    {
+      "id": "spell.prestidigitation",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.prestidigitation.json"
+    },
+    {
+      "id": "spell.prismatic_spray",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.prismatic_spray.json"
+    },
+    {
+      "id": "spell.prismatic_wall",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.prismatic_wall.json"
+    },
+    {
+      "id": "spell.produce_flame",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.produce_flame.json"
+    },
+    {
+      "id": "spell.programmed_illusion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.programmed_illusion.json"
+    },
+    {
+      "id": "spell.project_image",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.project_image.json"
+    },
+    {
+      "id": "spell.protection_from_energy",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.protection_from_energy.json"
+    },
+    {
+      "id": "spell.protection_from_evil_and_good",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.protection_from_evil_and_good.json"
+    },
+    {
+      "id": "spell.protection_from_poison",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.protection_from_poison.json"
+    },
+    {
+      "id": "spell.purify_food_and_drink",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.purify_food_and_drink.json"
+    },
+    {
+      "id": "spell.raise_dead",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.raise_dead.json"
+    },
+    {
+      "id": "spell.rary_s_telepathic_bond",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.rary_s_telepathic_bond.json"
+    },
+    {
+      "id": "spell.ray_of_enfeeblement",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.ray_of_enfeeblement.json"
+    },
+    {
+      "id": "spell.ray_of_frost",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.ray_of_frost.json"
+    },
+    {
+      "id": "spell.ray_of_sickness",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.ray_of_sickness.json"
+    },
+    {
+      "id": "spell.regenerate",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.regenerate.json"
+    },
+    {
+      "id": "spell.reincarnate",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.reincarnate.json"
+    },
+    {
+      "id": "spell.remove_curse",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.remove_curse.json"
+    },
+    {
+      "id": "spell.resistance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.resistance.json"
+    },
+    {
+      "id": "spell.resurrection",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.resurrection.json"
+    },
+    {
+      "id": "spell.reverse_gravity",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.reverse_gravity.json"
+    },
+    {
+      "id": "spell.revivify",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.revivify.json"
+    },
+    {
+      "id": "spell.rope_trick",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.rope_trick.json"
+    },
+    {
+      "id": "spell.sacred_flame",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sacred_flame.json"
+    },
+    {
+      "id": "spell.scorching_ray",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.scorching_ray.json"
+    },
+    {
+      "id": "spell.scrying",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.scrying.json"
+    },
+    {
+      "id": "spell.searing_smite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.searing_smite.json"
+    },
+    {
+      "id": "spell.see_invisibility",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.see_invisibility.json"
+    },
+    {
+      "id": "spell.seeming",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.seeming.json"
+    },
+    {
+      "id": "spell.sending",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sending.json"
+    },
+    {
+      "id": "spell.sequester",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sequester.json"
+    },
+    {
+      "id": "spell.shapechange",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.shapechange.json"
+    },
+    {
+      "id": "spell.shatter",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.shatter.json"
+    },
+    {
+      "id": "spell.shield",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.shield.json"
+    },
+    {
+      "id": "spell.shield_of_faith",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.shield_of_faith.json"
+    },
+    {
+      "id": "spell.shillelagh",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.shillelagh.json"
+    },
+    {
+      "id": "spell.shining_smite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.shining_smite.json"
+    },
+    {
+      "id": "spell.shocking_grasp",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.shocking_grasp.json"
+    },
+    {
+      "id": "spell.silence",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.silence.json"
+    },
+    {
+      "id": "spell.silent_image",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.silent_image.json"
+    },
+    {
+      "id": "spell.simulacrum",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.simulacrum.json"
+    },
+    {
+      "id": "spell.sleep",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sleep.json"
+    },
+    {
+      "id": "spell.sleet_storm",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sleet_storm.json"
+    },
+    {
+      "id": "spell.slow",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.slow.json"
+    },
+    {
+      "id": "spell.sorcerous_burst",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sorcerous_burst.json"
+    },
+    {
+      "id": "spell.spare_the_dying",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.spare_the_dying.json"
+    },
+    {
+      "id": "spell.speak_with_animals",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.speak_with_animals.json"
+    },
+    {
+      "id": "spell.speak_with_dead",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.speak_with_dead.json"
+    },
+    {
+      "id": "spell.speak_with_plants",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.speak_with_plants.json"
+    },
+    {
+      "id": "spell.spider_climb",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.spider_climb.json"
+    },
+    {
+      "id": "spell.spike_growth",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.spike_growth.json"
+    },
+    {
+      "id": "spell.spirit_guardians",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.spirit_guardians.json"
+    },
+    {
+      "id": "spell.spiritual_weapon",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.spiritual_weapon.json"
+    },
+    {
+      "id": "spell.staggering_smite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.staggering_smite.json"
+    },
+    {
+      "id": "spell.starry_wisp",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.starry_wisp.json"
+    },
+    {
+      "id": "spell.steel_wind_strike",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.steel_wind_strike.json"
+    },
+    {
+      "id": "spell.stinking_cloud",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.stinking_cloud.json"
+    },
+    {
+      "id": "spell.stone_shape",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.stone_shape.json"
+    },
+    {
+      "id": "spell.stoneskin",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.stoneskin.json"
+    },
+    {
+      "id": "spell.storm_of_vengeance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.storm_of_vengeance.json"
+    },
+    {
+      "id": "spell.suggestion",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.suggestion.json"
+    },
+    {
+      "id": "spell.summon_aberration",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_aberration.json"
+    },
+    {
+      "id": "spell.summon_beast",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_beast.json"
+    },
+    {
+      "id": "spell.summon_celestial",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_celestial.json"
+    },
+    {
+      "id": "spell.summon_dragon",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_dragon.json"
+    },
+    {
+      "id": "spell.summon_elemental",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_elemental.json"
+    },
+    {
+      "id": "spell.summon_fey",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_fey.json"
+    },
+    {
+      "id": "spell.summon_fiend",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_fiend.json"
+    },
+    {
+      "id": "spell.summon_undead",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.summon_undead.json"
+    },
+    {
+      "id": "spell.sunbeam",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sunbeam.json"
+    },
+    {
+      "id": "spell.sunburst",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.sunburst.json"
+    },
+    {
+      "id": "spell.swift_quiver",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.swift_quiver.json"
+    },
+    {
+      "id": "spell.symbol",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.symbol.json"
+    },
+    {
+      "id": "spell.synaptic_static",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.synaptic_static.json"
+    },
+    {
+      "id": "spell.tasha_s_bubbling_cauldron",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.tasha_s_bubbling_cauldron.json"
+    },
+    {
+      "id": "spell.tasha_s_hideous_laughter",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.tasha_s_hideous_laughter.json"
+    },
+    {
+      "id": "spell.telekinesis",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.telekinesis.json"
+    },
+    {
+      "id": "spell.telepathy",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.telepathy.json"
+    },
+    {
+      "id": "spell.teleport",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.teleport.json"
+    },
+    {
+      "id": "spell.teleportation_circle",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.teleportation_circle.json"
+    },
+    {
+      "id": "spell.tenser_s_floating_disk",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.tenser_s_floating_disk.json"
+    },
+    {
+      "id": "spell.thaumaturgy",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.thaumaturgy.json"
+    },
+    {
+      "id": "spell.thorn_whip",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.thorn_whip.json"
+    },
+    {
+      "id": "spell.thunderclap",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.thunderclap.json"
+    },
+    {
+      "id": "spell.thunderous_smite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.thunderous_smite.json"
+    },
+    {
+      "id": "spell.thunderwave",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.thunderwave.json"
+    },
+    {
+      "id": "spell.time_stop",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.time_stop.json"
+    },
+    {
+      "id": "spell.toll_the_dead",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.toll_the_dead.json"
+    },
+    {
+      "id": "spell.tongues",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.tongues.json"
+    },
+    {
+      "id": "spell.transport_via_plants",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.transport_via_plants.json"
+    },
+    {
+      "id": "spell.tree_stride",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.tree_stride.json"
+    },
+    {
+      "id": "spell.true_polymorph",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.true_polymorph.json"
+    },
+    {
+      "id": "spell.true_resurrection",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.true_resurrection.json"
+    },
+    {
+      "id": "spell.true_seeing",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.true_seeing.json"
+    },
+    {
+      "id": "spell.true_strike",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.true_strike.json"
+    },
+    {
+      "id": "spell.tsunami",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.tsunami.json"
+    },
+    {
+      "id": "spell.unseen_servant",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.unseen_servant.json"
+    },
+    {
+      "id": "spell.vampiric_touch",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.vampiric_touch.json"
+    },
+    {
+      "id": "spell.vicious_mockery",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.vicious_mockery.json"
+    },
+    {
+      "id": "spell.vitriolic_sphere",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.vitriolic_sphere.json"
+    },
+    {
+      "id": "spell.wall_of_fire",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wall_of_fire.json"
+    },
+    {
+      "id": "spell.wall_of_force",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wall_of_force.json"
+    },
+    {
+      "id": "spell.wall_of_ice",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wall_of_ice.json"
+    },
+    {
+      "id": "spell.wall_of_stone",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wall_of_stone.json"
+    },
+    {
+      "id": "spell.wall_of_thorns",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wall_of_thorns.json"
+    },
+    {
+      "id": "spell.warding_bond",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.warding_bond.json"
+    },
+    {
+      "id": "spell.water_breathing",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.water_breathing.json"
+    },
+    {
+      "id": "spell.water_walk",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.water_walk.json"
+    },
+    {
+      "id": "spell.web",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.web.json"
+    },
+    {
+      "id": "spell.weird",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.weird.json"
+    },
+    {
+      "id": "spell.wind_walk",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wind_walk.json"
+    },
+    {
+      "id": "spell.wind_wall",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wind_wall.json"
+    },
+    {
+      "id": "spell.wish",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wish.json"
+    },
+    {
+      "id": "spell.witch_bolt",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.witch_bolt.json"
+    },
+    {
+      "id": "spell.word_of_radiance",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.word_of_radiance.json"
+    },
+    {
+      "id": "spell.word_of_recall",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.word_of_recall.json"
+    },
+    {
+      "id": "spell.wrathful_smite",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.wrathful_smite.json"
+    },
+    {
+      "id": "spell.yolande_s_regal_presence",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.yolande_s_regal_presence.json"
+    },
+    {
+      "id": "spell.zone_of_truth",
+      "type": "spell",
+      "path": "chapter-07/spells/spell.zone_of_truth.json"
+    },
+    {
+      "id": "table.spells.list",
+      "type": "table",
+      "path": "chapter-07/tables/table.spells.list.json"
+    },
+    {
+      "id": "table.spell_preparation_by_class",
+      "type": "table",
+      "path": "chapter-07/tables/table.spell_preparation_by_class.json"
+    },
+    {
+      "id": "table.schools_of_magic",
+      "type": "table",
+      "path": "chapter-07/tables/table.schools_of_magic.json"
+    },
+    {
+      "id": "table.spellcasting_rules",
+      "type": "table",
+      "path": "chapter-07/tables/table.spellcasting_rules.json"
+    },
+    {
+      "id": "list.spells.all",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.all.json"
+    },
+    {
+      "id": "list.spellcasting.rules",
+      "type": "list",
+      "path": "chapter-07/lists/list.spellcasting.rules.json"
+    },
+    {
+      "id": "list.spells.level_0",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_0.json"
+    },
+    {
+      "id": "list.spells.level_1",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_1.json"
+    },
+    {
+      "id": "list.spells.level_2",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_2.json"
+    },
+    {
+      "id": "list.spells.level_3",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_3.json"
+    },
+    {
+      "id": "list.spells.level_4",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_4.json"
+    },
+    {
+      "id": "list.spells.level_5",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_5.json"
+    },
+    {
+      "id": "list.spells.level_6",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_6.json"
+    },
+    {
+      "id": "list.spells.level_7",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_7.json"
+    },
+    {
+      "id": "list.spells.level_8",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_8.json"
+    },
+    {
+      "id": "list.spells.level_9",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.level_9.json"
+    },
+    {
+      "id": "list.spells.class_sorcerer",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_sorcerer.json"
+    },
+    {
+      "id": "list.spells.class_wizard",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_wizard.json"
+    },
+    {
+      "id": "list.spells.class_bard",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_bard.json"
+    },
+    {
+      "id": "list.spells.class_cleric",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_cleric.json"
+    },
+    {
+      "id": "list.spells.class_druid",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_druid.json"
+    },
+    {
+      "id": "list.spells.class_paladin",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_paladin.json"
+    },
+    {
+      "id": "list.spells.class_ranger",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_ranger.json"
+    },
+    {
+      "id": "list.spells.class_warlock",
+      "type": "list",
+      "path": "chapter-07/lists/list.spells.class_warlock.json"
+    }
+  ]
+}

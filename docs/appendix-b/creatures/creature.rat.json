@@ -1,0 +1,80 @@
+{
+  "id": "creature.rat",
+  "name": "RAT",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 10,
+  "initiative": "+0",
+  "initiative_score": 10,
+  "hit_points": 1,
+  "hit_dice": "1d4 - 1",
+  "speed": "20 ft., Climb 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CON": {
+      "score": 9,
+      "mod": "-1",
+      "save": "-1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3",
+      "save": "-3"
+    }
+  },
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Agile",
+      "text": "The rat doesn't provoke an Opportunity Attack when it moves out of an"
+    },
+    {
+      "name": "enemy's reach",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

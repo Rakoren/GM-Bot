@@ -1,0 +1,33 @@
+{
+  "id": "spell.vicious_mockery",
+  "name": "Vicious Mockery",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn. Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6). A GNOME BARD CASTS VICIOUS MOCKERY TO SKEWER A KOBOLD WITH MAGICAL INSULTS ARTIST: IGNATIUS BUDI",
+    "-- 154 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      153
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

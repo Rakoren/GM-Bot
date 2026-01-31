@@ -1,0 +1,46 @@
+{
+  "id": "feat.boon_of_irresistible_offense",
+  "name": "Boon of Irresistible Offense",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Epic Boon",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 19+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 30."
+      ]
+    },
+    {
+      "name": "Overcome Defenses",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance."
+      ]
+    },
+    {
+      "name": "Overwhelming Strike",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type. ARTIST: WAYNE ENGLAND"
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20,
+      21
+    ],
+    "section": "Boon of Irresistible Offense"
+  }
+}

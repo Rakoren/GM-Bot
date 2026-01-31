@@ -1,0 +1,33 @@
+{
+  "id": "spell.hail_of_thorns",
+  "name": "Hail of Thorns",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+    "class.ranger"
+  ],
+  "casting_time": "Bonus Action, which you take immediately after hitting a creature with a Ranged weapon",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "As you hit the creature, this spell creates a rain of thorns that sprouts from your Ranged weapon or ammunition. The target of the attack and each creature within 5 feet of it make a Dexterity saving throw, taking 1d10 Piercing damage on a failed save or half as much damage on a successful one. Using a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1.",
+    "-- 70 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      69
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

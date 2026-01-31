@@ -1,0 +1,35 @@
+{
+  "id": "spell.heroism",
+  "name": "Heroism",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard",
+    "class.paladin"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1. THE SPELL HEROES' FEAST PREPARES ADVENTURERS FOR GREATNESS",
+    "-- 74 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      73
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

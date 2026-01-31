@@ -1,0 +1,37 @@
+{
+  "id": "feat.weapon_master",
+  "name": "Weapon Master",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Mastery Property",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your training with weapons allows you to use the mastery property of one kind of Simple or Martial weapon of your choice, provided you have proficiency with it. Whenever you finish a Long Rest, you can change the kind of weapon to another eligible kind."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      17
+    ],
+    "section": "Weapon Master"
+  }
+}

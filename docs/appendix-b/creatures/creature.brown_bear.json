@@ -1,0 +1,91 @@
+{
+  "id": "creature.brown_bear",
+  "name": "BROWN BEAR",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "initiative": "+1",
+  "initiative_score": 11,
+  "hit_points": 22,
+  "hit_dice": "3d10 + 6",
+  "speed": "40 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2",
+      "save": "-2"
+    }
+  },
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The bear makes one Bite attack and one Claw attack."
+    },
+    {
+      "name": "Bite",
+      "text": ""
+    },
+    {
+      "name": "Melee Attack Roll: +5, reach 5 ft",
+      "text": "Hit: 7 (1d8 + 3) Piercing damage."
+    },
+    {
+      "name": "Claw",
+      "text": ""
+    },
+    {
+      "name": "Melee Attack Roll: +5, reach 5 ft",
+      "text": "Hit: 5 (1d4 + 3) Slashing damage. If the"
+    },
+    {
+      "name": "target is a Large or smaller creature, it has the Prone condition",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

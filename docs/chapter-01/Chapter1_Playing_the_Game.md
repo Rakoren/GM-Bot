@@ -1,6 +1,6 @@
 # Chapter 1: Playing the Game
 
-> **Source:** Player’s Handbook – Chapter 1 (D&D 5e 2024)
+> **Source:** Players Handbook  Chapter 1 (D&D 5e 2024)
 > **Purpose:** Establishes the core gameplay loop, dice mechanics, actions, and exploration/social rules.
 
 ---
@@ -23,9 +23,9 @@ D&D is a collaborative storytelling game where players describe character action
 
 Gameplay flows between three modes:
 
-1. **Exploration** – Movement, discovery, environment interaction
-2. **Social Interaction** – Conversations, negotiations, deception, persuasion
-3. **Combat** – Structured, turn-based encounters
+1. **Exploration**  Movement, discovery, environment interaction
+2. **Social Interaction**  Conversations, negotiations, deception, persuasion
+3. **Combat**  Structured, turn-based encounters
 
 The DM determines when the game shifts between modes.
 
@@ -73,7 +73,7 @@ Used for:
 
 ## Ability Scores
 
-Six abilities define a creature’s capabilities:
+Six abilities define a creatures capabilities:
 
 * Strength
 * Dexterity
@@ -161,7 +161,7 @@ NPC attitudes may be Friendly, Indifferent, or Hostile.
 
 ## Travel Pace
 
-* **Fast:** −5 to Perception
+* **Fast:** 5 to Perception
 * **Normal:** No modifier
 * **Slow:** Advantage on Perception
 

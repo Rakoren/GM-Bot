@@ -1,0 +1,19 @@
+{
+  "id": "glossary.indifferent_attitude",
+  "name": "Indifferent",
+  "tag": "Attitude",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "An Indifferent creature has no desire to help or hinder you. Indifferent is the default attitude of a monster. See also \"Influence.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "item.pack.dungeoneer",
+  "name": "Dungeoneer's Pack",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "pack",
+  "cost": "12 GP",
+  "contents": [
+    "Backpack",
+    "Caltrops",
+    "Crowbar",
+    "2 flasks of Oil",
+    "10 days of Rations",
+    "Rope",
+    "Tinderbox",
+    "10 Torches",
+    "Waterskin"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18,
+      19,
+      20,
+      23,
+      24
+    ],
+    "section": "Adventuring Gear (Packs)"
+  },
+  "notes": []
+}

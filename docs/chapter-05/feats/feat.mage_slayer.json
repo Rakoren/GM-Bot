@@ -1,0 +1,45 @@
+{
+  "id": "feat.mage_slayer",
+  "name": "Mage Slayer",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Concentration Breaker",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you damage a creature that is concentrating, it has Disadvantage on the saving throw it makes to maintain Concentration."
+      ]
+    },
+    {
+      "name": "Guarded Mind",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "If you fail an Intelligence, a Wisdom, or a Charisma saving throw, you can cause yourself to succeed instead. Once you use this benefit, you can't use it again until you finish a Short or Long Rest."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11
+    ],
+    "section": "Mage Slayer"
+  }
+}

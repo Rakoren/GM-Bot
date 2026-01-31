@@ -1,0 +1,28 @@
+{
+  "id": "spell.find_steed",
+  "name": "Find Steed",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Conjuration",
+  "classes": [
+    "class.paladin"
+  ],
+  "casting_time": "Action",
+  "range": "30 feet",
+  "components": null,
+  "duration": "Instantaneous",
+  "description": [
+    "You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the Otherworldly Steed stat block. If you already have a steed from this spell, the steed is replaced by the new one. The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type-Celestial, Fey, or Fiend-which determines certain traits in the stat block. Combat. The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a controlled mount while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you. Disappearance of the Steed. The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one. Using a Higher-Level Spell Slot. Use the spell slot's level for the spell's level in the stat block. SPIRITS SUMMONED BY FIND FAMILIAR TAKE FORMS INSPIRED BY THE MAGES WHO CONJURE THEM OTHERWORLDLY STEED AC 10 + 1 per spell level HP 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level) Speed 60 ft., Fly 60 ft. (requires level 4+ spell) MOD \tSAVE STR \t18 \t+4 \t+4 DEX \t12 \t+1 \t+1 CON \t14 \t+2 \t+2 MOD \tSAVE INT \t6 \t2 \t2 WIS \t12 \t+1 \t+1 CHA \t8 \t1 \t1 Large Celestial, Fey, or Fiend (Your Choice), Neutral",
+    "-- 55 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      54
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

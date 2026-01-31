@@ -1,0 +1,56 @@
+{
+  "id": "table.spellcasting_services",
+  "name": "Spellcasting Services",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      31
+    ],
+    "section": "Spellcasting Services"
+  },
+  "columns": [
+    "spell_level",
+    "availability",
+    "cost"
+  ],
+  "entries": [
+    {
+      "spell_level": "Cantrip",
+      "availability": "Village, town, or city",
+      "cost": "30 GP"
+    },
+    {
+      "spell_level": "1",
+      "availability": "Village, town, or city",
+      "cost": "50 GP"
+    },
+    {
+      "spell_level": "2",
+      "availability": "Village, town, or city",
+      "cost": "200 GP"
+    },
+    {
+      "spell_level": "3",
+      "availability": "Town or city only",
+      "cost": "300 GP"
+    },
+    {
+      "spell_level": "4-5",
+      "availability": "Town or city only",
+      "cost": "2,000 GP"
+    },
+    {
+      "spell_level": "6-8",
+      "availability": "City only",
+      "cost": "20,000 GP"
+    },
+    {
+      "spell_level": "9",
+      "availability": "City only",
+      "cost": "100,000 GP"
+    }
+  ],
+  "notes": []
+}

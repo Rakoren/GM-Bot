@@ -131,5 +131,35 @@
     "Eldritch Invocations are modeled as feature_defs with human-readable triggers and prereq strings.",
     "Mystic Arcanum grants 1 free cast per long rest per arcanum spell (modeled via res.mystic_arcanum).",
     "Patron features are implemented in subclass shard files (wl.*.json)."
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Leather Armor",
+          "Sickle",
+          "2 Daggers",
+          "Arcane Focus (orb)",
+          "Book (occult lore)"
+        ],
+        "pack_ref": "item.pack.scholar",
+        "gp": 15
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 100
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      60,
+      76
+    ],
+    "section": "Character Classes"
+  }
 }

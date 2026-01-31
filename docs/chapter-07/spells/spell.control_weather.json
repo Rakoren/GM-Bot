@@ -1,0 +1,38 @@
+{
+  "id": "spell.control_weather",
+  "name": "Control Weather",
+  "chapter": 7,
+  "status": "complete",
+  "level": 8,
+  "school": "Transmutation",
+  "classes": [
+    "class.cleric",
+    "class.druid",
+    "class.wizard"
+  ],
+  "casting_time": "10 minutes",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "burning incense"
+  },
+  "duration": "Concentration, up to 8 hours",
+  "description": [
+    "You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors. When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4  10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal. When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction. Precipitation Stage \tCondition 1 \tClear 2 \tLight clouds 3 \tOvercast or ground fog 4 \tRain, hail, or snow A BRASS DRAGON CASTS CONTROL WEATHER TO SAVE A COMMUNITY FROM A DESTRUCTIVE STORM ARTIST: ALEXANDRE HONORE",
+    "-- 30 of 163 --",
+    "Stage \tCondition 5 \tTorrential rain, driving hail, or blizzard Temperature Stage \tCondition 1 \tHeat wave 2 \tHot 3 \tWarm 4 \tCool 5 \tCold 6 \tFreezing Wind Stage \tCondition 1 \tCalm 2 \tModerate wind 3 \tStrong wind 4 \tGale 5 \tStorm"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      29
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

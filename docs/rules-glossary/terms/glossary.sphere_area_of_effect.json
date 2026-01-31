@@ -1,0 +1,19 @@
+{
+  "id": "glossary.sphere_area_of_effect",
+  "name": "Sphere",
+  "tag": "Area of Effect",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Sphere is an area of effect that extends in straight lines from a point of origin outward in all directions. The effect that creates a Sphere specifies the distance it extends as the radius of the Sphere. A Sphere's point of origin is included in the Sphere's area of effect."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

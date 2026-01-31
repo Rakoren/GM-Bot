@@ -102,5 +102,37 @@
     "ranger.fey_wanderer",
     "ranger.gloom_stalker",
     "ranger.hunter"
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Studded Leather Armor",
+          "Scimitar",
+          "Shortsword",
+          "Longbow",
+          "20 Arrows",
+          "Quiver",
+          "Druidic Focus (sprig of mistletoe)"
+        ],
+        "pack_ref": "item.pack.explorer",
+        "gp": 7
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 150
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16,
+      28
+    ],
+    "section": "Character Classes"
+  }
 }

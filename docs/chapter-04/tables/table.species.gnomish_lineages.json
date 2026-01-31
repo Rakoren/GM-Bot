@@ -1,0 +1,28 @@
+{
+  "id": "table.species.gnomish_lineages",
+  "name": "Gnomish Lineages",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/05-chapter 4/06-Character Origins - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      17
+    ],
+    "section": "Gnomish Lineage"
+  },
+  "columns": [
+    "lineage",
+    "level_1"
+  ],
+  "entries": [
+    {
+      "lineage": "Forest Gnome",
+      "level_1": "Know the Minor Illusion cantrip; always have Speak with Animals prepared; cast it without a slot a number of times equal to your proficiency bonus per long rest or using spell slots."
+    },
+    {
+      "lineage": "Rock Gnome",
+      "level_1": "Know the Mending and Prestidigitation cantrips; spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP) with one Prestidigitation effect; activate with a Bonus Action touch; keep up to three devices; each lasts 8 hours or until dismantled with a touch as a Utilize action."
+    }
+  ],
+  "notes": []
+}

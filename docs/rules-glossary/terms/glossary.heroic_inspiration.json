@@ -1,0 +1,19 @@
+{
+  "id": "glossary.heroic_inspiration",
+  "name": "Heroic Inspiration",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If you (a player character) have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll. If you gain Heroic Inspiration but already have it, it's lost unless you give it to a player character who lacks it."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

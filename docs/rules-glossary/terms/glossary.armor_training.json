@@ -1,0 +1,19 @@
+{
+  "id": "glossary.armor_training",
+  "name": "Armor Training",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Armor training allows you to use armor of a certain category without the following drawbacks. If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells. If you use a Shield and lack training with it, you don't gain its AC bonus. See also \"Disadvantage\" and chapter 6 (\"Armor\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

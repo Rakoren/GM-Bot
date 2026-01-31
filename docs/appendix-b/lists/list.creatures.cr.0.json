@@ -1,0 +1,23 @@
+{
+  "id": "list.creatures.cr.0",
+  "name": "Creatures (CR: 0)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.badger",
+    "creature.bat",
+    "creature.cat",
+    "creature.crab",
+    "creature.frog",
+    "creature.goat",
+    "creature.hawk",
+    "creature.lizard",
+    "creature.octopus",
+    "creature.owl",
+    "creature.rat",
+    "creature.raven",
+    "creature.scorpion",
+    "creature.spider",
+    "creature.weasel"
+  ]
+}

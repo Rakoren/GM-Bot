@@ -1,0 +1,28 @@
+{
+  "id": "item.weapon.halberd",
+  "name": "Halberd",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "weapon",
+  "weapon_category": "Martial",
+  "weapon_type": "Melee",
+  "damage": "1d10",
+  "damage_type": "Slashing",
+  "properties": [
+    "Heavy",
+    "Reach",
+    "Two-Handed"
+  ],
+  "mastery": "Cleave",
+  "weight": "6 lb.",
+  "cost": "20 GP",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "section": "Weapons"
+  },
+  "notes": []
+}

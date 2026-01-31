@@ -1,0 +1,36 @@
+{
+  "id": "spell.thunderwave",
+  "name": "Thunderwave",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+    "class.bard",
+    "class.druid",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only. In addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet. Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      148
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

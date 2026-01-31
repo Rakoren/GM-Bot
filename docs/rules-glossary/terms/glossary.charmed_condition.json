@@ -1,0 +1,19 @@
+{
+  "id": "glossary.charmed_condition",
+  "name": "Charmed",
+  "tag": "Condition",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "While you have the Charmed condition, you experience the following effects. Can't Harm the Charmer. You can't attack the charmer or target the charmer with damaging abilities or magical effects. Social Advantage. The charmer has Advantage on any ability check to interact with you socially."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

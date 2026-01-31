@@ -1,0 +1,19 @@
+{
+  "id": "glossary.bloodied",
+  "name": "Bloodied",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A creature is Bloodied while it has half its Hit Points or fewer remaining."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

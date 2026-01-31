@@ -1,0 +1,35 @@
+{
+  "id": "spell.meteor_swarm",
+  "name": "Meteor Swarm",
+  "chapter": 7,
+  "status": "complete",
+  "level": 9,
+  "school": "Evocation",
+  "classes": [
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "1 mile",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "-- 93 of 163 --",
+    "Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius Sphere centered on each of those points makes a Dexterity saving throw. A creature takes 20d6 Fire damage and 20d6 Bludgeoning damage on a failed save or half as much damage on a successful one. A creature in the area of more than one fiery Sphere is affected only once. A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area, and the object starts burning if it's flammable."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      92
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

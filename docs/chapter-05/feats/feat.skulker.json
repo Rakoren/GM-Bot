@@ -1,0 +1,53 @@
+{
+  "id": "feat.skulker",
+  "name": "Skulker",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Dexterity 13+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Dexterity score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Blindsight",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You have Blindsight with a range of 10 feet."
+      ]
+    },
+    {
+      "name": "Fog of War",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You exploit the distractions of battle, gaining Advantage on any Dexterity (Stealth) check you make as part of the Hide action during combat."
+      ]
+    },
+    {
+      "name": "Sniper",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "If you make an attack roll while hidden and the roll misses, making the attack roll doesn't reveal your location."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      15
+    ],
+    "section": "Skulker"
+  }
+}

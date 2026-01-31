@@ -6,7 +6,7 @@
   "title": "Oath of Glory",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       12,
       14
@@ -77,7 +77,7 @@
       "action_type": "reaction",
       "trigger": "when you or a creature you can see within 10 feet is hit by an attack roll",
       "effects": [
-        "You can grant a bonus to the target’s AC against that attack equal to your Charisma modifier (minimum +1), potentially causing it to miss.",
+        "You can grant a bonus to the targets AC against that attack equal to your Charisma modifier (minimum +1), potentially causing it to miss.",
         "If the attack misses, you can make one weapon attack against the attacker as part of the same reaction (if in range)."
       ],
       "limits": [
@@ -95,7 +95,7 @@
         "Unerring Strike: once on each of your turns when you miss with a weapon attack, you can cause that attack to hit instead."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest.",
+        "Once you use this feature, you cant use it again until you finish a long rest.",
         "You can restore your use of this feature by expending a level 5 spell slot (no action required)."
       ]
     }

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.occupied_space",
+  "name": "Occupied Space",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A space is occupied if a creature is in it or if it is completely filled by objects."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

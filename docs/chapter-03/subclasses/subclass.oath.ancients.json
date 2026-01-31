@@ -6,7 +6,7 @@
   "title": "Oath of the Ancients",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       14,
       15
@@ -67,10 +67,10 @@
       "trigger": "when you are reduced to 0 hit points and not killed outright",
       "effects": [
         "You instead drop to 1 hit point and regain hit points equal to three times your paladin level.",
-        "You can’t be aged magically, and you cease visibly aging."
+        "You cant be aged magically, and you cease visibly aging."
       ],
       "limits": [
-        "Once you use this feature, you can’t do so again until you finish a long rest."
+        "Once you use this feature, you cant do so again until you finish a long rest."
       ]
     },
     {
@@ -84,7 +84,7 @@
         "Swift Spells: when you cast a spell with a casting time of 1 action, you can cast it using a bonus action instead."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest.",
+        "Once you use this feature, you cant use it again until you finish a long rest.",
         "You can restore your use of this feature by expending a level 5 spell slot (no action required)."
       ]
     }

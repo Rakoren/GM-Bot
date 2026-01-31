@@ -1,0 +1,35 @@
+{
+  "id": "spell.conjure_barrage",
+  "name": "Conjure Barrage",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Conjuration",
+  "classes": [
+    "class.ranger"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a Melee or Ranged weapon worth at least 1 CP"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that launch forward and then disappear. Each creature of your choice that you can see in a 60-foot Cone makes a Dexterity saving throw, taking 5d8 Force damage on a failed save or half as much damage on a successful one. Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 3.",
+    "-- 25 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      24
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "spell.augury",
+  "name": "Augury",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Divination",
+  "classes": [
+    "class.cleric",
+    "class.druid",
+    "class.wizard"
+  ],
+  "casting_time": "1 minute or Ritual",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The DM chooses the omen from the Omens table. Omens Omen \tFor Results That Will Be... Weal \tGood Woe \tBad Weal and woe \tGood and bad Indifference \tNeither good nor bad The spell doesn't account for circumstances, such as other spells, that might change the results. If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

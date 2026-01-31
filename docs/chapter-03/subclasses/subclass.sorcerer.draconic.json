@@ -6,7 +6,7 @@
   "title": "Draconic Sorcery",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       57,
       73
@@ -41,7 +41,7 @@
       "trigger": "passive",
       "effects": [
         "Your hit point maximum increases by 3, and by 1 whenever you gain a Sorcerer level.",
-        "While you aren’t wearing armor, your base AC equals 10 + your Dexterity modifier + your Charisma modifier."
+        "While you arent wearing armor, your base AC equals 10 + your Dexterity modifier + your Charisma modifier."
       ]
     },
     {
@@ -70,7 +70,7 @@
         "You can dismiss the wings early (no action required)."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest unless you spend 3 sorcery points (no action required) to restore its use."
+        "Once you use this feature, you cant use it again until you finish a long rest unless you spend 3 sorcery points (no action required) to restore its use."
       ]
     },
     {

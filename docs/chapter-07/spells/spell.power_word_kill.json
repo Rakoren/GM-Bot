@@ -1,0 +1,30 @@
+{
+  "id": "spell.power_word_kill",
+  "name": "Power Word Kill",
+  "chapter": 7,
+  "status": "complete",
+  "level": 9,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": null,
+  "duration": "Instantaneous",
+  "description": [
+    "You compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      105
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

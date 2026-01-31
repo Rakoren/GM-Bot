@@ -1,0 +1,19 @@
+{
+  "id": "glossary.climb_speed",
+  "name": "Climb Speed",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Climb Speed can be used in place of Speed to traverse a vertical surface without expending the extra movement normally associated with climbing."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

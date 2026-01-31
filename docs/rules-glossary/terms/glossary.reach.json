@@ -1,0 +1,19 @@
+{
+  "id": "glossary.reach",
+  "name": "Reach",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A creature has a reach of 5 feet unless a rule says otherwise."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      22
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

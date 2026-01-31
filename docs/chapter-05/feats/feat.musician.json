@@ -1,0 +1,36 @@
+{
+  "id": "feat.musician",
+  "name": "Musician",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Origin",
+  "repeatable": false,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Musician"
+  },
+  "prerequisites": [],
+  "benefits": [
+    {
+      "name": "Instrument Training",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "gain proficiency with three musical instruments of your choice"
+      ]
+    },
+    {
+      "name": "Encouraging Song",
+      "action_type": "none",
+      "trigger": "when you finish a short or long rest",
+      "effects": [
+        "play a song on a musical instrument you are proficient with",
+        "give Heroic Inspiration to allies who hear the song (up to your proficiency bonus)"
+      ]
+    }
+  ],
+  "notes": []
+}

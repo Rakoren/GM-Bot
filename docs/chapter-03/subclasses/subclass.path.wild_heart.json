@@ -6,7 +6,7 @@
   "title": "Path of the Wild Heart",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       11,
       13
@@ -84,7 +84,7 @@
       "trigger": "when you activate your Rage",
       "effects": [
         "Choose one option:",
-        "Falcon: while Rage is active, you have a fly speed equal to your speed if you aren’t wearing armor.",
+        "Falcon: while Rage is active, you have a fly speed equal to your speed if you arent wearing armor.",
         "Lion: while Rage is active, enemies within 5 feet of you have disadvantage on attack rolls against targets other than you or another barbarian with this option active.",
         "Ram: while Rage is active, when you hit a Large or smaller creature with a melee attack, you can knock it prone."
       ]

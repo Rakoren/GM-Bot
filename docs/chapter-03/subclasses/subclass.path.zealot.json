@@ -6,7 +6,7 @@
   "title": "Path of the Zealot",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       14,
       26
@@ -76,7 +76,7 @@
         "Up to ten other creatures of your choice within 60 feet gain advantage on attack rolls and saving throws until the start of your next turn."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest unless you expend a use of your Rage (no action required) to restore its use."
+        "Once you use this feature, you cant use it again until you finish a long rest unless you expend a use of your Rage (no action required) to restore its use."
       ]
     },
     {
@@ -90,7 +90,7 @@
         "Revivification: when a creature within 30 feet would drop to 0 hit points, you can use your reaction and expend a Rage use to instead set its hit points to a number equal to your Barbarian level."
       ],
       "limits": [
-        "Once you use this feature, you can’t do so again until you finish a long rest."
+        "Once you use this feature, you cant do so again until you finish a long rest."
       ]
     }
   ],

@@ -1,0 +1,20 @@
+{
+  "id": "glossary.size_fragile_resilient",
+  "name": "Size Fragile Resilient",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Tiny (bottle, lock) 2 (1d4) 5 (2d4) Small (chest, lute) 3 (1d6) 10 (3d6) Medium (barrel, chandelier) 4 (1d8) 18 (4d8) Large (cart, dining table) 5 (1d10) 27 (5d10) Damage Types and Objects. Objects have Immunity to Poison and Psychic damage. The DM might decide that some damage types are more or less effective against an object. For example, Bludgeoning damage works well for smashing things but not for cutting. Paper or cloth objects might have Vulnerability to Fire damage. Damage Threshold. Big objects, such as castle walls, often have extra resilience represented by a damage threshold. See also \"Damage Threshold.\"",
+    "No Ability Scores. An object lacks ability scores unless a rule assigns scores to the object. Without ability scores, an object can't make ability checks, and it fails all saving throws."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

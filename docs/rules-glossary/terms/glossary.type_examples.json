@@ -1,0 +1,19 @@
+{
+  "id": "glossary.type_examples",
+  "name": "Type Examples",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Acid Corrosive liquids, digestive enzymes Bludgeoning Blunt objects, constriction, falling Cold Freezing water, icy blasts Fire Flames, unbearable heat Force Pure magical energy"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

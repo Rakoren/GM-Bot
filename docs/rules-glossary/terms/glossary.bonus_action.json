@@ -1,0 +1,19 @@
+{
+  "id": "glossary.bonus_action",
+  "name": "Bonus Action",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Bonus Action is a special action that you can take on the same turn that you take an action. You can't take more than one Bonus Action on a turn, and you have a Bonus Action to take only if a rule explicitly says so. See also chapter 1 (\"Actions\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

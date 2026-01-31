@@ -1,0 +1,19 @@
+{
+  "id": "glossary.challenge_rating",
+  "name": "Challenge Rating",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Challenge Rating (CR) summarizes the threat a monster poses to a group of four player characters. Compare a monster's CR to the characters' level. If the CR is higher, the monster is likely a danger. If the CR is lower, the monster likely poses little threat. But circumstances and the number of player characters can significantly alter how threatening a monster is in actual play. The Dungeon Master's Guide provides guidance to the DM on using CR while planning potential combat encounters. See also \"Stat Block.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

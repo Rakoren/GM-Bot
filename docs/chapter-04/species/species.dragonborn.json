@@ -27,7 +27,7 @@
     },
     {
       "name": "Breath Weapon",
-      "action_type": "special",
+      "action_type": "action",
       "trigger": "when you take the Attack action, you can replace one attack",
       "effects": [
         "exhale magical energy in a 15-foot cone or 30-foot line (5 feet wide)",

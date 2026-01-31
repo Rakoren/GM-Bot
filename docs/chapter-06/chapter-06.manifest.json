@@ -1,0 +1,398 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": 6,
+  "title": "Equipment",
+  "generated_at": "2026-01-30",
+  "paths": {
+    "items_dir": "chapter-06/items",
+    "tables_dir": "chapter-06/tables",
+    "lists_dir": "chapter-06/lists"
+  },
+  "shards": [
+    {
+      "id": "item.weapon.club",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.club.json"
+    },
+    {
+      "id": "item.weapon.dagger",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.dagger.json"
+    },
+    {
+      "id": "item.weapon.greatclub",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.greatclub.json"
+    },
+    {
+      "id": "item.weapon.handaxe",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.handaxe.json"
+    },
+    {
+      "id": "item.weapon.javelin",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.javelin.json"
+    },
+    {
+      "id": "item.weapon.light_hammer",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.light_hammer.json"
+    },
+    {
+      "id": "item.weapon.mace",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.mace.json"
+    },
+    {
+      "id": "item.weapon.quarterstaff",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.quarterstaff.json"
+    },
+    {
+      "id": "item.weapon.sickle",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.sickle.json"
+    },
+    {
+      "id": "item.weapon.spear",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.spear.json"
+    },
+    {
+      "id": "item.weapon.dart",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.dart.json"
+    },
+    {
+      "id": "item.weapon.light_crossbow",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.light_crossbow.json"
+    },
+    {
+      "id": "item.weapon.shortbow",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.shortbow.json"
+    },
+    {
+      "id": "item.weapon.sling",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.sling.json"
+    },
+    {
+      "id": "item.weapon.battleaxe",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.battleaxe.json"
+    },
+    {
+      "id": "item.weapon.flail",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.flail.json"
+    },
+    {
+      "id": "item.weapon.glaive",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.glaive.json"
+    },
+    {
+      "id": "item.weapon.greataxe",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.greataxe.json"
+    },
+    {
+      "id": "item.weapon.greatsword",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.greatsword.json"
+    },
+    {
+      "id": "item.weapon.halberd",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.halberd.json"
+    },
+    {
+      "id": "item.weapon.lance",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.lance.json"
+    },
+    {
+      "id": "item.weapon.longsword",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.longsword.json"
+    },
+    {
+      "id": "item.weapon.maul",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.maul.json"
+    },
+    {
+      "id": "item.weapon.morningstar",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.morningstar.json"
+    },
+    {
+      "id": "item.weapon.pike",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.pike.json"
+    },
+    {
+      "id": "item.weapon.rapier",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.rapier.json"
+    },
+    {
+      "id": "item.weapon.scimitar",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.scimitar.json"
+    },
+    {
+      "id": "item.weapon.shortsword",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.shortsword.json"
+    },
+    {
+      "id": "item.weapon.trident",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.trident.json"
+    },
+    {
+      "id": "item.weapon.warhammer",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.warhammer.json"
+    },
+    {
+      "id": "item.weapon.war_pick",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.war_pick.json"
+    },
+    {
+      "id": "item.weapon.whip",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.whip.json"
+    },
+    {
+      "id": "item.weapon.blowgun",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.blowgun.json"
+    },
+    {
+      "id": "item.weapon.hand_crossbow",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.hand_crossbow.json"
+    },
+    {
+      "id": "item.weapon.heavy_crossbow",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.heavy_crossbow.json"
+    },
+    {
+      "id": "item.weapon.longbow",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.longbow.json"
+    },
+    {
+      "id": "item.weapon.musket",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.musket.json"
+    },
+    {
+      "id": "item.weapon.pistol",
+      "type": "item",
+      "path": "chapter-06/items/item.weapon.pistol.json"
+    },
+    {
+      "id": "item.armor.padded_armor",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.padded_armor.json"
+    },
+    {
+      "id": "item.armor.leather_armor",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.leather_armor.json"
+    },
+    {
+      "id": "item.armor.studded_leather_armor",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.studded_leather_armor.json"
+    },
+    {
+      "id": "item.armor.hide_armor",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.hide_armor.json"
+    },
+    {
+      "id": "item.armor.chain_shirt",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.chain_shirt.json"
+    },
+    {
+      "id": "item.armor.scale_mail",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.scale_mail.json"
+    },
+    {
+      "id": "item.armor.breastplate",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.breastplate.json"
+    },
+    {
+      "id": "item.armor.half_plate_armor",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.half_plate_armor.json"
+    },
+    {
+      "id": "item.armor.ring_mail",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.ring_mail.json"
+    },
+    {
+      "id": "item.armor.chain_mail",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.chain_mail.json"
+    },
+    {
+      "id": "item.armor.splint_armor",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.splint_armor.json"
+    },
+    {
+      "id": "item.armor.plate_armor",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.plate_armor.json"
+    },
+    {
+      "id": "item.armor.shield",
+      "type": "item",
+      "path": "chapter-06/items/item.armor.shield.json"
+    },
+    {
+      "id": "item.pack.burglar",
+      "type": "item",
+      "path": "chapter-06/items/item.pack.burglar.json"
+    },
+    {
+      "id": "item.pack.diplomat",
+      "type": "item",
+      "path": "chapter-06/items/item.pack.diplomat.json"
+    },
+    {
+      "id": "item.pack.dungeoneer",
+      "type": "item",
+      "path": "chapter-06/items/item.pack.dungeoneer.json"
+    },
+    {
+      "id": "item.pack.entertainer",
+      "type": "item",
+      "path": "chapter-06/items/item.pack.entertainer.json"
+    },
+    {
+      "id": "item.pack.explorer",
+      "type": "item",
+      "path": "chapter-06/items/item.pack.explorer.json"
+    },
+    {
+      "id": "item.pack.priest",
+      "type": "item",
+      "path": "chapter-06/items/item.pack.priest.json"
+    },
+    {
+      "id": "item.pack.scholar",
+      "type": "item",
+      "path": "chapter-06/items/item.pack.scholar.json"
+    },
+    {
+      "id": "table.coin_values",
+      "type": "table",
+      "path": "chapter-06/tables/table.coin_values.json"
+    },
+    {
+      "id": "table.weapons",
+      "type": "table",
+      "path": "chapter-06/tables/table.weapons.json"
+    },
+    {
+      "id": "table.armor",
+      "type": "table",
+      "path": "chapter-06/tables/table.armor.json"
+    },
+    {
+      "id": "table.adventuring_gear",
+      "type": "table",
+      "path": "chapter-06/tables/table.adventuring_gear.json"
+    },
+    {
+      "id": "table.adventuring_packs",
+      "type": "table",
+      "path": "chapter-06/tables/table.adventuring_packs.json"
+    },
+    {
+      "id": "table.adventuring_packs_summary",
+      "type": "table",
+      "path": "chapter-06/tables/table.adventuring_packs_summary.json"
+    },
+    {
+      "id": "table.ammunition",
+      "type": "table",
+      "path": "chapter-06/tables/table.ammunition.json"
+    },
+    {
+      "id": "table.arcane_focuses",
+      "type": "table",
+      "path": "chapter-06/tables/table.arcane_focuses.json"
+    },
+    {
+      "id": "table.mounts_other_animals",
+      "type": "table",
+      "path": "chapter-06/tables/table.mounts_other_animals.json"
+    },
+    {
+      "id": "table.tack_harness_drawn_vehicles",
+      "type": "table",
+      "path": "chapter-06/tables/table.tack_harness_drawn_vehicles.json"
+    },
+    {
+      "id": "table.airborne_waterborne_vehicles",
+      "type": "table",
+      "path": "chapter-06/tables/table.airborne_waterborne_vehicles.json"
+    },
+    {
+      "id": "table.food_drink_lodging",
+      "type": "table",
+      "path": "chapter-06/tables/table.food_drink_lodging.json"
+    },
+    {
+      "id": "table.travel",
+      "type": "table",
+      "path": "chapter-06/tables/table.travel.json"
+    },
+    {
+      "id": "table.hirelings",
+      "type": "table",
+      "path": "chapter-06/tables/table.hirelings.json"
+    },
+    {
+      "id": "table.spellcasting_services",
+      "type": "table",
+      "path": "chapter-06/tables/table.spellcasting_services.json"
+    },
+    {
+      "id": "list.items.weapons",
+      "type": "list",
+      "path": "chapter-06/lists/list.items.weapons.json"
+    },
+    {
+      "id": "list.items.armor",
+      "type": "list",
+      "path": "chapter-06/lists/list.items.armor.json"
+    },
+    {
+      "id": "list.items.tools",
+      "type": "list",
+      "path": "chapter-06/lists/list.items.tools.json"
+    },
+    {
+      "id": "list.items.packs",
+      "type": "list",
+      "path": "chapter-06/lists/list.items.packs.json"
+    }
+  ]
+}

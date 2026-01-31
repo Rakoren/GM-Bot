@@ -1,0 +1,15 @@
+{
+  "id": "list.items.packs",
+  "name": "Adventuring Packs",
+  "chapter": 6,
+  "status": "complete",
+  "items": [
+    "item.pack.burglar",
+    "item.pack.diplomat",
+    "item.pack.dungeoneer",
+    "item.pack.entertainer",
+    "item.pack.explorer",
+    "item.pack.priest",
+    "item.pack.scholar"
+  ]
+}

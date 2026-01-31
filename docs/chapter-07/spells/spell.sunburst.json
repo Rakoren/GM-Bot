@@ -1,0 +1,38 @@
+{
+  "id": "spell.sunburst",
+  "name": "Sunburst",
+  "chapter": 7,
+  "status": "complete",
+  "level": 8,
+  "school": "Evocation",
+  "classes": [
+    "class.cleric",
+    "class.druid",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "150 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a piece of sunstone"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the Blinded condition for 1 minute. On a successful save, it takes half as much damage only. A creature Blinded by this spell makes another Constitution saving throw at the end of each of its turns, ending the effect on itself on a success. This spell dispels Darkness in its area that was created by any spell. MOD \tSAVE STR \t12 \t+1 \t+1 DEX \t16 \t+3 \t+3 CON \t15 \t+2 \t+2 MOD \tSAVE INT \t4 \t3 \t3 WIS \t10 \t+0 \t+0 CHA \t9 \t1 \t1 Immunities Necrotic, Poison; Exhaustion, Frightened, Paralyzed, Poisoned Senses Darkvision 60 ft.; Passive Perception 10 Languages Understands the languages you know CR None (XP 0; PB equals your Proficiency Bonus) Traits Festering Aura (Putrid Only). Constitution Saving Throw: DC equals your spell save DC, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. Failure: The creature has the Poisoned condition until the start of its next turn. Incorporeal Passage (Ghostly Only). The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled. Actions Multiattack. The spirit makes a number of attacks equal to half this spell's level (round down). Deathly Touch (Ghostly Only). Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d8 + 3 + the spell's level Necrotic damage, and the target has the Frightened condition until the end of its next turn. Grave Bolt (Skeletal Only). Ranged Attack Roll: Bonus equals your spell attack modifier, range 150 ft. Hit: 2d4 + 3 + the spell's level Necrotic damage. Rotting Claw (Putrid Only). Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d6 + 3 + the spell's level Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn.",
+    "-- 141 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      140
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

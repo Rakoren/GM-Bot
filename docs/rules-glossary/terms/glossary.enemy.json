@@ -1,0 +1,19 @@
+{
+  "id": "glossary.enemy",
+  "name": "Enemy",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A creature is your enemy if it fights against you in combat, actively works to harm you, or is designated as your enemy by the rules or DM."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      12
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

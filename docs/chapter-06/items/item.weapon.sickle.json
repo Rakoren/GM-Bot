@@ -1,0 +1,26 @@
+{
+  "id": "item.weapon.sickle",
+  "name": "Sickle",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "weapon",
+  "weapon_category": "Simple",
+  "weapon_type": "Melee",
+  "damage": "1d4",
+  "damage_type": "Slashing",
+  "properties": [
+    "Light"
+  ],
+  "mastery": "Nick",
+  "weight": "2 lb.",
+  "cost": "1 GP",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "section": "Weapons"
+  },
+  "notes": []
+}

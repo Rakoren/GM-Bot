@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.type.dragon",
+  "name": "Creatures (Type: Dragon)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.pseudodragon"
+  ]
+}

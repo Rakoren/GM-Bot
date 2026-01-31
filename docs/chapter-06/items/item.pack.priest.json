@@ -1,0 +1,29 @@
+{
+  "id": "item.pack.priest",
+  "name": "Priest's Pack",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "pack",
+  "cost": "33 GP",
+  "contents": [
+    "Backpack",
+    "Blanket",
+    "Holy Water",
+    "Lamp",
+    "7 days of Rations",
+    "Robe",
+    "Tinderbox"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18,
+      19,
+      20,
+      23,
+      24
+    ],
+    "section": "Adventuring Gear (Packs)"
+  },
+  "notes": []
+}

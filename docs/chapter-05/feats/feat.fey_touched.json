@@ -1,0 +1,53 @@
+{
+  "id": "feat.fey_touched",
+  "name": "Fey Touched",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Benefit",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your exposure to the Feywild's magic grants you the following benefits."
+      ]
+    },
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Fey Magic",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Choose one level 1 spell from the Divination or Enchantment school of magic. You always have that spell and the Misty Step spell prepared."
+      ]
+    },
+    {
+      "name": "You can cast each of these spells without expending a spell slot",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Once you cast either spell in this way, you can't cast that spell in this way again until you finish a Long Rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Fey Touched"
+  }
+}

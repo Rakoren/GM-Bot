@@ -1,0 +1,19 @@
+{
+  "id": "glossary.ally",
+  "name": "Ally",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A creature is your ally if it is a member of your adventuring party, your friend, on your side in combat, or a creature that the rules or the DM designates as your ally."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

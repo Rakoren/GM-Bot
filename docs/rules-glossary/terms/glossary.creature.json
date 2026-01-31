@@ -1,0 +1,19 @@
+{
+  "id": "glossary.creature",
+  "name": "Creature",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Any being in the game, including a player's character, is a creature. See also \"Creature Type.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

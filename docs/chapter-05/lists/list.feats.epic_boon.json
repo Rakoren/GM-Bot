@@ -1,0 +1,20 @@
+{
+  "id": "list.feats.epic_boon",
+  "name": "Feats (Epic Boon)",
+  "chapter": 5,
+  "status": "complete",
+  "items": [
+    "feat.boon_of_combat_prowess",
+    "feat.boon_of_dimensional_travel",
+    "feat.boon_of_energy_resistance",
+    "feat.boon_of_fate",
+    "feat.boon_of_fortitude",
+    "feat.boon_of_irresistible_offense",
+    "feat.boon_of_recovery",
+    "feat.boon_of_skill",
+    "feat.boon_of_speed",
+    "feat.boon_of_spell_recall",
+    "feat.boon_of_the_night_spirit",
+    "feat.boon_of_truesight"
+  ]
+}

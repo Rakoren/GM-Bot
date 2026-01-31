@@ -1,0 +1,19 @@
+{
+  "id": "glossary.creature_type",
+  "name": "Creature Type",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Every creature, including every player character, has a tag in the rules that identifies the type of creature it is. Most player characters are of the Humanoid type. These are the game's creature types:"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

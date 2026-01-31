@@ -1,0 +1,33 @@
+{
+  "id": "spell.blur",
+  "name": "Blur",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Illusion",
+  "classes": [
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      15
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

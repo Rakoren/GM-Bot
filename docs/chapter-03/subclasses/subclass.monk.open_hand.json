@@ -6,7 +6,7 @@
   "title": "Warrior of the Open Hand",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       86,
       87
@@ -40,7 +40,7 @@
       "trigger": "when you hit a creature with an attack granted by Flurry of Blows",
       "effects": [
         "Choose one effect:",
-        "Addle: the target can’t make opportunity attacks until the start of its next turn.",
+        "Addle: the target cant make opportunity attacks until the start of its next turn.",
         "Push: the target must succeed on a Strength save or be pushed up to 15 feet away from you.",
         "Topple: the target must succeed on a Dexterity save or be prone."
       ]

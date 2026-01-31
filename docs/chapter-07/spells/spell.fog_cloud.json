@@ -1,0 +1,36 @@
+{
+  "id": "spell.fog_cloud",
+  "name": "Fog Cloud",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+    "class.druid",
+    "class.ranger",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 hour",
+  "description": [
+    "You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is Heavily Obscured. It lasts for the duration or until a strong wind (such as one created by Gust of Wind) disperses it. Using a Higher-Level Spell Slot. The fog's radius increases by 20 feet for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      59
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

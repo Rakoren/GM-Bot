@@ -1,0 +1,37 @@
+{
+  "id": "spell.cloud_of_daggers",
+  "name": "Cloud of Daggers",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Conjuration",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a sliver of glass"
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You conjure spinning daggers in a 5-foot Cube centered on a point within range. Each creature in that area takes 4d4 Slashing damage. A creature also takes this damage if it enters the Cube or ends its turn there or if the Cube moves into its space. A creature takes this damage only once per turn. On your later turns, you can take a Magic action to teleport the Cube up to 30 feet. Using a Higher-Level Spell Slot. The damage increases by 2d4 for each spell slot level above 2."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

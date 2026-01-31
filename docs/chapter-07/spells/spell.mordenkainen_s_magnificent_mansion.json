@@ -1,0 +1,37 @@
+{
+  "id": "spell.mordenkainen_s_magnificent_mansion",
+  "name": "Mordenkainen's Magnificent Mansion",
+  "chapter": 7,
+  "status": "complete",
+  "level": 7,
+  "school": "Conjuration",
+  "classes": [
+    "class.bard",
+    "class.wizard"
+  ],
+  "casting_time": "1 minute",
+  "range": "300 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a miniature door worth 15+ GP"
+  },
+  "duration": "24 hours",
+  "description": [
+    "You conjure a shimmering door in range that lasts for the duration. The door leads to an extradimensional dwelling and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the door remains open. You can open or close it (no action required) if you are within 30 feet of it. While closed, the door is imperceptible. Beyond the door is a magnificent foyer with numerous chambers beyond. The dwelling's atmosphere is clean, fresh, and warm. You can create any floor plan you like for the dwelling, but it can't exceed 50 contiguous 10-foot Cubes. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. Furnishings and other objects created by this spell dissipate into smoke if removed from it. A staff of 100 near-transparent servants attends all who enter. You determine the appearance of these servants and their attire. They are invulnerable and obey your commands. Each servant can perform tasks that a human could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can't leave the dwelling. When the spell ends, any creatures or objects left inside the extradimensional space are expelled into the unoccupied spaces nearest to the entrance. Mordenkainen's Private Sanctum THE WIZARD MORDENKAINEN WELCOMES GUESTS TO HIS MAGICAL DWELLING, MORDENKAINEN'S MAGNIFICENT MANSION ARTIST: HELGE C. BALZER",
+    "-- 98 of 163 --",
+    "Level 4 Abjuration (Wizard) Casting Time: 10 minutes Range: 120 feet Components: V, S, M (a thin sheet of lead) Duration: 24 hours You make an area within range magically secure. The area is a Cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration. When you cast the spell, you decide what sort of security the spell provides, choosing any of the following properties: Sound can't pass through the barrier at the edge of the warded area. The barrier of the warded area appears dark and foggy, preventing vision (including Darkvision) through it. Sensors created by Divination spells can't appear inside the protected area or pass through the barrier at its perimeter. Creatures in the area can't be targeted by Divination spells. Nothing can teleport into or out of the warded area. Planar travel is blocked within the warded area. Casting this spell on the same spot every day for 365 days makes the spell last until dispelled. Using a Higher-Level Spell Slot. You can increase the size of the Cube by 100 feet for each spell slot level above 4."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      97
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

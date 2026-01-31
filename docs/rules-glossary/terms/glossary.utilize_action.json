@@ -1,0 +1,19 @@
+{
+  "id": "glossary.utilize_action",
+  "name": "Utilize",
+  "tag": "Action",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "You normally interact with an object while doing something else, such as when you draw a sword as part of the Attack action. When an object requires an action for its use, you take the Utilize action."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      29
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

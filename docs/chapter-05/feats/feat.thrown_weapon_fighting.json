@@ -1,0 +1,29 @@
+{
+  "id": "feat.thrown_weapon_fighting",
+  "name": "Thrown Weapon Fighting",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Fighting Style",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Fighting Style Feature"
+  ],
+  "benefits": [
+    {
+      "name": "Benefit",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you hit with a ranged attack roll using a weapon that has the Thrown property, you gain a +2 bonus to the damage roll."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Thrown Weapon Fighting"
+  }
+}

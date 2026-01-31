@@ -1,0 +1,58 @@
+{
+  "id": "table.ammunition",
+  "name": "Ammunition",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Ammunition"
+  },
+  "columns": [
+    "type",
+    "amount",
+    "storage",
+    "weight",
+    "cost"
+  ],
+  "entries": [
+    {
+      "type": "Arrows",
+      "amount": "20",
+      "storage": "Quiver",
+      "weight": "1 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "type": "Bolts",
+      "amount": "20",
+      "storage": "Case",
+      "weight": "11/2 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "type": "Bullets, Firearm",
+      "amount": "10",
+      "storage": "Pouch",
+      "weight": "2 lb.",
+      "cost": "3 GP"
+    },
+    {
+      "type": "Bullets, Sling",
+      "amount": "20",
+      "storage": "Pouch",
+      "weight": "11/2 lb.",
+      "cost": "4 CP"
+    },
+    {
+      "type": "Needles",
+      "amount": "50",
+      "storage": "Pouch",
+      "weight": "1 lb.",
+      "cost": "1 GP"
+    }
+  ],
+  "notes": []
+}

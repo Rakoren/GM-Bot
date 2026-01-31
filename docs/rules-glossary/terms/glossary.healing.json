@@ -1,0 +1,19 @@
+{
+  "id": "glossary.healing",
+  "name": "Healing",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Healing is how you regain Hit Points. See also chapter 1 (\"Damage and Healing\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.breaking_objects",
+  "name": "Breaking Objects",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Objects can be harmed by attacks and by some spells, using the rules below. If an object is exceedingly fragile, the DM may allow a creature to break it automatically with the Attack or Utilize action. Armor Class. The Object Armor Class table suggests ACs for various substances."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

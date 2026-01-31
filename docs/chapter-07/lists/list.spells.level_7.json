@@ -1,0 +1,29 @@
+{
+  "id": "list.spells.level_7",
+  "name": "Level 7 Spells",
+  "chapter": 7,
+  "status": "complete",
+  "items": [
+    "spell.conjure_celestial",
+    "spell.delayed_blast_fireball",
+    "spell.divine_word",
+    "spell.etherealness",
+    "spell.finger_of_death",
+    "spell.fire_storm",
+    "spell.forcecage",
+    "spell.mirage_arcane",
+    "spell.mordenkainen_s_magnificent_mansion",
+    "spell.mordenkainen_s_sword",
+    "spell.plane_shift",
+    "spell.power_word_fortify",
+    "spell.prismatic_spray",
+    "spell.project_image",
+    "spell.regenerate",
+    "spell.resurrection",
+    "spell.reverse_gravity",
+    "spell.sequester",
+    "spell.simulacrum",
+    "spell.symbol",
+    "spell.teleport"
+  ]
+}

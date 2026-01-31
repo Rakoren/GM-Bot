@@ -1,0 +1,33 @@
+{
+  "id": "spell.mass_heal",
+  "name": "Mass Heal",
+  "chapter": 7,
+  "status": "complete",
+  "level": 9,
+  "school": "Abjuration",
+  "classes": [
+    "class.cleric"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "A flood of healing energy flows from you into creatures around you. You restore up to 700 Hit Points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell also have the Blinded, Deafened, and Poisoned conditions removed from them."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      89
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

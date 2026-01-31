@@ -1,0 +1,399 @@
+{
+  "id": "table.feat_list",
+  "name": "Feat List",
+  "chapter": 5,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "section": "Feat List"
+  },
+  "columns": [
+    "feat",
+    "category",
+    "repeatable"
+  ],
+  "entries": [
+    {
+      "feat": "Ability Score Improvement",
+      "category": "General",
+      "repeatable": true
+    },
+    {
+      "feat": "Actor",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Alert",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Archery",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Athlete",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Blind Fighting",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Combat Prowess",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Dimensional Travel",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Energy Resistance",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Fate",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Fortitude",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Irresistible Offense",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Recovery",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Skill",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Speed",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Spell Recall",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of the Night Spirit",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Boon of Truesight",
+      "category": "Epic Boon",
+      "repeatable": false
+    },
+    {
+      "feat": "Charger",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Chef",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Crafter",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Crossbow Expert",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Crusher",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Defense",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Defensive Duelist",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Dual Wielder",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Dueling",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Durable",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Elemental Adept",
+      "category": "General",
+      "repeatable": true
+    },
+    {
+      "feat": "Fey Touched",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Grappler",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Great Weapon Fighting",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Great Weapon Master",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Healer",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Heavily Armored",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Heavy Armor Master",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Inspiring Leader",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Interception",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Keen Mind",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Lightly Armored",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Lucky",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Mage Slayer",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Magic Initiate",
+      "category": "Origin",
+      "repeatable": true
+    },
+    {
+      "feat": "Martial Weapon Training",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Medium Armor Master",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Moderately Armored",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Mounted Combatant",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Musician",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Observant",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Piercer",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Poisoner",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Polearm Master",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Protection",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Resilient",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Ritual Caster",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Savage Attacker",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Sentinel",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Shadow Touched",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Sharpshooter",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Shield Master",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Skilled",
+      "category": "Origin",
+      "repeatable": true
+    },
+    {
+      "feat": "Skill Expert",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Skulker",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Slasher",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Speedy",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Spell Sniper",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Tavern Brawler",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Telekinetic",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Telepathic",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Thrown Weapon Fighting",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Tough",
+      "category": "Origin",
+      "repeatable": false
+    },
+    {
+      "feat": "Two-Weapon Fighting",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "Unarmed Fighting",
+      "category": "Fighting Style",
+      "repeatable": false
+    },
+    {
+      "feat": "War Caster",
+      "category": "General",
+      "repeatable": false
+    },
+    {
+      "feat": "Weapon Master",
+      "category": "General",
+      "repeatable": false
+    }
+  ],
+  "notes": [
+    "Repeatable is true when the Feat List marks the feat with an asterisk."
+  ]
+}

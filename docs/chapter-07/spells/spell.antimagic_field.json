@@ -1,0 +1,35 @@
+{
+  "id": "spell.antimagic_field",
+  "name": "Antimagic Field",
+  "chapter": 7,
+  "status": "complete",
+  "level": 8,
+  "school": "Abjuration",
+  "classes": [
+    "class.cleric",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "iron filings"
+  },
+  "duration": "Concentration, up to 1 hour",
+  "description": [
+    "An aura of antimagic surrounds you in 10-foot Emanation. No one can cast spells, take Magic actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it. Areas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura. Ongoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration. Dispel Magic has no effect on the aura, and the auras created by different Antimagic Field spells don't nullify each other."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

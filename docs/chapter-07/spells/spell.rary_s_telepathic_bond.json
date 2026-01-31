@@ -1,0 +1,37 @@
+{
+  "id": "spell.rary_s_telepathic_bond",
+  "name": "Rary's Telepathic Bond",
+  "chapter": 7,
+  "status": "complete",
+  "level": 5,
+  "school": "Divination",
+  "classes": [
+    "class.bard",
+    "class.wizard"
+  ],
+  "casting_time": "Action or Ritual",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "two eggs"
+  },
+  "duration": "1 hour",
+  "description": [
+    "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures that can't communicate in any languages aren't affected by this spell. A HUMAN CLERIC CASTS RAISE DEAD TO RETURN A FALLEN COMRADE TO LIFE",
+    "-- 113 of 163 --",
+    "Until the spell ends, the targets can communicate telepathically through the bond whether or not they share a language. The communication is possible over any distance, though it can't extend to other planes of existence."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      112
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

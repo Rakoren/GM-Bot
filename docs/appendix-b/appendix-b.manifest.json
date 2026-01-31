@@ -1,0 +1,383 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "appendix-b",
+  "title": "Appendix B: Creature Stat Blocks",
+  "generated_at": "2026-01-31",
+  "paths": {
+    "creatures_dir": "appendix-b/creatures",
+    "tables_dir": "appendix-b/tables",
+    "lists_dir": "appendix-b/lists"
+  },
+  "shards": [
+    {
+      "id": "creature.ape",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.ape.json"
+    },
+    {
+      "id": "creature.badger",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.badger.json"
+    },
+    {
+      "id": "creature.bat",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.bat.json"
+    },
+    {
+      "id": "creature.black_bear",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.black_bear.json"
+    },
+    {
+      "id": "creature.boar",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.boar.json"
+    },
+    {
+      "id": "creature.brown_bear",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.brown_bear.json"
+    },
+    {
+      "id": "creature.camel",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.camel.json"
+    },
+    {
+      "id": "creature.cat",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.cat.json"
+    },
+    {
+      "id": "creature.constrictor_snake",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.constrictor_snake.json"
+    },
+    {
+      "id": "creature.crab",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.crab.json"
+    },
+    {
+      "id": "creature.crocodile",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.crocodile.json"
+    },
+    {
+      "id": "creature.draft_horse",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.draft_horse.json"
+    },
+    {
+      "id": "creature.elephant",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.elephant.json"
+    },
+    {
+      "id": "creature.elk",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.elk.json"
+    },
+    {
+      "id": "creature.frog",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.frog.json"
+    },
+    {
+      "id": "creature.giant_badger",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.giant_badger.json"
+    },
+    {
+      "id": "creature.giant_crab",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.giant_crab.json"
+    },
+    {
+      "id": "creature.giant_goat",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.giant_goat.json"
+    },
+    {
+      "id": "creature.giant_seahorse",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.giant_seahorse.json"
+    },
+    {
+      "id": "creature.giant_spider",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.giant_spider.json"
+    },
+    {
+      "id": "creature.giant_weasel",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.giant_weasel.json"
+    },
+    {
+      "id": "creature.goat",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.goat.json"
+    },
+    {
+      "id": "creature.hawk",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.hawk.json"
+    },
+    {
+      "id": "creature.imp",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.imp.json"
+    },
+    {
+      "id": "creature.lion",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.lion.json"
+    },
+    {
+      "id": "creature.lizard",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.lizard.json"
+    },
+    {
+      "id": "creature.mastiff",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.mastiff.json"
+    },
+    {
+      "id": "creature.mule",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.mule.json"
+    },
+    {
+      "id": "creature.octopus",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.octopus.json"
+    },
+    {
+      "id": "creature.owl",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.owl.json"
+    },
+    {
+      "id": "creature.panther",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.panther.json"
+    },
+    {
+      "id": "creature.pony",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.pony.json"
+    },
+    {
+      "id": "creature.pseudodragon",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.pseudodragon.json"
+    },
+    {
+      "id": "creature.quasit",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.quasit.json"
+    },
+    {
+      "id": "creature.rat",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.rat.json"
+    },
+    {
+      "id": "creature.raven",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.raven.json"
+    },
+    {
+      "id": "creature.reef_shark",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.reef_shark.json"
+    },
+    {
+      "id": "creature.riding_horse",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.riding_horse.json"
+    },
+    {
+      "id": "creature.scorpion",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.scorpion.json"
+    },
+    {
+      "id": "creature.skeleton",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.skeleton.json"
+    },
+    {
+      "id": "creature.slaad_tadpole",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.slaad_tadpole.json"
+    },
+    {
+      "id": "creature.sphinx_of_wonder",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.sphinx_of_wonder.json"
+    },
+    {
+      "id": "creature.spider",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.spider.json"
+    },
+    {
+      "id": "creature.sprite",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.sprite.json"
+    },
+    {
+      "id": "creature.tiger",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.tiger.json"
+    },
+    {
+      "id": "creature.venomous_snake",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.venomous_snake.json"
+    },
+    {
+      "id": "creature.warhorse",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.warhorse.json"
+    },
+    {
+      "id": "creature.weasel",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.weasel.json"
+    },
+    {
+      "id": "creature.wolf",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.wolf.json"
+    },
+    {
+      "id": "creature.zombie",
+      "type": "creature",
+      "path": "appendix-b/creatures/creature.zombie.json"
+    },
+    {
+      "id": "table.creatures.list",
+      "type": "table",
+      "path": "appendix-b/tables/table.creatures.list.json"
+    },
+    {
+      "id": "list.creatures.all",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.all.json"
+    },
+    {
+      "id": "table.creatures.by_size",
+      "type": "table",
+      "path": "appendix-b/tables/table.creatures.by_size.json"
+    },
+    {
+      "id": "table.creatures.by_type",
+      "type": "table",
+      "path": "appendix-b/tables/table.creatures.by_type.json"
+    },
+    {
+      "id": "table.creatures.by_cr",
+      "type": "table",
+      "path": "appendix-b/tables/table.creatures.by_cr.json"
+    },
+    {
+      "id": "list.creatures.size.medium",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.size.medium.json"
+    },
+    {
+      "id": "list.creatures.size.tiny",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.size.tiny.json"
+    },
+    {
+      "id": "list.creatures.size.large",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.size.large.json"
+    },
+    {
+      "id": "list.creatures.size.huge",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.size.huge.json"
+    },
+    {
+      "id": "list.creatures.size.small",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.size.small.json"
+    },
+    {
+      "id": "list.creatures.type.beast",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.beast.json"
+    },
+    {
+      "id": "list.creatures.type.fiend_devil",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.fiend_devil.json"
+    },
+    {
+      "id": "list.creatures.type.dragon",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.dragon.json"
+    },
+    {
+      "id": "list.creatures.type.fiend_demon",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.fiend_demon.json"
+    },
+    {
+      "id": "list.creatures.type.undead",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.undead.json"
+    },
+    {
+      "id": "list.creatures.type.aberration",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.aberration.json"
+    },
+    {
+      "id": "list.creatures.type.celestial",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.celestial.json"
+    },
+    {
+      "id": "list.creatures.type.fey",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.type.fey.json"
+    },
+    {
+      "id": "list.creatures.cr.1_2",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.cr.1_2.json"
+    },
+    {
+      "id": "list.creatures.cr.0",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.cr.0.json"
+    },
+    {
+      "id": "list.creatures.cr.1_4",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.cr.1_4.json"
+    },
+    {
+      "id": "list.creatures.cr.1",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.cr.1.json"
+    },
+    {
+      "id": "list.creatures.cr.1_8",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.cr.1_8.json"
+    },
+    {
+      "id": "list.creatures.cr.4",
+      "type": "list",
+      "path": "appendix-b/lists/list.creatures.cr.4.json"
+    }
+  ]
+}

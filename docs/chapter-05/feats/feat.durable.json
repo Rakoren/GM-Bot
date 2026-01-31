@@ -1,0 +1,45 @@
+{
+  "id": "feat.durable",
+  "name": "Durable",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Constitution score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Defy Death",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You have Advantage on Death Saving Throws."
+      ]
+    },
+    {
+      "name": "Speedy Recovery",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Durable"
+  }
+}

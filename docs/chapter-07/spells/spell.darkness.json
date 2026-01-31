@@ -1,0 +1,35 @@
+{
+  "id": "spell.darkness",
+  "name": "Darkness",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Evocation",
+  "classes": [
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "M"
+    ],
+    "material": "bat fur and a piece of coal"
+  },
+  "duration": "Concentration, up to 10 minutes",
+  "description": [
+    "For the duration, magical Darkness spreads from a point within range and fills a 15-foot-radius Sphere. Darkvision can't see through it, and nonmagical light can't illuminate it. Alternatively, you cast the spell on an object that isn't being worn or carried, causing the Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the Darkness. If any of this spell's area overlaps with an area of Bright Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      34
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

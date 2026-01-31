@@ -1,0 +1,62 @@
+{
+  "id": "table.creatures.by_type",
+  "name": "Creatures by Type",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      24
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "columns": [
+    "type",
+    "count",
+    "list_ref"
+  ],
+  "entries": [
+    {
+      "type": "Beast",
+      "count": 42,
+      "list_ref": "list.creatures.type.beast"
+    },
+    {
+      "type": "Fiend (Devil)",
+      "count": 1,
+      "list_ref": "list.creatures.type.fiend_devil"
+    },
+    {
+      "type": "Dragon",
+      "count": 1,
+      "list_ref": "list.creatures.type.dragon"
+    },
+    {
+      "type": "Fiend (Demon)",
+      "count": 1,
+      "list_ref": "list.creatures.type.fiend_demon"
+    },
+    {
+      "type": "Undead",
+      "count": 2,
+      "list_ref": "list.creatures.type.undead"
+    },
+    {
+      "type": "Aberration",
+      "count": 1,
+      "list_ref": "list.creatures.type.aberration"
+    },
+    {
+      "type": "Celestial",
+      "count": 1,
+      "list_ref": "list.creatures.type.celestial"
+    },
+    {
+      "type": "Fey",
+      "count": 1,
+      "list_ref": "list.creatures.type.fey"
+    }
+  ],
+  "notes": []
+}

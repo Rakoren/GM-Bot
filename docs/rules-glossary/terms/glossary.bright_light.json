@@ -1,0 +1,19 @@
+{
+  "id": "glossary.bright_light",
+  "name": "Bright Light",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Bright Light is normal illumination. See also chapter 1 (\"Exploration\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

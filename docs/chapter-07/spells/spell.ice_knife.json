@@ -1,0 +1,35 @@
+{
+  "id": "spell.ice_knife",
+  "name": "Ice Knife",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+    "class.druid",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "S",
+      "M"
+    ],
+    "material": "a drop of water or a piece of ice"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage. Using a Higher-Level Spell Slot. The Cold damage increases by 1d6 for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      76
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

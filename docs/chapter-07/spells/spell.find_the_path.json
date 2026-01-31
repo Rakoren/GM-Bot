@@ -1,0 +1,36 @@
+{
+  "id": "spell.find_the_path",
+  "name": "Find the Path",
+  "chapter": 7,
+  "status": "complete",
+  "level": 6,
+  "school": "Divination",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "1 minute",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a set of divination tools-such as cards or runes-worth 100+ GP"
+  },
+  "duration": "Concentration, up to 1 day",
+  "description": [
+    "You magically sense the most direct physical route to a location you name. You must be familiar with the location, and the spell fails if you name a destination on another plane of existence, a moving destination (such as a mobile fortress), or an unspecific destination (such as 'a green dragon's lair'). For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. Whenever you face a choice of paths along the way there, you know which path is the most direct."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      55
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

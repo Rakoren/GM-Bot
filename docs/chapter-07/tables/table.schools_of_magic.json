@@ -1,0 +1,54 @@
+{
+  "id": "table.schools_of_magic",
+  "name": "Schools of Magic",
+  "chapter": 7,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/09-Spells - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Schools of Magic"
+  },
+  "columns": [
+    "school",
+    "typical_effects"
+  ],
+  "entries": [
+    {
+      "school": "Abjuration",
+      "typical_effects": "Prevents or reverses harmful effects"
+    },
+    {
+      "school": "Conjuration",
+      "typical_effects": "Transports creatures or objects"
+    },
+    {
+      "school": "Divination",
+      "typical_effects": "Reveals information"
+    },
+    {
+      "school": "Enchantment",
+      "typical_effects": "Influences minds"
+    },
+    {
+      "school": "Evocation",
+      "typical_effects": "Channels energy to create effects that are often destructive"
+    },
+    {
+      "school": "Illusion",
+      "typical_effects": "Deceives the mind or senses"
+    },
+    {
+      "school": "Necromancy",
+      "typical_effects": "Manipulates life and death"
+    },
+    {
+      "school": "Transmutation",
+      "typical_effects": "Transforms creatures or objects"
+    }
+  ],
+  "notes": [
+    "Schools describe categories; they have no rules of their own unless another rule references them."
+  ]
+}

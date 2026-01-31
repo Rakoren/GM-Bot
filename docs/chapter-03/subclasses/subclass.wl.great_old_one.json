@@ -6,7 +6,7 @@
   "title": "Great Old One Patron",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - PlayeraTMs Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       76,
       78
@@ -73,7 +73,7 @@
         "On a failed save, the creature has disadvantage on attack rolls against you and you have advantage on attack rolls against it for the duration of the bond."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a short or long rest unless you expend a Pact Magic spell slot (no action required) to restore its use."
+        "Once you use this feature, you cant use it again until you finish a short or long rest unless you expend a Pact Magic spell slot (no action required) to restore its use."
       ]
     },
     {
@@ -90,7 +90,7 @@
       "action_type": "none",
       "trigger": "passive",
       "effects": [
-        "Your thoughts can’t be read by telepathy or other means unless you allow it.",
+        "Your thoughts cant be read by telepathy or other means unless you allow it.",
         "You have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you take."
       ]
     },
@@ -101,7 +101,7 @@
       "effects": [
         "You can cast it without concentration; if you do, its duration becomes 1 minute for that casting.",
         "The summoned aberration gains temporary hit points equal to your Warlock level + your Charisma modifier.",
-        "The first time each turn the aberration hits a creature under your Hex, it deals extra psychic damage equal to Hex’s bonus damage."
+        "The first time each turn the aberration hits a creature under your Hex, it deals extra psychic damage equal to Hexs bonus damage."
       ]
     }
   ],

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.cylinder_area_of_effect",
+  "name": "Cylinder",
+  "tag": "Area of Effect",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Cylinder is an area of effect that extends in straight lines from a point of origin located at the center of the circular top or bottom of the Cylinder. The effect that creates a Cylinder specifies the radius of the Cylinder's base and the Cylinder's height. A Cylinder's point of origin is included in the area of effect."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

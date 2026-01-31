@@ -1,0 +1,19 @@
+{
+  "id": "glossary.paralyzed_condition",
+  "name": "Paralyzed",
+  "tag": "Condition",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "While you have the Paralyzed condition, you experience the following effects. Incapacitated. You have the Incapacitated condition. Speed 0. Your Speed is 0 and can't increase. Saving Throws Affected. You automatically fail Strength and Dexterity saving throws. Attacks Affected. Attack rolls against you have Advantage. Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

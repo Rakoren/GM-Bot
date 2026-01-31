@@ -1,0 +1,36 @@
+{
+  "id": "spell.true_strike",
+  "name": "True Strike",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Divination",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "S",
+      "M"
+    ],
+    "material": "a weapon with which you have proficiency and that is worth 1+ CP"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice). Cantrip Upgrade. Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6)."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      151
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

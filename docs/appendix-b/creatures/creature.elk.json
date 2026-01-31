@@ -1,0 +1,75 @@
+{
+  "id": "creature.elk",
+  "name": "ELK",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 10,
+  "initiative": "+0",
+  "initiative_score": 10,
+  "hit_points": 11,
+  "hit_dice": "2d10",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2",
+      "save": "-2"
+    }
+  },
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ram",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6)"
+    },
+    {
+      "name": "Bludgeoning damage and has the Prone condition",
+      "text": "FROG ARTIST: WAYNE ENGLAND"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.line_area_of_effect",
+  "name": "Line",
+  "tag": "Area of Effect",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Line is an area of effect that extends from a point of origin in a straight path along its length and covers an area defined by its width. The effect that creates a Line specifies its length and width. A Line's point of origin isn't included in the area of effect unless its creator decides otherwise."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

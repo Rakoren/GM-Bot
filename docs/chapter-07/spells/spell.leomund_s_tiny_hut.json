@@ -1,0 +1,35 @@
+{
+  "id": "spell.leomund_s_tiny_hut",
+  "name": "Leomund's Tiny Hut",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Evocation",
+  "classes": [
+    "class.bard",
+    "class.wizard"
+  ],
+  "casting_time": "1 minute or Ritual",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a crystal bead"
+  },
+  "duration": "8 hours",
+  "description": [
+    "A 10-foot Emanation springs into existence around you and remains stationary for the duration. The spell fails when you cast it if the Emanation isn't big enough to fully encapsulate all creatures in its area. Creatures and objects within the Emanation when you cast the spell can move through it freely. All other creatures and objects are barred from passing through it. Spells of level 3 or lower can't be cast through it, and the effects of such spells can't extend into it. The atmosphere inside the Emanation is comfortable and dry, regardless of the weather outside. Until the spell ends, you can command the interior to have Dim Light or Darkness (no action required). The Emanation is opaque from the outside and of any color you choose, but it's transparent from the inside. The spell ends early if you leave the Emanation or if you cast it again."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      82
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

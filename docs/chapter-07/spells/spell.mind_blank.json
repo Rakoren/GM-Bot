@@ -1,0 +1,34 @@
+{
+  "id": "spell.mind_blank",
+  "name": "Mind Blank",
+  "chapter": 7,
+  "status": "complete",
+  "level": 8,
+  "school": "Abjuration",
+  "classes": [
+    "class.bard",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "24 hours",
+  "description": [
+    "Until the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell-not even Wish-can gather information about the target, observe it remotely, or control its mind."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      93
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -104,5 +104,33 @@
     "monk.shadow",
     "monk.elements",
     "monk.open_hand"
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Spear",
+          "5 Daggers",
+          "Artisan's Tools or Musical Instrument (chosen)"
+        ],
+        "pack_ref": "item.pack.explorer",
+        "gp": 11
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 50
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      75,
+      87
+    ],
+    "section": "Character Classes"
+  }
 }

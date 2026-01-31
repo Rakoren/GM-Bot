@@ -6,18 +6,18 @@
   "action_type": "none",
   "trigger": "when you deal Sneak Attack damage",
   "effects": [
-    "you can add one Cunning Strike effect by forgoing Sneak Attack dice equal to the effect?s cost",
-    "the effect occurs immediately after the attack?s damage is dealt",
+    "you can add one Cunning Strike effect by forgoing Sneak Attack dice equal to the effects cost",
+    "the effect occurs immediately after the attacks damage is dealt",
     "if an effect requires a saving throw, the DC equals 8 + Dexterity modifier + proficiency bonus"
   ],
   "limits": [
-    "Poison (cost 1d6): target makes a Constitution save or is Poisoned for 1 minute; repeats save at end of turns (requires a Poisoner?s Kit)",
+    "Poison (cost 1d6): target makes a Constitution save or is Poisoned for 1 minute; repeats save at end of turns (requires a Poisoners Kit)",
     "Trip (cost 1d6): if target is Large or smaller, it makes a Dexterity save or is Prone",
     "Withdraw (cost 1d6): you move up to half your speed without provoking opportunity attacks"
   ],
   "notes": [],
   "sourceRef": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       34
     ],

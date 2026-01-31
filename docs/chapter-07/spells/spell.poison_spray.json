@@ -1,0 +1,37 @@
+{
+  "id": "spell.poison_spray",
+  "name": "Poison Spray",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Necromancy",
+  "classes": [
+    "class.druid",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage. Cantrip Upgrade. The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).",
+    "-- 105 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      104
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "spell.jump",
+  "name": "Jump",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Transmutation",
+  "classes": [
+    "class.druid",
+    "class.ranger",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "Touch",
+  "components": null,
+  "duration": "1 minute",
+  "description": [
+    "You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1. WITH HER SPELL, JALLARZI'S STORM OF RADIANCE, THE WARLOCK JALLARZI MAKES VROCKS REGRET LEAVING THE ABYSS",
+    "-- 81 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      80
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

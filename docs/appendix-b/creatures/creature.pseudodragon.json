@@ -1,0 +1,100 @@
+{
+  "id": "creature.pseudodragon",
+  "name": "PSEUDODRAGON",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Dragon, Neutral Good",
+  "size": "Tiny",
+  "creature_type": "Dragon",
+  "alignment": "Neutral Good",
+  "armor_class": 14,
+  "initiative": "+2",
+  "initiative_score": 12,
+  "hit_points": 10,
+  "hit_dice": "3d4 + 3",
+  "speed": "15 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2",
+      "save": "-2"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    }
+  },
+  "skills": "Perception +5, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Understands Common and Draconic but can't speak",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The pseudodragon has Advantage on saving throws against"
+    },
+    {
+      "name": "spells and other magical effects",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The pseudodragon makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage."
+    },
+    {
+      "name": "Sting",
+      "text": "Constitution Saving Throw: DC 12, one creature the pseudodragon can"
+    },
+    {
+      "name": "see within 5 feet",
+      "text": "Failure: 5 (2d4) Poison damage, and the target has the"
+    },
+    {
+      "name": "Poisoned condition for 1 hour",
+      "text": "While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a"
+    },
+    {
+      "name": "creature within 5 feet of it takes an action to wake it",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

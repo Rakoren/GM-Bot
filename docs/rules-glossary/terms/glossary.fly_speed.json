@@ -1,0 +1,19 @@
+{
+  "id": "glossary.fly_speed",
+  "name": "Fly Speed",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Fly Speed can be used to travel through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die. See also \"Flying\" and \"Speed.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

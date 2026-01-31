@@ -1,0 +1,19 @@
+{
+  "id": "glossary.stable",
+  "name": "Stable",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A creature is Stable if it has 0 Hit Points but isn't required to make Death Saving Throws. See also chapter 1 (\"Damage and Healing\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "creature.mule",
+  "name": "MULE",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 10,
+  "initiative": "+0",
+  "initiative_score": 10,
+  "hit_points": 11,
+  "hit_dice": "2d8 + 2",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+4"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3",
+      "save": "-3"
+    }
+  },
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Beast of Burden",
+      "text": "The mule counts as one size larger for the purpose of"
+    },
+    {
+      "name": "determining its carrying capacity",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Hooves",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      12
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

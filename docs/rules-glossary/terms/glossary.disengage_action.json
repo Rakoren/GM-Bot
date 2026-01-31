@@ -1,0 +1,19 @@
+{
+  "id": "glossary.disengage_action",
+  "name": "Disengage",
+  "tag": "Action",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If you take the Disengage action, your movement doesn't provoke Opportunity Attacks for the rest of the current turn."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

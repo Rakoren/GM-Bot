@@ -1,0 +1,34 @@
+{
+  "id": "spell.armor_of_agathys",
+  "name": "Armor of Agathys",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+    "class.warlock"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a shard of blue glass"
+  },
+  "duration": "1 hour",
+  "description": [
+    "Protective magical frost surrounds you. You gain 5 Temporary Hit Points. If a creature hits you with a melee attack roll before the spell ends, the creature takes 5 Cold damage. The spell ends early if you have no Temporary Hit Points. Using a Higher-Level Spell Slot. The Temporary Hit Points and the Cold damage both increase by 5 for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

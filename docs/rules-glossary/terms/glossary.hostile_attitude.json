@@ -1,0 +1,19 @@
+{
+  "id": "glossary.hostile_attitude",
+  "name": "Hostile",
+  "tag": "Attitude",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Hostile creature views you unfavorably. You have Disadvantage on an ability check to influence a Hostile creature. See also \"Influence.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      15
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

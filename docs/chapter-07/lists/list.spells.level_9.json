@@ -1,0 +1,24 @@
+{
+  "id": "list.spells.level_9",
+  "name": "Level 9 Spells",
+  "chapter": 7,
+  "status": "complete",
+  "items": [
+    "spell.astral_projection",
+    "spell.foresight",
+    "spell.gate",
+    "spell.imprisonment",
+    "spell.mass_heal",
+    "spell.meteor_swarm",
+    "spell.power_word_heal",
+    "spell.power_word_kill",
+    "spell.prismatic_wall",
+    "spell.shapechange",
+    "spell.storm_of_vengeance",
+    "spell.time_stop",
+    "spell.true_polymorph",
+    "spell.true_resurrection",
+    "spell.weird",
+    "spell.wish"
+  ]
+}

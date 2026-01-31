@@ -1,0 +1,18 @@
+{
+  "id": "list.feats.origin",
+  "name": "Feats (Origin)",
+  "chapter": 5,
+  "status": "complete",
+  "items": [
+    "feat.alert",
+    "feat.crafter",
+    "feat.healer",
+    "feat.lucky",
+    "feat.magic_initiate",
+    "feat.musician",
+    "feat.savage_attacker",
+    "feat.skilled",
+    "feat.tavern_brawler",
+    "feat.tough"
+  ]
+}

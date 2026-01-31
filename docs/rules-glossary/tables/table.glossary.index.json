@@ -1,0 +1,947 @@
+{
+  "id": "table.glossary.index",
+  "name": "Glossary Index",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      31
+    ],
+    "section": "Rules Glossary"
+  },
+  "columns": [
+    "id",
+    "name",
+    "tag"
+  ],
+  "entries": [
+    {
+      "id": "glossary.cg_chaotic_good",
+      "name": "CG Chaotic Good",
+      "tag": null
+    },
+    {
+      "id": "glossary.cn_chaotic_neutral",
+      "name": "CN Chaotic Neutral",
+      "tag": null
+    },
+    {
+      "id": "glossary.dc_difficulty_class",
+      "name": "DC Difficulty Class",
+      "tag": null
+    },
+    {
+      "id": "glossary.dm_dungeon_master",
+      "name": "DM Dungeon Master",
+      "tag": null
+    },
+    {
+      "id": "glossary.ln_lawful_neutral",
+      "name": "LN Lawful Neutral",
+      "tag": null
+    },
+    {
+      "id": "glossary.ng_neutral_good",
+      "name": "NG Neutral Good",
+      "tag": null
+    },
+    {
+      "id": "glossary.pb_proficiency_bonus",
+      "name": "PB Proficiency Bonus",
+      "tag": null
+    },
+    {
+      "id": "glossary.r_ritual",
+      "name": "R Ritual",
+      "tag": null
+    },
+    {
+      "id": "glossary.ability_check",
+      "name": "Ability Check",
+      "tag": null
+    },
+    {
+      "id": "glossary.ability_score_and_modifier",
+      "name": "Ability Score and Modifier",
+      "tag": null
+    },
+    {
+      "id": "glossary.action",
+      "name": "Action",
+      "tag": null
+    },
+    {
+      "id": "glossary.advantage",
+      "name": "Advantage",
+      "tag": null
+    },
+    {
+      "id": "glossary.adventure",
+      "name": "Adventure",
+      "tag": null
+    },
+    {
+      "id": "glossary.alignment",
+      "name": "Alignment",
+      "tag": null
+    },
+    {
+      "id": "glossary.ally",
+      "name": "Ally",
+      "tag": null
+    },
+    {
+      "id": "glossary.area_of_effect",
+      "name": "Area of Effect",
+      "tag": null
+    },
+    {
+      "id": "glossary.sphere",
+      "name": "Sphere",
+      "tag": null
+    },
+    {
+      "id": "glossary.armor_class",
+      "name": "Armor Class",
+      "tag": null
+    },
+    {
+      "id": "glossary.armor_training",
+      "name": "Armor Training",
+      "tag": null
+    },
+    {
+      "id": "glossary.attack_action",
+      "name": "Attack",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.attack_roll",
+      "name": "Attack Roll",
+      "tag": null
+    },
+    {
+      "id": "glossary.attitude",
+      "name": "Attitude",
+      "tag": null
+    },
+    {
+      "id": "glossary.attunement",
+      "name": "Attunement",
+      "tag": null
+    },
+    {
+      "id": "glossary.blinded_condition",
+      "name": "Blinded",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.blindsight",
+      "name": "Blindsight",
+      "tag": null
+    },
+    {
+      "id": "glossary.bloodied",
+      "name": "Bloodied",
+      "tag": null
+    },
+    {
+      "id": "glossary.bonus_action",
+      "name": "Bonus Action",
+      "tag": null
+    },
+    {
+      "id": "glossary.breaking_objects",
+      "name": "Breaking Objects",
+      "tag": null
+    },
+    {
+      "id": "glossary.ac_substance",
+      "name": "AC Substance",
+      "tag": null
+    },
+    {
+      "id": "glossary.size_fragile_resilient",
+      "name": "Size Fragile Resilient",
+      "tag": null
+    },
+    {
+      "id": "glossary.bright_light",
+      "name": "Bright Light",
+      "tag": null
+    },
+    {
+      "id": "glossary.burning_hazard",
+      "name": "Burning",
+      "tag": "Hazard"
+    },
+    {
+      "id": "glossary.burrow_speed",
+      "name": "Burrow Speed",
+      "tag": null
+    },
+    {
+      "id": "glossary.campaign",
+      "name": "Campaign",
+      "tag": null
+    },
+    {
+      "id": "glossary.cantrip",
+      "name": "Cantrip",
+      "tag": null
+    },
+    {
+      "id": "glossary.carrying_capacity",
+      "name": "Carrying Capacity",
+      "tag": null
+    },
+    {
+      "id": "glossary.carrying_capacity_2",
+      "name": "Carrying Capacity",
+      "tag": null
+    },
+    {
+      "id": "glossary.challenge_rating",
+      "name": "Challenge Rating",
+      "tag": null
+    },
+    {
+      "id": "glossary.character_sheet",
+      "name": "Character Sheet",
+      "tag": null
+    },
+    {
+      "id": "glossary.charmed_condition",
+      "name": "Charmed",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.climbing",
+      "name": "Climbing",
+      "tag": null
+    },
+    {
+      "id": "glossary.climb_speed",
+      "name": "Climb Speed",
+      "tag": null
+    },
+    {
+      "id": "glossary.see",
+      "name": "See",
+      "tag": null
+    },
+    {
+      "id": "glossary.concentration",
+      "name": "Concentration",
+      "tag": null
+    },
+    {
+      "id": "glossary.condition",
+      "name": "Condition",
+      "tag": null
+    },
+    {
+      "id": "glossary.unconscious",
+      "name": "Unconscious",
+      "tag": null
+    },
+    {
+      "id": "glossary.cone_area_of_effect",
+      "name": "Cone",
+      "tag": "Area of Effect"
+    },
+    {
+      "id": "glossary.cover",
+      "name": "Cover",
+      "tag": null
+    },
+    {
+      "id": "glossary.crawling",
+      "name": "Crawling",
+      "tag": null
+    },
+    {
+      "id": "glossary.creature",
+      "name": "Creature",
+      "tag": null
+    },
+    {
+      "id": "glossary.creature_type",
+      "name": "Creature Type",
+      "tag": null
+    },
+    {
+      "id": "glossary.undead",
+      "name": "Undead",
+      "tag": null
+    },
+    {
+      "id": "glossary.critical_hit",
+      "name": "Critical Hit",
+      "tag": null
+    },
+    {
+      "id": "glossary.cube_area_of_effect",
+      "name": "Cube",
+      "tag": "Area of Effect"
+    },
+    {
+      "id": "glossary.curses",
+      "name": "Curses",
+      "tag": null
+    },
+    {
+      "id": "glossary.curse_and",
+      "name": "Curse and",
+      "tag": null
+    },
+    {
+      "id": "glossary.cylinder_area_of_effect",
+      "name": "Cylinder",
+      "tag": "Area of Effect"
+    },
+    {
+      "id": "glossary.d20_test",
+      "name": "D20 Test",
+      "tag": null
+    },
+    {
+      "id": "glossary.damage",
+      "name": "Damage",
+      "tag": null
+    },
+    {
+      "id": "glossary.damage_roll",
+      "name": "Damage Roll",
+      "tag": null
+    },
+    {
+      "id": "glossary.damage_threshold",
+      "name": "Damage Threshold",
+      "tag": null
+    },
+    {
+      "id": "glossary.damage_types",
+      "name": "Damage Types",
+      "tag": null
+    },
+    {
+      "id": "glossary.type_examples",
+      "name": "Type Examples",
+      "tag": null
+    },
+    {
+      "id": "glossary.lightning_electricity",
+      "name": "Lightning Electricity",
+      "tag": null
+    },
+    {
+      "id": "glossary.darkness",
+      "name": "Darkness",
+      "tag": null
+    },
+    {
+      "id": "glossary.darkvision",
+      "name": "Darkvision",
+      "tag": null
+    },
+    {
+      "id": "glossary.dash_action",
+      "name": "Dash",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.dead",
+      "name": "Dead",
+      "tag": null
+    },
+    {
+      "id": "glossary.raise_dead_or",
+      "name": "Raise Dead or",
+      "tag": null
+    },
+    {
+      "id": "glossary.deafened_condition",
+      "name": "Deafened",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.death_saving_throw",
+      "name": "Death Saving Throw",
+      "tag": null
+    },
+    {
+      "id": "glossary.dehydration_hazard",
+      "name": "Dehydration",
+      "tag": "Hazard"
+    },
+    {
+      "id": "glossary.size_water_2",
+      "name": "Size Water",
+      "tag": null
+    },
+    {
+      "id": "glossary.difficult_terrain",
+      "name": "Difficult Terrain",
+      "tag": null
+    },
+    {
+      "id": "glossary.difficulty_class",
+      "name": "Difficulty Class",
+      "tag": null
+    },
+    {
+      "id": "glossary.dim_light",
+      "name": "Dim Light",
+      "tag": null
+    },
+    {
+      "id": "glossary.disadvantage",
+      "name": "Disadvantage",
+      "tag": null
+    },
+    {
+      "id": "glossary.disengage_action",
+      "name": "Disengage",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.dodge_action",
+      "name": "Dodge",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.emanation_area_of_effect",
+      "name": "Emanation",
+      "tag": "Area of Effect"
+    },
+    {
+      "id": "glossary.encounter",
+      "name": "Encounter",
+      "tag": null
+    },
+    {
+      "id": "glossary.enemy",
+      "name": "Enemy",
+      "tag": null
+    },
+    {
+      "id": "glossary.exhaustion_condition",
+      "name": "Exhaustion",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.experience_points",
+      "name": "Experience Points",
+      "tag": null
+    },
+    {
+      "id": "glossary.expertise",
+      "name": "Expertise",
+      "tag": null
+    },
+    {
+      "id": "glossary.falling_hazard",
+      "name": "Falling",
+      "tag": "Hazard"
+    },
+    {
+      "id": "glossary.flying",
+      "name": "Flying",
+      "tag": null
+    },
+    {
+      "id": "glossary.fly_speed",
+      "name": "Fly Speed",
+      "tag": null
+    },
+    {
+      "id": "glossary.friendly_attitude",
+      "name": "Friendly",
+      "tag": "Attitude"
+    },
+    {
+      "id": "glossary.frightened_condition",
+      "name": "Frightened",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.grappled_condition",
+      "name": "Grappled",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.grappling",
+      "name": "Grappling",
+      "tag": null
+    },
+    {
+      "id": "glossary.hazard",
+      "name": "Hazard",
+      "tag": null
+    },
+    {
+      "id": "glossary.healing",
+      "name": "Healing",
+      "tag": null
+    },
+    {
+      "id": "glossary.heavily_obscured",
+      "name": "Heavily Obscured",
+      "tag": null
+    },
+    {
+      "id": "glossary.help_action",
+      "name": "Help",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.heroic_inspiration",
+      "name": "Heroic Inspiration",
+      "tag": null
+    },
+    {
+      "id": "glossary.hide_action",
+      "name": "Hide",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.high_jump",
+      "name": "High Jump",
+      "tag": null
+    },
+    {
+      "id": "glossary.hit_point_dice",
+      "name": "Hit Point Dice",
+      "tag": null
+    },
+    {
+      "id": "glossary.hit_points",
+      "name": "Hit Points",
+      "tag": null
+    },
+    {
+      "id": "glossary.hostile_attitude",
+      "name": "Hostile",
+      "tag": "Attitude"
+    },
+    {
+      "id": "glossary.hover",
+      "name": "Hover",
+      "tag": null
+    },
+    {
+      "id": "glossary.illusions",
+      "name": "Illusions",
+      "tag": null
+    },
+    {
+      "id": "glossary.immunity",
+      "name": "Immunity",
+      "tag": null
+    },
+    {
+      "id": "glossary.improvised_weapons",
+      "name": "Improvised Weapons",
+      "tag": null
+    },
+    {
+      "id": "glossary.incapacitated_condition",
+      "name": "Incapacitated",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.indifferent_attitude",
+      "name": "Indifferent",
+      "tag": "Attitude"
+    },
+    {
+      "id": "glossary.influence_action",
+      "name": "Influence",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.ability_check_interaction",
+      "name": "Ability Check Interaction",
+      "tag": null
+    },
+    {
+      "id": "glossary.initiative",
+      "name": "Initiative",
+      "tag": null
+    },
+    {
+      "id": "glossary.invisible_condition",
+      "name": "Invisible",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.jumping",
+      "name": "Jumping",
+      "tag": null
+    },
+    {
+      "id": "glossary.knocking_out_a_creature",
+      "name": "Knocking Out a Creature",
+      "tag": null
+    },
+    {
+      "id": "glossary.lightly_obscured",
+      "name": "Lightly Obscured",
+      "tag": null
+    },
+    {
+      "id": "glossary.line_area_of_effect",
+      "name": "Line",
+      "tag": "Area of Effect"
+    },
+    {
+      "id": "glossary.long_jump",
+      "name": "Long Jump",
+      "tag": null
+    },
+    {
+      "id": "glossary.long_rest",
+      "name": "Long Rest",
+      "tag": null
+    },
+    {
+      "id": "glossary.rolling_initiative",
+      "name": "Rolling Initiative",
+      "tag": null
+    },
+    {
+      "id": "glossary.magic_action",
+      "name": "Magic",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.magical_effect",
+      "name": "Magical Effect",
+      "tag": null
+    },
+    {
+      "id": "glossary.malnutrition_hazard",
+      "name": "Malnutrition",
+      "tag": "Hazard"
+    },
+    {
+      "id": "glossary.size_food",
+      "name": "Size Food",
+      "tag": null
+    },
+    {
+      "id": "glossary.monster",
+      "name": "Monster",
+      "tag": null
+    },
+    {
+      "id": "glossary.nonplayer_character",
+      "name": "Nonplayer Character",
+      "tag": null
+    },
+    {
+      "id": "glossary.object",
+      "name": "Object",
+      "tag": null
+    },
+    {
+      "id": "glossary.occupied_space",
+      "name": "Occupied Space",
+      "tag": null
+    },
+    {
+      "id": "glossary.opportunity_attacks",
+      "name": "Opportunity Attacks",
+      "tag": null
+    },
+    {
+      "id": "glossary.paralyzed_condition",
+      "name": "Paralyzed",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.passive_perception",
+      "name": "Passive Perception",
+      "tag": null
+    },
+    {
+      "id": "glossary.per_day",
+      "name": "Per Day",
+      "tag": null
+    },
+    {
+      "id": "glossary.petrified_condition",
+      "name": "Petrified",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.player_character",
+      "name": "Player Character",
+      "tag": null
+    },
+    {
+      "id": "glossary.poisoned_condition",
+      "name": "Poisoned",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.possession",
+      "name": "Possession",
+      "tag": null
+    },
+    {
+      "id": "glossary.proficiency",
+      "name": "Proficiency",
+      "tag": null
+    },
+    {
+      "id": "glossary.prone_condition",
+      "name": "Prone",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.reach",
+      "name": "Reach",
+      "tag": null
+    },
+    {
+      "id": "glossary.reaction",
+      "name": "Reaction",
+      "tag": null
+    },
+    {
+      "id": "glossary.ready_action",
+      "name": "Ready",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.resistance",
+      "name": "Resistance",
+      "tag": null
+    },
+    {
+      "id": "glossary.restrained_condition",
+      "name": "Restrained",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.ritual",
+      "name": "Ritual",
+      "tag": null
+    },
+    {
+      "id": "glossary.round_down",
+      "name": "Round Down",
+      "tag": null
+    },
+    {
+      "id": "glossary.save",
+      "name": "Save",
+      "tag": null
+    },
+    {
+      "id": "glossary.saving_throw",
+      "name": "Saving Throw",
+      "tag": null
+    },
+    {
+      "id": "glossary.search_action",
+      "name": "Search",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.skill_thing_to_detect",
+      "name": "Skill Thing to Detect",
+      "tag": null
+    },
+    {
+      "id": "glossary.shape_shifting",
+      "name": "Shape-Shifting",
+      "tag": null
+    },
+    {
+      "id": "glossary.short_rest",
+      "name": "Short Rest",
+      "tag": null
+    },
+    {
+      "id": "glossary.rolling_initiative_2",
+      "name": "Rolling Initiative",
+      "tag": null
+    },
+    {
+      "id": "glossary.simultaneous_effects",
+      "name": "Simultaneous Effects",
+      "tag": null
+    },
+    {
+      "id": "glossary.size",
+      "name": "Size",
+      "tag": null
+    },
+    {
+      "id": "glossary.skill",
+      "name": "Skill",
+      "tag": null
+    },
+    {
+      "id": "glossary.speed",
+      "name": "Speed",
+      "tag": null
+    },
+    {
+      "id": "glossary.spell",
+      "name": "Spell",
+      "tag": null
+    },
+    {
+      "id": "glossary.spell_attack",
+      "name": "Spell Attack",
+      "tag": null
+    },
+    {
+      "id": "glossary.spellcasting_focus",
+      "name": "Spellcasting Focus",
+      "tag": null
+    },
+    {
+      "id": "glossary.sphere_area_of_effect",
+      "name": "Sphere",
+      "tag": "Area of Effect"
+    },
+    {
+      "id": "glossary.stable",
+      "name": "Stable",
+      "tag": null
+    },
+    {
+      "id": "glossary.stat_block",
+      "name": "Stat Block",
+      "tag": null
+    },
+    {
+      "id": "glossary.study_action",
+      "name": "Study",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.skill_areas",
+      "name": "Skill Areas",
+      "tag": null
+    },
+    {
+      "id": "glossary.stunned_condition",
+      "name": "Stunned",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.suffocation_hazard",
+      "name": "Suffocation",
+      "tag": "Hazard"
+    },
+    {
+      "id": "glossary.surprise",
+      "name": "Surprise",
+      "tag": null
+    },
+    {
+      "id": "glossary.swimming",
+      "name": "Swimming",
+      "tag": null
+    },
+    {
+      "id": "glossary.swim_speed",
+      "name": "Swim Speed",
+      "tag": null
+    },
+    {
+      "id": "glossary.target",
+      "name": "Target",
+      "tag": null
+    },
+    {
+      "id": "glossary.telepathy",
+      "name": "Telepathy",
+      "tag": null
+    },
+    {
+      "id": "glossary.teleportation",
+      "name": "Teleportation",
+      "tag": null
+    },
+    {
+      "id": "glossary.temporary_hit_points",
+      "name": "Temporary Hit Points",
+      "tag": null
+    },
+    {
+      "id": "glossary.tremorsense",
+      "name": "Tremorsense",
+      "tag": null
+    },
+    {
+      "id": "glossary.truesight",
+      "name": "Truesight",
+      "tag": null
+    },
+    {
+      "id": "glossary.unarmed_strike",
+      "name": "Unarmed Strike",
+      "tag": null
+    },
+    {
+      "id": "glossary.unconscious_condition",
+      "name": "Unconscious",
+      "tag": "Condition"
+    },
+    {
+      "id": "glossary.unoccupied_space",
+      "name": "Unoccupied Space",
+      "tag": null
+    },
+    {
+      "id": "glossary.utilize_action",
+      "name": "Utilize",
+      "tag": "Action"
+    },
+    {
+      "id": "glossary.vulnerability",
+      "name": "Vulnerability",
+      "tag": null
+    },
+    {
+      "id": "glossary.see_2",
+      "name": "See",
+      "tag": null
+    },
+    {
+      "id": "glossary.weapon",
+      "name": "Weapon",
+      "tag": null
+    },
+    {
+      "id": "glossary.weapon_attack",
+      "name": "Weapon Attack",
+      "tag": null
+    },
+    {
+      "id": "glossary.system_reference",
+      "name": "System Reference",
+      "tag": null
+    },
+    {
+      "id": "glossary.media",
+      "name": "MEDIA",
+      "tag": null
+    },
+    {
+      "id": "glossary.app",
+      "name": "APP",
+      "tag": null
+    }
+  ],
+  "notes": []
+}

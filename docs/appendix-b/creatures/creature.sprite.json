@@ -1,0 +1,99 @@
+{
+  "id": "creature.sprite",
+  "name": "SPRITE",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Fey, Neutral Good",
+  "size": "Tiny",
+  "creature_type": "Fey",
+  "alignment": "Neutral Good",
+  "armor_class": 15,
+  "initiative": "+4",
+  "initiative_score": 14,
+  "hit_points": 10,
+  "hit_dice": "4d4",
+  "speed": "10 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4",
+      "save": "+4"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    }
+  },
+  "skills": "Perception +3, Stealth +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "Common, Elvish, Sylvan",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Needle Sword",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing damage."
+    },
+    {
+      "name": "Enchanting Bow",
+      "text": "Ranged Attack Roll: +6, range 40/160 ft. Hit: 1 Piercing damage, and the target has the Charmed condition until the start of the sprite's"
+    },
+    {
+      "name": "next turn",
+      "text": ""
+    },
+    {
+      "name": "Heart Sight",
+      "text": "Charisma Saving Throw: DC 10, one creature within 5 feet the"
+    },
+    {
+      "name": "sprite can see (Celestials, Fiends, and Undead automatically fail the save)",
+      "text": ""
+    },
+    {
+      "name": "Failure: The sprite knows the target's emotions and alignment",
+      "text": ""
+    },
+    {
+      "name": "Invisibility",
+      "text": "The sprite casts Invisibility on itself, requiring no spell components"
+    },
+    {
+      "name": "and using Charisma as the spellcasting ability",
+      "text": "SPRITE ARTIST: PATRIK HELL"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

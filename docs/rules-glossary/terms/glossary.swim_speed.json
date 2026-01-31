@@ -1,0 +1,19 @@
+{
+  "id": "glossary.swim_speed",
+  "name": "Swim Speed",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Swim Speed can be used to swim without expending the extra movement normally associated with swimming. See also \"Swimming\" and \"Speed.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      27
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

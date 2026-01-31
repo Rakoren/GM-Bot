@@ -1,0 +1,38 @@
+{
+  "id": "spell.friends",
+  "name": "Friends",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "10 feet",
+  "components": {
+    "flags": [
+      "S",
+      "M"
+    ],
+    "material": "some makeup"
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You magically emanate a sense of friendship toward one creature you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target succeeds automatically if it isn't a Humanoid, if you're fighting it, or if you have cast this spell on it within the past 24 hours. The spell ends early if the target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw. When the spell ends, the target knows it was Charmed by you. Gaseous Form",
+    "-- 62 of 163 --",
+    "Level 3 Transmutation (Sorcerer, Warlock, Wizard) Casting Time: Action Range: Touch Components: V, S, M (a bit of gauze) Duration: Concentration, up to 1 hour A willing creature you touch shape-shifts, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action to end the spell on itself. While in this form, the target's only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the Prone condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces. The target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. Finally, the target can't attack or cast spells. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 3."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      61
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spell.healing_word",
+  "name": "Healing Word",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "-- 72 of 163 --",
+    "A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier. Using a Higher-Level Spell Slot. The healing increases by 2d4 for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      71
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,323 @@
+{
+  "id": "table.creatures.list",
+  "name": "Creatures",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      24
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "columns": [
+    "id",
+    "name",
+    "cr",
+    "size_type_alignment"
+  ],
+  "entries": [
+    {
+      "id": "creature.ape",
+      "name": "APE",
+      "cr": "1/2 (XP 100; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.badger",
+      "name": "BADGER",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.bat",
+      "name": "BAT",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.black_bear",
+      "name": "BLACK BEAR",
+      "cr": "1/2 (XP 100; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.boar",
+      "name": "BOAR",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.brown_bear",
+      "name": "BROWN BEAR",
+      "cr": "1 (XP 200; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.camel",
+      "name": "CAMEL",
+      "cr": "1/8 (XP 25;PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.cat",
+      "name": "CAT",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.constrictor_snake",
+      "name": "CONSTRICTOR SNAKE",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.crab",
+      "name": "CRAB",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.crocodile",
+      "name": "CROCODILE",
+      "cr": "1/2 (XP 100; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.draft_horse",
+      "name": "DRAFT HORSE",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.elephant",
+      "name": "ELEPHANT",
+      "cr": "4 (XP 1,100; PB +2)",
+      "size_type_alignment": "Huge Beast, Unaligned"
+    },
+    {
+      "id": "creature.elk",
+      "name": "ELK",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.frog",
+      "name": "FROG",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.giant_badger",
+      "name": "GIANT BADGER",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.giant_crab",
+      "name": "GIANT CRAB",
+      "cr": "1/8 (XP 25; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.giant_goat",
+      "name": "GIANT GOAT",
+      "cr": "1/2 (XP 100; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.giant_seahorse",
+      "name": "GIANT SEAHORSE",
+      "cr": "1/2 (XP 100; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.giant_spider",
+      "name": "GIANT SPIDER",
+      "cr": "1 (XP 200; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.giant_weasel",
+      "name": "GIANT WEASEL",
+      "cr": "1/8 (XP 25; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.goat",
+      "name": "GOAT",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.hawk",
+      "name": "HAWK",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.imp",
+      "name": "IMP",
+      "cr": "1 (XP 200; PB +2)",
+      "size_type_alignment": "Tiny Fiend (Devil), Lawful Evil"
+    },
+    {
+      "id": "creature.lion",
+      "name": "LION",
+      "cr": "1 (XP 200; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.lizard",
+      "name": "LIZARD",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.mastiff",
+      "name": "MASTIFF",
+      "cr": "1/8 (XP 25; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.mule",
+      "name": "MULE",
+      "cr": "1/8 (XP 25; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.octopus",
+      "name": "OCTOPUS",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Small Beast, Unaligned"
+    },
+    {
+      "id": "creature.owl",
+      "name": "OWL",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.panther",
+      "name": "PANTHER",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.pony",
+      "name": "PONY",
+      "cr": "1/8 (XP 25; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.pseudodragon",
+      "name": "PSEUDODRAGON",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Tiny Dragon, Neutral Good"
+    },
+    {
+      "id": "creature.quasit",
+      "name": "QUASIT",
+      "cr": "1 (XP 200; PB +2)",
+      "size_type_alignment": "Tiny Fiend (Demon), Chaotic Evil"
+    },
+    {
+      "id": "creature.rat",
+      "name": "RAT",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.raven",
+      "name": "RAVEN",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.reef_shark",
+      "name": "REEF SHARK",
+      "cr": "1/2 (XP 100; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.riding_horse",
+      "name": "RIDING HORSE",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.scorpion",
+      "name": "SCORPION",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.skeleton",
+      "name": "SKELETON",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Medium Undead, Lawful Evil"
+    },
+    {
+      "id": "creature.slaad_tadpole",
+      "name": "SLAAD TADPOLE",
+      "cr": "1/8 (XP 25; PB +2)",
+      "size_type_alignment": "Tiny Aberration, Chaotic Neutral"
+    },
+    {
+      "id": "creature.sphinx_of_wonder",
+      "name": "SPHINX OF WONDER",
+      "cr": "1 (XP 200; PB +2)",
+      "size_type_alignment": "Tiny Celestial, Lawful Good"
+    },
+    {
+      "id": "creature.spider",
+      "name": "SPIDER",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.sprite",
+      "name": "SPRITE",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Tiny Fey, Neutral Good"
+    },
+    {
+      "id": "creature.tiger",
+      "name": "TIGER",
+      "cr": "1 (XP 200; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.venomous_snake",
+      "name": "VENOMOUS SNAKE",
+      "cr": "1/8 (XP 25; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.warhorse",
+      "name": "WARHORSE",
+      "cr": "1/2 (XP 100; PB +2)",
+      "size_type_alignment": "Large Beast, Unaligned"
+    },
+    {
+      "id": "creature.weasel",
+      "name": "WEASEL",
+      "cr": "0 (XP 10; PB +2)",
+      "size_type_alignment": "Tiny Beast, Unaligned"
+    },
+    {
+      "id": "creature.wolf",
+      "name": "WOLF",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Medium Beast, Unaligned"
+    },
+    {
+      "id": "creature.zombie",
+      "name": "ZOMBIE",
+      "cr": "1/4 (XP 50; PB +2)",
+      "size_type_alignment": "Medium Undead, Neutral Evil"
+    }
+  ],
+  "notes": []
+}

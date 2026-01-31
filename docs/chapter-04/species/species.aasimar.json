@@ -37,8 +37,8 @@
     },
     {
       "name": "Healing Hands",
-      "action_type": "magic",
-      "trigger": "when you take the Magic action to touch a creature",
+      "action_type": "action",
+      "trigger": "when you take the Magic action",
       "effects": [
         "roll a number of d4s equal to your proficiency bonus",
         "the creature regains hit points equal to the total"
@@ -59,7 +59,7 @@
     {
       "name": "Celestial Revelation",
       "action_type": "bonus_action",
-      "trigger": "when you reach character level 3, you can transform",
+      "trigger": "when you reach character level 3",
       "effects": [
         "choose one option each time: Heavenly Wings, Inner Radiance, or Necrotic Shroud",
         "transformation lasts 1 minute or until you end it (no action)",

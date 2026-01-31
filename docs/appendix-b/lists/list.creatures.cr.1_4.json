@@ -1,0 +1,20 @@
+{
+  "id": "list.creatures.cr.1_4",
+  "name": "Creatures (CR: 1/4)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.boar",
+    "creature.constrictor_snake",
+    "creature.draft_horse",
+    "creature.elk",
+    "creature.giant_badger",
+    "creature.panther",
+    "creature.pseudodragon",
+    "creature.riding_horse",
+    "creature.skeleton",
+    "creature.sprite",
+    "creature.wolf",
+    "creature.zombie"
+  ]
+}

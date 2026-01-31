@@ -1,0 +1,46 @@
+{
+  "id": "feat.keen_mind",
+  "name": "Keen Mind",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Intelligence 13+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Intelligence score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Lore Knowledge",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Choose one of the following skills: Arcana, History, Investigation, Nature, or Religion. If you lack proficiency in the chosen skill, you gain proficiency in it, and if you already have proficiency in it, you gain Expertise in it."
+      ]
+    },
+    {
+      "name": "Quick Study",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You can take the Study action as a Bonus Action."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      10,
+      11
+    ],
+    "section": "Keen Mind"
+  }
+}

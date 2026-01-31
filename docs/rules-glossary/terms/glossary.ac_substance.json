@@ -1,0 +1,19 @@
+{
+  "id": "glossary.ac_substance",
+  "name": "AC Substance",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "11 Cloth, paper, rope 13 Crystal, glass, ice 15 Wood 17 Stone 19 Iron, steel 21 Mithral 23 Adamantine Hit Points. An object is destroyed when it has 0 Hit Points. The Object Hit Points table suggests Hit Points for fragile and resilient objects that are Large or smaller. To track Hit Points for a Huge or Gargantuan object, divide it into Large or smaller sections, and track each section's Hit Points separately. The DM determines whether destroying part of an object causes the whole thing to collapse."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

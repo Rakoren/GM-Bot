@@ -1,0 +1,26 @@
+{
+  "id": "list.spellcasting.rules",
+  "name": "Spellcasting Rules (Core)",
+  "chapter": 7,
+  "status": "complete",
+  "items": [
+    "gaining_spells",
+    "preparing_spells",
+    "always_prepared_spells",
+    "spell_level",
+    "spell_slots",
+    "casting_without_slots",
+    "higher_level_slots",
+    "school_of_magic",
+    "class_spell_lists",
+    "casting_time",
+    "one_spell_slot_per_turn",
+    "range",
+    "components",
+    "duration",
+    "targets",
+    "saving_throws",
+    "attack_rolls",
+    "combining_spell_effects"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "spell.speak_with_plants",
+  "name": "Speak with Plants",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Transmutation",
+  "classes": [
+    "class.bard",
+    "class.druid",
+    "class.ranger"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "10 minutes",
+  "description": [
+    "You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances. You can also turn Difficult Terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration. A HUMAN DRUID USES SPEAK WITH ANIMALS TO CHAT WITH HIS BEST BEAR FRIEND",
+    "-- 127 of 163 --",
+    "The spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you. If a Plant creature is in the area, you can communicate with it as if you shared a common language."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      126
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

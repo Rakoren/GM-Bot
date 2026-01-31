@@ -1,0 +1,42 @@
+{
+  "id": "table.coin_values",
+  "name": "Coin Values",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1
+    ],
+    "section": "Coins"
+  },
+  "columns": [
+    "coin",
+    "value_in_gp"
+  ],
+  "entries": [
+    {
+      "coin": "Copper Piece (CP)",
+      "value_in_gp": "1/100"
+    },
+    {
+      "coin": "Silver Piece (SP)",
+      "value_in_gp": "1/10"
+    },
+    {
+      "coin": "Electrum Piece (EP)",
+      "value_in_gp": "1/2"
+    },
+    {
+      "coin": "Gold Piece (GP)",
+      "value_in_gp": "1"
+    },
+    {
+      "coin": "Platinum Piece (PP)",
+      "value_in_gp": "10"
+    }
+  ],
+  "notes": [
+    "50 coins weigh 1 lb."
+  ]
+}

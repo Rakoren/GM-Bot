@@ -6,7 +6,7 @@
   "title": "Warrior of Mercy",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       81,
       83
@@ -93,7 +93,7 @@
         "If the creature died with Blinded, Deafened, Paralyzed, Poisoned, or Stunned, those conditions are removed."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest."
+        "Once you use this feature, you cant use it again until you finish a long rest."
       ]
     }
   ],

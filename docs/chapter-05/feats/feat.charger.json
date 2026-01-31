@@ -1,0 +1,45 @@
+{
+  "id": "feat.charger",
+  "name": "Charger",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Strength or Dexterity 13+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Improved Dash",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you take the Dash action, your Speed increases by 10 feet for that action."
+      ]
+    },
+    {
+      "name": "Charge Attack",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "If you move at least 10 feet in a straight line toward a target immediately before hitting it with a melee attack roll as part of the Attack action, choose one of the following effects: gain a 1d8 bonus to the attack's damage roll, or push the target up to 10 feet away if it is no more than one size larger than you. You can use this benefit only once on each of your turns."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Charger"
+  }
+}

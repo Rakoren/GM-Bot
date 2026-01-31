@@ -1,0 +1,53 @@
+{
+  "id": "feat.telekinetic",
+  "name": "Telekinetic",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Minor Telekinesis",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You learn the"
+      ]
+    },
+    {
+      "name": "Mage Hand spell",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You can cast it without Verbal or Somatic components, you can make the spectral hand Invisible, and its range and the distance it can be away from you both increase by 30 feet when you cast it. The spell's spellcasting ability is the ability increased by this feat."
+      ]
+    },
+    {
+      "name": "Telekinetic Shove",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "As a Bonus Action, you can telekinetically shove one creature you can see within 30 feet of yourself. When you do so, the target must succeed on a Strength saving throw (DC 8 plus the ability modifier of the score increased by this feat and your Proficiency Bonus) or be moved 5 feet toward or away from you."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Telekinetic"
+  }
+}

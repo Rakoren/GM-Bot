@@ -4,6 +4,9 @@
   "chapter": 4,
   "status": "placeholder",
   "notes": [
-    "Defined in Chapter 5 (Feats)."
-  ]
+    "Defined in Chapter 5 (Feats).",
+    "Link to Chapter 5 feat shard when available.",
+    "Linked to Chapter 5 feat shard: feat.tough"
+  ],
+  "feat_ref": "feat.tough"
 }

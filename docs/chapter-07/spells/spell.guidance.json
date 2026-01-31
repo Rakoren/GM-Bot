@@ -1,0 +1,29 @@
+{
+  "id": "spell.guidance",
+  "name": "Guidance",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Divination",
+  "classes": [
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": null,
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.",
+    "-- 69 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      68
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

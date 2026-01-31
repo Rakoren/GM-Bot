@@ -1,0 +1,28 @@
+{
+  "id": "spell.resistance",
+  "name": "Resistance",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Abjuration",
+  "classes": [
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": null,
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      115
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

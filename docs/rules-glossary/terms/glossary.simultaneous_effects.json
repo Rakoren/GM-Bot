@@ -1,0 +1,19 @@
+{
+  "id": "glossary.simultaneous_effects",
+  "name": "Simultaneous Effects",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If two or more things happen at the same time on a turn, the person at the game table—player or DM—whose turn it is decides the order in which those things happen. For example, if two effects occur at the start of a player character's turn, the player decides which of the effects happens first."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      24
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

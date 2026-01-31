@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "appendix-a.schema.json",
+  "title": "Appendix A Shards Schema",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/sourceRef" },
+    { "$ref": "#/$defs/tableShard" },
+    { "$ref": "#/$defs/manifest" }
+  ],
+  "$defs": {
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "file": { "type": "string" },
+        "pages": { "type": "array", "items": { "type": "integer" } },
+        "section": { "type": "string" }
+      },
+      "required": ["file", "pages", "section"],
+      "additionalProperties": false
+    },
+    "tableShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^table\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "string", "const": "appendix-a" },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "columns": { "type": "array", "items": { "type": "string" } },
+        "entries": { "type": "array", "items": { "type": "object" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "sourceRef", "entries"],
+      "additionalProperties": true
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string" },
+        "chapter": { "type": "string", "const": "appendix-a" },
+        "title": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "paths": { "type": "object" },
+        "shards": { "type": "array", "items": { "type": "object" } }
+      },
+      "required": ["schema_version", "chapter", "title", "shards"],
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "spell.maze",
+  "name": "Maze",
+  "chapter": 7,
+  "status": "complete",
+  "level": 8,
+  "school": "Conjuration",
+  "classes": [
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 10 minutes",
+  "description": [
+    "You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.",
+    "-- 91 of 163 --",
+    "The target can take a Study action to try to escape. When it does so, it makes a DC 20 Intelligence (Investigation) check. If it succeeds, it escapes, and the spell ends. When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      90
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

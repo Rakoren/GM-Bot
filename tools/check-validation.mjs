@@ -102,6 +102,33 @@ const resourceIds = new Set(
     .filter((s) => s.type === "resource")
     .map((s) => s.id)
 );
+const packTablePath = path.resolve(
+  docsRoot,
+  "chapter-06",
+  "tables",
+  "table.adventuring_packs.json"
+);
+let packIds = new Set();
+if (fs.existsSync(packTablePath)) {
+  try {
+    const packTable = JSON.parse(fs.readFileSync(packTablePath, "utf8"));
+    packIds = new Set(
+      (packTable.entries ?? [])
+        .map((entry) => entry.pack_id)
+        .filter((id) => typeof id === "string" && id.length > 0)
+    );
+  } catch {
+    report.warnings.push({
+      id: "class.starting_equipment.pack_ref_resolves",
+      message: "Failed to parse chapter-06 table.adventuring_packs.json",
+    });
+  }
+} else {
+  report.warnings.push({
+    id: "class.starting_equipment.pack_ref_resolves",
+    message: "Pack table not found; skipping pack_ref validation",
+  });
+}
 
 for (const shard of classShards) {
   const doc = loadShard(shard);
@@ -159,6 +186,18 @@ for (const shard of classShards) {
         report.errors.push({
           id: "class.resources.resolve",
           message: `Resource ${resId} not found for ${shard.id}`,
+        });
+      }
+    }
+  }
+
+  if (doc.starting_equipment && Array.isArray(doc.starting_equipment.options)) {
+    for (const option of doc.starting_equipment.options) {
+      if (!option.pack_ref) continue;
+      if (!packIds.has(option.pack_ref)) {
+        report.errors.push({
+          id: "class.starting_equipment.pack_ref_resolves",
+          message: `pack_ref ${option.pack_ref} not found for ${shard.id}`,
         });
       }
     }

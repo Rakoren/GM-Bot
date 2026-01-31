@@ -9,7 +9,7 @@
     "table.sorcerer.wild_magic_surge"
   ],
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       59,
       91
@@ -44,7 +44,7 @@
       "trigger": "after you cast a sorcerer spell using a spell slot",
       "effects": [
         "Once per turn, you can roll 1d20; on a 20, roll on the Wild Magic Surge table.",
-        "If the effect is a spell, it isn’t affected by your Metamagic."
+        "If the effect is a spell, it isnt affected by your Metamagic."
       ]
     },
     {
@@ -80,10 +80,10 @@
       "action_type": "none",
       "trigger": "immediately after you cast a sorcerer spell using a spell slot",
       "effects": [
-        "You can choose an effect from the Wild Magic Surge table instead of rolling (you can’t choose the final row; if the effect requires a roll, you must make it)."
+        "You can choose an effect from the Wild Magic Surge table instead of rolling (you cant choose the final row; if the effect requires a roll, you must make it)."
       ],
       "limits": [
-        "Once you use this feature, you can’t do so again until you finish a long rest."
+        "Once you use this feature, you cant do so again until you finish a long rest."
       ]
     }
   ],

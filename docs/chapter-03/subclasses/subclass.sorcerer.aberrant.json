@@ -6,7 +6,7 @@
   "title": "Aberrant Sorcery",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       55,
       56
@@ -59,7 +59,7 @@
       "action_type": "none",
       "trigger": "when you cast a level 1+ spell from your Psionic Spells feature",
       "effects": [
-        "You can cast it by expending a spell slot as normal or by spending sorcery points equal to the spell’s level.",
+        "You can cast it by expending a spell slot as normal or by spending sorcery points equal to the spells level.",
         "If you cast it using sorcery points, it requires no verbal or somatic components, and no material components unless they are consumed or have a cost."
       ]
     },
@@ -81,7 +81,7 @@
         "For each sorcery point you spend, you gain one benefit of your choice until the alteration ends.",
         "Aquatic Adaptation: you gain a swim speed equal to twice your speed, and you can breathe underwater.",
         "Glistening Flight: you gain a fly speed equal to your speed, and you can hover.",
-        "See the Invisible: you can see any Invisible creature within 60 feet that isn’t behind total cover.",
+        "See the Invisible: you can see any Invisible creature within 60 feet that isnt behind total cover.",
         "Wormlike Movement: you can move through any space as narrow as 1 inch, and you can spend 5 feet of movement to escape from nonmagical restraints or the Grappled condition."
       ]
     },

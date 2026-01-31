@@ -1,0 +1,19 @@
+{
+  "id": "glossary.curses",
+  "name": "Curses",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Some game effects curse a creature or an object. The effect that confers a curse defines what the curse does. Curses can be removed by the"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "spell.bestow_curse",
+  "name": "Bestow Curse",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Necromancy",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice: Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability. The target has Disadvantage on attack rolls against you. In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn. If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage.",
+    "-- 12 of 163 --"
+  ],
+  "higher_level": "If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn't require Concentration, and the duration becomes 8 hours (level 5-6 slot) or 24 hours (level 7-8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

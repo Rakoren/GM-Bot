@@ -212,6 +212,11 @@
       "path": "chapter-04/tables/table.species.elven_lineages.json"
     },
     {
+      "id": "table.species.gnomish_lineages",
+      "type": "table",
+      "path": "chapter-04/tables/table.species.gnomish_lineages.json"
+    },
+    {
       "id": "table.species.fiendish_legacies",
       "type": "table",
       "path": "chapter-04/tables/table.species.fiendish_legacies.json"

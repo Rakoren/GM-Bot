@@ -1,0 +1,35 @@
+{
+  "id": "spell.goodberry",
+  "name": "Goodberry",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Conjuration",
+  "classes": [
+    "class.druid",
+    "class.ranger"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a sprig of mistletoe"
+  },
+  "duration": "24 hours",
+  "description": [
+    "Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day. Uneaten berries disappear when the spell ends."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      65
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

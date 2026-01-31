@@ -1,0 +1,36 @@
+{
+  "id": "spell.regenerate",
+  "name": "Regenerate",
+  "chapter": 7,
+  "status": "complete",
+  "level": 7,
+  "school": "Transmutation",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "1 minute",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a prayer wheel"
+  },
+  "duration": "1 hour",
+  "description": [
+    "A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      113
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

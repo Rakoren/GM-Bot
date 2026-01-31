@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "rules-glossary",
+  "title": "rules-glossary.validation.full",
+  "generated_at": "2026-01-31",
+
+  "validation_profile": "full",
+  "inputs": {
+    "manifest_path": "rules-glossary/rules-glossary.manifest.json"
+  },
+
+  "required_types": ["glossary_term", "table", "list"],
+  "optional_types": [],
+
+  "checks": [
+    {
+      "id": "manifest.shards.unique_ids",
+      "type": "integrity",
+      "severity": "error",
+      "rule": "All shards[].id must be unique across the manifest."
+    },
+    {
+      "id": "manifest.shards.paths.present",
+      "type": "filesystem",
+      "severity": "error",
+      "rule": "Every shards[].path must exist on disk."
+    },
+    {
+      "id": "glossary_term.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "glossary_term" },
+      "rule": "Glossary term shard must include: id, name, chapter, status, description, sourceRef."
+    },
+    {
+      "id": "table.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "table" },
+      "rule": "Table shard must include: id, name, chapter, status, sourceRef, entries."
+    },
+    {
+      "id": "list.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "List shard must include: id, name, chapter, status, items."
+    },
+    {
+      "id": "list.items.resolve",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "Each list item must resolve to a shard id in the manifest."
+    }
+  ],
+
+  "outputs": {
+    "report_path": "rules-glossary/validation.full.report.json",
+    "on_success": "pass",
+    "on_failure": "fail"
+  },
+
+  "notes": [
+    "Rules Glossary validation focuses on shard presence and required fields."
+  ]
+}

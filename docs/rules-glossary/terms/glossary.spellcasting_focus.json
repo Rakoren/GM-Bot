@@ -1,0 +1,19 @@
+{
+  "id": "glossary.spellcasting_focus",
+  "name": "Spellcasting Focus",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses. See also chapter 7 (\"Casting Spells\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

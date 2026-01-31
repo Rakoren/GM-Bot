@@ -1,0 +1,36 @@
+{
+  "id": "spell.aid",
+  "name": "Aid",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Abjuration",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid",
+    "class.paladin",
+    "class.ranger"
+  ],
+  "casting_time": "Action",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a strip of white cloth"
+  },
+  "duration": "8 hours",
+  "description": [
+    "Choose up to three creatures within range. Each target's Hit Point maximum and current Hit Points increase by 5 for the duration. Using a Higher-Level Spell Slot. Each target's Hit Points increase by 5 for each spell slot level above 2."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

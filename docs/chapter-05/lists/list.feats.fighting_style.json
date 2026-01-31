@@ -1,0 +1,18 @@
+{
+  "id": "list.feats.fighting_style",
+  "name": "Feats (Fighting Style)",
+  "chapter": 5,
+  "status": "complete",
+  "items": [
+    "feat.archery",
+    "feat.blind_fighting",
+    "feat.defense",
+    "feat.dueling",
+    "feat.great_weapon_fighting",
+    "feat.interception",
+    "feat.protection",
+    "feat.thrown_weapon_fighting",
+    "feat.two_weapon_fighting",
+    "feat.unarmed_fighting"
+  ]
+}

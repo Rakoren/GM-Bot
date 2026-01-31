@@ -1,0 +1,30 @@
+{
+  "id": "table.appendix_a.transitive_planes",
+  "name": "Transitive Planes",
+  "chapter": "appendix-a",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-a/11-The Multiverse - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "section": "Appendix A: The Multiverse"
+  },
+  "columns": [
+    "plane",
+    "description"
+  ],
+  "entries": [
+    {
+      "plane": "Astral Plane",
+      "description": "This endless, silvery expanse links the Material Plane and the Outer Planes. Whole civilizations have arisen in this glimmering vastness, while others navigate the magical cosmos in spelljamming vessels."
+    },
+    {
+      "plane": "Ethereal Plane",
+      "description": "This ghostly realm connects the Material Plane and the Inner Planes. The region where the Ethereal Plane overlaps with other planes is called the Border Ethereal, a place where creatures can glimpse visions of planes beyond."
+    }
+  ],
+  "notes": []
+}

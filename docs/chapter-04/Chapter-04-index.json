@@ -48,6 +48,7 @@
   "tables": [
     "table.species.draconic_ancestors",
     "table.species.elven_lineages",
+    "table.species.gnomish_lineages",
     "table.species.fiendish_legacies"
   ]
 }

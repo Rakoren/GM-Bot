@@ -1,0 +1,19 @@
+{
+  "id": "glossary.dim_light",
+  "name": "Dim Light",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "An area with Dim Light is Lightly Obscured. See also \"Lightly Obscured\" and chapter 1 (\"Exploration\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

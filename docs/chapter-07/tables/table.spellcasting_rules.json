@@ -1,0 +1,178 @@
+{
+  "id": "table.spellcasting_rules",
+  "name": "Spellcasting Rules (Core)",
+  "chapter": 7,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/09-Spells - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      5
+    ],
+    "section": "Spellcasting Rules"
+  },
+  "columns": [
+    "id",
+    "title",
+    "details"
+  ],
+  "entries": [
+    {
+      "id": "gaining_spells",
+      "title": "Gaining Spells",
+      "details": [
+        "You can cast a spell only if it is prepared or you have access to it from a magic item.",
+        "Class features determine which spells you can access, which are always prepared, and how preparation changes."
+      ]
+    },
+    {
+      "id": "preparing_spells",
+      "title": "Preparing Spells",
+      "details": [
+        "If you prepare level 1+ spells, your class feature specifies when you can change the list and how many you can change.",
+        "See the Spell Preparation by Class table for a summary."
+      ]
+    },
+    {
+      "id": "always_prepared_spells",
+      "title": "Always-Prepared Spells",
+      "details": [
+        "Spells granted as always prepared do not count against your changeable prepared list."
+      ]
+    },
+    {
+      "id": "spell_level",
+      "title": "Spell Level",
+      "details": [
+        "Spells have levels 09; cantrips are level 0.",
+        "Class rules determine when you gain access to each level."
+      ]
+    },
+    {
+      "id": "spell_slots",
+      "title": "Spell Slots",
+      "details": [
+        "Casting a level 1+ spell expends a slot of the spell's level or higher.",
+        "A spell fills a slot of equal or higher level.",
+        "Finishing a Long Rest restores expended slots."
+      ]
+    },
+    {
+      "id": "casting_without_slots",
+      "title": "Casting without Spell Slots",
+      "details": [
+        "Cantrips are cast without slots.",
+        "Rituals: spells with the Ritual tag can be cast 10 minutes longer without a slot, but must be prepared.",
+        "Special abilities can allow casting a spell without a slot (often limited use).",
+        "Magic items like Spell Scrolls can allow slotless casting per item rules."
+      ]
+    },
+    {
+      "id": "higher_level_slots",
+      "title": "Using a Higher-Level Slot",
+      "details": [
+        "A spell cast with a higher-level slot takes on the slot's level for that casting.",
+        "Some spells gain stronger effects when cast at higher levels."
+      ]
+    },
+    {
+      "id": "school_of_magic",
+      "title": "School of Magic",
+      "details": [
+        "Each spell belongs to a school; see the Schools of Magic table.",
+        "Schools have no rules unless a rule references them."
+      ]
+    },
+    {
+      "id": "class_spell_lists",
+      "title": "Class Spell Lists",
+      "details": [
+        "Class spell lists are indicated in parentheses after a spell's school.",
+        "Some features add spells to your list even if you are not that class."
+      ]
+    },
+    {
+      "id": "casting_time",
+      "title": "Casting Time",
+      "details": [
+        "Most spells use the Magic action; some use a Bonus Action, Reaction, or longer casting time.",
+        "Reaction and some Bonus Action spells are triggered as defined in the spell entry.",
+        "If casting time is 1 minute or longer, you take the Magic action each turn and maintain Concentration.",
+        "If Concentration is broken during a long casting time, the spell fails and the slot is not expended."
+      ]
+    },
+    {
+      "id": "one_spell_slot_per_turn",
+      "title": "One Spell Slot per Turn",
+      "details": [
+        "On a turn, you can expend only one spell slot to cast a spell."
+      ]
+    },
+    {
+      "id": "range",
+      "title": "Range",
+      "details": [
+        "Range specifies how far from the caster the effect can originate.",
+        "Range types include Distance, Touch, and Self.",
+        "Movable effects are not restricted by range unless specified."
+      ]
+    },
+    {
+      "id": "components",
+      "title": "Components",
+      "details": [
+        "A spell may require Verbal (V), Somatic (S), or Material (M) components.",
+        "If you cannot provide a required component, you cannot cast the spell.",
+        "Verbal components require normal speech; silence or gagging prevents them.",
+        "Somatic components require at least one free hand.",
+        "Material components are specified in parentheses; they are not consumed unless stated.",
+        "If materials are not consumed and have no cost, you can use a Component Pouch or a Spellcasting Focus (if allowed)."
+      ]
+    },
+    {
+      "id": "duration",
+      "title": "Duration",
+      "details": [
+        "Durations can be Concentration, Instantaneous, or a Time Span.",
+        "While a time-span spell is ongoing, you can dismiss it without an action if you are not Incapacitated."
+      ]
+    },
+    {
+      "id": "targets",
+      "title": "Targets",
+      "details": [
+        "Spells specify what they target and how targets are chosen.",
+        "You need a clear path; Total Cover blocks targeting.",
+        "You can target yourself unless the spell requires a different or hostile target.",
+        "Areas of effect are defined in the glossary: Cone, Cube, Cylinder, Emanation, Line, Sphere.",
+        "Targets are unaware unless the effect is perceptible.",
+        "Invalid targets cause no effect; if a slot was used, it is still expended."
+      ]
+    },
+    {
+      "id": "saving_throws",
+      "title": "Saving Throws",
+      "details": [
+        "Spells specify the ability used and the result on success or failure.",
+        "Spell save DC = 8 + your spellcasting ability modifier + your Proficiency Bonus."
+      ]
+    },
+    {
+      "id": "attack_rolls",
+      "title": "Attack Rolls",
+      "details": [
+        "Some spells require an attack roll to hit.",
+        "Spell attack modifier = your spellcasting ability modifier + your Proficiency Bonus."
+      ]
+    },
+    {
+      "id": "combining_spell_effects",
+      "title": "Combining Spell Effects",
+      "details": [
+        "Different spell effects add together while durations overlap.",
+        "The same spell does not stack; the most potent or most recent effect applies."
+      ]
+    }
+  ],
+  "notes": []
+}

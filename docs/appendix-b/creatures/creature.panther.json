@@ -1,0 +1,75 @@
+{
+  "id": "creature.panther",
+  "name": "PANTHER",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "initiative": "+3",
+  "initiative_score": 13,
+  "hit_points": 13,
+  "hit_dice": "3d8",
+  "speed": "50 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2",
+      "save": "-2"
+    }
+  },
+  "skills": "Perception +4, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage. Bonus Actions"
+    },
+    {
+      "name": "Nimble Escape",
+      "text": "The panther takes the Disengage or Hide action."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

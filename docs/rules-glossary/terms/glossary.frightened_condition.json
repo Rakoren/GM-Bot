@@ -1,0 +1,19 @@
+{
+  "id": "glossary.frightened_condition",
+  "name": "Frightened",
+  "tag": "Condition",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "While you have the Frightened condition, you experience the following effects. Ability Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight. Can't Approach. You can't willingly move closer to the source of fear."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

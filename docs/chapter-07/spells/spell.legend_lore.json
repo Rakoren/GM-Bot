@@ -1,0 +1,36 @@
+{
+  "id": "spell.legend_lore",
+  "name": "Legend Lore",
+  "chapter": 7,
+  "status": "complete",
+  "level": 5,
+  "school": "Divination",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.wizard"
+  ],
+  "casting_time": "10 minutes",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "incense worth 250+ GP, which the spell consumes, and four ivory strips worth 50+ GP each"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Name or describe a famous person, place, or object. The spell brings to your mind a brief summary of the significant lore about that famous thing, as described by the DM. The lore might consist of important details, amusing revelations, or even secret lore that has never been widely known. The more information you already know about the thing, the more precise and detailed the information you receive is. That information is accurate but might be couched in figurative language or poetry, as determined by the DM. If the famous thing you chose isn't actually famous, you hear sad musical notes played on a trombone, and the spell fails."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      81
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

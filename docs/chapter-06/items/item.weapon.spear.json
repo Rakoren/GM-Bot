@@ -1,0 +1,27 @@
+{
+  "id": "item.weapon.spear",
+  "name": "Spear",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "weapon",
+  "weapon_category": "Simple",
+  "weapon_type": "Melee",
+  "damage": "1d6",
+  "damage_type": "Piercing",
+  "properties": [
+    "Thrown (Range 20/60)",
+    "Versatile (1d8)"
+  ],
+  "mastery": "Sap",
+  "weight": "3 lb.",
+  "cost": "1 GP",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "section": "Weapons"
+  },
+  "notes": []
+}

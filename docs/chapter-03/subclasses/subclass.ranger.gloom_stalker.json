@@ -6,7 +6,7 @@
   "title": "Gloom Stalker",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       27,
       29
@@ -41,7 +41,7 @@
       "action_type": "none",
       "trigger": "at the start of your first turn of each combat",
       "effects": [
-        "Ambusher’s Leap: your speed increases by 10 feet until the end of that turn.",
+        "Ambushers Leap: your speed increases by 10 feet until the end of that turn.",
         "Dreadful Strike: when you hit with a weapon, you can deal an extra 2d6 psychic damage (once per turn).",
         "Initiative Bonus: when you roll initiative, add your Wisdom modifier to the roll."
       ],
@@ -82,7 +82,7 @@
       "effects": [
         "Your Dreadful Strike psychic damage becomes 2d8.",
         "When you use Dreadful Strike, choose one additional effect:",
-        "Sudden Strike: make another attack with the same weapon against a different creature within 5 feet of the original target and within the weapon’s range.",
+        "Sudden Strike: make another attack with the same weapon against a different creature within 5 feet of the original target and within the weapons range.",
         "Mass Fear: the target and each creature within 10 feet of it make a Wisdom save against your spell save DC or are Frightened until the start of your next turn."
       ],
       "notes": [

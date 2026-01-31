@@ -1,0 +1,19 @@
+{
+  "id": "glossary.truesight",
+  "name": "Truesight",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If you have Truesight, your vision is enhanced within a specified range. Within that range, your vision pierces through the following: Darkness. You can see in normal and magical Darkness. Invisibility. You see creatures and objects that have the Invisible condition. Visual Illusions. Visual illusions appear transparent to you, and you automatically succeed on saving throws against them. Transformations. You discern the true form of any creature or object you see that has been transformed by magic. Ethereal Plane. You see into the Ethereal Plane. See also appendix A (\"Transitive Planes\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      28
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

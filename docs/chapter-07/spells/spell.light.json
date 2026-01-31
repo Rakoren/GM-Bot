@@ -1,0 +1,38 @@
+{
+  "id": "spell.light",
+  "name": "Light",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Evocation",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "M"
+    ],
+    "material": "a firefly or phosphorescent moss"
+  },
+  "duration": "1 hour",
+  "description": [
+    "A HUMAN DRUID CASTS LESSER RESTORATION TO EASE THE SUFFERING OF A FRIEND WHO WAS POISONED IN BATTLE",
+    "-- 84 of 163 --",
+    "You touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like. Covering the object with something opaque blocks the light. The spell ends if you cast it again."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      83
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

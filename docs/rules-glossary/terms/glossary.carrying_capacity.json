@@ -1,0 +1,19 @@
+{
+  "id": "glossary.carrying_capacity",
+  "name": "Carrying Capacity",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Your size and Strength score determine the maximum weight in pounds that you can carry, as shown in the Carrying Capacity table. The table also shows the maximum weight you can drag, lift, or push. While dragging, lifting, or pushing weight in excess of the maximum weight you can carry, your Speed can be no more than 5 feet."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -10,12 +10,12 @@
     "you must use the new roll"
   ],
   "limits": [
-    "once you use this feature, you can?t use it again until you finish a long rest",
+    "once you use this feature, you cant use it again until you finish a long rest",
     "you can use it twice between long rests starting at level 13 and three times starting at level 17"
   ],
   "notes": [],
   "sourceRef": {
-    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       67
     ],

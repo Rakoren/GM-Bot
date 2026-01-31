@@ -1,0 +1,80 @@
+{
+  "id": "creature.lizard",
+  "name": "LIZARD",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 10,
+  "initiative": "+0",
+  "initiative_score": 10,
+  "hit_points": 2,
+  "hit_dice": "1d4",
+  "speed": "20 ft., Climb 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5",
+      "save": "-5"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1",
+      "save": "-1"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    }
+  },
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft.; Passive Perception 9",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The lizard can climb difficult surfaces, including along ceilings,"
+    },
+    {
+      "name": "without needing to make an ability check",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

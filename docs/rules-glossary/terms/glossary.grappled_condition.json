@@ -1,0 +1,19 @@
+{
+  "id": "glossary.grappled_condition",
+  "name": "Grappled",
+  "tag": "Condition",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "While you have the Grappled condition, you experience the following effects. Speed 0. Your Speed is 0 and can't increase. Attacks Affected. You have Disadvantage on attack rolls against any target other than the grappler. Movable. The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

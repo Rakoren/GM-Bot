@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "../../../schemas/chapter-03.schema.json",
   "id": "oath.vengeance",
   "parent_class": "class.paladin",
@@ -6,7 +6,7 @@
   "title": "Oath of Vengeance",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - PlayeraTMs Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       15,
       23
@@ -58,8 +58,8 @@
       "action_type": "reaction",
       "trigger": "when you hit a creature with an opportunity attack",
       "effects": [
-        "You can reduce the creatureâ€™s speed to 0 until the end of the current turn.",
-        "You can then move up to half your speed as part of the same reaction; this movement doesnâ€™t provoke opportunity attacks."
+        "You can reduce the creatureaTMs speed to 0 until the end of the current turn.",
+        "You can then move up to half your speed as part of the same reaction; this movement doesnaTMt provoke opportunity attacks."
       ]
     },
     {
@@ -67,7 +67,7 @@
       "action_type": "reaction",
       "trigger": "immediately after a creature under your vow of enmity hits or misses with an attack roll",
       "effects": [
-        "You can make one melee attack against that creature if itâ€™s within range."
+        "You can make one melee attack against that creature if itaTMs within range."
       ]
     },
     {
@@ -80,7 +80,7 @@
         "Attack rolls against a frightened creature from this aura have advantage."
       ],
       "limits": [
-        "Once you use this feature, you canâ€™t use it again until you finish a long rest.",
+        "Once you use this feature, you canaTMt use it again until you finish a long rest.",
         "You can restore your use of this feature by expending a level 5 spell slot (no action required)."
       ]
     }

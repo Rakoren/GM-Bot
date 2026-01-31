@@ -39,6 +39,7 @@
         "choose one lineage: Forest Gnome or Rock Gnome",
         "choose Intelligence, Wisdom, or Charisma as spellcasting ability for these spells"
       ],
+      "table_ref": "table.species.gnomish_lineages",
       "notes": [
         "Forest Gnome: know Minor Illusion cantrip; always have Speak with Animals prepared; cast it without a slot a number of times equal to proficiency bonus per long rest, or using spell slots",
         "Rock Gnome: know Mending and Prestidigitation cantrips; you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP) with one Prestidigitation effect; activate with a Bonus Action touch; keep up to three devices; each lasts 8 hours or until dismantled with a touch as a Utilize action"

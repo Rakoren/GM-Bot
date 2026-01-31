@@ -1,0 +1,75 @@
+{
+  "id": "table.tack_harness_drawn_vehicles",
+  "name": "Tack, Harness, and Drawn Vehicles",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      26
+    ],
+    "section": "Tack, Harness, and Drawn Vehicles"
+  },
+  "columns": [
+    "item",
+    "weight",
+    "cost"
+  ],
+  "entries": [
+    {
+      "item": "Carriage",
+      "weight": "600 lb.",
+      "cost": "100 GP"
+    },
+    {
+      "item": "Cart",
+      "weight": "200 lb.",
+      "cost": "15 GP"
+    },
+    {
+      "item": "Chariot",
+      "weight": "100 lb.",
+      "cost": "250 GP"
+    },
+    {
+      "item": "Feed per day",
+      "weight": "10 lb.",
+      "cost": "5 CP"
+    },
+    {
+      "item": "Saddle: Exotic",
+      "weight": "40 lb.",
+      "cost": "60 GP",
+      "group": "Saddle"
+    },
+    {
+      "item": "Saddle: Military",
+      "weight": "30 lb.",
+      "cost": "20 GP",
+      "group": "Saddle"
+    },
+    {
+      "item": "Saddle: Riding",
+      "weight": "25 lb.",
+      "cost": "10 GP",
+      "group": "Saddle"
+    },
+    {
+      "item": "Saddle: Sled",
+      "weight": "300 lb.",
+      "cost": "20 GP",
+      "group": "Saddle"
+    },
+    {
+      "item": "Stabling per day",
+      "weight": "-",
+      "cost": "5 SP"
+    },
+    {
+      "item": "Wagon",
+      "weight": "400 lb.",
+      "cost": "35 GP"
+    }
+  ],
+  "notes": []
+}

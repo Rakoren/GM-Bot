@@ -1,0 +1,54 @@
+{
+  "id": "feat.grappler",
+  "name": "Grappler",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Strength or Dexterity 13+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Strength or Dexterity score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Punch and Grab",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn."
+      ]
+    },
+    {
+      "name": "Attack Advantage",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You have Advantage on attack rolls against a creature Grappled by you."
+      ]
+    },
+    {
+      "name": "Fast Wrestler",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller. ARTIST: WAYNE ENGLAND"
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      9,
+      10
+    ],
+    "section": "Grappler"
+  }
+}

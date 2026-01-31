@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.type.aberration",
+  "name": "Creatures (Type: Aberration)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.slaad_tadpole"
+  ]
+}

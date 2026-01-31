@@ -1,0 +1,71 @@
+{
+  "id": "creature.draft_horse",
+  "name": "DRAFT HORSE",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 10,
+  "initiative": "+0",
+  "initiative_score": 10,
+  "hit_points": 15,
+  "hit_dice": "2d10 + 4",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4",
+      "save": "+4"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2",
+      "save": "-2"
+    }
+  },
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Hooves",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Bludgeoning damage."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

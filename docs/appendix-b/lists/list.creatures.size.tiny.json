@@ -1,0 +1,28 @@
+{
+  "id": "list.creatures.size.tiny",
+  "name": "Creatures (Size: Tiny)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.badger",
+    "creature.bat",
+    "creature.cat",
+    "creature.crab",
+    "creature.frog",
+    "creature.hawk",
+    "creature.imp",
+    "creature.lizard",
+    "creature.owl",
+    "creature.pseudodragon",
+    "creature.quasit",
+    "creature.rat",
+    "creature.raven",
+    "creature.scorpion",
+    "creature.slaad_tadpole",
+    "creature.sphinx_of_wonder",
+    "creature.spider",
+    "creature.sprite",
+    "creature.venomous_snake",
+    "creature.weasel"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "spell.arcane_vigor",
+  "name": "Arcane Vigor",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Abjuration",
+  "classes": [
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "Self",
+  "components": null,
+  "duration": "Instantaneous",
+  "description": [
+    "You tap into your life force to heal yourself. Roll one or two of your unexpended Hit Point Dice, and regain a number of Hit Points equal to the roll's total plus your spellcasting ability modifier. Those dice are then expended. Using a Higher-Level Spell Slot. The number of unexpended Hit Dice you can roll increases by one for each spell slot level above 2. A GOLIATH WARLOCK CALLS ON ARMOR OF AGATHYS AND ARMS OF HADAR TO BATTLE FOES FROM THE DEEP ARTIST: TUAN DUONG CHU",
+    "-- 7 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

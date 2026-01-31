@@ -1,0 +1,32 @@
+{
+  "id": "spell.compelled_duel",
+  "name": "Compelled Duel",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Enchantment",
+  "classes": [
+    "class.paladin"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You try to compel a creature into a duel. One creature that you can see within range makes a Wisdom saving throw. On a failed save, the target has Disadvantage on attack rolls against creatures other than you, and it can't willingly move to a space that is more than 30 feet away from you. The spell ends if you make an attack roll against a creature other than the target, if you cast a spell on an enemy other than the target, if an ally of yours damages the target, or if you end your turn more than 30 feet away from the target."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      22
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -83,5 +83,34 @@
     "domain.light",
     "domain.trickery",
     "domain.war"
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Chain Shirt",
+          "Shield",
+          "Mace",
+          "Holy Symbol"
+        ],
+        "pack_ref": "item.pack.priest",
+        "gp": 7
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 110
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      31,
+      43
+    ],
+    "section": "Character Classes"
+  }
 }

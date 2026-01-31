@@ -1,0 +1,29 @@
+{
+  "id": "feat.defense",
+  "name": "Defense",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Fighting Style",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Fighting Style Feature"
+  ],
+  "benefits": [
+    {
+      "name": "Benefit",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Defense"
+  }
+}

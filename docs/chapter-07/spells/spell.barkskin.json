@@ -1,0 +1,28 @@
+{
+  "id": "spell.barkskin",
+  "name": "Barkskin",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Transmutation",
+  "classes": [
+    "class.druid",
+    "class.ranger"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "Touch",
+  "components": null,
+  "duration": "1 hour",
+  "description": [
+    "You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      10
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

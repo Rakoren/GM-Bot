@@ -1,0 +1,19 @@
+{
+  "id": "glossary.friendly_attitude",
+  "name": "Friendly",
+  "tag": "Attitude",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. See also \"Influence.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

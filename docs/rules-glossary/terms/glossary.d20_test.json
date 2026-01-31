@@ -1,0 +1,19 @@
+{
+  "id": "glossary.d20_test",
+  "name": "D20 Test",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "D20 Tests encompass the three main d20 rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects D20 Tests, it affects all three of these rolls. The DM determines whether a D20 Test is warranted in a given circumstance. See also chapter 1 (\"D20 Tests\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

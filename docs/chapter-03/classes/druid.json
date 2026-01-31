@@ -91,5 +91,35 @@
     "circle.moon",
     "circle.sea",
     "circle.stars"
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Leather Armor",
+          "Shield",
+          "Sickle",
+          "Druidic Focus (Quarterstaff)",
+          "Herbalism Kit"
+        ],
+        "pack_ref": "item.pack.explorer",
+        "gp": 9
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 50
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      44,
+      61
+    ],
+    "section": "Character Classes"
+  }
 }

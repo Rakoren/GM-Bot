@@ -1,0 +1,52 @@
+{
+  "id": "table.feat.fast_crafting",
+  "name": "Fast Crafting",
+  "chapter": 5,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Fast Crafting"
+  },
+  "columns": [
+    "artisan_tools",
+    "crafted_gear"
+  ],
+  "entries": [
+    {
+      "artisan_tools": "Carpenter's Tools",
+      "crafted_gear": "Ladder, Torch"
+    },
+    {
+      "artisan_tools": "Leatherworker's Tools",
+      "crafted_gear": "Crossbow Bolt Case, Map or Scroll Case, Pouch"
+    },
+    {
+      "artisan_tools": "Mason's Tools",
+      "crafted_gear": "Block and Tackle"
+    },
+    {
+      "artisan_tools": "Potter's Tools",
+      "crafted_gear": "Jug, Lamp"
+    },
+    {
+      "artisan_tools": "Smith's Tools",
+      "crafted_gear": "Ball Bearings, Bucket, Caltrops, Grappling Hook, Iron Pot"
+    },
+    {
+      "artisan_tools": "Tinker's Tools",
+      "crafted_gear": "Bell, Shovel, Tinderbox"
+    },
+    {
+      "artisan_tools": "Weaver's Tools",
+      "crafted_gear": "Basket, Rope, Net, Tent"
+    },
+    {
+      "artisan_tools": "Woodcarver's Tools",
+      "crafted_gear": "Club, Greatclub, Quarterstaff"
+    }
+  ],
+  "notes": []
+}

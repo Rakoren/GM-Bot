@@ -1,6 +1,6 @@
 # Chapter 2: Creating a Character
 
-> **Source:** Player’s Handbook – Chapter 2 (D&D 5e 2024)
+> **Source:** Players Handbook  Chapter 2 (D&D 5e 2024)
 > **Purpose:** Defines the step-by-step process for creating, advancing, and customizing a character.
 
 ---
@@ -33,7 +33,7 @@ Characters are created in the following order:
 
 ## Step 1: Choose a Class
 
-A class defines your character’s core abilities and combat role.
+A class defines your characters core abilities and combat role.
 
 **Class Properties:**
 
@@ -48,7 +48,7 @@ Characters typically start at **Level 1** unless the DM specifies otherwise.
 
 ## Step 2: Determine Origin (Background)
 
-A background represents a character’s history and grants:
+A background represents a characters history and grants:
 
 * Skill proficiencies
 * Tool proficiency
@@ -73,7 +73,7 @@ Players may freely describe appearance regardless of species mechanics.
 
 ## Step 4: Determine Ability Scores
 
-Ability scores define a character’s physical and mental capabilities.
+Ability scores define a characters physical and mental capabilities.
 
 ### Ability Score Methods
 
@@ -89,7 +89,7 @@ Modifiers are derived from ability scores and applied to rolls.
 
 ## Step 5: Choose Alignment
 
-Alignment reflects a character’s moral and ethical outlook.
+Alignment reflects a characters moral and ethical outlook.
 
 ### Alignment Axes
 

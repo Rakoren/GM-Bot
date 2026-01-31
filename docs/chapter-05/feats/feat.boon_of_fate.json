@@ -1,0 +1,37 @@
+{
+  "id": "feat.boon_of_fate",
+  "name": "Boon of Fate",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Epic Boon",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 19+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase one ability score of your choice by 1, to a maximum of 30."
+      ]
+    },
+    {
+      "name": "Improve Fate",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Boon of Fate"
+  }
+}

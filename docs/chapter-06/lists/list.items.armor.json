@@ -1,0 +1,21 @@
+{
+  "id": "list.items.armor",
+  "name": "Armor",
+  "chapter": 6,
+  "status": "complete",
+  "items": [
+    "item.armor.padded_armor",
+    "item.armor.leather_armor",
+    "item.armor.studded_leather_armor",
+    "item.armor.hide_armor",
+    "item.armor.chain_shirt",
+    "item.armor.scale_mail",
+    "item.armor.breastplate",
+    "item.armor.half_plate_armor",
+    "item.armor.ring_mail",
+    "item.armor.chain_mail",
+    "item.armor.splint_armor",
+    "item.armor.plate_armor",
+    "item.armor.shield"
+  ]
+}

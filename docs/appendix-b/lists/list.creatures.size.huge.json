@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.size.huge",
+  "name": "Creatures (Size: Huge)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.elephant"
+  ]
+}

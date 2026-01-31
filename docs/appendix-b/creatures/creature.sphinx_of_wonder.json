@@ -1,0 +1,92 @@
+{
+  "id": "creature.sphinx_of_wonder",
+  "name": "SPHINX OF WONDER",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Celestial, Lawful Good",
+  "size": "Tiny",
+  "creature_type": "Celestial",
+  "alignment": "Lawful Good",
+  "armor_class": 13,
+  "initiative": "+3",
+  "initiative_score": 13,
+  "hit_points": 24,
+  "hit_dice": "7d4 + 7",
+  "speed": "20 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2",
+      "save": "-2"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "INT": {
+      "score": 15,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    }
+  },
+  "skills": "Arcana +4, Religion +4, Stealth +5",
+  "resistances": "Necrotic, Psychic, Radiant",
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Celestial, Common",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The sphinx has Advantage on saving throws against spells"
+    },
+    {
+      "name": "and other magical effects",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage. Reactions"
+    },
+    {
+      "name": "Burst of Ingenuity (2/Day)",
+      "text": "Trigger: The sphinx or another creature within 30"
+    },
+    {
+      "name": "feet makes an ability check or a saving throw",
+      "text": "Response: The sphinx adds 2 to"
+    },
+    {
+      "name": "the roll",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

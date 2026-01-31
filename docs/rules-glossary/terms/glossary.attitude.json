@@ -1,0 +1,19 @@
+{
+  "id": "glossary.attitude",
+  "name": "Attitude",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A monster has a starting attitude toward a player character: Friendly, Hostile, or Indifferent. See also \"Friendly,\" \"Hostile,\" \"Indifferent,\" and \"Influence.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

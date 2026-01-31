@@ -1,0 +1,19 @@
+{
+  "id": "glossary.spell",
+  "name": "Spell",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A spell is a magical effect that has the characteristics described in chapter 7."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

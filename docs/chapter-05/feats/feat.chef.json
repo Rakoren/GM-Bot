@@ -1,0 +1,53 @@
+{
+  "id": "feat.chef",
+  "name": "Chef",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Constitution or Wisdom score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Cook's Utensils",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain proficiency with Cook's Utensils if you don't already have it."
+      ]
+    },
+    {
+      "name": "Replenishing Meal",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "As part of a Short Rest, you can cook special food if you have ingredients and Cook's Utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 plus your Proficiency Bonus. At the end of the Short Rest, any creature who eats the food and spends one or more Hit Dice to regain Hit Points regains an extra 1d8 Hit Points."
+      ]
+    },
+    {
+      "name": "Bolstering Treats",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "With 1 hour of work or when you finish a Long Rest, you can cook a number of treats equal to your Proficiency Bonus if you have ingredients and Cook's Utensils on hand. These special treats last 8 hours after being made. A creature can use a Bonus Action to eat one of those treats to gain a number of Temporary Hit Points equal to your Proficiency Bonus."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Chef"
+  }
+}

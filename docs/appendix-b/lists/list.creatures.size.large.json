@@ -1,0 +1,21 @@
+{
+  "id": "list.creatures.size.large",
+  "name": "Creatures (Size: Large)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.brown_bear",
+    "creature.camel",
+    "creature.constrictor_snake",
+    "creature.crocodile",
+    "creature.draft_horse",
+    "creature.elk",
+    "creature.giant_goat",
+    "creature.giant_seahorse",
+    "creature.giant_spider",
+    "creature.lion",
+    "creature.riding_horse",
+    "creature.tiger",
+    "creature.warhorse"
+  ]
+}

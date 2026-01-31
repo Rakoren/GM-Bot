@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "../../../schemas/chapter-03.schema.json",
   "id": "college.valor",
   "parent_class": "class.bard",
@@ -6,7 +6,7 @@
   "title": "College of Valor",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - PlayeraTMs Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       30,
       31
@@ -37,7 +37,7 @@
       "trigger": "when a creature has one of your bardic inspiration dice",
       "effects": [
         "Defense: when the creature is hit by an attack roll, it can use its reaction to roll the bardic inspiration die and add the number to its AC for that attack.",
-        "Offense: immediately after the creature hits with an attack roll, it can roll the bardic inspiration die and add the number to the attackâ€™s damage."
+        "Offense: immediately after the creature hits with an attack roll, it can roll the bardic inspiration die and add the number to the attackaTMs damage."
       ]
     },
     {

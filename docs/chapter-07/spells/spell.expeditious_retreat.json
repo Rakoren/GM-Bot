@@ -1,0 +1,35 @@
+{
+  "id": "spell.expeditious_retreat",
+  "name": "Expeditious Retreat",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Transmutation",
+  "classes": [
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 10 minutes",
+  "description": [
+    "You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      50
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

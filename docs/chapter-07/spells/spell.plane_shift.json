@@ -1,0 +1,38 @@
+{
+  "id": "spell.plane_shift",
+  "name": "Plane Shift",
+  "chapter": 7,
+  "status": "complete",
+  "level": 7,
+  "school": "Conjuration",
+  "classes": [
+    "class.cleric",
+    "class.druid",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a forked, metal rod worth 250+ GP and attuned to a plane of existence"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination, as determined by the DM. Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      104
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

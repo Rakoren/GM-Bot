@@ -1,0 +1,37 @@
+{
+  "id": "spell.bless",
+  "name": "Bless",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Enchantment",
+  "classes": [
+    "class.cleric",
+    "class.paladin"
+  ],
+  "casting_time": "Action",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a Holy Symbol worth 5+ GP"
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1. Blight",
+    "-- 14 of 163 --",
+    "Level 4 Necromancy (Druid, Sorcerer, Warlock, Wizard) Casting Time: Action Range: 30 feet Components: V, S Duration: Instantaneous A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save. Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies. Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

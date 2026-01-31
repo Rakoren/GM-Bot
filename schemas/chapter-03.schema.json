@@ -70,6 +70,29 @@
 
         "resources": { "type": "array", "items": { "$ref": "#/$defs/idString" } },
 
+        "starting_equipment": {
+          "type": "object",
+          "properties": {
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "option": { "type": "string" },
+                  "items": { "type": "array", "items": { "type": "string" } },
+                  "pack_ref": { "type": "string" },
+                  "gp": { "type": "number" }
+                },
+                "required": ["option"],
+                "additionalProperties": true
+              }
+            },
+            "notes": { "type": "array", "items": { "type": "string" } }
+          },
+          "required": ["options"],
+          "additionalProperties": true
+        },
+
         "features_by_level": {
           "type": "object",
           "patternProperties": {

@@ -1,0 +1,35 @@
+{
+  "id": "spell.divine_favor",
+  "name": "Divine Favor",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Transmutation",
+  "classes": [
+    "class.paladin"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "1 minute",
+  "description": [
+    "Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit. Divine Smite A DWARF PALADIN EMPOWERS HER WEAPON WITH DIVINE SMITE, UNLEASHING HOLY WRATH ON FIENDISH MEZZOLOTHS ARTIST: BRYAN SOLA",
+    "-- 42 of 163 --",
+    "Level 1 Evocation (Paladin) Casting Time: Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike Range: Self Component: V Duration: Instantaneous The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead. Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      41
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "feat.boon_of_skill",
+  "name": "Boon of Skill",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Epic Boon",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 19+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase one ability score of your choice by 1, to a maximum of 30."
+      ]
+    },
+    {
+      "name": "All-Around Adept",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You gain proficiency in all skills."
+      ]
+    },
+    {
+      "name": "Expertise",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Choose one skill in which you lack Expertise. You gain Expertise in that skill."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Boon of Skill"
+  }
+}

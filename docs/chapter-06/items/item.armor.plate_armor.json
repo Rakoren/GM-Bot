@@ -1,0 +1,25 @@
+{
+  "id": "item.armor.plate_armor",
+  "name": "Plate Armor",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "armor",
+  "armor_category": "Heavy",
+  "armor_class": "18",
+  "strength": "Str 15",
+  "stealth": "Disadvantage",
+  "weight": "65 lb.",
+  "cost": "1,500 GP",
+  "don_time": "10 Minutes",
+  "doff_time": "5 Minutes",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6,
+      7,
+      8
+    ],
+    "section": "Armor"
+  },
+  "notes": []
+}

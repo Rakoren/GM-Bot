@@ -14,58 +14,366 @@
         "M"
       ]
     },
-    {"level": 1, "name": "Command", "school": "Enchantment", "special_flags": []},
-    {"level": 1, "name": "Compelled Duel", "school": "Enchantment", "special_flags": ["C"]},
-    {"level": 1, "name": "Cure Wounds", "school": "Abjuration", "special_flags": []},
-    {"level": 1, "name": "Detect Evil and Good", "school": "Divination", "special_flags": ["C"]},
-    {"level": 1, "name": "Detect Magic", "school": "Divination", "special_flags": ["C", "R"]},
-    {"level": 1, "name": "Detect Poison and Disease", "school": "Divination", "special_flags": ["C", "R"]},
-    {"level": 1, "name": "Divine Favor", "school": "Transmutation", "special_flags": []},
-    {"level": 1, "name": "Divine Smite", "school": "Evocation", "special_flags": []},
-    {"level": 1, "name": "Heroism", "school": "Enchantment", "special_flags": ["C"]},
-    {"level": 1, "name": "Protection from Evil and Good", "school": "Abjuration", "special_flags": ["C", "M"]},
-    {"level": 1, "name": "Purify Food and Drink", "school": "Transmutation", "special_flags": ["R"]},
-    {"level": 1, "name": "Searing Smite", "school": "Evocation", "special_flags": []},
-    {"level": 1, "name": "Shield of Faith", "school": "Abjuration", "special_flags": ["C"]},
-    {"level": 1, "name": "Thunderous Smite", "school": "Evocation", "special_flags": []},
-    {"level": 1, "name": "Wrathful Smite", "school": "Necromancy", "special_flags": []},
-
-    {"level": 2, "name": "Aid", "school": "Abjuration", "special_flags": []},
-    {"level": 2, "name": "Find Steed", "school": "Conjuration", "special_flags": []},
-    {"level": 2, "name": "Gentle Repose", "school": "Necromancy", "special_flags": ["R", "M"]},
-    {"level": 2, "name": "Lesser Restoration", "school": "Abjuration", "special_flags": []},
-    {"level": 2, "name": "Locate Object", "school": "Divination", "special_flags": ["C"]},
-    {"level": 2, "name": "Magic Weapon", "school": "Transmutation", "special_flags": []},
-    {"level": 2, "name": "Protection from Poison", "school": "Abjuration", "special_flags": []},
-    {"level": 2, "name": "Shining Smite", "school": "Transmutation", "special_flags": ["C"]},
-    {"level": 2, "name": "Warding Bond", "school": "Abjuration", "special_flags": ["M"]},
-    {"level": 2, "name": "Zone of Truth", "school": "Enchantment", "special_flags": []},
-
-    {"level": 3, "name": "Aura of Vitality", "school": "Abjuration", "special_flags": ["C"]},
-    {"level": 3, "name": "Blinding Smite", "school": "Evocation", "special_flags": []},
-    {"level": 3, "name": "Create Food and Water", "school": "Conjuration", "special_flags": []},
-    {"level": 3, "name": "Crusader’s Mantle", "school": "Transmutation", "special_flags": ["C"]},
-    {"level": 3, "name": "Daylight", "school": "Evocation", "special_flags": []},
-    {"level": 3, "name": "Dispel Magic", "school": "Abjuration", "special_flags": []},
-    {"level": 3, "name": "Elemental Weapon", "school": "Transmutation", "special_flags": ["C"]},
-    {"level": 3, "name": "Magic Circle", "school": "Abjuration", "special_flags": ["M"]},
-    {"level": 3, "name": "Remove Curse", "school": "Abjuration", "special_flags": []},
-    {"level": 3, "name": "Revivify", "school": "Necromancy", "special_flags": ["M"]},
-
-    {"level": 4, "name": "Aura of Life", "school": "Abjuration", "special_flags": ["C"]},
-    {"level": 4, "name": "Aura of Purity", "school": "Abjuration", "special_flags": ["C"]},
-    {"level": 4, "name": "Banishment", "school": "Abjuration", "special_flags": ["C"]},
-    {"level": 4, "name": "Death Ward", "school": "Abjuration", "special_flags": []},
-    {"level": 4, "name": "Locate Creature", "school": "Divination", "special_flags": ["C"]},
-    {"level": 4, "name": "Staggering Smite", "school": "Enchantment", "special_flags": []},
-    
-    {"level": 5, "name": "Banishing Smite", "school": "Conjuration", "special_flags": ["C"]},
-    {"level": 5, "name": "Circle of Power", "school": "Abjuration", "special_flags": ["C"]},
-    {"level": 5, "name": "Destructive Wave", "school": "Evocation", "special_flags": []},
-    {"level": 5, "name": "Dispel Evil and Good", "school": "Abjuration", "special_flags": ["C"]},
-    {"level": 5, "name": "Geas", "school": "Enchantment", "special_flags": []},
-    {"level": 5, "name": "Greater Restoration", "school": "Abjuration", "special_flags": ["M"]},
-    {"level": 5, "name": "Raise Dead", "school": "Necromancy", "special_flags": ["M"]},
-    {"level": 5, "name": "Summon Celestial", "school": "Conjuration", "special_flags": ["C", "M"]}
-  ]
+    {
+      "level": 1,
+      "name": "Command",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Compelled Duel",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Cure Wounds",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Detect Evil and Good",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Detect Magic",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Detect Poison and Disease",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Divine Favor",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Divine Smite",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Heroism",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Protection from Evil and Good",
+      "school": "Abjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Purify Food and Drink",
+      "school": "Transmutation",
+      "special_flags": [
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Searing Smite",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Shield of Faith",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Thunderous Smite",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Wrathful Smite",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Aid",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Find Steed",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Gentle Repose",
+      "school": "Necromancy",
+      "special_flags": [
+        "R",
+        "M"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Lesser Restoration",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Locate Object",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Magic Weapon",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Protection from Poison",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Shining Smite",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Warding Bond",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Zone of Truth",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Aura of Vitality",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Blinding Smite",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Create Food and Water",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Crusaders Mantle",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Daylight",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Dispel Magic",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Elemental Weapon",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Magic Circle",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Remove Curse",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Revivify",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Aura of Life",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Aura of Purity",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Banishment",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Death Ward",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Locate Creature",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Staggering Smite",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Banishing Smite",
+      "school": "Conjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Circle of Power",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Destructive Wave",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Dispel Evil and Good",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Geas",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Greater Restoration",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Raise Dead",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Summon Celestial",
+      "school": "Conjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      8,
+      15
+    ],
+    "section": "Character Classes"
+  }
 }

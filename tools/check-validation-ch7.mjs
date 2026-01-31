@@ -1,0 +1,201 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const validationPath = process.argv[2];
+if (!validationPath) {
+  console.error("Usage: node tools/check-validation-ch7.mjs <path-to-validation.json>");
+  process.exit(2);
+}
+
+const validationAbs = path.resolve(validationPath);
+const validationDir = path.dirname(validationAbs);
+const docsRoot = path.resolve(validationDir, "..");
+
+const validation = JSON.parse(fs.readFileSync(validationAbs, "utf8"));
+const manifestRel = validation?.inputs?.manifest_path;
+if (!manifestRel) {
+  console.error("Validation file missing inputs.manifest_path");
+  process.exit(2);
+}
+
+const resolveDocsPath = (relPath) => {
+  const candidates = [
+    path.resolve(validationDir, relPath),
+    path.resolve(docsRoot, relPath),
+    path.resolve(process.cwd(), relPath),
+  ];
+  return candidates.find((c) => fs.existsSync(c));
+};
+
+const manifestAbs = resolveDocsPath(manifestRel);
+if (!manifestAbs) {
+  console.error(`Manifest not found for path: ${manifestRel}`);
+  process.exit(2);
+}
+
+const manifest = JSON.parse(fs.readFileSync(manifestAbs, "utf8"));
+const manifestDir = path.dirname(manifestAbs);
+
+const report = {
+  validation: validation.title ?? "chapter-07.validation",
+  generated_at: new Date().toISOString(),
+  manifest_path: path.relative(process.cwd(), manifestAbs),
+  errors: [],
+  warnings: [],
+};
+
+const shardIdCounts = new Map();
+for (const shard of manifest.shards ?? []) {
+  shardIdCounts.set(shard.id, (shardIdCounts.get(shard.id) ?? 0) + 1);
+}
+
+for (const [id, count] of shardIdCounts.entries()) {
+  if (count > 1) {
+    report.errors.push({
+      id: "manifest.shards.unique_ids",
+      message: `Duplicate shard id: ${id}`,
+    });
+  }
+}
+
+const resolveShardPath = (relPath) => {
+  const candidates = [
+    path.resolve(manifestDir, relPath),
+    path.resolve(docsRoot, relPath),
+    path.resolve(process.cwd(), relPath),
+  ];
+  return candidates.find((c) => fs.existsSync(c));
+};
+
+const shardById = new Map();
+for (const shard of manifest.shards ?? []) {
+  shardById.set(shard.id, shard);
+  const shardPath = resolveShardPath(shard.path);
+  if (!shardPath) {
+    report.errors.push({
+      id: "manifest.shards.paths.present",
+      message: `Missing file for shard ${shard.id}: ${shard.path}`,
+    });
+  }
+}
+
+const loadShard = (shard) => {
+  const shardPath = resolveShardPath(shard.path);
+  if (!shardPath) return null;
+  try {
+    return JSON.parse(fs.readFileSync(shardPath, "utf8"));
+  } catch {
+    report.errors.push({
+      id: "manifest.shards.paths.present",
+      message: `Failed to parse ${shard.id}: ${shard.path}`,
+    });
+    return null;
+  }
+};
+
+const requireFields = (doc, shard, fields, ruleId) => {
+  for (const field of fields) {
+    if (!(field in doc)) {
+      report.errors.push({
+        id: ruleId,
+        message: `Missing ${field} in ${shard.id}`,
+      });
+    }
+  }
+};
+
+const hasSourceRef = (doc) =>
+  doc?.sourceRef && doc.sourceRef.file && Array.isArray(doc.sourceRef.pages);
+
+const spellcastingRulesPath = resolveShardPath(
+  "chapter-07/tables/table.spellcasting_rules.json"
+);
+let spellcastingRuleIds = new Set();
+if (spellcastingRulesPath) {
+  try {
+    const rulesDoc = JSON.parse(fs.readFileSync(spellcastingRulesPath, "utf8"));
+    spellcastingRuleIds = new Set(
+      (rulesDoc.entries ?? [])
+        .map((entry) => entry.id)
+        .filter((id) => typeof id === "string" && id.length > 0)
+    );
+  } catch {
+    report.errors.push({
+      id: "list.spellcasting.rules.resolve",
+      message: "Failed to parse table.spellcasting_rules.json",
+    });
+  }
+} else {
+  report.errors.push({
+    id: "list.spellcasting.rules.resolve",
+    message: "Missing table.spellcasting_rules.json for validation",
+  });
+}
+
+for (const shard of manifest.shards ?? []) {
+  const doc = loadShard(shard);
+  if (!doc) continue;
+
+  if (shard.type === "spell") {
+    requireFields(
+      doc,
+      shard,
+      ["id", "name", "chapter", "status", "level", "school", "casting_time", "range", "components", "duration", "description"],
+      "spell.core_fields"
+    );
+    if (doc.status === "complete" && !hasSourceRef(doc)) {
+      report.errors.push({
+        id: "spell.sourceRef.required",
+        message: `Complete spell missing sourceRef in ${shard.id}`,
+      });
+    }
+  }
+
+  if (shard.type === "table") {
+    requireFields(
+      doc,
+      shard,
+      ["id", "name", "chapter", "status", "sourceRef", "entries"],
+      "table.core_fields"
+    );
+    if (!hasSourceRef(doc)) {
+      report.errors.push({
+        id: "table.sourceRef.required",
+        message: `Missing or invalid sourceRef in ${shard.id}`,
+      });
+    }
+  }
+
+  if (shard.type === "list") {
+    requireFields(doc, shard, ["id", "name", "chapter", "status", "items"], "list.core_fields");
+    if (Array.isArray(doc.items)) {
+      if (doc.id === "list.spellcasting.rules") {
+        for (const itemId of doc.items) {
+          if (!spellcastingRuleIds.has(itemId)) {
+            report.errors.push({
+              id: "list.spellcasting.rules.resolve",
+              message: `Rule id ${itemId} not found in table.spellcasting_rules (list.spellcasting.rules)`,
+            });
+          }
+        }
+        continue;
+      }
+      for (const itemId of doc.items) {
+        if (!shardById.has(itemId)) {
+          report.errors.push({
+            id: "list.items.resolve",
+            message: `List item ${itemId} not found in manifest (${shard.id})`,
+          });
+        }
+      }
+    }
+  }
+}
+
+if (report.errors.length > 0) {
+  console.error(`Validation failed with ${report.errors.length} error(s).`);
+  for (const err of report.errors) console.error(` * ${err.message}`);
+  process.exit(1);
+}
+
+console.log("Validation OK (0 warning(s))");

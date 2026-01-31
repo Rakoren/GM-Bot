@@ -6,7 +6,7 @@
   "title": "Circle of the Land",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - PlayeraTMs Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       56,
       58
@@ -91,7 +91,7 @@
       "trigger": "as a magic action",
       "effects": [
         "You expend one use of Wild Shape to create a 15-foot cube on the ground within 120 feet for 1 minute.",
-        "You and your allies in the cube gain half cover and your Nature’s Ward resistance.",
+        "You and your allies in the cube gain half cover and your Natures Ward resistance.",
         "As a bonus action, you can move the cube up to 60 feet."
       ],
       "limits": [

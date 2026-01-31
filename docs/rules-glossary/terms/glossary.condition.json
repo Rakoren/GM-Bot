@@ -1,0 +1,19 @@
+{
+  "id": "glossary.condition",
+  "name": "Condition",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A condition is a temporary game state. The definition of a condition says how it affects its recipient, and various rules define how to end a condition. This glossary defines these conditions:"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

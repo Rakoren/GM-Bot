@@ -6,7 +6,7 @@
   "title": "War Domain",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - PlayeraTMs Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       44,
       45
@@ -67,7 +67,7 @@
       "action_type": "none",
       "trigger": "when you cast Shield of Faith or Spiritual Weapon using Channel Divinity",
       "effects": [
-        "You can cast Shield of Faith or Spiritual Weapon without expending a spell slot; it doesn’t require concentration and lasts 1 minute."
+        "You can cast Shield of Faith or Spiritual Weapon without expending a spell slot; it doesnt require concentration and lasts 1 minute."
       ],
       "limits": [
         "Ends early if you cast the spell again, are Incapacitated, or die."

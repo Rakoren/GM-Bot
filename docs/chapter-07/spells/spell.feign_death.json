@@ -1,0 +1,38 @@
+{
+  "id": "spell.feign_death",
+  "name": "Feign Death",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Necromancy",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid",
+    "class.wizard"
+  ],
+  "casting_time": "Action or Ritual",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a pinch of graveyard dirt"
+  },
+  "duration": "1 hour",
+  "description": [
+    "-- 53 of 163 --",
+    "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death. For the duration, the target appears dead to outward inspection and to spells used to determine the target's status. The target has the Blinded and Incapacitated conditions, and its Speed is 0. The target also has Resistance to all damage except Psychic damage, and it has Immunity to the Poisoned condition."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

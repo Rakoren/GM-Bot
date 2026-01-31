@@ -1,0 +1,19 @@
+{
+  "id": "glossary.incapacitated_condition",
+  "name": "Incapacitated",
+  "tag": "Condition",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "While you have the Incapacitated condition, you experience the following effects. Inactive. You can't take any action, Bonus Action, or Reaction. No Concentration. Your Concentration is broken. Speechless. You can't speak. Surprised. If you're Incapacitated when you roll Initiative, you have Disadvantage on the roll."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.cr.4",
+  "name": "Creatures (CR: 4)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.elephant"
+  ]
+}

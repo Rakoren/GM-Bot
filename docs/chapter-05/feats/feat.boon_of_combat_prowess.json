@@ -1,0 +1,37 @@
+{
+  "id": "feat.boon_of_combat_prowess",
+  "name": "Boon of Combat Prowess",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Epic Boon",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 19+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase one ability score of your choice by 1, to a maximum of 30."
+      ]
+    },
+    {
+      "name": "Peerless Aim",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      12
+    ],
+    "section": "Boon of Combat Prowess"
+  }
+}

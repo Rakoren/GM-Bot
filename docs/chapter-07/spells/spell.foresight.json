@@ -1,0 +1,38 @@
+{
+  "id": "spell.foresight",
+  "name": "Foresight",
+  "chapter": 7,
+  "status": "complete",
+  "level": 9,
+  "school": "Divination",
+  "classes": [
+    "class.bard",
+    "class.druid",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "1 minute",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a hummingbird feather"
+  },
+  "duration": "8 hours",
+  "description": [
+    "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.",
+    "-- 61 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      60
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

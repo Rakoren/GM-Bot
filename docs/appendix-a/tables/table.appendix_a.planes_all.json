@@ -1,0 +1,93 @@
+{
+  "id": "table.appendix_a.planes_all",
+  "name": "Planes (All)",
+  "chapter": "appendix-a",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-a/11-The Multiverse - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "section": "Appendix A: The Multiverse"
+  },
+  "columns": [
+    "plane",
+    "category",
+    "description"
+  ],
+  "entries": [
+    {
+      "plane": "Material Plane",
+      "category": "Material",
+      "description": "Most D&D adventures take place on the Material Plane, which holds the worlds of settings like Dragonlance, Eberron, the Forgotten Realms, and Greyhawk. There's also room for any world your group creates. Magic and physical laws shape this plane's diverse worlds."
+    },
+    {
+      "plane": "Feywild",
+      "category": "Material",
+      "description": "This vibrant, idealized realm brims with life and emotion, which are most intense in the realm's Domains of Delight."
+    },
+    {
+      "plane": "Shadowfell",
+      "category": "Material",
+      "description": "This gloom-haunted realm holds grim wastelands, haunted ruins, and the infamous Domains of Dread."
+    },
+    {
+      "plane": "Astral Plane",
+      "category": "Transitive",
+      "description": "This endless, silvery expanse links the Material Plane and the Outer Planes. Whole civilizations have arisen in this glimmering vastness, while others navigate the magical cosmos in spelljamming vessels."
+    },
+    {
+      "plane": "Ethereal Plane",
+      "category": "Transitive",
+      "description": "This ghostly realm connects the Material Plane and the Inner Planes. The region where the Ethereal Plane overlaps with other planes is called the Border Ethereal, a place where creatures can glimpse visions of planes beyond."
+    },
+    {
+      "plane": "Elemental Plane of Air",
+      "category": "Inner",
+      "description": "Winds blow clouds and floating islands across this boundless sky."
+    },
+    {
+      "plane": "Elemental Plane of Earth",
+      "category": "Inner",
+      "description": "This maze of caverns winds through stone and untold mineral riches."
+    },
+    {
+      "plane": "Elemental Plane of Fire",
+      "category": "Inner",
+      "description": "An everlasting inferno, this realm blazes with life on volcanic islands."
+    },
+    {
+      "plane": "Elemental Plane of Water",
+      "category": "Inner",
+      "description": "This bottomless ocean churns with mysterious sea life."
+    },
+    {
+      "plane": "Elemental Chaos",
+      "category": "Inner",
+      "description": "Here on the fringes of the Inner Planes, elemental forces clash unpredictably."
+    },
+    {
+      "plane": "Para-Elemental Planes",
+      "category": "Inner",
+      "description": "In these borderlands between the Elemental Planes, elemental forces combine into realms of ash, ice, magma, and ooze."
+    },
+    {
+      "plane": "Sigil",
+      "category": "Outer",
+      "description": "Sigil, the City of Doors, is a metropolis rather than a plane at the center of the Outer Planes. Here portals lead throughout the multiverse, and the enigmatic Lady of Pain maintains order."
+    },
+    {
+      "plane": "Outlands",
+      "category": "Outer",
+      "description": "Influences from the other Outer Planes converge in the Outlands, where portals lead to those planes. At the Outlands' center rises the Spire, a pillar atop which floats Sigil."
+    },
+    {
+      "plane": "Other Outer Planes",
+      "category": "Outer",
+      "description": "These planes are listed on the Outer Planes table. Some are paradises, some are nightmare realms, and some are more bizarre. Each is dominated by forces that embody one or more of the alignments described in chapter 2."
+    }
+  ],
+  "notes": []
+}

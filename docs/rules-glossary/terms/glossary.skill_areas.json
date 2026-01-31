@@ -1,0 +1,19 @@
+{
+  "id": "glossary.skill_areas",
+  "name": "Skill Areas",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Arcana Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities) History Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids) Investigation Traps, ciphers, riddles, and gadgetry Nature Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants) Religion Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      26
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.attunement",
+  "name": "Attunement",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. A creature can have Attunement with no more than three magic items at a time. See also chapter 6 (\"Magic Items\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

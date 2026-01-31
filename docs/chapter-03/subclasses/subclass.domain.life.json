@@ -6,7 +6,7 @@
   "title": "Life Domain",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       41,
       42
@@ -37,7 +37,7 @@
       "action_type": "none",
       "trigger": "when you cast a spell with a spell slot that restores hit points",
       "effects": [
-        "The creature regains additional hit points equal to 2 + the spell slot’s level."
+        "The creature regains additional hit points equal to 2 + the spell slots level."
       ]
     },
     {
@@ -65,7 +65,7 @@
       "action_type": "none",
       "trigger": "immediately after you cast a spell with a spell slot that restores hit points to one or more creatures other than yourself",
       "effects": [
-        "You regain hit points equal to 2 + the spell slot’s level."
+        "You regain hit points equal to 2 + the spell slots level."
       ]
     },
     {

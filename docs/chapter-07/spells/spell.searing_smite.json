@@ -1,0 +1,27 @@
+{
+  "id": "spell.searing_smite",
+  "name": "Searing Smite",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+    "class.paladin"
+  ],
+  "casting_time": "Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
+  "range": "Self",
+  "components": null,
+  "duration": "1 minute",
+  "description": [
+    "As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends. Using a Higher-Level Spell Slot. All the damage increases by 1d6 for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      118
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

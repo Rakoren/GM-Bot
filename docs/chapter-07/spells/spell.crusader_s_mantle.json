@@ -1,0 +1,32 @@
+{
+  "id": "spell.crusader_s_mantle",
+  "name": "Crusader's Mantle",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Evocation",
+  "classes": [
+    "class.paladin"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You radiate a magical aura in a 30-foot Emanation. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an Unarmed Strike."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      33
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,4037 @@
+{
+  "id": "table.spells.list",
+  "name": "Spells",
+  "chapter": 7,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Spell Descriptions"
+  },
+  "columns": [
+    "id",
+    "name",
+    "level",
+    "school",
+    "classes"
+  ],
+  "entries": [
+    {
+      "id": "spell.acid_splash",
+      "name": "Acid Splash",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.aid",
+      "name": "Aid",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.alarm",
+      "name": "Alarm",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.ranger",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.alter_self",
+      "name": "Alter Self",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.animal_friendship",
+      "name": "Animal Friendship",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.animal_messenger",
+      "name": "Animal Messenger",
+      "level": 2,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.animal_shapes",
+      "name": "Animal Shapes",
+      "level": 8,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.animate_dead",
+      "name": "Animate Dead",
+      "level": 3,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.animate_objects",
+      "name": "Animate Objects",
+      "level": 5,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.antilife_shell",
+      "name": "Antilife Shell",
+      "level": 5,
+      "school": "Abjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.antimagic_field",
+      "name": "Antimagic Field",
+      "level": 8,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.antipathy_sympathy",
+      "name": "Antipathy/Sympathy",
+      "level": 8,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.arcane_eye",
+      "name": "Arcane Eye",
+      "level": 4,
+      "school": "Divination",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.arcane_gate",
+      "name": "Arcane Gate",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.arcane_lock",
+      "name": "Arcane Lock",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.arcane_vigor",
+      "name": "Arcane Vigor",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.armor_of_agathys",
+      "name": "Armor of Agathys",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.arms_of_hadar",
+      "name": "Arms of Hadar",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.astral_projection",
+      "name": "Astral Projection",
+      "level": 9,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.augury",
+      "name": "Augury",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.aura_of_life",
+      "name": "Aura of Life",
+      "level": 4,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.aura_of_purity",
+      "name": "Aura of Purity",
+      "level": 4,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.aura_of_vitality",
+      "name": "Aura of Vitality",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.awaken",
+      "name": "Awaken",
+      "level": 5,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.bane",
+      "name": "Bane",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.banishing_smite",
+      "name": "Banishing Smite",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.banishment",
+      "name": "Banishment",
+      "level": 4,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.barkskin",
+      "name": "Barkskin",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.beacon_of_hope",
+      "name": "Beacon of Hope",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.beast_sense",
+      "name": "Beast Sense",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.befuddlement",
+      "name": "Befuddlement",
+      "level": 8,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.bestow_curse",
+      "name": "Bestow Curse",
+      "level": 3,
+      "school": "Necromancy",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.bigby_s_hand",
+      "name": "Bigby's Hand",
+      "level": 5,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.blade_barrier",
+      "name": "Blade Barrier",
+      "level": 6,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.blade_ward",
+      "name": "Blade Ward",
+      "level": 0,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.bless",
+      "name": "Bless",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.blinding_smite",
+      "name": "Blinding Smite",
+      "level": 3,
+      "school": "Evocation",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.blindness_deafness",
+      "name": "Blindness/Deafness",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.blink",
+      "name": "Blink",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.blur",
+      "name": "Blur",
+      "level": 2,
+      "school": "Illusion",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.burning_hands",
+      "name": "Burning Hands",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.call_lightning",
+      "name": "Call Lightning",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.calm_emotions",
+      "name": "Calm Emotions",
+      "level": 2,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.chain_lightning",
+      "name": "Chain Lightning",
+      "level": 6,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.charm_monster",
+      "name": "Charm Monster",
+      "level": 4,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.charm_person",
+      "name": "Charm Person",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.chill_touch",
+      "name": "Chill Touch",
+      "level": 0,
+      "school": "Necromancy",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.chromatic_orb",
+      "name": "Chromatic Orb",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.circle_of_death",
+      "name": "Circle of Death",
+      "level": 6,
+      "school": "Necromancy",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.circle_of_power",
+      "name": "Circle of Power",
+      "level": 5,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.clairvoyance",
+      "name": "Clairvoyance",
+      "level": 3,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.clone",
+      "name": "Clone",
+      "level": 8,
+      "school": "Necromancy",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.cloudkill",
+      "name": "Cloudkill",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.cloud_of_daggers",
+      "name": "Cloud of Daggers",
+      "level": 2,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.color_spray",
+      "name": "Color Spray",
+      "level": 1,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.commune",
+      "name": "Commune",
+      "level": 5,
+      "school": "Divination",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.commune_with_nature",
+      "name": "Commune with Nature",
+      "level": 5,
+      "school": "Divination",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.compelled_duel",
+      "name": "Compelled Duel",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.comprehend_languages",
+      "name": "Comprehend Languages",
+      "level": 1,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.compulsion",
+      "name": "Compulsion",
+      "level": 4,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard"
+      ]
+    },
+    {
+      "id": "spell.cone_of_cold",
+      "name": "Cone of Cold",
+      "level": 5,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.confusion",
+      "name": "Confusion",
+      "level": 4,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.conjure_animals",
+      "name": "Conjure Animals",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.conjure_barrage",
+      "name": "Conjure Barrage",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.conjure_celestial",
+      "name": "Conjure Celestial",
+      "level": 7,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.conjure_elemental",
+      "name": "Conjure Elemental",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.conjure_fey",
+      "name": "Conjure Fey",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.conjure_minor_elementals",
+      "name": "Conjure Minor Elementals",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.conjure_volley",
+      "name": "Conjure Volley",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.conjure_woodland_beings",
+      "name": "Conjure Woodland Beings",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.contact_other_plane",
+      "name": "Contact Other Plane",
+      "level": 5,
+      "school": "Divination",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.contagion",
+      "name": "Contagion",
+      "level": 5,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.contingency",
+      "name": "Contingency",
+      "level": 6,
+      "school": "Abjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.continual_flame",
+      "name": "Continual Flame",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.control_water",
+      "name": "Control Water",
+      "level": 4,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.control_weather",
+      "name": "Control Weather",
+      "level": 8,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.cordon_of_arrows",
+      "name": "Cordon of Arrows",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.create_food_and_water",
+      "name": "Create Food and Water",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.create_or_destroy_water",
+      "name": "Create or Destroy Water",
+      "level": 1,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.create_undead",
+      "name": "Create Undead",
+      "level": 6,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.creation",
+      "name": "Creation",
+      "level": 5,
+      "school": "Illusion",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.crown_of_madness",
+      "name": "Crown of Madness",
+      "level": 2,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.crusader_s_mantle",
+      "name": "Crusader's Mantle",
+      "level": 3,
+      "school": "Evocation",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.cure_wounds",
+      "name": "Cure Wounds",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.dancing_lights",
+      "name": "Dancing Lights",
+      "level": 0,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.darkness",
+      "name": "Darkness",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.darkvision",
+      "name": "Darkvision",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.daylight",
+      "name": "Daylight",
+      "level": 3,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger",
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.death_ward",
+      "name": "Death Ward",
+      "level": 4,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.delayed_blast_fireball",
+      "name": "Delayed Blast Fireball",
+      "level": 7,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.demiplane",
+      "name": "Demiplane",
+      "level": 8,
+      "school": "Conjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.destructive_wave",
+      "name": "Destructive Wave",
+      "level": 5,
+      "school": "Evocation",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.detect_evil_and_good",
+      "name": "Detect Evil and Good",
+      "level": 1,
+      "school": "Divination",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.detect_magic",
+      "name": "Detect Magic",
+      "level": 1,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.detect_poison_and_disease",
+      "name": "Detect Poison and Disease",
+      "level": 1,
+      "school": "Divination",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.detect_thoughts",
+      "name": "Detect Thoughts",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.dimension_door",
+      "name": "Dimension Door",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.disguise_self",
+      "name": "Disguise Self",
+      "level": 1,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.disintegrate",
+      "name": "Disintegrate",
+      "level": 6,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.dispel_evil_and_good",
+      "name": "Dispel Evil and Good",
+      "level": 5,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.dispel_magic",
+      "name": "Dispel Magic",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.dissonant_whispers",
+      "name": "Dissonant Whispers",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard"
+      ]
+    },
+    {
+      "id": "spell.divination",
+      "name": "Divination",
+      "level": 4,
+      "school": "Divination",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.divine_favor",
+      "name": "Divine Favor",
+      "level": 1,
+      "school": "Transmutation",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.divine_word",
+      "name": "Divine Word",
+      "level": 7,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.dominate_beast",
+      "name": "Dominate Beast",
+      "level": 4,
+      "school": "Enchantment",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.dominate_monster",
+      "name": "Dominate Monster",
+      "level": 8,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.dominate_person",
+      "name": "Dominate Person",
+      "level": 5,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.dragon_s_breath",
+      "name": "Dragon's Breath",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.drawmij_s_instant_summons",
+      "name": "Drawmij's Instant Summons",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.dream",
+      "name": "Dream",
+      "level": 5,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.earthquake",
+      "name": "Earthquake",
+      "level": 8,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.eldritch_blast",
+      "name": "Eldritch Blast",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.elementalism",
+      "name": "Elementalism",
+      "level": 0,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.elemental_weapon",
+      "name": "Elemental Weapon",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.enhance_ability",
+      "name": "Enhance Ability",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.enlarge_reduce",
+      "name": "Enlarge/Reduce",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.ensnaring_strike",
+      "name": "Ensnaring Strike",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.entangle",
+      "name": "Entangle",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.enthrall",
+      "name": "Enthrall",
+      "level": 2,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.etherealness",
+      "name": "Etherealness",
+      "level": 7,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.evard_s_black_tentacles",
+      "name": "Evard's Black Tentacles",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.expeditious_retreat",
+      "name": "Expeditious Retreat",
+      "level": 1,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.eyebite",
+      "name": "Eyebite",
+      "level": 6,
+      "school": "Necromancy",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fabricate",
+      "name": "Fabricate",
+      "level": 4,
+      "school": "Transmutation",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.faerie_fire",
+      "name": "Faerie Fire",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.false_life",
+      "name": "False Life",
+      "level": 1,
+      "school": "Necromancy",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fear",
+      "name": "Fear",
+      "level": 3,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.feather_fall",
+      "name": "Feather Fall",
+      "level": 1,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.feign_death",
+      "name": "Feign Death",
+      "level": 3,
+      "school": "Necromancy",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.find_familiar",
+      "name": "Find Familiar",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.find_steed",
+      "name": "Find Steed",
+      "level": 2,
+      "school": "Conjuration",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.find_the_path",
+      "name": "Find the Path",
+      "level": 6,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.find_traps",
+      "name": "Find Traps",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.finger_of_death",
+      "name": "Finger of Death",
+      "level": 7,
+      "school": "Necromancy",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fireball",
+      "name": "Fireball",
+      "level": 3,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fire_bolt",
+      "name": "Fire Bolt",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fire_shield",
+      "name": "Fire Shield",
+      "level": 4,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fire_storm",
+      "name": "Fire Storm",
+      "level": 7,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.flame_blade",
+      "name": "Flame Blade",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.flame_strike",
+      "name": "Flame Strike",
+      "level": 5,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.flaming_sphere",
+      "name": "Flaming Sphere",
+      "level": 2,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.flesh_to_stone",
+      "name": "Flesh to Stone",
+      "level": 6,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fly",
+      "name": "Fly",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fog_cloud",
+      "name": "Fog Cloud",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.forbiddance",
+      "name": "Forbiddance",
+      "level": 6,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.forcecage",
+      "name": "Forcecage",
+      "level": 7,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.foresight",
+      "name": "Foresight",
+      "level": 9,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.fount_of_moonlight",
+      "name": "Fount of Moonlight",
+      "level": 4,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.freedom_of_movement",
+      "name": "Freedom of Movement",
+      "level": 4,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.friends",
+      "name": "Friends",
+      "level": 0,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.gate",
+      "name": "Gate",
+      "level": 9,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.geas",
+      "name": "Geas",
+      "level": 5,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.gentle_repose",
+      "name": "Gentle Repose",
+      "level": 2,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.paladin",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.giant_insect",
+      "name": "Giant Insect",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.glibness",
+      "name": "Glibness",
+      "level": 8,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.globe_of_invulnerability",
+      "name": "Globe of Invulnerability",
+      "level": 6,
+      "school": "Abjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.glyph_of_warding",
+      "name": "Glyph of Warding",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.goodberry",
+      "name": "Goodberry",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.grasping_vine",
+      "name": "Grasping Vine",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.grease",
+      "name": "Grease",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.greater_invisibility",
+      "name": "Greater Invisibility",
+      "level": 4,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.greater_restoration",
+      "name": "Greater Restoration",
+      "level": 5,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.guardian_of_faith",
+      "name": "Guardian of Faith",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.guards_and_wards",
+      "name": "Guards and Wards",
+      "level": 6,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.guidance",
+      "name": "Guidance",
+      "level": 0,
+      "school": "Divination",
+      "classes": [
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.guiding_bolt",
+      "name": "Guiding Bolt",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.gust_of_wind",
+      "name": "Gust of Wind",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.hail_of_thorns",
+      "name": "Hail of Thorns",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.hallow",
+      "name": "Hallow",
+      "level": 5,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.hallucinatory_terrain",
+      "name": "Hallucinatory Terrain",
+      "level": 4,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.haste",
+      "name": "Haste",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.heal",
+      "name": "Heal",
+      "level": 6,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.healing_word",
+      "name": "Healing Word",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.heat_metal",
+      "name": "Heat Metal",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.hellish_rebuke",
+      "name": "Hellish Rebuke",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.heroes_feast",
+      "name": "Heroes' Feast",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.heroism",
+      "name": "Heroism",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.hex",
+      "name": "Hex",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.hold_monster",
+      "name": "Hold Monster",
+      "level": 5,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.hold_person",
+      "name": "Hold Person",
+      "level": 2,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.holy_aura",
+      "name": "Holy Aura",
+      "level": 8,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.hunger_of_hadar",
+      "name": "Hunger of Hadar",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.hunter_s_mark",
+      "name": "Hunter's Mark",
+      "level": 1,
+      "school": "Divination",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.hypnotic_pattern",
+      "name": "Hypnotic Pattern",
+      "level": 3,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.ice_knife",
+      "name": "Ice Knife",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.ice_storm",
+      "name": "Ice Storm",
+      "level": 4,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.identify",
+      "name": "Identify",
+      "level": 1,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.illusory_script",
+      "name": "Illusory Script",
+      "level": 1,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.imprisonment",
+      "name": "Imprisonment",
+      "level": 9,
+      "school": "Abjuration",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.incendiary_cloud",
+      "name": "Incendiary Cloud",
+      "level": 8,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.inflict_wounds",
+      "name": "Inflict Wounds",
+      "level": 1,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.insect_plague",
+      "name": "Insect Plague",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.invisibility",
+      "name": "Invisibility",
+      "level": 2,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.jallarzi_s_storm_of_radiance",
+      "name": "Jallarzi's Storm of Radiance",
+      "level": 5,
+      "school": "Evocation",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.jump",
+      "name": "Jump",
+      "level": 1,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.knock",
+      "name": "Knock",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.legend_lore",
+      "name": "Legend Lore",
+      "level": 5,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.leomund_s_secret_chest",
+      "name": "Leomund's Secret Chest",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.leomund_s_tiny_hut",
+      "name": "Leomund's Tiny Hut",
+      "level": 3,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.lesser_restoration",
+      "name": "Lesser Restoration",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.levitate",
+      "name": "Levitate",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.light",
+      "name": "Light",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.lightning_arrow",
+      "name": "Lightning Arrow",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.lightning_bolt",
+      "name": "Lightning Bolt",
+      "level": 3,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.locate_animals_or_plants",
+      "name": "Locate Animals or Plants",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.locate_creature",
+      "name": "Locate Creature",
+      "level": 4,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.locate_object",
+      "name": "Locate Object",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.longstrider",
+      "name": "Longstrider",
+      "level": 1,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.ranger",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mage_armor",
+      "name": "Mage Armor",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mage_hand",
+      "name": "Mage Hand",
+      "level": 0,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.magic_circle",
+      "name": "Magic Circle",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.magic_jar",
+      "name": "Magic Jar",
+      "level": 6,
+      "school": "Necromancy",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.magic_missile",
+      "name": "Magic Missile",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.magic_mouth",
+      "name": "Magic Mouth",
+      "level": 2,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.magic_weapon",
+      "name": "Magic Weapon",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.paladin",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.major_image",
+      "name": "Major Image",
+      "level": 3,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mass_cure_wounds",
+      "name": "Mass Cure Wounds",
+      "level": 5,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.mass_heal",
+      "name": "Mass Heal",
+      "level": 9,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.mass_healing_word",
+      "name": "Mass Healing Word",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.mass_suggestion",
+      "name": "Mass Suggestion",
+      "level": 6,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.maze",
+      "name": "Maze",
+      "level": 8,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.meld_into_stone",
+      "name": "Meld into Stone",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.melf_s_acid_arrow",
+      "name": "Melf's Acid Arrow",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mending",
+      "name": "Mending",
+      "level": 0,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.message",
+      "name": "Message",
+      "level": 0,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.meteor_swarm",
+      "name": "Meteor Swarm",
+      "level": 9,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mind_blank",
+      "name": "Mind Blank",
+      "level": 8,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mind_sliver",
+      "name": "Mind Sliver",
+      "level": 0,
+      "school": "Enchantment",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mind_spike",
+      "name": "Mind Spike",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.minor_illusion",
+      "name": "Minor Illusion",
+      "level": 0,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mirage_arcane",
+      "name": "Mirage Arcane",
+      "level": 7,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mirror_image",
+      "name": "Mirror Image",
+      "level": 2,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mislead",
+      "name": "Mislead",
+      "level": 5,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.misty_step",
+      "name": "Misty Step",
+      "level": 2,
+      "school": "Conjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.modify_memory",
+      "name": "Modify Memory",
+      "level": 5,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.moonbeam",
+      "name": "Moonbeam",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.mordenkainen_s_faithful_hound",
+      "name": "Mordenkainen's Faithful Hound",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mordenkainen_s_magnificent_mansion",
+      "name": "Mordenkainen's Magnificent Mansion",
+      "level": 7,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.mordenkainen_s_sword",
+      "name": "Mordenkainen's Sword",
+      "level": 7,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.move_earth",
+      "name": "Move Earth",
+      "level": 6,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.nondetection",
+      "name": "Nondetection",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.ranger",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.nystul_s_magic_aura",
+      "name": "Nystul's Magic Aura",
+      "level": 2,
+      "school": "Illusion",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.otiluke_s_freezing_sphere",
+      "name": "Otiluke's Freezing Sphere",
+      "level": 6,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.otiluke_s_resilient_sphere",
+      "name": "Otiluke's Resilient Sphere",
+      "level": 4,
+      "school": "Abjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.otto_s_irresistible_dance",
+      "name": "Otto's Irresistible Dance",
+      "level": 6,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.passwall",
+      "name": "Passwall",
+      "level": 5,
+      "school": "Transmutation",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.pass_without_trace",
+      "name": "Pass without Trace",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.phantasmal_force",
+      "name": "Phantasmal Force",
+      "level": 2,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.phantasmal_killer",
+      "name": "Phantasmal Killer",
+      "level": 4,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.phantom_steed",
+      "name": "Phantom Steed",
+      "level": 3,
+      "school": "Illusion",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.planar_ally",
+      "name": "Planar Ally",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.planar_binding",
+      "name": "Planar Binding",
+      "level": 5,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.plane_shift",
+      "name": "Plane Shift",
+      "level": 7,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.plant_growth",
+      "name": "Plant Growth",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.poison_spray",
+      "name": "Poison Spray",
+      "level": 0,
+      "school": "Necromancy",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.polymorph",
+      "name": "Polymorph",
+      "level": 4,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.power_word_fortify",
+      "name": "Power Word Fortify",
+      "level": 7,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.power_word_heal",
+      "name": "Power Word Heal",
+      "level": 9,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.power_word_kill",
+      "name": "Power Word Kill",
+      "level": 9,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.power_word_stun",
+      "name": "Power Word Stun",
+      "level": 8,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.prayer_of_healing",
+      "name": "Prayer of Healing",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.prestidigitation",
+      "name": "Prestidigitation",
+      "level": 0,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.prismatic_spray",
+      "name": "Prismatic Spray",
+      "level": 7,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.prismatic_wall",
+      "name": "Prismatic Wall",
+      "level": 9,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.produce_flame",
+      "name": "Produce Flame",
+      "level": 0,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.programmed_illusion",
+      "name": "Programmed Illusion",
+      "level": 6,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.project_image",
+      "name": "Project Image",
+      "level": 7,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.protection_from_energy",
+      "name": "Protection from Energy",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.protection_from_evil_and_good",
+      "name": "Protection from Evil and Good",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.protection_from_poison",
+      "name": "Protection from Poison",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.purify_food_and_drink",
+      "name": "Purify Food and Drink",
+      "level": 1,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.raise_dead",
+      "name": "Raise Dead",
+      "level": 5,
+      "school": "Necromancy",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.rary_s_telepathic_bond",
+      "name": "Rary's Telepathic Bond",
+      "level": 5,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.ray_of_enfeeblement",
+      "name": "Ray of Enfeeblement",
+      "level": 2,
+      "school": "Necromancy",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.ray_of_frost",
+      "name": "Ray of Frost",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.ray_of_sickness",
+      "name": "Ray of Sickness",
+      "level": 1,
+      "school": "Necromancy",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.regenerate",
+      "name": "Regenerate",
+      "level": 7,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.reincarnate",
+      "name": "Reincarnate",
+      "level": 5,
+      "school": "Necromancy",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.remove_curse",
+      "name": "Remove Curse",
+      "level": 3,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.resistance",
+      "name": "Resistance",
+      "level": 0,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.resurrection",
+      "name": "Resurrection",
+      "level": 7,
+      "school": "Necromancy",
+      "classes": [
+        "class.bard",
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.reverse_gravity",
+      "name": "Reverse Gravity",
+      "level": 7,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.revivify",
+      "name": "Revivify",
+      "level": 3,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.paladin",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.rope_trick",
+      "name": "Rope Trick",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sacred_flame",
+      "name": "Sacred Flame",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.scorching_ray",
+      "name": "Scorching Ray",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.scrying",
+      "name": "Scrying",
+      "level": 5,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.searing_smite",
+      "name": "Searing Smite",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.see_invisibility",
+      "name": "See Invisibility",
+      "level": 2,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.seeming",
+      "name": "Seeming",
+      "level": 5,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sending",
+      "name": "Sending",
+      "level": 3,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sequester",
+      "name": "Sequester",
+      "level": 7,
+      "school": "Transmutation",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.shapechange",
+      "name": "Shapechange",
+      "level": 9,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.shatter",
+      "name": "Shatter",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.shield",
+      "name": "Shield",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.shield_of_faith",
+      "name": "Shield of Faith",
+      "level": 1,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.shillelagh",
+      "name": "Shillelagh",
+      "level": 0,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.shining_smite",
+      "name": "Shining Smite",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.shocking_grasp",
+      "name": "Shocking Grasp",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.silence",
+      "name": "Silence",
+      "level": 2,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.silent_image",
+      "name": "Silent Image",
+      "level": 1,
+      "school": "Illusion",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.simulacrum",
+      "name": "Simulacrum",
+      "level": 7,
+      "school": "Illusion",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sleep",
+      "name": "Sleep",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sleet_storm",
+      "name": "Sleet Storm",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.slow",
+      "name": "Slow",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sorcerous_burst",
+      "name": "Sorcerous Burst",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.spare_the_dying",
+      "name": "Spare the Dying",
+      "level": 0,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.speak_with_animals",
+      "name": "Speak with Animals",
+      "level": 1,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.ranger",
+        "class.warlock"
+      ]
+    },
+    {
+      "id": "spell.speak_with_dead",
+      "name": "Speak with Dead",
+      "level": 3,
+      "school": "Necromancy",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.speak_with_plants",
+      "name": "Speak with Plants",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.spider_climb",
+      "name": "Spider Climb",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.spike_growth",
+      "name": "Spike Growth",
+      "level": 2,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.spirit_guardians",
+      "name": "Spirit Guardians",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.spiritual_weapon",
+      "name": "Spiritual Weapon",
+      "level": 2,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.staggering_smite",
+      "name": "Staggering Smite",
+      "level": 4,
+      "school": "Enchantment",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.starry_wisp",
+      "name": "Starry Wisp",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.steel_wind_strike",
+      "name": "Steel Wind Strike",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.ranger",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.stinking_cloud",
+      "name": "Stinking Cloud",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.stone_shape",
+      "name": "Stone Shape",
+      "level": 4,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.stoneskin",
+      "name": "Stoneskin",
+      "level": 4,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.storm_of_vengeance",
+      "name": "Storm of Vengeance",
+      "level": 9,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.suggestion",
+      "name": "Suggestion",
+      "level": 2,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.summon_aberration",
+      "name": "Summon Aberration",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.summon_beast",
+      "name": "Summon Beast",
+      "level": 2,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.summon_celestial",
+      "name": "Summon Celestial",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.summon_dragon",
+      "name": "Summon Dragon",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.summon_elemental",
+      "name": "Summon Elemental",
+      "level": 4,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.summon_fey",
+      "name": "Summon Fey",
+      "level": 3,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.summon_fiend",
+      "name": "Summon Fiend",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.summon_undead",
+      "name": "Summon Undead",
+      "level": 3,
+      "school": "Necromancy",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sunbeam",
+      "name": "Sunbeam",
+      "level": 6,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.sunburst",
+      "name": "Sunburst",
+      "level": 8,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.swift_quiver",
+      "name": "Swift Quiver",
+      "level": 5,
+      "school": "Transmutation",
+      "classes": [
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.symbol",
+      "name": "Symbol",
+      "level": 7,
+      "school": "Abjuration",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.druid",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.synaptic_static",
+      "name": "Synaptic Static",
+      "level": 5,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.tasha_s_bubbling_cauldron",
+      "name": "Tasha's Bubbling Cauldron",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.tasha_s_hideous_laughter",
+      "name": "Tasha's Hideous Laughter",
+      "level": 1,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.telekinesis",
+      "name": "Telekinesis",
+      "level": 5,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.telepathy",
+      "name": "Telepathy",
+      "level": 8,
+      "school": "Divination",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.teleport",
+      "name": "Teleport",
+      "level": 7,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.teleportation_circle",
+      "name": "Teleportation Circle",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.tenser_s_floating_disk",
+      "name": "Tenser's Floating Disk",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.thaumaturgy",
+      "name": "Thaumaturgy",
+      "level": 0,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.thorn_whip",
+      "name": "Thorn Whip",
+      "level": 0,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.thunderclap",
+      "name": "Thunderclap",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.thunderous_smite",
+      "name": "Thunderous Smite",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.thunderwave",
+      "name": "Thunderwave",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.bard",
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.time_stop",
+      "name": "Time Stop",
+      "level": 9,
+      "school": "Transmutation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.toll_the_dead",
+      "name": "Toll the Dead",
+      "level": 0,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.tongues",
+      "name": "Tongues",
+      "level": 3,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.transport_via_plants",
+      "name": "Transport via Plants",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.tree_stride",
+      "name": "Tree Stride",
+      "level": 5,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.true_polymorph",
+      "name": "True Polymorph",
+      "level": 9,
+      "school": "Transmutation",
+      "classes": [
+        "class.bard",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.true_resurrection",
+      "name": "True Resurrection",
+      "level": 9,
+      "school": "Necromancy",
+      "classes": [
+        "class.cleric",
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.true_seeing",
+      "name": "True Seeing",
+      "level": 6,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.true_strike",
+      "name": "True Strike",
+      "level": 0,
+      "school": "Divination",
+      "classes": [
+        "class.bard",
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.tsunami",
+      "name": "Tsunami",
+      "level": 8,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.unseen_servant",
+      "name": "Unseen Servant",
+      "level": 1,
+      "school": "Conjuration",
+      "classes": [
+        "class.bard",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.vampiric_touch",
+      "name": "Vampiric Touch",
+      "level": 3,
+      "school": "Necromancy",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.vicious_mockery",
+      "name": "Vicious Mockery",
+      "level": 0,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard"
+      ]
+    },
+    {
+      "id": "spell.vitriolic_sphere",
+      "name": "Vitriolic Sphere",
+      "level": 4,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.wall_of_fire",
+      "name": "Wall of Fire",
+      "level": 4,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.wall_of_force",
+      "name": "Wall of Force",
+      "level": 5,
+      "school": "Evocation",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.wall_of_ice",
+      "name": "Wall of Ice",
+      "level": 6,
+      "school": "Evocation",
+      "classes": [
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.wall_of_stone",
+      "name": "Wall of Stone",
+      "level": 5,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.wall_of_thorns",
+      "name": "Wall of Thorns",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.warding_bond",
+      "name": "Warding Bond",
+      "level": 2,
+      "school": "Abjuration",
+      "classes": [
+        "class.cleric",
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.water_breathing",
+      "name": "Water Breathing",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.water_walk",
+      "name": "Water Walk",
+      "level": 3,
+      "school": "Transmutation",
+      "classes": [
+        "class.cleric",
+        "class.druid",
+        "class.ranger",
+        "class.sorcerer"
+      ]
+    },
+    {
+      "id": "spell.web",
+      "name": "Web",
+      "level": 2,
+      "school": "Conjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.weird",
+      "name": "Weird",
+      "level": 9,
+      "school": "Illusion",
+      "classes": [
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.wind_walk",
+      "name": "Wind Walk",
+      "level": 6,
+      "school": "Transmutation",
+      "classes": [
+        "class.druid"
+      ]
+    },
+    {
+      "id": "spell.wind_wall",
+      "name": "Wind Wall",
+      "level": 3,
+      "school": "Evocation",
+      "classes": [
+        "class.druid",
+        "class.ranger"
+      ]
+    },
+    {
+      "id": "spell.wish",
+      "name": "Wish",
+      "level": 9,
+      "school": "Conjuration",
+      "classes": [
+        "class.sorcerer",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.witch_bolt",
+      "name": "Witch Bolt",
+      "level": 1,
+      "school": "Evocation",
+      "classes": [
+        "class.sorcerer",
+        "class.warlock",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.word_of_radiance",
+      "name": "Word of Radiance",
+      "level": 0,
+      "school": "Evocation",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.word_of_recall",
+      "name": "Word of Recall",
+      "level": 6,
+      "school": "Conjuration",
+      "classes": [
+        "class.cleric"
+      ]
+    },
+    {
+      "id": "spell.wrathful_smite",
+      "name": "Wrathful Smite",
+      "level": 1,
+      "school": "Necromancy",
+      "classes": [
+        "class.paladin"
+      ]
+    },
+    {
+      "id": "spell.yolande_s_regal_presence",
+      "name": "Yolande's Regal Presence",
+      "level": 5,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.wizard"
+      ]
+    },
+    {
+      "id": "spell.zone_of_truth",
+      "name": "Zone of Truth",
+      "level": 2,
+      "school": "Enchantment",
+      "classes": [
+        "class.bard",
+        "class.cleric",
+        "class.paladin"
+      ]
+    }
+  ],
+  "notes": []
+}

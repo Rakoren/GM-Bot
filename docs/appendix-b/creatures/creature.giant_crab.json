@@ -1,0 +1,80 @@
+{
+  "id": "creature.giant_crab",
+  "name": "GIANT CRAB",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "initiative": "+1",
+  "initiative_score": 11,
+  "hit_points": 13,
+  "hit_dice": "3d8",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5",
+      "save": "-5"
+    },
+    "WIS": {
+      "score": 9,
+      "mod": "-1",
+      "save": "-1"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    }
+  },
+  "skills": "Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 9",
+  "languages": "None",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The crab can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition"
+    },
+    {
+      "name": "(escape DC 11) from one of two claws",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

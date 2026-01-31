@@ -1,0 +1,120 @@
+{
+  "id": "creature.quasit",
+  "name": "QUASIT",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Fiend (Demon), Chaotic Evil",
+  "size": "Tiny",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "initiative": "+3",
+  "initiative_score": 13,
+  "hit_points": 25,
+  "hit_dice": "10d4",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 5,
+      "mod": "-3",
+      "save": "-3"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3",
+      "save": "+3"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2",
+      "save": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    }
+  },
+  "skills": "Stealth +5",
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Poison; Poisoned",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 10",
+  "languages": "Abyssal, Common",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The quasit has Advantage on saving throws against spells"
+    },
+    {
+      "name": "and other magical effects",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and"
+    },
+    {
+      "name": "the target has the Poisoned condition until the start of the quasit's next turn",
+      "text": ""
+    },
+    {
+      "name": "Invisibility",
+      "text": "The quasit casts Invisibility on itself, requiring no spell"
+    },
+    {
+      "name": "components and using Charisma as the spellcasting ability",
+      "text": ""
+    },
+    {
+      "name": "Scare (1/Day)",
+      "text": "Wisdom Saving Throw: DC 10, one creature within 20 feet."
+    },
+    {
+      "name": "Failure: The target has the Frightened condition",
+      "text": "At the end of each of its turns,"
+    },
+    {
+      "name": "the target repeats the save, ending the effect on itself on a success",
+      "text": "After 1"
+    },
+    {
+      "name": "minute, it succeeds automatically",
+      "text": ""
+    },
+    {
+      "name": "Shape-Shift",
+      "text": "The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to"
+    },
+    {
+      "name": "its true form",
+      "text": "Its game statistics are the same in each form, except for its"
+    },
+    {
+      "name": "Speed",
+      "text": "Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      15
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

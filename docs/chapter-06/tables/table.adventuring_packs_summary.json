@@ -1,0 +1,60 @@
+{
+  "id": "table.adventuring_packs_summary",
+  "name": "Adventuring Packs Summary",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18,
+      19,
+      20,
+      23,
+      24
+    ],
+    "section": "Adventuring Gear (Packs)"
+  },
+  "columns": [
+    "pack_id",
+    "pack",
+    "cost"
+  ],
+  "entries": [
+    {
+      "pack_id": "item.pack.burglar",
+      "pack": "Burglar's Pack",
+      "cost": "16 GP"
+    },
+    {
+      "pack_id": "item.pack.diplomat",
+      "pack": "Diplomat's Pack",
+      "cost": "39 GP"
+    },
+    {
+      "pack_id": "item.pack.dungeoneer",
+      "pack": "Dungeoneer's Pack",
+      "cost": "12 GP"
+    },
+    {
+      "pack_id": "item.pack.entertainer",
+      "pack": "Entertainer's Pack",
+      "cost": "40 GP"
+    },
+    {
+      "pack_id": "item.pack.explorer",
+      "pack": "Explorer's Pack",
+      "cost": "10 GP"
+    },
+    {
+      "pack_id": "item.pack.priest",
+      "pack": "Priest's Pack",
+      "cost": "33 GP"
+    },
+    {
+      "pack_id": "item.pack.scholar",
+      "pack": "Scholar's Pack",
+      "cost": "40 GP"
+    }
+  ],
+  "notes": []
+}

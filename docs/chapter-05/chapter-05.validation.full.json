@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": 5,
+  "title": "chapter-05.validation.full",
+  "generated_at": "2026-01-30",
+
+  "validation_profile": "full",
+  "inputs": {
+    "manifest_path": "chapter-05/chapter-05.manifest.json"
+  },
+
+  "required_types": ["feat", "table", "list"],
+  "optional_types": [],
+
+  "checks": [
+    {
+      "id": "manifest.shards.unique_ids",
+      "type": "integrity",
+      "severity": "error",
+      "rule": "All shards[].id must be unique across the manifest."
+    },
+    {
+      "id": "manifest.shards.paths.present",
+      "type": "filesystem",
+      "severity": "error",
+      "rule": "Every shards[].path must exist on disk."
+    },
+    {
+      "id": "feat.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "feat" },
+      "rule": "Feat shard must include: id, name, chapter, status, category, repeatable."
+    },
+    {
+      "id": "feat.sourceRef.required",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "feat" },
+      "rule": "Complete feats must include sourceRef."
+    },
+    {
+      "id": "table.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "table" },
+      "rule": "Table shard must include: id, name, chapter, status, sourceRef, entries."
+    },
+    {
+      "id": "list.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "List shard must include: id, name, chapter, status, items."
+    },
+    {
+      "id": "list.items.resolve",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "Each list item must resolve to a shard id in the manifest."
+    }
+  ],
+
+  "outputs": {
+    "report_path": "chapter-05/validation.full.report.json",
+    "on_success": "pass",
+    "on_failure": "fail"
+  },
+
+  "notes": [
+    "Chapter 5 validation focuses on shard presence and required fields."
+  ]
+}

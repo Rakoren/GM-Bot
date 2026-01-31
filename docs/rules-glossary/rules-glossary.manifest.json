@@ -1,0 +1,953 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "rules-glossary",
+  "title": "Rules Glossary",
+  "generated_at": "2026-01-31",
+  "paths": {
+    "terms_dir": "rules-glossary/terms",
+    "tables_dir": "rules-glossary/tables",
+    "lists_dir": "rules-glossary/lists"
+  },
+  "shards": [
+    {
+      "id": "glossary.cg_chaotic_good",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.cg_chaotic_good.json"
+    },
+    {
+      "id": "glossary.cn_chaotic_neutral",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.cn_chaotic_neutral.json"
+    },
+    {
+      "id": "glossary.dc_difficulty_class",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.dc_difficulty_class.json"
+    },
+    {
+      "id": "glossary.dm_dungeon_master",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.dm_dungeon_master.json"
+    },
+    {
+      "id": "glossary.ln_lawful_neutral",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ln_lawful_neutral.json"
+    },
+    {
+      "id": "glossary.ng_neutral_good",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ng_neutral_good.json"
+    },
+    {
+      "id": "glossary.pb_proficiency_bonus",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.pb_proficiency_bonus.json"
+    },
+    {
+      "id": "glossary.r_ritual",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.r_ritual.json"
+    },
+    {
+      "id": "glossary.ability_check",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ability_check.json"
+    },
+    {
+      "id": "glossary.ability_score_and_modifier",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ability_score_and_modifier.json"
+    },
+    {
+      "id": "glossary.action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.action.json"
+    },
+    {
+      "id": "glossary.advantage",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.advantage.json"
+    },
+    {
+      "id": "glossary.adventure",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.adventure.json"
+    },
+    {
+      "id": "glossary.alignment",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.alignment.json"
+    },
+    {
+      "id": "glossary.ally",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ally.json"
+    },
+    {
+      "id": "glossary.area_of_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.area_of_effect.json"
+    },
+    {
+      "id": "glossary.sphere",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.sphere.json"
+    },
+    {
+      "id": "glossary.armor_class",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.armor_class.json"
+    },
+    {
+      "id": "glossary.armor_training",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.armor_training.json"
+    },
+    {
+      "id": "glossary.attack_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.attack_action.json"
+    },
+    {
+      "id": "glossary.attack_roll",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.attack_roll.json"
+    },
+    {
+      "id": "glossary.attitude",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.attitude.json"
+    },
+    {
+      "id": "glossary.attunement",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.attunement.json"
+    },
+    {
+      "id": "glossary.blinded_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.blinded_condition.json"
+    },
+    {
+      "id": "glossary.blindsight",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.blindsight.json"
+    },
+    {
+      "id": "glossary.bloodied",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.bloodied.json"
+    },
+    {
+      "id": "glossary.bonus_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.bonus_action.json"
+    },
+    {
+      "id": "glossary.breaking_objects",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.breaking_objects.json"
+    },
+    {
+      "id": "glossary.ac_substance",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ac_substance.json"
+    },
+    {
+      "id": "glossary.size_fragile_resilient",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.size_fragile_resilient.json"
+    },
+    {
+      "id": "glossary.bright_light",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.bright_light.json"
+    },
+    {
+      "id": "glossary.burning_hazard",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.burning_hazard.json"
+    },
+    {
+      "id": "glossary.burrow_speed",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.burrow_speed.json"
+    },
+    {
+      "id": "glossary.campaign",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.campaign.json"
+    },
+    {
+      "id": "glossary.cantrip",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.cantrip.json"
+    },
+    {
+      "id": "glossary.carrying_capacity",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.carrying_capacity.json"
+    },
+    {
+      "id": "glossary.carrying_capacity_2",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.carrying_capacity_2.json"
+    },
+    {
+      "id": "glossary.challenge_rating",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.challenge_rating.json"
+    },
+    {
+      "id": "glossary.character_sheet",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.character_sheet.json"
+    },
+    {
+      "id": "glossary.charmed_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.charmed_condition.json"
+    },
+    {
+      "id": "glossary.climbing",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.climbing.json"
+    },
+    {
+      "id": "glossary.climb_speed",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.climb_speed.json"
+    },
+    {
+      "id": "glossary.see",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.see.json"
+    },
+    {
+      "id": "glossary.concentration",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.concentration.json"
+    },
+    {
+      "id": "glossary.condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.condition.json"
+    },
+    {
+      "id": "glossary.unconscious",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.unconscious.json"
+    },
+    {
+      "id": "glossary.cone_area_of_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.cone_area_of_effect.json"
+    },
+    {
+      "id": "glossary.cover",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.cover.json"
+    },
+    {
+      "id": "glossary.crawling",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.crawling.json"
+    },
+    {
+      "id": "glossary.creature",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.creature.json"
+    },
+    {
+      "id": "glossary.creature_type",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.creature_type.json"
+    },
+    {
+      "id": "glossary.undead",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.undead.json"
+    },
+    {
+      "id": "glossary.critical_hit",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.critical_hit.json"
+    },
+    {
+      "id": "glossary.cube_area_of_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.cube_area_of_effect.json"
+    },
+    {
+      "id": "glossary.curses",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.curses.json"
+    },
+    {
+      "id": "glossary.curse_and",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.curse_and.json"
+    },
+    {
+      "id": "glossary.cylinder_area_of_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.cylinder_area_of_effect.json"
+    },
+    {
+      "id": "glossary.d20_test",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.d20_test.json"
+    },
+    {
+      "id": "glossary.damage",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.damage.json"
+    },
+    {
+      "id": "glossary.damage_roll",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.damage_roll.json"
+    },
+    {
+      "id": "glossary.damage_threshold",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.damage_threshold.json"
+    },
+    {
+      "id": "glossary.damage_types",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.damage_types.json"
+    },
+    {
+      "id": "glossary.type_examples",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.type_examples.json"
+    },
+    {
+      "id": "glossary.lightning_electricity",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.lightning_electricity.json"
+    },
+    {
+      "id": "glossary.darkness",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.darkness.json"
+    },
+    {
+      "id": "glossary.darkvision",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.darkvision.json"
+    },
+    {
+      "id": "glossary.dash_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.dash_action.json"
+    },
+    {
+      "id": "glossary.dead",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.dead.json"
+    },
+    {
+      "id": "glossary.raise_dead_or",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.raise_dead_or.json"
+    },
+    {
+      "id": "glossary.deafened_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.deafened_condition.json"
+    },
+    {
+      "id": "glossary.death_saving_throw",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.death_saving_throw.json"
+    },
+    {
+      "id": "glossary.dehydration_hazard",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.dehydration_hazard.json"
+    },
+    {
+      "id": "glossary.size_water_2",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.size_water_2.json"
+    },
+    {
+      "id": "glossary.difficult_terrain",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.difficult_terrain.json"
+    },
+    {
+      "id": "glossary.difficulty_class",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.difficulty_class.json"
+    },
+    {
+      "id": "glossary.dim_light",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.dim_light.json"
+    },
+    {
+      "id": "glossary.disadvantage",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.disadvantage.json"
+    },
+    {
+      "id": "glossary.disengage_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.disengage_action.json"
+    },
+    {
+      "id": "glossary.dodge_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.dodge_action.json"
+    },
+    {
+      "id": "glossary.emanation_area_of_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.emanation_area_of_effect.json"
+    },
+    {
+      "id": "glossary.encounter",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.encounter.json"
+    },
+    {
+      "id": "glossary.enemy",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.enemy.json"
+    },
+    {
+      "id": "glossary.exhaustion_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.exhaustion_condition.json"
+    },
+    {
+      "id": "glossary.experience_points",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.experience_points.json"
+    },
+    {
+      "id": "glossary.expertise",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.expertise.json"
+    },
+    {
+      "id": "glossary.falling_hazard",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.falling_hazard.json"
+    },
+    {
+      "id": "glossary.flying",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.flying.json"
+    },
+    {
+      "id": "glossary.fly_speed",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.fly_speed.json"
+    },
+    {
+      "id": "glossary.friendly_attitude",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.friendly_attitude.json"
+    },
+    {
+      "id": "glossary.frightened_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.frightened_condition.json"
+    },
+    {
+      "id": "glossary.grappled_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.grappled_condition.json"
+    },
+    {
+      "id": "glossary.grappling",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.grappling.json"
+    },
+    {
+      "id": "glossary.hazard",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.hazard.json"
+    },
+    {
+      "id": "glossary.healing",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.healing.json"
+    },
+    {
+      "id": "glossary.heavily_obscured",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.heavily_obscured.json"
+    },
+    {
+      "id": "glossary.help_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.help_action.json"
+    },
+    {
+      "id": "glossary.heroic_inspiration",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.heroic_inspiration.json"
+    },
+    {
+      "id": "glossary.hide_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.hide_action.json"
+    },
+    {
+      "id": "glossary.high_jump",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.high_jump.json"
+    },
+    {
+      "id": "glossary.hit_point_dice",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.hit_point_dice.json"
+    },
+    {
+      "id": "glossary.hit_points",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.hit_points.json"
+    },
+    {
+      "id": "glossary.hostile_attitude",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.hostile_attitude.json"
+    },
+    {
+      "id": "glossary.hover",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.hover.json"
+    },
+    {
+      "id": "glossary.illusions",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.illusions.json"
+    },
+    {
+      "id": "glossary.immunity",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.immunity.json"
+    },
+    {
+      "id": "glossary.improvised_weapons",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.improvised_weapons.json"
+    },
+    {
+      "id": "glossary.incapacitated_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.incapacitated_condition.json"
+    },
+    {
+      "id": "glossary.indifferent_attitude",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.indifferent_attitude.json"
+    },
+    {
+      "id": "glossary.influence_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.influence_action.json"
+    },
+    {
+      "id": "glossary.ability_check_interaction",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ability_check_interaction.json"
+    },
+    {
+      "id": "glossary.initiative",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.initiative.json"
+    },
+    {
+      "id": "glossary.invisible_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.invisible_condition.json"
+    },
+    {
+      "id": "glossary.jumping",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.jumping.json"
+    },
+    {
+      "id": "glossary.knocking_out_a_creature",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.knocking_out_a_creature.json"
+    },
+    {
+      "id": "glossary.lightly_obscured",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.lightly_obscured.json"
+    },
+    {
+      "id": "glossary.line_area_of_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.line_area_of_effect.json"
+    },
+    {
+      "id": "glossary.long_jump",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.long_jump.json"
+    },
+    {
+      "id": "glossary.long_rest",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.long_rest.json"
+    },
+    {
+      "id": "glossary.rolling_initiative",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.rolling_initiative.json"
+    },
+    {
+      "id": "glossary.magic_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.magic_action.json"
+    },
+    {
+      "id": "glossary.magical_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.magical_effect.json"
+    },
+    {
+      "id": "glossary.malnutrition_hazard",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.malnutrition_hazard.json"
+    },
+    {
+      "id": "glossary.size_food",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.size_food.json"
+    },
+    {
+      "id": "glossary.monster",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.monster.json"
+    },
+    {
+      "id": "glossary.nonplayer_character",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.nonplayer_character.json"
+    },
+    {
+      "id": "glossary.object",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.object.json"
+    },
+    {
+      "id": "glossary.occupied_space",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.occupied_space.json"
+    },
+    {
+      "id": "glossary.opportunity_attacks",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.opportunity_attacks.json"
+    },
+    {
+      "id": "glossary.paralyzed_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.paralyzed_condition.json"
+    },
+    {
+      "id": "glossary.passive_perception",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.passive_perception.json"
+    },
+    {
+      "id": "glossary.per_day",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.per_day.json"
+    },
+    {
+      "id": "glossary.petrified_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.petrified_condition.json"
+    },
+    {
+      "id": "glossary.player_character",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.player_character.json"
+    },
+    {
+      "id": "glossary.poisoned_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.poisoned_condition.json"
+    },
+    {
+      "id": "glossary.possession",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.possession.json"
+    },
+    {
+      "id": "glossary.proficiency",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.proficiency.json"
+    },
+    {
+      "id": "glossary.prone_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.prone_condition.json"
+    },
+    {
+      "id": "glossary.reach",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.reach.json"
+    },
+    {
+      "id": "glossary.reaction",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.reaction.json"
+    },
+    {
+      "id": "glossary.ready_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ready_action.json"
+    },
+    {
+      "id": "glossary.resistance",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.resistance.json"
+    },
+    {
+      "id": "glossary.restrained_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.restrained_condition.json"
+    },
+    {
+      "id": "glossary.ritual",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.ritual.json"
+    },
+    {
+      "id": "glossary.round_down",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.round_down.json"
+    },
+    {
+      "id": "glossary.save",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.save.json"
+    },
+    {
+      "id": "glossary.saving_throw",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.saving_throw.json"
+    },
+    {
+      "id": "glossary.search_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.search_action.json"
+    },
+    {
+      "id": "glossary.skill_thing_to_detect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.skill_thing_to_detect.json"
+    },
+    {
+      "id": "glossary.shape_shifting",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.shape_shifting.json"
+    },
+    {
+      "id": "glossary.short_rest",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.short_rest.json"
+    },
+    {
+      "id": "glossary.rolling_initiative_2",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.rolling_initiative_2.json"
+    },
+    {
+      "id": "glossary.simultaneous_effects",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.simultaneous_effects.json"
+    },
+    {
+      "id": "glossary.size",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.size.json"
+    },
+    {
+      "id": "glossary.skill",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.skill.json"
+    },
+    {
+      "id": "glossary.speed",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.speed.json"
+    },
+    {
+      "id": "glossary.spell",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.spell.json"
+    },
+    {
+      "id": "glossary.spell_attack",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.spell_attack.json"
+    },
+    {
+      "id": "glossary.spellcasting_focus",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.spellcasting_focus.json"
+    },
+    {
+      "id": "glossary.sphere_area_of_effect",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.sphere_area_of_effect.json"
+    },
+    {
+      "id": "glossary.stable",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.stable.json"
+    },
+    {
+      "id": "glossary.stat_block",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.stat_block.json"
+    },
+    {
+      "id": "glossary.study_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.study_action.json"
+    },
+    {
+      "id": "glossary.skill_areas",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.skill_areas.json"
+    },
+    {
+      "id": "glossary.stunned_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.stunned_condition.json"
+    },
+    {
+      "id": "glossary.suffocation_hazard",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.suffocation_hazard.json"
+    },
+    {
+      "id": "glossary.surprise",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.surprise.json"
+    },
+    {
+      "id": "glossary.swimming",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.swimming.json"
+    },
+    {
+      "id": "glossary.swim_speed",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.swim_speed.json"
+    },
+    {
+      "id": "glossary.target",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.target.json"
+    },
+    {
+      "id": "glossary.telepathy",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.telepathy.json"
+    },
+    {
+      "id": "glossary.teleportation",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.teleportation.json"
+    },
+    {
+      "id": "glossary.temporary_hit_points",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.temporary_hit_points.json"
+    },
+    {
+      "id": "glossary.tremorsense",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.tremorsense.json"
+    },
+    {
+      "id": "glossary.truesight",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.truesight.json"
+    },
+    {
+      "id": "glossary.unarmed_strike",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.unarmed_strike.json"
+    },
+    {
+      "id": "glossary.unconscious_condition",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.unconscious_condition.json"
+    },
+    {
+      "id": "glossary.unoccupied_space",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.unoccupied_space.json"
+    },
+    {
+      "id": "glossary.utilize_action",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.utilize_action.json"
+    },
+    {
+      "id": "glossary.vulnerability",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.vulnerability.json"
+    },
+    {
+      "id": "glossary.see_2",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.see_2.json"
+    },
+    {
+      "id": "glossary.weapon",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.weapon.json"
+    },
+    {
+      "id": "glossary.weapon_attack",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.weapon_attack.json"
+    },
+    {
+      "id": "glossary.system_reference",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.system_reference.json"
+    },
+    {
+      "id": "glossary.media",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.media.json"
+    },
+    {
+      "id": "glossary.app",
+      "type": "glossary_term",
+      "path": "rules-glossary/terms/glossary.app.json"
+    },
+    {
+      "id": "table.glossary.index",
+      "type": "table",
+      "path": "rules-glossary/tables/table.glossary.index.json"
+    },
+    {
+      "id": "table.glossary.abbreviations",
+      "type": "table",
+      "path": "rules-glossary/tables/table.glossary.abbreviations.json"
+    },
+    {
+      "id": "list.glossary.terms",
+      "type": "list",
+      "path": "rules-glossary/lists/list.glossary.terms.json"
+    }
+  ]
+}

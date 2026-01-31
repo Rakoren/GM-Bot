@@ -1,0 +1,28 @@
+{
+  "id": "spell.power_word_heal",
+  "name": "Power Word Heal",
+  "chapter": 7,
+  "status": "complete",
+  "level": 9,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard",
+    "class.cleric"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": null,
+  "duration": "Instantaneous",
+  "description": [
+    "A wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      105
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

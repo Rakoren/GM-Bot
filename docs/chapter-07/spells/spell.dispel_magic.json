@@ -1,0 +1,40 @@
+{
+  "id": "spell.dispel_magic",
+  "name": "Dispel Magic",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid",
+    "class.paladin",
+    "class.ranger",
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends. Using a Higher-Level Spell Slot. You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      40
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,423 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": 5,
+  "title": "Feats",
+  "generated_at": "2026-01-30",
+  "paths": {
+    "feats_dir": "chapter-05/feats",
+    "tables_dir": "chapter-05/tables",
+    "lists_dir": "chapter-05/lists"
+  },
+  "shards": [
+    {
+      "id": "feat.ability_score_improvement",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.ability_score_improvement.json"
+    },
+    {
+      "id": "feat.actor",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.actor.json"
+    },
+    {
+      "id": "feat.alert",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.alert.json"
+    },
+    {
+      "id": "feat.archery",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.archery.json"
+    },
+    {
+      "id": "feat.athlete",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.athlete.json"
+    },
+    {
+      "id": "feat.blind_fighting",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.blind_fighting.json"
+    },
+    {
+      "id": "feat.boon_of_combat_prowess",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_combat_prowess.json"
+    },
+    {
+      "id": "feat.boon_of_dimensional_travel",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_dimensional_travel.json"
+    },
+    {
+      "id": "feat.boon_of_energy_resistance",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_energy_resistance.json"
+    },
+    {
+      "id": "feat.boon_of_fate",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_fate.json"
+    },
+    {
+      "id": "feat.boon_of_fortitude",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_fortitude.json"
+    },
+    {
+      "id": "feat.boon_of_irresistible_offense",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_irresistible_offense.json"
+    },
+    {
+      "id": "feat.boon_of_recovery",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_recovery.json"
+    },
+    {
+      "id": "feat.boon_of_skill",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_skill.json"
+    },
+    {
+      "id": "feat.boon_of_speed",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_speed.json"
+    },
+    {
+      "id": "feat.boon_of_spell_recall",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_spell_recall.json"
+    },
+    {
+      "id": "feat.boon_of_the_night_spirit",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_the_night_spirit.json"
+    },
+    {
+      "id": "feat.boon_of_truesight",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.boon_of_truesight.json"
+    },
+    {
+      "id": "feat.charger",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.charger.json"
+    },
+    {
+      "id": "feat.chef",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.chef.json"
+    },
+    {
+      "id": "feat.crafter",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.crafter.json"
+    },
+    {
+      "id": "feat.crossbow_expert",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.crossbow_expert.json"
+    },
+    {
+      "id": "feat.crusher",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.crusher.json"
+    },
+    {
+      "id": "feat.defense",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.defense.json"
+    },
+    {
+      "id": "feat.defensive_duelist",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.defensive_duelist.json"
+    },
+    {
+      "id": "feat.dual_wielder",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.dual_wielder.json"
+    },
+    {
+      "id": "feat.dueling",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.dueling.json"
+    },
+    {
+      "id": "feat.durable",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.durable.json"
+    },
+    {
+      "id": "feat.elemental_adept",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.elemental_adept.json"
+    },
+    {
+      "id": "feat.fey_touched",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.fey_touched.json"
+    },
+    {
+      "id": "feat.grappler",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.grappler.json"
+    },
+    {
+      "id": "feat.great_weapon_fighting",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.great_weapon_fighting.json"
+    },
+    {
+      "id": "feat.great_weapon_master",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.great_weapon_master.json"
+    },
+    {
+      "id": "feat.healer",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.healer.json"
+    },
+    {
+      "id": "feat.heavily_armored",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.heavily_armored.json"
+    },
+    {
+      "id": "feat.heavy_armor_master",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.heavy_armor_master.json"
+    },
+    {
+      "id": "feat.inspiring_leader",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.inspiring_leader.json"
+    },
+    {
+      "id": "feat.interception",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.interception.json"
+    },
+    {
+      "id": "feat.keen_mind",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.keen_mind.json"
+    },
+    {
+      "id": "feat.lightly_armored",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.lightly_armored.json"
+    },
+    {
+      "id": "feat.lucky",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.lucky.json"
+    },
+    {
+      "id": "feat.mage_slayer",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.mage_slayer.json"
+    },
+    {
+      "id": "feat.magic_initiate",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.magic_initiate.json"
+    },
+    {
+      "id": "feat.martial_weapon_training",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.martial_weapon_training.json"
+    },
+    {
+      "id": "feat.medium_armor_master",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.medium_armor_master.json"
+    },
+    {
+      "id": "feat.moderately_armored",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.moderately_armored.json"
+    },
+    {
+      "id": "feat.mounted_combatant",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.mounted_combatant.json"
+    },
+    {
+      "id": "feat.musician",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.musician.json"
+    },
+    {
+      "id": "feat.observant",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.observant.json"
+    },
+    {
+      "id": "feat.piercer",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.piercer.json"
+    },
+    {
+      "id": "feat.poisoner",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.poisoner.json"
+    },
+    {
+      "id": "feat.polearm_master",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.polearm_master.json"
+    },
+    {
+      "id": "feat.protection",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.protection.json"
+    },
+    {
+      "id": "feat.resilient",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.resilient.json"
+    },
+    {
+      "id": "feat.ritual_caster",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.ritual_caster.json"
+    },
+    {
+      "id": "feat.savage_attacker",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.savage_attacker.json"
+    },
+    {
+      "id": "feat.sentinel",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.sentinel.json"
+    },
+    {
+      "id": "feat.shadow_touched",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.shadow_touched.json"
+    },
+    {
+      "id": "feat.sharpshooter",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.sharpshooter.json"
+    },
+    {
+      "id": "feat.shield_master",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.shield_master.json"
+    },
+    {
+      "id": "feat.skilled",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.skilled.json"
+    },
+    {
+      "id": "feat.skill_expert",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.skill_expert.json"
+    },
+    {
+      "id": "feat.skulker",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.skulker.json"
+    },
+    {
+      "id": "feat.slasher",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.slasher.json"
+    },
+    {
+      "id": "feat.speedy",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.speedy.json"
+    },
+    {
+      "id": "feat.spell_sniper",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.spell_sniper.json"
+    },
+    {
+      "id": "feat.tavern_brawler",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.tavern_brawler.json"
+    },
+    {
+      "id": "feat.telekinetic",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.telekinetic.json"
+    },
+    {
+      "id": "feat.telepathic",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.telepathic.json"
+    },
+    {
+      "id": "feat.thrown_weapon_fighting",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.thrown_weapon_fighting.json"
+    },
+    {
+      "id": "feat.tough",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.tough.json"
+    },
+    {
+      "id": "feat.two_weapon_fighting",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.two_weapon_fighting.json"
+    },
+    {
+      "id": "feat.unarmed_fighting",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.unarmed_fighting.json"
+    },
+    {
+      "id": "feat.war_caster",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.war_caster.json"
+    },
+    {
+      "id": "feat.weapon_master",
+      "type": "feat",
+      "path": "chapter-05/feats/feat.weapon_master.json"
+    },
+    {
+      "id": "table.feat_list",
+      "type": "table",
+      "path": "chapter-05/tables/table.feat_list.json"
+    },
+    {
+      "id": "table.feat.fast_crafting",
+      "type": "table",
+      "path": "chapter-05/tables/table.feat.fast_crafting.json"
+    },
+    {
+      "id": "list.feats",
+      "type": "list",
+      "path": "chapter-05/lists/list.feats.json"
+    },
+    {
+      "id": "list.feats.origin",
+      "type": "list",
+      "path": "chapter-05/lists/list.feats.origin.json"
+    },
+    {
+      "id": "list.feats.general",
+      "type": "list",
+      "path": "chapter-05/lists/list.feats.general.json"
+    },
+    {
+      "id": "list.feats.fighting_style",
+      "type": "list",
+      "path": "chapter-05/lists/list.feats.fighting_style.json"
+    },
+    {
+      "id": "list.feats.epic_boon",
+      "type": "list",
+      "path": "chapter-05/lists/list.feats.epic_boon.json"
+    }
+  ]
+}

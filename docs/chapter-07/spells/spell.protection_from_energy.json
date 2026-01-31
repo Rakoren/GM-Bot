@@ -1,0 +1,39 @@
+{
+  "id": "spell.protection_from_energy",
+  "name": "Protection from Energy",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "class.cleric",
+    "class.druid",
+    "class.ranger",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Concentration, up to 1 hour",
+  "description": [
+    "A SPELLCASTER COULD USE PROGRAMMED ILLUSION TO CAUSE A WATCHDOG TO APPEAR AND KINDLY ASK INTRUDERS TO LEAVE",
+    "-- 111 of 163 --",
+    "For the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

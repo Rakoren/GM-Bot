@@ -1,0 +1,35 @@
+{
+  "id": "spell.illusory_script",
+  "name": "Illusory Script",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Illusion",
+  "classes": [
+    "class.bard",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "1 minute or Ritual",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "S",
+      "M"
+    ],
+    "material": "ink worth 10+ GP, which the spell consumes"
+  },
+  "duration": "10 days",
+  "description": [
+    "You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know. If the spell is dispelled, the original script and the illusion both disappear. A creature that has Truesight can read the hidden message."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      77
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

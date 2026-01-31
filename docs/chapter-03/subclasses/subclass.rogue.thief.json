@@ -6,7 +6,7 @@
   "title": "Thief",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       41,
       55
@@ -40,7 +40,7 @@
       "action_type": "bonus_action",
       "trigger": "as a bonus action",
       "effects": [
-        "Sleight of Hand: make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves’ Tools or to pick a pocket.",
+        "Sleight of Hand: make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves Tools or to pick a pocket.",
         "Use an Object: take the Utilize action, or take the Magic action to use a magic item that requires that action."
       ]
     },
@@ -58,7 +58,7 @@
       "action_type": "none",
       "trigger": "when you use the Stealth Attack option of Cunning Strike",
       "effects": [
-        "If you have the Hide action’s Invisible condition, the attack doesn’t end that condition if you end the turn behind three-quarters or total cover."
+        "If you have the Hide actions Invisible condition, the attack doesnt end that condition if you end the turn behind three-quarters or total cover."
       ]
     },
     {
@@ -67,7 +67,7 @@
       "trigger": "passive",
       "effects": [
         "Attunement: you can attune to up to four magic items at once.",
-        "Charges: when you use a magic item property that expends charges, roll 1d6; on a 6, the charges aren’t expended.",
+        "Charges: when you use a magic item property that expends charges, roll 1d6; on a 6, the charges arent expended.",
         "Scrolls: you can use any spell scroll, using Intelligence as your spellcasting ability; cantrips and level 1 spells are automatic, and higher-level spells require an Intelligence (Arcana) check (DC 10 + spell level)."
       ]
     },

@@ -1,0 +1,35 @@
+{
+  "id": "spell.alarm",
+  "name": "Alarm",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+    "class.ranger",
+    "class.wizard"
+  ],
+  "casting_time": "1 minute or Ritual",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a bell and silver wire"
+  },
+  "duration": "8 hours",
+  "description": [
+    "You set an alarm against intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot Cube. Until the spell ends, an alarm alerts you whenever a creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You",
+    "-- 1 of 163 --",
+    "also choose whether the alarm is audible or mental: Audible Alarm. The alarm produces the sound of a handbell for 10 seconds within 60 feet of the warded area. Mental Alarm. You are alerted by a mental ping if you are within 1 mile of the warded area. This ping awakens you if you're asleep."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

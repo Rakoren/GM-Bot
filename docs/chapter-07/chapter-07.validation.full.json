@@ -1,0 +1,81 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": 7,
+  "title": "chapter-07.validation.full",
+  "generated_at": "2026-01-31",
+
+  "validation_profile": "full",
+  "inputs": {
+    "manifest_path": "chapter-07/chapter-07.manifest.json"
+  },
+
+  "required_types": ["spell", "table", "list"],
+  "optional_types": [],
+
+  "checks": [
+    {
+      "id": "manifest.shards.unique_ids",
+      "type": "integrity",
+      "severity": "error",
+      "rule": "All shards[].id must be unique across the manifest."
+    },
+    {
+      "id": "manifest.shards.paths.present",
+      "type": "filesystem",
+      "severity": "error",
+      "rule": "Every shards[].path must exist on disk."
+    },
+    {
+      "id": "spell.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "spell" },
+      "rule": "Spell shard must include: id, name, chapter, status, level, school, casting_time, range, components, duration, description."
+    },
+    {
+      "id": "spell.sourceRef.required",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "spell" },
+      "rule": "Complete spells must include sourceRef."
+    },
+    {
+      "id": "table.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "table" },
+      "rule": "Table shard must include: id, name, chapter, status, sourceRef, entries."
+    },
+    {
+      "id": "list.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "List shard must include: id, name, chapter, status, items."
+    },
+    {
+      "id": "list.items.resolve",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "Each list item must resolve to a shard id in the manifest."
+    },
+    {
+      "id": "list.spellcasting.rules.resolve",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "id": "list.spellcasting.rules" },
+      "rule": "Each list.spellcasting.rules item must resolve to table.spellcasting_rules.entries[].id."
+    }
+  ],
+
+  "outputs": {
+    "report_path": "chapter-07/validation.full.report.json",
+    "on_success": "pass",
+    "on_failure": "fail"
+  },
+
+  "notes": [
+    "Chapter 7 validation focuses on shard presence and required fields."
+  ]
+}

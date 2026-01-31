@@ -1,0 +1,35 @@
+{
+  "id": "spell.shield_of_faith",
+  "name": "Shield of Faith",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Abjuration",
+  "classes": [
+    "class.cleric",
+    "class.paladin"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a prayer scroll"
+  },
+  "duration": "Concentration, up to 10 minutes",
+  "description": [
+    "A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      121
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

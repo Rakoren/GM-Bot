@@ -1,0 +1,19 @@
+{
+  "id": "glossary.shape_shifting",
+  "name": "Shape-Shifting",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If an effect, such as Wild Shape or the Polymorph spell, lets you shape-shift, its description specifies what happens to you. Unless that description says otherwise, any ongoing effects on you—conditions, spells, curses, and the like—carry over from one form to the other. You revert to your true form if you die."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

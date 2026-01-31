@@ -10,7 +10,7 @@
     "spell list: spell_list.wizard",
     "cantrips: know wizard cantrips as shown on the class table",
     "prepared spells: at level 1, prepare four level 1+ spells from your spellbook",
-    "prepared spells: total prepared spells are shown on the class table; always-prepared wizard spells donâ€™t count against this number",
+    "prepared spells: total prepared spells are shown on the class table; always-prepared wizard spells donaTMt count against this number",
     "spell slots: per class table; regain all expended slots on a long rest",
     "spellcasting focus: you can use an Arcane Focus or your spellbook"
   ],
@@ -23,7 +23,7 @@
     "See chapter 7 for general spellcasting rules and the Wizard spell list in this chapter."
   ],
   "sourceRef": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       81
     ],

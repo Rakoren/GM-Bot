@@ -1,0 +1,27 @@
+{
+  "id": "item.weapon.trident",
+  "name": "Trident",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "weapon",
+  "weapon_category": "Martial",
+  "weapon_type": "Melee",
+  "damage": "1d8",
+  "damage_type": "Piercing",
+  "properties": [
+    "Thrown (Range 20/60)",
+    "Versatile (1d10)"
+  ],
+  "mastery": "Topple",
+  "weight": "4 lb.",
+  "cost": "5 GP",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "section": "Weapons"
+  },
+  "notes": []
+}

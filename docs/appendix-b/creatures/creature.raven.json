@@ -1,0 +1,84 @@
+{
+  "id": "creature.raven",
+  "name": "RAVEN",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "initiative": "+2",
+  "initiative_score": 12,
+  "hit_points": 2,
+  "hit_dice": "1d4",
+  "speed": "10 ft., Fly 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3",
+      "save": "-3"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2",
+      "save": "-2"
+    }
+  },
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Mimicry",
+      "text": "The raven can mimic simple sounds it has heard, such as a whisper"
+    },
+    {
+      "name": "or chitter",
+      "text": "A hearer can discern the sounds are imitations with a successful DC"
+    },
+    {
+      "name": "10 Wisdom (Insight) check",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Beak",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

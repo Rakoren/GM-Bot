@@ -6,8 +6,11 @@
   "status": "complete",
   "source": {
     "file": "Character Classes (Continued) 61-80.pdf",
-    "pages": [68, 71],
-    "section_hint": "Warlock spell list tables (Cantrips–9th)"
+    "pages": [
+      68,
+      71
+    ],
+    "section_hint": "Warlock spell list tables (Cantrips9th)"
   },
   "ordering": "by_spell_level_then_alphabetical",
   "entry_schema": {
@@ -19,111 +22,691 @@
       "M": "material_specific"
     }
   },
-  "levels_present": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "levels_present": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
   "missing_levels": [],
   "entries": [
-    { "level": 0, "name": "Blade Ward", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 0, "name": "Chill Touch", "school": "Necromancy", "special_flags": [] },
-    { "level": 0, "name": "Eldritch Blast", "school": "Evocation", "special_flags": [] },
-    { "level": 0, "name": "Friends", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 0, "name": "Mage Hand", "school": "Conjuration", "special_flags": [] },
-    { "level": 0, "name": "Mind Sliver", "school": "Enchantment", "special_flags": [] },
-    { "level": 0, "name": "Minor Illusion", "school": "Illusion", "special_flags": [] },
-    { "level": 0, "name": "Poison Spray", "school": "Necromancy", "special_flags": [] },
-    { "level": 0, "name": "Prestidigitation", "school": "Transmutation", "special_flags": [] },
-    { "level": 0, "name": "Thunderclap", "school": "Evocation", "special_flags": [] },
-    { "level": 0, "name": "Toll the Dead", "school": "Necromancy", "special_flags": [] },
-    { "level": 0, "name": "True Strike", "school": "Divination", "special_flags": [] },
-
-    { "level": 1, "name": "Armor of Agathys", "school": "Abjuration", "special_flags": [] },
-    { "level": 1, "name": "Arms of Hadar", "school": "Conjuration", "special_flags": [] },
-    { "level": 1, "name": "Bane", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 1, "name": "Charm Person", "school": "Enchantment", "special_flags": [] },
-    { "level": 1, "name": "Comprehend Languages", "school": "Divination", "special_flags": ["R"] },
-    { "level": 1, "name": "Detect Magic", "school": "Divination", "special_flags": ["C", "R"] },
-    { "level": 1, "name": "Expeditious Retreat", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 1, "name": "Hellish Rebuke", "school": "Evocation", "special_flags": [] },
-    { "level": 1, "name": "Hex", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 1, "name": "Illusory Script", "school": "Illusion", "special_flags": ["R", "M"] },
-    { "level": 1, "name": "Protection from Evil and Good", "school": "Abjuration", "special_flags": ["C", "M"] },
-    { "level": 1, "name": "Speak with Animals", "school": "Divination", "special_flags": ["R"] },
-    { "level": 1, "name": "Tasha’s Hideous Laughter", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 1, "name": "Unseen Servant", "school": "Conjuration", "special_flags": ["R"] },
-    { "level": 1, "name": "Witch Bolt", "school": "Evocation", "special_flags": ["C"] },
-
-    { "level": 2, "name": "Cloud of Daggers", "school": "Conjuration", "special_flags": ["C"] },
-    { "level": 2, "name": "Crown of Madness", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 2, "name": "Darkness", "school": "Evocation", "special_flags": ["C"] },
-    { "level": 2, "name": "Enthrall", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 2, "name": "Hold Person", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 2, "name": "Invisibility", "school": "Illusion", "special_flags": ["C"] },
-    { "level": 2, "name": "Mind Spike", "school": "Divination", "special_flags": ["C"] },
-    { "level": 2, "name": "Mirror Image", "school": "Illusion", "special_flags": [] },
-    { "level": 2, "name": "Misty Step", "school": "Conjuration", "special_flags": [] },
-    { "level": 2, "name": "Ray of Enfeeblement", "school": "Necromancy", "special_flags": ["C"] },
-    { "level": 2, "name": "Spider Climb", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 2, "name": "Suggestion", "school": "Enchantment", "special_flags": ["C"] },
-
-    { "level": 3, "name": "Counterspell", "school": "Abjuration", "special_flags": [] },
-    { "level": 3, "name": "Dispel Magic", "school": "Abjuration", "special_flags": [] },
-    { "level": 3, "name": "Fear", "school": "Illusion", "special_flags": ["C"] },
-    { "level": 3, "name": "Fly", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 3, "name": "Gaseous Form", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 3, "name": "Hunger of Hadar", "school": "Conjuration", "special_flags": ["C"] },
-    { "level": 3, "name": "Hypnotic Pattern", "school": "Illusion", "special_flags": ["C"] },
-    { "level": 3, "name": "Magic Circle", "school": "Abjuration", "special_flags": ["M"] },
-    { "level": 3, "name": "Major Image", "school": "Illusion", "special_flags": ["C"] },
-    { "level": 3, "name": "Remove Curse", "school": "Abjuration", "special_flags": [] },
-    { "level": 3, "name": "Summon Fey", "school": "Conjuration", "special_flags": ["C", "M"] },
-    { "level": 3, "name": "Summon Undead", "school": "Necromancy", "special_flags": ["C", "M"] },
-    { "level": 3, "name": "Tongues", "school": "Divination", "special_flags": [] },
-    { "level": 3, "name": "Vampiric Touch", "school": "Necromancy", "special_flags": ["C"] },
-
-    { "level": 4, "name": "Blight", "school": "Necromancy", "special_flags": [] },
-    { "level": 4, "name": "Charm Monster", "school": "Enchantment", "special_flags": [] },
-    { "level": 4, "name": "Dimension Door", "school": "Conjuration", "special_flags": [] },
-    { "level": 4, "name": "Hallucinatory Terrain", "school": "Illusion", "special_flags": [] },
-    { "level": 4, "name": "Summon Aberration", "school": "Conjuration", "special_flags": ["C", "M"] },
-
-    { "level": 5, "name": "Contact Other Plane", "school": "Divination", "special_flags": ["R"] },
-    { "level": 5, "name": "Dream", "school": "Illusion", "special_flags": [] },
-    { "level": 5, "name": "Hold Monster", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 5, "name": "Jallarzi’s Storm of Radiance", "school": "Evocation", "special_flags": ["C"] },
-    { "level": 5, "name": "Mislead", "school": "Illusion", "special_flags": ["C"] },
-    { "level": 5, "name": "Planar Binding", "school": "Abjuration", "special_flags": ["M"] },
-    { "level": 5, "name": "Scrying", "school": "Divination", "special_flags": ["C", "M"] },
-    { "level": 5, "name": "Synaptic Static", "school": "Enchantment", "special_flags": [] },
-    { "level": 5, "name": "Teleportation Circle", "school": "Conjuration", "special_flags": ["M"] },
-
-    { "level": 6, "name": "Arcane Gate", "school": "Conjuration", "special_flags": [] },
-    { "level": 6, "name": "Circle of Death", "school": "Necromancy", "special_flags": [] },
-    { "level": 6, "name": "Create Undead", "school": "Necromancy", "special_flags": [] },
-    { "level": 6, "name": "Eyebite", "school": "Necromancy", "special_flags": ["C"] },
-    { "level": 6, "name": "Summon Fiend", "school": "Conjuration", "special_flags": ["C", "M"] },
-    { "level": 6, "name": "Tasha’s Bubbling Cauldron", "school": "Conjuration", "special_flags": [] },
-    { "level": 6, "name": "True Seeing", "school": "Divination", "special_flags": ["M"] },
-
-    { "level": 7, "name": "Etherealness", "school": "Transmutation", "special_flags": [] },
-    { "level": 7, "name": "Finger of Death", "school": "Necromancy", "special_flags": [] },
-    { "level": 7, "name": "Forcecage", "school": "Evocation", "special_flags": ["M"] },
-    { "level": 7, "name": "Plane Shift", "school": "Conjuration", "special_flags": ["M"] },
-    { "level": 7, "name": "Whirlwind", "school": "Evocation", "special_flags": ["C"] },
-
-    { "level": 8, "name": "Befuddlement", "school": "Enchantment", "special_flags": [] },
-    { "level": 8, "name": "Demiplane", "school": "Conjuration", "special_flags": [] },
-    { "level": 8, "name": "Dominate Monster", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 8, "name": "Glibness", "school": "Enchantment", "special_flags": [] },
-    { "level": 8, "name": "Power Word Stun", "school": "Enchantment", "special_flags": [] },
-
-    { "level": 9, "name": "Astral Projection", "school": "Necromancy", "special_flags": ["M"] },
-    { "level": 9, "name": "Foresight", "school": "Divination", "special_flags": [] },
-    { "level": 9, "name": "Gate", "school": "Conjuration", "special_flags": ["C", "M"] },
-    { "level": 9, "name": "Imprisonment", "school": "Abjuration", "special_flags": ["M"] },
-    { "level": 9, "name": "Power Word Kill", "school": "Enchantment", "special_flags": [] },
-    { "level": 9, "name": "True Polymorph", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 9, "name": "Weird", "school": "Illusion", "special_flags": ["C"] }
+    {
+      "level": 0,
+      "name": "Blade Ward",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 0,
+      "name": "Chill Touch",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Eldritch Blast",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Friends",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 0,
+      "name": "Mage Hand",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Mind Sliver",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Minor Illusion",
+      "school": "Illusion",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Poison Spray",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Prestidigitation",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Thunderclap",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Toll the Dead",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "True Strike",
+      "school": "Divination",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Armor of Agathys",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Arms of Hadar",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Bane",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Charm Person",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Comprehend Languages",
+      "school": "Divination",
+      "special_flags": [
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Detect Magic",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Expeditious Retreat",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Hellish Rebuke",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Hex",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Illusory Script",
+      "school": "Illusion",
+      "special_flags": [
+        "R",
+        "M"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Protection from Evil and Good",
+      "school": "Abjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Speak with Animals",
+      "school": "Divination",
+      "special_flags": [
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Tashas Hideous Laughter",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Unseen Servant",
+      "school": "Conjuration",
+      "special_flags": [
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Witch Bolt",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Cloud of Daggers",
+      "school": "Conjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Crown of Madness",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Darkness",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Enthrall",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Hold Person",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Invisibility",
+      "school": "Illusion",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Mind Spike",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Mirror Image",
+      "school": "Illusion",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Misty Step",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Ray of Enfeeblement",
+      "school": "Necromancy",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Spider Climb",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Suggestion",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Counterspell",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Dispel Magic",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Fear",
+      "school": "Illusion",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Fly",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Gaseous Form",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Hunger of Hadar",
+      "school": "Conjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Hypnotic Pattern",
+      "school": "Illusion",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Magic Circle",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Major Image",
+      "school": "Illusion",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Remove Curse",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Summon Fey",
+      "school": "Conjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Summon Undead",
+      "school": "Necromancy",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Tongues",
+      "school": "Divination",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Vampiric Touch",
+      "school": "Necromancy",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Blight",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Charm Monster",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Dimension Door",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Hallucinatory Terrain",
+      "school": "Illusion",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Summon Aberration",
+      "school": "Conjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Contact Other Plane",
+      "school": "Divination",
+      "special_flags": [
+        "R"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Dream",
+      "school": "Illusion",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Hold Monster",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Jallarzis Storm of Radiance",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Mislead",
+      "school": "Illusion",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Planar Binding",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Scrying",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Synaptic Static",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Teleportation Circle",
+      "school": "Conjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Arcane Gate",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Circle of Death",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Create Undead",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Eyebite",
+      "school": "Necromancy",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Summon Fiend",
+      "school": "Conjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Tashas Bubbling Cauldron",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "True Seeing",
+      "school": "Divination",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Etherealness",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 7,
+      "name": "Finger of Death",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 7,
+      "name": "Forcecage",
+      "school": "Evocation",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Plane Shift",
+      "school": "Conjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Whirlwind",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 8,
+      "name": "Befuddlement",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 8,
+      "name": "Demiplane",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 8,
+      "name": "Dominate Monster",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 8,
+      "name": "Glibness",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 8,
+      "name": "Power Word Stun",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 9,
+      "name": "Astral Projection",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 9,
+      "name": "Foresight",
+      "school": "Divination",
+      "special_flags": []
+    },
+    {
+      "level": 9,
+      "name": "Gate",
+      "school": "Conjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 9,
+      "name": "Imprisonment",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 9,
+      "name": "Power Word Kill",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 9,
+      "name": "True Polymorph",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 9,
+      "name": "Weird",
+      "school": "Illusion",
+      "special_flags": [
+        "C"
+      ]
+    }
   ],
   "notes": [
     "This file stores spell names, schools, and special flags only; spell descriptions belong in the Spells chapter dataset."
-  ]
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      69,
+      76
+    ],
+    "section": "Character Classes"
+  }
 }

@@ -1,0 +1,47 @@
+{
+  "id": "table.creatures.by_size",
+  "name": "Creatures by Size",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      24
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "columns": [
+    "size",
+    "count",
+    "list_ref"
+  ],
+  "entries": [
+    {
+      "size": "Medium",
+      "count": 15,
+      "list_ref": "list.creatures.size.medium"
+    },
+    {
+      "size": "Tiny",
+      "count": 20,
+      "list_ref": "list.creatures.size.tiny"
+    },
+    {
+      "size": "Large",
+      "count": 13,
+      "list_ref": "list.creatures.size.large"
+    },
+    {
+      "size": "Huge",
+      "count": 1,
+      "list_ref": "list.creatures.size.huge"
+    },
+    {
+      "size": "Small",
+      "count": 1,
+      "list_ref": "list.creatures.size.small"
+    }
+  ],
+  "notes": []
+}

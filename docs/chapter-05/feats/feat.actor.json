@@ -1,0 +1,45 @@
+{
+  "id": "feat.actor",
+  "name": "Actor",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Charisma 13+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Charisma score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Impersonation",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "While you're disguised as a real or fictional person, you have Advantage on Charisma (Deception or Performance) checks to convince others that you are that person."
+      ]
+    },
+    {
+      "name": "Mimicry",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "You can mimic the sounds of other creatures, including speech. A creature that hears the mimicry must succeed on a Wisdom (Insight) check to determine the effect is faked (DC 8 plus your Charisma modifier and Proficiency Bonus)."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Actor"
+  }
+}

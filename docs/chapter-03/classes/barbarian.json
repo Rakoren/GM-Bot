@@ -100,5 +100,32 @@
     "path.wild_heart",
     "path.world_tree",
     "path.zealot"
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Greataxe",
+          "4 Handaxes"
+        ],
+        "pack_ref": "item.pack.explorer",
+        "gp": 15
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 75
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3,
+      14
+    ],
+    "section": "Character Classes"
+  }
 }

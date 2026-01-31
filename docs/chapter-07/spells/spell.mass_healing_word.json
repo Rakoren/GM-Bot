@@ -1,0 +1,33 @@
+{
+  "id": "spell.mass_healing_word",
+  "name": "Mass Healing Word",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Abjuration",
+  "classes": [
+    "class.bard",
+    "class.cleric"
+  ],
+  "casting_time": "Bonus Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Up to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier. Using a Higher-Level Spell Slot. The healing increases by 1d4 for each spell slot level above 3."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      90
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

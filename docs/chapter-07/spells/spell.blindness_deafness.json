@@ -1,0 +1,35 @@
+{
+  "id": "spell.blindness_deafness",
+  "name": "Blindness/Deafness",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Transmutation",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "1 minute",
+  "description": [
+    "One creature that you can see within range must succeed on a Constitution saving throw, or it has the Blinded or Deafened condition (your choice) for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

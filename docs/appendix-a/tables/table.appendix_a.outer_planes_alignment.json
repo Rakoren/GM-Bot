@@ -1,0 +1,90 @@
+{
+  "id": "table.appendix_a.outer_planes_alignment",
+  "name": "Outer Planes",
+  "chapter": "appendix-a",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-a/11-The Multiverse - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "section": "Appendix A: The Multiverse"
+  },
+  "columns": [
+    "outer_plane",
+    "alignment"
+  ],
+  "entries": [
+    {
+      "outer_plane": "Abyss",
+      "alignment": "Chaotic Evil"
+    },
+    {
+      "outer_plane": "Acheron",
+      "alignment": "Lawful Evil, Lawful Neutral"
+    },
+    {
+      "outer_plane": "Arborea",
+      "alignment": "Chaotic Good"
+    },
+    {
+      "outer_plane": "Arcadia",
+      "alignment": "Lawful Good, Lawful Neutral"
+    },
+    {
+      "outer_plane": "Beastlands",
+      "alignment": "Chaotic Good, Neutral Good"
+    },
+    {
+      "outer_plane": "Bytopia",
+      "alignment": "Lawful Good, Neutral Good"
+    },
+    {
+      "outer_plane": "Carceri",
+      "alignment": "Chaotic Evil, Neutral Evil"
+    },
+    {
+      "outer_plane": "Elysium",
+      "alignment": "Neutral Good"
+    },
+    {
+      "outer_plane": "Gehenna",
+      "alignment": "Lawful Evil, Neutral Evil"
+    },
+    {
+      "outer_plane": "Hades",
+      "alignment": "Neutral Evil"
+    },
+    {
+      "outer_plane": "Limbo",
+      "alignment": "Chaotic Neutral"
+    },
+    {
+      "outer_plane": "Mechanus",
+      "alignment": "Lawful Neutral"
+    },
+    {
+      "outer_plane": "Mount Celestia",
+      "alignment": "Lawful Good"
+    },
+    {
+      "outer_plane": "Nine Hells",
+      "alignment": "Lawful Evil"
+    },
+    {
+      "outer_plane": "Outlands",
+      "alignment": "Neutral"
+    },
+    {
+      "outer_plane": "Pandemonium",
+      "alignment": "Chaotic Evil, Chaotic Neutral"
+    },
+    {
+      "outer_plane": "Ysgard",
+      "alignment": "Chaotic Good, Chaotic Neutral"
+    }
+  ],
+  "notes": []
+}

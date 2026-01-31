@@ -1,0 +1,26 @@
+{
+  "id": "list.spells.level_8",
+  "name": "Level 8 Spells",
+  "chapter": 7,
+  "status": "complete",
+  "items": [
+    "spell.animal_shapes",
+    "spell.antimagic_field",
+    "spell.antipathy_sympathy",
+    "spell.befuddlement",
+    "spell.clone",
+    "spell.control_weather",
+    "spell.demiplane",
+    "spell.dominate_monster",
+    "spell.earthquake",
+    "spell.glibness",
+    "spell.holy_aura",
+    "spell.incendiary_cloud",
+    "spell.maze",
+    "spell.mind_blank",
+    "spell.power_word_stun",
+    "spell.sunburst",
+    "spell.telepathy",
+    "spell.tsunami"
+  ]
+}

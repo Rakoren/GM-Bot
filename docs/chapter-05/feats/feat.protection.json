@@ -1,0 +1,30 @@
+{
+  "id": "feat.protection",
+  "name": "Protection",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Fighting Style",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Fighting Style Feature"
+  ],
+  "benefits": [
+    {
+      "name": "Benefit",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you're holding one. You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target. ARTIST: WAYNE ENGLAND"
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18,
+      19
+    ],
+    "section": "Protection"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "table.hirelings",
+  "name": "Hirelings",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      30
+    ],
+    "section": "Hirelings"
+  },
+  "columns": [
+    "service",
+    "cost"
+  ],
+  "entries": [
+    {
+      "service": "Skilled hireling",
+      "cost": "2 GP per day"
+    },
+    {
+      "service": "Untrained hireling",
+      "cost": "2 SP per day"
+    },
+    {
+      "service": "Messenger",
+      "cost": "2 CP per mile"
+    }
+  ],
+  "notes": []
+}

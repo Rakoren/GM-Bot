@@ -1,0 +1,38 @@
+{
+  "id": "spell.reverse_gravity",
+  "name": "Reverse Gravity",
+  "chapter": 7,
+  "status": "complete",
+  "level": 7,
+  "school": "Transmutation",
+  "classes": [
+    "class.druid",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "100 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a lodestone and iron filings"
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "This spell reverses gravity in a 50-foot-radius, 100-foot high Cylinder centered on a point within range. All creatures and objects in that area that aren't anchored to the ground fall upward and reach the top of the Cylinder. A creature can make a Dexterity saving throw to grab a fixed object it can reach, thus avoiding the fall upward.",
+    "-- 116 of 163 --",
+    "If a ceiling or an anchored object is encountered in this upward fall, creatures and objects strike it just as they would during a downward fall. If an affected creature or object reaches the Cylinder's top without striking anything, it hovers there for the duration. When the spell ends, affected objects and creatures fall downward."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      115
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

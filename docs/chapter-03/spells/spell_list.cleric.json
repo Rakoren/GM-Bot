@@ -6,8 +6,11 @@
   "status": "complete",
   "source": {
     "file": "chapter 3 21-40.pdf",
-    "pages": [36, 40],
-    "section_hint": "Cleric Spell List tables (Cantrips–9th)"
+    "pages": [
+      36,
+      40
+    ],
+    "section_hint": "Cleric Spell List tables (Cantrips9th)"
   },
   "ordering": "by_spell_level_then_alphabetical",
   "entry_schema": {
@@ -19,130 +22,837 @@
       "M": "material_specific"
     }
   },
-  "levels_present": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "levels_present": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
   "entries": [
-    { "level": 0, "name": "Guidance", "school": "Divination", "special_flags": ["C"] },
-    { "level": 0, "name": "Light", "school": "Evocation", "special_flags": [] },
-    { "level": 0, "name": "Mending", "school": "Transmutation", "special_flags": [] },
-    { "level": 0, "name": "Resistance", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 0, "name": "Sacred Flame", "school": "Evocation", "special_flags": [] },
-    { "level": 0, "name": "Spare the Dying", "school": "Necromancy", "special_flags": [] },
-    { "level": 0, "name": "Thaumaturgy", "school": "Transmutation", "special_flags": [] },
-    { "level": 0, "name": "Toll the Dead", "school": "Necromancy", "special_flags": [] },
-    { "level": 0, "name": "Word of Radiance", "school": "Evocation", "special_flags": [] },
-
-    { "level": 1, "name": "Bane", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 1, "name": "Bless", "school": "Enchantment", "special_flags": ["C", "M"] },
-    { "level": 1, "name": "Command", "school": "Enchantment", "special_flags": [] },
-    { "level": 1, "name": "Create or Destroy Water", "school": "Transmutation", "special_flags": [] },
-    { "level": 1, "name": "Cure Wounds", "school": "Abjuration", "special_flags": [] },
-    { "level": 1, "name": "Detect Evil and Good", "school": "Divination", "special_flags": ["C"] },
-    { "level": 1, "name": "Detect Magic", "school": "Divination", "special_flags": ["C", "R"] },
-    { "level": 1, "name": "Detect Poison and Disease", "school": "Divination", "special_flags": ["C", "R"] },
-    { "level": 1, "name": "Guiding Bolt", "school": "Evocation", "special_flags": [] },
-    { "level": 1, "name": "Healing Word", "school": "Abjuration", "special_flags": [] },
-    { "level": 1, "name": "Inflict Wounds", "school": "Necromancy", "special_flags": [] },
-    { "level": 1, "name": "Protection from Evil and Good", "school": "Abjuration", "special_flags": ["C", "M"] },
-    { "level": 1, "name": "Purify Food and Drink", "school": "Transmutation", "special_flags": ["R"] },
-    { "level": 1, "name": "Sanctuary", "school": "Abjuration", "special_flags": [] },
-    { "level": 1, "name": "Shield of Faith", "school": "Abjuration", "special_flags": ["C"] },
-
-    { "level": 2, "name": "Aid", "school": "Abjuration", "special_flags": [] },
-    { "level": 2, "name": "Augury", "school": "Divination", "special_flags": ["R", "M"] },
-    { "level": 2, "name": "Blindness/Deafness", "school": "Necromancy", "special_flags": [] },
-    { "level": 2, "name": "Calm Emotions", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 2, "name": "Continual Flame", "school": "Evocation", "special_flags": ["M"] },
-    { "level": 2, "name": "Enhance Ability", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 2, "name": "Find Traps", "school": "Divination", "special_flags": [] },
-    { "level": 2, "name": "Gentle Repose", "school": "Necromancy", "special_flags": ["R", "M"] },
-    { "level": 2, "name": "Hold Person", "school": "Enchantment", "special_flags": ["C"] },
-    { "level": 2, "name": "Lesser Restoration", "school": "Abjuration", "special_flags": [] },
-    { "level": 2, "name": "Locate Object", "school": "Divination", "special_flags": ["C"] },
-    { "level": 2, "name": "Prayer of Healing", "school": "Abjuration", "special_flags": [] },
-    { "level": 2, "name": "Protection from Poison", "school": "Abjuration", "special_flags": [] },
-    { "level": 2, "name": "Silence", "school": "Illusion", "special_flags": ["C", "R"] },
-    { "level": 2, "name": "Spiritual Weapon", "school": "Evocation", "special_flags": ["C"] },
-    { "level": 2, "name": "Warding Bond", "school": "Abjuration", "special_flags": ["M"] },
-    { "level": 2, "name": "Zone of Truth", "school": "Enchantment", "special_flags": [] },
-
-    { "level": 3, "name": "Animate Dead", "school": "Necromancy", "special_flags": [] },
-    { "level": 3, "name": "Aura of Vitality", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 3, "name": "Beacon of Hope", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 3, "name": "Bestow Curse", "school": "Necromancy", "special_flags": ["C"] },
-    { "level": 3, "name": "Clairvoyance", "school": "Divination", "special_flags": ["C", "M"] },
-    { "level": 3, "name": "Create Food and Water", "school": "Conjuration", "special_flags": [] },
-    { "level": 3, "name": "Daylight", "school": "Evocation", "special_flags": [] },
-    { "level": 3, "name": "Dispel Magic", "school": "Abjuration", "special_flags": [] },
-    { "level": 3, "name": "Feign Death", "school": "Necromancy", "special_flags": ["R"] },
-    { "level": 3, "name": "Glyph of Warding", "school": "Abjuration", "special_flags": ["M"] },
-    { "level": 3, "name": "Mass Healing Word", "school": "Abjuration", "special_flags": [] },
-    { "level": 3, "name": "Protection from Energy", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 3, "name": "Remove Curse", "school": "Abjuration", "special_flags": [] },
-    { "level": 3, "name": "Revivify", "school": "Necromancy", "special_flags": ["M"] },
-    { "level": 3, "name": "Speak with Dead", "school": "Necromancy", "special_flags": [] },
-    { "level": 3, "name": "Spirit Guardians", "school": "Conjuration", "special_flags": ["C"] },
-    { "level": 3, "name": "Summon Celestial", "school": "Conjuration", "special_flags": ["C", "M"] },
-    { "level": 3, "name": "Tongues", "school": "Divination", "special_flags": [] },
-
-    { "level": 4, "name": "Aura of Life", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 4, "name": "Aura of Purity", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 4, "name": "Banishment", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 4, "name": "Control Water", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 4, "name": "Death Ward", "school": "Abjuration", "special_flags": [] },
-    { "level": 4, "name": "Divination", "school": "Divination", "special_flags": ["R", "M"] },
-    { "level": 4, "name": "Freedom of Movement", "school": "Abjuration", "special_flags": [] },
-    { "level": 4, "name": "Guardian of Faith", "school": "Conjuration", "special_flags": [] },
-    { "level": 4, "name": "Locate Creature", "school": "Divination", "special_flags": ["C"] },
-    { "level": 4, "name": "Stone Shape", "school": "Transmutation", "special_flags": [] },
-
-    { "level": 5, "name": "Commune", "school": "Divination", "special_flags": ["R", "M"] },
-    { "level": 5, "name": "Contagion", "school": "Necromancy", "special_flags": [] },
-    { "level": 5, "name": "Dawn", "school": "Evocation", "special_flags": ["C"] },
-    { "level": 5, "name": "Dispel Evil and Good", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 5, "name": "Flame Strike", "school": "Evocation", "special_flags": [] },
-    { "level": 5, "name": "Geas", "school": "Enchantment", "special_flags": [] },
-    { "level": 5, "name": "Greater Restoration", "school": "Abjuration", "special_flags": ["M"] },
-    { "level": 5, "name": "Hallow", "school": "Evocation", "special_flags": ["M"] },
-    { "level": 5, "name": "Insect Plague", "school": "Conjuration", "special_flags": ["C"] },
-    { "level": 5, "name": "Mass Cure Wounds", "school": "Abjuration", "special_flags": [] },
-    { "level": 5, "name": "Planar Binding", "school": "Abjuration", "special_flags": ["M"] },
-    { "level": 5, "name": "Raise Dead", "school": "Necromancy", "special_flags": ["M"] },
-    { "level": 5, "name": "Scrying", "school": "Divination", "special_flags": ["C", "M"] },
-
-    { "level": 6, "name": "Blade Barrier", "school": "Evocation", "special_flags": ["C"] },
-    { "level": 6, "name": "Conjure Celestial", "school": "Conjuration", "special_flags": ["C"] },
-    { "level": 6, "name": "Divine Word", "school": "Evocation", "special_flags": [] },
-    { "level": 6, "name": "Etherealness", "school": "Conjuration", "special_flags": [] },
-    { "level": 6, "name": "Find the Path", "school": "Divination", "special_flags": [] },
-    { "level": 6, "name": "Forbiddance", "school": "Abjuration", "special_flags": ["R", "M"] },
-    { "level": 6, "name": "Harm", "school": "Necromancy", "special_flags": [] },
-    { "level": 6, "name": "Heal", "school": "Abjuration", "special_flags": [] },
-    { "level": 6, "name": "Heroes’ Feast", "school": "Conjuration", "special_flags": ["M"] },
-    { "level": 6, "name": "Planar Ally", "school": "Conjuration", "special_flags": ["M"] },
-    { "level": 6, "name": "Sunbeam", "school": "Evocation", "special_flags": ["C"] },
-    { "level": 6, "name": "True Seeing", "school": "Divination", "special_flags": ["M"] },
-    { "level": 6, "name": "Word of Recall", "school": "Conjuration", "special_flags": ["M"] },
-
-    { "level": 7, "name": "Conjure Celestial", "school": "Conjuration", "special_flags": ["C"] },
-    { "level": 7, "name": "Etherealness", "school": "Conjuration", "special_flags": [] },
-    { "level": 7, "name": "Fire Storm", "school": "Evocation", "special_flags": [] },
-    { "level": 7, "name": "Plane Shift", "school": "Conjuration", "special_flags": ["M"] },
-    { "level": 7, "name": "Regenerate", "school": "Transmutation", "special_flags": [] },
-    { "level": 7, "name": "Resurrection", "school": "Necromancy", "special_flags": ["M"] },
-    { "level": 7, "name": "Symbol", "school": "Abjuration", "special_flags": ["M"] },
-
-    { "level": 8, "name": "Antimagic Field", "school": "Abjuration", "special_flags": ["C"] },
-    { "level": 8, "name": "Control Weather", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 8, "name": "Earthquake", "school": "Transmutation", "special_flags": ["C"] },
-    { "level": 8, "name": "Holy Aura", "school": "Abjuration", "special_flags": ["C"] },
-
-    { "level": 9, "name": "Astral Projection", "school": "Necromancy", "special_flags": ["M"] },
-    { "level": 9, "name": "Gate", "school": "Conjuration", "special_flags": ["C", "M"] },
-    { "level": 9, "name": "Mass Heal", "school": "Abjuration", "special_flags": [] },
-    { "level": 9, "name": "Power Word Heal", "school": "Enchantment", "special_flags": [] },
-    { "level": 9, "name": "True Resurrection", "school": "Necromancy", "special_flags": ["M"] }
+    {
+      "level": 0,
+      "name": "Guidance",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 0,
+      "name": "Light",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Mending",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Resistance",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 0,
+      "name": "Sacred Flame",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Spare the Dying",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Thaumaturgy",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Toll the Dead",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 0,
+      "name": "Word of Radiance",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Bane",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Bless",
+      "school": "Enchantment",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Command",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Create or Destroy Water",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Cure Wounds",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Detect Evil and Good",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Detect Magic",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Detect Poison and Disease",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Guiding Bolt",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Healing Word",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Inflict Wounds",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Protection from Evil and Good",
+      "school": "Abjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Purify Food and Drink",
+      "school": "Transmutation",
+      "special_flags": [
+        "R"
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Sanctuary",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 1,
+      "name": "Shield of Faith",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Aid",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Augury",
+      "school": "Divination",
+      "special_flags": [
+        "R",
+        "M"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Blindness/Deafness",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Calm Emotions",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Continual Flame",
+      "school": "Evocation",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Enhance Ability",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Find Traps",
+      "school": "Divination",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Gentle Repose",
+      "school": "Necromancy",
+      "special_flags": [
+        "R",
+        "M"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Hold Person",
+      "school": "Enchantment",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Lesser Restoration",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Locate Object",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Prayer of Healing",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Protection from Poison",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 2,
+      "name": "Silence",
+      "school": "Illusion",
+      "special_flags": [
+        "C",
+        "R"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Spiritual Weapon",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Warding Bond",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Zone of Truth",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Animate Dead",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Aura of Vitality",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Beacon of Hope",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Bestow Curse",
+      "school": "Necromancy",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Clairvoyance",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Create Food and Water",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Daylight",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Dispel Magic",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Feign Death",
+      "school": "Necromancy",
+      "special_flags": [
+        "R"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Glyph of Warding",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Mass Healing Word",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Protection from Energy",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Remove Curse",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Revivify",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Speak with Dead",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 3,
+      "name": "Spirit Guardians",
+      "school": "Conjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Summon Celestial",
+      "school": "Conjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Tongues",
+      "school": "Divination",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Aura of Life",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Aura of Purity",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Banishment",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Control Water",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Death Ward",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Divination",
+      "school": "Divination",
+      "special_flags": [
+        "R",
+        "M"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Freedom of Movement",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Guardian of Faith",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 4,
+      "name": "Locate Creature",
+      "school": "Divination",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Stone Shape",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Commune",
+      "school": "Divination",
+      "special_flags": [
+        "R",
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Contagion",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Dawn",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Dispel Evil and Good",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Flame Strike",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Geas",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Greater Restoration",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Hallow",
+      "school": "Evocation",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Insect Plague",
+      "school": "Conjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Mass Cure Wounds",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 5,
+      "name": "Planar Binding",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Raise Dead",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Scrying",
+      "school": "Divination",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Blade Barrier",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Conjure Celestial",
+      "school": "Conjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Divine Word",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Etherealness",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Find the Path",
+      "school": "Divination",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Forbiddance",
+      "school": "Abjuration",
+      "special_flags": [
+        "R",
+        "M"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Harm",
+      "school": "Necromancy",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Heal",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 6,
+      "name": "Heroes Feast",
+      "school": "Conjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Planar Ally",
+      "school": "Conjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Sunbeam",
+      "school": "Evocation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "True Seeing",
+      "school": "Divination",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Word of Recall",
+      "school": "Conjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Conjure Celestial",
+      "school": "Conjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Etherealness",
+      "school": "Conjuration",
+      "special_flags": []
+    },
+    {
+      "level": 7,
+      "name": "Fire Storm",
+      "school": "Evocation",
+      "special_flags": []
+    },
+    {
+      "level": 7,
+      "name": "Plane Shift",
+      "school": "Conjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Regenerate",
+      "school": "Transmutation",
+      "special_flags": []
+    },
+    {
+      "level": 7,
+      "name": "Resurrection",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "Symbol",
+      "school": "Abjuration",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 8,
+      "name": "Antimagic Field",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 8,
+      "name": "Control Weather",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 8,
+      "name": "Earthquake",
+      "school": "Transmutation",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 8,
+      "name": "Holy Aura",
+      "school": "Abjuration",
+      "special_flags": [
+        "C"
+      ]
+    },
+    {
+      "level": 9,
+      "name": "Astral Projection",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    },
+    {
+      "level": 9,
+      "name": "Gate",
+      "school": "Conjuration",
+      "special_flags": [
+        "C",
+        "M"
+      ]
+    },
+    {
+      "level": 9,
+      "name": "Mass Heal",
+      "school": "Abjuration",
+      "special_flags": []
+    },
+    {
+      "level": 9,
+      "name": "Power Word Heal",
+      "school": "Enchantment",
+      "special_flags": []
+    },
+    {
+      "level": 9,
+      "name": "True Resurrection",
+      "school": "Necromancy",
+      "special_flags": [
+        "M"
+      ]
+    }
   ],
   "notes": [
     "This list contains spell names, schools, and special flags only; spell descriptions are stored in the Spells chapter dataset."
-  ]
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      35,
+      43
+    ],
+    "section": "Character Classes"
+  }
 }

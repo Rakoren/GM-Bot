@@ -1,0 +1,37 @@
+{
+  "id": "spell.circle_of_death",
+  "name": "Circle of Death",
+  "chapter": 7,
+  "status": "complete",
+  "level": 6,
+  "school": "Necromancy",
+  "classes": [
+    "class.sorcerer",
+    "class.warlock",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "150 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "the powder of a crushed black pearl worth 500+ GP"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Negative energy ripples out in a 60-foot-radius Sphere from a point you choose within range. Each creature in that area makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A HUMAN SORCERER CHASTISES GHOULS WITH THE UNPREDICTABLE ENERGY OF A CHROMATIC ORB",
+    "-- 19 of 163 --"
+  ],
+  "higher_level": "The damage increases by 2d8 for each spell slot level above 6.",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

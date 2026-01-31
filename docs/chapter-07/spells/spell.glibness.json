@@ -1,0 +1,33 @@
+{
+  "id": "spell.glibness",
+  "name": "Glibness",
+  "chapter": 7,
+  "status": "complete",
+  "level": 8,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard",
+    "class.warlock"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V"
+    ],
+    "material": null
+  },
+  "duration": "1 hour",
+  "description": [
+    "Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      64
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

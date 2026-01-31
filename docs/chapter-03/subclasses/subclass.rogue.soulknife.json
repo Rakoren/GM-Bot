@@ -6,7 +6,7 @@
   "title": "Soulknife",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/05-Character Classes (Continued) - Players Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       40,
       41
@@ -42,13 +42,13 @@
       "effects": [
         "You gain Psionic Energy Dice (see the Soulknife Energy Dice table).",
         "Any feature from this subclass that uses a Psionic Energy Die uses only these dice.",
-        "You canâ€™t use a power that requires a Psionic Energy Die if all your dice are expended.",
+        "You canaTMt use a power that requires a Psionic Energy Die if all your dice are expended.",
         "Psi-Bolstered Knack: when you fail an ability check using a skill or tool you are proficient with, you can roll a Psionic Energy Die and add it; the die is expended only if the roll succeeds.",
         "Psychic Whispers: as a Magic action, choose up to a number of creatures you can see equal to your Proficiency Bonus and roll a Psionic Energy Die; for a number of hours equal to the roll, you can communicate telepathically within 1 mile (no action required)."
       ],
       "limits": [
         "You regain one expended Psionic Energy Die when you finish a short rest, and you regain all when you finish a long rest.",
-        "The first time you use Psychic Whispers after each long rest, you don’t expend the die; otherwise you do."
+        "The first time you use Psychic Whispers after each long rest, you dont expend the die; otherwise you do."
       ]
     },
     {
@@ -77,7 +77,7 @@
         "The invisibility ends early immediately after you deal damage or force a creature to make a saving throw."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest unless you expend a Psionic Energy Die (no action required) to restore its use."
+        "Once you use this feature, you cant use it again until you finish a long rest unless you expend a Psionic Energy Die (no action required) to restore its use."
       ]
     },
     {
@@ -89,7 +89,7 @@
         "On a failed save, the target is Stunned for 1 minute and repeats the save at the end of each of its turns, ending the effect on a success."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest unless you expend three Psionic Energy Dice (no action required) to restore its use."
+        "Once you use this feature, you cant use it again until you finish a long rest unless you expend three Psionic Energy Dice (no action required) to restore its use."
       ]
     }
   ],

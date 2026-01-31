@@ -1,0 +1,34 @@
+{
+  "id": "spell.spare_the_dying",
+  "name": "Spare the Dying",
+  "chapter": 7,
+  "status": "complete",
+  "level": 0,
+  "school": "Necromancy",
+  "classes": [
+    "class.cleric",
+    "class.druid"
+  ],
+  "casting_time": "Action",
+  "range": "15 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "Choose a creature within range that has 0 Hit Points and isn't dead. The creature becomes Stable. Cantrip Upgrade. The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet)."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      125
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

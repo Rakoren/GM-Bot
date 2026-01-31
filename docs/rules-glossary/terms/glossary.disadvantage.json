@@ -1,0 +1,19 @@
+{
+  "id": "glossary.disadvantage",
+  "name": "Disadvantage",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "If you have Disadvantage on a D20 Test, roll two d20s and use the lower roll. A roll can't be affected by more than one Disadvantage, and Advantage and Disadvantage on the same roll cancel each other. See also chapter 1 (\"D20 Tests\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      11
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

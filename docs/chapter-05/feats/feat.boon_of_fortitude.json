@@ -1,0 +1,45 @@
+{
+  "id": "feat.boon_of_fortitude",
+  "name": "Boon of Fortitude",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Epic Boon",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 19+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase one ability score of your choice by 1, to a maximum of 30."
+      ]
+    },
+    {
+      "name": "Fortified Health",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your Hit Point maximum increases by 40. In addition, whenever you regain Hit Points, you can regain additional Hit Points equal to your"
+      ]
+    },
+    {
+      "name": "Constitution modifier",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Once you've regained these additional Hit Points, you can't do so again until the start of your next turn."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Boon of Fortitude"
+  }
+}

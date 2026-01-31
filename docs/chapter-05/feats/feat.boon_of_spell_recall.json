@@ -1,0 +1,37 @@
+{
+  "id": "feat.boon_of_spell_recall",
+  "name": "Boon of Spell Recall",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Epic Boon",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 19+, Spellcasting Feature"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30."
+      ]
+    },
+    {
+      "name": "Free Casting",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Whenever you cast a spell with a level 1-4 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      22
+    ],
+    "section": "Boon of Spell Recall"
+  }
+}

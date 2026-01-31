@@ -1,0 +1,19 @@
+{
+  "id": "glossary.climbing",
+  "name": "Climbing",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "While you're climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Climb Speed and use it to climb. At the DM's option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (Athletics) check."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

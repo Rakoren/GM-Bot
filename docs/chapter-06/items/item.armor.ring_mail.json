@@ -1,0 +1,25 @@
+{
+  "id": "item.armor.ring_mail",
+  "name": "Ring Mail",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "armor",
+  "armor_category": "Heavy",
+  "armor_class": "14",
+  "strength": "-",
+  "stealth": "Disadvantage",
+  "weight": "40 lb.",
+  "cost": "30 GP",
+  "don_time": "10 Minutes",
+  "doff_time": "5 Minutes",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6,
+      7,
+      8
+    ],
+    "section": "Armor"
+  },
+  "notes": []
+}

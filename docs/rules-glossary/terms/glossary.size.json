@@ -1,0 +1,19 @@
+{
+  "id": "glossary.size",
+  "name": "Size",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A creature or an object belongs to a size category: Tiny, Small, Medium, Large, Huge, or Gargantuan. A creature's size determines how much space the creature occupies in combat. An object's size affects its Hit Points. See also \"Breaking Objects\" and chapter 1 (\"Combat\")."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      24
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

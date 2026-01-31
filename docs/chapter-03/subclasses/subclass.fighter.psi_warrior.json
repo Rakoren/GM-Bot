@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "../../../schemas/chapter-03.schema.json",
   "id": "fighter.psi_warrior",
   "parent_class": "class.fighter",
@@ -6,7 +6,7 @@
   "title": "Psi Warrior",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-Character Classes - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-Character Classes - PlayeraTMs Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       75,
       81

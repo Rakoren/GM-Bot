@@ -1,0 +1,433 @@
+{
+  "id": "table.adventuring_gear",
+  "name": "Adventuring Gear",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14,
+      15,
+      16
+    ],
+    "section": "Adventuring Gear"
+  },
+  "columns": [
+    "item",
+    "weight",
+    "cost"
+  ],
+  "entries": [
+    {
+      "item": "Acid",
+      "weight": "1 lb.",
+      "cost": "25 GP"
+    },
+    {
+      "item": "Alchemist's Fire",
+      "weight": "1 lb.",
+      "cost": "50 GP"
+    },
+    {
+      "item": "Ammunition",
+      "weight": "Varies",
+      "cost": "Varies"
+    },
+    {
+      "item": "Antitoxin",
+      "weight": "-",
+      "cost": "50 GP"
+    },
+    {
+      "item": "Arcane Focus",
+      "weight": "Varies",
+      "cost": "Varies"
+    },
+    {
+      "item": "Backpack",
+      "weight": "5 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Ball Bearings",
+      "weight": "2 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Barrel",
+      "weight": "70 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Basket",
+      "weight": "2 lb.",
+      "cost": "4 SP"
+    },
+    {
+      "item": "Bedroll",
+      "weight": "7 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Bell",
+      "weight": "-",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Blanket",
+      "weight": "3 lb.",
+      "cost": "5 SP"
+    },
+    {
+      "item": "Block and Tackle",
+      "weight": "5 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Book",
+      "weight": "5 lb.",
+      "cost": "25 GP"
+    },
+    {
+      "item": "Bottle, Glass",
+      "weight": "2 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Bucket",
+      "weight": "2 lb.",
+      "cost": "5 CP"
+    },
+    {
+      "item": "Burglar's Pack",
+      "weight": "42 lb.",
+      "cost": "16 GP"
+    },
+    {
+      "item": "Caltrops",
+      "weight": "2 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Candle",
+      "weight": "-",
+      "cost": "1 CP"
+    },
+    {
+      "item": "Case, Crossbow Bolt",
+      "weight": "1 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Case, Map or Scroll",
+      "weight": "1 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Chain",
+      "weight": "10 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Chest",
+      "weight": "25 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Climber's Kit",
+      "weight": "12 lb.",
+      "cost": "25 GP"
+    },
+    {
+      "item": "Clothes, Fine",
+      "weight": "6 lb.",
+      "cost": "15 GP"
+    },
+    {
+      "item": "Clothes, Traveler's",
+      "weight": "4 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Component Pouch",
+      "weight": "2 lb.",
+      "cost": "25 GP"
+    },
+    {
+      "item": "Costume",
+      "weight": "4 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Crowbar",
+      "weight": "5 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Diplomat's Pack",
+      "weight": "39 lb.",
+      "cost": "39 GP"
+    },
+    {
+      "item": "Druidic Focus",
+      "weight": "Varies",
+      "cost": "Varies"
+    },
+    {
+      "item": "Dungeoneer's Pack",
+      "weight": "55 lb.",
+      "cost": "12 GP"
+    },
+    {
+      "item": "Entertainer's Pack",
+      "weight": "581/2 lb.",
+      "cost": "40 GP"
+    },
+    {
+      "item": "Explorer's Pack",
+      "weight": "55 lb.",
+      "cost": "10 GP"
+    },
+    {
+      "item": "Flask",
+      "weight": "1 lb.",
+      "cost": "2 CP"
+    },
+    {
+      "item": "Grappling Hook",
+      "weight": "4 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Healer's Kit",
+      "weight": "3 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Holy Symbol",
+      "weight": "Varies",
+      "cost": "Varies"
+    },
+    {
+      "item": "Holy Water",
+      "weight": "1 lb.",
+      "cost": "25 GP"
+    },
+    {
+      "item": "Hunting Trap",
+      "weight": "25 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Ink",
+      "weight": "-",
+      "cost": "10 GP"
+    },
+    {
+      "item": "Ink Pen",
+      "weight": "-",
+      "cost": "2 CP"
+    },
+    {
+      "item": "Jug",
+      "weight": "4 lb.",
+      "cost": "2 CP"
+    },
+    {
+      "item": "Ladder",
+      "weight": "25 lb.",
+      "cost": "1 SP"
+    },
+    {
+      "item": "Lamp",
+      "weight": "1 lb.",
+      "cost": "5 SP"
+    },
+    {
+      "item": "Lantern, Bullseye",
+      "weight": "2 lb.",
+      "cost": "10 GP"
+    },
+    {
+      "item": "Lantern, Hooded",
+      "weight": "2 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Lock",
+      "weight": "1 lb.",
+      "cost": "10 GP"
+    },
+    {
+      "item": "Magnifying Glass",
+      "weight": "-",
+      "cost": "100 GP"
+    },
+    {
+      "item": "Manacles",
+      "weight": "6 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Map",
+      "weight": "-",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Mirror",
+      "weight": "1/2 lb.",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Net",
+      "weight": "3 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Oil",
+      "weight": "1 lb.",
+      "cost": "1 SP"
+    },
+    {
+      "item": "Paper",
+      "weight": "-",
+      "cost": "2 SP"
+    },
+    {
+      "item": "Parchment",
+      "weight": "-",
+      "cost": "1 SP"
+    },
+    {
+      "item": "Perfume",
+      "weight": "-",
+      "cost": "5 GP"
+    },
+    {
+      "item": "Poison, Basic",
+      "weight": "-",
+      "cost": "100 GP"
+    },
+    {
+      "item": "Pole",
+      "weight": "7 lb.",
+      "cost": "5 CP"
+    },
+    {
+      "item": "Pot, Iron",
+      "weight": "10 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Potion of Healing",
+      "weight": "1/2 lb.",
+      "cost": "50 GP"
+    },
+    {
+      "item": "Pouch",
+      "weight": "1 lb.",
+      "cost": "5 SP"
+    },
+    {
+      "item": "Priest's Pack",
+      "weight": "29 lb.",
+      "cost": "33 GP"
+    },
+    {
+      "item": "Quiver",
+      "weight": "1 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Ram, Portable",
+      "weight": "35 lb.",
+      "cost": "4 GP"
+    },
+    {
+      "item": "Rations",
+      "weight": "2 lb.",
+      "cost": "5 SP"
+    },
+    {
+      "item": "Robe",
+      "weight": "4 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Rope",
+      "weight": "5 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Sack",
+      "weight": "1/2 lb.",
+      "cost": "1 CP"
+    },
+    {
+      "item": "Scholar's Pack",
+      "weight": "22 lb.",
+      "cost": "40 GP"
+    },
+    {
+      "item": "Shovel",
+      "weight": "5 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Signal Whistle",
+      "weight": "-",
+      "cost": "5 CP"
+    },
+    {
+      "item": "Spell Scroll (Cantrip)",
+      "weight": "-",
+      "cost": "30 GP"
+    },
+    {
+      "item": "Spell Scroll (Level 1)",
+      "weight": "-",
+      "cost": "50 GP"
+    },
+    {
+      "item": "Spikes, Iron",
+      "weight": "5 lb.",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Spyglass",
+      "weight": "1 lb.",
+      "cost": "1,000 GP"
+    },
+    {
+      "item": "String",
+      "weight": "-",
+      "cost": "1 SP"
+    },
+    {
+      "item": "Tent",
+      "weight": "20 lb.",
+      "cost": "2 GP"
+    },
+    {
+      "item": "Tinderbox",
+      "weight": "1 lb.",
+      "cost": "5 SP"
+    },
+    {
+      "item": "Torch",
+      "weight": "1 lb.",
+      "cost": "1 CP"
+    },
+    {
+      "item": "Vial",
+      "weight": "-",
+      "cost": "1 GP"
+    },
+    {
+      "item": "Waterskin",
+      "weight": "5 lb. (full)",
+      "cost": "2 SP"
+    }
+  ],
+  "notes": []
+}

@@ -62,6 +62,13 @@
       "rule": "Each id in class.resources must resolve to a resource shard id in manifest."
     },
     {
+      "id": "class.starting_equipment.pack_ref_resolves",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "class" },
+      "rule": "Each class.starting_equipment.options[].pack_ref must resolve to a pack_id in chapter-06 table.adventuring_packs."
+    },
+    {
       "id": "class.subclasses.expected_ids",
       "type": "consistency",
       "severity": "warn",

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.magic_action",
+  "name": "Magic",
+  "tag": "Action",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated. If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the spell fails, but you don't expend a spell slot. See also \"Concentration.\""
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

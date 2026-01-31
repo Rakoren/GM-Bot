@@ -1,0 +1,16 @@
+{
+  "id": "list.creatures.cr.1_8",
+  "name": "Creatures (CR: 1/8)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.camel",
+    "creature.giant_crab",
+    "creature.giant_weasel",
+    "creature.mastiff",
+    "creature.mule",
+    "creature.pony",
+    "creature.slaad_tadpole",
+    "creature.venomous_snake"
+  ]
+}

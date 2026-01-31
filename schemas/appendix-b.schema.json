@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "appendix-b.schema.json",
+  "title": "Appendix B Shards Schema",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/sourceRef" },
+    { "$ref": "#/$defs/creatureShard" },
+    { "$ref": "#/$defs/tableShard" },
+    { "$ref": "#/$defs/listShard" },
+    { "$ref": "#/$defs/manifest" }
+  ],
+  "$defs": {
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "file": { "type": "string" },
+        "pages": { "type": "array", "items": { "type": "integer" } },
+        "section": { "type": "string" }
+      },
+      "required": ["file", "pages", "section"],
+      "additionalProperties": false
+    },
+    "creatureShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^creature\\.[a-z0-9_]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "string", "const": "appendix-b" },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "size_type_alignment": { "type": ["string", "null"] },
+        "size": { "type": ["string", "null"] },
+        "creature_type": { "type": ["string", "null"] },
+        "alignment": { "type": ["string", "null"] },
+        "armor_class": { "type": ["integer", "null"] },
+        "initiative": { "type": ["string", "null"] },
+        "initiative_score": { "type": ["integer", "null"] },
+        "hit_points": { "type": ["integer", "null"] },
+        "hit_dice": { "type": ["string", "null"] },
+        "speed": { "type": ["string", "null"] },
+        "abilities": { "type": "object" },
+        "skills": { "type": ["string", "null"] },
+        "resistances": { "type": ["string", "null"] },
+        "immunities": { "type": ["string", "null"] },
+        "vulnerabilities": { "type": ["string", "null"] },
+        "condition_immunities": { "type": ["string", "null"] },
+        "senses": { "type": ["string", "null"] },
+        "languages": { "type": ["string", "null"] },
+        "cr": { "type": ["string", "null"] },
+        "traits": { "type": "array", "items": { "type": "object" } },
+        "actions": { "type": "array", "items": { "type": "object" } },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "abilities", "traits", "actions", "sourceRef"],
+      "additionalProperties": true
+    },
+    "tableShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^table\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "string", "const": "appendix-b" },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "columns": { "type": "array", "items": { "type": "string" } },
+        "entries": { "type": "array", "items": { "type": "object" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "sourceRef", "entries"],
+      "additionalProperties": true
+    },
+    "listShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^list\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "string", "const": "appendix-b" },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "items": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "items"],
+      "additionalProperties": true
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string" },
+        "chapter": { "type": "string", "const": "appendix-b" },
+        "title": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "paths": { "type": "object" },
+        "shards": { "type": "array", "items": { "type": "object" } }
+      },
+      "required": ["schema_version", "chapter", "title", "shards"],
+      "additionalProperties": true
+    }
+  }
+}

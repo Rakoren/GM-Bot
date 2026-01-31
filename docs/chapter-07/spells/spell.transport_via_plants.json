@@ -1,0 +1,33 @@
+{
+  "id": "spell.transport_via_plants",
+  "name": "Transport via Plants",
+  "chapter": 7,
+  "status": "complete",
+  "level": 6,
+  "school": "Conjuration",
+  "classes": [
+    "class.druid"
+  ],
+  "casting_time": "Action",
+  "range": "10 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "1 minute",
+  "description": [
+    "This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      149
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

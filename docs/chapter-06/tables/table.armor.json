@@ -1,0 +1,172 @@
+{
+  "id": "table.armor",
+  "name": "Armor",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      6,
+      7,
+      8
+    ],
+    "section": "Armor"
+  },
+  "columns": [
+    "name",
+    "category",
+    "armor_class",
+    "strength",
+    "stealth",
+    "weight",
+    "cost",
+    "don_time",
+    "doff_time"
+  ],
+  "entries": [
+    {
+      "name": "Padded Armor",
+      "category": "Light",
+      "armor_class": "11 + Dex modifier",
+      "strength": "-",
+      "stealth": "Disadvantage",
+      "weight": "8 lb.",
+      "cost": "5 GP",
+      "don_time": "1 Minute",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Leather Armor",
+      "category": "Light",
+      "armor_class": "11 + Dex modifier",
+      "strength": "-",
+      "stealth": "-",
+      "weight": "10 lb.",
+      "cost": "10 GP",
+      "don_time": "1 Minute",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Studded Leather Armor",
+      "category": "Light",
+      "armor_class": "12 + Dex modifier",
+      "strength": "-",
+      "stealth": "-",
+      "weight": "13 lb.",
+      "cost": "45 GP",
+      "don_time": "1 Minute",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Hide Armor",
+      "category": "Medium",
+      "armor_class": "12 + Dex modifier (max 2)",
+      "strength": "-",
+      "stealth": "-",
+      "weight": "12 lb.",
+      "cost": "10 GP",
+      "don_time": "5 Minutes",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Chain Shirt",
+      "category": "Medium",
+      "armor_class": "13 + Dex modifier (max 2)",
+      "strength": "-",
+      "stealth": "-",
+      "weight": "20 lb.",
+      "cost": "50 GP",
+      "don_time": "5 Minutes",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Scale Mail",
+      "category": "Medium",
+      "armor_class": "14 + Dex modifier (max 2)",
+      "strength": "-",
+      "stealth": "Disadvantage",
+      "weight": "45 lb.",
+      "cost": "50 GP",
+      "don_time": "5 Minutes",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Breastplate",
+      "category": "Medium",
+      "armor_class": "14 + Dex modifier (max 2)",
+      "strength": "-",
+      "stealth": "-",
+      "weight": "20 lb.",
+      "cost": "400 GP",
+      "don_time": "5 Minutes",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Half Plate Armor",
+      "category": "Medium",
+      "armor_class": "15 + Dex modifier (max 2)",
+      "strength": "-",
+      "stealth": "Disadvantage",
+      "weight": "40 lb.",
+      "cost": "750 GP",
+      "don_time": "5 Minutes",
+      "doff_time": "1 Minute"
+    },
+    {
+      "name": "Ring Mail",
+      "category": "Heavy",
+      "armor_class": "14",
+      "strength": "-",
+      "stealth": "Disadvantage",
+      "weight": "40 lb.",
+      "cost": "30 GP",
+      "don_time": "10 Minutes",
+      "doff_time": "5 Minutes"
+    },
+    {
+      "name": "Chain Mail",
+      "category": "Heavy",
+      "armor_class": "16",
+      "strength": "Str 13",
+      "stealth": "Disadvantage",
+      "weight": "55 lb.",
+      "cost": "75 GP",
+      "don_time": "10 Minutes",
+      "doff_time": "5 Minutes"
+    },
+    {
+      "name": "Splint Armor",
+      "category": "Heavy",
+      "armor_class": "17",
+      "strength": "Str 15",
+      "stealth": "Disadvantage",
+      "weight": "60 lb.",
+      "cost": "200 GP",
+      "don_time": "10 Minutes",
+      "doff_time": "5 Minutes"
+    },
+    {
+      "name": "Plate Armor",
+      "category": "Heavy",
+      "armor_class": "18",
+      "strength": "Str 15",
+      "stealth": "Disadvantage",
+      "weight": "65 lb.",
+      "cost": "1,500 GP",
+      "don_time": "10 Minutes",
+      "doff_time": "5 Minutes"
+    },
+    {
+      "name": "Shield",
+      "category": "Shield",
+      "armor_class": "+2",
+      "strength": "-",
+      "stealth": "-",
+      "weight": "6 lb.",
+      "cost": "10 GP",
+      "don_time": "Utilize Action to Don or Doff",
+      "doff_time": "Utilize Action to Don or Doff"
+    }
+  ],
+  "notes": []
+}

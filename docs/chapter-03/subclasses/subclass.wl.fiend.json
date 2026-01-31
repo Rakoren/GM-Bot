@@ -6,7 +6,7 @@
   "title": "Fiend Patron",
   "status": "complete",
   "source": {
-    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Playerâ€™s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - PlayeraTMs Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [
       75,
       76
@@ -76,10 +76,10 @@
       "trigger": "once per turn when you hit a creature with an attack roll",
       "effects": [
         "The target must make a Charisma save against your spell save DC or be transported through the Lower Planes.",
-        "On a failed save, the target takes 8d10 psychic damage (if it isn’t a fiend), is Incapacitated until the end of your next turn, and returns to its previous space or the nearest unoccupied space."
+        "On a failed save, the target takes 8d10 psychic damage (if it isnt a fiend), is Incapacitated until the end of your next turn, and returns to its previous space or the nearest unoccupied space."
       ],
       "limits": [
-        "Once you use this feature, you can’t use it again until you finish a long rest unless you expend a Pact Magic spell slot (no action required) to restore its use."
+        "Once you use this feature, you cant use it again until you finish a long rest unless you expend a Pact Magic spell slot (no action required) to restore its use."
       ]
     }
   ],

@@ -85,5 +85,33 @@
     "college.glamour",
     "college.lore",
     "college.valor"
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Leather Armor",
+          "2 Daggers",
+          "Musical Instrument (choice)"
+        ],
+        "pack_ref": "item.pack.entertainer",
+        "gp": 19
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 90
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/04-Character Classes - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      15,
+      30
+    ],
+    "section": "Character Classes"
+  }
 }

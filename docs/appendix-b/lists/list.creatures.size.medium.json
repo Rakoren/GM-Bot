@@ -1,0 +1,23 @@
+{
+  "id": "list.creatures.size.medium",
+  "name": "Creatures (Size: Medium)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.ape",
+    "creature.black_bear",
+    "creature.boar",
+    "creature.giant_badger",
+    "creature.giant_crab",
+    "creature.giant_weasel",
+    "creature.goat",
+    "creature.mastiff",
+    "creature.mule",
+    "creature.panther",
+    "creature.pony",
+    "creature.reef_shark",
+    "creature.skeleton",
+    "creature.wolf",
+    "creature.zombie"
+  ]
+}

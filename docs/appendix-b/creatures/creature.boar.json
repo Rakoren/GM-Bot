@@ -1,0 +1,80 @@
+{
+  "id": "creature.boar",
+  "name": "BOAR",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "initiative": "+0",
+  "initiative_score": 10,
+  "hit_points": 13,
+  "hit_dice": "2d8 + 4",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 9,
+      "mod": "-1",
+      "save": "-1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3",
+      "save": "-3"
+    }
+  },
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 9",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Bloodied Fury",
+      "text": "While Bloodied, the boar has Advantage on attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Gore",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing"
+    },
+    {
+      "name": "damage and has the Prone condition",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "spell.sleep",
+  "name": "Sleep",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Enchantment",
+  "classes": [
+    "class.bard",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "60 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a pinch of sand or rose petals"
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect. Creatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      124
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "glossary.search_action",
+  "name": "Search",
+  "tag": "Action",
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

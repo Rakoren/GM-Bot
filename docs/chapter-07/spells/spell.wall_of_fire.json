@@ -1,0 +1,38 @@
+{
+  "id": "spell.wall_of_fire",
+  "name": "Wall of Fire",
+  "chapter": 7,
+  "status": "complete",
+  "level": 4,
+  "school": "Evocation",
+  "classes": [
+    "class.druid",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a piece of charcoal"
+  },
+  "duration": "Concentration, up to 1 minute",
+  "description": [
+    "You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one. A TIEFLING SORCERER UNLEASHES VITRIOLIC SPHERE ON NOTHICS",
+    "-- 155 of 163 --",
+    "One side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage. Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      154
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

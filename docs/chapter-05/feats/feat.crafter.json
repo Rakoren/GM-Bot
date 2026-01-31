@@ -1,0 +1,46 @@
+{
+  "id": "feat.crafter",
+  "name": "Crafter",
+  "chapter": 5,
+  "status": "complete",
+  "category": "Origin",
+  "repeatable": false,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3,
+      4
+    ],
+    "section": "Crafter"
+  },
+  "prerequisites": [],
+  "benefits": [
+    {
+      "name": "Tool Proficiency",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "gain proficiency with three different Artisan's Tools of your choice from the Fast Crafting table"
+      ]
+    },
+    {
+      "name": "Discount",
+      "action_type": "none",
+      "trigger": "when you buy a nonmagical item",
+      "effects": [
+        "receive a 20 percent discount on it"
+      ]
+    },
+    {
+      "name": "Fast Crafting",
+      "action_type": "none",
+      "trigger": "when you finish a long rest",
+      "effects": [
+        "craft one piece of gear from the Fast Crafting table if you have the associated tools and proficiency",
+        "the crafted item lasts until you finish another long rest"
+      ],
+      "table_ref": "table.feat.fast_crafting"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "table.spell_preparation_by_class",
+  "name": "Spell Preparation by Class",
+  "chapter": 7,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/09-Spells - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      1
+    ],
+    "section": "Spell Preparation by Class"
+  },
+  "columns": [
+    "class",
+    "change_when",
+    "number_of_spells"
+  ],
+  "entries": [
+    {
+      "class": "Bard",
+      "change_when": "Gain a level",
+      "number_of_spells": "One"
+    },
+    {
+      "class": "Cleric",
+      "change_when": "Finish a Long Rest",
+      "number_of_spells": "Any"
+    },
+    {
+      "class": "Druid",
+      "change_when": "Finish a Long Rest",
+      "number_of_spells": "Any"
+    },
+    {
+      "class": "Paladin",
+      "change_when": "Finish a Long Rest",
+      "number_of_spells": "One"
+    },
+    {
+      "class": "Ranger",
+      "change_when": "Finish a Long Rest",
+      "number_of_spells": "One"
+    },
+    {
+      "class": "Sorcerer",
+      "change_when": "Gain a level",
+      "number_of_spells": "One"
+    },
+    {
+      "class": "Warlock",
+      "change_when": "Gain a level",
+      "number_of_spells": "One"
+    },
+    {
+      "class": "Wizard",
+      "change_when": "Finish a Long Rest",
+      "number_of_spells": "Any"
+    }
+  ],
+  "notes": [
+    "Most spellcasting monsters do not change prepared spells unless the DM decides otherwise."
+  ]
+}

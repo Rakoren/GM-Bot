@@ -1,0 +1,19 @@
+{
+  "id": "glossary.cantrip",
+  "name": "Cantrip",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "A cantrip is a level 0 spell, which is cast without a spell slot. See also chapter 7."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

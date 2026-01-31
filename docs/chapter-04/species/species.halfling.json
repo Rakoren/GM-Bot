@@ -34,7 +34,7 @@
     {
       "name": "Luck",
       "action_type": "none",
-      "trigger": "when you roll a 1 on the d20 of a D20 Test",
+      "trigger": "when you roll a 1 on the d20 of a d20 test",
       "effects": [
         "you can reroll the die and must use the new roll"
       ]

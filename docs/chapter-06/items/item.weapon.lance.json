@@ -1,0 +1,28 @@
+{
+  "id": "item.weapon.lance",
+  "name": "Lance",
+  "chapter": 6,
+  "status": "complete",
+  "item_type": "weapon",
+  "weapon_category": "Martial",
+  "weapon_type": "Melee",
+  "damage": "1d10",
+  "damage_type": "Piercing",
+  "properties": [
+    "Heavy",
+    "Reach",
+    "Two-Handed (unless mounted)"
+  ],
+  "mastery": "Topple",
+  "weight": "6 lb.",
+  "cost": "10 GP",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2,
+      3
+    ],
+    "section": "Weapons"
+  },
+  "notes": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "list.creatures.cr.1_2",
+  "name": "Creatures (CR: 1/2)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.ape",
+    "creature.black_bear",
+    "creature.crocodile",
+    "creature.giant_goat",
+    "creature.giant_seahorse",
+    "creature.reef_shark",
+    "creature.warhorse"
+  ]
+}

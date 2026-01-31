@@ -1,0 +1,35 @@
+{
+  "id": "spell.vitriolic_sphere",
+  "name": "Vitriolic Sphere",
+  "chapter": 7,
+  "status": "complete",
+  "level": 4,
+  "school": "Evocation",
+  "classes": [
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "150 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a drop of bile"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes 10d4 Acid damage and another 5d4 Acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage only. Using a Higher-Level Spell Slot. The initial damage increases by 2d4 for each spell slot level above 4."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      154
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "creature.mastiff",
+  "name": "MASTIFF",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "initiative": "+2",
+  "initiative_score": 12,
+  "hit_points": 5,
+  "hit_dice": "1d8 + 1",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+3"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2",
+      "save": "-2"
+    }
+  },
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the"
+    },
+    {
+      "name": "target is a Medium or smaller creature, it has the Prone condition",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      12
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

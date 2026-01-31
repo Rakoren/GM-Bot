@@ -1,0 +1,19 @@
+{
+  "id": "glossary.swimming",
+  "name": "Swimming",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "While you're swimming, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Swim Speed and use it to swim. At the DM's option, moving any distance in rough water might require a successful DC 15 Strength (Athletics) check."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      27
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

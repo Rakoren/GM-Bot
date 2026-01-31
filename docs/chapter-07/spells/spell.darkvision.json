@@ -1,0 +1,38 @@
+{
+  "id": "spell.darkvision",
+  "name": "Darkvision",
+  "chapter": 7,
+  "status": "complete",
+  "level": 2,
+  "school": "Transmutation",
+  "classes": [
+    "class.druid",
+    "class.ranger",
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a dried carrot"
+  },
+  "duration": "8 hours",
+  "description": [
+    "For the duration, a willing creature you touch has Darkvision with a range of 150 feet. ARTIST: DAVID ASTRUGA",
+    "-- 35 of 163 --"
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      34
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

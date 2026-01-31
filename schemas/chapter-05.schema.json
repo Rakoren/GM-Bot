@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chapter-05.schema.json",
+  "title": "Chapter 05 Shards Schema",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/sourceRef" },
+    { "$ref": "#/$defs/featShard" },
+    { "$ref": "#/$defs/tableShard" },
+    { "$ref": "#/$defs/listShard" },
+    { "$ref": "#/$defs/manifest" }
+  ],
+  "$defs": {
+    "idString": { "type": "string", "minLength": 1 },
+    "sourceRef": {
+      "type": "object",
+      "properties": {
+        "file": { "type": "string" },
+        "pages": { "type": "array", "items": { "type": "integer" } },
+        "section": { "type": "string" }
+      },
+      "required": ["file", "pages", "section"],
+      "additionalProperties": false
+    },
+    "featBenefit": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "action_type": { "type": "string" },
+        "trigger": { "type": "string" },
+        "effects": { "type": "array", "items": { "type": "string" } },
+        "limits": { "type": "array", "items": { "type": "string" } },
+        "table_ref": { "type": "string" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["name", "action_type", "trigger", "effects"],
+      "additionalProperties": true
+    },
+    "featShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^feat\\.[a-z0-9_]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 5 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "category": { "type": "string" },
+        "repeatable": { "type": "boolean" },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "prerequisites": { "type": "array", "items": { "type": "string" } },
+        "benefits": { "type": "array", "items": { "$ref": "#/$defs/featBenefit" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "category", "repeatable"],
+      "additionalProperties": true
+    },
+    "tableShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^table\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 5 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "sourceRef": { "$ref": "#/$defs/sourceRef" },
+        "columns": { "type": "array", "items": { "type": "string" } },
+        "entries": { "type": "array", "items": { "type": "object" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "sourceRef", "entries"],
+      "additionalProperties": true
+    },
+    "listShard": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "pattern": "^list\\.[a-z0-9_.]+$" },
+        "name": { "type": "string" },
+        "chapter": { "type": "integer", "const": 5 },
+        "status": { "type": "string", "enum": ["complete", "partial", "placeholder"] },
+        "items": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "chapter", "status", "items"],
+      "additionalProperties": true
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": { "type": "string" },
+        "chapter": { "type": "integer", "const": 5 },
+        "title": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "paths": { "type": "object" },
+        "shards": { "type": "array", "items": { "type": "object" } }
+      },
+      "required": ["schema_version", "chapter", "title", "shards"],
+      "additionalProperties": true
+    }
+  }
+}

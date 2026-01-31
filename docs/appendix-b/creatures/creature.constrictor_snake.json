@@ -1,0 +1,83 @@
+{
+  "id": "creature.constrictor_snake",
+  "name": "CONSTRICTOR SNAKE",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "initiative": "+2",
+  "initiative_score": 12,
+  "hit_points": 13,
+  "hit_dice": "2d10 + 2",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2",
+      "save": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1",
+      "save": "+1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5",
+      "save": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0",
+      "save": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4",
+      "save": "-4"
+    }
+  },
+  "skills": "Perception +2, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage."
+    },
+    {
+      "name": "Constrict",
+      "text": "Strength Saving Throw: DC 12, one Medium or smaller creature the"
+    },
+    {
+      "name": "snake can see within 5 feet",
+      "text": "Failure: 7 (3d4) Bludgeoning damage, and the"
+    },
+    {
+      "name": "target has the Grappled condition (escape DC 12)",
+      "text": ""
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/appendix-b/12-Creature Stat Blocks - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Appendix B: Creature Stat Blocks"
+  },
+  "notes": []
+}

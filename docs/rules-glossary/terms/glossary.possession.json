@@ -1,0 +1,19 @@
+{
+  "id": "glossary.possession",
+  "name": "Possession",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "Some effects cause a creature to be possessed by another creature or entity. A possessing effect defines how the possession operates. Possession can be prevented by the Protection from Evil and Good spell and ended by the Dispel Evil and Good spell."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

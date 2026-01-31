@@ -1,0 +1,19 @@
+{
+  "id": "glossary.sphere",
+  "name": "Sphere",
+  "tag": null,
+  "chapter": "rules-glossary",
+  "status": "complete",
+  "description": [
+    "An area of effect has a point of origin, a location from which the effect's energy erupts. The rules for each shape specify how to position its point of origin. If all straight lines extending from the point of origin to a location in the area of effect are blocked, that location isn't included in the area of effect. To block a line, an obstruction must provide Total Cover. See also \"Cover.\" If the creator of an area of effect places it at an unseen point and an obstruction—such as a wall—is between the creator and that point, the point of origin comes into being on the near side of the obstruction."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/rules-glossary/13-Rules Glossary - Player's Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Rules Glossary"
+  },
+  "notes": []
+}

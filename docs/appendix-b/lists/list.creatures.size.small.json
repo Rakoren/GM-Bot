@@ -1,0 +1,9 @@
+{
+  "id": "list.creatures.size.small",
+  "name": "Creatures (Size: Small)",
+  "chapter": "appendix-b",
+  "status": "complete",
+  "items": [
+    "creature.octopus"
+  ]
+}

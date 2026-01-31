@@ -1,0 +1,54 @@
+{
+  "id": "feat.sharpshooter",
+  "name": "Sharpshooter",
+  "chapter": 5,
+  "status": "complete",
+  "category": "General",
+  "repeatable": false,
+  "prerequisites": [
+    "Prerequisite: Level 4+, Dexterity 13+"
+  ],
+  "benefits": [
+    {
+      "name": "Ability Score Increase",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Increase your Dexterity score by 1, to a maximum of 20."
+      ]
+    },
+    {
+      "name": "Bypass Cover",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Your ranged attacks with weapons ignore Half Cover and Three-Quarters Cover."
+      ]
+    },
+    {
+      "name": "Firing in Melee",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Being within 5 feet of an enemy doesn't impose Disadvantage on your attack rolls with Ranged weapons."
+      ]
+    },
+    {
+      "name": "Long Shots",
+      "action_type": "none",
+      "trigger": "passive",
+      "effects": [
+        "Attacking at long range doesn't impose Disadvantage on your attack rolls with Ranged weapons."
+      ]
+    }
+  ],
+  "notes": [],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/06-chapter 5/07-Feats - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      14,
+      15
+    ],
+    "section": "Sharpshooter"
+  }
+}

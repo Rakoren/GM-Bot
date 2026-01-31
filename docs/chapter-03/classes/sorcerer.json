@@ -85,5 +85,33 @@
     "sorcerer.clockwork",
     "sorcerer.draconic",
     "sorcerer.wild_magic"
-  ]
+  ],
+  "starting_equipment": {
+    "options": [
+      {
+        "option": "A",
+        "items": [
+          "Spear",
+          "2 Daggers",
+          "Arcane Focus (crystal)"
+        ],
+        "pack_ref": "item.pack.dungeoneer",
+        "gp": 28
+      },
+      {
+        "option": "B",
+        "items": [],
+        "gp": 50
+      }
+    ],
+    "notes": []
+  },
+  "sourceRef": {
+    "file": "docs/sources/phb2024/04-chapter 3/05-Character Classes (Continued) - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      42,
+      59
+    ],
+    "section": "Character Classes"
+  }
 }

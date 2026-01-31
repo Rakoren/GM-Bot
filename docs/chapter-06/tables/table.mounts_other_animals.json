@@ -1,0 +1,62 @@
+{
+  "id": "table.mounts_other_animals",
+  "name": "Mounts and Other Animals",
+  "chapter": 6,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/08-chapter 6/08-Equipment - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      25,
+      26
+    ],
+    "section": "Mounts and Other Animals"
+  },
+  "columns": [
+    "item",
+    "carrying_capacity",
+    "cost"
+  ],
+  "entries": [
+    {
+      "item": "Camel",
+      "carrying_capacity": "450 lb.",
+      "cost": "50 GP"
+    },
+    {
+      "item": "Elephant",
+      "carrying_capacity": "1,320 lb.",
+      "cost": "200 GP"
+    },
+    {
+      "item": "Horse, Draft",
+      "carrying_capacity": "540 lb.",
+      "cost": "50 GP"
+    },
+    {
+      "item": "Horse, Riding",
+      "carrying_capacity": "480 lb.",
+      "cost": "75 GP"
+    },
+    {
+      "item": "Mastiff",
+      "carrying_capacity": "195 lb.",
+      "cost": "25 GP"
+    },
+    {
+      "item": "Mule",
+      "carrying_capacity": "420 lb.",
+      "cost": "8 GP"
+    },
+    {
+      "item": "Pony",
+      "carrying_capacity": "225 lb.",
+      "cost": "30 GP"
+    },
+    {
+      "item": "Warhorse",
+      "carrying_capacity": "540 lb.",
+      "cost": "400 GP"
+    }
+  ],
+  "notes": []
+}

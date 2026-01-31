@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "appendix-b",
+  "title": "appendix-b.validation.full",
+  "generated_at": "2026-01-31",
+
+  "validation_profile": "full",
+  "inputs": {
+    "manifest_path": "appendix-b/appendix-b.manifest.json"
+  },
+
+  "required_types": ["creature", "table", "list"],
+  "optional_types": [],
+
+  "checks": [
+    {
+      "id": "manifest.shards.unique_ids",
+      "type": "integrity",
+      "severity": "error",
+      "rule": "All shards[].id must be unique across the manifest."
+    },
+    {
+      "id": "manifest.shards.paths.present",
+      "type": "filesystem",
+      "severity": "error",
+      "rule": "Every shards[].path must exist on disk."
+    },
+    {
+      "id": "creature.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "creature" },
+      "rule": "Creature shard must include: id, name, chapter, status, abilities, traits, actions, sourceRef."
+    },
+    {
+      "id": "table.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "table" },
+      "rule": "Table shard must include: id, name, chapter, status, sourceRef, entries."
+    },
+    {
+      "id": "list.core_fields",
+      "type": "schema",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "List shard must include: id, name, chapter, status, items."
+    },
+    {
+      "id": "list.items.resolve",
+      "type": "reference",
+      "severity": "error",
+      "targets": { "type": "list" },
+      "rule": "Each list item must resolve to a shard id in the manifest."
+    }
+  ],
+
+  "outputs": {
+    "report_path": "appendix-b/validation.full.report.json",
+    "on_success": "pass",
+    "on_failure": "fail"
+  },
+
+  "notes": [
+    "Appendix B validation focuses on shard presence and required fields."
+  ]
+}

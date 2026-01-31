@@ -1,0 +1,35 @@
+{
+  "id": "spell.false_life",
+  "name": "False Life",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Necromancy",
+  "classes": [
+    "class.sorcerer",
+    "class.wizard"
+  ],
+  "casting_time": "Action",
+  "range": "Self",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a drop of alcohol"
+  },
+  "duration": "Instantaneous",
+  "description": [
+    "You gain 2d4 + 4 Temporary Hit Points. Using a Higher-Level Spell Slot. You gain 5 additional Temporary Hit Points for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

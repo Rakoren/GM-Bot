@@ -1,0 +1,33 @@
+{
+  "id": "spell.guiding_bolt",
+  "name": "Guiding Bolt",
+  "chapter": 7,
+  "status": "complete",
+  "level": 1,
+  "school": "Evocation",
+  "classes": [
+    "class.cleric"
+  ],
+  "casting_time": "Action",
+  "range": "120 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S"
+    ],
+    "material": null
+  },
+  "duration": "1 round",
+  "description": [
+    "You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage. Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      69
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

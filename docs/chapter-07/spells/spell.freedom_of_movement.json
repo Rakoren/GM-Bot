@@ -1,0 +1,37 @@
+{
+  "id": "spell.freedom_of_movement",
+  "name": "Freedom of Movement",
+  "chapter": 7,
+  "status": "complete",
+  "level": 4,
+  "school": "Abjuration",
+  "classes": [
+    "class.bard",
+    "class.cleric",
+    "class.druid",
+    "class.ranger"
+  ],
+  "casting_time": "Action",
+  "range": "Touch",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a leather strap"
+  },
+  "duration": "1 hour",
+  "description": [
+    "You touch a willing creature. For the duration, the target's movement is unaffected by Difficult Terrain, and spells and other magical effects can neither reduce the target's Speed nor cause the target to have the Paralyzed or Restrained conditions. The target also has a Swim Speed equal to its Speed. In addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the Grappled condition on it. Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      61
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}

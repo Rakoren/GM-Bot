@@ -1,0 +1,37 @@
+{
+  "id": "spell.water_walk",
+  "name": "Water Walk",
+  "chapter": 7,
+  "status": "complete",
+  "level": 3,
+  "school": "Transmutation",
+  "classes": [
+    "class.cleric",
+    "class.druid",
+    "class.ranger",
+    "class.sorcerer"
+  ],
+  "casting_time": "Action or Ritual",
+  "range": "30 feet",
+  "components": {
+    "flags": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "a piece of cork"
+  },
+  "duration": "1 hour",
+  "description": [
+    "This spell grants the ability to move across any liquid surface-such as water, acid, mud, snow, quicksand, or lava-as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration. An affected target must take a Bonus Action to pass from the liquid's surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below."
+  ],
+  "higher_level": null,
+  "sourceRef": {
+    "file": "docs/sources/phb2024/09-chapter7/10-Spell Descriptions - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [
+      157
+    ],
+    "section": "Spell Descriptions"
+  },
+  "notes": []
+}
