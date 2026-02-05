@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.special_facilities",
+  "name": "Special Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A Bastion starts with two special facilities the character qualifies for.",
+    "Each special facility can be chosen only once unless its description says otherwise.",
+    "Special facilities are gained through level advancement, not purchase.",
+    "At level 9 gain two more; at level 13 gain one more; at level 17 gain one more.",
+    "When gaining a level, the character can replace one special facility with another they qualify for."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Special Facilities"
+  },
+  "notes": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "table.dmg.chapter08.guest",
+  "name": "Guest",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "guest"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "guest": "An individual of great renown stays 7 days and leaves a letter of recommendation (see Marks of Prestige)."
+    },
+    {
+      "roll": "2",
+      "guest": "A seeker of sanctuary stays 7 days and gifts 1d6 × 100 GP."
+    },
+    {
+      "roll": "3",
+      "guest": "A mercenary grants one additional Bastion Defender and stays until dismissed or killed."
+    },
+    {
+      "roll": "4",
+      "guest": "A Friendly monster defends the Bastion once; you lose no Defenders that attack, then the monster leaves."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      351
+    ],
+    "section": "Guest"
+  },
+  "notes": []
+}
+

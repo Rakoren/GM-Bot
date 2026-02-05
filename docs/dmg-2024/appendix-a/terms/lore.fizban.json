@@ -1,0 +1,19 @@
+{
+  "id": "lore.fizban",
+  "name": "FIZBAN",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "In the Dragonlance setting, Bahamut-who is known there as Paladine-dwelled among mortals in human guise for a time, aiding the forces of good against Takhisis (see Tiamat). He appeared as a bumbling old mage named Fizban (FIZZ-ban) the Fabulous. GREAT MODRON MARCH, THE When the gears of the plane of Mechanus (see chapter 6) complete seventeen cycles-once every 289 years-the modron (MOE-dron) leader, Primus, sends a vast army of modrons across the Outer Planes. The purpose of this march is unclear. Most believe it to be a data-gathering mission meant to ascertain the current state of the cosmos, but some see it as reconnaissance aimed at some future act of conquest. The march is long and dangerous, and only a small number of modrons returns to Mechanus. The Great Modron March"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

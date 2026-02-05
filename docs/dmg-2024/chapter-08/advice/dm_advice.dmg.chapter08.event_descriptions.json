@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.event_descriptions",
+  "name": "Event Descriptions",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Use the event descriptions to resolve Bastion Events.",
+    "Events are listed in alphabetical order."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      350
+    ],
+    "section": "Event Descriptions"
+  },
+  "notes": []
+}
+

@@ -1,0 +1,19 @@
+{
+  "id": "lore.kyuss",
+  "name": "KYUSS",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "Variously identified as an Elder Evil, as a demigod, or as a mortal priest of the demon lord Orcus (see chapter 6), Kyuss (KYE-uss) is a mysterious figure best known as the Worm That Walks. Kyuss manifests on the Material Plane as a colossal mass of maggots and worms animated by a single evil will. Helge C. Balzer"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

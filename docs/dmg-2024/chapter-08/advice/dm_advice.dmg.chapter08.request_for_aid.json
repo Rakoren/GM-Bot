@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.request_for_aid",
+  "name": "Request for Aid",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A local leader requests help; you must dispatch one or more Bastion Defenders.",
+    "Roll 1d6 per Defender sent; total 10+ earns 1d6 × 100 GP.",
+    "If total is less than 10, reward is halved and one Defender dies."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      351
+    ],
+    "section": "Request for Aid"
+  },
+  "notes": []
+}
+

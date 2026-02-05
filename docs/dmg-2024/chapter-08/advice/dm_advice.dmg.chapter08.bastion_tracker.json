@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.bastion_tracker",
+  "name": "Bastion Tracker",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Use the Bastion Tracker sheet to record facilities and key Bastion details.",
+    "Encourage players to list hirelings and expand them as NPCs.",
+    "Use the tracker for facility space and keep maps separately."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      350
+    ],
+    "section": "Bastion Tracker"
+  },
+  "notes": []
+}
+

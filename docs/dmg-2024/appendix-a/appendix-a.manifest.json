@@ -1,0 +1,303 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "dmg-2024.appendix-a",
+  "title": "DMG 2024 - Appendix A: Lore Glossary",
+  "generated_at": "2026-02-05",
+  "paths": {
+    "tables_dir": "dmg-2024/appendix-a/tables",
+    "lists_dir": "dmg-2024/appendix-a/lists",
+    "terms_dir": "dmg-2024/appendix-a/terms"
+  },
+  "shards": [
+    {
+      "id": "table.dmg.appendix_a.index",
+      "type": "table",
+      "path": "dmg-2024/appendix-a/tables/table.dmg.appendix_a.index.json"
+    },
+    {
+      "id": "list.dmg.appendix_a.terms",
+      "type": "list",
+      "path": "dmg-2024/appendix-a/lists/list.dmg.appendix_a.terms.json"
+    },
+    {
+      "id": "lore.acererak",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.acererak.json"
+    },
+    {
+      "id": "lore.adamantine",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.adamantine.json"
+    },
+    {
+      "id": "lore.alustriel_silverhand",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.alustriel_silverhand.json"
+    },
+    {
+      "id": "lore.ashardalon",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.ashardalon.json"
+    },
+    {
+      "id": "lore.baba_yaga",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.baba_yaga.json"
+    },
+    {
+      "id": "lore.bahamut",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.bahamut.json"
+    },
+    {
+      "id": "lore.baldur_s_gate",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.baldur_s_gate.json"
+    },
+    {
+      "id": "lore.barovia",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.barovia.json"
+    },
+    {
+      "id": "lore.bigby",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.bigby.json"
+    },
+    {
+      "id": "lore.boo",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.boo.json"
+    },
+    {
+      "id": "lore.castle_ravenloft",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.castle_ravenloft.json"
+    },
+    {
+      "id": "lore.corellon",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.corellon.json"
+    },
+    {
+      "id": "lore.delina",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.delina.json"
+    },
+    {
+      "id": "lore.diancastra",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.diancastra.json"
+    },
+    {
+      "id": "lore.drizzt_do_urden",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.drizzt_do_urden.json"
+    },
+    {
+      "id": "lore.elder_evils",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.elder_evils.json"
+    },
+    {
+      "id": "lore.elminster",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.elminster.json"
+    },
+    {
+      "id": "lore.euryale",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.euryale.json"
+    },
+    {
+      "id": "lore.fizban",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.fizban.json"
+    },
+    {
+      "id": "lore.gruumsh",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.gruumsh.json"
+    },
+    {
+      "id": "lore.hadar",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.hadar.json"
+    },
+    {
+      "id": "lore.icewind_dale",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.icewind_dale.json"
+    },
+    {
+      "id": "lore.iggwilv",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.iggwilv.json"
+    },
+    {
+      "id": "lore.iuz",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.iuz.json"
+    },
+    {
+      "id": "lore.jallarzi_sallavarian",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.jallarzi_sallavarian.json"
+    },
+    {
+      "id": "lore.kas_the_betrayer",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.kas_the_betrayer.json"
+    },
+    {
+      "id": "lore.keraptis",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.keraptis.json"
+    },
+    {
+      "id": "lore.kyuss",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.kyuss.json"
+    },
+    {
+      "id": "lore.laeral_silverhand",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.laeral_silverhand.json"
+    },
+    {
+      "id": "lore.lord_soth",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.lord_soth.json"
+    },
+    {
+      "id": "lore.menzoberranzan",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.menzoberranzan.json"
+    },
+    {
+      "id": "lore.minsc",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.minsc.json"
+    },
+    {
+      "id": "lore.mithral",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.mithral.json"
+    },
+    {
+      "id": "lore.moradin",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.moradin.json"
+    },
+    {
+      "id": "lore.mordenkainen",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.mordenkainen.json"
+    },
+    {
+      "id": "lore.neverwinter",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.neverwinter.json"
+    },
+    {
+      "id": "lore.otiluke",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.otiluke.json"
+    },
+    {
+      "id": "lore.otto",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.otto.json"
+    },
+    {
+      "id": "lore.phandalin",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.phandalin.json"
+    },
+    {
+      "id": "lore.rudolph_van_richten",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.rudolph_van_richten.json"
+    },
+    {
+      "id": "lore.strahd_von_zarovich",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.strahd_von_zarovich.json"
+    },
+    {
+      "id": "lore.szass_tam",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.szass_tam.json"
+    },
+    {
+      "id": "lore.tasha",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.tasha.json"
+    },
+    {
+      "id": "lore.tharizdun",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.tharizdun.json"
+    },
+    {
+      "id": "lore.tiamat",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.tiamat.json"
+    },
+    {
+      "id": "lore.undermountain",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.undermountain.json"
+    },
+    {
+      "id": "lore.vajra_safahr",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.vajra_safahr.json"
+    },
+    {
+      "id": "lore.valor_s_call",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.valor_s_call.json"
+    },
+    {
+      "id": "lore.vecna",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.vecna.json"
+    },
+    {
+      "id": "lore.venger",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.venger.json"
+    },
+    {
+      "id": "lore.vlaakith",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.vlaakith.json"
+    },
+    {
+      "id": "lore.waterdeep",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.waterdeep.json"
+    },
+    {
+      "id": "lore.xanathar",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.xanathar.json"
+    },
+    {
+      "id": "lore.yolande",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.yolande.json"
+    },
+    {
+      "id": "lore.zagyg",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.zagyg.json"
+    },
+    {
+      "id": "lore.zargon",
+      "type": "glossary_term",
+      "path": "dmg-2024/appendix-a/terms/lore.zargon.json"
+    }
+  ]
+}

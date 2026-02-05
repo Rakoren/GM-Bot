@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter08.maintain",
+  "name": "Maintain",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "All hirelings focus on maintenance instead of executing facility orders.",
+    "Issuing Maintain prevents other orders that Bastion turn.",
+    "Each time Maintain is issued, the DM rolls once on the Bastion Events table.",
+    "Resolve Bastion events before the next Bastion turn."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "orders"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Maintain"
+  },
+  "notes": []
+}
+

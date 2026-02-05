@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.refugees",
+  "name": "Refugees",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "2d4 refugees seek refuge; they camp outside if no basic facility can house them.",
+    "They offer 1d6 × 100 GP for hospitality and protection.",
+    "They stay until rehomed or a hostile force attacks the Bastion."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      351
+    ],
+    "section": "Refugees"
+  },
+  "notes": []
+}
+

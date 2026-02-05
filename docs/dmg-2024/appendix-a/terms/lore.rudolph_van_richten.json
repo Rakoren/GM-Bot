@@ -1,0 +1,19 @@
+{
+  "id": "lore.rudolph_van_richten",
+  "name": "RUDOLPH VAN RICHTEN",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "A scholar and monster hunter, Rudolph van Richten has traveled to dozens of Domains of Dread in the Shadowfell (see chapter 6), investigating reports of monstrous beings and documenting them in a series of published guides, the best known of which is Van Richten's Guide to Vampires. In kinder days, Rudolph lived with his wife, Ingrid, and son, Erasmus, but he lost them both to a wicked vampire. In the process of hunting the vampire, Rudolph came under a terrible curse: \"Live you always among monsters, and see everyone you love die beneath their claws.\" In the decades since, van Richten has hunted monsters and armed others with the knowledge they need to confront evil. Though he's made many devoted allies, he keeps them at arm's length, fearing the threat of his curse. ✏ Van Richten is closely associated with other heroes who prowl the Domains of Dread, including the detective Alanik Ray and his partner Arthur Sedgwick, the explorer Ez d'Avenir, and the twins Gennifer and Laurie Weathermay-Foxgrove."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

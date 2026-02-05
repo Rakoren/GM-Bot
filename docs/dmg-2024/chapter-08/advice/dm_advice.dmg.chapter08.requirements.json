@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.requirements",
+  "name": "Requirements",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Each special facility has a minimum character level.",
+    "Some special facilities require prerequisites beyond level.",
+    "Example: Arcane Study requires the ability to use an Arcane Focus or a tool as a Spellcasting Focus."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Requirements"
+  },
+  "notes": []
+}
+

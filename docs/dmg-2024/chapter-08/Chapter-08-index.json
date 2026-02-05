@@ -6,7 +6,13 @@
     "table.dmg.chapter08.facility_space",
     "table.dmg.chapter08.basic_facilities",
     "table.dmg.chapter08.adding_basic_facilities",
-    "table.dmg.chapter08.enlarging_basic_facilities"
+    "table.dmg.chapter08.enlarging_basic_facilities",
+    "table.dmg.chapter08.special_facility_acquisition",
+    "table.dmg.chapter08.special_facilities",
+    "table.dmg.chapter08.bastion_events",
+    "table.dmg.chapter08.all_is_well_details",
+    "table.dmg.chapter08.guest",
+    "table.dmg.chapter08.treasure"
   ],
   "lists": [
     "list.dmg.chapter08.sections"
@@ -21,7 +27,36 @@
     "dm_advice.dmg.chapter08.facility_space",
     "dm_advice.dmg.chapter08.basic_facilities",
     "dm_advice.dmg.chapter08.adding_basic_facilities",
-    "dm_advice.dmg.chapter08.enlarging_basic_facilities"
+    "dm_advice.dmg.chapter08.enlarging_basic_facilities",
+    "dm_advice.dmg.chapter08.special_facilities",
+    "dm_advice.dmg.chapter08.special_facility_acquisition",
+    "dm_advice.dmg.chapter08.requirements",
+    "dm_advice.dmg.chapter08.space",
+    "dm_advice.dmg.chapter08.hirelings",
+    "dm_advice.dmg.chapter08.orders",
+    "dm_advice.dmg.chapter08.craft",
+    "dm_advice.dmg.chapter08.empower",
+    "dm_advice.dmg.chapter08.harvest",
+    "dm_advice.dmg.chapter08.maintain",
+    "dm_advice.dmg.chapter08.recruit",
+    "dm_advice.dmg.chapter08.research",
+    "dm_advice.dmg.chapter08.trade",
+    "dm_advice.dmg.chapter08.special_facility_descriptions",
+    "dm_advice.dmg.chapter08.bastion_events",
+    "dm_advice.dmg.chapter08.event_descriptions",
+    "dm_advice.dmg.chapter08.all_is_well",
+    "dm_advice.dmg.chapter08.bastion_tracker",
+    "dm_advice.dmg.chapter08.attack",
+    "dm_advice.dmg.chapter08.criminal_hireling",
+    "dm_advice.dmg.chapter08.extraordinary_opportunity",
+    "dm_advice.dmg.chapter08.friendly_visitors",
+    "dm_advice.dmg.chapter08.guest",
+    "dm_advice.dmg.chapter08.lost_hirelings",
+    "dm_advice.dmg.chapter08.magical_discovery",
+    "dm_advice.dmg.chapter08.refugees",
+    "dm_advice.dmg.chapter08.request_for_aid",
+    "dm_advice.dmg.chapter08.treasure",
+    "dm_advice.dmg.chapter08.fall_of_a_bastion"
   ],
   "procedures": []
 }

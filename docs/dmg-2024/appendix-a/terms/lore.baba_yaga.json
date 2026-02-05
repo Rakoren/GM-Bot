@@ -1,0 +1,19 @@
+{
+  "id": "lore.baba_yaga",
+  "name": "BABA YAGA",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "BABA YAGA (BAH-bah YAH-gah) is an arch-hag known as the Mother of All Witches. She is also the adoptive mother of Iggwilv. Baba Yaga is famous for her chicken-legged hut, in which she travels across the planes of the multiverse. This impatient, foul-tempered hag is a font of knowledge about all things magical."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

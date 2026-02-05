@@ -1,0 +1,19 @@
+{
+  "id": "lore.strahd_von_zarovich",
+  "name": "STRAHD VON ZAROVICH",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "A brilliant thinker and capable warrior in life, Strahd von Zarovich (STRAWD von zuh-ROH-vitch or ZAR-oh-vitch) fought in countless battles for his people. After a long life of warfare and slaughter, he settled in the remote valley of Barovia and built a castle on a towering pinnacle. His brother Sergei came to live with him in Castle Ravenloft, becoming Strahd's adviser and constant companion. In his brother, Strahd saw everything he was not. Resentment colored their relationship and eventually turned into hatred. Strahd's beloved, Tatyana, spurned Strahd for Sergei, whom she pledged to marry. In a desperate attempt to regain Tatyana's love, Strahd forged a pact with dark powers that made him immortal. Strahd confronted his brother at Sergei and Tatyana's wedding and killed him. Tatyana fled and flung herself from Ravenloft's walls. Guards shot Strahd with arrows, but he didn't die. He became a vampire-the first vampire, according to many sages. In the centuries since his transformation, Strahd's lust for life has grown. He broods in his castle, cursing the living for all he has lost and never admitting to his role in the tragedy. Titania, the Summer Queen, is the regal and charismatic ruler of the Summer Court in the Feywild (see chapter 6). Perhaps the mightiest of the archfey, she can ripen a crop with a smile and summon wildfires with the merest crinkling of her brow. The Sword Coast is the western edge of the continent of the Forgotten Realms setting, running along the Sea of Swords. It's a narrow band of territory dominated by several major city-states, from Neverwinter in the north to Baldur's Gate in the south, with Waterdeep in between."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lore.minsc",
+  "name": "MINSC",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "MINSC (MINSK) is a heroic Ranger from the land of Rashemen in the Forgotten Realms setting. Known for his good cheer, his hearty optimism, and his pet miniature giant space hamster, Boo, Minsc is particularly adored in the city of Baldur's Gate."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

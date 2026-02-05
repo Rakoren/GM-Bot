@@ -1,0 +1,19 @@
+{
+  "id": "lore.boo",
+  "name": "BOO",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "Boo is a hamster. More precisely, he is a miniature giant space hamster, a species native to Wildspace (see chapter 6) that is both sapient and telepathic. Boo's adventures with Minsc, as well as the hamster's ferocity, have given Boo legendary status, particularly in the city of Baldur's Gate."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

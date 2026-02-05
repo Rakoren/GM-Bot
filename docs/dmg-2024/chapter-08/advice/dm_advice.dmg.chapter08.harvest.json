@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.harvest",
+  "name": "Harvest",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Hirelings gather a resource produced in the facility.",
+    "During the harvesting time, the facility can't harvest anything else.",
+    "This restriction applies even if a special ability allows two orders at once."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "orders"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Harvest"
+  },
+  "notes": []
+}
+

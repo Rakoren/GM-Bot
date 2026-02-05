@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter08.craft",
+  "name": "Craft",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Hirelings craft an item that can be made in that facility.",
+    "During the crafting time, the facility can't craft anything else.",
+    "This restriction applies even if a special ability allows two orders at once.",
+    "Hirelings use Artisan's Tools as specified in the facility description."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "orders"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Craft"
+  },
+  "notes": []
+}
+

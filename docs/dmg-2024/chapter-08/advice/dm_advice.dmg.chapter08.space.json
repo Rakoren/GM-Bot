@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.space",
+  "name": "Space",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A special facility occupies facility space as defined in the Facility Space table.",
+    "Players can configure the facility's squares on the Bastion map.",
+    "A special facility can be enlarged only if its description allows it."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Space"
+  },
+  "notes": []
+}
+

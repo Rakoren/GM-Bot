@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.all_is_well",
+  "name": "All Is Well",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Nothing significant happens; roll on the All Is Well details table.",
+    "Flesh out the detail to fit the Bastion."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      350
+    ],
+    "section": "All Is Well"
+  },
+  "notes": []
+}
+

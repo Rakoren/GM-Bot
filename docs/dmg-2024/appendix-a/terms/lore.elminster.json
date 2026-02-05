@@ -1,0 +1,19 @@
+{
+  "id": "lore.elminster",
+  "name": "ELMINSTER",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "ELMINSTER (el-MIN-ster) is a powerful and ancient archmage in the Forgotten Realms setting. As one of Mystra's Chosen, divinely called and empowered by a deity of magic, Elminster fosters magic and protects the fabric of magic in the world. Though this responsibility demands a certain amount of neutrality and dispassionate judgment, Elminster has a fundamentally kind and compassionate heart."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

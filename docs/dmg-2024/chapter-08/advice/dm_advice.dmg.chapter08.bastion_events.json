@@ -1,0 +1,27 @@
+{
+  "id": "dm_advice.dmg.chapter08.bastion_events",
+  "name": "Bastion Events",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "After issuing Maintain, roll once on the Bastion Events table for that Bastion.",
+    "If multiple characters issue Maintain in the same turn, roll separately for each.",
+    "Events resolve immediately with the player and DM fleshing out details.",
+    "Events occur only when the Bastion is under Maintain, often when the owner is away.",
+    "Let players roleplay hirelings reacting to events; consider cutscenes."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      350
+    ],
+    "section": "Bastion Events"
+  },
+  "notes": []
+}
+

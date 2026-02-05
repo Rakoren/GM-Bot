@@ -1,0 +1,19 @@
+{
+  "id": "lore.castle_ravenloft",
+  "name": "CASTLE RAVENLOFT",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "CASTLE RAVENLOFT (RAY-ven-loft) is the heart of the domain of Barovia and the home of the vampire Strahd von Zarovich. Ravenloft is also one of the most famous dungeon adventures in the history of the D&D game, providing a horror-themed experience that inspired the creation of the Ravenloft setting and the adventure Curse of Strahd. COMPANIONS OF THE HALL, THE Named for the dwarf stronghold of Mithral Hall in the Forgotten Realms setting, the Companions of the Hall is a group of heroic adventurers whose exploits have spanned centuries and even crossed the bounds of death. Drizzt Do'Urden is the central figure in this party; all his companions have died and been reincarnated in new forms in recent years. These other companions are Drizzt's wife, Cattie-Brie; his adoptive father, Bruenor Battlehammer; and his friends Wulfgar and Regis. COMPANY OF SEVEN, THE The Company of Seven was a group of adventurers active hundreds of years ago in the Greyhawk setting. Its members included Heward, Keoghtom, Murlynd, Nolzur, Quaal, Tasha (see Iggwilv), and Zagig (see Zagyg). Some of these adventurers achieved near-divine status, and most of them are remembered for magic items that carry their names. The group inspired the formation of the Circle of Eight (described in chapter 5)."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

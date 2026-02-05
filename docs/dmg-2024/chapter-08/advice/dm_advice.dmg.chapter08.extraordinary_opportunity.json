@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.extraordinary_opportunity",
+  "name": "Extraordinary Opportunity",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "An opportunity arises (festival, research patronage, or appeasing a noble).",
+    "If accepted, pay 500 GP and gain attention; roll again on the Bastion Events table (reroll this result).",
+    "If declined, nothing else happens."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      351
+    ],
+    "section": "Extraordinary Opportunity"
+  },
+  "notes": []
+}
+

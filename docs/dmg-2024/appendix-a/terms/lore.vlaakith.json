@@ -1,0 +1,19 @@
+{
+  "id": "lore.vlaakith",
+  "name": "VLAAKITH",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "VLAAKITH (VLAH-kith) is the lich-queen of the githyanki city of Tu'narath, adrift in the Astral Plane (see chapter 6). She is ancient, having fought alongside a leader named Gith to win her people's freedom from the mind flayers that enslaved them. Githyanki of Tu'narath swear unquestioning obedience to the lichqueen, and she promises access to paradise to those who serve her loyally. In truth, she feasts on the souls of any subjects who grow powerful enough to dream of challenging her."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

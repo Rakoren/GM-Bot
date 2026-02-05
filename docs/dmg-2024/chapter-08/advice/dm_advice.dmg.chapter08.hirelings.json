@@ -1,0 +1,27 @@
+{
+  "id": "dm_advice.dmg.chapter08.hirelings",
+  "name": "Hirelings",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Each special facility comes with one or more hirelings who work there.",
+    "Hirelings maintain the facility and execute Bastion orders.",
+    "Players can name and characterize hirelings using NPC creation tools.",
+    "Each special facility generates enough income to pay its hirelings.",
+    "Hirelings follow orders and are loyal to the Bastion owner."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "hirelings"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Hirelings"
+  },
+  "notes": []
+}
+

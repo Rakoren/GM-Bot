@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.magical_discovery",
+  "name": "Magical Discovery",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Hirelings discover or accidentally create one Uncommon magic item.",
+    "The item must be a Potion or Scroll.",
+    "The item costs the Bastion nothing."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      351
+    ],
+    "section": "Magical Discovery"
+  },
+  "notes": []
+}
+

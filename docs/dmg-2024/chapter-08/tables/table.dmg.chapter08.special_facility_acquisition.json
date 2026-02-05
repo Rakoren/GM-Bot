@@ -1,0 +1,37 @@
+{
+  "id": "table.dmg.chapter08.special_facility_acquisition",
+  "name": "Special Facility Acquisition",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "level",
+    "special_facilities"
+  ],
+  "entries": [
+    {
+      "level": 5,
+      "special_facilities": 2
+    },
+    {
+      "level": 9,
+      "special_facilities": 4
+    },
+    {
+      "level": 13,
+      "special_facilities": 5
+    },
+    {
+      "level": 17,
+      "special_facilities": 6
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Special Facility Acquisition"
+  },
+  "notes": []
+}
+

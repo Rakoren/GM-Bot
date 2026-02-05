@@ -1,0 +1,19 @@
+{
+  "id": "lore.acererak",
+  "name": "ACERERAK",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "ACERERAK (ah-SAIR-er-rack) is a powerful lich who travels between worlds and takes pleasure in devouring the souls of adventurers, whom he lures into trapridden dungeons to suffer horrible deaths. The most famous of such dungeons is the Tomb of Horrors, hidden in the Vast Swamp in the Greyhawk setting (see \"Greyhawk Gazetteer\" in chapter 5); another lies under the lost city of Omu in the jungles of Chult in the Forgotten Realms setting (described in the adventure Tomb of Annihilation)."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

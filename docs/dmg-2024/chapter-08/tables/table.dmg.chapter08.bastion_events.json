@@ -1,0 +1,65 @@
+{
+  "id": "table.dmg.chapter08.bastion_events",
+  "name": "Bastion Events",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "event"
+  ],
+  "entries": [
+    {
+      "roll": "01-50",
+      "event": "All Is Well"
+    },
+    {
+      "roll": "51-55",
+      "event": "Attack"
+    },
+    {
+      "roll": "56-58",
+      "event": "Criminal Hireling"
+    },
+    {
+      "roll": "59-63",
+      "event": "Extraordinary Opportunity"
+    },
+    {
+      "roll": "64-72",
+      "event": "Friendly Visitors"
+    },
+    {
+      "roll": "73-76",
+      "event": "Guest"
+    },
+    {
+      "roll": "77-79",
+      "event": "Lost Hirelings"
+    },
+    {
+      "roll": "80-83",
+      "event": "Magical Discovery"
+    },
+    {
+      "roll": "84-91",
+      "event": "Refugees"
+    },
+    {
+      "roll": "92-98",
+      "event": "Request for Aid"
+    },
+    {
+      "roll": "99-00",
+      "event": "Treasure"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      350
+    ],
+    "section": "Bastion Events"
+  },
+  "notes": []
+}
+

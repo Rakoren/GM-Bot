@@ -1,0 +1,48 @@
+{
+  "id": "table.dmg.chapter08.treasure",
+  "name": "Treasure",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "treasure"
+  ],
+  "entries": [
+    {
+      "roll": "01-40",
+      "treasure": "Roll on the 25 GP Art Objects table."
+    },
+    {
+      "roll": "41-63",
+      "treasure": "Roll on the 250 GP Art Objects table."
+    },
+    {
+      "roll": "64-73",
+      "treasure": "Roll on the 750 GP Art Objects table."
+    },
+    {
+      "roll": "74-75",
+      "treasure": "Roll on the 2,500 GP Art Objects table."
+    },
+    {
+      "roll": "76-90",
+      "treasure": "Roll on a Common Magic Items table of your choice (Arcana, Armaments, Implements, or Relics)."
+    },
+    {
+      "roll": "91-98",
+      "treasure": "Roll on an Uncommon Magic Items table of your choice (Arcana, Armaments, Implements, or Relics)."
+    },
+    {
+      "roll": "99-00",
+      "treasure": "Roll on a Rare Magic Items table of your choice (Arcana, Armaments, Implements, or Relics)."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      352
+    ],
+    "section": "Treasure"
+  },
+  "notes": []
+}

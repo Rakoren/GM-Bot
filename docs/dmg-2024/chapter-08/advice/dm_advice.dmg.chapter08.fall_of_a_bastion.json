@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.fall_of_a_bastion",
+  "name": "Fall of a Bastion",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A Bastion can be lost by divestiture, neglect, or ruination (Deck of Many Things).",
+    "After loss, the player can establish a new Bastion with the DM.",
+    "Use the Special Facility Acquisition table to determine starting special facilities.",
+    "The new Bastion starts with two basic facilities: one Cramped and one Roomy."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      352
+    ],
+    "section": "Fall of a Bastion"
+  },
+  "notes": []
+}

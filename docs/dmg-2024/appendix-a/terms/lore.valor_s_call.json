@@ -1,0 +1,19 @@
+{
+  "id": "lore.valor_s_call",
+  "name": "VALOR'S CALL",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "The noble adventuring party known as Valor's Call was founded by Strongheart, a resolute human Paladin committed to destroying evil wherever it rears its head. Strongheart alone determines who can become a member of this prestigious group, and he is always looking for courageous heroes willing to devote themselves to a good cause. Only good-aligned characters can join Valor's Call. The group enjoys the patronage of Yolande, the queen of Celene, and carries out missions on her behalf both in the Greyhawk setting (see chapter 5) and in the Feywild (see chapter 6). Prominent members of Valor's Call include the dwarf Fighter Elkhorn, the human Cleric Mercion, the human Rogue Molliver, and the human Wizard Ringlerun."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

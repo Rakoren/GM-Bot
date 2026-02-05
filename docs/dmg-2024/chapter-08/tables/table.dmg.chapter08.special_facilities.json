@@ -1,0 +1,198 @@
+{
+  "id": "table.dmg.chapter08.special_facilities",
+  "name": "Special Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "level",
+    "special_facility",
+    "prerequisite",
+    "order"
+  ],
+  "entries": [
+    {
+      "level": 5,
+      "special_facility": "Arcane Study",
+      "prerequisite": "Ability to use an Arcane Focus or a tool as a Spellcasting Focus",
+      "order": "Craft"
+    },
+    {
+      "level": 5,
+      "special_facility": "Armory",
+      "prerequisite": "None",
+      "order": "Trade"
+    },
+    {
+      "level": 5,
+      "special_facility": "Barrack",
+      "prerequisite": "None",
+      "order": "Recruit"
+    },
+    {
+      "level": 5,
+      "special_facility": "Garden",
+      "prerequisite": "None",
+      "order": "Harvest"
+    },
+    {
+      "level": 5,
+      "special_facility": "Library",
+      "prerequisite": "None",
+      "order": "Research"
+    },
+    {
+      "level": 5,
+      "special_facility": "Sanctuary",
+      "prerequisite": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+      "order": "Craft"
+    },
+    {
+      "level": 5,
+      "special_facility": "Smithy",
+      "prerequisite": "None",
+      "order": "Craft"
+    },
+    {
+      "level": 5,
+      "special_facility": "Storehouse",
+      "prerequisite": "None",
+      "order": "Trade"
+    },
+    {
+      "level": 5,
+      "special_facility": "Workshop",
+      "prerequisite": "None",
+      "order": "Craft"
+    },
+    {
+      "level": 9,
+      "special_facility": "Gaming Hall",
+      "prerequisite": "None",
+      "order": "Trade"
+    },
+    {
+      "level": 9,
+      "special_facility": "Greenhouse",
+      "prerequisite": "None",
+      "order": "Harvest"
+    },
+    {
+      "level": 9,
+      "special_facility": "Laboratory",
+      "prerequisite": "None*",
+      "order": "Craft"
+    },
+    {
+      "level": 9,
+      "special_facility": "Sacristy",
+      "prerequisite": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+      "order": "Craft"
+    },
+    {
+      "level": 9,
+      "special_facility": "Scriptorium",
+      "prerequisite": "None*",
+      "order": "Craft"
+    },
+    {
+      "level": 9,
+      "special_facility": "Stable",
+      "prerequisite": "None",
+      "order": "Trade"
+    },
+    {
+      "level": 9,
+      "special_facility": "Teleportation Circle",
+      "prerequisite": "None",
+      "order": "Recruit"
+    },
+    {
+      "level": 9,
+      "special_facility": "Theater",
+      "prerequisite": "None",
+      "order": "Empower"
+    },
+    {
+      "level": 9,
+      "special_facility": "Training Area",
+      "prerequisite": "None",
+      "order": "Empower"
+    },
+    {
+      "level": 9,
+      "special_facility": "Trophy Room",
+      "prerequisite": "None",
+      "order": "Research"
+    },
+    {
+      "level": 13,
+      "special_facility": "Archive",
+      "prerequisite": "None",
+      "order": "Research"
+    },
+    {
+      "level": 13,
+      "special_facility": "Meditation Chamber",
+      "prerequisite": "None",
+      "order": "Empower"
+    },
+    {
+      "level": 13,
+      "special_facility": "Menagerie",
+      "prerequisite": "None",
+      "order": "Recruit"
+    },
+    {
+      "level": 13,
+      "special_facility": "Observatory",
+      "prerequisite": "Ability to use a Spellcasting Focus",
+      "order": "Empower"
+    },
+    {
+      "level": 13,
+      "special_facility": "Pub",
+      "prerequisite": "None",
+      "order": "Research"
+    },
+    {
+      "level": 13,
+      "special_facility": "Reliquary",
+      "prerequisite": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+      "order": "Harvest"
+    },
+    {
+      "level": 17,
+      "special_facility": "Demiplane",
+      "prerequisite": "Ability to use an Arcane Focus or a tool as a Spellcasting Focus",
+      "order": "Empower"
+    },
+    {
+      "level": 17,
+      "special_facility": "Guildhall",
+      "prerequisite": "Expertise in a skill",
+      "order": "Recruit"
+    },
+    {
+      "level": 17,
+      "special_facility": "Sanctum",
+      "prerequisite": "Ability to use a Holy Symbol or Druidic Focus as a Spellcasting Focus",
+      "order": "Empower"
+    },
+    {
+      "level": 17,
+      "special_facility": "War Room",
+      "prerequisite": "Fighting Style feature or Unarmored Defense feature",
+      "order": "Recruit"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      336
+    ],
+    "section": "Special Facilities"
+  },
+  "notes": [
+    "*Certain orders that can be issued to these facilities have additional prerequisites."
+  ]
+}

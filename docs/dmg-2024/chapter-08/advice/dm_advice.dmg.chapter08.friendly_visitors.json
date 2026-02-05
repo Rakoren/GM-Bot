@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.friendly_visitors",
+  "name": "Friendly Visitors",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Visitors request brief use of a special facility and offer 1d6 × 100 GP.",
+    "Their use does not interrupt orders already issued to the facility."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      351
+    ],
+    "section": "Friendly Visitors"
+  },
+  "notes": []
+}
+

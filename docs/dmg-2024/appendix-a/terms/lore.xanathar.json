@@ -1,0 +1,19 @@
+{
+  "id": "lore.xanathar",
+  "name": "XANATHAR",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "XANATHAR (ZAN-a-thar) is an eccentric beholder crime lord dwelling beneath Waterdeep. Desiring to know all there is to know, Xanathar collects knowledge from across the multiverse, but its most prized possession is its goldfish, Sylgar. Xanathar is a tyrannical crime lord as well as a beholder The Yawning Portal is a tavern in Waterdeep, built around an entrance to the infamous dungeon of Undermountain. Adventurers throughout the Forgotten Realms setting and elsewhere in the multiverse visit the Yawning Portal to exchange knowledge about Undermountain and other dungeons. Most visitors are content to swap stories by the hearth, but some adventurers pay the toll for entry into Undermountain (collected by the mysterious owner and bartender, Durnan)."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

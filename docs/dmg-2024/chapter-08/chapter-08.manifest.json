@@ -71,6 +71,151 @@
       "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.enlarging_basic_facilities.json"
     },
     {
+      "id": "dm_advice.dmg.chapter08.special_facilities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.special_facilities.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.special_facility_acquisition",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.special_facility_acquisition.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.requirements",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.requirements.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.space",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.space.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.hirelings",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.hirelings.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.orders",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.orders.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.craft",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.craft.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.empower",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.empower.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.harvest",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.harvest.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.maintain",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.maintain.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.recruit",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.recruit.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.research",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.research.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.trade",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.trade.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.special_facility_descriptions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.special_facility_descriptions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.bastion_events",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.bastion_events.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.event_descriptions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.event_descriptions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.all_is_well",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.all_is_well.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.bastion_tracker",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.bastion_tracker.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.attack",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.attack.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.criminal_hireling",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.criminal_hireling.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.extraordinary_opportunity",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.extraordinary_opportunity.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.friendly_visitors",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.friendly_visitors.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.guest",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.guest.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.lost_hirelings",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.lost_hirelings.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.magical_discovery",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.magical_discovery.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.refugees",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.refugees.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.request_for_aid",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.request_for_aid.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.treasure",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.treasure.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.fall_of_a_bastion",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.fall_of_a_bastion.json"
+    },
+    {
       "id": "table.dmg.chapter08.facility_space",
       "type": "table",
       "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.facility_space.json"
@@ -89,6 +234,36 @@
       "id": "table.dmg.chapter08.enlarging_basic_facilities",
       "type": "table",
       "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.enlarging_basic_facilities.json"
+    },
+    {
+      "id": "table.dmg.chapter08.special_facility_acquisition",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.special_facility_acquisition.json"
+    },
+    {
+      "id": "table.dmg.chapter08.special_facilities",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.special_facilities.json"
+    },
+    {
+      "id": "table.dmg.chapter08.bastion_events",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.bastion_events.json"
+    },
+    {
+      "id": "table.dmg.chapter08.all_is_well_details",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.all_is_well_details.json"
+    },
+    {
+      "id": "table.dmg.chapter08.guest",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.guest.json"
+    },
+    {
+      "id": "table.dmg.chapter08.treasure",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.treasure.json"
     }
   ]
 }

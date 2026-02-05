@@ -1,0 +1,53 @@
+{
+  "id": "table.dmg.chapter08.all_is_well_details",
+  "name": "All Is Well Details",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "detail"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "detail": "Accident reports are way down."
+    },
+    {
+      "roll": "2",
+      "detail": "The leak in the roof has been fixed."
+    },
+    {
+      "roll": "3",
+      "detail": "No vermin infestations to report."
+    },
+    {
+      "roll": "4",
+      "detail": "You-Know-Who lost their spectacles again."
+    },
+    {
+      "roll": "5",
+      "detail": "One of your hirelings adopted a stray dog."
+    },
+    {
+      "roll": "6",
+      "detail": "You received a lovely letter from a friend."
+    },
+    {
+      "roll": "7",
+      "detail": "Some practical joker has been putting rotten eggs in people's boots."
+    },
+    {
+      "roll": "8",
+      "detail": "Someone thought they saw a ghost."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      350
+    ],
+    "section": "All Is Well"
+  },
+  "notes": []
+}
+

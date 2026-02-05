@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter08.orders",
+  "name": "Orders",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "On a Bastion turn, a character in their Bastion can issue Bastion orders to special facilities.",
+    "Orders are optional; a character needn't issue orders to all facilities each turn.",
+    "Maintain is issued to the whole Bastion, not a single facility.",
+    "If the owner isn't present, the Bastion defaults to Maintain unless they can communicate via Sending or similar magic."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "orders"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Orders"
+  },
+  "notes": []
+}
+

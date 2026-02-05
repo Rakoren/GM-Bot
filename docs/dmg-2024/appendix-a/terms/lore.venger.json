@@ -1,0 +1,19 @@
+{
+  "id": "lore.venger",
+  "name": "VENGER",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "VENGER (VEN-jur) was once both human and good-hearted, but some fiendish force transformed him into a winged, one-horned villain. His schemes have spanned centuries and worlds, as he seeks to seize ever-increasing magical power. He has a particular loathing for Tiamat and longs to overthrow her. He is often seen astride a flying black steed, his shadowy adviser in tow. VI ✏ Vi (VYE) is a gnome artificer, entrepreneur, and traveler of many worlds who originally hails from Eberron. After helping to create terribly destructive weapons during the Last War, Vi sought to atone for this guilt by establishing the Fixers, an organization dedicated to solving apparently hopeless problems. From the Fixers' headquarters in Sigil, Vi has brought her genius, warm heart, and love for a stiff drink to many worlds across the multiverse."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

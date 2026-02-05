@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "dmg-2024.appendix-c",
+  "title": "DMG 2024 - Appendix C: Tracking Sheets",
+  "generated_at": "2026-02-05",
+  "paths": {
+    "html_dir": "dmg-2024/appendix-c/html"
+  },
+  "assets": [
+    {
+      "id": "html.appendix_c.index",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/index.html"
+    },
+    {
+      "id": "html.appendix_c.game_expectations",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/game-expectations.html"
+    },
+    {
+      "id": "html.appendix_c.travel_planner",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/travel-planner.html"
+    },
+    {
+      "id": "html.appendix_c.npc_tracker",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/npc-tracker.html"
+    },
+    {
+      "id": "html.appendix_c.settlement_tracker",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/settlement-tracker.html"
+    },
+    {
+      "id": "html.appendix_c.campaign_journal",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/campaign-journal.html"
+    },
+    {
+      "id": "html.appendix_c.dm_character_tracker",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/dm-character-tracker.html"
+    },
+    {
+      "id": "html.appendix_c.campaign_conflicts",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/campaign-conflicts.html"
+    },
+    {
+      "id": "html.appendix_c.magic_item_tracker",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/magic-item-tracker.html"
+    },
+    {
+      "id": "html.appendix_c.bastion_tracker",
+      "type": "html",
+      "path": "dmg-2024/appendix-c/html/bastion-tracker.html"
+    }
+  ],
+  "notes": [
+    "Appendix C is distributed as printable HTML sheets."
+  ]
+}

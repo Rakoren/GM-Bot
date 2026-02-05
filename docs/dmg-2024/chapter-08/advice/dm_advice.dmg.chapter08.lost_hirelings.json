@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.lost_hirelings",
+  "name": "Lost Hirelings",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A random special facility loses its hirelings.",
+    "That facility can't be used on the next Bastion turn.",
+    "Hirelings are replaced at no cost afterward."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      351
+    ],
+    "section": "Lost Hirelings"
+  },
+  "notes": []
+}
+

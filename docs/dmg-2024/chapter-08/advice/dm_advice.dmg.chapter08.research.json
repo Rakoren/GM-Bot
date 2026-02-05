@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter08.research",
+  "name": "Research",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Hirelings gather information on a topic you specify."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "orders"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Research"
+  },
+  "notes": []
+}
+

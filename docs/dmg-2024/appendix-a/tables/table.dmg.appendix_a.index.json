@@ -1,0 +1,431 @@
+{
+  "id": "table.dmg.appendix_a.index",
+  "name": "Appendix A Lore Glossary Index",
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "columns": [
+    "id",
+    "name",
+    "tag"
+  ],
+  "entries": [
+    {
+      "id": "lore.acererak",
+      "name": "ACERERAK",
+      "tag": null
+    },
+    {
+      "id": "lore.adamantine",
+      "name": "ADAMANTINE",
+      "tag": null
+    },
+    {
+      "id": "lore.alustriel_silverhand",
+      "name": "ALUSTRIEL SILVERHAND",
+      "tag": null
+    },
+    {
+      "id": "lore.ashardalon",
+      "name": "ASHARDALON",
+      "tag": null
+    },
+    {
+      "id": "lore.baba_yaga",
+      "name": "BABA YAGA",
+      "tag": null
+    },
+    {
+      "id": "lore.bahamut",
+      "name": "BAHAMUT",
+      "tag": null
+    },
+    {
+      "id": "lore.baldur_s_gate",
+      "name": "BALDUR'S GATE",
+      "tag": null
+    },
+    {
+      "id": "lore.barovia",
+      "name": "BAROVIA",
+      "tag": null
+    },
+    {
+      "id": "lore.bigby",
+      "name": "BIGBY",
+      "tag": null
+    },
+    {
+      "id": "lore.boo",
+      "name": "BOO",
+      "tag": null
+    },
+    {
+      "id": "lore.castle_ravenloft",
+      "name": "CASTLE RAVENLOFT",
+      "tag": null
+    },
+    {
+      "id": "lore.corellon",
+      "name": "CORELLON",
+      "tag": null
+    },
+    {
+      "id": "lore.delina",
+      "name": "DELINA",
+      "tag": null
+    },
+    {
+      "id": "lore.diancastra",
+      "name": "DIANCASTRA",
+      "tag": null
+    },
+    {
+      "id": "lore.drizzt_do_urden",
+      "name": "DRIZZT DO'URDEN",
+      "tag": null
+    },
+    {
+      "id": "lore.elder_evils",
+      "name": "ELDER EVILS",
+      "tag": null
+    },
+    {
+      "id": "lore.elminster",
+      "name": "ELMINSTER",
+      "tag": null
+    },
+    {
+      "id": "lore.euryale",
+      "name": "EURYALE",
+      "tag": null
+    },
+    {
+      "id": "lore.fizban",
+      "name": "FIZBAN",
+      "tag": null
+    },
+    {
+      "id": "lore.gruumsh",
+      "name": "GRUUMSH",
+      "tag": null
+    },
+    {
+      "id": "lore.hadar",
+      "name": "HADAR",
+      "tag": null
+    },
+    {
+      "id": "lore.icewind_dale",
+      "name": "ICEWIND DALE",
+      "tag": null
+    },
+    {
+      "id": "lore.iggwilv",
+      "name": "IGGWILV",
+      "tag": null
+    },
+    {
+      "id": "lore.iuz",
+      "name": "IUZ",
+      "tag": null
+    },
+    {
+      "id": "lore.jallarzi_sallavarian",
+      "name": "JALLARZI SALLAVARIAN",
+      "tag": null
+    },
+    {
+      "id": "lore.kas_the_betrayer",
+      "name": "KAS THE BETRAYER",
+      "tag": null
+    },
+    {
+      "id": "lore.keraptis",
+      "name": "KERAPTIS",
+      "tag": null
+    },
+    {
+      "id": "lore.kyuss",
+      "name": "KYUSS",
+      "tag": null
+    },
+    {
+      "id": "lore.laeral_silverhand",
+      "name": "LAERAL SILVERHAND",
+      "tag": null
+    },
+    {
+      "id": "lore.lord_soth",
+      "name": "LORD SOTH",
+      "tag": null
+    },
+    {
+      "id": "lore.menzoberranzan",
+      "name": "MENZOBERRANZAN",
+      "tag": null
+    },
+    {
+      "id": "lore.minsc",
+      "name": "MINSC",
+      "tag": null
+    },
+    {
+      "id": "lore.mithral",
+      "name": "MITHRAL",
+      "tag": null
+    },
+    {
+      "id": "lore.moradin",
+      "name": "MORADIN",
+      "tag": null
+    },
+    {
+      "id": "lore.mordenkainen",
+      "name": "MORDENKAINEN",
+      "tag": null
+    },
+    {
+      "id": "lore.neverwinter",
+      "name": "NEVERWINTER",
+      "tag": null
+    },
+    {
+      "id": "lore.otiluke",
+      "name": "OTILUKE",
+      "tag": null
+    },
+    {
+      "id": "lore.otto",
+      "name": "OTTO",
+      "tag": null
+    },
+    {
+      "id": "lore.phandalin",
+      "name": "PHANDALIN",
+      "tag": null
+    },
+    {
+      "id": "lore.rudolph_van_richten",
+      "name": "RUDOLPH VAN RICHTEN",
+      "tag": null
+    },
+    {
+      "id": "lore.strahd_von_zarovich",
+      "name": "STRAHD VON ZAROVICH",
+      "tag": null
+    },
+    {
+      "id": "lore.szass_tam",
+      "name": "SZASS TAM",
+      "tag": null
+    },
+    {
+      "id": "lore.tasha",
+      "name": "TASHA",
+      "tag": null
+    },
+    {
+      "id": "lore.tharizdun",
+      "name": "THARIZDUN",
+      "tag": null
+    },
+    {
+      "id": "lore.tiamat",
+      "name": "TIAMAT",
+      "tag": null
+    },
+    {
+      "id": "lore.undermountain",
+      "name": "UNDERMOUNTAIN",
+      "tag": null
+    },
+    {
+      "id": "lore.vajra_safahr",
+      "name": "VAJRA SAFAHR",
+      "tag": null
+    },
+    {
+      "id": "lore.valor_s_call",
+      "name": "VALOR'S CALL",
+      "tag": null
+    },
+    {
+      "id": "lore.vecna",
+      "name": "VECNA",
+      "tag": null
+    },
+    {
+      "id": "lore.venger",
+      "name": "VENGER",
+      "tag": null
+    },
+    {
+      "id": "lore.vi",
+      "name": "VI",
+      "tag": null
+    },
+    {
+      "id": "lore.vlaakith",
+      "name": "VLAAKITH",
+      "tag": null
+    },
+    {
+      "id": "lore.waterdeep",
+      "name": "WATERDEEP",
+      "tag": null
+    },
+    {
+      "id": "lore.xanathar",
+      "name": "XANATHAR",
+      "tag": null
+    },
+    {
+      "id": "lore.yolande",
+      "name": "YOLANDE",
+      "tag": null
+    },
+    {
+      "id": "lore.zagyg",
+      "name": "ZAGYG",
+      "tag": null
+    },
+    {
+      "id": "lore.zargon",
+      "name": "ZARGON",
+      "tag": null
+    },
+    {
+      "id": "lore.barrow_crypt",
+      "name": "BARROW CRYPT",
+      "tag": null
+    },
+    {
+      "id": "lore.caravan_encampment",
+      "name": "CARAVAN ENCAMPMENT",
+      "tag": null
+    },
+    {
+      "id": "lore.crossroads_village",
+      "name": "CROSSROADS VILLAGE",
+      "tag": null
+    },
+    {
+      "id": "lore.dragon_s_lair",
+      "name": "DRAGON'S LAIR",
+      "tag": null
+    },
+    {
+      "id": "lore.dungeon_hideout",
+      "name": "DUNGEON HIDEOUT",
+      "tag": null
+    },
+    {
+      "id": "lore.farmstead",
+      "name": "FARMSTEAD",
+      "tag": null
+    },
+    {
+      "id": "lore.keep",
+      "name": "KEEP",
+      "tag": null
+    },
+    {
+      "id": "lore.manor",
+      "name": "MANOR",
+      "tag": null
+    },
+    {
+      "id": "lore.mine",
+      "name": "MINE",
+      "tag": null
+    },
+    {
+      "id": "lore.roadside_inn",
+      "name": "ROADSIDE INN",
+      "tag": null
+    },
+    {
+      "id": "lore.ship",
+      "name": "SHIP",
+      "tag": null
+    },
+    {
+      "id": "lore.spooky_house",
+      "name": "SPOOKY HOUSE",
+      "tag": null
+    },
+    {
+      "id": "lore.underdark_warren",
+      "name": "UNDERDARK WARREN",
+      "tag": null
+    },
+    {
+      "id": "lore.volcanic_caves",
+      "name": "VOLCANIC CAVES",
+      "tag": null
+    },
+    {
+      "id": "lore.wizard_s_tower",
+      "name": "WIZARD'S TOWER",
+      "tag": null
+    },
+    {
+      "id": "lore.game_expectations",
+      "name": "GAME EXPECTATIONS",
+      "tag": null
+    },
+    {
+      "id": "lore.travel_planner",
+      "name": "TRAVEL PLANNER",
+      "tag": null
+    },
+    {
+      "id": "lore.npc_tracker",
+      "name": "NPC TRACKER",
+      "tag": null
+    },
+    {
+      "id": "lore.settlement_tracker",
+      "name": "SETTLEMENT TRACKER",
+      "tag": null
+    },
+    {
+      "id": "lore.campaign_journal",
+      "name": "CAMPAIGN JOURNAL",
+      "tag": null
+    },
+    {
+      "id": "lore.dm_s_character_tracker",
+      "name": "DM'S CHARACTER TRACKER",
+      "tag": null
+    },
+    {
+      "id": "lore.campaign_conflicts",
+      "name": "CAMPAIGN CONFLICTS",
+      "tag": null
+    },
+    {
+      "id": "lore.magic_item_tracker",
+      "name": "MAGIC ITEM TRACKER",
+      "tag": null
+    },
+    {
+      "id": "lore.bastion_tracker",
+      "name": "BASTION TRACKER",
+      "tag": null
+    },
+    {
+      "id": "lore.credits",
+      "name": "CREDITS",
+      "tag": null
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

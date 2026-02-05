@@ -1,0 +1,19 @@
+{
+  "id": "lore.menzoberranzan",
+  "name": "MENZOBERRANZAN",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "The Underdark city of Menzoberranzan (men-zoh-buh-RAN-zan), lying far beneath the Sword Coast region of the Forgotten Realms, is ruled by tyrannical priests of the Demon Queen of Spiders, Lolth (see chapter 6). Most of its people are drow, whose noble houses are locked in a constant struggle for Lolth's favor and the power that comes with it."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

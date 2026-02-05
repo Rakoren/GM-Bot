@@ -1,0 +1,16 @@
+{
+  "chapter": "dmg-2024.appendix-c",
+  "title": "Appendix C: Tracking Sheets",
+  "html": [
+    "appendix-c/html/index.html",
+    "appendix-c/html/game-expectations.html",
+    "appendix-c/html/travel-planner.html",
+    "appendix-c/html/npc-tracker.html",
+    "appendix-c/html/settlement-tracker.html",
+    "appendix-c/html/campaign-journal.html",
+    "appendix-c/html/dm-character-tracker.html",
+    "appendix-c/html/campaign-conflicts.html",
+    "appendix-c/html/magic-item-tracker.html",
+    "appendix-c/html/bastion-tracker.html"
+  ]
+}

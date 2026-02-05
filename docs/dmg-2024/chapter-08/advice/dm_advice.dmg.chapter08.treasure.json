@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.treasure",
+  "name": "Treasure",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Roll on the Treasure table, then roll on the referenced art object or magic item table.",
+    "Determine how the Bastion acquires the treasure.",
+    "If the owner is away, treasure is placed in storage until claimed."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      352
+    ],
+    "section": "Treasure"
+  },
+  "notes": []
+}
+

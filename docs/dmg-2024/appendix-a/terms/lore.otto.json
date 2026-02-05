@@ -1,0 +1,19 @@
+{
+  "id": "lore.otto",
+  "name": "OTTO",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "OTTO (AW-toe) is an affable dwarf Bard with a taste for fine food, good music, and expensively tailored clothes. His sociable and outgoing personality masks the fact that he's also a member of the Circle of Eight (see chapter 5) and committed to the goals of that organization. He is well-known across the multiverse for his creation of the Otto's Irresistible Dance spell."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

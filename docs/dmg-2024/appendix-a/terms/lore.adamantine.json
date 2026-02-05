@@ -1,0 +1,19 @@
+{
+  "id": "lore.adamantine",
+  "name": "ADAMANTINE",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "Adamantine is one of the hardest substances in existence, a dark metal found in meteorites and extraordinary mineral veins. (See the Adamantine Armor and Adamantine Weapon magic items in chapter 7.)"
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lore.barovia",
+  "name": "BAROVIA",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "BAROVIA (buh-ROVE-ee-ah) is a Domain of Dread sequestered in the Shadowfell (see chapter 6)-a sort of spiritual prison for Strahd von Zarovich in his Castle Ravenloft. It's also the name of a village in that domain."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

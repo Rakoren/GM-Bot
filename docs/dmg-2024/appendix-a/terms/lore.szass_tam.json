@@ -1,0 +1,19 @@
+{
+  "id": "lore.szass_tam",
+  "name": "SZASS TAM",
+  "tag": null,
+  "chapter": "dmg-2024.appendix-a",
+  "status": "draft",
+  "description": [
+    "SZASS TAM (ZASS TAM) is a powerful lich and necromancer in the Forgotten Realms setting. As leader of the Red Wizards of Thay, he has countless spies, assassins, and other agents at his service, and his schemes span centuries and reach to the ends of the world."
+  ],
+  "see_also": [],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      354
+    ],
+    "section": "Appendix A: Lore Glossary"
+  },
+  "notes": []
+}

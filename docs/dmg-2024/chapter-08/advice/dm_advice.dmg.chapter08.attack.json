@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.attack",
+  "name": "Attack",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A hostile force attacks the Bastion but is defeated.",
+    "Roll 6d6; each 1 kills one Bastion Defender.",
+    "If there are no Defenders, one special facility (random) is damaged and shuts down for the next Bastion turn."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "events"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      350
+    ],
+    "section": "Attack"
+  },
+  "notes": []
+}
+

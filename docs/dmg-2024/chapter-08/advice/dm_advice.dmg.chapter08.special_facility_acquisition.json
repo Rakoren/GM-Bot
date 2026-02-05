@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter08.special_facility_acquisition",
+  "name": "Special Facility Acquisition",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Use the Special Facility Acquisition table to track total special facilities by level.",
+    "New special facilities become part of the Bastion immediately at the listed levels."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Special Facility Acquisition"
+  },
+  "notes": []
+}
