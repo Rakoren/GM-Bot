@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.a_starting_campaign",
+  "name": "A Starting Campaign",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Start with a clear premise, local stakes, and a manageable scope.",
+    "Introduce a few recurring NPCs or factions to anchor the campaign.",
+    "Seed multiple hooks so players can choose direction."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "examples"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      112
+    ],
+    "section": "A Starting Campaign"
+  },
+  "notes": []
+}

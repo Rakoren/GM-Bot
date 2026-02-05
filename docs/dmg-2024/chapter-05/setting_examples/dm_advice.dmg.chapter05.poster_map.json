@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.poster_map",
+  "name": "Poster Map",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the poster map as a high-level reference.",
+    "Reveal only the regions relevant to the campaign.",
+    "Let travel and discovery expand player knowledge."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      137
+    ],
+    "section": "Poster Map"
+  },
+  "notes": []
+}

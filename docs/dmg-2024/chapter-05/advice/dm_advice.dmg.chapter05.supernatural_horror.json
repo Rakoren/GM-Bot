@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.supernatural_horror",
+  "name": "Supernatural Horror",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Build tension with dread, mystery, and unsettling foes.",
+    "Use limited information and eerie atmosphere.",
+    "Discuss tone and safety with players ahead of time."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      130
+    ],
+    "section": "Supernatural Horror"
+  },
+  "notes": []
+}

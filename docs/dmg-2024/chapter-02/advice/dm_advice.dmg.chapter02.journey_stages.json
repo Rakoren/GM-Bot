@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.journey_stages",
+    "name":  "Journey Stages",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Break journeys into stages to pace travel.",
+                     "Use stages to introduce challenges or scenes.",
+                     "Let each stage reflect terrain and conditions."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    39
+                                ],
+                      "section":  "Journey Stages"
+                  },
+    "notes":  [
+
+              ]
+}

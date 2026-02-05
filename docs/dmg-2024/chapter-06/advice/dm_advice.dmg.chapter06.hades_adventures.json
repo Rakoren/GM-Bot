@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.hades_adventures",
+  "name": "Hades Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Hades to challenge hope and purpose amid suffocating apathy.",
+    "Build plots around hunting evil spellcasters collecting larvae.",
+    "Force characters to rekindle motivation or succumb to despair."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "hades",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      197
+    ],
+    "section": "Hades Adventures"
+  },
+  "notes": []
+}

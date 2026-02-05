@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.religion",
+  "name": "Religion",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use temples and clergy to signal culture and values.",
+    "Let religious politics create alliances and conflicts.",
+    "Introduce divine hooks through rituals and omens."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "Religion"
+  },
+  "notes": []
+}

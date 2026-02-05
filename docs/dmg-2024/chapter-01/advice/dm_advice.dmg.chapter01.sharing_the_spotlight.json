@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.sharing_the_spotlight",
+  "name": "Sharing the Spotlight",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "As the DM, do not play favorites. Do not let one player do all the talking, and make sure you check in about what every character is doing, especially during periods of exploration and social interaction, rather than focusing just on one player's character.",
+    "If a player's behavior is spoiling the fun for others, point it out away from the game and ask the player to tone it down. If the player refuses to change this behavior, ask the player to leave the group.",
+    "Remind impatient players that you have a group to please, not just one player."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      17
+    ],
+    "section": "Sharing the Spotlight"
+  },
+  "notes": []
+}

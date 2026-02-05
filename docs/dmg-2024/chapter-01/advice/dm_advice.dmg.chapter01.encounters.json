@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.encounters",
+  "name": "Encounters",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The bulk of a typical D&D session consists of a series of encounters, similar to how a movie is a series of scenes.",
+    "In each encounter, there are chances for the DM to describe creatures and places and for characters to make choices.",
+    "Encounters can involve exploration (interacting with the environment, including puzzles), social interaction with creatures, or combat.",
+    "The Player's Handbook outlines the general rhythm of play in an encounter. The following sections offer more detailed information on how an encounter typically unfolds, in three steps."
+  ],
+  "tags": [
+    "chapter-01",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Encounters"
+  },
+  "notes": []
+}

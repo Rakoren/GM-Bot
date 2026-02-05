@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.respect_for_the_dm",
+  "name": "Respect for the DM",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "As the DM, you have the right to expect your players to respect you and the effort you put into making a fun game for everyone. The players need to let you direct the campaign (with their input), arbitrate the rules, and settle arguments. And when you are narrating the action of the game, the players should be paying attention."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Respect for the DM"
+  },
+  "notes": []
+}

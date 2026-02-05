@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.city_of_brass",
+  "name": "City of Brass",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray the City of Brass as the efreeti capital on the Sea of Fire, full of ornate spires and cruel grandeur.",
+    "Center power in the Charcoal Palace and the efreeti court.",
+    "Use the city as a multiversal trade hub and a place where favors are as valuable as gold."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-fire"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      189
+    ],
+    "section": "City of Brass"
+  },
+  "notes": []
+}

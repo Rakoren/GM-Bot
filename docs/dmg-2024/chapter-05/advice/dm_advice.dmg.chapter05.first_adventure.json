@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.first_adventure",
+  "name": "First Adventure",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Start with a simple, clear objective and visible stakes.",
+    "Showcase the campaigns themes and tone early.",
+    "Plant hooks that lead into future adventures."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      134
+    ],
+    "section": "First Adventure"
+  },
+  "notes": []
+}

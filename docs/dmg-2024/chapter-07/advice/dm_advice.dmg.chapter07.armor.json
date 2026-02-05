@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.armor",
+  "name": "Armor (Magic Item Category)",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Armor must be worn for its magic to function unless noted otherwise.",
+    "If a magic armor doesn't specify a type, choose one or determine it randomly."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Armor"
+  },
+  "notes": []
+}

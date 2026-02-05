@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.living_quarters",
+  "name": "Living Quarters",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use living quarters to reveal daily life and habits.",
+    "Add personal details that hint at occupants.",
+    "Include noncombat opportunities or clues."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Living Quarters"
+  },
+  "notes": []
+}

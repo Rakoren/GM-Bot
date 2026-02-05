@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.actions_in_combat",
+    "name":  "Actions in Combat",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Ensure players understand their action options each turn.",
+                     "Encourage decisive actions to keep combat moving.",
+                     "Use reminders sparingly once players are comfortable."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    51
+                                ],
+                      "section":  "Actions in Combat"
+                  },
+    "notes":  [
+
+              ]
+}

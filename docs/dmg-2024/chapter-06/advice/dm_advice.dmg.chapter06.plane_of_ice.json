@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.plane_of_ice",
+  "name": "Plane of Ice",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Frostfell as an endless glacier with raging blizzards.",
+    "Populate with yetis, remorhazes, white dragons, and survivalist natives.",
+    "Make ground travel perilous; most voyagers keep to the air."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "para-elemental"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      207
+    ],
+    "section": "Plane of Ice"
+  },
+  "notes": []
+}

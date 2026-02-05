@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_items",
+  "name": "Magic Items",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Magic items are rare, powerful treasures from hoards or lost vaults.",
+    "Use them to grant capabilities beyond normal means or enhance existing ones."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Magic Items"
+  },
+  "notes": []
+}

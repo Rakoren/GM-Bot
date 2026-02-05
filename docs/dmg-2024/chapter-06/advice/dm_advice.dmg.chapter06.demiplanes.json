@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.demiplanes",
+  "name": "Demiplanes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use demiplanes as self-contained realities with their own physical laws.",
+    "Introduce demiplanes created by spells or by natural folds of reality.",
+    "Let Plane Shift work only with the correct tuning fork; use Gate as a more reliable option."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "demiplanes"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      187
+    ],
+    "section": "Demiplanes"
+  },
+  "notes": []
+}

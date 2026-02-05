@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.ending_a_session",
+  "name": "Ending a Session",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Try not to end a game session in the middle of an encounter. It is difficult to keep track of information such as Initiative order and other round-by-round details between sessions.",
+    "An exception to this guideline is when you purposely end a session with a cliffhanger, where the story pauses just as something monumental happens or some surprising turn of events occurs. A cliffhanger can keep players intrigued and excited until the next session.",
+    "If a player missed a session and you had that player's character leave the party for a while, make sure that there is a way to bring the character back when the player returns.",
+    "Allow a few minutes at the end of play for everyone to discuss the events of the session. Ask your players what parts of the session they liked and what they would have liked to see more. Take notes on what happened and the situation at the end of the session so you can refer back to those notes as you prepare the next session."
+  ],
+  "tags": [
+    "chapter-01",
+    "session-flow"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      9
+    ],
+    "section": "Ending a Session"
+  },
+  "notes": []
+}

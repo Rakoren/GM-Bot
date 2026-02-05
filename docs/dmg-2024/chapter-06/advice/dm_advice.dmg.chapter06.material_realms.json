@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.material_realms",
+  "name": "Material Realms",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat the Material Plane as the central realm where other planar forces mingle.",
+    "Use the Feywild and Shadowfell as parallel reflections with familiar geography but distinct tone.",
+    "Allow crossings to be rare, wondrous, and sometimes accidental."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "material-plane"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      173
+    ],
+    "section": "Material Realms"
+  },
+  "notes": []
+}

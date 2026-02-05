@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter06.pandemonium_layers",
+  "name": "Layers of Pandemonium",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Pandesmos",
+      "description": "Howling winds, dark streams to the Styx, and snow in vast caverns."
+    },
+    {
+      "layer": "Cocytus",
+      "description": "Narrow tunnels amplify winds into wails, the Layer of Lamentation."
+    },
+    {
+      "layer": "Phlegethon",
+      "description": "Light-absorbing walls and water-carved rock formations."
+    },
+    {
+      "layer": "Agathion",
+      "description": "Sealed tunnels used as vaults for ancient secrets."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      206
+    ],
+    "section": "Layers of Pandemonium"
+  },
+  "notes": []
+}

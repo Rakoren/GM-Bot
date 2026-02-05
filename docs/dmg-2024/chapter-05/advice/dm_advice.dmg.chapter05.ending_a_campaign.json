@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.ending_a_campaign",
+  "name": "Ending a Campaign",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Plan a climax that resolves the core conflicts.",
+    "Give characters a chance to see the impact of their actions.",
+    "Wrap up major arcs and leave room for epilogues."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      136
+    ],
+    "section": "Ending a Campaign"
+  },
+  "notes": []
+}

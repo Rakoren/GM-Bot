@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.know_your_players",
+  "name": "Know Your Players",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Understand what each player enjoys most about D&D to tailor adventures they will remember.",
+    "Your role is to keep players immersed and give their characters chances to do awesome things.",
+    "Balance different play preferences so everyone gets some enjoyment each session.",
+    "Treat differing player interests as strengths that help the party handle varied challenges."
+  ],
+  "tags": [
+    "chapter-02",
+    "dm-basics"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Know Your Players"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.obstacles",
+    "name":  "Obstacles",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use obstacles to create choices and resource costs.",
+                     "Offer multiple approaches to overcome obstacles.",
+                     "Tie obstacles to terrain or story events."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    44
+                                ],
+                      "section":  "Obstacles"
+                  },
+    "notes":  [
+
+              ]
+}

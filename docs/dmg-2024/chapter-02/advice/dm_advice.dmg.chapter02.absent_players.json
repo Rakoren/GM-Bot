@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.absent_players",
+  "name": "Absent Players",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Decide how to handle a missing character before the session starts.",
+    "Options include fading into the background, narrative contrivance, or a substitute player.",
+    "Keep absent characters' XP aligned with the rest of the party.",
+    "Consider a group policy for how many absences pause a session."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      24
+    ],
+    "section": "Absent Players"
+  },
+  "notes": []
+}

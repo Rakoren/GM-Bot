@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.war",
+  "name": "War",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Center the campaign on military conflict and strategic missions.",
+    "Use varied mission types: raids, defense, scouting, and diplomacy.",
+    "Show consequences of large-scale conflict in the world."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      131
+    ],
+    "section": "War"
+  },
+  "notes": []
+}

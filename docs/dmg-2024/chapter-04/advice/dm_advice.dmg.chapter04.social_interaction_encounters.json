@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.social_interaction_encounters",
+  "name": "Social Interaction Encounters",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use NPC goals, attitudes, and leverage to shape the encounter.",
+    "Let dialogue and negotiation be the primary path to success.",
+    "Allow consequences for failure that still move the story forward."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      109
+    ],
+    "section": "Social Interaction Encounters"
+  },
+  "notes": []
+}

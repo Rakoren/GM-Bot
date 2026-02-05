@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.success_at_a_cost",
+    "name":  "Success at a Cost",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Offer success with a complication when appropriate.",
+                     "Use costs to keep tension without stopping progress.",
+                     "Make costs relevant and proportional to the task."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    31
+                                ],
+                      "section":  "Success at a Cost"
+                  },
+    "notes":  [
+
+              ]
+}

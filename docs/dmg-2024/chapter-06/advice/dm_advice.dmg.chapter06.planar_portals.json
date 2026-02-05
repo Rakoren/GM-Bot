@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.planar_portals",
+  "name": "Planar Portals",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Define portals as fixed links between specific locations on two planes; they can be doorways, places, or vortices.",
+    "Use portals as adventures: find the portal, overcome guardians, and meet the opening requirement.",
+    "Common portal requirements include a command, a key item, random timing, a specific situation, or a specific time."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      176
+    ],
+    "section": "Planar Portals"
+  },
+  "notes": []
+}

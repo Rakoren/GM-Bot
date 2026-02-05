@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.tactical_maps",
+    "name":  "Tactical Maps",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use tactical maps to support precise movement and positioning.",
+                     "Keep maps readable and uncluttered.",
+                     "Adjust map detail to match the encounter\u0027s complexity."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat",
+                 "maps"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    48
+                                ],
+                      "section":  "Tactical Maps"
+                  },
+    "notes":  [
+
+              ]
+}

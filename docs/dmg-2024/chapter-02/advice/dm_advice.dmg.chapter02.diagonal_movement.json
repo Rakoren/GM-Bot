@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.diagonal_movement",
+    "name":  "Diagonal Movement",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Apply consistent rules for diagonal movement on grids.",
+                     "Use the table\u0027s preferred method and stick to it.",
+                     "Clarify movement costs for players."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat",
+                 "maps"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    50
+                                ],
+                      "section":  "Diagonal Movement"
+                  },
+    "notes":  [
+
+              ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter05.temple_of_the_radiant_sun",
+  "name": "Temple of the Radiant Sun",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the temple to show the citys religious influence.",
+    "Connect it to healing, protection, or political power.",
+    "Let its clergy be allies or moral guides."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      144
+    ],
+    "section": "Temple of the Radiant Sun"
+  },
+  "notes": []
+}

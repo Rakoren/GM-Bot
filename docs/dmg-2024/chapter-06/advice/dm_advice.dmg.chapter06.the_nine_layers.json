@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_nine_layers",
+  "name": "The Nine Layers",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat Avernus as the default arrival point; portals do not connect directly to lower layers.",
+    "Use the River Styx as the most expeditious but perilous route between layers.",
+    "Frame each layer as a specialized expression of vice and torment."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202
+    ],
+    "section": "The Nine Layers"
+  },
+  "notes": []
+}

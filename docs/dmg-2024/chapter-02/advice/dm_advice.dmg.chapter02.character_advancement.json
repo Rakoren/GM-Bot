@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.character_advancement",
+    "name":  "Character Advancement",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Advance characters in ways that match the campaign\u0027s tone and pace.",
+                     "Choose an advancement method that fits your table.",
+                     "Use advancement to reinforce story milestones and challenges."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "advancement"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    53
+                                ],
+                      "section":  "Character Advancement"
+                  },
+    "notes":  [
+
+              ]
+}

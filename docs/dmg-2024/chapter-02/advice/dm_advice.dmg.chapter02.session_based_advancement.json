@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.session_based_advancement",
+    "name":  "Session-Based Advancement",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use a fixed number of sessions per level if desired.",
+                     "Adjust the cadence based on campaign length and goals.",
+                     "Communicate the schedule to players for planning."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "advancement"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    54
+                                ],
+                      "section":  "Session-Based Advancement"
+                  },
+    "notes":  [
+
+              ]
+}

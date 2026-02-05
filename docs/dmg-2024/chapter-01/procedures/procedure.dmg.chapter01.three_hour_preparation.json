@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter01.three_hour_preparation",
+  "name": "Three-Hour Preparation",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "steps": [
+    "If you have three hours to prepare, add these steps:",
+    "Step 8. Skim each \"unlikely\" encounter.",
+    "Step 9. Create a new encounter designed to appeal specifically to one player, or alter an existing encounter to relate to the goals and motivations of that player's character. Over the course of several sessions, do this for all your players and their characters."
+  ],
+  "triggers": [
+    "when you have about three hours to prepare a session"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Three-Hour Preparation"
+  },
+  "notes": []
+}
+
+
+

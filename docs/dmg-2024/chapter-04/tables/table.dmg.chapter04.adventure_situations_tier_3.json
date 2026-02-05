@@ -1,0 +1,70 @@
+{
+    "id":  "table.dmg.chapter04.adventure_situations_tier_3",
+    "name":  "Adventure Situations (Levels 11-16)",
+    "chapter":  "dmg-2024.chapter-04",
+    "status":  "complete",
+    "columns":  [
+                    "roll",
+                    "situation"
+                ],
+    "entries":  [
+                    {
+                        "situation":  "A portal to the Abyss opens in a cursed location and spews demons into the world.",
+                        "roll":  "1"
+                    },
+                    {
+                        "situation":  "A band of hunting giants has driven its prey - enormous beasts - into pastureland.",
+                        "roll":  "2"
+                    },
+                    {
+                        "situation":  "An adult dragon\u0027s lair is transforming an expanse into an environment inhospitable to the other creatures living there.",
+                        "roll":  "3"
+                    },
+                    {
+                        "situation":  "A long-lost journal describes an incredible journey to a hidden subterranean realm full of magical wonders.",
+                        "roll":  "4"
+                    },
+                    {
+                        "situation":  "Cultists hope to persuade a dragon to undergo the rite that will transform it into a dracolich.",
+                        "roll":  "5"
+                    },
+                    {
+                        "situation":  "The ruler of the realm is sending an emissary to a hostile neighbor to negotiate a truce, and the emissary needs protection.",
+                        "roll":  "6"
+                    },
+                    {
+                        "situation":  "A castle or city has been drawn into another plane of existence.",
+                        "roll":  "7"
+                    },
+                    {
+                        "situation":  "A storm tears across the land, with a mysterious flying citadel in the eye of the storm.",
+                        "roll":  "8"
+                    },
+                    {
+                        "situation":  "Two parts of a magic item are in the hands of bitter enemies; the third piece is lost.",
+                        "roll":  "9"
+                    },
+                    {
+                        "situation":  "Evil cultists gather from around the world to summon a monstrous god or alien entity.",
+                        "roll":  "10"
+                    },
+                    {
+                        "situation":  "A tyrannical ruler outlaws the use of magic without official sanction. A secret society of spellcasters seeks to oust the tyrant.",
+                        "roll":  "11"
+                    },
+                    {
+                        "situation":  "During a drought, low water levels in a lake reveal previously unknown ancient ruins that contain a powerful evil.",
+                        "roll":  "12"
+                    }
+                ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    106
+                                ],
+                      "section":  "Levels 11-16: Masters of the Realm"
+                  },
+    "notes":  [
+
+              ]
+}

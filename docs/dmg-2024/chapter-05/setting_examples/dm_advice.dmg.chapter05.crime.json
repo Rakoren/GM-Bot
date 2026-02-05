@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.crime",
+  "name": "Crime",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use criminal factions to create intrigue and danger.",
+    "Let crime levels vary by district.",
+    "Tie crime stories to broader city conflicts."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "Crime"
+  },
+  "notes": []
+}

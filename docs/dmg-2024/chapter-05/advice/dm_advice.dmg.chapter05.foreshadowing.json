@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.foreshadowing",
+  "name": "Foreshadowing",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Plant seeds early that can pay off in later sessions.",
+    "Use journal notes to spot past details worth resurfacing.",
+    "Reward player attention with meaningful callbacks."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      126
+    ],
+    "section": "Foreshadowing"
+  },
+  "notes": []
+}

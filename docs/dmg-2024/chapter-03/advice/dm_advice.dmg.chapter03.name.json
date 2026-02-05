@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.name",
+  "name": "Name",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Pick names that fit the culture and tone.",
+    "Use naming to imply background or status.",
+    "Keep name lists handy for improvisation."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Name"
+  },
+  "notes": []
+}

@@ -1,0 +1,889 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "dmg-2024.chapter-03",
+  "title": "DMG 2024 - Chapter 3: DM's Toolbox",
+  "generated_at": "2026-01-31",
+  "paths": {
+    "tables_dir": "dmg-2024/chapter-03/tables",
+    "lists_dir": "dmg-2024/chapter-03/lists",
+    "advice_dir": "dmg-2024/chapter-03/advice",
+    "procedures_dir": "dmg-2024/chapter-03/procedures"
+  },
+  "shards": [
+    {
+      "id": "table.dmg.chapter03.sections",
+      "type": "table",
+      "path": "dmg-2024/chapter-03/tables/table.dmg.chapter03.sections.json"
+    },
+    {
+      "id": "list.dmg.chapter03.sections",
+      "type": "list",
+      "path": "dmg-2024/chapter-03/lists/list.dmg.chapter03.sections.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.alignment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.alignment.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.character_alignment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.character_alignment.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.actions_indicate_alignment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.actions_indicate_alignment.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.good_and_evil_can_cooperate",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.good_and_evil_can_cooperate.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.planes_and_alignment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.planes_and_alignment.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.monster_alignment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.monster_alignment.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.starting_attitude",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.starting_attitude.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.personality",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.personality.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.organization_ethos",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.organization_ethos.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.chases",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.chases.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.beginning_a_chase",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.beginning_a_chase.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.running_the_chase",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.running_the_chase.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.dashing",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.dashing.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.spells_and_attacks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.spells_and_attacks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.ending_a_chase",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.ending_a_chase.json"
+    },
+    {
+      "id": "procedure.dmg.chapter03.chase_flow",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-03/procedures/procedure.dmg.chapter03.chase_flow.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.creating_a_background",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.creating_a_background.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.choose_abilities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.choose_abilities.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.choose_a_feat",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.choose_a_feat.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.choose_skill_proficiencies",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.choose_skill_proficiencies.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.choose_a_tool_proficiency",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.choose_a_tool_proficiency.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.choose_equipment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.choose_equipment.json"
+    },
+    {
+      "id": "procedure.dmg.chapter03.background_creation_flow",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-03/procedures/procedure.dmg.chapter03.background_creation_flow.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.creating_a_creature",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.creating_a_creature.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.minor_alterations",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.minor_alterations.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.size_and_creature_type",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.size_and_creature_type.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.ability_scores",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.ability_scores.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.languages",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.languages.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.proficiencies",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.proficiencies.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.senses",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.senses.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.spells",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.spells.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.attacks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.attacks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.resistances_and_immunities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.resistances_and_immunities.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.traits",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.traits.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.creature_traits",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.creature_traits.json"
+    },
+    {
+      "id": "procedure.dmg.chapter03.creature_creation_flow",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-03/procedures/procedure.dmg.chapter03.creature_creation_flow.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.creating_a_magic_item",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.creating_a_magic_item.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.modifying_a_magic_item",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.modifying_a_magic_item.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.altered_capabilities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.altered_capabilities.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.altered_form",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.altered_form.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.altered_damage_types",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.altered_damage_types.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.combining_items",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.combining_items.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.special_features_and_sentience",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.special_features_and_sentience.json"
+    },
+    {
+      "id": "procedure.dmg.chapter03.magic_item_creation_flow",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-03/procedures/procedure.dmg.chapter03.magic_item_creation_flow.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.creating_a_new_item",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.creating_a_new_item.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.power_level",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.power_level.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.attunement",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.attunement.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.creating_a_spell",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.creating_a_spell.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.spell_damage",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.spell_damage.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.healing_spells",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.healing_spells.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.curses_and_magical_contagions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.curses_and_magical_contagions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.curses",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.curses.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.bestow_curse",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.bestow_curse.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.cursed_creatures",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.cursed_creatures.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.cursed_magic_items",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.cursed_magic_items.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.narrative_curses",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.narrative_curses.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.environmental_curses",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.environmental_curses.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.demonic_possession",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.demonic_possession.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.magical_contagions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.magical_contagions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.rest_and_recuperation",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.rest_and_recuperation.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.example_contagions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.example_contagions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.death",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.death.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.death_must_be_fair",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.death_must_be_fair.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.scaling_lethality",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.scaling_lethality.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.defeated_not_dead",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.defeated_not_dead.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.death_scenes",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.death_scenes.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.dealing_with_death",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.dealing_with_death.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.what_if_everyone_dies",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.what_if_everyone_dies.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.a_fresh_start",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.a_fresh_start.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.divine_council",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.divine_council.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.escape_from_the_underworld",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.escape_from_the_underworld.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.imprisoned",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.imprisoned.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.raised_by_another",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.raised_by_another.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.rescue_mission",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.rescue_mission.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.doors",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.doors.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.common_doors",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.common_doors.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.barred_door",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.barred_door.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.locked_door",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.locked_door.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.secret_doors",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.secret_doors.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.secret_door_etiquette",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.secret_door_etiquette.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.portcullises",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.portcullises.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.dungeons",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.dungeons.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.mapping_a_dungeon",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.mapping_a_dungeon.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.mapping_principles",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.mapping_principles.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.designing_dungeon_rooms",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.designing_dungeon_rooms.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.crypts",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.crypts.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.guard_posts",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.guard_posts.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.living_quarters",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.living_quarters.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.natural_subterranean_areas",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.natural_subterranean_areas.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.shrines",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.shrines.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.vaults",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.vaults.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.work_areas",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.work_areas.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.dungeon_decay",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.dungeon_decay.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.environmental_effects",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.environmental_effects.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.fear_and_mental_stress",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.fear_and_mental_stress.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.fear_effects",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.fear_effects.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.mental_stress_effects",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.mental_stress_effects.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.prolonged_effects",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.prolonged_effects.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.firearms_and_explosives",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.firearms_and_explosives.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.firearms",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.firearms.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.properties",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.properties.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.burst_fire",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.burst_fire.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.reload",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.reload.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.ammunition",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.ammunition.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.explosives",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.explosives.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.bomb",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.bomb.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.dynamite_stick",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.dynamite_stick.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.grenades_and_grenade_launchers",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.grenades_and_grenade_launchers.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.fragmentation_grenade",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.fragmentation_grenade.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.smoke_grenade",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.smoke_grenade.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.gunpowder",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.gunpowder.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.alien_technology",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.alien_technology.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.gods_and_other_powers",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.gods_and_other_powers.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.divine_rank",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.divine_rank.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.home_plane_and_alignment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.home_plane_and_alignment.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.gods_and_divine_magic",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.gods_and_divine_magic.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.divine_knowledge",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.divine_knowledge.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.divine_intervention",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.divine_intervention.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.creating_religions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.creating_religions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.myths",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.myths.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.religious_practice",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.religious_practice.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.build_your_own_pantheon",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.build_your_own_pantheon.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.hazards",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.hazards.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.severity_and_level",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.severity_and_level.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.example_hazards",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.example_hazards.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.marks_of_prestige",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.marks_of_prestige.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.fortifications",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.fortifications.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.letters_of_recommendation",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.letters_of_recommendation.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.medals",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.medals.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.parcels_of_land",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.parcels_of_land.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.special_favors",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.special_favors.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.special_rights",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.special_rights.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.titles",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.titles.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.training",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.training.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.mobs",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.mobs.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.tips",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.tips.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.average_results",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.average_results.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.adjudicating_areas_of_effect",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.adjudicating_areas_of_effect.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.examples",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.examples.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.nonplayer_characters",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.nonplayer_characters.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.detailed_npcs",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.detailed_npcs.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.name",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.name.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.stat_block",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.stat_block.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.appearance",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.appearance.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.secret",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.secret.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.recurring_npcs",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.recurring_npcs.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.dont_go_overboard",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.dont_go_overboard.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.npcs_as_party_members",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.npcs_as_party_members.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.loyalty",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.loyalty.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.npcs_ai_reference",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.npcs_ai_reference.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.poison",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.poison.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.purchasing_poison",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.purchasing_poison.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.harvesting_poison",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.harvesting_poison.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.sample_poisons",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.sample_poisons.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.renown",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.renown.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.gaining_renown",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.gaining_renown.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.benefits_of_renown",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.benefits_of_renown.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.recognition",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.recognition.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.rank",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.rank.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.perks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.perks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.losing_renown",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.losing_renown.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.level_based_renown",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.level_based_renown.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.settlements",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.settlements.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.do_i_need_a_settlement_map",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.do_i_need_a_settlement_map.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.settlement_tables_and_tracker",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.settlement_tables_and_tracker.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.siege_equipment",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.siege_equipment.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.supernatural_gifts",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.supernatural_gifts.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.blessings",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.blessings.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.charms",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.charms.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.traps",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.traps.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.parts_of_a_trap",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.parts_of_a_trap.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.example_traps",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.example_traps.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter03.building_your_own_traps",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-03/advice/dm_advice.dmg.chapter03.building_your_own_traps.json"
+    }
+  ]
+}

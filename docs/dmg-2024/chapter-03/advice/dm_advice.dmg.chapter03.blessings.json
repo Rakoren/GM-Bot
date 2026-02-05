@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.blessings",
+  "name": "Blessings",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Blessings are boons granted by divine or cosmic forces.",
+    "Tie blessings to deeds, vows, or sacred places.",
+    "Make blessings feel rare and significant."
+  ],
+  "tags": [
+    "chapter-03",
+    "gifts"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Blessings"
+  },
+  "notes": []
+}

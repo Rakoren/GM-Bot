@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.fey_crossings",
+  "name": "Fey Crossings",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use fey crossings as mirrored points between the Material Plane and Feywild.",
+    "Make openings rare or conditional (full moon, special items, specific days).",
+    "Allow crossings to close permanently if the land is dramatically altered."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195
+    ],
+    "section": "Fey Crossings"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.how_to_run_a_session",
+  "name": "How to Run a Session",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "This section explains how to run a game session; later on, chapters 4 and 5 detail how to combine sessions into adventures and adventures into campaigns.",
+    "Recap. Start each game session after the first with a recap of what happened in the previous session. A recap helps players get back into the story. It also provides important information to players who missed the previous session. You can provide this recap, or you can invite one or more players to deliver the recap instead. Each approach has benefits:",
+    "DM Recap. Provide the recap yourself if you have specific information you need to impart or if you want the recap to be concise and focused on what is relevant.",
+    "Player Recap. Let the players provide the recap if you want to gauge what they think is important or learn more about what they are getting out of the game. If the players miss any important details in their recap, you can interject a reminder."
+  ],
+  "tags": [
+    "chapter-01",
+    "session-flow"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      7
+    ],
+    "section": "How to Run a Session"
+  },
+  "notes": []
+}

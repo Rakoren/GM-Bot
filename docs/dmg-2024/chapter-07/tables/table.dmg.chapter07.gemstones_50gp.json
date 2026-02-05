@@ -1,0 +1,68 @@
+{
+  "id": "table.dmg.chapter07.gemstones_50gp",
+  "name": "50 GP Gemstones",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "stone"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "stone": "Bloodstone (dark gray with red flecks)"
+    },
+    {
+      "roll": "2",
+      "stone": "Carnelian (orange to red brown)"
+    },
+    {
+      "roll": "3",
+      "stone": "Chalcedony (white)"
+    },
+    {
+      "roll": "4",
+      "stone": "Chrysoprase (green)"
+    },
+    {
+      "roll": "5",
+      "stone": "Citrine (pale yellow brown)"
+    },
+    {
+      "roll": "6",
+      "stone": "Jasper (blue, black, or brown)"
+    },
+    {
+      "roll": "7",
+      "stone": "Moonstone (white with pale-blue glow)"
+    },
+    {
+      "roll": "8",
+      "stone": "Onyx (bands of black and white, or pure black or white)"
+    },
+    {
+      "roll": "9",
+      "stone": "Quartz (white, smoky gray, or yellow)"
+    },
+    {
+      "roll": "10",
+      "stone": "Sardonyx (bands of red and white)"
+    },
+    {
+      "roll": "11",
+      "stone": "Star rose quartz (rosy stone with white star-shaped center)"
+    },
+    {
+      "roll": "12",
+      "stone": "Zircon (pale blue green)"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      214
+    ],
+    "section": "50 GP Gemstones"
+  },
+  "notes": []
+}

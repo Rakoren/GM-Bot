@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.step_by_step_campaigns",
+  "name": "Step-by-Step Campaigns",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use a small set of clear steps to design the campaign end-to-end.",
+    "Keep the premise, conflicts, and setting aligned as you plan.",
+    "Plan a likely ending so early sessions can foreshadow it."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      126
+    ],
+    "section": "Step-by-Step Campaigns"
+  },
+  "notes": []
+}

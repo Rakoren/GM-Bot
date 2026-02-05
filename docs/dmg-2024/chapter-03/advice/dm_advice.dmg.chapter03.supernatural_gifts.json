@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.supernatural_gifts",
+  "name": "Supernatural Gifts",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use supernatural gifts as story-driven rewards.",
+    "Keep gifts thematic to the source of power.",
+    "Balance gifts against class features and magic items."
+  ],
+  "tags": [
+    "chapter-03",
+    "gifts"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Supernatural Gifts"
+  },
+  "notes": []
+}

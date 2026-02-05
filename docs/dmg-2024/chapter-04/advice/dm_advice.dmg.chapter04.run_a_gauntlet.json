@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.run_a_gauntlet",
+  "name": "Run a Gauntlet",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Make the objective about reaching the exit rather than defeating enemies.",
+    "Use time pressure or branching paths as complications.",
+    "Build the gauntlet as exploration with traps and hazards or as a combat push."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Run a Gauntlet"
+  },
+  "notes": []
+}

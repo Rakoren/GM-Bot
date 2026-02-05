@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_item_categories",
+  "name": "Magic Item Categories",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use the nine categories to organize magic items and their rules.",
+    "Refer to the Magic Item Categories table for examples."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Magic Item Categories"
+  },
+  "notes": []
+}

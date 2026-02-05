@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.sigil_city_of_doors",
+  "name": "Sigil, City of Doors",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Sigil as a ring-shaped metropolis packed with portals to everywhere.",
+    "Make it a hub for trade and planar intelligence.",
+    "Keep the Lady of Pain as an inscrutable power beyond deities."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "sigil"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209,
+      210
+    ],
+    "section": "Sigil, City of Doors"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.severity_and_level",
+  "name": "Severity and Level",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Match hazard severity to expected party level and resources.",
+    "Use higher severity to push retreat or creative solutions.",
+    "Keep consequences proportional to risk."
+  ],
+  "tags": [
+    "chapter-03",
+    "hazards"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Severity and Level"
+  },
+  "notes": []
+}

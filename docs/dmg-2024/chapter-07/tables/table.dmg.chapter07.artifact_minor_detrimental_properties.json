@@ -1,0 +1,76 @@
+{
+  "id": "table.dmg.chapter07.artifact_minor_detrimental_properties",
+  "name": "Artifact Minor Detrimental Properties",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "property"
+  ],
+  "entries": [
+    {
+      "roll": "01-08",
+      "property": "While attuned to the artifact, you have disadvantage on any ability check or saving throw that uses Strength or Constitution."
+    },
+    {
+      "roll": "09-16",
+      "property": "While attuned to the artifact, you have disadvantage on Intelligence, Wisdom, and Charisma saving throws."
+    },
+    {
+      "roll": "17-24",
+      "property": "While attuned to the artifact, you have vulnerability to Poison damage."
+    },
+    {
+      "roll": "25-32",
+      "property": "While attuned to the artifact, you have the Blinded condition when you're more than 10 feet away from it."
+    },
+    {
+      "roll": "33-40",
+      "property": "While attuned to the artifact, you have the Deafened condition when you're more than 10 feet away from it."
+    },
+    {
+      "roll": "41-48",
+      "property": "While attuned to the artifact, you lose all sense of smell."
+    },
+    {
+      "roll": "49-66",
+      "property": "While you're attuned to the artifact, your appearance changes as the DM decides."
+    },
+    {
+      "roll": "67-72",
+      "property": "While attuned to the artifact, you emit a sour stench noticeable from up to 10 feet away."
+    },
+    {
+      "roll": "73-76",
+      "property": "When you touch a nonmagical gem or art object while attuned to the artifact, its value is reduced by half; this affects each object only once."
+    },
+    {
+      "roll": "77-80",
+      "property": "While you're attuned to the artifact, all Holy Water within 10 feet of you is destroyed."
+    },
+    {
+      "roll": "81-84",
+      "property": "While you're attuned to the artifact, nonmagical flames are extinguished within 30 feet of you."
+    },
+    {
+      "roll": "85-88",
+      "property": "While you're attuned to the artifact, other creatures can't take Short or Long Rests within 300 feet of you."
+    },
+    {
+      "roll": "89-92",
+      "property": "While attuned to the artifact, you kill any nonmagical vegetation you touch that isn't a creature."
+    },
+    {
+      "roll": "93-00",
+      "property": "While you're attuned to the artifact, Beasts within 30 feet of you that have a Challenge Rating of 6 or lower are hostile toward you."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      224
+    ],
+    "section": "Minor Detrimental Properties"
+  },
+  "notes": []
+}

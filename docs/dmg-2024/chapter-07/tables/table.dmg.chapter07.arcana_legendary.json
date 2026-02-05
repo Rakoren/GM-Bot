@@ -1,0 +1,124 @@
+{
+  "id": "table.dmg.chapter07.arcana_legendary",
+  "name": "Arcana - Legendary",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-04",
+      "item": "Apparatus of Kwalish"
+    },
+    {
+      "roll": "05-08",
+      "item": "Cloak of Invisibility"
+    },
+    {
+      "roll": "09-12",
+      "item": "Crystal Ball of Mind Reading"
+    },
+    {
+      "roll": "13-16",
+      "item": "Crystal Ball of Telepathy"
+    },
+    {
+      "roll": "17-20",
+      "item": "Crystal Ball of True Seeing"
+    },
+    {
+      "roll": "21-22",
+      "item": "Cubic Gate"
+    },
+    {
+      "roll": "23",
+      "item": "Deck of Many Things"
+    },
+    {
+      "roll": "24-27",
+      "item": "Enspelled Staff (level 6, 7, or 8 spell)"
+    },
+    {
+      "roll": "28-31",
+      "item": "Ioun Stone (greater absorption, mastery, or regeneration)"
+    },
+    {
+      "roll": "32-33",
+      "item": "Iron Flask"
+    },
+    {
+      "roll": "34-41",
+      "item": "Potion of Storm Giant Strength (storm)"
+    },
+    {
+      "roll": "42-45",
+      "item": "Ring of Djinni Summoning"
+    },
+    {
+      "roll": "46-49",
+      "item": "Ring of Elemental Command (air, earth, fire, or water)"
+    },
+    {
+      "roll": "50-53",
+      "item": "Ring of Invisibility"
+    },
+    {
+      "roll": "54-57",
+      "item": "Ring of Spell Turning"
+    },
+    {
+      "roll": "58",
+      "item": "Ring of Three Wishes"
+    },
+    {
+      "roll": "59",
+      "item": "Robe of the Archmagi"
+    },
+    {
+      "roll": "60-61",
+      "item": "Scroll of Titan Summoning"
+    },
+    {
+      "roll": "62-65",
+      "item": "Sovereign Glue"
+    },
+    {
+      "roll": "66-83",
+      "item": "Spell Scroll (level 9 spell)"
+    },
+    {
+      "roll": "84",
+      "item": "Sphere of Annihilation"
+    },
+    {
+      "roll": "85",
+      "item": "Staff of the Magi"
+    },
+    {
+      "roll": "86-88",
+      "item": "Talisman of the Sphere"
+    },
+    {
+      "roll": "89-92",
+      "item": "Tome of the Stilled Tongue"
+    },
+    {
+      "roll": "93-96",
+      "item": "Universal Solvent"
+    },
+    {
+      "roll": "97-00",
+      "item": "Well of Many Worlds"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      231
+    ],
+    "section": "Arcana - Legendary"
+  },
+  "notes": []
+}

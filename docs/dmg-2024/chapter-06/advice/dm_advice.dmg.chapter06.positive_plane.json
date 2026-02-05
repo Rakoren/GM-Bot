@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.positive_plane",
+  "name": "Positive Plane",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray the Positive Plane as a radiant dome of raw life force.",
+    "Use overwhelming brilliance and energy as a hazard to mortals.",
+    "Only creatures immune to radiant damage can survive long."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "positive-plane"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      208
+    ],
+    "section": "Positive Plane"
+  },
+  "notes": []
+}

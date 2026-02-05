@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.running_the_chase",
+  "name": "Running the Chase",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Expect most participants to Dash each round to keep pace.",
+    "Track distance between quarry and pursuers each round.",
+    "Let spellcasting or attacks carry risk of falling behind."
+  ],
+  "tags": [
+    "chapter-03",
+    "chase"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Running the Chase"
+  },
+  "notes": []
+}

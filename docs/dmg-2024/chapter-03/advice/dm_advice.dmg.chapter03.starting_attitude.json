@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.starting_attitude",
+  "name": "Starting Attitude",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use alignment to set a creature’s starting attitude in an encounter.",
+    "Friendly, Indifferent, or Hostile should match the creature’s nature and context.",
+    "Adjust attitude as the encounter develops."
+  ],
+  "tags": [
+    "chapter-03",
+    "alignment"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      51
+    ],
+    "section": "Starting Attitude"
+  },
+  "notes": []
+}

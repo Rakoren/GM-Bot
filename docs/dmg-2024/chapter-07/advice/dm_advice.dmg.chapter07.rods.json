@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.rods",
+  "name": "Rods (Magic Item Category)",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Rods are scepters typically made of metal, wood, or bone and weigh 2 to 5 pounds.",
+    "Unless noted otherwise, a rod can be used as an Arcane Focus."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Rods"
+  },
+  "notes": []
+}

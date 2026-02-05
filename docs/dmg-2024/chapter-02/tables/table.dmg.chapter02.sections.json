@@ -1,0 +1,523 @@
+{
+  "id": "table.dmg.chapter02.sections",
+  "name": "Chapter 2 Sections",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      19,
+      54
+    ],
+    "section": "Chapter 2: Running the Game"
+  },
+  "columns": [
+    "heading",
+    "page"
+  ],
+  "entries": [
+    {
+      "heading": "CHAPTER 2: RUNNING THE GAME",
+      "page": 19
+    },
+    {
+      "heading": "KNOW YOUR PLAYERS",
+      "page": 20
+    },
+    {
+      "heading": "ACTING",
+      "page": 20
+    },
+    {
+      "heading": "EXPLORING",
+      "page": 21
+    },
+    {
+      "heading": "FIGHTING",
+      "page": 21
+    },
+    {
+      "heading": "INSTIGATING",
+      "page": 21
+    },
+    {
+      "heading": "OPTIMIZING",
+      "page": 21
+    },
+    {
+      "heading": "PROBLEM-SOLVING",
+      "page": 21
+    },
+    {
+      "heading": "SOCIALIZING",
+      "page": 22
+    },
+    {
+      "heading": "STORYTELLING",
+      "page": 22
+    },
+    {
+      "heading": "GROUP SIZE",
+      "page": 23
+    },
+    {
+      "heading": "SMALL GROUPS",
+      "page": 23
+    },
+    {
+      "heading": "DM-CONTROLLED ADVENTURER",
+      "page": 23
+    },
+    {
+      "heading": "NPC PARTY MEMBERS",
+      "page": 23
+    },
+    {
+      "heading": "PLAYERS WITH MULTIPLE CHARACTERS",
+      "page": 23
+    },
+    {
+      "heading": "LARGE GROUPS",
+      "page": 23
+    },
+    {
+      "heading": "STRUCTURED TURNS",
+      "page": 23
+    },
+    {
+      "heading": "PARTY LEADER",
+      "page": 23
+    },
+    {
+      "heading": "SPEEDING COMBAT",
+      "page": 23
+    },
+    {
+      "heading": "ABSENT PLAYERS",
+      "page": 24
+    },
+    {
+      "heading": "INCORPORATING NEW PLAYERS",
+      "page": 24
+    },
+    {
+      "heading": "SPECIAL GUEST STARS",
+      "page": 25
+    },
+    {
+      "heading": "MULTIPLE DMs",
+      "page": 25
+    },
+    {
+      "heading": "OCCASIONAL BREAKS",
+      "page": 25
+    },
+    {
+      "heading": "VARIETY SERIES",
+      "page": 25
+    },
+    {
+      "heading": "CONCURRENT CAMPAIGNS",
+      "page": 25
+    },
+    {
+      "heading": "SHARED WORLD",
+      "page": 25
+    },
+    {
+      "heading": "JOINT DMs",
+      "page": 25
+    },
+    {
+      "heading": "NARRATION",
+      "page": 26
+    },
+    {
+      "heading": "LEAD BY EXAMPLE",
+      "page": 26
+    },
+    {
+      "heading": "BREVITY",
+      "page": 26
+    },
+    {
+      "heading": "ATMOSPHERE",
+      "page": 27
+    },
+    {
+      "heading": "DRAW PLAYERS' ATTENTION",
+      "page": 27
+    },
+    {
+      "heading": "SECRETS AND DISCOVERY",
+      "page": 27
+    },
+    {
+      "heading": "GIVING INFORMATION TO ONE PLAYER",
+      "page": 27
+    },
+    {
+      "heading": "RESOLVING OUTCOMES",
+      "page": 28
+    },
+    {
+      "heading": "ABILITY CHECKS",
+      "page": 29
+    },
+    {
+      "heading": "PROFICIENCY",
+      "page": 29
+    },
+    {
+      "heading": "TRYING AGAIN",
+      "page": 29
+    },
+    {
+      "heading": "GROUP CHECKS",
+      "page": 29
+    },
+    {
+      "heading": "PASSIVE CHECKS",
+      "page": 30
+    },
+    {
+      "heading": "ATTACK ROLLS",
+      "page": 30
+    },
+    {
+      "heading": "SAVING THROWS",
+      "page": 30
+    },
+    {
+      "heading": "DIFFICULTY CLASS",
+      "page": 30
+    },
+    {
+      "heading": "CALCULATED DCs",
+      "page": 31
+    },
+    {
+      "heading": "ADVANTAGE AND DISADVANTAGE",
+      "page": 31
+    },
+    {
+      "heading": "ADVANTAGE",
+      "page": 31
+    },
+    {
+      "heading": "DISADVANTAGE",
+      "page": 31
+    },
+    {
+      "heading": "CONSEQUENCES",
+      "page": 31
+    },
+    {
+      "heading": "SUCCESS AT A COST",
+      "page": 31
+    },
+    {
+      "heading": "DEGREES OF FAILURE",
+      "page": 32
+    },
+    {
+      "heading": "DEGREES OF SUCCESS",
+      "page": 32
+    },
+    {
+      "heading": "CRITICAL SUCCESS OR FAILURE",
+      "page": 32
+    },
+    {
+      "heading": "IMPROVISING DAMAGE",
+      "page": 32
+    },
+    {
+      "heading": "IMPROVISING ANSWERS",
+      "page": 33
+    },
+    {
+      "heading": "AIDS TO IMPROVISATION",
+      "page": 33
+    },
+    {
+      "heading": "RUNNING SOCIAL INTERACTION",
+      "page": 34
+    },
+    {
+      "heading": "ROLEPLAYING",
+      "page": 34
+    },
+    {
+      "heading": "NPC PORTRAYALS",
+      "page": 34
+    },
+    {
+      "heading": "ENGAGING THE PLAYERS",
+      "page": 34
+    },
+    {
+      "heading": "ATTITUDE",
+      "page": 34
+    },
+    {
+      "heading": "ABILITY CHECKS IN SOCIAL INTERACTION",
+      "page": 35
+    },
+    {
+      "heading": "USING THE HELP ACTION",
+      "page": 35
+    },
+    {
+      "heading": "RUNNING EXPLORATION",
+      "page": 35
+    },
+    {
+      "heading": "USING A MAP",
+      "page": 35
+    },
+    {
+      "heading": "TRACKING TIME",
+      "page": 36
+    },
+    {
+      "heading": "ACTIONS IN EXPLORATION",
+      "page": 37
+    },
+    {
+      "heading": "TAKING TURNS",
+      "page": 37
+    },
+    {
+      "heading": "ABILITY CHECKS IN EXPLORATION",
+      "page": 37
+    },
+    {
+      "heading": "PERCEPTION",
+      "page": 38
+    },
+    {
+      "heading": "WHEN TO CALL FOR A CHECK",
+      "page": 38
+    },
+    {
+      "heading": "HIDDEN THINGS IN ADVENTURES",
+      "page": 38
+    },
+    {
+      "heading": "PERCEPTION AND ENCOUNTERS",
+      "page": 39
+    },
+    {
+      "heading": "TRAVEL",
+      "page": 39
+    },
+    {
+      "heading": "JOURNEY STAGES",
+      "page": 39
+    },
+    {
+      "heading": "JOURNEYS WITHOUT DESTINATIONS",
+      "page": 40
+    },
+    {
+      "heading": "WEATHER",
+      "page": 41
+    },
+    {
+      "heading": "TRAVEL PACE",
+      "page": 41
+    },
+    {
+      "heading": "NARRATION DURING TRAVEL",
+      "page": 42
+    },
+    {
+      "heading": "JOURNEY STAGE CHALLENGES",
+      "page": 43
+    },
+    {
+      "heading": "ENCOUNTERS WITH OTHER CREATURES",
+      "page": 43
+    },
+    {
+      "heading": "FORAGING",
+      "page": 43
+    },
+    {
+      "heading": "NAVIGATION",
+      "page": 43
+    },
+    {
+      "heading": "OBSTACLES",
+      "page": 44
+    },
+    {
+      "heading": "SEARCHES",
+      "page": 44
+    },
+    {
+      "heading": "TRACKING",
+      "page": 44
+    },
+    {
+      "heading": "RUNNING COMBAT",
+      "page": 45
+    },
+    {
+      "heading": "ROLLING INITIATIVE",
+      "page": 45
+    },
+    {
+      "heading": "USING INITIATIVE SCORES",
+      "page": 45
+    },
+    {
+      "heading": "TRACKING INITIATIVE",
+      "page": 45
+    },
+    {
+      "heading": "HIDDEN LIST",
+      "page": 46
+    },
+    {
+      "heading": "OPEN LIST",
+      "page": 46
+    },
+    {
+      "heading": "TRACKING MONSTERS' HIT POINTS",
+      "page": 46
+    },
+    {
+      "heading": "USING AND TRACKING CONDITIONS",
+      "page": 47
+    },
+    {
+      "heading": "MINIATURES",
+      "page": 48
+    },
+    {
+      "heading": "TACTICAL MAPS",
+      "page": 48
+    },
+    {
+      "heading": "CREATURE SIZE AND SPACE",
+      "page": 48
+    },
+    {
+      "heading": "AREAS OF EFFECT",
+      "page": 48
+    },
+    {
+      "heading": "LINE OF SIGHT",
+      "page": 49
+    },
+    {
+      "heading": "DIAGONAL MOVEMENT",
+      "page": 50
+    },
+    {
+      "heading": "TRACKING POSITION AT LONG RANGE",
+      "page": 50
+    },
+    {
+      "heading": "NARRATION IN COMBAT",
+      "page": 50
+    },
+    {
+      "heading": "AWARDING HEROIC INSPIRATION",
+      "page": 50
+    },
+    {
+      "heading": "LOSS OF HIT POINTS",
+      "page": 51
+    },
+    {
+      "heading": "ACTIONS IN COMBAT",
+      "page": 51
+    },
+    {
+      "heading": "MONSTERS CASTING SPELLS",
+      "page": 52
+    },
+    {
+      "heading": "KEEPING COMBAT MOVING",
+      "page": 52
+    },
+    {
+      "heading": "DON'T REPEAT GAME STATES",
+      "page": 52
+    },
+    {
+      "heading": "HASTEN A MONSTER'S DEMISE",
+      "page": 52
+    },
+    {
+      "heading": "END HOSTILITIES",
+      "page": 52
+    },
+    {
+      "heading": "ADD A COMBATANT",
+      "page": 52
+    },
+    {
+      "heading": "CHANGE THE TERRAIN",
+      "page": 52
+    },
+    {
+      "heading": "CHANGE THE MONSTER",
+      "page": 52
+    },
+    {
+      "heading": "ADJUSTING DIFFICULTY",
+      "page": 53
+    },
+    {
+      "heading": "FIGHT OR FLIGHT",
+      "page": 53
+    },
+    {
+      "heading": "AVOIDING OR ENDING A FIGHT",
+      "page": 53
+    },
+    {
+      "heading": "CHARACTER ADVANCEMENT",
+      "page": 53
+    },
+    {
+      "heading": "AWARDING XP",
+      "page": 53
+    },
+    {
+      "heading": "NONCOMBAT CHALLENGES",
+      "page": 53
+    },
+    {
+      "heading": "MILESTONES",
+      "page": 53
+    },
+    {
+      "heading": "LEVELING UP",
+      "page": 54
+    },
+    {
+      "heading": "VARIANT: TRAINING TO GAIN LEVELS",
+      "page": 54
+    },
+    {
+      "heading": "LEVEL ADVANCEMENT WITHOUT XP",
+      "page": 54
+    },
+    {
+      "heading": "SESSION-BASED ADVANCEMENT",
+      "page": 54
+    },
+    {
+      "heading": "STORY-BASED ADVANCEMENT",
+      "page": 54
+    }
+  ],
+  "notes": [
+    "Auto-extracted headings from DMG Chapter 2 text."
+  ]
+}

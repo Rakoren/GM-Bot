@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.running_social_interaction",
+    "name":  "Running Social Interaction",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use social interaction to present choices, tension, and character-driven scenes.",
+                     "Frame conversations with clear goals or stakes.",
+                     "Let player actions and tone influence NPC responses."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "social"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    34
+                                ],
+                      "section":  "Running Social Interaction"
+                  },
+    "notes":  [
+
+              ]
+}

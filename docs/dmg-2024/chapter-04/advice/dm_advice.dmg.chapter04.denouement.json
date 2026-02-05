@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.denouement",
+  "name": "Denouement",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Resolve loose threads and show consequences of the adventure.",
+    "Highlight character impact on the world and NPCs.",
+    "Seed future hooks based on outcomes."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      112
+    ],
+    "section": "Denouement"
+  },
+  "notes": []
+}

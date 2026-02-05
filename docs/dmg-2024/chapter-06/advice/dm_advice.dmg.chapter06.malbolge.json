@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.malbolge",
+  "name": "Malbolge",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present Malbolge as a crumbling mountainside of avalanches and collapsing fortresses.",
+    "Use Glasya's citadel Osseia and its prison labyrinth as focal points.",
+    "Keep Moloch's lingering schemes as background tension."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202,
+      203
+    ],
+    "section": "Malbolge"
+  },
+  "notes": []
+}

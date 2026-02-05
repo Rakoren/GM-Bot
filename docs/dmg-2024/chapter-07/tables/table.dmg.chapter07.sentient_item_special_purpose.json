@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.sentient_item_special_purpose",
+  "name": "Sentient Item's Special Purpose",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "purpose"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "purpose": "Aligned. Seeks to defeat or destroy those of a diametrically opposed alignment; never Neutral."
+    },
+    {
+      "roll": "2",
+      "purpose": "Bane. Seeks to thwart or destroy creatures of a particular type, such as Constructs, Fiends, or Undead."
+    },
+    {
+      "roll": "3",
+      "purpose": "Creator Seeker. Seeks its creator and wants to understand why it was created."
+    },
+    {
+      "roll": "4",
+      "purpose": "Destiny Seeker. Believes it and its bearer have key roles to play in future events."
+    },
+    {
+      "roll": "5",
+      "purpose": "Destroyer. Craves destruction and goads its user to fight arbitrarily."
+    },
+    {
+      "roll": "6",
+      "purpose": "Glory Seeker. Seeks renown as the greatest magic item by winning fame or notoriety for its user."
+    },
+    {
+      "roll": "7",
+      "purpose": "Lore Seeker. Craves knowledge or seeks to solve a mystery, learn a secret, or unravel a cryptic prophecy."
+    },
+    {
+      "roll": "8",
+      "purpose": "Protector. Seeks to defend a particular kind of creature, such as elves or werewolves."
+    },
+    {
+      "roll": "9",
+      "purpose": "Soulmate Seeker. Seeks another sentient magic item, perhaps one similar to itself."
+    },
+    {
+      "roll": "10",
+      "purpose": "Templar. Seeks to defend the servants and interests of a particular deity."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      226
+    ],
+    "section": "Sentient Item's Special Purpose"
+  },
+  "notes": []
+}

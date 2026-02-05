@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter06.ysgard_layers",
+  "name": "Layers of Ysgard",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Ysgard",
+      "description": "Immense rivers of floating earth grind together in eternal rumbling."
+    },
+    {
+      "layer": "Muspelheim",
+      "description": "Ground smokes and burns beneath the earthbergs of the top layer."
+    },
+    {
+      "layer": "Nidavellir",
+      "description": "Earth chunks close into tunnel-like expanses with rich mineral deposits."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      210
+    ],
+    "section": "Layers of Ysgard"
+  },
+  "notes": []
+}

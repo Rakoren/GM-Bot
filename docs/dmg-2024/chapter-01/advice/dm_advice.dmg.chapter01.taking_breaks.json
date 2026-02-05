@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.taking_breaks",
+  "name": "Taking Breaks",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "When you finish a lengthy combat encounter or a tension-filled scene, or if you need time to think, take a quick break.",
+    "Give your brain a few moments to refocus, relax, or prepare for the next encounter.",
+    "It is OK to leave the players in suspense during a break while you figure out the consequences of their actions."
+  ],
+  "tags": [
+    "chapter-01",
+    "session-flow"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Taking Breaks"
+  },
+  "notes": []
+}

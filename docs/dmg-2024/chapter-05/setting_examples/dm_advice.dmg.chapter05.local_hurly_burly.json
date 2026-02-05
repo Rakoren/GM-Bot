@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.local_hurly_burly",
+  "name": "Local Hurly-Burly",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use street-level problems to ground the city.",
+    "Mix petty crime with larger plots.",
+    "Give players easy entry points to get involved."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Local Hurly-Burly"
+  },
+  "notes": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "table.dmg.chapter06.outer_planes",
+  "name": "Outer Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "outer_plane",
+    "alignment"
+  ],
+  "entries": [
+    {
+      "outer_plane": "Abyss",
+      "alignment": "Chaotic Evil"
+    },
+    {
+      "outer_plane": "Acheron",
+      "alignment": "Lawful Evil, Lawful Neutral"
+    },
+    {
+      "outer_plane": "Arborea",
+      "alignment": "Chaotic Good"
+    },
+    {
+      "outer_plane": "Arcadia",
+      "alignment": "Lawful Good, Lawful Neutral"
+    },
+    {
+      "outer_plane": "Beastlands",
+      "alignment": "Chaotic Good, Neutral Good"
+    },
+    {
+      "outer_plane": "Bytopia",
+      "alignment": "Lawful Good, Neutral Good"
+    },
+    {
+      "outer_plane": "Carceri",
+      "alignment": "Chaotic Evil, Neutral Evil"
+    },
+    {
+      "outer_plane": "Elysium",
+      "alignment": "Neutral Good"
+    },
+    {
+      "outer_plane": "Gehenna",
+      "alignment": "Lawful Evil, Neutral Evil"
+    },
+    {
+      "outer_plane": "Hades",
+      "alignment": "Neutral Evil"
+    },
+    {
+      "outer_plane": "Limbo",
+      "alignment": "Chaotic Neutral"
+    },
+    {
+      "outer_plane": "Mechanus",
+      "alignment": "Lawful Neutral"
+    },
+    {
+      "outer_plane": "Mount Celestia",
+      "alignment": "Lawful Good"
+    },
+    {
+      "outer_plane": "Nine Hells",
+      "alignment": "Lawful Evil"
+    },
+    {
+      "outer_plane": "Outlands",
+      "alignment": "Neutral"
+    },
+    {
+      "outer_plane": "Pandemonium",
+      "alignment": "Chaotic Evil, Chaotic Neutral"
+    },
+    {
+      "outer_plane": "Ysgard",
+      "alignment": "Chaotic Good, Chaotic Neutral"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      174
+    ],
+    "section": "Outer Planes"
+  },
+  "notes": []
+}

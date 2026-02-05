@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.carceri_adventures",
+  "name": "Carceri Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Carceri to explore betrayal, despair, and imprisonment?spiritual or literal.",
+    "Make cooperation difficult; the plane?s nature breeds treachery even among allies.",
+    "Build plots around helping a prisoner escape or confronting the force that bound them."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "carceri",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      187
+    ],
+    "section": "Carceri Adventures"
+  },
+  "notes": []
+}

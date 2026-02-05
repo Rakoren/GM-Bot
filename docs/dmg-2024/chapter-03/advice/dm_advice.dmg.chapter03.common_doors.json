@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.common_doors",
+  "name": "Common Doors",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use common doors as quick checks or minor barriers.",
+    "Consider material and condition when setting DCs.",
+    "Let sound and damage carry consequences."
+  ],
+  "tags": [
+    "chapter-03",
+    "doors"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Common Doors"
+  },
+  "notes": []
+}

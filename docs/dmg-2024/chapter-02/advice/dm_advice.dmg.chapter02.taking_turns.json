@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.taking_turns",
+    "name":  "Taking Turns",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use turn order when many players want to act in a scene.",
+                     "Ensure everyone gets a chance to contribute.",
+                     "Return to freeform play when the situation stabilizes."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    37
+                                ],
+                      "section":  "Taking Turns"
+                  },
+    "notes":  [
+
+              ]
+}

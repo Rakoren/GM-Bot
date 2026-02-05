@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.tracking_monsters_hit_points",
+    "name":  "Tracking Monsters\u0027 Hit Points",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Track monster hit points consistently and clearly.",
+                     "Use visible cues or descriptions to signal damage levels.",
+                     "Avoid slowing the game with excessive bookkeeping."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    46
+                                ],
+                      "section":  "Tracking Monsters\u0027 Hit Points"
+                  },
+    "notes":  [
+
+              ]
+}

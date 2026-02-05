@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.dashing",
+  "name": "Dashing",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Each chase participant can Dash a limited number of times based on Constitution.",
+    "Additional Dashes require a Constitution save or gain Exhaustion.",
+    "A participant drops out of the chase at 5 Exhaustion."
+  ],
+  "tags": [
+    "chapter-03",
+    "chase"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Dashing"
+  },
+  "notes": []
+}

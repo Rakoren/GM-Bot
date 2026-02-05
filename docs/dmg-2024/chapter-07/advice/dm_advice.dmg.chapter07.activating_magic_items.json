@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.activating_magic_items",
+  "name": "Activating a Magic Item",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Activating a magic item usually takes a Magic action.",
+    "Some items require special actions or conditions; check the item or category description.",
+    "Certain activation rules (command words, consumables, charges, and spellcasting from items) apply to many items."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Activating a Magic Item"
+  },
+  "notes": []
+}

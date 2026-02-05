@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.adjusting_difficulty",
+    "name":  "Adjusting Difficulty",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Adjust difficulty when the encounter is too easy or too hard.",
+                     "Use reinforcements, terrain, or objectives to tune pressure.",
+                     "Aim for a satisfying challenge, not perfection."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    53
+                                ],
+                      "section":  "Adjusting Difficulty"
+                  },
+    "notes":  [
+
+              ]
+}

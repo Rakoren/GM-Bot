@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.command_word",
+  "name": "Command Word",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "A command word is a word or short phrase spoken or signed to activate an item.",
+    "Spoken command words must be audible; they fail in areas where sound is suppressed (such as Silence)."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Command Word"
+  },
+  "notes": []
+}

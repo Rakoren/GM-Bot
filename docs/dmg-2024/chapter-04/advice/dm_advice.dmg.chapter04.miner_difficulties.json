@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.miner_difficulties",
+  "name": "Miner Difficulties",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use local NPC concerns to surface stakes and urgency.",
+    "Present complications that can be solved through multiple approaches.",
+    "Let consequences ripple back to the settlement."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "examples"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      113
+    ],
+    "section": "Miner Difficulties"
+  },
+  "notes": []
+}

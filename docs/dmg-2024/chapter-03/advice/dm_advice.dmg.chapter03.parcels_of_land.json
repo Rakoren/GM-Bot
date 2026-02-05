@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.parcels_of_land",
+  "name": "Parcels of Land",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Land grants can establish long-term stakes.",
+    "Define boundaries, obligations, and benefits.",
+    "Use land to create future plot hooks."
+  ],
+  "tags": [
+    "chapter-03",
+    "prestige"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Parcels of Land"
+  },
+  "notes": []
+}

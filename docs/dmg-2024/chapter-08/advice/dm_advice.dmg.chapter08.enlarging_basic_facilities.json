@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter08.enlarging_basic_facilities",
+  "name": "Enlarging Basic Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Enlarging a basic facility has no mechanical benefit; it’s cosmetic or for size.",
+    "A character can pay time and cost to increase a facility by one space category."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Enlarging Basic Facilities"
+  },
+  "notes": []
+}

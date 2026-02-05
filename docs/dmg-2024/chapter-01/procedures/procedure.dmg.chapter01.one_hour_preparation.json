@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter01.one_hour_preparation",
+  "name": "One-Hour Preparation",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "steps": [
+    "Step 1. Focus on the story of the adventure. Read or reread the adventure's introduction and background information. Create a bulleted list of key plot points to make sure a coherent story unfolds.",
+    "Step 2. Identify the encounters you want to run, then figure out how likely it is each encounter will get played, categorizing each one as \"definite,\" \"possible,\" or \"unlikely.\"",
+    "Step 3. Gather any maps you'll need for the definite and possible encounters, then focus the remainder of your prep time on the definite encounters, as outlined below.",
+    "For combat encounters, review the monsters' tactics and stat blocks. Note any special rules that apply to the setting of the encounter.",
+    "For social interaction encounters, make notes about the nonplayer characters (NPCs) in the encounter?their personalities, goals, and tactics.",
+    "For exploration encounters, record any clues or other information the characters should learn, and review any special rules that might come into play in the encounter.",
+    "Step 4. Consider how each definite encounter relates to the players' motivations (see the \"Know Your Players\" section in chapter 2). Think about elements you can add to interest them. For example, a combat encounter could open with a tense negotiation designed to appeal to players who enjoy social interaction.",
+    "Step 5. Skim the encounters you flagged as possible."
+  ],
+  "triggers": [
+    "when you have about one hour to prepare a session"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      6,
+      8
+    ],
+    "section": "One-Hour Preparation"
+  },
+  "notes": []
+}
+
+
+

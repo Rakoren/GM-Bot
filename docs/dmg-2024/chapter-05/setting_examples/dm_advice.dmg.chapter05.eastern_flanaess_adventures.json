@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.eastern_flanaess_adventures",
+  "name": "Eastern Flanaess Adventures",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use war, intrigue, and monster threats for hooks.",
+    "Leverage frontier tension and political decay.",
+    "Tie adventures to borderlands and rival powers."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      147
+    ],
+    "section": "Eastern Flanaess Adventures"
+  },
+  "notes": []
+}

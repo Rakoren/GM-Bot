@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.key_conflicts",
+  "name": "Key Conflicts",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Define the citys main tensions and power struggles.",
+    "Use these conflicts to drive recurring adventures.",
+    "Let player actions tip the balance."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Key Conflicts"
+  },
+  "notes": []
+}

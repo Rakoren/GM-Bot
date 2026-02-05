@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.player_die_rolling",
+  "name": "Player Die Rolling",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Players should roll their dice in full view of everyone. If a player scoops up their dice before anyone else can see what they rolled, encourage that player to be less secretive.",
+    "When a die falls on the floor, do you count it or reroll it? When it lands cocked against a book, do you pull the book away and see where it lands or reroll the die? Work with your players to answer these questions, and record the answers as house rules."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Player Die Rolling"
+  },
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter06.psychic_wind",
+  "name": "Psychic Wind",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use psychic winds as storms of thought that darken the Astral sky and batter minds.",
+    "Apply a location effect to the group, then require DC 15 Intelligence saves for individual psychic effects.",
+    "Let the wind serve as both hazard and narrative interruption."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "astral",
+    "hazard"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      184,
+      185
+    ],
+    "section": "Psychic Wind"
+  },
+  "notes": []
+}

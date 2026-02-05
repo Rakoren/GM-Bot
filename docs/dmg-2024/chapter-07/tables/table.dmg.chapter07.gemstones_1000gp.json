@@ -1,0 +1,52 @@
+{
+  "id": "table.dmg.chapter07.gemstones_1000gp",
+  "name": "1,000 GP Gemstones",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "stone"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "stone": "Black opal (dark green with black mottling and golden flecks)"
+    },
+    {
+      "roll": "2",
+      "stone": "Blue sapphire (medium blue)"
+    },
+    {
+      "roll": "3",
+      "stone": "Emerald (deep bright green)"
+    },
+    {
+      "roll": "4",
+      "stone": "Fire opal (fiery red)"
+    },
+    {
+      "roll": "5",
+      "stone": "Opal (pale blue with green and golden mottling)"
+    },
+    {
+      "roll": "6",
+      "stone": "Star ruby (ruby with white star-shaped center)"
+    },
+    {
+      "roll": "7",
+      "stone": "Star sapphire (blue sapphire with white star-shaped center)"
+    },
+    {
+      "roll": "8",
+      "stone": "Yellow sapphire (fiery yellow or yellow green)"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      214
+    ],
+    "section": "1,000 GP Gemstones"
+  },
+  "notes": []
+}

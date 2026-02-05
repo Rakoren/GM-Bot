@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.scheduling_games",
+  "name": "Scheduling Games",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Sometimes the hardest thing about running a game is finding a time when everyone can play. Some groups play for a few hours every week, while others set aside a whole day once a month. Create a schedule that works best for your group.",
+    "For new groups, it often helps to schedule a single-session game (often called a \"one-shot\") as a way for people to try it out. If everyone has a great time at that one session, it can be easier to get them to make a long-term commitment.",
+    "Scheduling conflicts are sometimes inescapable. The \"Group Size\" section in chapter 2 offers some advice on what to do when a player has to miss a session."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Scheduling Games"
+  },
+  "notes": []
+}

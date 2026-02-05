@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.prolonged_effects",
+  "name": "Prolonged Effects",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Treat prolonged effects as ongoing complications.",
+    "Track duration and recovery conditions clearly.",
+    "Use prolonged effects to reinforce narrative consequences."
+  ],
+  "tags": [
+    "chapter-03",
+    "fear"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Prolonged Effects"
+  },
+  "notes": []
+}

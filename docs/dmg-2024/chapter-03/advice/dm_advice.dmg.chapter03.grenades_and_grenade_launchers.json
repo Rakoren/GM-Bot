@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.grenades_and_grenade_launchers",
+  "name": "Grenades and Grenade Launchers",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use grenades to create area control and tactical choices.",
+    "Balance launchers with limited ammo and setup costs.",
+    "Keep blast effects easy to adjudicate."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Grenades and Grenade Launchers"
+  },
+  "notes": []
+}

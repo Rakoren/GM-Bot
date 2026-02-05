@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.loyalty",
+  "name": "Loyalty",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use loyalty to track ally commitment over time.",
+    "Let loyalty shift based on player behavior.",
+    "Make loyalty checks visible and meaningful."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Loyalty"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.creating_your_own_setting",
+  "name": "Creating Your Own Setting",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Ask players what genres and themes they enjoy.",
+    "Build locations, conflicts, and factions that reflect those tastes.",
+    "Keep a running list of names, mysteries, and hooks."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "setting"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      132
+    ],
+    "section": "Creating Your Own Setting"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.optimizing",
+  "name": "Optimizing",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Optimization-focused players enjoy fine-tuning characters for peak performance.",
+    "Use desired magic items as hooks and rewards.",
+    "Design encounters that let potent abilities matter.",
+    "Offer quantifiable rewards, including XP, for noncombat successes."
+  ],
+  "tags": [
+    "chapter-02",
+    "player-preferences"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Optimizing"
+  },
+  "notes": []
+}

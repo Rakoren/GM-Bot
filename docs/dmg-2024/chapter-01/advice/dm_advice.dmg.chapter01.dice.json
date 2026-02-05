@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.dice",
+  "name": "Dice",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "You need a full set of polyhedral dice: d4, d6, d8, d10, d12, and d20. It's helpful to have at least two of each kind. Ideally, each player should also have their own set of polyhedral dice.",
+    "Lots of digital dice rollers exist. Simple, browser-based dice rollers are easily found on the internet. Specialized dice apps can be found in app stores, and virtual tabletops typically have dice-rolling functionality built in."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Dice"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.end_hostilities",
+    "name":  "End Hostilities",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Allow surrender, retreat, or parley when appropriate.",
+                     "Use morale or goals to end fights before total defeat.",
+                     "Make outcomes feel fair and story-relevant."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    52
+                                ],
+                      "section":  "End Hostilities"
+                  },
+    "notes":  [
+
+              ]
+}

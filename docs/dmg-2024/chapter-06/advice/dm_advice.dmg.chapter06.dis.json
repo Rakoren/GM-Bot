@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.dis",
+  "name": "Dis",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Dis as a canyon labyrinth of iron roads and fortresses.",
+    "Anchor deals and conspiracies in the Iron City of Dis.",
+    "Let Dispater's contracts and soul bargains shape the layer's politics."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202
+    ],
+    "section": "Dis"
+  },
+  "notes": []
+}

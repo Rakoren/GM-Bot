@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.degrees_of_failure",
+    "name":  "Degrees of Failure",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Scale failure results based on how badly the roll missed.",
+                     "Use minor failures to add complications rather than dead ends.",
+                     "Reserve severe consequences for large shortfalls or risky attempts."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    32
+                                ],
+                      "section":  "Degrees of Failure"
+                  },
+    "notes":  [
+
+              ]
+}

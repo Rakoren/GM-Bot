@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.arcadia",
+  "name": "Arcadia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Depict Arcadia as a realm of perfect order: aligned orchards, straight streams, immaculate roads, and geometric cities.",
+    "Use the rotating sky-orb to set even, predictable cycles of day and night.",
+    "Lean on the Storm Kings and Arcadia?s life energy to reinforce its vitality and control."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "arcadia"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      183
+    ],
+    "section": "Arcadia"
+  },
+  "notes": []
+}

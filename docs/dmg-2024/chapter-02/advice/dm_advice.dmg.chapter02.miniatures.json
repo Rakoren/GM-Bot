@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.miniatures",
+    "name":  "Miniatures",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use miniatures to clarify positions and distances.",
+                     "Represent creatures consistently on the battlefield.",
+                     "Keep scale and space in mind."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat",
+                 "maps"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    48
+                                ],
+                      "section":  "Miniatures"
+                  },
+    "notes":  [
+
+              ]
+}

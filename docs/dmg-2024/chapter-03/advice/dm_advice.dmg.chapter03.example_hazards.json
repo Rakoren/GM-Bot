@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.example_hazards",
+  "name": "Example Hazards",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use examples as templates for custom hazards.",
+    "Adjust difficulty, triggers, and outcomes to fit the scene.",
+    "Combine hazards with terrain and enemies for layered threats."
+  ],
+  "tags": [
+    "chapter-03",
+    "hazards"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Example Hazards"
+  },
+  "notes": []
+}

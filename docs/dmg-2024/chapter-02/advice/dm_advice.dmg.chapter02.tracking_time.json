@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.tracking_time",
+    "name":  "Tracking Time",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Track time to make exploration choices meaningful.",
+                     "Use time to manage resources, rests, and encounter pacing.",
+                     "Communicate time costs when they matter."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    36
+                                ],
+                      "section":  "Tracking Time"
+                  },
+    "notes":  [
+
+              ]
+}

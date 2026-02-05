@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.episodes_and_serials",
+  "name": "Episodes and Serials",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Decide whether adventures are episodic, serial, or a mix.",
+    "Use episodic structure for flexible entry points.",
+    "Use serial structure for long arcs and escalation."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      134
+    ],
+    "section": "Episodes and Serials"
+  },
+  "notes": []
+}

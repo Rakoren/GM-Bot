@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.adjudicating_areas_of_effect",
+  "name": "Adjudicating Areas of Effect",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Decide how areas interact with grids, shapes, and cover.",
+    "Apply consistent rulings so players can plan around them.",
+    "Keep resolution quick to preserve combat pacing."
+  ],
+  "tags": [
+    "chapter-03",
+    "combat"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Adjudicating Areas of Effect"
+  },
+  "notes": []
+}

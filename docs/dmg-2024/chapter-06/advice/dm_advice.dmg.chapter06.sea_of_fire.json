@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.sea_of_fire",
+  "name": "Sea of Fire",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Describe the Sea of Fire as vast lava fed by the Fountains of Creation.",
+    "Use brass ships, obsidian islands, and red dragon lairs to make it a travel and adventure zone.",
+    "Let navigation be dangerous but possible through efreeti and azer sailors."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-fire"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      189
+    ],
+    "section": "Sea of Fire"
+  },
+  "notes": []
+}

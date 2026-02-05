@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_item_rules",
+  "name": "Magic Item Rules",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use PHB rules for identification, attunement, and use; apply additional rules here as needed.",
+    "Respect attunement prerequisites (class or spellcasting).",
+    "Decide whether items resize for unusual anatomy; allow exceptions for paired items."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Magic Item Rules"
+  },
+  "notes": []
+}

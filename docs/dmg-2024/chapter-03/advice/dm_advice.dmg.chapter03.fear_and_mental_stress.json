@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.fear_and_mental_stress",
+  "name": "Fear and Mental Stress",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use fear and mental stress to heighten tension and stakes.",
+    "Keep effects clear, fair, and consistent.",
+    "Offer recovery options to avoid long-term frustration."
+  ],
+  "tags": [
+    "chapter-03",
+    "fear"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Fear and Mental Stress"
+  },
+  "notes": []
+}

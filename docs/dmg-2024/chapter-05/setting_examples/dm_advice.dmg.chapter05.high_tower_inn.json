@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter05.high_tower_inn",
+  "name": "High Tower Inn",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the inn as a mid-tier social hub or rival to other inns.",
+    "Place traveling NPCs or factions here.",
+    "Let it host meetings or secret deals."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      143
+    ],
+    "section": "High Tower Inn"
+  },
+  "notes": []
+}

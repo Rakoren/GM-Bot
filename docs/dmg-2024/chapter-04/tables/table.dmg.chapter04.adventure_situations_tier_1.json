@@ -1,0 +1,102 @@
+{
+    "id":  "table.dmg.chapter04.adventure_situations_tier_1",
+    "name":  "Adventure Situations (Levels 1-4)",
+    "chapter":  "dmg-2024.chapter-04",
+    "status":  "complete",
+    "columns":  [
+                    "roll",
+                    "situation"
+                ],
+    "entries":  [
+                    {
+                        "roll":  "1",
+                        "situation":  "A dragon wyrmling has gathered a band of kobolds to help it amass a hoard."
+                    },
+                    {
+                        "roll":  "2",
+                        "situation":  "Wererats living in a city\u0027s sewers plot to take control of the governing council."
+                    },
+                    {
+                        "roll":  "3",
+                        "situation":  "Bandit activity signals efforts to revive an evil cult long ago driven from the region."
+                    },
+                    {
+                        "roll":  "4",
+                        "situation":  "A pack of gnolls is rampaging dangerously close to local farmlands."
+                    },
+                    {
+                        "roll":  "5",
+                        "situation":  "A rivalry between two merchant families escalates from mischief to mayhem."
+                    },
+                    {
+                        "roll":  "6",
+                        "situation":  "A new sinkhole has revealed a long-buried dungeon thought to hold treasure."
+                    },
+                    {
+                        "roll":  "7",
+                        "situation":  "Miners discovered an underground ruin and were captured by monsters living there."
+                    },
+                    {
+                        "roll":  "8",
+                        "situation":  "An innocent person is being framed for the crimes of a shape-shifting monster."
+                    },
+                    {
+                        "roll":  "9",
+                        "situation":  "Ghouls are venturing out of the catacombs at night."
+                    },
+                    {
+                        "roll":  "10",
+                        "situation":  "A notorious criminal hides from the law in an old ruin or abandoned mine."
+                    },
+                    {
+                        "roll":  "11",
+                        "situation":  "A contagion in a forest is causing spiders to grow massive and become aggressive."
+                    },
+                    {
+                        "roll":  "12",
+                        "situation":  "To take revenge against a village for an imagined slight, a necromancer has been animating the corpses in the village cemetery."
+                    },
+                    {
+                        "roll":  "13",
+                        "situation":  "An evil cult is spreading in a village. Those who oppose the cult are marked for sacrifice."
+                    },
+                    {
+                        "roll":  "14",
+                        "situation":  "An abandoned house on the edge of town is haunted by Undead because of a cursed item in the house."
+                    },
+                    {
+                        "roll":  "15",
+                        "situation":  "Creatures from the Feywild enter the world and cause mischief and misfortune among villagers and their livestock."
+                    },
+                    {
+                        "roll":  "16",
+                        "situation":  "A hag\u0027s curse is making animals unusually aggressive."
+                    },
+                    {
+                        "roll":  "17",
+                        "situation":  "Bullies have appointed themselves the village militia and are extorting money and food from villagers."
+                    },
+                    {
+                        "roll":  "18",
+                        "situation":  "After a local fisher pulls a grotesque statue from the sea, aquatic monsters start attacking the waterfront at night."
+                    },
+                    {
+                        "roll":  "19",
+                        "situation":  "The ruins on the hill near the village lie under a curse, so people don\u0027t go there - except a scholar who wants to study the ruins."
+                    },
+                    {
+                        "roll":  "20",
+                        "situation":  "A new captain has taken charge of a band of pirates or bandits and started raiding more frequently."
+                    }
+                ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    106
+                                ],
+                      "section":  "Levels 1-4: Local Heroes"
+                  },
+    "notes":  [
+
+              ]
+}

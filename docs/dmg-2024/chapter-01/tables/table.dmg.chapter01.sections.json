@@ -1,0 +1,263 @@
+{
+  "id": "table.dmg.chapter01.sections",
+  "name": "Chapter 1 Sections",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      1,
+      18
+    ],
+    "section": "Chapter 1: The Basics"
+  },
+  "columns": [
+    "heading",
+    "page"
+  ],
+  "entries": [
+    {
+      "heading": "CHAPTER 1: THE BASICS",
+      "page": 1
+    },
+    {
+      "heading": "DM TIPS",
+      "page": 2
+    },
+    {
+      "heading": "THINGS YOU NEED",
+      "page": 2
+    },
+    {
+      "heading": "RULEBOOKS",
+      "page": 2
+    },
+    {
+      "heading": "A DUNGEON MASTER",
+      "page": 2
+    },
+    {
+      "heading": "PLAYERS",
+      "page": 3
+    },
+    {
+      "heading": "FINDING PLAYERS",
+      "page": 3
+    },
+    {
+      "heading": "A PLACE TO PLAY",
+      "page": 3
+    },
+    {
+      "heading": "SCHEDULING GAMES",
+      "page": 3
+    },
+    {
+      "heading": "NOTE-TAKING MATERIALS",
+      "page": 3
+    },
+    {
+      "heading": "CHARACTER SHEETS",
+      "page": 3
+    },
+    {
+      "heading": "CAMPAIGN JOURNAL",
+      "page": 4
+    },
+    {
+      "heading": "USEFUL ADDITIONS",
+      "page": 4
+    },
+    {
+      "heading": "DM SCREEN",
+      "page": 4
+    },
+    {
+      "heading": "ADVENTURES AND SOURCEBOOKS",
+      "page": 4
+    },
+    {
+      "heading": "BATTLE GRID AND MINIATURES",
+      "page": 4
+    },
+    {
+      "heading": "CARD ACCESSORIES",
+      "page": 4
+    },
+    {
+      "heading": "PREPARING A SESSION",
+      "page": 5
+    },
+    {
+      "heading": "THE ONE-HOUR GUIDELINE",
+      "page": 5
+    },
+    {
+      "heading": "PREPARATION TIME",
+      "page": 6
+    },
+    {
+      "heading": "ONE-HOUR PREPARATION",
+      "page": 6
+    },
+    {
+      "heading": "TWO-HOUR PREPARATION",
+      "page": 7
+    },
+    {
+      "heading": "THREE-HOUR PREPARATION",
+      "page": 7
+    },
+    {
+      "heading": "HOW TO RUN A SESSION",
+      "page": 7
+    },
+    {
+      "heading": "ENCOUNTERS",
+      "page": 7
+    },
+    {
+      "heading": "STEP 1: DESCRIBE THE SITUATION",
+      "page": 7
+    },
+    {
+      "heading": "STEP 2: LET THE PLAYERS TALK",
+      "page": 8
+    },
+    {
+      "heading": "STEP 3: DESCRIBE WHAT HAPPENS",
+      "page": 8
+    },
+    {
+      "heading": "PASSING TIME",
+      "page": 8
+    },
+    {
+      "heading": "TAKING BREAKS",
+      "page": 8
+    },
+    {
+      "heading": "ENDING A SESSION",
+      "page": 9
+    },
+    {
+      "heading": "EXAMPLE OF PLAY",
+      "page": 9
+    },
+    {
+      "heading": "THE RULE OF FUN",
+      "page": 12
+    },
+    {
+      "heading": "EVERY DM IS UNIQUE",
+      "page": 12
+    },
+    {
+      "heading": "PLAY STYLE",
+      "page": 12
+    },
+    {
+      "heading": "HOUSE RULES",
+      "page": 13
+    },
+    {
+      "heading": "RECORDING RULES INTERPRETATIONS",
+      "page": 13
+    },
+    {
+      "heading": "ATMOSPHERE",
+      "page": 13
+    },
+    {
+      "heading": "DELEGATION",
+      "page": 13
+    },
+    {
+      "heading": "LEARNING BY OBSERVING",
+      "page": 13
+    },
+    {
+      "heading": "ENSURING FUN FOR ALL",
+      "page": 13
+    },
+    {
+      "heading": "MUTUAL RESPECT",
+      "page": 14
+    },
+    {
+      "heading": "SETTING EXPECTATIONS",
+      "page": 14
+    },
+    {
+      "heading": "USING THE GAME EXPECTATIONS SHEET",
+      "page": 15
+    },
+    {
+      "heading": "HARD AND SOFT LIMITS",
+      "page": 15
+    },
+    {
+      "heading": "INTRA-PARTY CONFLICT",
+      "page": 16
+    },
+    {
+      "heading": "RESPECT FOR THE PLAYERS",
+      "page": 17
+    },
+    {
+      "heading": "SHARING THE SPOTLIGHT",
+      "page": 17
+    },
+    {
+      "heading": "TRAGIC LIMITS",
+      "page": 17
+    },
+    {
+      "heading": "DM DIE ROLLING",
+      "page": 17
+    },
+    {
+      "heading": "OVERLY CAUTIOUS PLAYERS",
+      "page": 17
+    },
+    {
+      "heading": "RESPECT FOR THE DM",
+      "page": 18
+    },
+    {
+      "heading": "PLAYER DIE ROLLING",
+      "page": 18
+    },
+    {
+      "heading": "THE SOCIAL CONTRACT OF ADVENTURES",
+      "page": 18
+    },
+    {
+      "heading": "RULES DISCUSSIONS",
+      "page": 18
+    },
+    {
+      "heading": "CHARACTER KNOWLEDGE",
+      "page": 18
+    },
+    {
+      "heading": "ANTISOCIAL BEHAVIOR",
+      "page": 18
+    },
+    {
+      "heading": "PLAYERS EXPLOITING THE RULES",
+      "page": 19
+    },
+    {
+      "heading": "KNOWING THE RULES",
+      "page": 19
+    },
+    {
+      "heading": "RULES FOR THE VIRTUAL TABLE",
+      "page": 19
+    }
+  ],
+  "notes": [
+    "Auto-extracted headings from DMG Chapter 1 text."
+  ]
+}

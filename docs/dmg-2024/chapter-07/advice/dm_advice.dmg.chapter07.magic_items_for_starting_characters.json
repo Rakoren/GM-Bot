@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_items_for_starting_characters",
+  "name": "Magic Items for Starting Characters",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "For campaigns starting above level 1, use the Player's Handbook guidance for item counts and rarity.",
+    "Choose items yourself, let players choose within the rarity limits, or roll on the random tables.",
+    "Use Arcana tables for Sorcerers/Warlocks/Wizards, Armaments for Barbarians/Fighters/Paladins/Rangers, Implements for Bards/Monks/Rogues, and Relics for Clerics/Druids.",
+    "Mix tables to fit character themes when appropriate."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Magic Items for Starting Characters"
+  },
+  "notes": []
+}

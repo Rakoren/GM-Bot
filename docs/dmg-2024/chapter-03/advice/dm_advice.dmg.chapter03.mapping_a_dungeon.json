@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.mapping_a_dungeon",
+  "name": "Mapping a Dungeon",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Decide how players will navigate and record the space.",
+    "Use mapping to reinforce orientation and tension.",
+    "Give landmarks that help players stay oriented."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Mapping a Dungeon"
+  },
+  "notes": []
+}

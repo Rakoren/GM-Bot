@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.losing_renown",
+  "name": "Losing Renown",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Reduce renown for betrayal, failure, or public disgrace.",
+    "Make renown loss visible through consequences.",
+    "Offer paths to rebuild reputation."
+  ],
+  "tags": [
+    "chapter-03",
+    "renown"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Losing Renown"
+  },
+  "notes": []
+}

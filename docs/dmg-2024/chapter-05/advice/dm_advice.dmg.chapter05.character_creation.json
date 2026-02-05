@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.character_creation",
+  "name": "Character Creation",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Guide players toward options that fit the campaigns tone.",
+    "Use character choices to seed personal hooks.",
+    "Clarify starting equipment, connections, and goals."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "characters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      133
+    ],
+    "section": "Character Creation"
+  },
+  "notes": []
+}

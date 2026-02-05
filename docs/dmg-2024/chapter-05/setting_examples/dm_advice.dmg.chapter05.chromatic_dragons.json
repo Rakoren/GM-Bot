@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.chromatic_dragons",
+  "name": "Chromatic Dragons",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use chromatic dragons as major regional threats.",
+    "Tie dragon goals to territory, hoards, or alliances.",
+    "Foreshadow dragon presence with rumors and signs."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      137
+    ],
+    "section": "Chromatic Dragons"
+  },
+  "notes": []
+}

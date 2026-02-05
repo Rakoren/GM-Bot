@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.infinite_staircase",
+  "name": "Infinite Staircase",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Infinite Staircase as an extradimensional route accessed by unremarkable doors.",
+    "Vary the staircase?s appearance wildly to convey its shifting, planar nature.",
+    "Use Nafas and guarded doors as story hooks for discovery and passage."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      177
+    ],
+    "section": "Infinite Staircase"
+  },
+  "notes": []
+}

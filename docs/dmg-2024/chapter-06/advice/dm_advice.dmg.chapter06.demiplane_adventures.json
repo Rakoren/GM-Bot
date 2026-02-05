@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.demiplane_adventures",
+  "name": "Demiplane Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use demiplanes to explore how creators shape reality to their ideals or obsessions.",
+    "Center adventures on distorted realities crafted by villains or on the question of how the characters would shape a realm."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "demiplanes",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      187
+    ],
+    "section": "Demiplane Adventures"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.eastern_flanaess_culture",
+  "name": "Eastern Flanaess Culture",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use cultural norms to shape NPC attitudes and customs.",
+    "Reflect militarism and hierarchy in social structures.",
+    "Let culture influence alliances and rivalries."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      146
+    ],
+    "section": "Eastern Flanaess Culture"
+  },
+  "notes": []
+}

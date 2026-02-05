@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.make_peace",
+  "name": "Make Peace",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Focus the encounter on ending a conflict between opposing groups or leaders.",
+    "Use social interaction as the primary mode, with combat as a possible escalation.",
+    "Add complications such as hidden instigators or enemies on one or both sides."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Make Peace"
+  },
+  "notes": []
+}

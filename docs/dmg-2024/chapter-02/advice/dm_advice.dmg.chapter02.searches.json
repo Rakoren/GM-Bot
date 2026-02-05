@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.searches",
+    "name":  "Searches",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Define the area and objective before resolving a search.",
+                     "Use checks and time costs to resolve outcomes.",
+                     "Provide clues that guide player choices."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    44
+                                ],
+                      "section":  "Searches"
+                  },
+    "notes":  [
+
+              ]
+}

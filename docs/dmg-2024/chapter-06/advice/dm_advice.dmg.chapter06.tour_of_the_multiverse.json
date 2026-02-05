@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.tour_of_the_multiverse",
+  "name": "Tour of the Multiverse",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the alphabetical plane entries as a quick reference when planning planar adventures.",
+    "Focus on the planes most relevant to your campaign and ignore the rest."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "reference"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Tour of the Multiverse"
+  },
+  "notes": []
+}

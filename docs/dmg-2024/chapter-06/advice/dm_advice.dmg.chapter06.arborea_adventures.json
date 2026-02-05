@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.arborea_adventures",
+  "name": "Arborea Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Arborea to explore unfiltered emotion?joy, rage, love, and sorrow with equal intensity.",
+    "Highlight the plane?s candid culture, where friendship and conflict can coexist in the same night.",
+    "Leverage Mithardir?s abandoned desert to seed mysteries of lost gods or Celestials."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "arborea",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      182
+    ],
+    "section": "Arborea Adventures"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.nine_hells_adventures",
+  "name": "Nine Hells Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Nine Hells to test corruption, temptation, and moral endurance.",
+    "Make each layer a specialized engine for vice and manipulation.",
+    "Force characters to resist bargains that target their deepest desires."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      205
+    ],
+    "section": "Nine Hells Adventures"
+  },
+  "notes": []
+}

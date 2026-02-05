@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.yggdrasil_the_world_tree",
+  "name": "Yggdrasil, the World Tree",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Yggdrasil as a cosmic route linking the Outer Planes to worlds of the Material Plane.",
+    "Emphasize its roots in the Lower Planes, trunk in Ysgard, and branches through the Upper Planes and Astral.",
+    "Let guides and shifting paths create navigation challenges for planar travelers."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      177,
+      178
+    ],
+    "section": "Yggdrasil, the World Tree"
+  },
+  "notes": []
+}

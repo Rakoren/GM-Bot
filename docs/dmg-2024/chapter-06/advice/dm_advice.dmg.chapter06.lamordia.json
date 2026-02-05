@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.lamordia",
+  "name": "Lamordia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Lamordia's frozen bogs and glacial wastes for gothic science horror.",
+    "Center Doctor Viktra Mordenheim and her unnatural experiments."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209
+    ],
+    "section": "Lamordia"
+  },
+  "notes": []
+}

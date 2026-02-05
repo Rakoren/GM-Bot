@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_item_values_by_rarity",
+  "name": "Magic Item Values by Rarity",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Rarity helps set prices if magic items can be bought or sold in your campaign.",
+    "Common items can be found in towns; rarer items are found in cities or wondrous locales.",
+    "Add the cost of any nonmagical base item to the magic item's value when applicable.",
+    "Halve the value for consumables other than spell scrolls; spell scroll value is double its scribing cost."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Magic Item Values by Rarity"
+  },
+  "notes": []
+}

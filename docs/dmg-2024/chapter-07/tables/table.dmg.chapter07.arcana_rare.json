@@ -1,0 +1,240 @@
+{
+  "id": "table.dmg.chapter07.arcana_rare",
+  "name": "Arcana - Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01",
+      "item": "Bag of Beans"
+    },
+    {
+      "roll": "02-03",
+      "item": "Bead of Force"
+    },
+    {
+      "roll": "04",
+      "item": "Bowl of Commanding Water Elementals"
+    },
+    {
+      "roll": "05-06",
+      "item": "Bracers of Defense"
+    },
+    {
+      "roll": "07",
+      "item": "Brazier of Commanding Fire Elementals"
+    },
+    {
+      "roll": "08-09",
+      "item": "Cape of the Mountebank"
+    },
+    {
+      "roll": "10",
+      "item": "Censer of Controlling Air Elementals"
+    },
+    {
+      "roll": "11-12",
+      "item": "Chime of Opening"
+    },
+    {
+      "roll": "13-14",
+      "item": "Cloak of Displacement"
+    },
+    {
+      "roll": "15-16",
+      "item": "Cloak of the Bat"
+    },
+    {
+      "roll": "17",
+      "item": "Cube of Force"
+    },
+    {
+      "roll": "18",
+      "item": "Cube of Summoning"
+    },
+    {
+      "roll": "19",
+      "item": "Daern's Instant Fortress"
+    },
+    {
+      "roll": "20-21",
+      "item": "Enspelled Staff (level 2 or 3 spell)"
+    },
+    {
+      "roll": "22-23",
+      "item": "Figurine of Wondrous Power (bronze griffon, ebony fly, golden lions, ivory goats, marble elephant, onyx dog, or serpentine owl)"
+    },
+    {
+      "roll": "24-25",
+      "item": "Folding Boat"
+    },
+    {
+      "roll": "26-27",
+      "item": "Gem of Seeing"
+    },
+    {
+      "roll": "28",
+      "item": "Helm of Teleportation"
+    },
+    {
+      "roll": "29-30",
+      "item": "Heward's Handy Haversack"
+    },
+    {
+      "roll": "31-32",
+      "item": "Horseshoes of Speed"
+    },
+    {
+      "roll": "33-34",
+      "item": "Ioun Stone (reserve)"
+    },
+    {
+      "roll": "35",
+      "item": "Iron Bands of Bilarro"
+    },
+    {
+      "roll": "36",
+      "item": "Mantle of Spell Resistance"
+    },
+    {
+      "roll": "37-38",
+      "item": "Necklace of Fireballs"
+    },
+    {
+      "roll": "39",
+      "item": "Oil of Etherealness"
+    },
+    {
+      "roll": "40",
+      "item": "Portable Hole"
+    },
+    {
+      "roll": "41-42",
+      "item": "Potion of Clairvoyance"
+    },
+    {
+      "roll": "43-44",
+      "item": "Potion of Diminution"
+    },
+    {
+      "roll": "45-46",
+      "item": "Potion of Gaseous Form"
+    },
+    {
+      "roll": "47",
+      "item": "Potion of Giant Strength (fire)"
+    },
+    {
+      "roll": "48-49",
+      "item": "Potion of Giant Strength (frost or stone)"
+    },
+    {
+      "roll": "50-51",
+      "item": "Potion of Heroism"
+    },
+    {
+      "roll": "52-53",
+      "item": "Potion of Invisibility"
+    },
+    {
+      "roll": "54-55",
+      "item": "Potion of Invulnerability"
+    },
+    {
+      "roll": "56-57",
+      "item": "Potion of Mind Reading"
+    },
+    {
+      "roll": "58-59",
+      "item": "Quaal's Feather Token (bird, swan boat, or whip)"
+    },
+    {
+      "roll": "60-61",
+      "item": "Ring of Feather Falling"
+    },
+    {
+      "roll": "62",
+      "item": "Ring of Spell Storing"
+    },
+    {
+      "roll": "63",
+      "item": "Ring of X-ray Vision"
+    },
+    {
+      "roll": "64-65",
+      "item": "Robe of Eyes"
+    },
+    {
+      "roll": "66",
+      "item": "Rod of Rulership"
+    },
+    {
+      "roll": "67-68",
+      "item": "Rod of the Pact Keeper, +2"
+    },
+    {
+      "roll": "69-70",
+      "item": "Scroll of Protection"
+    },
+    {
+      "roll": "71-75",
+      "item": "Spell Scroll (level 4 or level 5 spell)"
+    },
+    {
+      "roll": "76-77",
+      "item": "Staff of Charming"
+    },
+    {
+      "roll": "78-79",
+      "item": "Staff of Swarming Insects"
+    },
+    {
+      "roll": "80-81",
+      "item": "Staff of Withering"
+    },
+    {
+      "roll": "82",
+      "item": "Stone of Controlling Earth Elementals"
+    },
+    {
+      "roll": "83-84",
+      "item": "Wand of Binding"
+    },
+    {
+      "roll": "85-86",
+      "item": "Wand of Fear"
+    },
+    {
+      "roll": "87-90",
+      "item": "Wand of Fireballs"
+    },
+    {
+      "roll": "91-94",
+      "item": "Wand of Lightning Bolts"
+    },
+    {
+      "roll": "95-96",
+      "item": "Wand of the War Mage, +2"
+    },
+    {
+      "roll": "97-98",
+      "item": "Wand of Wonder"
+    },
+    {
+      "roll": "99-00",
+      "item": "Wings of Flying"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      231
+    ],
+    "section": "Arcana - Rare"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.proficiency",
+    "name":  "Proficiency",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Apply proficiency when a character is trained or otherwise proficient.",
+                     "Use the character\u0027s proficiency bonus as normal.",
+                     "If no proficiency fits, use the base ability only."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    29
+                                ],
+                      "section":  "Proficiency"
+                  },
+    "notes":  [
+
+              ]
+}

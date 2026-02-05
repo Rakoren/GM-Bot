@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.gloaming_court",
+  "name": "Gloaming Court",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray the Gloaming Court as twilight, cobwebs, fireflies, and autumn leaves.",
+    "Emphasize instinct over ritual, in contrast with the Summer Court."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195
+    ],
+    "section": "Gloaming Court"
+  },
+  "notes": []
+}

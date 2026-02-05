@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_roots_of_the_worlds",
+  "name": "The Roots of the Worlds",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use nexus points that exist in multiple worlds as cross-world gateways.",
+    "Define each nexus by a physical feature (tree, mountain, cavern, tower, tavern, city).",
+    "Require a key, magic, or an act of will to shift worlds."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "material-plane",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      199
+    ],
+    "section": "The Roots of the Worlds"
+  },
+  "notes": []
+}

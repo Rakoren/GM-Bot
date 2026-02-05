@@ -1,0 +1,37 @@
+{
+    "schema_version": "0.1.0",
+    "chapter": "dmg-2024.chapter-07",
+    "title": "dmg-2024.chapter-07.validation.full",
+    "generated_at": "2026-02-05",
+    "validation_profile": "full",
+    "inputs": {
+        "manifest_path": "dmg-2024/chapter-07/chapter-07.manifest.json"
+    },
+    "required_types": [
+        "table",
+        "list"
+    ],
+    "optional_types": [],
+    "checks": [
+        {
+            "id": "manifest.shards.unique_ids",
+            "type": "integrity",
+            "severity": "error",
+            "rule": "All shards[].id must be unique across the manifest."
+        },
+        {
+            "id": "manifest.shards.paths.present",
+            "type": "filesystem",
+            "severity": "error",
+            "rule": "Every shards[].path must exist on disk."
+        }
+    ],
+    "outputs": {
+        "report_path": "dmg-2024/chapter-07/validation.full.report.json",
+        "on_success": "pass",
+        "on_failure": "fail"
+    },
+    "notes": [
+        "Chapter 7 validation focuses on list/table scaffolding."
+    ]
+}

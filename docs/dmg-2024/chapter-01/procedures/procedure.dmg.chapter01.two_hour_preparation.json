@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter01.two_hour_preparation",
+  "name": "Two-Hour Preparation",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "steps": [
+    "With another hour to prepare, add these steps:",
+    "Step 6. Carefully review each \"possible\" encounter.",
+    "Step 7. Devote any time you have left to creating improvisational aids (see the \"Improvising Answers\" section in chapter 2)."
+  ],
+  "triggers": [
+    "when you have about two hours to prepare a session"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      7
+    ],
+    "section": "Two-Hour Preparation"
+  },
+  "notes": []
+}
+
+
+

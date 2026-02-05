@@ -1,0 +1,441 @@
+CHAPTER 8: BASTIONS	P334
+A Bastion by the sea is more than just an adventurer's getaway A lot can happen here to fuel stories in the campaign
+Noor Rahman
+GAINING A BASTION
+P334
+BASTION TURNS
+FREQUENCY OF BASTION TURNS
+P334
+P334
+Noor Rahman
+BASTION MAP
+COMBINING BASTIONS
+FACILITY SPACE
+Facility Space
+Space 	Maximum Area
+Cramped 	4 squares
+Roomy 	16 squares
+Vast 	36 squares
+BASIC FACILITIES
+BASIC FACILIT IES
+Bedroom
+Dining Room
+Parlor
+Courtyard
+Kitchen
+Storage
+P334
+P334
+P335
+P335
+P335
+ADDING BASIC FACILITIES
+Facility Space 	Cost 	Time Required
+Cramped 	500 GP 	20 days
+ENLARGING BASIC FACILITIES
+Space Increase 	Cost 	Time Required
+Cramped to Roomy 	500 GP 	25 days
+SPECIAL FACILITIES
+Special Facility Acquisition
+Level 	Special Facilities
+5 	2
+9 	4
+13 	5
+17 	6
+REQUIREMENTS
+SPACE
+HIRELINGS
+P335
+P335
+P335
+P335
+P335
+P336
+ORDERS
+The orders are as follows:
+CRAFT
+EMPOWER
+HARVEST
+MAINT AIN
+A Bastion grows over time
+Noor Rahman
+RECRUIT
+RESEARCH
+TRADE
+P336
+P336
+P336
+P336
+P336
+P336
+P336
+P336
+SPECIAL FACILITY DESCRIPTIONS
+Special Facilities
+Level Special Facility Prerequisite 	Order
+5 Arcane Study Ability to use an Arcane Focus or a tool as a
+Spellcasting Focus Craft
+5 Armory 	None 	Trade
+5 Barrack 	None 	Recruit
+5 Garden 	None 	Harvest
+5 Library 	None 	Research
+5 Sanctuary Ability to use a Holy Symbol or Druidic Focus as a
+Spellcasting Focus Craft
+5 Smithy 	None 	Craft
+5 Storehouse 	None 	Trade
+5 Workshop 	None 	Craft
+9 Gaming Hall None 	Trade
+9 Greenhouse None 	Harvest
+9 Sacristy Ability to use a Holy Symbol or Druidic Focus as a
+Spellcasting Focus Craft
+9 Stable 	None 	Trade
+9 Teleportation
+Circle None 	Recruit
+9 Theater 	None 	Empower
+9 Training Area None 	Empower
+9 Trophy Room None 	Research
+13 Archive 	None 	Research
+13 Meditation
+Chamber None 	Empower
+13 Menagerie 	None 	Recruit
+13 Observatory Ability to use a Spellcasting Focus 	Empower
+13 Pub 	None 	Research
+13 Reliquary Ability to use a Holy Symbol or Druidic Focus as a
+Spellcasting Focus Harvest
+17 Demiplane Ability to use an Arcane Focus or a tool as a
+Spellcasting Focus Empower
+17 Guildhall 	Expertise in a skill 	Recruit
+P336
+Level Special Facility Prerequisite 	Order
+17 Sanctum Ability to use a Holy Symbol or Druidic Focus as a
+Spellcasting Focus Empower
+17 War Room 	Fighting Style feature or Unarmored Defense feature Recruit
+Irina Nordsol
+BASTION EVENTS
+The DM can even turn a Bastion event into a cutscene where each player takes on the role of one of the Bastion's hirelings (under the guidance of the player
+Bastion Events
+1d100 	Event
+01-50 	All Is Well
+51-55 	Attack
+56-58 	Criminal Hireling
+59-63 	Extraordinary Opportunity
+64-72 	Friendly Visitors
+73-76 	Guest
+77-79 	Lost Hirelings
+80-83 	Magical Discovery
+84-91 	Refugees
+92-98 	Request for Aid
+99-00 	Treasure
+EVENT DESCRIPTIONS
+ALL IS WELL
+1d8 	Details
+P350
+P350
+P350
+1d8 	Details
+BASTION TRACKER
+AT T ACK
+CRIMINAL HIRELING
+EXT RAORDINARY OPPORT UNIT Y
+A hero's Bastion hosts a spring festival to which everyone is invited
+Ralph Horsley
+P350
+P350
+P350
+P351
+FRIENDLY VISIT ORS
+GUEST
+1d4 	Guest
+The guest requests sanctuary while avoiding persecution for their beliefs or
+LOST HIRELINGS
+MAGICAL DISCOVERY
+REFUGEES
+REQUEST FOR AID
+TREASURE
+P352
+P352
+P352
+P352
+P352
+P352
+P352
+1d100 	Treasure
+FALL OF A BASTION
+A player character can lose their Bastion in the following ways:
+P352
+Download PDF
+APPENDIX A: LORE GLOSSARY
+ACERERAK
+Acererak
+P354
+P354
+Acererak
+ADAMANTINE
+ALUSTRIEL SILVERHAND
+Alustriel
+ASHARDALON
+P354
+P354
+P354
+The terrible red dragon Ashardalon
+BABA YAGA
+Baba Yaga
+BAHAMUT
+Bahamut
+called Paladine
+BALDUR'S GATE
+The city of Baldur's Gate
+BAROVIA
+Barovia
+BIGBY
+Bigby
+BOO
+P354
+P354
+P355
+P355
+P355
+P355
+CASTLE RAVENLOFT
+Castle Ravenloft
+Ravenloft is also one of the most
+CORELLON
+DELINA
+Delina
+DIANCASTRA
+Diancastra
+DRIZZT DO'URDEN
+Drizzt Do'Urden
+P355
+P355
+P355
+P355
+P355
+P356
+P356
+ELDER EVILS
+ELMINSTER
+Elminster
+EURYALE
+FIZBAN
+P356
+P356
+P356
+P356
+P356
+P356
+The Great Modron March
+GRUUMSH
+Gruumsh
+HADAR
+Hadar
+P356
+P357
+P357
+P357
+P357
+ICEWIND DALE
+IGGWILV
+P357
+P358
+P358
+Jodie Muir
+IUZ
+Iuz
+P358
+JALLARZI SALLAVARIAN
+KAS THE BETRAYER
+Kas
+KERAPTIS
+KYUSS
+P358
+P358
+P358
+P359
+Kyuss
+LAERAL SILVERHAND
+Laeral
+P359
+P359
+LORD SOTH
+MENZOBERRANZAN
+The Underdark city of Menzoberranzan
+MINSC
+Minsc
+MITHRAL
+Mithral
+MORADIN
+Myths told on many worlds describe Moradin
+MORDENKAINEN
+Mordenkainen
+NEVERWINTER
+P359
+P359
+P359
+P359
+P359
+P359
+P360
+OTILUKE
+Otiluke
+OTTO
+Otto
+PHANDALIN
+The frontier town of Phandalin
+P360
+P360
+P360
+P360
+The Prince of Frost
+Brian Valeza
+P360
+P361
+The Raven Queen
+Diana Cearley
+RUDOLPH VAN RICHTEN
+P361
+P361
+STRAHD VON ZAROVICH
+P361
+P362
+The Summer Queen
+Katerina Ladon
+SZASS TAM
+Szass Tam
+TASHA
+P362
+P362
+P362
+THARIZDUN
+TIAMAT
+Tiamat
+UNDERMOUNTAIN
+VAJRA SAFAHR
+Vajra Safahr
+VALOR'S CALL
+VECNA
+P362
+P362
+P362
+P362
+P362
+P363
+P363
+Vecna
+Vecna
+Olivier Bernard
+VENGER
+Venger
+P363
+P363
+VLAAKITH
+Vlaakith
+WATERDEEP
+XANATHAR
+Xanathar
+P363
+P363
+P363
+Xanathar is a tyrannical crime lord as well as a beholder
+Jason Juta
+YOLANDE
+Yolande
+P364
+P364
+ZAGYG
+The archmage Zagig Yragerne
+deeper under his castle and withdrew from the outside world until he managed to entrap nine demigods in magical prisons and claim a fragment of their
+ZARGON
+Zargon
+APPENDIX B: MAPS
+BARROW CRYPT
+Barrow Crypt
+Player Version
+CARAVAN ENCAMPMENT
+P364
+P364
+P365
+P365
+P366
+Caravan Encampment
+Dyson Logos
+CROSSROADS VILLAGE
+Crossroads Village
+Dyson Logos
+DRAGON'S LAIR
+P367
+P368
+Dragon's Lair
+Player Version
+DUNGEON HIDEOUT
+Dungeon Hideout
+Player Version
+FARMSTEAD
+P369
+P370
+Farmstead
+Dyson Logos
+KEEP
+Keep
+Player Version
+MANOR
+P371
+P372
+Manor
+Player Version
+MINE
+Mine
+Player Version
+ROADSIDE INN
+P373
+P374
+Roadside Inn
+Player Version
+SHIP
+Ship
+Player Version
+SPOOKY HOUSE
+P375
+P376
+Spooky House
+Player Version
+UNDERDARK WARREN
+Underdark Warren
+Player Version
+VOLCANIC CAVES
+P377
+P378
+Volcanic Caves
+Player Version
+WIZARD'S TOWER
+Wizard's Tower
+Player Version
+APPENDIX C: TRACKING SHEETS
+GAME EXPECTATIONS
+P379
+Download PDF
+TRAVEL PLANNER
+Download PDF
+NPC TRACKER
+Download PDF
+SETTLEMENT TRACKER
+Download PDF
+CAMPAIGN JOURNAL
+Download PDF
+DM'S CHARACTER TRACKER
+Download PDF
+CAMPAIGN CONFLICTS
+Download PDF
+MAGIC ITEM TRACKER
+Download PDF
+BASTION TRACKER
+Download PDF
+CREDITS
+Petrisor
+Concept Art Director: Josh Herman
+Prepress Specialist: Jefferson Dunlap
+Based on the Dungeon Master's Guide (2014) by Jeremy Crawford (co-
+Building on the original game created by Gary Gygax and Dave Arneson and
+then developed by many others over the past 50 years
+On the Cover: Tyler Jacobson illustrates the
+Tyler Jacobson

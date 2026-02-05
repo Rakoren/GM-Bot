@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_items_awarded_by_level",
+  "name": "Magic Items Awarded by Level",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use the table to estimate how many items a party gains by tier and rarity.",
+    "Artifacts are omitted because they are typically plot devices and rarely held for long.",
+    "Encourage player wish lists to guide item choices.",
+    "Adventures can include up to 25% more items than the table total (round up) to account for missed treasure."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Magic Items Awarded by Level"
+  },
+  "notes": []
+}

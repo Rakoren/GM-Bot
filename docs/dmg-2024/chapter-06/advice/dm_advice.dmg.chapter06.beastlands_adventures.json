@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.beastlands_adventures",
+  "name": "Beastlands Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Lean into heightened senses: sharper reflexes, vivid tastes, and deep restorative sleep.",
+    "Use adventures to test respect for life?s physical nature versus abstract ideals.",
+    "Create conflicts with those who dismiss animals or the body as inferior."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "beastlands",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      186
+    ],
+    "section": "Beastlands Adventures"
+  },
+  "notes": []
+}

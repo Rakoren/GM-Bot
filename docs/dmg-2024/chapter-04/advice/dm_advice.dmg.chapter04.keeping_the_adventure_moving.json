@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.keeping_the_adventure_moving",
+  "name": "Keeping the Adventure Moving",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Ensure players always have a clear objective or next step.",
+    "Use NPCs, encounters, or reminders to unblock stalled progress.",
+    "Plan flexible prompts so failures still advance the story."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      108
+    ],
+    "section": "Keeping the Adventure Moving"
+  },
+  "notes": []
+}

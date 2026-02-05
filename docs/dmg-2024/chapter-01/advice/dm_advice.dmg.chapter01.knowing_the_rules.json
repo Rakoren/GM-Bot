@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.knowing_the_rules",
+  "name": "Knowing the Rules",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "You do not have to be an expert on the rules to be a good DM. Of course it is helpful to be familiar with the rules, especially the ones in the Player's Handbook, but facilitating fun is more important than implementing the rules perfectly.",
+    "If you are not sure how to apply the rules in a situation, you can always ask the opinion of the players as a group. It might take a few minutes, but it is usually possible to reach an answer that feels fair to everyone, and that is more important than a \"correct\" answer.",
+    "You do not need to know every spell in the Player's Handbook or the features of every class. Set the expectation that players are responsible for telling you what their abilities and spells do."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Knowing the Rules"
+  },
+  "notes": []
+}

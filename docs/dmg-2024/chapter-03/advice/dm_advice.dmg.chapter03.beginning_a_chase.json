@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.beginning_a_chase",
+  "name": "Beginning a Chase",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "A chase needs at least one quarry and one pursuer.",
+    "Have participants roll initiative if they aren’t already in order.",
+    "Set the starting distance and identify the lead pursuer."
+  ],
+  "tags": [
+    "chapter-03",
+    "chase"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Beginning a Chase"
+  },
+  "notes": []
+}

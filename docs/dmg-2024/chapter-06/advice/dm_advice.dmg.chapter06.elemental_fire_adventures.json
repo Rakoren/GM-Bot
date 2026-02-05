@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.elemental_fire_adventures",
+  "name": "Elemental Fire Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use fire?s themes?passion, inspiration, and change?alongside its destructive potential.",
+    "Let cults of Elemental Evil twist fire into wildfires, eruptions, heat waves, and droughts.",
+    "Anchor quests in the City of Brass marketplace and favor-trading politics."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-fire",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      189
+    ],
+    "section": "Elemental Fire Adventures"
+  },
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "chapter": "dmg-2024.chapter-08",
+  "title": "Chapter 8: Bastions",
+  "tables": [
+    "table.dmg.chapter08.sections",
+    "table.dmg.chapter08.facility_space",
+    "table.dmg.chapter08.basic_facilities",
+    "table.dmg.chapter08.adding_basic_facilities",
+    "table.dmg.chapter08.enlarging_basic_facilities"
+  ],
+  "lists": [
+    "list.dmg.chapter08.sections"
+  ],
+  "advice": [
+    "dm_advice.dmg.chapter08.bastions_overview",
+    "dm_advice.dmg.chapter08.gaining_a_bastion",
+    "dm_advice.dmg.chapter08.bastion_turns",
+    "dm_advice.dmg.chapter08.frequency_of_bastion_turns",
+    "dm_advice.dmg.chapter08.bastion_map",
+    "dm_advice.dmg.chapter08.combining_bastions",
+    "dm_advice.dmg.chapter08.facility_space",
+    "dm_advice.dmg.chapter08.basic_facilities",
+    "dm_advice.dmg.chapter08.adding_basic_facilities",
+    "dm_advice.dmg.chapter08.enlarging_basic_facilities"
+  ],
+  "procedures": []
+}

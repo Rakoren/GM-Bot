@@ -1,0 +1,76 @@
+{
+  "id": "table.dmg.chapter07.implements_very_rare",
+  "name": "Implements - Very Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-07",
+      "item": "Ammunition, +3"
+    },
+    {
+      "roll": "08-14",
+      "item": "Bag of Devouring"
+    },
+    {
+      "roll": "15-21",
+      "item": "Carpet of Flying"
+    },
+    {
+      "roll": "22-28",
+      "item": "Enspelled Weapon (level 4 or 5 spell)"
+    },
+    {
+      "roll": "29-35",
+      "item": "Horseshoes of a Zephyr"
+    },
+    {
+      "roll": "36-42",
+      "item": "Instrument of the Bards (Anstruth harp)"
+    },
+    {
+      "roll": "43-49",
+      "item": "Ioun Stone (agility)"
+    },
+    {
+      "roll": "50-56",
+      "item": "Lute of Thunderous Thumping"
+    },
+    {
+      "roll": "57-63",
+      "item": "Manual of Quickness of Action"
+    },
+    {
+      "roll": "64-70",
+      "item": "Nolzur's Marvelous Pigments"
+    },
+    {
+      "roll": "71-77",
+      "item": "Potion of Flying"
+    },
+    {
+      "roll": "78-86",
+      "item": "Potion of Healing (supreme)"
+    },
+    {
+      "roll": "87-93",
+      "item": "Potion of Speed"
+    },
+    {
+      "roll": "94-00",
+      "item": "Tome of Leadership and Influence"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      234
+    ],
+    "section": "Implements - Very Rare"
+  },
+  "notes": []
+}

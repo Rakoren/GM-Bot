@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.settlement_tables_and_tracker",
+  "name": "Settlement Tables and Tracker",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use tables to generate quick, consistent details.",
+    "Track key settlement changes over time.",
+    "Keep a short summary for each settlement you revisit."
+  ],
+  "tags": [
+    "chapter-03",
+    "settlements"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Settlement Tables and Tracker"
+  },
+  "notes": []
+}

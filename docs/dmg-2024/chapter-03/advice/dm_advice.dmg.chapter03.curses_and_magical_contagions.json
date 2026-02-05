@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.curses_and_magical_contagions",
+  "name": "Curses and Magical Contagions",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use curses and contagions to add narrative stakes and lingering consequences.",
+    "Make effects clear and telegraphed so players can respond.",
+    "Provide meaningful ways to mitigate or end these effects."
+  ],
+  "tags": [
+    "chapter-03",
+    "curses"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Curses and Magical Contagions"
+  },
+  "notes": []
+}

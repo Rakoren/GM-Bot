@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.feywild_magic",
+  "name": "Feywild Magic",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use memory loss on departure (DC 10 Wisdom save; Fey or Fey Ancestry auto-succeed).",
+    "Apply time warp after 1+ day in the Feywild; choose or roll a result.",
+    "Allow Wish or powerful Fey boons to remove time-warp effects."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild",
+    "magic"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195
+    ],
+    "section": "Feywild Magic"
+  },
+  "notes": []
+}

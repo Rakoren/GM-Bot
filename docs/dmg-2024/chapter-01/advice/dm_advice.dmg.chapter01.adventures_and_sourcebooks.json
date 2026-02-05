@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.adventures_and_sourcebooks",
+  "name": "Adventures and Sourcebooks",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Beyond the three core rulebooks, a plethora of additional content is available from Wizards of the Coast and other publishers. Adventures provide hooks, plots, maps, and encounters you can use in your game. Sourcebooks include things like new character options, new monsters, and inspiration for building your own adventures and campaigns.",
+    "You can play D&D without any of these additional products, but many DMs (and players) find them to be exciting additions to the game."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Adventures and Sourcebooks"
+  },
+  "notes": []
+}

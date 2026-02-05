@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.hasten_a_monsters_demise",
+    "name":  "Hasten a Monster\u0027s Demise",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "End a fight early if the outcome is no longer in doubt.",
+                     "Use narrative cues to wrap up lingering combats.",
+                     "Keep pacing and player satisfaction in mind."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    52
+                                ],
+                      "section":  "Hasten a Monster\u0027s Demise"
+                  },
+    "notes":  [
+
+              ]
+}

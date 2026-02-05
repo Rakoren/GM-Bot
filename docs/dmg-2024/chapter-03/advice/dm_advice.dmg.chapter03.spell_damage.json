@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.spell_damage",
+  "name": "Spell Damage",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Match damage to spell level and expected targets.",
+    "Balance higher damage with smaller areas, stricter saves, or added costs.",
+    "Use existing damage benchmarks to keep scaling consistent."
+  ],
+  "tags": [
+    "chapter-03",
+    "spells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Spell Damage"
+  },
+  "notes": []
+}

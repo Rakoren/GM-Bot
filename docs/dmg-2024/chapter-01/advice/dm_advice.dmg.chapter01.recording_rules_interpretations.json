@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.recording_rules_interpretations",
+  "name": "Recording Rules Interpretations",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "If a question about the interpretation of a rule comes up in your game, record how you decide to interpret it. Add that to your collection of house rules so you and the players can reference it when the rule comes up again later."
+  ],
+  "tags": [
+    "chapter-01",
+    "house-rules"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Recording Rules Interpretations"
+  },
+  "notes": []
+}

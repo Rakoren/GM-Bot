@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter04.writing_for_yourself",
+  "name": "Writing for Yourself",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Write only what you need to run the session confidently.",
+    "Use short notes, bullet points, and reminders.",
+    "Focus on flexible prep over exhaustive prose."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      106
+    ],
+    "section": "Writing for Yourself"
+  },
+  "notes": []
+}

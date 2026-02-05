@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.western_flanaess",
+  "name": "Western Flanaess",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Frame the west as a crossroads of Baklunish influence.",
+    "Use trade, diplomacy, and frontier threats.",
+    "Tie adventures to ancient ruins and rival nations."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      151
+    ],
+    "section": "Western Flanaess"
+  },
+  "notes": []
+}

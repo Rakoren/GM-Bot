@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.tips",
+  "name": "Tips",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Group similar attackers and resolve them together.",
+    "Keep the focus on the most dramatic outcomes.",
+    "Use simple math to avoid slowing the table."
+  ],
+  "tags": [
+    "chapter-03",
+    "mobs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Tips"
+  },
+  "notes": []
+}

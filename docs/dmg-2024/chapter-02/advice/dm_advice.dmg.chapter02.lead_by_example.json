@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.lead_by_example",
+  "name": "Lead by Example",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Model the kind of descriptive play you want from players.",
+    "Demonstrate the level of detail and tone you hope to see.",
+    "Encourage participation by showcasing it first."
+  ],
+  "tags": [
+    "chapter-02",
+    "narration"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      26
+    ],
+    "section": "Lead by Example"
+  },
+  "notes": []
+}

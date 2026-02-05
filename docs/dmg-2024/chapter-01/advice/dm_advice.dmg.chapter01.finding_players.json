@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter01.finding_players",
+  "name": "Finding Players",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Where do you find players? Here are a handful of suggestions:",
+    "Game or hobby stores (the Store Locator on the Wizards of the Coast website can help you find stores near you that host D&D events)",
+    "Friends, family, community members, and work colleagues who enjoy gaming or fantasy",
+    "Gaming clubs at schools",
+    "Social media and online messaging sites",
+    "Gaming conventions"
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Finding Players"
+  },
+  "notes": []
+}

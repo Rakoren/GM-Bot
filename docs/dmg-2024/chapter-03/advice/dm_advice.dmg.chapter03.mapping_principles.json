@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.mapping_principles",
+  "name": "Mapping Principles",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use simple, readable layouts with distinct zones.",
+    "Limit excessive complexity that stalls play.",
+    "Ensure players can make meaningful navigation choices."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Mapping Principles"
+  },
+  "notes": []
+}

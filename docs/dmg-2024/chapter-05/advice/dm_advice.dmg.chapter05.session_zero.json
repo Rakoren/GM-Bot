@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.session_zero",
+  "name": "Session Zero",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Discuss tone, boundaries, and campaign goals up front.",
+    "Coordinate character creation and party connections.",
+    "Share key setting details and starting context."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "session-zero"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      133
+    ],
+    "section": "Session Zero"
+  },
+  "notes": []
+}

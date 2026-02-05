@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.incorporating_new_players",
+  "name": "Incorporating New Players",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Revisit group expectations and limits before adding a new player.",
+    "Have the new player create a character at the party's level.",
+    "Integrate the character in a way that supports existing group dynamics."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      24
+    ],
+    "section": "Incorporating New Players"
+  },
+  "notes": []
+}

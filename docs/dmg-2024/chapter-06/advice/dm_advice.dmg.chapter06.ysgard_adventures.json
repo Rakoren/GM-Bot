@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.ysgard_adventures",
+  "name": "Ysgard Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Ysgard for heroic, consequence-light combat and epic tests of valor.",
+    "Lean on festivals and contests in the top layer to showcase prowess.",
+    "Push deeper layers for greater dangers and secrets."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ysgard",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      210
+    ],
+    "section": "Ysgard Adventures"
+  },
+  "notes": []
+}

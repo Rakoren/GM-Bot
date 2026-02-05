@@ -1,0 +1,164 @@
+{
+  "id": "table.dmg.chapter07.implements_common",
+  "name": "Implements - Common",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-02",
+      "item": "Bead of Nourishment"
+    },
+    {
+      "roll": "03-04",
+      "item": "Bead of Refreshment"
+    },
+    {
+      "roll": "05-06",
+      "item": "Boots of False Tracks"
+    },
+    {
+      "roll": "07-08",
+      "item": "Candle of the Deep"
+    },
+    {
+      "roll": "09-10",
+      "item": "Charlatan's Die"
+    },
+    {
+      "roll": "11-13",
+      "item": "Cloak of Many Fashions"
+    },
+    {
+      "roll": "14-15",
+      "item": "Clockwork Amulet"
+    },
+    {
+      "roll": "16-17",
+      "item": "Ear Horn of Hearing"
+    },
+    {
+      "roll": "18-19",
+      "item": "Ersatz Eye"
+    },
+    {
+      "roll": "20-21",
+      "item": "Heward's Handy Spice Pouch"
+    },
+    {
+      "roll": "22-23",
+      "item": "Horn of Silent Alarm"
+    },
+    {
+      "roll": "24-25",
+      "item": "Instrument of Illusions"
+    },
+    {
+      "roll": "26-27",
+      "item": "Instrument of Scribing"
+    },
+    {
+      "roll": "28-29",
+      "item": "Lock of Trickery"
+    },
+    {
+      "roll": "30-32",
+      "item": "Moon-Touched Sword"
+    },
+    {
+      "roll": "33-34",
+      "item": "Mystery Key"
+    },
+    {
+      "roll": "35-36",
+      "item": "Orb of Direction"
+    },
+    {
+      "roll": "37-38",
+      "item": "Orb of Time"
+    },
+    {
+      "roll": "39-40",
+      "item": "Perfume of Bewitching"
+    },
+    {
+      "roll": "41-42",
+      "item": "Pipe of Smoke Monsters"
+    },
+    {
+      "roll": "43-44",
+      "item": "Pole of Angling"
+    },
+    {
+      "roll": "45-46",
+      "item": "Pole of Collapsing"
+    },
+    {
+      "roll": "47-52",
+      "item": "Potion of Climbing"
+    },
+    {
+      "roll": "53-58",
+      "item": "Potion of Comprehension"
+    },
+    {
+      "roll": "59-74",
+      "item": "Potion of Healing"
+    },
+    {
+      "roll": "75-76",
+      "item": "Prosthetic Limb"
+    },
+    {
+      "roll": "77-78",
+      "item": "Rope of Mending"
+    },
+    {
+      "roll": "79-80",
+      "item": "Staff of Birdcalls"
+    },
+    {
+      "roll": "81-82",
+      "item": "Sylvan Talon"
+    },
+    {
+      "roll": "83-84",
+      "item": "Talking Doll"
+    },
+    {
+      "roll": "85-86",
+      "item": "Tankard of Sobriety"
+    },
+    {
+      "roll": "87-90",
+      "item": "Veteran's Cane"
+    },
+    {
+      "roll": "91-92",
+      "item": "Walloping Ammunition"
+    },
+    {
+      "roll": "93-94",
+      "item": "Wand of Conducting"
+    },
+    {
+      "roll": "95-97",
+      "item": "Wand of Enemy Detection"
+    },
+    {
+      "roll": "98-00",
+      "item": "Wand of Pyrotechnics"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      233
+    ],
+    "section": "Implements - Common"
+  },
+  "notes": []
+}

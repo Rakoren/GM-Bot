@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_item_special_features",
+  "name": "Magic Item Special Features",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Add distinctiveness by considering an item's backstory, creator, and unusual construction.",
+    "Use the special feature tables to add history and quirks.",
+    "If a roll doesn't fit, reroll, choose a better entry, or use it as inspiration."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      221
+    ],
+    "section": "Magic Item Special Features"
+  },
+  "notes": [
+    "On minor property and quirk tables, 'you' refers to the item’s bearer."
+  ]
+}

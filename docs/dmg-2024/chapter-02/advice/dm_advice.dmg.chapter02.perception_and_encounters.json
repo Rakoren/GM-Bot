@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.perception_and_encounters",
+    "name":  "Perception and Encounters",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use Perception to determine who notices encounters first.",
+                     "Let awareness change starting positions or options.",
+                     "Reward vigilance with tactical or narrative advantages."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration",
+                 "encounters"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    39
+                                ],
+                      "section":  "Perception and Encounters"
+                  },
+    "notes":  [
+
+              ]
+}

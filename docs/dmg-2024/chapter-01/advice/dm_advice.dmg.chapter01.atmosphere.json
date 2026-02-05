@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.atmosphere",
+  "name": "Atmosphere",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Some DMs use music to create an appropriate atmosphere for their game sessions. They might use soundtracks from adventure movies or video games, although classical, ambient, or other music styles can also work well.",
+    "Some DMs adjust lighting or use sound effects. Miniatures and dioramas can contribute to the game's atmosphere and help players visualize events. Check with your players, though: some might find music, lighting, or sound effects distracting; might prefer not to be startled by loud noises; or might need to avoid certain lighting effects."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-play"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Atmosphere"
+  },
+  "notes": []
+}

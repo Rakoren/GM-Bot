@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter06.psychic_wind_location_effects",
+  "name": "Psychic Wind Location Effects",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "effect"
+  ],
+  "entries": [
+    {
+      "roll": "1-8",
+      "effect": "Diverted; add 1d6 days to travel time."
+    },
+    {
+      "roll": "9-12",
+      "effect": "Blown astray; add 3d10 days to travel time."
+    },
+    {
+      "roll": "13-16",
+      "effect": "Lost; arrive at a location other than the intended destination."
+    },
+    {
+      "roll": "17-20",
+      "effect": "Sent through a random color pool (roll on the Astral Color Pools table)."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      185
+    ],
+    "section": "Psychic Wind Location Effects"
+  },
+  "notes": []
+}

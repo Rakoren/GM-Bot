@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.draw_players_attention",
+  "name": "Draw Players' Attention",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Call out key details that should shape player choices.",
+    "Use emphasis and repetition to highlight what matters.",
+    "Ensure important information is noticed before decisions."
+  ],
+  "tags": [
+    "chapter-02",
+    "narration"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      27
+    ],
+    "section": "Draw Players' Attention"
+  },
+  "notes": []
+}

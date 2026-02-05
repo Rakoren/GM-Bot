@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.dont_repeat_game_states",
+    "name":  "Don\u0027t Repeat Game States",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Avoid repeating the same situation round after round.",
+                     "Introduce changes or decisions that move the encounter forward.",
+                     "Use terrain, reinforcements, or objectives to vary play."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    52
+                                ],
+                      "section":  "Don\u0027t Repeat Game States"
+                  },
+    "notes":  [
+
+              ]
+}

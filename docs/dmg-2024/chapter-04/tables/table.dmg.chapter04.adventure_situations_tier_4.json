@@ -1,0 +1,62 @@
+{
+    "id":  "table.dmg.chapter04.adventure_situations_tier_4",
+    "name":  "Adventure Situations (Levels 17-20)",
+    "chapter":  "dmg-2024.chapter-04",
+    "status":  "complete",
+    "columns":  [
+                    "roll",
+                    "situation"
+                ],
+    "entries":  [
+                    {
+                        "situation":  "An ancient dragon is scheming to destroy a god and take the god\u0027s place in the pantheon. The dragon\u0027s minions are searching for Artifacts that can summon and weaken this god.",
+                        "roll":  "1"
+                    },
+                    {
+                        "situation":  "A band of giants drove away a metallic dragon and took over the dragon\u0027s lair, and the dragon wants to reclaim the lair.",
+                        "roll":  "2"
+                    },
+                    {
+                        "situation":  "An ancient hero returns from the dead to prepare the world for the return of an equally ancient monster.",
+                        "roll":  "3"
+                    },
+                    {
+                        "situation":  "An ancient Artifact has the power to defeat or imprison a rampaging titan.",
+                        "roll":  "4"
+                    },
+                    {
+                        "situation":  "A god of agriculture is angry, causing rivers to dry up and crops to wither.",
+                        "roll":  "5"
+                    },
+                    {
+                        "situation":  "An Artifact belonging to a god falls into mortal hands.",
+                        "roll":  "6"
+                    },
+                    {
+                        "situation":  "A titan imprisoned in the Underdark begins to break free, causing terrible earthquakes that are only a hint of the destruction that the titan will cause if it is released.",
+                        "roll":  "7"
+                    },
+                    {
+                        "situation":  "A lich tries to exterminate any spellcasters that approach the lich\u0027s level of power.",
+                        "roll":  "8"
+                    },
+                    {
+                        "situation":  "A holy temple was built around a portal leading to one of the Lower Planes to prevent any evil from passing through in either direction. Now the temple has come under siege from both directions.",
+                        "roll":  "9"
+                    },
+                    {
+                        "situation":  "Five ancient metallic dragons lair in the Pillars of Creation. If all these dragons are killed, the world will collapse into chaos. One has just been slain.",
+                        "roll":  "10"
+                    }
+                ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    106
+                                ],
+                      "section":  "Levels 17-20: Masters of the World"
+                  },
+    "notes":  [
+
+              ]
+}

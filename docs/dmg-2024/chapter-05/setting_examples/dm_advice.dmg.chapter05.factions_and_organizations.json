@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.factions_and_organizations",
+  "name": "Factions and Organizations",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Define faction goals, methods, and rivalries.",
+    "Use factions to drive quests and political tension.",
+    "Let faction choices shape the campaigns direction."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      139
+    ],
+    "section": "Factions and Organizations"
+  },
+  "notes": []
+}

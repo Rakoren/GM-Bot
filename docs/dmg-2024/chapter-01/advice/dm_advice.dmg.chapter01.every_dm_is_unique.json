@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.every_dm_is_unique",
+  "name": "Every DM Is Unique",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The preceding example of play shows how one Dungeon Master might run an encounter, but no two DMs run the game in exactly the same way?and that is how it should be. You will be most successful as a DM if you choose a play style that works best for you and your players."
+  ],
+  "tags": [
+    "chapter-01",
+    "dm-style"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      12
+    ],
+    "section": "Every DM Is Unique"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.shared_world",
+  "name": "Shared World",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "A shared world lets different groups affect the same setting.",
+    "Track world changes and communicate them to all DMs and players.",
+    "Establish rules for consistency and cross-group impact."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Shared World"
+  },
+  "notes": []
+}

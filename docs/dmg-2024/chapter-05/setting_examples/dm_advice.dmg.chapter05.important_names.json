@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.important_names",
+  "name": "Important Names",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Track key factions, leaders, and locations for reference.",
+    "Use important names to ground rumors and hooks.",
+    "Introduce names through NPCs and lore, not lists."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      137
+    ],
+    "section": "Important Names"
+  },
+  "notes": []
+}

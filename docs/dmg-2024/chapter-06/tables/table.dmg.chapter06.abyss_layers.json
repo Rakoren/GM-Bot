@@ -1,0 +1,52 @@
+{
+  "id": "table.dmg.chapter06.abyss_layers",
+  "name": "Layers of the Abyss",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "The Plain of Infinite Portals (Layer 1)",
+      "description": "Corroded iron fortresses defend routes to lower layers."
+    },
+    {
+      "layer": "Azzagrat (Layers 45?47)",
+      "description": "Graz?zt?s corrupt, decadent city spans three layers."
+    },
+    {
+      "layer": "The Demonweb (Layer 66)",
+      "description": "Lolth?s web ensnares all and hides portals to other planes."
+    },
+    {
+      "layer": "Gaping Maw (Layer 88)",
+      "description": "A malevolent wilderness surrounding Demogorgon?s ocean fortress."
+    },
+    {
+      "layer": "Thanatos (Layer 113)",
+      "description": "An endless graveyard ruled by Orcus and the sleepless dead."
+    },
+    {
+      "layer": "The Slime Pits, Shedaklah (Layer 222)",
+      "description": "A fetid realm of ooze and fungi ruled by Juiblex and Zuggtmoy."
+    },
+    {
+      "layer": "The Death Dells (Layer 422)",
+      "description": "A cruel, desolate realm prowled by Yeenoghu and his gnoll servants."
+    },
+    {
+      "layer": "The Endless Maze (Layer 600)",
+      "description": "An endless labyrinth that turns visitors into Baphomet?s prey."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Layers of the Abyss"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.your_campaign_journal",
+  "name": "Your Campaign Journal",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Keep a running record of sessions, NPCs, and unresolved threads.",
+    "Use the journal to refresh memory and track continuity.",
+    "Treat the journal as a living document that shapes future sessions."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      126
+    ],
+    "section": "Your Campaign Journal"
+  },
+  "notes": []
+}

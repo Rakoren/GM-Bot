@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.gods_and_divine_magic",
+  "name": "Gods and Divine Magic",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Decide how divine magic is granted and limited.",
+    "Tie divine magic to faith, service, or cosmic law.",
+    "Use divine magic to signal a god's priorities."
+  ],
+  "tags": [
+    "chapter-03",
+    "gods"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Gods and Divine Magic"
+  },
+  "notes": []
+}

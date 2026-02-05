@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_items_a_z",
+  "name": "Magic Items A–Z",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Magic items are presented in alphabetical order.",
+    "If an item description highlights a creature name, it points to that creature’s stat block."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      228
+    ],
+    "section": "Magic Items A–Z"
+  },
+  "notes": [
+    "Stat blocks are in the Monster Manual unless otherwise noted."
+  ]
+}

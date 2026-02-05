@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.spells",
+  "name": "Spells",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "If the item allows its user to cast spells, you must have all those spells prepared each day you craft it."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items",
+    "crafting"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      220
+    ],
+    "section": "Spells"
+  },
+  "notes": []
+}

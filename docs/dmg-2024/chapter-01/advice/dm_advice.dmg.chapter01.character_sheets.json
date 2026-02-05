@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.character_sheets",
+  "name": "Character Sheets",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Players need some way to record important information about their characters. Plain paper works fine, but players might find official or fan-made character sheets more helpful in organizing the information. A variety of digital character sheets are also available if you're playing online or using digital devices at the table."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Character Sheets"
+  },
+  "notes": []
+}

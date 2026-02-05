@@ -1,0 +1,28 @@
+{
+  "id": "table.dmg.chapter06.bytopia_layers",
+  "name": "Layers of Bytopia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Dothion",
+      "description": "Farms nestled among well-tamed woods are hubs of pastoral activity and individual industry."
+    },
+    {
+      "layer": "Shurrock",
+      "description": "Small communities thrive around quarries and mills amid rough country and harsh weather."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      186
+    ],
+    "section": "Layers of Bytopia"
+  },
+  "notes": []
+}

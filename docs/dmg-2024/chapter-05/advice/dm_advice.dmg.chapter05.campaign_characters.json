@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.campaign_characters",
+  "name": "Campaign Characters",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Shape campaign content around what excites the players.",
+    "Use character motivations and backstories to generate hooks.",
+    "Balance spotlight time across the party."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "characters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      127
+    ],
+    "section": "Campaign Characters"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.reactive_tactics",
+  "name": "Reactive Tactics",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Have alerted creatures ambush, fortify, hide, flee, or investigate.",
+    "Use a simple save (DC 10 Wisdom) to choose a reaction when unsure.",
+    "Update maps and nearby allies as monsters move or signal."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Reactive Tactics"
+  },
+  "notes": []
+}

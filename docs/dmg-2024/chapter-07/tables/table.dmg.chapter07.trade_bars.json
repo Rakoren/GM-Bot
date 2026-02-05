@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter07.trade_bars",
+  "name": "Trade Bars",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "bar",
+    "value",
+    "dimensions"
+  ],
+  "entries": [
+    {
+      "bar": "2-pound silver bar",
+      "value": "10 GP",
+      "dimensions": "5 in. long ? 2 in. wide ? 1/2 in. thick"
+    },
+    {
+      "bar": "5-pound silver bar",
+      "value": "25 GP",
+      "dimensions": "6 in. long ? 2 in. wide ? 1 in. thick"
+    },
+    {
+      "bar": "5-pound gold bar",
+      "value": "250 GP",
+      "dimensions": "5 in. long ? 2 in. wide ? 3/4 in. thick"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213
+    ],
+    "section": "Trade Bars"
+  },
+  "notes": []
+}

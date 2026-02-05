@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.sea_of_ice",
+  "name": "Sea of Ice",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Sea of Ice as the frigid border with the Plane of Ice, choked with bergs and sheet ice.",
+    "Let iceborne creatures drift into warmer seas to threaten ships and islands."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-water"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      191
+    ],
+    "section": "Sea of Ice"
+  },
+  "notes": []
+}

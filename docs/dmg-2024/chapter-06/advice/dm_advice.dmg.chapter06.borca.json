@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.borca",
+  "name": "Borca",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Borca's opulence and poverty contrast with Ivana Boritsi and Ivan Dilisnya as Darklords.",
+    "Lean on poison, obsession, and cruel intrigue."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209
+    ],
+    "section": "Borca"
+  },
+  "notes": []
+}

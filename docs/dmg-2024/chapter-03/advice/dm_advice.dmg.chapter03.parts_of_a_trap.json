@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.parts_of_a_trap",
+  "name": "Parts of a Trap",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Define trigger, effect, and countermeasures clearly.",
+    "Make each part discoverable through play.",
+    "Use consistent DCs for similar components."
+  ],
+  "tags": [
+    "chapter-03",
+    "traps"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Parts of a Trap"
+  },
+  "notes": []
+}

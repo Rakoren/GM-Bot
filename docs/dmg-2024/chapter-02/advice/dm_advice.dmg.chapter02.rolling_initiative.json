@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.rolling_initiative",
+    "name":  "Rolling Initiative",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Have each combatant roll initiative when combat begins.",
+                     "Establish a clear turn order before the first round.",
+                     "Use initiative to manage spotlight and pacing."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    45
+                                ],
+                      "section":  "Rolling Initiative"
+                  },
+    "notes":  [
+
+              ]
+}

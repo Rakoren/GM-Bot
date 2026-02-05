@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.creature_size_and_space",
+    "name":  "Creature Size and Space",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use size categories to determine occupied space.",
+                     "Apply reach and positioning based on creature size.",
+                     "Keep size effects consistent across encounters."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat",
+                 "maps"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    48
+                                ],
+                      "section":  "Creature Size and Space"
+                  },
+    "notes":  [
+
+              ]
+}

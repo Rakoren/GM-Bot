@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter01.setting_expectations",
+  "name": "Setting Expectations",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Before you assemble a group around a game table, pitch the adventures you are thinking about running to your prospective players. Note the in-world conflicts that might arise, the setting's overall tone, and the themes you'd like to explore.",
+    "Telling players what to expect prepares them as they imagine what sorts of characters they could create and launches conversations about content to be embraced and avoided. You do not need to reveal the major plot points or twists in your story, but share the themes you are interested in exploring, the kinds of stories you are inspired by, and which flavors of fantasy interest you.",
+    "Being transparent with your players allows them to decide if this is a game they want to play, which is best to know before play begins.",
+    "Being clear about your expectations and making sure you understand your players' expectations in return can help ensure a smooth game. Take your players' opinions and desires seriously, and make sure they take yours just as seriously. Ideally, you'll find a style of play that suits everyone."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      14,
+      15
+    ],
+    "section": "Setting Expectations"
+  },
+  "notes": []
+}

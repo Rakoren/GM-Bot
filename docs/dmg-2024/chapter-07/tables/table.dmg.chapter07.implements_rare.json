@@ -1,0 +1,116 @@
+{
+  "id": "table.dmg.chapter07.implements_rare",
+  "name": "Implements - Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-04",
+      "item": "Ammunition, +2"
+    },
+    {
+      "roll": "05-08",
+      "item": "Bag of Beans"
+    },
+    {
+      "roll": "09-12",
+      "item": "Belt of Dwarvenkind"
+    },
+    {
+      "roll": "13-16",
+      "item": "Boots of Levitation"
+    },
+    {
+      "roll": "17-20",
+      "item": "Boots of Speed"
+    },
+    {
+      "roll": "21-24",
+      "item": "Chime of Opening"
+    },
+    {
+      "roll": "25-28",
+      "item": "Dimensional Shackles"
+    },
+    {
+      "roll": "29-32",
+      "item": "Enspelled Weapon (level 2 or 3 spell)"
+    },
+    {
+      "roll": "33-36",
+      "item": "Folding Boat"
+    },
+    {
+      "roll": "37-40",
+      "item": "Glamoured Studded Leather"
+    },
+    {
+      "roll": "41-44",
+      "item": "Heward's Handy Haversack"
+    },
+    {
+      "roll": "45-48",
+      "item": "Horseshoes of Speed"
+    },
+    {
+      "roll": "49-52",
+      "item": "Instrument of the Bards (Canaith mandolin or Cli lyre)"
+    },
+    {
+      "roll": "53-56",
+      "item": "Ioun Stone (awareness)"
+    },
+    {
+      "roll": "57-60",
+      "item": "Portable Hole"
+    },
+    {
+      "roll": "61-64",
+      "item": "Potion of Diminution"
+    },
+    {
+      "roll": "65-68",
+      "item": "Potion of Gaseous Form"
+    },
+    {
+      "roll": "69-76",
+      "item": "Potion of Healing (superior)"
+    },
+    {
+      "roll": "77-80",
+      "item": "Quaal's Feather Token (bird, swan boat, or whip)"
+    },
+    {
+      "roll": "81-84",
+      "item": "Ring of Evasion"
+    },
+    {
+      "roll": "85-88",
+      "item": "Ring of Free Action"
+    },
+    {
+      "roll": "89-92",
+      "item": "Rope of Entanglement"
+    },
+    {
+      "roll": "93-96",
+      "item": "Staff of Healing"
+    },
+    {
+      "roll": "97-00",
+      "item": "Wand of Enemy Detection"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      234
+    ],
+    "section": "Implements - Rare"
+  },
+  "notes": []
+}

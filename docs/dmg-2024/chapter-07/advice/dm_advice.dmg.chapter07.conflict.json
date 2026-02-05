@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.conflict",
+  "name": "Conflict",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Conflict arises when a bearer acts against the item's alignment or purpose.",
+    "On conflict, the bearer makes a Charisma save (DC 12 + item's Charisma modifier).",
+    "On a failed save, the item issues demands; refusal can block attunement, suppress properties, or attempt control.",
+    "If the item attempts control and the save fails, the bearer is Charmed for 1d12 hours and must try to follow the item's commands; repeat the save on taking damage."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      227
+    ],
+    "section": "Conflict"
+  },
+  "notes": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "table.dmg.chapter07.magic_item_categories",
+  "name": "Magic Item Categories",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "category",
+    "examples"
+  ],
+  "entries": [
+    {
+      "category": "Armor",
+      "examples": "+1 Leather Armor, +1 Shield"
+    },
+    {
+      "category": "Potions",
+      "examples": "Potion of Healing"
+    },
+    {
+      "category": "Rings",
+      "examples": "Ring of Invisibility"
+    },
+    {
+      "category": "Rods",
+      "examples": "Immovable Rod"
+    },
+    {
+      "category": "Scrolls",
+      "examples": "Spell Scroll"
+    },
+    {
+      "category": "Staffs",
+      "examples": "Staff of Striking"
+    },
+    {
+      "category": "Wands",
+      "examples": "Wand of Fireballs"
+    },
+    {
+      "category": "Weapons",
+      "examples": "+1 Ammunition, +1 Longsword"
+    },
+    {
+      "category": "Wondrous Items",
+      "examples": "Bag of Holding, Boots of Elvenkind"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Magic Item Categories"
+  },
+  "notes": []
+}

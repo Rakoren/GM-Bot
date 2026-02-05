@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.monsters_casting_spells",
+    "name":  "Monsters Casting Spells",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use monster spells to create varied tactics and threats.",
+                     "Prioritize spells that fit the monster\u0027s role and personality.",
+                     "Keep spell use consistent and understandable for players."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    52
+                                ],
+                      "section":  "Monsters Casting Spells"
+                  },
+    "notes":  [
+
+              ]
+}

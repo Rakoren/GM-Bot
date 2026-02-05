@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.art_objects_250gp",
+  "name": "250 GP Art Objects",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "object"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "object": "Gold ring set with bloodstones"
+    },
+    {
+      "roll": "2",
+      "object": "Carved ivory statuette"
+    },
+    {
+      "roll": "3",
+      "object": "Bejeweled gold bracelet"
+    },
+    {
+      "roll": "4",
+      "object": "Silver necklace with a gemstone pendant"
+    },
+    {
+      "roll": "5",
+      "object": "Bronze crown"
+    },
+    {
+      "roll": "6",
+      "object": "Silk vestments with gold embroidery"
+    },
+    {
+      "roll": "7",
+      "object": "Well-made tapestry that is 10 feet by 10 feet"
+    },
+    {
+      "roll": "8",
+      "object": "Brass mug with jade inlay"
+    },
+    {
+      "roll": "9",
+      "object": "Box of turquoise animal figurines"
+    },
+    {
+      "roll": "10",
+      "object": "Gold birdcage with electrum filigree"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      215
+    ],
+    "section": "250 GP Art Objects"
+  },
+  "notes": []
+}

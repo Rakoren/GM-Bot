@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter06.elysium_layers",
+  "name": "Layers of Elysium",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Amoria",
+      "description": "Small towns along the River Oceanus amid lush meadows; among the most hospitable refuges on the Outer Planes."
+    },
+    {
+      "layer": "Eronia",
+      "description": "Steep hills, craggy mountains, and white granite valleys for hardy souls."
+    },
+    {
+      "layer": "Belierin",
+      "description": "Lighthouses pierce fog over sprawling marshlands and small communities."
+    },
+    {
+      "layer": "Thalasia",
+      "description": "The Heroic Isles at the headwaters of the River Oceanus, home to the best departed souls."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      191
+    ],
+    "section": "Layers of Elysium"
+  },
+  "notes": []
+}

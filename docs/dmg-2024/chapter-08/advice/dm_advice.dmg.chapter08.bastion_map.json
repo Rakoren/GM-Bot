@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter08.bastion_map",
+  "name": "Bastion Map",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Encourage players to draw Bastion floor plans like dungeon maps.",
+    "Bastions can include closets, corridors/ramps/staircases, defensive walls, and doors/windows.",
+    "Closets and corridors are free features; defensive walls cost time and gold.",
+    "If a Bastion is fully enclosed by defensive walls, reduce by 2 the dice rolled for Bastion Defender losses during attacks."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "mapping"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      334
+    ],
+    "section": "Bastion Map"
+  },
+  "notes": []
+}

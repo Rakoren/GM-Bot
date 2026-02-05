@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.attunement",
+  "name": "Attunement",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Require attunement when an item grants strong or versatile benefits.",
+    "Use attunement to limit stacking and keep choices meaningful.",
+    "Set clear attunement requirements that fit the item narrative."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Attunement"
+  },
+  "notes": []
+}

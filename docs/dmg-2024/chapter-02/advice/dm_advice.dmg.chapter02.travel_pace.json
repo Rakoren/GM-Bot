@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.travel_pace",
+    "name":  "Travel Pace",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Choose a pace to balance speed, stealth, and awareness.",
+                     "Apply pace effects consistently across travel.",
+                     "Let the party change pace based on circumstances."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    41
+                                ],
+                      "section":  "Travel Pace"
+                  },
+    "notes":  [
+
+              ]
+}

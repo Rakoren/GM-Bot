@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.npcs_as_party_members",
+  "name": "NPCs as Party Members",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Keep NPC allies supportive, not spotlight-stealing.",
+    "Let players make key decisions.",
+    "Use NPCs to fill gaps, not drive the story."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "NPCs as Party Members"
+  },
+  "notes": []
+}

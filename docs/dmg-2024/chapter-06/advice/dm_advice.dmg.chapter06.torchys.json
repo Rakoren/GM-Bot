@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.torchys",
+  "name": "Torchy's",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Torchy?s as a quirky neutral ground on a basalt crag in a lava river.",
+    "Make access by hot-air balloon or specialized transport part of the encounter.",
+    "Play up the sentient Flame Tongue mace as proprietor and rotating wielders."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-fire",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      189
+    ],
+    "section": "Torchy's"
+  },
+  "notes": []
+}

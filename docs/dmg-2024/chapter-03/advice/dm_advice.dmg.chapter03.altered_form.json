@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.altered_form",
+  "name": "Altered Form",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Change the item’s form or appearance to fit the setting.",
+    "Reflavor without changing mechanics when possible.",
+    "Use form changes to reinforce theme and story."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  },
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Altered Form"
+  },
+  "notes": []
+}

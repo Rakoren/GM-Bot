@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.encounter_pace_and_tension",
+  "name": "Encounter Pace and Tension",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use encounter variety and escalating stakes to build tension.",
+    "Layer low/moderate encounters toward a high-difficulty climax.",
+    "Manage rest opportunities to control pacing."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      111
+    ],
+    "section": "Encounter Pace and Tension"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.traits",
+  "name": "Traits",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Add traits that make the creature distinctive or memorable.",
+    "Use traits to express theme, tactics, or special defenses.",
+    "Keep traits concise for ease of play."
+  ],
+  "tags": [
+    "chapter-03",
+    "creatures"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Traits"
+  },
+  "notes": []
+}

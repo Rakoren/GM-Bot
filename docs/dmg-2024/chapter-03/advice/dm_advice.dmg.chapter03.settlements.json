@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.settlements",
+  "name": "Settlements",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Define settlement size, purpose, and key factions.",
+    "Use settlements as hubs for quests, trade, and safety.",
+    "Let settlement details reflect the surrounding region."
+  ],
+  "tags": [
+    "chapter-03",
+    "settlements"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Settlements"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.months_and_festivals",
+  "name": "Months and Festivals",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use festivals to anchor timelines and create local flavor.",
+    "Tie events to regional traditions and faction interests.",
+    "Let festivals serve as hooks, complications, or set pieces."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      138
+    ],
+    "section": "Months and Festivals"
+  },
+  "notes": []
+}

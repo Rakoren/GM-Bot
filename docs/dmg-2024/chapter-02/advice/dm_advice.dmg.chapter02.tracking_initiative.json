@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.tracking_initiative",
+    "name":  "Tracking Initiative",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Track initiative in a way players can see or follow.",
+                     "Use cards, trackers, or a visible list.",
+                     "Update the order when new combatants appear."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    45
+                                ],
+                      "section":  "Tracking Initiative"
+                  },
+    "notes":  [
+
+              ]
+}

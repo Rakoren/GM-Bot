@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter04.subvert_cliches",
+  "name": "Subvert Cliches",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Twist familiar tropes to keep players engaged.",
+    "Use reversals or hidden motives to surprise the table.",
+    "Keep subversions consistent with setting tone."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      106
+    ],
+    "section": "Subvert Cliches"
+  },
+  "notes": []
+}

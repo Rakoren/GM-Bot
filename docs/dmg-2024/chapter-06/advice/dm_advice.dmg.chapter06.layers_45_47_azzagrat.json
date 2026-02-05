@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layers_45_47_azzagrat",
+  "name": "Layers 45-47: Azzagrat",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Azzagrat as Graz?zt?s decadent triple realm, masked in civility but riddled with peril.",
+    "Use Zelatar and the Argent Palace as hubs for intrigue, pleasure, and dark bargains.",
+    "Let disappearances and labyrinthine streets reinforce the realm?s danger beneath the veneer."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Layers 45?47: Azzagrat"
+  },
+  "notes": []
+}

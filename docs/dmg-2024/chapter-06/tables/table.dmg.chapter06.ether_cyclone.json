@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter06.ether_cyclone",
+  "name": "Ether Cyclone",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "effect"
+  ],
+  "entries": [
+    {
+      "roll": "1-12",
+      "effect": "Extended journey; group DC 15 Charisma saves. If at least half succeed, travel delayed by 1d10 hours; otherwise travel time is doubled."
+    },
+    {
+      "roll": "13-19",
+      "effect": "Blown to a location in the Border Ethereal overlapping a random plane (roll on Ethereal Curtains table)."
+    },
+    {
+      "roll": "20",
+      "effect": "Hurled to a random destination on the Astral Plane."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      193
+    ],
+    "section": "Ether Cyclone"
+  },
+  "notes": []
+}

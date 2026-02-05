@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.healing_spells",
+  "name": "Healing Spells",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Keep healing in line with expected encounter damage.",
+    "Balance stronger healing with action costs or limitations.",
+    "Use existing healing spells as your power reference."
+  ],
+  "tags": [
+    "chapter-03",
+    "spells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Healing Spells"
+  },
+  "notes": []
+}

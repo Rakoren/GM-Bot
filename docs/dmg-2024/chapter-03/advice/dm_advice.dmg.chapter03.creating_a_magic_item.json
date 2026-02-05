@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.creating_a_magic_item",
+  "name": "Creating a Magic Item",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Create magic items that fit the campaign's tone and power level.",
+    "Start with a clear concept, then choose effects that support it.",
+    "Keep item power consistent with other items of similar rarity."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a Magic Item"
+  },
+  "notes": []
+}

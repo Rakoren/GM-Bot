@@ -1,0 +1,31 @@
+{
+  "id": "table.dmg.chapter08.enlarging_basic_facilities",
+  "name": "Enlarging Basic Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "space_increase",
+    "cost",
+    "time_required"
+  ],
+  "entries": [
+    {
+      "space_increase": "Cramped to Roomy",
+      "cost": "500 GP",
+      "time_required": "25 days"
+    },
+    {
+      "space_increase": "Roomy to Vast",
+      "cost": "2,000 GP",
+      "time_required": "80 days"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Enlarging Basic Facilities"
+  },
+  "notes": []
+}

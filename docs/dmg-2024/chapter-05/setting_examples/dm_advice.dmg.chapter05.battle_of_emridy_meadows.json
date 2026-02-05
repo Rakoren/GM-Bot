@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.battle_of_emridy_meadows",
+  "name": "Battle of Emridy Meadows",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the battle as historical context for current tensions.",
+    "Tie relics or sites to this event.",
+    "Let factions interpret its legacy differently."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "history"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      145
+    ],
+    "section": "Battle of Emridy Meadows"
+  },
+  "notes": []
+}

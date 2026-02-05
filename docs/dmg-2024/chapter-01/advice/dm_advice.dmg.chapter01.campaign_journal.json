@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.campaign_journal",
+  "name": "Campaign Journal",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Throughout this book you'll find tracking sheets you can use to make your work as a DM easier. They range from sheets you can use to track NPCs or settlements in your game to trackers you can use to make sure you're giving the adventurers a good number of magic items.",
+    "These tracking sheets can form the basis of a campaign journal (see chapter 5), and they'll help you plan your adventures and build your world. You can scan or photocopy these sheets for your personal use, and you'll find downloadable versions in appendix C."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Campaign Journal"
+  },
+  "notes": []
+}

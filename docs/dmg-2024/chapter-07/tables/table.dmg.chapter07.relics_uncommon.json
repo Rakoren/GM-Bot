@@ -1,0 +1,88 @@
+{
+  "id": "table.dmg.chapter07.relics_uncommon",
+  "name": "Relics - Uncommon",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-05",
+      "item": "Enspelled Staff (cantrip or level 1 spell)"
+    },
+    {
+      "roll": "06-10",
+      "item": "Keoghtom's Ointment"
+    },
+    {
+      "roll": "11-15",
+      "item": "Mariner's Armor"
+    },
+    {
+      "roll": "16-20",
+      "item": "Nature's Mantle"
+    },
+    {
+      "roll": "21-25",
+      "item": "Pearl of Power"
+    },
+    {
+      "roll": "26-30",
+      "item": "Periapt of Health"
+    },
+    {
+      "roll": "31-35",
+      "item": "Periapt of Wound Closure"
+    },
+    {
+      "roll": "36-40",
+      "item": "Potion of Animal Friendship"
+    },
+    {
+      "roll": "41-55",
+      "item": "Potion of Healing (greater)"
+    },
+    {
+      "roll": "56-60",
+      "item": "Potion of Resistance"
+    },
+    {
+      "roll": "61-65",
+      "item": "Ring of Water Walking"
+    },
+    {
+      "roll": "66-70",
+      "item": "Sending Stones"
+    },
+    {
+      "roll": "71-80",
+      "item": "Spell Scroll (level 2 or level 3 spell)"
+    },
+    {
+      "roll": "81-85",
+      "item": "Staff of the Adder"
+    },
+    {
+      "roll": "86-90",
+      "item": "Staff of the Python"
+    },
+    {
+      "roll": "91-95",
+      "item": "Wand of Magic Detection"
+    },
+    {
+      "roll": "96-00",
+      "item": "Wand of the War Mage, +1"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      234
+    ],
+    "section": "Relics - Uncommon"
+  },
+  "notes": []
+}

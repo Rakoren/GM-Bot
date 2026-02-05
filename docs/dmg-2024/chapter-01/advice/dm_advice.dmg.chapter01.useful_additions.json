@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.useful_additions",
+  "name": "Useful Additions",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Various resources can enrich your game and make it more fun. Many of these resources might have digital versions, making computers, tablets, and smartphones essential elements in some D&D games and for some players."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Useful Additions"
+  },
+  "notes": []
+}

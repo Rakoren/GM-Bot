@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json",
+  "id": "procedure.dmg.chapter03.creature_creation_flow",
+  "name": "Creature Creation Flow",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "triggers": [
+    "when creating a custom creature stat block"
+  ],
+  "steps": [
+    "Define the creature concept, size, and type.",
+    "Assign ability scores appropriate to the role.",
+    "Choose languages, proficiencies, and senses.",
+    "Add spells or attacks as needed for the concept.",
+    "Set resistances, immunities, and defining traits.",
+    "Review balance against similar creatures."
+  ],
+  "tags": [
+    "chapter-03",
+    "creatures"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a Creature"
+  },
+  "notes": []
+}

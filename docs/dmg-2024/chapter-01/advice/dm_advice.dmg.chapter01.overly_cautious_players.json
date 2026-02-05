@@ -1,0 +1,27 @@
+{
+  "id": "dm_advice.dmg.chapter01.overly_cautious_players",
+  "name": "Overly Cautious Players",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Overly cautious players can slow down the game by checking every flagstone, door, and wall in a dungeon for traps and hidden dangers. Sometimes this behavior is a learned response to too many unpleasant surprises in past adventures, and sometimes it is just a manifestation of players' personalities.",
+    "Here are some in-game techniques you can use to encourage your players to act boldly:",
+    "Avoid Random Perils. Avoid traps and ambushes that feel random and have little importance to the rest of the adventure.",
+    "Create Time Pressure. Set up a situation where the characters are racing toward a goal or destination. (Use this technique with caution, as time pressure can increase players' anxiety.)",
+    "Telegraph Encounters. Give players advance warning that an encounter is imminent. Maybe they hear the heavy footfalls of a giant or see a dragon flying overhead before they have to confront it.",
+    "If these in-game techniques do not have the desired effect, have a conversation outside the game with your players about which game elements are causing them to play in an overly cautious way. Come to an agreement that those elements will not appear in your game, as keeping the game moving will result in a better experience."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      17,
+      18
+    ],
+    "section": "Overly Cautious Players"
+  },
+  "notes": []
+}

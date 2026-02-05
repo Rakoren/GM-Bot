@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.swashbuckling",
+  "name": "Swashbuckling",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Highlight daring stunts, charm, and fast-paced action.",
+    "Use ships, courts, and city intrigue as common settings.",
+    "Balance swordplay with social maneuvering."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      131
+    ],
+    "section": "Swashbuckling"
+  },
+  "notes": []
+}

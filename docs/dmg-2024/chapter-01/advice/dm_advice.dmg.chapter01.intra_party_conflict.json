@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter01.intra_party_conflict",
+  "name": "Intra-Party Conflict",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "When there's conflict between characters in an adventuring party, it's usually a sign that one of three things is going on:",
+    "Disruptive Player. A player is exhibiting antisocial behavior in the game.",
+    "Player Conflict. Conflicts between characters sometimes surface conflicts between players. These conflicts are best handled away from the gaming table.",
+    "Encourage the players to resolve their conflict outside the game. If that conflict keeps arising at the game table, you might need to ask them to step away from the campaign for a while or leave the game entirely.",
+    "Roleplaying. Conflicts between characters aren't always bad. It's OK for characters (and players) to disagree about how to deal with a captured enemy or which side to back in a brewing war. If the disagreement gets too heated, take a break and perhaps discuss, out of character, how the players would like to proceed.",
+    "If you can't tell which of these dynamics is in play, have a conversation with the players about it."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      16
+    ],
+    "section": "Intra-Party Conflict"
+  },
+  "notes": []
+}

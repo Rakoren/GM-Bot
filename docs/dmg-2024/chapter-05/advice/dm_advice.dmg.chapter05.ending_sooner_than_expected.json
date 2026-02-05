@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.ending_sooner_than_expected",
+  "name": "Ending Sooner Than Expected",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Compress arcs to reach a satisfying conclusion quickly.",
+    "Prioritize the most important conflicts and resolutions.",
+    "Use time jumps to wrap up remaining threads."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      136
+    ],
+    "section": "Ending Sooner Than Expected"
+  },
+  "notes": []
+}

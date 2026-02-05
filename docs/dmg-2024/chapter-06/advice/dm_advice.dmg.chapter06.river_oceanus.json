@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.river_oceanus",
+  "name": "River Oceanus",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Oceanus as a gentle planar waterway through the Upper Planes.",
+    "Anchor travel with trading vessels, towns, and boats for hire along its banks."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      177
+    ],
+    "section": "River Oceanus"
+  },
+  "notes": []
+}

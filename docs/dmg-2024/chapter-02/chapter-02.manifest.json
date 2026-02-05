@@ -1,0 +1,664 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "dmg-2024.chapter-02",
+  "title": "DMG 2024 - Chapter 2: Running the Game",
+  "generated_at": "2026-01-31",
+  "paths": {
+    "tables_dir": "dmg-2024/chapter-02/tables",
+    "lists_dir": "dmg-2024/chapter-02/lists",
+    "advice_dir": "dmg-2024/chapter-02/advice",
+    "procedures_dir": "dmg-2024/chapter-02/procedures"
+  },
+  "shards": [
+    {
+      "id": "table.dmg.chapter02.sections",
+      "type": "table",
+      "path": "dmg-2024/chapter-02/tables/table.dmg.chapter02.sections.json"
+    },
+    {
+      "id": "list.dmg.chapter02.sections",
+      "type": "list",
+      "path": "dmg-2024/chapter-02/lists/list.dmg.chapter02.sections.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.know_your_players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.know_your_players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.acting",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.acting.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.exploring",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.exploring.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.fighting",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.fighting.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.instigating",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.instigating.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.optimizing",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.optimizing.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.problem_solving",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.problem_solving.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.socializing",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.socializing.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.storytelling",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.storytelling.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.group_size",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.group_size.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.small_groups",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.small_groups.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.dm_controlled_adventurer",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.dm_controlled_adventurer.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.npc_party_members",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.npc_party_members.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.players_with_multiple_characters",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.players_with_multiple_characters.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.large_groups",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.large_groups.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.structured_turns",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.structured_turns.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.party_leader",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.party_leader.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.speeding_combat",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.speeding_combat.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.absent_players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.absent_players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.incorporating_new_players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.incorporating_new_players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.special_guest_stars",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.special_guest_stars.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.multiple_dms",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.multiple_dms.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.occasional_breaks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.occasional_breaks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.variety_series",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.variety_series.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.concurrent_campaigns",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.concurrent_campaigns.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.shared_world",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.shared_world.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.joint_dms",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.joint_dms.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.narration",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.narration.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.lead_by_example",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.lead_by_example.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.brevity",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.brevity.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.atmosphere",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.atmosphere.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.draw_players_attention",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.draw_players_attention.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.secrets_and_discovery",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.secrets_and_discovery.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.giving_information_to_one_player",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.giving_information_to_one_player.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.resolving_outcomes",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.resolving_outcomes.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.ability_checks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.ability_checks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.proficiency",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.proficiency.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.trying_again",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.trying_again.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.group_checks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.group_checks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.passive_checks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.passive_checks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.attack_rolls",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.attack_rolls.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.saving_throws",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.saving_throws.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.difficulty_class",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.difficulty_class.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.calculated_dcs",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.calculated_dcs.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.advantage_and_disadvantage",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.advantage_and_disadvantage.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.advantage",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.advantage.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.disadvantage",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.disadvantage.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.consequences",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.consequences.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.success_at_a_cost",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.success_at_a_cost.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.degrees_of_failure",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.degrees_of_failure.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.degrees_of_success",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.degrees_of_success.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.critical_success_or_failure",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.critical_success_or_failure.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.improvising_damage",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.improvising_damage.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.improvising_answers",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.improvising_answers.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.aids_to_improvisation",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.aids_to_improvisation.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.running_social_interaction",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.running_social_interaction.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.roleplaying",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.roleplaying.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.npc_portrayals",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.npc_portrayals.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.engaging_the_players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.engaging_the_players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.attitude",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.attitude.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.ability_checks_in_social_interaction",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.ability_checks_in_social_interaction.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.using_the_help_action",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.using_the_help_action.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.running_exploration",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.running_exploration.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.using_a_map",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.using_a_map.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.tracking_time",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.tracking_time.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.actions_in_exploration",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.actions_in_exploration.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.taking_turns",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.taking_turns.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.ability_checks_in_exploration",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.ability_checks_in_exploration.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.perception",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.perception.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.when_to_call_for_a_check",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.when_to_call_for_a_check.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.hidden_things_in_adventures",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.hidden_things_in_adventures.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.perception_and_encounters",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.perception_and_encounters.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.travel",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.travel.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.journey_stages",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.journey_stages.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.journeys_without_destinations",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.journeys_without_destinations.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.weather",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.weather.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.travel_pace",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.travel_pace.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.narration_during_travel",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.narration_during_travel.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.journey_stage_challenges",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.journey_stage_challenges.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.encounters_with_other_creatures",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.encounters_with_other_creatures.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.foraging",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.foraging.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.navigation",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.navigation.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.obstacles",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.obstacles.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.searches",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.searches.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.tracking",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.tracking.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.running_combat",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.running_combat.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.rolling_initiative",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.rolling_initiative.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.using_initiative_scores",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.using_initiative_scores.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.tracking_initiative",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.tracking_initiative.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.hidden_list",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.hidden_list.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.open_list",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.open_list.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.tracking_monsters_hit_points",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.tracking_monsters_hit_points.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.using_and_tracking_conditions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.using_and_tracking_conditions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.miniatures",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.miniatures.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.tactical_maps",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.tactical_maps.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.creature_size_and_space",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.creature_size_and_space.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.areas_of_effect",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.areas_of_effect.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.line_of_sight",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.line_of_sight.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.diagonal_movement",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.diagonal_movement.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.tracking_position_at_long_range",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.tracking_position_at_long_range.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.narration_in_combat",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.narration_in_combat.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.awarding_heroic_inspiration",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.awarding_heroic_inspiration.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.loss_of_hit_points",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.loss_of_hit_points.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.actions_in_combat",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.actions_in_combat.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.monsters_casting_spells",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.monsters_casting_spells.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.keeping_combat_moving",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.keeping_combat_moving.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.dont_repeat_game_states",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.dont_repeat_game_states.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.hasten_a_monsters_demise",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.hasten_a_monsters_demise.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.end_hostilities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.end_hostilities.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.add_a_combatant",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.add_a_combatant.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.change_the_terrain",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.change_the_terrain.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.change_the_monster",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.change_the_monster.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.adjusting_difficulty",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.adjusting_difficulty.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.fight_or_flight",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.fight_or_flight.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.avoiding_or_ending_a_fight",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.avoiding_or_ending_a_fight.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.character_advancement",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.character_advancement.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.awarding_xp",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.awarding_xp.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.noncombat_challenges",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.noncombat_challenges.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.milestones",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.milestones.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.leveling_up",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.leveling_up.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.variant_training_to_gain_levels",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.variant_training_to_gain_levels.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.level_advancement_without_xp",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.level_advancement_without_xp.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.session_based_advancement",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.session_based_advancement.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter02.story_based_advancement",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-02/advice/dm_advice.dmg.chapter02.story_based_advancement.json"
+    },
+    {
+      "id": "procedure.dmg.chapter02.social_interaction_flow",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-02/procedures/procedure.dmg.chapter02.social_interaction_flow.json"
+    },
+    {
+      "id": "procedure.dmg.chapter02.exploration_turns",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-02/procedures/procedure.dmg.chapter02.exploration_turns.json"
+    },
+    {
+      "id": "procedure.dmg.chapter02.travel_journey_stage",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-02/procedures/procedure.dmg.chapter02.travel_journey_stage.json"
+    },
+    {
+      "id": "procedure.dmg.chapter02.combat_pacing_adjustment",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-02/procedures/procedure.dmg.chapter02.combat_pacing_adjustment.json"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter08.adding_basic_facilities",
+  "name": "Adding Basic Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "facility_space",
+    "cost",
+    "time_required"
+  ],
+  "entries": [
+    {
+      "facility_space": "Cramped",
+      "cost": "500 GP",
+      "time_required": "20 days"
+    },
+    {
+      "facility_space": "Roomy",
+      "cost": "1,000 GP",
+      "time_required": "45 days"
+    },
+    {
+      "facility_space": "Vast",
+      "cost": "3,000 GP",
+      "time_required": "125 days"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Adding Basic Facilities"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.travel",
+    "name":  "Travel",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Structure travel with clear distances, pace, and hazards.",
+                     "Use travel to set mood and introduce obstacles.",
+                     "Decide when to zoom in or montage."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    39
+                                ],
+                      "section":  "Travel"
+                  },
+    "notes":  [
+
+              ]
+}

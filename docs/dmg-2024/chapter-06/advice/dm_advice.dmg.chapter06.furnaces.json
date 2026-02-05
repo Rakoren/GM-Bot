@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.furnaces",
+  "name": "Furnaces",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Place the Furnaces near the Plane of Magma where lava and sulfur dominate.",
+    "Use dao forges and smelters as industrial hubs and adventure locations."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-earth"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      188
+    ],
+    "section": "Furnaces"
+  },
+  "notes": []
+}

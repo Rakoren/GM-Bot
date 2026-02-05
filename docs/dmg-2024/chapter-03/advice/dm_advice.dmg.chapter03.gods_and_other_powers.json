@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.gods_and_other_powers",
+  "name": "Gods and Other Powers",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Define the role of deities and cosmic powers in your setting.",
+    "Clarify how mortals interact with divine forces.",
+    "Use divine influence to create lore and story hooks."
+  ],
+  "tags": [
+    "chapter-03",
+    "gods"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Gods and Other Powers"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.gunpowder",
+  "name": "Gunpowder",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Treat gunpowder as volatile and sensitive to sparks.",
+    "Control availability to balance explosive use.",
+    "Use storage and transport limits as story hooks."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Gunpowder"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.other_configurations",
+  "name": "Other Configurations",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Pick a cosmology that fits your campaign tone; the Great Wheel is not required.",
+    "You can model the planes as a world tree, layered realms, orbital systems, or a simplified set of planes.",
+    "Keep the relationships between planes clear even when the map changes."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "variants"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      173
+    ],
+    "section": "Other Configurations"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.pandemonium",
+  "name": "Pandemonium",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Pandemonium as cold, dark tunnels carved by howling winds.",
+    "Extinguish open flames and limit conversation to shouting within 10 feet.",
+    "Use its banshee-like winds to drive residents into despair and madness."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "pandemonium"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      206
+    ],
+    "section": "Pandemonium"
+  },
+  "notes": []
+}

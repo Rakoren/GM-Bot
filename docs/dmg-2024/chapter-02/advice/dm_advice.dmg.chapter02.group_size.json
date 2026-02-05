@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.group_size",
+  "name": "Group Size",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Published adventures assume four to six players plus the DM.",
+    "Use the following advice to adjust adventures for smaller or larger groups.",
+    "Consider party capabilities when tuning encounter difficulty."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Group Size"
+  },
+  "notes": []
+}

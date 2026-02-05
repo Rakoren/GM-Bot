@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.aids_to_improvisation",
+    "name":  "Aids to Improvisation",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use reference tables, notes, and prepared materials to improvise quickly.",
+                     "Keep common DCs and damage guidelines handy.",
+                     "Leverage player ideas as inspiration when stuck."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    33
+                                ],
+                      "section":  "Aids to Improvisation"
+                  },
+    "notes":  [
+
+              ]
+}

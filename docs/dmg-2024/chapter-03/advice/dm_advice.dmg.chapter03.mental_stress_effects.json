@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.mental_stress_effects",
+  "name": "Mental Stress Effects",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use mental stress to model prolonged strain and trauma.",
+    "Apply effects at clear thresholds or triggers.",
+    "Pair stress with meaningful relief or downtime."
+  ],
+  "tags": [
+    "chapter-03",
+    "fear"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Mental Stress Effects"
+  },
+  "notes": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.art_objects_2500gp",
+  "name": "2,500 GP Art Objects",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "object"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "object": "Fine gold chain set with a fire opal"
+    },
+    {
+      "roll": "2",
+      "object": "Old masterpiece painting"
+    },
+    {
+      "roll": "3",
+      "object": "Embroidered silk and velvet mantle set with numerous moonstones"
+    },
+    {
+      "roll": "4",
+      "object": "Platinum bracelet set with an emerald"
+    },
+    {
+      "roll": "5",
+      "object": "Embroidered glove set with jewel chips"
+    },
+    {
+      "roll": "6",
+      "object": "Jeweled anklet"
+    },
+    {
+      "roll": "7",
+      "object": "Gold music box"
+    },
+    {
+      "roll": "8",
+      "object": "Gold circlet set with four aquamarines"
+    },
+    {
+      "roll": "9",
+      "object": "Eye patch decorated with tiny blue sapphires and moonstones"
+    },
+    {
+      "roll": "10",
+      "object": "A necklace string of small pink pearls"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      215
+    ],
+    "section": "2,500 GP Art Objects"
+  },
+  "notes": []
+}

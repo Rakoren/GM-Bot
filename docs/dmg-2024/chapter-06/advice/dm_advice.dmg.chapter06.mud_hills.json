@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.mud_hills",
+  "name": "Mud Hills",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Depict the Mud Hills as eroding slopes feeding stone into the Para-elemental Plane of Ooze.",
+    "Use constant regeneration and landslides as environmental hazards."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-earth"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      188
+    ],
+    "section": "Mud Hills"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.renown",
+  "name": "Renown",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Track renown to reflect standing with factions or communities.",
+    "Make renown gains and losses visible in play.",
+    "Use renown to unlock opportunities and responsibilities."
+  ],
+  "tags": [
+    "chapter-03",
+    "renown"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Renown"
+  },
+  "notes": []
+}

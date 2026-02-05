@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.explosives",
+  "name": "Explosives",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use explosives sparingly to avoid overshadowing spells.",
+    "Set clear blast areas and damage benchmarks.",
+    "Treat explosives as dangerous to handle and transport."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Explosives"
+  },
+  "notes": []
+}

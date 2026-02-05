@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.bring_it_to_an_end",
+  "name": "Bring It to an End",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Build toward a clear climax that pays off earlier setup.",
+    "Make the ending hinge on player choices and outcomes.",
+    "Use foreshadowing to make the climax feel earned."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      112
+    ],
+    "section": "Bring It to an End"
+  },
+  "notes": []
+}

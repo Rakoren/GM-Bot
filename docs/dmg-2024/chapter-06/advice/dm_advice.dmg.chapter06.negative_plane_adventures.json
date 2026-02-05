@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.negative_plane_adventures",
+  "name": "Negative Plane Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat Negative Plane excursions as confrontations with annihilation.",
+    "Use the plane to drain vitality, will, and joy even when characters survive.",
+    "Contrast it directly with Hades and the Shadowfell as pure nonbeing."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "negative-plane",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      201
+    ],
+    "section": "Negative Plane Adventures"
+  },
+  "notes": []
+}

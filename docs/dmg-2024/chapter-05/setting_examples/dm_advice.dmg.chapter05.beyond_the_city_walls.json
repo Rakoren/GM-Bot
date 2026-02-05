@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.beyond_the_city_walls",
+  "name": "Beyond the City Walls",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Offer wilderness or frontier hooks just outside the city.",
+    "Use travel to change the tone and challenges.",
+    "Connect nearby regions to city politics."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      144
+    ],
+    "section": "Beyond the City Walls"
+  },
+  "notes": []
+}

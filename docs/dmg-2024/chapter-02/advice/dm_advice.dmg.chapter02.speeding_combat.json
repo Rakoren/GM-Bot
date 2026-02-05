@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter02.speeding_combat",
+  "name": "Speeding Combat",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Share key info like enemy AC to reduce back-and-forth.",
+    "Help indecisive players with quick battle recaps.",
+    "Make initiative order obvious and encourage thinking ahead.",
+    "Roll attack and damage dice together to save time."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size",
+    "combat"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23,
+      24
+    ],
+    "section": "Speeding Combat"
+  },
+  "notes": []
+}

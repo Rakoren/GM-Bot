@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.prison_plane",
+  "name": "Prison Plane",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Make escape from Carceri nearly impossible; most magic fails, and portals become one-way.",
+    "Use rare, costly ferries on the Styx and heavily trapped secret passages as the only routes out.",
+    "Treat exit attempts as dangerous, high-stakes adventures."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "carceri"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      187
+    ],
+    "section": "Prison Plane"
+  },
+  "notes": []
+}

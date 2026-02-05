@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.random_magic_items",
+  "name": "Random Magic Items",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use the random magic item tables to determine items by category and rarity.",
+    "Choose the table that matches the class or theme you want (Arcana, Armaments, Implements, Relics)."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items",
+    "random-tables"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      229
+    ],
+    "section": "Random Magic Items"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.the_rise_of_iuz",
+  "name": "The Rise of Iuz",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use Iuzs rise as a looming or active threat.",
+    "Tie regional fear and politics to his influence.",
+    "Let his agents drive conflict."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "history"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      145
+    ],
+    "section": "The Rise of Iuz"
+  },
+  "notes": []
+}

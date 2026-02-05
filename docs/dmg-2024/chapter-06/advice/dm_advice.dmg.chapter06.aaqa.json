@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.aaqa",
+  "name": "Aaqa",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present Aaqa as a hidden realm reached by following precise wind sequences.",
+    "Use silver spires and verdant gardens on a fertile earth mote to convey its grandeur.",
+    "Emphasize the Wind Dukes? vigilance against Elemental Evil and their aarakocra servants."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-air"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      187
+    ],
+    "section": "Aaqa"
+  },
+  "notes": []
+}

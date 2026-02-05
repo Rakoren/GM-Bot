@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.traveling_between_worlds",
+  "name": "Traveling Between Worlds",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Make interworld travel rare and consequential.",
+    "Use dreams, epic voyages, direct teleportation, or nexus points as pathways."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "material-plane",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      199
+    ],
+    "section": "Traveling Between Worlds"
+  },
+  "notes": []
+}

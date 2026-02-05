@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.coins",
+  "name": "Coins",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Coins are the baseline treasure; use CP, SP, EP, GP, and PP.",
+    "Fifty coins of any type weigh 1 pound.",
+    "Refer to the PHB for relative values."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "currency"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213
+    ],
+    "section": "Coins"
+  },
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter08.bastions_overview",
+  "name": "Bastions Overview",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A Bastion is a player character's home, stronghold, and place of power that develops over the campaign.",
+    "Bastions offer refuge and support projects like crafting, research, and other downtime activities.",
+    "Not every character needs a Bastion; players can opt in or out.",
+    "Bastions work best in campaigns with downtime between adventures.",
+    "Treat Bastions as creative playgrounds while keeping them aligned with the campaign’s larger story."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "downtime"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      334
+    ],
+    "section": "Chapter 8: Bastions"
+  },
+  "notes": []
+}

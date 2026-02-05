@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.passive_checks",
+    "name":  "Passive Checks",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use passive checks when a character\u0027s ongoing awareness matters.",
+                     "Apply them to avoid rolling for every routine observation.",
+                     "Compare passive scores to DCs to determine outcomes."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    30
+                                ],
+                      "section":  "Passive Checks"
+                  },
+    "notes":  [
+
+              ]
+}

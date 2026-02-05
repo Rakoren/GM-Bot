@@ -1,0 +1,29 @@
+{
+  "id": "dm_advice.dmg.chapter01.whats_new_2024",
+  "name": "What's New in the 2024 Version",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "This is the 2024 version of the fifth edition Dungeon Master's Guide. Much of the book has been reorganized, expanded, and rewritten from the 2014 version, and the versions of things in this book replace versions from older books. Here are a few highlights:",
+    "Sound Advice. Every chapter (but especially chapters 1, 2, 4, and 5) has new advice for Dungeon Masters of all experience levels.",
+    "Tracking Sheets. Helpful sheets throughout the book give you tools to plan your game and keep track of your campaign. These sheets are also available for download in appendix C.",
+    "Encounter-Building Assistance. The rules for estimating the difficulty of combat encounters have changed, as you'll see in chapter 4.",
+    "Ready-Made Elements. Sample adventures in chapter 4, a campaign setting in chapter 5, and new maps in appendix B make it easier to run a game right away.",
+    "Expanded and Revised Magic Items. Chapter 7 is packed with new magic items and old ones that have been revised.",
+    "Bastions. Chapter 8 has rules that allow player characters to build, maintain, and enjoy their own strongholds.",
+    "Lore Glossary. In appendix A, a helpful glossary explains many of the iconic people and locations found throughout the D&D multiverse."
+  ],
+  "tags": [
+    "chapter-01",
+    "dm-basics",
+    "2024-updates"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      2
+    ],
+    "section": "What's New in the 2024 Version"
+  },
+  "notes": []
+}

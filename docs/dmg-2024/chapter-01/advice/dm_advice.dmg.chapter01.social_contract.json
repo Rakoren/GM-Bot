@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.social_contract",
+  "name": "The Social Contract of Adventures",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "You must provide reasonably appealing reasons for characters to undertake the adventures you prepare. In exchange, the players should go along with those hooks.",
+    "It is OK for your players to give you some pushback on why their characters should want to do what you're asking them to do, but it is not OK for them to invalidate the hard work you've done preparing the adventure by willfully going in a different direction.",
+    "If you feel like you're keeping up your end of the bargain but your players are not, have a conversation with them away from the gaming table. Try to understand what hooks would motivate their characters, and make sure the players understand the work you put into preparing adventures for them."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      18
+    ],
+    "section": "The Social Contract of Adventures"
+  },
+  "notes": []
+}

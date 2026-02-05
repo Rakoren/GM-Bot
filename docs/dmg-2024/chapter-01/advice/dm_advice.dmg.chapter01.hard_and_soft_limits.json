@@ -1,0 +1,31 @@
+{
+  "id": "dm_advice.dmg.chapter01.hard_and_soft_limits",
+  "name": "Hard and Soft Limits",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Beyond the general themes and flavors of fantasy you're interested in exploring in your campaign, it's important to have a conversation with your players about topics that can be sensitive or uncomfortable.",
+    "A soft limit applies to a topic that should be handled carefully, as it might create unwelcome anxiety, fear, or discomfort.",
+    "A hard limit applies to a topic that should not be mentioned or described.",
+    "Any in-game topic or theme that makes a member of the gaming group feel unsafe (a hard limit) must be avoided. If a topic or theme makes one or more players nervous but they consent to include it in-game (a soft limit), incorporate it with care, if at all, and be ready to quickly veer away from it if needed.",
+    "Common in-game limits apply to topics such as intra-party romance, sex, exploitation, racism, enslavement, and violence toward children and animals.",
+    "Limits can also apply to certain creatures, such as spiders, snakes, rats, and demons. It's also important to discuss limits around what harm might befall characters, including mind-control magic, helplessness, and death.",
+    "Conflicts between characters are not always bad, but they can get in the way of the game.",
+    "Communicating Limits. Make sure everyone is comfortable with how the discussion of limits takes place. Players might not want to discuss limits aloud, especially if they are new to roleplaying games or have not spent a lot of time with other members of the group.",
+    "Compile limits into a list that can be shared with the group. Limits are not negotiable, and everyone in the group needs to respect them.",
+    "Shifting Limits. Encourage players to bring any additional limits to you, privately or in the moment, so you can add them to the list.",
+    "Limits in Play. Since D&D is improvisational, the game can go in unexpected directions. Agree on a signal to communicate when a limit has been violated, and adjust quickly."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      15
+    ],
+    "section": "Hard and Soft Limits"
+  },
+  "notes": []
+}

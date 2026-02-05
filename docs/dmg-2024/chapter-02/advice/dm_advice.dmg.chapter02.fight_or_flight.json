@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.fight_or_flight",
+    "name":  "Fight or Flight",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Let monsters and NPCs choose to flee when appropriate.",
+                     "Use morale and self-preservation to vary outcomes.",
+                     "Let flight create new story consequences."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    53
+                                ],
+                      "section":  "Fight or Flight"
+                  },
+    "notes":  [
+
+              ]
+}

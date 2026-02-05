@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.arcadia_adventures",
+  "name": "Arcadia Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Arcadia to explore the tension between individual freedom and communal responsibility.",
+    "Highlight its pursuit of flawless harmony and the pressure this creates on visitors.",
+    "Introduce conflict when order is disrupted or when military force enforces the common good."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "arcadia",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      183
+    ],
+    "section": "Arcadia Adventures"
+  },
+  "notes": []
+}

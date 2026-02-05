@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.port_in_the_storm",
+  "name": "Port in the Storm",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Make the city feel safe enough to return to.",
+    "Use it as a recovery point between adventures.",
+    "Threats should be present but manageable."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Port in the Storm"
+  },
+  "notes": []
+}

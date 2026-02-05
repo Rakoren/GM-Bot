@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.traps",
+  "name": "Traps",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use traps to add tension and reward careful play.",
+    "Telegraph danger so players can make informed choices.",
+    "Keep trap resolution quick and fair."
+  ],
+  "tags": [
+    "chapter-03",
+    "traps"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Traps"
+  },
+  "notes": []
+}

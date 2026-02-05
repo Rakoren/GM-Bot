@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.old_keoland_and_its_neighbors",
+  "name": "Old Keoland and Its Neighbors",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use neighboring realms to create alliances and rivalries.",
+    "Highlight shared threats across borders.",
+    "Tie adventures to regional diplomacy."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      150
+    ],
+    "section": "Old Keoland and Its Neighbors"
+  },
+  "notes": []
+}

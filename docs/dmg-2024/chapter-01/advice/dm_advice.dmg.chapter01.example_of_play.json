@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.example_of_play",
+  "name": "Example of Play",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "These pages present a short example of play, similar to the ones in the Player's Handbook, to illustrate how everything outlined in the \"How to Run a Session\" section works in practice.",
+    "In this example, the Dungeon Master is running an adventure (\"The Fouled Stream\") from chapter 4."
+  ],
+  "tags": [
+    "chapter-01",
+    "example"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      9,
+      10
+    ],
+    "section": "Example of Play"
+  },
+  "notes": []
+}

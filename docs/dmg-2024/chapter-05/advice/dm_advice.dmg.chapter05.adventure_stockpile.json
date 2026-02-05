@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.adventure_stockpile",
+  "name": "Adventure Stockpile",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Keep a backlog of adventure ideas for quick reuse.",
+    "Mix and recombine stockpiled elements to fit new situations.",
+    "Capture hooks and locations whenever inspiration strikes."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      127
+    ],
+    "section": "Adventure Stockpile"
+  },
+  "notes": []
+}

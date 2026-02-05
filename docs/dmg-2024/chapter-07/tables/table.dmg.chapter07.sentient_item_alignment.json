@@ -1,0 +1,56 @@
+{
+  "id": "table.dmg.chapter07.sentient_item_alignment",
+  "name": "Sentient Item's Alignment",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "alignment"
+  ],
+  "entries": [
+    {
+      "roll": "01-15",
+      "alignment": "Lawful Good"
+    },
+    {
+      "roll": "16-35",
+      "alignment": "Neutral Good"
+    },
+    {
+      "roll": "36-50",
+      "alignment": "Chaotic Good"
+    },
+    {
+      "roll": "51-63",
+      "alignment": "Lawful Neutral"
+    },
+    {
+      "roll": "64-73",
+      "alignment": "Neutral"
+    },
+    {
+      "roll": "74-85",
+      "alignment": "Chaotic Neutral"
+    },
+    {
+      "roll": "86-89",
+      "alignment": "Lawful Evil"
+    },
+    {
+      "roll": "90-96",
+      "alignment": "Neutral Evil"
+    },
+    {
+      "roll": "97-00",
+      "alignment": "Chaotic Evil"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      226
+    ],
+    "section": "Sentient Item's Alignment"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.old_keoland_adventures",
+  "name": "Old Keoland Adventures",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use giants, dragons, and hidden ruins for hooks.",
+    "Mix wilderness threats with regional politics.",
+    "Tie adventures to old wars and rivalries."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      150
+    ],
+    "section": "Old Keoland Adventures"
+  },
+  "notes": []
+}

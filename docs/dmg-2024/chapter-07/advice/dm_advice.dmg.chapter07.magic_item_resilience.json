@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_item_resilience",
+  "name": "Magic Item Resilience",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Magic items are at least as durable as nonmagical items of their kind.",
+    "Most magic items (except potions and scrolls) have Resistance to all damage.",
+    "Artifacts can be destroyed only in special ways; otherwise they are impervious to damage."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      220
+    ],
+    "section": "Magic Item Resilience"
+  },
+  "notes": []
+}

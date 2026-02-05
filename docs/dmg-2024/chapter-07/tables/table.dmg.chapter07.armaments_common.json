@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.armaments_common",
+  "name": "Armaments - Common",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-10",
+      "item": "Armor of Gleaming"
+    },
+    {
+      "roll": "11-20",
+      "item": "Cast-Off Armor"
+    },
+    {
+      "roll": "21-30",
+      "item": "Dread Helm"
+    },
+    {
+      "roll": "31-40",
+      "item": "Moon-Touched Sword"
+    },
+    {
+      "roll": "41-50",
+      "item": "Shield of Expression"
+    },
+    {
+      "roll": "51-60",
+      "item": "Silvered Weapon"
+    },
+    {
+      "roll": "61-70",
+      "item": "Smoldering Armor"
+    },
+    {
+      "roll": "71-80",
+      "item": "Sylvan Talon"
+    },
+    {
+      "roll": "81-90",
+      "item": "Veteran's Cane"
+    },
+    {
+      "roll": "91-00",
+      "item": "Walloping Ammunition"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      232
+    ],
+    "section": "Armaments - Common"
+  },
+  "notes": []
+}

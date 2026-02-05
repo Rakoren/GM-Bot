@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layer_600_endless_maze",
+  "name": "Layer 600: The Endless Maze",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Endless Maze as a vast dungeon centered on Baphomet?s palace.",
+    "Use shifting corridors, submerged passages, and predatory traps to disorient visitors.",
+    "Let the environment push mortals toward bestial instincts and hunting behavior."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      181
+    ],
+    "section": "Layer 600: The Endless Maze"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter04.step_by_step_adventures",
+  "name": "Step-by-Step Adventures",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use a simple step sequence to keep adventure design focused.",
+    "Tie each step to player motivations and campaign needs.",
+    "Revisit earlier steps as new ideas emerge."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      105
+    ],
+    "section": "Step-by-Step Adventures"
+  },
+  "notes": []
+}

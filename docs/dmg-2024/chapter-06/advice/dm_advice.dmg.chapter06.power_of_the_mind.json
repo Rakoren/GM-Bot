@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.power_of_the_mind",
+  "name": "Power of the Mind",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Let minds shape Limbo; creative will can form temporary islands or structures.",
+    "As a Magic action, allow Int checks to move or alter objects within 30 feet based on size DCs.",
+    "Allow a DC 20 Int check to stabilize a 30-foot-radius area for 24 hours."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "limbo",
+    "magic"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      198
+    ],
+    "section": "Power of the Mind"
+  },
+  "notes": []
+}

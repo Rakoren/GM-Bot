@@ -1,0 +1,31 @@
+{
+  "id": "procedure.dmg.chapter05.step_by_step_campaign_flow",
+  "name": "Step-by-Step Campaign Flow",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "steps": [
+    {
+      "order": 1,
+      "title": "Lay out the premise",
+      "summary": "Define the core conflict and themes; pick a setting that reinforces them."
+    },
+    {
+      "order": 2,
+      "title": "Plan adventures",
+      "summary": "Break the big conflict into smaller quests and connect them with locations and antagonists."
+    },
+    {
+      "order": 3,
+      "title": "Bring it to an end",
+      "summary": "Sketch the likely climax and the level range for the campaigns conclusion."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      126
+    ],
+    "section": "Step-by-Step Campaigns"
+  },
+  "notes": []
+}

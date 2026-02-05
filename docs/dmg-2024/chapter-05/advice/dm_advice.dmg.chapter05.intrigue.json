@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.intrigue",
+  "name": "Intrigue",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Focus on politics, espionage, and social leverage.",
+    "Make information and alliances key resources.",
+    "Warn players to build characters suited for social play."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      130
+    ],
+    "section": "Intrigue"
+  },
+  "notes": []
+}

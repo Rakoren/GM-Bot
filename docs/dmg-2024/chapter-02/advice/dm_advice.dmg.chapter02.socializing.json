@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.socializing",
+  "name": "Socializing",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Some players mainly value the social event and time with friends.",
+    "Let them participate without pressure to be deeply immersed.",
+    "Do not force them to engage more than they want.",
+    "Keep them included while accepting a lighter investment in rules or story details."
+  ],
+  "tags": [
+    "chapter-02",
+    "player-preferences"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      22
+    ],
+    "section": "Socializing"
+  },
+  "notes": []
+}

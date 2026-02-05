@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.encounters",
+  "name": "Encounters",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Break the example into discrete scenes with clear objectives.",
+    "Vary encounter types across exploration, social, and combat.",
+    "Tie encounters to clues and progress."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "examples"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      113
+    ],
+    "section": "Encounters"
+  },
+  "notes": []
+}

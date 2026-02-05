@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.titles",
+  "name": "Titles",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Titles grant status and obligations.",
+    "Tie titles to specific domains or institutions.",
+    "Let titles influence how NPCs respond."
+  ],
+  "tags": [
+    "chapter-03",
+    "prestige"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Titles"
+  },
+  "notes": []
+}

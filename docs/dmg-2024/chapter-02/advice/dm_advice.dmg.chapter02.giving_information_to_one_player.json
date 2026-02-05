@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.giving_information_to_one_player",
+  "name": "Giving Information to One Player",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Share some information privately when appropriate for mystery or tension.",
+    "Use side notes or quick messages to keep the game moving.",
+    "Avoid excessive secrecy that isolates the rest of the table."
+  ],
+  "tags": [
+    "chapter-02",
+    "narration"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      27
+    ],
+    "section": "Giving Information to One Player"
+  },
+  "notes": []
+}

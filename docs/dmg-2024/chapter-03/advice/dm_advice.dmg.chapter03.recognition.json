@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.recognition",
+  "name": "Recognition",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use recognition to reflect status in social scenes.",
+    "Let recognition open doors or create expectations.",
+    "Make recognition visible through NPC reactions."
+  ],
+  "tags": [
+    "chapter-03",
+    "renown"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Recognition"
+  },
+  "notes": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "table.dmg.chapter06.ethereal_curtains",
+  "name": "Ethereal Curtains",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "plane",
+    "curtain_color"
+  ],
+  "entries": [
+    {
+      "roll": "1-2",
+      "plane": "Material Plane",
+      "curtain_color": "Turquoise"
+    },
+    {
+      "roll": "3",
+      "plane": "Shadowfell",
+      "curtain_color": "Dusky gray"
+    },
+    {
+      "roll": "4",
+      "plane": "Feywild",
+      "curtain_color": "Opalescent"
+    },
+    {
+      "roll": "5",
+      "plane": "Elemental Plane of Air",
+      "curtain_color": "Pale blue"
+    },
+    {
+      "roll": "6",
+      "plane": "Elemental Plane of Earth",
+      "curtain_color": "Chestnut"
+    },
+    {
+      "roll": "7",
+      "plane": "Elemental Plane of Fire",
+      "curtain_color": "Orange"
+    },
+    {
+      "roll": "8",
+      "plane": "Elemental Plane of Water",
+      "curtain_color": "Green"
+    },
+    {
+      "roll": "9",
+      "plane": "Para-elemental Plane of Ash",
+      "curtain_color": "Dark gray"
+    },
+    {
+      "roll": "10",
+      "plane": "Para-elemental Plane of Ice",
+      "curtain_color": "Aquamarine"
+    },
+    {
+      "roll": "11",
+      "plane": "Para-elemental Plane of Magma",
+      "curtain_color": "Maroon"
+    },
+    {
+      "roll": "12",
+      "plane": "Para-elemental Plane of Ooze",
+      "curtain_color": "Chocolate"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      192
+    ],
+    "section": "Ethereal Curtains"
+  },
+  "notes": []
+}

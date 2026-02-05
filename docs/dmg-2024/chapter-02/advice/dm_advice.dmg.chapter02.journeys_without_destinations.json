@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.journeys_without_destinations",
+    "name":  "Journeys without Destinations",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use roaming journeys for wilderness exploration or searching.",
+                     "Define objectives or triggers to keep play purposeful.",
+                     "Track time and resources to keep pressure on."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    40
+                                ],
+                      "section":  "Journeys without Destinations"
+                  },
+    "notes":  [
+
+              ]
+}

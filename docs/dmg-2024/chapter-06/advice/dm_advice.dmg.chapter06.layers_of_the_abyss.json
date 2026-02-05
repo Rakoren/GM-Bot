@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layers_of_the_abyss",
+  "name": "Layers of the Abyss",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Number Abyssal layers by their discovery and cataloging in Sigil.",
+    "Use notable layers as distinct adventure destinations with their own rulers and themes.",
+    "Let the layer list guide which regions to highlight for play."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Layers of the Abyss"
+  },
+  "notes": []
+}

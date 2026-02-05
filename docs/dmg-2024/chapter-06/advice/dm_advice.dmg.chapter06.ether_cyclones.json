@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.ether_cyclones",
+  "name": "Ether Cyclones",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use ether cyclones as sudden, serpentine storms that distort everything in their path.",
+    "Grant 1 minute of warning to observers with Passive Perception 15+.",
+    "Roll on the Ether Cyclone table if travelers can?t escape via curtain or portal."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ethereal",
+    "hazard"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      193
+    ],
+    "section": "Ether Cyclones"
+  },
+  "notes": []
+}

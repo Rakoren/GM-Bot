@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.trade_goods",
+  "name": "Trade Goods",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use trade goods to represent wealth without coin.",
+    "Use the Trade Goods table for common exchange values."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "currency"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213
+    ],
+    "section": "Trade Goods"
+  },
+  "notes": []
+}

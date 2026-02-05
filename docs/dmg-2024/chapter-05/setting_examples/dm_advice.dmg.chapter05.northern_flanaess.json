@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.northern_flanaess",
+  "name": "Northern Flanaess",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Frame the north as harsh, remote, and dangerous.",
+    "Use raiders, giants, and wild lands for hooks.",
+    "Make travel and survival meaningful."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      148
+    ],
+    "section": "Northern Flanaess"
+  },
+  "notes": []
+}

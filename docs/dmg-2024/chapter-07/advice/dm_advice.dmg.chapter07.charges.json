@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.charges",
+  "name": "Charges",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Some magic items require expending charges to activate properties.",
+    "The Identify spell reveals remaining charges.",
+    "A creature attuned to the item knows its current charges and how many it regains."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Charges"
+  },
+  "notes": []
+}

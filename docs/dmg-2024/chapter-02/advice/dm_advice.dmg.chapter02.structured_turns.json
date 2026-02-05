@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.structured_turns",
+  "name": "Structured Turns",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "If players struggle to get a turn in exploration or social scenes, roll initiative.",
+    "Use initiative order to ensure everyone acts once before cycling.",
+    "Use sparingly to avoid slowing the game or feeling artificial."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Structured Turns"
+  },
+  "notes": []
+}

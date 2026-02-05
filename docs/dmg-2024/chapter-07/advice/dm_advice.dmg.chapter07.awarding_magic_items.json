@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.awarding_magic_items",
+  "name": "Awarding Magic Items",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Award magic items when the story calls for them or to delight the players.",
+    "Use the later guidance and tables to decide what ends up in the party's possession."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      217
+    ],
+    "section": "Awarding Magic Items"
+  },
+  "notes": []
+}

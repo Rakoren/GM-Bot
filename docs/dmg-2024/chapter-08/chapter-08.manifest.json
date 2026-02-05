@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "dmg-2024.chapter-08",
+  "title": "DMG 2024 - Chapter 8: Bastions",
+  "generated_at": "2026-02-05",
+  "paths": {
+    "tables_dir": "dmg-2024/chapter-08/tables",
+    "lists_dir": "dmg-2024/chapter-08/lists",
+    "advice_dir": "dmg-2024/chapter-08/advice",
+    "procedures_dir": "dmg-2024/chapter-08/procedures"
+  },
+  "shards": [
+    {
+      "id": "table.dmg.chapter08.sections",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.sections.json"
+    },
+    {
+      "id": "list.dmg.chapter08.sections",
+      "type": "list",
+      "path": "dmg-2024/chapter-08/lists/list.dmg.chapter08.sections.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.bastions_overview",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.bastions_overview.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.gaining_a_bastion",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.gaining_a_bastion.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.bastion_turns",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.bastion_turns.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.frequency_of_bastion_turns",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.frequency_of_bastion_turns.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.bastion_map",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.bastion_map.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.combining_bastions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.combining_bastions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.facility_space",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.facility_space.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.basic_facilities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.basic_facilities.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.adding_basic_facilities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.adding_basic_facilities.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter08.enlarging_basic_facilities",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-08/advice/dm_advice.dmg.chapter08.enlarging_basic_facilities.json"
+    },
+    {
+      "id": "table.dmg.chapter08.facility_space",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.facility_space.json"
+    },
+    {
+      "id": "table.dmg.chapter08.basic_facilities",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.basic_facilities.json"
+    },
+    {
+      "id": "table.dmg.chapter08.adding_basic_facilities",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.adding_basic_facilities.json"
+    },
+    {
+      "id": "table.dmg.chapter08.enlarging_basic_facilities",
+      "type": "table",
+      "path": "dmg-2024/chapter-08/tables/table.dmg.chapter08.enlarging_basic_facilities.json"
+    }
+  ]
+}

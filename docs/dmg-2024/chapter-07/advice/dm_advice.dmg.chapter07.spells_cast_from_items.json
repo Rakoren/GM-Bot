@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter07.spells_cast_from_items",
+  "name": "Spells Cast from Items",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Spells cast from items use the lowest possible spell and caster level unless noted otherwise.",
+    "Casting from an item doesn't expend the user's spell slots and needs no components unless specified.",
+    "The spell uses normal casting time, range, and duration; concentration is required if the spell requires it.",
+    "Some items bypass casting and confer effects directly; exceptions can alter casting time, duration, or other parts.",
+    "If a spellcasting ability is required, the user chooses which one to use; if none, the modifier is +0 and Proficiency Bonus applies."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Spells Cast from Items"
+  },
+  "notes": []
+}

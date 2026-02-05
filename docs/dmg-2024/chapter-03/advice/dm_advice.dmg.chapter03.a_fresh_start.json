@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.a_fresh_start",
+  "name": "A Fresh Start",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use a fresh start to reset stakes while honoring the past.",
+    "Carry forward consequences and world changes.",
+    "Align the new start with player goals and interests."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "A Fresh Start"
+  },
+  "notes": []
+}

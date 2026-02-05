@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.attitude",
+    "name":  "Attitude",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Set an NPC\u0027s starting attitude based on context and history.",
+                     "Adjust attitude in response to player actions and outcomes.",
+                     "Let attitude influence difficulty and available options."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "social"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    34
+                                ],
+                      "section":  "Attitude"
+                  },
+    "notes":  [
+
+              ]
+}

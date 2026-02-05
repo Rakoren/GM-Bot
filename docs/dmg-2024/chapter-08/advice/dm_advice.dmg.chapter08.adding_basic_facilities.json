@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter08.adding_basic_facilities",
+  "name": "Adding Basic Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "A character can add basic facilities by paying time and cost based on facility space.",
+    "Multiple basic facilities can be added or enlarged at the same time.",
+    "The character does not need to be present while construction happens."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Adding Basic Facilities"
+  },
+  "notes": []
+}

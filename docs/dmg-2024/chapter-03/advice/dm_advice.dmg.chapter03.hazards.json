@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.hazards",
+  "name": "Hazards",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use hazards to add environmental challenge beyond combat.",
+    "Telegraph danger and give players choices to mitigate it.",
+    "Scale severity to the party's tier and the scene's stakes."
+  ],
+  "tags": [
+    "chapter-03",
+    "hazards"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Hazards"
+  },
+  "notes": []
+}

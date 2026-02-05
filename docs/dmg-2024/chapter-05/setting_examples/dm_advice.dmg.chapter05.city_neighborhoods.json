@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.city_neighborhoods",
+  "name": "City Neighborhoods",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Divide the city into distinct districts with clear identities.",
+    "Use neighborhoods to vary tone and encounter types.",
+    "Let travel between districts create friction or discovery."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "City Neighborhoods"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.quest_rewards",
+  "name": "Quest Rewards",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use gold, favors, or access as quest-based rewards.",
+    "Scale rewards to the difficulty and impact of the quest.",
+    "Let patrons or factions deliver rewards with strings attached."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "rewards"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      112
+    ],
+    "section": "Quest Rewards"
+  },
+  "notes": []
+}

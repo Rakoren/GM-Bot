@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_item_rarity",
+  "name": "Magic Item Rarity",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use rarity as a rough measure of a magic item's power and availability.",
+    "Common items are most plentiful; artifacts are unique, priceless, and hard to acquire."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Magic Item Rarity"
+  },
+  "notes": []
+}

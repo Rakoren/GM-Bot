@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.rank",
+  "name": "Rank",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use rank to formalize standing within an organization.",
+    "Define privileges and duties for each rank.",
+    "Let rank influence access and authority."
+  ],
+  "tags": [
+    "chapter-03",
+    "renown"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Rank"
+  },
+  "notes": []
+}

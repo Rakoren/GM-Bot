@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.languages",
+  "name": "Languages",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Assign languages that fit the creature’s origin and culture.",
+    "Use language choices to reinforce story and encounter options.",
+    "Include telepathy or special communication only when appropriate."
+  ],
+  "tags": [
+    "chapter-03",
+    "creatures"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Languages"
+  },
+  "notes": []
+}

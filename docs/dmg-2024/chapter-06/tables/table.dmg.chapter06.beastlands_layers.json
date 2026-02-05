@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter06.beastlands_layers",
+  "name": "Layers of the Beastlands",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Krigala",
+      "description": "The River Oceanus is a strong torrent flowing through this wilderness of eternal summer noon."
+    },
+    {
+      "layer": "Brux",
+      "description": "A red sun hovers on the horizon as mists and streams roil through the trees in eternal twilight."
+    },
+    {
+      "layer": "Karasuthra",
+      "description": "A pale moon provides the only light in this wilderness of eternal night."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      186
+    ],
+    "section": "Layers of the Beastlands"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.elemental_plane_of_water",
+  "name": "Elemental Plane of Water",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Plane of Water as the endless Sea of Worlds with reefs, islands, and storms.",
+    "Use frequent weather shifts, lightning deluges, and rogue waves as environmental threats.",
+    "Keep land scarce and contested by air-breathers using rafts and lashed ships."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-water"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      190
+    ],
+    "section": "Elemental Plane of Water"
+  },
+  "notes": []
+}

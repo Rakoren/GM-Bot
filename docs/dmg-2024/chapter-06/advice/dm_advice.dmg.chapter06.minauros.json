@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.minauros",
+  "name": "Minauros",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present Minauros as a stinking bog under acidic rain and scum.",
+    "Use cyclopean cities and Mammon's flooded halls as key locations.",
+    "Make favors tradeable for gold instead of souls to distinguish Mammon."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202
+    ],
+    "section": "Minauros"
+  },
+  "notes": []
+}

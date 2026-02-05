@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.crypts",
+  "name": "Crypts",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use crypts to convey history, reverence, and dread.",
+    "Pair crypts with undead or sacred guardians.",
+    "Emphasize atmosphere and decay."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Crypts"
+  },
+  "notes": []
+}

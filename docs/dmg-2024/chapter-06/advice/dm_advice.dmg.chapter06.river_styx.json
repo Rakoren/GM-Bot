@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.river_styx",
+  "name": "River Styx",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray the Styx as foul and dangerous; reference its hazards when characters interact with it.",
+    "Use its reach across the Lower Planes and its tributaries to enable layer-to-layer travel.",
+    "Introduce ferries and planar pilots who can transport travelers for a price."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      177
+    ],
+    "section": "River Styx"
+  },
+  "notes": []
+}

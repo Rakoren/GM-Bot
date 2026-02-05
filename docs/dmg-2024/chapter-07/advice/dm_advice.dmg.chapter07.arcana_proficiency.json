@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.arcana_proficiency",
+  "name": "Arcana Proficiency",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "The crafter and any assistants must have proficiency in the Arcana skill."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items",
+    "crafting"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      220
+    ],
+    "section": "Arcana Proficiency"
+  },
+  "notes": []
+}

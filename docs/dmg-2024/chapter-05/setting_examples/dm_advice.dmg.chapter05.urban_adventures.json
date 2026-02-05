@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.urban_adventures",
+  "name": "Urban Adventures",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use city terrain for chases, intrigue, and investigation.",
+    "Mix social encounters with bursts of action.",
+    "Let factions and neighborhoods create variety."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Urban Adventures"
+  },
+  "notes": []
+}

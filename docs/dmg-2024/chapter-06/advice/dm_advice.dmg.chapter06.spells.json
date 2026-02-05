@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.spells",
+  "name": "Spells",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Gate and Plane Shift for direct planar travel with different degrees of precision.",
+    "Use Etherealness for access to the Ethereal Plane and Astral Projection for travel through the Astral Plane."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      177
+    ],
+    "section": "Spells"
+  },
+  "notes": []
+}

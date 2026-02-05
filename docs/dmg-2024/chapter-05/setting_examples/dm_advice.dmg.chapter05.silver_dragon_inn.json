@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter05.silver_dragon_inn",
+  "name": "Silver Dragon Inn",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use this inn as a distinctive gathering place.",
+    "Introduce patrons, rumors, and minor quests.",
+    "Let the inn connect to local politics or guilds."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      143
+    ],
+    "section": "Silver Dragon Inn"
+  },
+  "notes": []
+}

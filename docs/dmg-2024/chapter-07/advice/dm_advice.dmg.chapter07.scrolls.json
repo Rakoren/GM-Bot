@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.scrolls",
+  "name": "Scrolls (Magic Item Category)",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Scrolls are rolls of paper or parchment, typically stored in protective tubes.",
+    "Spell Scrolls are most common, but some scrolls hold non-spell incantations.",
+    "Using a scroll requires reading it; after activation the scroll is consumed and its words fade or it crumbles.",
+    "Any creature that understands a written language can read a scroll and attempt to activate it unless noted otherwise."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Scrolls"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.mordent",
+  "name": "Mordent",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat Mordent as the domain of ghost stories and restless spirits.",
+    "Use mournful hauntings and a lack of final rest as the core terror."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209
+    ],
+    "section": "Mordent"
+  },
+  "notes": []
+}

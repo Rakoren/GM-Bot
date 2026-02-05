@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.a_place_to_play",
+  "name": "A Place to Play",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The bare minimum of space you need to play D&D is room for everyone in your group to gather and participate.",
+    "When choosing the space you'll be playing in, enlist your players' help. Think about any accessibility needs you or they might have. Some players might have difficulty with low light, background music, strong odors, cramped spaces, or specific allergens. Accommodate what you can; communicate what you can't as early as possible.",
+    "If possible, play in an area with minimal visual or auditory distractions. Favor surroundings that reinforce your desired atmosphere and have little non-player traffic. If space is shared, reserve the space in advance.",
+    "You can also play D&D anywhere you might come together in an online space, from a group video call to a sophisticated virtual tabletop."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      3
+    ],
+    "section": "A Place to Play"
+  },
+  "notes": []
+}

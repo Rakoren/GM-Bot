@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter08.facility_space",
+  "name": "Facility Space",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Facility space determines maximum area in 5-foot squares.",
+    "Players can configure squares freely, including stacking across multiple levels."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      334
+    ],
+    "section": "Facility Space"
+  },
+  "notes": []
+}

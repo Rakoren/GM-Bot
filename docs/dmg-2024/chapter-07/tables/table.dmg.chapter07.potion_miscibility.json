@@ -1,0 +1,54 @@
+{
+  "id": "table.dmg.chapter07.potion_miscibility",
+  "name": "Potion Miscibility",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "result"
+  ],
+  "entries": [
+    {
+      "roll": "01",
+      "result": "Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius sphere centered on itself; each creature in the area takes 4d10 force damage."
+    },
+    {
+      "roll": "02-08",
+      "result": "Both potions lose their effects, and the mixture becomes an ingested poison of your choice."
+    },
+    {
+      "roll": "09-15",
+      "result": "Both potions lose their effects."
+    },
+    {
+      "roll": "16-25",
+      "result": "One potion loses its effect."
+    },
+    {
+      "roll": "26-35",
+      "result": "Both potions work, but numerical effects and durations are halved; if a potion has no numerical effect or duration, it instead loses its effect."
+    },
+    {
+      "roll": "36-90",
+      "result": "Both potions work normally."
+    },
+    {
+      "roll": "91-99",
+      "result": "Both potions work, but one potion's numerical effects and duration are doubled; if neither has anything to double, they work normally."
+    },
+    {
+      "roll": "00",
+      "result": "Only one potion works, but its effect becomes permanent; choose the simplest or most fun effect, and allow Dispel Magic or similar magic to end it at your discretion."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Potion Miscibility"
+  },
+  "notes": [
+    "If more than two potions are mixed, roll again for each additional potion and combine the results."
+  ]
+}

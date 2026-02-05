@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.using_your_journal",
+  "name": "Using Your Journal",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Review past notes to reconnect loose threads and prepare callbacks.",
+    "Use the journal to track NPC names and on-the-fly details.",
+    "Let old notes inspire new encounters and reveals."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      126
+    ],
+    "section": "Using Your Journal"
+  },
+  "notes": []
+}

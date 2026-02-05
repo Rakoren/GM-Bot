@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_great_wheel",
+  "name": "The Great Wheel",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Great Wheel as the default cosmology: Material realms at the center, Inner Planes around them, Outer Planes beyond, with the Outlands linking the Outer Planes.",
+    "Treat planar placement as a philosophical model rather than literal geography.",
+    "Emphasize portals and metaphysical relationships over physical distance."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "great-wheel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      173
+    ],
+    "section": "The Great Wheel"
+  },
+  "notes": []
+}

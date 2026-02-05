@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.dungeon_decay",
+  "name": "Dungeon Decay",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use decay to create hazards and mood.",
+    "Let decay affect structures, treasure, and creatures.",
+    "Signal instability before it becomes dangerous."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Dungeon Decay"
+  },
+  "notes": []
+}

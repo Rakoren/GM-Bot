@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.creating_a_creature",
+  "name": "Creating a Creature",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use the creature-creation steps to build stat blocks that fit your campaign.",
+    "Start with a clear concept, then fill in size, type, and core stats.",
+    "Keep custom creatures consistent with existing game math."
+  ],
+  "tags": [
+    "chapter-03",
+    "creatures"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a Creature"
+  },
+  "notes": []
+}

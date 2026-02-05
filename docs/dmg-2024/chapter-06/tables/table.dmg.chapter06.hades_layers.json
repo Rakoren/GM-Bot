@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter06.hades_layers",
+  "name": "Layers of Hades",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Oinos",
+      "description": "Dead-gray ash, stunted trees, and disease stalked by Fiends."
+    },
+    {
+      "layer": "Niflheim",
+      "description": "Gray pines blanket hills and rocky bluffs in thick mist."
+    },
+    {
+      "layer": "Pluton",
+      "description": "Shriveled willows and poplars mark the deepest despair."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      197
+    ],
+    "section": "Layers of Hades"
+  },
+  "notes": []
+}

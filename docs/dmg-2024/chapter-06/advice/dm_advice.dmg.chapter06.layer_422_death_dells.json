@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layer_422_death_dells",
+  "name": "Layer 422: The Death Dells",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Make the Death Dells a hunting ground of ravines and badlands ruled by Yeenoghu.",
+    "Use predatory landscapes and blood-soaked survival to reinforce gnoll brutality.",
+    "Introduce captures from the Material Plane as prey released into the realm."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      181
+    ],
+    "section": "Layer 422: The Death Dells"
+  },
+  "notes": []
+}

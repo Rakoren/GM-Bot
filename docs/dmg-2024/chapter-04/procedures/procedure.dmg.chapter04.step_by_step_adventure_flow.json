@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json",
+  "id": "procedure.dmg.chapter04.step_by_step_adventure_flow",
+  "name": "Step-by-Step Adventure Flow",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "triggers": [
+    "when drafting a new adventure"
+  ],
+  "steps": [
+    "Lay out the premise and define the core conflict.",
+    "Draw in the players with clear hooks and motivations.",
+    "Plan encounters that advance the situation and reveal information.",
+    "Bring the adventure to an end with stakes, rewards, and outcomes."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      105
+    ],
+    "section": "Step-by-Step Adventures"
+  },
+  "notes": []
+}

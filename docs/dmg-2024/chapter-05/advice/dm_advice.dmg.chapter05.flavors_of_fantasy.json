@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.flavors_of_fantasy",
+  "name": "Flavors of Fantasy",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Choose a subgenre to set tone, themes, and expected conflicts.",
+    "Align adventure elements with the chosen flavor.",
+    "Mix flavors carefully to avoid tonal whiplash."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      129
+    ],
+    "section": "Flavors of Fantasy"
+  },
+  "notes": []
+}

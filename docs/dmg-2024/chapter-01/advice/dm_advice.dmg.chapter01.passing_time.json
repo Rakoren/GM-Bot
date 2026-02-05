@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.passing_time",
+  "name": "Passing Time",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The game has a rhythm and flow that includes periods of action and excitement interspersed with lulls. Think of how movies show time passing between scenes.",
+    "When an encounter ends, you can move on to the next one. You can often gloss over hours of travel with a quick narrative summary. Similarly, if a rest period passes uneventfully, tell the players that and move on.",
+    "Do not make the players spend time discussing which character cooks what for dinner unless they enjoy such descriptions. It is OK to gloss over mundane details and return to the action as quickly as possible.",
+    "Expect players to discuss the events of the game, spend time planning, and engage in long conversations in character. You don't need to be involved in those discussions unless they have questions for you. Learn to recognize the times when you can take a break as the DM, and then resume the action as soon as everyone is ready."
+  ],
+  "tags": [
+    "chapter-01",
+    "session-flow"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      8
+    ],
+    "section": "Passing Time"
+  },
+  "notes": []
+}

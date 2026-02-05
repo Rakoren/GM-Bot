@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.narration_in_combat",
+    "name":  "Narration in Combat",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Describe the impact of attacks and movement to keep combat vivid.",
+                     "Use short, energetic descriptions to maintain pace.",
+                     "Encourage players to add their own flourishes."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat",
+                 "narration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    50
+                                ],
+                      "section":  "Narration in Combat"
+                  },
+    "notes":  [
+
+              ]
+}

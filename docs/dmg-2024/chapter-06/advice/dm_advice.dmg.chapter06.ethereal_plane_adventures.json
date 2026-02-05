@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.ethereal_plane_adventures",
+  "name": "Ethereal Plane Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Ethereal Plane for bypass travel and for planar access via the Deep Ethereal.",
+    "Make the Radiant Citadel a viable home base for exploration campaigns.",
+    "Let Deep Ethereal travel feel timeless and disorienting."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ethereal",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      193
+    ],
+    "section": "Ethereal Plane Adventures"
+  },
+  "notes": []
+}

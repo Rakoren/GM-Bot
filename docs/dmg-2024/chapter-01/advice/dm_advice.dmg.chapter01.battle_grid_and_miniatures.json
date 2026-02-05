@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.battle_grid_and_miniatures",
+  "name": "Battle Grid and Miniatures",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Some DMs use a battle grid and miniatures to run combat encounters, which helps players visualize scenes when playing in person.",
+    "A vinyl wet-erase mat with a printed grid, a gridded whiteboard, a cutting mat, a large sheet of gridded paper, or a printed poster map?any of these can serve as a battle grid. The grid should be marked in 1-inch squares.",
+    "You also need plastic or metal miniatures to represent characters and monsters in the game, but you can use coins, extra dice, paper counters, or even pieces of candy if miniatures are unavailable.",
+    "Many software tools designed to facilitate online D&D play provide a battle grid. Even without such tools, though, many online D&D games use screen sharing in combination with drawing programs, shared whiteboards, or similar tools as simple battle grids. Some DMs are comfortable with software that allows them to control lighting and show the players exactly what they can see; others find that complex software gets in the way of the game. Use whatever works for you and your group."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      4
+    ],
+    "section": "Battle Grid and Miniatures"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.awarding_xp",
+    "name":  "Awarding XP",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Award XP for combat and meaningful noncombat achievements.",
+                     "Be consistent in how and when XP is granted.",
+                     "Use XP rewards to reinforce desired play."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "advancement"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    53
+                                ],
+                      "section":  "Awarding XP"
+                  },
+    "notes":  [
+
+              ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter06.feywild_adventures",
+  "name": "Feywild Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use metaphor and emotion as physical realities?stolen memories, laughter, or regrets.",
+    "Let Fey bargains and pranks reshape characters? emotional states.",
+    "Make recovery of lost emotions or memories a core adventure beat."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195,
+      196
+    ],
+    "section": "Feywild Adventures"
+  },
+  "notes": []
+}

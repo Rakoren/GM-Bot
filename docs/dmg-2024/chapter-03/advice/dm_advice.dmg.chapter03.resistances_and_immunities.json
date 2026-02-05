@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.resistances_and_immunities",
+  "name": "Resistances and Immunities",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Assign resistances and immunities that fit the creature’s nature.",
+    "Use them to define strengths without shutting down whole parties.",
+    "Balance defensive traits against the creature’s CR."
+  ],
+  "tags": [
+    "chapter-03",
+    "creatures"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Resistances and Immunities"
+  },
+  "notes": []
+}

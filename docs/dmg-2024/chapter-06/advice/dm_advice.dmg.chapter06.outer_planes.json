@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.outer_planes",
+  "name": "Outer Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Frame the Outer Planes as realms of thought and spirit where deities, Celestials, and Fiends dwell.",
+    "Use alignment and philosophy to shape a plane?s nature and to create dissonance for mismatched visitors.",
+    "Keep distance and geography fluid; the planes shift to suit the will of their powers."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "outer-planes"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      174
+    ],
+    "section": "Outer Planes"
+  },
+  "notes": []
+}

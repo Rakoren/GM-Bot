@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter07.implements_legendary",
+  "name": "Implements - Legendary",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-17",
+      "item": "Enspelled Weapon (level 6, 7, or 8 spell)"
+    },
+    {
+      "roll": "18-34",
+      "item": "Instrument of the Bards (Ollamh harp)"
+    },
+    {
+      "roll": "35-54",
+      "item": "Sovereign Glue"
+    },
+    {
+      "roll": "55-70",
+      "item": "Sphere of Annihilation"
+    },
+    {
+      "roll": "71-83",
+      "item": "Talisman of the Sphere"
+    },
+    {
+      "roll": "84-00",
+      "item": "Universal Solvent"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      234
+    ],
+    "section": "Implements - Legendary"
+  },
+  "notes": []
+}

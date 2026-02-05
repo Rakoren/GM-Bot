@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.limbo",
+  "name": "Limbo",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present Limbo as a chaos soup where matter constantly transforms.",
+    "Use zero gravity; movement is by thought up to the creature's Speed.",
+    "Treat layers as meaningless in this ever-changing plane."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "limbo"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      198
+    ],
+    "section": "Limbo"
+  },
+  "notes": []
+}

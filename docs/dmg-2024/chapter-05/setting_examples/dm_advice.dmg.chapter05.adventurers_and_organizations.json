@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.adventurers_and_organizations",
+  "name": "Adventurers and Organizations",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Let organizations offer patrons, resources, or obligations.",
+    "Use affiliations to shape reputation and access.",
+    "Allow characters to join, reject, or rival organizations."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "factions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      139
+    ],
+    "section": "Adventurers and Organizations"
+  },
+  "notes": []
+}

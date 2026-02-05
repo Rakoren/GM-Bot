@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.para_elemental_planes",
+  "name": "Para-elemental Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use these as overlap regions where elemental substances collide.",
+    "Highlight how each plane reflects the interaction of its two elements."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "para-elemental"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      207
+    ],
+    "section": "Para-elemental Planes"
+  },
+  "notes": []
+}

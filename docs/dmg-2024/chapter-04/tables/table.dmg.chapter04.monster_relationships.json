@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter04.monster_relationships",
+  "name": "Monster Relationships",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "relationship"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "relationship": "Two monsters have a bitter rivalry; each wants the other to suffer."
+    },
+    {
+      "roll": "2",
+      "relationship": "One monster, bullied by the others, hangs back and flees at the first opportunity."
+    },
+    {
+      "roll": "3",
+      "relationship": "One monster is revered or even worshiped by the others, who will die for it."
+    },
+    {
+      "roll": "4",
+      "relationship": "One monster is admired by the group; its allies try to impress or help it."
+    },
+    {
+      "roll": "5",
+      "relationship": "One monster cares only for itself and not the rest of the group."
+    },
+    {
+      "roll": "6",
+      "relationship": "One monster bullies the others; it forces them into danger, but they want it defeated."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Monster Relationships"
+  },
+  "notes": []
+}

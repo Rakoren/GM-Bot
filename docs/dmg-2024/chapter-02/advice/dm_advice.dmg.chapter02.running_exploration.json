@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.running_exploration",
+    "name":  "Running Exploration",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Frame exploration with clear goals, risks, and time pressure.",
+                     "Use travel, mapping, and choices to create discovery.",
+                     "Let player decisions change routes and outcomes."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    35
+                                ],
+                      "section":  "Running Exploration"
+                  },
+    "notes":  [
+
+              ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layer_222_slime_pits",
+  "name": "Layer 222: The Slime Pits (Shedaklah)",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Shedaklah as a bubbling morass of ooze and fungus ruled by Juiblex and Zuggtmoy.",
+    "Use caustic slimes, toxic vapors, and colossal fungal palaces to define the terrain.",
+    "Highlight the uneasy coexistence of two demon lords with overlapping dominions."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Layer 222: The Slime Pits"
+  },
+  "notes": []
+}

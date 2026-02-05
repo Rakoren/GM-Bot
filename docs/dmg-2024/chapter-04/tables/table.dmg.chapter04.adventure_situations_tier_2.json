@@ -1,0 +1,102 @@
+{
+    "id":  "table.dmg.chapter04.adventure_situations_tier_2",
+    "name":  "Adventure Situations (Levels 5-10)",
+    "chapter":  "dmg-2024.chapter-04",
+    "status":  "complete",
+    "columns":  [
+                    "roll",
+                    "situation"
+                ],
+    "entries":  [
+                    {
+                        "situation":  "A group of cultists has summoned a demon to wreak havoc in the city.",
+                        "roll":  "1"
+                    },
+                    {
+                        "situation":  "A rebel lures monsters to the cause with the promise of looting the king\u0027s treasury.",
+                        "roll":  "2"
+                    },
+                    {
+                        "situation":  "An evil Artifact has transformed a forest into a dismal swamp full of horrific monsters.",
+                        "roll":  "3"
+                    },
+                    {
+                        "situation":  "An Aberration living in the Underdark sends minions to capture people from the surface to turn those people into new minions.",
+                        "roll":  "4"
+                    },
+                    {
+                        "situation":  "A monster (perhaps a devil, slaad, or hag) is impersonating a prominent noble to throw the realm into civil war.",
+                        "roll":  "5"
+                    },
+                    {
+                        "situation":  "A master thief plans to steal royal regalia.",
+                        "roll":  "6"
+                    },
+                    {
+                        "situation":  "A golem intended to serve as a protector has gone berserk and captured its creator.",
+                        "roll":  "7"
+                    },
+                    {
+                        "situation":  "A conspiracy of spies, assassins, and necromancers schemes to overthrow a ruler.",
+                        "roll":  "8"
+                    },
+                    {
+                        "situation":  "After establishing a lair, a young dragon is trying to earn the fear and respect of other creatures living nearby.",
+                        "roll":  "9"
+                    },
+                    {
+                        "situation":  "The approach of a lone giant alarms the people of a town, but the giant is simply looking for a place to live in peace.",
+                        "roll":  "10"
+                    },
+                    {
+                        "situation":  "An enormous monster on display in a menagerie breaks free and goes on a rampage.",
+                        "roll":  "11"
+                    },
+                    {
+                        "situation":  "A coven of hags steals cherished memories from travelers.",
+                        "roll":  "12"
+                    },
+                    {
+                        "situation":  "A villain seeks powerful magic in an ancient ruin, hoping to use it to conquer the region.",
+                        "roll":  "13"
+                    },
+                    {
+                        "situation":  "A scheming aristocrat hosts a masquerade ball, which many guests see as an opportunity to advance their own agendas. At least one shape-shifting monster also attends.",
+                        "roll":  "14"
+                    },
+                    {
+                        "situation":  "A ship carrying a valuable treasure or an evil Artifact sinks in a storm or monster attack.",
+                        "roll":  "15"
+                    },
+                    {
+                        "situation":  "A natural disaster was actually caused by magic gone awry or a cult\u0027s villainous plans.",
+                        "roll":  "16"
+                    },
+                    {
+                        "situation":  "A secretive cult uses spies to heighten tensions between two rival nations, hoping to provoke a war that will weaken both.",
+                        "roll":  "17"
+                    },
+                    {
+                        "situation":  "Rebels or forces of an enemy nation have kidnapped an important noble.",
+                        "roll":  "18"
+                    },
+                    {
+                        "situation":  "The descendants of a displaced people want to reclaim their ancestral city, which is now inhabited by monsters.",
+                        "roll":  "19"
+                    },
+                    {
+                        "situation":  "A renowned group of adventurers never returned from an expedition to a famous ruin.",
+                        "roll":  "20"
+                    }
+                ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    106
+                                ],
+                      "section":  "Levels 5-10: Heroes of the Realm"
+                  },
+    "notes":  [
+
+              ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.ending_a_chase",
+  "name": "Ending a Chase",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "A chase ends when one side stops or the quarry escapes.",
+    "If the chase continues, the quarry makes a Stealth check on initiative count 0.",
+    "Compare the check to pursuers’ passive Perception to determine escape."
+  ],
+  "tags": [
+    "chapter-03",
+    "chase"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Ending a Chase"
+  },
+  "notes": []
+}

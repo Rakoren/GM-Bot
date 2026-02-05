@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.awarding_heroic_inspiration",
+    "name":  "Awarding Heroic Inspiration",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Award Heroic Inspiration for moments that embody the game\u0027s ideals.",
+                     "Use it to reinforce bold, thematic play.",
+                     "Keep awards visible and consistent."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat",
+                 "rewards"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    50
+                                ],
+                      "section":  "Awarding Heroic Inspiration"
+                  },
+    "notes":  [
+
+              ]
+}

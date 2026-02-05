@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.add_a_combatant",
+    "name":  "Add a Combatant",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Add foes or allies to adjust encounter difficulty mid-fight.",
+                     "Use reinforcements to shift pacing or stakes.",
+                     "Justify additions with in-world cues."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    52
+                                ],
+                      "section":  "Add a Combatant"
+                  },
+    "notes":  [
+
+              ]
+}

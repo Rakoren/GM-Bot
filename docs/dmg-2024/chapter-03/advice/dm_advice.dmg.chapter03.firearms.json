@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.firearms",
+  "name": "Firearms",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Decide how common firearms are in the setting.",
+    "Set rules for proficiency, reload speed, and misfires if used.",
+    "Balance damage and range against existing weapons."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Firearms"
+  },
+  "notes": []
+}

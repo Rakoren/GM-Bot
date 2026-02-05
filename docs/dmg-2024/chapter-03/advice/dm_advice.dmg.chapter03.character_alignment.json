@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.character_alignment",
+  "name": "Character Alignment",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use alignment to describe a character’s choices rather than restrict them.",
+    "Allow characters to change alignment if their actions no longer match it.",
+    "Keep alignment discussions focused on roleplay, not punishment."
+  ],
+  "tags": [
+    "chapter-03",
+    "alignment"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      51
+    ],
+    "section": "Character Alignment"
+  },
+  "notes": []
+}

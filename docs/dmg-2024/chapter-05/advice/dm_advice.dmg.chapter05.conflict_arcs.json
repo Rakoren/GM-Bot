@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.conflict_arcs",
+  "name": "Conflict Arcs",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Structure conflicts to evolve across tiers of play.",
+    "Use tier transitions as moments to resolve or escalate conflicts.",
+    "Introduce broader threats as characters gain power."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      128
+    ],
+    "section": "Conflict Arcs"
+  },
+  "notes": []
+}

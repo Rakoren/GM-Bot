@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.shadow_crossings",
+  "name": "Shadow Crossings",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use shadow crossings as thin places in darkness where passage is possible.",
+    "Anchor them in graveyards, battlefields, tombs, and other death-stained locales.",
+    "Let them close when touched by light."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      208
+    ],
+    "section": "Shadow Crossings"
+  },
+  "notes": []
+}

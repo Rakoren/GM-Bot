@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.plane_of_ooze",
+  "name": "Plane of Ooze",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Swamp of Oblivion as a dense muck of vines, mosquitoes, and stagnant pools.",
+    "Make settlements fragile and sinking, suspended above the muck.",
+    "Lean on the swamp's ability to swallow artifacts for long ages."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "para-elemental"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      207
+    ],
+    "section": "Plane of Ooze"
+  },
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.variant_training_to_gain_levels",
+    "name":  "Variant: Training to Gain Levels",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Require downtime training before leveling if you want slower progression.",
+                     "Use mentors, costs, or time to gate level gains.",
+                     "Apply the variant consistently across the campaign."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "advancement",
+                 "variant"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    54
+                                ],
+                      "section":  "Variant: Training to Gain Levels"
+                  },
+    "notes":  [
+
+              ]
+}

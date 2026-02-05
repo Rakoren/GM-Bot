@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.narration",
+  "name": "Narration",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Use narration to set scenes, clarify action, and keep players oriented.",
+    "Describe what matters most for decisions and tone.",
+    "Invite player input to co-create vivid moments."
+  ],
+  "tags": [
+    "chapter-02",
+    "narration"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      26
+    ],
+    "section": "Narration"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.break_episodes",
+  "name": "Break Episodes",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "End sessions at natural breaks or cliffhangers.",
+    "Use breaks to recap and reorient at the next session.",
+    "Keep episode endings aligned with player energy."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "players"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      135
+    ],
+    "section": "Break Episodes"
+  },
+  "notes": []
+}

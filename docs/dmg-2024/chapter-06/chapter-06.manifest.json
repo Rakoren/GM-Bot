@@ -1,0 +1,924 @@
+{
+    "schema_version": "0.1.0",
+    "chapter": "dmg-2024.chapter-06",
+    "title": "DMG 2024 - Chapter 6: Cosmology",
+    "generated_at": "2026-02-04",
+    "paths": {
+        "tables_dir": "dmg-2024/chapter-06/tables",
+        "lists_dir": "dmg-2024/chapter-06/lists",
+        "advice_dir": "dmg-2024/chapter-06/advice",
+        "procedures_dir": "dmg-2024/chapter-06/procedures"
+    },
+    "shards": [
+        {
+            "id": "table.dmg.chapter06.sections",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.sections.json"
+        },
+        {
+            "id": "list.dmg.chapter06.sections",
+            "type": "list",
+            "path": "dmg-2024/chapter-06/lists/list.dmg.chapter06.sections.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_planes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_planes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_great_wheel",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_great_wheel.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.other_configurations",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.other_configurations.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.material_realms",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.material_realms.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.inner_planes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.inner_planes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.outer_planes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.outer_planes.json"
+        },
+        {
+            "id": "table.dmg.chapter06.outer_planes",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.outer_planes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layers_of_the_outer_planes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layers_of_the_outer_planes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.alignment_and_the_outer_planes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.alignment_and_the_outer_planes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.planar_travel",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.planar_travel.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.planar_portals",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.planar_portals.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.spells",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.spells.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.traveling_the_outer_planes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.traveling_the_outer_planes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.infinite_staircase",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.infinite_staircase.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.river_oceanus",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.river_oceanus.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.river_styx",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.river_styx.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.yggdrasil_the_world_tree",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.yggdrasil_the_world_tree.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.planar_adventuring",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.planar_adventuring.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_blood_war",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_blood_war.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.tour_of_the_multiverse",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.tour_of_the_multiverse.json"
+        },
+        {
+            "id": "table.dmg.chapter06.planar_adventure_situations",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.planar_adventure_situations.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.abyss",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.abyss.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layers_of_the_abyss",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layers_of_the_abyss.json"
+        },
+        {
+            "id": "table.dmg.chapter06.abyss_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.abyss_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layer_1_plain_of_infinite_portals",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layer_1_plain_of_infinite_portals.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layers_45_47_azzagrat",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layers_45_47_azzagrat.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layer_66_demonweb",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layer_66_demonweb.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layer_88_gaping_maw",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layer_88_gaping_maw.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layer_113_thanatos",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layer_113_thanatos.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layer_222_slime_pits",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layer_222_slime_pits.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layer_422_death_dells",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layer_422_death_dells.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.layer_600_endless_maze",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.layer_600_endless_maze.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.abyss_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.abyss_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.acheron",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.acheron.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.acheron_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.acheron_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.acheron_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.acheron_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.arborea",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.arborea.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.arborea_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.arborea_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.arborea_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.arborea_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.arcadia",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.arcadia.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.arcadia_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.arcadia_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.arcadia_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.arcadia_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.astral_plane",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.astral_plane.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.navigating_the_astral_plane",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.navigating_the_astral_plane.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.dead_gods",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.dead_gods.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.color_pools",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.color_pools.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.wildspace",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.wildspace.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.psychic_wind",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.psychic_wind.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.astral_plane_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.astral_plane_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.astral_color_pools",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.astral_color_pools.json"
+        },
+        {
+            "id": "table.dmg.chapter06.psychic_wind_location_effects",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.psychic_wind_location_effects.json"
+        },
+        {
+            "id": "table.dmg.chapter06.psychic_wind_psychic_effects",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.psychic_wind_psychic_effects.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.beastlands",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.beastlands.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.beastlands_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.beastlands_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.beastlands_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.beastlands_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.bytopia",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.bytopia.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.bytopia_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.bytopia_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.bytopia_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.bytopia_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.carceri",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.carceri.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.prison_plane",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.prison_plane.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.carceri_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.carceri_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.carceri_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.carceri_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.demiplanes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.demiplanes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.demiplane_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.demiplane_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elemental_plane_of_air",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elemental_plane_of_air.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.aaqa",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.aaqa.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.labyrinth_winds",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.labyrinth_winds.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.mistral_reach",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.mistral_reach.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.sirocco_straits",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.sirocco_straits.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.plane_of_air_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.plane_of_air_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elemental_plane_of_earth",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elemental_plane_of_earth.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.city_of_jewels",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.city_of_jewels.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.furnaces",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.furnaces.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.mud_hills",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.mud_hills.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.plane_of_earth_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.plane_of_earth_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elemental_plane_of_fire",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elemental_plane_of_fire.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.cinder_wastes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.cinder_wastes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.city_of_brass",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.city_of_brass.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.sea_of_fire",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.sea_of_fire.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.torchys",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.torchys.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elemental_fire_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elemental_fire_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elemental_plane_of_water",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elemental_plane_of_water.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.citadel_of_ten_thousand_pearls",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.citadel_of_ten_thousand_pearls.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.darkened_depths",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.darkened_depths.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.isle_of_dread",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.isle_of_dread.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.sea_of_ice",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.sea_of_ice.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.sea_of_light",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.sea_of_light.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.silt_flats",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.silt_flats.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elemental_water_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elemental_water_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elysium",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elysium.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.elysium_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.elysium_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.ethereal_plane",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.ethereal_plane.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.border_ethereal",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.border_ethereal.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.deep_ethereal",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.deep_ethereal.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.ether_cyclones",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.ether_cyclones.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.radiant_citadel",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.radiant_citadel.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.ethereal_plane_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.ethereal_plane_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.far_realm",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.far_realm.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.far_realm_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.far_realm_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.feywild",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.feywild.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.domains_of_delight",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.domains_of_delight.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.fablerise",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.fablerise.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.gloaming_court",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.gloaming_court.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.prismeer",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.prismeer.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.summer_court",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.summer_court.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.fey_crossings",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.fey_crossings.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.feywild_magic",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.feywild_magic.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.feywild_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.feywild_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.elysium_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.elysium_layers.json"
+        },
+        {
+            "id": "table.dmg.chapter06.ethereal_curtains",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.ethereal_curtains.json"
+        },
+        {
+            "id": "table.dmg.chapter06.ether_cyclone",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.ether_cyclone.json"
+        },
+        {
+            "id": "table.dmg.chapter06.feywild_time_warp",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.feywild_time_warp.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.gehenna",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.gehenna.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.gehenna_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.gehenna_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.hades",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.hades.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.plane_of_gloom",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.plane_of_gloom.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.hades_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.hades_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.limbo",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.limbo.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.power_of_the_mind",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.power_of_the_mind.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.limbo_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.limbo_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.material_plane",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.material_plane.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.traveling_between_worlds",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.traveling_between_worlds.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_dream_of_other_worlds",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_dream_of_other_worlds.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_great_journey",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_great_journey.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_leap_to_another_realm",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_leap_to_another_realm.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_roots_of_the_worlds",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_roots_of_the_worlds.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.mechanus",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.mechanus.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.mechanus_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.mechanus_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.mount_celestia",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.mount_celestia.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.mount_celestia_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.mount_celestia_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.negative_plane",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.negative_plane.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.negative_plane_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.negative_plane_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.nine_hells",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.nine_hells.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.the_nine_layers",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.the_nine_layers.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.avernus",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.avernus.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.dis",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.dis.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.minauros",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.minauros.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.phlegethos",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.phlegethos.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.stygia",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.stygia.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.malbolge",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.malbolge.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.maladomini",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.maladomini.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.cania",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.cania.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.nessus",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.nessus.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.infernal_hierarchy",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.infernal_hierarchy.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.nine_hells_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.nine_hells_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.outlands",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.outlands.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.outlands_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.outlands_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.pandemonium",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.pandemonium.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.pandemonium_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.pandemonium_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.para_elemental_planes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.para_elemental_planes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.plane_of_ash",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.plane_of_ash.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.plane_of_ice",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.plane_of_ice.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.plane_of_magma",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.plane_of_magma.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.plane_of_ooze",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.plane_of_ooze.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.para_elemental_plane_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.para_elemental_plane_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.positive_plane",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.positive_plane.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.positive_plane_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.positive_plane_adventures.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.shadowfell",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.shadowfell.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.shadow_crossings",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.shadow_crossings.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.domains_of_dread",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.domains_of_dread.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.barovia",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.barovia.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.borca",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.borca.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.falkovnia",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.falkovnia.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.kalakeri",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.kalakeri.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.lamordia",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.lamordia.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.mordent",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.mordent.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.valachan",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.valachan.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.shadowfell_despair",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.shadowfell_despair.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.sigil_city_of_doors",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.sigil_city_of_doors.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.ysgard",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.ysgard.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter06.ysgard_adventures",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-06/advice/dm_advice.dmg.chapter06.ysgard_adventures.json"
+        },
+        {
+            "id": "table.dmg.chapter06.gehenna_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.gehenna_layers.json"
+        },
+        {
+            "id": "table.dmg.chapter06.hades_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.hades_layers.json"
+        },
+        {
+            "id": "table.dmg.chapter06.mount_celestia_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.mount_celestia_layers.json"
+        },
+        {
+            "id": "table.dmg.chapter06.nine_hells_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.nine_hells_layers.json"
+        },
+        {
+            "id": "table.dmg.chapter06.infernal_hierarchy",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.infernal_hierarchy.json"
+        },
+        {
+            "id": "table.dmg.chapter06.gate_towns_of_the_outlands",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.gate_towns_of_the_outlands.json"
+        },
+        {
+            "id": "table.dmg.chapter06.pandemonium_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.pandemonium_layers.json"
+        },
+        {
+            "id": "table.dmg.chapter06.shadowfell_despair",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.shadowfell_despair.json"
+        },
+        {
+            "id": "table.dmg.chapter06.ysgard_layers",
+            "type": "table",
+            "path": "dmg-2024/chapter-06/tables/table.dmg.chapter06.ysgard_layers.json"
+        }
+    ]
+}

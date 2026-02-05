@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.critical_success_or_failure",
+    "name":  "Critical Success or Failure",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use criticals sparingly outside attack rolls.",
+                     "If you apply critical results, make them meaningful but not disruptive.",
+                     "Be consistent across similar checks."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    32
+                                ],
+                      "section":  "Critical Success or Failure"
+                  },
+    "notes":  [
+
+              ]
+}

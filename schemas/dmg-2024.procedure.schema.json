@@ -1,0 +1,5 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DMG 2024 Procedure Shard Schema",
+  "$ref": "dmg-2024.schema.json#/$defs/procedure"
+}

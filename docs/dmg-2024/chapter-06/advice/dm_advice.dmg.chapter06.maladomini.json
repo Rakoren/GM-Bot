@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.maladomini",
+  "name": "Maladomini",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Maladomini's dead cities, quarries, and fly swarms to convey ruin.",
+    "Let Baalzebul's curse twist every deal into calamity.",
+    "Keep political intrigue centered on failed coups and lingering respect."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      203
+    ],
+    "section": "Maladomini"
+  },
+  "notes": []
+}

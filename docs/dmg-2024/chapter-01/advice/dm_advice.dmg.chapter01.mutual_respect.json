@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.mutual_respect",
+  "name": "Mutual Respect",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Whether you're playing with long-time friends or strangers, it's important to create a foundation of mutual trust. The best games happen when everyone at the table feels safe enough to be themselves, speak up, and get into character.",
+    "It's up to everyone to uphold the principles of respect. Difficult conversations often fall on the DM to lead, but they don't have to. If one player's behavior is interfering with everyone else's enjoyment, everyone has a stake in helping to resolve the issue."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      14
+    ],
+    "section": "Mutual Respect"
+  },
+  "notes": []
+}

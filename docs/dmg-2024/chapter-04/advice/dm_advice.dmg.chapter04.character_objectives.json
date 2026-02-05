@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.character_objectives",
+  "name": "Character Objectives",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Choose clear objectives as the core of each encounter.",
+    "Repeat or chain objectives to create larger obstacles across multiple encounters.",
+    "Tie objectives to the adventure's broader conflict and stakes."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Character Objectives"
+  },
+  "notes": []
+}

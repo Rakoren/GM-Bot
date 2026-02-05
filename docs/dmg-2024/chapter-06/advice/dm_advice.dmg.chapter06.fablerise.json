@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.fablerise",
+  "name": "Fablerise",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Describe Fablerise as a thicket woven into tunnels and domes by Yarnspinner.",
+    "Use story motifs and animal listeners as a core vibe."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195
+    ],
+    "section": "Fablerise"
+  },
+  "notes": []
+}

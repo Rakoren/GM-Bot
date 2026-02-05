@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.summer_court",
+  "name": "Summer Court",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Summer Court as Titania?s pastoral domain of perpetual summer.",
+    "Use elaborate etiquette and ceremony to gate social interactions.",
+    "Let the court?s beauty mask sharp social consequences for missteps."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195
+    ],
+    "section": "Summer Court"
+  },
+  "notes": []
+}

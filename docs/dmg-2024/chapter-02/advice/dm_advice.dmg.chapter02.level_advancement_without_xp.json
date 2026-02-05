@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.level_advancement_without_xp",
+    "name":  "Level Advancement without XP",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Advance levels based on story progress instead of XP totals.",
+                     "Keep a steady pace aligned with the campaign\u0027s arc.",
+                     "Ensure players understand how advancement is determined."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "advancement"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    54
+                                ],
+                      "section":  "Level Advancement without XP"
+                  },
+    "notes":  [
+
+              ]
+}

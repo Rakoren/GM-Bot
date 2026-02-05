@@ -1,0 +1,58 @@
+{
+  "id": "table.dmg.chapter07.magic_item_rarities",
+  "name": "Magic Item Rarities",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "levels_1_4",
+    "levels_5_10",
+    "levels_11_16",
+    "levels_17_20",
+    "rarity"
+  ],
+  "entries": [
+    {
+      "levels_1_4": "01–54",
+      "levels_5_10": "01–30",
+      "levels_11_16": "01–11",
+      "levels_17_20": "—",
+      "rarity": "Common"
+    },
+    {
+      "levels_1_4": "55–91",
+      "levels_5_10": "31–81",
+      "levels_11_16": "12–34",
+      "levels_17_20": "—",
+      "rarity": "Uncommon"
+    },
+    {
+      "levels_1_4": "92–00",
+      "levels_5_10": "82–98",
+      "levels_11_16": "35–70",
+      "levels_17_20": "01–20",
+      "rarity": "Rare"
+    },
+    {
+      "levels_1_4": "—",
+      "levels_5_10": "99–00",
+      "levels_11_16": "71–93",
+      "levels_17_20": "21–64",
+      "rarity": "Very Rare"
+    },
+    {
+      "levels_1_4": "—",
+      "levels_5_10": "—",
+      "levels_11_16": "94–00",
+      "levels_17_20": "65–00",
+      "rarity": "Legendary"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Magic Item Rarities"
+  },
+  "notes": []
+}

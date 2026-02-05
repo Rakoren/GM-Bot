@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.sentient_magic_items",
+  "name": "Sentient Magic Items",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Sentient items have personalities and may be possessed, haunted, or self-aware.",
+    "Most are weapons, though other item types can be sentient; single-use items are never sentient.",
+    "The DM controls a sentient item's actions and activated properties.",
+    "A good relationship grants access to properties; strained relationships can lead to conflict."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      226
+    ],
+    "section": "Sentient Magic Items"
+  },
+  "notes": []
+}

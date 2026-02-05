@@ -1,0 +1,86 @@
+{
+  "id": "table.dmg.chapter06.infernal_hierarchy",
+  "name": "Infernal Hierarchy",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "tier",
+    "rank",
+    "devil"
+  ],
+  "entries": [
+    {
+      "tier": "Least Devils",
+      "rank": "0",
+      "devil": "Lemure"
+    },
+    {
+      "tier": "Lesser Devils",
+      "rank": "0",
+      "devil": "Imp"
+    },
+    {
+      "tier": "Lesser Devils",
+      "rank": "1",
+      "devil": "Spined devil"
+    },
+    {
+      "tier": "Lesser Devils",
+      "rank": "2",
+      "devil": "Bearded devil"
+    },
+    {
+      "tier": "Lesser Devils",
+      "rank": "3",
+      "devil": "Barbed devil"
+    },
+    {
+      "tier": "Lesser Devils",
+      "rank": "4",
+      "devil": "Chain devil"
+    },
+    {
+      "tier": "Lesser Devils",
+      "rank": "5",
+      "devil": "Bone devil"
+    },
+    {
+      "tier": "Greater Devils",
+      "rank": "0",
+      "devil": "Horned devil"
+    },
+    {
+      "tier": "Greater Devils",
+      "rank": "1",
+      "devil": "Erinyes"
+    },
+    {
+      "tier": "Greater Devils",
+      "rank": "2",
+      "devil": "Ice devil"
+    },
+    {
+      "tier": "Greater Devils",
+      "rank": "3",
+      "devil": "Pit fiend"
+    },
+    {
+      "tier": "Archdevils",
+      "rank": "0",
+      "devil": "Duke/duchess"
+    },
+    {
+      "tier": "Archdevils",
+      "rank": "1",
+      "devil": "Archduke/archduchess"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      205
+    ],
+    "section": "Infernal Hierarchy"
+  },
+  "notes": []
+}

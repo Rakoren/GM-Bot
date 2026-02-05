@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.planar_adventuring",
+  "name": "Planar Adventuring",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat planar adventures as mythic journeys with symbolic and emotional weight.",
+    "Use the planes to challenge characters? values and spirits, not just their combat abilities.",
+    "Reserve planar quests for mid-to-high level play or for truly exceptional stakes."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      178
+    ],
+    "section": "Planar Adventuring"
+  },
+  "notes": []
+}

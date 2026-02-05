@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.background_connections",
+  "name": "Background Connections",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Link backgrounds to city factions and neighborhoods.",
+    "Use connections to deliver hooks and favors.",
+    "Reward players for weaving backgrounds into play."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Background Connections"
+  },
+  "notes": []
+}

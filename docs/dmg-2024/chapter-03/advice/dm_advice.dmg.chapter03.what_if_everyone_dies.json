@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.what_if_everyone_dies",
+  "name": "What If Everyone Dies?",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Treat a total party defeat as a branching story point.",
+    "Offer recovery arcs that respect the loss.",
+    "Let the group choose how to move forward."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "What If Everyone Dies?"
+  },
+  "notes": []
+}

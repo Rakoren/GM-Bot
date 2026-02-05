@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.preparation_time",
+  "name": "Preparation Time",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The following guidelines can help you prepare for a session of play using a published adventure."
+  ],
+  "tags": [
+    "chapter-01",
+    "prep"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      6
+    ],
+    "section": "Preparation Time"
+  },
+  "notes": []
+}

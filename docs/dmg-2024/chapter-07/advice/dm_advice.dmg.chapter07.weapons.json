@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.weapons",
+  "name": "Weapons (Magic Item Category)",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Magic weapons are typically magical versions of weapons from the Player's Handbook.",
+    "If a weapon type isn't specified, choose the type or determine it randomly.",
+    "If a magic weapon has the Ammunition property, ammunition fired from it counts as magical."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Weapons"
+  },
+  "notes": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dm_advice.dmg.chapter01.learning_by_observing",
+  "name": "Learning by Observing",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "One of the best ways to learn how to run a D&D game is to observe other DMs in action. Another DM can give you a solid foundation for understanding the role?as well as inspire you with cool things you can do in your games.",
+    "You can use these questions to help you reflect on a game you observe:",
+    "Beginning the Session. How did the DM start the session? Was there a recap?",
+    "Body Language. What gestures did the DM use when describing a scene? How did the DM's body language change when playing different NPCs?",
+    "DM Voice. Did the DM use different voices or mannerisms for NPCs? Did the DM change the pitch or tempo of narration in different situations?",
+    "Player Participation. Did the players participate in the world-building or make decisions that seemed to send the adventure in an unexpected direction? How did the DM handle it?",
+    "Rules Adjudication. To what extent did the DM lean on the rules to adjudicate outcomes? Did the DM adjudicate situations wisely or in ways that made the game fun to watch?",
+    "Three Pillars. How much of the session was taken up by combat, exploration, or social interaction?",
+    "Tone and Mood. How would you describe the tone and mood of the game? Did it change over the course of the session?",
+    "Turns of Phrase. Were there any words or bits of narration you really liked? (If so, jot them down.)",
+    "World-building. What elements of the DM's world or the adventure grabbed your attention?"
+  ],
+  "tags": [
+    "chapter-01",
+    "dm-learning"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Learning by Observing"
+  },
+  "notes": []
+}

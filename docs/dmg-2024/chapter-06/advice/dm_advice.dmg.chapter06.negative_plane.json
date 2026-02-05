@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.negative_plane",
+  "name": "Negative Plane",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray the Negative Plane as a lightless void that devours life and heat.",
+    "Only creatures immune to necrotic damage can survive for long.",
+    "Use voidstones as annihilating hazards and sources of Spheres of Annihilation."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "negative-plane"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      201
+    ],
+    "section": "Negative Plane"
+  },
+  "notes": []
+}

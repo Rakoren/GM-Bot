@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.stat_block",
+  "name": "Stat Block",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use stat blocks for NPCs who are likely to fight.",
+    "Keep stats minimal for minor NPCs.",
+    "Reuse templates to save prep time."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Stat Block"
+  },
+  "notes": []
+}

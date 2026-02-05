@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "dmg-2024",
+  "title": "dmg-2024.validation.full",
+  "generated_at": "2026-01-31",
+  "validation_profile": "full",
+  "inputs": {
+    "manifest_path": "dmg-2024/dmg-2024.manifest.json"
+  },
+  "required_types": [
+    "dm_advice",
+    "procedure",
+    "template",
+    "map",
+    "tracking_sheet",
+    "lore_term",
+    "bastion_rule",
+    "treasure_item",
+    "table",
+    "list"
+  ],
+  "optional_types": [],
+  "checks": [
+    {
+      "id": "manifest.shards.unique_ids",
+      "type": "integrity",
+      "severity": "error",
+      "rule": "All shards[].id must be unique across the manifest."
+    },
+    {
+      "id": "manifest.shards.paths.present",
+      "type": "filesystem",
+      "severity": "error",
+      "rule": "Every shards[].path must exist on disk."
+    }
+  ],
+  "outputs": {
+    "report_path": "dmg-2024/validation.full.report.json",
+    "on_success": "pass",
+    "on_failure": "fail"
+  },
+  "notes": [
+    "DMG 2024 validation focuses on shard presence and required fields."
+  ]
+}

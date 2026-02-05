@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.plan_adventures",
+  "name": "Plan Adventures",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Break the campaign into smaller adventures with clear conflicts.",
+    "Connect adventures through shared locations and antagonists.",
+    "Vary stakes and objectives to keep momentum."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      134
+    ],
+    "section": "Plan Adventures"
+  },
+  "notes": []
+}

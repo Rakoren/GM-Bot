@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.material_plane",
+  "name": "Material Plane",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Material Plane as a multitude of worlds formed from a shattered First World.",
+    "Let mythic origins (World Tree seeds) inform cross-world themes.",
+    "Treat published settings as optional baselines, not constraints."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "material-plane"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      198
+    ],
+    "section": "Material Plane"
+  },
+  "notes": []
+}

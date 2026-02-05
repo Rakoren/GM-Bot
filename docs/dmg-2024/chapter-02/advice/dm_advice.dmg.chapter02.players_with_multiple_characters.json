@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.players_with_multiple_characters",
+  "name": "Players with Multiple Characters",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Some players can run two characters if they are comfortable doing so.",
+    "This works best in combat-focused games to fill party roles.",
+    "Roleplaying two characters can be challenging; consider a supporting role for one.",
+    "Check in with the player about comfort and table pacing."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Players with Multiple Characters"
+  },
+  "notes": []
+}

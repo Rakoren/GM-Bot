@@ -1,0 +1,719 @@
+{
+  "id": "table.dmg.chapter03.sections",
+  "name": "Chapter 3 Sections",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      51,
+      98
+    ],
+    "section": "Chapter 3: DM's Toolbox"
+  },
+  "columns": [
+    "heading",
+    "page"
+  ],
+  "entries": [
+    {
+      "heading": "CHAPTER 3: DM'S TOOLBOX",
+      "page": null
+    },
+    {
+      "heading": "ALIGNMENT",
+      "page": null
+    },
+    {
+      "heading": "CHARACTER ALIGNMENT",
+      "page": null
+    },
+    {
+      "heading": "ACTIONS INDICATE ALIGNMENT",
+      "page": 51
+    },
+    {
+      "heading": "GOOD AND EVIL CAN COOPERATE",
+      "page": 51
+    },
+    {
+      "heading": "PLANES AND ALIGNMENT",
+      "page": 51
+    },
+    {
+      "heading": "MONSTER ALIGNMENT",
+      "page": 51
+    },
+    {
+      "heading": "STARTING ATTITUDE",
+      "page": 51
+    },
+    {
+      "heading": "PERSONALITY",
+      "page": 51
+    },
+    {
+      "heading": "ORGANIZATION ETHOS",
+      "page": 51
+    },
+    {
+      "heading": "CHASES",
+      "page": 51
+    },
+    {
+      "heading": "BEGINNING A CHASE",
+      "page": 52
+    },
+    {
+      "heading": "RUNNING THE CHASE",
+      "page": 52
+    },
+    {
+      "heading": "DASHING",
+      "page": 52
+    },
+    {
+      "heading": "SPELLS AND ATTACKS",
+      "page": 52
+    },
+    {
+      "heading": "ENDING A CHASE",
+      "page": 52
+    },
+    {
+      "heading": "DESIGNING YOUR OWN CHASE TABLES",
+      "page": 52
+    },
+    {
+      "heading": "SPLITTING UP",
+      "page": 52
+    },
+    {
+      "heading": "ROLE REVERSAL",
+      "page": 52
+    },
+    {
+      "heading": "MAPPING THE CHASE",
+      "page": 52
+    },
+    {
+      "heading": "CHASE COMPLICATIONS",
+      "page": 53
+    },
+    {
+      "heading": "CREATING A BACKGROUND",
+      "page": 53
+    },
+    {
+      "heading": "1: CHOOSE ABILITIES",
+      "page": 55
+    },
+    {
+      "heading": "2: CHOOSE A FEAT",
+      "page": 55
+    },
+    {
+      "heading": "3: CHOOSE SKILL PROFICIENCIES",
+      "page": 55
+    },
+    {
+      "heading": "4: CHOOSE A TOOL PROFICIENCY",
+      "page": 55
+    },
+    {
+      "heading": "5: CHOOSE EQUIPMENT",
+      "page": 55
+    },
+    {
+      "heading": "CREATING A CREATURE",
+      "page": 55
+    },
+    {
+      "heading": "MINOR ALTERATIONS",
+      "page": 55
+    },
+    {
+      "heading": "SIZE AND CREATURE TYPE",
+      "page": 55
+    },
+    {
+      "heading": "ABILITY SCORES",
+      "page": 55
+    },
+    {
+      "heading": "LANGUAGES",
+      "page": 55
+    },
+    {
+      "heading": "PROFICIENCIES",
+      "page": 55
+    },
+    {
+      "heading": "SENSES",
+      "page": 56
+    },
+    {
+      "heading": "SPELLS",
+      "page": 56
+    },
+    {
+      "heading": "ATTACKS",
+      "page": 56
+    },
+    {
+      "heading": "RESISTANCES AND IMMUNITIES",
+      "page": 56
+    },
+    {
+      "heading": "TRAITS",
+      "page": 56
+    },
+    {
+      "heading": "CREATURE TRAITS",
+      "page": 56
+    },
+    {
+      "heading": "CREATING A MAGIC ITEM",
+      "page": 57
+    },
+    {
+      "heading": "MODIFYING A MAGIC ITEM",
+      "page": 57
+    },
+    {
+      "heading": "ALTERED CAPABILITIES",
+      "page": 57
+    },
+    {
+      "heading": "ALTERED FORM",
+      "page": 57
+    },
+    {
+      "heading": "ALTERED DAMAGE TYPES",
+      "page": 57
+    },
+    {
+      "heading": "COMBINING ITEMS",
+      "page": 57
+    },
+    {
+      "heading": "SPECIAL FEATURES AND SENTIENCE",
+      "page": 57
+    },
+    {
+      "heading": "CREATING A NEW ITEM",
+      "page": 57
+    },
+    {
+      "heading": "POWER LEVEL",
+      "page": 57
+    },
+    {
+      "heading": "ATTUNEMENT",
+      "page": 58
+    },
+    {
+      "heading": "CREATING A SPELL",
+      "page": 58
+    },
+    {
+      "heading": "SPELL DAMAGE",
+      "page": 59
+    },
+    {
+      "heading": "HEALING SPELLS",
+      "page": 59
+    },
+    {
+      "heading": "CURSES AND MAGICAL CONTAGIONS",
+      "page": 59
+    },
+    {
+      "heading": "CURSES",
+      "page": 60
+    },
+    {
+      "heading": "BESTOW CURSE",
+      "page": 60
+    },
+    {
+      "heading": "CURSED CREATURES",
+      "page": 60
+    },
+    {
+      "heading": "CURSED MAGIC ITEMS",
+      "page": 60
+    },
+    {
+      "heading": "NARRATIVE CURSES",
+      "page": 60
+    },
+    {
+      "heading": "ENVIRONMENTAL CURSES",
+      "page": 60
+    },
+    {
+      "heading": "DEMONIC POSSESSION",
+      "page": 60
+    },
+    {
+      "heading": "MAGICAL CONTAGIONS",
+      "page": 60
+    },
+    {
+      "heading": "REST AND RECUPERATION",
+      "page": 60
+    },
+    {
+      "heading": "EXAMPLE CONTAGIONS",
+      "page": 60
+    },
+    {
+      "heading": "DEATH",
+      "page": 60
+    },
+    {
+      "heading": "DEATH MUST BE FAIR",
+      "page": 60
+    },
+    {
+      "heading": "SCALING LETHALITY",
+      "page": 62
+    },
+    {
+      "heading": "DEFEATED, NOT DEAD",
+      "page": 62
+    },
+    {
+      "heading": "DEATH SCENES",
+      "page": 62
+    },
+    {
+      "heading": "DEALING WITH DEATH",
+      "page": 63
+    },
+    {
+      "heading": "WHAT IF EVERYONE DIES?",
+      "page": 63
+    },
+    {
+      "heading": "A FRESH START",
+      "page": 63
+    },
+    {
+      "heading": "DIVINE COUNCIL",
+      "page": 63
+    },
+    {
+      "heading": "ESCAPE FROM THE UNDERWORLD",
+      "page": 63
+    },
+    {
+      "heading": "IMPRISONED",
+      "page": 63
+    },
+    {
+      "heading": "RAISED BY ANOTHER",
+      "page": 63
+    },
+    {
+      "heading": "RESCUE MISSION",
+      "page": 63
+    },
+    {
+      "heading": "DOORS",
+      "page": 63
+    },
+    {
+      "heading": "COMMON DOORS",
+      "page": 63
+    },
+    {
+      "heading": "BARRED DOOR",
+      "page": 64
+    },
+    {
+      "heading": "LOCKED DOOR",
+      "page": 64
+    },
+    {
+      "heading": "SECRET DOORS",
+      "page": 64
+    },
+    {
+      "heading": "SECRET DOOR ETIQUETTE",
+      "page": 64
+    },
+    {
+      "heading": "PORTCULLISES",
+      "page": 64
+    },
+    {
+      "heading": "DUNGEONS",
+      "page": 64
+    },
+    {
+      "heading": "MAPPING A DUNGEON",
+      "page": 65
+    },
+    {
+      "heading": "MAPPING PRINCIPLES",
+      "page": 65
+    },
+    {
+      "heading": "DESIGNING DUNGEON ROOMS",
+      "page": 65
+    },
+    {
+      "heading": "CRYPTS",
+      "page": 66
+    },
+    {
+      "heading": "GUARD POSTS",
+      "page": 66
+    },
+    {
+      "heading": "LIVING QUARTERS",
+      "page": 66
+    },
+    {
+      "heading": "NATURAL SUBTERRANEAN AREAS",
+      "page": 66
+    },
+    {
+      "heading": "SHRINES",
+      "page": 66
+    },
+    {
+      "heading": "VAULTS",
+      "page": 66
+    },
+    {
+      "heading": "WORK AREAS",
+      "page": 66
+    },
+    {
+      "heading": "DUNGEON DECAY",
+      "page": 66
+    },
+    {
+      "heading": "ENVIRONMENTAL EFFECTS",
+      "page": 67
+    },
+    {
+      "heading": "FEAR AND MENTAL STRESS",
+      "page": 68
+    },
+    {
+      "heading": "FEAR EFFECTS",
+      "page": 68
+    },
+    {
+      "heading": "MENTAL STRESS EFFECTS",
+      "page": 68
+    },
+    {
+      "heading": "PROLONGED EFFECTS",
+      "page": 68
+    },
+    {
+      "heading": "FIREARMS AND EXPLOSIVES",
+      "page": 70
+    },
+    {
+      "heading": "FIREARMS",
+      "page": 72
+    },
+    {
+      "heading": "PROPERTIES",
+      "page": 72
+    },
+    {
+      "heading": "BURST FIRE",
+      "page": 72
+    },
+    {
+      "heading": "RELOAD",
+      "page": 72
+    },
+    {
+      "heading": "AMMUNITION",
+      "page": 72
+    },
+    {
+      "heading": "EXPLOSIVES",
+      "page": 72
+    },
+    {
+      "heading": "BOMB",
+      "page": 72
+    },
+    {
+      "heading": "DYNAMITE STICK",
+      "page": 72
+    },
+    {
+      "heading": "GRENADES AND GRENADE LAUNCHERS",
+      "page": 72
+    },
+    {
+      "heading": "FRAGMENTATION GRENADE",
+      "page": 73
+    },
+    {
+      "heading": "SMOKE GRENADE",
+      "page": 73
+    },
+    {
+      "heading": "GUNPOWDER",
+      "page": 73
+    },
+    {
+      "heading": "ALIEN TECHNOLOGY",
+      "page": 73
+    },
+    {
+      "heading": "GODS AND OTHER POWERS",
+      "page": 73
+    },
+    {
+      "heading": "DIVINE RANK",
+      "page": 73
+    },
+    {
+      "heading": "HOME PLANE AND ALIGNMENT",
+      "page": 73
+    },
+    {
+      "heading": "GODS AND DIVINE MAGIC",
+      "page": 74
+    },
+    {
+      "heading": "DIVINE KNOWLEDGE",
+      "page": 74
+    },
+    {
+      "heading": "DIVINE INTERVENTION",
+      "page": 74
+    },
+    {
+      "heading": "CREATING RELIGIONS",
+      "page": 74
+    },
+    {
+      "heading": "MYTHS",
+      "page": 74
+    },
+    {
+      "heading": "RELIGIOUS PRACT ICE",
+      "page": 75
+    },
+    {
+      "heading": "BUILD YOUR OWN PANTHEON",
+      "page": 75
+    },
+    {
+      "heading": "HAZARDS",
+      "page": 75
+    },
+    {
+      "heading": "SEVERITY AND LEVEL",
+      "page": 75
+    },
+    {
+      "heading": "EXAMPLE HAZARDS",
+      "page": 75
+    },
+    {
+      "heading": "MARKS OF PRESTIGE",
+      "page": 76
+    },
+    {
+      "heading": "FORTIFICATIONS",
+      "page": 76
+    },
+    {
+      "heading": "LETTERS OF RECOMMENDATION",
+      "page": 76
+    },
+    {
+      "heading": "MEDALS",
+      "page": 80
+    },
+    {
+      "heading": "PARCELS OF LAND",
+      "page": 80
+    },
+    {
+      "heading": "SPECIAL FAVORS",
+      "page": 81
+    },
+    {
+      "heading": "SPECIAL RIGHTS",
+      "page": 81
+    },
+    {
+      "heading": "TITLES",
+      "page": 81
+    },
+    {
+      "heading": "TRAINING",
+      "page": 81
+    },
+    {
+      "heading": "MOBS",
+      "page": 81
+    },
+    {
+      "heading": "TIPS",
+      "page": 81
+    },
+    {
+      "heading": "AVERAGE RESULTS",
+      "page": 81
+    },
+    {
+      "heading": "ADJUDICATING AREAS OF EFFECT",
+      "page": 82
+    },
+    {
+      "heading": "EXAMPLES",
+      "page": 82
+    },
+    {
+      "heading": "NONPLAYER CHARACTERS",
+      "page": 82
+    },
+    {
+      "heading": "DETAILED NPCS",
+      "page": 84
+    },
+    {
+      "heading": "NAME",
+      "page": 84
+    },
+    {
+      "heading": "ST AT BLOCK",
+      "page": 84
+    },
+    {
+      "heading": "APPEARANCE",
+      "page": 86
+    },
+    {
+      "heading": "SECRET",
+      "page": 86
+    },
+    {
+      "heading": "RECURRING NPCS",
+      "page": 86
+    },
+    {
+      "heading": "DON'TGO OVERBOARD",
+      "page": 86
+    },
+    {
+      "heading": "NPCS AS PARTY MEMBERS",
+      "page": 88
+    },
+    {
+      "heading": "LOYALTY",
+      "page": 88
+    },
+    {
+      "heading": "POISON",
+      "page": 89
+    },
+    {
+      "heading": "PURCHASING POISON",
+      "page": 90
+    },
+    {
+      "heading": "HARVESTING POISON",
+      "page": 90
+    },
+    {
+      "heading": "SAMPLE POISONS",
+      "page": 90
+    },
+    {
+      "heading": "RENOWN",
+      "page": 90
+    },
+    {
+      "heading": "GAINING RENOWN",
+      "page": 92
+    },
+    {
+      "heading": "BENEFITS OF RENOWN",
+      "page": 92
+    },
+    {
+      "heading": "RECOGNITION",
+      "page": 92
+    },
+    {
+      "heading": "RANK",
+      "page": 92
+    },
+    {
+      "heading": "PERKS",
+      "page": 92
+    },
+    {
+      "heading": "LOSING RENOWN",
+      "page": 92
+    },
+    {
+      "heading": "LEVEL-BASED RENOWN",
+      "page": 92
+    },
+    {
+      "heading": "SETTLEMENTS",
+      "page": 92
+    },
+    {
+      "heading": "DO I NEED A SETTLEMENT MAP?",
+      "page": 93
+    },
+    {
+      "heading": "SETTLEMENT TABLES AND TRACKER",
+      "page": 93
+    },
+    {
+      "heading": "SIEGE EQUIPMENT",
+      "page": 93
+    },
+    {
+      "heading": "SUPERNATURAL GIFTS",
+      "page": 93
+    },
+    {
+      "heading": "BLESSINGS",
+      "page": 98
+    },
+    {
+      "heading": "CHARMS",
+      "page": 98
+    },
+    {
+      "heading": "TRAPS",
+      "page": 98
+    },
+    {
+      "heading": "PARTS OF A TRAP",
+      "page": 98
+    },
+    {
+      "heading": "EXAMPLE TRAPS",
+      "page": 98
+    },
+    {
+      "heading": "BUILDING YOUR OWN TRAPS",
+      "page": 98
+    }
+  ],
+  "notes": [
+    "Auto-extracted headings from DMG Chapter 3 text."
+  ]
+}

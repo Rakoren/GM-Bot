@@ -1,0 +1,56 @@
+{
+  "id": "table.dmg.chapter07.magic_item_tools",
+  "name": "Magic Item Tools",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "item_category",
+    "required_tool"
+  ],
+  "entries": [
+    {
+      "item_category": "Armor",
+      "required_tool": "Leatherworker's Tools, Smith's Tools, or Weaver's Tools (depending on armor type)"
+    },
+    {
+      "item_category": "Potion",
+      "required_tool": "Alchemist's Supplies or Herbalism Kit"
+    },
+    {
+      "item_category": "Ring",
+      "required_tool": "Jeweler's Tools"
+    },
+    {
+      "item_category": "Rod",
+      "required_tool": "Woodcarver's Tools"
+    },
+    {
+      "item_category": "Scroll",
+      "required_tool": "Calligrapher's Supplies"
+    },
+    {
+      "item_category": "Staff",
+      "required_tool": "Woodcarver's Tools"
+    },
+    {
+      "item_category": "Wand",
+      "required_tool": "Woodcarver's Tools"
+    },
+    {
+      "item_category": "Weapon",
+      "required_tool": "Leatherworker's Tools, Smith's Tools, or Woodcarver's Tools (depending on weapon type)"
+    },
+    {
+      "item_category": "Wondrous Item",
+      "required_tool": "Tinker's Tools or the tool required to make the nonmagical base item"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      220
+    ],
+    "section": "Magic Item Tools"
+  },
+  "notes": []
+}

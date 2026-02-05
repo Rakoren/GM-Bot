@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.delegation",
+  "name": "Delegation",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "If there are parts of the game you prefer not to handle yourself, assign them to players who enjoy them. If you do not want to break your narrative stride by looking up a rule, designate another player to be the rulebook reference expert. If you do not like tracking Initiative, ask another player to do so."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-play"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Delegation"
+  },
+  "notes": []
+}

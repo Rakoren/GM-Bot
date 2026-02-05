@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter06.shadowfell_despair",
+  "name": "Shadowfell Despair",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "effect"
+  ],
+  "entries": [
+    {
+      "roll": "1-3",
+      "effect": "Apathy. Disadvantage on Death Saving Throws and Initiative rolls."
+    },
+    {
+      "roll": "4-5",
+      "effect": "Dread. Disadvantage on all saving throws."
+    },
+    {
+      "roll": "6",
+      "effect": "Delusion. Disadvantage on Intelligence, Wisdom, and Charisma ability checks and saving throws."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209
+    ],
+    "section": "Shadowfell Despair"
+  },
+  "notes": []
+}

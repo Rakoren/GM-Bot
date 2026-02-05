@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.combining_items",
+  "name": "Combining Items",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Combine item effects only when the result remains manageable.",
+    "Adjust rarity and power to reflect multiple benefits.",
+    "Keep the combined item’s theme coherent."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Combining Items"
+  },
+  "notes": []
+}

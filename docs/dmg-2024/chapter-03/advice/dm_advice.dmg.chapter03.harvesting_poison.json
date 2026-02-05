@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.harvesting_poison",
+  "name": "Harvesting Poison",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Require checks and tools to harvest poison safely.",
+    "Let failed harvests carry meaningful consequences.",
+    "Use harvesting to encourage exploration and tactics."
+  ],
+  "tags": [
+    "chapter-03",
+    "poison"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Harvesting Poison"
+  },
+  "notes": []
+}

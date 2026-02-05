@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.degrees_of_success",
+    "name":  "Degrees of Success",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Reward high rolls with extra benefits or speed.",
+                     "Scale success based on how much the roll exceeded the DC.",
+                     "Use degrees of success to reinforce player ingenuity."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    32
+                                ],
+                      "section":  "Degrees of Success"
+                  },
+    "notes":  [
+
+              ]
+}

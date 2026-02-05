@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.navigating_the_astral_plane",
+  "name": "Navigating the Astral Plane",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Movement is by thought; in combat, use Fly Speed = 5 ? Intelligence score.",
+    "Thinking about a destination reveals the most direct route, but not travel time or danger.",
+    "Use 4d6 days for specific targets and 1d4 ? 10 hours for general destinations as baseline travel times."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "astral",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      184
+    ],
+    "section": "Navigating the Astral Plane"
+  },
+  "notes": []
+}

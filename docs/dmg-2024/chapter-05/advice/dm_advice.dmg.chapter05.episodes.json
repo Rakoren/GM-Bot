@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.episodes",
+  "name": "Episodes",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Build adventures that resolve within a few sessions.",
+    "Use a consistent hub or cast to link episodes.",
+    "Allow players to drop in and out without losing continuity."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      134
+    ],
+    "section": "Episodes"
+  },
+  "notes": []
+}

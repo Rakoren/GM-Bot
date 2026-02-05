@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.mount_celestia_adventures",
+  "name": "Mount Celestia Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Celestia as a proving ground against both external evil and internal flaws.",
+    "Include Empyrea as a healing destination for pilgrims.",
+    "Frame adventures around resisting corruption or earning celestial favor."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "mount-celestia",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      200
+    ],
+    "section": "Mount Celestia Adventures"
+  },
+  "notes": []
+}

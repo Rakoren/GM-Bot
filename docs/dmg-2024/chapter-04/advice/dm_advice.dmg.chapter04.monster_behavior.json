@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.monster_behavior",
+  "name": "Monster Behavior",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Decide monsters' starting attitudes and motivations before play.",
+    "Use simple personality traits to shape group behavior.",
+    "Consider relationships within the group for dramatic shifts."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Monster Behavior"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.training",
+  "name": "Training",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use training rewards to unlock new capabilities.",
+    "Set time and cost requirements for training.",
+    "Tie training to mentors, guilds, or institutions."
+  ],
+  "tags": [
+    "chapter-03",
+    "prestige"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Training"
+  },
+  "notes": []
+}

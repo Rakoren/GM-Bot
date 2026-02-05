@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.nine_hells",
+  "name": "Nine Hells",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Nine Hells as the pinnacle of lawful evil and premeditated cruelty.",
+    "Emphasize devils' rigid hierarchy and constant scheming.",
+    "Keep Asmodeus as supreme ruler whose defeat would reset the order."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      201
+    ],
+    "section": "Nine Hells"
+  },
+  "notes": []
+}

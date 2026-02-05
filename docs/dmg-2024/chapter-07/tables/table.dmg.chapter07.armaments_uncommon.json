@@ -1,0 +1,104 @@
+{
+  "id": "table.dmg.chapter07.armaments_uncommon",
+  "name": "Armaments - Uncommon",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-04",
+      "item": "Adamantine Armor"
+    },
+    {
+      "roll": "05-08",
+      "item": "Adamantine Weapon"
+    },
+    {
+      "roll": "09-13",
+      "item": "Ammunition, +1"
+    },
+    {
+      "roll": "14-18",
+      "item": "Bracers of Archery"
+    },
+    {
+      "roll": "19-23",
+      "item": "Enspelled Armor (cantrip or level 1 spell)"
+    },
+    {
+      "roll": "24-28",
+      "item": "Enspelled Weapon (cantrip or level 1 spell)"
+    },
+    {
+      "roll": "29-33",
+      "item": "Gauntlets of Ogre Power"
+    },
+    {
+      "roll": "34-38",
+      "item": "Javelin of Lightning"
+    },
+    {
+      "roll": "39-43",
+      "item": "Mariner's Armor"
+    },
+    {
+      "roll": "44-48",
+      "item": "Mithral Armor"
+    },
+    {
+      "roll": "49-53",
+      "item": "Potion of Giant Strength (hill)"
+    },
+    {
+      "roll": "54-58",
+      "item": "Potion of Pugilism"
+    },
+    {
+      "roll": "59-62",
+      "item": "Quiver of Ehlonna"
+    },
+    {
+      "roll": "63-66",
+      "item": "Saddle of the Cavalier"
+    },
+    {
+      "roll": "67-71",
+      "item": "Sentinel Shield"
+    },
+    {
+      "roll": "72-76",
+      "item": "Shield, +1"
+    },
+    {
+      "roll": "77-81",
+      "item": "Sword of Vengeance"
+    },
+    {
+      "roll": "82-85",
+      "item": "Trident of Fish Command"
+    },
+    {
+      "roll": "86-90",
+      "item": "Weapon, +1"
+    },
+    {
+      "roll": "91-95",
+      "item": "Weapon of Warning"
+    },
+    {
+      "roll": "96-00",
+      "item": "Wraps of Unarmed Power, +1"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      232
+    ],
+    "section": "Armaments - Uncommon"
+  },
+  "notes": []
+}

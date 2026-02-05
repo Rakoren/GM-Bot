@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.creating_a_new_item",
+  "name": "Creating a New Item",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Define the item's purpose and how it should feel in play.",
+    "Anchor the design to existing items for balance references.",
+    "Keep the item's benefits clear and easy to adjudicate."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a New Item"
+  },
+  "notes": []
+}

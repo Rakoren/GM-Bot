@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.combat_encounters",
+  "name": "Combat Encounters",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Add terrain features that encourage movement and tactics.",
+    "Use mixed monster groups for varied abilities and roles.",
+    "Include reasons to move, reposition, or change goals mid-fight."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      109
+    ],
+    "section": "Combat Encounters"
+  },
+  "notes": []
+}

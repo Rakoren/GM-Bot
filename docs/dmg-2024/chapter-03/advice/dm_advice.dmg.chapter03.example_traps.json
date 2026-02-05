@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.example_traps",
+  "name": "Example Traps",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use examples as templates for custom traps.",
+    "Adjust lethality and complexity to fit the scene.",
+    "Pair traps with terrain and enemies for depth."
+  ],
+  "tags": [
+    "chapter-03",
+    "traps"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Example Traps"
+  },
+  "notes": []
+}

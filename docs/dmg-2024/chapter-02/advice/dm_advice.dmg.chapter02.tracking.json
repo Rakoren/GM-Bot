@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.tracking",
+    "name":  "Tracking",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use tracking to follow creatures or clues across terrain.",
+                     "Apply checks based on conditions and age of tracks.",
+                     "Let tracking outcomes guide encounters or discoveries."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    44
+                                ],
+                      "section":  "Tracking"
+                  },
+    "notes":  [
+
+              ]
+}

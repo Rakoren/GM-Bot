@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.dealing_with_death",
+  "name": "Dealing with Death",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Check in with players when death hits hard.",
+    "Balance mechanical resolution with emotional pacing.",
+    "Use death to strengthen table trust and story momentum."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Dealing with Death"
+  },
+  "notes": []
+}

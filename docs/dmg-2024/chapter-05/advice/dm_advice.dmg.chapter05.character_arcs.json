@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.character_arcs",
+  "name": "Character Arcs",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Track motivations and goals for each character.",
+    "Build occasional adventures that highlight individual arcs.",
+    "Let character goals shift over time and reflect new victories."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "characters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      127
+    ],
+    "section": "Character Arcs"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.sirocco_straits",
+  "name": "Sirocco Straits",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Depict the Sirocco Straits as hot, dry winds scouring motes into barren rock.",
+    "Tie the region to the nearby Plane of Ash to emphasize heat and desiccation."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-air"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      188
+    ],
+    "section": "Sirocco Straits"
+  },
+  "notes": []
+}

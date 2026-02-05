@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.astral_plane",
+  "name": "Astral Plane",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Astral Plane as a silvery sea of thought and dream where travelers journey as disembodied souls.",
+    "Use drifting dead gods, rock chunks, and color pools to punctuate the vast emptiness.",
+    "Remember: creatures don?t age or hunger here, so societies like the githyanki establish outposts elsewhere for their young."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "astral"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      184
+    ],
+    "section": "Astral Plane"
+  },
+  "notes": []
+}

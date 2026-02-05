@@ -1,0 +1,28 @@
+{
+  "id": "dm_advice.dmg.chapter01.dm_tips",
+  "name": "DM Tips",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The most important part of being a good DM is facilitating the fun of everyone at the table. Keep these tips in mind to help things go smoothly.",
+    "Embrace the Shared Story. D&D is about telling a story as a group, so let the other players contribute through the words and deeds of their characters.",
+    "Encourage players to engage by asking them what their characters are doing.",
+    "It's Not a Competition. The DM isn't competing against the other players. It's your job to provide fun challenges and keep the story moving.",
+    "Be Fair and Flexible. Treat your players in a fair, impartial manner. The rules help you do this, but when you need to act as referee, try to make decisions that ensure everyone is having fun.",
+    "Communicate with Your Players. Open communication is essential to a successful D&D game. Many problems can be solved or even prevented with honest conversation. Ask questions and solicit feedback after or between sessions.",
+    "It's OK to Make Mistakes. If you overlook or misrepresent something, correct yourself and move on. No one expects you to memorize every rule or detail.",
+    "Even if you don't realize your mistake until after a game session is over, it's OK to acknowledge the mistake at the start of the next session and make adjustments moving forward."
+  ],
+  "tags": [
+    "chapter-01",
+    "dm-basics"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      2
+    ],
+    "section": "DM Tips"
+  },
+  "notes": []
+}

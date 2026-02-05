@@ -1,0 +1,72 @@
+{
+  "id": "table.dmg.chapter07.magic_items_awarded_by_level",
+  "name": "Magic Items Awarded by Level",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "level_range",
+    "common",
+    "uncommon",
+    "rare",
+    "very_rare",
+    "legendary",
+    "all_items"
+  ],
+  "entries": [
+    {
+      "level_range": "1–4 (tier 1)",
+      "common": "6",
+      "uncommon": "4",
+      "rare": "1",
+      "very_rare": "0",
+      "legendary": "0",
+      "all_items": "11"
+    },
+    {
+      "level_range": "5–10 (tier 2)",
+      "common": "10",
+      "uncommon": "17",
+      "rare": "6",
+      "very_rare": "1",
+      "legendary": "0",
+      "all_items": "34"
+    },
+    {
+      "level_range": "11–16 (tier 3)",
+      "common": "3",
+      "uncommon": "7",
+      "rare": "11",
+      "very_rare": "7",
+      "legendary": "2",
+      "all_items": "30"
+    },
+    {
+      "level_range": "17–20 (tier 4)",
+      "common": "0",
+      "uncommon": "0",
+      "rare": "5",
+      "very_rare": "11",
+      "legendary": "9",
+      "all_items": "25"
+    },
+    {
+      "level_range": "Total",
+      "common": "19",
+      "uncommon": "28",
+      "rare": "23",
+      "very_rare": "19",
+      "legendary": "11",
+      "all_items": "100"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Magic Items Awarded by Level"
+  },
+  "notes": [
+    "Artifacts are omitted; they are typically plot devices and rarely held for long."
+  ]
+}

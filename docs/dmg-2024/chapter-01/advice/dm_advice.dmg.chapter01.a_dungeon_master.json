@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.a_dungeon_master",
+  "name": "A Dungeon Master",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "One player has the special role of Dungeon Master.",
+    "Some people love being the DM all the time, while others can end up feeling trapped as the \"forever DM\" for their gaming group. The \"Group Size\" section in chapter 2 discusses possibilities for sharing the role of Dungeon Master among multiple players in a group."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      2
+    ],
+    "section": "A Dungeon Master"
+  },
+  "notes": []
+}

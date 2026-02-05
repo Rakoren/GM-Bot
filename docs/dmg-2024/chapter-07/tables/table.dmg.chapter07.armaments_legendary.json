@@ -1,0 +1,92 @@
+{
+  "id": "table.dmg.chapter07.armaments_legendary",
+  "name": "Armaments - Legendary",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-06",
+      "item": "Armor, +3"
+    },
+    {
+      "roll": "07-12",
+      "item": "Armor of Invulnerability"
+    },
+    {
+      "roll": "13-18",
+      "item": "Belt of Giant Strength (cloud)"
+    },
+    {
+      "roll": "19-21",
+      "item": "Belt of Giant Strength (storm)"
+    },
+    {
+      "roll": "22-27",
+      "item": "Defender"
+    },
+    {
+      "roll": "28-33",
+      "item": "Efreeti Chain"
+    },
+    {
+      "roll": "34-39",
+      "item": "Enspelled Armor (level 6, 7, or 8 spell)"
+    },
+    {
+      "roll": "40-45",
+      "item": "Enspelled Weapon (level 6, 7, or 8 spell)"
+    },
+    {
+      "roll": "46-51",
+      "item": "Hammer of Thunderbolts"
+    },
+    {
+      "roll": "52-56",
+      "item": "Holy Avenger"
+    },
+    {
+      "roll": "57-62",
+      "item": "Horn of Valhalla (iron)"
+    },
+    {
+      "roll": "63-68",
+      "item": "Luck Blade"
+    },
+    {
+      "roll": "69-72",
+      "item": "Moonblade"
+    },
+    {
+      "roll": "73-78",
+      "item": "Plate Armor of Etherealness"
+    },
+    {
+      "roll": "79-87",
+      "item": "Potion of Giant Strength (storm)"
+    },
+    {
+      "roll": "88-90",
+      "item": "Rod of Lordly Might"
+    },
+    {
+      "roll": "91-95",
+      "item": "Sword of Answering"
+    },
+    {
+      "roll": "96-00",
+      "item": "Vorpal Sword"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      233
+    ],
+    "section": "Armaments - Legendary"
+  },
+  "notes": []
+}

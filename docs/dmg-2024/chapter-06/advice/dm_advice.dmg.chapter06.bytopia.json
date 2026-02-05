@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.bytopia",
+  "name": "Bytopia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Describe Bytopia?s two layers as facing each other like the covers of a closed book.",
+    "Emphasize its ideal of personal achievement balanced with social interdependence.",
+    "Use the visible opposite layer to reinforce a sense of mirrored consequence."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "bytopia"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      186
+    ],
+    "section": "Bytopia"
+  },
+  "notes": []
+}

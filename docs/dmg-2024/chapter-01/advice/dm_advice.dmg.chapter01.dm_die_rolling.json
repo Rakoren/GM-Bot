@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.dm_die_rolling",
+  "name": "DM Die Rolling",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Should you hide your die rolls behind a DM screen, or should you roll your dice in the open for all the players to see? Choose either approach, and be consistent. Each approach has benefits:",
+    "Hidden Die Rolls. Hiding your die rolls keeps them mysterious and allows you to alter results if you want to. For example, you could ignore a Critical Hit to save a character's life. Do not alter die rolls too often, though, and never let the players know when you fudge a die roll.",
+    "Visible Die Rolls. Rolling dice in the open demonstrates impartiality?you are not fudging rolls to the characters' benefit or detriment.",
+    "Even if you usually roll behind a screen, it can be fun to make an especially dramatic roll where everyone can see it."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      17
+    ],
+    "section": "DM Die Rolling"
+  },
+  "notes": []
+}

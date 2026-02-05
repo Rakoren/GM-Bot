@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.city_activities",
+  "name": "City Activities",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Offer activities for downtime and roleplay.",
+    "Use city actions to advance personal goals.",
+    "Let activities create new hooks and complications."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "City Activities"
+  },
+  "notes": []
+}

@@ -1,0 +1,164 @@
+{
+  "id": "table.dmg.chapter07.arcana_common",
+  "name": "Arcana - Common",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-02",
+      "item": "Bead of Nourishment"
+    },
+    {
+      "roll": "03-04",
+      "item": "Bead of Refreshment"
+    },
+    {
+      "roll": "05-07",
+      "item": "Candle of the Deep"
+    },
+    {
+      "roll": "08-10",
+      "item": "Cloak of Billowing"
+    },
+    {
+      "roll": "11-13",
+      "item": "Cloak of Many Fashions"
+    },
+    {
+      "roll": "14-15",
+      "item": "Clothes of Mending"
+    },
+    {
+      "roll": "16-17",
+      "item": "Dark Shard Amulet"
+    },
+    {
+      "roll": "18-19",
+      "item": "Enduring Spellbook"
+    },
+    {
+      "roll": "20-21",
+      "item": "Ersatz Eye"
+    },
+    {
+      "roll": "22-24",
+      "item": "Hat of Vermin"
+    },
+    {
+      "roll": "25-27",
+      "item": "Hat of Wizardry"
+    },
+    {
+      "roll": "28-29",
+      "item": "Heward's Handy Spice Pouch"
+    },
+    {
+      "roll": "30-31",
+      "item": "Horn of Silent Alarm"
+    },
+    {
+      "roll": "32-33",
+      "item": "Instrument of Illusions"
+    },
+    {
+      "roll": "34-35",
+      "item": "Instrument of Scribing"
+    },
+    {
+      "roll": "36-37",
+      "item": "Lock of Trickery"
+    },
+    {
+      "roll": "38-40",
+      "item": "Mystery Key"
+    },
+    {
+      "roll": "41-42",
+      "item": "Orb of Direction"
+    },
+    {
+      "roll": "43-44",
+      "item": "Orb of Time"
+    },
+    {
+      "roll": "45-46",
+      "item": "Perfume of Bewitching"
+    },
+    {
+      "roll": "47-49",
+      "item": "Pipe of Smoke Monsters"
+    },
+    {
+      "roll": "50-52",
+      "item": "Potion of Climbing"
+    },
+    {
+      "roll": "53-55",
+      "item": "Potion of Comprehension"
+    },
+    {
+      "roll": "56-58",
+      "item": "Pot of Awakening"
+    },
+    {
+      "roll": "59-60",
+      "item": "Prosthetic Limb"
+    },
+    {
+      "roll": "61-64",
+      "item": "Rival Coin"
+    },
+    {
+      "roll": "65-66",
+      "item": "Rope of Mending"
+    },
+    {
+      "roll": "67-68",
+      "item": "Ruby of the War Mage"
+    },
+    {
+      "roll": "69-82",
+      "item": "Spell Scroll (cantrip or level 1 spell)"
+    },
+    {
+      "roll": "83-84",
+      "item": "Staff of Adornment"
+    },
+    {
+      "roll": "85-86",
+      "item": "Staff of Birdcalls"
+    },
+    {
+      "roll": "87-89",
+      "item": "Staff of Flowers"
+    },
+    {
+      "roll": "90-92",
+      "item": "Talking Doll"
+    },
+    {
+      "roll": "93-94",
+      "item": "Tankard of Sobriety"
+    },
+    {
+      "roll": "95-97",
+      "item": "Wand of Conducting"
+    },
+    {
+      "roll": "98-00",
+      "item": "Wand of Pyrotechnics"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      230
+    ],
+    "section": "Arcana - Common"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.magic_item_tracker",
+  "name": "Magic Item Tracker",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use the tracker to record each magic item gained by rarity and level range.",
+    "If a rarity has no unchecked circles at the current level range, mark a lower range; if none remain, mark a higher range."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Magic Item Tracker"
+  },
+  "notes": []
+}

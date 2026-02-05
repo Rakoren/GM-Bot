@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.actions_in_exploration",
+    "name":  "Actions in Exploration",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Let characters take deliberate actions while traveling or exploring.",
+                     "Use actions to focus attention on meaningful tasks.",
+                     "Tie actions to checks or discoveries when appropriate."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    37
+                                ],
+                      "section":  "Actions in Exploration"
+                  },
+    "notes":  [
+
+              ]
+}

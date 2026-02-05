@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.personality",
+  "name": "Personality",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use alignment-linked traits to inspire NPC or monster behavior.",
+    "Choose a few traits to keep portrayals consistent.",
+    "Let personality cues guide dialogue and decisions."
+  ],
+  "tags": [
+    "chapter-03",
+    "alignment"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      51
+    ],
+    "section": "Personality"
+  },
+  "notes": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "table.dmg.chapter08.basic_facilities",
+  "name": "Basic Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "facility"
+  ],
+  "entries": [
+    {
+      "facility": "Bedroom"
+    },
+    {
+      "facility": "Dining Room"
+    },
+    {
+      "facility": "Parlor"
+    },
+    {
+      "facility": "Courtyard"
+    },
+    {
+      "facility": "Kitchen"
+    },
+    {
+      "facility": "Storage"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Basic Facilities"
+  },
+  "notes": []
+}

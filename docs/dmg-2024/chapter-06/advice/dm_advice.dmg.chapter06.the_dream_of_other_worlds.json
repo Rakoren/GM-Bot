@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_dream_of_other_worlds",
+  "name": "The Dream of Other Worlds",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use magic-aided deep sleep as a portal to other realms.",
+    "Treat dream travel as symbolic and surreal, not fully controllable."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "material-plane",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      199
+    ],
+    "section": "The Dream of Other Worlds"
+  },
+  "notes": []
+}

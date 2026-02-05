@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter06.arborea_layers",
+  "name": "Layers of Arborea",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Arvandor",
+      "description": "Towering trees, colorful wildflowers, abundant grain, and delicious fruit create a lush environment."
+    },
+    {
+      "layer": "Aquallor",
+      "description": "An eternal ocean fed by the River Oceanus is home to teeming sea life and mighty storms."
+    },
+    {
+      "layer": "Mithardir",
+      "description": "A desert of white sand abandoned by whatever powers once lived there."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      182
+    ],
+    "section": "Layers of Arborea"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.fortifications",
+  "name": "Fortifications",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Fortifications grant status and strategic value.",
+    "Define upkeep costs, defenders, and vulnerabilities.",
+    "Use fortifications to anchor story arcs."
+  ],
+  "tags": [
+    "chapter-03",
+    "prestige"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Fortifications"
+  },
+  "notes": []
+}

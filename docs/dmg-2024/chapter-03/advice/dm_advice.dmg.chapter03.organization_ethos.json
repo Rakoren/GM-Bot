@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.organization_ethos",
+  "name": "Organization Ethos",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Assign alignment to organizations to describe their ethos.",
+    "Let ethos shape how groups interact, negotiate, or conflict.",
+    "Allow leaders or members to differ from the organization’s stated alignment."
+  ],
+  "tags": [
+    "chapter-03",
+    "alignment"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      51
+    ],
+    "section": "Organization Ethos"
+  },
+  "notes": []
+}

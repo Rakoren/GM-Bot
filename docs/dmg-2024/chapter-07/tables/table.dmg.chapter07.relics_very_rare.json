@@ -1,0 +1,92 @@
+{
+  "id": "table.dmg.chapter07.relics_very_rare",
+  "name": "Relics - Very Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-05",
+      "item": "Armor, +2"
+    },
+    {
+      "roll": "06-10",
+      "item": "Candle of Invocation"
+    },
+    {
+      "roll": "11-15",
+      "item": "Cauldron of Rebirth"
+    },
+    {
+      "roll": "16-20",
+      "item": "Enspelled Staff (level 4 or 5 spell)"
+    },
+    {
+      "roll": "21-25",
+      "item": "Horn of Valhalla (bronze)"
+    },
+    {
+      "roll": "26-30",
+      "item": "Ioun Stone (insight)"
+    },
+    {
+      "roll": "31-35",
+      "item": "Manual of Bodily Health"
+    },
+    {
+      "roll": "36-43",
+      "item": "Potion of Healing (supreme)"
+    },
+    {
+      "roll": "44-50",
+      "item": "Potion of Vitality"
+    },
+    {
+      "roll": "51-55",
+      "item": "Rod of Alertness"
+    },
+    {
+      "roll": "56-65",
+      "item": "Spell Scroll (level 6, level 7, or level 8 spell)"
+    },
+    {
+      "roll": "66-70",
+      "item": "Spirit Board"
+    },
+    {
+      "roll": "71-75",
+      "item": "Staff of Fire"
+    },
+    {
+      "roll": "76-80",
+      "item": "Staff of Frost"
+    },
+    {
+      "roll": "81-85",
+      "item": "Staff of Striking"
+    },
+    {
+      "roll": "86-90",
+      "item": "Staff of Thunder and Lightning"
+    },
+    {
+      "roll": "91-95",
+      "item": "Tome of Understanding"
+    },
+    {
+      "roll": "96-00",
+      "item": "Wand of the War Mage, +3"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      235
+    ],
+    "section": "Relics - Very Rare"
+  },
+  "notes": []
+}

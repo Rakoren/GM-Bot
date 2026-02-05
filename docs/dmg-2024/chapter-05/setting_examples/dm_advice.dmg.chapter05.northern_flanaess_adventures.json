@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.northern_flanaess_adventures",
+  "name": "Northern Flanaess Adventures",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use giants, dragons, and wild frontiers for hooks.",
+    "Mix harsh environments with high-stakes threats.",
+    "Connect adventures to clan politics and neighboring realms."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      149
+    ],
+    "section": "Northern Flanaess Adventures"
+  },
+  "notes": []
+}

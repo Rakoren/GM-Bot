@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.scaling_lethality",
+  "name": "Scaling Lethality",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Adjust encounter lethality to match campaign tone.",
+    "Use environmental and tactical levers before raw damage spikes.",
+    "Communicate when threats exceed the party's readiness."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Scaling Lethality"
+  },
+  "notes": []
+}

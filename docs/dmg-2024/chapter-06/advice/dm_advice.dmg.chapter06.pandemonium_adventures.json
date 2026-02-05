@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.pandemonium_adventures",
+  "name": "Pandemonium Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the plane to test characters on their worst day?constant frustration and noise.",
+    "Introduce Howler's Crag as a mythic message relay.",
+    "Keep the challenge on atmosphere without exhausting players."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "pandemonium",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      206
+    ],
+    "section": "Pandemonium Adventures"
+  },
+  "notes": []
+}

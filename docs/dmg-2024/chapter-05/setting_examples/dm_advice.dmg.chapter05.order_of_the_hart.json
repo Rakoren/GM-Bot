@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.order_of_the_hart",
+  "name": "Order of the Hart",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the order as a chivalric or protective organization.",
+    "Tie their missions to regional stability and defense.",
+    "Offer the party alliances or political obligations."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "factions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      139
+    ],
+    "section": "Order of the Hart"
+  },
+  "notes": []
+}

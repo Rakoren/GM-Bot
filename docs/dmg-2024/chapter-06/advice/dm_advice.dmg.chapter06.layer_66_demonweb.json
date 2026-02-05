@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layer_66_demonweb",
+  "name": "Layer 66: The Demonweb",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Demonweb as Lolth?s vast, webbed realm of portals, traps, and captured structures.",
+    "Tie the layer to Material Plane schemes and cults, emphasizing domination and entanglement.",
+    "Use the Demonweb Pits and yochlol hierarchy to reinforce Lolth?s control."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Layer 66: The Demonweb"
+  },
+  "notes": []
+}

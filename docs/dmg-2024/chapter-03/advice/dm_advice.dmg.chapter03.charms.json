@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.charms",
+  "name": "Charms",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Charms are limited-use supernatural effects.",
+    "Keep their duration and triggers explicit.",
+    "Use charms as rewards for exploration or favors."
+  ],
+  "tags": [
+    "chapter-03",
+    "gifts"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Charms"
+  },
+  "notes": []
+}

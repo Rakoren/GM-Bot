@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.special_features_and_sentience",
+  "name": "Special Features and Sentience",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Add special features sparingly to keep items usable at the table.",
+    "Use sentience to introduce goals, personality, and roleplay hooks.",
+    "Ensure sentient items don’t override player agency."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Special Features and Sentience"
+  },
+  "notes": []
+}

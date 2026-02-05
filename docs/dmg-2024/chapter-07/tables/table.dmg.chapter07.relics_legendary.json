@@ -1,0 +1,64 @@
+{
+  "id": "table.dmg.chapter07.relics_legendary",
+  "name": "Relics - Legendary",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-08",
+      "item": "Armor of Invulnerability"
+    },
+    {
+      "roll": "09-18",
+      "item": "Armor, +3"
+    },
+    {
+      "roll": "19-27",
+      "item": "Enspelled Staff (level 6, 7, or 8 spell)"
+    },
+    {
+      "roll": "28-36",
+      "item": "Holy Avenger"
+    },
+    {
+      "roll": "37-45",
+      "item": "Horn of Valhalla (iron)"
+    },
+    {
+      "roll": "46-54",
+      "item": "Rod of Resurrection"
+    },
+    {
+      "roll": "55-63",
+      "item": "Scarab of Protection"
+    },
+    {
+      "roll": "64-72",
+      "item": "Scroll of Titan Summoning"
+    },
+    {
+      "roll": "73-80",
+      "item": "Spell Scroll (level 9 spell)"
+    },
+    {
+      "roll": "81-90",
+      "item": "Talisman of Pure Good"
+    },
+    {
+      "roll": "91-00",
+      "item": "Talisman of Ultimate Evil"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      235
+    ],
+    "section": "Relics - Legendary"
+  },
+  "notes": []
+}

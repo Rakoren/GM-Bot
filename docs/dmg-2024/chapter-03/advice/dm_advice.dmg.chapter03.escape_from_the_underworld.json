@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.escape_from_the_underworld",
+  "name": "Escape from the Underworld",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Make the underworld escape a clear objective with escalating risks.",
+    "Use obstacles that test the party's strengths and bonds.",
+    "Let the return change the characters and the world."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Escape from the Underworld"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.creating_a_background",
+  "name": "Creating a Background",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Build a background by selecting abilities, a feat, skills, tools, and equipment.",
+    "Use the steps to keep custom backgrounds aligned with the core rules.",
+    "Treat backgrounds as story hooks and mechanical foundations."
+  ],
+  "tags": [
+    "chapter-03",
+    "backgrounds"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a Background"
+  },
+  "notes": []
+}

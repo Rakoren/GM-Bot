@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.western_flanaess_and_its_neighbors",
+  "name": "Western Flanaess and Its Neighbors",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use border politics and trade to drive hooks.",
+    "Highlight cultural exchange and tension.",
+    "Tie adventures to caravan routes and rival realms."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      151
+    ],
+    "section": "Western Flanaess and Its Neighbors"
+  },
+  "notes": []
+}

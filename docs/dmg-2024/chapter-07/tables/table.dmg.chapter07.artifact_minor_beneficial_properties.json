@@ -1,0 +1,56 @@
+{
+  "id": "table.dmg.chapter07.artifact_minor_beneficial_properties",
+  "name": "Artifact Minor Beneficial Properties",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "property"
+  ],
+  "entries": [
+    {
+      "roll": "01-20",
+      "property": "While attuned to the artifact, you gain proficiency in one skill of the DM's choice."
+    },
+    {
+      "roll": "21-30",
+      "property": "While attuned to the artifact, you have immunity to the Poisoned condition."
+    },
+    {
+      "roll": "31-40",
+      "property": "While attuned to the artifact, you have immunity to the Charmed and Frightened conditions."
+    },
+    {
+      "roll": "41-50",
+      "property": "While attuned to the artifact, you have resistance to one damage type of the DM's choice."
+    },
+    {
+      "roll": "51-60",
+      "property": "While attuned to the artifact, you can cast one cantrip (chosen by the DM) from it."
+    },
+    {
+      "roll": "61-70",
+      "property": "While attuned to the artifact, you can cast one level 1 spell (chosen by the DM) from it; after casting, roll 1d6 and on 1-5 you can't cast it again in this way until the next dawn."
+    },
+    {
+      "roll": "71-80",
+      "property": "As 61-70 above, except the spell is level 2."
+    },
+    {
+      "roll": "81-90",
+      "property": "As 61-70 above, except the spell is level 3."
+    },
+    {
+      "roll": "91-00",
+      "property": "While attuned to the artifact, you gain a +1 bonus to Armor Class."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      224
+    ],
+    "section": "Minor Beneficial Properties"
+  },
+  "notes": []
+}

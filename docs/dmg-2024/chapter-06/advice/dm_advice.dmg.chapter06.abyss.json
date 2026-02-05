@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.abyss",
+  "name": "Abyss",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray the Abyss as a realm of chaos, corruption, and endless descending layers.",
+    "Make each layer harsh and inhospitable, reflecting the plane?s entropic nature.",
+    "Use its corruption on visitors when appropriate, drawing on curses and magical contagions."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Abyss"
+  },
+  "notes": []
+}

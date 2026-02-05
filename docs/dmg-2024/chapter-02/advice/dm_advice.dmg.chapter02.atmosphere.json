@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.atmosphere",
+  "name": "Atmosphere",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Use sensory details to set mood and tone.",
+    "Reinforce atmosphere through lighting, sound, and pacing.",
+    "Support the intended feel of the scene."
+  ],
+  "tags": [
+    "chapter-02",
+    "narration"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      27
+    ],
+    "section": "Atmosphere"
+  },
+  "notes": []
+}

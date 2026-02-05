@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.treasure_themes",
+  "name": "Treasure Themes",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use treasure themes to align hoards with monster preferences.",
+    "Pick a theme to shape the mix of coins, goods, art, and magic items.",
+    "Use the Treasure Themes table for quick selection."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213
+    ],
+    "section": "Treasure Themes"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.gehenna",
+  "name": "Gehenna",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Gehenna as steep volcanic slopes with constant danger and falling earthbergs.",
+    "Use hazardous terrain: fissures, fumes, searing flames, and treacherous inclines.",
+    "Emphasize yugoloths as native, greedy Fiends."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "gehenna"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      197
+    ],
+    "section": "Gehenna"
+  },
+  "notes": []
+}

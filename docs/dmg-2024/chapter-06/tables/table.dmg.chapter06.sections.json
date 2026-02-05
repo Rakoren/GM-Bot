@@ -1,0 +1,646 @@
+{
+    "id": "table.dmg.chapter06.sections",
+    "name": "Chapter 6 Section Pages",
+    "chapter": "dmg-2024.chapter-06",
+    "status": "draft",
+    "columns": [
+        "heading",
+        "page_ref"
+    ],
+    "entries": [
+        {
+            "heading": "CHAPTER 6: COSMOLOGY",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE PLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE GREAT WHEEL",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "OTHER CONFIGURATIONS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MATERIAL REALMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "INNER PLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "OUTER PLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYERS OF THE OUTER PLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ALIGNMENT AND THE OUTER PLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANAR TRAVEL",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANAR PORTALS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SPELLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TRAVELING THE OUTER PLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "INFINITE STAIRCASE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RIVER OCEANUS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RIVER STYX",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "YGGDRASIL, THE WORLD TREE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANAR ADVENTURING",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE BLOOD WAR",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANAR ADVENTURE SITUATIONS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TOUR OF THE MULTIVERSE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ABYSS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYERS OF THE ABYSS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYER 1: THE PLAIN OF INFINITE PORTALS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYERS 45-47: AZZAGRAT",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYER 66: THE DEMONWEB",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYER 88: THE GAPING MAW",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYER 113: THANATOS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYER 222: THE SLIME PITS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYER 422: THE DEATH DELLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAYER 600: THE ENDLESS MAZE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ABYSS ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ACHERON",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ACHERON ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARBOREA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARBOREA ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARCADIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARCADIA ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ASTRAL PLANE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "NAVIGATING THE ASTRAL PLANE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DEAD GODS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "COLOR POOLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "WILDSPACE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PSYCHIC WIND",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ASTRAL PLANE ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "BEASTLANDS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "BEASTLANDS ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "BYTOPIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "BYTOPIA ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CARCERI",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PRISON PLANE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CARCERI ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DEMIPLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DEMIPLANE ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELEMENTAL PLANE OF AIR",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "AAQA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LABYRINTH WINDS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MISTRAL REACH",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SIROCCO STRAITS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANE OF AIR ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELEMENTAL PLANE OF EARTH",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CITY OF JEWELS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FURNACES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MUD HILLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANE OF EARTH ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELEMENTAL PLANE OF FIRE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CINDER WASTES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CITY OF BRASS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SEA OF FIRE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELEMENTAL FIRE ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELEMENTAL PLANE OF WATER",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CITADEL OF TEN THOUSAND PEARLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DARKENED DEPTHS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ISLE OF DREAD",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SEA OF ICE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SEA OF LIGHT",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SILT FLATS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELEMENTAL WATER ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELYSIUM",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ELYSIUM ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ETHEREAL PLANE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "BORDER ETHEREAL",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DEEP ETHEREAL",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ETHER CYCLONES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RADIANT CITADEL",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ETHEREAL PLANE ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FAR REALM",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FAR REALM ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FEYWILD",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DOMAINS OF DELIGHT",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FABLERISE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "GLOAMING COURT",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PRISMEER",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SUMMER COURT",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FEY CROSSINGS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FEYWILD MAGIC",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FEYWILD ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "GEHENNA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "GEHENNA ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "HADES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANE OF GLOOM",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "HADES ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LIMBO",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "POWER OF THE MIND",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LIMBO ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MATERIAL PLANE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TRAVELING BETWEEN WORLDS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE DREAM OF OTHER WORLDS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE GREAT JOURNEY",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE LEAP TO ANOTHER REALM",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE ROOTS OF THE WORLDS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MECHANUS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MECHANUS ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MOUNT CELESTIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MOUNT CELESTIA ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "NEGATIVE PLANE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "NEGATIVE PLANE ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "NINE HELLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE NINE LAYERS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "AVERNUS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DIS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MINAUROS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PHLEGETHOS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "STYGIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MALBOLGE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MALADOMINI",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CANIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "NESSUS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "INFERNAL HIERARCHY",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "NINE HELLS ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "OUTLANDS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "OUTLANDS ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PANDEMONIUM",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PANDEMONIUM ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PARA-ELEMENTAL PLANES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANE OF ASH",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANE OF ICE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANE OF MAGMA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PLANE OF OOZE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "PARA-ELEMENTAL PLANE ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "POSITIVE PLANE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "POSITIVE PLANE ADVENTURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SHADOWFELL",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SHADOW CROSSINGS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "DOMAINS OF DREAD",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "BAROVIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "BORCA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "FALKOVNIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "KALAKERI",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "LAMORDIA",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MORDENT",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "VALACHAN",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SHADOWFELL DESPAIR",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SIGIL, CITY OF DOORS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "YSGARD",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "YSGARD ADVENTURES",
+            "page_ref": "TBD"
+        }
+    ],
+    "sourceRef": {
+        "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+        "pages": [
+            126
+        ],
+        "section": "Chapter 6: Cosmology"
+    },
+    "notes": [
+        "Page refs TBD; fill with exact page numbers once verified."
+    ]
+}

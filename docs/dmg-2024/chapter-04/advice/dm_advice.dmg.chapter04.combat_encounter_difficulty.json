@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.combat_encounter_difficulty",
+  "name": "Combat Encounter Difficulty",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Choose a difficulty target (low, moderate, high) based on desired risk.",
+    "Calculate XP budget per character and multiply by party size.",
+    "Build the encounter within budget using creature XP values."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Combat Encounter Difficulty"
+  },
+  "notes": []
+}

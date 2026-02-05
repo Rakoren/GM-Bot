@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter02.travel_journey_stage",
+  "name": "Travel Journey Stage",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "triggers": [
+    "when resolving a travel segment or journey stage"
+  ],
+  "steps": [
+    "Set the stage: distance, pace, terrain, and current weather.",
+    "Ask for any travel actions (navigate, forage, scout, keep watch).",
+    "Resolve checks and apply results to time, resources, or encounters.",
+    "Introduce a challenge or encounter if appropriate.",
+    "Narrate the outcome and transition to the next stage."
+  ],
+  "tags": [
+    "chapter-02",
+    "exploration",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      39,
+      43
+    ],
+    "section": "Travel"
+  },
+  "notes": []
+}
+
+
+

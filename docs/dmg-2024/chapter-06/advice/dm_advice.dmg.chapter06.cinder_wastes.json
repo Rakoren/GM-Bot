@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.cinder_wastes",
+  "name": "Cinder Wastes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use black cinders, embers, and lava rivers as the default terrain.",
+    "Add roaming salamanders, azer outposts, and efreet patrols as active threats.",
+    "Scatter obsidian ruins to signal lost civilizations."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-fire"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      189
+    ],
+    "section": "Cinder Wastes"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.work_areas",
+  "name": "Work Areas",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use work areas to show ongoing operations or past use.",
+    "Add tools, hazards, or materials as interactive props.",
+    "Consider how work areas change the dungeon economy."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Work Areas"
+  },
+  "notes": []
+}

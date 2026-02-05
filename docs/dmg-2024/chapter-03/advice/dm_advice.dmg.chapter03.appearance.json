@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.appearance",
+  "name": "Appearance",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Give NPCs a few memorable visual traits.",
+    "Use appearance to hint at personality or background.",
+    "Keep details concise for easy recall."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Appearance"
+  },
+  "notes": []
+}

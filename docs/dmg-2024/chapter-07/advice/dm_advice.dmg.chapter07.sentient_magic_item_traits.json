@@ -1,0 +1,27 @@
+{
+  "id": "dm_advice.dmg.chapter07.sentient_magic_item_traits",
+  "name": "Sentient Magic Item Traits",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Create the item's persona like an NPC, with special exceptions below.",
+    "Abilities: choose Int/Wis/Cha or roll 4d6 (drop lowest) for each score.",
+    "Alignment: choose or roll on the Sentient Item's Alignment table.",
+    "Communication: choose or roll on the Sentient Item's Communication table.",
+    "Senses: choose or roll on the Sentient Item's Senses table.",
+    "Special Purpose: choose or roll on the Sentient Item's Special Purpose table; misalignment can trigger conflict."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      226
+    ],
+    "section": "Sentient Magic Item Traits"
+  },
+  "notes": []
+}

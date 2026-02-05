@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.tracking_position_at_long_range",
+    "name":  "Tracking Position at Long Range",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use abstract positioning when distances are very large.",
+                     "Track relative positions rather than exact squares.",
+                     "Switch to tactical maps when precision matters."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    50
+                                ],
+                      "section":  "Tracking Position at Long Range"
+                  },
+    "notes":  [
+
+              ]
+}

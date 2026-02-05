@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.weather",
+    "name":  "Weather",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use weather to change travel difficulty and tone.",
+                     "Let weather affect visibility, pace, or hazards.",
+                     "Signal major weather shifts to support planning."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    41
+                                ],
+                      "section":  "Weather"
+                  },
+    "notes":  [
+
+              ]
+}

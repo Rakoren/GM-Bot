@@ -1,0 +1,180 @@
+{
+  "id": "table.dmg.chapter07.arcana_very_rare",
+  "name": "Arcana - Very Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-02",
+      "item": "Amulet of the Planes"
+    },
+    {
+      "roll": "03-04",
+      "item": "Bag of Devouring"
+    },
+    {
+      "roll": "05-06",
+      "item": "Carpet of Flying"
+    },
+    {
+      "roll": "07-08",
+      "item": "Cauldron of Rebirth"
+    },
+    {
+      "roll": "09-10",
+      "item": "Cloak of Arachnida"
+    },
+    {
+      "roll": "11-12",
+      "item": "Crystal Ball"
+    },
+    {
+      "roll": "13",
+      "item": "Dancing Sword"
+    },
+    {
+      "roll": "14",
+      "item": "Efreeti Bottle"
+    },
+    {
+      "roll": "15-16",
+      "item": "Enspelled Staff (level 4 or 5 spell)"
+    },
+    {
+      "roll": "17-18",
+      "item": "Figurine of Wondrous Power (obsidian steed)"
+    },
+    {
+      "roll": "19-20",
+      "item": "Hat of Many Spells"
+    },
+    {
+      "roll": "21-22",
+      "item": "Helm of Brilliance"
+    },
+    {
+      "roll": "23-24",
+      "item": "Horseshoes of a Zephyr"
+    },
+    {
+      "roll": "25-26",
+      "item": "Ioun Stone (absorption, fortitude, intellect, or leadership)"
+    },
+    {
+      "roll": "27-28",
+      "item": "Manual of Golems (clay, flesh, iron, or stone)"
+    },
+    {
+      "roll": "29",
+      "item": "Mirror of Life Trapping"
+    },
+    {
+      "roll": "30-31",
+      "item": "Nolzur's Marvelous Pigments"
+    },
+    {
+      "roll": "32-34",
+      "item": "Oil of Sharpness"
+    },
+    {
+      "roll": "35-38",
+      "item": "Potion of Flying"
+    },
+    {
+      "roll": "39-42",
+      "item": "Potion of Giant Strength (cloud)"
+    },
+    {
+      "roll": "43-46",
+      "item": "Potion of Greater Invisibility"
+    },
+    {
+      "roll": "47-49",
+      "item": "Potion of Longevity"
+    },
+    {
+      "roll": "50-53",
+      "item": "Potion of Speed"
+    },
+    {
+      "roll": "54-57",
+      "item": "Potion of Vitality"
+    },
+    {
+      "roll": "58-59",
+      "item": "Ring of Regeneration"
+    },
+    {
+      "roll": "60-61",
+      "item": "Ring of Shooting Stars"
+    },
+    {
+      "roll": "62-63",
+      "item": "Ring of Telekinesis"
+    },
+    {
+      "roll": "64-65",
+      "item": "Robe of Scintillating Colors"
+    },
+    {
+      "roll": "66-67",
+      "item": "Robe of Stars"
+    },
+    {
+      "roll": "68-69",
+      "item": "Rod of Absorption"
+    },
+    {
+      "roll": "70-71",
+      "item": "Rod of Security"
+    },
+    {
+      "roll": "72-73",
+      "item": "Rod of the Pact Keeper, +3"
+    },
+    {
+      "roll": "74-85",
+      "item": "Spell Scroll (level 6, level 7, or level 8 spell)"
+    },
+    {
+      "roll": "86-87",
+      "item": "Staff of Fire"
+    },
+    {
+      "roll": "88-89",
+      "item": "Staff of Frost"
+    },
+    {
+      "roll": "90",
+      "item": "Staff of Power"
+    },
+    {
+      "roll": "91-92",
+      "item": "Staff of Thunder and Lightning"
+    },
+    {
+      "roll": "93-94",
+      "item": "Tome of Clear Thought"
+    },
+    {
+      "roll": "95-97",
+      "item": "Wand of Polymorph"
+    },
+    {
+      "roll": "98-00",
+      "item": "Wand of the War Mage, +3"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      231
+    ],
+    "section": "Arcana - Very Rare"
+  },
+  "notes": []
+}

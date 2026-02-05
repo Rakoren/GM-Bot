@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.preparing_a_session",
+  "name": "Preparing a Session",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The more you prepare before your game, the more smoothly the game will go?to a certain point. To avoid being either under- or over-prepared, use the one-hour guideline below and prioritize what to prepare depending on the time you have available."
+  ],
+  "tags": [
+    "chapter-01",
+    "prep"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      5
+    ],
+    "section": "Preparing a Session"
+  },
+  "notes": []
+}

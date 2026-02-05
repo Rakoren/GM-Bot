@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.phlegethos",
+  "name": "Phlegethos",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use molten seas, ash storms, and volcanoes as ambient hazards.",
+    "Center power in Abriymoch, the obsidian fortress city.",
+    "Portray Belial and Fierna's alliance as dangerously unbreakable."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202
+    ],
+    "section": "Phlegethos"
+  },
+  "notes": []
+}

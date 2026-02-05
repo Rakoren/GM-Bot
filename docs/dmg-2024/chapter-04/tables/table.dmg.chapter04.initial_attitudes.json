@@ -1,0 +1,34 @@
+{
+  "id": "table.dmg.chapter04.initial_attitudes",
+  "name": "Initial Attitudes",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "attitude"
+  ],
+  "entries": [
+    {
+      "roll": "1-4",
+      "attitude": "Hostile"
+    },
+    {
+      "roll": "5-8",
+      "attitude": "Indifferent"
+    },
+    {
+      "roll": "9-12",
+      "attitude": "Friendly"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Initial Attitudes"
+  },
+  "notes": [
+    "Roll is 1d12 by default; alter die and ranges to fit creature temperament."
+  ]
+}

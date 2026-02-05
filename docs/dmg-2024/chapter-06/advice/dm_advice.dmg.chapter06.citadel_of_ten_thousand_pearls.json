@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.citadel_of_ten_thousand_pearls",
+  "name": "Citadel of Ten Thousand Pearls",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the citadel as the marid emperor?s opulent coral palace in the Sea of Light.",
+    "Allow petitioners to request favors, but keep the emperor?s mood mercurial."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-water"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      190
+    ],
+    "section": "Citadel of Ten Thousand Pearls"
+  },
+  "notes": []
+}

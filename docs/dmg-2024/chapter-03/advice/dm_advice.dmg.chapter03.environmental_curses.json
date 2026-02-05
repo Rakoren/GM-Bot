@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.environmental_curses",
+  "name": "Environmental Curses",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use environmental curses to shape exploration and tension.",
+    "Make the effects persistent but discoverable.",
+    "Offer ways to cleanse or stabilize the area."
+  ],
+  "tags": [
+    "chapter-03",
+    "curses"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Environmental Curses"
+  },
+  "notes": []
+}

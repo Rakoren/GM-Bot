@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.small_groups",
+  "name": "Small Groups",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Fewer than four players can struggle if the party lacks key roles.",
+    "Reduce monster counts or provide resources like healing to compensate.",
+    "Add party members if needed using options in the following sections."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Small Groups"
+  },
+  "notes": []
+}

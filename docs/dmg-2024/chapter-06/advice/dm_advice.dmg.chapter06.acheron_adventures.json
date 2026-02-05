@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.acheron_adventures",
+  "name": "Acheron Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Acheron to explore themes of authoritarian order, conformity, and endless war.",
+    "Contrast soldierly obedience with the characters? reasons for fighting.",
+    "Anchor adventures in scavenging war machines, extracting secrets from Tintibulus, or stopping war-born horrors."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "acheron",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      182
+    ],
+    "section": "Acheron Adventures"
+  },
+  "notes": []
+}

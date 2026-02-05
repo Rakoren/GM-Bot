@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.creating_a_spell",
+  "name": "Creating a Spell",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Define the spell's purpose and how it should play at the table.",
+    "Benchmark power and action economy against similar spells.",
+    "Keep the spell's text clear, concise, and easy to adjudicate."
+  ],
+  "tags": [
+    "chapter-03",
+    "spells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a Spell"
+  },
+  "notes": []
+}

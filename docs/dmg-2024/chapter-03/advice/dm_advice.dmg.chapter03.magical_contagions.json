@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.magical_contagions",
+  "name": "Magical Contagions",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use contagions to add pressure over time.",
+    "Make progression stages clear and trackable.",
+    "Provide cures or mitigation that fit the story."
+  ],
+  "tags": [
+    "chapter-03",
+    "curses"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Magical Contagions"
+  },
+  "notes": []
+}

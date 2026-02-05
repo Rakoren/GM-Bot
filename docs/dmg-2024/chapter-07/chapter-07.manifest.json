@@ -1,0 +1,504 @@
+{
+    "schema_version": "0.1.0",
+    "chapter": "dmg-2024.chapter-07",
+    "title": "DMG 2024 - Chapter 7: Treasure",
+    "generated_at": "2026-02-05",
+    "paths": {
+        "tables_dir": "dmg-2024/chapter-07/tables",
+        "lists_dir": "dmg-2024/chapter-07/lists",
+        "advice_dir": "dmg-2024/chapter-07/advice",
+        "procedures_dir": "dmg-2024/chapter-07/procedures"
+    },
+    "shards": [
+        {
+            "id": "table.dmg.chapter07.sections",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.sections.json"
+        },
+        {
+            "id": "list.dmg.chapter07.sections",
+            "type": "list",
+            "path": "dmg-2024/chapter-07/lists/list.dmg.chapter07.sections.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.treasure_themes",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.treasure_themes.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.coins",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.coins.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.trade_bars",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.trade_bars.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.trade_goods",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.trade_goods.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.gemstones",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.gemstones.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.art_objects",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.art_objects.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_item_rules",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_item_rules.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_item_categories",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_item_categories.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_item_rarity",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_item_rarity.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_item_values_by_rarity",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_item_values_by_rarity.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.awarding_magic_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.awarding_magic_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.are_magic_items_necessary",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.are_magic_items_necessary.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_items_awarded_by_level",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_items_awarded_by_level.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_item_tracker",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_item_tracker.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.random_magic_item_rarity",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.random_magic_item_rarity.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_items_for_starting_characters",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_items_for_starting_characters.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.activating_magic_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.activating_magic_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.command_word",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.command_word.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.consumable_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.consumable_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.spells_cast_from_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.spells_cast_from_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.charges",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.charges.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.the_next_dawn",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.the_next_dawn.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.cursed_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.cursed_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_item_resilience",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_item_resilience.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.crafting_magic_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.crafting_magic_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.arcana_proficiency",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.arcana_proficiency.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.tools",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.tools.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.spells",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.spells.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.time_and_cost",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.time_and_cost.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_item_special_features",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_item_special_features.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.artifacts",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.artifacts.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.artifact_properties",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.artifact_properties.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.sentient_magic_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.sentient_magic_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.sentient_magic_item_traits",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.sentient_magic_item_traits.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.conflict",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.conflict.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.magic_items_a_z",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.magic_items_a_z.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.random_magic_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.random_magic_items.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.armor",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.armor.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.potions",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.potions.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.rings",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.rings.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.rods",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.rods.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.scrolls",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.scrolls.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.staffs",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.staffs.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.wands",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.wands.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.weapons",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.weapons.json"
+        },
+        {
+            "id": "dm_advice.dmg.chapter07.wondrous_items",
+            "type": "dm_advice",
+            "path": "dmg-2024/chapter-07/advice/dm_advice.dmg.chapter07.wondrous_items.json"
+        },
+        {
+            "id": "table.dmg.chapter07.treasure_themes",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.treasure_themes.json"
+        },
+        {
+            "id": "table.dmg.chapter07.trade_bars",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.trade_bars.json"
+        },
+        {
+            "id": "table.dmg.chapter07.trade_goods",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.trade_goods.json"
+        },
+        {
+            "id": "table.dmg.chapter07.gemstones_10gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.gemstones_10gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.gemstones_50gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.gemstones_50gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.gemstones_100gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.gemstones_100gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.gemstones_500gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.gemstones_500gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.gemstones_1000gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.gemstones_1000gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.gemstones_5000gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.gemstones_5000gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.art_objects_25gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.art_objects_25gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.art_objects_250gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.art_objects_250gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.art_objects_750gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.art_objects_750gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.art_objects_2500gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.art_objects_2500gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.art_objects_7500gp",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.art_objects_7500gp.json"
+        },
+        {
+            "id": "table.dmg.chapter07.magic_item_categories",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.magic_item_categories.json"
+        },
+        {
+            "id": "table.dmg.chapter07.magic_item_rarities_values",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.magic_item_rarities_values.json"
+        },
+        {
+            "id": "table.dmg.chapter07.magic_items_awarded_by_level",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.magic_items_awarded_by_level.json"
+        },
+        {
+            "id": "table.dmg.chapter07.magic_item_rarities",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.magic_item_rarities.json"
+        },
+        {
+            "id": "table.dmg.chapter07.magic_item_tools",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.magic_item_tools.json"
+        },
+        {
+            "id": "table.dmg.chapter07.magic_item_crafting_time_cost",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.magic_item_crafting_time_cost.json"
+        },
+        {
+            "id": "table.dmg.chapter07.artifact_minor_beneficial_properties",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.artifact_minor_beneficial_properties.json"
+        },
+        {
+            "id": "table.dmg.chapter07.artifact_major_beneficial_properties",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.artifact_major_beneficial_properties.json"
+        },
+        {
+            "id": "table.dmg.chapter07.artifact_minor_detrimental_properties",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.artifact_minor_detrimental_properties.json"
+        },
+        {
+            "id": "table.dmg.chapter07.artifact_major_detrimental_properties",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.artifact_major_detrimental_properties.json"
+        },
+        {
+            "id": "table.dmg.chapter07.sentient_item_alignment",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.sentient_item_alignment.json"
+        },
+        {
+            "id": "table.dmg.chapter07.sentient_item_communication",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.sentient_item_communication.json"
+        },
+        {
+            "id": "table.dmg.chapter07.sentient_item_senses",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.sentient_item_senses.json"
+        },
+        {
+            "id": "table.dmg.chapter07.sentient_item_special_purpose",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.sentient_item_special_purpose.json"
+        },
+        {
+            "id": "table.dmg.chapter07.arcana_common",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.arcana_common.json"
+        },
+        {
+            "id": "table.dmg.chapter07.arcana_uncommon",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.arcana_uncommon.json"
+        },
+        {
+            "id": "table.dmg.chapter07.arcana_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.arcana_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.arcana_very_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.arcana_very_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.arcana_legendary",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.arcana_legendary.json"
+        },
+        {
+            "id": "table.dmg.chapter07.armaments_common",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.armaments_common.json"
+        },
+        {
+            "id": "table.dmg.chapter07.armaments_uncommon",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.armaments_uncommon.json"
+        },
+        {
+            "id": "table.dmg.chapter07.armaments_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.armaments_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.armaments_very_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.armaments_very_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.armaments_legendary",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.armaments_legendary.json"
+        },
+        {
+            "id": "table.dmg.chapter07.implements_common",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.implements_common.json"
+        },
+        {
+            "id": "table.dmg.chapter07.implements_uncommon",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.implements_uncommon.json"
+        },
+        {
+            "id": "table.dmg.chapter07.implements_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.implements_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.implements_very_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.implements_very_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.implements_legendary",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.implements_legendary.json"
+        },
+        {
+            "id": "table.dmg.chapter07.relics_common",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.relics_common.json"
+        },
+        {
+            "id": "table.dmg.chapter07.relics_uncommon",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.relics_uncommon.json"
+        },
+        {
+            "id": "table.dmg.chapter07.relics_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.relics_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.relics_very_rare",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.relics_very_rare.json"
+        },
+        {
+            "id": "table.dmg.chapter07.relics_legendary",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.relics_legendary.json"
+        },
+        {
+            "id": "table.dmg.chapter07.potion_miscibility",
+            "type": "table",
+            "path": "dmg-2024/chapter-07/tables/table.dmg.chapter07.potion_miscibility.json"
+        }
+    ]
+}

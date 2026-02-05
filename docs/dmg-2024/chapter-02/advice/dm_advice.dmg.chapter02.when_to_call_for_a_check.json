@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.when_to_call_for_a_check",
+    "name":  "When to Call for a Check",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Call for checks when the outcome is uncertain and meaningful.",
+                     "Avoid checks for trivial or guaranteed outcomes.",
+                     "Use checks to create tension or consequences."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    38
+                                ],
+                      "section":  "When to Call for a Check"
+                  },
+    "notes":  [
+
+              ]
+}

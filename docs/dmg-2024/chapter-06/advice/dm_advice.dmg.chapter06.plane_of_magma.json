@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.plane_of_magma",
+  "name": "Plane of Magma",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use volcanic ranges as the boundary between Earth and Fire.",
+    "Place azers, fire giants, and red dragons among lava flows and slopes."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "para-elemental"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      207
+    ],
+    "section": "Plane of Magma"
+  },
+  "notes": []
+}

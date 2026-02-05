@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.using_and_tracking_conditions",
+    "name":  "Using and Tracking Conditions",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Apply conditions as written and track their durations.",
+                     "Use markers or notes so players know what applies.",
+                     "Remind players when conditions change or end."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    47
+                                ],
+                      "section":  "Using and Tracking Conditions"
+                  },
+    "notes":  [
+
+              ]
+}

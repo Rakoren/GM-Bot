@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.border_ethereal",
+  "name": "Border Ethereal",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Allow travelers to see into overlapped planes as gray, blurred outlines.",
+    "Let Ethereal travelers pass through solid objects, except magical force or living beings.",
+    "Use the Border Ethereal as a stealth and scouting space with free 3D movement."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ethereal"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      192
+    ],
+    "section": "Border Ethereal"
+  },
+  "notes": []
+}

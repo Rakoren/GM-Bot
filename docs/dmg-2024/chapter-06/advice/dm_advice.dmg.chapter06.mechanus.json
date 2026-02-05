@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.mechanus",
+  "name": "Mechanus",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Mechanus as a plane of perfect order made of immense clockwork gears.",
+    "Use modrons and Primus as central to its function and hierarchy.",
+    "Let each gear have its own gravity and built environments."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "mechanus"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      199
+    ],
+    "section": "Mechanus"
+  },
+  "notes": []
+}

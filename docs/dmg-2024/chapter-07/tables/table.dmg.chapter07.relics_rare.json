@@ -1,0 +1,140 @@
+{
+  "id": "table.dmg.chapter07.relics_rare",
+  "name": "Relics - Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-03",
+      "item": "Amulet of Health"
+    },
+    {
+      "roll": "04-07",
+      "item": "Armor, +1"
+    },
+    {
+      "roll": "08-09",
+      "item": "Bowl of Commanding Water Elementals"
+    },
+    {
+      "roll": "10-11",
+      "item": "Brazier of Commanding Fire Elementals"
+    },
+    {
+      "roll": "12-13",
+      "item": "Censer of Controlling Air Elementals"
+    },
+    {
+      "roll": "14-16",
+      "item": "Elixir of Health"
+    },
+    {
+      "roll": "17-19",
+      "item": "Enspelled Staff (level 2 or 3 spell)"
+    },
+    {
+      "roll": "20-22",
+      "item": "Horn of Blasting"
+    },
+    {
+      "roll": "23-25",
+      "item": "Horn of Valhalla (brass or silver)"
+    },
+    {
+      "roll": "26-28",
+      "item": "Ioun Stone (reserve or sustenance)"
+    },
+    {
+      "roll": "29-31",
+      "item": "Mace of Disruption"
+    },
+    {
+      "roll": "32-34",
+      "item": "Mace of Smiting"
+    },
+    {
+      "roll": "35-37",
+      "item": "Mace of Terror"
+    },
+    {
+      "roll": "38-40",
+      "item": "Necklace of Prayer Beads"
+    },
+    {
+      "roll": "41-43",
+      "item": "Periapt of Proof against Poison"
+    },
+    {
+      "roll": "44-51",
+      "item": "Potion of Healing (superior)"
+    },
+    {
+      "roll": "52-54",
+      "item": "Ring of Animal Influence"
+    },
+    {
+      "roll": "55-58",
+      "item": "Ring of Resistance"
+    },
+    {
+      "roll": "59-61",
+      "item": "Ring of Spell Storing"
+    },
+    {
+      "roll": "62-65",
+      "item": "Scroll of Protection"
+    },
+    {
+      "roll": "66-73",
+      "item": "Spell Scroll (level 4 or level 5 spell)"
+    },
+    {
+      "roll": "74-76",
+      "item": "Staff of Charming"
+    },
+    {
+      "roll": "77-79",
+      "item": "Staff of Healing"
+    },
+    {
+      "roll": "80-82",
+      "item": "Staff of Swarming Insects"
+    },
+    {
+      "roll": "83-85",
+      "item": "Staff of the Woodlands"
+    },
+    {
+      "roll": "86-88",
+      "item": "Staff of Withering"
+    },
+    {
+      "roll": "89-90",
+      "item": "Stone of Controlling Earth Elementals"
+    },
+    {
+      "roll": "91-93",
+      "item": "Tentacle Rod"
+    },
+    {
+      "roll": "94-96",
+      "item": "Wand of Paralysis"
+    },
+    {
+      "roll": "97-00",
+      "item": "Wand of the War Mage, +2"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      234
+    ],
+    "section": "Relics - Rare"
+  },
+  "notes": []
+}

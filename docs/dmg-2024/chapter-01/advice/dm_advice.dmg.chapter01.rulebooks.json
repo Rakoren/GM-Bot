@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.rulebooks",
+  "name": "Rulebooks",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "As the Dungeon Master, you need this book plus the Player's Handbook (which contains most of the rules of the game) and the Monster Manual. Your players need access to the Player's Handbook, too, but they can share as needed.",
+    "Let players know beforehand what books (other than the Player's Handbook) they can reference during a playing session. For example, it is not appropriate for players to look up a monster in the Monster Manual (or the equivalent digital tool) while fighting that monster. If you are running a published adventure, players should avoid reading that adventure so they do not spoil any surprises."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Rulebooks"
+  },
+  "notes": []
+}

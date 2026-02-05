@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.trade_hub",
+  "name": "Trade Hub",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use trade to justify diverse NPCs and goods.",
+    "Let commerce drive factions and rivalries.",
+    "Tie economic shifts to adventure hooks."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Trade Hub"
+  },
+  "notes": []
+}

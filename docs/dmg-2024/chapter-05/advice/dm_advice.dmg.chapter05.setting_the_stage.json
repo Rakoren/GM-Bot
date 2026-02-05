@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.setting_the_stage",
+  "name": "Setting the Stage",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Share starting location details and relevant recent events.",
+    "Outline key factions or NPCs the party should know.",
+    "Set expectations for the opening sessions tone and stakes."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "session-zero"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      133
+    ],
+    "section": "Setting the Stage"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.poison",
+  "name": "Poison",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use poisons to add risk and tension without overwhelming play.",
+    "Clarify how poisons are acquired, used, and resisted.",
+    "Balance poison effects against party level and access."
+  ],
+  "tags": [
+    "chapter-03",
+    "poison"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Poison"
+  },
+  "notes": []
+}

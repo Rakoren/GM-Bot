@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.plan_encounters",
+  "name": "Plan Encounters",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Define each encounter as an objective plus an obstacle.",
+    "Use encounters to move characters toward a goal, complicate progress, or reveal new information.",
+    "Vary encounter types and stakes to sustain momentum."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Plan Encounters"
+  },
+  "notes": []
+}

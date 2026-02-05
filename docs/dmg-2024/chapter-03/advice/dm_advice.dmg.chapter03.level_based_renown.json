@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.level_based_renown",
+  "name": "Level-Based Renown",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use level-based renown to match advancement pace.",
+    "Tie renown thresholds to major story beats.",
+    "Keep renown growth aligned with party power."
+  ],
+  "tags": [
+    "chapter-03",
+    "renown"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Level-Based Renown"
+  },
+  "notes": []
+}

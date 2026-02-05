@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.choose_equipment",
+  "name": "Choose Equipment",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Assign equipment that supports the background’s theme and role.",
+    "Keep starting gear in line with other backgrounds.",
+    "Use equipment to reinforce story details."
+  ],
+  "tags": [
+    "chapter-03",
+    "backgrounds"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Choose Equipment"
+  },
+  "notes": []
+}

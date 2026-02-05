@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.inner_planes",
+  "name": "Inner Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Elemental and Para-elemental Planes as the raw substance of creation surrounding the Material Plane.",
+    "Use border regions for mixed-element environments and easier travel; reserve the outer regions for pure, hostile elements.",
+    "Introduce elementals and elemental lords as dominant forces, with Elemental Chaos at the farthest reaches."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "inner-planes"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      173,
+      174
+    ],
+    "section": "Inner Planes"
+  },
+  "notes": []
+}

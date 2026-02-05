@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.multiple_dms",
+  "name": "Multiple DMs",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Multiple DMs can share workload and enable bigger campaigns.",
+    "Agree on division of responsibilities and consistent rulings.",
+    "Coordinate tone and continuity across sessions."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Multiple DMs"
+  },
+  "notes": []
+}

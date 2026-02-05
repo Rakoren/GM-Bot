@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.advantage_and_disadvantage",
+    "name":  "Advantage and Disadvantage",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use advantage or disadvantage to reflect helpful or hindering circumstances.",
+                     "Advantage and disadvantage cancel each other out.",
+                     "Reserve them for significant situational effects."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    31
+                                ],
+                      "section":  "Advantage and Disadvantage"
+                  },
+    "notes":  [
+
+              ]
+}

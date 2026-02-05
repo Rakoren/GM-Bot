@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.adventure_hooks",
+  "name": "Adventure Hooks",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Seed multiple hooks to give players choices.",
+    "Tie hooks to factions, locations, or rumors.",
+    "Scale hooks to match party level and interests."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Adventure Hooks"
+  },
+  "notes": []
+}

@@ -1,0 +1,518 @@
+{
+    "id":  "table.dmg.chapter05.sections",
+    "name":  "Chapter 5 Section Pages",
+    "chapter":  "dmg-2024.chapter-05",
+    "status":  "draft",
+    "columns":  [
+                    "heading",
+                    "page_ref"
+                ],
+    "entries":  [
+                    {
+                        "heading":  "CHAPTER 5: CREATING CAMPAIGNS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "STEP-BY-STEP CAMPAIGNS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "YOUR CAMPAIGN JOURNAL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "KEEPING A JOURNAL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "USING YOUR JOURNAL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "FORESHADOWING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE STOCKPILE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CAMPAIGN PREMISE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CAMPAIGN CHARACTERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "PLAYER INPUT",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CHARACTER ARCS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CAMPAIGN CONFLICTS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CONFLICT ARCS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "FLAVORS OF FANTASY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "HEROIC FANTASY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SWORD AND SORCERY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EPIC FANTASY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MYTHIC FANTASY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SUPERNATURAL HORROR",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "INTRIGUE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MYSTERY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SWASHBUCKLING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "WAR",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CROSSING THE STREAMS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CAMPAIGN SETTING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "USING A PUBLISHED SETTING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CREATING YOUR OWN SETTING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CAMPAIGN START",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SESSION ZERO",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CHARACTER CREATION",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BRINGING THE PARTY TOGETHER",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SETTING THE STAGE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "STARTING LOCATION",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "FIRST ADVENTURE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "PLAN ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EPISODES AND SERIALS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EPISODES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SERIALS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GETTING PLAYERS INVESTED",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "RECURRING ELEMENTS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "PLAYER FAVORITES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ACKNOWLEDGE THE INCREDIBLE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BREAK EPISODES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TIME IN THE CAMPAIGN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TIMED EVENTS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ENDING A CAMPAIGN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ENDING SOONER THAN EXPECTED",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GREYHAWK",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "POSTER MAP",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "IMPORTANT NAMES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GREYHAWK CONFLICTS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CHROMATIC DRAGONS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ELEMENTAL EVIL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "IUZ THE EVIL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "THE GREYHAWK SETTING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MONTHS AND FESTIVALS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "FACTIONS AND ORGANIZATIONS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CIRCLE OF EIGHT",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "KNIGHTS OF THE WATCH",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ORDER OF THE HART",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SCARLET ORDER",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURERS AND ORGANIZATIONS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MAGIC IN GREYHAWK",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MYSTERIES OF GREYHAWK",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GODS OF GREYHAWK",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "FREE CITY OF GREYHAWK",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "START HERE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE HOOKS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BASTION FRIENDLY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "KEY CONFLICTS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "LOCAL HURLY-BURLY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "NEARBY ATTRACTIONS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "PORT IN THE STORM",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TRADE HUB",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "HOW TO USE THE CITY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BACKGROUND CONNECTIONS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY ACTIVITIES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "HOME BASE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "URBAN ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY OVERVIEW",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY GOVERNMENT",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY WATCH",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY WALLS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY GATES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CRIME",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "RELIGION",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY NEIGHBORHOODS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CITY LOCATIONS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BLACK DRAGON INN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GRAND CITADEL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GREAT LIBRARY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "HIGH TOWER INN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SILVER DRAGON INN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TEMPLE OF THE FAR HORIZON",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TEMPLE OF THE RADIANT SUN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "UNEARTHED ARCANA",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BEYOND THE CITY WALLS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GREYHAWK GAZETTEER",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "THE BIG PICTURE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "LIVING HISTORY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CENTRAL FLANAESS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BATTLE OF EMRIDY MEADOWS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "THE RISE OF IUZ",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CENTRAL FLANAESS CULTURE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CENTRAL FLANAESS ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EASTERN FLANAESS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SHAR",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EASTERN FLANAESS CULTURE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EASTERN FLANAESS AND ITS NEIGHBORS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EASTERN FLANAESS ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "NORTHERN FLANAESS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BAKLUNISH NOMADS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "THE NORTH KINGDOMS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "THE HUNTING LANDS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "NORTHERN FLANAESS AND ITS NEIGHBORS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "NORTHERN FLANAESS ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "OLD KEOLAND",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "OLD KEOLAND CULTURE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "OLD KEOLAND AND ITS NEIGHBORS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "OLD KEOLAND ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "WESTERN FLANAESS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "WESTERN FLANAESS CULTURE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "WESTERN FLANAESS AND ITS NEIGHBORS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "WESTERN FLANAESS ADVENTURES",
+                        "page_ref":  "TBD"
+                    }
+                ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    126
+                                ],
+                      "section":  "Chapter 5: Creating Campaigns"
+                  },
+    "notes":  [
+                  "Page refs TBD; fill with exact page numbers once verified."
+              ]
+}

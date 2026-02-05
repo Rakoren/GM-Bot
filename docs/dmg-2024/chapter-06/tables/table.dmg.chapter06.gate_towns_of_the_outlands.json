@@ -1,0 +1,84 @@
+{
+  "id": "table.dmg.chapter06.gate_towns_of_the_outlands",
+  "name": "Gate-Towns of the Outlands",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "town",
+    "gate_destination"
+  ],
+  "entries": [
+    {
+      "town": "Automata",
+      "gate_destination": "Mechanus"
+    },
+    {
+      "town": "Bedlam",
+      "gate_destination": "Pandemonium"
+    },
+    {
+      "town": "Curst",
+      "gate_destination": "Carceri"
+    },
+    {
+      "town": "Ecstasy",
+      "gate_destination": "Elysium"
+    },
+    {
+      "town": "Excelsior",
+      "gate_destination": "Mount Celestia"
+    },
+    {
+      "town": "Faunel",
+      "gate_destination": "Beastlands"
+    },
+    {
+      "town": "Fortitude",
+      "gate_destination": "Arcadia"
+    },
+    {
+      "town": "Glorium",
+      "gate_destination": "Ysgard"
+    },
+    {
+      "town": "Hopeless",
+      "gate_destination": "Hades"
+    },
+    {
+      "town": "Plague-Mort",
+      "gate_destination": "Abyss"
+    },
+    {
+      "town": "Ribcage",
+      "gate_destination": "Nine Hells"
+    },
+    {
+      "town": "Rigus",
+      "gate_destination": "Acheron"
+    },
+    {
+      "town": "Sylvania",
+      "gate_destination": "Arborea"
+    },
+    {
+      "town": "Torch",
+      "gate_destination": "Gehenna"
+    },
+    {
+      "town": "Tradegate",
+      "gate_destination": "Bytopia"
+    },
+    {
+      "town": "Xaos",
+      "gate_destination": "Limbo"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      205
+    ],
+    "section": "Gate-Towns of the Outlands"
+  },
+  "notes": []
+}

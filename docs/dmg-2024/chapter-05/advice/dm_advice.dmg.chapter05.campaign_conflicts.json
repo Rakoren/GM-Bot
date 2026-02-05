@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.campaign_conflicts",
+  "name": "Campaign Conflicts",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Define large-scale conflicts that shape the campaign.",
+    "Allow multiple factions or forces to pursue their own goals.",
+    "Let player choices determine alignment with or against forces."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      128
+    ],
+    "section": "Campaign Conflicts"
+  },
+  "notes": []
+}

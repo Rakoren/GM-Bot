@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.variety_series",
+  "name": "Variety Series",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Alternate different adventure styles to keep long campaigns fresh.",
+    "Use one-shots or short arcs to reset tone or explore new ideas.",
+    "Let players try new characters or themes without derailing the main story."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Variety Series"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.getting_players_invested",
+  "name": "Getting Players Invested",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Tie adventures to character goals and backstories.",
+    "Use recurring elements to build familiarity and stakes.",
+    "Reward engagement with meaningful consequences."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "players"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      135
+    ],
+    "section": "Getting Players Invested"
+  },
+  "notes": []
+}

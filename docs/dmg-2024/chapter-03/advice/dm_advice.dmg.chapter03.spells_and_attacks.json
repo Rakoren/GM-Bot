@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.spells_and_attacks",
+  "name": "Spells and Attacks",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Allow attacks and spells during a chase when targets are in range.",
+    "Participants usually can’t make opportunity attacks against each other.",
+    "Creatures not in the chase can still make opportunity attacks."
+  ],
+  "tags": [
+    "chapter-03",
+    "chase"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Spells and Attacks"
+  },
+  "notes": []
+}

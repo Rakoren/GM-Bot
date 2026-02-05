@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.special_rights",
+  "name": "Special Rights",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Rights grant legal privileges or exemptions.",
+    "Define who recognizes the rights and where.",
+    "Use rights to unlock social or political paths."
+  ],
+  "tags": [
+    "chapter-03",
+    "prestige"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Special Rights"
+  },
+  "notes": []
+}

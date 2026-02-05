@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter04.supernatural_hooks",
+  "name": "Supernatural Hooks",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "hook"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "hook": "The characters all have a vivid dream that foreshadows elements of the adventure."
+    },
+    {
+      "roll": "2",
+      "hook": "While preparing spells, one character receives a quest from a god or patron."
+    },
+    {
+      "roll": "3",
+      "hook": "A fortune teller's reading for one of the characters points to a quest and offers hints about challenges that lie ahead."
+    },
+    {
+      "roll": "4",
+      "hook": "Flames, clouds, smoke, or huge flocks of birds take distinct shapes that portend the adventure situation."
+    },
+    {
+      "roll": "5",
+      "hook": "Animals or animated objects speak clearly to direct the adventurers toward the situation."
+    },
+    {
+      "roll": "6",
+      "hook": "Someone who died returns as a ghost and haunts the characters. The ghost prompts the characters to investigate the cause of the ghost's death and put it to rest."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      106
+    ],
+    "section": "Supernatural Hooks"
+  },
+  "notes": []
+}

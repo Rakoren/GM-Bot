@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter06.feywild_time_warp",
+  "name": "Feywild Time Warp",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "result"
+  ],
+  "entries": [
+    {
+      "roll": "1-2",
+      "result": "Days become minutes"
+    },
+    {
+      "roll": "3-6",
+      "result": "Days become hours"
+    },
+    {
+      "roll": "7-13",
+      "result": "No change"
+    },
+    {
+      "roll": "14-17",
+      "result": "Days become weeks"
+    },
+    {
+      "roll": "18-19",
+      "result": "Days become months"
+    },
+    {
+      "roll": "20",
+      "result": "Days become years"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195
+    ],
+    "section": "Feywild Time Warp"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.instigating",
+  "name": "Instigating",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Instigators are eager to make things happen and take risks.",
+    "Let their actions change the environment.",
+    "Seed temptations that invite bold choices.",
+    "Put characters in tight spots and use feisty, unpredictable NPCs."
+  ],
+  "tags": [
+    "chapter-02",
+    "player-preferences"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Instigating"
+  },
+  "notes": []
+}

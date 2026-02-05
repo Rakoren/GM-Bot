@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.the_north_kingdoms",
+  "name": "The North Kingdoms",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use seafaring and warrior culture as defining traits.",
+    "Emphasize raiding, rivalry, and clan ties.",
+    "Tie conflicts to neighboring regions and seas."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      148
+    ],
+    "section": "The North Kingdoms"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.actions_indicate_alignment",
+  "name": "Actions Indicate Alignment",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Treat alignment as a reflection of a character’s repeated actions.",
+    "Let behavior, not stated beliefs, define alignment at the table.",
+    "Allow alignment to drift when a character’s actions change."
+  ],
+  "tags": [
+    "chapter-03",
+    "alignment"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      51
+    ],
+    "section": "Actions Indicate Alignment"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_leap_to_another_realm",
+  "name": "The Leap to Another Realm",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Teleportation Circle, Teleport, or portals for direct world-to-world jumps.",
+    "Require known destinations or circles to avoid misfires."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "material-plane",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      199
+    ],
+    "section": "The Leap to Another Realm"
+  },
+  "notes": []
+}

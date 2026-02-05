@@ -1,0 +1,317 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": "dmg-2024.chapter-01",
+  "title": "DMG 2024 - Chapter 1: The Basics",
+  "generated_at": "2026-01-31",
+  "paths": {
+    "tables_dir": "dmg-2024/chapter-01/tables",
+    "lists_dir": "dmg-2024/chapter-01/lists"
+  },
+  "shards": [
+    {
+      "id": "table.dmg.chapter01.sections",
+      "type": "table",
+      "path": "dmg-2024/chapter-01/tables/table.dmg.chapter01.sections.json"
+    },
+    {
+      "id": "list.dmg.chapter01.sections",
+      "type": "list",
+      "path": "dmg-2024/chapter-01/lists/list.dmg.chapter01.sections.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.dm_tips",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.dm_tips.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.whats_new_2024",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.whats_new_2024.json"
+    },
+    {
+      "id": "procedure.dmg.chapter01.one_hour_preparation",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-01/procedures/procedure.dmg.chapter01.one_hour_preparation.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.how_to_run_a_session",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.how_to_run_a_session.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.encounters",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.encounters.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.passing_time",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.passing_time.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.taking_breaks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.taking_breaks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.ending_a_session",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.ending_a_session.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.example_of_play",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.example_of_play.json"
+    },
+    {
+      "id": "procedure.dmg.chapter01.encounter_flow",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-01/procedures/procedure.dmg.chapter01.encounter_flow.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.rule_of_fun",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.rule_of_fun.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.every_dm_is_unique",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.every_dm_is_unique.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.play_style",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.play_style.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.house_rules",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.house_rules.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.recording_rules_interpretations",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.recording_rules_interpretations.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.atmosphere",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.atmosphere.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.delegation",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.delegation.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.learning_by_observing",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.learning_by_observing.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.ensuring_fun_for_all",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.ensuring_fun_for_all.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.mutual_respect",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.mutual_respect.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.setting_expectations",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.setting_expectations.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.game_expectations_sheet",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.game_expectations_sheet.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.hard_and_soft_limits",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.hard_and_soft_limits.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.intra_party_conflict",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.intra_party_conflict.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.respect_for_the_players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.respect_for_the_players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.sharing_the_spotlight",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.sharing_the_spotlight.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.tragic_limits",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.tragic_limits.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.dm_die_rolling",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.dm_die_rolling.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.overly_cautious_players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.overly_cautious_players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.respect_for_the_dm",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.respect_for_the_dm.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.player_die_rolling",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.player_die_rolling.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.social_contract",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.social_contract.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.rules_discussions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.rules_discussions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.character_knowledge",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.character_knowledge.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.antisocial_behavior",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.antisocial_behavior.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.players_exploiting_rules",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.players_exploiting_rules.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.knowing_the_rules",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.knowing_the_rules.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.rules_for_virtual_table",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.rules_for_virtual_table.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.things_you_need",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.things_you_need.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.rulebooks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.rulebooks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.a_dungeon_master",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.a_dungeon_master.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.finding_players",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.finding_players.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.a_place_to_play",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.a_place_to_play.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.scheduling_games",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.scheduling_games.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.dice",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.dice.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.note_taking_materials",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.note_taking_materials.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.character_sheets",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.character_sheets.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.campaign_journal",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.campaign_journal.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.useful_additions",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.useful_additions.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.dm_screen",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.dm_screen.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.adventures_and_sourcebooks",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.adventures_and_sourcebooks.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.battle_grid_and_miniatures",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.battle_grid_and_miniatures.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.card_accessories",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.card_accessories.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.preparing_a_session",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.preparing_a_session.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.one_hour_guideline",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.one_hour_guideline.json"
+    },
+    {
+      "id": "dm_advice.dmg.chapter01.preparation_time",
+      "type": "dm_advice",
+      "path": "dmg-2024/chapter-01/advice/dm_advice.dmg.chapter01.preparation_time.json"
+    },
+    {
+      "id": "procedure.dmg.chapter01.two_hour_preparation",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-01/procedures/procedure.dmg.chapter01.two_hour_preparation.json"
+    },
+    {
+      "id": "procedure.dmg.chapter01.three_hour_preparation",
+      "type": "procedure",
+      "path": "dmg-2024/chapter-01/procedures/procedure.dmg.chapter01.three_hour_preparation.json"
+    }
+  ]
+}

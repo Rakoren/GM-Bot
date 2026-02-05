@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.wildspace",
+  "name": "Wildspace",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Wildspace systems are airless expanses where the Astral overlaps the Material Plane.",
+    "Use Wildspace to access stars, planets, and cosmic bodies of the Material Plane.",
+    "Creatures age normally in Wildspace and can teleport between Wildspace and nearby worlds."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "astral",
+    "wildspace"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      184
+    ],
+    "section": "Wildspace"
+  },
+  "notes": []
+}

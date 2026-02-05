@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter08.facility_space",
+  "name": "Facility Space",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "columns": [
+    "space",
+    "maximum_area"
+  ],
+  "entries": [
+    {
+      "space": "Cramped",
+      "maximum_area": "4 squares"
+    },
+    {
+      "space": "Roomy",
+      "maximum_area": "16 squares"
+    },
+    {
+      "space": "Vast",
+      "maximum_area": "36 squares"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Facility Space"
+  },
+  "notes": []
+}

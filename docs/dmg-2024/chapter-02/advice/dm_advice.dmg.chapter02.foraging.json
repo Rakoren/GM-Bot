@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.foraging",
+    "name":  "Foraging",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Allow foraging to supplement food and supplies.",
+                     "Use checks based on terrain and season.",
+                     "Track time spent foraging as part of travel."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    43
+                                ],
+                      "section":  "Foraging"
+                  },
+    "notes":  [
+
+              ]
+}

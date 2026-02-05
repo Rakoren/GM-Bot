@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter05.unearthed_arcana",
+  "name": "Unearthed Arcana",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Treat the location as a source of rare magical knowledge.",
+    "Restrict access to preserve mystique.",
+    "Use it to seed high-level hooks and artifacts."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      144
+    ],
+    "section": "Unearthed Arcana"
+  },
+  "notes": []
+}

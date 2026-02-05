@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.darkened_depths",
+  "name": "Darkened Depths",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Make the depths lightless, crushing, and lethal to surface dwellers.",
+    "Populate with krakens and other leviathans to convey primal terror."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-water"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      190
+    ],
+    "section": "Darkened Depths"
+  },
+  "notes": []
+}

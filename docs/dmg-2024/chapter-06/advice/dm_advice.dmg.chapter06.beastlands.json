@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.beastlands",
+  "name": "Beastlands",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Beastlands as untamed nature in all its beauty and feral vitality.",
+    "Use animal lords and animal-shaped spirits to emphasize the plane?s primal identity.",
+    "Apply the Beast-slaying curse to highlight the plane?s reverence for animal life."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "beastlands"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      186
+    ],
+    "section": "Beastlands"
+  },
+  "notes": []
+}

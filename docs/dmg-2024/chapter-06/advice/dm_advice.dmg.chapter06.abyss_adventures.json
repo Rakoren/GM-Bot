@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter06.abyss_adventures",
+  "name": "Abyss Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat journeys into the Abyss as confrontations with corruption and desperation.",
+    "Use demonic hordes, lost relics, and survival against betrayal as core adventure motifs.",
+    "Let Abyssal influence seep through portals, creating corrupted pockets on other planes."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      181,
+      182
+    ],
+    "section": "Abyss Adventures"
+  },
+  "notes": []
+}

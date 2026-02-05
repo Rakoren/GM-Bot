@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.ysgard",
+  "name": "Ysgard",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Ysgard as a rugged realm of fjords, mountains, and battlefields.",
+    "Let slain heroes revive at dawn, turning war into eternal glory.",
+    "Use floating continents above volcanic oceans for vertical scale."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ysgard"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      210
+    ],
+    "section": "Ysgard"
+  },
+  "notes": []
+}

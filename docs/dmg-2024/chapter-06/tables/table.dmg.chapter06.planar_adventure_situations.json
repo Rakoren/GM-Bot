@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter06.planar_adventure_situations",
+  "name": "Planar Adventure Situations",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "situation"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "situation": "When magic fails to revive a dead person, the only solution is to venture to the Outer Planes to find the person?s spirit and either release it or convince it to return."
+    },
+    {
+      "roll": "2",
+      "situation": "People who enter the woods keep slipping into the Feywild or Shadowfell, returning changed or not returning at all."
+    },
+    {
+      "roll": "3",
+      "situation": "A long-dead oracle knows how to avert a terrible prophecy, but the prophecy?s fulfillment has already begun."
+    },
+    {
+      "roll": "4",
+      "situation": "A god has stopped answering prayers and won?t respond to any Commune spell."
+    },
+    {
+      "roll": "5",
+      "situation": "A devil has tricked an angel into meddling in the Blood War, and the angel seeks mortal aid."
+    },
+    {
+      "roll": "6",
+      "situation": "An ancestor of one character must be convinced to bless them before their bloodline?s full power can be unleashed."
+    },
+    {
+      "roll": "7",
+      "situation": "A foolhardy knight carried a holy weapon into the Nine Hells; the powers of Mount Celestia want the weapon and the knight?s remains retrieved."
+    },
+    {
+      "roll": "8",
+      "situation": "A titan is imprisoned on an Outer Plane; the characters must stop its release or free it to face a greater threat."
+    },
+    {
+      "roll": "9",
+      "situation": "To prove their worth, the characters are sent to slay a monster, win a planar patron?s favor, negotiate peace, or retrieve a lost item on another plane."
+    },
+    {
+      "roll": "10",
+      "situation": "An item of legend is being auctioned in Sigil, the City of Brass, or another planar metropolis."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      178
+    ],
+    "section": "Planar Adventure Situations"
+  },
+  "notes": []
+}

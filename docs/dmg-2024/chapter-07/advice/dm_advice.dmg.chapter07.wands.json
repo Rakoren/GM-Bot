@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.wands",
+  "name": "Wands (Magic Item Category)",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Wands are typically 12 to 15 inches long and crafted from metal, bone, or wood.",
+    "Unless noted otherwise, a wand can be used as an Arcane Focus."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Wands"
+  },
+  "notes": []
+}

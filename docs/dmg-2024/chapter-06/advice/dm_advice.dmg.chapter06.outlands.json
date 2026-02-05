@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.outlands",
+  "name": "Outlands",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Outlands as the neutral plane balancing all Outer Planes.",
+    "Keep it as a great disk with gate-towns around the edge.",
+    "Let the center resemble Material Plane terrain."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "outlands"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      205
+    ],
+    "section": "Outlands"
+  },
+  "notes": []
+}

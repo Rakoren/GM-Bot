@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.random_magic_item_rarity",
+  "name": "Random Magic Item Rarity",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Choose a rarity based on past awards or roll on the Magic Item Rarities table.",
+    "Use the party's level to select the column, roll 1d100, then read the item rarity result."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "Random Magic Item Rarity"
+  },
+  "notes": []
+}

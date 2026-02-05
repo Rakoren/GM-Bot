@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.barovia",
+  "name": "Barovia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Center Barovia on Castle Ravenloft and Strahd von Zarovich.",
+    "Use gothic dread and the valley's isolation as core tone."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209
+    ],
+    "section": "Barovia"
+  },
+  "notes": []
+}

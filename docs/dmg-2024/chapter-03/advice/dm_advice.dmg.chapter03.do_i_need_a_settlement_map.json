@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.do_i_need_a_settlement_map",
+  "name": "Do I Need a Settlement Map?",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use maps when navigation or tactics matter.",
+    "Skip maps for quick stops or abstract scenes.",
+    "Let detail level match the settlement's importance."
+  ],
+  "tags": [
+    "chapter-03",
+    "settlements"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Do I Need a Settlement Map?"
+  },
+  "notes": []
+}

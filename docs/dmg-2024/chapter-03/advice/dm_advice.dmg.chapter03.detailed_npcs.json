@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.detailed_npcs",
+  "name": "Detailed NPCs",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Create detailed NPCs for recurring or high-impact roles.",
+    "Give them goals, secrets, and relationships.",
+    "Track how they change as the campaign evolves."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Detailed NPCs"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter04.draw_in_the_players",
+  "name": "Draw In the Players",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Connect hooks to character goals, bonds, or obligations.",
+    "Use immediate consequences to create urgency.",
+    "Offer multiple reasons to engage with the adventure."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      106
+    ],
+    "section": "Draw In the Players"
+  },
+  "notes": []
+}

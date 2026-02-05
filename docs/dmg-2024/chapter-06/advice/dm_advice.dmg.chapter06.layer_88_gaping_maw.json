@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layer_88_gaping_maw",
+  "name": "Layer 88: The Gaping Maw",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Make the Gaping Maw a brutal wilderness split between jungle and ocean, reflecting Demogorgon?s duality.",
+    "Use Abysm?s twin towers as a terrifying focal point and psychic hazard.",
+    "Lean into fear and instability as ambient effects of Demogorgon?s presence."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Layer 88: The Gaping Maw"
+  },
+  "notes": []
+}

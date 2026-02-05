@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.joint_dms",
+  "name": "Joint DMs",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Joint DMs can co-run a single campaign for collaboration and coverage.",
+    "Define who handles prep, rules calls, and session leadership.",
+    "Keep a shared log to preserve continuity."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Joint DMs"
+  },
+  "notes": []
+}

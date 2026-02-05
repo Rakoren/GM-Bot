@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.silt_flats",
+  "name": "Silt Flats",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Depict the Silt Flats as sludge-thick waters near the Plane of Ooze.",
+    "Use the transition from water to muddy ground to signal para-elemental influence."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-water"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      191
+    ],
+    "section": "Silt Flats"
+  },
+  "notes": []
+}

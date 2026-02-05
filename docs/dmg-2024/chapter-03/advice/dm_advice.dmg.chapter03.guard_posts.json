@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.guard_posts",
+  "name": "Guard Posts",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use guard posts to show security and control.",
+    "Place sightlines and alarms to shape infiltration.",
+    "Staff posts based on dungeon difficulty."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Guard Posts"
+  },
+  "notes": []
+}

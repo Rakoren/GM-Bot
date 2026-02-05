@@ -1,0 +1,69 @@
+{
+  "id": "table.dmg.chapter07.gemstones_10gp",
+  "name": "10 GP Gemstones",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "stone"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "stone": "Azurite (mottled deep blue)"
+    },
+    {
+      "roll": "2",
+      "stone": "Banded agate (striped brown, blue, white, or red)"
+    },
+    {
+      "roll": "3",
+      "stone": "Blue quartz (pale blue)"
+    },
+    {
+      "roll": "4",
+      "stone": "Eye agate (circles of gray, white, brown, blue, or green)"
+    },
+    {
+      "roll": "5",
+      "stone": "Hematite (gray black)"
+    },
+    {
+      "roll": "6",
+      "stone": "Lapis lazuli (light and dark blue with yellow flecks)"
+    },
+    {
+      "roll": "7",
+      "stone": "Malachite (striated light and dark green)"
+    },
+    {
+      "roll": "8",
+      "stone": "Moss agate (pink or yellow white with mossy gray or green markings)"
+    },
+    {
+      "roll": "9",
+      "stone": "Obsidian (black)"
+    },
+    {
+      "roll": "10",
+      "stone": "Rhodochrosite (light pink)"
+    },
+    {
+      "roll": "11",
+      "stone": "Tiger eye (brown with golden center)"
+    },
+    {
+      "roll": "12",
+      "stone": "Turquoise (light blue green)"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213,
+      214
+    ],
+    "section": "10 GP Gemstones"
+  },
+  "notes": []
+}

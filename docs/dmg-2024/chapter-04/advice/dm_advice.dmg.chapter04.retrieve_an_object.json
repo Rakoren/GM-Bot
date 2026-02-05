@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.retrieve_an_object",
+  "name": "Retrieve an Object",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Set a clear target item and location, often with a time limit.",
+    "Use monsters, traps, or hazards as obstacles to reaching the item.",
+    "Add rivals who also want the object to create conflict."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Retrieve an Object"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.elemental_evil",
+  "name": "Elemental Evil",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use elemental cults and forces as campaign antagonists.",
+    "Tie elemental threats to specific regions and disasters.",
+    "Escalate from local disturbances to world-level danger."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      138
+    ],
+    "section": "Elemental Evil"
+  },
+  "notes": []
+}

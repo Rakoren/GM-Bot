@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.protect_an_npc_or_object",
+  "name": "Protect an NPC or Object",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Frame the encounter as a bodyguard mission or defense of a specific item.",
+    "Complicate the protection target with curses, panic, sentience, or transport difficulty.",
+    "Blend combat or exploration threats with social pressure if an NPC is involved."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Protect an NPC or Object"
+  },
+  "notes": []
+}

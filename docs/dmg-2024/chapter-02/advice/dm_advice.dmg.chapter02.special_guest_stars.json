@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.special_guest_stars",
+  "name": "Special Guest Stars",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Guest players can be fun cameos or short-term additions.",
+    "Give guests clear roles that support the current adventure.",
+    "Set expectations for spotlight time and session goals."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Special Guest Stars"
+  },
+  "notes": []
+}

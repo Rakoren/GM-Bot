@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.greyhawk_gazetteer",
+  "name": "Greyhawk Gazetteer",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the gazetteer as a menu of regions and conflicts.",
+    "Introduce regions as the campaign expands.",
+    "Let geography and politics shape adventure hooks."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      144
+    ],
+    "section": "Greyhawk Gazetteer"
+  },
+  "notes": []
+}

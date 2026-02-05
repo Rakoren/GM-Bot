@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.improvising_damage",
+    "name":  "Improvising Damage",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "When damage isn\u0027t specified, choose dice that match the threat.",
+                     "Use consistency and relative danger to guide damage values.",
+                     "Consider environmental hazards and narrative stakes."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    32
+                                ],
+                      "section":  "Improvising Damage"
+                  },
+    "notes":  [
+
+              ]
+}

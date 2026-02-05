@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter02.combat_pacing_adjustment",
+  "name": "Combat Pacing Adjustment",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "triggers": [
+    "when combat stalls or the outcome is no longer in doubt"
+  ],
+  "steps": [
+    "Identify the current state and whether pacing is lagging.",
+    "Pick one adjustment: add a combatant, change terrain, or change the monster.",
+    "Alternatively, end hostilities or hasten a monster's demise.",
+    "Apply the adjustment transparently and narrate the change.",
+    "Continue combat or transition to the aftermath."
+  ],
+  "tags": [
+    "chapter-02",
+    "combat"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52,
+      53
+    ],
+    "section": "Keeping Combat Moving"
+  },
+  "notes": []
+}
+
+
+

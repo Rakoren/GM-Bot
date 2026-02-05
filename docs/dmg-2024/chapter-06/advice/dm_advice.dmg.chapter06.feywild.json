@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.feywild",
+  "name": "Feywild",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat the Feywild as a realm of wonder that responds to emotion.",
+    "Keep time and distance mutable; roads shift and geography changes.",
+    "Use parallel locations to the Material Plane, but more vibrant and magical."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      194,
+      195
+    ],
+    "section": "Feywild"
+  },
+  "notes": []
+}

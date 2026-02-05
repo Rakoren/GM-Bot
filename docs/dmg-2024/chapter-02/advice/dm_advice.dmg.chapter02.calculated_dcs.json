@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.calculated_dcs",
+    "name":  "Calculated DCs",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use formulas or rules references when a DC is specified.",
+                     "Calculate DCs for tasks tied to creature or spell stats.",
+                     "Document or communicate the basis for the DC when needed."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    31
+                                ],
+                      "section":  "Calculated DCs"
+                  },
+    "notes":  [
+
+              ]
+}

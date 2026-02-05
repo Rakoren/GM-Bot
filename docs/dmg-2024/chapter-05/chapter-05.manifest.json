@@ -1,0 +1,645 @@
+{
+    "schema_version":  "0.1.0",
+    "chapter":  "dmg-2024.chapter-05",
+    "title":  "DMG 2024 - Chapter 5: Creating Campaigns",
+    "generated_at":  "2026-02-04",
+    "paths":  {
+                  "tables_dir":  "dmg-2024/chapter-05/tables",
+                  "lists_dir":  "dmg-2024/chapter-05/lists",
+                  "advice_dir":  "dmg-2024/chapter-05/advice",
+                  "procedures_dir":  "dmg-2024/chapter-05/procedures",
+                  "setting_examples_dir":  "dmg-2024/chapter-05/setting_examples"
+              },
+    "shards":  [
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.acknowledge_the_incredible.json",
+                       "id":  "dm_advice.dmg.chapter05.acknowledge_the_incredible",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.adventure_hooks.json",
+                       "id":  "dm_advice.dmg.chapter05.adventure_hooks",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.adventure_stockpile.json",
+                       "id":  "dm_advice.dmg.chapter05.adventure_stockpile",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.adventurers_and_organizations.json",
+                       "id":  "dm_advice.dmg.chapter05.adventurers_and_organizations",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.background_connections.json",
+                       "id":  "dm_advice.dmg.chapter05.background_connections",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.baklunish_nomads.json",
+                       "id":  "dm_advice.dmg.chapter05.baklunish_nomads",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.bastion_friendly.json",
+                       "id":  "dm_advice.dmg.chapter05.bastion_friendly",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.battle_of_emridy_meadows.json",
+                       "id":  "dm_advice.dmg.chapter05.battle_of_emridy_meadows",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.beyond_the_city_walls.json",
+                       "id":  "dm_advice.dmg.chapter05.beyond_the_city_walls",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.black_dragon_inn.json",
+                       "id":  "dm_advice.dmg.chapter05.black_dragon_inn",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.break_episodes.json",
+                       "id":  "dm_advice.dmg.chapter05.break_episodes",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.bringing_the_party_together.json",
+                       "id":  "dm_advice.dmg.chapter05.bringing_the_party_together",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.campaign_characters.json",
+                       "id":  "dm_advice.dmg.chapter05.campaign_characters",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.campaign_conflicts.json",
+                       "id":  "dm_advice.dmg.chapter05.campaign_conflicts",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.campaign_premise.json",
+                       "id":  "dm_advice.dmg.chapter05.campaign_premise",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.campaign_setting.json",
+                       "id":  "dm_advice.dmg.chapter05.campaign_setting",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.campaign_start.json",
+                       "id":  "dm_advice.dmg.chapter05.campaign_start",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.central_flanaess.json",
+                       "id":  "dm_advice.dmg.chapter05.central_flanaess",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.central_flanaess_adventures.json",
+                       "id":  "dm_advice.dmg.chapter05.central_flanaess_adventures",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.central_flanaess_culture.json",
+                       "id":  "dm_advice.dmg.chapter05.central_flanaess_culture",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.character_arcs.json",
+                       "id":  "dm_advice.dmg.chapter05.character_arcs",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.character_creation.json",
+                       "id":  "dm_advice.dmg.chapter05.character_creation",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.chromatic_dragons.json",
+                       "id":  "dm_advice.dmg.chapter05.chromatic_dragons",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.circle_of_eight.json",
+                       "id":  "dm_advice.dmg.chapter05.circle_of_eight",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_activities.json",
+                       "id":  "dm_advice.dmg.chapter05.city_activities",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_gates.json",
+                       "id":  "dm_advice.dmg.chapter05.city_gates",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_government.json",
+                       "id":  "dm_advice.dmg.chapter05.city_government",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_locations.json",
+                       "id":  "dm_advice.dmg.chapter05.city_locations",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_neighborhoods.json",
+                       "id":  "dm_advice.dmg.chapter05.city_neighborhoods",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_overview.json",
+                       "id":  "dm_advice.dmg.chapter05.city_overview",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_walls.json",
+                       "id":  "dm_advice.dmg.chapter05.city_walls",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.city_watch.json",
+                       "id":  "dm_advice.dmg.chapter05.city_watch",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.conflict_arcs.json",
+                       "id":  "dm_advice.dmg.chapter05.conflict_arcs",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.creating_your_own_setting.json",
+                       "id":  "dm_advice.dmg.chapter05.creating_your_own_setting",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.crime.json",
+                       "id":  "dm_advice.dmg.chapter05.crime",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.crossing_the_streams.json",
+                       "id":  "dm_advice.dmg.chapter05.crossing_the_streams",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.eastern_flanaess.json",
+                       "id":  "dm_advice.dmg.chapter05.eastern_flanaess",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.eastern_flanaess_adventures.json",
+                       "id":  "dm_advice.dmg.chapter05.eastern_flanaess_adventures",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.eastern_flanaess_and_its_neighbors.json",
+                       "id":  "dm_advice.dmg.chapter05.eastern_flanaess_and_its_neighbors",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.eastern_flanaess_culture.json",
+                       "id":  "dm_advice.dmg.chapter05.eastern_flanaess_culture",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.elemental_evil.json",
+                       "id":  "dm_advice.dmg.chapter05.elemental_evil",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.ending_a_campaign.json",
+                       "id":  "dm_advice.dmg.chapter05.ending_a_campaign",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.ending_sooner_than_expected.json",
+                       "id":  "dm_advice.dmg.chapter05.ending_sooner_than_expected",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.epic_fantasy.json",
+                       "id":  "dm_advice.dmg.chapter05.epic_fantasy",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.episodes.json",
+                       "id":  "dm_advice.dmg.chapter05.episodes",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.episodes_and_serials.json",
+                       "id":  "dm_advice.dmg.chapter05.episodes_and_serials",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.factions_and_organizations.json",
+                       "id":  "dm_advice.dmg.chapter05.factions_and_organizations",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.first_adventure.json",
+                       "id":  "dm_advice.dmg.chapter05.first_adventure",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.flavors_of_fantasy.json",
+                       "id":  "dm_advice.dmg.chapter05.flavors_of_fantasy",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.foreshadowing.json",
+                       "id":  "dm_advice.dmg.chapter05.foreshadowing",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.free_city_of_greyhawk.json",
+                       "id":  "dm_advice.dmg.chapter05.free_city_of_greyhawk",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.getting_players_invested.json",
+                       "id":  "dm_advice.dmg.chapter05.getting_players_invested",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.gods_of_greyhawk.json",
+                       "id":  "dm_advice.dmg.chapter05.gods_of_greyhawk",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.grand_citadel.json",
+                       "id":  "dm_advice.dmg.chapter05.grand_citadel",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.great_library.json",
+                       "id":  "dm_advice.dmg.chapter05.great_library",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.greyhawk.json",
+                       "id":  "dm_advice.dmg.chapter05.greyhawk",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.greyhawk_conflicts.json",
+                       "id":  "dm_advice.dmg.chapter05.greyhawk_conflicts",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.greyhawk_gazetteer.json",
+                       "id":  "dm_advice.dmg.chapter05.greyhawk_gazetteer",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.heroic_fantasy.json",
+                       "id":  "dm_advice.dmg.chapter05.heroic_fantasy",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.high_tower_inn.json",
+                       "id":  "dm_advice.dmg.chapter05.high_tower_inn",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.home_base.json",
+                       "id":  "dm_advice.dmg.chapter05.home_base",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.how_to_use_the_city.json",
+                       "id":  "dm_advice.dmg.chapter05.how_to_use_the_city",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.important_names.json",
+                       "id":  "dm_advice.dmg.chapter05.important_names",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.intrigue.json",
+                       "id":  "dm_advice.dmg.chapter05.intrigue",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.iuz_the_evil.json",
+                       "id":  "dm_advice.dmg.chapter05.iuz_the_evil",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.keeping_a_journal.json",
+                       "id":  "dm_advice.dmg.chapter05.keeping_a_journal",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.key_conflicts.json",
+                       "id":  "dm_advice.dmg.chapter05.key_conflicts",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.knights_of_the_watch.json",
+                       "id":  "dm_advice.dmg.chapter05.knights_of_the_watch",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.living_history.json",
+                       "id":  "dm_advice.dmg.chapter05.living_history",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.local_hurly_burly.json",
+                       "id":  "dm_advice.dmg.chapter05.local_hurly_burly",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.magic_in_greyhawk.json",
+                       "id":  "dm_advice.dmg.chapter05.magic_in_greyhawk",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.months_and_festivals.json",
+                       "id":  "dm_advice.dmg.chapter05.months_and_festivals",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.mysteries_of_greyhawk.json",
+                       "id":  "dm_advice.dmg.chapter05.mysteries_of_greyhawk",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.mystery.json",
+                       "id":  "dm_advice.dmg.chapter05.mystery",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.mythic_fantasy.json",
+                       "id":  "dm_advice.dmg.chapter05.mythic_fantasy",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.nearby_attractions.json",
+                       "id":  "dm_advice.dmg.chapter05.nearby_attractions",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.northern_flanaess.json",
+                       "id":  "dm_advice.dmg.chapter05.northern_flanaess",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.northern_flanaess_adventures.json",
+                       "id":  "dm_advice.dmg.chapter05.northern_flanaess_adventures",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.northern_flanaess_and_its_neighbors.json",
+                       "id":  "dm_advice.dmg.chapter05.northern_flanaess_and_its_neighbors",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.old_keoland.json",
+                       "id":  "dm_advice.dmg.chapter05.old_keoland",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.old_keoland_adventures.json",
+                       "id":  "dm_advice.dmg.chapter05.old_keoland_adventures",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.old_keoland_and_its_neighbors.json",
+                       "id":  "dm_advice.dmg.chapter05.old_keoland_and_its_neighbors",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.old_keoland_culture.json",
+                       "id":  "dm_advice.dmg.chapter05.old_keoland_culture",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.order_of_the_hart.json",
+                       "id":  "dm_advice.dmg.chapter05.order_of_the_hart",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.plan_adventures.json",
+                       "id":  "dm_advice.dmg.chapter05.plan_adventures",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.player_favorites.json",
+                       "id":  "dm_advice.dmg.chapter05.player_favorites",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.player_input.json",
+                       "id":  "dm_advice.dmg.chapter05.player_input",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.port_in_the_storm.json",
+                       "id":  "dm_advice.dmg.chapter05.port_in_the_storm",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.poster_map.json",
+                       "id":  "dm_advice.dmg.chapter05.poster_map",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.recurring_elements.json",
+                       "id":  "dm_advice.dmg.chapter05.recurring_elements",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.religion.json",
+                       "id":  "dm_advice.dmg.chapter05.religion",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.scarlet_order.json",
+                       "id":  "dm_advice.dmg.chapter05.scarlet_order",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.serials.json",
+                       "id":  "dm_advice.dmg.chapter05.serials",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.session_zero.json",
+                       "id":  "dm_advice.dmg.chapter05.session_zero",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.setting_the_stage.json",
+                       "id":  "dm_advice.dmg.chapter05.setting_the_stage",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.shar.json",
+                       "id":  "dm_advice.dmg.chapter05.shar",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.silver_dragon_inn.json",
+                       "id":  "dm_advice.dmg.chapter05.silver_dragon_inn",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.start_here.json",
+                       "id":  "dm_advice.dmg.chapter05.start_here",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.starting_location.json",
+                       "id":  "dm_advice.dmg.chapter05.starting_location",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.step_by_step_campaigns.json",
+                       "id":  "dm_advice.dmg.chapter05.step_by_step_campaigns",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.supernatural_horror.json",
+                       "id":  "dm_advice.dmg.chapter05.supernatural_horror",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.swashbuckling.json",
+                       "id":  "dm_advice.dmg.chapter05.swashbuckling",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.sword_and_sorcery.json",
+                       "id":  "dm_advice.dmg.chapter05.sword_and_sorcery",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.temple_of_the_far_horizon.json",
+                       "id":  "dm_advice.dmg.chapter05.temple_of_the_far_horizon",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.temple_of_the_radiant_sun.json",
+                       "id":  "dm_advice.dmg.chapter05.temple_of_the_radiant_sun",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.the_big_picture.json",
+                       "id":  "dm_advice.dmg.chapter05.the_big_picture",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.the_greyhawk_setting.json",
+                       "id":  "dm_advice.dmg.chapter05.the_greyhawk_setting",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.the_hunting_lands.json",
+                       "id":  "dm_advice.dmg.chapter05.the_hunting_lands",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.the_north_kingdoms.json",
+                       "id":  "dm_advice.dmg.chapter05.the_north_kingdoms",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.the_rise_of_iuz.json",
+                       "id":  "dm_advice.dmg.chapter05.the_rise_of_iuz",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.time_in_the_campaign.json",
+                       "id":  "dm_advice.dmg.chapter05.time_in_the_campaign",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.timed_events.json",
+                       "id":  "dm_advice.dmg.chapter05.timed_events",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.trade_hub.json",
+                       "id":  "dm_advice.dmg.chapter05.trade_hub",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.unearthed_arcana.json",
+                       "id":  "dm_advice.dmg.chapter05.unearthed_arcana",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.urban_adventures.json",
+                       "id":  "dm_advice.dmg.chapter05.urban_adventures",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.using_a_published_setting.json",
+                       "id":  "dm_advice.dmg.chapter05.using_a_published_setting",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.using_your_journal.json",
+                       "id":  "dm_advice.dmg.chapter05.using_your_journal",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.war.json",
+                       "id":  "dm_advice.dmg.chapter05.war",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.western_flanaess.json",
+                       "id":  "dm_advice.dmg.chapter05.western_flanaess",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.western_flanaess_adventures.json",
+                       "id":  "dm_advice.dmg.chapter05.western_flanaess_adventures",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.western_flanaess_and_its_neighbors.json",
+                       "id":  "dm_advice.dmg.chapter05.western_flanaess_and_its_neighbors",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/setting_examples/dm_advice.dmg.chapter05.western_flanaess_culture.json",
+                       "id":  "dm_advice.dmg.chapter05.western_flanaess_culture",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/advice/dm_advice.dmg.chapter05.your_campaign_journal.json",
+                       "id":  "dm_advice.dmg.chapter05.your_campaign_journal",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "id":  "list.dmg.chapter05.sections",
+                       "type":  "list",
+                       "path":  "dmg-2024/chapter-05/lists/list.dmg.chapter05.sections.json"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-05/procedures/procedure.dmg.chapter05.step_by_step_campaign_flow.json",
+                       "id":  "procedure.dmg.chapter05.step_by_step_campaign_flow",
+                       "type":  "procedure"
+                   },
+                   {
+                       "id":  "table.dmg.chapter05.sections",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-05/tables/table.dmg.chapter05.sections.json"
+                   }
+               ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.ensuring_fun_for_all",
+  "name": "Ensuring Fun for All",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Ahead of the game, if you haven't done so already, discuss with your players the experience you're all hoping for, as well as topics, themes, and behavior that might spoil someone's enjoyment of the game."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      13
+    ],
+    "section": "Ensuring Fun for All"
+  },
+  "notes": []
+}

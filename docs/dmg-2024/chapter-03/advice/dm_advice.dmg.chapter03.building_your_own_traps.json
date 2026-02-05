@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.building_your_own_traps",
+  "name": "Building Your Own Traps",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Start with a clear purpose for the trap.",
+    "Balance trigger difficulty with potential impact.",
+    "Ensure there is at least one reasonable counterplay."
+  ],
+  "tags": [
+    "chapter-03",
+    "traps"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Building Your Own Traps"
+  },
+  "notes": []
+}

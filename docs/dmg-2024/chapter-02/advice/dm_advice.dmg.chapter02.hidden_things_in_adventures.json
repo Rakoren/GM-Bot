@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.hidden_things_in_adventures",
+    "name":  "Hidden Things in Adventures",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Place secrets that reward curiosity and careful play.",
+                     "Use clues to help players infer hidden details.",
+                     "Avoid bottlenecking progress behind a single hidden element."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    38
+                                ],
+                      "section":  "Hidden Things in Adventures"
+                  },
+    "notes":  [
+
+              ]
+}

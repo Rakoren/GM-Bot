@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.elemental_plane_of_earth",
+  "name": "Elemental Plane of Earth",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Plane of Earth as towering mountains and vast caverns with little or no air at the highest peaks.",
+    "Route most arrivals through cavern networks to keep travel grounded and claustrophobic.",
+    "Highlight its opposition to air?stability, rigidity, and tradition."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-earth"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      188
+    ],
+    "section": "Elemental Plane of Earth"
+  },
+  "notes": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "table.dmg.chapter07.relics_common",
+  "name": "Relics - Common",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-08",
+      "item": "Ear Horn of Hearing"
+    },
+    {
+      "roll": "09-28",
+      "item": "Potion of Healing"
+    },
+    {
+      "roll": "29-36",
+      "item": "Pot of Awakening"
+    },
+    {
+      "roll": "37-44",
+      "item": "Ruby of the War Mage"
+    },
+    {
+      "roll": "45-52",
+      "item": "Shield of Expression"
+    },
+    {
+      "roll": "53-60",
+      "item": "Smoldering Armor"
+    },
+    {
+      "roll": "61-80",
+      "item": "Spell Scroll (cantrip or level 1 spell)"
+    },
+    {
+      "roll": "81-90",
+      "item": "Staff of Adornment"
+    },
+    {
+      "roll": "91-00",
+      "item": "Staff of Flowers"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      234
+    ],
+    "section": "Relics - Common"
+  },
+  "notes": []
+}

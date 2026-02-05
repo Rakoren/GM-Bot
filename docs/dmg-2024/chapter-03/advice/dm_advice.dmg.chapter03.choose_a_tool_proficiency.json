@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.choose_a_tool_proficiency",
+  "name": "Choose a Tool Proficiency",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Select a tool proficiency that fits the background’s training.",
+    "Keep tool choices comparable to other backgrounds for balance.",
+    "Use tools to add flavor and practical utility."
+  ],
+  "tags": [
+    "chapter-03",
+    "backgrounds"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Choose a Tool Proficiency"
+  },
+  "notes": []
+}

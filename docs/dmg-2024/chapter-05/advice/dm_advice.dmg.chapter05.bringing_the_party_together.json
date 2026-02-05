@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.bringing_the_party_together",
+  "name": "Bringing the Party Together",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Give characters a shared connection or mutual purpose.",
+    "Use events, patrons, or acquaintances to unite the party.",
+    "Let players co-author how they know each other."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "session-zero"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      133
+    ],
+    "section": "Bringing the Party Together"
+  },
+  "notes": []
+}

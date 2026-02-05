@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.radiant_citadel",
+  "name": "Radiant Citadel",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Radiant Citadel as a sanctuary and diplomatic hub in the Ethereal Plane.",
+    "Center it on the Auroral Diamond and its orbiting Concord Jewels.",
+    "Keep the Keening Gloom cyclone as a looming existential threat."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ethereal",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      193
+    ],
+    "section": "Radiant Citadel"
+  },
+  "notes": []
+}

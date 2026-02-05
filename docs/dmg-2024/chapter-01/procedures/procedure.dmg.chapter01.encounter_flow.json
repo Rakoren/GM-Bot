@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter01.encounter_flow",
+  "name": "Encounter Flow (Three Steps)",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "steps": [
+    "Step 1. Describe the situation. As the DM, you decide how much to tell the players and when. All the information the players need to make choices comes from you. Within the rules of the game and the limits of the characters' knowledge and senses, tell players everything they need to know.",
+    "Published adventures often include text in a box like this, which is meant to be read aloud to the players when their characters first arrive at a location or under a specific circumstance, as described in the text. It usually describes locations so the players know what's happening and have a sense of what their characters' options are.",
+    "Whether you're running a published adventure or one of your own creation, your initial description of a room or situation should focus on what the characters can perceive. You don't have to reveal every detail at once. Most players begin to lose focus after about three sentences of descriptive text. As characters search rooms, open drawers and chests, and examine things more closely, give players more details about what their characters find.",
+    "Step 2. Let the players talk. Once you are done describing the situation, ask the players what their characters want to do. Note what the players say, and identify how to resolve their actions. Ask them for more information if you need it.",
+    "Sometimes the players might give you a group answer: \"We go through the door.\" Other times, individual players might want to do specific things?one might search a chest while another examines a bookshelf. Outside combat, the characters do not need to take turns, but you need to give each player a chance to tell you what their character is doing so you can decide how to resolve everyone's actions. In combat, everyone takes turns in Initiative order.",
+    "Step 3. Describe what happens. After the players describe their characters' actions, it is the DM's job to resolve those actions, guided by the rules and the adventure you have prepared.",
+    "No Rules Required. Sometimes, resolving a situation is easy. If an adventurer wants to cross an empty room and open a door, you can just say that the door opens and describe what lies beyond (perhaps referencing your map or notes).",
+    "Obstacles to Success. A lock, a guard, or some other obstacle might hinder a character's ability to complete a task. In those cases, you typically call for a D20 Test, usually an ability check. For example, a successful Dexterity (Sleight of Hand) check might be needed to pick the lock, while a successful Charisma (Persuasion) check and some coins might be needed to bribe the guard.",
+    "Roleplaying. When the players interact with other creatures, roleplay those creatures based on whether they are Friendly, Indifferent, or Hostile. Improvise based on what you know about the creatures, their knowledge, and their motivations. Then bring these creatures to life as you describe what happens.",
+    "One Action at a Time. The rules about actions in the Player's Handbook limit how many things a character can do at once. Keeping those rules in mind can help you adjudicate situations.",
+    "Combat. In combat, many situations involve attack rolls or saving throws. The rules of combat can help you determine the effectiveness of a character's actions.",
+    "Spellcasting. If a character casts a spell, you can usually let the player tell you what the spell does and how to resolve it. If questions arise, read the text of the spell yourself?how a spell is supposed to work is usually pretty clear. The general rules of spellcasting in the Player's Handbook are also essential for resolving a spell's effects.",
+    "Exceptions Supersede General Rules. General rules govern each part of the game, but the game also includes class features, spells, magic items, monster abilities, and other elements that can contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, it is a general rule that melee weapon attacks use the attacking character's Strength modifier. But if a feature says that a character can make melee weapon attacks using Charisma, that exception supersedes the general rule.",
+    "When narrating results, try to give a flavorful description while clearly communicating what is happening in the language of the game. Describing results often leads to another decision point, which returns the flow of the game to step 1."
+  ],
+  "triggers": [
+    "when running any encounter"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      7,
+      9
+    ],
+    "section": "How to Run a Session"
+  },
+  "notes": []
+}
+
+
+

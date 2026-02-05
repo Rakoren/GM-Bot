@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.defeated_not_dead",
+  "name": "Defeated, Not Dead",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use defeat outcomes that keep the story moving.",
+    "Offer consequences that create new choices and problems.",
+    "Reserve death for moments with clear narrative weight."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Defeated, Not Dead"
+  },
+  "notes": []
+}

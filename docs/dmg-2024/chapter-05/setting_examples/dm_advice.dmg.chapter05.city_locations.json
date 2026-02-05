@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.city_locations",
+  "name": "City Locations",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Highlight notable places that support adventure play.",
+    "Give each location a purpose, owner, and hooks.",
+    "Use locations as social and investigative anchors."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "City Locations"
+  },
+  "notes": []
+}

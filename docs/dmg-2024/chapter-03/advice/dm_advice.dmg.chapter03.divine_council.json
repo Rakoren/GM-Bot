@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.divine_council",
+  "name": "Divine Council",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use divine negotiations to explore character values.",
+    "Make stakes clear and choices meaningful.",
+    "Tie outcomes to the party's past actions."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Divine Council"
+  },
+  "notes": []
+}

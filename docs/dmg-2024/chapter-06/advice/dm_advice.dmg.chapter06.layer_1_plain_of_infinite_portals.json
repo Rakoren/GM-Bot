@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layer_1_plain_of_infinite_portals",
+  "name": "Layer 1: The Plain of Infinite Portals",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Plain of Infinite Portals as the Abyss?s primary gateway, riddled with craters that open to other layers and planes.",
+    "Highlight iron fortresses and volatile demon lords jockeying for control of portal routes.",
+    "Leverage Broken Reach and the Plague-Mort portal as an escape hatch and plot anchor."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "abyss"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      180
+    ],
+    "section": "Layer 1: The Plain of Infinite Portals"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.carceri",
+  "name": "Carceri",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Carceri as a prison plane of desolation and despair with six harsh layers.",
+    "Use its varied terrains?bogs, jungles, deserts, mountains, oceans, and black ice?to reinforce misery and isolation.",
+    "Emphasize that it houses traitors and backstabbers, and that hope is scarce."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "carceri"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      186
+    ],
+    "section": "Carceri"
+  },
+  "notes": []
+}

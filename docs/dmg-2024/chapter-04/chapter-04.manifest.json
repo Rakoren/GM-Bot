@@ -1,0 +1,349 @@
+{
+    "schema_version":  "0.1.0",
+    "chapter":  "dmg-2024.chapter-04",
+    "title":  "DMG 2024 - Chapter 4: Creating Adventures",
+    "generated_at":  "2026-02-04",
+    "paths":  {
+                  "tables_dir":  "dmg-2024/chapter-04/tables",
+                  "lists_dir":  "dmg-2024/chapter-04/lists",
+                  "advice_dir":  "dmg-2024/chapter-04/advice",
+                  "procedures_dir":  "dmg-2024/chapter-04/procedures"
+              },
+    "shards":  [
+                   {
+                       "id":  "dm_advice.dmg.chapter04.a_starting_campaign",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.a_starting_campaign.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_conflict",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_conflict.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_examples",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_examples.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_inhabitants",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_inhabitants.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_maps",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_maps.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_patrons",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_patrons.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_premise",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_premise.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_rewards",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_rewards.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.adventure_setting",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.adventure_setting.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.boreal_ball",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.boreal_ball.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.bring_it_to_an_end",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.bring_it_to_an_end.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.bringing_a_location_to_life",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.bringing_a_location_to_life.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.character_objectives",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.character_objectives.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.combat_encounter_difficulty",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.combat_encounter_difficulty.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.combat_encounters",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.combat_encounters.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.denouement",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.denouement.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.draw_in_the_players",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.draw_in_the_players.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.encounter_pace_and_tension",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.encounter_pace_and_tension.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.encounters",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.encounters.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.exploration_encounters",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.exploration_encounters.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.guide_rails_and_railroads",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.guide_rails_and_railroads.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.happenstance_hooks",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.happenstance_hooks.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.horns_of_the_beast",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.horns_of_the_beast.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.individual_treasure",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.individual_treasure.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.keeping_the_adventure_moving",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.keeping_the_adventure_moving.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.lay_out_the_premise",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.lay_out_the_premise.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.make_peace",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.make_peace.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.miner_difficulties",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.miner_difficulties.json"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.monster_behavior.json",
+                       "id":  "dm_advice.dmg.chapter04.monster_behavior",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.monster_treasure_preferences",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.monster_treasure_preferences.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.multiple_ways_to_progress",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.multiple_ways_to_progress.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.plan_encounters",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.plan_encounters.json"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.prepared_defenders.json",
+                       "id":  "dm_advice.dmg.chapter04.prepared_defenders",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.protect_an_npc_or_object",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.protect_an_npc_or_object.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.quest_rewards",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.quest_rewards.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.random_encounters",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.random_encounters.json"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.reactive_tactics.json",
+                       "id":  "dm_advice.dmg.chapter04.reactive_tactics",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.retrieve_an_object",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.retrieve_an_object.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.run_a_gauntlet",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.run_a_gauntlet.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.sneak_in",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.sneak_in.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.social_interaction_encounters",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.social_interaction_encounters.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.something_for_everyone",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.something_for_everyone.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.step_by_step_adventures",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.step_by_step_adventures.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.stop_a_ritual",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.stop_a_ritual.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.subvert_cliches",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.subvert_cliches.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.supernatural_hooks",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.supernatural_hooks.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.take_out_a_single_target",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.take_out_a_single_target.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.the_fouled_stream",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.the_fouled_stream.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.the_winged_god",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.the_winged_god.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.treasure_hoards",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.treasure_hoards.json"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.troubleshooting.json",
+                       "id":  "dm_advice.dmg.chapter04.troubleshooting",
+                       "type":  "dm_advice"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.urgency_and_rests",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.urgency_and_rests.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.using_published_adventures",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.using_published_adventures.json"
+                   },
+                   {
+                       "id":  "dm_advice.dmg.chapter04.writing_for_yourself",
+                       "type":  "dm_advice",
+                       "path":  "dmg-2024/chapter-04/advice/dm_advice.dmg.chapter04.writing_for_yourself.json"
+                   },
+                   {
+                       "id":  "list.dmg.chapter04.sections",
+                       "type":  "list",
+                       "path":  "dmg-2024/chapter-04/lists/list.dmg.chapter04.sections.json"
+                   },
+                   {
+                       "id":  "procedure.dmg.chapter04.step_by_step_adventure_flow",
+                       "type":  "procedure",
+                       "path":  "dmg-2024/chapter-04/procedures/procedure.dmg.chapter04.step_by_step_adventure_flow.json"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.adventure_situations_tier_1",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.adventure_situations_tier_1.json"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.adventure_situations_tier_2",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.adventure_situations_tier_2.json"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.adventure_situations_tier_3",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.adventure_situations_tier_3.json"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.adventure_situations_tier_4",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.adventure_situations_tier_4.json"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.happenstance_hooks",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.happenstance_hooks.json"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.initial_attitudes.json",
+                       "id":  "table.dmg.chapter04.initial_attitudes",
+                       "type":  "table"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.monster_personality.json",
+                       "id":  "table.dmg.chapter04.monster_personality",
+                       "type":  "table"
+                   },
+                   {
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.monster_relationships.json",
+                       "id":  "table.dmg.chapter04.monster_relationships",
+                       "type":  "table"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.patron_hooks",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.patron_hooks.json"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.sections",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.sections.json"
+                   },
+                   {
+                       "id":  "table.dmg.chapter04.supernatural_hooks",
+                       "type":  "table",
+                       "path":  "dmg-2024/chapter-04/tables/table.dmg.chapter04.supernatural_hooks.json"
+                   }
+               ]
+}

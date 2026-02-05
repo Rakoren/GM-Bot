@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.roleplaying",
+    "name":  "Roleplaying",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Encourage players to speak in character or describe their approach.",
+                     "Accept different comfort levels with roleplay.",
+                     "Focus on intent and choices rather than performance."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "social"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    34
+                                ],
+                      "section":  "Roleplaying"
+                  },
+    "notes":  [
+
+              ]
+}

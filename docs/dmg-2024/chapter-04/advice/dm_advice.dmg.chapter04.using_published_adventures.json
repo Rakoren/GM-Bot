@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter04.using_published_adventures",
+  "name": "Using Published Adventures",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Adapt published adventures to fit your campaign and players.",
+    "Replace or modify NPCs, villains, and locations as needed.",
+    "Use published material as inspiration, not a constraint."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      105
+    ],
+    "section": "Using Published Adventures"
+  },
+  "notes": []
+}

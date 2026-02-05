@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.artifact_properties",
+  "name": "Artifact Properties",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Artifacts can gain additional beneficial and detrimental properties.",
+    "You can choose properties or roll on the tables; you can also invent new properties.",
+    "These extra properties often change each time the artifact appears.",
+    "An artifact can have up to four minor beneficial, two major beneficial, four minor detrimental, and two major detrimental properties."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      224
+    ],
+    "section": "Artifact Properties"
+  },
+  "notes": []
+}

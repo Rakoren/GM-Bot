@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.divine_intervention",
+  "name": "Divine Intervention",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Treat divine intervention as rare and story-significant.",
+    "Set clear limits to avoid trivializing challenges.",
+    "Use intervention to reinforce themes and stakes."
+  ],
+  "tags": [
+    "chapter-03",
+    "gods"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Divine Intervention"
+  },
+  "notes": []
+}

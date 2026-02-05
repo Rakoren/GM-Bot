@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.line_of_sight",
+    "name":  "Line of Sight",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Determine what creatures can see based on obstacles and terrain.",
+                     "Use line of sight to adjudicate targeting and visibility.",
+                     "Be consistent in edge cases."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat",
+                 "maps"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    49
+                                ],
+                      "section":  "Line of Sight"
+                  },
+    "notes":  [
+
+              ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.alignment_and_the_outer_planes",
+  "name": "Alignment and the Outer Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Let long exposure to a plane?s ethos influence behavior; treat it as DM guidance and reward roleplay with Heroic Inspiration.",
+    "For Celestials and Fiends on opposed planes, you can apply planar dissonance: after a Long Rest, a DC 10 Constitution save; on a failure, subtract 1d4 from D20 Tests until a Long Rest on a non-opposed plane; failures stack.",
+    "Use these effects sparingly to emphasize the planes as realms of thought and morality."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "alignment"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      176
+    ],
+    "section": "Alignment and the Outer Planes"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.gemstones",
+  "name": "Gemstones",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Gemstones are compact, portable wealth.",
+    "Roll on gemstone tables by value to generate types.",
+    "Roll once for uniform gems or multiple times for variety."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "gems"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213,
+      214
+    ],
+    "section": "Gemstones"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.gehenna_adventures",
+  "name": "Gehenna Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Gehenna to explore suspicion and greed under high tension.",
+    "Seed yugoloth schemes and disguised Fiends to test empathy vs paranoia.",
+    "Anchor quests in the Teardrop Palace market or the Tower Arcane."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "gehenna",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      197
+    ],
+    "section": "Gehenna Adventures"
+  },
+  "notes": []
+}

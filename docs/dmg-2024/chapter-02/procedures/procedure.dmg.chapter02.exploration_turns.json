@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter02.exploration_turns",
+  "name": "Exploration Turns",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "triggers": [
+    "when multiple characters want to act during exploration"
+  ],
+  "steps": [
+    "State the current environment, time pressure, and immediate options.",
+    "Go around the table for each character's exploration action.",
+    "Resolve checks or outcomes tied to those actions.",
+    "Update time, position, or discoveries.",
+    "Repeat until the scene changes or a new encounter begins."
+  ],
+  "tags": [
+    "chapter-02",
+    "exploration"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      35,
+      37
+    ],
+    "section": "Running Exploration"
+  },
+  "notes": []
+}
+
+
+

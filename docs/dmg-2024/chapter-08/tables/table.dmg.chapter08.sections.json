@@ -1,0 +1,178 @@
+{
+  "id": "table.dmg.chapter08.sections",
+  "name": "Chapter 8 Section Pages",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "draft",
+  "columns": [
+    "heading",
+    "page_ref"
+  ],
+  "entries": [
+    {
+      "heading": "CHAPTER 8: BASTIONS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "GAINING A BASTION",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "BASTION TURNS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "FREQUENCY OF BASTION TURNS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "BASTION MAP",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "COMBINING BASTIONS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "FACILITY SPACE",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "BASIC FACILITIES",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "ADDING BASIC FACILITIES",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "ENLARGING BASIC FACILITIES",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "SPECIAL FACILITIES",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "SPECIAL FACILITY ACQUISITION",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "REQUIREMENTS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "SPACE",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "HIRELINGS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "ORDERS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "CRAFT",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "EMPOWER",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "HARVEST",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "MAINTAIN",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "RECRUIT",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "RESEARCH",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "TRADE",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "SPECIAL FACILITY DESCRIPTIONS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "BASTION EVENTS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "EVENT DESCRIPTIONS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "ALL IS WELL",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "BASTION TRACKER",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "ATTACK",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "CRIMINAL HIRELING",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "EXTRAORDINARY OPPORTUNITY",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "FRIENDLY VISITORS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "GUEST",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "LOST HIRELINGS",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "MAGICAL DISCOVERY",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "REFUGEES",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "REQUEST FOR AID",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "TREASURE",
+      "page_ref": "TBD"
+    },
+    {
+      "heading": "FALL OF A BASTION",
+      "page_ref": "TBD"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      334
+    ],
+    "section": "Chapter 8: Bastions"
+  },
+  "notes": [
+    "Page refs TBD; fill with exact page numbers once verified."
+  ]
+}

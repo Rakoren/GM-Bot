@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.circle_of_eight",
+  "name": "Circle of Eight",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the Circle as a powerful arcane faction with broad influence.",
+    "Connect them to major conflicts or magical threats.",
+    "Present them as allies, patrons, or rivals."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "factions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      139
+    ],
+    "section": "Circle of Eight"
+  },
+  "notes": []
+}

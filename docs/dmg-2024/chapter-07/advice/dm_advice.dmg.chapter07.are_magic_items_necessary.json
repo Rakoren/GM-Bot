@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.are_magic_items_necessary",
+  "name": "Are Magic Items Necessary?",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Characters and monsters are designed to face each other without magic items.",
+    "Magic items are boons and prizes, not required to keep up with campaign threats."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      217
+    ],
+    "section": "Are Magic Items Necessary?"
+  },
+  "notes": []
+}

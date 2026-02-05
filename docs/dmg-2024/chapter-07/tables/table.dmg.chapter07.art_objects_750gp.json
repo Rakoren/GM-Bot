@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.art_objects_750gp",
+  "name": "750 GP Art Objects",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "object"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "object": "Silver chalice set with moonstones"
+    },
+    {
+      "roll": "2",
+      "object": "Bundle of sheet music representing the lost dirges of a famous composer"
+    },
+    {
+      "roll": "3",
+      "object": "Carved wooden harp with ivory inlay and zircon gems"
+    },
+    {
+      "roll": "4",
+      "object": "Gold idol"
+    },
+    {
+      "roll": "5",
+      "object": "Gold comb shaped like a dragon with red garnets as eyes"
+    },
+    {
+      "roll": "6",
+      "object": "Bottle stopper cork embossed with gold leaf and set with amethysts"
+    },
+    {
+      "roll": "7",
+      "object": "Detailed, life-sized dragonborn skull cast in electrum"
+    },
+    {
+      "roll": "8",
+      "object": "Silver and gold brooch"
+    },
+    {
+      "roll": "9",
+      "object": "Obsidian statuette with gold fittings and inlay"
+    },
+    {
+      "roll": "10",
+      "object": "Painted gold war mask"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      215
+    ],
+    "section": "750 GP Art Objects"
+  },
+  "notes": []
+}

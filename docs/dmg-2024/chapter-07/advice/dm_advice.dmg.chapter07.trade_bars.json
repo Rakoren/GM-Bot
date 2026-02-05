@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.trade_bars",
+  "name": "Trade Bars",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Use trade bars when large coinage is impractical to carry.",
+    "Value bars by weight using the Trade Bars table."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "currency"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213
+    ],
+    "section": "Trade Bars"
+  },
+  "notes": []
+}

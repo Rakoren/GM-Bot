@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.loss_of_hit_points",
+    "name":  "Loss of Hit Points",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Describe damage in terms of stamina and peril rather than gore.",
+                     "Use HP loss to convey escalating danger.",
+                     "Keep narration aligned with creature type and tone."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    51
+                                ],
+                      "section":  "Loss of Hit Points"
+                  },
+    "notes":  [
+
+              ]
+}

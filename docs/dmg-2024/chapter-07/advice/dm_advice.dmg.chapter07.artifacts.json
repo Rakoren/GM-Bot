@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.artifacts",
+  "name": "Artifacts",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Artifacts are unique, singularly powerful magic items with deep origins.",
+    "Introduce artifacts with forethought; they function as plot devices.",
+    "Artifacts often drive adventures: factions seek them, villains possess them, or they must be destroyed to prevent misuse."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      224
+    ],
+    "section": "Artifacts"
+  },
+  "notes": []
+}

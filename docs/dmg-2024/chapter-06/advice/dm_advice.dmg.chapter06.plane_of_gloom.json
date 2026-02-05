@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.plane_of_gloom",
+  "name": "Plane of Gloom",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "After each Long Rest on Hades, require a DC 10 Wisdom save or gain 1 Exhaustion that cannot be removed while in Hades.",
+    "At 6 Exhaustion, a creature transforms into a Larva instead of dying; Exhaustion is removed.",
+    "Use this to underscore the plane's soul-draining despair."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "hades",
+    "hazard"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      197
+    ],
+    "section": "Plane of Gloom"
+  },
+  "notes": []
+}

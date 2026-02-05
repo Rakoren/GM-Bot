@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.tragic_limits",
+  "name": "Tragic Limits",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "It's important to understand your players' preferences so you neither alienate the players by callously destroying what they love nor bore them by leaving their backstory out of the campaign story.",
+    "When you have antagonists threaten the people and places the characters love, be sure the characters have a chance to stave off the worst outcome. During the game, characters should have the opportunity to avoid or mitigate losses in heroic ways, with tragedy being a consequence of the characters' actions and decisions, not a foregone conclusion."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      17
+    ],
+    "section": "Tragic Limits"
+  },
+  "notes": []
+}

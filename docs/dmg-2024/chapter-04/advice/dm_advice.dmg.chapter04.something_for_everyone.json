@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.something_for_everyone",
+  "name": "Something for Everyone",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Balance exploration, social interaction, and combat to match player tastes.",
+    "Design encounters that appeal to multiple motivations at once.",
+    "Mix encounter types and threats to maintain variety."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      108
+    ],
+    "section": "Something for Everyone"
+  },
+  "notes": []
+}

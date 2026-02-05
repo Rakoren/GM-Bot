@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.timed_events",
+  "name": "Timed Events",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Schedule events that occur on a timeline regardless of player action.",
+    "Use timed pressure to create urgency and tradeoffs.",
+    "Let players influence outcomes by acting before deadlines."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      136
+    ],
+    "section": "Timed Events"
+  },
+  "notes": []
+}

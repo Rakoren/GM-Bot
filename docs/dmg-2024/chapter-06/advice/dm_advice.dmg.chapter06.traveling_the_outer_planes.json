@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.traveling_the_outer_planes",
+  "name": "Traveling the Outer Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Infinite Staircase, River Oceanus, River Styx, and Yggdrasil as cross-planar routes.",
+    "Add other crossings as needed for your cosmology, including vehicles or walking routes."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      177
+    ],
+    "section": "Traveling the Outer Planes"
+  },
+  "notes": []
+}

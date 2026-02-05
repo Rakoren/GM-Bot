@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.open_list",
+    "name":  "Open List",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Make initiative order visible to help players plan ahead.",
+                     "Encourage players to prepare actions before their turn.",
+                     "Use an open list to speed combat."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    46
+                                ],
+                      "section":  "Open List"
+                  },
+    "notes":  [
+
+              ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.rule_of_fun",
+  "name": "The Rule of Fun",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "D&D is a game, and everyone should have fun playing it. Everyone shares equal responsibility in moving the game along, and everyone contributes to the fun when they treat each other with respect and consideration: talking through disagreements among players or their characters, and remembering that arguments or mean-spirited squabbles can get in the way of the fun.",
+    "People have many different ideas about what makes D&D fun. The \"right way\" to play D&D is the way you and your players agree to and enjoy. If everyone comes to the table prepared to contribute to the game, the entire table is likely to have a wonderful and memorable time."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-fun"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      12
+    ],
+    "section": "The Rule of Fun"
+  },
+  "notes": []
+}

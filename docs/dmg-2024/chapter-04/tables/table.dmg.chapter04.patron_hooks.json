@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter04.patron_hooks",
+  "name": "Patron Hooks",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "hook"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "hook": "A town crier announces that someone is hoping to hire adventurers."
+    },
+    {
+      "roll": "2",
+      "hook": "Someone the characters want to impress or need a favor from asks them to deal with the adventure situation."
+    },
+    {
+      "roll": "3",
+      "hook": "When the characters arrive in a new city, they find a job board where someone has posted in search of adventurers."
+    },
+    {
+      "roll": "4",
+      "hook": "A wealthy patron who is aware of the adventurers' accomplishments writes to them, offering to pay them for their talents."
+    },
+    {
+      "roll": "5",
+      "hook": "A citizen in need, who has learned of the adventurers' accomplishments and kindness, travels miles to find them and implore them for help."
+    },
+    {
+      "roll": "6",
+      "hook": "The adventurers are arrested (on valid or invented charges) and offered a chance to escape punishment by completing a quest."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      106
+    ],
+    "section": "Patron Hooks"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.respect_for_the_players",
+  "name": "Respect for the Players",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Your players need to know from the start that you'll run a game that is fun, fair, and tailored for them; that you'll allow each of them to contribute to the story; and that you'll pay attention to them when they take their turns.",
+    "Your players also count on you to make sure an adventure's threats don't target them personally. Never make players feel uncomfortable or threatened.",
+    "Do You Really Do That? A common compromise is to rule that players can retract or change anything their characters did up until the point they learn the consequences of their actions. Once you describe what happens as a result, it is too late for the players to change their minds."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      17
+    ],
+    "section": "Respect for the Players"
+  },
+  "notes": []
+}

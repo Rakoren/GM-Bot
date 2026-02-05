@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.firearms_and_explosives",
+  "name": "Firearms and Explosives",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Introduce firearms and explosives carefully to fit the campaign tone.",
+    "Clarify availability, legality, and training.",
+    "Use them to add tactical options without overshadowing other gear."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Firearms and Explosives"
+  },
+  "notes": []
+}

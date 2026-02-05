@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.para_elemental_plane_adventures",
+  "name": "Para-elemental Plane Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the planes as extreme but recognizable environments of the Material Plane.",
+    "Highlight symbolic tension between paired elements (ash: air+fire, ooze: earth+water)."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "para-elemental",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      207
+    ],
+    "section": "Para-elemental Plane Adventures"
+  },
+  "notes": []
+}

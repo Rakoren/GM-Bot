@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.keeping_a_journal",
+  "name": "Keeping a Journal",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Record key events, NPCs, locations, and player decisions after each session.",
+    "Capture unresolved hooks or mysteries for future use.",
+    "Use a format that is quick to update and easy to scan."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      126
+    ],
+    "section": "Keeping a Journal"
+  },
+  "notes": []
+}

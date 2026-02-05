@@ -1,0 +1,68 @@
+{
+  "id": "table.dmg.chapter07.artifact_major_detrimental_properties",
+  "name": "Artifact Major Detrimental Properties",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "property"
+  ],
+  "entries": [
+    {
+      "roll": "01-09",
+      "property": "You can't attune to other magic items while you're attuned to the artifact; when you become attuned, your attunement to other items ends immediately."
+    },
+    {
+      "roll": "10-18",
+      "property": "When you become attuned to the artifact, a random ability score is reduced by 2 (minimum 3); Greater Restoration restores the ability."
+    },
+    {
+      "roll": "19-27",
+      "property": "When you become attuned to the artifact, you take 8d10 Psychic damage."
+    },
+    {
+      "roll": "28-36",
+      "property": "The first time you become attuned to the artifact, it gives you a quest determined by the DM; you can't use any of its properties until you complete the quest."
+    },
+    {
+      "roll": "37-45",
+      "property": "Each time you become attuned, there is a 10% chance you attract a god's attention; an avatar (Empyrean stat block) comes to wrest the artifact and vanishes once it obtains it."
+    },
+    {
+      "roll": "46-54",
+      "property": "Each time you become attuned, you must succeed on a DC 10 Constitution save or die; if you die, you transform into a Wight under the DM's control that must protect the artifact."
+    },
+    {
+      "roll": "55-63",
+      "property": "The artifact dilutes potions within 10 feet of itself, rendering them nonmagical."
+    },
+    {
+      "roll": "64-72",
+      "property": "The artifact erases scrolls within 10 feet of itself, rendering them nonmagical."
+    },
+    {
+      "roll": "73-81",
+      "property": "While you're attuned to the artifact, creatures of a particular type other than Humanoid (DM's choice) are always hostile toward you."
+    },
+    {
+      "roll": "82-90",
+      "property": "While you're attuned to the artifact, you have vulnerability to all damage."
+    },
+    {
+      "roll": "91-96",
+      "property": "The artifact imprisons a Death Slaad; each time you become attuned, there is a 10% chance it escapes and attacks you."
+    },
+    {
+      "roll": "97-00",
+      "property": "While attuned to the artifact, you can't spend Hit Point Dice or regain Hit Points."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      225
+    ],
+    "section": "Major Detrimental Properties"
+  },
+  "notes": []
+}

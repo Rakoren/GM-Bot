@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.art_objects_25gp",
+  "name": "25 GP Art Objects",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "object"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "object": "Silver ewer"
+    },
+    {
+      "roll": "2",
+      "object": "Carved bone statuette"
+    },
+    {
+      "roll": "3",
+      "object": "Gold bracelet"
+    },
+    {
+      "roll": "4",
+      "object": "Cloth-of-gold vestments"
+    },
+    {
+      "roll": "5",
+      "object": "Black velvet mask stitched with silver thread"
+    },
+    {
+      "roll": "6",
+      "object": "Copper chalice with silver filigree"
+    },
+    {
+      "roll": "7",
+      "object": "Pair of engraved bone dice"
+    },
+    {
+      "roll": "8",
+      "object": "Handheld mirror set in a painted wooden frame"
+    },
+    {
+      "roll": "9",
+      "object": "Embroidered silk handkerchief"
+    },
+    {
+      "roll": "10",
+      "object": "Gold locket with a painted portrait inside"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      214
+    ],
+    "section": "25 GP Art Objects"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.ability_scores",
+  "name": "Ability Scores",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Assign ability scores that reflect the creature’s strengths and weaknesses.",
+    "Use existing monsters as benchmarks for similar roles.",
+    "Keep the scores aligned with the creature’s CR and concept."
+  ],
+  "tags": [
+    "chapter-03",
+    "creatures"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Ability Scores"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.elemental_plane_of_air",
+  "name": "Elemental Plane of Air",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray the Plane of Air as a realm of constant winds with drifting earth motes and solid cloud banks.",
+    "Use storms, obscuring clouds, and temperature extremes near para-elemental boundaries.",
+    "Keep landmarks sparse and emphasize navigation by currents and wind patterns."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-air"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      187
+    ],
+    "section": "Elemental Plane of Air"
+  },
+  "notes": []
+}

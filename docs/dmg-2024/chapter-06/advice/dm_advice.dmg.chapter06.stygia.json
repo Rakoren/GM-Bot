@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.stygia",
+  "name": "Stygia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Portray Stygia as a frozen realm with cold fire and lightning.",
+    "Keep Levistus encased in ice yet ruling telepathically.",
+    "Use Geryon's fall as political tension within infernal courts."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202
+    ],
+    "section": "Stygia"
+  },
+  "notes": []
+}

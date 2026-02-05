@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.infernal_hierarchy",
+  "name": "Infernal Hierarchy",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Asmodeus as supreme ruler and patron of infernal bureaucracy.",
+    "Lean on the rigid chain of command from lemures to archdukes.",
+    "Let promotions/demotions be painful transformations that preserve or erase memory by rank."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      205
+    ],
+    "section": "Infernal Hierarchy"
+  },
+  "notes": []
+}

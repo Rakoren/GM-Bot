@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.old_keoland_culture",
+  "name": "Old Keoland Culture",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use customs and dress to establish regional identity.",
+    "Highlight storytelling traditions and local values.",
+    "Let culture influence NPC motivations."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      150
+    ],
+    "section": "Old Keoland Culture"
+  },
+  "notes": []
+}

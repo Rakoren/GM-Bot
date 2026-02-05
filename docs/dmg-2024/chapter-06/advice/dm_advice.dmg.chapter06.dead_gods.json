@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.dead_gods",
+  "name": "Dead Gods",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use petrified dead gods as colossal landmarks or bases carved by planar factions.",
+    "Show how githyanki and mind flayers hollow these hulks into outposts and cities.",
+    "Feature Tu?narath as the most infamous example if you need a major Astral city."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "astral"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      184
+    ],
+    "section": "Dead Gods"
+  },
+  "notes": []
+}

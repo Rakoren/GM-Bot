@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.attack_rolls",
+    "name":  "Attack Rolls",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use attack rolls to resolve attempts to hit a target.",
+                     "Compare the result against the target\u0027s Armor Class.",
+                     "On a hit, apply damage and effects as normal."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    30
+                                ],
+                      "section":  "Attack Rolls"
+                  },
+    "notes":  [
+
+              ]
+}

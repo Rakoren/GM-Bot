@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.mechanus_adventures",
+  "name": "Mechanus Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Mechanus to test individuality versus collective order.",
+    "Challenge characters to set aside ego for cosmic law?or to assert personal identity."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "mechanus",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      199
+    ],
+    "section": "Mechanus Adventures"
+  },
+  "notes": []
+}

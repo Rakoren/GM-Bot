@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.journey_stage_challenges",
+    "name":  "Journey Stage Challenges",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Introduce challenges that test skills or resources during travel.",
+                     "Tie challenges to terrain and story context.",
+                     "Reward good planning and teamwork."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "exploration"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    43
+                                ],
+                      "section":  "Journey Stage Challenges"
+                  },
+    "notes":  [
+
+              ]
+}

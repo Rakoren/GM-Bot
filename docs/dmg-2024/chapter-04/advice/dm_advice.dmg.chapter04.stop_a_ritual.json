@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.stop_a_ritual",
+  "name": "Stop a Ritual",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Set a ritual that must be disrupted before completion.",
+    "Use minions, hazards, or social pressure to protect the ritual leaders.",
+    "Add a time limit and clear consequences if the ritual completes."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Stop a Ritual"
+  },
+  "notes": []
+}

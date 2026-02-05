@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.cursed_creatures",
+  "name": "Cursed Creatures",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Show how a curse changes behavior, goals, or weaknesses.",
+    "Use the curse to create roleplay and encounter hooks.",
+    "Allow for redemption or relief when earned."
+  ],
+  "tags": [
+    "chapter-03",
+    "curses"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Cursed Creatures"
+  },
+  "notes": []
+}

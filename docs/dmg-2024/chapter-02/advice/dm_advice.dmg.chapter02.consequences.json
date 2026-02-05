@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.consequences",
+    "name":  "Consequences",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Make outcomes matter with clear consequences for success and failure.",
+                     "Tie consequences to the situation and stakes.",
+                     "Use consequences to drive the story forward."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    31
+                                ],
+                      "section":  "Consequences"
+                  },
+    "notes":  [
+
+              ]
+}

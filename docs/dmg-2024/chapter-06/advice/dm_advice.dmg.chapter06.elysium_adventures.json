@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.elysium_adventures",
+  "name": "Elysium Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Elysium?s serenity to test characters? willingness to leave a perfect refuge.",
+    "Seed Belierin?s prison legend as a mystery or rescue mission.",
+    "Send characters to the Heroic Isles to consult ancient spirits or legends."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elysium",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      191
+    ],
+    "section": "Elysium Adventures"
+  },
+  "notes": []
+}

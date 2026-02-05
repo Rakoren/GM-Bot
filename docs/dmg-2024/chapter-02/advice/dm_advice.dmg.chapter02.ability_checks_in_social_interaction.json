@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.ability_checks_in_social_interaction",
+    "name":  "Ability Checks in Social Interaction",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Call for checks when the outcome is uncertain and stakes are meaningful.",
+                     "Use the most relevant ability and skill for the approach.",
+                     "Let good roleplay inform advantage or lowered DCs."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "social",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    35
+                                ],
+                      "section":  "Ability Checks in Social Interaction"
+                  },
+    "notes":  [
+
+              ]
+}

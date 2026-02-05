@@ -1,0 +1,28 @@
+{
+  "id": "dm_advice.dmg.chapter01.one_hour_guideline",
+  "name": "The One-Hour Guideline",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "A D&D game session usually starts with some out-of-game chatter as everyone settles down to play. Once the session gets underway, most groups can accomplish at least three things during one hour of play, where each \"thing\" might be any of the following:",
+    "Explore a location such as a chamber in a castle or a cave.",
+    "Converse with an intelligent creature.",
+    "Reach consensus on a divisive issue.",
+    "Solve a tricky riddle or puzzle.",
+    "Survive a deadly trap.",
+    "Fight a low-difficulty combat encounter.",
+    "A more difficult combat encounter might count as two or three things, and a tense negotiation can use most or all of an hour of play on its own."
+  ],
+  "tags": [
+    "chapter-01",
+    "prep"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      5
+    ],
+    "section": "The One-Hour Guideline"
+  },
+  "notes": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter07.treasure_themes",
+  "name": "Treasure Themes",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "theme",
+    "appropriate_treasure"
+  ],
+  "entries": [
+    {
+      "theme": "Arcana",
+      "appropriate_treasure": "Gemstones plus magic items of an eldritch or esoteric nature"
+    },
+    {
+      "theme": "Armaments",
+      "appropriate_treasure": "Coins or trade bars plus magic items that are useful in battle"
+    },
+    {
+      "theme": "Implements",
+      "appropriate_treasure": "Coins, trade bars, or trade goods plus magic items that focus on utility"
+    },
+    {
+      "theme": "Relics",
+      "appropriate_treasure": "Art objects plus magic items that have religious origins or purposes"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213
+    ],
+    "section": "Treasure Themes"
+  },
+  "notes": []
+}

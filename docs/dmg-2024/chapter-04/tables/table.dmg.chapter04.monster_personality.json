@@ -1,0 +1,52 @@
+{
+  "id": "table.dmg.chapter04.monster_personality",
+  "name": "Monster Personality",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "personality"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "personality": "Cowardly; surrenders easily"
+    },
+    {
+      "roll": "2",
+      "personality": "Greedy; wants treasure"
+    },
+    {
+      "roll": "3",
+      "personality": "Boastful; makes a show of bravery but runs from danger"
+    },
+    {
+      "roll": "4",
+      "personality": "Disorderly; poorly trained and easily rattled"
+    },
+    {
+      "roll": "5",
+      "personality": "Fanatical; ready to die fighting"
+    },
+    {
+      "roll": "6",
+      "personality": "Brave; stands firm against danger"
+    },
+    {
+      "roll": "7",
+      "personality": "Jocular; taunts enemies"
+    },
+    {
+      "roll": "8",
+      "personality": "Orderly; difficult to rattle"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Monster Personality"
+  },
+  "notes": []
+}

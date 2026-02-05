@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.gods_of_greyhawk",
+  "name": "Gods of Greyhawk",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use deities to inform culture, conflicts, and character goals.",
+    "Tie divine influence to factions and regions.",
+    "Introduce gods through clergy, omens, and holy sites."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      140
+    ],
+    "section": "Gods of Greyhawk"
+  },
+  "notes": []
+}

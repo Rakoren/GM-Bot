@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter06.psychic_wind_psychic_effects",
+  "name": "Psychic Wind Psychic Effects",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "effect"
+  ],
+  "entries": [
+    {
+      "roll": "1-8",
+      "effect": "Stunned for 1 minute; repeat the saving throw at the end of each of your turns, ending on a success."
+    },
+    {
+      "roll": "9-12",
+      "effect": "Take 11 (2d10) Psychic damage."
+    },
+    {
+      "roll": "13-17",
+      "effect": "Take 22 (4d10) Psychic damage."
+    },
+    {
+      "roll": "18-20",
+      "effect": "Unconscious for 5 (1d10) hours; ends if you take damage or another creature uses an action to wake you."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      185
+    ],
+    "section": "Psychic Wind Psychic Effects"
+  },
+  "notes": []
+}

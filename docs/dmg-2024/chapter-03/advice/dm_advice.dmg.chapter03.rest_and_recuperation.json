@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.rest_and_recuperation",
+  "name": "Rest and Recuperation",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use rest and recuperation to pace recovery and consequences.",
+    "Decide what recovery options are available in the current locale.",
+    "Make recovery choices matter with time or resource costs."
+  ],
+  "tags": [
+    "chapter-03",
+    "curses"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Rest and Recuperation"
+  },
+  "notes": []
+}

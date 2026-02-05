@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.the_winged_god",
+  "name": "The Winged God",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Introduce a distinct antagonist or force to drive escalation.",
+    "Use clues and encounters to reveal the threat's nature.",
+    "Aim for a clear confrontation or resolution point."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "examples"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      114
+    ],
+    "section": "The Winged God"
+  },
+  "notes": []
+}

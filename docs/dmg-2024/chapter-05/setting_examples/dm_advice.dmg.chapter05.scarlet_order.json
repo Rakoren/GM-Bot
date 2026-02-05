@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.scarlet_order",
+  "name": "Scarlet Order",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the Scarlet Order as a secretive, far-reaching power.",
+    "Connect them to espionage, corruption, or hidden agendas.",
+    "Reveal their influence slowly to build paranoia."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "factions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      139
+    ],
+    "section": "Scarlet Order"
+  },
+  "notes": []
+}

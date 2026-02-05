@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.time_in_the_campaign",
+  "name": "Time in the Campaign",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Track in-world time to reinforce consequences and pacing.",
+    "Use time passage to advance NPC goals and world events.",
+    "Align downtime and travel with campaign rhythm."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "pacing"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      136
+    ],
+    "section": "Time in the Campaign"
+  },
+  "notes": []
+}

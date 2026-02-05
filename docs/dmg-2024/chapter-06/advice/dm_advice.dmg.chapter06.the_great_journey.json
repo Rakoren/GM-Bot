@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_great_journey",
+  "name": "The Great Journey",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use epic voyages through Wildspace and the Astral Plane as primary routes.",
+    "Allow riskier paths through the Shadowfell or Feywild when needed."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "material-plane",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      199
+    ],
+    "section": "The Great Journey"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.benefits_of_renown",
+  "name": "Benefits of Renown",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Grant benefits that match the faction's power and theme.",
+    "Scale benefits with renown tiers.",
+    "Balance benefits with obligations."
+  ],
+  "tags": [
+    "chapter-03",
+    "renown"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Benefits of Renown"
+  },
+  "notes": []
+}

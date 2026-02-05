@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.far_realm",
+  "name": "Far Realm",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Far Realm as an alien reality outside the known multiverse.",
+    "Use aberrant influence to warp matter, geometry, and biology.",
+    "Keep portals rare and unsettling, with lingering corruption around them."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "far-realm"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      193,
+      194
+    ],
+    "section": "Far Realm"
+  },
+  "notes": []
+}

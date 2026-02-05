@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.domains_of_delight",
+  "name": "Domains of Delight",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use archfey domains as reflections of their rulers? emotions and desires.",
+    "Let domains shift with an archfey?s mood, from bright to bleak.",
+    "Treat the listed domains as examples, not the full set."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "feywild"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      195
+    ],
+    "section": "Domains of Delight"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.labyrinth_winds",
+  "name": "Labyrinth Winds",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat the Labyrinth Winds as complex streams of air ranging from breezes to lethal gales.",
+    "Require travelers to ride the currents; flying against them should be dangerous.",
+    "Use wind hazards to steer travel routes and pace."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-air",
+    "hazard"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      188
+    ],
+    "section": "Labyrinth Winds"
+  },
+  "notes": []
+}

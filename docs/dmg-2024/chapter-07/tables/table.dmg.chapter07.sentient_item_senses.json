@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter07.sentient_item_senses",
+  "name": "Sentient Item's Senses",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "senses"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "senses": "Hearing and standard vision out to 30 feet"
+    },
+    {
+      "roll": "2",
+      "senses": "Hearing and standard vision out to 60 feet"
+    },
+    {
+      "roll": "3",
+      "senses": "Hearing and standard vision out to 120 feet"
+    },
+    {
+      "roll": "4",
+      "senses": "Hearing and Darkvision out to 120 feet"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      226
+    ],
+    "section": "Sentient Item's Senses"
+  },
+  "notes": []
+}

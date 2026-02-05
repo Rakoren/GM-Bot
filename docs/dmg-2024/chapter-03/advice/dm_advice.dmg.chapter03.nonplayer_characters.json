@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.nonplayer_characters",
+  "name": "Nonplayer Characters",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Define NPC roles, motivations, and how they affect the story.",
+    "Keep NPCs distinct and easy to portray.",
+    "Use NPCs to drive choices and information."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Nonplayer Characters"
+  },
+  "notes": []
+}

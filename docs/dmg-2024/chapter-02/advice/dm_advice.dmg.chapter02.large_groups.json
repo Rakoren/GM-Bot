@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter02.large_groups",
+  "name": "Large Groups",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "With large groups, keep order and prevent combat from slowing down.",
+    "Use the following tools to keep everyone engaged and moving."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Large Groups"
+  },
+  "notes": []
+}

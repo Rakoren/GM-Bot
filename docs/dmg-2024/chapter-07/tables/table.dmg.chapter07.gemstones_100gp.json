@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.gemstones_100gp",
+  "name": "100 GP Gemstones",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "stone"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "stone": "Amber (watery gold to rich gold)"
+    },
+    {
+      "roll": "2",
+      "stone": "Amethyst (deep purple)"
+    },
+    {
+      "roll": "3",
+      "stone": "Chrysoberyl (yellow green to pale green)"
+    },
+    {
+      "roll": "4",
+      "stone": "Coral (crimson)"
+    },
+    {
+      "roll": "5",
+      "stone": "Garnet (red, brown green, or violet)"
+    },
+    {
+      "roll": "6",
+      "stone": "Jade (light green, deep green, or white)"
+    },
+    {
+      "roll": "7",
+      "stone": "Jet (deep black)"
+    },
+    {
+      "roll": "8",
+      "stone": "Pearl (lustrous white, yellow, or pink)"
+    },
+    {
+      "roll": "9",
+      "stone": "Spinel (red, red brown, or deep green)"
+    },
+    {
+      "roll": "10",
+      "stone": "Tourmaline (pale green, blue, brown, or red)"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      214
+    ],
+    "section": "100 GP Gemstones"
+  },
+  "notes": []
+}

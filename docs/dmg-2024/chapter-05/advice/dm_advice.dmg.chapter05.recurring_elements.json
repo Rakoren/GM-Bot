@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.recurring_elements",
+  "name": "Recurring Elements",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Reuse NPCs, locations, and motifs to create cohesion.",
+    "Bring back unresolved threads at key moments.",
+    "Let recurring elements evolve with the story."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "players"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      135
+    ],
+    "section": "Recurring Elements"
+  },
+  "notes": []
+}

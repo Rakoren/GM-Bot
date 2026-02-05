@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json",
+  "id": "procedure.dmg.chapter03.chase_flow",
+  "name": "Chase Flow",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "triggers": [
+    "when a chase begins between pursuers and quarry"
+  ],
+  "steps": [
+    "Identify quarry and pursuers; roll initiative if needed.",
+    "Set starting distance and track the lead pursuer.",
+    "Each round, resolve movement and actions; most participants Dash.",
+    "Apply Dashing limits and Exhaustion checks as required.",
+    "On initiative count 0, resolve escape checks if the chase continues.",
+    "End the chase when the quarry escapes or pursuers catch up."
+  ],
+  "tags": [
+    "chapter-03",
+    "chase"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Chases"
+  },
+  "notes": []
+}
+
+

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.occasional_breaks",
+  "name": "Occasional Breaks",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Plan occasional breaks to prevent burnout.",
+    "Use breaks to recharge or explore a short alternative activity.",
+    "Communicate schedules early so expectations stay aligned."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Occasional Breaks"
+  },
+  "notes": []
+}

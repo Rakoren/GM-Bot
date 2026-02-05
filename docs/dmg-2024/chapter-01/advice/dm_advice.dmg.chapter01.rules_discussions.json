@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.rules_discussions",
+  "name": "Rules Discussions",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Work out a policy about rules discussions at the table. Some groups do not mind putting the game on hold while they discuss different interpretations of a rule. Others prefer to let the DM make a call and continue playing. If you gloss over a rules issue in play, make a note of it and return to the issue later.",
+    "Some players like to use the rules to argue against your decisions. While such players can be helpful when you are stuck or make a rules mistake that is easily corrected, players who argue the rules too often can disrupt the flow of the game.",
+    "If a player wants to pause play to find a specific rule or reference, you can invite the player to search for it while you and the rest of the players continue the game. That player's character essentially steps out of the game for as long as it takes. Monsters do not attack the character, and the character takes the Dodge action in combat until the player rejoins the group."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Rules Discussions"
+  },
+  "notes": []
+}

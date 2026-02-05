@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.shadowfell_despair",
+  "name": "Shadowfell Despair",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "When appropriate (usually not more than once per day), require a DC 10 Wisdom save or apply a despair effect.",
+    "Use the Shadowfell Despair table; replace existing despair on a failed save.",
+    "Allow a DC 15 Wisdom save after a Long Rest, or Calm Emotions / curse removal to end despair."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell",
+    "hazard"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209
+    ],
+    "section": "Shadowfell Despair"
+  },
+  "notes": []
+}

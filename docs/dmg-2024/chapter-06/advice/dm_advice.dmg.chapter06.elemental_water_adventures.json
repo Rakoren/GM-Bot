@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.elemental_water_adventures",
+  "name": "Elemental Water Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Lean into water?s themes: flow, healing, mourning, and patient erosion.",
+    "Use cults of Elemental Evil to emphasize floods, maelstroms, and drowning.",
+    "Build conflicts around reclaiming life?s waters and the primal sea?s pull."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-water",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      191
+    ],
+    "section": "Elemental Water Adventures"
+  },
+  "notes": []
+}

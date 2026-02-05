@@ -1,0 +1,28 @@
+{
+  "id": "table.dmg.chapter06.arcadia_layers",
+  "name": "Layers of Arcadia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Abellio",
+      "description": "Fields of plenty dedicated to the good of all."
+    },
+    {
+      "layer": "Buxenus",
+      "description": "Military forces gather amid valleys and orchards to reclaim Menausus, now part of Mechanus."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      183
+    ],
+    "section": "Layers of Arcadia"
+  },
+  "notes": []
+}

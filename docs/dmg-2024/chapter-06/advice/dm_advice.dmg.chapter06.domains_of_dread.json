@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.domains_of_dread",
+  "name": "Domains of Dread",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Domains of Dread as mist-shrouded demiplanes that imprison Darklords.",
+    "Let the Mists isolate or drag in victims across planes.",
+    "Treat the Dark Powers as mysterious jailers rather than direct foes."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      208,
+      209
+    ],
+    "section": "Domains of Dread"
+  },
+  "notes": []
+}

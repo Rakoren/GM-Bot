@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter07.the_next_dawn",
+  "name": "The Next Dawn",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Some items recharge at the next dawn or another specified time.",
+    "If the specified event doesn't occur on a world or plane, the DM decides when the item recharges."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      218
+    ],
+    "section": "The Next Dawn"
+  },
+  "notes": []
+}

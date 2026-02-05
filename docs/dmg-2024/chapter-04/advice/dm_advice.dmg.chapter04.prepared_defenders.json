@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.prepared_defenders",
+  "name": "Prepared Defenders",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use ambushes, barricades, sentries, alarms, and traps to model preparation.",
+    "Shift defenders from keyed locations to chokepoints and strongpoints.",
+    "Update maps and encounter layouts when defenders reposition."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      110
+    ],
+    "section": "Prepared Defenders"
+  },
+  "notes": []
+}

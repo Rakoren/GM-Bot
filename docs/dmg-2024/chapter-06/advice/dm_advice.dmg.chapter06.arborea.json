@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.arborea",
+  "name": "Arborea",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present Arborea as a realm of vast natural extremes, lush forests, deep gorges, and powerful storms.",
+    "Use sudden squalls, warm sunlight, and distant music to convey its vivid emotional energy.",
+    "Treat Arborea?s spirits as wild-hearted and protective of their domains."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "arborea"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      182
+    ],
+    "section": "Arborea"
+  },
+  "notes": []
+}

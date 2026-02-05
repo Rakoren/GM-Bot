@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter05.temple_of_the_far_horizon",
+  "name": "Temple of the Far Horizon",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the temple for divine hooks and spiritual guidance.",
+    "Introduce clergy and rituals tied to local conflicts.",
+    "Let the temple offer healing or quests."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      144
+    ],
+    "section": "Temple of the Far Horizon"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.party_leader",
+  "name": "Party Leader",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Designate a party leader to be the point person for group decisions.",
+    "The leader gathers consensus before communicating the party's plan.",
+    "Use this to reduce table chaos in large groups."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "Party Leader"
+  },
+  "notes": []
+}

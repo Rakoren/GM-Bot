@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.acting",
+  "name": "Acting",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Players who enjoy acting embody their characters' personalities, perspectives, and attitudes.",
+    "Give opportunities to develop character personality and background.",
+    "Let them interact often with NPCs and other characters.",
+    "Highlight roleplaying elements in combat and weave in character backstories."
+  ],
+  "tags": [
+    "chapter-02",
+    "player-preferences"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      20
+    ],
+    "section": "Acting"
+  },
+  "notes": []
+}

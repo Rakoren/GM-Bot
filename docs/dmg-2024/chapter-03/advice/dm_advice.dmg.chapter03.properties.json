@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.properties",
+  "name": "Properties",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use weapon properties to define tactical tradeoffs.",
+    "Keep property effects clear and consistent.",
+    "Apply properties uniformly across similar items."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Properties"
+  },
+  "notes": []
+}

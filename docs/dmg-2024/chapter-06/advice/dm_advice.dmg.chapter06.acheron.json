@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.acheron",
+  "name": "Acheron",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present Acheron as a realm of colossal iron cubes drifting and colliding in an airy void.",
+    "Use its four layers to show a progression from perfect war-forged order to jagged, frozen ruin.",
+    "Lean on its bloodlust-inducing nature to emphasize ceaseless conflict."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "acheron"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      182
+    ],
+    "section": "Acheron"
+  },
+  "notes": []
+}

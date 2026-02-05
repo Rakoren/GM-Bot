@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.start_here",
+  "name": "Start Here",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Begin with a small, clear area of the city.",
+    "Introduce a few NPCs and immediate hooks.",
+    "Expand outward as players explore."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Start Here"
+  },
+  "notes": []
+}

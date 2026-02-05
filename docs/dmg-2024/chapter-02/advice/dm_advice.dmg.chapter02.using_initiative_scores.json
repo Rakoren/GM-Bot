@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.using_initiative_scores",
+    "name":  "Using Initiative Scores",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use initiative scores when you want to reduce rolling.",
+                     "Set scores based on Dexterity or relevant modifiers.",
+                     "Keep the ordering transparent for the table."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    45
+                                ],
+                      "section":  "Using Initiative Scores"
+                  },
+    "notes":  [
+
+              ]
+}

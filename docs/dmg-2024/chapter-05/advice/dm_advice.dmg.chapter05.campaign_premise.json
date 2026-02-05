@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.campaign_premise",
+  "name": "Campaign Premise",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Describe the campaign in a concise statement of conflict and theme.",
+    "Align the premise with player interests and expected tone.",
+    "Use the premise to filter adventure ideas and NPC goals."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      127
+    ],
+    "section": "Campaign Premise"
+  },
+  "notes": []
+}

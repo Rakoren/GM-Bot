@@ -108,10 +108,20 @@ const packTablePath = path.resolve(
   "tables",
   "table.adventuring_packs.json"
 );
+const packTableFallbackPath = path.resolve(
+  docsRoot,
+  "..",
+  "chapter-06",
+  "tables",
+  "table.adventuring_packs.json"
+);
 let packIds = new Set();
-if (fs.existsSync(packTablePath)) {
+if (fs.existsSync(packTablePath) || fs.existsSync(packTableFallbackPath)) {
+  const resolvedPackPath = fs.existsSync(packTablePath)
+    ? packTablePath
+    : packTableFallbackPath;
   try {
-    const packTable = JSON.parse(fs.readFileSync(packTablePath, "utf8"));
+    const packTable = JSON.parse(fs.readFileSync(resolvedPackPath, "utf8"));
     packIds = new Set(
       (packTable.entries ?? [])
         .map((entry) => entry.pack_id)

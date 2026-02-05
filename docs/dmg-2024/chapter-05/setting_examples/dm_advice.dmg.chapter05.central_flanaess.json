@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.central_flanaess",
+  "name": "Central Flanaess",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Introduce the central region as a nexus of conflicts and powers.",
+    "Use its diversity to support varied adventure types.",
+    "Anchor campaigns with notable cities and ruins."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      144
+    ],
+    "section": "Central Flanaess"
+  },
+  "notes": []
+}

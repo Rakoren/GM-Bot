@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.recurring_npcs",
+  "name": "Recurring NPCs",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use recurring NPCs to build continuity and investment.",
+    "Let them change based on player actions.",
+    "Give them clear goals and evolving relationships."
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Recurring NPCs"
+  },
+  "notes": []
+}

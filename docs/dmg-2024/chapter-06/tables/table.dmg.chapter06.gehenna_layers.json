@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter06.gehenna_layers",
+  "name": "Layers of Gehenna",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Khalas",
+      "description": "Lava illuminates ash and steam from the River Styx."
+    },
+    {
+      "layer": "Chamada",
+      "description": "Constant lava flows and ashfall; iron zeppelins drift through gray skies."
+    },
+    {
+      "layer": "Mungoth",
+      "description": "Acidic ash mingles with falling snow on this freezing layer."
+    },
+    {
+      "layer": "Krangath",
+      "description": "The Dead Furnace is a silent mountain home to a coterie of liches."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      197
+    ],
+    "section": "Layers of Gehenna"
+  },
+  "notes": []
+}

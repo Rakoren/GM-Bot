@@ -1,0 +1,274 @@
+{
+    "id":  "table.dmg.chapter04.sections",
+    "name":  "Chapter 4 Section Pages",
+    "chapter":  "dmg-2024.chapter-04",
+    "status":  "draft",
+    "columns":  [
+                    "heading",
+                    "page_ref"
+                ],
+    "entries":  [
+                    {
+                        "heading":  "CHAPTER 4: CREATING ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "STEP-BY-STEP ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "USING PUBLISHED ADVENTURES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "LAY OUT THE PREMISE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "GUIDE RAILS AND RAILROADS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE PREMISE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE CONFLICT",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE SITUATIONS BY LEVEL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "LEVELS 1-4: LOCAL HEROES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "LEVELS 5-10: HEROES OF THE REALM",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "LEVELS 11-16: MASTERS OF THE REALM",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "LEVELS 17-20: MASTERS OF THE WORLD",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE SETTING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "WRITING FOR YOURSELF",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE MAPS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BRINGING A LOCATION TO LIFE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE INHABITANTS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "DRAW IN THE PLAYERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SUBVERT CLICHES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE PATRONS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SUPERNATURAL HOOKS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "HAPPENSTANCE HOOKS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "PLAN ENCOUNTERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "CHARACTER OBJECTIVES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MAKE PEACE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "PROTECT AN NPC OR OBJECT",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "RETRIEVE AN OBJECT",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "RUN A GAUNTLET",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SNEAK IN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "STOP A RITUAL",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TAKE OUT A SINGLE TARGET",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "KEEPING THE ADVENTURE MOVING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SOMETHING FOR EVERYONE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MULTIPLE WAYS TO PROGRESS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "SOCIAL INTERACTION ENCOUNTERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "EXPLORATION ENCOUNTERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "COMBAT ENCOUNTERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "COMBAT ENCOUNTER DIFFICULTY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TROUBLESHOOTING",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MONSTER BEHAVIOR",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "INITIAL ATTITUDES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MONSTER PERSONALITY",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MONSTER RELATIONSHIPS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "REACTIVE TACTICS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "PREPARED DEFENDERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ENCOUNTER PACE AND TENSION",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "URGENCY AND RESTS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "RANDOM ENCOUNTERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BRING IT TO AN END",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "DENOUEMENT",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE REWARDS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "INDIVIDUAL TREASURE",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "TREASURE HOARDS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "QUEST REWARDS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MONSTER TREASURE PREFERENCES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ADVENTURE EXAMPLES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "A STARTING CAMPAIGN",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "THE FOULED STREAM",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "ENCOUNTERS",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "MINER DIFFICULTIES",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "THE WINGED GOD",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "HORNS OF THE BEAST",
+                        "page_ref":  "TBD"
+                    },
+                    {
+                        "heading":  "BOREAL BALL",
+                        "page_ref":  "TBD"
+                    }
+                ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    105
+                                ],
+                      "section":  "Chapter 4: Creating Adventures"
+                  },
+    "notes":  [
+                  "Page refs TBD; fill with exact page numbers once verified."
+              ]
+}

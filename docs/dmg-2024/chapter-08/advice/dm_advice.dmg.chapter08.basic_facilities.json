@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter08.basic_facilities",
+  "name": "Basic Facilities",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Each Bastion starts with two free basic facilities: one Cramped and one Roomy.",
+    "Bastions can include multiple instances of any basic facility.",
+    "Basic facilities provide flavor and roleplay, not mechanical benefits."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      335
+    ],
+    "section": "Basic Facilities"
+  },
+  "notes": []
+}

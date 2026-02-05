@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.gaining_a_bastion",
+  "name": "Gaining a Bastion",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "If Bastions are allowed, characters gain them at level 5.",
+    "Decide with players how each Bastion is acquired: inherited land, a reward, or a refurbished structure.",
+    "Assume off-screen work so the Bastion is ready when the character reaches level 5."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "progression"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      334
+    ],
+    "section": "Gaining a Bastion"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.fragmentation_grenade",
+  "name": "Fragmentation Grenade",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use fragmentation grenades for burst damage in tight spaces.",
+    "Define clear blast radius and shrapnel effects.",
+    "Keep use limited to prevent over-reliance."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Fragmentation Grenade"
+  },
+  "notes": []
+}

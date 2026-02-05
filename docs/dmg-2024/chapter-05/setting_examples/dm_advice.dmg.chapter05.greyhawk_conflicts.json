@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.greyhawk_conflicts",
+  "name": "Greyhawk Conflicts",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use regional conflicts to anchor campaign arcs.",
+    "Let factions pursue goals that cross paths with the party.",
+    "Escalate conflicts as characters grow in power."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      137
+    ],
+    "section": "Greyhawk Conflicts"
+  },
+  "notes": []
+}

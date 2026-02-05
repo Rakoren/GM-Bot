@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.far_realm_adventures",
+  "name": "Far Realm Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Far Realm stories to explore identity, autonomy, and existential dread.",
+    "Check player limits before running horror-heavy themes.",
+    "Treat encounters as mind-straining rather than purely physical."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "far-realm",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      194
+    ],
+    "section": "Far Realm Adventures"
+  },
+  "notes": []
+}

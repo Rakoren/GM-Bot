@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.boreal_ball",
+  "name": "Boreal Ball",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use a social event as the stage for intrigue and revelation.",
+    "Give players clear goals amid distractions and subplots.",
+    "Let outcomes alter faction relationships or future hooks."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "examples"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      114
+    ],
+    "section": "Boreal Ball"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.dm_controlled_adventurer",
+  "name": "DM-Controlled Adventurer",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "A DM-controlled adventurer can accompany the party as a supporting character.",
+    "Use this to roleplay alongside the players without stealing the spotlight.",
+    "Avoid making decisions for the group and keep player agency intact.",
+    "Be ready to run the NPC in combat."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "DM-Controlled Adventurer"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter01.game_expectations_sheet",
+  "name": "Using the Game Expectations Sheet",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "The Game Expectations tracking sheet is a tool you can use to set expectations at the start of a game and ensure the game is fun for everyone.",
+    "Before distributing the sheet to players, fill in the two topmost boxes: Game Theme and Flavor, and Potentially Sensitive Elements.",
+    "Once the above information is added, give a copy of the sheet to each player. Players can fill out their sheets anonymously, but ask each of them to add limits and hopes/expectations/concerns.",
+    "Collect all the sheets, and gather your players' limits into a separate, anonymous document the whole group can access."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      15
+    ],
+    "section": "Using the Game Expectations Sheet"
+  },
+  "notes": []
+}

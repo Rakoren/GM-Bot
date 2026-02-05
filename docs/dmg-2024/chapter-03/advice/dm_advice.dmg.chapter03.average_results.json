@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.average_results",
+  "name": "Average Results",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use average results to speed damage and hit resolution.",
+    "Switch to rolling for standout moments or key enemies.",
+    "Be consistent so players can plan around outcomes."
+  ],
+  "tags": [
+    "chapter-03",
+    "mobs"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Average Results"
+  },
+  "notes": []
+}

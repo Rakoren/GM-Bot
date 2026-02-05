@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.ethereal_plane",
+  "name": "Ethereal Plane",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat the Ethereal Plane as a misty dimension with Border and Deep regions.",
+    "Use low visibility (60 feet in Border, 30 feet in Deep) to heighten uncertainty.",
+    "Let Etherealness enter the Border Ethereal; Plane Shift can reach either region."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ethereal"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      191
+    ],
+    "section": "Ethereal Plane"
+  },
+  "notes": []
+}

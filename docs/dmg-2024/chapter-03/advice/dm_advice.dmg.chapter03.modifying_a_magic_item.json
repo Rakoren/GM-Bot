@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.modifying_a_magic_item",
+  "name": "Modifying a Magic Item",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Modify existing items to better fit your campaign or story.",
+    "Adjust effects carefully to preserve balance and clarity.",
+    "Reflavor items without changing mechanics when possible."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Modifying a Magic Item"
+  },
+  "notes": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "table.dmg.chapter07.magic_item_crafting_time_cost",
+  "name": "Magic Item Crafting Time and Cost",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "item_rarity",
+    "time",
+    "cost"
+  ],
+  "entries": [
+    {
+      "item_rarity": "Common",
+      "time": "5 days",
+      "cost": "50 GP"
+    },
+    {
+      "item_rarity": "Uncommon",
+      "time": "10 days",
+      "cost": "200 GP"
+    },
+    {
+      "item_rarity": "Rare",
+      "time": "50 days",
+      "cost": "2,000 GP"
+    },
+    {
+      "item_rarity": "Very Rare",
+      "time": "125 days",
+      "cost": "20,000 GP"
+    },
+    {
+      "item_rarity": "Legendary",
+      "time": "250 days",
+      "cost": "100,000 GP"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      220
+    ],
+    "section": "Magic Item Crafting Time and Cost"
+  },
+  "notes": [
+    "Time and cost are halved for consumables other than spell scrolls.",
+    "Spell scroll crafting time and cost are specified in the Player's Handbook."
+  ]
+}

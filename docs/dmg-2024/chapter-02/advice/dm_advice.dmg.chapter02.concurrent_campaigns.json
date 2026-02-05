@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter02.concurrent_campaigns",
+  "name": "Concurrent Campaigns",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Running multiple campaigns can help manage large groups or schedules.",
+    "Keep campaign notes organized to avoid confusion.",
+    "Align tone and rules expectations across campaigns if players overlap."
+  ],
+  "tags": [
+    "chapter-02",
+    "table-management"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      25
+    ],
+    "section": "Concurrent Campaigns"
+  },
+  "notes": []
+}

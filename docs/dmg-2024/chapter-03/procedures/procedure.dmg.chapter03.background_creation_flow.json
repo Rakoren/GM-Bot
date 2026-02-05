@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter03.background_creation_flow",
+  "name": "Background Creation Flow",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "triggers": [
+    "when creating a custom background"
+  ],
+  "steps": [
+    "Choose ability score increases that fit the background.",
+    "Choose an origin feat that matches the background’s theme.",
+    "Choose skill proficiencies tied to the background’s experience.",
+    "Choose a tool proficiency that fits the background’s training.",
+    "Choose starting equipment consistent with other backgrounds."
+  ],
+  "tags": [
+    "chapter-03",
+    "backgrounds"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a Background"
+  },
+  "notes": []
+}
+
+
+

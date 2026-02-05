@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.deep_ethereal",
+  "name": "Deep Ethereal",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Deep Ethereal as roiling mist punctuated by color curtains.",
+    "Let curtains connect to specific planes; color, texture, and temperature hint at destinations.",
+    "Make travel time between curtains 1d10 ? 10 hours, regardless of distance."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "ethereal",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      192
+    ],
+    "section": "Deep Ethereal"
+  },
+  "notes": []
+}

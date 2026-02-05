@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.crossing_the_streams",
+  "name": "Crossing the Streams",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Blend multiple genres or settings to create contrast.",
+    "Explain how different worlds connect in the fiction.",
+    "Use cross-genre elements sparingly to preserve coherence."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      131
+    ],
+    "section": "Crossing the Streams"
+  },
+  "notes": []
+}

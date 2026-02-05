@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.npc_party_members",
+  "name": "NPC Party Members",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Add NPCs to support the party using NPC stat blocks.",
+    "Let players run NPCs as secondary characters if you prefer.",
+    "Keep NPCs in a supporting role while main characters lead in scenes.",
+    "Use apprentices or retainers to justify NPC presence."
+  ],
+  "tags": [
+    "chapter-02",
+    "group-size"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      23
+    ],
+    "section": "NPC Party Members"
+  },
+  "notes": []
+}

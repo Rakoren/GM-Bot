@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.elemental_plane_of_fire",
+  "name": "Elemental Plane of Fire",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present the Plane of Fire as a blazing realm with a 24-hour sun and deep-red twilight at midnight.",
+    "Use fierce winds and thick ash; require protection from stinging cinders outside protected areas.",
+    "Treat heat as desert-level hazard and make water scarce."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-fire"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      188,
+      189
+    ],
+    "section": "Elemental Plane of Fire"
+  },
+  "notes": []
+}

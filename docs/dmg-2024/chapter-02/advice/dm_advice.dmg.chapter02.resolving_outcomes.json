@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.resolving_outcomes",
+    "name":  "Resolving Outcomes",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Resolve player actions by determining outcomes clearly and fairly.",
+                     "Use ability checks, attack rolls, and saving throws when uncertainty matters.",
+                     "Keep rulings consistent with the situation and stakes."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    28
+                                ],
+                      "section":  "Resolving Outcomes"
+                  },
+    "notes":  [
+
+              ]
+}

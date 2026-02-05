@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.sea_of_light",
+  "name": "Sea of Light",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat the Sea of Light as the sunlit upper waters where life flourishes.",
+    "Place aquatic fortresses and coral reef settlements here."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-water"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      191
+    ],
+    "section": "Sea of Light"
+  },
+  "notes": []
+}

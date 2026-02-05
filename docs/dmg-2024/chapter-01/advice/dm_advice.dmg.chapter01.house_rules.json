@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter01.house_rules",
+  "name": "House Rules",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "House rules are new or modified rules you add to your game to make it your own and to enhance the style you have in mind for your game. Before you establish a house rule, ask yourself two questions:",
+    "Will the rule or change improve the game?",
+    "Will my players like it?",
+    "If you are confident that the answer to both questions is yes, give the new rule a try. Present house rules as experiments, and ask your players to provide feedback on them. If you introduce a house rule that is not fun, remove or revise the rule."
+  ],
+  "tags": [
+    "chapter-01",
+    "dm-style",
+    "house-rules"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      13
+    ],
+    "section": "House Rules"
+  },
+  "notes": []
+}

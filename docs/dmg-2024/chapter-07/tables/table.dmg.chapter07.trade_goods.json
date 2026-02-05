@@ -1,0 +1,72 @@
+{
+  "id": "table.dmg.chapter07.trade_goods",
+  "name": "Trade Goods",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "cost",
+    "goods"
+  ],
+  "entries": [
+    {
+      "cost": "1 CP",
+      "goods": "1 lb. of wheat"
+    },
+    {
+      "cost": "2 CP",
+      "goods": "2 lb. of flour or one chicken"
+    },
+    {
+      "cost": "5 CP",
+      "goods": "1 lb. of salt"
+    },
+    {
+      "cost": "1 SP",
+      "goods": "1 lb. of iron or 1 sq. yd. of canvas"
+    },
+    {
+      "cost": "5 SP",
+      "goods": "1 lb. of copper or 1 sq. yd. of cotton cloth"
+    },
+    {
+      "cost": "1 GP",
+      "goods": "1 lb. of ginger or one goat"
+    },
+    {
+      "cost": "2 GP",
+      "goods": "1 lb. of cinnamon or pepper, or one sheep"
+    },
+    {
+      "cost": "3 GP",
+      "goods": "1 lb. of cloves or one pig"
+    },
+    {
+      "cost": "5 GP",
+      "goods": "1 lb. of silver or 1 sq. yd. of linen"
+    },
+    {
+      "cost": "10 GP",
+      "goods": "1 lb. of silk or one cow"
+    },
+    {
+      "cost": "15 GP",
+      "goods": "1 lb. of saffron or one ox"
+    },
+    {
+      "cost": "50 GP",
+      "goods": "1 lb. of gold"
+    },
+    {
+      "cost": "500 GP",
+      "goods": "1 lb. of platinum"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      213
+    ],
+    "section": "Trade Goods"
+  },
+  "notes": []
+}

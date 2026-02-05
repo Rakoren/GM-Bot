@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.alien_technology",
+  "name": "Alien Technology",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use alien technology as rare, mysterious, and risky.",
+    "Define limitations and compatibility with existing gear.",
+    "Tie discovery to major story beats."
+  ],
+  "tags": [
+    "chapter-03",
+    "firearms"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Alien Technology"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.player_input",
+  "name": "Player Input",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Ask players directly about themes, tones, and activities they enjoy.",
+    "Use character creation choices as indirect signals.",
+    "Revisit player input as the campaign evolves."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "characters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      127
+    ],
+    "section": "Player Input"
+  },
+  "notes": []
+}

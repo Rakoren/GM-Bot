@@ -1,0 +1,36 @@
+{
+  "id": "table.dmg.chapter06.acheron_layers",
+  "name": "Layers of Acheron",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Avalas",
+      "description": "Spirit soldiers wage endless wars across debris-strewn battlefields."
+    },
+    {
+      "layer": "Thuldanin",
+      "description": "Pitted, hollow cubes are filled with the cast-off machinery of war."
+    },
+    {
+      "layer": "Tintibulus",
+      "description": "Jagged blocks tumble in darkness, holding frozen memories sapped by the River Styx."
+    },
+    {
+      "layer": "Ocanthus",
+      "description": "Maelstroms of razor-sharp debris swirl above a mire of black ice."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      182
+    ],
+    "section": "Layers of Acheron"
+  },
+  "notes": []
+}

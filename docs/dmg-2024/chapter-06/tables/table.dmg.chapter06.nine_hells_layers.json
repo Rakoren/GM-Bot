@@ -1,0 +1,56 @@
+{
+  "id": "table.dmg.chapter06.nine_hells_layers",
+  "name": "Layers of the Nine Hells",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Avernus",
+      "description": "The Blood War rages across battlefields of corpses and war machines."
+    },
+    {
+      "layer": "Dis",
+      "description": "Iron roads in deep canyons lead to the Iron City of Dis."
+    },
+    {
+      "layer": "Minauros",
+      "description": "Acid rain falls on putrid bogs and decaying cities."
+    },
+    {
+      "layer": "Phlegethos",
+      "description": "Obsidian fortresses bask in raging volcanoes and magma rivers."
+    },
+    {
+      "layer": "Stygia",
+      "description": "Levistus's prison is a frigid hellscape of jagged ice and cold fire."
+    },
+    {
+      "layer": "Malbolge",
+      "description": "An ever-crumbling mountain threatens to bury visitors."
+    },
+    {
+      "layer": "Maladomini",
+      "description": "Swarms of hungry flies plague dead cities amid desolation."
+    },
+    {
+      "layer": "Cania",
+      "description": "Ice-trapped cities shelter a realm cold enough to freeze the soul."
+    },
+    {
+      "layer": "Nessus",
+      "description": "Mighty fortresses guard the deepest pits of the Nine Hells."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202
+    ],
+    "section": "Layers of the Nine Hells"
+  },
+  "notes": []
+}

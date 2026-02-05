@@ -1,0 +1,26 @@
+{
+    "id":  "dm_advice.dmg.chapter02.saving_throws",
+    "name":  "Saving Throws",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Use saving throws when a character resists a harmful effect.",
+                     "Choose the appropriate ability and apply bonuses.",
+                     "Apply full or partial effects based on success or failure."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication",
+                 "combat"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    30
+                                ],
+                      "section":  "Saving Throws"
+                  },
+    "notes":  [
+
+              ]
+}

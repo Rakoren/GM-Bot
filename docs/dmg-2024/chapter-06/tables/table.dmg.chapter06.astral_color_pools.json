@@ -1,0 +1,116 @@
+{
+  "id": "table.dmg.chapter06.astral_color_pools",
+  "name": "Astral Color Pools",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "plane",
+    "pool_color"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "plane": "Abyss",
+      "pool_color": "Amethyst"
+    },
+    {
+      "roll": "2",
+      "plane": "Acheron",
+      "pool_color": "Flame red"
+    },
+    {
+      "roll": "3",
+      "plane": "Arborea",
+      "pool_color": "Sapphire blue"
+    },
+    {
+      "roll": "4",
+      "plane": "Arcadia",
+      "pool_color": "Saffron"
+    },
+    {
+      "roll": "5",
+      "plane": "Beastlands",
+      "pool_color": "Emerald green"
+    },
+    {
+      "roll": "6",
+      "plane": "Bytopia",
+      "pool_color": "Amber"
+    },
+    {
+      "roll": "7",
+      "plane": "Carceri",
+      "pool_color": "Olive"
+    },
+    {
+      "roll": "8",
+      "plane": "Elysium",
+      "pool_color": "Orange"
+    },
+    {
+      "roll": "9",
+      "plane": "Ethereal Plane",
+      "pool_color": "Spiraling white"
+    },
+    {
+      "roll": "10",
+      "plane": "Gehenna",
+      "pool_color": "Russet"
+    },
+    {
+      "roll": "11",
+      "plane": "Hades",
+      "pool_color": "Rust"
+    },
+    {
+      "roll": "12",
+      "plane": "Limbo",
+      "pool_color": "Jet black"
+    },
+    {
+      "roll": "13-14",
+      "plane": "Material Plane",
+      "pool_color": "Silver"
+    },
+    {
+      "roll": "15",
+      "plane": "Mechanus",
+      "pool_color": "Diamond blue"
+    },
+    {
+      "roll": "16",
+      "plane": "Mount Celestia",
+      "pool_color": "Gold"
+    },
+    {
+      "roll": "17",
+      "plane": "Nine Hells",
+      "pool_color": "Ruby"
+    },
+    {
+      "roll": "18",
+      "plane": "Outlands",
+      "pool_color": "Leather brown"
+    },
+    {
+      "roll": "19",
+      "plane": "Pandemonium",
+      "pool_color": "Magenta"
+    },
+    {
+      "roll": "20",
+      "plane": "Ysgard",
+      "pool_color": "Indigo"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      184
+    ],
+    "section": "Astral Color Pools"
+  },
+  "notes": []
+}

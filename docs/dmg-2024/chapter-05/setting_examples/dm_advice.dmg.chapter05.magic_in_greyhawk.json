@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.magic_in_greyhawk",
+  "name": "Magic in Greyhawk",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Decide how common magic is and who controls it.",
+    "Use magic to shape politics, travel, and conflicts.",
+    "Make magical institutions and traditions distinct."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      140
+    ],
+    "section": "Magic in Greyhawk"
+  },
+  "notes": []
+}

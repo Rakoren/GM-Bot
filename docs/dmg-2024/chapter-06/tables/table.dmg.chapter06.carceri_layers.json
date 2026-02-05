@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter06.carceri_layers",
+  "name": "Layers of Carceri",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Orthrys",
+      "description": "The River Styx meanders through a layer of vast bogs and quicksand."
+    },
+    {
+      "layer": "Cathrys",
+      "description": "The stench of decay hangs over fetid jungles and scarlet plains."
+    },
+    {
+      "layer": "Minethys",
+      "description": "Stinging sand blows in unending storms, hiding the ruins of Payratheon."
+    },
+    {
+      "layer": "Colothys",
+      "description": "Deep chasms cut between cruel mountains make foot travel nearly impossible."
+    },
+    {
+      "layer": "Porphatys",
+      "description": "Cold, acidic oceans are fed by constant black snow."
+    },
+    {
+      "layer": "Agathys",
+      "description": "Black ice streaked with red covers this frigid realm."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      186
+    ],
+    "section": "Layers of Carceri"
+  },
+  "notes": []
+}

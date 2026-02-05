@@ -1,0 +1,29 @@
+{
+  "id": "dm_advice.dmg.chapter01.play_style",
+  "name": "Play Style",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Here are some questions that can help you define your unique style as a DM and the kind of game you want to run:",
+    "Hack and Slash or Immersive Roleplaying? Does the game focus on combat and action or on a rich story with detailed NPCs?",
+    "All Ages or Mature Themes? Is the game for all ages, or does it involve mature themes?",
+    "Gritty or Cinematic? Do you prefer gritty realism, or are you more focused on making the game feel cinematic and super-heroic?",
+    "Serious or Silly? Do you want to maintain a serious tone, or is humor your goal?",
+    "Preplanned or Improvised? Do you like to plan thoroughly, or do you prefer to improvise?",
+    "General or Thematic? Is the game a mixture of themes and genres, or does it center on a particular theme or a genre such as horror?",
+    "Morally Ambiguous or Heroic? Are you comfortable with moral ambiguity, such as allowing the characters to explore whether the end justifies the means? Or are you happier with straightforward heroic principles, such as justice, sacrifice, and helping the downtrodden?"
+  ],
+  "tags": [
+    "chapter-01",
+    "dm-style"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      12,
+      13
+    ],
+    "section": "Play Style"
+  },
+  "notes": []
+}

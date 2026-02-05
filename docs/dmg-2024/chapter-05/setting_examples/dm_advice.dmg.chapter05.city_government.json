@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.city_government",
+  "name": "City Government",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Define who rules and how decisions are made.",
+    "Use government structure to drive politics and conflicts.",
+    "Let power shifts create new hooks."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "City Government"
+  },
+  "notes": []
+}

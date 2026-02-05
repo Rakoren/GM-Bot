@@ -1,0 +1,44 @@
+{
+  "id": "dm_advice.dmg.chapter03.npcs_ai_reference",
+  "name": "NPCs AI Reference",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use NPCs to deliver goals, information, and consequences that move play forward.",
+    "Keep NPC voices distinct with a single defining trait or mannerism.",
+    "Reveal secrets through behavior, clues, and shifting loyalties rather than exposition.",
+    "Let NPC reactions change based on player choices to reinforce agency.",
+    "Avoid NPCs solving problems for the party; they should support, not replace, player action."
+  ],
+  "ai_focus": [
+    "Maintain a short NPC roster per scene: name, role, want, secret, attitude.",
+    "If an NPC returns, update their goal and relationship first.",
+    "Use loyalty shifts as narrative signals for trust or betrayal.",
+    "Prefer actionable hooks over backstory dumps."
+  ],
+  "related_shards": [
+    "dm_advice.dmg.chapter03.nonplayer_characters",
+    "dm_advice.dmg.chapter03.detailed_npcs",
+    "dm_advice.dmg.chapter03.name",
+    "dm_advice.dmg.chapter03.stat_block",
+    "dm_advice.dmg.chapter03.appearance",
+    "dm_advice.dmg.chapter03.secret",
+    "dm_advice.dmg.chapter03.recurring_npcs",
+    "dm_advice.dmg.chapter03.dont_go_overboard",
+    "dm_advice.dmg.chapter03.npcs_as_party_members",
+    "dm_advice.dmg.chapter03.loyalty"
+  ],
+  "tags": [
+    "chapter-03",
+    "npcs",
+    "ai"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Nonplayer Characters (AI Reference)"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.altered_damage_types",
+  "name": "Altered Damage Types",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Swap damage types to better fit the item’s theme.",
+    "Be mindful of resistances and immunities in the campaign.",
+    "Keep the item’s overall power in line with its rarity."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Altered Damage Types"
+  },
+  "notes": []
+}

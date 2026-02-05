@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.planar_travel",
+  "name": "Planar Travel",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Frame planar travel as a legendary journey shaped by the method of travel.",
+    "Use guardians and ordeals to make the journey feel mythic, not routine."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      176
+    ],
+    "section": "Planar Travel"
+  },
+  "notes": []
+}

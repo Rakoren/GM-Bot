@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.death_scenes",
+  "name": "Death Scenes",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Give space for final moments and meaningful goodbyes.",
+    "Let players choose how their character exits.",
+    "Keep the scene respectful and in line with table tone."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Death Scenes"
+  },
+  "notes": []
+}

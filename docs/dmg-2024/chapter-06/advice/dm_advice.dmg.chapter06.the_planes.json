@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_planes",
+  "name": "The Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat the planes as realms shaped by spiritual and elemental principles, not merely other worlds.",
+    "Use the five broad categories to orient play: Material Realms, Transitive Planes, Inner Planes, Outer Planes, and Positive/Negative Planes.",
+    "Reinforce the planes as wondrous and dangerous environments beyond normal reality."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "planes"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      173
+    ],
+    "section": "The Planes"
+  },
+  "notes": []
+}

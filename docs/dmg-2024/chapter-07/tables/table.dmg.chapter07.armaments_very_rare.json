@@ -1,0 +1,152 @@
+{
+  "id": "table.dmg.chapter07.armaments_very_rare",
+  "name": "Armaments - Very Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-03",
+      "item": "Ammunition, +3"
+    },
+    {
+      "roll": "04-06",
+      "item": "Ammunition of Slaying"
+    },
+    {
+      "roll": "07-09",
+      "item": "Animated Shield"
+    },
+    {
+      "roll": "10-12",
+      "item": "Armor, +2"
+    },
+    {
+      "roll": "13-14",
+      "item": "Belt of Giant Strength (fire)"
+    },
+    {
+      "roll": "15-17",
+      "item": "Belt of Giant Strength (frost or stone)"
+    },
+    {
+      "roll": "18-19",
+      "item": "Dancing Sword"
+    },
+    {
+      "roll": "20-22",
+      "item": "Demon Armor"
+    },
+    {
+      "roll": "23-25",
+      "item": "Dragon Scale Mail"
+    },
+    {
+      "roll": "26-28",
+      "item": "Dwarven Plate"
+    },
+    {
+      "roll": "29-31",
+      "item": "Dwarven Thrower"
+    },
+    {
+      "roll": "32-34",
+      "item": "Energy Bow"
+    },
+    {
+      "roll": "35-37",
+      "item": "Enspelled Armor (level 4 or 5 spell)"
+    },
+    {
+      "roll": "38-40",
+      "item": "Enspelled Weapon (level 4 or 5 spell)"
+    },
+    {
+      "roll": "41-43",
+      "item": "Executioner's Axe"
+    },
+    {
+      "roll": "44-46",
+      "item": "Frost Brand"
+    },
+    {
+      "roll": "47-49",
+      "item": "Horn of Valhalla (bronze)"
+    },
+    {
+      "roll": "50-52",
+      "item": "Ioun Stone (strength)"
+    },
+    {
+      "roll": "53-55",
+      "item": "Lute of Thunderous Thumping"
+    },
+    {
+      "roll": "56-58",
+      "item": "Manual of Gainful Exercise"
+    },
+    {
+      "roll": "59-61",
+      "item": "Nine Lives Stealer"
+    },
+    {
+      "roll": "62-64",
+      "item": "Oathbow"
+    },
+    {
+      "roll": "65-68",
+      "item": "Oil of Sharpness"
+    },
+    {
+      "roll": "69-72",
+      "item": "Potion of Giant Strength (cloud)"
+    },
+    {
+      "roll": "73-75",
+      "item": "Quarterstaff of the Acrobat"
+    },
+    {
+      "roll": "76-78",
+      "item": "Scimitar of Speed"
+    },
+    {
+      "roll": "79-82",
+      "item": "Shield, +3"
+    },
+    {
+      "roll": "83-85",
+      "item": "Shield of the Cavalier"
+    },
+    {
+      "roll": "86-88",
+      "item": "Spellguard Shield"
+    },
+    {
+      "roll": "89-91",
+      "item": "Sword of Sharpness"
+    },
+    {
+      "roll": "92-94",
+      "item": "Thunderous Greatclub"
+    },
+    {
+      "roll": "95-97",
+      "item": "Weapon, +3"
+    },
+    {
+      "roll": "98-00",
+      "item": "Wraps of Unarmed Power, +3"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      232
+    ],
+    "section": "Armaments - Very Rare"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.choose_skill_proficiencies",
+  "name": "Choose Skill Proficiencies",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Select skills that match the background’s experience and role.",
+    "Keep the number and power of skills consistent with other backgrounds.",
+    "Use skills to highlight the character’s strengths."
+  ],
+  "tags": [
+    "chapter-03",
+    "backgrounds"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Choose Skill Proficiencies"
+  },
+  "notes": []
+}

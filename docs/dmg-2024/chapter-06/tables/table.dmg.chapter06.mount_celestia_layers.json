@@ -1,0 +1,48 @@
+{
+  "id": "table.dmg.chapter06.mount_celestia_layers",
+  "name": "Layers of Mount Celestia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "columns": [
+    "layer",
+    "description"
+  ],
+  "entries": [
+    {
+      "layer": "Lunia",
+      "description": "The Silver Heaven; holy water laps at the base of the mountain under a starry sky."
+    },
+    {
+      "layer": "Mercuria",
+      "description": "The Golden Heaven; tame slopes and lush valleys."
+    },
+    {
+      "layer": "Venya",
+      "description": "The Pearly Heaven; orchards and snowfields gleam with heavenly light."
+    },
+    {
+      "layer": "Solania",
+      "description": "The Crystal Heaven; shrines glitter under a silvery sky amid luminescent fog."
+    },
+    {
+      "layer": "Mertion",
+      "description": "The Platinum Heaven; holy soldiers muster in grand citadels."
+    },
+    {
+      "layer": "Jovar",
+      "description": "The Glittering Heaven; home to the seven-tiered Heavenly City."
+    },
+    {
+      "layer": "Chronias",
+      "description": "The Illuminated Heaven; an ineffable mystery."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      200
+    ],
+    "section": "Layers of Mount Celestia"
+  },
+  "notes": []
+}

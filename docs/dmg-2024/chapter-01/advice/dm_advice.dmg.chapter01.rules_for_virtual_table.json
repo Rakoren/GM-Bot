@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.rules_for_virtual_table",
+  "name": "Rules for the Virtual Table",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Setting expectations is just as important in a digital environment as in person.",
+    "Some groups confine out-of-character jokes, comments, and memes to a text channel, keeping the voice channel focused on the game. But some groups find it distracting to have a separate conversation unfolding in text while the game is going on. Choose an option that works best for your group.",
+    "Who moves tokens on a virtual tabletop? Are players expected to use the built-in dice roller, or is it OK to roll physical dice and report the result? The particular technology you are using might dictate answers to these questions or raise other questions you will need to sort out as you play."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      19
+    ],
+    "section": "Rules for the Virtual Table"
+  },
+  "notes": []
+}

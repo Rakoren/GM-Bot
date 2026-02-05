@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.city_watch",
+  "name": "City Watch",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the watch to enforce laws and create tension.",
+    "Different districts may have different levels of enforcement.",
+    "Let the watch be ally, obstacle, or faction."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "City Watch"
+  },
+  "notes": []
+}

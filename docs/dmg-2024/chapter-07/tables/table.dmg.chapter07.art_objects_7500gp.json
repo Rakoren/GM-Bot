@@ -1,0 +1,60 @@
+{
+  "id": "table.dmg.chapter07.art_objects_7500gp",
+  "name": "7,500 GP Art Objects",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "object"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "object": "Jeweled gold crown"
+    },
+    {
+      "roll": "2",
+      "object": "Jeweled platinum ring"
+    },
+    {
+      "roll": "3",
+      "object": "Gold statuette set with rubies"
+    },
+    {
+      "roll": "4",
+      "object": "Gold cup set with emeralds"
+    },
+    {
+      "roll": "5",
+      "object": "Gold jewelry box with platinum filigree"
+    },
+    {
+      "roll": "6",
+      "object": "Set of gold nesting dolls"
+    },
+    {
+      "roll": "7",
+      "object": "Jade game board with gold playing pieces"
+    },
+    {
+      "roll": "8",
+      "object": "Bejeweled ivory drinking horn with gold filigree"
+    },
+    {
+      "roll": "9",
+      "object": "Gilded royal coach or funeral barge"
+    },
+    {
+      "roll": "10",
+      "object": "Ceremonial gold armor with black pearls"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      215
+    ],
+    "section": "7,500 GP Art Objects"
+  },
+  "notes": []
+}

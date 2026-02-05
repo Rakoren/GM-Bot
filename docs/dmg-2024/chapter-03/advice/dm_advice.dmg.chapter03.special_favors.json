@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.special_favors",
+  "name": "Special Favors",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Special favors are flexible rewards tied to influence.",
+    "Define limits to prevent abuse.",
+    "Use favors to pull characters deeper into factions."
+  ],
+  "tags": [
+    "chapter-03",
+    "prestige"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Special Favors"
+  },
+  "notes": []
+}

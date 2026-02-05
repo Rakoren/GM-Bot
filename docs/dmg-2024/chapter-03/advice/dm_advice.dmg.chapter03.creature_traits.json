@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.creature_traits",
+  "name": "Creature Traits",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use creature traits to define signature abilities or behaviors.",
+    "Keep trait wording clear and consistent with existing rules text.",
+    "Avoid stacking too many traits on a single stat block."
+  ],
+  "tags": [
+    "chapter-03",
+    "creatures"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creature Traits"
+  },
+  "notes": []
+}

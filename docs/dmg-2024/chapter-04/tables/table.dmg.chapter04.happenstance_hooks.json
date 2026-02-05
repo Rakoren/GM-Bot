@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter04.happenstance_hooks",
+  "name": "Happenstance Hooks",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "hook"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "hook": "The characters find a letter describing the adventure situation."
+    },
+    {
+      "roll": "2",
+      "hook": "The characters are on an unrelated quest, such as searching for a particular magic item, that leads them into the adventure situation."
+    },
+    {
+      "roll": "3",
+      "hook": "The adventure situation disrupts a festival or ceremony that the characters are attending."
+    },
+    {
+      "roll": "4",
+      "hook": "A magical mishap places the characters in the adventure situation."
+    },
+    {
+      "roll": "5",
+      "hook": "While traveling in a caravan or aboard a ship, the characters befriend an NPC who has news about the adventure situation."
+    },
+    {
+      "roll": "6",
+      "hook": "The characters are attacked after being mistaken for another group of adventurers. They learn about the adventure situation from a clue left behind by their attackers."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      106
+    ],
+    "section": "Happenstance Hooks"
+  },
+  "notes": []
+}

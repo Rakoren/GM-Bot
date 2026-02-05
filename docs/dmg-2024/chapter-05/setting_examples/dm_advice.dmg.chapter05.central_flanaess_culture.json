@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.central_flanaess_culture",
+  "name": "Central Flanaess Culture",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Describe cultural traits to ground NPC behavior.",
+    "Use customs and dress to differentiate regions.",
+    "Let culture influence local conflicts and alliances."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      145
+    ],
+    "section": "Central Flanaess Culture"
+  },
+  "notes": []
+}

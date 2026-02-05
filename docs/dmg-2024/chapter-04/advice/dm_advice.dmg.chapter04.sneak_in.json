@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.sneak_in",
+  "name": "Sneak In",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Center the encounter on stealthy movement through a watched area.",
+    "Plan for detection to trigger combat or a social interaction pivot.",
+    "Reward clever routes, distractions, and timing."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "encounters"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      107
+    ],
+    "section": "Sneak In"
+  },
+  "notes": []
+}

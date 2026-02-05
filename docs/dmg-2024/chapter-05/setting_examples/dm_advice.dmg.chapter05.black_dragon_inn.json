@@ -1,0 +1,26 @@
+{
+  "id": "dm_advice.dmg.chapter05.black_dragon_inn",
+  "name": "Black Dragon Inn",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use the inn as a social hub and rumor source.",
+    "Place NPCs who can hire or aid the party.",
+    "Let it serve as a reliable meeting point."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city",
+    "location"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "Black Dragon Inn"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.potions",
+  "name": "Potions (Magic Item Category)",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Potions are magical brews or oils; a typical potion is 1 ounce in a vial.",
+    "Drinking or administering a potion is a Bonus Action; oils may require more time as described.",
+    "Potions are consumable and take effect immediately when used.",
+    "If potions are mixed, roll on the Potion Miscibility table for each added potion and reveal effects when they become evident."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Potions"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.marks_of_prestige",
+  "name": "Marks of Prestige",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use marks of prestige to reward reputation and service.",
+    "Tie prestige rewards to factions and story milestones.",
+    "Make prestige benefits feel meaningful and visible."
+  ],
+  "tags": [
+    "chapter-03",
+    "prestige"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Marks of Prestige"
+  },
+  "notes": []
+}

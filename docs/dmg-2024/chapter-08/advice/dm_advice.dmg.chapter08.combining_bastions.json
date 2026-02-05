@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.combining_bastions",
+  "name": "Combining Bastions",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Players can combine Bastions into a single structure.",
+    "Combining doesn't change special facility counts, how they work, or who issues orders.",
+    "Each Bastion retains its own hirelings; they can’t be shared.",
+    "If one Bastion loses defenders, another combined Bastion can take some or all of the losses instead."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      334
+    ],
+    "section": "Combining Bastions"
+  },
+  "notes": []
+}

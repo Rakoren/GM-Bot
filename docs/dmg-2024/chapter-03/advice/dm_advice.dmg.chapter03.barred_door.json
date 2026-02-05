@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.barred_door",
+  "name": "Barred Door",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Barred doors are harder to open from one side.",
+    "Reward creative solutions beyond brute force.",
+    "Use barred doors to signal danger or secure spaces."
+  ],
+  "tags": [
+    "chapter-03",
+    "doors"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Barred Door"
+  },
+  "notes": []
+}

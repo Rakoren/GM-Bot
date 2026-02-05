@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.epic_fantasy",
+  "name": "Epic Fantasy",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Emphasize high-stakes conflicts between good and evil.",
+    "Use grand quests, prophecies, and powerful foes.",
+    "Lean into mythic scale and dramatic payoffs."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      130
+    ],
+    "section": "Epic Fantasy"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.elysium",
+  "name": "Elysium",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Elysium as a refuge of unfettered kindness and safe haven for planar travelers.",
+    "Emphasize its bucolic beauty and the tranquility it inspires.",
+    "Let the River Oceanus connect the layers without dramatic transitions."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elysium"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      190
+    ],
+    "section": "Elysium"
+  },
+  "notes": []
+}

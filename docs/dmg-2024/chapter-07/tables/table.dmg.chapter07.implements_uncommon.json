@@ -1,0 +1,192 @@
+{
+  "id": "table.dmg.chapter07.implements_uncommon",
+  "name": "Implements - Uncommon",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-02",
+      "item": "Alchemy Jug"
+    },
+    {
+      "roll": "03-06",
+      "item": "Ammunition, +1"
+    },
+    {
+      "roll": "07-10",
+      "item": "Bag of Holding"
+    },
+    {
+      "roll": "11-12",
+      "item": "Boots of Elvenkind"
+    },
+    {
+      "roll": "13-14",
+      "item": "Boots of Striding and Springing"
+    },
+    {
+      "roll": "15-16",
+      "item": "Boots of the Winterlands"
+    },
+    {
+      "roll": "17-18",
+      "item": "Broom of Flying"
+    },
+    {
+      "roll": "19-20",
+      "item": "Cap of Water Breathing"
+    },
+    {
+      "roll": "21-22",
+      "item": "Cloak of Elvenkind"
+    },
+    {
+      "roll": "23-24",
+      "item": "Cloak of Protection"
+    },
+    {
+      "roll": "25-26",
+      "item": "Cloak of the Manta Ray"
+    },
+    {
+      "roll": "27",
+      "item": "Decanter of Endless Water"
+    },
+    {
+      "roll": "28-30",
+      "item": "Driftglobe"
+    },
+    {
+      "roll": "31-32",
+      "item": "Dust of Disappearance"
+    },
+    {
+      "roll": "33-34",
+      "item": "Dust of Dryness"
+    },
+    {
+      "roll": "35-36",
+      "item": "Dust of Sneezing and Choking"
+    },
+    {
+      "roll": "37-38",
+      "item": "Enspelled Weapon (cantrip or level 1 spell)"
+    },
+    {
+      "roll": "39-40",
+      "item": "Eyes of Minute Seeing"
+    },
+    {
+      "roll": "41-42",
+      "item": "Eyes of the Eagle"
+    },
+    {
+      "roll": "43-44",
+      "item": "Gloves of Missile Snaring"
+    },
+    {
+      "roll": "45-46",
+      "item": "Gloves of Swimming and Climbing"
+    },
+    {
+      "roll": "47-48",
+      "item": "Gloves of Thievery"
+    },
+    {
+      "roll": "49-50",
+      "item": "Goggles of Night"
+    },
+    {
+      "roll": "51",
+      "item": "Hag Eye"
+    },
+    {
+      "roll": "52-54",
+      "item": "Helm of Comprehending Languages"
+    },
+    {
+      "roll": "55",
+      "item": "Immovable Rod"
+    },
+    {
+      "roll": "56-57",
+      "item": "Instrument of the Bards (Doss lute, Fochlucan bandore, or Mac-Fuirmidh cittern)"
+    },
+    {
+      "roll": "58-59",
+      "item": "Lantern of Revealing"
+    },
+    {
+      "roll": "60-61",
+      "item": "Nature's Mantle"
+    },
+    {
+      "roll": "62-63",
+      "item": "Oil of Slipperiness"
+    },
+    {
+      "roll": "64-65",
+      "item": "Pipes of Haunting"
+    },
+    {
+      "roll": "66-67",
+      "item": "Pipes of the Sewers"
+    },
+    {
+      "roll": "68-71",
+      "item": "Potion of Growth"
+    },
+    {
+      "roll": "72-80",
+      "item": "Potion of Healing (greater)"
+    },
+    {
+      "roll": "81-84",
+      "item": "Potion of Water Breathing"
+    },
+    {
+      "roll": "85-86",
+      "item": "Quaal's Feather Token (anchor, fan, or tree)"
+    },
+    {
+      "roll": "87-88",
+      "item": "Ring of Jumping"
+    },
+    {
+      "roll": "89-90",
+      "item": "Ring of Swimming"
+    },
+    {
+      "roll": "91-92",
+      "item": "Ring of Warmth"
+    },
+    {
+      "roll": "93-94",
+      "item": "Robe of Useful Items"
+    },
+    {
+      "roll": "95-96",
+      "item": "Rope of Climbing"
+    },
+    {
+      "roll": "97-98",
+      "item": "Stone of Good Luck"
+    },
+    {
+      "roll": "99-00",
+      "item": "Wand of Secrets"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      233
+    ],
+    "section": "Implements - Uncommon"
+  },
+  "notes": []
+}

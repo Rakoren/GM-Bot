@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter08.frequency_of_bastion_turns",
+  "name": "Frequency of Bastion Turns",
+  "chapter": "dmg-2024.chapter-08",
+  "status": "complete",
+  "guidance": [
+    "Default cadence is one Bastion turn every 7 in-game days.",
+    "Use Bastion turns during travel, long downtime, brief returns, or weekly pacing near home.",
+    "Adjust the cadence (e.g., monthly) to avoid too many orders or benefits."
+  ],
+  "tags": [
+    "chapter-08",
+    "bastions",
+    "downtime"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      334
+    ],
+    "section": "Frequency of Bastion Turns"
+  },
+  "notes": []
+}

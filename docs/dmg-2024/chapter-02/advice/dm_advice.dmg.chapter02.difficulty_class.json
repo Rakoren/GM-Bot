@@ -1,0 +1,25 @@
+{
+    "id":  "dm_advice.dmg.chapter02.difficulty_class",
+    "name":  "Difficulty Class",
+    "chapter":  "dmg-2024.chapter-02",
+    "status":  "complete",
+    "guidance":  [
+                     "Set DCs that match the task\u0027s difficulty and conditions.",
+                     "Use standard difficulty benchmarks where possible.",
+                     "Be consistent across similar situations."
+                 ],
+    "tags":  [
+                 "chapter-02",
+                 "rules-adjudication"
+             ],
+    "sourceRef":  {
+                      "file":  "docs/sources/dm-guide2024/Dungeon Master\u0027s Guide (2024) - 5etools.pdf",
+                      "pages":  [
+                                    30
+                                ],
+                      "section":  "Difficulty Class"
+                  },
+    "notes":  [
+
+              ]
+}

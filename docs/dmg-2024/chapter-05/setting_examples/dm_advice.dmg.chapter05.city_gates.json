@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.city_gates",
+  "name": "City Gates",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use gates to control traffic and introduce scrutiny.",
+    "Let gate policies reflect political or security tensions.",
+    "Make gates a source of hooks or obstacles."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "City Gates"
+  },
+  "notes": []
+}

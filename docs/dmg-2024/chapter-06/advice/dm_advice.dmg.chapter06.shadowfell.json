@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.shadowfell",
+  "name": "Shadowfell",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Shadowfell as a gloomy echo of the Material Plane.",
+    "Distort landmarks into sinister versions and emphasize dread and decay.",
+    "Populate with shadow dragons, Undead, and gloom-dwelling creatures."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      208
+    ],
+    "section": "Shadowfell"
+  },
+  "notes": []
+}

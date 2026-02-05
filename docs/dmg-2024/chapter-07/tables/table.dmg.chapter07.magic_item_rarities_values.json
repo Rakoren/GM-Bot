@@ -1,0 +1,47 @@
+{
+  "id": "table.dmg.chapter07.magic_item_rarities_values",
+  "name": "Magic Item Rarities and Values",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "rarity",
+    "value"
+  ],
+  "entries": [
+    {
+      "rarity": "Common",
+      "value": "100 GP"
+    },
+    {
+      "rarity": "Uncommon",
+      "value": "400 GP"
+    },
+    {
+      "rarity": "Rare",
+      "value": "4,000 GP"
+    },
+    {
+      "rarity": "Very Rare",
+      "value": "40,000 GP"
+    },
+    {
+      "rarity": "Legendary",
+      "value": "200,000 GP"
+    },
+    {
+      "rarity": "Artifact",
+      "value": "Priceless"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      216
+    ],
+    "section": "Magic Item Rarities and Values"
+  },
+  "notes": [
+    "Halve the value for a consumable item other than a spell scroll.",
+    "A spell scroll's value is double the cost to scribe it."
+  ]
+}

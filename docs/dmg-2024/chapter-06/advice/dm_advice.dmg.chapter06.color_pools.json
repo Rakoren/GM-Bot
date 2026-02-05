@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.color_pools",
+  "name": "Color Pools",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat color pools as two-dimensional Astral gateways to other planes.",
+    "Use the Astral Color Pools table to determine destinations by pool color.",
+    "Emphasize that color is perceived by the Astral self, not physical eyes."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "astral",
+    "travel"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      184
+    ],
+    "section": "Color Pools"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.city_of_jewels",
+  "name": "City of Jewels",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the City of Jewels as the dao capital carved into the Great Dismal Delve.",
+    "Portray a city built from precious stones and metals with gemstone spires.",
+    "Enforce its anti-theft spell to make even minor theft a major risk."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "elemental-earth"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      188
+    ],
+    "section": "City of Jewels"
+  },
+  "notes": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.monster_treasure_preferences",
+  "name": "Monster Treasure Preferences",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Match treasure to creature habits and culture.",
+    "Use monster preferences to make rewards feel plausible.",
+    "Let unusual monster tastes create memorable loot."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "rewards"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      112
+    ],
+    "section": "Monster Treasure Preferences"
+  },
+  "notes": []
+}

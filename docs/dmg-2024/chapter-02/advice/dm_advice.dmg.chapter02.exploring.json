@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter02.exploring",
+  "name": "Exploring",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "guidance": [
+    "Exploration-focused players want to discover what lies ahead and uncover hidden clues and treasure.",
+    "Drop hints that foreshadow future discoveries.",
+    "Reward time spent exploring with findings and secrets.",
+    "Use evocative descriptions, interesting maps or props, and place secrets in monsters or cultures."
+  ],
+  "tags": [
+    "chapter-02",
+    "player-preferences"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      21
+    ],
+    "section": "Exploring"
+  },
+  "notes": []
+}

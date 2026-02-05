@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.note_taking_materials",
+  "name": "Note-Taking Materials",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Everyone needs some way to take notes. During every round of combat, someone needs to keep track of Initiative, Hit Points, conditions, and other information. Players often like to take notes about what happens in the adventure, and at least one of them should record any clues and treasure the characters collect."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Note-Taking Materials"
+  },
+  "notes": []
+}

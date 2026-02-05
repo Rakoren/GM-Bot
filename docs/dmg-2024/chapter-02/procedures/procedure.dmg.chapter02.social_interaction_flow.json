@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json","id": "procedure.dmg.chapter02.social_interaction_flow",
+  "name": "Social Interaction Flow",
+  "chapter": "dmg-2024.chapter-02",
+  "status": "complete",
+  "triggers": [
+    "when a scene is driven by conversation, negotiation, or persuasion"
+  ],
+  "steps": [
+    "Frame the NPC's goal, attitude, and what they want from the scene.",
+    "Let players declare approach and intent; roleplay briefly.",
+    "Call for an ability check if the outcome is uncertain and meaningful.",
+    "Resolve the result and adjust the NPC's attitude or next action.",
+    "Offer a new choice or consequence to move the scene forward."
+  ],
+  "tags": [
+    "chapter-02",
+    "social"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      34,
+      35
+    ],
+    "section": "Running Social Interaction"
+  },
+  "notes": []
+}
+
+
+

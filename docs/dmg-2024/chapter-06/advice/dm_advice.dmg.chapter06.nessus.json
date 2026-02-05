@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.nessus",
+  "name": "Nessus",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Nessus as the deepest layer with bleak fortresses and pit fiend generals.",
+    "Center Asmodeus's court in the citadel-spire of Malsheem.",
+    "Make the citadel a prison of souls traded for catastrophic favors."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      204
+    ],
+    "section": "Nessus"
+  },
+  "notes": []
+}

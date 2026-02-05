@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.nearby_attractions",
+  "name": "Nearby Attractions",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Place adventure sites just outside the city.",
+    "Use nearby locations for travel and exploration hooks.",
+    "Tie attractions to city factions and rumors."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      141
+    ],
+    "section": "Nearby Attractions"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.astral_plane_adventures",
+  "name": "Astral Plane Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Astral Plane as a transit realm for planar or Wildspace travel, with encounters en route.",
+    "Lean into its dreamlike nature for memory, fear, and thought-based challenges.",
+    "Build adventures around dead-god relics, psychic winds, or Astral manifestations."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "astral",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      185
+    ],
+    "section": "Astral Plane Adventures"
+  },
+  "notes": []
+}

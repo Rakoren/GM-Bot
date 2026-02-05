@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.build_your_own_pantheon",
+  "name": "Build Your Own Pantheon",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Define a cohesive set of deities with distinct portfolios.",
+    "Balance major and minor gods for variety.",
+    "Tie pantheons to cultures and regions."
+  ],
+  "tags": [
+    "chapter-03",
+    "gods"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Build Your Own Pantheon"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter06.falkovnia",
+  "name": "Falkovnia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Falkovnia's ruined cities and zombie plague as a relentless siege.",
+    "Keep General Vladeska Drakov as the desperate military ruler."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "shadowfell"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      209
+    ],
+    "section": "Falkovnia"
+  },
+  "notes": []
+}

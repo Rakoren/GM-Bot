@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter06.limbo_adventures",
+  "name": "Limbo Adventures",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Limbo's constant change to test identity and self-control.",
+    "Make githzerai refuges rare havens that demand inner calm.",
+    "Tie quests to the Spawning Stone and the origins of slaadi."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "limbo",
+    "adventure-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      198
+    ],
+    "section": "Limbo Adventures"
+  },
+  "notes": []
+}

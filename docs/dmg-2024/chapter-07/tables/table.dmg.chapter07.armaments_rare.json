@@ -1,0 +1,164 @@
+{
+  "id": "table.dmg.chapter07.armaments_rare",
+  "name": "Armaments - Rare",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01-03",
+      "item": "Ammunition, +2"
+    },
+    {
+      "roll": "04-07",
+      "item": "Armor, +1"
+    },
+    {
+      "roll": "08-10",
+      "item": "Armor of Resistance"
+    },
+    {
+      "roll": "11-13",
+      "item": "Armor of Vulnerability"
+    },
+    {
+      "roll": "14-15",
+      "item": "Arrow-Catching Shield"
+    },
+    {
+      "roll": "16-18",
+      "item": "Belt of Giant Strength (hill)"
+    },
+    {
+      "roll": "19-20",
+      "item": "Berserker Axe"
+    },
+    {
+      "roll": "21-22",
+      "item": "Daern's Instant Fortress"
+    },
+    {
+      "roll": "23-25",
+      "item": "Dagger of Venom"
+    },
+    {
+      "roll": "26-28",
+      "item": "Dragon Slayer"
+    },
+    {
+      "roll": "29-31",
+      "item": "Elven Chain"
+    },
+    {
+      "roll": "32-34",
+      "item": "Enspelled Armor (level 2 or 3 spell)"
+    },
+    {
+      "roll": "35-37",
+      "item": "Enspelled Weapon (level 2 or 3 spell)"
+    },
+    {
+      "roll": "38-40",
+      "item": "Flame Tongue"
+    },
+    {
+      "roll": "41-43",
+      "item": "Giant Slayer"
+    },
+    {
+      "roll": "44-46",
+      "item": "Horn of Blasting"
+    },
+    {
+      "roll": "47-48",
+      "item": "Horn of Valhalla (brass or silver)"
+    },
+    {
+      "roll": "49-51",
+      "item": "Ioun Stone (protection)"
+    },
+    {
+      "roll": "52-54",
+      "item": "Mace of Disruption"
+    },
+    {
+      "roll": "55-57",
+      "item": "Mace of Smiting"
+    },
+    {
+      "roll": "58-60",
+      "item": "Mace of Terror"
+    },
+    {
+      "roll": "61-63",
+      "item": "Potion of Giant Strength (fire)"
+    },
+    {
+      "roll": "64-66",
+      "item": "Potion of Giant Strength (frost or stone)"
+    },
+    {
+      "roll": "67-69",
+      "item": "Potion of Heroism"
+    },
+    {
+      "roll": "70-72",
+      "item": "Potion of Invulnerability"
+    },
+    {
+      "roll": "73-75",
+      "item": "Ring of Protection"
+    },
+    {
+      "roll": "76-78",
+      "item": "Ring of the Ram"
+    },
+    {
+      "roll": "79-81",
+      "item": "Shield, +2"
+    },
+    {
+      "roll": "82-84",
+      "item": "Shield of Missile Attraction"
+    },
+    {
+      "roll": "85-86",
+      "item": "Sun Blade"
+    },
+    {
+      "roll": "87-88",
+      "item": "Sword of Life Stealing"
+    },
+    {
+      "roll": "89-90",
+      "item": "Sword of Wounding"
+    },
+    {
+      "roll": "91-92",
+      "item": "Tentacle Rod"
+    },
+    {
+      "roll": "93-94",
+      "item": "Vicious Weapon"
+    },
+    {
+      "roll": "95-97",
+      "item": "Weapon, +2"
+    },
+    {
+      "roll": "98-00",
+      "item": "Wraps of Unarmed Power, +2"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      232
+    ],
+    "section": "Armaments - Rare"
+  },
+  "notes": []
+}

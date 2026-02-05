@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.dungeons",
+  "name": "Dungeons",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Design dungeons with clear themes and objectives.",
+    "Balance exploration, combat, and discovery.",
+    "Make the environment an active part of the challenge."
+  ],
+  "tags": [
+    "chapter-03",
+    "dungeons"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Dungeons"
+  },
+  "notes": []
+}

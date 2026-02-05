@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.individual_treasure",
+  "name": "Individual Treasure",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Place small, character-focused rewards to reinforce play.",
+    "Use coins, consumables, or minor items between major hauls.",
+    "Tie individual treasure to specific achievements or risks."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "rewards"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      112
+    ],
+    "section": "Individual Treasure"
+  },
+  "notes": []
+}

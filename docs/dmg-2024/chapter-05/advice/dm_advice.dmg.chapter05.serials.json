@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter05.serials",
+  "name": "Serials",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Plan multi-session arcs that build on each other.",
+    "Use cliffhangers and long-term mysteries to drive play.",
+    "Track continuity carefully across sessions."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      134
+    ],
+    "section": "Serials"
+  },
+  "notes": []
+}

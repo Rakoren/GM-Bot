@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.mount_celestia",
+  "name": "Mount Celestia",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Present Mount Celestia as seven ascending heavens of law and good.",
+    "Use it as a sanctuary but also a target of fiendish assaults.",
+    "Let its blessings reward virtue and self-purification."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "mount-celestia"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      200
+    ],
+    "section": "Mount Celestia"
+  },
+  "notes": []
+}

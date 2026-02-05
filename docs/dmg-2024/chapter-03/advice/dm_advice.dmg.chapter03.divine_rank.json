@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.divine_rank",
+  "name": "Divine Rank",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use divine rank to differentiate power and influence.",
+    "Tie rank to portfolio and sphere of control.",
+    "Keep rank consistent across pantheons."
+  ],
+  "tags": [
+    "chapter-03",
+    "gods"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Divine Rank"
+  },
+  "notes": []
+}

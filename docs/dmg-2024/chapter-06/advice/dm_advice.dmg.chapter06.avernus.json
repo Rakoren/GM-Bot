@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.avernus",
+  "name": "Avernus",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use Avernus as an eternal battlefield of rivers of blood, flies, and impact craters.",
+    "Place Zariel's flying basalt citadel as the seat of power.",
+    "Keep Tiamat imprisoned but influential under Asmodeus's contract."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "nine-hells"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      202
+    ],
+    "section": "Avernus"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.siege_equipment",
+  "name": "Siege Equipment",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use siege equipment to shape large-scale conflict and objectives.",
+    "Clarify setup time, crew needs, and counterplay.",
+    "Treat siege gear as set pieces with clear stakes."
+  ],
+  "tags": [
+    "chapter-03",
+    "siege"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Siege Equipment"
+  },
+  "notes": []
+}

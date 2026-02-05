@@ -1,0 +1,44 @@
+{
+  "id": "table.dmg.chapter07.gemstones_500gp",
+  "name": "500 GP Gemstones",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "stone"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "stone": "Alexandrite (dark green)"
+    },
+    {
+      "roll": "2",
+      "stone": "Aquamarine (pale blue green)"
+    },
+    {
+      "roll": "3",
+      "stone": "Black pearl (pure black)"
+    },
+    {
+      "roll": "4",
+      "stone": "Blue spinel (deep blue)"
+    },
+    {
+      "roll": "5",
+      "stone": "Peridot (rich olive green)"
+    },
+    {
+      "roll": "6",
+      "stone": "Topaz (golden yellow)"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      214
+    ],
+    "section": "500 GP Gemstones"
+  },
+  "notes": []
+}

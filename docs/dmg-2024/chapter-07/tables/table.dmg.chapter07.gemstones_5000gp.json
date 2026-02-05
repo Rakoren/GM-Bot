@@ -1,0 +1,37 @@
+{
+  "id": "table.dmg.chapter07.gemstones_5000gp",
+  "name": "5,000 GP Gemstones",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "stone"
+  ],
+  "entries": [
+    {
+      "roll": "1",
+      "stone": "Black sapphire (lustrous black with glowing highlights)"
+    },
+    {
+      "roll": "2",
+      "stone": "Diamond (blue white, canary, pink, brown, or blue)"
+    },
+    {
+      "roll": "3",
+      "stone": "Jacinth (fiery orange)"
+    },
+    {
+      "roll": "4",
+      "stone": "Ruby (clear red to deep crimson)"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      214,
+      215
+    ],
+    "section": "5,000 GP Gemstones"
+  },
+  "notes": []
+}

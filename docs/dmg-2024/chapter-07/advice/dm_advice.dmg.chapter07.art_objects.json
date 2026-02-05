@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter07.art_objects",
+  "name": "Art Objects",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Art objects are high-value, flavorful treasures.",
+    "Roll on value-tier tables to generate items.",
+    "Duplicates are allowed within a hoard."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "art-objects"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      214,
+      215
+    ],
+    "section": "Art Objects"
+  },
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.character_knowledge",
+  "name": "Character Knowledge",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Encourage players to play their characters within the limits of what the characters know and understand. It can be helpful to maintain the distinction between player and character knowledge by simply asking players, \"What do your characters think?\"",
+    "Anachronistic thinking is another potential pitfall. You might need to remind players that their characters do not know how to make things that do not exist in the game world, such as modern firearms or antibiotics, and they do not have the players' understanding of modern science (which might not apply in the game universe anyway).",
+    "Similarly, sometimes a player is familiar with the published adventure you are running or knows the Monster Manual backward and forward. Encourage the player to keep that knowledge separate from their character's knowledge and allow the other players to discover it through play."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      18
+    ],
+    "section": "Character Knowledge"
+  },
+  "notes": []
+}

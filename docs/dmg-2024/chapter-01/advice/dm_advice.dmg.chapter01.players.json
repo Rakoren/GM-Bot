@@ -1,0 +1,22 @@
+{
+  "id": "dm_advice.dmg.chapter01.players",
+  "name": "Players",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "Players who aren't the Dungeon Master take on the roles of the heroes, also known as the characters or the adventurers.",
+    "D&D plays best with four to six players in addition to the DM, but it's possible to run a game with fewer or more adventurers. See the \"Group Size\" section in chapter 2 for advice on doing so."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      3
+    ],
+    "section": "Players"
+  },
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.city_overview",
+  "name": "City Overview",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Summarize the citys identity, size, and key features.",
+    "Highlight what makes the city distinct.",
+    "Provide a quick mental map for play."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "city"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      142
+    ],
+    "section": "City Overview"
+  },
+  "notes": []
+}

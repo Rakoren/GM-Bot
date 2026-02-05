@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.sword_and_sorcery",
+  "name": "Sword and Sorcery",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Focus on gritty stakes, self-interest, and dangerous magic.",
+    "Use decadent cities, evil sorcerers, and rare magic items.",
+    "Keep conflicts personal and morally gray."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "tone"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      129
+    ],
+    "section": "Sword and Sorcery"
+  },
+  "notes": []
+}

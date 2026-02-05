@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter03.raised_by_another",
+  "name": "Raised by Another",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "guidance": [
+    "Use resurrection by another as a story cost or obligation.",
+    "Tie the benefactor to future plot hooks.",
+    "Define what the character owes in return."
+  ],
+  "tags": [
+    "chapter-03",
+    "death"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Raised by Another"
+  },
+  "notes": []
+}

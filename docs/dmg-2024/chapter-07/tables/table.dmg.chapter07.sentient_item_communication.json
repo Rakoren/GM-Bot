@@ -1,0 +1,32 @@
+{
+  "id": "table.dmg.chapter07.sentient_item_communication",
+  "name": "Sentient Item's Communication",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "communication"
+  ],
+  "entries": [
+    {
+      "roll": "1-6",
+      "communication": "The item transmits emotion to the creature carrying or wielding it."
+    },
+    {
+      "roll": "7-9",
+      "communication": "The item speaks one or more languages."
+    },
+    {
+      "roll": "10",
+      "communication": "The item speaks one or more languages and can communicate telepathically with any creature that carries or wields it."
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      226
+    ],
+    "section": "Sentient Item's Communication"
+  },
+  "notes": []
+}

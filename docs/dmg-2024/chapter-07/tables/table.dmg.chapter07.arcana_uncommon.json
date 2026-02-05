@@ -1,0 +1,268 @@
+{
+  "id": "table.dmg.chapter07.arcana_uncommon",
+  "name": "Arcana - Uncommon",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "columns": [
+    "roll",
+    "item"
+  ],
+  "entries": [
+    {
+      "roll": "01",
+      "item": "Amulet of Proof against Detection and Location"
+    },
+    {
+      "roll": "02",
+      "item": "Baba Yaga's Dancing Broom"
+    },
+    {
+      "roll": "03-05",
+      "item": "Bag of Holding"
+    },
+    {
+      "roll": "06-07",
+      "item": "Bag of Tricks"
+    },
+    {
+      "roll": "08",
+      "item": "Brooch of Shielding"
+    },
+    {
+      "roll": "09",
+      "item": "Broom of Flying"
+    },
+    {
+      "roll": "10",
+      "item": "Cap of Water Breathing"
+    },
+    {
+      "roll": "11",
+      "item": "Circlet of Blasting"
+    },
+    {
+      "roll": "12-13",
+      "item": "Cloak of Protection"
+    },
+    {
+      "roll": "14",
+      "item": "Cloak of the Manta Ray"
+    },
+    {
+      "roll": "15",
+      "item": "Decanter of Endless Water"
+    },
+    {
+      "roll": "16",
+      "item": "Deck of Illusions"
+    },
+    {
+      "roll": "17-18",
+      "item": "Driftglobe"
+    },
+    {
+      "roll": "19-20",
+      "item": "Dust of Disappearance"
+    },
+    {
+      "roll": "21",
+      "item": "Dust of Dryness"
+    },
+    {
+      "roll": "22",
+      "item": "Dust of Sneezing and Choking"
+    },
+    {
+      "roll": "23-24",
+      "item": "Elemental Gem"
+    },
+    {
+      "roll": "25",
+      "item": "Enspelled Staff (cantrip or level 1 spell)"
+    },
+    {
+      "roll": "26",
+      "item": "Eversmoking Bottle"
+    },
+    {
+      "roll": "27",
+      "item": "Eyes of Charming"
+    },
+    {
+      "roll": "28",
+      "item": "Eyes of Minute Seeing"
+    },
+    {
+      "roll": "29-30",
+      "item": "Figurine of Wondrous Power (silver raven)"
+    },
+    {
+      "roll": "31",
+      "item": "Gem of Brightness"
+    },
+    {
+      "roll": "32",
+      "item": "Hag Eye"
+    },
+    {
+      "roll": "33",
+      "item": "Hat of Disguise"
+    },
+    {
+      "roll": "34",
+      "item": "Headband of Intellect"
+    },
+    {
+      "roll": "35",
+      "item": "Helm of Comprehending Languages"
+    },
+    {
+      "roll": "36",
+      "item": "Helm of Telepathy"
+    },
+    {
+      "roll": "37",
+      "item": "Immovable Rod"
+    },
+    {
+      "roll": "38",
+      "item": "Lantern of Revealing"
+    },
+    {
+      "roll": "39",
+      "item": "Medallion of Thoughts"
+    },
+    {
+      "roll": "40",
+      "item": "Mithral Armor"
+    },
+    {
+      "roll": "41-42",
+      "item": "Necklace of Adaptation"
+    },
+    {
+      "roll": "43",
+      "item": "Oil of Slipperiness"
+    },
+    {
+      "roll": "44",
+      "item": "Pearl of Power"
+    },
+    {
+      "roll": "45",
+      "item": "Periapt of Health"
+    },
+    {
+      "roll": "46-47",
+      "item": "Philter of Love"
+    },
+    {
+      "roll": "48-49",
+      "item": "Potion of Animal Friendship"
+    },
+    {
+      "roll": "50-51",
+      "item": "Potion of Fire Breath"
+    },
+    {
+      "roll": "52-53",
+      "item": "Potion of Giant Strength (hill)"
+    },
+    {
+      "roll": "54-55",
+      "item": "Potion of Growth"
+    },
+    {
+      "roll": "56-57",
+      "item": "Potion of Poison"
+    },
+    {
+      "roll": "58-59",
+      "item": "Potion of Resistance"
+    },
+    {
+      "roll": "60-61",
+      "item": "Potion of Water Breathing"
+    },
+    {
+      "roll": "62",
+      "item": "Quaal's Feather Token (anchor, fan, or tree)"
+    },
+    {
+      "roll": "63",
+      "item": "Ring of Mind Shielding"
+    },
+    {
+      "roll": "64-65",
+      "item": "Robe of Useful Items"
+    },
+    {
+      "roll": "66-67",
+      "item": "Rod of the Pact Keeper"
+    },
+    {
+      "roll": "68-69",
+      "item": "Rope of Climbing"
+    },
+    {
+      "roll": "70",
+      "item": "Saddle of the Cavalier"
+    },
+    {
+      "roll": "71-72",
+      "item": "Sending Stones"
+    },
+    {
+      "roll": "73-74",
+      "item": "Slippers of Spider Climbing"
+    },
+    {
+      "roll": "75-82",
+      "item": "Spell Scroll (level 2 or level 3 spell)"
+    },
+    {
+      "roll": "83",
+      "item": "Staff of the Adder"
+    },
+    {
+      "roll": "84",
+      "item": "Staff of the Python"
+    },
+    {
+      "roll": "85-88",
+      "item": "Wand of Magic Detection"
+    },
+    {
+      "roll": "89-91",
+      "item": "Wand of Magic Missiles"
+    },
+    {
+      "roll": "92-93",
+      "item": "Wand of Secrets"
+    },
+    {
+      "roll": "94-95",
+      "item": "Wand of the War Mage, +1"
+    },
+    {
+      "roll": "96-97",
+      "item": "Wand of Web"
+    },
+    {
+      "roll": "98-99",
+      "item": "Wind Fan"
+    },
+    {
+      "roll": "00",
+      "item": "Winged Boots"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      230
+    ],
+    "section": "Arcana - Uncommon"
+  },
+  "notes": []
+}

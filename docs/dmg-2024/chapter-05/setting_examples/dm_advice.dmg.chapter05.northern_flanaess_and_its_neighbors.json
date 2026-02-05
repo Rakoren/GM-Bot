@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter05.northern_flanaess_and_its_neighbors",
+  "name": "Northern Flanaess and Its Neighbors",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Use neighboring realms to frame alliances and threats.",
+    "Let border regions feel contested and dangerous.",
+    "Tie adventures to cross-border raids and politics."
+  ],
+  "tags": [
+    "chapter-05",
+    "setting",
+    "greyhawk",
+    "region"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      149
+    ],
+    "section": "Northern Flanaess and Its Neighbors"
+  },
+  "notes": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dm_advice.dmg.chapter01.things_you_need",
+  "name": "Things You Need",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "What you need to play hasn't changed much since the game's first publication in 1974."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      2
+    ],
+    "section": "Things You Need"
+  },
+  "notes": []
+}

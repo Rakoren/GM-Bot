@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter07.cursed_items",
+  "name": "Cursed Items",
+  "chapter": "dmg-2024.chapter-07",
+  "status": "complete",
+  "guidance": [
+    "Item descriptions specify whether they bear a curse.",
+    "Identify and similar methods typically don’t reveal curses.",
+    "Attunement to a cursed item can’t end voluntarily until the curse is broken (e.g., Remove Curse)."
+  ],
+  "tags": [
+    "chapter-07",
+    "treasure",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      220
+    ],
+    "section": "Cursed Items"
+  },
+  "notes": []
+}

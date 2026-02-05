@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/dmg-2024.procedure.schema.json",
+  "id": "procedure.dmg.chapter03.magic_item_creation_flow",
+  "name": "Magic Item Creation Flow",
+  "chapter": "dmg-2024.chapter-03",
+  "status": "complete",
+  "triggers": [
+    "when creating or modifying a magic item"
+  ],
+  "steps": [
+    "Define the item concept and intended role in the campaign.",
+    "Set the item's rarity and power level against existing items.",
+    "Choose the item's form and primary capabilities.",
+    "Adjust damage types or combine effects if needed.",
+    "Add special features or sentience only if the concept calls for it.",
+    "Review the final item for balance and clarity."
+  ],
+  "tags": [
+    "chapter-03",
+    "magic-items"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      52
+    ],
+    "section": "Creating a Magic Item"
+  },
+  "notes": []
+}

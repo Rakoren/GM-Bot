@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.using_a_published_setting",
+  "name": "Using a Published Setting",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Leverage existing lore to reduce prep time.",
+    "Change key details so players dont know everything.",
+    "Keep the setting flexible to support your story."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "setting"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      132
+    ],
+    "section": "Using a Published Setting"
+  },
+  "notes": []
+}

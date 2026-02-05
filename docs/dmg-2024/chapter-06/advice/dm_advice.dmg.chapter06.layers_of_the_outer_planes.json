@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.layers_of_the_outer_planes",
+  "name": "Layers of the Outer Planes",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Treat many Outer Planes as layered realms rather than single continuous landscapes.",
+    "Use layers as metaphors for a plane?s nature (for example, Mount Celestia?s ascending plateaus or the Nine Hells? descending tiers).",
+    "Route most portals to a plane?s first layer and use it as an antechamber for visitors."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "outer-planes"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      176
+    ],
+    "section": "Layers of the Outer Planes"
+  },
+  "notes": []
+}

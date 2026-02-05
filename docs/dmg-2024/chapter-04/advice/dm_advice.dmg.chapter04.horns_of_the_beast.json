@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter04.horns_of_the_beast",
+  "name": "Horns of the Beast",
+  "chapter": "dmg-2024.chapter-04",
+  "status": "complete",
+  "guidance": [
+    "Use evocative imagery and stakes tied to local lore.",
+    "Give the party multiple avenues to learn and respond.",
+    "Place a decisive encounter at the narrative peak."
+  ],
+  "tags": [
+    "chapter-04",
+    "adventure-design",
+    "examples"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      114
+    ],
+    "section": "Horns of the Beast"
+  },
+  "notes": []
+}

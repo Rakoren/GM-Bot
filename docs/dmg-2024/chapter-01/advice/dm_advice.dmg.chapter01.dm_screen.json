@@ -1,0 +1,23 @@
+{
+  "id": "dm_advice.dmg.chapter01.dm_screen",
+  "name": "DM Screen",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "A DM screen shields your books, notes, and die rolls from your players. Most DM screens have art on the outward-facing panels and handy rules information on the inside-facing panels.",
+    "Others might be made of fancy wood or sculpted to help set the mood for your game.",
+    "You don't need a physical screen to hide things if you're playing online, but it can be helpful to have ready access to important information like condition definitions, common actions, and other key rules. Some DMs set up a physical DM screen near their computer screen. A virtual tabletop might have reference information like this built in."
+  ],
+  "tags": [
+    "chapter-01",
+    "setup"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      4
+    ],
+    "section": "DM Screen"
+  },
+  "notes": []
+}

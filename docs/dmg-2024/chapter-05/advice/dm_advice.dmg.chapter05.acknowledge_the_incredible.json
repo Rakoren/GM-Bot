@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter05.acknowledge_the_incredible",
+  "name": "Acknowledge the Incredible",
+  "chapter": "dmg-2024.chapter-05",
+  "status": "complete",
+  "guidance": [
+    "Let spectacular choices create lasting consequences.",
+    "Celebrate big moments with NPC reactions and rewards.",
+    "Use these moments to raise future stakes."
+  ],
+  "tags": [
+    "chapter-05",
+    "campaign-design",
+    "players"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      135
+    ],
+    "section": "Acknowledge the Incredible"
+  },
+  "notes": []
+}

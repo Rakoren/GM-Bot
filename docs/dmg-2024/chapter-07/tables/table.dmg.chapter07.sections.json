@@ -1,0 +1,230 @@
+{
+    "id": "table.dmg.chapter07.sections",
+    "name": "Chapter 7 Section Pages",
+    "chapter": "dmg-2024.chapter-07",
+    "status": "draft",
+    "columns": [
+        "heading",
+        "page_ref"
+    ],
+    "entries": [
+        {
+            "heading": "CHAPTER 7: TREASURE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TREASURE THEMES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "COINS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TRADE BARS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TRADE GOODS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "GEMSTONES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ART OBJECTS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEM RULES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEM CATEGORIES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARMOR",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "POTIONS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RINGS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RODS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SCROLLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "STAFFS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "WANDS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "WEAPONS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "WONDROUS ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEM RARITY",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEM VALUES BY RARITY",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "AWARDING MAGIC ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARE MAGIC ITEMS NECESSARY?",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEMS AWARDED BY LEVEL",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEM TRACKER",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RANDOM MAGIC ITEM RARITY",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEMS FOR STARTING CHARACTERS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ACTIVATING A MAGIC ITEM",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "COMMAND WORD",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CONSUMABLE ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SPELLS CAST FROM ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CHARGES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "THE NEXT DAWN",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CURSED ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEM RESILIENCE",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CRAFTING MAGIC ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARCANA PROFICIENCY",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TOOLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SPELLS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "TIME AND COST",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEM SPECIAL FEATURES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARTIFACTS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARTIFACT PROPERTIES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SENTIENT MAGIC ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "SENTIENT MAGIC ITEM TRAITS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "CONFLICT",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "MAGIC ITEMS A-Z",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RANDOM MAGIC ITEMS",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARCANA TABLES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "ARMAMENTS TABLES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "IMPLEMENTS TABLES",
+            "page_ref": "TBD"
+        },
+        {
+            "heading": "RELICS TABLES",
+            "page_ref": "TBD"
+        }
+    ],
+    "sourceRef": {
+        "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+        "pages": [
+            211
+        ],
+        "section": "Chapter 7: Treasure"
+    },
+    "notes": [
+        "Page refs TBD; fill with exact page numbers once verified."
+    ]
+}

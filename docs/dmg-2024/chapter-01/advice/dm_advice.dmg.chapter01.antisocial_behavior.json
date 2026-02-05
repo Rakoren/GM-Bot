@@ -1,0 +1,25 @@
+{
+  "id": "dm_advice.dmg.chapter01.antisocial_behavior",
+  "name": "Antisocial Behavior",
+  "chapter": "dmg-2024.chapter-01",
+  "status": "complete",
+  "guidance": [
+    "People often play D&D because it lets them, through their characters, do things they cannot do in real life?fight monsters, cast spells, and so on. However, for some players, this means wreaking havoc in towns or betraying their allies. What they want in the game has nothing to do with heroic adventure, but with using the game rules to act out antisocial fantasies.",
+    "If this behavior comes up in your game, it might be time to reopen the conversation about the kind of game you want to play. If it is just one player causing the trouble, it is perfectly appropriate to issue an ultimatum: an out-of-control player who wants to continue playing with the group must stop being disruptive and play as part of a team.",
+    "Do not let players get away with being jerks to the other players using the excuse, \"that's what my character would do.\"",
+    "Evil Characters. Players who want to play evil characters might be looking to carry out antisocial behavior in the game. If a player asks for permission to play an evil character or comes to the table with one already made, talk to that player about what they have in mind and make sure their plans square with the group's expectations for your game. Sometimes a player wants to explore playing an evil character for perfectly good (and non-disruptive) reasons, and sometimes a whole group decides it might be fun to play evil characters together. These are valid options, as long as everyone is on the same page about how the campaign will go."
+  ],
+  "tags": [
+    "chapter-01",
+    "table-expectations"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      18,
+      19
+    ],
+    "section": "Antisocial Behavior"
+  },
+  "notes": []
+}

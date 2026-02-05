@@ -1,0 +1,24 @@
+{
+  "id": "dm_advice.dmg.chapter06.the_blood_war",
+  "name": "The Blood War",
+  "chapter": "dmg-2024.chapter-06",
+  "status": "complete",
+  "guidance": [
+    "Use the Blood War as an ongoing conflict between demons of the Abyss and devils of the Nine Hells.",
+    "Let its battlefields spill across the Lower Planes and occasionally into the Material Plane.",
+    "Introduce Blood War schemes as hooks for powerful adventurers and for celestial intervention."
+  ],
+  "tags": [
+    "chapter-06",
+    "cosmology",
+    "conflict"
+  ],
+  "sourceRef": {
+    "file": "docs/sources/dm-guide2024/Dungeon Master's Guide (2024) - 5etools.pdf",
+    "pages": [
+      178
+    ],
+    "section": "The Blood War"
+  },
+  "notes": []
+}
