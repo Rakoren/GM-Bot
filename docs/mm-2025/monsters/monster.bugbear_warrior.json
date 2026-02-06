@@ -1,0 +1,80 @@
+{
+  "id": "monster.bugbear_warrior",
+  "name": "BUGBEAR WARRIOR",
+  "status": "complete",
+  "size_type_alignment": "Medium Fey (Goblinoid), Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Fey (Goblinoid)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "hit_points": 33,
+  "hit_dice": "6d8 + 6",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +6, Survival +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common, Goblin",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Abduct",
+      "text": "The bugbear needn't spend extra movement to move a creature it is grappling."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Grab",
+      "text": "Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12)."
+    },
+    {
+      "name": "Light Hammer",
+      "text": "Melee or Ranged Attack Roll: +4 (with Advantage if the target is"
+    },
+    {
+      "name": "Grappled by the bugbear), reach 10 ft",
+      "text": "or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +2 (12)\nHP 33 (6d8 + 6)\nSpeed 30 ft.\nMedium Fey (Goblinoid), Chaotic Evil\nBulettes\nRavenous, Subsurface Land Sharks\nHabitat: Grassland, Hill, Mountain; Treasure: None\nAlso called “land sharks,” bulettes are single-minded predators that burrow under, leap over, and burst through obstacles in pursuit of their quarry. They\nburrow rapidly just belowground. On sensing movement, they erupt from below, attempting to catch prey in their oversize maws.\nBulette\nBulettes range under vast territories. They often threaten animal herds, and they can wipe out whole farming communities.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t14 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t11 \t+0 \t+0\nCHA \t9 \t−1 \t−1\nSkills Stealth +6, Survival +2\nGear Hide Armor, Light Hammers (3)\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 1 (XP 200; PB +2)\nTraits\nAbduct. The bugbear needn’t spend extra movement to move a creature it\nis grappling.\nActions\nGrab. Melee Attack Roll: +4, reach 10 ft.\nHit: 9 (2d6 + 2) Bludgeoning damage.\nIf the target is a Medium or smaller creature, it has the Grappled condition\n(escape DC 12).\nLight Hammer. Melee or Ranged Attack Roll: +4 (with Advantage if the target is\nGrappled by the bugbear), reach 10 ft. or range 20/60 ft.\nHit: 9 (3d4 + 2)\nBludgeoning damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

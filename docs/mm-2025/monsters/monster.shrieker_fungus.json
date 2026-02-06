@@ -1,0 +1,67 @@
+{
+  "id": "monster.shrieker_fungus",
+  "name": "SHRIEKER FUNGUS",
+  "status": "complete",
+  "size_type_alignment": "Medium Plant, Unaligned",
+  "size": "Medium",
+  "creature_type": "Plant",
+  "alignment": "Unaligned",
+  "armor_class": 5,
+  "hit_points": 13,
+  "hit_dice": "3d8",
+  "speed": "5 ft.",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 6",
+  "languages": "None",
+  "cr": "0 (XP 0; PB +2)",
+  "traits": [],
+  "actions": [],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Shriek",
+      "text": "Trigger: A creature or a source of Bright Light moves within 30 feet of the shrieker. Response: The shrieker emits a shriek audible within 300 feet of itself for 1 minute or until the shrieker dies."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 5 \tInitiative −5 (5)\nHP 13 (3d8)\nSpeed 5 ft.\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t1 \t−5 \t−5\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t3 \t−4 \t−4\nCHA \t1 \t−5 \t−5\nImmunities Blinded, Charmed, Deafened, Frightened\nSenses Blindsight 30 ft.; Passive Perception 6\nLanguages None\nCR 0 (XP 0; PB +2)\nReactions\nShriek. Trigger: A creature or a source of Bright Light moves within 30 feet of\nthe shrieker.\nResponse: The shrieker emits a shriek audible within 300 feet of\nitself for 1 minute or until the shrieker dies.\nMedium Plant, Unaligned\nViolet Fungus Necrohulk\nA violet fungus necrohulk forms when a violet fungus colony infests and animates an ample heap of decay. This necrohulk attacks prey and spreads\nfungal spores for the colony.\nVIOLET FUNGUS NECROHULK",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

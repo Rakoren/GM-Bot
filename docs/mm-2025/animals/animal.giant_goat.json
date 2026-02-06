@@ -1,0 +1,67 @@
+{
+  "id": "animal.giant_goat",
+  "name": "GIANT GOAT",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 19,
+  "hit_dice": "3d10 + 3",
+  "speed": "40 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ram",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the goat moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 19 (3d10 + 3)\nSpeed 40 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+5\nDEX \t13 \t+1 \t+1\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSkills Perception +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1/2 (XP 100; PB +2)\nActions\nRam. Melee Attack Roll: +5, reach 5 ft.\nHit: 6 (1d6 + 3) Bludgeoning damage. If\nthe target is a Large or smaller creature and the goat moved 20+ feet straight\ntoward it immediately before the hit, the target takes an extra 5 (2d4)\nBludgeoning damage and has the Prone condition.\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

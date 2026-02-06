@@ -1,0 +1,101 @@
+{
+  "id": "monster.vampire_spawn",
+  "name": "VAMPIRE SPAWN",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Undead, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "hit_points": 90,
+  "hit_dice": "12d8 + 36",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3, Stealth +6",
+  "resistances": "Necrotic",
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Common plus one other language",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Vampire Weakness",
+      "text": "The vampire has these weaknesses: Forbiddance. The vampire can't enter a residence without an invitation from an occupant."
+    },
+    {
+      "name": "Running Water",
+      "text": "The vampire takes 20 Acid damage if it ends its turn in running water."
+    },
+    {
+      "name": "Stake to the Heart",
+      "text": "The vampire is destroyed if a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition."
+    },
+    {
+      "name": "Sunlight",
+      "text": "The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The vampire makes two Claw attacks and uses Bite."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws."
+    },
+    {
+      "name": "Bite",
+      "text": "Constitution Saving Throw: DC 14, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Deathless Agility",
+      "text": "The vampire takes the Dash or Disengage action."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +3 (13)\nHP 90 (12d8 + 36)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t16 \t+3 \t+6\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t10 \t+0 \t+3\nCHA \t12 \t+1 \t+1\nSkills Perception +3, Stealth +6\nResistances Necrotic\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Common plus one other language\nCR 5 (XP 1,800; PB +3)\nTraits\nSpider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.\nVampire Weakness. The vampire has these weaknesses:\nForbiddance. The vampire can't enter a residence without an invitation from an occupant.\nRunning Water. The vampire takes 20 Acid damage if it ends its turn in running water.\nStake to the Heart. The vampire is destroyed if a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition.\nSunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.\nActions\nMultiattack. The vampire makes two Claw attacks and uses Bite.\nClaw. Melee Attack Roll: +6, reach 5 ft.\nHit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\nBite. Constitution Saving Throw: DC 14, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition.\nFailure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.\nBonus Actions\nDeathless Agility. The vampire takes the Dash or Disengage action.\nMedium or Small Undead, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (V) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

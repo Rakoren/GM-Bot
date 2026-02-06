@@ -1,0 +1,75 @@
+{
+  "id": "monster.manticore",
+  "name": "MANTICORE",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Lawful Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Lawful Evil",
+  "armor_class": 14,
+  "hit_points": 68,
+  "hit_dice": "8d10 + 24",
+  "speed": "30 ft., Fly 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Common",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The manticore makes three attacks, using Rend or Tail Spike in any combination."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
+    },
+    {
+      "name": "Tail Spike",
+      "text": "Ranged Attack Roll: +5, range 100/200 ft. Hit: 7 (1d8 + 3) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +3 (13)\nHP 68 (8d10 + 24)\nSpeed 30 ft., Fly 50 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t16 \t+3 \t+3\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t8 \t−1 \t−1\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Common\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The manticore makes three attacks, using Rend or Tail Spike in\nany combination.\nRend. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Slashing damage.\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3)\nPiercing damage.\nLarge Monstrosity, Lawful Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

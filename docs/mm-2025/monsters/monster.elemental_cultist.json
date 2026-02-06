@@ -1,0 +1,84 @@
+{
+  "id": "monster.elemental_cultist",
+  "name": "ELEMENTAL CULTIST",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "hit_points": 135,
+  "hit_dice": "18d8 + 54",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +5, Perception +7, Religion +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 17",
+  "languages": "Common, Primordial",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The cultist makes three attacks, using Elemental Flail or Elemental Claw in any combination."
+    },
+    {
+      "name": "Elemental Flail",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 25 (6d6 + 4) damage of a type chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder."
+    },
+    {
+      "name": "Elemental Claw",
+      "text": "Ranged Attack Roll: +7, range 120 ft. Hit: 22 (4d10) damage of a type chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder. If the target is a Medium or smaller creature, the cultist moves the target up to 10 feet straight toward or away from itself."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 15): At Will: Elementalism, Mage Hand"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Elemental Absorption (1/Day)",
+      "text": "Trigger: The cultist takes Acid, Cold, Fire, Lightning, or Thunder damage. Response: The cultist gives itself Resistance to that instance of damage and gains 10 Temporary Hit Points. Dread Tharizdun, power of the Elder Elemental Eye and master of all destructive forces, I am the Champion of Elemental Evil and am ready to carry out your wishes. -RITES"
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +4 (14)\nHP 135 (18d8 + 54)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t12 \t+1 \t+1\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t18 \t+4 \t+7\nCHA \t12 \t+1 \t+1\nSkills Arcana +5, Perception +7, Religion +5\nGear Chain Mail\nSenses Passive Perception 17\nLanguages Common, Primordial\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The cultist makes three attacks, using Elemental Flail or\nElemental Claw in any combination.\nElemental Flail. Melee Attack Roll: +7, reach 5 ft.\nHit: 25 (6d6 + 4) damage of a\ntype chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder.\nElemental Claw. Ranged Attack Roll: +7, range 120 ft.\nHit: 22 (4d10) damage of\na type chosen by the cultist: Acid, Cold, Fire, Lightning, or Thunder. If the target\nis a Medium or smaller creature, the cultist moves the target up to 10 feet\nstraight toward or away from itself.\nSpellcasting. The cultist casts one of the following spells, using Wisdom as\nthe spellcasting ability (spell save DC 15):\nAt Will:\nElementalism,\nMage Hand\nReactions\nElemental Absorption (1/Day). Trigger: The cultist takes Acid, Cold, Fire,\nLightning, or Thunder damage.\nResponse: The cultist gives itself Resistance to\nthat instance of damage and gains 10 Temporary Hit Points.\nMedium or Small Humanoid, Chaotic Evil\nDread Tharizdun, power of the Elder Elemental Eye and master\nof all destructive forces, I am the Champion of Elemental Evil\nand am ready to carry out your wishes.\n—RITES OF THE CULT OF ELEMENTAL EVIL\nCyclopes\nMonocular Servants of Destiny\nHabitat: Coastal, Desert, Grassland, Hill, Mountain, Underdark; Treasure: Armaments\nCyclopes are gigantic, one-eyed descendants of the gods. Using their mystical vision, cyclopes can witness how future events are likely to occur.\nCyclops Oracle\nCyclops oracles gaze through history to learn hidden truths. Many share these secrets with those who aid them in correcting the mistakes of the past.\nCyclops Sentry\nMost cyclops sentries serve their divine progenitors and oppose those who would tamper with fate.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

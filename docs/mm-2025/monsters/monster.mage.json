@@ -1,0 +1,85 @@
+{
+  "id": "monster.mage",
+  "name": "MAGE",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid (Wizard), Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid (Wizard)",
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "hit_points": 81,
+  "hit_dice": "18d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +6, History +6, Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 14",
+  "languages": "Common plus three other languages",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The mage makes three Arcane Burst attacks."
+    },
+    {
+      "name": "Arcane Burst",
+      "text": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14): At Will: Detect Magic, Light,"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Misty Step (3/Day)",
+      "text": "The mage casts Misty Step, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Protective Magic (3/Day)",
+      "text": "The mage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 81 (18d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t9 \t−1 \t−1\nDEX \t14 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t17 \t+3 \t+6\nWIS \t12 \t+1 \t+4\nCHA \t11 \t+0 \t+0\nSkills Arcana +6, History +6, Perception +4\nGear Wand\nSenses Passive Perception 14\nLanguages Common plus three other languages\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The mage makes three Arcane Burst attacks.\nArcane Burst. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft.\nHit:\n16 (3d8 + 3) Force damage.\nSpellcasting. The mage casts one of the following spells, using Intelligence as\nthe spellcasting ability (spell save DC 14):\nAt Will:\nDetect Magic,\nLight,\nMage Armor (included in AC),\nMage\nHand,\nPrestidigitation\n2/Day Each:\nFireball (level 4 version),\nInvisibility\n1/Day Each:\nCone of Cold,\nFly\nBonus Actions\nMisty Step (3/Day). The mage casts\nMisty Step, using the same spellcasting\nability as Spellcasting.\nReactions\nProtective Magic (3/Day). The mage casts\nCounterspell or\nShield in response\nto the spell’s trigger, using the same spellcasting ability as Spellcasting.\nMedium or Small Humanoid (Wizard), Neutral\nArchmages have mastered incredible magical power. While some use their magic to protect the world, others become tyrants or pursue forbidden secrets.\nMany archmages retain magical servants and collect magic items and occult lore.\nMagmin\nReckless Elemental Arsonist\nHabitat: Planar (Elemental Plane of Fire); Treasure: None\nHave you gazed on the Runes of Chaos, held the Death Moon\nOrb in your trembling hands, entered the Devouring Portal and\nwalked the Paths of the Doomed, or sat at the left hand of\nSzass Tam during the Ritual of Twin Burnings? No? Then speak\nnot to me of wizards. Speak not to me of Thay.\n—NATHOR, THAYAN REFUGEE",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

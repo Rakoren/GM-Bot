@@ -1,0 +1,77 @@
+{
+  "id": "animal.giant_octopus",
+  "name": "GIANT OCTOPUS",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 45,
+  "hit_dice": "7d10 + 7",
+  "speed": "10 ft., Swim 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "None",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The octopus can breathe only underwater. It can hold its breath for 1 hour outside water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Tentacles",
+      "text": "Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Ink Cloud (1/Day)",
+      "text": "Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 45 (7d10 + 7)\nSpeed 10 ft., Swim 60 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t13 \t+1 \t+1\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nSkills Perception +4, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 14\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

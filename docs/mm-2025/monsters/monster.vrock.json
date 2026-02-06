@@ -1,0 +1,88 @@
+{
+  "id": "monster.vrock",
+  "name": "VROCK",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Demon), Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "hit_points": 152,
+  "hit_dice": "16d10 + 64",
+  "speed": "40 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Poisoned",
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [
+    {
+      "name": "Demonic Restoration",
+      "text": "If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The vrock has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The vrock makes two Shred attacks."
+    },
+    {
+      "name": "Shred",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage."
+    },
+    {
+      "name": "Spores (Recharge 6)",
+      "text": "Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early."
+    },
+    {
+      "name": "Stunning Screech (1/Day)",
+      "text": "Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 152 (16d10 + 64)\nSpeed 40 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t15 \t+2 \t+5\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t8 \t-1 \t-1\nWIS \t13 \t+1 \t+4\nCHA \t8 \t-1 \t+2\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Abyssal; telepathy 120 ft.\nCR 6 (XP 2,300; PB +3)\nTraits\nDemonic Restoration. If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\nMagic Resistance. The vrock has Advantage on saving throws against spells and other magical effects.\nActions\nMultiattack. The vrock makes two Shred attacks.\nShred. Melee Attack Roll: +6, reach 5 ft.\nHit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.\nSpores (Recharge 6). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock.\nFailure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.\nStunning Screech (1/Day). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically).\nFailure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock's next turn.\nLarge Fiend (Demon), Chaotic Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (V) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

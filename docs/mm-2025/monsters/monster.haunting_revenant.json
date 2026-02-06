@@ -1,0 +1,84 @@
+{
+  "id": "monster.haunting_revenant",
+  "name": "HAUNTING REVENANT",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Undead, Neutral",
+  "size": "Gargantuan",
+  "creature_type": "Undead",
+  "alignment": "Neutral",
+  "armor_class": 20,
+  "hit_points": 203,
+  "hit_dice": "14d20 + 56",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": "Necrotic, Psychic",
+  "immunities": "Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious",
+  "senses": "Truesight 60 ft.; Passive Perception 14",
+  "languages": "Common plus two other languages",
+  "cr": "10 (XP 5,900; PB +4)",
+  "traits": [
+    {
+      "name": "Haunted Zone",
+      "text": "Constitution Saving Throw: DC 17, any creature that casts a spell while inside the revenant's space. Failure: The spell fails and is wasted."
+    },
+    {
+      "name": "Undead Restoration",
+      "text": "If the revenant dies, it revives 24 hours later unless Dispel Evil and Good is cast on its remains. If it revives, it animates another Gargantuan object or structure elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The revenant makes two Object Slam attacks and uses Invitation."
+    },
+    {
+      "name": "Object Slam",
+      "text": "Melee or Ranged Attack Roll: +9 (with Advantage if the target is inside the revenant's space), reach 10 ft. or range 30/90 ft. Hit: 27 (5d8 + 5) Bludgeoning damage."
+    },
+    {
+      "name": "Invitation",
+      "text": "Charisma Saving Throw: DC 17, each creature in a 60-foot Cone. Failure: The target is teleported inside the revenant's space and swallowed. A swallowed creature has Total Cover against attacks and other effects outside the revenant. While the revenant has Hit Points, a swallowed creature can leave the revenant's space only by using magic that enables planar travel, such as the Plane Shift spell."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +5 (15)\nHP 203 (14d20 + 56)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t12 \t+1 \t+1\nCON \t18 \t+4 \t+8\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t18 \t+4 \t+8\nCHA \t20 \t+5 \t+5\nResistances Necrotic, Psychic\nImmunities Poison; Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\nSenses Truesight 60 ft.; Passive Perception 14\nLanguages Common plus two other languages\nCR 10 (XP 5,900; PB +4)\nTraits\nHaunted Zone. Constitution Saving Throw: DC 17, any creature that casts a spell while inside the revenant's space.\nFailure: The spell fails and is wasted.\nUndead Restoration. If the revenant dies, it revives 24 hours later unless Dispel Evil and Good is cast on its remains. If it revives, it animates another Gargantuan object or structure elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its Hit Points.\nActions\nMultiattack. The revenant makes two Object Slam attacks and uses Invitation.\nObject Slam. Melee or Ranged Attack Roll: +9 (with Advantage if the target is inside the revenant's space), reach 10 ft. or range 30/90 ft.\nHit: 27 (5d8 + 5) Bludgeoning damage.\nInvitation. Charisma Saving Throw: DC 17, each creature in a 60-foot Cone.\nFailure: The target is teleported inside the revenant's space and swallowed. A swallowed creature has Total Cover against attacks and other effects outside the revenant.\nWhile the revenant has Hit Points, a swallowed creature can leave the revenant's space only by using magic that enables planar travel, such as the Plane Shift spell.\nGargantuan Undead, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

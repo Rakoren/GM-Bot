@@ -1,0 +1,72 @@
+{
+  "id": "monster.swarm_of_larvae",
+  "name": "SWARM OF LARVAE",
+  "status": "complete",
+  "size_type_alignment": "Large Swarm of Medium Fiends, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Swarm of Fiends",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 22,
+  "hit_dice": "3d10 + 6",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 2,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Understands all but can’t speak",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening large enough for a Medium creature. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bites",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Necrotic damage, or 7 (2d4 + 2) Necrotic damage if the swarm is Bloodied."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +0 (10)\nHP 22 (3d10 + 6)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t11 \t+0 \t+0\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t2 \t−4 \t−4\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone,\nRestrained, Stunned\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Understands all but can’t speak\nCR 1 (XP 200; PB +2)\nTraits\nSwarm. The swarm can occupy another creature’s space and vice versa, and\nthe swarm can move through an opening large enough for a Medium creature.\nThe swarm can’t regain Hit Points or gain Temporary Hit Points.\nActions\nBites. Melee Attack Roll: +4, reach 5 ft.\nHit: 9 (2d6 + 2) Necrotic damage, or 7\n(2d4 + 2) Necrotic damage if the swarm is Bloodied.\nLarge Swarm of Medium Fiends, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (L) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "monster.barlgura",
+  "name": "BARLGURA",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Demon), Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "hit_points": 85,
+  "hit_dice": "10d10 + 30",
+  "speed": "40 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 15",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Demonic Restoration",
+      "text": "If the barlgura dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The barlgura makes one Tormenting Bite attack and two Thrash attacks."
+    },
+    {
+      "name": "Tormenting Bite",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage plus 13 (2d12) Psychic damage."
+    },
+    {
+      "name": "Thrash",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The barlgura casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13): 2/Day Each: Disguise Self, Invisibility (self only) 1/Day Each: Entangle, Phantasmal Killer (level 6 version) Basilisk"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Leap",
+      "text": "The barlgura jumps up to 40 feet by spending 10 feet of movement. Rule 4: No one carves statues of frightened warriors. If you see one, keep your eyes closed and your ears open. -X THE MYSTIC'S RULES OF DUNGEON SURVIVAL 1d8 \tA Basilisk Used Its Gaze to Petrify... 5 \tA mimic disguised as a chest full of treasure. 6 \tA monster such as an umber hulk or a troglodyte. 7 \tSomeone caught in a comic pose or making a regrettable face. 8 \tA victim now being used as a nest for insects or other vermin. Bearded Devil"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 85 (10d10 + 30)\nSpeed 40 ft., Climb 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t15 \t+2 \t+5\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t14 \t+2 \t+2\nCHA \t9 \t−1 \t−1\nSkills Perception +5, Stealth +5\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 15\nLanguages Abyssal; telepathy 120 ft.\nCR 5 (XP 1,800; PB +3)\nTraits\nDemonic Restoration. If the barlgura dies outside the Abyss, its body dissolves\ninto ichor, and it gains a new body instantly, reviving with all its Hit Points\nsomewhere in the Abyss.\nActions\nMultiattack. The barlgura makes one Tormenting Bite attack and two\nThrash attacks.\nTormenting Bite. Melee Attack Roll: +7, reach 5 ft.\nHit: 11 (2d6 + 4) Piercing\ndamage plus 13 (2d12) Psychic damage.\nThrash. Melee Attack Roll: +7, reach 5 ft.\nHit: 9 (1d10 + 4) Bludgeoning\ndamage. If the target is a Large or smaller creature, it has the Prone condition.\nSpellcasting. The barlgura casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 13):\n2/Day Each:\nDisguise Self,\nInvisibility (self only)\n1/Day Each:\nEntangle,\nPhantasmal Killer (level 6 version)\nLarge Fiend (Demon), Chaotic Evil\nBasilisk\nReptilian Guardian with a Petrifying Gaze\nHabitat: Mountain, Underdark; Treasure: Any\nBasilisks are ponderous predators with eight clawed legs, crystalline spines, and mighty jaws. Rather than chasing prey, they use their supernatural gaze to\nturn creatures to stone and then consume these victims at their leisure. While basilisks are most comfortable in subterranean lairs, many are captured and\nkept by unscrupulous folk seeking guardians for their treasures.\nThe remains of Petrified creatures litter the area where a basilisk hunts. These might be mundane creatures or more unusual beings that had dire\nencounters with a basilisk. Roll on or choose a result from the Petrified Basilisk Victims table to inspire the statues that might appear in a basilisk’s hunting\ngrounds. There is a 50 percent chance that any of these statues are missing limbs or broken into pieces.\nPetrified Basilisk Victims\n1d8 \tA Basilisk Used Its Gaze to Petrify...\n1 \tAn adventurer with an ornate key hanging around their neck.\n2 \tAnimals like bats, bears, deer, or goats.\n3 \tA climber clinging to a stalactite.\n4 \tItself using a large mirror or shiny surface.\nBonus Actions\nLeap. The barlgura jumps up to 40 feet by spending 10 feet of movement.\nRule 4: No one carves statues of frightened warriors. If you see\none, keep your eyes closed and your ears open.\n—X THE MYSTIC’S\nRULES OF DUNGEON SURVIVAL\n1d8 \tA Basilisk Used Its Gaze to Petrify...\n5 \tA mimic disguised as a chest full of treasure.\n6 \tA monster such as an umber hulk or a troglodyte.\n7 \tSomeone caught in a comic pose or making a regrettable face.\n8 \tA victim now being used as a nest for insects or other vermin.\nBearded Devil\nDevil of Force and Intimidation\nHabitat: Planar (Nine Hells); Treasure: Armaments\nBearded devils, also known as barbazus, fill the legions of the Nine Hells. These cruel soldiers follow the orders of diabolical generals as they defend\ninfernal realms, invade Material Plane worlds, and clash against demons in planes-spanning conflicts.\nLeft to their own devices, bearded devils encourage mortals to act callously and abuse their power, inflating their egos and inspiring petty tyrannies. Villains\naligned with the Nine Hells call on bearded devils to serve as guardians, enforce their will, or fight in wicked armies.\nBearded devils’ eponymous beards consist of grotesque, tentacle-like growths. These squirming, barb-riddled beards carry poison capable of preventing\nmagical healing. Bearded devils are also known for their distinctive glaives, through which they channel hellish energy. Those struck by these unnatural\nweapons suffer infernal wounds that grow worse until stanched or magically healed.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

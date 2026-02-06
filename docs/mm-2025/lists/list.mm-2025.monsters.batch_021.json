@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.monsters.batch_021",
+  "name": "MM 2025 Monsters Batch 21",
+  "entries": [
+    {
+      "id": "monster.adult_silver_dragon",
+      "name": "ADULT SILVER DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_silver_dragon.json"
+    },
+    {
+      "id": "monster.ancient_silver_dragon",
+      "name": "ANCIENT SILVER DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_silver_dragon.json"
+    },
+    {
+      "id": "monster.blue_slaad",
+      "name": "BLUE SLAAD",
+      "file": "docs/mm-2025/monsters/monster.blue_slaad.json"
+    },
+    {
+      "id": "monster.death_slaad",
+      "name": "DEATH SLAAD",
+      "file": "docs/mm-2025/monsters/monster.death_slaad.json"
+    },
+    {
+      "id": "monster.flaming_skeleton",
+      "name": "FLAMING SKELETON",
+      "file": "docs/mm-2025/monsters/monster.flaming_skeleton.json"
+    },
+    {
+      "id": "monster.gray_slaad",
+      "name": "GRAY SLAAD",
+      "file": "docs/mm-2025/monsters/monster.gray_slaad.json"
+    },
+    {
+      "id": "monster.green_slaad",
+      "name": "GREEN SLAAD",
+      "file": "docs/mm-2025/monsters/monster.green_slaad.json"
+    },
+    {
+      "id": "monster.juvenile_shadow_dragon",
+      "name": "JUVENILE SHADOW DRAGON",
+      "file": "docs/mm-2025/monsters/monster.juvenile_shadow_dragon.json"
+    },
+    {
+      "id": "monster.minotaur_skeleton",
+      "name": "MINOTAUR SKELETON",
+      "file": "docs/mm-2025/monsters/monster.minotaur_skeleton.json"
+    },
+    {
+      "id": "monster.red_slaad",
+      "name": "RED SLAAD",
+      "file": "docs/mm-2025/monsters/monster.red_slaad.json"
+    },
+    {
+      "id": "monster.sahuagin_baron",
+      "name": "SAHUAGIN BARON",
+      "file": "docs/mm-2025/monsters/monster.sahuagin_baron.json"
+    },
+    {
+      "id": "monster.sahuagin_priest",
+      "name": "SAHUAGIN PRIEST",
+      "file": "docs/mm-2025/monsters/monster.sahuagin_priest.json"
+    },
+    {
+      "id": "monster.sahuagin_warrior",
+      "name": "SAHUAGIN WARRIOR",
+      "file": "docs/mm-2025/monsters/monster.sahuagin_warrior.json"
+    },
+    {
+      "id": "monster.salamander",
+      "name": "SALAMANDER",
+      "file": "docs/mm-2025/monsters/monster.salamander.json"
+    },
+    {
+      "id": "monster.salamander_fire_snake",
+      "name": "SALAMANDER FIRE SNAKE",
+      "file": "docs/mm-2025/monsters/monster.salamander_fire_snake.json"
+    },
+    {
+      "id": "monster.salamander_inferno_master",
+      "name": "SALAMANDER INFERNO MASTER",
+      "file": "docs/mm-2025/monsters/monster.salamander_inferno_master.json"
+    },
+    {
+      "id": "monster.satyr",
+      "name": "SATYR",
+      "file": "docs/mm-2025/monsters/monster.satyr.json"
+    },
+    {
+      "id": "monster.satyr_revelmaster",
+      "name": "SATYR REVELMASTER",
+      "file": "docs/mm-2025/monsters/monster.satyr_revelmaster.json"
+    },
+    {
+      "id": "monster.scarecrow",
+      "name": "SCARECROW",
+      "file": "docs/mm-2025/monsters/monster.scarecrow.json"
+    },
+    {
+      "id": "monster.scout",
+      "name": "SCOUT",
+      "file": "docs/mm-2025/monsters/monster.scout.json"
+    },
+    {
+      "id": "monster.scout_captain",
+      "name": "SCOUT CAPTAIN",
+      "file": "docs/mm-2025/monsters/monster.scout_captain.json"
+    },
+    {
+      "id": "monster.sea_hag",
+      "name": "SEA HAG",
+      "file": "docs/mm-2025/monsters/monster.sea_hag.json"
+    },
+    {
+      "id": "monster.shadow",
+      "name": "SHADOW",
+      "file": "docs/mm-2025/monsters/monster.shadow.json"
+    },
+    {
+      "id": "monster.shadow_demon",
+      "name": "SHADOW DEMON",
+      "file": "docs/mm-2025/monsters/monster.shadow_demon.json"
+    },
+    {
+      "id": "monster.shadow_dragon",
+      "name": "SHADOW DRAGON",
+      "file": "docs/mm-2025/monsters/monster.shadow_dragon.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

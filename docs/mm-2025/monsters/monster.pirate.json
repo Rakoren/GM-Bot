@@ -1,0 +1,75 @@
+{
+  "id": "monster.pirate",
+  "name": "PIRATE",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "hit_points": 33,
+  "hit_dice": "6d8 + 6",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "Common plus one other language",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The pirate makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache."
+    },
+    {
+      "name": "Dagger",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage."
+    },
+    {
+      "name": "Enthralling Panache",
+      "text": "Wisdom Saving Throw: DC 12, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +5 (15)\nHP 33 (6d8 + 6)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t16 \t+3 \t+5\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t12 \t+1 \t+1\nCHA \t14 \t+2 \t+4\nGear Daggers (6), Leather Armor\nSenses Passive Perception 11\nLanguages Common plus one other language\nCR 1 (XP 200; PB +2)\nActions\nMultiattack. The pirate makes two Dagger attacks. It can replace one attack\nwith a use of Enthralling Panache.\nDagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft.\nHit: 5\n(1d4 + 3) Piercing damage.\nEnthralling Panache. Wisdom Saving Throw: DC 12, one creature the pirate can\nsee within 30 feet.\nFailure: The target has the Charmed condition until the start\nof the pirate’s next turn.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

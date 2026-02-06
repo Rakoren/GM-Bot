@@ -1,0 +1,80 @@
+{
+  "id": "monster.swarm_of_lemures",
+  "name": "SWARM OF LEMURES",
+  "status": "complete",
+  "size_type_alignment": "Large Swarm of Medium Fiends (Devil), Lawful Evil",
+  "size": "Large",
+  "creature_type": "Swarm of Fiends (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 12,
+  "hit_points": 45,
+  "hit_dice": "6d10 + 12",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": "Bludgeoning, Cold, Piercing, Slashing",
+  "immunities": "Fire, Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned",
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive Perception 11",
+  "languages": "Understands Infernal but can't speak",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Hellish Restoration",
+      "text": "If the swarm dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water."
+    },
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through an opening large enough for a Medium creature. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The swarm makes two Vile Slime attacks."
+    },
+    {
+      "name": "Vile Slime",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Poison damage, or 9 (2d6 + 2) Poison damage if the swarm is Bloodied."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative −2 (8)\nHP 45 (6d10 + 12)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t7 \t−2 \t−2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t12 \t+1 \t+1\nCHA \t3 \t−4 \t−4\nResistances Bludgeoning, Cold, Piercing, Slashing\nImmunities Fire, Poison; Charmed, Frightened, Grappled, Paralyzed, Petrified,\nPoisoned, Prone, Restrained, Stunned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive\nPerception 11\nLanguages Understands Infernal but can’t speak\nCR 3 (XP 700; PB +2)\nTraits\nHellish Restoration. If the swarm dies in the Nine Hells, it revives with all its\nHit Points in 1d10 days unless it is killed by a creature under the effects of a\nBless spell or its remains are sprinkled with Holy Water.\nSwarm. The swarm can occupy another creature’s space and vice versa, and\nthe swarm can move through an opening large enough for a Medium creature.\nThe swarm can’t regain Hit Points or gain Temporary Hit Points.\nActions\nMultiattack. The swarm makes two Vile Slime attacks.\nVile Slime. Melee Attack Roll: +4, reach 5 ft.\nHit: 11 (2d8 + 2) Poison damage,\nor 9 (2d6 + 2) Poison damage if the swarm is Bloodied.\nLarge Swarm of Medium Fiends (Devil), Lawful Evil\nSome nefarious magic-users carry out forbidden necromantic rituals that sever their souls from their bodies to turn themselves into liches, masters of\nmagic and undeath. With their souls preserved in hidden relics, liches puppet their own corpses as they pursue ambitions free from mortal bonds.\nLiches possess exceptional cunning and magical prowess, and they use their unnatural immortality to pursue arcane secrets few could grasp in a single\nlife. Uncanny agendas lead them to plumb the secrets of life, the multiverse, godhood, and less fathomable topics. Careless of mortal lives or desires, liches\ngo to any lengths to achieve their goals.\nA lich’s age and origin influences its form. Older liches appear as little more than brittle skeletons clad in the rotten finery of forgotten empires, while\nyounger liches more closely resemble living creatures and are clad in contemporary garb. Many cloak themselves in illusions of their idealized mortal\nforms.\nAlthough liches don’t fear death, they’re not free from the ravages of time. Over ages, some liches lose their connection to time and the physical world,\ndegenerating into demiliches.\nLich Spirit Jars\nThe process of becoming a lich is involved, dangerous, and unique to each would-be lich. If the rite succeeds, the lich’s soul is bound to a spirit jar, a\nspecially prepared magical repository. This relic anchors the lich’s spirit to the world and preserves it should the lich’s body be destroyed. A lich can be slain\nonly if its spirit jar is ruined. As such, a lich goes to great lengths to hide and protect its spirit jar.\nSpirit jars are typically small, well-made objects that were meaningful to a lich in life. Roll on or choose a result from the Lich Spirit Jar table to inspire\nwhere a lich hides its soul.\nLich Spirit Jars\nAN ANCIENT LICH AND HER GHAST GRAVECALLER ATTENDANTS WARP REALITY WITH FORBIDDEN MAGIC\nAmbition can become an addiction of the mind and spirit. It\nbuilds beyond a driving flame into an insidious inferno that\nburns a mage hollow until only the desire for more magical\npower remains.\n—Rudolph van Richten,\nVan Richten’s Guide to Liches\n1d8 \tThe Lich’s Spirit Jar Is...\n1 \tA bottle or puzzle box inscribed with sigils.\n2 \tA contract folded into a paper figure.\n3 \tThe first magic item the lich created.\n4 \tA hollow figurine of a deity or monster.\n5 \tAn hourglass with its sands floating in stasis.\n6 \tA locket or signet ring with a noble crest.\n7 \tA rune-etched egg.\n8 \tThe skull of the lich’s mentor.\nLich Lairs\nLiches create secluded libraries of magical lore and arcane laboratories hidden within extraplanar bastions, fortresses with cursed reputations, or other\nsuch deadly sanctuaries.\nThe region containing a lich’s lair is warped by its presence, creating the following effects:\nAll-Seeing. While in its lair, the lich can cast\nClairvoyance, requiring no spell components and using the same spellcasting ability as its Spellcasting action.\nInevitable Siphon. Whenever a Humanoid dies within 1 mile of the lair, its soul is immediately consumed by the lich. A Humanoid whose soul is consumed\nin this way can be brought back to life only by a\nTrue Resurrection or\nWish spell.\nIf the lich is destroyed or moves its lair elsewhere, these effects end immediately. These effects resume if the lich gains a new body (see its Spirit Jar trait).",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (L) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

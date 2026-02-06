@@ -1,0 +1,71 @@
+{
+  "id": "monster.minotaur_of_baphomet",
+  "name": "MINOTAUR OF BAPHOMET",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "hit_points": 85,
+  "hit_dice": "10d10 + 30",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +7, Survival +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 17",
+  "languages": "Abyssal",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Abyssal Glaive",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage."
+    },
+    {
+      "name": "Gore (Recharge 5-6)",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition. The guide swore \"beep boop\" meant \"hello, friend.\" I don't know why they're after us! -A"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +0 (10)\nHP 85 (10d10 + 30)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t11 \t+0 \t+0\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t16 \t+3 \t+3\nCHA \t9 \t−1 \t−1\nSkills Perception +7, Survival +7\nSenses Darkvision 60 ft.; Passive Perception 17\nLanguages Abyssal\nCR 3 (XP 700; PB +2)\nActions\nAbyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing\ndamage plus 10 (3d6) Necrotic damage.\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft.\nHit: 18 (4d6 + 4)\nPiercing damage. If the target is a Large or smaller creature and the minotaur\nmoved 10+ feet straight toward it immediately before the hit, the target takes\nan extra 10 (3d6) Piercing damage and has the Prone condition.\nLarge Monstrosity, Chaotic Evil\nThe guide swore “beep boop” meant “hello, friend.” I don’t know\nwhy they’re after us!\n—A PLANAR EXPLORER LEARNING\nMODRONS HAVE NO SENSE OF HUMOR\nModron Operations\n1d8 \tThe Modrons Work To...\n1 \tCreate a clockwork outpost to monitor the balance of obscure planar forces.\n2 \tEnsure neither side gains the upper hand in a conflict between good and evil.\n3 \tExcavate a portal to another plane.\n4 \tFind a lost contingent of modrons.\n5 \tReactivate a titanic but lost modron device.\n6 \tRemove a forest, mountain, or city before the arrival of a modron procession.\n7 \tSeal off a planar rift or wild magic zone.\n8 \tWage war with demons, slaadi, or chaotic Fey.\nModron Monodrone\nThe most numerous modrons, monodrones can perform one\nsimple task at a time. They believe anything they’re told that isn’t\nlogically or mathematically false. When faced with unexpected\nsituations, they’re quick to seek duodrones for help.\nModron Duodrone\nDuodrones can perform two tasks at once and often oversee monodrone work groups. They are slightly more skeptical of strangers than monodrones are.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

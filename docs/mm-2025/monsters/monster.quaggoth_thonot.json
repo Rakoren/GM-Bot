@@ -1,0 +1,85 @@
+{
+  "id": "monster.quaggoth_thonot",
+  "name": "QUAGGOTH THONOT",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Chaotic Neutral",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 15,
+  "hit_points": 67,
+  "hit_dice": "9d8 + 27",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 12",
+  "languages": "Undercommon",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Bloodied Fury",
+      "text": "While Bloodied, the quaggoth has Advantage on attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The quaggoth makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage plus 5 (2d4) Psychic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The quaggoth casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 12): At Will:"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Psionic Defense (3/Day)",
+      "text": "The quaggoth casts Feather Fall or Shield in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +1 (11)\nHP 67 (9d8 + 27)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t14 \t+2 \t+2\nCHA \t7 \t−2 \t−2\nSkills Athletics +5\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 12\nLanguages Undercommon\nCR 3 (XP 700; PB +2)\nTraits\nBloodied Fury. While Bloodied, the quaggoth has Advantage on attack rolls.\nActions\nMultiattack. The quaggoth makes two Claw attacks.\nClaw. Melee Attack Roll: +5, reach 5 ft.\nHit: 6 (1d6 + 3) Slashing damage plus 5\n(2d4) Psychic damage.\nSpellcasting. The quaggoth casts one of the following spells, requiring no\nspell components and using Wisdom as the spellcasting ability (spell save\nDC 12):\nAt Will:\nMage Hand (the hand is Invisible),\nMinor Illusion\n2/Day:\nMind Spike\nReactions\nPsionic Defense (3/Day). The quaggoth casts\nFeather Fall or\nShield in\nresponse to the spell’s trigger, requiring no spell components and using the\nsame spellcasting ability as Spellcasting.\nMedium Monstrosity, Chaotic Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Q) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

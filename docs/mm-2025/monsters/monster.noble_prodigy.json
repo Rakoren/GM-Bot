@@ -1,0 +1,80 @@
+{
+  "id": "monster.noble_prodigy",
+  "name": "NOBLE PRODIGY",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 148,
+  "hit_dice": "27d8 + 27",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 19,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6, Persuasion +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 16",
+  "languages": "Common plus two other languages",
+  "cr": "10 (XP 5,900; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The noble makes three Beguiling Strike attacks."
+    },
+    {
+      "name": "Beguiling Strike",
+      "text": "Melee or Ranged Attack Roll: +8, reach 5 ft. or range 60 ft. Hit: 18 (4d6 + 4) Psychic damage, and the target has the Charmed condition until the start of the noble's next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The noble casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16): At Will: Mage Armor (included in AC), Mage Hand, Minor Illusion 1/Day Each: Befuddlement, Detect Thoughts, Fly, Scrying, Shatter (level 7 version)"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Shield (2/Day)",
+      "text": "The noble casts Shield in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +7 (17)\nHP 148 (27d8 + 27)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t8 \t−1 \t−1\nDEX \t16 \t+3 \t+7\nCON \t12 \t+1 \t+5\nMOD \tSAVE\nINT \t15 \t+2 \t+2\nWIS \t14 \t+2 \t+6\nCHA \t19 \t+4 \t+8\nSkills Perception +6, Persuasion +8\nSenses Passive Perception 16\nLanguages Common plus two other languages\nCR 10 (XP 5,900; PB +4)\nActions\nMultiattack. The noble makes three Beguiling Strike attacks.\nBeguiling Strike. Melee or Ranged Attack Roll: +8, reach 5 ft. or range 60 ft.\nHit: 18 (4d6 + 4) Psychic damage, and the target has the Charmed condition\nuntil the start of the noble’s next turn.\nSpellcasting. The noble casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 16):\nAt Will:\nMage Armor (included in AC),\nMage Hand,\nMinor Illusion\n1/Day Each:\nBefuddlement,\nDetect Thoughts,\nFly,\nScrying,\nShatter (level\n7 version)\nReactions\nShield (2/Day). The noble casts\nShield in response to that spell’s trigger, using\nthe same spellcasting ability as Spellcasting.\nMedium or Small Humanoid, Neutral\nHabitat: Underdark; Treasure: Arcana\nConsumed by their thirst for forbidden knowledge, nothics are cursed lore seekers transformed by secrets never meant to be known. The bodies of these\nformer scholars are warped into otherworldly shapes, each with a head dominated by a gigantic, unblinking eye. Nothics remember nothing of their past\nlives and care only for their endless pursuit of hidden mysteries and uncanny truths. They seek revelations amid the rubble of forgotten ruins, and they use\ntheir supernatural sight to pierce magical deceptions, rot the flesh of enemies, and steal the secrets of those who interrupt their investigations.\nSome nothics seek to end the curse that warped them into their bizarre forms, but many are unaware of—or uninterested in—their transformation.\nNycaloth\nYugoloth of Strategy and Strife\nHabitat: Planar (Gehenna); Treasure: Armaments\nDeeper. Deeper and Deeper. Deeper and creeper. Creeping they\ncome. Up from the place that isn’t a place. They come to feed.\nFeed on what I know. So I hide. I hide away. Away in the secret\ndark. Secret and dark, like all that I know I shouldn’t know!\n—SCRATCHES IN SHADOWDUSK HOLD",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (N) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "monster.clay_golem",
+  "name": "CLAY GOLEM",
+  "status": "complete",
+  "size_type_alignment": "Large Construct, Unaligned",
+  "size": "Large",
+  "creature_type": "Construct",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 123,
+  "hit_dice": "13d10 + 52",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "Common plus one other language",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [
+    {
+      "name": "Acid Absorption",
+      "text": "Whenever the golem is subjected to Acid damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt."
+    },
+    {
+      "name": "Berserk",
+      "text": "Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it continues to be berserk until it is destroyed or it is no longer Bloodied."
+    },
+    {
+      "name": "Immutable Form",
+      "text": "The golem can't shape-shift."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The golem has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The golem makes two Slam attacks, or it makes three Slam attacks if it used Hasten this turn."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (1d10 + 5) Bludgeoning damage plus 6 (1d12) Acid damage, and the target's Hit Point maximum decreases by an amount equal to the Acid damage taken."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Hasten (Recharge 5-6)",
+      "text": "The golem takes the Dash and Disengage actions."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +3 (13)\nHP 123 (13d10 + 52)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t9 \t−1 \t−1\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t8 \t−1 \t−1\nCHA \t1 \t−5 \t−5\nResistances Bludgeoning, Piercing, Slashing\nImmunities Acid, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed,\nPetrified, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Common plus one other language\nCR 9 (XP 5,000; PB +4)\nTraits\nAcid Absorption. Whenever the golem is subjected to Acid damage, it takes\nno damage and instead regains a number of Hit Points equal to the Acid\ndamage dealt.\nBerserk. Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the\ngolem goes berserk. On each of its turns while berserk, the golem attacks the\nnearest creature it can see. If no creature is near enough to move to and\nattack, the golem attacks an object. Once the golem goes berserk, it continues\nto be berserk until it is destroyed or it is no longer Bloodied.\nImmutable Form. The golem can’t shape-shift.\nMagic Resistance. The golem has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The golem makes two Slam attacks, or it makes three Slam\nattacks if it used Hasten this turn.\nSlam. Melee Attack Roll: +9, reach 5 ft.\nHit: 10 (1d10 + 5) Bludgeoning damage\nplus 6 (1d12) Acid damage, and the target’s Hit Point maximum decreases by\nan amount equal to the Acid damage taken.\nBonus Actions\nHasten (Recharge 5–6). The golem takes the Dash and Disengage actions.\nLarge Construct, Unaligned\nCloakers are mysterious Underdark predators, named by adventurers for their resemblance to hanging cloaks when they cling to walls. What cloakers call\nthemselves is unknown, if they refer to themselves at all. Though they’re undeniably intelligent, their behavior is often inscrutable.\nCloakers sometimes gather in Underdark enclaves, but they rarely build settlements or form social structures. Most operate as solitary predators, lurking in\ndismal subterranean reaches or abandoned dungeons—sometimes for months at a time—as they wait for prey to pass. They use their mottled hides to\nblend in with their surroundings. When unsuspecting prey nears, cloakers unfurl and attempt to latch on and then smother their victims in their powerful\nwings.\nCloakers delight in frightening foes. In addition to their methods of ambush, cloakers can create illusory duplicates of themselves and emit surreal moans\nthat non-cloakers find terrifying in unexplainable, primal ways. Cloakers might antagonize explorers lost in the Underdark for days, terrorizing and scattering\nthem before attacking. They rarely converse with other beings, except to whisper eerie riddles to those they’re about to consume.\nCloud Giant",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "list.mm-2025.monsters.batch_018",
+  "name": "MM 2025 Monsters Batch 18",
+  "entries": [
+    {
+      "id": "monster.archpriest",
+      "name": "ARCHPRIEST",
+      "file": "docs/mm-2025/monsters/monster.archpriest.json"
+    },
+    {
+      "id": "monster.pegasus",
+      "name": "PEGASUS",
+      "file": "docs/mm-2025/monsters/monster.pegasus.json"
+    },
+    {
+      "id": "monster.performer",
+      "name": "PERFORMER",
+      "file": "docs/mm-2025/monsters/monster.performer.json"
+    },
+    {
+      "id": "monster.performer_legend",
+      "name": "PERFORMER LEGEND",
+      "file": "docs/mm-2025/monsters/monster.performer_legend.json"
+    },
+    {
+      "id": "monster.performer_maestro",
+      "name": "PERFORMER MAESTRO",
+      "file": "docs/mm-2025/monsters/monster.performer_maestro.json"
+    },
+    {
+      "id": "monster.peryton",
+      "name": "PERYTON",
+      "file": "docs/mm-2025/monsters/monster.peryton.json"
+    },
+    {
+      "id": "monster.phase_spider",
+      "name": "PHASE SPIDER",
+      "file": "docs/mm-2025/monsters/monster.phase_spider.json"
+    },
+    {
+      "id": "monster.piercer",
+      "name": "PIERCER",
+      "file": "docs/mm-2025/monsters/monster.piercer.json"
+    },
+    {
+      "id": "monster.pirate",
+      "name": "PIRATE",
+      "file": "docs/mm-2025/monsters/monster.pirate.json"
+    },
+    {
+      "id": "monster.pirate_admiral",
+      "name": "PIRATE ADMIRAL",
+      "file": "docs/mm-2025/monsters/monster.pirate_admiral.json"
+    },
+    {
+      "id": "monster.pirate_captain",
+      "name": "PIRATE CAPTAIN",
+      "file": "docs/mm-2025/monsters/monster.pirate_captain.json"
+    },
+    {
+      "id": "monster.pit_fiend",
+      "name": "PIT FIEND",
+      "file": "docs/mm-2025/monsters/monster.pit_fiend.json"
+    },
+    {
+      "id": "monster.pixie",
+      "name": "PIXIE",
+      "file": "docs/mm-2025/monsters/monster.pixie.json"
+    },
+    {
+      "id": "monster.pixie_wonderbringer",
+      "name": "PIXIE WONDERBRINGER",
+      "file": "docs/mm-2025/monsters/monster.pixie_wonderbringer.json"
+    },
+    {
+      "id": "monster.planetar",
+      "name": "PLANETAR",
+      "file": "docs/mm-2025/monsters/monster.planetar.json"
+    },
+    {
+      "id": "monster.poltergeist",
+      "name": "POLTERGEIST",
+      "file": "docs/mm-2025/monsters/monster.poltergeist.json"
+    },
+    {
+      "id": "monster.priest",
+      "name": "PRIEST",
+      "file": "docs/mm-2025/monsters/monster.priest.json"
+    },
+    {
+      "id": "monster.priest_acolyte",
+      "name": "PRIEST ACOLYTE",
+      "file": "docs/mm-2025/monsters/monster.priest_acolyte.json"
+    },
+    {
+      "id": "monster.pseudodragon",
+      "name": "PSEUDODRAGON",
+      "file": "docs/mm-2025/monsters/monster.pseudodragon.json"
+    },
+    {
+      "id": "monster.purple_worm",
+      "name": "PURPLE WORM",
+      "file": "docs/mm-2025/monsters/monster.purple_worm.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

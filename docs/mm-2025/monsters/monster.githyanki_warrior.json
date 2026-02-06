@@ -1,0 +1,80 @@
+{
+  "id": "monster.githyanki_warrior",
+  "name": "GITHYANKI WARRIOR",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration (Gith), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Aberration (Gith)",
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "hit_points": 49,
+  "hit_dice": "9d8 + 9",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "Common, Gith",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The githyanki makes two Psi Blade attacks."
+    },
+    {
+      "name": "Psi Blade",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 7 (2d6) Psychic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability: At Will: Mage Hand (the hand is Invisible) 2/Day: Nondetection (self only)"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Misty Step (2/Day)",
+      "text": "The githyanki casts Misty Step, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +4 (14)\nHP 49 (9d8 + 9)\nSpeed 30 ft.\tMedium Aberration (Gith), Lawful Evil\nGithyanki Knight\nGithyanki knights wield silver blades to slay magic-users who use the\nAstral Projection spell to intrude on githyanki territories on the Astral Plane. These\nsilver blades are sacred to the githyanki. Non-githyanki who claim these weapons often find themselves hunted by wrathful githyanki knights.\nGithyanki Dracomancer\nOne of Gith’s last deeds was to forge an alliance between the githyanki and the dragon god Tiamat. Ever since, the Dragon Queen’s red dragon consort,\nEphelomon, and his kind have been allies of the githyanki. Githyanki dracomancers uphold this pact and cultivate magic talents that complement the might\nof red dragons.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+3\nMOD \tSAVE\nINT \t13 \t+1 \t+3\nWIS \t13 \t+1 \t+3\nCHA \t10 \t+0 \t+0\nGear Half-Plate Armor\nSenses Passive Perception 11\nLanguages Common, Gith\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The githyanki makes two Psi Blade attacks.\nPsi Blade. Melee Attack Roll: +4, reach 5 ft.\nHit: 9 (2d6 + 2) Slashing damage\nplus 7 (2d6) Psychic damage.\nSpellcasting. The githyanki casts one of the following spells, requiring no spell\ncomponents and using Intelligence as the spellcasting ability:\nAt Will:\nMage Hand (the hand is Invisible)\n2/Day:\nNondetection (self only)\nBonus Actions\nMisty Step (2/Day). The githyanki casts\nMisty Step, requiring no spell\ncomponents and using the same spellcasting ability as Spellcasting.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

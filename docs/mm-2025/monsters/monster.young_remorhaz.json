@@ -1,0 +1,72 @@
+{
+  "id": "monster.young_remorhaz",
+  "name": "YOUNG REMORHAZ",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Unaligned",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 93,
+  "hit_dice": "11d10 + 33",
+  "speed": "30 ft., Burrow 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Heat Aura",
+      "text": "At the end of each of the remorhaz's turns, each creature in a 5-foot Emanation originating from the remorhaz takes 11 (2d10) Fire damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 15 (2d10 + 4) Piercing damage plus 13 (3d8) Fire damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +1 (11)\nHP 93 (11d10 + 33)\nSpeed 30 ft., Burrow 20 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t13 \t+1 \t+1\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nImmunities Cold, Fire\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10\nLanguages None\nCR 5 (XP 1,800; PB +3)\nTraits\nHeat Aura. At the end of each of the remorhaz’s turns, each creature in a 5-foot\nEmanation originating from the remorhaz takes 11 (2d10) Fire damage.\nActions\nBite. Melee Attack Roll: +7, reach 5 ft.\nHit: 15 (2d10 + 4) Piercing damage plus\n13 (3d8) Fire damage.\nLarge Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

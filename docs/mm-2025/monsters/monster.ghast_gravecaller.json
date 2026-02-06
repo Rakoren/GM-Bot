@@ -1,0 +1,84 @@
+{
+  "id": "monster.ghast_gravecaller",
+  "name": "GHAST GRAVECALLER",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "hit_points": 97,
+  "hit_dice": "15d8 + 30",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 12",
+  "languages": "Abyssal, Common",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "Constitution Saving Throw: DC 13, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast's Stench for 24 hours."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ghast makes two Horrific Necrosis attacks. It can replace one attack with a Claw attack."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Slashing damage. If the target isn't an Undead, it has the Paralyzed condition until the end of its next turn."
+    },
+    {
+      "name": "Horrific Necrosis",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft. Hit: 15 (2d10 + 4) Necrotic damage, and the target has the Frightened condition until the end of its next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The ghast casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability: At Will: Speak with Dead, Thaumaturgy"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +3 (13)\nHP 97 (15d8 + 30)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t17 \t+3 \t+3\nCON \t14 \t+2 \t+5\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t14 \t+2 \t+5\nCHA \t8 \t−1 \t−1\nImmunities Necrotic, Poison; Charmed, Exhaustion, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 12\nLanguages Abyssal, Common\nCR 6 (XP 2,300; PB +3)\nTraits\nStench. Constitution Saving Throw: DC 13, any creature that starts its turn in a\n5-foot Emanation originating from the ghast.\nFailure: The target has the\nPoisoned condition until the start of its next turn.\nSuccess: The target is\nimmune to this ghast’s Stench for 24 hours.\nActions\nMultiattack. The ghast makes two Horrific Necrosis attacks. It can replace\none attack with a Claw attack.\nClaw. Melee Attack Roll: +6, reach 5 ft.\nHit: 13 (3d6 + 3) Slashing damage. If\nthe target isn’t an Undead, it has the Paralyzed condition until the end of its\nnext turn.\nHorrific Necrosis. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft.\nHit: 15 (2d10 + 4) Necrotic damage, and the target has the Frightened\ncondition until the end of its next turn.\nSpellcasting. The ghast casts one of the following spells, requiring no Material\ncomponents and using Intelligence as the spellcasting ability:\nAt Will:\nSpeak with Dead,\nThaumaturgy\nMedium Undead, Chaotic Evil\nGhost\nLost Soul and Unquiet Spirit\nHabitat: Underdark, Urban; Treasure: Any\nGhosts arise when living creatures die in a state of extreme emotion or\nhaving left an important task undone. These incorporeal spirits haunt\nlocations that are meaningful to them, lingering until their business is\ncomplete or they’re put to rest.\nGhosts typically appear as semitransparent versions of the creatures they\nwere in life, though some bear evidence of the wounds that killed them or\nhave nightmarish distortions to their forms. Many have extreme reactions to\nactions, objects, or individuals that remind them of emotionally charged\naspects of their lives. Particularly desperate or vengeful ghosts might\npossess the living to fulfill their ends.\nGhouls\nEaters of the Dead\nHabitat: Swamp, Underdark, Urban; Treasure: Any",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

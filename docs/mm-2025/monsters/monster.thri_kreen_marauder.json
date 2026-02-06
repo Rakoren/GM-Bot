@@ -1,0 +1,80 @@
+{
+  "id": "monster.thri_kreen_marauder",
+  "name": "THRI-KREEN MARAUDER",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "hit_points": 33,
+  "hit_dice": "6d8 + 6",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3, Stealth +4, Survival +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Thri-kreen; telepathy 60 ft.",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The thri-kreen makes two attacks, using Gythka or Chatkcha in any combination."
+    },
+    {
+      "name": "Gythka",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Slashing damage plus 2 (1d4) Poison damage."
+    },
+    {
+      "name": "Chatkcha",
+      "text": "Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Leap",
+      "text": "The thri-kreen jumps up to 15 feet by spending 5 feet of movement."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 33 (6d8 + 6)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t15 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t12 \t+1 \t+1\nCHA \t7 \t−2 \t−2\nSkills Perception +3, Stealth +4, Survival +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Thri-kreen; telepathy 60 ft.\nCR 1 (XP 200; PB +2)\nActions\nMultiattack. The thri-kreen makes two attacks, using Gythka or Chatkcha in\nany combination.\nGythka. Melee Attack Roll: +3, reach 5 ft.\nHit: 5 (1d8 + 1) Slashing damage plus\n2 (1d4) Poison damage.\nChatkcha. Ranged Attack Roll: +4, range 30/120 ft.\nHit: 5 (1d6 + 2)\nSlashing damage.\nBonus Actions\nLeap. The thri-kreen jumps up to 15 feet by spending 5 feet of movement.\nMedium Monstrosity, Neutral\nToughs\nBrawlers and Bullies\nHabitat: Any; Treasure: Armaments\nBodyguards, belligerents, and laborers, toughs rely on their physical strength to intimidate foes. They might be brawny criminals, rowdy tavern goers,\nseasoned workers, or anyone who uses their muscle to get what they want.\nTough\nToughs might work in groups at the direction of a leader, or individual toughs might bully weaker folk into doing what they say.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (T) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

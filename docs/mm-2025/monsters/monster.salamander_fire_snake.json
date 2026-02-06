@@ -1,0 +1,72 @@
+{
+  "id": "monster.salamander_fire_snake",
+  "name": "SALAMANDER FIRE SNAKE",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "hit_points": 27,
+  "hit_dice": "6d8",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Understands Primordial but can’t speak",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Fire Aura",
+      "text": "At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 3 (1d6) Fire damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage plus 3 (1d6) Fire damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +2 (12)\nHP 27 (6d8)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t14 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t8 \t−1 \t−1\nVulnerabilities Cold\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Understands Primordial but can’t speak\nCR 1 (XP 200; PB +2)\nTraits\nFire Aura. At the end of each of the salamander’s turns, each creature of the\nsalamander’s choice in a 5-foot Emanation originating from the salamander\ntakes 3 (1d6) Fire damage.\nActions\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Piercing damage plus 3\n(1d6) Fire damage.\nMedium Elemental, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

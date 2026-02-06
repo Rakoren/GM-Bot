@@ -1,0 +1,75 @@
+{
+  "id": "monster.galeb_duhr",
+  "name": "GALEB DUHR",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Neutral",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 123,
+  "hit_dice": "13d8 + 65",
+  "speed": "15 ft. (30 ft. when rolling, 60 ft. rolling downhill)",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 11",
+  "languages": "Primordial (Terran)",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Avalanche Slam",
+      "text": "Melee Attack Roll: +8, reach 5 ft. Hit: 12 (2d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature and the galeb duhr moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Bludgeoning damage and has the Prone condition."
+    },
+    {
+      "name": "Animate Boulders (1/Day)",
+      "text": "The galeb duhr magically animates one or two boulders it can see within 60 feet of itself. Each boulder uses the Galeb Duhr stat block, except it has Intelligence and Charisma scores of 1 and lacks this action. The boulder takes its turn immediately after the galeb duhr on the same"
+    },
+    {
+      "name": "Initiative count, and it obeys the galeb duhr",
+      "text": "A boulder remains animate for 1 minute or until it or the galeb duhr dies."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +2 (12)\nHP 123 (13d8 + 65)\nSpeed 15 ft. (30 ft. when rolling, 60 ft. rolling downhill)\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t14 \t+2 \t+2\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t12 \t+1 \t+1\nCHA \t11 \t+0 \t+0\nImmunities Poison; Charmed, Exhaustion, Frightened, Paralyzed,\nPetrified, Poisoned\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 11\nMedium Elemental, Neutral\nGargoyle\nSculpted Sentinel Hidden in Plain Sight\nHabitat: Underdark, Urban; Treasure: Any\nGargoyles are sculptures inhabited by elemental spirits. Wings and magic allow their heavy stone bodies to fly, and they often perch where they can blend\nin amid ornate architecture, rock formations, or mundane statues. Gargoyles usually serve the magic-users who conjured them into their bodies, but if left to\ntheir own devices, they might play cruel pranks and steal treasures to hoard in lofty lairs.\nGargoyle Ambushes\nGargoyles have a variety of appearances. Roll on or choose a result from the Gargoyle\nSculptures table to inspire how a gargoyle looks.\nGargoyle Sculptures\n1d6 \tThe Gargoyle Is Sculpted to Appear...\n1 \tCherubic with perpetually smiling features.\n2 \tCrudely hewed or naturally formed.\n3 \tDamaged or marred by mismatched pieces.\n4 \tDragon-like with polished stone scales.\n5 \tGothically fiendish with horns and a tail.\n6 \tUseful, like an ornate podium or a pillar.\nGargoyles seek to ambush foes or creatures that trespass on their territories. With no biological needs and supernatural patience, these monsters might\nwait unmoving for months, revealing themselves only when conditions are perfect to attack. They tend to lurk where statuary seems commonplace or\nwhere terrain obscures the shape and color of their bodies. Roll on or choose a result from the Gargoyle Camouflage table to inspire where a gargoyle sets\nup an ambush.\nGargoyle Camouflage\n1d8 \tThe Gargoyle Conceals Itself Amid...\n1 \tBurls and bark on a giant tree.\n2 \tMonuments in a graveyard or memorial.\n3 \tOutcroppings on a cliff or rock formation\n4 \tThe petrified victims of a basilisk or medusa.\n5 \tReliefs on a sculpted gate or wall.\n6 \tRubble in a ruin or junkyard.\nLanguages Primordial (Terran)\nCR 6 (XP 2,300; PB +3)\nActions\nAvalanche Slam. Melee Attack Roll: +8, reach 5 ft.\nHit: 12 (2d6 + 5)\nBludgeoning damage. If the target is a Large or smaller creature and the galeb\nduhr moved 20+ feet straight toward it immediately before the hit, the target\ntakes an extra 7 (2d6) Bludgeoning damage and has the Prone condition.\nAnimate Boulders (1/Day). The galeb duhr magically animates one or two\nboulders it can see within 60 feet of itself. Each boulder uses the Galeb Duhr\nstat block, except it has Intelligence and Charisma scores of 1 and lacks this\naction. The boulder takes its turn immediately after the galeb duhr on the same\nInitiative count, and it obeys the galeb duhr. A boulder remains animate for 1\nminute or until it or the galeb duhr dies.\n1d8 \tThe Gargoyle Conceals Itself Amid...\n7 \tStalactites or icicles on a cavern ceiling.\n8 \tStatuary on a castle, mansion, or temple.\nGelatinous Cube\nDungeon-Scouring Block of Ooze\nHabitat: Underdark; Treasure: Any\nQuivering masses of acidic goo, gelatinous cubes wobble through narrow caverns and dungeons, engulfing anything in their paths. These Oozes are\nnaturally transparent, making them difficult to see while they’re stationary. Creatures and objects that become stuck within these slimes are gradually\ndissolved. Undigested detritus sometimes floats within a gelatinous cube, hinting at its past meals. Roll on or choose a result from the Gelatinous Cube\nDebris table to inspire a gelatinous cube’s contents.\nGelatinous Cube Debris\n1d6 \tFloating in the Gelatinous Cube Is A...\n1 \tChest or recently trapped mimic.\n2 \tCollection of bubbles or rocks resembling eyes.\n3 \tKey to a nearby door or coffer.\n4 \tRemarkable weapon in need of repair.\n5 \tSkeleton belonging to a famous adventurer.\n6 \tTablet bearing a mysterious message.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

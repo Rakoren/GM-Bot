@@ -1,0 +1,94 @@
+{
+  "id": "monster.nalfeshnee",
+  "name": "NALFESHNEE",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Demon), Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "hit_points": 184,
+  "hit_dice": "16d10 + 96",
+  "speed": "20 ft., Fly 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 120 ft.; Passive Perception 11",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "cr": "13 (XP 10,000; PB +5)",
+  "traits": [
+    {
+      "name": "Demonic Restoration",
+      "text": "If the nalfeshnee dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The nalfeshnee has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The nalfeshnee makes three Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +10, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage plus 11 (2d10) Force damage."
+    },
+    {
+      "name": "Teleport",
+      "text": "The nalfeshnee teleports up to 120 feet to an unoccupied space it can see."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Horror Nimbus (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 15, each creature in a 15-foot Emanation originating from the nalfeshnee. Failure: 28 (8d6) Psychic damage, and the target has the Frightened condition for 1 minute, until it takes damage, or until it ends its turn with the nalfeshnee out of line of sight. Success: The target is immune to this nalfeshnee's Horror Nimbus for 24 hours."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Pursuit",
+      "text": "Trigger: Another creature the nalfeshnee can see ends its move within 120 feet of the nalfeshnee. Response: The nalfeshnee uses Teleport, but its destination space must be within 10 feet of the triggering creature."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +5 (15)\nHP 184 (16d10 + 96)\nSpeed 20 ft., Fly 30 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+5\nDEX \t10 \t+0 \t+0\nCON \t22 \t+6 \t+11\nMOD \tSAVE\nINT \t19 \t+4 \t+9\nWIS \t12 \t+1 \t+6\nCHA \t15 \t+2 \t+7\nResistances Cold, Fire, Lightning\nImmunities Poison; Frightened, Poisoned\nSenses Truesight 120 ft.; Passive Perception 11\nLanguages Abyssal; telepathy 120 ft.\nCR 13 (XP 10,000; PB +5)\nTraits\nDemonic Restoration. If the nalfeshnee dies outside the Abyss, its body\ndissolves into ichor, and it gains a new body instantly, reviving with all its Hit\nPoints somewhere in the Abyss.\nMagic Resistance. The nalfeshnee has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The nalfeshnee makes three Rend attacks.\nRend. Melee Attack Roll: +10, reach 10 ft.\nHit: 16 (2d10 + 5) Slashing damage\nplus 11 (2d10) Force damage.\nTeleport. The nalfeshnee teleports up to 120 feet to an unoccupied space it\ncan see.\nBonus Actions\nHorror Nimbus (Recharge 5–6). Wisdom Saving Throw: DC 15, each creature in\na 15-foot Emanation originating from the nalfeshnee.\nFailure: 28 (8d6) Psychic\ndamage, and the target has the Frightened condition for 1 minute, until it\ntakes damage, or until it ends its turn with the nalfeshnee out of line of\nsight.\nSuccess: The target is immune to this nalfeshnee’s Horror Nimbus for\n24 hours.\nReactions\nPursuit. Trigger: Another creature the nalfeshnee can see ends its move within\n120 feet of the nalfeshnee.\nResponse: The nalfeshnee uses Teleport, but its\ndestination space must be within 10 feet of the triggering creature.\nLarge Fiend (Demon), Chaotic Evil\nNight Hag\nHag of Nightmare and Corruption\nHabitat: Planar (Lower Planes); Treasure: Arcana\nNight hags seek mortals to torment and turn to evil. By day, night hags use supernatural deceptions to plague their victims, shape-shifting to pose as other\ncreatures and make their targets believe the world has turned against them. By night, these hags reinforce their tortures with terrifying dreams. Once they\nforce their targets to desperate limits, night hags claim their victims’ tormented spirits, capturing them in sinister traps called soul bags. The hags then slip\nbetween planes of existence to barter stolen souls to vile magic-users and fiendish entities.\nNight hags maintain networks of nefarious customers and collect rumors from across the Lower Planes. These hags might part with their secrets in\nexchange for magic items and other wicked prices.\nThe Blood War—that ageless clash between devils and demons\n—helps ensure the balance of the multiverse. At times it makes\nunlikely allies, but never delude yourself into believing there’s a\nlesser of two evil. I won’t be thanking a demon for every day I’m\nspared a devil’s lash.\n—MORDENKAINEN",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (N) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

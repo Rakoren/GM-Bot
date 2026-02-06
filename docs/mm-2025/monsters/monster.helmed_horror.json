@@ -1,0 +1,80 @@
+{
+  "id": "monster.helmed_horror",
+  "name": "HELMED HORROR",
+  "status": "complete",
+  "size_type_alignment": "Medium Construct, Neutral",
+  "size": "Medium",
+  "creature_type": "Construct",
+  "alignment": "Neutral",
+  "armor_class": 20,
+  "hit_points": 67,
+  "hit_dice": "9d8 + 27",
+  "speed": "30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 14",
+  "languages": "Understands Common plus one other language but can’t speak",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The helmed horror has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Spell Immunity",
+      "text": "The helmed horror is immune to three spells chosen by its creator. Typical choices include Heat Metal, Lightning Bolt, and Magic Missile."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The helmed horror makes two Arcane Sword attacks."
+    },
+    {
+      "name": "Arcane Sword",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 5 (1d10) Force damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +3 (13)\nHP 67 (9d8 + 27)\nSpeed 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t13 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Perception +4\nImmunities Necrotic, Poison; Blinded, Charmed, Deafened, Exhaustion,\nFrightened, Paralyzed, Petrified, Poisoned, Stunned\nGear Shield\nSenses Blindsight 60 ft.; Passive Perception 14\nLanguages Understands Common plus one other language but can’t speak\nCR 4 (XP 1,100; PB +2)\nTraits\nMagic Resistance. The helmed horror has Advantage on saving throws against\nspells and other magical effects.\nSpell Immunity. The helmed horror is immune to three spells chosen by its\ncreator. Typical choices include\nHeat Metal,\nLightning Bolt, and\nMagic Missile.\nActions\nMultiattack. The helmed horror makes two Arcane Sword attacks.\nArcane Sword. Melee Attack Roll: +6, reach 5 ft.\nHit: 8 (1d8 + 4) Slashing\ndamage plus 5 (1d10) Force damage.\nMedium Construct, Neutral\nHezrous compose the bulk of many demonic hordes. In croaking, reeking throngs, these ogre-size brutes seek to crush and consume foes. Their oozing\nhides are manifestations of embodied evils. Every few moments, patches of their slimy skins erupt with grotesque transformations such as rows of\nmismatched fangs, fungal growths, or half-formed features. These unsettling manifestations emerge, then roil away.\nHezrous serve more powerful demons, such as nalfeshnees and mariliths. They take the abuse and intimidation of these deadlier demons and pass it on\nto droves of weaker dretches and manes. This predictable brutality makes hezrous useful links in the chaotic structure of a demonic horde.\nWhen on the Material Plane or otherwise left to their own devices, hezrous recklessly indulge in destructive, short-sighted rampages. Only magic and threats\nfrom more powerful masters can curb these demons’ outrages and compel hezrous to pursue greater plots. Powerful spellcasters often use sinister\ncoercions, spells like\nMagic Circle and\nPlanar Binding, or other magic to force hezrous to serve them. Roll on or choose a result from the Demonic\nUndertakings table to inspire how a magic-user might employ a hezrou or similar demon.\nDemonic Undertakings\n1d6 \tThe Demon Is Compelled To...\n1 \tBreak open a vault and steal what’s within.\n2 \tDefile a place using blasphemous symbols and demonic gore.\n3 \tFetch or otherwise provide materials for a profane ritual.\n4 \tGuard a site and slay anyone who comes near.\n5 \tHunt down a foe, destroying everything barring the demon’s path.\n6 \tIntimidate someone into following orders.\nHill Giant\nGiant of Crags and Valleys\nHabitat: Hill; Treasure: Armaments",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

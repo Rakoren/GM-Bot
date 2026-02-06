@@ -1,0 +1,67 @@
+{
+  "id": "monster.otyugh",
+  "name": "OTYUGH",
+  "status": "complete",
+  "size_type_alignment": "Large Aberration, Neutral",
+  "size": "Large",
+  "creature_type": "Aberration",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "hit_points": 104,
+  "hit_dice": "11d10 + 44",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Otyugh; telepathy 120 ft. (doesn’t allow the receiving creature to",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The otyugh makes one Bite attack and two Tentacle attacks."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +0 (10)\nHP 104 (11d10 + 44)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t11 \t+0 \t+0\nCON \t19 \t+4 \t+7\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t13 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Otyugh; telepathy 120 ft. (doesn’t allow the receiving creature to\nrespond telepathically)\nCR 5 (XP 1,800; PB +3)\nActions\nMultiattack. The otyugh makes one Bite attack and two Tentacle attacks.\nLarge Aberration, Neutral\nOwlbears\nMagically Perfected Predators\nHabitat: Forest; Treasure: None\nCreated long ago by misguided mages, owlbears combine keen avian eyes, thick feathers, and a tearing beak with a mighty bearlike frame. Despite their\nmagical origins, owlbears have propagated and spread to wildernesses across the multiverse.\nOwlbears dwell in distinctive dens. Roll on or choose a result from the Owlbear Den Features table to inspire an owlbear den’s noteworthy traits.\nOwlbear Den Features\n1d4 \tAn Owlbear Den Contains...\n1 \tEvidence of previous occupants, like bandits, wolves, or dragons.\n2 \tHeaps of regurgitated pellets studded with coins or other treasure.\n3 \tA nest with 1d6 owlbear eggs.\n4 \tPassages through the earth or hollow trees.\nOwlbear\nOwlbears are tenacious hunters that might track prey over miles and rarely give up their hunts.\nBite. Melee Attack Roll: +6, reach 5 ft.\nHit: 12 (2d8 + 3) Piercing damage, and\nthe target has the Poisoned condition. Whenever the Poisoned target finishes a\nLong Rest, it is subjected to the following effect.\nConstitution Saving Throw:\nDC 15.\nFailure: The target’s Hit Point maximum decreases by 5 (1d10) and\ndoesn’t return to normal until the Poisoned condition ends on the target.\nSuccess: The Poisoned condition ends.\nTentacle. Melee Attack Roll: +6, reach 10 ft.\nHit: 12 (2d8 + 3) Piercing damage.\nIf the target is a Medium or smaller creature, it has the Grappled condition\n(escape DC 13) from one of two tentacles.\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by\nthe otyugh.\nFailure: 16 (3d8 + 3) Bludgeoning damage, and the target has the\nStunned condition until the start of the otyugh’s next turn.\nSuccess: Half\ndamage only.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (O) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

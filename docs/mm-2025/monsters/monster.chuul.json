@@ -1,0 +1,92 @@
+{
+  "id": "monster.chuul",
+  "name": "CHUUL",
+  "status": "complete",
+  "size_type_alignment": "Large Aberration, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Aberration",
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "hit_points": 76,
+  "hit_dice": "9d10 + 27",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Understands Deep Speech but can’t speak",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The chuul can breathe air and water."
+    },
+    {
+      "name": "Sense Magic",
+      "text": "The chuul senses magic within 120 feet of itself. This trait otherwise works like the"
+    },
+    {
+      "name": "Detect Magic spell but isn't itself magical",
+      "text": ""
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The chuul makes two Pincer attacks and uses Paralyzing Tentacles."
+    },
+    {
+      "name": "Pincer",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two pincers."
+    },
+    {
+      "name": "Paralyzing Tentacles",
+      "text": "Constitution Saving Throw: DC 13, one creature"
+    },
+    {
+      "name": "Grappled by the chuul",
+      "text": "Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. While Poisoned, the target has the Paralyzed condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +0 (10)\nHP 76 (9d10 + 27)\nSpeed 30 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t10 \t+0 \t+0\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t11 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nSkills Perception +4\nImmunities Poison; Poisoned\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Understands Deep Speech but can’t speak\nCR 4 (XP 1,100; PB +2)\nTraits\nAmphibious. The chuul can breathe air and water.\nSense Magic. The chuul senses magic within 120 feet of itself. This trait\notherwise works like the\nDetect Magic spell but isn’t itself magical.\nActions\nMultiattack. The chuul makes two Pincer attacks and uses\nParalyzing Tentacles.\nPincer. Melee Attack Roll: +6, reach 10 ft.\nHit: 9 (1d10 + 4) Bludgeoning\ndamage. If the target is a Large or smaller creature, it has the Grappled\ncondition (escape DC 14) from one of two pincers.\nParalyzing Tentacles. Constitution Saving Throw: DC 13, one creature\nGrappled by the chuul.\nFailure: The target has the Poisoned condition and\nrepeats the save at the end of each of its turns, ending the effect on itself on a\nsuccess. After 1 minute, it succeeds automatically. While Poisoned, the target\nhas the Paralyzed condition.\nLarge Aberration, Chaotic Evil\nGuardian of Home and Heart\nHabitat: Urban; Treasure: Relics\nClay golems are magical defenders made from earth and clay to protect places or communities. The materials used in creating clay golems originate from\nnear the location the golems protect and often have special significance to their creators, such as clay from a holy site or bricks from a magical ruin. While\nsome clay golems are masterfully sculpted to resemble living beings, others have only vaguely humanlike forms.\nThese golems obey their creators’ orders and protect what their makers value most. Some still\nfollow these orders long after their creators’ deaths. Roll on or choose a result from the Clay\nGolem Orders table to inspire the commands a clay golem follows.\nClay Golem Orders\n1d4 \tThe Clay Golem Follows Orders To...\n1 \tBlock the path of anyone who enters a site with a weapon drawn.\n2 Defend any member of their creator’s family or community who is threatened in its\nsight.\n3 \tPrevent any Fiend from crossing a bridge.\n4 \tRemove any who enter its creator’s workshop.\nCloaker\nHaunter in the Dark\nHabitat: Underdark; Treasure: Implements",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

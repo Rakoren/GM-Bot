@@ -1,0 +1,80 @@
+{
+  "id": "monster.gladiator",
+  "name": "GLADIATOR",
+  "status": "complete",
+  "size_type_alignment": "Medium or smaller creature, it has the Prone condition.",
+  "size": "Medium",
+  "creature_type": "smaller creature",
+  "alignment": "it has the Prone condition.",
+  "armor_class": 16,
+  "hit_points": 112,
+  "hit_dice": "15d8 + 45",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +10, Performance +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "Common",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The gladiator makes three Spear attacks. It can replace one attack with a use of Shield Bash."
+    },
+    {
+      "name": "Spear",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage."
+    },
+    {
+      "name": "Shield Bash",
+      "text": "Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss. Medium or Small Humanoid, Neutral IN AN UNDERSEA ARENA,"
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +5 (15)\nHP 112 (15d8 + 45)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+7\nDEX \t15 \t+2 \t+5\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t12 \t+1 \t+4\nCHA \t15 \t+2 \t+2\nSkills Athletics +10, Performance +5\nGear Shield, Spears (3), Studded Leather Armor\nSenses Passive Perception 11\nLanguages Common\nCR 5 (XP 1,800; PB +3)\nActions\nMultiattack. The gladiator makes three Spear attacks. It can replace one attack\nwith a use of Shield Bash.\nSpear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\nHit: 11 (2d6 +\n4) Piercing damage.\nShield Bash. Strength Saving Throw: DC 15, one creature within 5 feet that the\ngladiator can see.\nFailure: 9 (2d4 + 4) Bludgeoning damage. If the target is a\nMedium or smaller creature, it has the Prone condition.\nReactions\nParry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon.\nResponse: The gladiator adds 3 to its AC against that attack, possibly causing it\nto miss.\nMedium or Small Humanoid, Neutral\nIN AN UNDERSEA ARENA, THE CROWD GOES WILD\nAS A GLADIATOR TRIUMPHS OVER A GIANT SQUID\nThe first gnolls arose from hyenas that fed on flesh tainted by the Abyss. Their corruption and violence delighted the demon lord Yeenoghu, who\nencouraged their numbers and spread them across the multiverse. Ever since, gnolls have been the cackling servants of Yeenoghu, existing to cause ruin\nand to feast on what remains.\nGnoll Warrior\nGnoll warriors crave endless slaughter but quickly grow bored with the prey they kill and the treasures they plunder. Nevertheless, they’re enraged by the\nthought of anyone else having what’s theirs, compelling them to ruin what they can’t take with them.\nGnoll Pack Lord\nRising above other gnolls with their viciousness and physical prowess, gnoll pack lords terrorize weaker gnolls into their service. These brutes drive other\ngnolls to acts of great violence, then claim the best of their servants’ spoils.\nGNOLL WARRIORS RAMPAGE AFTER A GNOLL PACK LORD, A GNOLL FANG OF YEENOGHU, AND A GNOLL DEMONIAC",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

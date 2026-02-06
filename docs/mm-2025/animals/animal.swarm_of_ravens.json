@@ -1,0 +1,76 @@
+{
+  "id": "animal.swarm_of_ravens",
+  "name": "SWARM OF RAVENS",
+  "status": "complete",
+  "size_type_alignment": "Medium Swarm of Tiny Beasts, Unaligned",
+  "size": "Medium",
+  "creature_type": "Swarm of Beasts",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 11,
+  "hit_dice": "2d8 + 2",
+  "speed": "10 ft., Fly 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Beaks",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+    },
+    {
+      "name": "Cacophony (Recharge 6)",
+      "text": "Wisdom Saving Throw: DC 10, one creature in the swarm's space. Failure: The target has the Deafened condition until the start of the swarm's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls. Her eyes are everywhere-flecks of carbonado, pools of midnight. The Raven Queen watches. -EVERNIGHT"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 11 (2d8 + 2)\nSpeed 10 ft., Fly 50 ft.\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t12 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSkills Perception +5\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone,\nRestrained, Stunned\nSenses Passive Perception 15\nLanguages None\nCR 1/4 (XP 50; PB +2)\nTraits\nSwarm. The swarm can occupy another creature’s space and vice versa, and\nthe swarm can move through any opening large enough for a Tiny raven. The\nswarm can’t regain Hit Points or gain Temporary Hit Points.\nActions\nBeaks. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Piercing damage, or 2\n(1d4) Piercing damage if the swarm is Bloodied.\nCacophony (Recharge 6). Wisdom Saving Throw: DC 10, one creature in the\nswarm’s space.\nFailure: The target has the Deafened condition until the start of\nthe swarm’s next turn. While Deafened, the target also has Disadvantage on\nability checks and attack rolls.\nMedium Swarm of Tiny Beasts, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

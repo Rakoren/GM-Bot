@@ -1,0 +1,72 @@
+{
+  "id": "animal.swarm_of_venomous_snakes",
+  "name": "SWARM OF VENOMOUS SNAKES",
+  "status": "complete",
+  "size_type_alignment": "Medium Swarm of Tiny Beasts, Unaligned",
+  "size": "Medium",
+  "creature_type": "Swarm of Beasts",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 36,
+  "hit_dice": "8d8",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bites",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage -or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied-plus 10 (3d6) Poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +4 (14)\nHP 36 (8d8)\nSpeed 30 ft., Swim 30 ft.\nMedium Swarm of Tiny Beasts, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

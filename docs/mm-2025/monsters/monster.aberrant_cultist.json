@@ -1,0 +1,84 @@
+{
+  "id": "monster.aberrant_cultist",
+  "name": "ABERRANT CULTIST",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "hit_points": 137,
+  "hit_dice": "25d8 + 25",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +6, Perception +7, Religion +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 90 ft.; Passive Perception 17",
+  "languages": "Common, Deep Speech; telepathy 30 ft.",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The cultist makes two Tentacle Lash attacks. It can replace any attack with a use of Mind Rot."
+    },
+    {
+      "name": "Tentacle Lash",
+      "text": "Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Slashing damage plus 14 (4d6) Psychic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two tentacles, and it has the Restrained condition until the grapple ends."
+    },
+    {
+      "name": "Mind Rot",
+      "text": "Wisdom Saving Throw: DC 15, one creature the cultist can see within 90 feet. Failure: 27 (6d8) Psychic damage, and the target has the Poisoned condition until the start of the cultist's next turn. Success: Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 15): At Will: Detect Thoughts, Minor Illusion"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Counterspell (2/Day)",
+      "text": "The cultist casts Counterspell in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +7 (17)\nHP 137 (25d8 + 25)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t19 \t+4 \t+4\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t16 \t+3 \t+6\nWIS \t18 \t+4 \t+7\nCHA \t15 \t+2 \t+2\nSkills Arcana +6, Perception +7, Religion +6\nSenses Darkvision 90 ft.; Passive Perception 17\nLanguages Common, Deep Speech; telepathy 30 ft.\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The cultist makes two Tentacle Lash attacks. It can replace any\nattack with a use of Mind Rot.\nTentacle Lash. Melee Attack Roll: +7, reach 10 ft.\nHit: 7 (1d6 + 4) Slashing\ndamage plus 14 (4d6) Psychic damage. If the target is a Large or smaller\ncreature, it has the Grappled condition (escape DC 14) from one of two\ntentacles, and it has the Restrained condition until the grapple ends.\nMind Rot. Wisdom Saving Throw: DC 15, one creature the cultist can see within\n90 feet.\nFailure: 27 (6d8) Psychic damage, and the target has the Poisoned\ncondition until the start of the cultist’s next turn.\nSuccess: Half damage only.\nSpellcasting. The cultist casts one of the following spells, using Wisdom as\nthe spellcasting ability (spell save DC 15):\nAt Will:\nDetect Thoughts,\nMinor Illusion\nReactions\nCounterspell (2/Day). The cultist casts\nCounterspell in response to that spell’s\ntrigger, using the same spellcasting ability as Spellcasting.\nMedium or Small Humanoid, Neutral Evil\nDEATH CULTIST\nElemental Cultist\nElemental cultists harness destructive natural forces to cleanse the world of civilization or prove the dominance of one element over all others. Such\ncultists are aligned with Elemental monsters or wicked immortals such as the Princes of Elemental Evil or the Elder Elemental Eye.\nFiend Cultist\nFiend cultists worship fiends or evil deities. They often work to bring ruin to innocents or to summon their sinister patron into the world. Fiend cultists might\nserve infamous powers such as archdevils and demon lords, or foul immortals—beings such as Demogorgon, Pazuzu, Iuz, Zariel, or Zuggtmoy.\nAC 17 \tInitiative +4 (14)\nHP 127 (15d8 + 60)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t12 \t+1 \t+1\nCON \t18 \t+4 \t+7\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t16 \t+3 \t+6\nCHA \t14 \t+2 \t+2\nSkills Insight +6, Perception +6, Religion +4\nGear Splint Armor\nSenses Passive Perception 16\nLanguages Common\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The cultist makes three attacks, using Dread Scythe or Deathly\nRay in any combination.\nDread Scythe. Melee Attack Roll: +7, reach 10 ft.\nHit: 9 (1d10 + 4) Slashing\ndamage plus 11 (2d10) Necrotic damage, and the target can’t regain Hit Points\nuntil the end of its next turn.\nDeathly Ray. Ranged Attack Roll: +6, range 120 ft.\nHit: 22 (4d10)\nNecrotic damage.\nSpellcasting. The cultist casts one of the following spells, using Wisdom as\nthe spellcasting ability (spell save DC 14):\nAt Will:\nSpeak with Dead,\nThaumaturgy\nBonus Actions\nSpirit Wail (Recharge 5–6). Wisdom Saving Throw: DC 14, each creature in a\n20-foot Emanation originating from the cultist.\nFailure: 14 (4d6) Psychic\ndamage, and the target has the Frightened condition until the end of its next\nturn.\nSuccess: Half damage only.\nMedium or Small Humanoid, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "monster.red_slaad",
+  "name": "RED SLAAD",
+  "status": "complete",
+  "size_type_alignment": "Large Aberration, Chaotic Neutral",
+  "size": "Large",
+  "creature_type": "Aberration",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "hit_points": 93,
+  "hit_dice": "11d10 + 33",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +1",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Slaad; telepathy 60 ft.",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The slaad has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Regeneration",
+      "text": "The slaad regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The slaad makes three Injecting Claw attacks."
+    },
+    {
+      "name": "Injecting Claw",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Humanoid not cursed by a slaad, it is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target is cursed unawares, and a minuscule slaad egg is implanted in it. Removing the curse destroys the egg. Over 2d4 × 10 days, the egg gestates. In the final 24 hours, the cursed target feels unwell; its Speed is halved, and it has Disadvantage on D20 Tests. At the end of this time, the egg turns into a Slaad Tadpole, which chews out of the host and kills it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +1 (11)\nHP 93 (11d10 + 33)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t6 \t−2 \t−2\nCHA \t7 \t−2 \t−2\nSkills Perception +1\nResistances Acid, Cold, Fire, Lightning, Thunder\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Slaad; telepathy 60 ft.\nCR 5 (XP 1,800; PB +3)\nTraits\nMagic Resistance. The slaad has Advantage on saving throws against spells\nand other magical effects.\nRegeneration. The slaad regains 10 Hit Points at the start of each of its turns if\nit has at least 1 Hit Point.\nActions\nMultiattack. The slaad makes three Injecting Claw attacks.\nInjecting Claw. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (2d6 + 3) Piercing\ndamage. If the target is a Humanoid not cursed by a slaad, it is subjected to\nthe following effect.\nConstitution Saving Throw: DC 14.\nFailure: The target is\ncursed unawares, and a minuscule slaad egg is implanted in it. Removing the\ncurse destroys the egg.\nOver 2d4 × 10 days, the egg gestates. In the final 24 hours, the cursed target\nfeels unwell; its Speed is halved, and it has Disadvantage on D20 Tests. At the\nend of this time, the egg turns into a Slaad Tadpole, which chews out of the\nhost and kills it.\nLarge Aberration, Chaotic Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

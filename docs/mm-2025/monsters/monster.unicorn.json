@@ -1,0 +1,104 @@
+{
+  "id": "monster.unicorn",
+  "name": "UNICORN",
+  "status": "complete",
+  "size_type_alignment": "Large Celestial, Lawful Good",
+  "size": "Large",
+  "creature_type": "Celestial",
+  "alignment": "Lawful Good",
+  "armor_class": 12,
+  "hit_points": 97,
+  "hit_dice": "13d10 + 26",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": "Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Paralyzed, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Celestial, Elvish, Sylvan; telepathy 120 ft.",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": "If the unicorn fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The unicorn has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The unicorn makes one Hooves attack and one Radiant Horn attack."
+    },
+    {
+      "name": "Hooves",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning damage."
+    },
+    {
+      "name": "Radiant Horn",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d10 + 4) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The unicorn casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 14): At Will: Detect Evil and Good, Druidcraft. 1/Day Each: Calm Emotions, Dispel Evil and Good, Entangle, Pass without Trace, Word of Recall."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Unicorn's Blessing (3/Day)",
+      "text": "The unicorn touches another creature with its horn and casts Cure Wounds or Lesser Restoration on that creature, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Charging Horn",
+      "text": "The unicorn moves up to half its Speed without provoking Opportunity Attacks, and it makes one Radiant Horn attack."
+    },
+    {
+      "name": "Shimmering Shield",
+      "text": "The unicorn targets itself or one creature it can see within 60 feet of itself. The target gains 10 (3d6) Temporary Hit Points, and its AC increases by 2 until the end of the unicorn's next turn. The unicorn can't take this action again until the start of its next turn."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +8 (18)\nHP 97 (13d10 + 26)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t14 \t+2 \t+2\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t17 \t+3 \t+3\nCHA \t16 \t+3 \t+3\nImmunities Poison; Charmed, Paralyzed, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Celestial, Elvish, Sylvan; telepathy 120 ft.\nCR 5 (XP 1,800; PB +3)\nTraits\nLegendary Resistance (3/Day). If the unicorn fails a saving throw, it can choose to succeed instead.\nMagic Resistance. The unicorn has Advantage on saving throws against spells and other magical effects.\nActions\nMultiattack. The unicorn makes one Hooves attack and one Radiant Horn attack.\nHooves. Melee Attack Roll: +7, reach 5 ft.\nHit: 11 (2d6 + 4) Bludgeoning damage.\nRadiant Horn. Melee Attack Roll: +7, reach 5 ft.\nHit: 9 (1d10 + 4) Radiant damage.\nSpellcasting. The unicorn casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 14):\nAt Will:\nDetect Evil and Good,\nDruidcraft\n1/Day Each:\nCalm Emotions,\nDispel Evil and Good,\nEntangle,\nPass without Trace,\nWord of Recall\nBonus Actions\nUnicorn's Blessing (3/Day). The unicorn touches another creature with its horn and casts Cure Wounds or Lesser Restoration on that creature, using the same spellcasting ability as Spellcasting.\nLegendary Actions\nLegendary Action Uses: 3. Immediately after another creature's turn, the unicorn can expend a use to take one of the following actions. The unicorn regains all expended uses at the start of each of its turns.\nCharging Horn. The unicorn moves up to half its Speed without provoking Opportunity Attacks, and it makes one Radiant Horn attack.\nShimmering Shield. The unicorn targets itself or one creature it can see within 60 feet of itself. The target gains 10 (3d6) Temporary Hit Points, and its AC increases by 2 until the end of the unicorn's next turn. The unicorn can't take this action again until the start of its next turn.\nLarge Celestial, Lawful Good",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (U) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3. Immediately after another creature's turn, the unicorn can expend a use to take one of the following actions. The unicorn regains all expended uses at the start of each of its turns."
+  ]
+}

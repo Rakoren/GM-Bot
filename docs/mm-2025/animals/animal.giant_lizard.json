@@ -1,0 +1,72 @@
+{
+  "id": "animal.giant_lizard",
+  "name": "GIANT LIZARD",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 19,
+  "hit_dice": "3d10 + 3",
+  "speed": "40 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +1 (11)\nHP 19 (3d10 + 3)\nSpeed 40 ft., Climb 40 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t12 \t+1 \t+3\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\nTraits\nSpider Climb. The lizard can climb difficult surfaces, including along ceilings,\nwithout needing to make an ability check.\nActions\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Piercing damage.\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

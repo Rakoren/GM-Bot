@@ -1,0 +1,81 @@
+{
+  "id": "monster.mimic",
+  "name": "MIMIC",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral",
+  "armor_class": 12,
+  "hit_points": 58,
+  "hit_dice": "9d8 + 18",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Adhesive (Object Form Only)",
+      "text": "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic has the Grappled condition (escape DC 13). Ability checks made to escape this grapple have Disadvantage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5 (with Advantage if the target is Grappled by the mimic), reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage-or 12 (2d8 + 3) Piercing damage if the target is Grappled by the mimic-plus 4 (1d8) Acid damage."
+    },
+    {
+      "name": "Pseudopod",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 4 (1d8) Acid damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13). Ability checks made to escape this grapple have Disadvantage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The mimic shape-shifts to resemble a Medium or Small object while retaining its game statistics, or it returns to its true blob form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +3 (13)\nHP 58 (9d8 + 18)\nSpeed 20 ft.\nMedium Monstrosity, Neutral\nMind Flayers\nBrain-Eating Underdark Tyrants\nHabitat: Underdark; Treasure: Arcana\nScattered survivors of a world-ruining, multiversal empire, mind flayers lurk in secret\nconclaves hidden deep within Material Plane worlds. Within their alien sanctuaries, these\nwicked masterminds—also known as illithids—reshape the Underdark and its inhabitants to\nserve their unfathomable whims. Mind flayers are feared for their psionic powers, which allow\nthem to stun and control other creatures, and for their horrific method of feeding: using their\nfour slimy tentacles to extract the brains of their victims.\nMind flayers are infamous plotters and manipulators, concocting plans that reach beyond\ntheir subterranean realms. Aside from using their psionic powers to control others, mind\nflayers often experiment with their own bizarre life cycles, implanting other creatures with\nillithid young to create unnatural servants. Creatures such as grimlocks and intellect\ndevourers result from mind flayers’ biological tampering, while other Underdark-dwelling\nmonsters—including kuo-toa, quaggoths, and troglodytes—often serve illithid masters.\nGithyanki and githzerai have a long adversarial history with mind flayers and bear the scars\nof illithid manipulation.\nMind Flayer Colonies\nMind flayers work as lone schemers, in mysterious cabals, or as part of worlds-spanning illithid conspiracies. In groups, mind flayers work toward bizarre\nagendas organized by an elder brain—a massive, brain-like being with incredible psionic powers. Without such a leader, groups of mind flayers fall to self-\ndestructive squabbling. Roll on or choose a result from the Mind Flayer Machinations table to inspire an illithid conclave’s plots.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t13 \t+1 \t+1\nCHA \t8 \t−1 \t−1\nSkills Stealth +5\nImmunities Acid; Prone\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nAdhesive (Object Form Only). The mimic adheres to anything that touches\nit. A Huge or smaller creature adhered to the mimic has the Grappled\ncondition (escape DC 13). Ability checks made to escape this grapple\nhave Disadvantage.\nActions\nBite. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the\nmimic), reach 5 ft.\nHit: 7 (1d8 + 3) Piercing damage—or 12 (2d8 + 3) Piercing\ndamage if the target is Grappled by the mimic—plus 4 (1d8) Acid damage.\nPseudopod. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Bludgeoning\ndamage plus 4 (1d8) Acid damage. If the target is a Large or smaller creature, it\nhas the Grappled condition (escape DC 13). Ability checks made to escape\nthis grapple have Disadvantage.\nBonus Actions\nShape-Shift. The mimic shape-shifts to resemble a Medium or Small object\nwhile retaining its game statistics, or it returns to its true blob form. Any\nequipment it is wearing or carrying isn’t transformed.\nMind Flayer Machinations\n1d6 \tThe Mind Flayer Colony Seeks To...\n1 \tBlot out the sun so their Underdark-dwelling servants can invade the surface.\n2 \tCreate a new monstrous fusion between mind flayers and a legendary monster.\n3 \tForge a psionic network uniting illithid colonies.\n4 \tReplace world leaders with intellect devourers.\n5 \tRestore a vessel to travel through Wildspace.\n6 \tSacrifice the mental energy of a planet’s populace to take control of a githyanki bastion.\nMind Flayer\nA mind flayer’s hunger for brains is outmeasured only by its thirst for dominance, and it embraces any plot that allows it to indulge both.\nMind Flayer Arcanist\nMind flayer arcanists enhance their psionic abilities with magic. Other mind flayers view those that undertake such experiments with disgust and fear.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

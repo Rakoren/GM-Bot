@@ -1,0 +1,75 @@
+{
+  "id": "monster.ghoul",
+  "name": "GHOUL",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "hit_points": 22,
+  "hit_dice": "5d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ghoul makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 22 (5d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t13 \t+1 \t+1\nDEX \t15 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t6 \t−2 \t−2\nImmunities Poison; Charmed, Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common\nCR 1 (XP 200; PB +2)\nActions\nMultiattack. The ghoul makes two Bite attacks.\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Piercing damage plus 3\n(1d6) Necrotic damage.\nClaw. Melee Attack Roll: +4, reach 5 ft.\nHit: 4 (1d4 + 2) Slashing damage. If the\ntarget is a creature that isn’t an Undead or elf, it is subjected to the following\neffect.\nConstitution Saving Throw: DC 10.\nFailure: The target has the Paralyzed\ncondition until the end of its next turn.\nMedium Undead, Chaotic Evil\nLacedon Ghoul\nLacedons are loose-skinned, aquatic ghouls. They often arise from the corpses of greedy pirates, those who starved on deserted islands, or scoundrels who\nmet their end by drowning.\nGibbering Mouther\nRavenous Chorus of Unreality\nHabitat: Underdark; Treasure: None\nGibbering mouthers endlessly feed on and regrow their own amoeboid bodies—amorphous heaps roiling with eyes, teeth, and strange organs. These mind-\nbending terrors sing and scream, laugh and cry with a cacophony of voices ranging from disturbingly unnatural to shockingly familiar. They exist only to\nfeed and to unleash their disdain for reality, their many maws dripping with otherworldly spittle.\nGibbering mouthers come into being in various unpleasant ways. Roll on or choose a result from the Gibbering Mouther Nascencies table to inspire what\nbrought one of these horrors into being.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "monster.swarm_of_crawling_claws",
+  "name": "SWARM OF CRAWLING CLAWS",
+  "status": "complete",
+  "size_type_alignment": "Medium Swarm of Tiny Undead, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Swarm of Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "hit_points": 49,
+  "hit_dice": "11d8",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 10",
+  "languages": "Understands Common but can’t speak",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Swarm of Grasping Hands",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 20 (4d8 + 2) Necrotic damage, or 11 (2d8 + 2) Necrotic damage if the swarm is Bloodied. If the target is a Medium or smaller creature, it has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 49 (11d8)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t14 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nResistances Bludgeoning, Piercing, Slashing\nImmunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled,\nIncapacitated, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned\nSenses Blindsight 30 ft.; Passive Perception 10\nLanguages Understands Common but can’t speak\nCR 3 (XP 700; PB +2)\nTraits\nSwarm. The swarm can occupy another creature’s space and vice versa, and\nthe swarm can move through any opening large enough for a Tiny creature. The\nswarm can’t regain Hit Points or gain Temporary Hit Points.\nActions\nSwarm of Grasping Hands. Melee Attack Roll: +4, reach 5 ft.\nHit: 20 (4d8 + 2)\nNecrotic damage, or 11 (2d8 + 2) Necrotic damage if the swarm is Bloodied. If\nthe target is a Medium or smaller creature, it has the Prone condition.\nMedium Swarm of Tiny Undead, Neutral Evil\nCultists use magic and extreme measures to spread radical beliefs. Some privately pursue esoteric secrets, while others form shadowy cabals seeking to\nbring about terrifying ends. Cultists often follow obscure mystical traditions or obsess over interpretations of ancient prophecies. They might worship\nsupernatural patrons—deities, otherworldly creatures, manipulative alien minds, or stranger forces. Roll on or choose a result from the Cultist Agendas table\nto inspire what a cultist seeks to achieve.\nCultist Agendas\n1d6 \tThe Cultist Strives To...\n1 \tBring about the end of a dominant order, an age, or the world.\n2 \tBurn away the comfortable lies of reality, revealing forgotten or terrible truths.\n3 \tExpand their faith though mind control or supernatural coercion.\n4 \tMake global changes, like sinking the land or awakening volcanoes.\n5 \tRemake life on a mass scale, altering other creatures’ bodies or spiritual beings.\n6 \tSummon their deity or its herald, weapon, or realm into their world.\nOccult Symbols\nCults often identify with symbols that exemplify their beliefs. Such symbols might mark objects important to the cult, as well as the dress and bodies of\ncultists themselves. These symbols might be broadly understandable, or they might have meaning only to cultists. Roll twice on or choose results from the\nCult Symbols table to inspire a cult’s icons.\nCult Symbols\n1d10 \tThe Symbol Is... \tDepicted As...\n1 \tAn alchemical sign \tA calendar or map\nA DEATH CULTIST AND HIS FOLLOWERS SUMMON ORCUS, DEMON LORD OF UNDEATH\n1d10 \tThe Symbol Is... \tDepicted As...\n2 \tAn animal \tA crest or as heraldry\n3 \tA celestial body \tAn elaborate diagram\n4 \tA deity’s icon \tA metaphorical image\n5 \tAn element \tA mystical being\n6 \tAn eye \tPart of an equation\n7 \tA geometric shape \tA repeating pattern\n8 \tA letter or number \tA series of scratches\n9 \tPart of a monster \tA simple pictogram\n10 \tA skull \tA weapon or tool\nCult Members\nCults often form hierarchies around a charismatic or domineering leader. While cult members might work independently, they take their orders from\nsuperiors with greater supernatural powers. Any cult might have the following sorts of members.\nCultist\nCultists devote themselves to their faith’s leaders and otherworldly masters. While this zeal grants cultists no magical powers, it gives them remarkable\nresolve in the face of threats. Cultists perform much of a cult’s mundane work, which might include evangelism, criminal acts, or serving as sacrifices.\nCultist Fanatic\nCultist fanatics lead small cults or cells within larger cults. They’re privy to more of a cult’s mysteries than lower-ranking cultists are, granting them access\nto magical powers from their patrons.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

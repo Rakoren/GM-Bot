@@ -1,0 +1,76 @@
+{
+  "id": "monster.winter_wolf",
+  "name": "WINTER WOLF",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 75,
+  "hit_dice": "10d10 + 20",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Common, Giant",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +1 (11)\nHP 75 (10d10 + 20)\nSpeed 50 ft.\nLarge Monstrosity, Neutral Evil\nWorgs\nMalicious Lupine Ravagers\nHabitat: Forest, Grassland, Hill, Planar (Feywild); Treasure: None\nSometimes mistaken at first for giant wolves, worgs are vicious hunters. These sapient predators can speak and often taunt their prey, enjoying the taste of\nfear in their meals.\nWorg\nPacks of worgs roam harsh frontiers and cursed lands. They sometimes conspire with goblinoids and gnolls and might serve them as mounts.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t13 \t+1 \t+1\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t8 \t−1 \t−1\nSkills Perception +5, Stealth +5\nImmunities Cold\nSenses Passive Perception 15\nLanguages Common, Giant\nCR 3 (XP 700; PB +2)\nTraits\nPack Tactics. The wolf has Advantage on an attack roll against a creature if at\nleast one of the wolf’s allies is within 5 feet of the creature and the ally doesn’t\nhave the Incapacitated condition.\nActions\nBite. Melee Attack Roll: +6, reach 5 ft.\nHit: 11 (2d6 + 4) Piercing damage. If the\ntarget is a Large or smaller creature, it has the Prone condition.\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 12, each creature\nin a 15-foot Cone.\nFailure: 18 (4d8) Cold damage.\nSuccess: Half damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

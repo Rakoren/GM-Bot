@@ -1,0 +1,96 @@
+{
+  "id": "monster.death_tyrant",
+  "name": "DEATH TYRANT",
+  "status": "complete",
+  "size_type_alignment": "Large Undead (Beholder), Lawful Evil",
+  "size": "Large",
+  "creature_type": "Undead (Beholder)",
+  "alignment": "Lawful Evil",
+  "armor_class": 19,
+  "hit_points": 195,
+  "hit_dice": "26d10 + 52",
+  "speed": "5 ft., Fly 40 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 19,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +12",
+  "resistances": null,
+  "immunities": "Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion, Paralyzed, Petrified, Poisoned, Prone",
+  "senses": "Darkvision 120 ft.; Passive Perception 22",
+  "languages": "Deep Speech, Undercommon",
+  "cr": "14 (XP 11,500, or 13,000 in lair; PB +5)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the death tyrant fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The death tyrant uses Eye Rays three times."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +9, reach 5 feet. Hit: 13 (2d8 + 4) Piercing damage."
+    },
+    {
+      "name": "Eye Rays",
+      "text": "The death tyrant randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d10; reroll if the death tyrant has already used that ray during this turn): 1. Charm Ray. Wisdom Saving Throw: DC 17. Failure: 13 (3d8) Psychic damage, and the target has the Charmed condition for 1 hour or until it takes damage. Success: Half damage only. 2. Paralyzing Ray. Constitution Saving Throw: DC 17. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. 3. Fear Ray. Wisdom Saving Throw: DC 17. Failure: 10 (3d6) Psychic damage, and the target has the Frightened condition until the end of its next turn. Success: Half damage only. 4. Slowing Ray. Constitution Saving Throw: DC 17. Failure: 18 (4d8) Necrotic damage. Until the end of the target's next turn, the target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. Success: Half damage only. 5. Enervation Ray. Constitution Saving Throw: DC 17. Failure: 16 (3d10) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Success: Half damage only. 6. Telekinetic Ray. Strength Saving Throw: DC 17 (the target succeeds automatically if it is Gargantuan). Failure: The death tyrant moves the target up to 30 feet in any direction. The target has the Restrained condition until the start of the death tyrant's next turn or until the death tyrant has the Incapacitated condition. The death tyrant can also exert fine control on objects with this ray, such as manipulating a tool or opening a door or container. 7. Sleep Ray. Wisdom Saving Throw: DC 17 (the target succeeds automatically if it is a Construct or an Undead). Failure: The target has the Unconscious condition for 1 minute. The condition ends if the target takes damage or a creature within 5 feet of it takes an action to wake it. 8. Petrification Ray. Constitution Saving Throw: DC 17. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition. 9. Disintegration Ray. Dexterity Saving Throw: DC 17. Failure: 36 (8d8) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube of it disintegrates into dust. Success: Half damage. Failure or Success: If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust. 10. Death Ray. Dexterity Saving Throw: DC 17. Failure: 55 (10d10) Necrotic damage. Success: Half damage. Failure or Success: The target dies if the ray reduces it to 0 Hit Points."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Negative Energy Cone",
+      "text": "The death tyrant's central eye emits an imperceptible, magical wave of negative energy in a 150-foot Cone. Creatures in that area can't regain Hit Points until the start of the death tyrant's next turn. An intact Humanoid corpse there instantly rises as a Zombie under the death tyrant's control and takes its turn immediately after the death tyrant on the same Initiative count."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Chomp",
+      "text": "The death tyrant makes two Bite attacks."
+    },
+    {
+      "name": "Glare",
+      "text": "The death tyrant uses Eye Rays."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +12 (22)\nHP 195 (26d10 + 52)\nSpeed 5 ft., Fly 40 ft. (hover)\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t14 \t+2 \t+2\nCON \t14 \t+2 \t+7\nMOD \tSAVE\nINT \t19 \t+4 \t+4\nWIS \t15 \t+2 \t+7\nCHA \t19 \t+4 \t+4\nSkills Perception +12\nImmunities Poison; Charmed, Exhaustion, Paralyzed, Petrified,\nPoisoned, Prone\nSenses Darkvision 120 ft.; Passive Perception 22\nLanguages Deep Speech, Undercommon\nCR 14 (XP 11,500, or 13,000 in lair; PB +5)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the death tyrant fails a\nsaving throw, it can choose to succeed instead.\nActions\nMultiattack. The death tyrant uses Eye Rays three times.\nBite. Melee Attack Roll: +9, reach 5 feet.\nHit: 13 (2d8 + 4) Piercing damage.\nEye Rays. The death tyrant randomly shoots one of the following magical rays\nat a target it can see within 120 feet of itself (roll 1d10; reroll if the death tyrant\nhas already used that ray during this turn):\n1. Charm Ray.\nWisdom Saving Throw: DC 17.\nFailure: 13 (3d8) Psychic\ndamage, and the target has the Charmed condition for 1 hour or until it\ntakes damage.\nSuccess: Half damage only.\n2. Paralyzing Ray.\nConstitution Saving Throw: DC 17.\nFailure: The target\nhas the Paralyzed condition and repeats the save at the end of each of\nits turns, ending the effect on itself on a success. After 1 minute, it\nsucceeds automatically.\n3. Fear Ray.\nWisdom Saving Throw: DC 17.\nFailure: 10 (3d6) Psychic\ndamage, and the target has the Frightened condition until the end of its\nnext turn.\nSuccess: Half damage only.\n4. Slowing Ray.\nConstitution Saving Throw: DC 17.\nFailure: 18 (4d8)\nNecrotic damage. Until the end of the target’s next turn, the target can’t\ntake Reactions; its Speed is halved; and it can take either an action or a\nBonus Action on its turn, not both.\nSuccess: Half damage only.\n5. Enervation Ray.\nConstitution Saving Throw: DC 17.\nFailure: 16 (3d10)\nPoison damage, and the target has the Poisoned condition until the end\nof its next turn. While Poisoned, the target can’t regain Hit Points.\nSuccess: Half damage only.\n6. Telekinetic Ray.\nStrength Saving Throw: DC 17 (the target succeeds\nautomatically if it is Gargantuan).\nFailure: The death tyrant moves the\ntarget up to 30 feet in any direction. The target has the Restrained\ncondition until the start of the death tyrant’s next turn or until the death\ntyrant has the Incapacitated condition. The death tyrant can also exert\nfine control on objects with this ray, such as manipulating a tool or\nopening a door or container.\n7. Sleep Ray.\nWisdom Saving Throw: DC 17 (the target succeeds\nautomatically if it is a Construct or an Undead).\nFailure: The target has\nthe Unconscious condition for 1 minute. The condition ends if the target\ntakes damage or a creature within 5 feet of it takes an action to wake it.\n8. Petrification Ray.\nConstitution Saving Throw: DC 17.\nFirst Failure: The\ntarget has the Restrained condition and repeats the save at the end of its\nnext turn if it is still Restrained, ending the effect on itself on a success.\nSecond Failure: The target has the Petrified condition instead of the\nRestrained condition.\n9. Disintegration Ray.\nDexterity Saving Throw: DC 17.\nFailure: 36 (8d8) Force\ndamage. If the target is a nonmagical object or a creation of magical\nforce, a 10-foot Cube of it disintegrates into dust.\nSuccess: Half damage.\nFailure or Success: If the target is a creature and this damage reduces it\nto 0 Hit Points, it disintegrates into dust.\n10. Death Ray.\nDexterity Saving Throw: DC 17.\nFailure: 55 (10d10) Necrotic\ndamage.\nSuccess: Half damage.\nFailure or Success: The target dies if the\nray reduces it to 0 Hit Points.\nBonus Actions\nNegative Energy Cone. The death tyrant’s central eye emits an imperceptible,\nmagical wave of negative energy in a 150-foot Cone. Creatures in that area\ncan’t regain Hit Points until the start of the death tyrant’s next turn. An intact\nHumanoid corpse there instantly rises as a Zombie under the death tyrant’s\ncontrol and takes its turn immediately after the death tyrant on the same\nInitiative count.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe death tyrant can expend a use to take one of the following actions. The\ndeath tyrant regains all expended uses at the start of each of its turns.\nChomp. The death tyrant makes two Bite attacks.\nGlare. The death tyrant uses Eye Rays.\nLarge Undead (Beholder), Lawful Evil\nDemiliches jealously guard their deathtrap-laden sanctums. The most notorious\nof these is the Tomb of Horrors, lair of the infamous Acererak.\nThe region containing a demilich’s lair is twisted by its presence, creating the\nfollowing effects:\nEnervating Domain. Whenever a creature other than the demilich or one of its\nallies finishes a Long Rest within 1 mile of the lair, the creature must succeed on\na DC 20 Constitution saving throw or have its Hit Point maximum reduced by\n1d4. This reduction lasts until the creature finishes a Long Rest outside that area.\nTravel Ward. Creatures can’t use teleportation or planar travel to enter or exit the\nlair.\nIf the demilich dies or moves its lair elsewhere, these effects end immediately.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the death tyrant can expend a use to take one of the following actions. The death tyrant regains all expended uses at the start of each of its turns."
+  ]
+}

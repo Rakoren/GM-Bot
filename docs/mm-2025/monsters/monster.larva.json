@@ -1,0 +1,67 @@
+{
+  "id": "monster.larva",
+  "name": "LARVA",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Neutral Evil",
+  "armor_class": 9,
+  "hit_points": 9,
+  "hit_dice": "2d8",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 2,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Understands Common plus one other language but can’t speak",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Necrotic damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 9 \tInitiative −1 (9)\nHP 9 (2d8)\nSpeed 20 ft.\nMedium Fiend, Neutral Evil\nSwarm of Larvae\nLone larvae pose little threat, but in large numbers, larvae can overwhelm vulnerable creatures. Out of desperation, larvae band together in grotesque\nswarms, their squirming stampedes heralded by a din of wordless whimpers and stomach-turning worm sounds.\nLemures\nDevils of Agony and Despair\nHabitat: Planar (Nine Hells); Treasure: None\nThe least of all devils, lemures arise from wicked souls, their mortal memories scoured away. Only vague limbs and anguished features jut from these\nslurries of infernal proto-matter.\nLemure\nLemures torment weaker creatures, but in the Nine Hells, few such beings exist. To avoid greater suffering, they obey the orders of more powerful devils.\nMOD \tSAVE\nSTR \t9 \t−1 \t−1\nDEX \t9 \t−1 \t−1\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t2 \t−4 \t−4\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Understands Common plus one other language but can’t speak\nCR 0 (XP 10; PB +2)\nActions\nBite. Melee Attack Roll: +1, reach 5 ft.\nHit: 1 (1d4 − 1) Necrotic damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (L) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

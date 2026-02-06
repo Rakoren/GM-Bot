@@ -1,0 +1,89 @@
+{
+  "id": "monster.pirate_admiral",
+  "name": "PIRATE ADMIRAL",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 20,
+  "hit_points": 182,
+  "hit_dice": "28d8 + 56",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 19,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +10, Athletics +6, Perception +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 16",
+  "languages": "Common plus one other language",
+  "cr": "12 (XP 8,400; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The pirate makes three attacks, using Scimitar or Pistol in any combination."
+    },
+    {
+      "name": "Scimitar",
+      "text": "Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Slashing damage plus 7 (2d6) Poison damage, and the target suffers one of the following effects of the pirate's choice: Awestruck. The target has the Charmed condition until the start of the pirate's next turn."
+    },
+    {
+      "name": "Poison",
+      "text": "The target has the Poisoned condition until the start of the pirate's next turn."
+    },
+    {
+      "name": "Pistol",
+      "text": "Ranged Attack Roll: +10, range 30/90 ft. Hit: 28 (4d10 + 6) Piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Rally (1/Day)",
+      "text": "The pirate chooses up to three other creatures it can see within 30 feet. Until the start of the pirate's next turn, the targets have Advantage on attack rolls and saving throws."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Defensive Stance",
+      "text": "Trigger: The pirate is hit by a melee attack roll while holding a weapon. Response: The pirate adds 4 to its AC against melee attack rolls (including the triggering attack) until the start of its next turn, possibly causing the attacks to miss."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +10 (20)\nHP 182 (28d8 + 56)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+6\nDEX \t22 \t+6 \t+10\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+6\nCHA \t19 \t+4 \t+8\nSkills Acrobatics +10, Athletics +6, Perception +6\nGear Pistol, Scimitar\nSenses Passive Perception 16\nLanguages Common plus one other language\nCR 12 (XP 8,400; PB +4)\nActions\nMultiattack. The pirate makes three attacks, using Scimitar or Pistol in\nany combination.\nScimitar. Melee Attack Roll: +10, reach 5 ft.\nHit: 16 (3d6 + 6) Slashing damage\nplus 7 (2d6) Poison damage, and the target suffers one of the following effects\nof the pirate’s choice:\nAwestruck. The target has the Charmed condition until the start of the pirate’s\nnext turn.\nPoison. The target has the Poisoned condition until the start of the pirate’s\nnext turn.\nPistol. Ranged Attack Roll: +10, range 30/90 ft.\nHit: 28 (4d10 + 6)\nPiercing damage.\nBonus Actions\nRally (1/Day). The pirate chooses up to three other creatures it can see within\n30 feet. Until the start of the pirate’s next turn, the targets have Advantage on\nattack rolls and saving throws.\nReactions\nDefensive Stance. Trigger: The pirate is hit by a melee attack roll while holding\na weapon.\nResponse: The pirate adds 4 to its AC against melee attack rolls\n(including the triggering attack) until the start of its next turn, possibly causing\nthe attacks to miss.\nMedium or Small Humanoid, Neutral\nSmoldering with the evil of the Nine Hells, pit fiends strike fear in creatures with their mere presence. Despite their size and incredible physical and magical\nmight, pit fiends are as likely to try to corrupt foes as they are to destroy them outright. Pit fiends’ arrogance can lead them to underestimate mortal foes—a\nfailing that can lead to their downfall.\nPixies\nFriends of the Forest\nHabitat: Forest, Planar (Feywild); Treasure: Arcana\nBarely a foot tall, pixies resemble diminutive elves with gossamer wings. They invisibly observe those who enter their wooded homes, revealing themselves\nto those with friendly intentions. Those who are unfriendly become the targets of pixies’ pranks.\nPixie\nPixies spend their days frolicking and exploring and avoid direct conflict\nwhen they can.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

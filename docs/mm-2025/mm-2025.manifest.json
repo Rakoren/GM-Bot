@@ -1,0 +1,2191 @@
+{
+  "schema_version": "0.4.0",
+  "title": "Monster Manual (2025)",
+  "generated_at": "2026-02-06",
+  "paths": {
+    "animals_dir": "mm-2025/animals",
+    "monsters_dir": "mm-2025/monsters"
+  },
+  "shards": [
+    {
+      "id": "animal.allosaurus",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.allosaurus.json"
+    },
+    {
+      "id": "animal.ankylosaurus",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.ankylosaurus.json"
+    },
+    {
+      "id": "animal.ape",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.ape.json"
+    },
+    {
+      "id": "animal.archelon",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.archelon.json"
+    },
+    {
+      "id": "animal.baboon",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.baboon.json"
+    },
+    {
+      "id": "animal.badger",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.badger.json"
+    },
+    {
+      "id": "animal.bat",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.bat.json"
+    },
+    {
+      "id": "animal.black_bear",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.black_bear.json"
+    },
+    {
+      "id": "animal.blood_hawk",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.blood_hawk.json"
+    },
+    {
+      "id": "animal.boar",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.boar.json"
+    },
+    {
+      "id": "animal.brown_bear",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.brown_bear.json"
+    },
+    {
+      "id": "animal.camel",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.camel.json"
+    },
+    {
+      "id": "animal.cat",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.cat.json"
+    },
+    {
+      "id": "animal.constrictor_snake",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.constrictor_snake.json"
+    },
+    {
+      "id": "animal.crab",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.crab.json"
+    },
+    {
+      "id": "animal.crocodile",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.crocodile.json"
+    },
+    {
+      "id": "animal.deer",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.deer.json"
+    },
+    {
+      "id": "animal.dire_wolf",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.dire_wolf.json"
+    },
+    {
+      "id": "animal.draft_horse",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.draft_horse.json"
+    },
+    {
+      "id": "animal.eagle",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.eagle.json"
+    },
+    {
+      "id": "animal.elephant",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.elephant.json"
+    },
+    {
+      "id": "animal.elk",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.elk.json"
+    },
+    {
+      "id": "animal.flying_snake",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.flying_snake.json"
+    },
+    {
+      "id": "animal.frog",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.frog.json"
+    },
+    {
+      "id": "animal.giant_ape",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_ape.json"
+    },
+    {
+      "id": "animal.giant_badger",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_badger.json"
+    },
+    {
+      "id": "animal.giant_bat",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_bat.json"
+    },
+    {
+      "id": "animal.giant_boar",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_boar.json"
+    },
+    {
+      "id": "animal.giant_centipede",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_centipede.json"
+    },
+    {
+      "id": "animal.giant_constrictor_snake",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_constrictor_snake.json"
+    },
+    {
+      "id": "animal.giant_crab",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_crab.json"
+    },
+    {
+      "id": "animal.giant_crocodile",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_crocodile.json"
+    },
+    {
+      "id": "animal.giant_eagle",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_eagle.json"
+    },
+    {
+      "id": "animal.giant_elk",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_elk.json"
+    },
+    {
+      "id": "animal.giant_fire_beetle",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_fire_beetle.json"
+    },
+    {
+      "id": "animal.giant_frog",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_frog.json"
+    },
+    {
+      "id": "animal.giant_goat",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_goat.json"
+    },
+    {
+      "id": "animal.giant_hyena",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_hyena.json"
+    },
+    {
+      "id": "animal.giant_lizard",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_lizard.json"
+    },
+    {
+      "id": "animal.giant_octopus",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_octopus.json"
+    },
+    {
+      "id": "animal.giant_owl",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_owl.json"
+    },
+    {
+      "id": "animal.giant_rat",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_rat.json"
+    },
+    {
+      "id": "animal.giant_scorpion",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_scorpion.json"
+    },
+    {
+      "id": "animal.giant_seahorse",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_seahorse.json"
+    },
+    {
+      "id": "animal.giant_shark",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_shark.json"
+    },
+    {
+      "id": "animal.giant_spider",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_spider.json"
+    },
+    {
+      "id": "animal.giant_squid",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_squid.json"
+    },
+    {
+      "id": "animal.giant_toad",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_toad.json"
+    },
+    {
+      "id": "animal.giant_venomous_snake",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_venomous_snake.json"
+    },
+    {
+      "id": "animal.giant_vulture",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_vulture.json"
+    },
+    {
+      "id": "animal.giant_wasp",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_wasp.json"
+    },
+    {
+      "id": "animal.giant_weasel",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_weasel.json"
+    },
+    {
+      "id": "animal.giant_wolf_spider",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.giant_wolf_spider.json"
+    },
+    {
+      "id": "animal.goat",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.goat.json"
+    },
+    {
+      "id": "animal.hawk",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.hawk.json"
+    },
+    {
+      "id": "animal.hippopotamus",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.hippopotamus.json"
+    },
+    {
+      "id": "animal.hunter_shark",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.hunter_shark.json"
+    },
+    {
+      "id": "animal.hyena",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.hyena.json"
+    },
+    {
+      "id": "animal.jackal",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.jackal.json"
+    },
+    {
+      "id": "animal.killer_whale",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.killer_whale.json"
+    },
+    {
+      "id": "animal.lion",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.lion.json"
+    },
+    {
+      "id": "animal.lizard",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.lizard.json"
+    },
+    {
+      "id": "animal.mammoth",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.mammoth.json"
+    },
+    {
+      "id": "animal.mastiff",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.mastiff.json"
+    },
+    {
+      "id": "animal.mule",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.mule.json"
+    },
+    {
+      "id": "animal.octopus",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.octopus.json"
+    },
+    {
+      "id": "animal.owl",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.owl.json"
+    },
+    {
+      "id": "animal.panther",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.panther.json"
+    },
+    {
+      "id": "animal.plesiosaurus",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.plesiosaurus.json"
+    },
+    {
+      "id": "animal.polar_bear",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.polar_bear.json"
+    },
+    {
+      "id": "animal.pony",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.pony.json"
+    },
+    {
+      "id": "animal.pteranodon",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.pteranodon.json"
+    },
+    {
+      "id": "animal.rat",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.rat.json"
+    },
+    {
+      "id": "animal.raven",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.raven.json"
+    },
+    {
+      "id": "animal.reef_shark",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.reef_shark.json"
+    },
+    {
+      "id": "animal.rhinoceros",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.rhinoceros.json"
+    },
+    {
+      "id": "animal.riding_horse",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.riding_horse.json"
+    },
+    {
+      "id": "animal.saber_toothed_tiger",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.saber_toothed_tiger.json"
+    },
+    {
+      "id": "animal.scorpion",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.scorpion.json"
+    },
+    {
+      "id": "animal.seahorse",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.seahorse.json"
+    },
+    {
+      "id": "animal.spider",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.spider.json"
+    },
+    {
+      "id": "animal.swarm_of_bats",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.swarm_of_bats.json"
+    },
+    {
+      "id": "animal.swarm_of_insects",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.swarm_of_insects.json"
+    },
+    {
+      "id": "animal.swarm_of_piranhas",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.swarm_of_piranhas.json"
+    },
+    {
+      "id": "animal.swarm_of_rats",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.swarm_of_rats.json"
+    },
+    {
+      "id": "animal.swarm_of_ravens",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.swarm_of_ravens.json"
+    },
+    {
+      "id": "animal.swarm_of_venomous_snakes",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.swarm_of_venomous_snakes.json"
+    },
+    {
+      "id": "animal.tiger",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.tiger.json"
+    },
+    {
+      "id": "animal.triceratops",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.triceratops.json"
+    },
+    {
+      "id": "animal.tyrannosaurus_rex",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.tyrannosaurus_rex.json"
+    },
+    {
+      "id": "animal.venomous_snake",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.venomous_snake.json"
+    },
+    {
+      "id": "animal.vulture",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.vulture.json"
+    },
+    {
+      "id": "animal.warhorse",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.warhorse.json"
+    },
+    {
+      "id": "animal.weasel",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.weasel.json"
+    },
+    {
+      "id": "animal.wolf",
+      "type": "animal",
+      "path": "mm-2025/animals/animal.wolf.json"
+    },
+    {
+      "id": "monster.aarakocra_aeromancer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.aarakocra_aeromancer.json"
+    },
+    {
+      "id": "monster.aarakocra_skirmisher",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.aarakocra_skirmisher.json"
+    },
+    {
+      "id": "monster.aberrant_cultist",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.aberrant_cultist.json"
+    },
+    {
+      "id": "monster.aboleth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.aboleth.json"
+    },
+    {
+      "id": "monster.abominable_yeti",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.abominable_yeti.json"
+    },
+    {
+      "id": "monster.adult_black_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_black_dragon.json"
+    },
+    {
+      "id": "monster.adult_blue_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_blue_dragon.json"
+    },
+    {
+      "id": "monster.adult_brass_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_brass_dragon.json"
+    },
+    {
+      "id": "monster.adult_bronze_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_bronze_dragon.json"
+    },
+    {
+      "id": "monster.adult_copper_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_copper_dragon.json"
+    },
+    {
+      "id": "monster.adult_gold_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_gold_dragon.json"
+    },
+    {
+      "id": "monster.adult_green_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_green_dragon.json"
+    },
+    {
+      "id": "monster.adult_red_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_red_dragon.json"
+    },
+    {
+      "id": "monster.adult_silver_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_silver_dragon.json"
+    },
+    {
+      "id": "monster.adult_white_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.adult_white_dragon.json"
+    },
+    {
+      "id": "monster.air_elemental",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.air_elemental.json"
+    },
+    {
+      "id": "monster.ancient_black_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_black_dragon.json"
+    },
+    {
+      "id": "monster.ancient_blue_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_blue_dragon.json"
+    },
+    {
+      "id": "monster.ancient_brass_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_brass_dragon.json"
+    },
+    {
+      "id": "monster.ancient_bronze_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_bronze_dragon.json"
+    },
+    {
+      "id": "monster.ancient_copper_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_copper_dragon.json"
+    },
+    {
+      "id": "monster.ancient_green_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_green_dragon.json"
+    },
+    {
+      "id": "monster.ancient_red_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_red_dragon.json"
+    },
+    {
+      "id": "monster.ancient_silver_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_silver_dragon.json"
+    },
+    {
+      "id": "monster.ancient_white_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ancient_white_dragon.json"
+    },
+    {
+      "id": "monster.animal_lord",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.animal_lord.json"
+    },
+    {
+      "id": "monster.animated_armor",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.animated_armor.json"
+    },
+    {
+      "id": "monster.animated_broom",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.animated_broom.json"
+    },
+    {
+      "id": "monster.animated_rug_of_smothering",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.animated_rug_of_smothering.json"
+    },
+    {
+      "id": "monster.ankheg",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ankheg.json"
+    },
+    {
+      "id": "monster.arcanaloth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.arcanaloth.json"
+    },
+    {
+      "id": "monster.arch_hag",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.arch_hag.json"
+    },
+    {
+      "id": "monster.archmage",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.archmage.json"
+    },
+    {
+      "id": "monster.archpriest",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.archpriest.json"
+    },
+    {
+      "id": "monster.assassin",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.assassin.json"
+    },
+    {
+      "id": "monster.awakened_shrub",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.awakened_shrub.json"
+    },
+    {
+      "id": "monster.awakened_tree",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.awakened_tree.json"
+    },
+    {
+      "id": "monster.axe_beak",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.axe_beak.json"
+    },
+    {
+      "id": "monster.azer_pyromancer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.azer_pyromancer.json"
+    },
+    {
+      "id": "monster.azer_sentinel",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.azer_sentinel.json"
+    },
+    {
+      "id": "monster.balor",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.balor.json"
+    },
+    {
+      "id": "monster.bandit",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bandit.json"
+    },
+    {
+      "id": "monster.bandit_captain",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bandit_captain.json"
+    },
+    {
+      "id": "monster.bandit_crime_lord",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bandit_crime_lord.json"
+    },
+    {
+      "id": "monster.bandit_deceiver",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bandit_deceiver.json"
+    },
+    {
+      "id": "monster.banshee",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.banshee.json"
+    },
+    {
+      "id": "monster.barbed_devil",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.barbed_devil.json"
+    },
+    {
+      "id": "monster.barlgura",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.barlgura.json"
+    },
+    {
+      "id": "monster.basilisk",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.basilisk.json"
+    },
+    {
+      "id": "monster.bearded_devil",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bearded_devil.json"
+    },
+    {
+      "id": "monster.behir",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.behir.json"
+    },
+    {
+      "id": "monster.beholder",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.beholder.json"
+    },
+    {
+      "id": "monster.beholder_zombie",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.beholder_zombie.json"
+    },
+    {
+      "id": "monster.berserker",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.berserker.json"
+    },
+    {
+      "id": "monster.berserker_commander",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.berserker_commander.json"
+    },
+    {
+      "id": "monster.black_dragon_wyrmling",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.black_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.black_pudding",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.black_pudding.json"
+    },
+    {
+      "id": "monster.blink_dog",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.blink_dog.json"
+    },
+    {
+      "id": "monster.blob_of_annihilation",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.blob_of_annihilation.json"
+    },
+    {
+      "id": "monster.blue_dragon_wyrmling",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.blue_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.blue_slaad",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.blue_slaad.json"
+    },
+    {
+      "id": "monster.bone_devil",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bone_devil.json"
+    },
+    {
+      "id": "monster.bone_naga",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bone_naga.json"
+    },
+    {
+      "id": "monster.brass_dragon_wyrmling",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.brass_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.brazen_gorgon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.brazen_gorgon.json"
+    },
+    {
+      "id": "monster.bronze_dragon_wyrmling",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bronze_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.bugbear_stalker",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bugbear_stalker.json"
+    },
+    {
+      "id": "monster.bugbear_warrior",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bugbear_warrior.json"
+    },
+    {
+      "id": "monster.bulette",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bulette.json"
+    },
+    {
+      "id": "monster.bulette_pup",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bulette_pup.json"
+    },
+    {
+      "id": "monster.bullywug_bog_sage",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bullywug_bog_sage.json"
+    },
+    {
+      "id": "monster.bullywug_warrior",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.bullywug_warrior.json"
+    },
+    {
+      "id": "monster.cambion",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cambion.json"
+    },
+    {
+      "id": "monster.carrion_crawler",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.carrion_crawler.json"
+    },
+    {
+      "id": "monster.centaur_trooper",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.centaur_trooper.json"
+    },
+    {
+      "id": "monster.centaur_warden",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.centaur_warden.json"
+    },
+    {
+      "id": "monster.chain_devil",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.chain_devil.json"
+    },
+    {
+      "id": "monster.chasme",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.chasme.json"
+    },
+    {
+      "id": "monster.chimera",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.chimera.json"
+    },
+    {
+      "id": "monster.chuul",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.chuul.json"
+    },
+    {
+      "id": "monster.clay_golem",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.clay_golem.json"
+    },
+    {
+      "id": "monster.cloaker",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cloaker.json"
+    },
+    {
+      "id": "monster.cloud_giant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cloud_giant.json"
+    },
+    {
+      "id": "monster.cockatrice",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cockatrice.json"
+    },
+    {
+      "id": "monster.cockatrice_regent",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cockatrice_regent.json"
+    },
+    {
+      "id": "monster.colossus",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.colossus.json"
+    },
+    {
+      "id": "monster.commoner",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.commoner.json"
+    },
+    {
+      "id": "monster.copper_dragon_wyrmling",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.copper_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.couatl",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.couatl.json"
+    },
+    {
+      "id": "monster.crawling_claw",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.crawling_claw.json"
+    },
+    {
+      "id": "monster.cultist",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cultist.json"
+    },
+    {
+      "id": "monster.cultist_fanatic",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cultist_fanatic.json"
+    },
+    {
+      "id": "monster.cultist_hierophant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cultist_hierophant.json"
+    },
+    {
+      "id": "monster.cyclops_oracle",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cyclops_oracle.json"
+    },
+    {
+      "id": "monster.cyclops_sentry",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.cyclops_sentry.json"
+    },
+    {
+      "id": "monster.dao",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.dao.json"
+    },
+    {
+      "id": "monster.darkmantle",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.darkmantle.json"
+    },
+    {
+      "id": "monster.death_dog",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.death_dog.json"
+    },
+    {
+      "id": "monster.death_knight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.death_knight.json"
+    },
+    {
+      "id": "monster.death_knight_aspirant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.death_knight_aspirant.json"
+    },
+    {
+      "id": "monster.death_slaad",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.death_slaad.json"
+    },
+    {
+      "id": "monster.death_tyrant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.death_tyrant.json"
+    },
+    {
+      "id": "monster.demilich",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.demilich.json"
+    },
+    {
+      "id": "monster.deva",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.deva.json"
+    },
+    {
+      "id": "monster.dire_worg",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.dire_worg.json"
+    },
+    {
+      "id": "monster.displacer_beast",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.displacer_beast.json"
+    },
+    {
+      "id": "monster.djinni",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.djinni.json"
+    },
+    {
+      "id": "monster.doppelganger",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.doppelganger.json"
+    },
+    {
+      "id": "monster.dracolich",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.dracolich.json"
+    },
+    {
+      "id": "monster.dragon_turtle",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.dragon_turtle.json"
+    },
+    {
+      "id": "monster.dretch",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.dretch.json"
+    },
+    {
+      "id": "monster.drider",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.drider.json"
+    },
+    {
+      "id": "monster.druid",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.druid.json"
+    },
+    {
+      "id": "monster.dryad",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.dryad.json"
+    },
+    {
+      "id": "monster.dust_mephit",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.dust_mephit.json"
+    },
+    {
+      "id": "monster.earth_elemental",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.earth_elemental.json"
+    },
+    {
+      "id": "monster.efreeti",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.efreeti.json"
+    },
+    {
+      "id": "monster.elemental_cataclysm",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.elemental_cataclysm.json"
+    },
+    {
+      "id": "monster.elemental_cultist",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.elemental_cultist.json"
+    },
+    {
+      "id": "monster.empyrean",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.empyrean.json"
+    },
+    {
+      "id": "monster.empyrean_iota",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.empyrean_iota.json"
+    },
+    {
+      "id": "monster.erinyes",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.erinyes.json"
+    },
+    {
+      "id": "monster.ettercap",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ettercap.json"
+    },
+    {
+      "id": "monster.ettin",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ettin.json"
+    },
+    {
+      "id": "monster.faerie_dragon_adult",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.faerie_dragon_adult.json"
+    },
+    {
+      "id": "monster.faerie_dragon_youth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.faerie_dragon_youth.json"
+    },
+    {
+      "id": "monster.fiend_cultist",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.fiend_cultist.json"
+    },
+    {
+      "id": "monster.fire_elemental",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.fire_elemental.json"
+    },
+    {
+      "id": "monster.fire_giant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.fire_giant.json"
+    },
+    {
+      "id": "monster.flameskull",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.flameskull.json"
+    },
+    {
+      "id": "monster.flaming_skeleton",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.flaming_skeleton.json"
+    },
+    {
+      "id": "monster.flesh_golem",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.flesh_golem.json"
+    },
+    {
+      "id": "monster.flumph",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.flumph.json"
+    },
+    {
+      "id": "monster.fomorian",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.fomorian.json"
+    },
+    {
+      "id": "monster.frost_giant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.frost_giant.json"
+    },
+    {
+      "id": "monster.galeb_duhr",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.galeb_duhr.json"
+    },
+    {
+      "id": "monster.gargoyle",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gargoyle.json"
+    },
+    {
+      "id": "monster.gas_spore_fungus",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gas_spore_fungus.json"
+    },
+    {
+      "id": "monster.gelatinous_cube",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gelatinous_cube.json"
+    },
+    {
+      "id": "monster.ghast",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ghast.json"
+    },
+    {
+      "id": "monster.ghast_gravecaller",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ghast_gravecaller.json"
+    },
+    {
+      "id": "monster.ghost",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ghost.json"
+    },
+    {
+      "id": "monster.ghoul",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ghoul.json"
+    },
+    {
+      "id": "monster.giant_axe_beak",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.giant_axe_beak.json"
+    },
+    {
+      "id": "monster.gibbering_mouther",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gibbering_mouther.json"
+    },
+    {
+      "id": "monster.githyanki_dracomancer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.githyanki_dracomancer.json"
+    },
+    {
+      "id": "monster.githyanki_knight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.githyanki_knight.json"
+    },
+    {
+      "id": "monster.githyanki_warrior",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.githyanki_warrior.json"
+    },
+    {
+      "id": "monster.githzerai_monk",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.githzerai_monk.json"
+    },
+    {
+      "id": "monster.githzerai_psion",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.githzerai_psion.json"
+    },
+    {
+      "id": "monster.githzerai_zerth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.githzerai_zerth.json"
+    },
+    {
+      "id": "monster.glabrezu",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.glabrezu.json"
+    },
+    {
+      "id": "monster.gladiator",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gladiator.json"
+    },
+    {
+      "id": "monster.gnoll_demoniac",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gnoll_demoniac.json"
+    },
+    {
+      "id": "monster.gnoll_fang_of_yeenoghu",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gnoll_fang_of_yeenoghu.json"
+    },
+    {
+      "id": "monster.gnoll_pack_lord",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gnoll_pack_lord.json"
+    },
+    {
+      "id": "monster.gnoll_warrior",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gnoll_warrior.json"
+    },
+    {
+      "id": "monster.goblin_boss",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.goblin_boss.json"
+    },
+    {
+      "id": "monster.graveyard_revenant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.graveyard_revenant.json"
+    },
+    {
+      "id": "monster.gray_slaad",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gray_slaad.json"
+    },
+    {
+      "id": "monster.green_slaad",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.green_slaad.json"
+    },
+    {
+      "id": "monster.gulthias_blight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.gulthias_blight.json"
+    },
+    {
+      "id": "monster.half_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.half_dragon.json"
+    },
+    {
+      "id": "monster.harpy",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.harpy.json"
+    },
+    {
+      "id": "monster.haunting_revenant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.haunting_revenant.json"
+    },
+    {
+      "id": "monster.helmed_horror",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.helmed_horror.json"
+    },
+    {
+      "id": "monster.hezrou",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hezrou.json"
+    },
+    {
+      "id": "monster.hill_giant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hill_giant.json"
+    },
+    {
+      "id": "monster.hippogriff",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hippogriff.json"
+    },
+    {
+      "id": "monster.hobgoblin_captain",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hobgoblin_captain.json"
+    },
+    {
+      "id": "monster.hobgoblin_warlord",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hobgoblin_warlord.json"
+    },
+    {
+      "id": "monster.hobgoblin_warrior",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hobgoblin_warrior.json"
+    },
+    {
+      "id": "monster.homunculus",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.homunculus.json"
+    },
+    {
+      "id": "monster.hook_horror",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hook_horror.json"
+    },
+    {
+      "id": "monster.horned_devil",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.horned_devil.json"
+    },
+    {
+      "id": "monster.hydra",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.hydra.json"
+    },
+    {
+      "id": "monster.ice_devil",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ice_devil.json"
+    },
+    {
+      "id": "monster.imp",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.imp.json"
+    },
+    {
+      "id": "monster.incubus",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.incubus.json"
+    },
+    {
+      "id": "monster.intellect_devourer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.intellect_devourer.json"
+    },
+    {
+      "id": "monster.invisible_stalker",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.invisible_stalker.json"
+    },
+    {
+      "id": "monster.iron_golem",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.iron_golem.json"
+    },
+    {
+      "id": "monster.jackalwere",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.jackalwere.json"
+    },
+    {
+      "id": "monster.juvenile_shadow_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.juvenile_shadow_dragon.json"
+    },
+    {
+      "id": "monster.kenku",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.kenku.json"
+    },
+    {
+      "id": "monster.knight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.knight.json"
+    },
+    {
+      "id": "monster.kobold_warrior",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.kobold_warrior.json"
+    },
+    {
+      "id": "monster.kraken",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.kraken.json"
+    },
+    {
+      "id": "monster.kuo_toa",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.kuo_toa.json"
+    },
+    {
+      "id": "monster.kuo_toa_archpriest",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.kuo_toa_archpriest.json"
+    },
+    {
+      "id": "monster.kuo_toa_monitor",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.kuo_toa_monitor.json"
+    },
+    {
+      "id": "monster.kuo_toa_whip",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.kuo_toa_whip.json"
+    },
+    {
+      "id": "monster.lamia",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.lamia.json"
+    },
+    {
+      "id": "monster.larva",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.larva.json"
+    },
+    {
+      "id": "monster.lemure",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.lemure.json"
+    },
+    {
+      "id": "monster.lich",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.lich.json"
+    },
+    {
+      "id": "monster.lizardfolk_geomancer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.lizardfolk_geomancer.json"
+    },
+    {
+      "id": "monster.lizardfolk_sovereign",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.lizardfolk_sovereign.json"
+    },
+    {
+      "id": "monster.mage",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.mage.json"
+    },
+    {
+      "id": "monster.mage_apprentice",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.mage_apprentice.json"
+    },
+    {
+      "id": "monster.magma_mephit",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.magma_mephit.json"
+    },
+    {
+      "id": "monster.magmin",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.magmin.json"
+    },
+    {
+      "id": "monster.manes",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.manes.json"
+    },
+    {
+      "id": "monster.manes_vaporspawn",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.manes_vaporspawn.json"
+    },
+    {
+      "id": "monster.manticore",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.manticore.json"
+    },
+    {
+      "id": "monster.marid",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.marid.json"
+    },
+    {
+      "id": "monster.marilith",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.marilith.json"
+    },
+    {
+      "id": "monster.medusa",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.medusa.json"
+    },
+    {
+      "id": "monster.merfolk_skirmisher",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.merfolk_skirmisher.json"
+    },
+    {
+      "id": "monster.merfolk_wavebender",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.merfolk_wavebender.json"
+    },
+    {
+      "id": "monster.merrow",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.merrow.json"
+    },
+    {
+      "id": "monster.mezzoloth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.mezzoloth.json"
+    },
+    {
+      "id": "monster.mimic",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.mimic.json"
+    },
+    {
+      "id": "monster.mind_flayer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.mind_flayer.json"
+    },
+    {
+      "id": "monster.mind_flayer_arcanist",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.mind_flayer_arcanist.json"
+    },
+    {
+      "id": "monster.minotaur_of_baphomet",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.minotaur_of_baphomet.json"
+    },
+    {
+      "id": "monster.minotaur_skeleton",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.minotaur_skeleton.json"
+    },
+    {
+      "id": "monster.modron_duodrone",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.modron_duodrone.json"
+    },
+    {
+      "id": "monster.modron_monodrone",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.modron_monodrone.json"
+    },
+    {
+      "id": "monster.modron_pentadrone",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.modron_pentadrone.json"
+    },
+    {
+      "id": "monster.modron_quadrone",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.modron_quadrone.json"
+    },
+    {
+      "id": "monster.modron_tridrone",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.modron_tridrone.json"
+    },
+    {
+      "id": "monster.nalfeshnee",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.nalfeshnee.json"
+    },
+    {
+      "id": "monster.needle_blight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.needle_blight.json"
+    },
+    {
+      "id": "monster.night_hag",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.night_hag.json"
+    },
+    {
+      "id": "monster.nightmare",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.nightmare.json"
+    },
+    {
+      "id": "monster.noble",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.noble.json"
+    },
+    {
+      "id": "monster.noble_prodigy",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.noble_prodigy.json"
+    },
+    {
+      "id": "monster.nothic",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.nothic.json"
+    },
+    {
+      "id": "monster.nycaloth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.nycaloth.json"
+    },
+    {
+      "id": "monster.ochre_jelly",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ochre_jelly.json"
+    },
+    {
+      "id": "monster.ogre_zombie",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ogre_zombie.json"
+    },
+    {
+      "id": "monster.ogrillon_ogre",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ogrillon_ogre.json"
+    },
+    {
+      "id": "monster.oni",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.oni.json"
+    },
+    {
+      "id": "monster.otyugh",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.otyugh.json"
+    },
+    {
+      "id": "monster.owlbear",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.owlbear.json"
+    },
+    {
+      "id": "monster.pegasus",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pegasus.json"
+    },
+    {
+      "id": "monster.performer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.performer.json"
+    },
+    {
+      "id": "monster.performer_legend",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.performer_legend.json"
+    },
+    {
+      "id": "monster.performer_maestro",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.performer_maestro.json"
+    },
+    {
+      "id": "monster.peryton",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.peryton.json"
+    },
+    {
+      "id": "monster.phase_spider",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.phase_spider.json"
+    },
+    {
+      "id": "monster.piercer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.piercer.json"
+    },
+    {
+      "id": "monster.pirate",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pirate.json"
+    },
+    {
+      "id": "monster.pirate_admiral",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pirate_admiral.json"
+    },
+    {
+      "id": "monster.pirate_captain",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pirate_captain.json"
+    },
+    {
+      "id": "monster.pit_fiend",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pit_fiend.json"
+    },
+    {
+      "id": "monster.pixie",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pixie.json"
+    },
+    {
+      "id": "monster.pixie_wonderbringer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pixie_wonderbringer.json"
+    },
+    {
+      "id": "monster.planetar",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.planetar.json"
+    },
+    {
+      "id": "monster.poltergeist",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.poltergeist.json"
+    },
+    {
+      "id": "monster.priest",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.priest.json"
+    },
+    {
+      "id": "monster.priest_acolyte",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.priest_acolyte.json"
+    },
+    {
+      "id": "monster.primeval_owlbear",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.primeval_owlbear.json"
+    },
+    {
+      "id": "monster.pseudodragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.pseudodragon.json"
+    },
+    {
+      "id": "monster.purple_worm",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.purple_worm.json"
+    },
+    {
+      "id": "monster.quaggoth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.quaggoth.json"
+    },
+    {
+      "id": "monster.quaggoth_thonot",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.quaggoth_thonot.json"
+    },
+    {
+      "id": "monster.quasit",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.quasit.json"
+    },
+    {
+      "id": "monster.questing_knight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.questing_knight.json"
+    },
+    {
+      "id": "monster.rakshasa",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.rakshasa.json"
+    },
+    {
+      "id": "monster.red_dragon_wyrmling",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.red_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.red_slaad",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.red_slaad.json"
+    },
+    {
+      "id": "monster.remorhaz",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.remorhaz.json"
+    },
+    {
+      "id": "monster.revenant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.revenant.json"
+    },
+    {
+      "id": "monster.roc",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.roc.json"
+    },
+    {
+      "id": "monster.roper",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.roper.json"
+    },
+    {
+      "id": "monster.rust_monster",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.rust_monster.json"
+    },
+    {
+      "id": "monster.sahuagin_baron",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.sahuagin_baron.json"
+    },
+    {
+      "id": "monster.sahuagin_priest",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.sahuagin_priest.json"
+    },
+    {
+      "id": "monster.sahuagin_warrior",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.sahuagin_warrior.json"
+    },
+    {
+      "id": "monster.salamander",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.salamander.json"
+    },
+    {
+      "id": "monster.salamander_fire_snake",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.salamander_fire_snake.json"
+    },
+    {
+      "id": "monster.salamander_inferno_master",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.salamander_inferno_master.json"
+    },
+    {
+      "id": "monster.satyr",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.satyr.json"
+    },
+    {
+      "id": "monster.satyr_revelmaster",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.satyr_revelmaster.json"
+    },
+    {
+      "id": "monster.scarecrow",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.scarecrow.json"
+    },
+    {
+      "id": "monster.scout",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.scout.json"
+    },
+    {
+      "id": "monster.scout_captain",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.scout_captain.json"
+    },
+    {
+      "id": "monster.sea_hag",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.sea_hag.json"
+    },
+    {
+      "id": "monster.shadow",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.shadow.json"
+    },
+    {
+      "id": "monster.shadow_demon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.shadow_demon.json"
+    },
+    {
+      "id": "monster.shadow_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.shadow_dragon.json"
+    },
+    {
+      "id": "monster.shrieker_fungus",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.shrieker_fungus.json"
+    },
+    {
+      "id": "monster.swarm_of_crawling_claws",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.swarm_of_crawling_claws.json"
+    },
+    {
+      "id": "monster.swarm_of_dretches",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.swarm_of_dretches.json"
+    },
+    {
+      "id": "monster.swarm_of_larvae",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.swarm_of_larvae.json"
+    },
+    {
+      "id": "monster.swarm_of_lemures",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.swarm_of_lemures.json"
+    },
+    {
+      "id": "monster.tarrasque",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.tarrasque.json"
+    },
+    {
+      "id": "monster.thri_kreen_marauder",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.thri_kreen_marauder.json"
+    },
+    {
+      "id": "monster.thri_kreen_psion",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.thri_kreen_psion.json"
+    },
+    {
+      "id": "monster.tough",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.tough.json"
+    },
+    {
+      "id": "monster.tough_boss",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.tough_boss.json"
+    },
+    {
+      "id": "monster.treant",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.treant.json"
+    },
+    {
+      "id": "monster.tree_blight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.tree_blight.json"
+    },
+    {
+      "id": "monster.troglodyte",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.troglodyte.json"
+    },
+    {
+      "id": "monster.troll",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.troll.json"
+    },
+    {
+      "id": "monster.troll_limb",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.troll_limb.json"
+    },
+    {
+      "id": "monster.twig_blight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.twig_blight.json"
+    },
+    {
+      "id": "monster.ultroloth",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.ultroloth.json"
+    },
+    {
+      "id": "monster.umber_hulk",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.umber_hulk.json"
+    },
+    {
+      "id": "monster.unicorn",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.unicorn.json"
+    },
+    {
+      "id": "monster.vampire",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.vampire.json"
+    },
+    {
+      "id": "monster.vampire_familiar",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.vampire_familiar.json"
+    },
+    {
+      "id": "monster.vampire_nightbringer",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.vampire_nightbringer.json"
+    },
+    {
+      "id": "monster.vampire_spawn",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.vampire_spawn.json"
+    },
+    {
+      "id": "monster.vampire_umbral_lord",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.vampire_umbral_lord.json"
+    },
+    {
+      "id": "monster.vine_blight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.vine_blight.json"
+    },
+    {
+      "id": "monster.violet_fungus",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.violet_fungus.json"
+    },
+    {
+      "id": "monster.violet_fungus_necrohulk",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.violet_fungus_necrohulk.json"
+    },
+    {
+      "id": "monster.vrock",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.vrock.json"
+    },
+    {
+      "id": "monster.warrior_infantry",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.warrior_infantry.json"
+    },
+    {
+      "id": "monster.warrior_veteran",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.warrior_veteran.json"
+    },
+    {
+      "id": "monster.water_elemental",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.water_elemental.json"
+    },
+    {
+      "id": "monster.water_weird",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.water_weird.json"
+    },
+    {
+      "id": "monster.werebear",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.werebear.json"
+    },
+    {
+      "id": "monster.wereboar",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.wereboar.json"
+    },
+    {
+      "id": "monster.wererat",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.wererat.json"
+    },
+    {
+      "id": "monster.weretiger",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.weretiger.json"
+    },
+    {
+      "id": "monster.werewolf",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.werewolf.json"
+    },
+    {
+      "id": "monster.white_dragon_wyrmling",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.white_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.wight",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.wight.json"
+    },
+    {
+      "id": "monster.winged_kobold",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.winged_kobold.json"
+    },
+    {
+      "id": "monster.winter_wolf",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.winter_wolf.json"
+    },
+    {
+      "id": "monster.worg",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.worg.json"
+    },
+    {
+      "id": "monster.wraith",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.wraith.json"
+    },
+    {
+      "id": "monster.wyvern",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.wyvern.json"
+    },
+    {
+      "id": "monster.xorn",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.xorn.json"
+    },
+    {
+      "id": "monster.yeti",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.yeti.json"
+    },
+    {
+      "id": "monster.yochlol",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.yochlol.json"
+    },
+    {
+      "id": "monster.young_black_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_black_dragon.json"
+    },
+    {
+      "id": "monster.young_blue_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_blue_dragon.json"
+    },
+    {
+      "id": "monster.young_brass_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_brass_dragon.json"
+    },
+    {
+      "id": "monster.young_bronze_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_bronze_dragon.json"
+    },
+    {
+      "id": "monster.young_copper_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_copper_dragon.json"
+    },
+    {
+      "id": "monster.young_red_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_red_dragon.json"
+    },
+    {
+      "id": "monster.young_remorhaz",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_remorhaz.json"
+    },
+    {
+      "id": "monster.young_white_dragon",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.young_white_dragon.json"
+    },
+    {
+      "id": "monster.yuan_ti_abomination",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.yuan_ti_abomination.json"
+    },
+    {
+      "id": "monster.yuan_ti_infiltrator",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.yuan_ti_infiltrator.json"
+    },
+    {
+      "id": "monster.zombie",
+      "type": "monster",
+      "path": "mm-2025/monsters/monster.zombie.json"
+    }
+  ]
+}

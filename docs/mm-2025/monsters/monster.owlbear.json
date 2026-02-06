@@ -1,0 +1,67 @@
+{
+  "id": "monster.owlbear",
+  "name": "OWLBEAR",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Unaligned",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 59,
+  "hit_dice": "7d10 + 21",
+  "speed": "40 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The owlbear makes two Rend attacks."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +1 (11)\nHP 59 (7d10 + 21)\nSpeed 40 ft., Climb 40 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t12 \t+1 \t+1\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t7 \t−2 \t−2\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The owlbear makes two Rend attacks.\nLarge Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (O) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "list.mm-2025.monsters.batch_023",
+  "name": "MM 2025 Monsters Batch 23",
+  "entries": [
+    {
+      "id": "monster.ultroloth",
+      "name": "ULTROLOTH",
+      "file": "docs/mm-2025/monsters/monster.ultroloth.json"
+    },
+    {
+      "id": "monster.umber_hulk",
+      "name": "UMBER HULK",
+      "file": "docs/mm-2025/monsters/monster.umber_hulk.json"
+    },
+    {
+      "id": "monster.unicorn",
+      "name": "UNICORN",
+      "file": "docs/mm-2025/monsters/monster.unicorn.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (U) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

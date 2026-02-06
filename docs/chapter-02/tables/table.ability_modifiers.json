@@ -1,0 +1,25 @@
+{
+  "id": "table.ability_modifiers",
+  "name": "Ability Score Modifiers",
+  "chapter": 2,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/03-chapter 2/03-Creating a Character - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [1],
+    "section": "Ability Modifiers"
+  },
+  "columns": ["score_range", "modifier"],
+  "entries": [
+    { "score_range": "3", "modifier": -4 },
+    { "score_range": "4-5", "modifier": -3 },
+    { "score_range": "6-7", "modifier": -2 },
+    { "score_range": "8-9", "modifier": -1 },
+    { "score_range": "10-11", "modifier": 0 },
+    { "score_range": "12-13", "modifier": 1 },
+    { "score_range": "14-15", "modifier": 2 },
+    { "score_range": "16-17", "modifier": 3 },
+    { "score_range": "18-19", "modifier": 4 },
+    { "score_range": "20", "modifier": 5 }
+  ],
+  "notes": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "monster.displacer_beast",
+  "name": "DISPLACER BEAST",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Lawful Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Lawful Evil",
+  "armor_class": 13,
+  "hit_points": 76,
+  "hit_dice": "9d10 + 27",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Understands Sylvan but can't speak",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Avoidance",
+      "text": "If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the save and half damage if it fails. It can't use this trait if it has the Incapacitated condition."
+    },
+    {
+      "name": "Displacement",
+      "text": "Attack rolls against the displacer beast have Disadvantage, since it projects an illusion that makes it appear to be near its actual location. This trait is suppressed while the displacer beast has the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The displacer beast makes one Rend attack and one Tentacle attack."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +6, reach 5 feet. Hit: 9 (1d10 + 4) Slashing damage. If target is a Large or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Tentacle",
+      "text": "Melee Attack Roll: +6, reach 10 feet. Hit: 11 (2d6 + 4) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +4 (14)\nHP 76 (9d10 + 27)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t15 \t+2 \t+2\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t8 \t−1 \t−1\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Understands Sylvan but can’t speak\nCR 3 (XP 700; PB +2)\nLarge Monstrosity, Lawful Evil\nDjinni\nGenie of the Air\nHabitat: Coastal, Planar (Elemental Plane of Air); Treasure: Arcana\nAs genies of wind and skies, djinn personify freedom and might. They can control\nwind and travel as swiftly as a breeze. They might be as serene as drifting clouds\nor as tempestuous as storms, but most djinn relish their freedom and desire to\ndiscover the wonders of the multiverse. Djinn often know many stories, and they\nmight share such lore with those who offer their own exciting stories in trade.\nWhile many djinn create airy palaces on stormy coasts or high in the clouds,\nuntold numbers dwell on the Elemental Plane of Air. In floating cities, djinn\ncollect tales and experiences from across the planes of existence, sharing them\nin fabulous forums, libraries, and theaters. The greatest of these cities is the\nCitadel of Ice and Steel, in which wind-sculpted towers contain a city-size trove of\nincredible knowledge and treasures that defy belief.\nTraits\nAvoidance. If the displacer beast is subjected to an effect that allows it to\nmake a saving throw to take only half damage, it instead takes no damage if it\nsucceeds on the save and half damage if it fails. It can’t use this trait if it has\nthe Incapacitated condition.\nDisplacement. Attack rolls against the displacer beast have Disadvantage,\nsince it projects an illusion that makes it appear to be near its actual\nlocation. This trait is suppressed while the displacer beast has the\nIncapacitated condition.\nActions\nMultiattack. The displacer beast makes one Rend attack and one\nTentacle attack.\nRend. Melee Attack Roll: +6, reach 5 feet.\nHit: 9 (1d10 + 4) Slashing damage. If\ntarget is a Large or smaller creature, it has the Prone condition.\nTentacle. Melee Attack Roll: +6, reach 10 feet.\nHit: 11 (2d6 + 4)\nPiercing damage.\nThe murderous fury of a displacer beast is fit only for\nnightmares, of which I’ve been haunted since narrowly escaping\none’s ambush. I’m certain that beast stalks me still.\n—JEN-AHB, NATURALIST AND DISPLACER BEAST SURVIVOR",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

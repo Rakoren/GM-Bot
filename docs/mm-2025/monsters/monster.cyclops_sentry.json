@@ -1,0 +1,80 @@
+{
+  "id": "monster.cyclops_sentry",
+  "name": "CYCLOPS SENTRY",
+  "status": "complete",
+  "size_type_alignment": "Huge Giant, Chaotic Neutral",
+  "size": "Huge",
+  "creature_type": "Giant",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "hit_points": 138,
+  "hit_dice": "12d12 + 60",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 8",
+  "languages": "Giant",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The cyclops makes two attacks, using Stone Club or Rock in any combination."
+    },
+    {
+      "name": "Stone Club",
+      "text": "Melee Attack Roll: +9, reach 10 ft. Hit: 16 (3d6 + 6) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Rock",
+      "text": "Ranged Attack Roll: +9, range 30/120 ft. Hit: 22 (3d10 + 6) Bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Limited Foresight (Recharge 6)",
+      "text": "Trigger: A creature the cyclops can see makes an attack roll against it. Response: The cyclops imposes Disadvantage on the roll, and the cyclops gains Advantage on attack rolls against the target until the end of the cyclops's next turn."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +0 (10)\nHP 138 (12d12 + 60)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t22 \t+6 \t+6\nDEX \t11 \t+0 \t+0\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t6 \t−2 \t−2\nCHA \t10 \t+0 \t+0\nSenses Passive Perception 8\nLanguages Giant\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The cyclops makes two attacks, using Stone Club or Rock in\nany combination.\nStone Club. Melee Attack Roll: +9, reach 10 ft.\nHit: 16 (3d6 + 6) Bludgeoning\ndamage. If the target is a Huge or smaller creature, it has the Prone condition.\nRock. Ranged Attack Roll: +9, range 30/120 ft.\nHit: 22 (3d10 + 6)\nBludgeoning damage.\nReactions\nLimited Foresight (Recharge 6). Trigger: A creature the cyclops can see makes\nan attack roll against it.\nResponse: The cyclops imposes Disadvantage on the\nroll, and the cyclops gains Advantage on attack rolls against the target until\nthe end of the cyclops’s next turn.\nHuge Giant, Chaotic Neutral\nInformation\nDocument (SRD)\n© 2017-2026 WIZARDS OF THE COAST LLC | ALL RIGHTS RESERVED\nproduct names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

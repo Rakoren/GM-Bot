@@ -1,0 +1,81 @@
+{
+  "id": "monster.shadow",
+  "name": "SHADOW",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "hit_points": 27,
+  "hit_dice": "5d8 + 5",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +6",
+  "resistances": "Acid, Cold, Fire, Lightning, Thunder",
+  "immunities": "Necrotic, Poison",
+  "vulnerabilities": "Radiant",
+  "condition_immunities": "Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious",
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Amorphous",
+      "text": "The shadow can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Sunlight Weakness",
+      "text": "While in sunlight, the shadow has Disadvantage on D20 Tests."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Draining Swipe",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target's Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Stealth",
+      "text": "While in Dim Light or Darkness, the shadow takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 27 (5d8 + 5)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t14 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t8 \t−1 \t−1\nSkills Stealth +6\nVulnerabilities Radiant\nResistances Acid, Cold, Fire, Lightning, Thunder\nImmunities Necrotic, Poison; Exhaustion, Frightened, Grappled, Paralyzed,\nPetrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\nTraits\nAmorphous. The shadow can move through a space as narrow as 1 inch\nwithout expending extra movement to do so.\nSunlight Weakness. While in sunlight, the shadow has Disadvantage on\nD20 Tests.\nActions\nDraining Swipe. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Necrotic\ndamage, and the target’s Strength score decreases by 1d4. The target dies if\nthis reduces that score to 0. If a Humanoid is slain by this attack, a Shadow\nrises from the corpse 1d4 hours later.\nBonus Actions\nShadow Stealth. While in Dim Light or Darkness, the shadow takes the\nHide action.\nMedium Undead, Chaotic Evil\nfiendish forms, while some shadow demons seek wicked relics or nexuses of profane magic. It typically takes shadow demons centuries to recover their\ndemonic power, if they ever do.\nParticularly powerful demons might return as multiple shadow demons after being defeated. These fiendish entities each think they’re the true\nmanifestation of their past self and hunt one another to recover their power.\nIn rare cases, Fiends other than demons might adopt forms similar to shadow demons.\nShadow Dragons\nDragon Corrupted by Darkness\nHabitat: Planar (Shadowfell), Underdark; Treasure: Any\nThere are three rules to endings. First, good always wins.\nSecond, evil always returns. Third, the first rule isn’t always true.\n—TARSHEVA LONGREACH,\nPLANAR TRAVELER",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

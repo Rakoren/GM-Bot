@@ -1,0 +1,75 @@
+{
+  "id": "monster.thri_kreen_psion",
+  "name": "THRI-KREEN PSION",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 149,
+  "hit_dice": "23d8 + 46",
+  "speed": "40 ft., Fly 20 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Thri-kreen; telepathy 120 ft.",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The thri-kreen makes three Psionic Lance attacks."
+    },
+    {
+      "name": "Psionic Lance",
+      "text": "Melee or Ranged Attack Roll: +7, reach 10 ft. or range 120 ft. Hit: 18 (4d6 + 4) Psychic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The thri-kreen casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15): At Will: Mage Hand (the hand is Invisible) 1/Day Each: Detect Thoughts, Sending, Synaptic Static There are two answers to every question: ours, and the wrong one. -Harmonium rule"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +6 (16)\nHP 149 (23d8 + 46)\nSpeed 40 ft., Fly 20 ft. (hover)\nMOD \tSAVE\nSTR \t18 \t+4 \t+7\nDEX \t15 \t+2 \t+5\nCON \t14 \t+2 \t+5\nMOD \tSAVE\nINT \t19 \t+4 \t+7\nWIS \t12 \t+1 \t+1\nCHA \t11 \t+0 \t+0\nSkills Perception +4, Stealth +8\nResistances Psychic\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Thri-kreen; telepathy 120 ft.\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The thri-kreen makes three Psionic Lance attacks.\nPsionic Lance. Melee or Ranged Attack Roll: +7, reach 10 ft. or range 120 ft.\nHit: 18 (4d6 + 4) Psychic damage.\nSpellcasting. The thri-kreen casts one of the following spells, requiring no\nspell components and using Intelligence as the spellcasting ability (spell save\nDC 15):\nAt Will:\nMage Hand (the hand is Invisible)\n1/Day Each:\nDetect Thoughts,\nSending,\nSynaptic Static\nMedium Monstrosity, Neutral\nThere are two answers to every question: ours, and the wrong\none.\n—Harmonium rule\nTough Boss\nTough bosses leverage their street smarts, brawling prowess, and reputation to compel others to follow their demands.\nTreant\nWise and Mighty Animate Tree",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (T) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

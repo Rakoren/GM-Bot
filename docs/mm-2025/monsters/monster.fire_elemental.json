@@ -1,0 +1,88 @@
+{
+  "id": "monster.fire_elemental",
+  "name": "FIRE ELEMENTAL",
+  "status": "complete",
+  "size_type_alignment": "Large Elemental, Neutral",
+  "size": "Large",
+  "creature_type": "Elemental",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 93,
+  "hit_dice": "11d10 + 33",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": "Bludgeoning, Piercing, Slashing",
+  "immunities": "Fire, Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious",
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Primordial (Ignan)",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Fire Aura",
+      "text": "At the end of each of the elemental's turns, each creature in a 10-foot Emanation originating from the elemental takes 5 (1d10) Fire damage. Creatures and flammable objects in the Emanation start burning."
+    },
+    {
+      "name": "Fire Form",
+      "text": "The elemental can move through a space as narrow as 1 inch without expending extra movement to do so, and it can enter a creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) Fire damage."
+    },
+    {
+      "name": "Illumination",
+      "text": "The elemental sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet."
+    },
+    {
+      "name": "Water Susceptibility",
+      "text": "The elemental takes 3 (1d6) Cold damage for every 5 feet the elemental moves in water or for every gallon of water splashed on it."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The elemental makes two Burn attacks."
+    },
+    {
+      "name": "Burn",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Fire damage. If the target is a creature or a flammable object, it starts burning."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 93 (11d10 + 33)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t17 \t+3 \t+3\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t7 \t−2 \t−2\nResistances Bludgeoning, Piercing, Slashing\nImmunities Fire, Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned,\nProne, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 5 (XP 1,800; PB +3)\nTraits\nFire Aura. At the end of each of the elemental’s turns, each creature in a 10-\nfoot Emanation originating from the elemental takes 5 (1d10) Fire damage.\nCreatures and flammable objects in the Emanation start burning.\nFire Form. The elemental can move through a space as narrow as 1 inch\nwithout expending extra movement to do so, and it can enter a creature’s space\nand stop there. The first time it enters a creature’s space on a turn, that\ncreature takes 5 (1d10) Fire damage.\nIllumination. The elemental sheds Bright Light in a 30-foot radius and Dim\nLight for an additional 30 feet.\nWater Susceptibility. The elemental takes 3 (1d6) Cold damage for every 5 feet\nthe elemental moves in water or for every gallon of water splashed on it.\nActions\nMultiattack. The elemental makes two Burn attacks.\nBurn. Melee Attack Roll: +6, reach 5 ft.\nHit: 10 (2d6 + 3) Fire damage. If the\ntarget is a creature or a flammable object, it starts burning.\nLarge Elemental, Neutral\nMost fire giants dwell in volcanically active mountains or cavernous depths that house their fortress-forges. Evil fire giants tend to be martially minded, and\nthey craft mighty arms to conquer their neighbors and seize valuable resources. More temperate fire giants trade their works for what they need, and they\nmight share the ancient techniques of Giant artisans with other craftspeople. In either case, fire giants are prone to undertaking ambitious designs, and they\nrarely appreciate interruptions in their titanic workshops.\nFlameskull\nSkull Smoldering with Magical Obsession\nHabitat: Underdark; Treasure: Arcana\nFlameskulls are flying skulls that blaze with magical fire and the half-\nremembered arcana of dead spellcasters. They rise from the remains of dead\nmagic-users who were reanimated by sinister necromancers or whose magical\npursuits drive them beyond death. Flameskulls might serve as guardians for their\ncreators or pursue ambitions left unfulfilled in life. They lash out at foes with\ndestructive spells and bursts of fire, wielding magic without the need for most\ncomponents.\nFlameskulls take various forms, from skulls with humanlike features to ones with\nfearsome or bestial alterations. Their flames vary in color and grow more intense\nwhen they’re angry. Roll on or choose a result from the Flameskull Details table to\ninspire what makes a flameskull distinctive.\nFlameskull Details\n1d6 \tThe Flameskull Features...\n1 \tArcane diagrams etched into it.\n2 \tFlames like dramatic features, horns, or hair.\n3 \tFractured pieces that fly in unison.\n4 \tAn iron plate bolted over its mouth.\n5 \tLethal head trauma.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.monsters.batch_015",
+  "name": "MM 2025 Monsters Batch 15",
+  "entries": [
+    {
+      "id": "monster.archmage",
+      "name": "ARCHMAGE",
+      "file": "docs/mm-2025/monsters/monster.archmage.json"
+    },
+    {
+      "id": "monster.dust_mephit",
+      "name": "DUST MEPHIT",
+      "file": "docs/mm-2025/monsters/monster.dust_mephit.json"
+    },
+    {
+      "id": "monster.mage",
+      "name": "MAGE",
+      "file": "docs/mm-2025/monsters/monster.mage.json"
+    },
+    {
+      "id": "monster.mage_apprentice",
+      "name": "MAGE APPRENTICE",
+      "file": "docs/mm-2025/monsters/monster.mage_apprentice.json"
+    },
+    {
+      "id": "monster.magma_mephit",
+      "name": "MAGMA MEPHIT",
+      "file": "docs/mm-2025/monsters/monster.magma_mephit.json"
+    },
+    {
+      "id": "monster.magmin",
+      "name": "MAGMIN",
+      "file": "docs/mm-2025/monsters/monster.magmin.json"
+    },
+    {
+      "id": "monster.manes",
+      "name": "MANES",
+      "file": "docs/mm-2025/monsters/monster.manes.json"
+    },
+    {
+      "id": "monster.manes_vaporspawn",
+      "name": "MANES VAPORSPAWN",
+      "file": "docs/mm-2025/monsters/monster.manes_vaporspawn.json"
+    },
+    {
+      "id": "monster.manticore",
+      "name": "MANTICORE",
+      "file": "docs/mm-2025/monsters/monster.manticore.json"
+    },
+    {
+      "id": "monster.marid",
+      "name": "MARID",
+      "file": "docs/mm-2025/monsters/monster.marid.json"
+    },
+    {
+      "id": "monster.marilith",
+      "name": "MARILITH",
+      "file": "docs/mm-2025/monsters/monster.marilith.json"
+    },
+    {
+      "id": "monster.medusa",
+      "name": "MEDUSA",
+      "file": "docs/mm-2025/monsters/monster.medusa.json"
+    },
+    {
+      "id": "monster.merfolk_skirmisher",
+      "name": "MERFOLK SKIRMISHER",
+      "file": "docs/mm-2025/monsters/monster.merfolk_skirmisher.json"
+    },
+    {
+      "id": "monster.merfolk_wavebender",
+      "name": "MERFOLK WAVEBENDER",
+      "file": "docs/mm-2025/monsters/monster.merfolk_wavebender.json"
+    },
+    {
+      "id": "monster.merrow",
+      "name": "MERROW",
+      "file": "docs/mm-2025/monsters/monster.merrow.json"
+    },
+    {
+      "id": "monster.mezzoloth",
+      "name": "MEZZOLOTH",
+      "file": "docs/mm-2025/monsters/monster.mezzoloth.json"
+    },
+    {
+      "id": "monster.mimic",
+      "name": "MIMIC",
+      "file": "docs/mm-2025/monsters/monster.mimic.json"
+    },
+    {
+      "id": "monster.mind_flayer",
+      "name": "MIND FLAYER",
+      "file": "docs/mm-2025/monsters/monster.mind_flayer.json"
+    },
+    {
+      "id": "monster.mind_flayer_arcanist",
+      "name": "MIND FLAYER ARCANIST",
+      "file": "docs/mm-2025/monsters/monster.mind_flayer_arcanist.json"
+    },
+    {
+      "id": "monster.minotaur_of_baphomet",
+      "name": "MINOTAUR OF BAPHOMET",
+      "file": "docs/mm-2025/monsters/monster.minotaur_of_baphomet.json"
+    },
+    {
+      "id": "monster.modron_duodrone",
+      "name": "MODRON DUODRONE",
+      "file": "docs/mm-2025/monsters/monster.modron_duodrone.json"
+    },
+    {
+      "id": "monster.modron_monodrone",
+      "name": "MODRON MONODRONE",
+      "file": "docs/mm-2025/monsters/monster.modron_monodrone.json"
+    },
+    {
+      "id": "monster.modron_pentadrone",
+      "name": "MODRON PENTADRONE",
+      "file": "docs/mm-2025/monsters/monster.modron_pentadrone.json"
+    },
+    {
+      "id": "monster.modron_quadrone",
+      "name": "MODRON QUADRONE",
+      "file": "docs/mm-2025/monsters/monster.modron_quadrone.json"
+    },
+    {
+      "id": "monster.modron_tridrone",
+      "name": "MODRON TRIDRONE",
+      "file": "docs/mm-2025/monsters/monster.modron_tridrone.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

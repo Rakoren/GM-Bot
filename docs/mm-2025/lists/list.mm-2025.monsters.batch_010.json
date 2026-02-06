@@ -1,0 +1,76 @@
+{
+  "id": "list.mm-2025.monsters.batch_010",
+  "name": "MM 2025 Monsters Batch 10",
+  "entries": [
+    {
+      "id": "monster.half_dragon",
+      "name": "HALF-DRAGON",
+      "file": "docs/mm-2025/monsters/monster.half_dragon.json"
+    },
+    {
+      "id": "monster.harpy",
+      "name": "HARPY",
+      "file": "docs/mm-2025/monsters/monster.harpy.json"
+    },
+    {
+      "id": "monster.helmed_horror",
+      "name": "HELMED HORROR",
+      "file": "docs/mm-2025/monsters/monster.helmed_horror.json"
+    },
+    {
+      "id": "monster.hezrou",
+      "name": "HEZROU",
+      "file": "docs/mm-2025/monsters/monster.hezrou.json"
+    },
+    {
+      "id": "monster.hill_giant",
+      "name": "HILL GIANT",
+      "file": "docs/mm-2025/monsters/monster.hill_giant.json"
+    },
+    {
+      "id": "monster.hippogriff",
+      "name": "HIPPOGRIFF",
+      "file": "docs/mm-2025/monsters/monster.hippogriff.json"
+    },
+    {
+      "id": "monster.hobgoblin_captain",
+      "name": "HOBGOBLIN CAPTAIN",
+      "file": "docs/mm-2025/monsters/monster.hobgoblin_captain.json"
+    },
+    {
+      "id": "monster.hobgoblin_warlord",
+      "name": "HOBGOBLIN WARLORD",
+      "file": "docs/mm-2025/monsters/monster.hobgoblin_warlord.json"
+    },
+    {
+      "id": "monster.hobgoblin_warrior",
+      "name": "HOBGOBLIN WARRIOR",
+      "file": "docs/mm-2025/monsters/monster.hobgoblin_warrior.json"
+    },
+    {
+      "id": "monster.homunculus",
+      "name": "HOMUNCULUS",
+      "file": "docs/mm-2025/monsters/monster.homunculus.json"
+    },
+    {
+      "id": "monster.hook_horror",
+      "name": "HOOK HORROR",
+      "file": "docs/mm-2025/monsters/monster.hook_horror.json"
+    },
+    {
+      "id": "monster.horned_devil",
+      "name": "HORNED DEVIL",
+      "file": "docs/mm-2025/monsters/monster.horned_devil.json"
+    },
+    {
+      "id": "monster.hydra",
+      "name": "HYDRA",
+      "file": "docs/mm-2025/monsters/monster.hydra.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

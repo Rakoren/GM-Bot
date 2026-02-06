@@ -1,0 +1,85 @@
+{
+  "id": "monster.faerie_dragon_adult",
+  "name": "FAERIE DRAGON ADULT",
+  "status": "complete",
+  "size_type_alignment": "Tiny Dragon, Chaotic Good",
+  "size": "Tiny",
+  "creature_type": "Dragon",
+  "alignment": "Chaotic Good",
+  "armor_class": 15,
+  "hit_points": 35,
+  "hit_dice": "10d4 + 10",
+  "speed": "10 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +4, Perception +3, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Draconic, Sylvan; telepathy 60 ft. (faerie dragons only)",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The dragon has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d4 + 5) Piercing damage plus 3 (1d6) Psychic damage."
+    },
+    {
+      "name": "Euphoria Breath (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: The target has the Incapacitated condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. While Incapacitated, the target uses all its movement on each of its turns to move in a random direction."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13): At Will: Dancing Lights, Mage Hand, Minor Illusion 1/Day Each:"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Superior Invisibility",
+      "text": "The dragon casts Greater Invisibility on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +5 (15)\nHP 35 (10d4 + 10)\nSpeed 10 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t3 \t−4 \t−4\nDEX \t20 \t+5 \t+5\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t12 \t+1 \t+1\nCHA \t16 \t+3 \t+3\nSkills Arcana +4, Perception +3, Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Draconic, Sylvan; telepathy 60 ft. (faerie dragons only)\nCR 2 (XP 450; PB +2)\nTraits\nMagic Resistance. The dragon has Advantage on saving throws against spells\nand other magical effects.\nActions\nBite. Melee Attack Roll: +7, reach 5 ft.\nHit: 7 (1d4 + 5) Piercing damage plus 3\n(1d6) Psychic damage.\nEuphoria Breath (Recharge 5–6). Wisdom Saving Throw: DC 13, each creature\nin a 15-foot Cone.\nFailure: The target has the Incapacitated condition and\nrepeats the save at the end of each of its turns, ending the effect on itself on\na success. After 1 minute, it succeeds automatically. While Incapacitated,\nthe target uses all its movement on each of its turns to move in a\nrandom direction.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 13):\nAt Will:\nDancing Lights,\nMage Hand,\nMinor Illusion\n1/Day Each:\nHallucinatory Terrain,\nPolymorph\nBonus Actions\nSuperior Invisibility. The dragon casts\nGreater Invisibility on itself, requiring no\nspell components and using the same spellcasting ability as Spellcasting.\nTiny Dragon, Chaotic Good",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

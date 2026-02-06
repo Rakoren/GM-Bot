@@ -1,0 +1,116 @@
+{
+  "id": "list.mm-2025.monsters.batch_003",
+  "name": "MM 2025 Monsters Batch 3",
+  "entries": [
+    {
+      "id": "monster.blob_of_annihilation",
+      "name": "BLOB OF ANNIHILATION",
+      "file": "docs/mm-2025/monsters/monster.blob_of_annihilation.json"
+    },
+    {
+      "id": "monster.blue_dragon_wyrmling",
+      "name": "BLUE DRAGON WYRMLING",
+      "file": "docs/mm-2025/monsters/monster.blue_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.bone_devil",
+      "name": "BONE DEVIL",
+      "file": "docs/mm-2025/monsters/monster.bone_devil.json"
+    },
+    {
+      "id": "monster.bone_naga",
+      "name": "BONE NAGA",
+      "file": "docs/mm-2025/monsters/monster.bone_naga.json"
+    },
+    {
+      "id": "monster.brass_dragon_wyrmling",
+      "name": "BRASS DRAGON WYRMLING",
+      "file": "docs/mm-2025/monsters/monster.brass_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.bronze_dragon_wyrmling",
+      "name": "BRONZE DRAGON WYRMLING",
+      "file": "docs/mm-2025/monsters/monster.bronze_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.bugbear_stalker",
+      "name": "BUGBEAR STALKER",
+      "file": "docs/mm-2025/monsters/monster.bugbear_stalker.json"
+    },
+    {
+      "id": "monster.bugbear_warrior",
+      "name": "BUGBEAR WARRIOR",
+      "file": "docs/mm-2025/monsters/monster.bugbear_warrior.json"
+    },
+    {
+      "id": "monster.bulette",
+      "name": "BULETTE",
+      "file": "docs/mm-2025/monsters/monster.bulette.json"
+    },
+    {
+      "id": "monster.bulette_pup",
+      "name": "BULETTE PUP",
+      "file": "docs/mm-2025/monsters/monster.bulette_pup.json"
+    },
+    {
+      "id": "monster.bullywug_bog_sage",
+      "name": "BULLYWUG BOG SAGE",
+      "file": "docs/mm-2025/monsters/monster.bullywug_bog_sage.json"
+    },
+    {
+      "id": "monster.bullywug_warrior",
+      "name": "BULLYWUG WARRIOR",
+      "file": "docs/mm-2025/monsters/monster.bullywug_warrior.json"
+    },
+    {
+      "id": "monster.gulthias_blight",
+      "name": "GULTHIAS BLIGHT",
+      "file": "docs/mm-2025/monsters/monster.gulthias_blight.json"
+    },
+    {
+      "id": "monster.needle_blight",
+      "name": "NEEDLE BLIGHT",
+      "file": "docs/mm-2025/monsters/monster.needle_blight.json"
+    },
+    {
+      "id": "monster.tree_blight",
+      "name": "TREE BLIGHT",
+      "file": "docs/mm-2025/monsters/monster.tree_blight.json"
+    },
+    {
+      "id": "monster.twig_blight",
+      "name": "TWIG BLIGHT",
+      "file": "docs/mm-2025/monsters/monster.twig_blight.json"
+    },
+    {
+      "id": "monster.vine_blight",
+      "name": "VINE BLIGHT",
+      "file": "docs/mm-2025/monsters/monster.vine_blight.json"
+    },
+    {
+      "id": "monster.young_black_dragon",
+      "name": "YOUNG BLACK DRAGON",
+      "file": "docs/mm-2025/monsters/monster.young_black_dragon.json"
+    },
+    {
+      "id": "monster.young_blue_dragon",
+      "name": "YOUNG BLUE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.young_blue_dragon.json"
+    },
+    {
+      "id": "monster.young_brass_dragon",
+      "name": "YOUNG BRASS DRAGON",
+      "file": "docs/mm-2025/monsters/monster.young_brass_dragon.json"
+    },
+    {
+      "id": "monster.young_bronze_dragon",
+      "name": "YOUNG BRONZE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.young_bronze_dragon.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

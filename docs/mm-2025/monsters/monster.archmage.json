@@ -1,0 +1,90 @@
+{
+  "id": "monster.archmage",
+  "name": "ARCHMAGE",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid (Wizard), Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid (Wizard)",
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "hit_points": 170,
+  "hit_dice": "31d8 + 31",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +13, History +9, Perception +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 16",
+  "languages": "Common plus five other languages",
+  "cr": "12 (XP 8,000; PB +4)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The archmage has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The archmage makes four Arcane Burst attacks."
+    },
+    {
+      "name": "Arcane Burst",
+      "text": "Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The archmage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 17): At Will: Detect Magic, Detect Thoughts, Disguise Self, Invisibility, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation 2/Day Each: Fly, Lightning Bolt (level 7 version) 1/Day Each: Cone of Cold (level 9 version), Mind Blank (cast before combat), Scrying, Teleport"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Misty Step (3/Day)",
+      "text": "The mage casts Misty Step, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Protective Magic (3/Day)",
+      "text": "The archmage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +7 (17)\nHP 170 (31d8 + 31)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t20 \t+5 \t+9\nWIS \t15 \t+2 \t+6\nCHA \t16 \t+3 \t+3\nSkills Arcana +13, History +9, Perception +6\nImmunities Psychic; Charmed (with\nMind Blank)\nGear Wand\nSenses Passive Perception 16\nLanguages Common plus five other languages\nCR 12 (XP 8,000; PB +4)\nTraits\nMagic Resistance. The archmage has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The archmage makes four Arcane Burst attacks.\nArcane Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft.\nHit:\n27 (4d10 + 5) Force damage.\nSpellcasting. The archmage casts one of the following spells, using\nIntelligence as the spellcasting ability (spell save DC 17):\nAt Will:\nDetect Magic,\nDetect Thoughts,\nDisguise Self,\nInvisibility,\nLight,\nMage\nArmor (included in AC),\nMage Hand,\nPrestidigitation\n2/Day Each:\nFly,\nLightning Bolt (level 7 version)\n1/Day Each:\nCone of Cold (level 9 version),\nMind Blank (cast before combat),\nScrying,\nTeleport\nBonus Actions\nMisty Step (3/Day). The mage casts\nMisty Step, using the same spellcasting\nability as Spellcasting.\nReactions\nProtective Magic (3/Day). The archmage casts\nCounterspell or\nShield\nin response to the spell’s trigger, using the same spellcasting ability\nas Spellcasting.\nMedium or Small Humanoid (Wizard), Neutral\nMagmins divide all things into two categories: things that are on fire and things that should be on fire. With bodies of flame and magmatic rock, these\nhalfling-size creatures delight in setting fires. They do so not out of malice but out of enthusiasm for primal fire. They don’t consider that objects have value\nbeyond kindling or that creatures can be harmed by flames. If such concepts are explained to them, they find the ideas difficult to grasp and don’t remember\nthem for long. Rather, they relish every opportunity to set flammable things alight, delighting in igniting paper, wooden structures, and explosives. Magmins\nare dangerous even in death, since they explode when they’re destroyed, their flames igniting combustible materials nearby.\nMagmins might be conjured by magic-users to harry foes or might escape the Elemental Plane of Fire through portals or rifts that lead to other realms.\nThey’re attracted to places of intense heat, such as volcanoes and rivers of magma. If they can’t find such favored conditions, magmins eagerly burn\nstructures or start wildfires to entertain themselves.\nManes\nDemons of Panic and Frenzy\nHabitat: Planar (Abyss); Treasure: None",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

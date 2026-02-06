@@ -1,0 +1,72 @@
+{
+  "id": "monster.ancient_copper_dragon",
+  "name": "ANCIENT COPPER DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Metallic), Chaotic Good",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "armor_class": 21,
+  "hit_points": 367,
+  "hit_dice": "21d20 + 147",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 22,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +13, Perception +17, Stealth +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27",
+  "languages": "Common, Draconic",
+  "cr": "21 (XP 33,000, or 41,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast Mind Spike (level 5 version)."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 21 \tInitiative +15 (25)\nHP 367 (21d20 + 147)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t12 \t+1 \t+8\nCON \t25 \t+7 \t+7\nMOD \tSAVE\nINT \t20 \t+5 \t+5\nWIS \t17 \t+3 \t+10\nCHA \t22 \t+6 \t+6\nSkills Deception +13, Perception +17, Stealth +8\nImmunities Acid\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27\nLanguages Common, Draconic\nCR 21 (XP 33,000, or 41,000 in lair; PB +7)\nTraits\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Slowing Breath or (B) Spellcasting to cast\nMind Spike (level\n5 version).\nGargantuan Dragon (Metallic), Chaotic Good\nCouatl\nGuardian Manifestation of the Divine\nHabitat: Desert, Forest, Grassland, Urban; Treasure: Relics\nEmbodiments of prophecy and protectors of divine secrets, couatls ensure fate unfolds as it should. They resemble serpents with rainbow wings, and each\nis a manifestation of a divine edict, a truth or fate that a righteous god decrees must hold true for all time. Most couatls appear in places of ancient power,\nwhere they guard hidden magic or ensure foretold acts do or don’t come to pass. Rarely, couatls watch over communities or travel lands in disguise,\ninterpreting omens or manipulating factors to set fate on its proper course.\nMotivated by eternal mandates, couatls sometimes behave in inscrutable or antagonistic ways. They are inflexible and uncompromising, as their\nexistences are fundamentally tied to their divine directives, but they harm other creatures only when absolutely necessary to achieve divine goals.\nEach couatl goes through a period of renewal at the end of an age. In a couatl’s life cycle, an age might correspond to a celestial calendar or some divine\nchronology. Near the age’s end, the couatl lays a wondrous, rainbow-hued egg. When the age ends, the couatl dies. For a period—perhaps a single day,\nRend. Melee Attack Roll: +15, reach 15 ft.\nHit: 19 (2d10 + 8) Slashing damage\nplus 9 (2d8) Acid damage.\nAcid Breath (Recharge 5–6).\nDexterity Saving Throw: DC 22, each creature in\nan 90-foot-long, 10-foot-wide Line.\nFailure: 63 (14d8) Acid damage.\nSuccess:\nHalf damage.\nSlowing Breath. Constitution Saving Throw: DC 22, each creature in a 90-foot\nCone.\nFailure: The target can’t take Reactions; its Speed is halved; and it can\ntake either an action or a Bonus Action on its turn, not both. This effect lasts\nuntil the end of its next turn.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 21):\nAt Will:\nDetect Magic,\nMind Spike (level 5 version),\nMinor Illusion,\nShapechange\n(Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\nand no Concentration or Temporary Hit Points required to maintain the spell)\n1/Day Each:\nGreater Restoration,\nMajor Image,\nProject Image\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nGiggling Magic. Charisma Saving Throw: DC 21, one creature the dragon can\nsee within 120 feet.\nFailure: 31 (9d6) Psychic damage. Until the end of its next\nturn, the target rolls 1d8 whenever it makes an ability check or attack roll and\nsubtracts the number rolled from the D20 Test.\nFailure or Success: The dragon\ncan’t take this action again until the start of its next turn.\nMind Jolt. The dragon uses Spellcasting to cast\nMind Spike (level 5 version).\nThe dragon can’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nperhaps until an annual solar event—the couatl’s work is unattended. Once this time passes, the same couatl that laid the egg hatches from it, fully grown\nand renewed to serve for another age.\nCrawling Claws\nSevered Appendages with Malicious Will\nHabitat: Any; Treasure: None\nCrawling claws are severed hands that move and act of their own murderous\naccord. These deathless appendages can spring to life from the severed limbs of\nkillers and villains, and sinister magic-users might animate crawling claws as\nfoul servants. Crawling claws appear in a variety of forms, from decaying human\nhands to the fresh appendages of animals or monsters.\nCrawling Claw\nLone crawling claws can continue killing sprees they perpetrated in life. Some\nrecklessly attack the living, while others pursue specific victims. In rare cases, a\ncrawling claw wreaks mayhem while the rest of its body still lives, with the\noriginal creature potentially unaware of its severed hand’s crimes.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

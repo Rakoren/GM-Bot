@@ -1,0 +1,80 @@
+{
+  "id": "monster.peryton",
+  "name": "PERYTON",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "hit_points": 33,
+  "hit_dice": "6d8 + 6",
+  "speed": "20 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Understands Common and Elvish but can’t speak",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The peryton doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The peryton makes one Gore attack and one Talons attack."
+    },
+    {
+      "name": "Gore",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage. If the peryton moved 30+ feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8) Piercing damage."
+    },
+    {
+      "name": "Talons",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage. If the attack reduces a Humanoid target to 0 Hit Points, the peryton kills the target by removing its heart."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 33 (6d8 + 6)\nSpeed 20 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t9 \t−1 \t−1\nWIS \t12 \t+1 \t+1\nCHA \t10 \t+0 \t+0\nSkills Perception +5, Stealth +3\nSenses Passive Perception 15\nLanguages Understands Common and Elvish but can’t speak\nMedium Monstrosity, Chaotic Evil\nPhase Spider\nPlane-Shifting Arachnid Ambusher\nHabitat: Desert, Forest, Grassland, Hill, Planar (Ethereal Plane), Underdark,\nUrban; Treasure: Any\nPhase spiders appear out of nowhere to attack, then vanish just as swiftly. These\nhorse-size, magical arachnids are endemic to the Ethereal Plane. From vaporous\nlairs, they peer through the Border Ethereal into the Material Plane. When they\ndetect prey, phase spiders draw close and then shift or “phase” to the Material\nPlane to attack. They shift between planes of existence and attack from\nunexpected directions until they overcome their prey or are forced to retreat.\nPhase spiders are more intelligent than mundane spiders, but most are cowards.\nThey usually flee if they’re outnumbered by creatures capable of seeing them on\nthe Ethereal Plane or pursuing them there. They make exceptions for ghosts and\nsimilar spirits, which phase spiders gain sustenance from and pursue as favored\nprey.\nCR 2 (XP 450; PB +2)\nTraits\nFlyby. The peryton doesn’t provoke an Opportunity Attack when it flies out of\nan enemy’s reach.\nActions\nMultiattack. The peryton makes one Gore attack and one Talons attack.\nGore. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Piercing damage. If the\nperyton moved 30+ feet straight toward the target immediately before the hit,\nthe target takes an extra 9 (2d8) Piercing damage.\nTalons. Melee Attack Roll: +5, reach 5 ft.\nHit: 8 (2d4 + 3) Piercing damage. If\nthe attack reduces a Humanoid target to 0 Hit Points, the peryton kills the\ntarget by removing its heart.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

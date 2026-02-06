@@ -1,0 +1,76 @@
+{
+  "id": "animal.spider",
+  "name": "SPIDER",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 1,
+  "hit_dice": "1d4 − 1",
+  "speed": "20 ft., Climb 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 2,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 1 (1d4 − 1)\nSpeed 20 ft., Climb 20 ft.\nMOD \tSAVE\nSTR \t2 \t−4 \t−4\nDEX \t14 \t+2 \t+2\nCON \t8 \t−1 \t−1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t10 \t+0 \t+0\nCHA \t2 \t−4 \t−4\nSkills Stealth +4\nSenses Darkvision 30 ft.; Passive Perception 10\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nSpider Climb. The spider can climb difficult surfaces, including along ceilings,\nwithout needing to make an ability check.\nWeb Walker. The spider ignores movement restrictions caused by webs,\nand the spider knows the location of any other creature in contact with the\nsame web.\nActions\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 1 Piercing damage plus 2 (1d4)\nPoison damage.\nTiny Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

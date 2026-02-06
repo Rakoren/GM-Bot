@@ -1,0 +1,76 @@
+{
+  "id": "monster.modron_duodrone",
+  "name": "MODRON DUODRONE",
+  "status": "complete",
+  "size_type_alignment": "Medium Construct, Lawful Neutral",
+  "size": "Medium",
+  "creature_type": "Construct",
+  "alignment": "Lawful Neutral",
+  "armor_class": 15,
+  "hit_points": 11,
+  "hit_dice": "2d8 + 2",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 120 ft.; Passive Perception 10",
+  "languages": "Modron",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Disintegration",
+      "text": "If the modron dies, it disintegrates into dust, leaving behind anything it was wearing or carrying."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The modron makes two Clockwork Blade attacks."
+    },
+    {
+      "name": "Clockwork Blade",
+      "text": "Melee or Ranged Attack Roll: +3, reach 5 ft. or range 30 ft. Hit: 4 (1d6 + 1) Force damage. Hit or Miss: The blade magically returns to the modron's hand immediately after a ranged attack."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +1 (11)\tMedium Construct, Lawful Neutral\nModron Tridrone\nTridrones oversee lesser modrons and lead them in battle. They’re suspicious of any data provided by non-modrons.\nModron Quadrone\nQuadrones are among the most relatable modrons—and those most likely to go rogue.\nHP 11 (2d8 + 2)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t13 \t+1 \t+1\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t7 \t−2 \t−2\nImmunities Charmed\nSenses Truesight 120 ft.; Passive Perception 10\nLanguages Modron\nCR 1/4 (XP 50; PB +2)\nTraits\nDisintegration. If the modron dies, it disintegrates into dust, leaving behind\nanything it was wearing or carrying.\nActions\nMultiattack. The modron makes two Clockwork Blade attacks.\nClockwork Blade. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 30 ft.\nHit: 4 (1d6 + 1) Force damage.\nHit or Miss: The blade magically returns to the\nmodron’s hand immediately after a ranged attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

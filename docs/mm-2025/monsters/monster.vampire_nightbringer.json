@@ -1,0 +1,85 @@
+{
+  "id": "monster.vampire_nightbringer",
+  "name": "VAMPIRE NIGHTBRINGER",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Undead, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "hit_points": 142,
+  "hit_dice": "19d8 + 57",
+  "speed": "30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +7",
+  "resistances": null,
+  "immunities": "Cold, Necrotic",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion, Frightened",
+  "senses": "Darkvision 120 ft.; Passive Perception 15",
+  "languages": "Common plus one other language",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [
+    {
+      "name": "Sunlight Hypersensitivity",
+      "text": "The vampire takes 10 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The vampire makes one Bite attack and one Shadow Strike attack."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing damage plus 10 (3d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount."
+    },
+    {
+      "name": "Shadow Strike",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage plus 14 (4d6) Cold damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Stealth",
+      "text": "While in Dim Light or Darkness, the vampire takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +4 (14)\nHP 142 (19d8 + 57)\nSpeed 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t18 \t+4 \t+7\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t14 \t+2 \t+5\nCHA \t15 \t+2 \t+2\nSkills Perception +5, Stealth +7\nImmunities Cold, Necrotic; Charmed, Exhaustion, Frightened\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages Common plus one other language\nCR 8 (XP 3,900; PB +3)\nTraits\nSunlight Hypersensitivity. The vampire takes 10 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.\nActions\nMultiattack. The vampire makes one Bite attack and one Shadow Strike attack.\nBite. Melee Attack Roll: +7, reach 5 ft.\nHit: 7 (1d6 + 4) Piercing damage plus 10 (3d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.\nShadow Strike. Melee Attack Roll: +7, reach 5 ft.\nHit: 7 (1d6 + 4) Slashing damage plus 14 (4d6) Cold damage.\nBonus Actions\nShadow Stealth. While in Dim Light or Darkness, the vampire takes the Hide action.\nMedium or Small Undead, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (V) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,103 @@
+{
+  "id": "monster.ancient_blue_dragon",
+  "name": "ANCIENT BLUE DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Chromatic), Lawful Evil",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "armor_class": 22,
+  "hit_points": 481,
+  "hit_dice": "26d20 + 208",
+  "speed": "40 ft., Burrow 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 29,
+      "mod": "+9"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "INT": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 25,
+      "mod": "+7"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +17, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27",
+  "languages": "Common, Draconic",
+  "cr": "23 (XP 50,000, or 62,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter (level 3 version)."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage. Bone Devil"
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 88 (16d10) Lightning damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22): At Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version) 1/Day Each: Scrying,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Cloaked Flight",
+      "text": "The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Sonic Boom",
+      "text": "The dragon uses Spellcasting to cast Shatter (level 3 version)."
+    },
+    {
+      "name": "The dragon can't take this action again until the start of its next turn",
+      "text": ""
+    },
+    {
+      "name": "Tail Swipe",
+      "text": "The dragon makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 22 \tInitiative +14 (24)\nHP 481 (26d20 + 208)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t29 \t+9 \t+9\nDEX \t10 \t+0 \t+7\nCON \t27 \t+8 \t+8\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t17 \t+3 \t+10\nCHA \t25 \t+7 \t+7\nSkills Perception +17, Stealth +7\nImmunities Lightning\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27\nLanguages Common, Draconic\nCR 23 (XP 50,000, or 62,000 in lair; PB +7)\nTraits\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of Spellcasting to cast\nShatter (level 3 version).\nRend. Melee Attack Roll: +16, reach 15 ft.\nHit: 18 (2d8 + 9) Slashing damage\nplus 11 (2d10) Lightning damage.\nGargantuan Dragon (Chromatic), Lawful Evil\nBone Devil\nDevil of Dread and Obedience\nHabitat: Planar (Nine Hells); Treasure: Implements\nBone devils are gaunt, nightmarish Fiends with pallid skin stretched tight over frames that combine human and insectile features. Also known as osyluths,\nthese Fiends command weaker devils and other beings aligned with infernal legions. Bone devils ensure that the commands of hellish sovereigns are\nexacted efficiently and that non-devils fulfill their commitments to the Nine Hells. They slay those who renege on infernal deals, sending treacherous mortal\nsouls to face unspeakable punishments.\nWhen not serving their diabolical masters, bone devils tempt self-obsessed mortals with promises of other creatures’ adulation and obedience. These devils\nprop up petty tyrants, helping them grow increasingly calloused and amoral.\nBone devils travel across the multiverse to fulfill diabolical orders. If left with no\nother choices, they might conscript mortals to aid them in their vicious goals. Roll\non or choose a result from the Bone Devil Objectives table to inspire a bone\ndevil’s goals.\nBone Devil Objectives\n1d4 \tThe Bone Devil Seeks To...\n1 \tCapture a soul that escaped the Nine Hells.\n2 Convey a message or make an example of someone in the name of an\narchdevil.\n3 \tFind someone who broke a deal with a devil.\n4 Slay someone or steal something as part of its pact with a wicked\nmagic-user.\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature\nin a 120-foot-long, 10-foot-wide Line.\nFailure: 88 (16d10) Lightning damage.\nSuccess: Half damage.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 22):\nAt Will:\nDetect Magic,\nInvisibility,\nMage Hand,\nShatter (level 3 version)\n1/Day Each:\nScrying,\nSending\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nCloaked Flight. The dragon uses Spellcasting to cast\nInvisibility on itself, and\nit can fly up to half its Fly Speed. The dragon can’t take this action again until\nthe start of its next turn.\nSonic Boom. The dragon uses Spellcasting to cast\nShatter (level 3 version).\nThe dragon can’t take this action again until the start of its next turn.\nTail Swipe. The dragon makes one Rend attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

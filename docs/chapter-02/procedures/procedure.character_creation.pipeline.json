@@ -1,0 +1,21 @@
+{
+  "id": "procedure.character_creation.pipeline",
+  "name": "Character Creation Pipeline",
+  "chapter": 2,
+  "status": "complete",
+  "steps": [
+    "Choose a class.",
+    "Choose a background.",
+    "Choose a species.",
+    "Determine ability scores (standard array, point buy, or rolling with DM approval).",
+    "Choose alignment (descriptive, not restrictive).",
+    "Fill in numbers (HP, proficiency bonus, AC, attacks, saving throws, passive perception).",
+    "Describe the character (appearance, personality, ideals, bonds, flaws, backstory)."
+  ],
+  "sourceRef": {
+    "file": "docs/sources/phb2024/03-chapter 2/03-Creating a Character - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [1],
+    "section": "Character Creation Pipeline"
+  },
+  "notes": []
+}

@@ -1,0 +1,84 @@
+{
+  "id": "monster.gibbering_mouther",
+  "name": "GIBBERING MOUTHER",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration, Chaotic Neutral",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 9,
+  "hit_points": 52,
+  "hit_dice": "7d8 + 21",
+  "speed": "20 ft., Swim 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Aberrant Ground",
+      "text": "The ground in a 10-foot Emanation originating from the mouther is Difficult Terrain."
+    },
+    {
+      "name": "Gibbering",
+      "text": "The mouther babbles incoherently while it doesn't have the"
+    },
+    {
+      "name": "Incapacitated condition",
+      "text": "Wisdom Saving Throw: DC 10, any creature that starts its turn within 20 feet of the mouther while it is babbling. Failure: The target rolls 1d8 to determine what it does during the current turn: 1-4. The target does nothing. 5-6. The target takes no action or Bonus Action and uses all its movement to move in a random direction. 7-8. The target makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 7 (2d6) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition. The target dies if it is reduced to 0 Hit Points by this attack. Its body is then absorbed into the mouther, leaving only equipment behind."
+    },
+    {
+      "name": "Blinding Spittle (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 10, each creature in a 10-foot-radius Sphere centered on a point within 30 feet. Failure: 7 (2d6) Radiant damage, and the target has the Blinded condition until the end of the mouther's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 9 \tInitiative −1 (9)\nHP 52 (7d8 + 21)\nSpeed 20 ft., Swim 20 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t8 \t−1 \t−1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t6 \t−2 \t−2\nImmunities Prone\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nAberrant Ground. The ground in a 10-foot Emanation originating from the\nmouther is Difficult Terrain.\nGibbering. The mouther babbles incoherently while it doesn’t have the\nIncapacitated condition.\nWisdom Saving Throw: DC 10, any creature that starts\nits turn within 20 feet of the mouther while it is babbling.\nFailure: The target\nrolls 1d8 to determine what it does during the current turn:\n1–4. The target does nothing.\n5–6. The target takes no action or Bonus Action and uses all its movement to\nmove in a random direction.\n7–8. The target makes a melee attack against a randomly determined creature\nwithin its reach or does nothing if it can’t make such an attack.\nActions\nBite. Melee Attack Roll: +2, reach 5 ft.\nHit: 7 (2d6) Piercing damage. If the\ntarget is a Medium or smaller creature, it has the Prone condition. The target\ndies if it is reduced to 0 Hit Points by this attack. Its body is then absorbed\ninto the mouther, leaving only equipment behind.\nBlinding Spittle (Recharge 5–6). Dexterity Saving Throw: DC 10, each creature\nin a 10-foot-radius Sphere centered on a point within 30 feet.\nFailure: 7 (2d6)\nRadiant damage, and the target has the Blinded condition until the end of the\nmouther’s next turn.\nMedium Aberration, Chaotic Neutral\nGithyanki were once an ordinary people, but the deeds of a vile mind flayer empire etched conflict on their being. Gaunt, humanlike creatures, githyanki have\nserrated ears and speckled skin ranging through shades of yellow, green, and brown. While some githyanki follow their own paths, many are influenced by a\npast that forever altered their fates.\nHistory of the Gith\nAges ago, a humanlike people were conquered by an empire of mind flayers. The illithids manipulated this forgotten people through untold horrors, forced\nevolution, and psychic reshaping. Eventually one named Gith rose from among the captives and led a rebellion against their oppressors. Gith’s followers,\nwho became known as the gith, defeated the mind flayers and shattered their vast empire.\nThe victory of the gith was short-lived. As Gith was forging her own burgeoning empire, a leader named Zerthimon challenged her. Zerthimon claimed Gith’s\ndrive for vengeance and new conquests was evidence of species-wide mental programing laid by the mind flayers, biological manipulation that condemned\nher people to continued servitude. This claim split the gith into Gith’s followers, the githyanki (meaning “followers of Gith”), and Zerthimon’s followers, the\ngithzerai (meaning “those who spurn Gith”), and sparked an ongoing conflict.\nWhen Gith perished, her adviser, Vlaakith, assumed rule of the githyanki. Vlaakith’s line has continued to the githyanki’s current ruler, Vlaakith the Lich-\nQueen. This undead tyrant compels her people to wage endless wars against mind flayers, githzerai, and any others that threaten githyanki supremacy.\nGithyanki Warrior\nGithyanki warriors use psionic abilities to augment their battle prowess.\nLEFT TO RIGHT: GITHYANKI DRACOMANCER, GITHYANKI KNIGHT, AND GITHYANKI WARRIOR\nTo slay in Vlaakith’s name is our greatest service. To die\nin her name is our last act of reverence.\n—MELDAVH, GITHYANKI KNIGHT",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

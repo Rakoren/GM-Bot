@@ -1,0 +1,53 @@
+{
+  "schema_version": "0.1.0",
+  "chapter": 2,
+  "title": "Creating a Character",
+  "generated_at": "2026-02-06",
+  "paths": {
+    "tables_dir": "chapter-02/tables",
+    "lists_dir": "chapter-02/lists",
+    "procedures_dir": "chapter-02/procedures"
+  },
+  "shards": [
+    {
+      "id": "table.ability_score.standard_array",
+      "type": "table",
+      "path": "chapter-02/tables/table.ability_score.standard_array.json"
+    },
+    {
+      "id": "table.ability_score.standard_array_by_class",
+      "type": "table",
+      "path": "chapter-02/tables/table.ability_score.standard_array_by_class.json"
+    },
+    {
+      "id": "table.ability_score.point_buy",
+      "type": "table",
+      "path": "chapter-02/tables/table.ability_score.point_buy.json"
+    },
+    {
+      "id": "table.ability_modifiers",
+      "type": "table",
+      "path": "chapter-02/tables/table.ability_modifiers.json"
+    },
+    {
+      "id": "table.xp_by_level",
+      "type": "table",
+      "path": "chapter-02/tables/table.xp_by_level.json"
+    },
+    {
+      "id": "list.character_creation.steps",
+      "type": "list",
+      "path": "chapter-02/lists/list.character_creation.steps.json"
+    },
+    {
+      "id": "list.ability_score.methods",
+      "type": "list",
+      "path": "chapter-02/lists/list.ability_score.methods.json"
+    },
+    {
+      "id": "procedure.character_creation.pipeline",
+      "type": "procedure",
+      "path": "chapter-02/procedures/procedure.character_creation.pipeline.json"
+    }
+  ]
+}

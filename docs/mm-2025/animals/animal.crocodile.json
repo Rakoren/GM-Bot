@@ -1,0 +1,80 @@
+{
+  "id": "animal.crocodile",
+  "name": "CROCODILE",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 13,
+  "hit_dice": "2d10 + 2",
+  "speed": "20 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The crocodile can hold its breath for 1 hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape"
+    },
+    {
+      "name": "DC 12)",
+      "text": "While Grappled, the target has the Restrained condition."
+    },
+    {
+      "name": "Our gods' proscriptions are clear",
+      "text": "I won't order my warriors to fetch the head of the crocodile Thousand Teeth-no matter how many it devours. You adventurers, on the other hand ... -QUEEN OTHOKENT,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +0 (10)\nHP 13 (2d10 + 2)\nSpeed 20 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t10 \t+0 \t+0\nCON \t13 \t+1 \t+3\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

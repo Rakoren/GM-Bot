@@ -1,0 +1,80 @@
+{
+  "id": "monster.troglodyte",
+  "name": "TROGLODYTE",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 11,
+  "hit_points": 13,
+  "hit_dice": "2d8 + 4",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Troglodyte",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "Constitution Saving Throw: DC 12, any creature (other than a troglodyte) that starts its turn in a 5-foot Emanation originating from the troglodyte. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to the Stench of all troglodytes for 1 hour."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the troglodyte has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
+    },
+    {
+      "name": "Smells fine to me",
+      "text": "-Caarey Gelthik, ghast"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +0 (10)\nHP 13 (2d8 + 4)\nSpeed 30 ft., Climb 30 ft.\nMedium Monstrosity, Chaotic Evil\nTroll\nLoathsome, Regenerating Lurker\nHabitat: Arctic, Forest, Hill, Mountain, Swamp, Underdark; Treasure: None\nTrolls creep forth to prey on smaller creatures and drag captives back to festering lairs. These misshapen brutes can regenerate from wounds and regrow\nsevered body parts—including their heads. A troll’s severed limbs continue to move and attack. Unless they’re burned by flames or acid, trolls can recover\nfrom egregious wounds and seek revenge on those who felled them.\nTrolls typically hunt alone, but small groups occasionally cooperate to ambush prey or raid villages. Creatures such as hags and hill giants might convince\ntrolls to work for them in exchange for disgusting meals.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t10 \t+0 \t+0\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t6 \t−2 \t−2\nSkills Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Troglodyte\nCR 1/4 (XP 50; PB +2)\nTraits\nStench. Constitution Saving Throw: DC 12, any creature (other than a\ntroglodyte) that starts its turn in a 5-foot Emanation originating from the\ntroglodyte.\nFailure: The target has the Poisoned condition until the start of its\nnext turn.\nSuccess: The target is immune to the Stench of all troglodytes for\n1 hour.\nSunlight Sensitivity. While in sunlight, the troglodyte has Disadvantage on\nability checks and attack rolls.\nActions\nRend. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Slashing damage.\nSmells fine to me.\n—Caarey Gelthik, ghast",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (T) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

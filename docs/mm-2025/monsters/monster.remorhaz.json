@@ -1,0 +1,77 @@
+{
+  "id": "monster.remorhaz",
+  "name": "REMORHAZ",
+  "status": "complete",
+  "size_type_alignment": "Huge Monstrosity, Unaligned",
+  "size": "Huge",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 17,
+  "hit_points": 195,
+  "hit_dice": "17d12 + 85",
+  "speed": "40 ft., Burrow 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 4,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [
+    {
+      "name": "Heat Aura",
+      "text": "At the end of each of the remorhaz's turns, each creature in a 5-foot Emanation originating from the remorhaz takes 16 (3d10) Fire damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +11, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage plus 14 (4d6) Fire damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17), and it has the Restrained condition until the grapple ends."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Swallow",
+      "text": "Strength Saving Throw: DC 19, one Large or smaller creature Grappled by the remorhaz (it can have up to two creatures swallowed at a time). Failure: The target is swallowed by the remorhaz, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions, it has Total Cover against attacks and other effects outside the remorhaz, and it takes 10 (3d6) Acid damage plus 10 (3d6) Fire damage at the start of each of the remorhaz's turns. If the remorhaz takes 30 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 5 feet of the remorhaz and has the Prone condition. If the remorhaz dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse by using 15 feet of movement, exiting Prone."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +5 (15)\nHP 195 (17d12 + 85)\nSpeed 40 ft., Burrow 30 ft.\nHuge Monstrosity, Unaligned\nRevenants\nVengeance from beyond the Grave\nHabitat: Forest, Swamp, Urban; Treasure: Any\nWrathful spirits bent on revenge, revenants possess corpses and other materials, using them to seek justice or vent their rage on those who wronged them.\nRevenants refuse to rest until those they seek to punish are no more. If their bodies are destroyed, revenants claim new forms and continue their ruthless\nquests.\nMOD \tSAVE\nSTR \t24 \t+7 \t+7\nDEX \t13 \t+1 \t+1\nCON \t21 \t+5 \t+5\nMOD \tSAVE\nINT \t4 \t−3 \t−3\nWIS \t10 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nImmunities Cold, Fire\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10\nLanguages None\nCR 11 (XP 7,200; PB +4)\nTraits\nHeat Aura. At the end of each of the remorhaz’s turns, each creature in a 5-foot\nEmanation originating from the remorhaz takes 16 (3d10) Fire damage.\nActions\nBite. Melee Attack Roll: +11, reach 10 ft.\nHit: 18 (2d10 + 7) Piercing damage\nplus 14 (4d6) Fire damage. If the target is a Large or smaller creature, it has the\nGrappled condition (escape DC 17), and it has the Restrained condition until\nthe grapple ends.\nBonus Actions\nSwallow. Strength Saving Throw: DC 19, one Large or smaller creature\nGrappled by the remorhaz (it can have up to two creatures swallowed at a\ntime).\nFailure: The target is swallowed by the remorhaz, and the Grappled\ncondition ends. A swallowed creature has the Blinded and Restrained\nconditions, it has Total Cover against attacks and other effects outside the\nremorhaz, and it takes 10 (3d6) Acid damage plus 10 (3d6) Fire damage at the\nstart of each of the remorhaz’s turns.\nIf the remorhaz takes 30 damage or more on a single turn from a creature\ninside it, the remorhaz must succeed on a DC 15 Constitution saving throw at\nthe end of that turn or regurgitate all swallowed creatures, each of which falls\nin a space within 5 feet of the remorhaz and has the Prone condition. If the\nremorhaz dies, any swallowed creature no longer has the Restrained condition\nand can escape from the corpse by using 15 feet of movement, exiting Prone.\nREVENANT FOLLOWED BY A GRAVEYARD REVENANT\nRevenant\nRevenants possess the bodies they had in life, using them to hunt down their killers. If their bodies are destroyed, they take control of new bodies that\ngradually change to resemble the revenants’ original forms.\nGraveyard Revenant\nGraveyard revenants possess dozens of bodies that combine to form grotesque masses. They take revenge on those responsible for mass deaths or\ninstitutions that callously ruin lives.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

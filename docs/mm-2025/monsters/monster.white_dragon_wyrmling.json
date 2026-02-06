@@ -1,0 +1,80 @@
+{
+  "id": "monster.white_dragon_wyrmling",
+  "name": "WHITE DRAGON WYRMLING",
+  "status": "complete",
+  "size_type_alignment": "Medium Dragon (Chromatic), Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "hit_points": 32,
+  "hit_dice": "5d8 + 10",
+  "speed": "30 ft., Burrow 15 ft., Fly 60 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Draconic",
+  "cr": "2 (450 XP; PB +2)",
+  "traits": [
+    {
+      "name": "Ice Walk",
+      "text": "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes two Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage plus 2 (1d4) Cold damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 22 (5d8) Cold damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +2 (12)\tMedium Dragon (Chromatic), Chaotic Evil\nYoung White Dragon\nYoung white dragons defend their hunting grounds from rivals. In some cases, kobolds and groups of humanoids might offer food and treasure to young\nwhite dragons, attempting to keep the dragons satiated and less likely to prey on their communities.\nWhite Dragon Lairs\nWhite dragons brood in bitterly cold lairs clawed from stone and ice.\nThe region containing an adult or ancient white dragon’s lair is affected by its presence, creating the following effects:\nFrigid Cold. The area within 1 mile of the lair is an area of extreme cold. Any water in that area is frigid water. See the\nDungeon Master’s Guide for rules on\nextreme cold and frigid water.\nGlacial Gloom. The area within 1 mile of the lair is Lightly Obscured by chilly fog. Whenever a creature other than the dragon or one of its allies finishes a\nLong Rest in that area, that creature must succeed on a DC 15 Constitution saving throw or have its Speed reduced by 10 feet for 1 hour.\nIf the dragon dies or moves its lair elsewhere, these effects end immediately.\nHP 32 (5d8 + 10)\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t10 \t+0 \t+2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t10 \t+0 \t+2\nCHA \t11 \t+0 \t+0\nSkills Perception +4, Stealth +2\nImmunities Cold\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 2 (450 XP; PB +2)\nTraits\nIce Walk. The dragon can move across and climb icy surfaces without needing\nto make an ability check. Additionally, Difficult Terrain composed of ice or\nsnow doesn’t cost it extra movement.\nActions\nMultiattack. The dragon makes two Rend attacks.\nRend. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage plus 2\n(1d4) Cold damage.\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 12, each creature\nin a 15-foot Cone.\nFailure: 22 (5d8) Cold damage.\nSuccess: Half damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

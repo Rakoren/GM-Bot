@@ -1,0 +1,71 @@
+{
+  "id": "monster.hook_horror",
+  "name": "HOOK HORROR",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Neutral",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "hit_points": 75,
+  "hit_dice": "10d10 + 20",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 15",
+  "languages": "Hook Horror",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hook horror makes two Hook attacks."
+    },
+    {
+      "name": "Hook",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, the hook horror moves the target 5 feet straight toward or away from itself."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +0 (10)\nHP 75 (10d10 + 20)\nLarge Monstrosity, Neutral\nHorned Devil\nDevil of Hatred and Subjugation\nHabitat: Planar (Nine Hells); Treasure: Relics\nHorned devils, also known as cornugons or malebranche, are infernal warriors that exact the will of diabolical generals and lead other devils in battle. Their\nbodies and weapons are forged in the Nine Hells, and they torment their foes with diabolical flames and pernicious wounds.\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t10 \t+0 \t+0\nCON \t15 \t+2 \t+4\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t7 \t−2 \t−2\nSkills Perception +5\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 15\nLanguages Hook Horror\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The hook horror makes two Hook attacks.\nHook. Melee Attack Roll: +6, reach 10 ft.\nHit: 11 (2d6 + 4) Piercing damage. If\nthe target is a Large or smaller creature, the hook horror moves the target 5\nfeet straight toward or away from itself.\nHydra\nMultiheaded Serpent of Legend\nHabitat: Coastal, Swamp; Treasure: Any",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

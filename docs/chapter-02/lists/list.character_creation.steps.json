@@ -1,0 +1,15 @@
+{
+  "id": "list.character_creation.steps",
+  "name": "Character Creation Steps",
+  "chapter": 2,
+  "status": "complete",
+  "items": [
+    "choose_class",
+    "choose_background",
+    "choose_species",
+    "assign_ability_scores",
+    "choose_alignment",
+    "fill_numbers",
+    "describe_character"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "monster.flameskull",
+  "name": "FLAMESKULL",
+  "status": "complete",
+  "size_type_alignment": "Tiny Undead, Neutral Evil",
+  "size": "Tiny",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 40,
+  "hit_dice": "9d4 + 18",
+  "speed": "5 ft., Fly 40 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +5, Perception +2",
+  "resistances": null,
+  "immunities": "Fire, Necrotic, Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned, Prone",
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Common plus two other languages",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Illumination",
+      "text": "The flameskull sheds Bright Light in a 15-foot radius and Dim Light for an additional 15 feet."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The flameskull has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Undead Restoration",
+      "text": "If the flameskull is destroyed, it regains all its Hit Points in 1 hour unless Holy Water is sprinkled on its remains or the Dispel Evil and Good spell is cast on them."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The flameskull makes two Fire Ray attacks."
+    },
+    {
+      "name": "Fire Ray",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit: 13 (3d6 + 3) Fire damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The flameskull casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 13): At Will: Mage Hand. 2/Day: Magic Missile (level 2 version). 1/Day: Fireball."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 40 (9d4 + 18)\nSpeed 5 ft., Fly 40 ft. (hover)\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t17 \t+3 \t+3\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t10 \t+0 \t+0\nCHA \t11 \t+0 \t+0\nSkills Arcana +5, Perception +2\nImmunities Fire, Necrotic, Poison; Charmed, Exhaustion, Frightened,\nParalyzed, Poisoned, Prone\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Common plus two other languages\nCR 4 (XP 1,100; PB +2)\nTraits\nIllumination. The flameskull sheds Bright Light in a 15-foot radius and Dim\nLight for an additional 15 feet.\nMagic Resistance. The flameskull has Advantage on saving throws against\nspells and other magical effects.\nUndead Restoration. If the flameskull is destroyed, it regains all its Hit Points\nin 1 hour unless Holy Water is sprinkled on its remains or the\nDispel Evil and\nGood spell is cast on them.\nActions\nMultiattack. The flameskull makes two Fire Ray attacks.\nFire Ray. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft.\nHit: 13\n(3d6 + 3) Fire damage.\nSpellcasting. The flameskull casts one of the following spells, requiring no\nSomatic or Material components and using Intelligence as the spellcasting\nability (spell save DC 13):\nAt Will:\nMage Hand\n2/Day:\nMagic Missile (level 2 version)\n1/Day:\nFireball\nTiny Undead, Neutral Evil\nThe barrier between the mortal and the divine lies shattered—\nopen is the mold for new gods. It was I who invaded the divine.\nNot with a spear but with a stitch. Not with my heresies but\nwith my heart.\n—VIKTRA MORDENHEIM, DARKLORD OF LAMORDIA\nFlesh Golem Characteristics\n1d6 \tThe Flesh Golem Has...\n1 \tAnimal parts among its humanlike pieces.\n2 \tA disguise of makeup and heavy clothing.\n3 \tMissing parts and exposed insides.\n4 Parts serving unintended roles, like a body composed of dozens\nof hands.\n5 \tPerfect features accented by beautiful stitching.\n6 \tVisible mechanisms, bellows, and engines.\nFlumph\nStrange Ally from a Strange Place\nHabitat: Underdark; Treasure: Arcana",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

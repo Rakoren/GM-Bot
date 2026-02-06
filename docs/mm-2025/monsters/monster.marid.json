@@ -1,0 +1,97 @@
+{
+  "id": "monster.marid",
+  "name": "MARID",
+  "status": "complete",
+  "size_type_alignment": "Large Elemental (Genie), Chaotic Neutral",
+  "size": "Large",
+  "creature_type": "Elemental (Genie)",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 17,
+  "hit_points": 229,
+  "hit_dice": "17d10 + 136",
+  "speed": "30 ft., Fly 60 ft., Swim 90 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 26,
+      "mod": "+8"
+    },
+    "INT": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 13",
+  "languages": "Primordial (Aquan)",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The marid can breathe air and water."
+    },
+    {
+      "name": "Elemental Restoration",
+      "text": "If the marid dies outside the Elemental Plane of Water, its body dissolves into brine, and it gains a new body in 1d4 days, reviving with all its Hit Points somewhere on the Plane of Water."
+    },
+    {
+      "name": "Wishes",
+      "text": "The marid has a 30 percent chance of knowing the Wish spell. If the marid knows it, the marid can cast it only on behalf of a non-genie creature who communicates a wish in a way the marid can understand. If the marid casts the spell for the creature, the marid suffers none of the spell's stress. Once the marid has cast it three times, the marid can't do so again for 365 days."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The marid makes three Aquatic Lash attacks."
+    },
+    {
+      "name": "Aquatic Lash",
+      "text": "Melee Attack Roll: +10, reach 15 ft. Hit: 15 (2d8 + 6) Slashing damage plus 9 (2d8) Cold damage."
+    },
+    {
+      "name": "Water Jet",
+      "text": "Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 10- foot-wide Line. Failure: 31 (9d6) Cold damage. If the target is a Huge or smaller creature, it is pushed up to 20 feet straight away from the marid and has the Prone condition. Success: Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The marid casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16): At Will: Create or Destroy Water, Detect Evil and Good, Detect Magic, Purify Food and Drink 1/Day Each: Control Water, Gaseous Form, Invisibility, Plane Shift, Tongues"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Misty Veil (Recharge 5-6)",
+      "text": "The marid casts Fog Cloud, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +5 (15)\nHP 229 (17d10 + 136)\nSpeed 30 ft., Fly 60 ft., Swim 90 ft.\nLarge Elemental (Genie), Chaotic Neutral\nMarilith\nDemon of Cruelty and Viciousness\nHabitat: Planar (Abyss); Treasure: Armaments\nMariliths are six-armed, serpentlike demons that wield lethal, Abyss-forged blades. With these cursed weapons and experience from countless battles, they\nlead other demons to slaughter virtuous souls. They often command droves of weaker demons.\nMOD \tSAVE\nSTR \t22 \t+6 \t+6\nDEX \t12 \t+1 \t+5\nCON \t26 \t+8 \t+8\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t17 \t+3 \t+3\nCHA \t18 \t+4 \t+8\nResistances Acid, Cold, Lightning\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 13\nLanguages Primordial (Aquan)\nCR 11 (XP 7,200; PB +4)\nTraits\nAmphibious. The marid can breathe air and water.\nElemental Restoration. If the marid dies outside the Elemental Plane of Water,\nits body dissolves into brine, and it gains a new body in 1d4 days, reviving with\nall its Hit Points somewhere on the Plane of Water.\nWishes. The marid has a 30 percent chance of knowing the\nWish spell. If the\nmarid knows it, the marid can cast it only on behalf of a non-genie creature\nwho communicates a wish in a way the marid can understand. If the marid\ncasts the spell for the creature, the marid suffers none of the spell’s stress.\nOnce the marid has cast it three times, the marid can’t do so again for\n365 days.\nActions\nMultiattack. The marid makes three Aquatic Lash attacks.\nAquatic Lash. Melee Attack Roll: +10, reach 15 ft.\nHit: 15 (2d8 + 6) Slashing\ndamage plus 9 (2d8) Cold damage.\nWater Jet. Dexterity Saving Throw: DC 18, each creature in a 60-foot-long, 10-\nfoot-wide Line.\nFailure: 31 (9d6) Cold damage. If the target is a Huge or smaller\ncreature, it is pushed up to 20 feet straight away from the marid and has the\nProne condition.\nSuccess: Half damage only.\nSpellcasting. The marid casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 16):\nAt Will:\nCreate or Destroy Water,\nDetect Evil and Good,\nDetect Magic,\nPurify\nFood and Drink\n1/Day Each:\nControl Water,\nGaseous Form,\nInvisibility,\nPlane Shift,\nTongues\nBonus Actions\nMisty Veil (Recharge 5–6). The marid casts\nFog Cloud, using the same\nspellcasting ability as Spellcasting.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

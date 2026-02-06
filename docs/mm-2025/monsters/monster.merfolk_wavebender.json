@@ -1,0 +1,85 @@
+{
+  "id": "monster.merfolk_wavebender",
+  "name": "MERFOLK WAVEBENDER",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Neutral",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "hit_points": 97,
+  "hit_dice": "15d8 + 30",
+  "speed": "10 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 17",
+  "languages": "Common, Primordial (Aquan)",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The merfolk can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The merfolk makes two Aquatic Burst attacks."
+    },
+    {
+      "name": "Aquatic Burst",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 60 ft. Hit: 20 (3d10 + 4) Cold damage. If the target is a Large or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The merfolk casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 15): At Will: Elementalism, Light 1/Day Each: Control Water, Create or Destroy Water"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Watery Rebuke",
+      "text": "Trigger: An enemy the merfolk can see enters a space within 5 feet of the merfolk. Response-Strength Saving Throw: DC 15, the triggering enemy. Failure: 14 (4d6) Cold damage. If the target is Large or smaller, it is pushed up to 30 feet straight away from the merfolk by conjured water. Sages trace merrows' origins to aquatic ogres, depraved merfolk, and worse. Such broad theories reveal little about these monsters but overmuch of the dread lurking beyond our certain shores. -LEOMUND"
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +4 (14)\nHP 97 (15d8 + 30)\nSpeed 10 ft., Swim 40 ft.\tMedium Elemental, Neutral\nMerrow\nOgreish Undersea Abductor\nHabitat: Coastal, Underwater; Treasure: Any\nVicious aquatic hunters, merrow combine the features of ogres with those of primeval, predatory fish. They lurk in coastal waters, hoping to snare\nunsuspecting prey by bursting from the water and grabbing their quarry or by skewering victims with deadly harpoons. These hunters then drag land\ndwellers back to dismal undersea lairs. Merrow often keep prisoners in their larders as future meals.\nMerrow raid coastal settlements and merfolk communities to steal weapons and treasure. This leads to conflicts between merfolk and merrow, but it also\nprovokes misunderstandings with surface dwellers who blame merfolk for merrow attacks.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t18 \t+4 \t+7\nCON \t14 \t+2 \t+5\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t19 \t+4 \t+7\nCHA \t15 \t+2 \t+5\nSkills Perception +7\nResistances Cold\nSenses Passive Perception 17\nLanguages Common, Primordial (Aquan)\nCR 6 (XP 2,300; PB +3)\nTraits\nAmphibious. The merfolk can breathe air and water.\nActions\nMultiattack. The merfolk makes two Aquatic Burst attacks.\nAquatic Burst. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 60 ft.\nHit:\n20 (3d10 + 4) Cold damage. If the target is a Large or smaller creature, it has\nthe Prone condition.\nSpellcasting. The merfolk casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 15):\nAt Will:\nElementalism,\nLight\n1/Day Each:\nControl Water,\nCreate or Destroy Water\nReactions\nWatery Rebuke. Trigger: An enemy the merfolk can see enters a space within 5\nfeet of the merfolk.\nResponse—Strength Saving Throw: DC 15, the triggering\nenemy.\nFailure: 14 (4d6) Cold damage. If the target is Large or smaller, it is\npushed up to 30 feet straight away from the merfolk by conjured water.\nSages trace merrows’ origins to aquatic ogres, depraved\nmerfolk, and worse. Such broad theories reveal little about\nthese monsters but overmuch of the dread lurking beyond our\ncertain shores.\n—LEOMUND\nMezzoloth\nYugoloth of Tenacity and Want\nHabitat: Planar (Gehenna); Treasure: Armaments\nMezzoloths are insectile yugoloths that seek power and souls in the service of fiendish lords. These greedy, violent yugoloths are more direct than most of\ntheir scheming brethren, but what they lack in guile they make up for in persistence and numbers.\nMezzoloths typically form mercenary bands with others of their kind. These forces serve more powerful yugoloths, other fiends, sinister mages, or anyone\nwho provides them with tempting rewards. Mezzoloths obediently adhere to the bargains they strike, potentially serving their patrons for centuries, but once\nthose terms expire, yesterday’s client could become today’s target. Roll on or choose a result from the Mezzoloth Payments table to inspire a mezzoloth’s\nprice for its services.\nMezzoloth Payments\n1d6 \tThe Mezzoloth Agrees to Serve For...\n1 \tAccess to a planar portal.\n2 \tInformation valued by its true master.\n3 \tA lair where it can bring others of its kind.\n4 \tMagic weapons or armor.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

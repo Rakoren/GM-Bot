@@ -1,0 +1,92 @@
+{
+  "id": "monster.sea_hag",
+  "name": "SEA HAG",
+  "status": "complete",
+  "size_type_alignment": "Medium Fey, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Fey",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "hit_points": 52,
+  "hit_dice": "7d8 + 21",
+  "speed": "30 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Common, Giant, Primordial (Aquan)",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The hag can breathe air and water."
+    },
+    {
+      "name": "Coven Magic",
+      "text": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen"
+    },
+    {
+      "name": "Servant",
+      "text": "The hag must finish a Long Rest before using this trait to cast that spell again."
+    },
+    {
+      "name": "Vile Appearance",
+      "text": "Wisdom Saving Throw: DC 11, any Beast or Humanoid that starts its turn within 30 feet of the hag and can see the hag's true form. Failure: The target has the Frightened condition until the start of its next turn. Success: The target is immune to this hag's Vile Appearance for 24 hours. Shadow"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage."
+    },
+    {
+      "name": "Death Glare (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 11, one Frightened creature the hag can see within 30 feet. Failure: If the target has 20 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes 13 (3d8) Psychic damage."
+    },
+    {
+      "name": "Illusory Appearance",
+      "text": "The hag casts Disguise Self, using Constitution as the spellcasting ability (spell save DC 13). The spell's duration is 24 hours."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +1 (11)\nHP 52 (7d8 + 21)\nSpeed 30 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t13 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t12 \t+1 \t+1\nCHA \t13 \t+1 \t+1\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Common, Giant, Primordial (Aquan)\nCR 2 (XP 450; PB +2)\nTraits\nAmphibious. The hag can breathe air and water.\nCoven Magic. While within 30 feet of at least two hag allies, the hag can cast\none of the following spells, requiring no Material components, using the spell’s\nnormal casting time, and using Intelligence as the spellcasting ability (spell\nsave DC 11):\nAugury,\nFind Familiar,\nIdentify,\nLocate Object,\nScrying, or\nUnseen\nServant. The hag must finish a Long Rest before using this trait to cast that\nspell again.\nVile Appearance. Wisdom Saving Throw: DC 11, any Beast or Humanoid that\nstarts its turn within 30 feet of the hag and can see the hag’s true form.\nFailure:\nThe target has the Frightened condition until the start of its next turn.\nSuccess:\nThe target is immune to this hag’s Vile Appearance for 24 hours.\nMedium Fey, Chaotic Evil\nShadow\nDisembodied, Life-Drinking Shade\nHabitat: Planar (Shadowfell), Underdark, Urban; Treasure: None\nShadows are incorporeal Undead that feed on life. They resent the living for possessing the potential and vitality lost to them.\nShadows lurk in dark, lonely places, typically sites that were meaningful to them in life or cursed places with ties to death, sinister magic, or the Shadowfell.\nTheir victims rise as new shadows and prey on the living.\nShadows might resemble the silhouettes of who they were in life or take on more menacing forms. Roll on or choose a result from the Shadow Shapes\ntable to inspire a shadow’s form and haunting.\nShadow Shapes\n1d6 \tThe Shadow Appears As...\n1 \tA distorted stalker that lurks in the woods.\n2 \tA fiend that dwells near a wicked ritual site.\n3 \tGrasping hands that haunt a miser’s home.\n4 \tA grim storybook character that follows those who speak its name.\n5 \tIts target, acting in eerie pantomime.\n6 \tAn ominous priest that haunts a defiled site.\nActions\nClaw. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3) Slashing damage.\nDeath Glare (Recharge 5–6). Wisdom Saving Throw: DC 11, one Frightened\ncreature the hag can see within 30 feet.\nFailure: If the target has 20 Hit\nPoints or fewer, it drops to 0 Hit Points. Otherwise, the target takes 13 (3d8)\nPsychic damage.\nIllusory Appearance. The hag casts\nDisguise Self, using Constitution as the\nspellcasting ability (spell save DC 13). The spell’s duration is 24 hours.\nShadow Demon\nVestige of Evil\nHabitat: Planar (Abyss); Treasure: None\nShadow demons form when exceptionally wicked demons are destroyed and prevented from reconstituting their physical forms in the Abyss. This might\noccur due to divine intervention, when a demon is destroyed in the Abyss, or under more unusual circumstances. Shadow demons are the incorporeal\nremnants of these destroyed demons’ evil. They usually vaguely resemble their former shapes, but some take purposefully deceptive shapes. Many lurk in\ndark places or venture out only at night to hide their true forms from those they manipulate.\nShadow demons seek ways to regain their former might and take revenge on those who destroyed them. They often ingratiate themselves with more\npowerful demons or mortal spellcasters, bargaining with and coercing others into restoring them to power. Many try to claim or corrupt souls to restore their",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

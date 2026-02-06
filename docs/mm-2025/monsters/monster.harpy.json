@@ -1,0 +1,75 @@
+{
+  "id": "monster.harpy",
+  "name": "HARPY",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 11,
+  "hit_points": 38,
+  "hit_dice": "7d8 + 7",
+  "speed": "20 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing damage."
+    },
+    {
+      "name": "Luring Song",
+      "text": "The harpy sings a magical melody, which lasts until the harpy's"
+    },
+    {
+      "name": "Concentration ends on it",
+      "text": "Wisdom Saving Throw: DC 11, each Humanoid and Giant in a 300-foot Emanation originating from the harpy when the song starts. Failure: The target has the Charmed condition until the song ends and repeats the save at the end of each of its turns. While Charmed, the target has the Incapacitated condition and ignores the Luring Song of other harpies. If the target is more than 5 feet from the harpy, the target moves on its turn toward the harpy by the most direct route, trying to get within 5 feet of the harpy. It doesn't avoid Opportunity Attacks; however, before moving into damaging terrain (such as lava or a pit) and whenever it takes damage from a source other than the harpy, the target repeats the save. Success: The target is immune to this harpy's Luring Song for 24 hours."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 38 (7d8 + 7)\nSpeed 20 ft., Fly 40 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t13 \t+1 \t+1\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t13 \t+1 \t+1\nSenses Passive Perception 10\nLanguages Common\nCR 1 (XP 200; PB +2)\nActions\nClaw. Melee Attack Roll: +3, reach 5 ft.\nHit: 6 (2d4 + 1) Slashing damage.\nLuring Song. The harpy sings a magical melody, which lasts until the harpy’s\nConcentration ends on it.\nWisdom Saving Throw: DC 11, each Humanoid and\nGiant in a 300-foot Emanation originating from the harpy when the song starts.\nFailure: The target has the Charmed condition until the song ends and repeats\nthe save at the end of each of its turns. While Charmed, the target has the\nIncapacitated condition and ignores the Luring Song of other harpies. If the\ntarget is more than 5 feet from the harpy, the target moves on its turn toward\nthe harpy by the most direct route, trying to get within 5 feet of the harpy. It\ndoesn’t avoid Opportunity Attacks; however, before moving into damaging\nterrain (such as lava or a pit) and whenever it takes damage from a source\nother than the harpy, the target repeats the save.\nSuccess: The target is\nimmune to this harpy’s Luring Song for 24 hours.\nMedium Monstrosity, Chaotic Evil\nHELL HOUND\nHelmed Horror\nArmor with a Warrior’s Purpose\nHabitat: Any; Treasure: Armaments\nHelmed horrors are suits of armor animated by magic. Rather than being unreasoning automatons, these armored shells possess the guile of soldiers and\nresilience against destructive magic. While their name suggests sinister intentions, these creatures serve their creators loyally. Helmed horrors are also\nsometimes called doom guards or spirit armors. Most show no evidence of a personality, but exceptions exist.\nHelmed horrors might perform any number of assignments. Roll on or choose a result from the Helmed Horror Directives table to inspire what tasks helmed\nhorrors perform.\nHelmed Horror Directives\nAC 15 \tInitiative +1 (11)\nHP 58 (9d8 + 18)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t13 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSkills Perception +5\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Understands Infernal but can’t speak\nCR 3 (XP 700; PB +2)\nTraits\nPack Tactics. The hound has Advantage on an attack roll against a creature if\nat least one of the hound’s allies is within 5 feet of the creature and the ally\ndoesn’t have the Incapacitated condition.\nActions\nMultiattack. The hound makes two Bite attacks.\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Piercing damage plus 3\n(1d6) Fire damage.\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a\n15-foot Cone.\nFailure: 17 (5d6) Fire damage.\nSuccess: Half damage.\nMedium Fiend, Lawful Evil\nA HELMED HORROR PROVES IMMUNE TO A MAGE’S LIGHTNING BOLT SPELL\n1d6 \tThe Helmed Horror Follows Commands To...\n1 \tCarry its master’s palanquin through the air.\n2 \tDefend a remarkable treasure or piece of armor by incorporating the item into its being.\n3 \tImitate a dead or imprisoned hero by using their armor and weapons.\n4 \tPerform as a laborer or servant.\n5 \tServe in a legion formed from the armors of a land’s ancient defenders.\n6 \tStand sentry in a gallery of mundane armors.\nHezrou\nDemon of Obscenity and Outrage\nHabitat: Planar (Abyss); Treasure: Any",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

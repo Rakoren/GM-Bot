@@ -88,6 +88,11 @@
       "access": "everyone",
       "roles": []
     },
+    "rules": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
     "homebrew": {
       "enabled": true,
       "access": "everyone",

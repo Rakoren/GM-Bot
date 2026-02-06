@@ -1,0 +1,80 @@
+{
+  "id": "monster.kuo_toa_monitor",
+  "name": "KUO-TOA MONITOR",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 65,
+  "hit_dice": "10d8 + 20",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6, Religion +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft., Truesight 30 ft.; Passive Perception 16",
+  "languages": "Undercommon",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The kuo-toa can breathe air and water."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the kuo-toa has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The kuo-toa makes two Bone Whip attacks."
+    },
+    {
+      "name": "Bone Whip",
+      "text": "Melee Attack Roll: +5, reach 10 ft. Hit: 6 (1d6 + 3) Slashing damage plus 7 (2d6) Lightning damage, and the target can't make Opportunity Attacks until the start of the kuo-toa's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +0 (10)\nHP 65 (10d8 + 20)\nSpeed 30 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t10 \t+0 \t+0\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t11 \t+0 \t+0\nSkills Perception +6, Religion +3\nMedium Aberration, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

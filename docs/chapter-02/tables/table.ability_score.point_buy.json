@@ -1,0 +1,23 @@
+{
+  "id": "table.ability_score.point_buy",
+  "name": "Ability Score Point Costs",
+  "chapter": 2,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/03-chapter 2/03-Creating a Character - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [1],
+    "section": "Point Buy"
+  },
+  "columns": ["score", "cost"],
+  "entries": [
+    { "score": 8, "cost": 0 },
+    { "score": 9, "cost": 1 },
+    { "score": 10, "cost": 2 },
+    { "score": 11, "cost": 3 },
+    { "score": 12, "cost": 4 },
+    { "score": 13, "cost": 5 },
+    { "score": 14, "cost": 7 },
+    { "score": 15, "cost": 9 }
+  ],
+  "notes": []
+}

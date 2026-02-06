@@ -1,0 +1,105 @@
+{
+  "id": "monster.balor",
+  "name": "BALOR",
+  "status": "complete",
+  "size_type_alignment": "Huge Fiend (Demon), Chaotic Evil",
+  "size": "Huge",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 19,
+  "hit_points": 287,
+  "hit_dice": "23d12 + 138",
+  "speed": "40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 26,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 22,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +9",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 120 ft.; Passive Perception 19",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "cr": "19 (XP 22,000; PB +6)",
+  "traits": [
+    {
+      "name": "Death Throes",
+      "text": "The balor explodes when it dies. Dexterity Saving Throw: DC 20, each creature in a 30-foot Emanation originating from the balor. Failure: 31 (9d6) Fire damage plus 31 (9d6) Force damage. Success: Half damage. Failure or Success: If the balor dies outside the Abyss, it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Fire Aura",
+      "text": "At the end of each of the balor's turns, each creature in a 5-foot Emanation originating from the balor takes 13 (3d8) Fire damage."
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": "If the balor fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The balor has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The balor makes one Flame Whip attack and one Lightning Blade attack."
+    },
+    {
+      "name": "Flame Whip",
+      "text": "Melee Attack Roll: +14, reach 30 ft. Hit: 18 (3d6 + 8) Force damage plus 17 (5d6) Fire damage. If the target is a Huge or smaller creature, the balor pulls the target up to 25 feet straight toward itself, and the target has the Prone condition."
+    },
+    {
+      "name": "Lightning Blade",
+      "text": "Melee Attack Roll: +14, reach 10 ft. Hit: 21 (3d8 + 8) Force damage plus 22 (4d10) Lightning damage, and the target can't take Reactions until the start of the balor's next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Teleport",
+      "text": "The balor teleports itself or a willing demon within 10 feet of itself up to 60 feet to an unoccupied space the balor can see. 1d6 \tThe Bandit... 5 \tSecretly works for a government or a regional ruler to sow chaos. 6 \tTakes what they need to survive. Bandit"
+    },
+    {
+      "name": "Bandits are inexperienced ne'er-do-wells who typically follow the orders of higher-ranking bandits",
+      "text": "Bandit Captain"
+    },
+    {
+      "name": "Bandit captains command gangs of scoundrels and conduct straightforward heists",
+      "text": "Others serve as guards and muscle for more influential criminals. Bandit Deceiver"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +14 (24)\nHP 287 (23d12 + 138)\nSpeed 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t26 \t+8 \t+8\nDEX \t15 \t+2 \t+2\nCON \t22 \t+6 \t+12\nMOD \tSAVE\nINT \t20 \t+5 \t+5\nWIS \t16 \t+3 \t+9\nCHA \t22 \t+6 \t+6\nSkills Perception +9\nResistances Cold, Lightning\nImmunities Fire, Poison; Charmed, Frightened, Poisoned\nSenses Truesight 120 ft.; Passive Perception 19\nLanguages Abyssal; telepathy 120 ft.\nCR 19 (XP 22,000; PB +6)\nTraits\nDeath Throes. The balor explodes when it dies.\nDexterity Saving Throw: DC 20,\neach creature in a 30-foot Emanation originating from the balor.\nFailure: 31\n(9d6) Fire damage plus 31 (9d6) Force damage.\nSuccess: Half damage.\nFailure\nor Success: If the balor dies outside the Abyss, it gains a new body instantly,\nreviving with all its Hit Points somewhere in the Abyss.\nHuge Fiend (Demon), Chaotic Evil\nBandits\nCriminals and Scoundrels\nHabitat: Any; Treasure: Any\nBandits use the threat of violence to take what they want. Such criminals include gang members, desperadoes, and lawless mercenaries. Yet not all bandits\nare motivated by greed. Some are driven to lives of crime by unjust laws, desperation, or the threats of merciless leaders.\nRoll on or choose a result from the Bandit Motivations table to determine the circumstances behind a bandit’s crimes.\nBandit Motivations\n1d6 \tThe Bandit...\n1 \tFights only oppressors.\n2 \tIs an ex-soldier who was discarded by their nation and now takes what they were promised.\n3 \tIs in a gang that views nonmembers as foes.\n4 \tHesitantly serves a villainous leader.\nFire Aura. At the end of each of the balor’s turns, each creature in a 5-foot\nEmanation originating from the balor takes 13 (3d8) Fire damage.\nLegendary Resistance (3/Day). If the balor fails a saving throw, it can choose\nto succeed instead.\nMagic Resistance. The balor has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The balor makes one Flame Whip attack and one Lightning\nBlade attack.\nFlame Whip. Melee Attack Roll: +14, reach 30 ft.\nHit: 18 (3d6 + 8) Force\ndamage plus 17 (5d6) Fire damage. If the target is a Huge or smaller creature,\nthe balor pulls the target up to 25 feet straight toward itself, and the target has\nthe Prone condition.\nLightning Blade. Melee Attack Roll: +14, reach 10 ft.\nHit: 21 (3d8 + 8) Force\ndamage plus 22 (4d10) Lightning damage, and the target can’t take Reactions\nuntil the start of the balor’s next turn.\nBonus Actions\nTeleport. The balor teleports itself or a willing demon within 10 feet of itself up\nto 60 feet to an unoccupied space the balor can see.\n1d6 \tThe Bandit...\n5 \tSecretly works for a government or a regional ruler to sow chaos.\n6 \tTakes what they need to survive.\nBandit\nBandits are inexperienced ne’er-do-wells who typically follow the orders of higher-ranking bandits.\nBandit Captain\nBandit captains command gangs of scoundrels and conduct straightforward heists. Others serve as guards and muscle for more influential criminals.\nBandit Deceiver\nBandit deceivers use magic to disguise their activities or create flashy distractions.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

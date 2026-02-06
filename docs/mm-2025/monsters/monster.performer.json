@@ -1,0 +1,72 @@
+{
+  "id": "monster.performer",
+  "name": "PERFORMER",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 27,
+  "hit_dice": "5d8 + 5",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +5, Athletics +3, Performance +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "Common plus one other language",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Shortsword",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Uncanny Dodge",
+      "text": "Trigger: The performer is hit by an attack roll. Response: The performer halves the damage (round down) it takes from that attack."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 27 (5d8 + 5)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t16 \t+3 \t+5\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t16 \t+3 \t+5\nSkills Acrobatics +5, Athletics +3, Performance +7\nGear Shortsword\nSenses Passive Perception 12\nLanguages Common plus one other language\nCR 1/2 (XP 100; PB +2)\nActions\nShortsword. Melee Attack Roll: +5, reach 5 ft.\nHit: 6 (1d6 + 3) Piercing damage.\nReactions\nUncanny Dodge. Trigger: The performer is hit by an attack roll.\nResponse: The\nperformer halves the damage (round down) it takes from that attack.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "monster.fomorian",
+  "name": "FOMORIAN",
+  "status": "complete",
+  "size_type_alignment": "Huge Giant, Chaotic Evil",
+  "size": "Huge",
+  "creature_type": "Giant",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "hit_points": 172,
+  "hit_dice": "15d12 + 75",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +8, Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 18",
+  "languages": "Giant, Undercommon",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The fomorian makes two Stone Club attacks. It can replace one attack with a use of Warping Hex if available."
+    },
+    {
+      "name": "Stone Club",
+      "text": "Melee Attack Roll: +9, reach 15 ft. Hit: 24 (4d8 + 6) Bludgeoning damage."
+    },
+    {
+      "name": "Warping Hex (Recharge 4-6)",
+      "text": "Wisdom Saving Throw: DC 16, one creature the fomorian can see within 120 feet. Failure: 21 (6d6) Psychic damage, and the target gains 1 Exhaustion level. Success: Half damage only. All-Father Annam banished his son, Karontor, for Karontor's part in the fomorian assault on the Feywild. That day, the ordning-the hierarchy of the giants and their gods-changed forever, and the fomorians were part of it no more. -BIGBY The small folk have barely anything worth looting, so they shouldn't much mind when we take it from them. -JARL GRUGNUR,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +0 (10)\nHP 172 (15d12 + 75)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t10 \t+0 \t+0\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t9 \t−1 \t−1\nWIS \t14 \t+2 \t+2\nCHA \t6 \t−2 \t−2\nSkills Perception +8, Stealth +3\nSenses Darkvision 120 ft.; Passive Perception 18\nLanguages Giant, Undercommon\nHuge Giant, Chaotic Evil\nFrost Giant\nGiant of the Ice and Snow\nHabitat: Arctic, Mountain; Treasure: Armaments\nFrom glacial mountain heights and vast tundras rise the homes of frost giants. These giants have skin and hair of icy hues. Their natural immunity to cold\nallows them to flourish in places inhospitable to most other creatures. They use this resilience to aid them when hunting and in combat, bolstering their\nallies with chilling war cries.\nFrost giants often travel far to find food and goods. This leads many to become raiders and earn violent reputations. Others live more peaceably by hunting\ntitanic game or creating sanctuaries from the cold (frequently featuring hot springs or snowy contests). Frost giants sometimes forge partnerships with icy\nFey or fire giants dwelling underground, serving as guardians to their realms in exchange for treasure, weapons, and crafts.\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The fomorian makes two Stone Club attacks. It can replace one\nattack with a use of Warping Hex if available.\nStone Club. Melee Attack Roll: +9, reach 15 ft.\nHit: 24 (4d8 + 6)\nBludgeoning damage.\nWarping Hex (Recharge 4–6). Wisdom Saving Throw: DC 16, one creature the\nfomorian can see within 120 feet.\nFailure: 21 (6d6) Psychic damage, and the\ntarget gains 1 Exhaustion level.\nSuccess: Half damage only.\nAll-Father Annam banished his son, Karontor, for Karontor’s\npart in the fomorian assault on the Feywild. That day, the\nordning—the hierarchy of the giants and their gods—changed\nforever, and the fomorians were part of it no more.\n—BIGBY\nThe small folk have barely anything worth looting, so\nthey shouldn’t much mind when we take it from them.\n—JARL GRUGNUR, FROST GIANT\nFungi\nDeadly Spores and Predatory Polyps\nHabitat: Underdark; Treasure: None\nThe dank, sunless Underdark is a fertile breeding ground for weird and dangerous fungi.\nGas Spore Fungus\nGas spores are floating, orbicular fungi with rhizome growths and protuberances that resemble the stalks and eyes of beholders. If destroyed, a gas spore\nexplodes in a poisonous burst that can infect creatures and slay them in hours. Infected corpses spawn more gas spores that grow to full size in a matter\nof days.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "list.ability_score.methods",
+  "name": "Ability Score Methods",
+  "chapter": 2,
+  "status": "complete",
+  "items": [
+    "standard_array",
+    "point_buy",
+    "rolling"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "monster.death_knight_aspirant",
+  "name": "DEATH KNIGHT ASPIRANT",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Undead, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Chaotic Evil",
+  "armor_class": 20,
+  "hit_points": 178,
+  "hit_dice": "21d8 + 84",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Abyssal, Common",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The aspirant has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Marshal Undead",
+      "text": "Undead creatures of the aspirant's choice (excluding itself) in a 60-foot Emanation originating from it have Advantage on attack rolls and saving throws. It can't use this trait if it has the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The aspirant makes three Dread Blade attacks."
+    },
+    {
+      "name": "Dread Blade",
+      "text": "Melee Attack Roll: +9, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage plus 10 (3d6) Necrotic damage."
+    },
+    {
+      "name": "Hellfire Orb (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 15, each creature in a 20-foot-radius Sphere centered on a point the aspirant can see within 120 feet of itself. Failure: 21 (6d6) Fire damage plus 21 (6d6) Necrotic damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The aspirant casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 15): At Will: Phantom Steed 1/Day Each:"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "Trigger: The aspirant is hit by a melee attack roll while holding a weapon. Response: The aspirant adds 4 to its AC against that attack, possibly causing it to miss."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +4 (14)\nHP 178 (21d8 + 84)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t10 \t+0 \t+4\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t12 \t+1 \t+5\nCHA \t16 \t+3 \t+3\nImmunities Necrotic, Poison; Exhaustion, Frightened, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Abyssal, Common\nCR 11 (XP 7,200; PB +4)\nTraits\nMagic Resistance. The aspirant has Advantage on saving throws against\nspells and other magical effects.\nMarshal Undead. Undead creatures of the aspirant’s choice (excluding itself) in\na 60-foot Emanation originating from it have Advantage on attack rolls and\nsaving throws. It can’t use this trait if it has the Incapacitated condition.\nActions\nMultiattack. The aspirant makes three Dread Blade attacks.\nDread Blade. Melee Attack Roll: +9, reach 5 ft.\nHit: 14 (2d8 + 5) Slashing\ndamage plus 10 (3d6) Necrotic damage.\nHellfire Orb (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a\n20-foot-radius Sphere centered on a point the aspirant can see within 120 feet\nof itself.\nFailure: 21 (6d6) Fire damage plus 21 (6d6) Necrotic damage.\nSuccess: Half damage.\nSpellcasting. The aspirant casts one of the following spells, using Charisma\nas the spellcasting ability (spell save DC 15):\nAt Will:\nPhantom Steed\n1/Day Each:\nDestructive Wave (Necrotic),\nDispel Magic\nReactions\nParry. Trigger: The aspirant is hit by a melee attack roll while holding a\nweapon.\nResponse: The aspirant adds 4 to its AC against that attack, possibly\ncausing it to miss.\nMedium or Small Undead, Chaotic Evil\nA death tyrant is a beholder that pursues aberrant goals beyond its death. Ten magical singularities—all that remains of its magical eyes—orbit its floating,\ncyclopean skull, while the hateful gaze of its central eye socket stifles life and raises the dead.\nBeholders typically transform into death tyrants over years when their dreams fixate on death, morbid apotheoses, or journeys to realms inhospitable to life.\nSome death tyrants rise from the corpses of slain beholders or result from exposure to strange magic or Underdark radiation. Sometimes beholders\npurposefully pursue this undead state, just as depraved magic-users pursue lichdom, although it is rare, as most beholders already believe themselves to be\nperfect beings.\nNo matter how death tyrants come into being, bizarre impulses drive their deathless existences. Their motivations tend to be extreme or beyond the reason\nof living creatures.\nDeath Tyrant Lairs\nDeath tyrants often lurk deep in the Underdark, in the tunnel-mazes they occupied in life or in the lairs of enemy beholders they conquered. These lairs are\ndevoid of life, as death tyrants change their servants into Undead horrors.\nThe region containing a death tyrant’s lair is warped by its presence, creating the following effects:\nNegative Energy Suffusion. Whenever a creature within 1 mile of the lair regains Hit Points from a spell, it subtracts 1d10 from the number of Hit Points\nregained.\nScopophobia. Creatures within 1 mile of the lair feel as if they’re being watched. Any creature (excluding the death tyrant and its allies) that finishes a Short\nRest while within 1 mile of the lair must succeed on a DC 15 Wisdom saving throw or gain no benefit from that rest.\nIf the death tyrant dies or moves its lair elsewhere, these effects end immediately.\nA cluster of tiny lights descended from a dark crevice in the\nceiling. These motes cast an eerie glow on the great, alien skull\nthat hung beneath them.\n—JOURNAL OF JASTUS HOLLOWQUILL,\nEXPLORER OF UNDERMOUNTAIN\nDemilich\nWhat Lies beyond Lichdom\nHabitat: Any; Treasure: Arcana\nA demilich is a skull harboring the remnants of a lich’s wicked essence. If the burden of immortality overwhelms a lich, its consciousness turns inward as its\nbody rots away. But if its remains are disturbed, a demilich rises. Demiliches usually appear as skulls adorned with gems or arcane sigils.\nDemilich Lairs",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

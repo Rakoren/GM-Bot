@@ -1,0 +1,35 @@
+{
+  "id": "table.xp_by_level",
+  "name": "Experience Points by Level",
+  "chapter": 2,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/03-chapter 2/03-Creating a Character - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [1],
+    "section": "Experience Points and Levels"
+  },
+  "columns": ["level", "xp", "proficiency_bonus"],
+  "entries": [
+    { "level": 1, "xp": 0, "proficiency_bonus": 2 },
+    { "level": 2, "xp": 300, "proficiency_bonus": 2 },
+    { "level": 3, "xp": 900, "proficiency_bonus": 2 },
+    { "level": 4, "xp": 2700, "proficiency_bonus": 2 },
+    { "level": 5, "xp": 6500, "proficiency_bonus": 3 },
+    { "level": 6, "xp": 14000, "proficiency_bonus": 3 },
+    { "level": 7, "xp": 23000, "proficiency_bonus": 3 },
+    { "level": 8, "xp": 34000, "proficiency_bonus": 3 },
+    { "level": 9, "xp": 48000, "proficiency_bonus": 4 },
+    { "level": 10, "xp": 64000, "proficiency_bonus": 4 },
+    { "level": 11, "xp": 85000, "proficiency_bonus": 4 },
+    { "level": 12, "xp": 100000, "proficiency_bonus": 4 },
+    { "level": 13, "xp": 120000, "proficiency_bonus": 5 },
+    { "level": 14, "xp": 140000, "proficiency_bonus": 5 },
+    { "level": 15, "xp": 165000, "proficiency_bonus": 5 },
+    { "level": 16, "xp": 195000, "proficiency_bonus": 5 },
+    { "level": 17, "xp": 225000, "proficiency_bonus": 6 },
+    { "level": 18, "xp": 265000, "proficiency_bonus": 6 },
+    { "level": 19, "xp": 305000, "proficiency_bonus": 6 },
+    { "level": 20, "xp": 355000, "proficiency_bonus": 6 }
+  ],
+  "notes": []
+}

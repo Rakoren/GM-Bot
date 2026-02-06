@@ -1,0 +1,89 @@
+{
+  "id": "monster.faerie_dragon_youth",
+  "name": "FAERIE DRAGON YOUTH",
+  "status": "complete",
+  "size_type_alignment": "Tiny Dragon, Chaotic Good",
+  "size": "Tiny",
+  "creature_type": "Dragon",
+  "alignment": "Chaotic Good",
+  "armor_class": 13,
+  "hit_points": 21,
+  "hit_dice": "6d4 + 6",
+  "speed": "10 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +3, Perception +3, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Draconic, Sylvan; telepathy 60 ft. (faerie dragons only)",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The dragon has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 2 (1d4) Psychic damage."
+    },
+    {
+      "name": "Euphoria Breath (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn and uses all its movement on its turn to move in a random direction."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 12): At Will: Dancing Lights, Mage Hand, Minor Illusion"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Superior Invisibility",
+      "text": "The dragon casts Greater Invisibility on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    },
+    {
+      "name": "All the elements bow to fire",
+      "text": "The strongest earth melts. Water boils. Even air ignites. We are all souls of flame, and we know what it is to burn. -MARRAKE THE INCANDESCENT,"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 21 (6d4 + 6)\nSpeed 10 ft., Fly 60 ft.\nTiny Dragon, Chaotic Good\nFire Elemental\nPrimal Spirit of Heat and Flame\nHabitat: Desert, Planar (Elemental Plane of Fire); Treasure: None\nFire elementals arise when spirits of the Elemental Plane of Fire inhabit flames, burning cinders, and heated smoke. These beings are tangible despite\nlargely being made of flames and particles, and they can uses their vague limbs to ignite foes and flammable materials. Fire elementals typically burn in\nshades of orange and red, but other colors are possible. Most on the Material Plane are summoned by magical means, or they might appear near rifts amid\ndesert depths, volcanoes, wildfires, or magma flows that connect to their home plane.\nFire elementals might burn in distinctive ways. Roll on or choose a result from the Fire Elemental Compositions table to inspire a fire elemental’s features.\nFire Elemental Compositions\n1d8 \tThe Fire Elemental’s Body Features...\n1 \tColorful, superheated gases.\n2 \tA column of diabolical or divine flame.\n3 Crackling shapes that look like animals, fiends, skeletons, sprites, or other\nbeings.\n4 \tFlames that are predominantly white, blue, or a more unusual color.\n5 \tThe form of a calm or tormented humanoid.\n6 \tSmoke that forms eerie shapes or symbols.\n7 \tSoot that smells like cedar, cloves, incense, or burning meat.\n8 \tSwirls of cinders and burning debris.\nMOD \tSAVE\nSTR \t3 \t−4 \t−4\nDEX \t16 \t+3 \t+3\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t12 \t+1 \t+1\nCHA \t14 \t+2 \t+2\nSkills Arcana +3, Perception +3, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Draconic, Sylvan; telepathy 60 ft. (faerie dragons only)\nCR 1 (XP 200; PB +2)\nTraits\nMagic Resistance. The dragon has Advantage on saving throws against spells\nand other magical effects.\nActions\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 5 (1d4 + 3) Piercing damage plus 2\n(1d4) Psychic damage.\nEuphoria Breath (Recharge 5–6). Wisdom Saving Throw: DC 12, each creature\nin a 15-foot Cone.\nFailure: The target has the Incapacitated condition until\nthe end of its next turn and uses all its movement on its turn to move in a\nrandom direction.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 12):\nAt Will:\nDancing Lights,\nMage Hand,\nMinor Illusion\nBonus Actions\nSuperior Invisibility. The dragon casts\nGreater Invisibility on itself, requiring no\nspell components and using the same spellcasting ability as Spellcasting.\nAll the elements bow to fire. The strongest earth melts. Water\nboils. Even air ignites. We are all souls of flame, and we know\nwhat it is to burn.\n—MARRAKE THE INCANDESCENT, RULER OF EFREET\nFire Giant\nGiant of the Smoldering Depths\nHabitat: Mountain, Underdark; Treasure: Armaments\nFire giants inhabit the hollow vaults and molten rivers of mountainous depths. There, they use subterranean heat and riches to craft wonders, from titanic\nweapons of war to delicate works of art.\nFire giants have broad frames, skin tones in a variety of rocklike shades, and hair like flame.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "monster.berserker_commander",
+  "name": "BERSERKER COMMANDER",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 136,
+  "hit_dice": "16d8 + 64",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +7, Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Common",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [
+    {
+      "name": "Bloodied Frenzy",
+      "text": "While Bloodied, the berserker has Advantage on attack rolls and saving throws."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The berserker makes three attacks, using Greataxe or Javelin in any combination."
+    },
+    {
+      "name": "Greataxe",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Slashing damage, plus 10 (3d6) Thunder damage to the target or another creature within 5 feet of the target."
+    },
+    {
+      "name": "Javelin",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 30/120 ft. Hit: 18 (4d6 + 4) Piercing damage, and the target's Speed decreases by 5 feet until the start of the berserker's next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Frenzied Rush",
+      "text": "Each ally within 30 feet of the berserker can take a Reaction to move up to half the ally's Speed without provoking Opportunity Attacks. The berserker can also move up to half its Speed without provoking Opportunity Attacks."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +5 (15)\nHP 136 (16d8 + 64)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+7\nDEX \t14 \t+2 \t+2\nCON \t19 \t+4 \t+7\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t14 \t+2 \t+2\nCHA \t9 \t−1 \t−1\nSkills Athletics +7, Perception +5\nImmunities Charmed, Frightened\nGear Greataxe, Javelins (6)\nSenses Passive Perception 15\nLanguages Common\nCR 8 (XP 3,900; PB +3)\nTraits\nBloodied Frenzy. While Bloodied, the berserker has Advantage on attack rolls\nand saving throws.\nActions\nMultiattack. The berserker makes three attacks, using Greataxe or Javelin in\nany combination.\nGreataxe. Melee Attack Roll: +7, reach 5 ft.\nHit: 10 (1d12 + 4) Slashing damage,\nplus 10 (3d6) Thunder damage to the target or another creature within 5 feet of\nthe target.\nJavelin. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 30/120 ft.\nHit: 18\n(4d6 + 4) Piercing damage, and the target’s Speed decreases by 5 feet until the\nstart of the berserker’s next turn.\nBonus Actions\nFrenzied Rush. Each ally within 30 feet of the berserker can take a Reaction\nto move up to half the ally’s Speed without provoking Opportunity Attacks.\nThe berserker can also move up to half its Speed without provoking\nOpportunity Attacks.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

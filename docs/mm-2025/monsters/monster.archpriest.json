@@ -1,0 +1,84 @@
+{
+  "id": "monster.archpriest",
+  "name": "ARCHPRIEST",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid (Cleric), Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid (Cleric)",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 240,
+  "hit_dice": "32d8 + 96",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Insight +9, Medicine +9, Perception +9, Religion +10",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 19",
+  "languages": "Common plus two other languages",
+  "cr": "12 (XP 8,400; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The archpriest makes three Radiant Burst attacks."
+    },
+    {
+      "name": "Radiant Burst",
+      "text": "Melee or Ranged Attack Roll: +9, reach 5 ft. or range 60 ft. Hit: 27 (4d10 + 5) Radiant damage."
+    },
+    {
+      "name": "Holy Word (Recharge 4-6)",
+      "text": "Wisdom Saving Throw: DC 17, each enemy in a 20- foot Emanation originating from the archpriest. Failure: 21 (6d6) Radiant damage, and the target has the Stunned condition until the end of the archpriest's next turn. Success: Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The archpriest casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 17): At Will: Light, Thaumaturgy 1/Day Each: Flame Strike (level 6 version), Greater Restoration, Raise Dead, Zone of Truth"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Divine Aid (3/Day)",
+      "text": "The priest casts Bless, Dispel Magic, Healing Word, or Lesser Restoration, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +5 (15)\nHP 240 (32d8 + 96)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+7\nDEX \t12 \t+1 \t+1\nCON \t17 \t+3 \t+7\nMOD \tSAVE\nINT \t14 \t+2 \t+6\nWIS \t21 \t+5 \t+9\nCHA \t14 \t+2 \t+2\nSkills Insight +9, Medicine +9, Perception +9, Religion +10\nGear Chain Mail, Holy Symbol\nSenses Passive Perception 19\nLanguages Common plus two other languages\nCR 12 (XP 8,400; PB +4)\nActions\nMultiattack. The archpriest makes three Radiant Burst attacks.\nRadiant Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 60 ft.\nHit:\n27 (4d10 + 5) Radiant damage.\nHoly Word (Recharge 4–6). Wisdom Saving Throw: DC 17, each enemy in a 20-\nfoot Emanation originating from the archpriest.\nFailure: 21 (6d6) Radiant\ndamage, and the target has the Stunned condition until the end of the\narchpriest’s next turn.\nSuccess: Half damage only.\nSpellcasting. The archpriest casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 17):\nAt Will:\nLight,\nThaumaturgy\n1/Day Each:\nFlame Strike (level 6 version),\nGreater Restoration,\nRaise Dead,\nZone of Truth\nBonus Actions\nDivine Aid (3/Day). The priest casts\nBless,\nDispel Magic,\nHealing Word, or\nLesser Restoration, using the same spellcasting ability as Spellcasting.\nMedium or Small Humanoid (Cleric), Neutral\nPseudodragons grow to the size of large house cats, and most have red-brown scales. Some have scales with other hues or patterns—markings distinct\nfrom those of their larger draconic cousins.\nMany magic-users attempt to befriend pseudodragons, hoping to enlist them as familiars. The creatures’ intellect and resistance to magic make them\nexcellent companions, and they’re considered status symbols in some spellcasting circles.\nMany pseudodragons prefer the finer things in life. These diminutive dragons might be inclined to aid those who ply them with treats. Contrariwise, mages\nwho don’t properly pamper their pseudodragon familiars might be abandoned without warning. Roll on or choose an option from the Pseudodragon Treats\ntable to inspire a pseudodragon’s taste in gifts.\nPseudodragon Treats\n1d10 \tThe Pseudodragon Wants...\n1 \tFlamboyant accessories it can wear.\n2 \tMementos from a lost friend or master.\n3 \tOutlandish delicacies—like axe beak-egg omelets or mammoth-milk cheese.\n4 \tThe possessions of a sibling, rival, or master.\n5 \tShiny gifts, from gems to abalone shells.\n6 \tSoft bedding and stuffed toys.\n7 \tA specific cook’s signature dessert.\n8 \tTime-consuming beauty treatments.\n9 \tTo hear a bedtime story or favorite song.\n10 \tTrophies and important-sounding titles.\nIf you want to keep a pseudodragon happy, get used to thinking\nof yourself as its familiar.\n—Jallarzi,\npseudodragon’s companion",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

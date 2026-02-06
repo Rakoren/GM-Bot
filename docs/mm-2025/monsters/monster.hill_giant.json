@@ -1,0 +1,75 @@
+{
+  "id": "monster.hill_giant",
+  "name": "HILL GIANT",
+  "status": "complete",
+  "size_type_alignment": "Huge Giant, Chaotic Evil",
+  "size": "Huge",
+  "creature_type": "Giant",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "hit_points": 105,
+  "hit_dice": "10d12 + 40",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "Giant",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two attacks, using Tree Club or Trash Lob in any combination."
+    },
+    {
+      "name": "Tree Club",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Trash Lob",
+      "text": "Ranged Attack Roll: +8, range 60/240 ft. Hit: 16 (2d10 + 5) Bludgeoning damage, and the target has the Poisoned condition until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 105 (10d12 + 40)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+5\nDEX \t8 \t−1 \t−1\nCON \t19 \t+4 \t+4\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t9 \t−1 \t−1\nCHA \t6 \t−2 \t−2\nSkills Perception +2\nSenses Passive Perception 12\nLanguages Giant\nCR 5 (XP 1,800; PB +3)\nActions\nMultiattack. The giant makes two attacks, using Tree Club or Trash Lob in\nany combination.\nTree Club. Melee Attack Roll: +8, reach 10 ft.\nHit: 18 (3d8 + 5) Bludgeoning\ndamage. If the target is a Large or smaller creature, it has the Prone condition.\nTrash Lob. Ranged Attack Roll: +8, range 60/240 ft.\nHit: 16 (2d10 + 5)\nBludgeoning damage, and the target has the Poisoned condition until the end\nof its next turn.\nHuge Giant, Chaotic Evil\nPart hunting bird, part horse, hippogriffs are majestic creatures that hunt opportunistically as they migrate, often targeting lone travelers and livestock.\nHippogriffs might carry riders with them in their travels in return for food or other aid.\nHippogriff migrations might take months or years, and sages frequently predict their routes. Roll on or choose a result from the Hippogriff Destination table\nto inspire where a hippogriff might be en route to.\nHippogriff Destination\n1d6 \tThe Hippogriff Is Traveling to A...\n1 \tLost ruin hidden by clouds or fog.\n2 \tLow-hanging moon, star, or other solar body.\n3 \tMagical garden on a floating island.\n4 \tMountaintop with a view of a giant geoglyph.\n5 \tNest full of hippogriff eggs atop a spire.\n6 \tPortal to the Feywild or an Upper Plane.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

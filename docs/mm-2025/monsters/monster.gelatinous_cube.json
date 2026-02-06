@@ -1,0 +1,84 @@
+{
+  "id": "monster.gelatinous_cube",
+  "name": "GELATINOUS CUBE",
+  "status": "complete",
+  "size_type_alignment": "Large Ooze, Unaligned",
+  "size": "Large",
+  "creature_type": "Ooze",
+  "alignment": "Unaligned",
+  "armor_class": 6,
+  "hit_points": 63,
+  "hit_dice": "6d10 + 30",
+  "speed": "15 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 8",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Ooze Cube",
+      "text": "The cube fills its entire space and is transparent. Other creatures can enter that space, but a creature that does so is subjected to the cube's"
+    },
+    {
+      "name": "Engulf and has Disadvantage on the saving throw",
+      "text": "Creatures inside the cube have Total Cover, and the cube can hold one Large creature or up to four Medium or Small creatures inside itself at a time. As an action, a creature within 5 feet of the cube can pull a creature or an object out of the cube by succeeding on a DC 12 Strength (Athletics) check, and the puller takes 10 (3d6) Acid damage."
+    },
+    {
+      "name": "Transparent",
+      "text": "Even when the cube is in plain sight, a creature must succeed on a DC 15 Wisdom (Perception) check to notice the cube if the creature hasn't witnessed the cube move or otherwise act."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Acid damage."
+    },
+    {
+      "name": "Engulf",
+      "text": "The cube moves up to its Speed without provoking Opportunity Attacks. The cube can move through the spaces of Large or smaller creatures if it has room inside itself to contain them (see the Ooze Cube trait). Dexterity Saving Throw: DC 12, each creature whose space the cube enters for the first time during this move. Failure: 10 (3d6) Acid damage, and the target is engulfed. An engulfed target is suffocating, can't cast spells with a Verbal component, has the Restrained condition, and takes 10 (3d6) Acid damage at the start of each of the cube's turns. When the cube moves, the engulfed target moves with it. An engulfed target can try to escape by taking an action to make a DC 12 Strength (Athletics) check. On a successful check, the target escapes and enters the nearest unoccupied space. Success: Half damage, and the target moves to an unoccupied space within 5 feet of the cube. If there is no unoccupied space, the target fails the save instead."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 6 \tInitiative −4 (6)\nHP 63 (6d10 + 30)\nSpeed 15 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t3 \t−4 \t−4\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t6 \t−2 \t−2\nCHA \t1 \t−5 \t−5\nImmunities Acid; Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone\nSenses Blindsight 60 ft.; Passive Perception 8\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nOoze Cube. The cube fills its entire space and is transparent. Other creatures\ncan enter that space, but a creature that does so is subjected to the cube’s\nEngulf and has Disadvantage on the saving throw.\nCreatures inside the cube have Total Cover, and the cube can hold one Large\ncreature or up to four Medium or Small creatures inside itself at a time.\nAs an action, a creature within 5 feet of the cube can pull a creature or an\nobject out of the cube by succeeding on a DC 12 Strength (Athletics) check,\nand the puller takes 10 (3d6) Acid damage.\nTransparent. Even when the cube is in plain sight, a creature must succeed on\na DC 15 Wisdom (Perception) check to notice the cube if the creature hasn’t\nwitnessed the cube move or otherwise act.\nActions\nPseudopod. Melee Attack Roll: +4, reach 5 ft.\nHit: 12 (3d6 + 2) Acid damage.\nEngulf. The cube moves up to its Speed without provoking Opportunity\nAttacks. The cube can move through the spaces of Large or smaller creatures\nif it has room inside itself to contain them (see the Ooze Cube trait).\nDexterity\nSaving Throw: DC 12, each creature whose space the cube enters for the first\ntime during this move.\nFailure: 10 (3d6) Acid damage, and the target is\nengulfed. An engulfed target is suffocating, can’t cast spells with a Verbal\ncomponent, has the Restrained condition, and takes 10 (3d6) Acid damage at\nthe start of each of the cube’s turns. When the cube moves, the engulfed target\nmoves with it. An engulfed target can try to escape by taking an action to\nmake a DC 12 Strength (Athletics) check. On a successful check, the target\nescapes and enters the nearest unoccupied space.\nSuccess: Half damage, and\nthe target moves to an unoccupied space within 5 feet of the cube. If there is\nno unoccupied space, the target fails the save instead.\nLarge Ooze, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

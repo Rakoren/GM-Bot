@@ -1,0 +1,72 @@
+{
+  "id": "monster.basilisk",
+  "name": "BASILISK",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Unaligned",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "hit_points": 52,
+  "hit_dice": "8d8 + 16",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "None",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 7 (2d6) Poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Petrifying Gaze (Recharge 4-6)",
+      "text": "Constitution Saving Throw: DC 12, each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative −1 (9)\nHP 52 (8d8 + 16)\nSpeed 20 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t8 \t−1 \t−1\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t8 \t−1 \t−1\nCHA \t7 \t−2 \t−2\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages None\nCR 3 (XP 700; PB +2)\nActions\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3) Piercing damage plus 7\n(2d6) Poison damage.\nBonus Actions\nPetrifying Gaze (Recharge 4–6). Constitution Saving Throw: DC 12, each\ncreature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the\nbasilisk must make this save.\nFirst Failure: The target has the Restrained\ncondition and repeats the save at the end of its next turn if it is still Restrained,\nending the effect on itself on a success.\nSecond Failure: The target has the\nPetrified condition instead of the Restrained condition.\nMedium Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

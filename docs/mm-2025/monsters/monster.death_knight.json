@@ -1,0 +1,92 @@
+{
+  "id": "monster.death_knight",
+  "name": "DEATH KNIGHT",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Undead, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Chaotic Evil",
+  "armor_class": 20,
+  "hit_points": 199,
+  "hit_dice": "21d8 + 105",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 13",
+  "languages": "Abyssal, Common",
+  "cr": "17 (XP 18,000; PB +6)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "text": "If the death knight fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The death knight has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Marshal Undead",
+      "text": "Undead creatures of the death knight's choice (excluding itself) in a 60-foot Emanation originating from it have Advantage on attack rolls and saving throws. It can't use this trait if it has the Incapacitated condition."
+    },
+    {
+      "name": "Undead Restoration",
+      "text": "If the death knight is destroyed before it atones for its evil, it gains a new body in 1d10 days, reviving with all its Hit Points. The new body appears in a location significant to the death knight."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The death knight makes three Dread Blade attacks."
+    },
+    {
+      "name": "Dread Blade",
+      "text": "Melee Attack Roll: +11, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 13 (3d8) Necrotic damage."
+    },
+    {
+      "name": "Hellfire Orb (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 18, each creature in a 20-foot-radius Sphere centered on a point the death knight can see within 120 feet. Failure: 35 (10d6) Fire damage plus 35 (10d6) Necrotic damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +12 (22)\nHP 199 (21d8 + 105)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t11 \t+0 \t+6\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t16 \t+3 \t+9\nCHA \t18 \t+4 \t+4\nImmunities Necrotic, Poison; Exhaustion, Frightened, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 13\nLanguages Abyssal, Common\nCR 17 (XP 18,000; PB +6)\nTraits\nLegendary Resistance (3/Day). If the death knight fails a saving throw, it can\nchoose to succeed instead.\nMagic Resistance. The death knight has Advantage on saving throws against\nspells and other magical effects.\nMarshal Undead. Undead creatures of the death knight’s choice (excluding\nitself) in a 60-foot Emanation originating from it have Advantage on attack rolls\nand saving throws. It can’t use this trait if it has the Incapacitated condition.\nUndead Restoration. If the death knight is destroyed before it atones for its\nevil, it gains a new body in 1d10 days, reviving with all its Hit Points. The new\nbody appears in a location significant to the death knight.\nActions\nMultiattack. The death knight makes three Dread Blade attacks.\nDread Blade. Melee Attack Roll: +11, reach 5 ft.\nHit: 12 (2d6 + 5) Slashing\ndamage plus 13 (3d8) Necrotic damage.\nHellfire Orb (Recharge 5–6). Dexterity Saving Throw: DC 18, each creature in a\n20-foot-radius Sphere centered on a point the death knight can see within 120\nfeet.\nFailure: 35 (10d6) Fire damage plus 35 (10d6) Necrotic damage.\nSuccess:\nHalf damage.\nMedium or Small Undead, Chaotic Evil\nDeath Knight Aspirant\nWhen the leader of a villainous order rises as a death knight, their wicked devotees might join them in their cursed existence as death knight aspirants.\nThese followers bear a measure of their leader’s power and serve as they did in life, obediently following the death knight’s decrees and heralding its terrible\nwill.\nDeath Tyrant\nBeholder beyond Death\nHabitat: Underdark; Treasure: Any\nSpellcasting. The death knight casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 18):\nAt Will:\nCommand,\nPhantom Steed\n2/Day Each:\nDestructive Wave (Necrotic),\nDispel Magic\nReactions\nParry. Trigger: The death knight is hit by a melee attack roll while holding a\nweapon.\nResponse: The death knight adds 6 to its AC against that attack,\npossibly causing it to miss.\nLegendary Actions\nLegendary Action Uses: 3. Immediately after another creature’s turn, the death\nknight can expend a use to take one of the following actions. The death knight\nregains all expended uses at the start of each of its turns.\nDread Authority. The death knight uses Spellcasting to cast\nCommand. The\ndeath knight can’t take this action again until the start of its next turn.\nFell Word. Constitution Saving Throw: DC 18, one creature the death knight can\nsee within 120 feet.\nFailure: 17 (5d6) Necrotic damage, and the target’s Hit\nPoint maximum decreases by an amount equal to the damage taken.\nFailure\nor Success: The death knight can’t take this action again until the start of its\nnext turn.\nLunge. The death knight moves up to half its Speed, and it makes one Dread\nBlade attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

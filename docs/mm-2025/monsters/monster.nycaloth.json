@@ -1,0 +1,85 @@
+{
+  "id": "monster.nycaloth",
+  "name": "NYCALOTH",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Yugoloth), Neutral Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Yugoloth)",
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "hit_points": 152,
+  "hit_dice": "16d10 + 64",
+  "speed": "40 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 14",
+  "languages": "Abyssal, Infernal; telepathy 60 ft.",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [
+    {
+      "name": "Fiendish Restoration",
+      "text": "If the nycaloth dies outside Gehenna, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in Gehenna."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The nycaloth has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The nycaloth makes two Mercurial Axe attacks."
+    },
+    {
+      "name": "Mercurial Axe",
+      "text": "Melee or Ranged Attack Roll: +9, reach 10 ft. or range 30/90 ft. Hit: 18 (2d12 + 5) Slashing damage plus 10 (3d6) Force damage. Hit or Miss: The axe magically returns to the nycaloth's hand immediately after a ranged attack."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadowy Teleport",
+      "text": "The nycaloth has the Invisible condition for 1 minute, and it teleports up to 30 feet to an unoccupied space it can see. The condition ends early immediately after it deals damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +4 (14)\nHP 152 (16d10 + 64)\nSpeed 40 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t11 \t+0 \t+0\nCON \t19 \t+4 \t+4\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t10 \t+0 \t+0\nCHA \t15 \t+2 \t+2\nSkills Perception +4, Stealth +4\nLarge Fiend (Yugoloth), Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (N) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

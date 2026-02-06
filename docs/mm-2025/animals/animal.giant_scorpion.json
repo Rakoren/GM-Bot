@@ -1,0 +1,79 @@
+{
+  "id": "animal.giant_scorpion",
+  "name": "GIANT SCORPION",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "hit_points": 52,
+  "hit_dice": "7d10 + 14",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 9",
+  "languages": "None",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The scorpion makes two Claw attacks and one Sting attack."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape"
+    },
+    {
+      "name": "DC 13) from one of two claws",
+      "text": ""
+    },
+    {
+      "name": "Sting",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +1 (11)\nHP 52 (7d10 + 14)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t13 \t+1 \t+1\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t9 \t−1 \t−1\nCHA \t3 \t−4 \t−4\nSenses Blindsight 60 ft.; Passive Perception 9\nLanguages None\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The scorpion makes two Claw attacks and one Sting attack.\nClaw. Melee Attack Roll: +5, reach 5 ft.\nHit: 6 (1d6 + 3) Bludgeoning damage. If\nthe target is a Large or smaller creature, it has the Grappled condition (escape\nDC 13) from one of two claws.\nSting. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Piercing damage plus\n11 (2d10) Poison damage.\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

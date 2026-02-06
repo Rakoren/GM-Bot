@@ -1,0 +1,87 @@
+{
+  "id": "monster.chimera",
+  "name": "CHIMERA",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "hit_points": 114,
+  "hit_dice": "12d10 + 48",
+  "speed": "30 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 18",
+  "languages": "Understands Draconic but can’t speak",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The chimera makes one Ram attack, one Bite attack, and one Claw attack. It can replace the Claw attack with a use of Fire Breath if available."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage, or 18 (4d6 + 4) Piercing damage if the chimera had Advantage on the attack roll."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage."
+    },
+    {
+      "name": "Ram",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning damage."
+    },
+    {
+      "name": "If the target is a Medium or smaller creature, it has the Prone condition",
+      "text": ""
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 15, each creature in a 15-foot Cone. Failure: 31 (7d8) Fire damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +0 (10)\nHP 114 (12d10 + 48)\nSpeed 30 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t11 \t+0 \t+0\nCON \t19 \t+4 \t+4\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t14 \t+2 \t+2\nCHA \t10 \t+0 \t+0\nSkills Perception +8\nSenses Darkvision 60 ft.; Passive Perception 18\nLanguages Understands Draconic but can’t speak\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The chimera makes one Ram attack, one Bite attack, and\none Claw attack. It can replace the Claw attack with a use of Fire Breath\nif available.\nBite. Melee Attack Roll: +7, reach 5 ft.\nHit: 11 (2d6 + 4) Piercing damage, or 18\n(4d6 + 4) Piercing damage if the chimera had Advantage on the attack roll.\nClaw. Melee Attack Roll: +7, reach 5 ft.\nHit: 7 (1d6 + 4) Slashing damage.\nRam. Melee Attack Roll: +7, reach 5 ft.\nHit: 10 (1d12 + 4) Bludgeoning damage.\nIf the target is a Medium or smaller creature, it has the Prone condition.\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a\n15-foot Cone.\nFailure: 31 (7d8) Fire damage.\nSuccess: Half damage.\nLarge Monstrosity, Chaotic Evil\nChuuls originated in forgotten ages when aboleths and stranger beings ruled alien empires beneath the waves. The aboleths transformed numerous deep-\nsea predators into servants that could venture beyond the seas to claim more magic and creatures to exploit. Chuuls are the most enduring of these bizarre\nservants.\nMany chuuls serve aboleth overlords, carrying out their whims amid lightless seas and primeval swamps. Other chuuls obey new aberrant masters, such as\nbeholders, grells, or mind flayers. Some chuuls follow their own drives, endlessly collecting ancient magic treasures or interpreting age-old orders to bizarre\nends. Regardless of their agendas, chuuls snare creatures in their massive pincers before rendering foes helpless with their paralytic tentacles.\nChuuls don’t age and can lie dormant in hidden places for millennia before threats, ancient orders, or strange compulsions awaken them.\nClay Golem",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

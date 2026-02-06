@@ -1,0 +1,36 @@
+{
+  "id": "list.mm-2025.monsters.batch_027",
+  "name": "MM 2025 Monsters Batch 27",
+  "entries": [
+    {
+      "id": "monster.abominable_yeti",
+      "name": "ABOMINABLE YETI",
+      "file": "docs/mm-2025/monsters/monster.abominable_yeti.json"
+    },
+    {
+      "id": "monster.yeti",
+      "name": "YETI",
+      "file": "docs/mm-2025/monsters/monster.yeti.json"
+    },
+    {
+      "id": "monster.yochlol",
+      "name": "YOCHLOL",
+      "file": "docs/mm-2025/monsters/monster.yochlol.json"
+    },
+    {
+      "id": "monster.yuan_ti_abomination",
+      "name": "YUAN-TI ABOMINATION",
+      "file": "docs/mm-2025/monsters/monster.yuan_ti_abomination.json"
+    },
+    {
+      "id": "monster.yuan_ti_infiltrator",
+      "name": "YUAN-TI INFILTRATOR",
+      "file": "docs/mm-2025/monsters/monster.yuan_ti_infiltrator.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Y) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "monster.night_hag",
+  "name": "NIGHT HAG",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Neutral Evil",
+  "armor_class": 17,
+  "hit_points": 112,
+  "hit_dice": "15d8 + 45",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +6, Insight +5, Perception +5, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 15",
+  "languages": "Abyssal, Common, Infernal, Primordial",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Coven Magic",
+      "text": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC 14): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen"
+    },
+    {
+      "name": "Servant",
+      "text": "The hag must finish a Long Rest before using this trait to cast that spell again."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The hag has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Soul Bag",
+      "text": "The hag has a soul bag. While holding or carrying the bag, the hag can use its Nightmare Haunting action. The bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hag makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage. Nightmare Haunting (1/Day; Requires Soul Bag). While on the Ethereal Plane, the hag casts Dream, using the same spellcasting ability as Spellcasting. Only the hag can serve as the spell's messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the Protection from Evil and Good spell or within a"
+    },
+    {
+      "name": "Magic Circle spell",
+      "text": "If the target takes damage from the Dream spell, the target's Hit Point maximum decreases by an amount equal to that damage. If the spell kills the target, its soul is trapped in the hag's soul bag, and the target can't be raised from the dead until its soul is released."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The hag casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 14): At Will: Detect Magic, Etherealness, Magic Missile (level 4 version) 2/Day Each: Phantasmal Killer, Plane Shift (self only)"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The hag shape-shifts into a Small or Medium Humanoid, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +5 (15)\nHP 112 (15d8 + 45)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t15 \t+2 \t+2\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t14 \t+2 \t+2\nCHA \t16 \t+3 \t+3\nSkills Deception +6, Insight +5, Perception +5, Stealth +5\nResistances Cold, Fire\nImmunities Charmed\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages Abyssal, Common, Infernal, Primordial\nCR 5 (XP 1,800; PB +3)\nTraits\nCoven Magic. While within 30 feet of at least two hag allies, the hag can cast\none of the following spells, requiring no Material components, using the spell’s\nnormal casting time, and using Intelligence as the spellcasting ability (spell\nsave DC 14):\nAugury,\nFind Familiar,\nIdentify,\nLocate Object,\nScrying, or\nUnseen\nServant. The hag must finish a Long Rest before using this trait to cast that\nspell again.\nMagic Resistance. The hag has Advantage on saving throws against spells and\nother magical effects.\nSoul Bag. The hag has a soul bag. While holding or carrying the bag, the hag\ncan use its Nightmare Haunting action.\nThe bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust\nif reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding\nare released. The hag can create a new bag after 7 days.\nActions\nMultiattack. The hag makes two Claw attacks.\nClaw. Melee Attack Roll: +7, reach 5 ft.\nHit: 13 (2d8 + 4) Slashing damage.\nNightmare Haunting (1/Day; Requires Soul Bag). While on the Ethereal Plane,\nthe hag casts\nDream, using the same spellcasting ability as Spellcasting. Only\nthe hag can serve as the spell’s messenger, and the target must be a creature\nthe hag can see on the Material Plane. The spell fails and is wasted if the\ntarget is under the effect of the\nProtection from Evil and Good spell or within a\nMagic Circle spell.\nIf the target takes damage from the\nDream spell, the target’s Hit Point\nmaximum decreases by an amount equal to that damage. If the spell kills the\ntarget, its soul is trapped in the hag’s soul bag, and the target can’t be raised\nfrom the dead until its soul is released.\nSpellcasting. The hag casts one of the following spells, requiring no Material\ncomponents and using Intelligence as the spellcasting ability (spell save\nDC 14):\nAt Will:\nDetect Magic,\nEtherealness,\nMagic Missile (level 4 version)\n2/Day Each:\nPhantasmal Killer,\nPlane Shift (self only)\nBonus Actions\nShape-Shift. The hag shape-shifts into a Small or Medium Humanoid, or it\nreturns to its true form. Other than its size, its game statistics are the same in\neach form. Any equipment it is wearing or carrying isn’t transformed.\nMedium Fiend, Neutral Evil\nNightmare\nDread Steed of the Lower Planes\nHabitat: Planar (Lower Planes); Treasure: None\nNightmares resemble horses with flaming manes, burning hooves, and smoldering eyes. They terrorize weaker creatures and often ally with denizens of the\nLower Planes in committing evil acts. These supernatural horses can innately travel between the Ethereal Plane and the Material Plane, and many know\nthe locations of portals to the Lower Planes, the Shadowfell, and other sinister realms.\nNightmares’ speed, resilience, and ability to gallop between planes of existence make them steeds coveted by evildoers. Roll on or choose a result from the\nNightmare Riders table to inspire what might employ a nightmare steed.\nNightmare Riders\n1d6 \tThe Nightmare Carries...\n1 \tThe champion or messenger of an evil deity.\n2 \tA group of joyriding imps or quasits.\n3 \tAn innocent soul trapped on the wild Fiend.\n4 \tA lore-hunting mage, cultist, or lich.\n5 \tA night hag herding larvae between planes.\n6 \tA wicked cavalier, such as a death knight, an erinyes, an incubus, or a vampire.\nNobles\nRoyals and Rich Folk\nHabitat: Any; Treasure: Individual\nNobles encompass a variety of people with social influence. They might be rulers, wealthy merchants, callous bureaucrats, or the idle elite.\nNoble\nA noble’s social advantages typically grant the noble access to greater education and training than most common folk, while nobles’ experience with\nbusiness or politics makes many adept negotiators.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (N) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

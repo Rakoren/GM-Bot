@@ -1,0 +1,71 @@
+{
+  "id": "monster.pegasus",
+  "name": "PEGASUS",
+  "status": "complete",
+  "size_type_alignment": "Large Celestial, Chaotic Good",
+  "size": "Large",
+  "creature_type": "Celestial",
+  "alignment": "Chaotic Good",
+  "armor_class": 12,
+  "hit_points": 59,
+  "hit_dice": "7d10 + 21",
+  "speed": "60 ft., Fly 90 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 16",
+  "languages": "Understands Celestial, Common, Elvish, and Sylvan but can’t speak",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Hooves",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage."
+    },
+    {
+      "name": "Pegasi are the cherished steeds of our creator, Corellon",
+      "text": "To see one is a blessing, but to ride one proves nothing less than the love of the gods. -Yolande, Queen of Celene"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 59 (7d10 + 21)\nSpeed 60 ft., Fly 90 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t15 \t+2 \t+4\nCON \t16 \t+3 \t+5\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t15 \t+2 \t+4\nCHA \t13 \t+1 \t+3\nSkills Perception +6\nSenses Passive Perception 16\nLanguages Understands Celestial, Common, Elvish, and Sylvan but can’t speak\nCR 2 (XP 450; PB +2)\nActions\nHooves. Melee Attack Roll: +6, reach 5 ft.\nHit: 7 (1d6 + 4) Bludgeoning damage\nplus 5 (2d4) Radiant damage.\nLarge Celestial, Chaotic Good\nPegasi are the cherished steeds of our creator, Corellon. To see\none is a blessing, but to ride one proves nothing less than the\nlove of the gods.\n—Yolande, Queen of Celene\nAthlete\nBurlesque artist\nBusker\nCircus performer\nComedian\nContortionist\nDancer\nDaredevil\nJester\nJuggler\nMagician\nMentalist\nMime\nMinstrel\nMourner\nOral historian\nPoet\nPuppeteer\nRitualist\nStage fighter\nStoryteller\nThroat singer\nTown crier\nTrick rider\nVocalist\nWrestler\nPerformer\nCommon performers include traveling storytellers, tavern musicians, local entertainers, and chorus members performing with veteran artists. These\nperformers might be self-taught or in the early years of formal training. Most have a modest level of celebrity and two or three instruments or talents at\nwhich they excel.\nPerformer Maestro\nMaestros are headlining performers who enjoy considerable renown. They might be theaters’ marquee actors, astonishing daredevils, or jesters experienced\nat entertaining fickle royals. Some share their techniques with apprentices, while others jealously guard their secrets.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

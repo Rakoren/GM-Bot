@@ -1,0 +1,80 @@
+{
+  "id": "monster.knight",
+  "name": "KNIGHT",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 18,
+  "hit_points": 52,
+  "hit_dice": "8d8 + 16",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": "Frightened",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common plus one other language",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination."
+    },
+    {
+      "name": "Greatsword",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": "Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +0 (10)\nHP 52 (8d8 + 16)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t11 \t+0 \t+0\nCON \t14 \t+2 \t+4\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t11 \t+0 \t+2\nCHA \t15 \t+2 \t+2\nImmunities Frightened\nGear Greatsword, Heavy Crossbow, Plate Armor\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The knight makes two attacks, using Greatsword or Heavy\nCrossbow in any combination.\nGreatsword. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3) Slashing\ndamage plus 4 (1d8) Radiant damage.\nHeavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft.\nHit: 11 (2d10)\nPiercing damage plus 4 (1d8) Radiant damage.\nReactions\nParry. Trigger: The knight is hit by a melee attack roll while holding a\nweapon.\nResponse: The knight adds 2 to its AC against that attack, possibly\ncausing it to miss.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

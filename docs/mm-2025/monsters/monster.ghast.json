@@ -1,0 +1,76 @@
+{
+  "id": "monster.ghast",
+  "name": "GHAST",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "hit_points": 36,
+  "hit_dice": "8d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Stench",
+      "text": "Constitution Saving Throw: DC 10, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast's Stench for 24 hours."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 36 (8d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t17 \t+3 \t+3\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t10 \t+0 \t+2\nCHA \t8 \t−1 \t−1\nResistances Necrotic\nMedium Undead, Chaotic Evil\nGhast Gravecaller\nGhast gravecallers wield fell magic and converse with corpses. They might pose as liches or vampires.\nImmunities Poison; Charmed, Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common\nCR 2 (XP 450; PB +2)\nTraits\nStench. Constitution Saving Throw: DC 10, any creature that starts its turn in a\n5-foot Emanation originating from the ghast.\nFailure: The target has the\nPoisoned condition until the start of its next turn.\nSuccess: The target is\nimmune to this ghast’s Stench for 24 hours.\nActions\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Piercing damage plus 9\n(2d8) Necrotic damage.\nClaw. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3) Slashing damage. If\nthe target is a non-Undead creature, it is subjected to the following effect.\nConstitution Saving Throw: DC 10.\nFailure: The target has the Paralyzed\ncondition until the end of its next turn.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

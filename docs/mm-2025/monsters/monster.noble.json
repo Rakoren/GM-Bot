@@ -1,0 +1,72 @@
+{
+  "id": "monster.noble",
+  "name": "NOBLE",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "hit_points": 9,
+  "hit_dice": "2d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +5, Insight +4, Persuasion +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "Common plus two other languages",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Rapier",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "Trigger: The noble is hit by a melee attack roll while holding a weapon. Response: The noble adds 2 to its AC against that attack, possibly causing it to miss."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +1 (11)\nHP 9 (2d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t12 \t+1 \t+1\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t16 \t+3 \t+3\nSkills Deception +5, Insight +4, Persuasion +5\nGear Breastplate, Rapier\nSenses Passive Perception 12\nLanguages Common plus two other languages\nCR 1/8 (XP 25; PB +2)\nActions\nRapier. Melee Attack Roll: +3, reach 5 ft.\nHit: 5 (1d8 + 1) Piercing damage.\nReactions\nParry. Trigger: The noble is hit by a melee attack roll while holding a weapon.\nResponse: The noble adds 2 to its AC against that attack, possibly causing it\nto miss.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (N) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

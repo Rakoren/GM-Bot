@@ -1,0 +1,67 @@
+{
+  "id": "animal.warhorse",
+  "name": "WARHORSE",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 19,
+  "hit_dice": "3d10 + 3",
+  "speed": "60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Hooves",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 19 (3d10 + 3)\nSpeed 60 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t12 \t+1 \t+1\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+3\nCHA \t7 \t−2 \t−2\nSenses Passive Perception 11\nLanguages None\nCR 1/2 (XP 100; PB +2)\nActions\nHooves. Melee Attack Roll: +6, reach 5 ft.\nHit: 9 (2d4 + 4) Bludgeoning damage.\nIf the target is a Large or smaller creature and the horse moved 20+ feet\nstraight toward it immediately before the hit, the target takes an extra 5 (2d4)\nBludgeoning damage and has the Prone condition.\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

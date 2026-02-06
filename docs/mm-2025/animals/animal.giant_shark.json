@@ -1,0 +1,76 @@
+{
+  "id": "animal.giant_shark",
+  "name": "GIANT SHARK",
+  "status": "complete",
+  "size_type_alignment": "Huge Beast, Unaligned",
+  "size": "Huge",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 92,
+  "hit_dice": "8d12 + 40",
+  "speed": "5 ft., Swim 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The shark can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The shark makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +9 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 92 (8d12 + 40)\nSpeed 5 ft., Swim 60 ft.\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t11 \t+0 \t+0\nCON \t21 \t+5 \t+5\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t10 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nSkills Perception +3\nSenses Blindsight 60 ft.; Passive Perception 13\nLanguages None\nCR 5 (XP 1,800; PB +3)\nTraits\nWater Breathing. The shark can breathe only underwater.\nActions\nMultiattack. The shark makes two Bite attacks.\nBite. Melee Attack Roll: +9 (with Advantage if the target doesn’t have all its Hit\nPoints), reach 5 ft.\nHit: 22 (3d10 + 6) Piercing damage.\nHuge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

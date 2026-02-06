@@ -1,0 +1,85 @@
+{
+  "id": "monster.hobgoblin_warlord",
+  "name": "HOBGOBLIN WARLORD",
+  "status": "complete",
+  "size_type_alignment": "Medium Fey (Goblinoid), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fey (Goblinoid)",
+  "alignment": "Lawful Evil",
+  "armor_class": 20,
+  "hit_points": 112,
+  "hit_dice": "15d8 + 45",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common, Goblin",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [
+    {
+      "name": "Aura of Authority",
+      "text": "While in a 30-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hobgoblin makes three attacks, using Javelin or Longsword in any combination."
+    },
+    {
+      "name": "Javelin",
+      "text": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 11 (2d6 + 4) Piercing damage, and the target's Speed decreases by 10 feet until the start of the hobgoblin's next turn."
+    },
+    {
+      "name": "Longsword",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "Trigger: The hobgoblin is hit by a melee attack roll while holding a weapon: Response: The hobgoblin adds 3 to its AC against that attack, possibly causing it to miss. HOMUNCULI ARE AS VARIED AS THE MAGIC-USERS"
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +5 (15)\nHP 112 (15d8 + 45)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t14 \t+2 \t+5\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t14 \t+2 \t+5\nWIS \t11 \t+0 \t+3\nCHA \t15 \t+2 \t+5\nGear Javelins (9), Longsword, Plate Armor, Shield\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 6 (XP 2,300; PB +3)\nTraits\nAura of Authority. While in a 30-foot Emanation originating from the hobgoblin,\nthe hobgoblin and its allies have Advantage on attack rolls and saving throws,\nprovided the hobgoblin doesn’t have the Incapacitated condition.\nActions\nMultiattack. The hobgoblin makes three attacks, using Javelin or Longsword in\nany combination.\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft.\nHit: 11\n(2d6 + 4) Piercing damage, and the target’s Speed decreases by 10 feet until\nthe start of the hobgoblin’s next turn.\nLongsword. Melee Attack Roll: +6, reach 5 ft.\nHit: 12 (2d8 + 3)\nSlashing damage.\nReactions\nParry. Trigger: The hobgoblin is hit by a melee attack roll while holding a\nweapon:\nResponse: The hobgoblin adds 3 to its AC against that attack,\npossibly causing it to miss.\nMedium Fey (Goblinoid), Lawful Evil\nHOMUNCULI ARE AS VARIED AS THE\nMAGIC-USERS WHO CREATE THEM",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

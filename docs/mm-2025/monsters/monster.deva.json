@@ -1,0 +1,84 @@
+{
+  "id": "monster.deva",
+  "name": "DEVA",
+  "status": "complete",
+  "size_type_alignment": "Medium Celestial (Angel), Lawful Good",
+  "size": "Medium",
+  "creature_type": "Celestial (Angel)",
+  "alignment": "Lawful Good",
+  "armor_class": 17,
+  "hit_points": 229,
+  "hit_dice": "27d8 + 108",
+  "speed": "30 ft., Fly 90 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": "Insight +9, Perception +9",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 19",
+  "languages": "All; telepathy 120 ft.",
+  "cr": "10 (XP 5,900; PB +4)",
+  "traits": [
+    {
+      "name": "Exalted Restoration",
+      "text": "If the deva dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The deva has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The deva makes two Holy Mace attacks."
+    },
+    {
+      "name": "Holy Mace",
+      "text": "Melee Attack Roll: +8, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 18 (4d8) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The deva casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17): At Will: Detect Evil and Good, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell) 1/Day Each: Commune, Raise Dead"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +4 (14)\nHP 229 (27d8 + 108)\nSpeed 30 ft., Fly 90 ft. (hover)\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t18 \t+4 \t+4\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t17 \t+3 \t+3\nWIS \t20 \t+5 \t+9\nCHA \t20 \t+5 \t+9\nSkills Insight +9, Perception +9\nResistances Radiant\nImmunities Charmed, Exhaustion, Frightened\nSenses Darkvision 120 ft.; Passive Perception 19\nLanguages All; telepathy 120 ft.\nCR 10 (XP 5,900; PB +4)\nTraits\nExalted Restoration. If the deva dies outside Mount Celestia, its body\ndisappears, and it gains a new body instantly, reviving with all its Hit Points\nsomewhere in Mount Celestia.\nMagic Resistance. The deva has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The deva makes two Holy Mace attacks.\nHoly Mace. Melee Attack Roll: +8, reach 5 ft.\nHit: 7 (1d6 + 4) Bludgeoning\ndamage plus 18 (4d8) Radiant damage.\nSpellcasting. The deva casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 17):\nAt Will:\nDetect Evil and Good,\nShapechange (Beast or Humanoid form only, no\nTemporary Hit Points gained from the spell, and no Concentration or\nTemporary Hit Points required to maintain the spell)\n1/Day Each:\nCommune,\nRaise Dead\nMedium Celestial (Angel), Lawful Good\nDisplacer Beast\nDeceptive Feline Stalker\nHabitat: Forest; Treasure: None\nA displacer beast resembles a gaunt, six-legged panther with a barbed tentacle sprouting from each of its shoulders. This predator uses innate magic to\ndisplace light so it appears to be several feet away from its actual location.\nDisplacer beasts hunt not just to feed but because they enjoy killing. Once displacer beasts begin stalking prey, they can’t be deterred until either they or\ntheir quarry is slain. While displacer beasts commonly inhabit dense forests, they might pursue travelers across great distances and even into cities or\ndungeons. More cunning than mere animals, these predators might set ambushes or lie hidden for days to bring down their prey.\nDisplacer beasts sometimes pursue prey through portals to other planes of existence. As a result, these predators can be found across the multiverse,\nparticularly on the worlds of the Material Plane, in the Shadowfell, and in the Feywild. These restless hunters can destroy a land’s natural balance and drive\nother creatures to extinction. As a result, many druid circles and Fey view displacer beasts as deadly threats.\nBonus Actions\nDivine Aid (2/Day). The deva casts\nCure Wounds,\nLesser Restoration, or\nRemove Curse, using the same spellcasting ability as Spellcasting.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "monster.piercer",
+  "name": "PIERCER",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration, Unaligned",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "hit_points": 22,
+  "hit_dice": "3d8 + 9",
+  "speed": "5 ft., Climb 15 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 60 ft.; Passive Perception 8",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The piercer can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage."
+    },
+    {
+      "name": "Drop",
+      "text": "The piercer falls. Dexterity Saving Throw: DC 11, one creature directly underneath the piercer. Failure: 10 (3d6) Piercing damage. Failure or Success: The piercer reduces any damage it takes from the fall by 20."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +3 (13)\nHP 22 (3d8 + 9)\nSpeed 5 ft., Climb 15 ft.\nMOD \tSAVE\nSTR \t13 \t+1 \t+1\nDEX \t13 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t7 \t−2 \t−2\nCHA \t3 \t−4 \t−4\nSkills Stealth +5\nSenses Blindsight 30 ft., Darkvision 60 ft.; Passive Perception 8\nLanguages None\nCR 1/2 (XP 100; PB +2)\nTraits\nSpider Climb. The piercer can climb difficult surfaces, including along ceilings, without needing to\nmake an ability check.\nActions\nBite. Melee Attack Roll: +3, reach 5 ft.\nHit: 5 (1d8 + 1) Piercing damage.\nDrop. The piercer falls.\nDexterity Saving Throw: DC 11, one creature directly underneath the piercer.\nFailure: 10 (3d6) Piercing damage.\nFailure or Success: The piercer reduces any damage it takes from\nthe fall by 20.\nMedium Aberration, Unaligned\nPirates\nFreebooters and Fortune Hunters\nHabitat: Any; Treasure: Individual, Implements\nThe term “pirate” encompasses a broad range of seafarers, including vicious sea rovers, dogged privateers, cursed treasure hunters, and others who seek\nriches and fame on the seas.\nPirates might be allies, foes, wild cards, or some combination thereof. While they are the bane of merchants and coastal communities, they know secrets of\nthe sea and how to avoid aquatic threats. More unusual pirates set their sights beyond the waves, using airships, spelljamming vessels, plane-shifting craft,\nor stranger vehicles to explore and raid incredible realms.\nPirate Flags\nTo terrify opponents and spread their reputations, pirate crews fly distinctive flags. Roll twice on or choose results from the Pirate Flags table to inspire\nwhat flag a pirate crew sails under.\nPirate Flags\n1d8 \tThe Flag Shows A...\n1 \tBuccaneer\n2 \tDragon\n3 \tFiend\n4 \tGoat\n5 \tKraken\n6 \tMerfolk\n7 \tSkull\n8 \tWhale\n1d8 \tWith...\n1 \tA captain’s hat\n2 \tCrossbones\n3 \tCrossed blades\n4 \tAn eye patch\n5 \tLightning bolts\n6 \tA mug of ale\n7 \tA tattoo\n8 \tA treasure chest\nPirate\nAlong with being competent warriors, pirates are accomplished seafarers who know how to sail and maintain a ship. While some loyally follow their\ncaptains’ orders, others place greed, superstition, or self-preservation over duty.\nPirate Captain\nPirate captains command crews of pirates, dictating their destinations and targets. Captains cultivate fearsome and theatrical reputations, painting\nthemselves as larger-than-life characters to terrorize their foes, ensure the obedience of their crews, and attract followers to their banner. Many have colorful\nnicknames inspired by signature traits and deeds.\nPirate Admiral\nPirate admirals command whole pirate fleets. They undertake audacious ventures, such as challenging the navies of coastal nations, hunting legendary\nsea creatures, or carving out their own pirate kingdoms. Pirate admirals might launch their fleets from hidden fortresses where they hoard their treasure—or\nkeep maps to where they’ve hidden their riches. Some pirate admirals ally with the followers of oceanic deities, underwater dwellers, and sea monsters, as\nwell as their fellow scalawags.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

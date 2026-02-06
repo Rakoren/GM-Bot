@@ -1,0 +1,80 @@
+{
+  "id": "monster.salamander",
+  "name": "SALAMANDER",
+  "status": "complete",
+  "size_type_alignment": "Large Elemental, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Elemental",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "hit_points": 90,
+  "hit_dice": "12d10 + 24",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Primordial (Ignan)",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Fire Aura",
+      "text": "At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 7 (2d6) Fire damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict."
+    },
+    {
+      "name": "Flame Spear",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack."
+    },
+    {
+      "name": "Constrict",
+      "text": "Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 90 (12d10 + 24)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t14 \t+2 \t+2\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t12 \t+1 \t+1\nVulnerabilities Cold\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 5 (XP 1,800; PB +3)\nTraits\nFire Aura. At the end of each of the salamander’s turns, each creature of the\nsalamander’s choice in a 5-foot Emanation originating from the salamander\ntakes 7 (2d6) Fire damage.\nActions\nMultiattack. The salamander makes two Flame Spear attacks. It can replace\none attack with a use of Constrict.\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\nHit:\n13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage.\nHit or Miss: The spear\nmagically returns to the salamander’s hand immediately after a ranged attack.\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the\nsalamander can see within 10 feet.\nFailure: 11 (2d6 + 4) Bludgeoning damage\nplus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC\n14), and it has the Restrained condition until the grapple ends.\nLarge Elemental, Neutral Evil\nmassive volcanic eruptions, opening portals to burning planes, destroying Artifacts, or burning all instances of something from the multiverse.\nSatyrs\nHorned and Hoofed Revelers\nHabitat: Forest, Planar (Feywild); Treasure: Implements\nSatyrs embody the untamed joys of the wilderness. They indulge in sprees of merrymaking—eating, drinking, performing, fighting, and frolicking.\nSatyr\nSatyrs enjoy demonstrating their physicality through contests, evicting party poopers, and defending Fey realms.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "monster.bronze_dragon_wyrmling",
+  "name": "BRONZE DRAGON WYRMLING",
+  "status": "complete",
+  "size_type_alignment": "Medium Dragon (Metallic), Lawful Good",
+  "size": "Medium",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armor_class": 15,
+  "hit_points": 39,
+  "hit_dice": "6d8 + 12",
+  "speed": "30 ft., Fly 60 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Draconic",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes two Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage. Lightning Breath (Recharge 5-6) Dexterity Saving Throw: DC 12, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 16 (3d10) Lightning damage. Success: Half damage."
+    },
+    {
+      "name": "Repulsion Breath",
+      "text": "Strength Saving Throw: DC 12, each creature in a 30-foot Cone. Failure: The target is pushed up to 30 feet straight away from the dragon and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 39 (6d8 + 12)\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t10 \t+0 \t+2\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t11 \t+0 \t+2\nCHA \t15 \t+2 \t+2\nSkills Perception +4, Stealth +2\nImmunities Lightning\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nMedium Dragon (Metallic), Lawful Good\nYoung Bronze Dragon\nMany young bronze dragons become experts in a type of problem, like driving off pirates or protecting communities from storms. Young bronze dragons\ncollect friends with varied expertise, cultivating a community of experts they can rely on.\nBronze Dragon Lairs\nBronze dragons usually make their homes near or under the sea.\nThe region containing an adult or ancient bronze dragon’s lair is changed by its presence, creating the following effects:\nBuoying Currents. Creatures within 1 mile of the lair that lack a Swim Speed ignore the extra cost of movement while swimming.\nSun and Storms. While in its lair, the dragon can cast\nControl Weather, requiring no Material components and using the same spellcasting ability as its\nSpellcasting action. When casting the spell this way, the dragon can control the weather within 1 mile of its lair, regardless if the dragon is inside or outside.\nIf the dragon dies or moves its lair elsewhere, these effects end immediately.\nAdult Bronze Dragon\nLanguages Draconic\nCR 2 (XP 450; PB +2)\nTraits\nAmphibious. The dragon can breathe air and water.\nActions\nMultiattack. The dragon makes two Rend attacks.\nRend. Melee Attack Roll: +5, reach 5 ft.\nHit: 8 (1d10 + 3) Slashing damage.\nLightning Breath (Recharge 5–6) Dexterity Saving Throw: DC 12, each creature\nin a 40-foot-long, 5-foot-wide Line.\nFailure: 16 (3d10) Lightning damage.\nSuccess: Half damage.\nRepulsion Breath. Strength Saving Throw: DC 12, each creature in a 30-foot\nCone.\nFailure: The target is pushed up to 30 feet straight away from the dragon\nand has the Prone condition.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "monster.cockatrice",
+  "name": "COCKATRICE",
+  "status": "complete",
+  "size_type_alignment": "Small Monstrosity, Unaligned",
+  "size": "Small",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 22,
+  "hit_dice": "5d6 + 5",
+  "speed": "20 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Petrifying Bite",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 22 (5d6 + 5)\nSpeed 20 ft., Fly 40 ft.\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t12 \t+1 \t+1\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t13 \t+1 \t+1\nCHA \t5 \t−3 \t−3\nImmunities Petrified\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages None\nCR 1/2 (XP 100; PB +2)\nActions\nPetrifying Bite. Melee Attack Roll: +3, reach 5 ft.\nHit: 3 (1d4 + 1) Piercing\ndamage. If the target is a creature, it is subjected to the following effect.\nConstitution Saving Throw: DC 11.\nFirst Failure: The target has the\nRestrained condition. The target repeats the save at the end of its next turn if\nit is still Restrained, ending the effect on itself on a success.\nSecond Failure:\nThe target has the Petrified condition, instead of the Restrained condition,\nfor 24 hours.\nSmall Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

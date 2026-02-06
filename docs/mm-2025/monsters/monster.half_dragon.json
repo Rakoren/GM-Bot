@@ -1,0 +1,89 @@
+{
+  "id": "monster.half_dragon",
+  "name": "HALF-DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Medium Dragon, Neutral",
+  "size": "Medium",
+  "creature_type": "Dragon",
+  "alignment": "Neutral",
+  "armor_class": 18,
+  "hit_points": 105,
+  "hit_dice": "14d8 + 42",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +7, Perception +5, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Common, Draconic",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Draconic Origin",
+      "text": "The half-dragon is related to a type of dragon associated with one of the following damage types (DM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other aspects of the stat block."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The half-dragon makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +7, reach 10 ft. Hit: 6 (1d4 + 4) Slashing damage plus 7 (2d6) damage of the type chosen for the Draconic Origin trait."
+    },
+    {
+      "name": "Dragon's Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: 28 (8d6) damage of the type chosen for the Draconic"
+    },
+    {
+      "name": "Origin trait",
+      "text": "Success: Half damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Leap",
+      "text": "The half-dragon jumps up to 30 feet by spending 10 feet of movement."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +5 (15)\nHP 105 (14d8 + 42)\nSpeed 40 ft.\tMedium Dragon, Neutral\nHarpy\nWinged Voice of Doom\nHabitat: Coastal, Forest, Hill, Mountain; Treasure: Any\nHate-filled creatures, harpies strive to cause pain and bring an end to love and life. These monsters combine humanlike features with the talons and wings\nof avian scavengers. Their notorious songs compel listeners to follow them, heedless of danger. Creatures captivated by a harpy’s song frequently meet\ntheir deaths on harpies’ vicious claws or amid natural perils.\nHarpies dwell in remote, dismal places tainted by tragedy and despair. Some tales claim harpies offended the gods and were transformed as a punishment;\nharpies might also be the descendants of such cursed souls.\nEvery harpy sings a distinct song. While some songs are said to be heartbreaking in their beauty, others are wretched squawking and compel only the\nmagically enthralled.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t14 \t+2 \t+5\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t15 \t+2 \t+5\nCHA \t14 \t+2 \t+2\nSkills Athletics +7, Perception +5, Stealth +5\nResistances Damage type chosen for the Draconic Origin trait below\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15\nLanguages Common, Draconic\nCR 5 (XP 1,800; PB +3)\nTraits\nDraconic Origin. The half-dragon is related to a type of dragon associated with\none of the following damage types (DM’s choice): Acid, Cold, Fire, Lightning, or\nPoison. This choice affects other aspects of the stat block.\nActions\nMultiattack. The half-dragon makes two Claw attacks.\nClaw. Melee Attack Roll: +7, reach 10 ft.\nHit: 6 (1d4 + 4) Slashing damage plus\n7 (2d6) damage of the type chosen for the Draconic Origin trait.\nDragon’s Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature\nin a 30-foot Cone.\nFailure: 28 (8d6) damage of the type chosen for the Draconic\nOrigin trait.\nSuccess: Half damage.\nBonus Actions\nLeap. The half-dragon jumps up to 30 feet by spending 10 feet of movement.\nHell Hound\nUnrelenting Warden of the Lower Planes\nHabitat: Mountain, Planar (Lower Planes), Underdark; Treasure: None\nSpawned from the pits of Acheron, Gehenna, and the Nine Hells, hell hounds enforce the merciless order of those realms and the whims of tyrannical\nmasters. On their home planes of existence, these grim canines ensure that souls don’t escape their bleak afterlives. On the Material Plane, hell hounds\ntypically serve cruel masters—such as fire giants and cultists—who appreciate their viciousness, obedience, and fiery characteristics. Hell hounds serve\nother creatures so long as they’re given opportunities to hunt and kill, but they’re quick to turn on those who treat them as mere animals.\nHell hounds have greater cunning than normal canines. They’re skilled trackers and work together well in packs, often employing tricks and ambushes. Hell\nhounds enjoy hearing prey scream in their scorching jaws and fiery breath. They often go out of their way to draw out the terror of their victims’ final\nmoments.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

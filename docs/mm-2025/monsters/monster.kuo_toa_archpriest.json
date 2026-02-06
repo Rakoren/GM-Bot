@@ -1,0 +1,89 @@
+{
+  "id": "monster.kuo_toa_archpriest",
+  "name": "KUO-TOA ARCHPRIEST",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 105,
+  "hit_dice": "14d8 + 42",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +9, Religion +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft., Truesight 30 ft.; Passive Perception 19",
+  "languages": "Undercommon",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The kuo-toa can breathe air and water."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the kuo-toa has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The kuo-toa makes three Strange Scepter attacks."
+    },
+    {
+      "name": "Strange Scepter",
+      "text": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 20 (5d6 + 3) Lightning damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The kuo-toa casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 14): At Will: Detect Magic, Thaumaturgy 1/Day Each: Destructive Wave, Divination, Hold Monster (level 6 version), Scrying, Tongues"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shield of Faith (2/Day)",
+      "text": "The kuo-toa casts Shield of Faith, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 105 (14d8 + 42)\nSpeed 30 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t14 \t+2 \t+2\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t16 \t+3 \t+3\nCHA \t14 \t+2 \t+2\nSkills Perception +9, Religion +4\nSenses Darkvision 120 ft., Truesight 30 ft.; Passive Perception 19\nLanguages Undercommon\nCR 6 (XP 2,300; PB +3)\nTraits\nAmphibious. The kuo-toa can breathe air and water.\nSunlight Sensitivity. While in sunlight, the kuo-toa has Disadvantage on ability\nchecks and attack rolls.\nActions\nMultiattack. The kuo-toa makes three Strange Scepter attacks.\nStrange Scepter. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft.\nHit: 20 (5d6 + 3) Lightning damage.\nSpellcasting. The kuo-toa casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 14):\nAt Will:\nDetect Magic,\nThaumaturgy\n1/Day Each:\nDestructive Wave,\nDivination,\nHold Monster (level 6 version),\nScrying,\nTongues\nBonus Actions\nShield of Faith (2/Day). The kuo-toa casts\nShield of Faith, using the same\nspellcasting ability as Spellcasting.\nMedium Aberration, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "monster.blink_dog",
+  "name": "BLINK DOG",
+  "status": "complete",
+  "size_type_alignment": "Medium Fey, Lawful Good",
+  "size": "Medium",
+  "creature_type": "Fey",
+  "alignment": "Lawful Good",
+  "armor_class": 13,
+  "hit_points": 22,
+  "hit_dice": "4d8 + 4",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Blink Dog; understands Elvish and Sylvan but can’t",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Teleport (Recharge 4-6)",
+      "text": "The dog teleports up to 40 feet to an unoccupied space it can see."
+    },
+    {
+      "name": "The blob of annihilation is a coagulation of cosmic entropy conjoined to the remains of dead gods",
+      "text": "This malicious entity drifts through Wildspace and multiversal expanses inimical to life-vast regions where the chance of encountering it is low."
+    },
+    {
+      "name": "Nothing can survive within for long",
+      "text": ""
+    },
+    {
+      "name": "Only magic items and the corpses of gods and titans can endure inside the blob",
+      "text": "Because of that fact, treasure hunters and theologians sometimes give themselves the deadly task of trying to retrieve something from within the blob. This quest usually ends in annihilation, but occasionally it results in the find of a lifetime."
+    },
+    {
+      "name": "Amulet of the Planes",
+      "text": "2 \tAn Artifact of the DM's choice. 3 \tThe corpses of two gods who were entangled in battle when the blob consumed them. 4 \tA"
+    },
+    {
+      "name": "Cubic Gate",
+      "text": "5 \tA"
+    },
+    {
+      "name": "Deck of Many Things",
+      "text": "6 \tA magic key that opens a door in Sigil that no other key and no spell can open. 7 \tThe preserved corpse of an empyrean. 8 \tThe remains of half a kraken. 9 \tThe skull of a death god. 10 \tA tarrasque that just died. Honey, I've seen horrors that would make you shit your drawers and reach for the nearest drink. And then there's the blob of annihilation. If you see it, run. And if you can't get away from it, just hope you dissolve fast. -VI, ARTIFICER OF EBERRON"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 22 (4d8 + 4)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t17 \t+3 \t+3\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t13 \t+1 \t+1\nCHA \t11 \t+0 \t+0\nSkills Perception +5, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Blink Dog; understands Elvish and Sylvan but can’t\nspeak them\nMedium Fey, Lawful Good\nBlob of Annihilation\nAll-Consuming Cosmic Entropy Unleashed\nHabitat: Any; Treasure: Any\nCR 1/4 (XP 50; PB +2)\nActions\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 5 (1d4 + 3)\nPiercing damage.\nBonus Actions\nTeleport (Recharge 4–6). The dog teleports up to 40 feet to an\nunoccupied space it can see.\nThe blob of annihilation is a coagulation of cosmic entropy conjoined to the remains of dead gods. This malicious entity drifts through Wildspace and\nmultiversal expanses inimical to life—vast regions where the chance of encountering it is low.\nThe blob poses the greatest threat when disasters or nihilistic magic-users summon it to inhabited realms. Once unleashed, the blob of annihilation rolls\nacross the land in vast, cosmic gyres, with fragments of the blob splitting off to engulf targets. The blob consumes anything it encounters, sweeping\nforests, villages, and fortresses into its mass. Within the blob is an expanse without air or gravity where entropic forces destroy whatever they engulf.\nNothing can survive within for long.\nOnly magic items and the corpses of gods and titans can endure inside the blob. Because of that fact, treasure hunters and theologians sometimes give\nthemselves the deadly task of trying to retrieve something from within the blob. This quest usually ends in annihilation, but occasionally it results in the\nfind of a lifetime.\nWhen the blob appears, roll on or choose a result from the Blob of Annihilation Contents table to inspire what extraordinary thing remains within its goop.\nBlob of Annihilation Contents\n1d10 \tThe Blob Contains...\n1 \tAn\nAmulet of the Planes.\n2 \tAn Artifact of the DM’s choice.\n3 \tThe corpses of two gods who were entangled in battle when the blob consumed them.\n4 \tA\nCubic Gate.\n5 \tA\nDeck of Many Things.\n6 \tA magic key that opens a door in Sigil that no other key and no spell can open.\n7 \tThe preserved corpse of an empyrean.\n8 \tThe remains of half a kraken.\n9 \tThe skull of a death god.\n10 \tA tarrasque that just died.\nHoney, I’ve seen horrors that would make you shit your drawers\nand reach for the nearest drink. And then there’s the blob of\nannihilation. If you see it, run. And if you can’t get away from it,\njust hope you dissolve fast.\n—VI, ARTIFICER OF EBERRON",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "monster.mezzoloth",
+  "name": "MEZZOLOTH",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Yugoloth), Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Yugoloth)",
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "hit_points": 75,
+  "hit_dice": "10d8 + 30",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Acid, Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Poisoned",
+  "senses": "Blindsight 60 ft., Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Abyssal, Infernal; telepathy 60 ft.",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Fiendish Restoration",
+      "text": "If the mezzoloth dies outside Gehenna, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in Gehenna."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The mezzoloth has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The mezzoloth makes two attacks, using Claws or Mercurial Trident in any combination."
+    },
+    {
+      "name": "Claws",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from two of four claws, and it has the Restrained condition until the grapple ends."
+    },
+    {
+      "name": "Mercurial Trident",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 8 (1d8 + 4) Piercing damage plus 10 (3d6) Force damage. Hit or Miss: The trident magically returns to the mezzoloth's claw immediately after a ranged attack."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The mezzoloth casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13): 1/Day Each: Cloudkill, Darkness, Dispel Magic"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Teleport (Recharge 5-6)",
+      "text": "The mezzoloth teleports up to 60 feet to an unoccupied space it can see. It can teleport one creature it is grappling to an unoccupied space within 5 feet of its destination space."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +3 (13)\nHP 75 (10d8 + 30)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t11 \t+0 \t+0\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t14 \t+2 \t+2\nCHA \t10 \t+0 \t+0\nSkills Perception +5\nResistances Cold, Fire, Lightning\nImmunities Acid, Poison; Poisoned\nSenses Blindsight 60 ft., Darkvision 60 ft.; Passive Perception 15\nLanguages Abyssal, Infernal; telepathy 60 ft.\nCR 5 (XP 1,800; PB +3)\nTraits\nFiendish Restoration. If the mezzoloth dies outside Gehenna, its body\ndissolves into ichor, and it gains a new body instantly, reviving with all its Hit\nPoints somewhere in Gehenna.\nMagic Resistance. The mezzoloth has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The mezzoloth makes two attacks, using Claws or Mercurial\nTrident in any combination.\nClaws. Melee Attack Roll: +7, reach 5 ft.\nHit: 9 (2d4 + 4) Slashing damage. If\nthe target is a Large or smaller creature, it has the Grappled condition (escape\nDC 14) from two of four claws, and it has the Restrained condition until the\ngrapple ends.\nMercurial Trident. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60\nft.\nHit: 8 (1d8 + 4) Piercing damage plus 10 (3d6) Force damage.\nHit or Miss:\nThe trident magically returns to the mezzoloth’s claw immediately after a\nranged attack.\nSpellcasting. The mezzoloth casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 13):\n1/Day Each:\nCloudkill,\nDarkness,\nDispel Magic\nBonus Actions\nTeleport (Recharge 5–6). The mezzoloth teleports up to 60 feet to an\nunoccupied space it can see. It can teleport one creature it is grappling to an\nunoccupied space within 5 feet of its destination space.\nMedium Fiend (Yugoloth), Neutral Evil\nIn their natural forms, mimics are little more than roaming stomachs, their blobby bodies covered with alien eyes and teeth. They can alter their color,\ntexture, and dimensions to duplicate inanimate objects of their approximate size. Mimics use their disguises as both camouflage and bait. Once victims\ndraw close, mimics strike, lashing out with their sticky pseudopods and toothy mouths. After consuming victims, mimics usually relocate, change form, and\nawait their next meal.\nUse the following list to inspire mimics’ shapes:\nAltar\nBell\nBoulder\nCauldron\nChair\nChandelier\nChest\nCot\nDoor\nFloor mat\nGiant gemstone\nGravestone\nHeap of leaves\nKeg\nLadder\nLectern\nMannequin\nMirror\nObelisk\nOversize cake\nPanel of levers\nPile of bones\nPotted plant\nRow of books\nSarcophagus\nSculpture\nShip’s wheel\nSign\nStalagmite\nStump\nTable\nTapestry\nTaxidermy\nThrone\nTopiary\nWeapon rack",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

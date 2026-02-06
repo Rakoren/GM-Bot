@@ -1,0 +1,84 @@
+{
+  "id": "monster.hydra",
+  "name": "HYDRA",
+  "status": "complete",
+  "size_type_alignment": "Huge Monstrosity, Unaligned",
+  "size": "Huge",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "hit_points": 184,
+  "hit_dice": "16d12 + 80",
+  "speed": "40 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 16",
+  "languages": "None",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The hydra can hold its breath for 1 hour."
+    },
+    {
+      "name": "Multiple Heads",
+      "text": "The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken Fire damage since its last turn. The hydra regains 20 Hit Points when it grows new heads."
+    },
+    {
+      "name": "Reactive Heads",
+      "text": "For each head the hydra has beyond one, it gets an extra Reaction that can be used only for Opportunity Attacks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hydra makes as many Bite attacks as it has heads."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +4 (14)\nHP 184 (16d12 + 80)\nSpeed 40 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t12 \t+1 \t+1\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t7 \t−2 \t−2\nSkills Perception +6\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\nHuge Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

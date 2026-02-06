@@ -1,0 +1,85 @@
+{
+  "id": "monster.pirate_captain",
+  "name": "PIRATE CAPTAIN",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "hit_points": 84,
+  "hit_dice": "13d8 + 26",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +7, Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Common plus one other language",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The pirate makes three attacks, using Rapier or Pistol in any combination."
+    },
+    {
+      "name": "Rapier",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage, and the pirate has Advantage on the next attack roll it makes before the end of this turn."
+    },
+    {
+      "name": "Pistol",
+      "text": "Ranged Attack Roll: +7, range 30/90 ft. Hit: 15 (2d10 + 4) Piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Captain's Charm",
+      "text": "Wisdom Saving Throw: DC 14, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Riposte",
+      "text": "Trigger: The pirate is hit by a melee attack roll while holding a weapon. Response: The pirate adds 3 to its AC against that attack, possibly causing it to miss. On a miss, the pirate makes one Rapier attack against the triggering creature if within range."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +7 (17)\nHP 84 (13d8 + 26)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+3\nDEX \t18 \t+4 \t+7\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t14 \t+2 \t+5\nCHA \t17 \t+3 \t+6\nSkills Acrobatics +7, Perception +5\nGear Pistol, Rapier\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The pirate makes three attacks, using Rapier or Pistol in\nany combination.\nRapier. Melee Attack Roll: +7, reach 5 ft.\nHit: 13 (2d8 + 4) Piercing damage,\nand the pirate has Advantage on the next attack roll it makes before the end of\nthis turn.\nPistol. Ranged Attack Roll: +7, range 30/90 ft.\nHit: 15 (2d10 + 4)\nPiercing damage.\nBonus Actions\nCaptain’s Charm. Wisdom Saving Throw: DC 14, one creature the pirate can see\nwithin 30 feet.\nFailure: The target has the Charmed condition until the start of\nthe pirate’s next turn.\nReactions\nRiposte. Trigger: The pirate is hit by a melee attack roll while holding a\nweapon.\nResponse: The pirate adds 3 to its AC against that attack, possibly\ncausing it to miss. On a miss, the pirate makes one Rapier attack against the\ntriggering creature if within range.\nMedium or Small Humanoid, Neutral\nPit Fiend\nDevil of Domination\nHabitat: Planar (Nine Hells); Treasure: Relics\nMasterminds of the Nine Hells and generals of infernal legions, pit fiends seek conquests across the planes of existence. More than warmongers, these\ndiabolical tyrants concoct intricate plots that play out among fiendish battlefields, infernal politics, and mortal conspiracies.\nPit fiends are the nobility of the Nine Hells, and many rule Lower Planar fiefdoms, doomed mortal worlds, and other infernal redoubts. Most serve archdevils\nof the Nine Hells as they pursue their own ambitions. Ranks of lesser devils obey pit fiends, but these cunning tyrants remain on guard against betrayal\nfrom their servants.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "animal.plesiosaurus",
+  "name": "PLESIOSAURUS",
+  "status": "complete",
+  "size_type_alignment": "Large Beast (Dinosaur), Unaligned",
+  "size": "Large",
+  "creature_type": "Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 68,
+  "hit_dice": "8d10 + 24",
+  "speed": "20 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The plesiosaurus can hold its breath for 1 hour."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage. I used to just swim around the lake and eat fish, but the human who gave me this gift said I must do my part to help the"
+    },
+    {
+      "name": "Frostmaiden",
+      "text": "Now I frighten off fisherfolk and what not so I don't have to be a stupid beast again. -THE MONSTER OF MAER DUALDON,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 68 (8d10 + 24)\nSpeed 20 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t15 \t+2 \t+2\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t5 \t−3 \t−3\nSkills Perception +3, Stealth +4\nSenses Passive Perception 13\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nHold Breath. The plesiosaurus can hold its breath for 1 hour.\nActions\nBite. Melee Attack Roll: +6, reach 10 ft.\nHit: 11 (2d6 + 4) Piercing damage.\nLarge Beast (Dinosaur), Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

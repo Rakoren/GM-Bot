@@ -1,0 +1,36 @@
+{
+  "id": "list.mm-2025.monsters.batch_005",
+  "name": "MM 2025 Monsters Batch 5",
+  "entries": [
+    {
+      "id": "monster.cyclops_sentry",
+      "name": "CYCLOPS SENTRY",
+      "file": "docs/mm-2025/monsters/monster.cyclops_sentry.json"
+    },
+    {
+      "id": "monster.elemental_cultist",
+      "name": "ELEMENTAL CULTIST",
+      "file": "docs/mm-2025/monsters/monster.elemental_cultist.json"
+    },
+    {
+      "id": "monster.fiend_cultist",
+      "name": "FIEND CULTIST",
+      "file": "docs/mm-2025/monsters/monster.fiend_cultist.json"
+    },
+    {
+      "id": "monster.swarm_of_crawling_claws",
+      "name": "SWARM OF CRAWLING CLAWS",
+      "file": "docs/mm-2025/monsters/monster.swarm_of_crawling_claws.json"
+    },
+    {
+      "id": "monster.young_copper_dragon",
+      "name": "YOUNG COPPER DRAGON",
+      "file": "docs/mm-2025/monsters/monster.young_copper_dragon.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

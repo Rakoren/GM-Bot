@@ -1,0 +1,93 @@
+{
+  "id": "monster.oni",
+  "name": "ONI",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend, Lawful Evil",
+  "size": "Large",
+  "creature_type": "Fiend",
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "hit_points": 119,
+  "hit_dice": "14d10 + 42",
+  "speed": "30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +5, Deception +8, Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Common, Giant",
+  "cr": "7 (XP 2,900; PB +3)",
+  "traits": [
+    {
+      "name": "Regeneration",
+      "text": "The oni regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The oni makes two Claw or Nightmare Ray attacks. It can replace one attack with a use of Spellcasting."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage."
+    },
+    {
+      "name": "Nightmare Ray",
+      "text": "Ranged Attack Roll: +5, range 60 ft. Hit: 9 (2d6 + 2) Psychic damage, and the target has the Frightened condition until the start of the oni's next turn."
+    },
+    {
+      "name": "Shape-Shift",
+      "text": "The oni shape-shifts into a Small or Medium Humanoid or a Large Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The oni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13): 1/Day Each: Charm Person (level 2 version), Darkness, Gaseous Form, Sleep"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Invisibility",
+      "text": "The oni casts Invisibility on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +0 (10)\nHP 119 (14d10 + 42)\nSpeed 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t11 \t+0 \t+3\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t12 \t+1 \t+4\nCHA \t15 \t+2 \t+5\nSkills Arcana +5, Deception +8, Perception +4\nResistances Cold\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Common, Giant\nCR 7 (XP 2,900; PB +3)\nTraits\nRegeneration. The oni regains 10 Hit Points at the start of each of its turns if it\nhas at least 1 Hit Point.\nActions\nMultiattack. The oni makes two Claw or Nightmare Ray attacks. It can replace\none attack with a use of Spellcasting.\nClaw. Melee Attack Roll: +7, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage\nplus 9 (2d8) Necrotic damage.\nNightmare Ray. Ranged Attack Roll: +5, range 60 ft.\nHit: 9 (2d6 + 2) Psychic\ndamage, and the target has the Frightened condition until the start of the oni’s\nnext turn.\nShape-Shift. The oni shape-shifts into a Small or Medium Humanoid or\na Large Giant, or it returns to its true form. Other than its size, its game\nstatistics are the same in each form. Any equipment it is wearing or carrying\nisn’t transformed.\nSpellcasting. The oni casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 13):\n1/Day Each:\nCharm Person (level 2 version),\nDarkness,\nGaseous Form,\nSleep\nBonus Actions\nInvisibility. The oni casts\nInvisibility on itself, requiring no spell components\nand using the same spellcasting ability as Spellcasting.\nLarge Fiend, Lawful Evil\nHabitat: Underdark; Treasure: Any\nOtyughs live to eat—the more disgusting the meal, the better. They consider all non-otyughs that come within reach dishes in life’s endless buffet. In dumps,\nsewers, polluted ruins, and similar murky depths, otyughs devour garbage, carcasses, and anything else their tentacles can cram in their expansive maws.\nSome creatures ply otyughs with trash to recruit them as watchful—if disgusting—guardians.\nOtyughs often bury themselves amid trash heaps and observe their surroundings with their eye-studded stalk. They use glittery trash and telepathic urgings\nto coax creatures close, then burst from hiding, attacking with their spiny tentacles and filthy maws. Roll on or choose a result from the Otyugh Lures table\nto inspire how an otyugh tempts prey close.\nOtyugh Lures\n1d4 \tTo Attract Potential Meals, the Otyugh...\n1 \tDisguises its tentacles with garbage puppets.\n2 \tSings an enticing song in Otyugh.\n3 \tTelepathically transmits a message like “Happy good stuff here!” or “Help now! I’m too delicious?”\n4 \tTelepathically transmits an image of a large gemstone, crooked weapon, or soggy pastry.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (O) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,92 @@
+{
+  "id": "monster.iron_golem",
+  "name": "IRON GOLEM",
+  "status": "complete",
+  "size_type_alignment": "Large Construct, Unaligned",
+  "size": "Large",
+  "creature_type": "Construct",
+  "alignment": "Unaligned",
+  "armor_class": 20,
+  "hit_points": 252,
+  "hit_dice": "24d10 + 120",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 10",
+  "languages": "Understands Common plus two other languages but can’t speak",
+  "cr": "16 (XP 15,000; PB +5)",
+  "traits": [
+    {
+      "name": "Fire Absorption",
+      "text": "Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt."
+    },
+    {
+      "name": "Immutable Form",
+      "text": "The golem can't shape-shift."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The golem has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination."
+    },
+    {
+      "name": "Bladed Arm",
+      "text": "Melee Attack Roll: +12, reach 10 ft. Hit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage."
+    },
+    {
+      "name": "Fiery Bolt",
+      "text": "Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage."
+    },
+    {
+      "name": "Poison Breath (Recharge 6)",
+      "text": "Constitution Saving Throw: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +9 (19)\tLarge Construct, Unaligned\nagree to the new Terms.\nInformation\nDocument (SRD)\nWizards of the\nCoast\nMEDIA\nAPP\nproduct names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark\nHP 252 (24d10 + 120)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t24 \t+7 \t+7\nDEX \t9 \t−1 \t−1\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t11 \t+0 \t+0\nCHA \t1 \t−5 \t−5\nImmunities Fire, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed,\nPetrified, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Understands Common plus two other languages but can’t speak\nCR 16 (XP 15,000; PB +5)\nTraits\nFire Absorption. Whenever the golem is subjected to Fire damage, it regains a\nnumber of Hit Points equal to the Fire damage dealt.\nImmutable Form. The golem can’t shape-shift.\nMagic Resistance. The golem has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in\nany combination.\nBladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing\ndamage plus 10 (3d6) Fire damage.\nFiery Bolt. Ranged Attack Roll: +10, range 120 ft.\nHit: 36 (8d8) Fire damage.\nPoison Breath (Recharge 6). Constitution Saving Throw: DC 18, each creature\nin a 60-foot Cone.\nFailure: 55 (10d10) Poison damage.\nSuccess: Half damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (I) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

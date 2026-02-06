@@ -1,0 +1,72 @@
+{
+  "id": "monster.homunculus",
+  "name": "HOMUNCULUS",
+  "status": "complete",
+  "size_type_alignment": "Tiny Construct, Neutral",
+  "size": "Tiny",
+  "creature_type": "Construct",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 4,
+  "hit_dice": "1d4 + 2",
+  "speed": "20 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 4,
+      "mod": "-3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Understands Common plus one other language but can’t speak",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Telepathic Bond",
+      "text": "While the homunculus is on the same plane of existence as its master, the two of them can communicate telepathically with each other."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage, and the target is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target has the Poisoned condition until the end of the homunculus's next turn. Failure by 5 or More: The target has the Poisoned condition for 1 minute. While Poisoned, the target has the Unconscious condition, which ends early if the target takes any damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 4 (1d4 + 2)\nTiny Construct, Neutral\nHook Horror\nEcho-Stalking Underdark Hunter\nHabitat: Underdark; Treasure: None\nHook horrors are beaked predators whose forelimbs end in massive, hooklike claws. They flourish in the cavernous mazes of the Underdark, with its miles-\ndeep trenches and stalactite forests suspended over empty darkness, where they barrel through caves and swing across cavern ceilings.\nHook horrors feed opportunistically on plants, fungi, and any creatures that come close enough to hook. To perceive their surroundings, hook horrors\necholocate via a range of noises, from banging on rocks and their own bodies to vocalizations that sound like strange squawks, screams, or clicks. Only\nhook horrors know the meaning of these noises, but many people who explore the Underdark or live near deep-reaching caves have sought the sources of\nsuch sounds only to fall victim to hungry hook horrors.\nSpeed 20 ft., Fly 40 ft.\nMOD \tSAVE\nSTR \t4 \t−3 \t−3\nDEX \t15 \t+2 \t+2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+2\nCHA \t7 \t−2 \t+0\nImmunities Poison; Charmed, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Understands Common plus one other language but can’t speak\nCR 0 (XP 10; PB +2)\nTraits\nTelepathic Bond. While the homunculus is on the same plane of existence as\nits master, the two of them can communicate telepathically with each other.\nActions\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 1 Piercing damage, and the target is\nsubjected to the following effect.\nConstitution Saving Throw: DC 12.\nFailure:\nThe target has the Poisoned condition until the end of the homunculus’s next\nturn.\nFailure by 5 or More: The target has the Poisoned condition for 1 minute.\nWhile Poisoned, the target has the Unconscious condition, which ends early if\nthe target takes any damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "monster.phase_spider",
+  "name": "PHASE SPIDER",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Unaligned",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 45,
+  "hit_dice": "7d10 + 7",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Ethereal Sight",
+      "text": "The spider can see 60 feet into the Ethereal Plane while on the Material Plane and vice versa."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The spider makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage plus 9 (2d8) Poison damage. If this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the Poisoned condition for 1 hour. While Poisoned, the target also has the Paralyzed condition."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Ethereal Jaunt",
+      "text": "The spider teleports from the Material Plane to the Ethereal Plane or vice versa."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +3 (13)\nHP 45 (7d10 + 7)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t16 \t+3 \t+3\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t6 \t−2 \t−2\nSkills Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 3 (XP 700; PB +2)\nTraits\nEthereal Sight. The spider can see 60 feet into the Ethereal Plane while on the\nMaterial Plane and vice versa.\nSpider Climb. The spider can climb difficult surfaces, including along ceilings,\nwithout needing to make an ability check.\nWeb Walker. The spider ignores movement restrictions caused by webs,\nand the spider knows the location of any other creature in contact with the\nsame web.\nActions\nMultiattack. The spider makes two Bite attacks.\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 8 (1d10 + 3) Piercing damage plus 9\n(2d8) Poison damage. If this damage reduces the target to 0 Hit Points, the\ntarget becomes Stable, and it has the Poisoned condition for 1 hour. While\nPoisoned, the target also has the Paralyzed condition.\nBonus Actions\nEthereal Jaunt. The spider teleports from the Material Plane to the Ethereal\nPlane or vice versa.\nLarge Monstrosity, Unaligned\nPiercer\nAberrant Counterfeit Stalactite\nHabitat: Underdark; Treasure: Individual\nPiercers resemble stalactites, but each has a toothy maw and a single eye. They hang from cavern ceilings along routes frequented by denizens of the\nUnderdark. Piercers might lurk for months at a time, waiting for any creature of their approximate size to pass underneath. When potential meals move\nbelow, piercers release their grip and plummet, intent on impaling prey in a single strike. If they’re successful, piercers consume their meals and then slowly\nclimb to a new ambush position. If they miss or fail to slay their targets, piercers attempt to squirm away, but they’re easily dispatched by creatures aware\nof their presence.\nPiercers are the larval form of ropers. Young piercers seek to move as far from ropers as they can to avoid ropers’ undiscerning hunger. Many piercers\nmigrate vast distances through the Underdark, often to caverns or buried ruins near the surface.\nSome sages say you unknowingly occupy the same ethereally\ncoterminous point as a phase spider an average of four times\neach year.\n—Marcus Wands, doubtful authority\nRule 8: Never trust a stalactite.\n—X the Mystic’s\nRules of Dungeon Survival",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

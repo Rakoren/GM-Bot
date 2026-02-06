@@ -1,3 +1,18 @@
+const STANDARD_ARRAY_BY_CLASS_FALLBACK = {
+  Barbarian: { str: 15, dex: 13, con: 14, int: 10, wis: 12, cha: 8 },
+  Bard: { str: 8, dex: 14, con: 12, int: 13, wis: 10, cha: 15 },
+  Cleric: { str: 14, dex: 8, con: 13, int: 10, wis: 15, cha: 12 },
+  Druid: { str: 8, dex: 12, con: 14, int: 13, wis: 15, cha: 10 },
+  Fighter: { str: 15, dex: 14, con: 13, int: 8, wis: 10, cha: 12 },
+  Monk: { str: 12, dex: 15, con: 13, int: 10, wis: 14, cha: 8 },
+  Paladin: { str: 15, dex: 10, con: 13, int: 8, wis: 12, cha: 14 },
+  Ranger: { str: 12, dex: 15, con: 13, int: 8, wis: 14, cha: 10 },
+  Rogue: { str: 12, dex: 15, con: 13, int: 14, wis: 10, cha: 8 },
+  Sorcerer: { str: 10, dex: 13, con: 14, int: 8, wis: 12, cha: 15 },
+  Warlock: { str: 8, dex: 14, con: 13, int: 12, wis: 10, cha: 15 },
+  Wizard: { str: 8, dex: 12, con: 13, int: 15, wis: 14, cha: 10 },
+};
+
 const state = {
   classes: [],
   subclasses: [],
@@ -7,6 +22,7 @@ const state = {
   standardArrayByClass: {},
   standardArrayByClassNormalized: {},
   standardArrayByClassId: {},
+  standardArrayGlobal: [],
   normalizedClasses: [],
   armor: [],
   classSpells: [],
@@ -18,6 +34,9 @@ const state = {
   rareLanguages: [],
   equipmentOptions: {},
   weapons: [],
+  pointBuyCosts: {},
+  abilityMethod: 'standard',
+  abilityBonuses: { plus2: '', plus1: '' },
   adventuringPacks: {},
   inventoryItems: [],
   equippedItems: new Set(),
@@ -82,12 +101,119 @@ function normalizeName(value) {
     .trim();
 }
 
+const ABILITY_KEYS = ['str', 'dex', 'con', 'int', 'wis', 'cha'];
+const ABILITY_LABELS = {
+  str: 'Strength',
+  dex: 'Dexterity',
+  con: 'Constitution',
+  int: 'Intelligence',
+  wis: 'Wisdom',
+  cha: 'Charisma',
+};
+
+function abilityKeyFromLabel(value) {
+  const normalized = normalizeName(value);
+  if (!normalized) return '';
+  if (normalized.startsWith('str')) return 'str';
+  if (normalized.startsWith('dex')) return 'dex';
+  if (normalized.startsWith('con')) return 'con';
+  if (normalized.startsWith('int')) return 'int';
+  if (normalized.startsWith('wis')) return 'wis';
+  if (normalized.startsWith('cha')) return 'cha';
+  return '';
+}
+
 function getClassSelect() {
   return document.getElementById('class-select');
 }
 
 function getSubclassSelect() {
   return document.getElementById('subclass-select');
+}
+
+function isSpeciesSelected() {
+  const select = getSpeciesSelect();
+  return Boolean(String(select?.value || '').trim());
+}
+
+function isBackgroundSelected() {
+  const select = getBackgroundSelect();
+  return Boolean(String(select?.value || '').trim());
+}
+
+function isLineageRequired() {
+  const speciesSelect = getSpeciesSelect();
+  const speciesValue = String(speciesSelect?.value || '').trim();
+  if (!speciesValue) return false;
+  const matching = (state.lineages || []).filter(entry =>
+    normalizeKey(entry?.species_id) === normalizeKey(speciesValue)
+  );
+  return matching.length > 0;
+}
+
+function updateClassSelectAvailability() {
+  const classSelect = getClassSelect();
+  const levelSelect = getLevelSelect();
+  const subclassSelect = getSubclassSelect();
+  const backgroundSelect = getBackgroundSelect();
+  const speciesSelect = getSpeciesSelect();
+  const lineageSelect = getLineageSelect();
+  if (!classSelect || !levelSelect || !subclassSelect || !backgroundSelect || !speciesSelect) return;
+  classSelect.disabled = false;
+  levelSelect.disabled = false;
+  const hasClass = Boolean(String(classSelect.value || '').trim());
+  backgroundSelect.disabled = !hasClass;
+  if (!hasClass) {
+    backgroundSelect.value = '';
+  }
+  const hasBackground = hasClass && isBackgroundSelected();
+  speciesSelect.disabled = !hasBackground;
+  if (!hasBackground) {
+    speciesSelect.value = '';
+    if (lineageSelect) lineageSelect.value = '';
+  }
+  renderLineageOptions();
+  if (!hasClass) {
+    subclassSelect.innerHTML = '';
+    const placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.textContent = 'Choose a subclass';
+    subclassSelect.appendChild(placeholder);
+    subclassSelect.disabled = true;
+  }
+  updateAbilityScoreAvailability();
+  if (getAbilityMethod() === 'standard' && isSpeciesSelected() && isBackgroundSelected() && areAbilityScoresEmpty()) {
+    applyStandardArrayForClass();
+  }
+}
+
+function getSelectedSubclassEntry() {
+  const subclassSelect = getSubclassSelect();
+  const value = String(subclassSelect?.value || '').trim();
+  if (!value) return null;
+  return (state.subclasses || []).find(entry =>
+    normalizeKey(entry?.name) === normalizeKey(value)
+  ) || null;
+}
+
+function getSubclassFeaturesForLevel(level) {
+  const subclass = getSelectedSubclassEntry();
+  if (!subclass || !level) return [];
+  const features = [];
+  const mapping = subclass.features_by_level || {};
+  Object.entries(mapping).forEach(([lvl, entries]) => {
+    const numeric = Number(lvl);
+    if (!Number.isFinite(numeric) || numeric > level) return;
+    if (Array.isArray(entries)) {
+      entries.forEach(item => {
+        if (item && !features.includes(item)) features.push(item);
+      });
+    } else if (entries) {
+      const text = String(entries).trim();
+      if (text && !features.includes(text)) features.push(text);
+    }
+  });
+  return features;
 }
 
 function getLevelSelect() {
@@ -629,6 +755,10 @@ function getTempHpInput() {
   return document.getElementById('temp-hp-input');
 }
 
+function getHeroicInspirationInput() {
+  return document.getElementById('heroic-inspiration');
+}
+
 function getWildShapeTransformButton() {
   return document.getElementById('wild-shape-transform');
 }
@@ -802,6 +932,7 @@ function updateProficiencyBonus() {
   const row = getClassProgressionRow();
   const value = String(row?.proficiency_bonus || '').trim();
   span.textContent = value || '+2';
+  updateSpellcastingEligibility();
   updateSpellcastingStats();
   updateEquippedGearFromInventory();
   updateSpellSlotsFromProgression();
@@ -839,10 +970,11 @@ function updateClassFeatures() {
       // Keep selection stored, but don't show in class features box.
     }
   });
-    const fullList = features.concat(extraNotes);
-    box.value = fullList.join(', ');
-    renderWeaponMasteryBox();
-  }
+  const subclassFeatures = getSubclassFeaturesForLevel(level);
+  const fullList = features.concat(subclassFeatures, extraNotes);
+  box.value = fullList.join(', ');
+  renderWeaponMasteryBox();
+}
 
 function updateSpellSlotsFromProgression() {
   const row = getClassProgressionRow();
@@ -981,7 +1113,7 @@ function updateArmorTrainingEffects() {
   if (category.includes('light') && !state.armorTraining.light) untrained = true;
   if (category.includes('medium') && !state.armorTraining.medium) untrained = true;
   if (category.includes('heavy') && !state.armorTraining.heavy) untrained = true;
-  state.canCastSpells = !untrained;
+  state.canCastSpells = getClassSpellcastingEligibility() && !untrained;
   if (warning) {
     warning.textContent = untrained
       ? 'Untrained armor: Disadvantage on STR/DEX tests and you cannot cast spells.'
@@ -990,7 +1122,7 @@ function updateArmorTrainingEffects() {
   if (spellWarning) {
     spellWarning.textContent = untrained
       ? 'Spellcasting disabled while wearing untrained armor.'
-      : '';
+      : getClassSpellcastingEligibility() ? '' : 'Spellcasting unavailable at this level.';
   }
   updateSpellcastingStats();
   renderSpellBook();
@@ -1371,10 +1503,23 @@ function hasMissingRequiredSelections() {
   const missingSubclass = subclassSelect
     && !subclassSelect.disabled
     && !String(subclassSelect.value || '').trim();
+  const missingSpecies = !isSpeciesSelected();
+  const missingBackground = !isBackgroundSelected();
+  const missingLineage = isLineageRequired()
+    && !String(getLineageSelect()?.value || '').trim();
+  const languageCounts = getLanguageSelectionCounts();
+  const missingLanguages = languageCounts.extraAllowed > 0
+    && languageCounts.extraSelected < languageCounts.extraAllowed;
   const limit = state.classSkillLimit;
   const classSet = state.classSkillSelections || new Set();
   const missingClassSkills = Number.isFinite(limit) && classSet.size < limit;
-  return missingFeature || missingSubclass || missingClassSkills;
+  return missingFeature
+    || missingSubclass
+    || missingClassSkills
+    || missingSpecies
+    || missingBackground
+    || missingLineage
+    || missingLanguages;
 }
 
 function getRefreshableFeatureChoices() {
@@ -1735,7 +1880,22 @@ function getSpellcastingAbilityKey() {
   if (raw.includes('intelligence')) return 'int';
   if (raw.includes('wisdom')) return 'wis';
   if (raw.includes('charisma')) return 'cha';
-  return '';
+  const fallbackByClass = {
+    barbarian: '',
+    bard: 'cha',
+    cleric: 'wis',
+    druid: 'wis',
+    fighter: '',
+    monk: 'wis',
+    paladin: 'cha',
+    ranger: 'wis',
+    rogue: '',
+    sorcerer: 'cha',
+    warlock: 'cha',
+    wizard: 'int',
+  };
+  const className = String(classEntry?.name || '').toLowerCase().trim();
+  return fallbackByClass[className] || '';
 }
 
 function updateSpellcastingStats() {
@@ -1749,6 +1909,12 @@ function updateSpellcastingStats() {
     modInput.value = '';
     dcInput.value = '';
     atkInput.value = '';
+    const warning = getSpellcastingWarning();
+    if (warning) {
+      warning.textContent = getClassSpellcastingEligibility()
+        ? 'Spellcasting disabled while wearing untrained armor.'
+        : 'Spellcasting unavailable at this level.';
+    }
     return;
   }
   const abilityKey = getSpellcastingAbilityKey();
@@ -1757,6 +1923,8 @@ function updateSpellcastingStats() {
     modInput.value = '';
     dcInput.value = '';
     atkInput.value = '';
+    const warning = getSpellcastingWarning();
+    if (warning) warning.textContent = '';
     return;
   }
   const abilityLabels = {
@@ -1777,6 +1945,8 @@ function updateSpellcastingStats() {
     modInput.value = '';
     dcInput.value = '';
     atkInput.value = '';
+    const warning = getSpellcastingWarning();
+    if (warning) warning.textContent = '';
     return;
   }
   modInput.value = modValue >= 0 ? `+${modValue}` : `${modValue}`;
@@ -1784,6 +1954,27 @@ function updateSpellcastingStats() {
   const atk = prof + modValue;
   dcInput.value = String(dc);
   atkInput.value = atk >= 0 ? `+${atk}` : `${atk}`;
+  const warning = getSpellcastingWarning();
+  if (warning) warning.textContent = '';
+}
+
+function getClassSpellcastingEligibility() {
+  const row = getClassProgressionRow();
+  if (!row) return false;
+  const cantrips = Number(row.cantrips);
+  const prepared = Number(row.prepared_spells);
+  if (Number.isFinite(cantrips) && cantrips > 0) return true;
+  if (Number.isFinite(prepared) && prepared > 0) return true;
+  if (Number.isFinite(Number(row.pact_magic_slots)) && Number(row.pact_magic_slots) > 0) return true;
+  for (let i = 1; i <= 9; i += 1) {
+    const value = Number(row[`spell_slots_level_${i}`] ?? row[`spell_slots_${i}`]);
+    if (Number.isFinite(value) && value > 0) return true;
+  }
+  return false;
+}
+
+function updateSpellcastingEligibility() {
+  state.canCastSpells = getClassSpellcastingEligibility();
 }
 
 function updateSpeciesTraits() {
@@ -1830,9 +2021,27 @@ function getLanguageSources() {
   return { background, species };
 }
 
-function buildLanguageBaseAndCap(entries) {
+function getDefaultSpeciesLanguages(speciesName) {
+  const key = normalizeName(speciesName);
+  if (!key) return [];
+  const map = {
+    aasimar: ['Celestial'],
+    dragonborn: ['Draconic'],
+    dwarf: ['Dwarvish'],
+    elf: ['Elvish'],
+    gnome: ['Gnomish'],
+    goliath: ['Giant'],
+    halfling: ['Halfling'],
+    orc: ['Orc'],
+    tiefling: ['Infernal'],
+  };
+  return map[key] || [];
+}
+
+function buildLanguageBaseAndCap({ background, species }) {
   const baseSet = new Set();
   let extra = 0;
+  const entries = [background, species].filter(Boolean);
   entries.forEach(entry => {
     const base = entry?.language_info?.base || [];
     const count = Number(entry?.language_info?.count || 0);
@@ -1852,11 +2061,29 @@ function buildLanguageBaseAndCap(entries) {
       });
     });
   }
+  if (!baseSet.size) {
+    baseSet.add('Common');
+    getDefaultSpeciesLanguages(species?.name || '').forEach(lang => baseSet.add(lang));
+  }
   if (!Number.isFinite(extra) || extra < 0) extra = 0;
-  if (extra === 0) extra = 2;
+  if (extra === 0 && background) extra = 2;
   return { baseSet, extra };
 }
 
+function getLanguageSelectionCounts() {
+  const { background, species } = getLanguageSources();
+  const { baseSet, extra } = buildLanguageBaseAndCap({ background, species });
+  const classGrants = getClassLanguageGrants();
+  classGrants.forEach(item => baseSet.add(item));
+  const featureLanguages = getFeatureLanguageSelections();
+  featureLanguages.forEach(item => baseSet.add(item));
+  const selected = new Set(readSelectedLanguagesFromBox());
+  const extraSelected = Array.from(selected).filter(item => !baseSet.has(item));
+  return {
+    extraAllowed: Number.isFinite(extra) ? extra : 0,
+    extraSelected: extraSelected.length,
+  };
+}
 function getAllLanguages() {
   const standard = Array.isArray(state.standardLanguages)
     ? state.standardLanguages.map(row => String(row.language || '').trim()).filter(Boolean)
@@ -1911,7 +2138,7 @@ function renderLanguagesSelection(preselected = []) {
   const box = getLanguagesBox();
   if (!box) return;
   const { background, species } = getLanguageSources();
-  const { baseSet, extra } = buildLanguageBaseAndCap([background, species]);
+  const { baseSet, extra } = buildLanguageBaseAndCap({ background, species });
   const classGrants = getClassLanguageGrants();
   classGrants.forEach(item => baseSet.add(item));
   const featureLanguages = getFeatureLanguageSelections();
@@ -2001,6 +2228,30 @@ function getAbilityInputs() {
       mod: document.getElementById('charisma-mod'),
     },
   };
+}
+
+function getAbilityMethodSelect() {
+  return document.getElementById('ability-method-select');
+}
+
+function getAbilityBonusPlus2Select() {
+  return document.getElementById('ability-bonus-plus2');
+}
+
+function getAbilityBonusPlus1Select() {
+  return document.getElementById('ability-bonus-plus1');
+}
+
+function getPointBuyRemainingEl() {
+  return document.getElementById('point-buy-remaining');
+}
+
+function getPointBuyRow() {
+  return document.getElementById('point-buy-row');
+}
+
+function getAbilityScoreStatusEl() {
+  return document.getElementById('ability-score-status');
 }
 
 function getBackgroundSelect() {
@@ -2481,11 +2732,31 @@ function getSelectedClassEntry() {
   return byName || null;
 }
 
+function hydrateStandardArrayFallback() {
+  const hasData = state.standardArrayByClass && Object.keys(state.standardArrayByClass).length > 0;
+  if (hasData) return;
+  state.standardArrayByClass = { ...STANDARD_ARRAY_BY_CLASS_FALLBACK };
+  state.standardArrayByClassNormalized = Object.entries(state.standardArrayByClass).reduce((acc, [name, values]) => {
+    acc[normalizeName(name)] = values;
+    return acc;
+  }, {});
+  const byId = {};
+  (state.classes || []).forEach(entry => {
+    const nameKey = normalizeName(entry?.name || '');
+    if (!nameKey) return;
+    const values = state.standardArrayByClassNormalized?.[nameKey];
+    if (!values) return;
+    if (entry?.class_id) byId[entry.class_id] = values;
+  });
+  state.standardArrayByClassId = byId;
+}
+
 function getStandardArrayForClass() {
+  hydrateStandardArrayFallback();
   const classSelect = getClassSelect();
-  if (!classSelect) return null;
+  if (!classSelect) return [15, 14, 13, 12, 10, 8];
   const rawValue = String(classSelect.value || '').trim();
-  if (!rawValue) return null;
+  if (!rawValue) return [15, 14, 13, 12, 10, 8];
   const byId = state.standardArrayByClassId?.[rawValue];
   if (byId) return byId;
   const entry = getSelectedClassEntry();
@@ -2494,7 +2765,9 @@ function getStandardArrayForClass() {
     state.standardArrayByClassNormalized?.[nameKey]
     || state.standardArrayByClass?.[entry?.name]
     || state.standardArrayByClass?.[rawValue]
-    || null
+    || (Array.isArray(state.standardArrayGlobal) && state.standardArrayGlobal.length
+      ? state.standardArrayGlobal
+      : [15, 14, 13, 12, 10, 8])
   );
 }
 
@@ -2555,6 +2828,265 @@ function updateHitDiceTotal() {
       spentInput.value = String(level);
     }
   }
+}
+
+function updateAbilityScoreAvailability() {
+  const abilityInputs = getAbilityInputs();
+  const enabled = isSpeciesSelected() && isBackgroundSelected();
+  Object.values(abilityInputs).forEach(inputs => {
+    if (!inputs?.score) return;
+    inputs.score.disabled = !enabled;
+  });
+  const methodSelect = getAbilityMethodSelect();
+  if (methodSelect) methodSelect.disabled = !enabled;
+  const plus2Select = getAbilityBonusPlus2Select();
+  const plus1Select = getAbilityBonusPlus1Select();
+  if (plus2Select) plus2Select.disabled = !enabled;
+  if (plus1Select) plus1Select.disabled = !enabled;
+}
+
+function getAbilityMethod() {
+  const select = getAbilityMethodSelect();
+  return String(select?.value || state.abilityMethod || 'standard').trim();
+}
+
+function setAbilityMethod(value) {
+  const method = String(value || 'standard').trim();
+  state.abilityMethod = method || 'standard';
+  const select = getAbilityMethodSelect();
+  if (select) select.value = state.abilityMethod;
+  applyStandardArrayForClass();
+  updateAbilityScoreStatus();
+}
+
+function getAbilityBonusSelections() {
+  const plus2 = String(getAbilityBonusPlus2Select()?.value || '').trim();
+  const plus1 = String(getAbilityBonusPlus1Select()?.value || '').trim();
+  return { plus2, plus1 };
+}
+
+function getAbilityBonusMap() {
+  const selections = getAbilityBonusSelections();
+  const map = {};
+  if (selections.plus2) map[selections.plus2] = (map[selections.plus2] || 0) + 2;
+  if (selections.plus1) map[selections.plus1] = (map[selections.plus1] || 0) + 1;
+  return map;
+}
+
+function getAbilityScoresTotal() {
+  const inputs = getAbilityInputs();
+  return ABILITY_KEYS.reduce((acc, key) => {
+    const value = Number(inputs[key]?.score?.value);
+    acc[key] = Number.isFinite(value) ? value : null;
+    return acc;
+  }, {});
+}
+
+function areAbilityScoresEmpty() {
+  const totals = getAbilityScoresTotal();
+  return ABILITY_KEYS.every(key => !Number.isFinite(totals[key]));
+}
+
+function getAbilityScoresBase() {
+  const totals = getAbilityScoresTotal();
+  const bonuses = getAbilityBonusMap();
+  const base = {};
+  ABILITY_KEYS.forEach(key => {
+    const total = totals[key];
+    const bonus = bonuses[key] || 0;
+    base[key] = Number.isFinite(total) ? total - bonus : null;
+  });
+  return base;
+}
+
+function getPointBuyCostTable() {
+  const table = state.pointBuyCosts || {};
+  const keys = Object.keys(table);
+  if (keys.length) return table;
+  return {
+    8: 0,
+    9: 1,
+    10: 2,
+    11: 3,
+    12: 4,
+    13: 5,
+    14: 7,
+    15: 9,
+  };
+}
+
+function getStandardArrayValues() {
+  const array = getStandardArrayForClass();
+  if (Array.isArray(array)) return array.map(Number).filter(Number.isFinite);
+  if (array && typeof array === 'object') {
+    const values = ABILITY_KEYS.map(key => Number(array[key]));
+    if (values.every(Number.isFinite)) return values;
+  }
+  return [15, 14, 13, 12, 10, 8];
+}
+
+function validateAbilityScores() {
+  const method = getAbilityMethod();
+  const totals = getAbilityScoresTotal();
+  const base = getAbilityScoresBase();
+  const plus2 = getAbilityBonusPlus2Select()?.value || '';
+  const plus1 = getAbilityBonusPlus1Select()?.value || '';
+  const backgroundSelect = getBackgroundSelect();
+  const backgroundName = String(backgroundSelect?.value || '').trim();
+  const background = state.backgrounds.find(entry =>
+    normalizeKey(entry?.name) === normalizeKey(backgroundName)
+  );
+  const requiresBonus = Array.isArray(background?.ability_scores) && background.ability_scores.length > 0;
+  const allowedBonuses = (background?.ability_scores || [])
+    .map(abilityKeyFromLabel)
+    .filter(Boolean);
+  if (requiresBonus && (!plus2 || !plus1)) {
+    return { ok: false, message: 'Select background ability score bonuses.' };
+  }
+  if (plus2 && plus1 && plus2 === plus1) {
+    return { ok: false, message: 'Background ability bonuses must be different.' };
+  }
+  if (requiresBonus && allowedBonuses.length) {
+    if (plus2 && !allowedBonuses.includes(plus2)) {
+      return { ok: false, message: 'Background +2 must be one of the allowed abilities.' };
+    }
+    if (plus1 && !allowedBonuses.includes(plus1)) {
+      return { ok: false, message: 'Background +1 must be one of the allowed abilities.' };
+    }
+  }
+  for (const key of ABILITY_KEYS) {
+    const total = totals[key];
+    if (!Number.isFinite(total)) {
+      return { ok: false, message: 'Enter all ability scores.' };
+    }
+    if (total > 20) {
+      return { ok: false, message: 'Ability scores can’t exceed 20 at level 1.' };
+    }
+  }
+  if (method === 'standard') {
+    const standard = getStandardArrayValues().slice().sort((a, b) => a - b).join(',');
+    const values = ABILITY_KEYS.map(key => base[key]).filter(Number.isFinite).sort((a, b) => a - b).join(',');
+    if (values !== standard) {
+      return { ok: false, message: 'Ability scores must match the Standard Array after bonuses.' };
+    }
+  } else if (method === 'point_buy') {
+    const costs = getPointBuyCostTable();
+    let totalCost = 0;
+    for (const key of ABILITY_KEYS) {
+      const score = base[key];
+      if (!Number.isFinite(score)) {
+        return { ok: false, message: 'Enter all ability scores.' };
+      }
+      if (score < 8 || score > 15) {
+        return { ok: false, message: 'Point Buy scores must be between 8 and 15 before bonuses.' };
+      }
+      const cost = Number(costs[String(score)]);
+      if (!Number.isFinite(cost)) {
+        return { ok: false, message: 'Point Buy scores must be between 8 and 15.' };
+      }
+      totalCost += cost;
+    }
+    if (totalCost > 27) {
+      return { ok: false, message: 'Point Buy exceeds 27 points.' };
+    }
+  } else {
+    for (const key of ABILITY_KEYS) {
+      const score = base[key];
+      if (!Number.isFinite(score)) {
+        return { ok: false, message: 'Enter all ability scores.' };
+      }
+      if (score < 3) {
+        return { ok: false, message: 'Ability scores must be 3 or higher.' };
+      }
+    }
+  }
+  return { ok: true, message: '' };
+}
+
+function updateAbilityScoreStatus() {
+  const statusEl = getAbilityScoreStatusEl();
+  const remainingEl = getPointBuyRemainingEl();
+  const pointBuyRow = getPointBuyRow();
+  const method = getAbilityMethod();
+  if (pointBuyRow) {
+    pointBuyRow.style.display = method === 'point_buy' ? 'flex' : 'none';
+  }
+  if (remainingEl) {
+    remainingEl.textContent = '';
+  }
+  if (statusEl) statusEl.textContent = '';
+  if (method !== 'point_buy') {
+    if (remainingEl) remainingEl.textContent = '';
+  } else {
+    const costs = getPointBuyCostTable();
+    const base = getAbilityScoresBase();
+    let totalCost = 0;
+    let hasInvalid = false;
+    ABILITY_KEYS.forEach(key => {
+      const score = base[key];
+      if (!Number.isFinite(score)) {
+        hasInvalid = true;
+        return;
+      }
+      const cost = Number(costs[String(score)]);
+      if (!Number.isFinite(cost)) {
+        hasInvalid = true;
+        return;
+      }
+      totalCost += cost;
+    });
+    const remaining = 27 - totalCost;
+    if (remainingEl) remainingEl.textContent = Number.isFinite(remaining) ? String(remaining) : '';
+    if (statusEl && hasInvalid) {
+      statusEl.textContent = 'Point Buy scores must be 8–15 before bonuses.';
+    }
+  }
+  const totals = getAbilityScoresTotal();
+  const hasAny = Object.values(totals).some(value => Number.isFinite(value));
+  if (!hasAny) {
+    if (statusEl) statusEl.textContent = '';
+    return;
+  }
+  const validation = validateAbilityScores();
+  if (statusEl && !validation.ok) {
+    statusEl.textContent = validation.message;
+  }
+}
+
+function renderAbilityBonusOptions() {
+  const plus2Select = getAbilityBonusPlus2Select();
+  const plus1Select = getAbilityBonusPlus1Select();
+  if (!plus2Select || !plus1Select) return;
+  const backgroundSelect = getBackgroundSelect();
+  const chosen = String(backgroundSelect?.value || '').trim();
+  const background = state.backgrounds.find(entry =>
+    normalizeKey(entry?.name) === normalizeKey(chosen)
+  );
+  const allowed = (background?.ability_scores || []).map(abilityKeyFromLabel).filter(Boolean);
+  const options = allowed.length ? allowed : ABILITY_KEYS;
+  const createOptions = select => {
+    const prev = String(select.value || '').trim();
+    select.innerHTML = '';
+    const placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.textContent = 'Select ability';
+    select.appendChild(placeholder);
+    options.forEach(key => {
+      const option = document.createElement('option');
+      option.value = key;
+      option.textContent = ABILITY_LABELS[key] || key.toUpperCase();
+      select.appendChild(option);
+    });
+    if (options.includes(prev)) {
+      select.value = prev;
+    }
+  };
+  createOptions(plus2Select);
+  createOptions(plus1Select);
+  if (getAbilityMethod() === 'standard' && areAbilityScoresEmpty()) {
+    applyStandardArrayForClass();
+  }
+  updateAbilityScoreStatus();
 }
 
 function populateAttackNames(names, force = false) {
@@ -2725,8 +3257,22 @@ function updateEquippedGearFromInventory() {
       return;
     }
   const masterySet = getSelectedWeaponMasterySet();
-  const leftKey = state.handEquip?.left || null;
-  const rightKey = state.handEquip?.right || null;
+  let leftKey = state.handEquip?.left || null;
+  let rightKey = state.handEquip?.right || null;
+  if (leftKey && !isWeaponTrainedForKey(leftKey)) {
+    leftKey = null;
+    state.handEquip.left = null;
+  }
+  if (rightKey && !isWeaponTrainedForKey(rightKey)) {
+    rightKey = null;
+    state.handEquip.right = null;
+  }
+  if (state.equippedArmorKey) {
+    const armorItem = (state.inventoryItems || []).find(entry => entry.key === state.equippedArmorKey);
+    if (armorItem && !isArmorTrainedForItem(armorItem)) {
+      state.equippedArmorKey = null;
+    }
+  }
   const bothSame = leftKey && rightKey && leftKey === rightKey;
   const keyEntries = [];
   if (leftKey) keyEntries.push({ key: leftKey, hand: 'left' });
@@ -2939,6 +3485,9 @@ function buildShopItems() {
 }
 
 function openInventoryModal(mode = 'add') {
+  if (!state.inventoryOverride) {
+    state.inventoryOverride = true;
+  }
   const modal = getInventoryModal();
   const title = getInventoryModalTitle();
   const search = getInventoryModalSearch();
@@ -3045,6 +3594,9 @@ function openInventoryModal(mode = 'add') {
 }
 
 async function openTradeModal() {
+  if (!state.inventoryOverride) {
+    state.inventoryOverride = true;
+  }
   const modal = getTradeModal();
   const playerSelect = getTradePlayerSelect();
   const itemInput = getTradeItemName();
@@ -3133,6 +3685,17 @@ function normalizeCurrency() {
   }
 }
 
+function applyInventoryEnforcement() {
+  const add = getInventoryAddButton();
+  const shop = getInventoryShopButton();
+  const sell = getInventorySellButton();
+  const trade = getInventoryTradeButton();
+  if (add) add.disabled = false;
+  if (shop) shop.disabled = false;
+  if (sell) sell.disabled = false;
+  if (trade) trade.disabled = false;
+}
+
 function splitItemQuantity(raw) {
   const text = String(raw || '').trim();
   if (!text) return { name: '', qty: 1 };
@@ -3163,10 +3726,36 @@ function getWeaponMetaByKey(key) {
   });
   return {
     name: match.name,
+    category: match.category || '',
     properties: props.join(', '),
     twoHanded: props.some(prop => /two[-\s]?handed/i.test(prop)),
     versatile: props.some(prop => /versatile/i.test(prop)),
   };
+}
+
+function isWeaponTrainedForKey(key) {
+  const weapon = getWeaponRowByKey(key);
+  if (!weapon) return true;
+  const category = String(weapon.category || '').toLowerCase();
+  const training = state.weaponTraining || getWeaponTrainingFromClass();
+  const isSimple = category.includes('simple');
+  const isMartial = category.includes('martial');
+  if (isSimple) {
+    return training.simpleMelee || training.simpleRanged;
+  }
+  if (isMartial) {
+    return training.martialMelee || training.martialRanged;
+  }
+  return true;
+}
+
+function isArmorTrainedForItem(item) {
+  const category = String(item?.category || '').toLowerCase();
+  if (isShieldItem(item)) return Boolean(state.armorTraining?.shields);
+  if (category.includes('light')) return Boolean(state.armorTraining?.light);
+  if (category.includes('medium')) return Boolean(state.armorTraining?.medium);
+  if (category.includes('heavy')) return Boolean(state.armorTraining?.heavy);
+  return true;
 }
 
 function isShieldItem(item) {
@@ -3235,6 +3824,11 @@ function toggleHandEquip(item, side) {
 function toggleArmorEquip(item) {
   const key = item?.key;
   if (!key) return;
+  if (!isArmorTrainedForItem(item)) {
+    const warning = getArmorTrainingWarning();
+    if (warning) warning.textContent = 'Cannot equip armor you are not trained to use.';
+    return;
+  }
   if (state.equippedArmorKey === key) {
     state.equippedArmorKey = null;
     const select = getArmorSelect();
@@ -3369,6 +3963,15 @@ function renderInventoryOptions() {
 
 function toggleEquipItem(item) {
   if (!item?.key) return;
+  if (item.category === 'weapons' && !isWeaponTrainedForKey(item.key)) {
+    window.alert('You are not proficient with that weapon.');
+    return;
+  }
+  if (item.category === 'armor' && !isArmorTrainedForItem(item)) {
+    const warning = getArmorTrainingWarning();
+    if (warning) warning.textContent = 'Cannot equip armor you are not trained to use.';
+    return;
+  }
   const equipped = state.equippedItems || new Set();
   if (equipped.has(item.key)) {
     equipped.delete(item.key);
@@ -3422,7 +4025,7 @@ function renderInventoryTables() {
       (item.pack?.items || []).forEach(packItem => {
         const parsed = splitItemQuantity(packItem?.name || packItem);
         const packRow = document.createElement('tr');
-        const qty = Number(parsed.qty) || packItem?.qty || 1;
+        const qty = Number(packItem?.qty) || Number(parsed.qty) || 1;
         const name = parsed.name || packItem?.name || String(packItem || '').trim();
         packRow.innerHTML = `
           <td>${qty}</td>
@@ -3533,10 +4136,23 @@ function updateInventory() {
   if (state.handEquip?.right && !currentKeys.has(state.handEquip.right)) {
     state.handEquip.right = null;
   }
+  if (state.equippedArmorKey) {
+    const armorItem = (state.inventoryItems || []).find(entry => entry.key === state.equippedArmorKey);
+    if (armorItem && !isArmorTrainedForItem(armorItem)) {
+      state.equippedArmorKey = null;
+    }
+  }
+  if (state.handEquip?.left && !isWeaponTrainedForKey(state.handEquip.left)) {
+    state.handEquip.left = null;
+  }
+  if (state.handEquip?.right && !isWeaponTrainedForKey(state.handEquip.right)) {
+    state.handEquip.right = null;
+  }
   renderInventoryOptions();
   renderInventoryTables();
   updateEquippedGearFromInventory();
   updateCurrencyFromEquipment();
+  applyInventoryEnforcement();
 }
 
 function formatLevelLabel(level) {
@@ -3620,6 +4236,7 @@ function buildWizardPayload() {
   const maxHpInput = getMaxHpInput();
   const currentHpInput = getCurrentHpInput();
   const tempHpInput = getTempHpInput();
+  const heroicInspirationInput = getHeroicInspirationInput();
   const preparedNames = getPreparedSpellNames();
   const cantripNames = new Set(
     state.classSpells
@@ -3679,6 +4296,7 @@ function buildWizardPayload() {
     combat_max_hp: String(maxHpInput?.value || '').trim(),
     combat_current_hp: String(currentHpInput?.value || '').trim(),
     combat_temp_hp: String(tempHpInput?.value || '').trim(),
+    heroic_inspiration: String(!!heroicInspirationInput?.checked),
   };
 }
 
@@ -3688,6 +4306,18 @@ async function saveWizardProfile() {
   if (status) status.textContent = 'Saving...';
   if (saveButton) saveButton.disabled = true;
   try {
+    const abilityValidation = validateAbilityScores();
+    if (!abilityValidation.ok) {
+      if (status) status.textContent = abilityValidation.message || 'Ability scores invalid.';
+      if (saveButton) saveButton.disabled = false;
+      return;
+    }
+    if (hasMissingRequiredSelections()) {
+      if (status) status.textContent = 'Complete required selections first.';
+      maybePromptLevelSelections();
+      if (saveButton) saveButton.disabled = false;
+      return;
+    }
     const payload = buildWizardPayload();
     const response = await fetch('/api/player/wizard/save', {
       method: 'POST',
@@ -3877,6 +4507,12 @@ function updateMaxSpellLevel() {
     renderPreparedSpells();
     return;
   }
+  if (!getClassSpellcastingEligibility()) {
+    state.maxSpellLevel = null;
+    renderSpellBook();
+    renderPreparedSpells();
+    return;
+  }
   const row = (state.classProgression || []).find(entry =>
     String(entry.class_id || '') === String(classId) && String(entry.level || '') === String(level)
   );
@@ -3914,6 +4550,12 @@ async function populateClassSpellList() {
     renderPreparedSpells();
     return;
   }
+  if (!getClassSpellcastingEligibility()) {
+    state.classSpells = [];
+    renderSpellBook();
+    renderPreparedSpells();
+    return;
+  }
   try {
     const response = await fetch(`/api/player/wizard/class-spells?class=${encodeURIComponent(classValue)}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -3937,18 +4579,38 @@ async function populateClassSpellList() {
 }
 
 function applyStandardArrayForClass() {
+  if (getAbilityMethod() !== 'standard') return;
   const array = getStandardArrayForClass();
   if (!array) return;
   const toScore = value => {
     const parsed = Number(value);
     return Number.isFinite(parsed) ? parsed : null;
   };
-  setAbilityScore('str', toScore(array.str));
-  setAbilityScore('dex', toScore(array.dex));
-  setAbilityScore('con', toScore(array.con));
-  setAbilityScore('int', toScore(array.int));
-  setAbilityScore('wis', toScore(array.wis));
-  setAbilityScore('cha', toScore(array.cha));
+  const bonuses = getAbilityBonusMap();
+  const base = Array.isArray(array)
+    ? {
+        str: toScore(array[0]),
+        dex: toScore(array[1]),
+        con: toScore(array[2]),
+        int: toScore(array[3]),
+        wis: toScore(array[4]),
+        cha: toScore(array[5]),
+      }
+    : {
+        str: toScore(array.str),
+        dex: toScore(array.dex),
+        con: toScore(array.con),
+        int: toScore(array.int),
+        wis: toScore(array.wis),
+        cha: toScore(array.cha),
+      };
+  ABILITY_KEYS.forEach(key => {
+    const baseScore = base[key];
+    if (!Number.isFinite(baseScore)) return;
+    const total = baseScore + (bonuses[key] || 0);
+    setAbilityScore(key, total);
+  });
+  updateAbilityScoreStatus();
 }
 
 function renderArmorOptions() {
@@ -4083,6 +4745,8 @@ async function loadWizardData() {
     state.standardArrayByClass = data?.standardArrayByClass || {};
     state.standardArrayByClassNormalized = data?.standardArrayByClassNormalized || {};
     state.standardArrayByClassId = data?.standardArrayByClassId || {};
+    state.standardArrayGlobal = Array.isArray(data?.standardArrayGlobal) ? data.standardArrayGlobal : [];
+    state.pointBuyCosts = data?.pointBuyCosts || {};
     state.normalizedClasses = Array.isArray(data?.normalizedClasses) ? data.normalizedClasses : [];
     state.armor = Array.isArray(data?.armor) ? data.armor : [];
     state.weapons = Array.isArray(data?.weapons) ? data.weapons : [];
@@ -4112,6 +4776,13 @@ async function loadWizardData() {
     renderLineageOptions();
     renderArmorOptions();
     renderInventoryOptions();
+    applyInventoryEnforcement();
+    renderAbilityBonusOptions();
+    setAbilityMethod(state.abilityMethod);
+    updateClassSelectAvailability();
+    if (getAbilityMethod() === 'standard' && areAbilityScoresEmpty()) {
+      applyStandardArrayForClass();
+    }
   } catch (err) {
     console.error('Failed to load wizard data', err);
     classSelect.innerHTML = '<option value="">Unable to load classes</option>';
@@ -4273,6 +4944,9 @@ async function applyProfile(profile = {}) {
   }
   updateSpeciesTraits();
   updateFeatsFromBackground();
+  updateSpellcastingEligibility();
+  renderAbilityBonusOptions();
+  updateClassSelectAvailability();
   const savedLanguages = String(profile.languages || '')
     .split(',')
     .map(item => item.trim())
@@ -4290,6 +4964,7 @@ async function applyProfile(profile = {}) {
   }
   refreshSkillProficiencies(false);
   applyStandardArrayForClass();
+  updateAbilityScoreStatus();
   updateInitiativeScore();
   updateArmorClass();
   updateHitPoints();
@@ -4301,6 +4976,10 @@ async function applyProfile(profile = {}) {
   if (profile.combat_temp_hp) {
     const tempHp = getTempHpInput();
     if (tempHp) tempHp.value = String(profile.combat_temp_hp || '');
+  }
+  const heroicInspirationInput = getHeroicInspirationInput();
+  if (heroicInspirationInput) {
+    heroicInspirationInput.checked = String(profile.heroic_inspiration) === 'true';
   }
   const savedCantrips = String(profile.cantrips || '')
     .split(',')
@@ -4646,6 +5325,13 @@ async function startNewCharacter() {
   Object.keys(abilities).forEach(key => {
     setAbilityScore(key, Number.NaN);
   });
+  const abilityMethodSelect = getAbilityMethodSelect();
+  if (abilityMethodSelect) abilityMethodSelect.value = 'standard';
+  const bonusPlus2 = getAbilityBonusPlus2Select();
+  if (bonusPlus2) bonusPlus2.value = '';
+  const bonusPlus1 = getAbilityBonusPlus1Select();
+  if (bonusPlus1) bonusPlus1.value = '';
+  state.abilityMethod = 'standard';
   const levelSelect = getLevelSelect();
   if (levelSelect) levelSelect.value = '0';
   const maxHp = getMaxHpInput();
@@ -4664,6 +5350,7 @@ async function startNewCharacter() {
   updateSpeciesTraits();
   updateFeatsFromBackground();
   renderLanguagesSelection([]);
+  updateAbilityScoreStatus();
   state.pendingFirstLevelPrompt = true;
   state.forceFirstLevelModal = true;
   const classSelect = getClassSelect();
@@ -4683,6 +5370,13 @@ async function startNewCharacterSilently() {
   Object.keys(abilities).forEach(key => {
     setAbilityScore(key, Number.NaN);
   });
+  const abilityMethodSelect = getAbilityMethodSelect();
+  if (abilityMethodSelect) abilityMethodSelect.value = 'standard';
+  const bonusPlus2 = getAbilityBonusPlus2Select();
+  if (bonusPlus2) bonusPlus2.value = '';
+  const bonusPlus1 = getAbilityBonusPlus1Select();
+  if (bonusPlus1) bonusPlus1.value = '';
+  state.abilityMethod = 'standard';
   const levelSelect = getLevelSelect();
   if (levelSelect) levelSelect.value = '0';
   const maxHp = getMaxHpInput();
@@ -4701,6 +5395,7 @@ async function startNewCharacterSilently() {
   updateSpeciesTraits();
   updateFeatsFromBackground();
   renderLanguagesSelection([]);
+  updateAbilityScoreStatus();
   state.pendingFirstLevelPrompt = true;
   state.forceFirstLevelModal = true;
   const classSelect = getClassSelect();
@@ -4767,6 +5462,7 @@ function attachListeners() {
       updateHitDiceTotal();
       state.preparedSpellIds = new Set();
       state.featureSelections = {};
+      updateSpellcastingEligibility();
       populateClassSpellList();
       updateMaxSpellLevel();
       updateProficiencyBonus();
@@ -4795,10 +5491,10 @@ function attachListeners() {
         }
         state.forceFirstLevelModal = false;
       }
+      updateClassSelectAvailability();
     });
   }
   if (levelSelect) {
-    levelSelect.disabled = true;
     levelSelect.addEventListener('change', () => {
       renderSubclassOptions();
       updateHitPoints();
@@ -4823,6 +5519,9 @@ function attachListeners() {
       renderLineageOptions();
       updateSpeciesTraits();
       renderLanguagesSelection(readSelectedLanguagesFromBox());
+      applyStandardArrayForClass();
+      updateAbilityScoreStatus();
+      updateClassSelectAvailability();
     });
   }
   if (backgroundSelect) {
@@ -4833,6 +5532,13 @@ function attachListeners() {
       refreshSkillProficiencies(false);
       state.inventorySelections.background = 'A';
       updateInventory();
+      renderAbilityBonusOptions();
+      if (getAbilityMethod() === 'standard') {
+        applyStandardArrayForClass();
+      } else {
+        updateAbilityScoreStatus();
+      }
+      updateClassSelectAvailability();
     });
   }
   if (saveButton) {
@@ -4977,7 +5683,18 @@ function attachListeners() {
     initiativeAdjust.addEventListener('change', () => updateInitiativeScore());
   }
   if (armorSelect) {
-    armorSelect.addEventListener('change', () => updateArmorClass());
+    armorSelect.addEventListener('change', () => {
+      const selectedName = String(armorSelect.value || '').trim();
+      if (selectedName) {
+        const armorItem = state.armor.find(entry => normalizeItemName(entry?.name) === normalizeItemName(selectedName));
+        if (armorItem && !isArmorTrainedForItem(armorItem)) {
+          armorSelect.value = '';
+          const warning = getArmorTrainingWarning();
+          if (warning) warning.textContent = 'Cannot equip armor you are not trained to use.';
+        }
+      }
+      updateArmorClass();
+    });
   }
   if (hitDiceSpent) {
     hitDiceSpent.addEventListener('input', () => updateHitDiceTotal());
@@ -5087,8 +5804,35 @@ function attachListeners() {
     inputs.score.addEventListener('input', () => {
       const value = Number(inputs.score.value);
       setAbilityScore(key, Number.isFinite(value) ? value : NaN);
+      updateAbilityScoreStatus();
     });
   });
+  const abilityMethodSelect = getAbilityMethodSelect();
+  if (abilityMethodSelect) {
+    abilityMethodSelect.addEventListener('change', () => {
+      setAbilityMethod(abilityMethodSelect.value);
+    });
+  }
+  const bonusPlus2 = getAbilityBonusPlus2Select();
+  if (bonusPlus2) {
+    bonusPlus2.addEventListener('change', () => {
+      if (getAbilityMethod() === 'standard') {
+        applyStandardArrayForClass();
+        return;
+      }
+      updateAbilityScoreStatus();
+    });
+  }
+  const bonusPlus1 = getAbilityBonusPlus1Select();
+  if (bonusPlus1) {
+    bonusPlus1.addEventListener('change', () => {
+      if (getAbilityMethod() === 'standard') {
+        applyStandardArrayForClass();
+        return;
+      }
+      updateAbilityScoreStatus();
+    });
+  }
 
   if (currencyInputs.cp) {
     currencyInputs.cp.addEventListener('input', () => normalizeCurrency());

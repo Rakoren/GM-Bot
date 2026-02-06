@@ -1,0 +1,71 @@
+{
+  "id": "animal.ankylosaurus",
+  "name": "ANKYLOSAURUS",
+  "status": "complete",
+  "size_type_alignment": "Huge Beast (Dinosaur), Unaligned",
+  "size": "Huge",
+  "creature_type": "Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "hit_points": 68,
+  "hit_dice": "8d12 + 16",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "None",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ankylosaurus makes two Tail attacks."
+    },
+    {
+      "name": "Tail",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +0 (10)\nHP 68 (8d12 + 16)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+6\nDEX \t11 \t+0 \t+0\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t5 \t−3 \t−3\nSenses Passive Perception 11\nLanguages None\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The ankylosaurus makes two Tail attacks.\nTail. Melee Attack Roll: +6, reach 10 ft.\nHit: 9 (1d10 + 4) Bludgeoning damage.\nIf the target is a Huge or smaller creature, it has the Prone condition.\nHuge Beast (Dinosaur), Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "monster.pixie",
+  "name": "PIXIE",
+  "status": "complete",
+  "size_type_alignment": "Tiny Fey, Neutral Good",
+  "size": "Tiny",
+  "creature_type": "Fey",
+  "alignment": "Neutral Good",
+  "armor_class": 15,
+  "hit_points": 9,
+  "hit_dice": "6d4 − 6",
+  "speed": "10 ft., Fly 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "CON": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 14",
+  "languages": "Sylvan",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The pixie has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Faerie Dust",
+      "text": "Melee or Ranged Attack Roll: +4, reach 5 ft. or range 60 ft. Hit: 1 Radiant damage, and the target has the Charmed or Poisoned condition (pixie's choice) until the start of the pixie's next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The pixie casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 12): At Will: Dancing Lights, Druidcraft, Invisibility (self only) 1/Day Each: Detect Thoughts, Fly, Sleep"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +5 (15)\nHP 9 (6d4 − 6)\nSpeed 10 ft., Fly 30 ft.\nTiny Fey, Neutral Good\nPixie Wonderbringer\nEnergetic entertainers, wonderbringers use their magic in defense of the wilderness when they must.\nPlanetar\nMOD \tSAVE\nSTR \t2 \t−4 \t−4\nDEX \t20 \t+5 \t+5\nCON \t8 \t−1 \t−1\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t14 \t+2 \t+2\nCHA \t15 \t+2 \t+2\nSkills Perception +4, Stealth +7\nSenses Passive Perception 14\nLanguages Sylvan\nCR 1/4 (XP 50; PB +2)\nTraits\nMagic Resistance. The pixie has Advantage on saving throws against spells\nand other magical effects.\nActions\nFaerie Dust. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 60 ft.\nHit: 1\nRadiant damage, and the target has the Charmed or Poisoned condition\n(pixie’s choice) until the start of the pixie’s next turn.\nSpellcasting. The pixie casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 12):\nAt Will:\nDancing Lights,\nDruidcraft,\nInvisibility (self only)\n1/Day Each:\nDetect Thoughts,\nFly,\nSleep",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

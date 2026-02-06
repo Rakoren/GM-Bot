@@ -1,0 +1,75 @@
+{
+  "id": "monster.brass_dragon_wyrmling",
+  "name": "BRASS DRAGON WYRMLING",
+  "status": "complete",
+  "size_type_alignment": "Medium Dragon (Metallic), Chaotic Good",
+  "size": "Medium",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "armor_class": 15,
+  "hit_points": 22,
+  "hit_dice": "4d8 + 4",
+  "speed": "30 ft., Burrow 15 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Draconic",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 11, each creature in a 20-foot-long, 5-foot-wide Line. Failure: 14 (4d6) Fire damage. Success: Half damage."
+    },
+    {
+      "name": "Sleep Breath",
+      "text": "Constitution Saving Throw: DC 11, each creature in a 15-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 22 (4d8 + 4)\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft.\nMedium Dragon (Metallic), Chaotic Good\nYoung Brass Dragon\nYoung brass dragons travel extensively, often spending a few years in a region before circling back to their lair. Some work closely with other metallic\ndragons, carrying information between allies.\nBrass Dragon Lairs\nBrass dragons usually dwell in secret caves and canyons near well-traveled routes.\nThe area containing an adult or ancient brass dragon’s lair is altered by its presence, creating the following effects:\nMirages. While in its lair, the dragon can cast\nMajor Image, requiring no Material components and using the same spellcasting ability as its Spellcasting\naction. When casting the spell this way, the spell’s range is 1 mile, and the dragon doesn’t need to see the spot where the illusion appears.\nRefreshing Water. Water within 1 mile of the lair is magically refreshing. A creature that drinks such water gains 2d4 Temporary Hit Points, and the dragon\nis immediately aware of the creature’s presence.\nIf the dragon dies or moves its lair elsewhere, these effects end immediately.\nAdult Brass Dragon\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t10 \t+0 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t11 \t+0 \t+2\nCHA \t13 \t+1 \t+1\nSkills Perception +4, Stealth +2\nImmunities Fire\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 1 (XP 200; PB +2)\nActions\nRend. Melee Attack Roll: +4, reach 5 ft.\nHit: 7 (1d10 + 2) Slashing damage.\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 11, each creature\nin a 20-foot-long, 5-foot-wide Line.\nFailure: 14 (4d6) Fire damage.\nSuccess:\nHalf damage.\nSleep Breath. Constitution Saving Throw: DC 11, each creature in a 15-foot\nCone.\nFailure: The target has the Incapacitated condition until the end of its\nnext turn, at which point it repeats the save.\nSecond Failure: The target has the\nUnconscious condition for 1 minute. This effect ends for the target if it takes\ndamage or a creature within 5 feet of it takes an action to wake it.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

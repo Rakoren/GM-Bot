@@ -1,0 +1,80 @@
+{
+  "id": "monster.aarakocra_aeromancer",
+  "name": "AARAKOCRA AEROMANCER",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Neutral",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 66,
+  "hit_dice": "12d8 + 12",
+  "speed": "20 ft., Fly 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +3, Nature +5, Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 17",
+  "languages": "Aarakocra, Primordial (Auran)",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The aarakocra makes two Wind Staff attacks, and it can use Spellcasting to cast Gust of Wind."
+    },
+    {
+      "name": "Wind Staff",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 11 (2d10) Lightning damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The aarakocra casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13): At Will: Elementalism, Gust of Wind, Mage Hand, Message 1/Day:"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Feather Fall (1/Day)",
+      "text": "The aarakocra casts Feather Fall in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +3 (13)\nHP 66 (12d8 + 12)\nSpeed 20 ft., Fly 50 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t16 \t+3 \t+5\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t17 \t+3 \t+5\nCHA \t12 \t+1 \t+1\nSkills Arcana +3, Nature +5, Perception +7\nSenses Passive Perception 17\nLanguages Aarakocra, Primordial (Auran)\nCR 4 (XP 1,100; PB +2)\nActions\nMultiattack. The aarakocra makes two Wind Staff attacks, and it can use\nSpellcasting to cast\nGust of Wind.\nWind Staff. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft.\nHit: 7\n(1d8 + 3) Bludgeoning damage plus 11 (2d10) Lightning damage.\nSpellcasting. The aarakocra casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 13):\nAt Will:\nElementalism,\nGust of Wind,\nMage Hand,\nMessage\n1/Day:\nLightning Bolt\nReactions\nFeather Fall (1/Day). The aarakocra casts\nFeather Fall in response to that\nspell’s trigger, using the same spellcasting ability as Spellcasting.\nMedium Elemental, Neutral\nAboleth\nAgeless Alien Mastermind\nHabitat: Underdark, Underwater; Treasure: Relics",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

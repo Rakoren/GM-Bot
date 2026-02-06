@@ -1,0 +1,80 @@
+{
+  "id": "monster.carrion_crawler",
+  "name": "CARRION CRAWLER",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Unaligned",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 51,
+  "hit_dice": "6d10 + 18",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The carrion crawler can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The carrion crawler uses Paralyzing Tentacles and makes one Bite attack."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage plus 3 (1d6) Poison damage."
+    },
+    {
+      "name": "Paralyzing Tentacles",
+      "text": "Constitution Saving Throw: DC 12, one creature the carrion crawler can see within 10 feet. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. While Poisoned, the target has the Paralyzed condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +1 (11)\nHP 51 (6d10 + 18)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t13 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t12 \t+1 \t+1\nCHA \t5 \t−3 \t−3\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nSpider Climb. The carrion crawler can climb difficult surfaces, including along\nceilings, without needing to make an ability check.\nActions\nMultiattack. The carrion crawler uses Paralyzing Tentacles and makes one\nBite attack.\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 7 (2d4 + 2) Piercing damage plus 3\n(1d6) Poison damage.\nParalyzing Tentacles. Constitution Saving Throw: DC 12, one creature the\ncarrion crawler can see within 10 feet.\nFailure: The target has the Poisoned\ncondition and repeats the save at the end of each of its turns, ending the effect\non itself on a success. After 1 minute, it succeeds automatically. While\nPoisoned, the target has the Paralyzed condition.\nLarge Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

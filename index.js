@@ -23,6 +23,7 @@ import { callDmModel } from './src/dm/model.js';
 import { getOrCreateAudioPlayer, getOrCreateVoiceConnection } from './src/voice/connection.js';
 import { ttsSpeak } from './src/voice/tts.js';
 import { registerEvents } from './src/discord/registerEvents.js';
+import { createRulesRegistry } from './src/rules/registry.js';
 import {
   ADMIN_CONFIG_PATH,
   CAMPAIGN_DIR,
@@ -277,6 +278,33 @@ const {
   getTableColumns,
 } = dataStore;
 
+let rulesRegistry = null;
+function buildRulesRegistry() {
+  const registry = createRulesRegistry({ rootDir: ROOT_DIR });
+  if (registry.errors.length) {
+    console.warn(`Rules registry loaded with ${registry.errors.length} issue(s).`);
+  }
+  return registry;
+}
+rulesRegistry = buildRulesRegistry();
+
+function rulesLookupByName(type, name) {
+  return rulesRegistry?.lookupByName ? rulesRegistry.lookupByName(type, name) : null;
+}
+
+function rulesSearch(type, query, limit = 8) {
+  return rulesRegistry?.searchByName ? rulesRegistry.searchByName(type, query, limit) : [];
+}
+
+function rulesFormatLookupResults(type, entries) {
+  return rulesRegistry?.formatResults ? rulesRegistry.formatResults(type, entries) : 'No matches found.';
+}
+
+function reloadRulesRegistry() {
+  rulesRegistry = buildRulesRegistry();
+  return rulesRegistry;
+}
+
 loadProfileStore();
 
 function safeSqlText(value) {
@@ -298,6 +326,12 @@ function loadProfileStore() {
 function reloadProfileStore() {
   profileByUserId.clear();
   loadProfileStore();
+}
+
+function reloadRulesAndCombat() {
+  const registry = reloadRulesRegistry();
+  combatEngine = buildCombatEngine();
+  return registry;
 }
 
 function saveProfileStore() {
@@ -1633,9 +1667,323 @@ function resolveProfileFields(userId, entry) {
   return { ...bankRow };
 }
 
+function formatList(list) {
+  if (!Array.isArray(list) || !list.length) return '';
+  return list.join(', ');
+}
+
+function formatSkillsChoose(skillsChoose) {
+  if (!skillsChoose || typeof skillsChoose !== 'object') return '';
+  const count = Number(skillsChoose.count);
+  const from = Array.isArray(skillsChoose.from) ? skillsChoose.from : [];
+  if (!count || !from.length) return '';
+  return `Choose ${count} from ${from.join(', ')}`;
+}
+
+function summarizeStartingEquipment(startingEquipment) {
+  if (!startingEquipment || typeof startingEquipment !== 'object') return '';
+  const options = Array.isArray(startingEquipment.options) ? startingEquipment.options : [];
+  if (!options.length) return '';
+  const parts = options.map(opt => {
+    const items = Array.isArray(opt.items) ? opt.items : [];
+    const pack = opt.pack_ref ? ` + ${opt.pack_ref}` : '';
+    const gp = Number.isFinite(opt.gp) ? ` (${opt.gp} gp)` : '';
+    return `Option ${opt.option || ''}: ${items.join(', ')}${pack}${gp}`.trim();
+  });
+  return parts.join(' | ');
+}
+
+function mapClassShardToRow(shard) {
+  if (!shard) return null;
+  const prof = shard.proficiencies || {};
+  return {
+    class_id: shard.id,
+    name: shard.name,
+    name_norm: normalizeKey(shard.name),
+    primary_ability: shard.primary_ability || '',
+    hit_die: shard.hit_die || '',
+    armor_proficiencies: formatList(prof.armor),
+    weapon_proficiencies: formatList(prof.weapons),
+    tool_proficiencies: formatList(prof.tools),
+    saving_throws: formatList(shard.saving_throws),
+    skill_choices: formatSkillsChoose(prof.skills_choose),
+    starting_equipment_notes: summarizeStartingEquipment(shard.starting_equipment),
+    spellcasting: shard.spellcasting ? 'yes' : 'no',
+    source: shard.sourceRef?.file || '',
+    version: '2024',
+  };
+}
+
+function mapSubclassShardToRow(shard) {
+  if (!shard) return null;
+  const levels = Array.isArray(shard.feature_levels) ? shard.feature_levels : [];
+  const levelGained = levels.length ? Math.min(...levels) : null;
+  return {
+    subclass_id: shard.id,
+    class_id: shard.parent_class || '',
+    name: shard.title || shard.name,
+    name_norm: normalizeKey(shard.title || shard.name),
+    level_gained: Number.isFinite(levelGained) ? String(levelGained) : '',
+    summary: shard.summary || '',
+    source: shard.sourceRef?.file || shard.source?.file || '',
+    version: '2024',
+  };
+}
+
+function mapSpeciesShardToRow(shard) {
+  if (!shard) return null;
+  const traits = Array.isArray(shard.traits) ? shard.traits.map(t => t.name).filter(Boolean) : [];
+  return {
+    species_id: shard.id,
+    name: shard.name,
+    name_norm: normalizeKey(shard.name),
+    size: shard.size || '',
+    speed: Number.isFinite(shard.speed) ? String(shard.speed) : '',
+    languages: shard.languages || '',
+    special_traits: traits.join(', '),
+    source: shard.sourceRef?.file || '',
+    version: '2024',
+  };
+}
+
+function mapBackgroundShardToRow(shard) {
+  if (!shard) return null;
+  const toolOptions = shard.tool_proficiency?.options || [];
+  const toolText = Array.isArray(toolOptions) ? toolOptions.join(', ') : '';
+  const skills = Array.isArray(shard.skill_proficiencies) ? shard.skill_proficiencies : [];
+  const abilities = Array.isArray(shard.ability_scores) ? shard.ability_scores : [];
+  return {
+    background_id: shard.id,
+    name: shard.name,
+    name_norm: normalizeKey(shard.name),
+    ability_scores: abilities.join(', '),
+    skill_proficiencies: skills.join(', '),
+    tool_proficiencies: toolText,
+    languages: shard.languages || '',
+    equipment: summarizeStartingEquipment({ options: shard.equipment_options || [] }),
+    feat_granted: shard.origin_feat_ref || '',
+    source: shard.sourceRef?.file || '',
+    version: '2024',
+  };
+}
+
+function mapFeatShardToRow(shard) {
+  if (!shard) return null;
+  const prereq = Array.isArray(shard.prerequisites) ? shard.prerequisites.join(', ') : '';
+  const summary = Array.isArray(shard.benefits)
+    ? shard.benefits.map(b => b.name || '').filter(Boolean).join('; ')
+    : '';
+  return {
+    feat_id: shard.id,
+    name: shard.name,
+    name_norm: normalizeKey(shard.name),
+    prerequisites: prereq,
+    type: shard.category || '',
+    level_requirement: shard.level_requirement || '',
+    benefit_summary: summary,
+    source: shard.sourceRef?.file || '',
+    version: '2024',
+  };
+}
+
+function mapSpellShardToRow(shard) {
+  if (!shard) return null;
+  const level = Number.isFinite(shard.level) ? shard.level : Number.parseInt(shard.level, 10);
+  const duration = shard.duration || '';
+  const isConcentration = /^concentration/i.test(String(duration));
+  const components = Array.isArray(shard.components?.flags) ? shard.components.flags.join(', ') : '';
+  const shortEffect = Array.isArray(shard.description) ? shard.description[0] : '';
+  return {
+    spell_id: shard.id,
+    name: shard.name,
+    name_norm: normalizeKey(shard.name),
+    level: Number.isFinite(level) ? level : '',
+    cantrip: Number.isFinite(level) && level === 0 ? 'YES' : 'NO',
+    school: shard.school || '',
+    casting_time: shard.casting_time || '',
+    range: shard.range || '',
+    components,
+    duration,
+    concentration: isConcentration ? 'YES' : 'NO',
+    ritual: '',
+    attack_save: shard.attack_save || '',
+    damage_type: shard.damage_type || '',
+    short_effect: shortEffect || '',
+    source: shard.sourceRef?.file || '',
+    version: '2024',
+  };
+}
+
+function mapItemShardToRow(shard) {
+  if (!shard) return null;
+  const base = {
+    item_id: shard.id,
+    name: shard.name,
+    name_norm: normalizeKey(shard.name),
+    item_type: shard.item_type || '',
+    category: shard.weapon_category || shard.armor_category || shard.item_type || '',
+    source: shard.sourceRef?.file || '',
+    version: '2024',
+  };
+  if (shard.item_type === 'weapon') {
+    return {
+      ...base,
+      weapon_category: shard.weapon_category || '',
+      weapon_type: shard.weapon_type || '',
+      damage: shard.damage || '',
+      damage_type: shard.damage_type || '',
+      properties: Array.isArray(shard.properties) ? shard.properties.join(', ') : '',
+      mastery: shard.mastery || '',
+    };
+  }
+  if (shard.item_type === 'armor') {
+    return {
+      ...base,
+      armor_category: shard.armor_category || '',
+      armor_class: shard.armor_class || '',
+      strength: shard.strength || '',
+      stealth: shard.stealth || '',
+    };
+  }
+  return base;
+}
+
+function mapMonsterShardToRow(shard) {
+  if (!shard) return null;
+  return {
+    monster_id: shard.id,
+    name: shard.name,
+    name_norm: normalizeKey(shard.name),
+    size: shard.size || '',
+    creature_type: shard.creature_type || '',
+    alignment: shard.alignment || '',
+    cr: shard.challenge_rating || shard.cr || '',
+    source: shard.sourceRef?.file || '',
+    version: '2025',
+  };
+}
+
+function lookupRuleEntryByName(tableName, name) {
+  return rulesRegistry?.lookupByName ? rulesRegistry.lookupByName(tableName, name) : null;
+}
+
+function lookupRuleEntryById(id) {
+  return rulesRegistry?.lookupById ? rulesRegistry.lookupById(id) : null;
+}
+
+function lookupRuleRowByName(tableName, name) {
+  if (String(name || '').includes('.')) {
+    const byId = lookupRuleRowById(String(name));
+    if (byId) return byId;
+  }
+  const entry = lookupRuleEntryByName(tableName, name);
+  if (!entry?.data) return null;
+  const data = entry.data;
+  if (tableName === 'classes') return mapClassShardToRow(data);
+  if (tableName === 'subclasses') return mapSubclassShardToRow(data);
+  if (tableName === 'species') return mapSpeciesShardToRow(data);
+  if (tableName === 'backgrounds') return mapBackgroundShardToRow(data);
+  if (tableName === 'feats') return mapFeatShardToRow(data);
+  if (tableName === 'spells') return mapSpellShardToRow(data);
+  if (tableName === 'items') return mapItemShardToRow(data);
+  if (tableName === 'monsters') return mapMonsterShardToRow(data);
+  return null;
+}
+
+function lookupRuleRowById(id) {
+  const entry = lookupRuleEntryById(id);
+  if (!entry?.data) return null;
+  const data = entry.data;
+  if (entry.type === 'class') return mapClassShardToRow(data);
+  if (entry.type === 'subclass') return mapSubclassShardToRow(data);
+  if (entry.type === 'species') return mapSpeciesShardToRow(data);
+  if (entry.type === 'background') return mapBackgroundShardToRow(data);
+  if (entry.type === 'feat') return mapFeatShardToRow(data);
+  if (entry.type === 'spell') return mapSpellShardToRow(data);
+  if (entry.type === 'item') return mapItemShardToRow(data);
+  if (entry.type === 'monster') return mapMonsterShardToRow(data);
+  return null;
+}
+
+function searchRuleRows(tableName, query, limit = 8) {
+  if (!rulesRegistry?.searchByName) return [];
+  const entries = rulesRegistry.searchByName(tableName, query, limit);
+  const rows = [];
+  for (const entry of entries) {
+    const row = lookupRuleRowById(entry.id);
+    if (row) rows.push(row);
+  }
+  return rows;
+}
+
+function getRuleSubclassesForClass(classId) {
+  if (!rulesRegistry?.byType) return [];
+  const entries = rulesRegistry.byType.get('subclass') || [];
+  const rows = [];
+  for (const entry of entries) {
+    const data = entry.data;
+    if (data?.parent_class !== classId) continue;
+    const row = mapSubclassShardToRow(data);
+    if (row) rows.push(row);
+  }
+  return rows.sort((a, b) => String(a.name).localeCompare(String(b.name)));
+}
+
+function getRuleClassProgressionRow(classId, level) {
+  if (!rulesRegistry?.lookupById) return null;
+  const classEntry = rulesRegistry.lookupById(classId);
+  if (!classEntry?.data) return null;
+  const classData = classEntry.data;
+  const tables = Array.isArray(classData.tables) ? classData.tables : [];
+  for (const tableId of tables) {
+    const tableEntry = rulesRegistry.lookupById(tableId);
+    const tableData = tableEntry?.data;
+    if (!tableData?.entry_schema || tableData.entry_schema.type !== 'class_features_table') continue;
+    const row = (tableData.entries || []).find(e => Number(e.level) === Number(level));
+    if (!row) continue;
+    const output = {
+      class_id: classId,
+      level: String(level),
+      proficiency_bonus: Number.isFinite(row.proficiency_bonus) ? `+${row.proficiency_bonus}` : row.proficiency_bonus,
+      class_features: Array.isArray(row.class_features) ? row.class_features.join(', ') : '',
+      cantrips: row.cantrips ?? null,
+      prepared_spells: row.prepared_spells ?? null,
+    };
+    if (row.spell_slots && typeof row.spell_slots === 'object') {
+      for (let i = 1; i <= 9; i += 1) {
+        const val = row.spell_slots[String(i)] ?? row.spell_slots[i] ?? 0;
+        output[`spell_slots_level_${i}`] = val;
+      }
+    }
+    return output;
+  }
+  return null;
+}
+
+function getRuleClassSpellIds(classId, wantCantrips) {
+  const ids = new Set();
+  if (!rulesRegistry?.lookupById) return ids;
+  const classEntry = rulesRegistry.lookupById(classId);
+  const classData = classEntry?.data;
+  const listRef = classData?.spellcasting?.spell_list_ref;
+  if (!listRef) return ids;
+  const listEntry = rulesRegistry.lookupById(listRef);
+  const entries = Array.isArray(listEntry?.data?.entries) ? listEntry.data.entries : [];
+  for (const entry of entries) {
+    const isCantrip = Number(entry.level) === 0;
+    if (wantCantrips === true && !isCantrip) continue;
+    if (wantCantrips === false && isCantrip) continue;
+    const spellEntry = rulesRegistry.lookupByName('spells', entry.name);
+    if (spellEntry?.id) ids.add(spellEntry.id);
+  }
+  return ids;
+}
+
 function lookupReferenceByName(tableName, name) {
   const key = normalizeKey(name);
   if (!key) return null;
+  const ruleRow = lookupRuleRowByName(tableName, name);
+  if (ruleRow) return ruleRow;
   const result = db.exec(`SELECT * FROM ${tableName} WHERE name_norm = '${key}' LIMIT 1`);
   const row = execToRows(result)[0];
   return row || null;
@@ -1697,6 +2045,8 @@ function saveProfileToBankIfNeeded(userId, fields) {
 function searchReference(tableName, query, limit = 8) {
   const key = normalizeKey(query);
   if (!key) return [];
+  const ruleRows = searchRuleRows(tableName, query, limit);
+  if (ruleRows.length) return ruleRows;
   const like = `%${key}%`;
   const result = db.exec(
     `SELECT * FROM ${tableName} WHERE name_norm LIKE '${like}' ORDER BY name LIMIT ${Number(limit)}`
@@ -1720,6 +2070,17 @@ function formatLookupResults(tableName, rows) {
       lines.push(`- ${r.name} (${r.feat_id})`);
     } else if (tableName === 'spells') {
       lines.push(`- ${r.name} (Lv ${r.level}, ${r.school})`);
+    } else if (tableName === 'items') {
+      const category = r.item_type === 'weapon'
+        ? `${r.weapon_category} ${r.weapon_type}`.trim()
+        : r.item_type === 'armor'
+          ? `${r.armor_category} Armor`.trim()
+          : r.category || '';
+      lines.push(`- ${r.name} (${category || r.item_type || 'item'})`);
+    } else if (tableName === 'monsters') {
+      const type = [r.size, r.creature_type].filter(Boolean).join(' ');
+      const cr = r.cr ? `CR ${r.cr}` : '';
+      lines.push(`- ${r.name} (${[type, cr].filter(Boolean).join(', ')})`);
     } else {
       lines.push(`- ${r.name}`);
     }
@@ -1728,6 +2089,26 @@ function formatLookupResults(tableName, rows) {
 }
 
 function listReferenceNames(tableName, limit = 8) {
+  if (rulesRegistry?.byType) {
+    const typeMap = {
+      classes: 'class',
+      subclasses: 'subclass',
+      species: 'species',
+      backgrounds: 'background',
+      feats: 'feat',
+      spells: 'spell',
+      monsters: 'monster',
+      animals: 'animal',
+    };
+    const type = typeMap[tableName] || tableName;
+    const entries = rulesRegistry.byType.get(type) || [];
+    if (entries.length) {
+      return entries
+        .map(entry => entry.data?.name || entry.data?.title || entry.data?.label)
+        .filter(Boolean)
+        .slice(0, limit);
+    }
+  }
   const result = db.exec(
     `SELECT name FROM ${tableName} ORDER BY name LIMIT ${Number(limit)}`
   );
@@ -1740,6 +2121,8 @@ function getClassRowByName(name) {
 
 function getClassNameById(classId) {
   if (!classId) return null;
+  const ruleRow = lookupRuleRowById(classId);
+  if (ruleRow?.name) return ruleRow.name;
   const result = db.exec(
     `SELECT name FROM classes WHERE class_id = '${safeSqlText(classId)}' LIMIT 1`
   );
@@ -1748,6 +2131,8 @@ function getClassNameById(classId) {
 
 function getClassRowById(classId) {
   if (!classId) return null;
+  const ruleRow = lookupRuleRowById(classId);
+  if (ruleRow?.class_id) return ruleRow;
   const result = db.exec(
     `SELECT * FROM classes WHERE class_id = '${safeSqlText(classId)}' LIMIT 1`
   );
@@ -1756,6 +2141,8 @@ function getClassRowById(classId) {
 
 function getSubclassRowsForClassId(classId) {
   if (!classId) return [];
+  const ruleRows = getRuleSubclassesForClass(classId);
+  if (ruleRows.length) return ruleRows;
   const result = db.exec(
     `SELECT * FROM subclasses WHERE class_id = '${safeSqlText(classId)}' ORDER BY name`
   );
@@ -1764,6 +2151,8 @@ function getSubclassRowsForClassId(classId) {
 
 function getClassProgressionRow(classId, level) {
   if (!classId || !level) return null;
+  const ruleRow = getRuleClassProgressionRow(classId, level);
+  if (ruleRow) return ruleRow;
   const result = db.exec(
     `SELECT * FROM class_progression WHERE class_id = '${safeSqlText(classId)}' AND level = '${safeSqlText(String(level))}' LIMIT 1`
   );
@@ -1785,6 +2174,8 @@ function getSpellCountsForClass(classId, level) {
 
 function getClassSpellIds(classId, wantCantrips = null) {
   if (!classId) return new Set();
+  const ruleIds = getRuleClassSpellIds(classId, wantCantrips);
+  if (ruleIds.size) return ruleIds;
   let levelClause = '';
   if (wantCantrips === true) {
     levelClause = "AND (CAST(s.level AS INT) = 0 OR UPPER(COALESCE(s.cantrip, '')) = 'YES')";
@@ -2140,6 +2531,18 @@ async function sendStatsMethodPrompt(channel) {
 
 function getSpellOptionsForClass(classId, wantCantrips, limit = 8) {
   if (!classId) return { options: [], isFallback: false };
+  const ruleIds = getRuleClassSpellIds(classId, wantCantrips);
+  if (ruleIds.size) {
+    const options = Array.from(ruleIds)
+      .map(id => lookupRuleRowById(id))
+      .filter(Boolean)
+      .slice(0, limit)
+      .map(row => ({
+        name: row.name,
+        display: wantCantrips ? row.name : `${row.name} (Lv ${row.level})`,
+      }));
+    return { options, isFallback: false };
+  }
   const levelClause = wantCantrips
     ? "(CAST(s.level AS INT) = 0 OR UPPER(COALESCE(s.cantrip, '')) = 'YES')"
     : "CAST(s.level AS INT) <> 0 AND UPPER(COALESCE(s.cantrip, '')) <> 'YES'";
@@ -3863,16 +4266,21 @@ function formatDiceResult(result) {
   return `Rolled ${base}${advTag}\n${rollLine}\n${totalLine}`;
 }
 
-const combatEngine = createCombatEngine({
-  datasetRoot: DATASET_ROOT,
-  parseCsv,
-  lookupReferenceByName,
-  lookupClassById: getClassRowById,
-  getClassProgressionRow,
-  parseDiceExpression,
-  rollDice,
-  formatDiceResult,
-});
+function buildCombatEngine() {
+  return createCombatEngine({
+    datasetRoot: DATASET_ROOT,
+    parseCsv,
+    rulesRegistry,
+    lookupReferenceByName,
+    lookupClassById: getClassRowById,
+    getClassProgressionRow,
+    parseDiceExpression,
+    rollDice,
+    formatDiceResult,
+  });
+}
+
+let combatEngine = buildCombatEngine();
 
 function standardArray() {
   return [15, 14, 13, 12, 10, 8];
@@ -4909,6 +5317,11 @@ async function onInteractionCreate(interaction) {
         reloadReferenceData,
         insertHomebrew,
         lookupReferenceByName,
+        reloadRulesRegistry: reloadRulesAndCombat,
+        rulesRegistry,
+        rulesLookupByName,
+        rulesSearch,
+        rulesFormatLookupResults,
         getCharacterById,
         buildCharacterSheet,
         listCharacters,
@@ -5012,8 +5425,13 @@ async function onMessageCreate(msg) {
           combatEngine,
           profileByUserId,
           reloadProfileStore,
-          saveCombatState,
-          saveLootState,
+      saveCombatState,
+      saveLootState,
+      reloadRulesRegistry: reloadRulesAndCombat,
+        rulesRegistry,
+        rulesLookupByName,
+        rulesSearch,
+        rulesFormatLookupResults,
         buildNpcPersonaBlock,
         enqueueMessage,
         now,

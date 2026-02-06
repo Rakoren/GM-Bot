@@ -1,0 +1,72 @@
+{
+  "id": "animal.hyena",
+  "name": "HYENA",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 5,
+  "hit_dice": "1d8 + 1",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 5 (1d8 + 1)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t13 \t+1 \t+1\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t5 \t−3 \t−3\nSkills Perception +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nPack Tactics. The hyena has Advantage on an attack roll against a creature if\nat least one of the hyena’s allies is within 5 feet of the creature and the ally\ndoesn’t have the Incapacitated condition.\nActions\nBite. Melee Attack Roll: +2, reach 5 ft.\nHit: 3 (1d6) Piercing damage.\nMedium Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "monster.shadow_demon",
+  "name": "SHADOW DEMON",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Demon), Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "hit_points": 66,
+  "hit_dice": "12d8 + 12",
+  "speed": "30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Demonic Restoration",
+      "text": "If the demon dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "text": "The demon can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Light Sensitivity",
+      "text": "While in Bright Light, the demon has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Umbral Claw",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 16 (3d8 + 3) Psychic damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Stealth",
+      "text": "While in Dim Light or Darkness, the demon takes the"
+    },
+    {
+      "name": "Hide action",
+      "text": ""
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +3 (13)\nHP 66 (12d8 + 12)\nSpeed 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t17 \t+3 \t+5\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t13 \t+1 \t+1\nCHA \t14 \t+2 \t+4\nSkills Stealth +7\nVulnerabilities Radiant\nResistances Acid, Bludgeoning, Cold, Fire, Lightning, Piercing,\nSlashing, Thunder\nImmunities Necrotic, Poison; Exhaustion, Grappled, Paralyzed, Petrified,\nPoisoned, Prone, Restrained\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Abyssal; telepathy 120 ft.\nCR 4 (XP 1,100; PB +2)\nTraits\nDemonic Restoration. If the demon dies outside the Abyss, its body dissolves\ninto ichor, and it gains a new body instantly, reviving with all its Hit Points\nsomewhere in the Abyss.\nIncorporeal Movement. The demon can move through other creatures and\nobjects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it\nends its turn inside an object.\nLight Sensitivity. While in Bright Light, the demon has Disadvantage on ability\nchecks and attack rolls.\nActions\nUmbral Claw. Melee Attack Roll: +5, reach 5 ft.\nHit: 16 (3d8 + 3)\nPsychic damage.\nBonus Actions\nShadow Stealth. While in Dim Light or Darkness, the demon takes the\nHide action.\nMedium Fiend (Demon), Chaotic Evil\nShadow dragons haunt forgotten, lightless places. While they might have once been other types of dragons, the influence of planar forces, negative energy,\nor sinister magic has stripped them of their former color or luster. In place of any former breath weapon, shadow dragons exhale caliginous gouts that saps\nlife from everything it touches. Those slain by a shadow dragon’s breath rise as shades obedient to the shadow dragon’s will.\nShadow dragons typically dwell in the Underdark, particularly in areas with connections to the Shadowfell or other tenebrous realms. In some cases, they\nmight lurk in dark, corrupted reaches of the regions they preferred before transforming into shadow dragons. Overgrown swamps, sepulchral desert ruins,\nand ash-choked volcanoes make natural lairs for shadow dragons.\nLike many other dragons, shadow dragons collect hoards. Their tastes tend to be morbid—collecting coins from ruined empires and their victims’ skulls.\nA SHADOW DRAGON LURKS AMONG HAUNTED RUINS, ATTENDED BY SHADOWS RAISED BY ITS LIFE-DRAINING BREATH",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

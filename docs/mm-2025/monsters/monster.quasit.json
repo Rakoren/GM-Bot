@@ -1,0 +1,72 @@
+{
+  "id": "monster.quasit",
+  "name": "QUASIT",
+  "status": "complete",
+  "size_type_alignment": "Tiny Fiend (Demon), Chaotic Evil",
+  "size": "Tiny",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "hit_points": 25,
+  "hit_dice": "10d4",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 10",
+  "languages": "Abyssal, Common",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The quasit has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 25 (10d4)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t5 \t−3 \t−3\nDEX \t17 \t+3 \t+3\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Stealth +5\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Abyssal, Common\nCR 1 (XP 200; PB +2)\nTraits\nMagic Resistance. The quasit has Advantage on saving throws against spells and\nother magical effects.\nActions\nRend. Melee Attack Roll: +5, reach 5 ft.\nHit: 5 (1d4 + 3) Slashing damage, and the\ntarget has the Poisoned condition until the start of the quasit’s next turn.\nTiny Fiend (Demon), Chaotic Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Q) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

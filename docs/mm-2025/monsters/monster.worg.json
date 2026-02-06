@@ -1,0 +1,67 @@
+{
+  "id": "monster.worg",
+  "name": "WORG",
+  "status": "complete",
+  "size_type_alignment": "Large Fey, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Fey",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 26,
+  "hit_dice": "4d10 + 4",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Goblin, Worg",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +1 (11)\nHP 26 (4d10 + 4)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t13 \t+1 \t+1\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t11 \t+0 \t+0\nCHA \t8 \t−1 \t−1\nSkills Perception +4\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Goblin, Worg\nCR 1/2 (XP 100; PB +2)\nActions\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Piercing damage, and the\nnext attack roll made against the target before the start of the worg’s next turn\nhas Advantage.\nLarge Fey, Neutral Evil\nDire Worg\nDire worgs are larger than common worgs and possess a supernaturally terrifying howl. They frequently hunt alongside ettins, ogres, and trolls.\nWraith\nEssence of Evil\nHabitat: Planar (Shadowfell), Underdark; Treasure: None\nWraiths are spectral evils, life-hungry embodiments of malice and terror. Arising from the souls of tyrants, moments of catastrophic pain, or magical\nblasphemies, wraiths spread suffering and the torment of undeath. Humanoids that die near a wraith might be entrapped by the foul spirit and rise as\nspecters bound to the wraith’s sinister will.\nWraiths lurk in forgotten dungeons, accursed ruins, or lands influenced by sinister planes of existence. Such haunted domains might bear hints of the\ntragedies or foul magic that brought the wraiths into being.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

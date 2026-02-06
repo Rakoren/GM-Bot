@@ -1,0 +1,84 @@
+{
+  "id": "monster.yuan_ti_infiltrator",
+  "name": "YUAN-TI INFILTRATOR",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral Evil",
+  "armor_class": 11,
+  "hit_points": 40,
+  "hit_dice": "9d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +5, Perception +4, Stealth +3",
+  "resistances": null,
+  "immunities": "Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Abyssal, Common, Draconic",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The yuan-ti has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The yuan-ti makes two Scimitar attacks."
+    },
+    {
+      "name": "Scimitar",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage."
+    },
+    {
+      "name": "Poison Ray",
+      "text": "Ranged Attack Roll: +4, range 120 ft. Hit: 9 (2d6 + 2) Poison damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 12): At Will: Animal Friendship (snakes only). 2/Day: Suggestion."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 40 (9d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t12 \t+1 \t+1\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t12 \t+1 \t+1\nSkills Deception +5, Perception +4, Stealth +3\nImmunities Poison; Poisoned\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Abyssal, Common, Draconic\nCR 1 (XP 200; PB +2)\nTraits\nMagic Resistance. The yuan-ti has Advantage on saving throws against spells and other magical effects.\nActions\nMultiattack. The yuan-ti makes two Scimitar attacks.\nScimitar. Melee Attack Roll: +3, reach 5 ft.\nHit: 4 (1d6 + 1) Slashing damage.\nPoison Ray. Ranged Attack Roll: +4, range 120 ft.\nHit: 9 (2d6 + 2) Poison damage.\nSpellcasting. The yuan-ti casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 12):\nAt Will:\nAnimal Friendship (snakes only)\n2/Day:\nSuggestion\nMedium Monstrosity, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Y) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

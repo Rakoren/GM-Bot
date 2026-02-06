@@ -1,0 +1,84 @@
+{
+  "id": "monster.werewolf",
+  "name": "WEREWOLF",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Monstrosity (Lycanthrope), Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity (Lycanthrope)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "hit_points": 71,
+  "hit_dice": "11d8 + 22",
+  "speed": "30 ft., 40 ft. (wolf form only)",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Common (can’t speak in wolf form)",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The werewolf makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack."
+    },
+    {
+      "name": "Bite (Wolf or Hybrid Form Only)",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the DM's control and has 10 Hit Points. Success: The target is immune to this werewolf's curse for 24 hours."
+    },
+    {
+      "name": "Scratch",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage."
+    },
+    {
+      "name": "Longbow (Humanoid or Hybrid Form Only)",
+      "text": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +4 (14)\nHP 71 (11d8 + 22)\nSpeed 30 ft., 40 ft. (wolf form only)\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t14 \t+2 \t+2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t11 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Perception +4, Stealth +4\nGear Longbow\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Common (can’t speak in wolf form)\nCR 3 (XP 700; PB +2)\nTraits\nPack Tactics. The werewolf has Advantage on an attack roll against a creature\nif at least one of the werewolf’s allies is within 5 feet of the creature and the\nally doesn’t have the Incapacitated condition.\nActions\nMultiattack. The werewolf makes two attacks, using Scratch or Longbow in\nany combination. It can replace one attack with a Bite attack.\nBite (Wolf or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft.\nHit: 12 (2d8\n+ 3) Piercing damage. If the target is a Humanoid, it is subjected to the\nfollowing effect.\nConstitution Saving Throw: DC 12.\nFailure: The target is\ncursed. If the cursed target drops to 0 Hit Points, it instead becomes a\nWerewolf under the DM’s control and has 10 Hit Points.\nSuccess: The target is\nimmune to this werewolf’s curse for 24 hours.\nScratch. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3) Slashing damage.\nLongbow (Humanoid or Hybrid Form Only). Ranged Attack Roll: +4, range\n150/600 ft.\nHit: 11 (2d8 + 2) Piercing damage.\nMedium or Small Monstrosity (Lycanthrope), Chaotic Evil\nWhite Dragons\nDragons of Cold and Cruelty\nHabitat: Arctic; Treasure: Arcana\nAmong the most primal chromatic dragons, white dragons prioritize survival over all. Life is harsh and uncertain in the arctic expanses, glacial heights, and\nfrozen seas where these dragons dwell. White dragons fiercely protect their territories, scouring the frigid regions for food and evidence of trespassers. Most\nwhite dragons ignore the plots of smaller creatures and other dragons, concerning themselves only with their own survival.\nWhite dragons create lairs to defend themselves from other deadly arctic creatures and from dangerous natural conditions. Within these shelters, white\ndragons hoard testaments to their superiority, such as monstrous skulls, the gear of defeated rivals, and curiosities that capture their interest. To protect\nsuch treasure, white dragons coax ice to form over their hoards or sink their wealth in frigid pools. For white dragons, each piece of treasure embodies a\nvictory—the details of which inflate as these dragons age.\nWhite Dragon Wyrmling\nWhite dragon wyrmlings usually head off on their own soon after hatching. While the cold means little to these creatures, food is scarce in arctic realms,\nand predators there are merciless. Most white dragon wyrmlings survive by scavenging, hunting opportunistically, and quickly fleeing foes—including other\nwhite dragons.\nBonus Actions\nShape-Shift. The werewolf shape-shifts into a Large wolf-humanoid hybrid or a\nMedium wolf, or it returns to its true humanoid form. Its game statistics, other\nthan its size, are the same in each form. Any equipment it is wearing or\ncarrying isn’t transformed.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

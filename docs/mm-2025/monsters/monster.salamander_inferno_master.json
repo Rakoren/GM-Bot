@@ -1,0 +1,89 @@
+{
+  "id": "monster.salamander_inferno_master",
+  "name": "SALAMANDER INFERNO MASTER",
+  "status": "complete",
+  "size_type_alignment": "Large Elemental, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Elemental",
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "hit_points": 256,
+  "hit_dice": "27d10 + 108",
+  "speed": "40 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 10",
+  "languages": "Primordial (Ignan)",
+  "cr": "15 (XP 13,000; PB +5)",
+  "traits": [
+    {
+      "name": "Fire Aura",
+      "text": "At the end of each of the salamander's turns, each creature of the salamander's choice in a 10-foot Emanation originating from the salamander takes 10 (3d6) Fire damage."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The salamander has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The salamander makes two Flame Trident attacks."
+    },
+    {
+      "name": "Flame Trident",
+      "text": "Melee or Ranged Attack Roll: +12, reach 5 ft. or range 30/90 ft. Hit: 16 (2d8 + 7) Piercing damage plus 14 (4d6) Fire damage. Hit or Miss: The trident magically returns to the salamander's hand immediately after a ranged attack."
+    },
+    {
+      "name": "Inferno Blast (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 18, each creature in a 30-foot-radius Sphere centered on a point the salamander can see within 120 feet. Failure: 35 (10d6) Fire damage, and the target starts burning, taking 5 (1d10) Fire damage at the start of each of its turns instead of the normal burning damage. The target gains 1 Exhaustion level whenever it takes this burning damage. Success: Half damage only."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Blazing Movement",
+      "text": "The salamander moves up to its Speed without provoking Opportunity Attacks. During this movement, fire fills a 5-foot Emanation originating from the salamander. When the Emanation enters a creature's space, that creature takes 7 (2d6) Fire damage. A creature can take this damage only once per turn. The salamanders of the Elemental Plane of Fire delight in meeting visitors from other realms. For them, every stranger is a potential addition to their fiery artistry. Don't fall for their flattery, no matter how beautifully they say you'll burn. -FILIAG HIGHTHUMBS,"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +8 (18)\nHP 256 (27d10 + 108)\nSpeed 40 ft., Climb 40 ft.\nMOD \tSAVE\nSTR \t24 \t+7 \t+7\nDEX \t16 \t+3 \t+8\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t10 \t+0 \t+5\nCHA \t20 \t+5 \t+5\nVulnerabilities Cold\nImmunities Fire\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 15 (XP 13,000; PB +5)\nTraits\nFire Aura. At the end of each of the salamander’s turns, each creature of the\nsalamander’s choice in a 10-foot Emanation originating from the salamander\ntakes 10 (3d6) Fire damage.\nMagic Resistance. The salamander has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The salamander makes two Flame Trident attacks.\nFlame Trident. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 30/90\nft.\nHit: 16 (2d8 + 7) Piercing damage plus 14 (4d6) Fire damage.\nHit or Miss:\nThe trident magically returns to the salamander’s hand immediately after a\nranged attack.\nInferno Blast (Recharge 5–6). Dexterity Saving Throw: DC 18, each creature in\na 30-foot-radius Sphere centered on a point the salamander can see within 120\nfeet.\nFailure: 35 (10d6) Fire damage, and the target starts burning, taking 5\n(1d10) Fire damage at the start of each of its turns instead of the normal\nburning damage. The target gains 1 Exhaustion level whenever it takes this\nburning damage.\nSuccess: Half damage only.\nBonus Actions\nBlazing Movement. The salamander moves up to its Speed without provoking\nOpportunity Attacks. During this movement, fire fills a 5-foot Emanation\noriginating from the salamander. When the Emanation enters a creature’s\nspace, that creature takes 7 (2d6) Fire damage. A creature can take this\ndamage only once per turn.\nLarge Elemental, Neutral Evil\nThe salamanders of the Elemental Plane of Fire delight in\nmeeting visitors from other realms. For them, every stranger is a\npotential addition to their fiery artistry. Don’t fall for their\nflattery, no matter how beautifully they say you’ll burn.\n—FILIAG HIGHTHUMBS,\nPLANES AND TRAVEL\nSatyr Revelmaster\nSatyr revelmasters use magical music to change the moods of other creatures. They do so to keep their celebrations exciting and to ward off foes.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

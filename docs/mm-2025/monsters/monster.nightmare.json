@@ -1,0 +1,80 @@
+{
+  "id": "monster.nightmare",
+  "name": "NIGHTMARE",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Fiend",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 68,
+  "hit_dice": "8d10 + 24",
+  "speed": "60 ft., Fly 90 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": "Fire",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "Understands Abyssal, Common, and Infernal but can't speak",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Confer Fire Resistance",
+      "text": "The nightmare can grant Resistance to Fire damage to a rider while it is on the nightmare."
+    },
+    {
+      "name": "Illumination",
+      "text": "The nightmare sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Hooves",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage."
+    },
+    {
+      "name": "Ethereal Stride",
+      "text": "The nightmare and up to three willing creatures within 5 feet of it teleport to the Ethereal Plane from the Material Plane or vice versa."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 68 (8d10 + 24)\nSpeed 60 ft., Fly 90 ft. (hover)\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t15 \t+2 \t+2\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t13 \t+1 \t+1\nCHA \t15 \t+2 \t+2\nImmunities Fire\nSenses Passive Perception 11\nLanguages Understands Abyssal, Common, and Infernal but can’t speak\nCR 3 (XP 700; PB +2)\nTraits\nConfer Fire Resistance. The nightmare can grant Resistance to Fire damage to\na rider while it is on the nightmare.\nIllumination. The nightmare sheds Bright Light in a 10-foot radius and Dim\nLight for an additional 10 feet.\nActions\nHooves. Melee Attack Roll: +6, reach 5 ft.\nHit: 13 (2d8 + 4) Bludgeoning\ndamage plus 10 (3d6) Fire damage.\nEthereal Stride. The nightmare and up to three willing creatures within 5 feet of\nit teleport to the Ethereal Plane from the Material Plane or vice versa.\nLarge Fiend, Neutral Evil\nNoble Prodigy\nNoble prodigies trace their lineage to a legendary hero, a demigod, a dragon, or some other ancestor that grants them magical prowess. Among some\nnobles, the source of a prodigy's magic might be a family secret.\nNothic\nWitness to the Weird",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (N) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

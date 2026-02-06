@@ -1,0 +1,71 @@
+{
+  "id": "monster.death_dog",
+  "name": "DEATH DOG",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "hit_points": 39,
+  "hit_dice": "6d8 + 12",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": "Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious",
+  "senses": "Darkvision 120 ft.; Passive Perception 15",
+  "languages": "None",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The death dog makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10)."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 39 (6d8 + 12)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t14 \t+2 \t+2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t13 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSkills Perception +5, Stealth +4\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages None\nCR 1 (XP 200; PB +2)\nActions\nMultiattack. The death dog makes two Bite attacks.\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 4 (1d4 + 2) Piercing damage. If the\ntarget is a creature, it is subjected to the following effect.\nConstitution Saving\nThrow: DC 12.\nFirst Failure: The target has the Poisoned condition. While\nPoisoned, the target’s Hit Point maximum doesn’t return to normal when\nfinishing a Long Rest, and it repeats the save every 24 hours that elapse, ending\nthe effect on itself on a success.\nSubsequent Failures: The Poisoned target’s\nHit Point maximum decreases by 5 (1d10).\nMedium Monstrosity, Neutral Evil\nChampions of evil, death knights are armor-clad, skeletal warlords. Combining devastating martial prowess and blasphemous magic, these undying tyrants\nlead unholy legions against the living or brood in cursed citadels. Every death knight is haunted by a legacy of tragedy and dishonor that drives it to commit\ngreater evils.\nDeath Knight\nDeath knights are deadly combatants and domineering commanders with grim histories. Some strive to end the curses that doom them to undeath, though\ntheir selfish souls eternally shackle them to their fates. Others, like the infamous death knight Lord Soth, brood in dismal ruins for centuries, rousing\nthemselves to action only when something reignites their deathless evil.\nA DEATH KNIGHT AND ITS ASPIRANTS MARCH TO WAR AGAINST THE LIVING",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,81 @@
+{
+  "id": "monster.umber_hulk",
+  "name": "UMBER HULK",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "hit_points": 93,
+  "hit_dice": "11d10 + 33",
+  "speed": "30 ft., Burrow 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft., Tremorsense 60 ft.; Passive Perception 10",
+  "languages": "Umber Hulk",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Tunneler",
+      "text": "The umber hulk can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The umber hulk makes three Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Confusing Gaze (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target can't take Reactions until the start of the umber hulk's next turn, and the target rolls 1d8 to determine what it does on its next turn: 1-4. The target does nothing. 5-6. The target takes no action or Bonus Action and uses all its movement to move in a random direction. 7-8. The target makes a melee attack against a random creature within its reach or does nothing if it can't make such an attack."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +4 (14)\nHP 93 (11d10 + 33)\nSpeed 30 ft., Burrow 20 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t13 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t9 \t-1 \t-1\nWIS \t10 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSenses Darkvision 120 ft., Tremorsense 60 ft.; Passive Perception 10\nLanguages Umber Hulk\nCR 5 (XP 1,800; PB +3)\nTraits\nTunneler. The umber hulk can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake.\nActions\nMultiattack. The umber hulk makes three Rend attacks.\nRend. Melee Attack Roll: +8, reach 10 ft.\nHit: 12 (2d6 + 5) Slashing damage.\nBonus Actions\nConfusing Gaze (Recharge 5-6). Wisdom Saving Throw: DC 14, each creature in a 30-foot Cone.\nFailure: The target can't take Reactions until the start of the umber hulk's next turn, and the target rolls 1d8 to determine what it does on its next turn:\n1-4. The target does nothing.\n5-6. The target takes no action or Bonus Action and uses all its movement to move in a random direction.\n7-8. The target makes a melee attack against a random creature within its reach or does nothing if it can't make such an attack.\nLarge Monstrosity, Chaotic Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (U) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

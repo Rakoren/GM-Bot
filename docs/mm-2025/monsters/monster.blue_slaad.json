@@ -1,0 +1,80 @@
+{
+  "id": "monster.blue_slaad",
+  "name": "BLUE SLAAD",
+  "status": "complete",
+  "size_type_alignment": "Large Aberration, Chaotic Neutral",
+  "size": "Large",
+  "creature_type": "Aberration",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 15,
+  "hit_points": 133,
+  "hit_dice": "14d10 + 56",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +1",
+  "resistances": "Acid, Cold, Fire, Lightning, Thunder",
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Slaad; telepathy 60 ft.",
+  "cr": "7 (XP 2,900; PB +3)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The slaad has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Regeneration",
+      "text": "The slaad regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The slaad makes three Mutating Claw attacks."
+    },
+    {
+      "name": "Mutating Claw",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 3 (1d6) Poison damage. If the target is a Humanoid not cursed by a slaad, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target is cursed. The cursed target can't regain Hit Points, and its Hit Point maximum decreases by 10 (3d6) after every 24 hours and doesn't return to normal after finishing a Long Rest. If the curse reduces the target's Hit Point maximum to 0, the curse ends, and instead of dying, the target instantly transforms into a Red Slaad or, if it can cast spells of level 3 or higher, a Green Slaad. Only a Wish spell can reverse this transformation."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 133 (14d10 + 56)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t15 \t+2 \t+2\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t7 \t−2 \t−2\nCHA \t9 \t−1 \t−1\nSkills Perception +1\nResistances Acid, Cold, Fire, Lightning, Thunder\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Slaad; telepathy 60 ft.\nCR 7 (XP 2,900; PB +3)\nTraits\nMagic Resistance. The slaad has Advantage on saving throws against spells\nand other magical effects.\nRegeneration. The slaad regains 10 Hit Points at the start of each of its turns if\nit has at least 1 Hit Point.\nActions\nMultiattack. The slaad makes three Mutating Claw attacks.\nMutating Claw. Melee Attack Roll: +8, reach 10 ft.\nHit: 12 (2d6 + 5) Slashing\ndamage plus 3 (1d6) Poison damage. If the target is a Humanoid not cursed by\na slaad, it is subjected to the following effect.\nConstitution Saving Throw: DC\n15.\nFailure: The target is cursed. The cursed target can’t regain Hit Points, and\nits Hit Point maximum decreases by 10 (3d6) after every 24 hours and doesn’t\nreturn to normal after finishing a Long Rest. If the curse reduces the target’s\nHit Point maximum to 0, the curse ends, and instead of dying, the target\ninstantly transforms into a Red Slaad or, if it can cast spells of level 3 or\nhigher, a Green Slaad. Only a\nWish spell can reverse this transformation.\nLarge Aberration, Chaotic Neutral\nGreen slaadi come into being when the propagation methods of red or blue slaadi affect certain creatures capable of casting spells of level 3 or higher.\nGreen slaadi are more intelligent than their blue and red brethren and often direct their kin to portals where gray slaadi have identified Humanoid\ncommunities ripe for invasion.\nGray Slaad\nGray slaadi arise from green slaadi transformed by the Spawning Stone or slaad lords. They explore the planes, seeking Humanoid communities to invade\nnear planar pathways.\nA GRAY SLAAD, A DEATH SLAAD, AND A GREEN SLAAD SPREAD CHAOS IN THEIR WAKE",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

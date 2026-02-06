@@ -1,0 +1,80 @@
+{
+  "id": "monster.gnoll_fang_of_yeenoghu",
+  "name": "GNOLL FANG OF YEENOGHU",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "hit_points": 71,
+  "hit_dice": "11d8 + 22",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Abyssal, Gnoll",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The gnoll makes one Bite attack and two Bone Flail attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage plus 7 (2d6) Poison damage, and the target has the Poisoned condition until the start of the gnoll's next turn."
+    },
+    {
+      "name": "Bone Flail",
+      "text": "Melee Attack Roll: +5, reach 10 ft. Hit: 7 (1d8 + 3) Piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Rampage (2/Day)",
+      "text": "Immediately after dealing damage to a creature that is already Bloodied, the gnoll moves up to half its Speed, and it makes one Bite attack. Yeenoghu claims gnolls not as his brood but as maggots purposefully released to infest a despised carcass. They are a pernicious rot the Beast of Butchery spreads across mortal worlds. Whatever they once were, they were remade and are now his. -IGGWILV,"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +4 (14)\nHP 71 (11d8 + 22)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t15 \t+2 \t+2\nCON \t15 \t+2 \t+4\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t11 \t+0 \t+2\nCHA \t13 \t+1 \t+3\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Abyssal, Gnoll\nCR 4 (XP 1,100; PB +2)\nActions\nMultiattack. The gnoll makes one Bite attack and two Bone Flail attacks.\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 6 (1d6 + 3) Piercing damage plus 7\n(2d6) Poison damage, and the target has the Poisoned condition until the start\nof the gnoll’s next turn.\nBone Flail. Melee Attack Roll: +5, reach 10 ft.\nHit: 7 (1d8 + 3) Piercing damage.\nBonus Actions\nRampage (2/Day). Immediately after dealing damage to a creature that is\nalready Bloodied, the gnoll moves up to half its Speed, and it makes one\nBite attack.\nMedium Fiend, Chaotic Evil\nYeenoghu claims gnolls not as his brood but as maggots\npurposefully released to infest a despised carcass. They are a\npernicious rot the Beast of Butchery spreads across mortal\nworlds. Whatever they once were, they were remade and are\nnow his.\n—IGGWILV,\nDEMONOMICON OF IGGWILV",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

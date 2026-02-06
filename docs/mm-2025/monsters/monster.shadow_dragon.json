@@ -1,0 +1,108 @@
+{
+  "id": "monster.shadow_dragon",
+  "name": "SHADOW DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Huge or Large Dragon, Chaotic Evil",
+  "size": "Huge",
+  "creature_type": "Dragon",
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "hit_points": 189,
+  "hit_dice": "18d12 + 72",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +11, Stealth +14",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 21",
+  "languages": "Common, Draconic",
+  "cr": "13 (XP 10,000, or 11,500 in lair; PB +5)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Living Shadow",
+      "text": "While in Dim Light or Darkness, the dragon has Resistance to damage that isn't Force, Psychic, or Radiant."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the dragon has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +10, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 3 (1d6) Necrotic damage."
+    },
+    {
+      "name": "Shadow Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 17, each creature in a 60-foot Cone. Failure: 35 (10d6) Necrotic damage. Success: Half damage. Failure or Success: A Humanoid reduced to 0 Hit Points by this damage dies, and a Shadow rises from the corpse. The shadow is under the dragon's control and shares the dragon's Initiative count but acts immediately after the dragon."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Stealth",
+      "text": "While in Dim Light or Darkness, the dragon takes the"
+    },
+    {
+      "name": "Hide action",
+      "text": ""
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    },
+    {
+      "name": "Veil of Shadow",
+      "text": "The dragon uses Shadow Stealth, and one creature of its choice that it can see within 10 feet of it takes 10 (3d6) Necrotic damage. The dragon can't take this action again until the start of its next turn. If ye truly be adventurers of lore, seek the great shadowy wyrm who lairs beneath the Peaks of Thunder and return in triumph bearing aloft her fabled Eye of Shadow. -CHALLENGE"
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +14 (24)\nHP 189 (18d12 + 72)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+5\nDEX \t19 \t+4 \t+9\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t12 \t+1 \t+6\nCHA \t18 \t+4 \t+4\nSkills Perception +11, Stealth +14\nResistances See Living Shadow\nImmunities Necrotic\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 21\nLanguages Common, Draconic\nCR 13 (XP 10,000, or 11,500 in lair; PB +5)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nLiving Shadow. While in Dim Light or Darkness, the dragon has Resistance to\ndamage that isn’t Force, Psychic, or Radiant.\nSunlight Sensitivity. While in sunlight, the dragon has Disadvantage on ability\nchecks and attack rolls.\nActions\nMultiattack. The dragon makes three Rend attacks.\nRend. Melee Attack Roll: +10, reach 10 ft.\nHit: 12 (2d6 + 5) Slashing damage\nplus 3 (1d6) Necrotic damage.\nShadow Breath (Recharge 5–6). Dexterity Saving Throw: DC 17, each creature\nin a 60-foot Cone.\nFailure: 35 (10d6) Necrotic damage.\nSuccess: Half damage.\nFailure or Success: A Humanoid reduced to 0 Hit Points by this damage dies,\nand a Shadow rises from the corpse. The shadow is under the dragon’s control\nand shares the dragon’s Initiative count but acts immediately after the dragon.\nBonus Actions\nShadow Stealth. While in Dim Light or Darkness, the dragon takes the\nHide action.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nVeil of Shadow. The dragon uses Shadow Stealth, and one creature of its\nchoice that it can see within 10 feet of it takes 10 (3d6) Necrotic damage. The\ndragon can’t take this action again until the start of its next turn.\nHuge or Large Dragon, Chaotic Evil\nIf ye truly be adventurers of lore, seek the great shadowy wyrm\nwho lairs beneath the Peaks of Thunder and return in triumph\nbearing aloft her fabled Eye of Shadow.\n—CHALLENGE TEMPTING VICTIMS TO THE\nLAIR OF THE SHADOW DRAGON AURGLOROASA\nShambling mounds—also known as “shamblers”—embody the tenacity of the wilderness, seeking only to consume and grow. These masses of vegetation\nrise up to half again as tall as a human and possess thick limbs and a vague head. As they move through bogs and undergrowth, they ensnare creatures\nthat come within reach. Shambling mounds bury those they catch within their own forms as compost.\nStrange circumstances might give rise to shambling mounds, transforming vegetation into hulks with rudimentary cunning. Such conditions include strikes\nfrom magical lightning, nature defending itself, or druidic curses. Roll on or choose a result from the Shambling Mound Cultivation table to inspire a\nshambling mound’s origins and features.\nShambling Mound Cultivation\n1d6 \tThe Shambling Mound Is...\n1 \tCovered in vibrant alien or Feywild blooms.\n2 \tHauling a rune-etched menhir in its torso.\n3 \tInfested with vermin or fungi.\n4 \tMade up of knotty vines entangling skeletons.\n5 \tMutated and leaking glowing pollution.\n6 \tThe remains of an ancient tree or a treant.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

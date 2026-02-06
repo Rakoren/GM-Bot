@@ -1,0 +1,79 @@
+{
+  "id": "monster.vine_blight",
+  "name": "VINE BLIGHT",
+  "status": "complete",
+  "size_type_alignment": "Large or smaller creature, it has the",
+  "size": "Large",
+  "creature_type": "smaller creature",
+  "alignment": "it has the",
+  "armor_class": 12,
+  "hit_points": 19,
+  "hit_dice": "3d8 + 6",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +1",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 10",
+  "languages": "Common",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Constricting Vine",
+      "text": "Melee Attack Roll: +4, reach 10 ft. Hit: 6 (1d8 + 2) Bludgeoning damage. If the target is a Large or smaller creature, it has the"
+    },
+    {
+      "name": "Grappled condition (escape DC 12)",
+      "text": "Until the grapple ends, the target takes 4 (1d8) Bludgeoning damage at the start of each of its turns, and the blight can't make Constricting Vine attacks."
+    },
+    {
+      "name": "Entangling Plants (Recharge 5-6)",
+      "text": "The blight casts the Entangle spell, using"
+    },
+    {
+      "name": "Constitution as the spellcasting ability (spell save DC 12)",
+      "text": ""
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative −1 (9)\nHP 19 (3d8 + 6)\nSpeed 20 ft.\tMedium Plant, Neutral Evil\nTree Blight\nTree blights look like ancient, dead trees with gnarled limbs and splintered hollows. Imbued with bloodlust, these blights feed on the living. Evidence of their\npast meals is often tangled amid their branches and roots. Tree blights cooperate with other blights, but they attack other tree-shaped beings they\nencounter, such as awakened trees and treants.\nGulthias Blight\nAncient plants twisted by evil, Gulthias blights feed on blood and despoil the surrounding land, often giving rise to subservient blights. These cursed plants\ntake their name from the story of their creation; the first of their kind was a tree that grew from the stake piercing the heart of the vampire Gulthias. These\nblights consider all creatures either servants or fertilizer for the blights’ corruption.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t8 \t−1 \t−1\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t10 \t+0 \t+0\nCHA \t3 \t−4 \t−4\nSkills Stealth +1\nImmunities Deafened\nSenses Blindsight 60 ft.; Passive Perception 10\nLanguages Common\nCR 1/2 (XP 100; PB +2)\nActions\nConstricting Vine. Melee Attack Roll: +4, reach 10 ft.\nHit: 6 (1d8 + 2)\nBludgeoning damage. If the target is a Large or smaller creature, it has the\nGrappled condition (escape DC 12). Until the grapple ends, the target takes 4\n(1d8) Bludgeoning damage at the start of each of its turns, and the blight can’t\nmake Constricting Vine attacks.\nEntangling Plants (Recharge 5–6). The blight casts the\nEntangle spell, using\nConstitution as the spellcasting ability (spell save DC 12).",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

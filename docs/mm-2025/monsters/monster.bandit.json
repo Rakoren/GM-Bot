@@ -1,0 +1,71 @@
+{
+  "id": "monster.bandit",
+  "name": "BANDIT",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 12,
+  "hit_points": 11,
+  "hit_dice": "2d8 + 2",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common, Thieves’ Cant",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Scimitar",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage."
+    },
+    {
+      "name": "Light Crossbow",
+      "text": "Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t12 \t+1 \t+1\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nGear Leather Armor, Light Crossbow, Scimitar\nSenses Passive Perception 10\nLanguages Common, Thieves’ Cant\nCR 1/8 (XP 25; PB +2)\nActions\nScimitar. Melee Attack Roll: +3, reach 5 ft.\nHit: 4 (1d6 + 1) Slashing damage.\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft.\nHit: 5 (1d8 + 1)\nPiercing damage.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

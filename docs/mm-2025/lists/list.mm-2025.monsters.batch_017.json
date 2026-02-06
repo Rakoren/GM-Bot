@@ -1,0 +1,41 @@
+{
+  "id": "list.mm-2025.monsters.batch_017",
+  "name": "MM 2025 Monsters Batch 17",
+  "entries": [
+    {
+      "id": "monster.ochre_jelly",
+      "name": "OCHRE JELLY",
+      "file": "docs/mm-2025/monsters/monster.ochre_jelly.json"
+    },
+    {
+      "id": "monster.ogrillon_ogre",
+      "name": "OGRILLON OGRE",
+      "file": "docs/mm-2025/monsters/monster.ogrillon_ogre.json"
+    },
+    {
+      "id": "monster.oni",
+      "name": "ONI",
+      "file": "docs/mm-2025/monsters/monster.oni.json"
+    },
+    {
+      "id": "monster.otyugh",
+      "name": "OTYUGH",
+      "file": "docs/mm-2025/monsters/monster.otyugh.json"
+    },
+    {
+      "id": "monster.owlbear",
+      "name": "OWLBEAR",
+      "file": "docs/mm-2025/monsters/monster.owlbear.json"
+    },
+    {
+      "id": "monster.primeval_owlbear",
+      "name": "PRIMEVAL OWLBEAR",
+      "file": "docs/mm-2025/monsters/monster.primeval_owlbear.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (O) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

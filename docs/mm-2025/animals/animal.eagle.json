@@ -1,0 +1,67 @@
+{
+  "id": "animal.eagle",
+  "name": "EAGLE",
+  "status": "complete",
+  "size_type_alignment": "Small Beast, Unaligned",
+  "size": "Small",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 4,
+  "hit_dice": "1d6 + 1",
+  "speed": "10 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 16",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Talons",
+      "text": "Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 4 (1d6 + 1)\nSpeed 10 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t15 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t14 \t+2 \t+2\nCHA \t7 \t−2 \t−2\nSkills Perception +6\nSenses Passive Perception 16\nLanguages None\nCR 0 (XP 10; PB +2)\nActions\nTalons. Melee Attack Roll: +4, reach 5 feet.\nHit: 4 (1d4 + 2) Slashing damage.\nSmall Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

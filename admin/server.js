@@ -6,6 +6,7 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { createRulesRegistry } from '../src/rules/registry.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.join(__dirname, '..');
@@ -352,6 +353,15 @@ function normalizeName(value) {
     .trim();
 }
 
+function toTitleCase(value) {
+  return String(value || '')
+    .toLowerCase()
+    .split(/[\s_]+/g)
+    .filter(Boolean)
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
+}
+
 function stripLabel(value) {
   return normalizeLine(value).replace(/:\s*$/, '').toLowerCase();
 }
@@ -445,6 +455,7 @@ function buildClassIdLookup() {
 
 let wizardDataCache = null;
 let wizardDataMTime = 0;
+let rulesRegistryCache = null;
 
 function loadWizardDataArtifact() {
   if (!fs.existsSync(WIZARD_DATA_PATH)) return null;
@@ -464,6 +475,423 @@ function loadWizardDataArtifact() {
     wizardDataMTime = 0;
     return null;
   }
+}
+
+function getRulesRegistry() {
+  if (rulesRegistryCache) return rulesRegistryCache;
+  try {
+    rulesRegistryCache = createRulesRegistry({ rootDir: ROOT_DIR });
+    return rulesRegistryCache;
+  } catch (err) {
+    console.warn('Failed to build rules registry:', err?.message || err);
+    rulesRegistryCache = null;
+    return null;
+  }
+}
+
+function getRulesByType(registry, type) {
+  if (!registry?.byType) return [];
+  const entries = registry.byType.get(type);
+  return Array.isArray(entries) ? entries : [];
+}
+
+function getRulesById(registry, id) {
+  if (!registry?.byId) return null;
+  return registry.byId.get(id) || null;
+}
+
+function getRuleName(entry) {
+  return entry?.data?.name || entry?.name || entry?.data?.title || entry?.data?.label || entry?.id || '';
+}
+
+function normalizeListId(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+}
+
+function getPackNameById(packId, packsById) {
+  if (!packId) return '';
+  const entry = packsById.get(packId);
+  if (!entry) return '';
+  return String(entry.pack || entry.name || '').trim();
+}
+
+function parsePackItemName(raw) {
+  const text = String(raw || '').trim();
+  if (!text) return null;
+  const match = text.match(/^(\d+)\s+(.+)$/);
+  if (match) {
+    return { name: match[2].trim(), qty: Number(match[1]) || 1 };
+  }
+  return { name: text, qty: 1 };
+}
+
+function buildEquipmentDescription(items, gp) {
+  const parts = (items || []).filter(Boolean);
+  if (Number.isFinite(Number(gp)) && Number(gp) > 0) {
+    parts.push(`${gp} gp`);
+  }
+  return parts.join(' + ');
+}
+
+function buildClassProgressionFromTable(tableData, classId) {
+  if (!tableData || !Array.isArray(tableData.entries)) return [];
+  return tableData.entries.map(entry => {
+    const row = {
+      class_id: classId,
+      level: entry.level,
+      proficiency_bonus: entry.proficiency_bonus,
+    };
+    if (Array.isArray(entry.class_features)) {
+      row.class_features = entry.class_features.join(', ');
+    } else if (entry.class_features != null) {
+      row.class_features = String(entry.class_features);
+    }
+    if (entry.spell_slots && typeof entry.spell_slots === 'object') {
+      Object.entries(entry.spell_slots).forEach(([slot, value]) => {
+        row[`spell_slots_level_${slot}`] = value;
+      });
+    }
+    Object.entries(entry).forEach(([key, value]) => {
+      if (['level', 'proficiency_bonus', 'class_features', 'spell_slots'].includes(key)) return;
+      if (value === null || value === undefined || value === '') return;
+      row[key] = value;
+    });
+    return row;
+  });
+}
+
+function buildWizardDataFromRules() {
+  const registry = getRulesRegistry();
+  if (!registry) return null;
+
+  const tableStandardArray = getRulesById(registry, 'table.ability_score.standard_array')?.data || null;
+  const tableStandardArrayByClass = getRulesById(registry, 'table.ability_score.standard_array_by_class')?.data || null;
+  const tablePointBuy = getRulesById(registry, 'table.ability_score.point_buy')?.data || null;
+  const standardArrayGlobal = Array.isArray(tableStandardArray?.entries)
+    ? tableStandardArray.entries.map(entry => Number(entry?.score)).filter(Number.isFinite)
+    : [];
+  const pointBuyCosts = Array.isArray(tablePointBuy?.entries)
+    ? tablePointBuy.entries.reduce((acc, entry) => {
+        const score = Number(entry?.score);
+        const cost = Number(entry?.cost);
+        if (!Number.isFinite(score) || !Number.isFinite(cost)) return acc;
+        acc[String(score)] = cost;
+        return acc;
+      }, {})
+    : {};
+
+  const classEntries = getRulesByType(registry, 'class');
+  const classIdByName = {};
+  const classes = classEntries.map(entry => {
+    const data = entry.data || {};
+    const name = String(data.name || entry.name || entry.id || '').trim();
+    const armorProfs = Array.isArray(data.proficiencies?.armor)
+      ? data.proficiencies.armor.join(', ')
+      : '';
+    const weaponProfs = Array.isArray(data.proficiencies?.weapons)
+      ? data.proficiencies.weapons.join(', ')
+      : '';
+    const skillChoice = data.proficiencies?.skills_choose;
+    const skillChoices = skillChoice && Array.isArray(skillChoice.from) && skillChoice.from.length
+      ? `Choose ${Number(skillChoice.count) || skillChoice.from.length}: ${skillChoice.from.map(toTitleCase).join(', ')}`
+      : '';
+    if (name) classIdByName[normalizeName(name)] = entry.id;
+    return {
+      class_id: entry.id,
+      name,
+      primary_ability: data.primary_ability || '',
+      hit_die: data.hit_die || '',
+      saving_throws: Array.isArray(data.saving_throws) ? data.saving_throws.join(', ') : data.saving_throws || '',
+      skill_choices: skillChoices,
+      armor_proficiencies: armorProfs,
+      weapon_proficiencies: weaponProfs,
+      starting_equipment_notes: Array.isArray(data.starting_equipment?.notes)
+        ? data.starting_equipment.notes.join(' ')
+        : '',
+    };
+  });
+
+  const normalizedClasses = classes.map(entry => ({
+    name: entry.name,
+    hit_die: entry.hit_die || '',
+    armor_proficiencies: entry.armor_proficiencies,
+    weapon_proficiencies: entry.weapon_proficiencies,
+  }));
+
+  const classNameById = new Map(classes.map(entry => [entry.class_id, entry.name]));
+  const classIdByNameNormalized = new Map(classes.map(entry => [normalizeName(entry.name), entry.class_id]));
+  const standardArrayByClass = Array.isArray(tableStandardArrayByClass?.entries)
+    ? tableStandardArrayByClass.entries.reduce((acc, row) => {
+        const name = String(row?.class || '').trim();
+        if (!name) return acc;
+        acc[name] = {
+          str: Number(row.str),
+          dex: Number(row.dex),
+          con: Number(row.con),
+          int: Number(row.int),
+          wis: Number(row.wis),
+          cha: Number(row.cha),
+        };
+        return acc;
+      }, {})
+    : {};
+  const standardArrayByClassNormalized = Object.entries(standardArrayByClass).reduce((acc, [name, values]) => {
+    acc[normalizeName(name)] = values;
+    return acc;
+  }, {});
+  const standardArrayByClassId = Object.entries(standardArrayByClass).reduce((acc, [name, values]) => {
+    const classId = classIdByNameNormalized.get(normalizeName(name));
+    if (!classId) return acc;
+    acc[classId] = values;
+    return acc;
+  }, {});
+
+  const subclassEntries = getRulesByType(registry, 'subclass').map(entry => {
+    const data = entry.data || {};
+    const name = String(data.title || data.name || entry.name || entry.id || '').trim();
+    const classId = String(data.parent_class || data.class_id || data.class || '').trim();
+    const levels = Array.isArray(data.feature_levels) ? data.feature_levels : [];
+    const minLevel = levels.length ? Math.min(...levels.map(value => Number(value)).filter(Number.isFinite)) : 3;
+    return {
+      id: entry.id,
+      name,
+      class_id: classId,
+      class_name: classNameById.get(classId) || '',
+      level_required: Number.isFinite(minLevel) ? minLevel : 3,
+      feature_levels: levels,
+      features_by_level: data.features_by_level || {},
+    };
+  });
+
+  const featById = new Map(
+    getRulesByType(registry, 'origin_feat').map(entry => [entry.id, getRuleName(entry)])
+  );
+  const backgroundEntries = getRulesByType(registry, 'background').map(entry => {
+    const data = entry.data || {};
+    const name = String(data.name || entry.name || entry.id || '').trim();
+    const featId = data.origin_feat_ref;
+    const featName = featId ? (featById.get(featId) || featId) : '';
+    const skills = Array.isArray(data.skill_proficiencies)
+      ? data.skill_proficiencies.join(', ')
+      : data.skill_proficiencies || '';
+    const equipmentOptions = Array.isArray(data.equipment_options) ? data.equipment_options : [];
+    const optionA = equipmentOptions.find(opt => String(opt?.option || '').toUpperCase() === 'A') || equipmentOptions[0];
+    const optionB = equipmentOptions.find(opt => String(opt?.option || '').toUpperCase() === 'B') || equipmentOptions[1];
+    const optionAText = optionA
+      ? buildEquipmentDescription(optionA.items || [], optionA.gp)
+      : '';
+    const optionBText = optionB
+      ? buildEquipmentDescription(optionB.items || [], optionB.gp)
+      : '';
+    return {
+      name,
+      feat_granted: featName,
+      skill_proficiencies: skills,
+      starting_equipment_a: optionAText,
+      starting_equipment_b: optionBText,
+      languages: '',
+      language_info: { base: [], count: 0 },
+    };
+  });
+
+  const speciesEntries = getRulesByType(registry, 'species').map(entry => {
+    const data = entry.data || {};
+    const name = String(data.name || entry.name || entry.id || '').trim();
+    return {
+      name,
+      species_id: entry.id,
+      languages: '',
+      language_info: { base: [], count: 0 },
+      special_traits: Array.isArray(data.traits)
+        ? data.traits.map(trait => trait?.name).filter(Boolean).join(', ')
+        : '',
+    };
+  });
+
+  const lineageTables = [
+    { id: 'table.species.elven_lineages', species: 'species.elf' },
+    { id: 'table.species.fiendish_legacies', species: 'species.tiefling' },
+    { id: 'table.species.gnomish_lineages', species: 'species.gnome' },
+    { id: 'table.species.draconic_ancestors', species: 'species.dragonborn' },
+  ];
+  const lineages = [];
+  lineageTables.forEach(tableInfo => {
+    const tableEntry = getRulesById(registry, tableInfo.id);
+    const tableData = tableEntry?.data;
+    if (!tableData || !Array.isArray(tableData.entries)) return;
+    tableData.entries.forEach(entry => {
+      const name = String(entry.lineage || entry.legacy || entry.ancestry || entry.name || '').trim();
+      if (!name) return;
+      lineages.push({ name, species_id: tableInfo.species });
+    });
+  });
+
+  const packsTable = getRulesById(registry, 'table.adventuring_packs');
+  const packsById = new Map();
+  const adventuringPacks = {};
+  if (packsTable?.data?.entries) {
+    packsTable.data.entries.forEach(entry => {
+      if (entry?.pack_id) packsById.set(entry.pack_id, entry);
+      const name = String(entry.pack || '').trim();
+      if (!name) return;
+      const items = Array.isArray(entry.items) ? entry.items.map(item => parsePackItemName(item)).filter(Boolean) : [];
+      adventuringPacks[normalizeName(name)] = { name, items };
+    });
+  }
+
+  const equipmentOptions = {};
+  classEntries.forEach(entry => {
+    const data = entry.data || {};
+    const name = String(data.name || entry.name || entry.id || '').trim();
+    if (!name) return;
+    const options = Array.isArray(data.starting_equipment?.options) ? data.starting_equipment.options : [];
+    equipmentOptions[normalizeName(name)] = options.map(option => {
+      const items = Array.isArray(option.items) ? [...option.items] : [];
+      const packName = getPackNameById(option.pack_ref, packsById);
+      if (packName) items.push(packName);
+      return {
+        option: option.option,
+        items,
+        gp: option.gp,
+        description: buildEquipmentDescription(items, option.gp),
+      };
+    });
+  });
+
+  const adventuringGearTable = getRulesById(registry, 'table.adventuring_gear');
+  const adventuringGear = Array.isArray(adventuringGearTable?.data?.entries)
+    ? adventuringGearTable.data.entries.map(entry => ({
+        name: entry.item,
+        weight: entry.weight,
+        cost: entry.cost,
+      }))
+    : [];
+
+  const itemEntries = getRulesByType(registry, 'item');
+  const armor = itemEntries
+    .filter(entry => String(entry.data?.item_type || '').toLowerCase() === 'armor')
+    .map(entry => ({
+      name: entry.data?.name || entry.name || entry.id,
+      ac: entry.data?.armor_class ?? entry.data?.ac ?? '',
+      strength: entry.data?.strength ?? '',
+      stealth: entry.data?.stealth ?? '',
+      weight: entry.data?.weight ?? '',
+      cost: entry.data?.cost ?? '',
+      category: entry.data?.armor_category ?? entry.data?.category ?? '',
+    }));
+  const weapons = itemEntries
+    .filter(entry => String(entry.data?.item_type || '').toLowerCase() === 'weapon')
+    .map(entry => {
+      const props = Array.isArray(entry.data?.properties) ? entry.data.properties : [];
+      return {
+        name: entry.data?.name || entry.name || entry.id,
+        category: entry.data?.weapon_category ?? entry.data?.category ?? '',
+        damage: entry.data?.damage ?? '',
+        mastery: entry.data?.mastery ?? '',
+        properties: props.join(', '),
+        properties_1: props[0] || '',
+        properties_2: props[1] || '',
+        properties_3: props[2] || '',
+        properties_4: props[3] || '',
+      };
+    });
+
+  const classProgression = [];
+  classEntries.forEach(entry => {
+    const data = entry.data || {};
+    const tables = Array.isArray(data.tables) ? data.tables : [];
+    const tableId = tables.find(id => String(id || '').includes('class_features'));
+    if (!tableId) return;
+    const tableEntry = getRulesById(registry, tableId);
+    const rows = buildClassProgressionFromTable(tableEntry?.data, entry.id);
+    classProgression.push(...rows);
+  });
+
+  const monsterEntries = [
+    ...getRulesByType(registry, 'monster'),
+    ...getRulesByType(registry, 'animal'),
+  ];
+  const creatures = monsterEntries
+    .filter(entry => String(entry.data?.creature_type || entry.data?.size_type_alignment || '').toLowerCase().includes('beast'))
+    .map(entry => ({
+      name: entry.data?.name || entry.name || entry.id,
+      type: entry.data?.creature_type || entry.data?.size_type_alignment || '',
+      cr: entry.data?.cr || '',
+      speed: entry.data?.speed || '',
+      ac: entry.data?.armor_class || '',
+      hp: entry.data?.hit_points || '',
+      actions_text: Array.isArray(entry.data?.actions)
+        ? entry.data.actions.map(action => `${action?.name || 'Action'}. ${action?.text || ''}`).join(' ')
+        : entry.data?.actions_text || entry.data?.raw_text || '',
+    }));
+
+  const languageTable = getRulesById(registry, 'table.languages.core');
+  const languageEntries = Array.isArray(languageTable?.data?.entries) ? languageTable.data.entries : [];
+  const standardLanguages = languageEntries
+    .filter(entry => String(entry.category || '').toLowerCase() === 'standard')
+    .map(entry => ({ language: String(entry.language || '').trim() }))
+    .filter(entry => entry.language);
+  const rareLanguages = languageEntries
+    .filter(entry => String(entry.category || '').toLowerCase() === 'rare')
+    .map(entry => ({ language: String(entry.language || '').trim() }))
+    .filter(entry => entry.language);
+
+  const featureChoices = [];
+  const druidEntry = classEntries.find(entry => normalizeName(getRuleName(entry)) === 'druid');
+  if (druidEntry?.id) {
+    featureChoices.push({
+      class_id: druidEntry.id,
+      level: 1,
+      feature: 'primal_order',
+      options: [
+        {
+          key: 'magician',
+          label: 'Magician',
+          effects: {
+            cantrips_bonus: 1,
+            skill_choice: ['Arcana', 'Nature'],
+            skill_bonus: 'Add your Wisdom modifier (min +1) to the chosen skill.',
+          },
+        },
+        {
+          key: 'warden',
+          label: 'Warden',
+          effects: {
+            armor_training_add: ['medium'],
+            weapon_training_add: ['martial'],
+          },
+        },
+      ],
+    });
+  }
+
+  return {
+    classes,
+    subclasses: subclassEntries,
+    backgrounds: backgroundEntries,
+    species: speciesEntries,
+    lineages,
+    equipmentOptions,
+    adventuringPacks,
+    normalizedClasses,
+    armor,
+    weapons,
+    adventuringGear,
+    classProgression,
+    classIdByName,
+    creatures,
+    standardLanguages,
+    rareLanguages,
+    featureChoices,
+    standardArrayByClass,
+    standardArrayByClassNormalized,
+    standardArrayByClassId,
+    standardArrayGlobal,
+    pointBuyCosts,
+  };
 }
 
 function loadNameSet(filePath, column = 'name') {
@@ -1759,8 +2187,45 @@ app.get('/api/player/wizard-data', requirePlayerAuth, async (req, res) => {
   try {
     const roleCheck = await assertPlayerRole(req, res);
     if (!roleCheck) return;
-    const artifact = loadWizardDataArtifact();
-    if (artifact) {
+    const artifact = loadWizardDataArtifact() || {};
+    const rulesData = buildWizardDataFromRules();
+    if (rulesData) {
+      const standardLanguages = Array.isArray(artifact.standardLanguages) && artifact.standardLanguages.length
+        ? artifact.standardLanguages
+        : rulesData.standardLanguages || [];
+      const rareLanguages = Array.isArray(artifact.rareLanguages) && artifact.rareLanguages.length
+        ? artifact.rareLanguages
+        : rulesData.rareLanguages || [];
+      res.json({
+        ...rulesData,
+        standardArrayByClass: Object.keys(artifact.standardArrayByClass || {}).length
+          ? artifact.standardArrayByClass
+          : rulesData.standardArrayByClass || {},
+        standardArrayByClassNormalized: Object.keys(artifact.standardArrayByClassNormalized || {}).length
+          ? artifact.standardArrayByClassNormalized
+          : rulesData.standardArrayByClassNormalized || {},
+        standardArrayByClassId: Object.keys(artifact.standardArrayByClassId || {}).length
+          ? artifact.standardArrayByClassId
+          : rulesData.standardArrayByClassId || {},
+        standardArrayGlobal: Array.isArray(artifact.standardArrayGlobal) && artifact.standardArrayGlobal.length
+          ? artifact.standardArrayGlobal
+          : rulesData.standardArrayGlobal || [],
+        pointBuyCosts: Object.keys(artifact.pointBuyCosts || {}).length
+          ? artifact.pointBuyCosts
+          : rulesData.pointBuyCosts || {},
+        trinkets: artifact.trinkets || [],
+        abilityModifiers: artifact.abilityModifiers || [],
+        abilityScoreRanges: artifact.abilityScoreRanges || [],
+        startingEquipmentHigherLevels: artifact.startingEquipmentHigherLevels || [],
+        featureChoices: Array.isArray(artifact.featureChoices) && artifact.featureChoices.length
+          ? artifact.featureChoices
+          : rulesData.featureChoices || [],
+        standardLanguages,
+        rareLanguages,
+      });
+      return;
+    }
+    if (artifact && Object.keys(artifact).length) {
       const equipmentOptions = {};
       if (Array.isArray(artifact.normalizedClasses)) {
         artifact.normalizedClasses.forEach(entry => {
@@ -1780,6 +2245,7 @@ app.get('/api/player/wizard-data', requirePlayerAuth, async (req, res) => {
         standardArrayByClass: artifact.standardArrayByClass || {},
         standardArrayByClassNormalized: artifact.standardArrayByClassNormalized || {},
         standardArrayByClassId: artifact.standardArrayByClassId || {},
+        standardArrayGlobal: Array.isArray(artifact.standardArrayGlobal) ? artifact.standardArrayGlobal : [],
         pointBuyCosts: artifact.pointBuyCosts || {},
         adventuringGear: artifact.adventuringGear || [],
         trinkets: artifact.trinkets || [],
@@ -2316,18 +2782,73 @@ app.get('/api/player/wizard/class-spells', requirePlayerAuth, async (req, res) =
   try {
     const roleCheck = await assertPlayerRole(req, res);
     if (!roleCheck) return;
-    const className = String(req.query.class || '').trim();
-    if (!className) {
-      res.json({ spells: [] });
-      return;
+      const rawClass = String(req.query.class || '').trim();
+      if (!rawClass) {
+        res.json({ spells: [] });
+        return;
+      }
+      const registry = getRulesRegistry();
+      const resolveClassName = (value) => {
+        const raw = String(value || '').trim();
+        if (!raw) return '';
+        if (registry) {
+          const direct = getRulesById(registry, raw);
+          const name = direct?.data?.name || direct?.name;
+          if (name) return String(name).trim();
+        }
+        return raw;
+      };
+      const className = resolveClassName(rawClass);
+      if (registry) {
+        const listId = `list.spells.class_${normalizeListId(className)}`;
+        const listEntry = getRulesById(registry, listId);
+      if (listEntry?.data?.items) {
+        const spells = listEntry.data.items
+          .map(spellId => {
+            const spellEntry = getRulesById(registry, spellId);
+            const spell = spellEntry?.data;
+            if (!spell) return null;
+            const components = spell.components;
+            let componentText = '';
+            if (typeof components === 'string') {
+              componentText = components;
+            } else if (components && typeof components === 'object') {
+              const flags = Array.isArray(components.flags) ? components.flags.join(', ') : '';
+              const material = components.material ? ` (${components.material})` : '';
+              componentText = `${flags}${material}`.trim();
+            }
+            const description = Array.isArray(spell.description)
+              ? spell.description.join(' ')
+              : String(spell.description || '');
+            return {
+              spell_id: spell.id || spellEntry.id,
+              name: spell.name || spellEntry.name || spellEntry.id,
+              level: Number.isFinite(Number(spell.level)) ? Number(spell.level) : null,
+              casting_time: spell.casting_time || '',
+              range: spell.range || '',
+              components: componentText,
+              duration: spell.duration || '',
+              description,
+            };
+          })
+          .filter(Boolean)
+          .sort((a, b) => {
+            if (a.level === b.level) return a.name.localeCompare(b.name);
+            if (a.level === null) return 1;
+            if (b.level === null) return -1;
+            return a.level - b.level;
+          });
+        res.json({ spells });
+        return;
+      }
     }
-    const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
-    const classRow = classes.find(row => normalizeName(row.name) === normalizeName(className)
-      || String(row.class_id || '') === String(className));
-    if (!classRow?.class_id) {
-      res.json({ spells: [] });
-      return;
-    }
+      const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
+      const classRow = classes.find(row => normalizeName(row.name) === normalizeName(className)
+        || String(row.class_id || '') === String(className));
+      if (!classRow?.class_id) {
+        res.json({ spells: [] });
+        return;
+      }
     const spellRows = loadCsvRows(path.join(DATASET_DIR, 'spells.csv')).rows;
     const toSpellId = name => `SPL_${String(name || '').toUpperCase().replace(/[^A-Z0-9]+/g, '_').replace(/^_+|_+$/g, '')}`;
     const nameFromId = spellId =>
@@ -2396,6 +2917,35 @@ app.get('/api/player/wizard/spell-level', requirePlayerAuth, async (req, res) =>
     if (!className || !Number.isFinite(level) || level < 1) {
       res.json({ maxSpellLevel: null });
       return;
+    }
+    const registry = getRulesRegistry();
+    if (registry) {
+      const classEntries = getRulesByType(registry, 'class');
+      const classEntry = classEntries.find(entry => {
+        const name = getRuleName(entry);
+        return normalizeName(name) === normalizeName(className) || String(entry.id) === String(className);
+      });
+      if (classEntry?.data?.tables) {
+        const tableId = classEntry.data.tables.find(id => String(id || '').includes('class_features'));
+        const tableEntry = tableId ? getRulesById(registry, tableId) : null;
+        const row = Array.isArray(tableEntry?.data?.entries)
+          ? tableEntry.data.entries.find(entry => Number(entry.level) === level)
+          : null;
+        if (row?.spell_slots && typeof row.spell_slots === 'object') {
+          let max = null;
+          Object.entries(row.spell_slots).forEach(([slot, value]) => {
+            const count = Number(value);
+            const slotLevel = Number(slot);
+            if (Number.isFinite(count) && count > 0 && Number.isFinite(slotLevel)) {
+              if (!Number.isFinite(max) || slotLevel > max) max = slotLevel;
+            }
+          });
+          res.json({ maxSpellLevel: Number.isFinite(max) ? max : null });
+          return;
+        }
+        res.json({ maxSpellLevel: null });
+        return;
+      }
     }
     const classes = loadCsvRows(path.join(DATASET_DIR, 'classes.csv')).rows;
     const classRow = classes.find(row => normalizeName(row.name) === normalizeName(className)

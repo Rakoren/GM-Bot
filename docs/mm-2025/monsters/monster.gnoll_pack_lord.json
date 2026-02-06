@@ -1,0 +1,84 @@
+{
+  "id": "monster.gnoll_pack_lord",
+  "name": "GNOLL PACK LORD",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "hit_points": 49,
+  "hit_dice": "9d8 + 9",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Gnoll",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The gnoll makes two attacks, using Bone Whip or Bone Javelin in any combination, and it uses Incite Rampage if available."
+    },
+    {
+      "name": "Bone Whip",
+      "text": "Melee Attack Roll: +5, reach 10 ft. Hit: 8 (2d4 + 3) Slashing damage."
+    },
+    {
+      "name": "Bone Javelin",
+      "text": "Ranged Attack Roll: +5, range 30/120 ft. Hit: 7 (1d8 + 3) Piercing damage."
+    },
+    {
+      "name": "Incite Rampage (Recharge 5-6)",
+      "text": "The gnoll targets another creature it can see within 60 feet of itself that has the Rampage Bonus Action. The target can take a Reaction to make one melee attack."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Rampage (2/Day)",
+      "text": "Immediately after dealing damage to a creature that is already Bloodied, the gnoll moves up to half its Speed, and it makes one Bone Whip attack."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +4 (14)\tMedium Fiend, Chaotic Evil\nGnoll Fang of Yeenoghu\nGnolls possessed by demonic vestiges of the demon lord Yeenoghu, fangs of Yeenoghu direct the chaos of gnoll packs. Along the way, these fanatics seek\ngrisly omens from Yeenoghu and strive to interpret the demon lord’s vicious goals.\nGnoll Demoniac\nGnoll demoniacs are berserkers that arise from gnolls who’ve ritualistically fed on flesh corrupted by the Abyss. Now embodying the ruinous hunger of\nYeenoghu, these gnolls throw themselves into battle, heedless of odds or their own survival. Rampaging demoniacs even devour other gnolls in their wild\nfrenzies.\nHP 49 (9d8 + 9)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t14 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t11 \t+0 \t+0\nCHA \t9 \t−1 \t−1\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Gnoll\nCR 2 (XP 450; PB +2)\nActions\nMultiattack. The gnoll makes two attacks, using Bone Whip or Bone Javelin in\nany combination, and it uses Incite Rampage if available.\nBone Whip. Melee Attack Roll: +5, reach 10 ft.\nHit: 8 (2d4 + 3)\nSlashing damage.\nBone Javelin. Ranged Attack Roll: +5, range 30/120 ft.\nHit: 7 (1d8 + 3)\nPiercing damage.\nIncite Rampage (Recharge 5–6). The gnoll targets another creature it can see\nwithin 60 feet of itself that has the Rampage Bonus Action. The target can take\na Reaction to make one melee attack.\nBonus Actions\nRampage (2/Day). Immediately after dealing damage to a creature that is\nalready Bloodied, the gnoll moves up to half its Speed, and it makes one Bone\nWhip attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

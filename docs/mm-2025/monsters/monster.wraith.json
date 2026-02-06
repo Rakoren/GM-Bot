@@ -1,0 +1,84 @@
+{
+  "id": "monster.wraith",
+  "name": "WRAITH",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Undead, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 67,
+  "hit_dice": "9d8 + 27",
+  "speed": "5 ft., Fly 60 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Common plus two other languages",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Incorporeal Movement",
+      "text": "The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the wraith has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Life Drain",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken."
+    },
+    {
+      "name": "Create Specter",
+      "text": "The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a"
+    },
+    {
+      "name": "Specter in the space of its corpse or in the nearest unoccupied space",
+      "text": "The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 67 (9d8 + 27)\nSpeed 5 ft., Fly 60 ft. (hover)\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t16 \t+3 \t+3\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t15 \t+2 \t+2\nResistances Acid, Bludgeoning, Cold, Fire, Piercing, Slashing\nImmunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed,\nPetrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Common plus two other languages\nCR 5 (XP 1,800; PB +3)\nTraits\nIncorporeal Movement. The wraith can move through other creatures and\nobjects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it\nends its turn inside an object.\nSunlight Sensitivity. While in sunlight, the wraith has Disadvantage on ability\nchecks and attack rolls.\nActions\nLife Drain. Melee Attack Roll: +6, reach 5 ft.\nHit: 21 (4d8 + 3) Necrotic damage.\nIf the target is a creature, its Hit Point maximum decreases by an amount\nequal to the damage taken.\nCreate Specter. The wraith targets a Humanoid corpse within 10 feet of itself\nthat has been dead for no longer than 1 minute. The target’s spirit rises as a\nSpecter in the space of its corpse or in the nearest unoccupied space. The\nspecter is under the wraith’s control. The wraith can have no more than seven\nspecters under its control at a time.\nMedium or Small Undead, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

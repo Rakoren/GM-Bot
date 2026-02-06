@@ -1,0 +1,85 @@
+{
+  "id": "monster.incubus",
+  "name": "INCUBUS",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "hit_points": 66,
+  "hit_dice": "12d8 + 12",
+  "speed": "30 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Abyssal, Common, Infernal; telepathy 60 ft.",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Succubus Form",
+      "text": "When the incubus finishes a Long Rest, it can shape-shift into a Succubus, using that stat block instead of this one. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The incubus makes two Restless Touch attacks."
+    },
+    {
+      "name": "Restless Touch",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The incubus casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15): At Will: Disguise Self, Etherealness 1/Day Each: Dream, Hypnotic Pattern"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Nightmare (Recharge 6)",
+      "text": "Wisdom Saving Throw: DC 15, one creature the incubus can see within 60 feet. Failure: If the target has 20 Hit Points or fewer, it has the Unconscious condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8) Psychic damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +3 (13)\nHP 66 (12d8 + 12)\nSpeed 30 ft., Fly 60 ft.\tMedium Fiend, Neutral Evil\nIntellect Devourer\nBrain-Eating Body Thief\nHabitat: Underdark; Treasure: None\nIntellect devourers serve their mind flayer creators by consuming other creatures’ brains and puppetizing the mindless bodies. These quadrupedal brains\nseek to ambush sapient beings, then drain their thoughts until they’re mindless. Then, if their victims are Humanoids, they enter the creatures’ skulls. With\naccess to the victims’ knowledge and control of their bodies, intellect devourers use their perfect disguises to pass as the people they’ve replaced and\nfurther mind flayer plots.\nMOD \tSAVE\nSTR \t8 \t−1 \t−1\nDEX \t17 \t+3 \t+3\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t15 \t+2 \t+2\nWIS \t12 \t+1 \t+1\nCHA \t20 \t+5 \t+5\nSkills Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7\nResistances Cold, Fire, Poison, Psychic\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Abyssal, Common, Infernal; telepathy 60 ft.\nCR 4 (XP 1,100; PB +2)\nTraits\nSuccubus Form. When the incubus finishes a Long Rest, it can shape-shift into\na Succubus, using that stat block instead of this one. Any equipment it is\nwearing or carrying isn’t transformed.\nActions\nMultiattack. The incubus makes two Restless Touch attacks.\nRestless Touch. Melee Attack Roll: +7, reach 5 ft.\nHit: 15 (3d6 + 5) Psychic\ndamage, and the target is cursed for 24 hours or until the incubus dies. Until\nthe curse ends, the target gains no benefit from finishing Short Rests.\nSpellcasting. The incubus casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 15):\nAt Will:\nDisguise Self,\nEtherealness\n1/Day Each:\nDream,\nHypnotic Pattern\nBonus Actions\nNightmare (Recharge 6). Wisdom Saving Throw: DC 15, one creature the\nincubus can see within 60 feet.\nFailure: If the target has 20 Hit Points or fewer,\nit has the Unconscious condition for 1 hour, until it takes damage, or until a\ncreature within 5 feet of it takes an action to wake it. Otherwise, the target\ntakes 18 (4d8) Psychic damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (I) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

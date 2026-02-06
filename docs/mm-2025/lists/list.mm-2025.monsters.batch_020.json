@@ -1,0 +1,76 @@
+{
+  "id": "list.mm-2025.monsters.batch_020",
+  "name": "MM 2025 Monsters Batch 20",
+  "entries": [
+    {
+      "id": "monster.adult_red_dragon",
+      "name": "ADULT RED DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_red_dragon.json"
+    },
+    {
+      "id": "monster.ancient_red_dragon",
+      "name": "ANCIENT RED DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_red_dragon.json"
+    },
+    {
+      "id": "monster.graveyard_revenant",
+      "name": "GRAVEYARD REVENANT",
+      "file": "docs/mm-2025/monsters/monster.graveyard_revenant.json"
+    },
+    {
+      "id": "monster.haunting_revenant",
+      "name": "HAUNTING REVENANT",
+      "file": "docs/mm-2025/monsters/monster.haunting_revenant.json"
+    },
+    {
+      "id": "monster.rakshasa",
+      "name": "RAKSHASA",
+      "file": "docs/mm-2025/monsters/monster.rakshasa.json"
+    },
+    {
+      "id": "monster.red_dragon_wyrmling",
+      "name": "RED DRAGON WYRMLING",
+      "file": "docs/mm-2025/monsters/monster.red_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.remorhaz",
+      "name": "REMORHAZ",
+      "file": "docs/mm-2025/monsters/monster.remorhaz.json"
+    },
+    {
+      "id": "monster.revenant",
+      "name": "REVENANT",
+      "file": "docs/mm-2025/monsters/monster.revenant.json"
+    },
+    {
+      "id": "monster.roc",
+      "name": "ROC",
+      "file": "docs/mm-2025/monsters/monster.roc.json"
+    },
+    {
+      "id": "monster.roper",
+      "name": "ROPER",
+      "file": "docs/mm-2025/monsters/monster.roper.json"
+    },
+    {
+      "id": "monster.rust_monster",
+      "name": "RUST MONSTER",
+      "file": "docs/mm-2025/monsters/monster.rust_monster.json"
+    },
+    {
+      "id": "monster.young_red_dragon",
+      "name": "YOUNG RED DRAGON",
+      "file": "docs/mm-2025/monsters/monster.young_red_dragon.json"
+    },
+    {
+      "id": "monster.young_remorhaz",
+      "name": "YOUNG REMORHAZ",
+      "file": "docs/mm-2025/monsters/monster.young_remorhaz.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

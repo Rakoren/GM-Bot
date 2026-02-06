@@ -1,0 +1,84 @@
+{
+  "id": "monster.medusa",
+  "name": "MEDUSA",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "hit_points": 127,
+  "hit_dice": "17d8 + 51",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +5, Perception +4, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 150 ft.; Passive Perception 14",
+  "languages": "Common plus one other language",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The medusa makes two Claw attacks and one Snake Hair attack, or it makes three Poison Ray attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage."
+    },
+    {
+      "name": "Snake Hair",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 14 (4d6) Poison damage."
+    },
+    {
+      "name": "Poison Ray",
+      "text": "Ranged Attack Roll: +5, range 150 ft. Hit: 11 (2d8 + 2) Poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Petrifying Gaze (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 13, each creature in a 30-foot Cone. If the medusa sees its reflection in the Cone, the medusa must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +6 (16)\nHP 127 (17d8 + 51)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t17 \t+3 \t+3\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t13 \t+1 \t+4\nCHA \t15 \t+2 \t+2\nSkills Deception +5, Perception +4, Stealth +6\nSenses Darkvision 150 ft.; Passive Perception 14\nLanguages Common plus one other language\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The medusa makes two Claw attacks and one Snake Hair attack,\nor it makes three Poison Ray attacks.\nClaw. Melee Attack Roll: +6, reach 5 ft.\nHit: 10 (2d6 + 3) Slashing damage.\nSnake Hair. Melee Attack Roll: +6, reach 5 ft.\nHit: 5 (1d4 + 3) Piercing damage\nplus 14 (4d6) Poison damage.\nPoison Ray. Ranged Attack Roll: +5, range 150 ft.\nHit: 11 (2d8 + 2)\nPoison damage.\nBonus Actions\nPetrifying Gaze (Recharge 5–6). Constitution Saving Throw: DC 13, each\ncreature in a 30-foot Cone. If the medusa sees its reflection in the Cone, the\nmedusa must make this save.\nFirst Failure: The target has the Restrained\ncondition and repeats the save at the end of its next turn if it is still Restrained,\nending the effect on itself on a success.\nSecond Failure: The target has the\nPetrified condition instead of the Restrained condition.\nMedium Monstrosity, Lawful Evil\nMephits are mean-spirited tricksters that dwell on the Elemental Planes. The six most prominent types of mephits resemble halfling-size gargoyles with\nwings, exaggerated features, and bodies composed of two elements. Most live self-interested existences, indulging their warped senses of humor or\noverblown egos on their home planes of existence. Some serve as messengers or spies for genies or magic-users.\nMephits resent leaving the elemental extremes where they make their homes. If loosed on the Material Plane or other realms, they lash out with nasty\npranks or by tormenting weaker creatures. When destroyed, mephits explode in a burst of elemental magic.\nDust Mephit\nDust mephits are composed of air and fine earth. They are drawn to forsaken places, and they think everything associated with death is hilarious.\nIce Mephit\nIce mephits have bodies made of frigid air and frozen water. They delight in freezing things and dropping ice into peoples’ clothes.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

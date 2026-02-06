@@ -1,0 +1,107 @@
+{
+  "id": "monster.adult_gold_dragon",
+  "name": "ADULT GOLD DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Huge Dragon (Metallic), Lawful Good",
+  "size": "Huge",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armor_class": 19,
+  "hit_points": 243,
+  "hit_dice": "18d12 + 126",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 24,
+      "mod": "+7"
+    }
+  },
+  "saves": null,
+  "skills": "Insight +8, Perception +14, Persuasion +13, Stealth +8",
+  "resistances": null,
+  "immunities": "Fire",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 24",
+  "languages": "Common, Draconic",
+  "cr": "17 (XP 18,000, or 20,000 in lair; PB +6)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Spellcasting to cast Guiding Bolt (level 2 version) or (B) Weakening Breath."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +14, reach 10 ft. Hit: 17 (2d8 + 8) Slashing damage plus 4 (1d8) Fire damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 66 (12d10) Fire damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21, +13 to hit with spell attacks): At Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell). 1/Day Each: Flame Strike, Zone of Truth."
+    },
+    {
+      "name": "Weakening Breath",
+      "text": "Strength Saving Throw: DC 21, each creature that isn't currently affected by this breath in a 60-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 3 (1d6) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Banish",
+      "text": "Charisma Saving Throw: DC 21, one creature the dragon can see within 120 feet. Failure: 10 (3d6) Force damage, and the target has the Incapacitated condition and is transported to a harmless demiplane until the start of the dragon's next turn, at which point it reappears in an unoccupied space of the dragon's choice within 120 feet of the dragon. Failure or Success: The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Guiding Light",
+      "text": "The dragon uses Spellcasting to cast Guiding Bolt (level 2 version)."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +14 (24)\nHP 243 (18d12 + 126)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t14 \t+2 \t+8\nCON \t25 \t+7 \t+7\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t15 \t+2 \t+8\nCHA \t24 \t+7 \t+7\nSkills Insight +8, Perception +14, Persuasion +13, Stealth +8\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 24\nLanguages Common, Draconic\nCR 17 (XP 18,000, or 20,000 in lair; PB +6)\nTraits\nAmphibious. The dragon can breathe air and water.\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Spellcasting to cast\nGuiding Bolt (level 2 version) or (B)\nWeakening Breath.\nRend. Melee Attack Roll: +14, reach 10 ft.\nHit: 17 (2d8 + 8) Slashing damage\nplus 4 (1d8) Fire damage.\nFire Breath (Recharge 5–6).\nDexterity Saving Throw: DC 21, each creature in a\n60-foot Cone.\nFailure: 66 (12d10) Fire damage.\nSuccess: Half damage.\nHuge Dragon (Metallic), Lawful Good\nAncient Gold Dragon\nAncient gold dragons are wise and mysterious. Many aid virtuous groups, guiding them in secret or patronizing them from afar. Only when stakes are at\ntheir highest do ancient gold dragons reveal themselves in all their majesty.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 21, +13 to hit with spell attacks):\nAt Will:\nDetect Magic,\nGuiding Bolt (level 2 version),\nShapechange (Beast or\nHumanoid form only, no Temporary Hit Points gained from the spell, and no\nConcentration or Temporary Hit Points required to maintain the spell)\n1/Day Each:\nFlame Strike,\nZone of Truth\nWeakening Breath. Strength Saving Throw: DC 21, each creature that isn’t\ncurrently affected by this breath in a 60-foot Cone.\nFailure: The target has\nDisadvantage on Strength-based D20 Tests and subtracts 3 (1d6) from its\ndamage rolls. It repeats the save at the end of each of its turns, ending the\neffect on itself on a success. After 1 minute, it succeeds automatically.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nBanish. Charisma Saving Throw: DC 21, one creature the dragon can see within\n120 feet.\nFailure: 10 (3d6) Force damage, and the target has the Incapacitated\ncondition and is transported to a harmless demiplane until the start of the\ndragon’s next turn, at which point it reappears in an unoccupied space of the\ndragon’s choice within 120 feet of the dragon.\nFailure or Success: The dragon\ncan’t take this action again until the start of its next turn.\nGuiding Light. The dragon uses Spellcasting to cast\nGuiding Bolt (level\n2 version).\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nTHE PURE OF HEART HAVE NOTHING TO FEAR IN\nTHE PRESENCE OF AN ANCIENT GOLD DRAGON\nANCIENT GOLD DRAGON\nGorgons\nBull-like Guardians with Petrifying Breath\nHabitat: Forest, Grassland, Hill; Treasure: Any\nAC 22 \tInitiative +16 (26)\nHP 546 (28d20 + 252)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t30 \t+10 \t+10\nDEX \t14 \t+2 \t+9\nCON \t29 \t+9 \t+9\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t17 \t+3 \t+10\nCHA \t28 \t+9 \t+9\nSkills Insight +10, Perception +17, Persuasion +16, Stealth +9\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27\nLanguages Common, Draconic\nCR 24 (XP 62,000, or 75,000 in lair; PB +7)\nTraits\nAmphibious. The dragon can breathe air and water.\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Spellcasting to cast\nGuiding Bolt (level 4 version) or (B)\nWeakening Breath.\nRend. Melee Attack Roll: +17 to hit, reach 15 ft.\nHit: 19 (2d8 + 10) Slashing\ndamage plus 9 (2d8) Fire damage.\nFire Breath(Recharge 5–6).\nDexterity Saving Throw: DC 24, each creature in a\n90-foot Cone.\nFailure: 71 (13d10) Fire damage.\nSuccess: Half damage.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 24, +16 to hit with spell attacks):\nAt Will:\nDetect Magic,\nGuiding Bolt (level 4 version),\nShapechange (Beast or\nHumanoid form only, no Temporary Hit Points gained from the spell, and no\nConcentration or Temporary Hit Points required to maintain the spell)\n1/Day Each:\nFlame Strike (level 6 version),\nWord of Recall,\nZone of Truth\nWeakening Breath. Strength Saving Throw: DC 24, each creature that isn’t\ncurrently affected by this breath in a 90-foot Cone.\nFailure: The target has\nDisadvantage on Strength-based D20 Tests and subtracts 5 (1d10) from its\ndamage rolls. It repeats the save at the end of each of its turns, ending the\neffect on itself on a success. After 1 minute, it succeeds automatically.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nBanish. Charisma Saving Throw: DC 24, one creature the dragon can see within\n120 feet.\nFailure: 24 (7d6) Force damage, and the target has the Incapacitated\ncondition and is transported to a harmless demiplane until the start of the\ndragon’s next turn, at which point it reappears in an unoccupied space of the\ndragon’s choice within 120 feet of the dragon.\nFailure or Success: The dragon\ncan’t take this action again until the start of its next turn.\nGuiding Light. The dragon uses Spellcasting to cast\nGuiding Bolt (level\n4 version).\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nGargantuan Dragon (Metallic), Lawful Good\nResembling mighty bulls armored in iron plates, gorgons are lifelike automatons that seek to destroy all who enter their territories. In addition to goring foes\nwith their deadly horns and trampling them under their iron hooves, gorgons exhale gouts of noxious gas.\nGorgons are created by magic-users to serve as guardians. The process for creating a gorgon is labor intensive and dangerous, with one method requiring\nthe skeleton of a bull, the blood of a medusa, and the brain of a basilisk fused into a frame of ensorcelled iron. If the process fails, petrifying gas emerges\nfrom the materials, creating a magical threat that can fill a structure and linger for years.\nWhen magic-users create gorgons, they often enchant them to ignore those who confront the creature with a specific command key, usually a password or\na specific signal. Once a gorgon is set to guard an area, it attacks any who enter until they flee or are destroyed. Should someone provide the command key,\nthe monster ignores that intruder so long as the intruder remains in its sight. But if the intruder ventures out of sight and then returns without again\npresenting the command key, the gorgon attacks. Those in a gorgon’s territory must remain vigilant and aware of the monster’s exact position, or they risk\nbeing attacked by a gorgon they thought was no longer a threat.\nThose who create gorgons strive to give them purposefully obscure command keys. Hints at command keys might be found among the records of a\ngorgon’s creator or in the area the gorgon protects—perhaps scrawled as a petrified trespasser’s final act. Roll on or choose a result from the Gorgon\nCommand Keys table to inspire the word or signal that temporarily neutralizes a gorgon.\nGorgon Command Keys\n1d6 \tGorgon Won’t Attack Those That...\n1 \tCast a particular spell in the gorgon’s presence.\n2 \tKeep their back to the gorgon or otherwise act like they don’t see the monster.\n3 \tOffer it a drink of blood, water, or wine.\nA GORGON PETRIFIES VICTIMS WITH ITS DEADLY BREATH, THEN TRAMPLES THEM TO PIECES\nNotable among my eccentric ancestor’s scattered designs was\na schematic of a swamp-dwelling bovine monster and an\nominous note: “Do better.”\n—LUM THE MAESTRO,\nA MIND OF METAL\n1d6 \tGorgon Won’t Attack Those That...\n4 \tRecite a specific rhyme or sing a certain song.\n5 \tSay its creator’s name backward.\n6 \tWear a mask, perhaps in the shape of a bull or an animal meaningful to the gorgon’s creator.\nGorgon\nMost gorgons are iron bulls wreathed in clouds of petrifying gas. Their metal plates vary in sheen and color, from sleek silver to pitted black. The oldest\ngorgons might be covered in rust, but this rarely impedes their abilities. These gorgons’ stomping grounds are littered with the shattered remains of petrified\nfoes. Many gorgons outlive their creators by centuries, misleading some to believe these creations have natural origins and territories. Most such gorgons\ncontinue to follow age-old commands, guarding sites long fallen to ruin.\nBrazen Gorgon\nFollowers of the exiled archdevil Moloch altered the process of creating gorgons to craft their own diabolical guardians called brazen gorgons. These\ngorgons are hollow, bull-like automatons whose metal bodies glow with intense heat. When they charge their foes, the ribs of their frames open like cages\nto ensnare enemies and roast them within. Brazen gorgons are often found in blasphemous sites dedicated to Moloch, other archdevils, or bloodthirsty\ngods.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

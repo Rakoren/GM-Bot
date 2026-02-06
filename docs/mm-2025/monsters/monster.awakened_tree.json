@@ -1,0 +1,67 @@
+{
+  "id": "monster.awakened_tree",
+  "name": "AWAKENED TREE",
+  "status": "complete",
+  "size_type_alignment": "Huge Plant, Neutral",
+  "size": "Huge",
+  "creature_type": "Plant",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 59,
+  "hit_dice": "7d12 + 14",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common plus one other language",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage. The thing's got an axe for a face and a giant, angry rooster for everything else-of course I want to ride it! -BATLEY SUMMERFOOT, ADVENTURER"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative −2 (8)\nHP 59 (7d12 + 14)\nSpeed 20 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t6 \t−2 \t−2\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t7 \t−2 \t−2\nVulnerabilities Fire\nHuge Plant, Neutral\nAxe Beaks\nFlightless Avian Predators\nHabitat: Arctic, Grassland, Hill; Treasure: None\nAxe beaks are flightless, birdlike creatures with distinctive axe-shaped\nbeaks. Swift predators, they chase down prey and use their beaks to hack\nthrough foliage protecting their quarry. Axe beaks live in varied\nenvironments. Colorfully plumed axe beaks race across tropical plains,\nwhile axe beaks with snowy feathers hunt the tundra.\nAxe beaks are difficult to train, but those hatched and raised in captivity can\nbecome reliable mounts.\nAxe Beak\nAlone or in small groups, axe beaks stalk prey to feed their flocks. When working together, axe beaks use rudimentary tactics, with some distracting threats\nwhile others strike vulnerable targets or rush young axe beaks to safety.\nGiant Axe Beak\nGiant axe beaks typically dwell in secluded, primeval realms, such as isolated islands or underground wildernesses. They often compete with dinosaurs\nand other giant beasts for territory.\nResistances Bludgeoning, Piercing\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 2 (XP 450; PB +2)\nActions\nSlam. Melee Attack Roll: +6, reach 10 ft.\nHit: 14 (3d6 + 4) Bludgeoning damage.\nThe thing’s got an axe for a face and a giant, angry\nrooster for everything else—of course I want to ride it!\n—BATLEY SUMMERFOOT, ADVENTURER",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

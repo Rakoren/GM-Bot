@@ -1,0 +1,84 @@
+{
+  "id": "monster.yeti",
+  "name": "YETI",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "hit_points": 51,
+  "hit_dice": "6d10 + 18",
+  "speed": "40 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +5",
+  "resistances": null,
+  "immunities": "Cold",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Yeti",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Fear of Fire",
+      "text": "If the yeti takes Fire damage, it has Disadvantage on attack rolls and ability checks until the end of its next turn."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The yeti can use its Chilling Gaze and makes two attacks, using Claw or Ice Throw in any combination."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage plus 3 (1d6) Cold damage."
+    },
+    {
+      "name": "Ice Throw",
+      "text": "Ranged Attack Roll: +6, range 30/120 ft. Hit: 6 (1d4 + 4) Bludgeoning damage plus 2 (1d4) Cold damage."
+    },
+    {
+      "name": "Chilling Gaze",
+      "text": "Constitution Saving Throw: DC 13, one creature the yeti can see within 30 feet. Failure: 5 (2d4) Cold damage, and the target has the Paralyzed condition until the start of the yeti's next turn unless the target has Immunity to Cold damage. Success: The target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +1 (11)\nHP 51 (6d10 + 18)\nSpeed 40 ft., Climb 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t13 \t+1 \t+1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t8 \t-1 \t-1\nWIS \t12 \t+1 \t+1\nCHA \t7 \t-2 \t-2\nSkills Perception +5, Stealth +5\nImmunities Cold\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Yeti\nCR 3 (XP 700; PB +2)\nTraits\nFear of Fire. If the yeti takes Fire damage, it has Disadvantage on attack rolls and ability checks until the end of its next turn.\nActions\nMultiattack. The yeti can use its Chilling Gaze and makes two attacks, using Claw or Ice Throw in any combination.\nClaw. Melee Attack Roll: +6, reach 5 ft.\nHit: 7 (1d6 + 4) Slashing damage plus 3 (1d6) Cold damage.\nIce Throw. Ranged Attack Roll: +6, range 30/120 ft.\nHit: 6 (1d4 + 4) Bludgeoning damage plus 2 (1d4) Cold damage.\nChilling Gaze. Constitution Saving Throw: DC 13, one creature the yeti can see within 30 feet.\nFailure: 5 (2d4) Cold damage, and the target has the Paralyzed condition until the start of the yeti's next turn unless the target has Immunity to Cold damage.\nSuccess: The target is immune to the Chilling Gaze of all yetis (but not abominable yetis) for 1 hour.\nLarge Monstrosity, Chaotic Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Y) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

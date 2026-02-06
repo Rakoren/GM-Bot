@@ -1,0 +1,84 @@
+{
+  "id": "monster.dragon_turtle",
+  "name": "DRAGON TURTLE",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon, Neutral",
+  "size": "Gargantuan",
+  "creature_type": "Dragon",
+  "alignment": "Neutral",
+  "armor_class": 20,
+  "hit_points": 356,
+  "hit_dice": "23d20 + 115",
+  "speed": "20 ft., Swim 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Draconic, Primordial (Aquan)",
+  "cr": "17 (XP 18,000; PB +6)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Bite attacks. It can replace one attack with a Tail attack."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +13, reach 15 ft. Hit: 23 (3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. Being underwater doesn't grant Resistance to this Fire damage."
+    },
+    {
+      "name": "Tail",
+      "text": "Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Steam Breath (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 19, each creature in a 60-foot Cone. Failure: 56 (16d6) Fire damage. Success: Half damage. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +6 (16)\nHP 356 (23d20 + 115)\nSpeed 20 ft., Swim 50 ft.\nMOD \tSAVE\nSTR \t25 \t+7 \t+7\nDEX \t10 \t+0 \t+0\nCON \t20 \t+5 \t+11\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t12 \t+1 \t+7\nCHA \t12 \t+1 \t+1\nResistances Fire\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Draconic, Primordial (Aquan)\nCR 17 (XP 18,000; PB +6)\nTraits\nAmphibious. The dragon can breathe air and water.\nActions\nMultiattack. The dragon makes three Bite attacks. It can replace one attack\nwith a Tail attack.\nBite. Melee Attack Roll: +13, reach 15 ft.\nHit: 23 (3d10 + 7) Piercing damage\nplus 7 (2d6) Fire damage. Being underwater doesn’t grant Resistance to this\nFire damage.\nTail. Melee Attack Roll: +13, reach 15 ft.\nHit: 18 (2d10 + 7) Bludgeoning\ndamage. If the target is a Huge or smaller creature, it has the Prone condition.\nSteam Breath (Recharge 5–6). Constitution Saving Throw: DC 19, each\ncreature in a 60-foot Cone.\nFailure: 56 (16d6) Fire damage.\nSuccess: Half\ndamage.\nFailure or Success: Being underwater doesn’t grant Resistance to this\nFire damage.\nGargantuan Dragon, Neutral\nHabitat: Planar (Abyss); Treasure: None\nThe servants and victims of greater demons, dretches embody petty instincts,\nchaotic impulses, and violent urges. Dretches exist in unfathomable numbers in\nthe depths of the Abyss, where their reeking throngs fill vast demonic hordes.\nDretch\nLone dretches serve other demons or evil magic-users. They are erratic, filthy, and\nviolent, and they demonstrate little sense of self-preservation.\nSwarm of Dretches\nSwarms of dretches sometimes escape the Abyss onto other planes of existence, or they might be part of a demonic invasion. Without direction, these\ncrude demons rampage and despoil with cruel enthusiasm.\nAh, the infinite wonders of the Abyss. If there’s anything\nyou don’t like, you’ll find it here.\n—JARANDA, EXPERT ON THE ABYSS",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

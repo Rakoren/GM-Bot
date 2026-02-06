@@ -1,0 +1,76 @@
+{
+  "id": "list.mm-2025.monsters.batch_008",
+  "name": "MM 2025 Monsters Batch 8",
+  "entries": [
+    {
+      "id": "monster.faerie_dragon_adult",
+      "name": "FAERIE DRAGON ADULT",
+      "file": "docs/mm-2025/monsters/monster.faerie_dragon_adult.json"
+    },
+    {
+      "id": "monster.faerie_dragon_youth",
+      "name": "FAERIE DRAGON YOUTH",
+      "file": "docs/mm-2025/monsters/monster.faerie_dragon_youth.json"
+    },
+    {
+      "id": "monster.fire_elemental",
+      "name": "FIRE ELEMENTAL",
+      "file": "docs/mm-2025/monsters/monster.fire_elemental.json"
+    },
+    {
+      "id": "monster.fire_giant",
+      "name": "FIRE GIANT",
+      "file": "docs/mm-2025/monsters/monster.fire_giant.json"
+    },
+    {
+      "id": "monster.flameskull",
+      "name": "FLAMESKULL",
+      "file": "docs/mm-2025/monsters/monster.flameskull.json"
+    },
+    {
+      "id": "monster.flesh_golem",
+      "name": "FLESH GOLEM",
+      "file": "docs/mm-2025/monsters/monster.flesh_golem.json"
+    },
+    {
+      "id": "monster.flumph",
+      "name": "FLUMPH",
+      "file": "docs/mm-2025/monsters/monster.flumph.json"
+    },
+    {
+      "id": "monster.fomorian",
+      "name": "FOMORIAN",
+      "file": "docs/mm-2025/monsters/monster.fomorian.json"
+    },
+    {
+      "id": "monster.frost_giant",
+      "name": "FROST GIANT",
+      "file": "docs/mm-2025/monsters/monster.frost_giant.json"
+    },
+    {
+      "id": "monster.gas_spore_fungus",
+      "name": "GAS SPORE FUNGUS",
+      "file": "docs/mm-2025/monsters/monster.gas_spore_fungus.json"
+    },
+    {
+      "id": "monster.shrieker_fungus",
+      "name": "SHRIEKER FUNGUS",
+      "file": "docs/mm-2025/monsters/monster.shrieker_fungus.json"
+    },
+    {
+      "id": "monster.violet_fungus",
+      "name": "VIOLET FUNGUS",
+      "file": "docs/mm-2025/monsters/monster.violet_fungus.json"
+    },
+    {
+      "id": "monster.violet_fungus_necrohulk",
+      "name": "VIOLET FUNGUS NECROHULK",
+      "file": "docs/mm-2025/monsters/monster.violet_fungus_necrohulk.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

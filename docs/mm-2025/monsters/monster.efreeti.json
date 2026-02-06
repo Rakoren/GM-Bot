@@ -1,0 +1,92 @@
+{
+  "id": "monster.efreeti",
+  "name": "EFREETI",
+  "status": "complete",
+  "size_type_alignment": "Large Elemental (Genie), Neutral",
+  "size": "Large",
+  "creature_type": "Elemental (Genie)",
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "hit_points": 212,
+  "hit_dice": "17d10 + 119",
+  "speed": "40 ft., Fly 60 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 19,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": "Fire",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 12",
+  "languages": "Primordial (Ignan)",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [
+    {
+      "name": "Elemental Restoration",
+      "text": "If the efreeti dies outside the Elemental Plane of Fire, its body dissolves into ash, and it gains a new body in 1d4 days, reviving with all its Hit Points somewhere on the Plane of Fire."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The efreeti has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Wishes",
+      "text": "The efreeti has a 30 percent chance of knowing the Wish spell. If the efreeti knows it, the efreeti can cast it only on behalf of a non-genie creature who communicates a wish in a way the efreeti can understand. If the efreeti casts the spell for the creature, the efreeti suffers none of the spell's stress. Once the efreeti has cast it three times, the efreeti can't do so again for 365 days."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The efreeti makes three attacks, using Heated Blade or Hurl Flame in any combination."
+    },
+    {
+      "name": "Heated Blade",
+      "text": "Melee Attack Roll: +10, reach 5 ft. Hit: 13 (2d6 + 6) Slashing damage plus 13 (2d12) Fire damage."
+    },
+    {
+      "name": "Hurl Flame",
+      "text": "Ranged Attack Roll: +8, range 120 ft. Hit: 24 (7d6) Fire damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The efreeti casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16): At Will: Detect Magic, Elementalism 1/Day Each: Gaseous Form, Invisibility, Major Image, Plane Shift, Tongues, Wall of Fire (level 7 version)"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +1 (11)\nHP 212 (17d10 + 119)\nSpeed 40 ft., Fly 60 ft. (hover)\nMOD \tSAVE\nSTR \t22 \t+6 \t+6\nDEX \t12 \t+1 \t+1\nCON \t24 \t+7 \t+7\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t15 \t+2 \t+6\nCHA \t19 \t+4 \t+8\nImmunities Fire\nSenses Darkvision 120 ft.; Passive Perception 12\nLanguages Primordial (Ignan)\nCR 11 (XP 7,200; PB +4)\nTraits\nElemental Restoration. If the efreeti dies outside the Elemental Plane of Fire,\nits body dissolves into ash, and it gains a new body in 1d4 days, reviving with\nall its Hit Points somewhere on the Plane of Fire.\nMagic Resistance. The efreeti has Advantage on saving throws against spells\nand other magical effects.\nWishes. The efreeti has a 30 percent chance of knowing the\nWish spell. If the\nefreeti knows it, the efreeti can cast it only on behalf of a non-genie creature\nwho communicates a wish in a way the efreeti can understand. If the efreeti\ncasts the spell for the creature, the efreeti suffers none of the spell’s stress.\nOnce the efreeti has cast it three times, the efreeti can’t do so again for\n365 days.\nActions\nMultiattack. The efreeti makes three attacks, using Heated Blade or Hurl\nFlame in any combination.\nHeated Blade. Melee Attack Roll: +10, reach 5 ft.\nHit: 13 (2d6 + 6) Slashing\ndamage plus 13 (2d12) Fire damage.\nHurl Flame. Ranged Attack Roll: +8, range 120 ft.\nHit: 24 (7d6) Fire damage.\nSpellcasting. The efreeti casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 16):\nAt Will:\nDetect Magic,\nElementalism\n1/Day Each:\nGaseous Form,\nInvisibility,\nMajor Image,\nPlane Shift,\nTongues,\nWall of Fire (level 7 version)\nLarge Elemental (Genie), Neutral\nBeyond the fringes of the Elemental Planes, primordial forces endlessly clash amid the Elemental Chaos. Within the vastness and violence of this realm\nrage elemental cataclysms, entities spawned from the raw forces of the multiverse and awash in dissonant elemental powers. These beings of primal\nconflict annihilate nearly all they encounter and seed the ruins left in their wake with the potential for new creations.\nElemental cataclysms rarely escape the Elemental Chaos. When they do, it is typically due to some planar disruption or the summons of nihilistic cultists.\nWhen they emerge on Material Plane worlds, elemental cataclysms create realm-altering trails of destruction, carelessly destroying cities and throwing\nwhole nations into chaos. The rampages aren’t random. Elemental cataclysms abhor anything that visibly mars nature, be it mines or monuments,\nfortresses or cities, but they vent their most intense rage on works of metal and clockwork. As they sow destruction, they howl condemnation and chant\nwords of unmaking in the languages of the Inner Planes.\nLittle can stop an elemental cataclysm. Those that oppose one of these calamities often attempt to reverse the ritual that summoned it, coax it through a\nplanar rift, or conjure another titan in hopes that the two destroy one another. These terrors leave a wake of ashes, floods, storms, and broken earth. But\nafter these disasters recede, the land is imbued with new life or environmental changes. Roll on or choose a result from the Elemental Alterations table to\ninspire what changes emerge after an elemental cataclysm’s destruction.\nElemental Alterations\n1d8 \tThe Elemental Cataclysm Leaves Behind A...\n1 \tDramatic increase or decrease in temperature.\n2 \tGigantic coral reef or fungal forest.\n3 \tNever-ending storm or whirlpool.\n4 \tPassage to the Underdark or portal to an Elemental Plane.\n5 \tPrimeval or previously extinct animal population.\n6 \tRapidly growing rainforest.\n7 \tRiver where previously there was none.\n8 \tSeries of dramatic rock formations.\nEmpyreans\nScions of the Gods",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (E) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

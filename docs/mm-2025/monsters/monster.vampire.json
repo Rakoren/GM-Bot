@@ -1,0 +1,113 @@
+{
+  "id": "monster.vampire",
+  "name": "VAMPIRE",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Undead, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "hit_points": 195,
+  "hit_dice": "23d8 + 92",
+  "speed": "40 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +7, Stealth +9",
+  "resistances": "Necrotic",
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 17",
+  "languages": "Common plus two other languages",
+  "cr": "13 (XP 10,000, or 11,500 in lair; PB +5)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the vampire fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Misty Escape",
+      "text": "If the vampire drops to 0 Hit Points outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can't use Shape-Shift, it is destroyed. While it has 0 Hit Points in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the Paralyzed condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Vampire Weakness",
+      "text": "The vampire has these weaknesses: Forbiddance. The vampire can't enter a residence without an invitation from an occupant."
+    },
+    {
+      "name": "Running Water",
+      "text": "The vampire takes 20 Acid damage if it ends its turn in running water."
+    },
+    {
+      "name": "Stake to the Heart",
+      "text": "If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed."
+    },
+    {
+      "name": "Sunlight",
+      "text": "The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack (Vampire Form Only)",
+      "text": "The vampire makes two Grave Strike attacks and uses Bite."
+    },
+    {
+      "name": "Grave Strike (Vampire Form Only)",
+      "text": "Melee Attack Roll: +9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands."
+    },
+    {
+      "name": "Bite (Bat or Vampire Form Only)",
+      "text": "Constitution Saving Throw: DC 17, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Charm (Recharge 5-6)",
+      "text": "The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was Charmed by the vampire."
+    },
+    {
+      "name": "Shape-Shift",
+      "text": "If the vampire isn't in sunlight or running water, it shape-shifts into a Tiny bat (Speed 5 ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +14 (24)\nHP 195 (23d8 + 92)\nSpeed 40 ft., Climb 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t18 \t+4 \t+9\nCON \t18 \t+4 \t+9\nMOD \tSAVE\nINT \t17 \t+3 \t+3\nWIS \t15 \t+2 \t+7\nCHA \t18 \t+4 \t+9\nSkills Perception +7, Stealth +9\nResistances Necrotic\nSenses Darkvision 120 ft.; Passive Perception 17\nLanguages Common plus two other languages\nCR 13 (XP 10,000, or 11,500 in lair; PB +5)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the vampire fails a saving throw, it can choose to succeed instead.\nMisty Escape. If the vampire drops to 0 Hit Points outside its resting place, the vampire uses Shape-Shift to become mist (no action required). If it can't use Shape-Shift, it is destroyed. While it has 0 Hit Points in mist form, it can't return to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it returns to its vampire form and has the Paralyzed condition until it regains any Hit Points, and it regains 1 Hit Point after spending 1 hour there.\nSpider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.\nVampire Weakness. The vampire has these weaknesses:\nForbiddance. The vampire can't enter a residence without an invitation from an occupant.\nRunning Water. The vampire takes 20 Acid damage if it ends its turn in running water.\nStake to the Heart. If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.\nSunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.\nActions\nMultiattack (Vampire Form Only). The vampire makes two Grave Strike attacks and uses Bite.\nGrave Strike (Vampire Form Only). Melee Attack Roll: +9, reach 5 ft.\nHit: 8 (1d8 + 4) Bludgeoning damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14) from one of two hands.\nBite (Bat or Vampire Form Only). Constitution Saving Throw: DC 17, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition.\nFailure: 6 (1d4 + 4) Piercing damage plus 13 (3d8) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control.\nBonus Actions\nCharm (Recharge 5-6). The vampire casts Charm Person, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17), and the duration is 24 hours. The Charmed target is a willing recipient of the vampire's Bite, the damage of which doesn't end the spell. When the spell ends, the target is unaware it was Charmed by the vampire.\nShape-Shift. If the vampire isn't in sunlight or running water, it shape-shifts into a Tiny bat (Speed 5 ft., Fly Speed 30 ft.) or a Medium cloud of mist (Speed 5 ft., Fly Speed 20 ft. [hover]), or it returns to its vampire form. Anything it is wearing transforms with it.\nMedium or Small Undead, Lawful Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (V) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "monster.sahuagin_priest",
+  "name": "SAHUAGIN PRIEST",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Lawful Evil",
+  "armor_class": 12,
+  "hit_points": 38,
+  "hit_dice": "7d8 + 7",
+  "speed": "30 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6, Religion +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 16",
+  "languages": "Sahuagin",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Blood Frenzy",
+      "text": "The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points."
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": "The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water."
+    },
+    {
+      "name": "Shark Telepathy",
+      "text": "The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The sahuagin makes two Spectral Jaws attacks."
+    },
+    {
+      "name": "Spectral Jaws",
+      "text": "Melee or Ranged Attack Roll: +4, reach 5 ft. or range 120 ft. Hit: 11 (2d8 + 2) Force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The sahuagin casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 12): At Will: Thaumaturgy 2/Day Each: Hold Person, Tongues"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Fiendish Aid (2/Day)",
+      "text": "The sahuagin casts Bless or Healing Word, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +0 (10)\nHP 38 (7d8 + 7)\nSpeed 30 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t13 \t+1 \t+1\nDEX \t11 \t+0 \t+0\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t13 \t+1 \t+1\nSkills Perception +6, Religion +3\nResistances Acid, Cold\nSenses Darkvision 120 ft.; Passive Perception 16\nLanguages Sahuagin\nCR 2 (XP 450; PB +2)\nTraits\nBlood Frenzy. The sahuagin has Advantage on attack rolls against any creature\nthat doesn’t have all its Hit Points.\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must\nbe submerged at least once every 4 hours to avoid suffocating outside water.\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of\nitself, using a special telepathy.\nActions\nMultiattack. The sahuagin makes two Spectral Jaws attacks.\nSpectral Jaws. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 120 ft.\nHit:\n11 (2d8 + 2) Force damage.\nSpellcasting. The sahuagin casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 12):\nAt Will:\nThaumaturgy\n2/Day Each:\nHold Person,\nTongues\nBonus Actions\nFiendish Aid (2/Day). The sahuagin casts\nBless or\nHealing Word, using the\nsame spellcasting ability as Spellcasting.\nMedium Fiend, Lawful Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

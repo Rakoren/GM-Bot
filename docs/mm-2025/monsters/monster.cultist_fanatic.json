@@ -1,0 +1,76 @@
+{
+  "id": "monster.cultist_fanatic",
+  "name": "CULTIST FANATIC",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 44,
+  "hit_dice": "8d8 + 8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +3, Persuasion +3, Religion +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "Common",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Pact Blade",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks): At Will: Light, Thaumaturgy 2/Day: Command 1/Day: Hold Person"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Spiritual Weapon (2/Day)",
+      "text": "The cultist casts the Spiritual Weapon spell, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 44 (8d8 + 8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t14 \t+2 \t+4\nCHA \t13 \t+1 \t+1\nSkills Deception +3, Persuasion +3, Religion +2\nGear Holy Symbol, Leather Armor\nMedium or Small Humanoid, Neutral\nCultist Hierophant\nCultist hierophants are leaders who oversee the lives of their underlings, dictate the edicts of the cult, and interpret their patron’s will. They possess\nsupernatural powers gained from the cult’s patron, supernatural sources, or the power of their own fanaticism. These leaders know their cult’s deepest\nsecrets and often control strange relics, mystical sites, and monstrous servants.\nTypes of Cultists\nSenses Passive Perception 12\nLanguages Common\nCR 2 (XP 450; PB +2)\nActions\nPact Blade. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage\nplus 7 (2d6) Necrotic damage.\nSpellcasting. The cultist casts one of the following spells, using Wisdom as\nthe spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\nAt Will:\nLight,\nThaumaturgy\n2/Day:\nCommand\n1/Day:\nHold Person\nBonus Actions\nSpiritual Weapon (2/Day). The cultist casts the\nSpiritual Weapon spell, using\nthe same spellcasting ability as Spellcasting.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

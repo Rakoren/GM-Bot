@@ -1,0 +1,84 @@
+{
+  "id": "monster.graveyard_revenant",
+  "name": "GRAVEYARD REVENANT",
+  "status": "complete",
+  "size_type_alignment": "Huge Undead, Neutral",
+  "size": "Huge",
+  "creature_type": "Undead",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "hit_points": 161,
+  "hit_dice": "14d12 + 70",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 13",
+  "languages": "Common plus two other languages",
+  "cr": "7 (XP 2,900; PB +3)",
+  "traits": [
+    {
+      "name": "Undead Restoration",
+      "text": "If the revenant dies, it revives 24 hours later unless Dispel"
+    },
+    {
+      "name": "Evil and Good is cast on its remains",
+      "text": "If it revives, it animates another group of corpses elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The revenant makes two Suffocate attacks."
+    },
+    {
+      "name": "Suffocate",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). Until the grapple ends, the target is suffocating. The revenant can have up to two targets Grappled in this way at a time."
+    },
+    {
+      "name": "Haunting Glare (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 15, each creature in a 30-foot Emanation originating from the revenant. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +2 (12)\nHP 161 (14d12 + 70)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+8\nDEX \t14 \t+2 \t+2\nCON \t20 \t+5 \t+8\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t16 \t+3 \t+6\nCHA \t18 \t+4 \t+7\nResistances Necrotic, Psychic\nImmunities Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified,\nPoisoned, Stunned, Unconscious\nSenses Darkvision 120 ft.; Passive Perception 13\nLanguages Common plus two other languages\nCR 7 (XP 2,900; PB +3)\nTraits\nUndead Restoration. If the revenant dies, it revives 24 hours later unless\nDispel\nEvil and Good is cast on its remains. If it revives, it animates another group of\ncorpses elsewhere on the same plane of existence; it now looks different but\nuses the same stat block and returns with all its Hit Points.\nActions\nMultiattack. The revenant makes two Suffocate attacks.\nSuffocate. Melee Attack Roll: +8, reach 10 ft.\nHit: 10 (1d10 + 5) Bludgeoning\ndamage plus 10 (3d6) Necrotic damage. If the target is a Large or smaller\ncreature, it has the Grappled condition (escape DC 15). Until the grapple ends,\nthe target is suffocating. The revenant can have up to two targets Grappled in\nthis way at a time.\nHaunting Glare (Recharge 5–6). Wisdom Saving Throw: DC 15, each creature\nin a 30-foot Emanation originating from the revenant.\nFailure: The target\nhas the Paralyzed condition and repeats the save at the end of each\nof its turns, ending the effect on itself on a success. After 1 minute, it\nsucceeds automatically.\nHuge Undead, Neutral\nHaunting Revenant\nHaunting revenants possess ruins and forsaken places connected with their deaths—such as abandoned buildings, wrecked ships, or junk heaps. These\nrevenants lurk in plain sight, waiting for their foes to near, then trap their victims within their massive bodies. Those inside a revenant might be battered by\nanimate furnishings or more unsettling manifestations of the revenant’s hatred.\nThe places haunting revenants lurk swiftly gain infamous reputations.\nRoc\nAvian of Unbelievable Size\nHabitat: Arctic, Coastal, Desert, Hill, Mountain; Treasure: Any",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "monster.sahuagin_warrior",
+  "name": "SAHUAGIN WARRIOR",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Lawful Evil",
+  "armor_class": 12,
+  "hit_points": 22,
+  "hit_dice": "4d8 + 4",
+  "speed": "30 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 15",
+  "languages": "Sahuagin",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Blood Frenzy",
+      "text": "The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points."
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": "The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water."
+    },
+    {
+      "name": "Shark Telepathy",
+      "text": "The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The sahuagin makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Aquatic Charge",
+      "text": "The sahuagin swims up to its Swim Speed straight toward an enemy it can see."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +0 (10)\nHP 22 (4d8 + 4)\nSpeed 30 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t13 \t+1 \t+1\nDEX \t11 \t+0 \t+0\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t13 \t+1 \t+1\nCHA \t9 \t−1 \t−1\nMedium Fiend, Lawful Evil\nSahuagin Priest\nSahuagin priests serve the will of Sekolah or other fiendish masters. They direct and support other sahuagin, and they consider every combatant that falls\nin battle—whether enemy or ally—a sacrifice to their fierce deities.\nSahuagin Baron\nDuring times of great conflict, Sekolah blesses particularly ruthless sahuagin warriors with increased size and an additional pair of arms, transforming\nthem into sahuagin barons. These boons elevate the recipients’ status among their kind, and they become champions or leaders. Sahuagin barons’ blood is\ninfused with profane magic capable of searing their enemies and making these foes irresistible targets for other Fiends.\nSkills Perception +5\nResistances Acid, Cold\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages Sahuagin\nCR 1/2 (XP 100; PB +2)\nTraits\nBlood Frenzy. The sahuagin has Advantage on attack rolls against any creature\nthat doesn’t have all its Hit Points.\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must\nbe submerged at least once every 4 hours to avoid suffocating outside water.\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of\nitself, using a special telepathy.\nActions\nMultiattack. The sahuagin makes two Claw attacks.\nClaw. Melee Attack Roll: +3, reach 5 ft.\nHit: 4 (1d6 + 1) Slashing damage.\nBonus Actions\nAquatic Charge. The sahuagin swims up to its Swim Speed straight toward an\nenemy it can see.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

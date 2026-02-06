@@ -1,0 +1,72 @@
+{
+  "id": "animal.giant_vulture",
+  "name": "GIANT VULTURE",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral Evil",
+  "armor_class": 10,
+  "hit_points": 25,
+  "hit_dice": "3d10 + 9",
+  "speed": "10 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Understands Common but can’t speak",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Gouge",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 10 \tInitiative +0 (10)\nHP 25 (3d10 + 9)\nSpeed 10 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t10 \t+0 \t+0\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t7 \t−2 \t−2\nSkills Perception +3\nLarge Monstrosity, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

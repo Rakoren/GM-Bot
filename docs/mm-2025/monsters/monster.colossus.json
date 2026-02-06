@@ -1,0 +1,88 @@
+{
+  "id": "monster.colossus",
+  "name": "COLOSSUS",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Construct (Titan), Unaligned",
+  "size": "Gargantuan",
+  "creature_type": "Construct (Titan)",
+  "alignment": "Unaligned",
+  "armor_class": 23,
+  "hit_points": 553,
+  "hit_dice": "27d20 + 270",
+  "speed": "60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 30,
+      "mod": "+10"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 30,
+      "mod": "+10"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 300 ft.; Passive Perception 10",
+  "languages": "Understands Celestial and Common but can’t speak",
+  "cr": "25 (XP 75,000; PB +8)",
+  "traits": [
+    {
+      "name": "Immutable Form",
+      "text": "The colossus can't shape-shift."
+    },
+    {
+      "name": "Legendary Resistance (4/Day)",
+      "text": "If the colossus fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The colossus has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Siege Monster",
+      "text": "The colossus deals double damage to objects and structures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The colossus makes three attacks, using Slam or Radiant Ray in any combination."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +18, reach 20 ft. Hit: 32 (4d10 + 10) Bludgeoning damage, and the colossus pushes the target up to 20 feet straight away from itself."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 23 \tInitiative +16 (26)\nHP 553 (27d20 + 270)\nSpeed 60 ft.\nMOD \tSAVE\nSTR \t30 \t+10 \t+10\nDEX \t11 \t+0 \t+8\nCON \t30 \t+10 \t+10\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t11 \t+0 \t+8\nCHA \t8 \t−1 \t−1\nResistances Necrotic, Radiant\nImmunities Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed,\nPetrified, Poisoned, Stunned, Unconscious\nSenses Truesight 300 ft.; Passive Perception 10\nLanguages Understands Celestial and Common but can’t speak\nCR 25 (XP 75,000; PB +8)\nTraits\nImmutable Form. The colossus can’t shape-shift.\nLegendary Resistance (4/Day). If the colossus fails a saving throw, it can\nchoose to succeed instead.\nMagic Resistance. The colossus has Advantage on saving throws against\nspells and other magical effects.\nSiege Monster. The colossus deals double damage to objects\nand structures.\nActions\nMultiattack. The colossus makes three attacks, using Slam or Radiant Ray in\nany combination.\nSlam. Melee Attack Roll: +18, reach 20 ft.\nHit: 32 (4d10 + 10) Bludgeoning\ndamage, and the colossus pushes the target up to 20 feet straight away\nfrom itself.\nGargantuan Construct (Titan), Unaligned\nCommoner\nEveryday Folk\nHabitat: Any; Treasure: Individual\nRadiant Ray. Ranged Attack Roll: +18, range 300 ft.\nHit: 22 (4d10)\nRadiant damage. If the target is a Large or smaller creature, it has the\nProne condition.\nDivine Beam (Recharge 5–6). Dexterity Saving Throw: DC 26, each creature\nin a 300-foot-long, 10-foot-wide Line.\nFailure: 65 (10d12) Radiant damage.\nSuccess: Half damage.\nFailure or Success: A creature reduced to 0 Hit\nPoints by this beam disintegrates into dust, leaving behind any magic items\nit was wearing or carrying.\nLegendary Actions\nLegendary Action Uses: 3. Immediately after another creature’s turn, the\ncolossus can expend a use to take one of the following actions. The\ncolossus regains all expended uses at the start of each of its turns.\nSmite. The colossus makes one Radiant Ray attack.\nStomp. The colossus moves up to half its Speed without provoking\nOpportunity Attacks, and it can make one Slam attack at any point during\nthat move.\nCommoners constitute the majority of people who don’t pursue magical talents, extraordinary training, or a life of adventure. Some are generous, helpful\nsorts, while others are more cautious in sharing what they have. Use the following list of jobs and roles to introduce commoners in your adventures:\nArtist\nBaker\nBartender\nBlacksmith\nButcher\nCaptive\nCarpenter\nCastaway\nCobbler\nCook\nDyer\nFarmer\nFisher\nFletcher\nFlimflam artist\nGossip\nHermit\nHooligan\nHunter\nInnkeeper\nLaborer\nLamplighter\nMason\nMerchant\nMiner\nMud lark\nPatient\nPilgrim\nResurrectionist\nRioter\nScribe\nServant\nShepherd\nStudent\nTailor\nTanner\nTown crier\nWeaver\nYoungster",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

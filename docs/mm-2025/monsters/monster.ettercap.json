@@ -1,0 +1,93 @@
+{
+  "id": "monster.ettercap",
+  "name": "ETTERCAP",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "hit_points": 44,
+  "hit_dice": "8d8 + 8",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3, Stealth +4, Survival +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "text": "The ettercap can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "text": "The ettercap ignores movement restrictions caused by webs, and the ettercap knows the location of any other creature in contact with the same web."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ettercap makes one Bite attack and one Claw attack."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage, and the target has the Poisoned condition until the start of the ettercap's next turn."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage."
+    },
+    {
+      "name": "Web Strand (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 12, one Large or smaller creature the ettercap can see within 30 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Reel",
+      "text": "The ettercap pulls one creature within 30 feet of itself that is Restrained by its Web Strand up to 25 feet straight toward itself."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 44 (8d8 + 8)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t15 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t8 \t−1 \t−1\nSkills Perception +3, Stealth +4, Survival +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nSpider Climb. The ettercap can climb difficult surfaces, including along\nceilings, without needing to make an ability check.\nWeb Walker. The ettercap ignores movement restrictions caused by webs,\nand the ettercap knows the location of any other creature in contact with the\nsame web.\nActions\nMultiattack. The ettercap makes one Bite attack and one Claw attack.\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Piercing damage plus 2\n(1d4) Poison damage, and the target has the Poisoned condition until the start\nof the ettercap’s next turn.\nClaw. Melee Attack Roll: +4, reach 5 ft.\nHit: 7 (2d4 + 2) Slashing damage.\nWeb Strand (Recharge 5–6). Dexterity Saving Throw: DC 12, one Large or\nsmaller creature the ettercap can see within 30 feet.\nFailure: The target has the\nRestrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to\nFire damage; Immunity to Bludgeoning, Poison, and Psychic damage).\nBonus Actions\nReel. The ettercap pulls one creature within 30 feet of itself that is Restrained\nby its Web Strand up to 25 feet straight toward itself.\nMedium Monstrosity, Neutral Evil\nEttins are physically powerful Giants with two heads. While many ettins have features similar to hill giants, others have more bestial or unusual traits, such\nas tusks, short horns, or a single eye on each head.\nEttins frequently ally with other Giants or groups that value their strength, such as hill giants, bandits, or ogres. Some ettins possess mystical ties to the\nlands they inhabit, and they might know or guard secrets valued by druids or Fey.\nEach ettin head has a distinct personality. While this makes some ettins quarrelsome with themselves and others, many function as a team. An ettin head\nmight have its own name, or both heads might refer to themselves as a single being—either with one name or a portmanteau of two.\nRoll on or choose a result from the Ettin Interactions table to inspire how an ettin’s heads are interacting when the creature is encountered.\nEttin Interactions\n1d8 \tThe Ettin’s Heads Are...\n1 \tAmping up one another in preparation for a conflict or challenge.\n2 \tArguing over plans for battle, dinner, or how to spend the day.\n3 \tCriticizing one another as they perform separate tasks.\n4 \tEngaged in a staring contest.\n5 \tMaking polite small talk as if they were meeting for the first time.\n6 \tPerformatively ignoring one another.\n7 \tTalking over an increasingly convoluted plot.\n8 \tTrying to keep one another awake.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (E) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

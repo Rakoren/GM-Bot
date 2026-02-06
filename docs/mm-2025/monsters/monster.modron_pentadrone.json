@@ -1,0 +1,84 @@
+{
+  "id": "monster.modron_pentadrone",
+  "name": "MODRON PENTADRONE",
+  "status": "complete",
+  "size_type_alignment": "Large Construct, Lawful Neutral",
+  "size": "Large",
+  "creature_type": "Construct",
+  "alignment": "Lawful Neutral",
+  "armor_class": 16,
+  "hit_points": 32,
+  "hit_dice": "5d10 + 5",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 120 ft.; Passive Perception 14",
+  "languages": "Modron",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Disintegration",
+      "text": "If the modron dies, it disintegrates into dust, leaving behind anything it was wearing or carrying."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The modron makes five Slam attacks or five Electrical Discharge attacks."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Force damage."
+    },
+    {
+      "name": "Electrical Discharge",
+      "text": "Ranged Attack Roll: +4, range 120 ft. Hit: 5 (1d6 + 2) Lightning damage."
+    },
+    {
+      "name": "Paralysis Gas (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 11, each creature in a 30-foot Cone. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +2 (12)\nHP 32 (5d10 + 5)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t13 \t+1 \t+1\nSkills Perception +4\nImmunities Charmed\nSenses Truesight 120 ft.; Passive Perception 14\nLanguages Modron\nCR 2 (XP 450; PB +2)\nTraits\nDisintegration. If the modron dies, it disintegrates into dust, leaving behind\nanything it was wearing or carrying.\nActions\nMultiattack. The modron makes five Slam attacks or five Electrical\nDischarge attacks.\nSlam. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Force damage.\nElectrical Discharge. Ranged Attack Roll: +4, range 120 ft.\nHit: 5 (1d6 + 2)\nLightning damage.\nParalysis Gas (Recharge 5–6). Constitution Saving Throw: DC 11, each\ncreature in a 30-foot Cone.\nFailure: The target has the Paralyzed condition and\nrepeats the save at the end of each of its turns, ending the effect on itself on a\nsuccess. After 1 minute, it succeeds automatically.\nLarge Construct, Lawful Neutral\nMummies\nDeathless Ancients with Ageless Ambitions\nHabitat: Desert, Swamp; Treasure: Relics\nMysterious rites and mighty faith can tie spirits to their corpses, binding them to their remains for all time. Should their resting places be violated, these\nbeings, known as mummies, reanimate their deteriorating bodies to restore the sanctity of their tombs and punish those who disturbed their rest.\nMummies pursue those who offend them, typically mortals who desecrate their resting places, steal their burial treasures, or defile sites tied to their faith.\nWith undying rage, these ancient corpses go to extreme lengths to avenge themselves and restore what they need to find peace.\nA mummy might look frail, but its body possesses supernatural strength, and its gaze can strike fear in the bravest hearts. Those who escape a mummy’s\ngrasp might find themselves subject to a terrible curse. Victims of a mummy’s curse gradually wither, their bodies rotting away until they’re reduced to dust.\nThis curse can be healed only by the\nRemove Curse spell or similar magic.\nMummy\nCommon mummies are the remains of priests, nobles, or champions of faith that underwent magical burial rites. Some are preserved through processes\nusing linen wrappings or clay, but others are preserved by peat bogs, ice, magic, or other means.\nRule 7: Before opening a sarcophagus, light a torch.\n—X THE MYSTIC’S\nRULES OF DUNGEON SURVIVAL\nRoll on or choose a result from the Mummy Resurrections table to determine why\na mummy has returned from the dead.\nMummy Resurrections\n1d8 \tThe Mummy Reanimates To...\n1 \tDefend a holy site it was created to protect.\n2 \tObey the summons of a mummy lord.\n3 \tOppose an enemy who has returned to life.\n4 \tProtect its descendants from an ancient threat.\n5 \tPunish the progeny of those who cursed it.\n6 \tReclaim treasures robbed from its crypt.\n7 \tServe whoever speaks the prayer on its tomb.\n8 \tSlay anyone who sets eyes on it.\nMummy Lord",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

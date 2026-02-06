@@ -110,6 +110,31 @@
     <div class="main-content">
         
         <aside class="col-left">
+            <div class="ability-method-box">
+                <div class="section-header">ABILITY SCORES</div>
+                <div class="ability-method-row">
+                    <label for="ability-method-select">METHOD</label>
+                    <select id="ability-method-select">
+                        <option value="standard">Standard Array</option>
+                        <option value="point_buy">Point Buy</option>
+                        <option value="manual">Manual/Roll</option>
+                    </select>
+                </div>
+                <div class="ability-method-row" id="point-buy-row">
+                    <span>POINT BUY REMAINING</span>
+                    <span id="point-buy-remaining">27</span>
+                </div>
+                <div class="ability-method-row">
+                    <label for="ability-bonus-plus2">BACKGROUND +2</label>
+                    <select id="ability-bonus-plus2"></select>
+                </div>
+                <div class="ability-method-row">
+                    <label for="ability-bonus-plus1">BACKGROUND +1</label>
+                    <select id="ability-bonus-plus1"></select>
+                </div>
+                <div id="ability-score-status" class="ability-score-status"></div>
+            </div>
+
             <div class="ability-box">
                 <label>STRENGTH</label>
                 <input id="strength-mod" type="text" class="mod-big" placeholder="+0">
@@ -375,7 +400,7 @@
             </div>
 
             <div class="heroic-insp">
-                <input type="checkbox">
+                <input type="checkbox" id="heroic-inspiration">
                 <label>HEROIC INSPIRATION</label>
             </div>
 

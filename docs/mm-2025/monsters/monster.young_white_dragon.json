@@ -1,0 +1,80 @@
+{
+  "id": "monster.young_white_dragon",
+  "name": "YOUNG WHITE DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Large Dragon (Chromatic), Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "hit_points": 123,
+  "hit_dice": "13d10 + 52",
+  "speed": "40 ft., Burrow 20 ft., Fly 80 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6, Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16",
+  "languages": "Common, Draconic",
+  "cr": "6 (2,300 XP; PB +3)",
+  "traits": [
+    {
+      "name": "Ice Walk",
+      "text": "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: 40 (9d8) Cold damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +3 (13)\nHP 123 (13d10 + 52)\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t10 \t+0 \t+3\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t6 \t−2 \t2\nWIS \t11 \t+0 \t+3\nCHA \t12 \t+1 \t+1\nSkills Perception +6, Stealth +3\nImmunities Cold\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16\nLanguages Common, Draconic\nCR 6 (2,300 XP; PB +3)\nTraits\nIce Walk. The dragon can move across and climb icy surfaces without needing\nto make an ability check. Additionally, Difficult Terrain composed of ice or\nsnow doesn’t cost it extra movement.\nActions\nMultiattack. The dragon makes three Rend attacks.\nRend. Melee Attack Roll: +7, reach 10 ft.\nHit: 9 (2d4 + 4) Slashing damage plus\n2 (1d4) Cold damage.\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 15, each creature\nin a 30-foot Cone.\nFailure: 40 (9d8) Cold damage.\nSuccess: Half damage.\nLarge Dragon (Chromatic), Chaotic Evil\nAdult White Dragon\nAdult white dragons claim large territories and are often the mightiest predators in those lands. While some lurk in their lairs for months, others regularly\nsoar over their domains. When they spot something moving on the ice, they might swoop down to feed or extort food and offerings from sapient creatures.\nAncient White Dragon\nAN ADULT WHITE DRAGON VIEWS ALL CREATURES IN ITS TERRITORY AS PREY",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

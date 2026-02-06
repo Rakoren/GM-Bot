@@ -1,0 +1,80 @@
+{
+  "id": "monster.frost_giant",
+  "name": "FROST GIANT",
+  "status": "complete",
+  "size_type_alignment": "Huge Giant, Neutral Evil",
+  "size": "Huge",
+  "creature_type": "Giant",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "hit_points": 149,
+  "hit_dice": "13d12 + 65",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +9, Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "Giant",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two attacks, using Frost Axe or Great Bow in any combination."
+    },
+    {
+      "name": "Frost Axe",
+      "text": "Melee Attack Roll: +9, reach 10 ft. Hit: 19 (2d12 + 6) Slashing damage plus 9 (2d8) Cold damage."
+    },
+    {
+      "name": "Great Bow",
+      "text": "Ranged Attack Roll: +9, range 150/600 ft. Hit: 17 (2d10 + 6) Piercing damage plus 7 (2d6) Cold damage, and the target's Speed decreases by 10 feet until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "War Cry (Recharge 5-6)",
+      "text": "The giant or one creature of its choice that can see or hear it gains 16 (2d10 + 5) Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 149 (13d12 + 65)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t9 \t−1 \t−1\nCON \t21 \t+5 \t+8\nMOD \tSAVE\nINT \t9 \t−1 \t−1\nWIS \t10 \t+0 \t+3\nCHA \t12 \t+1 \t+4\nSkills Athletics +9, Perception +3\nImmunities Cold\nSenses Passive Perception 13\nLanguages Giant\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The giant makes two attacks, using Frost Axe or Great Bow in\nany combination.\nFrost Axe. Melee Attack Roll: +9, reach 10 ft.\nHit: 19 (2d12 + 6) Slashing\ndamage plus 9 (2d8) Cold damage.\nGreat Bow. Ranged Attack Roll: +9, range 150/600 ft.\nHit: 17 (2d10 + 6) Piercing\ndamage plus 7 (2d6) Cold damage, and the target’s Speed decreases by 10 feet\nuntil the end of its next turn.\nBonus Actions\nWar Cry (Recharge 5–6). The giant or one creature of its choice that can see\nor hear it gains 16 (2d10 + 5) Temporary Hit Points and has Advantage on\nattack rolls until the start of the giant’s next turn.\nHuge Giant, Neutral Evil\nShrieker Fungus\nIf exposed to light or otherwise disturbed, mushroomlike shriekers emit a high-pitched noise that gives them their name. This wailing might alert other\ncreatures or attract predators.\nViolet Fungus\nSlow but mobile, violet fungi rot any flesh they touch with their lashing tendrils.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

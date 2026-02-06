@@ -1,0 +1,27 @@
+{
+  "id": "table.ability_score.standard_array_by_class",
+  "name": "Standard Array by Class",
+  "chapter": 2,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/03-chapter 2/03-Creating a Character - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [7],
+    "section": "Standard Array by Class"
+  },
+  "columns": ["class", "str", "dex", "con", "int", "wis", "cha"],
+  "entries": [
+    { "class": "Barbarian", "str": 15, "dex": 13, "con": 14, "int": 10, "wis": 12, "cha": 8 },
+    { "class": "Bard", "str": 8, "dex": 14, "con": 12, "int": 13, "wis": 10, "cha": 15 },
+    { "class": "Cleric", "str": 14, "dex": 8, "con": 13, "int": 10, "wis": 15, "cha": 12 },
+    { "class": "Druid", "str": 8, "dex": 12, "con": 14, "int": 13, "wis": 15, "cha": 10 },
+    { "class": "Fighter", "str": 15, "dex": 14, "con": 13, "int": 8, "wis": 10, "cha": 12 },
+    { "class": "Monk", "str": 12, "dex": 15, "con": 13, "int": 10, "wis": 14, "cha": 8 },
+    { "class": "Paladin", "str": 15, "dex": 10, "con": 13, "int": 8, "wis": 12, "cha": 14 },
+    { "class": "Ranger", "str": 12, "dex": 15, "con": 13, "int": 8, "wis": 14, "cha": 10 },
+    { "class": "Rogue", "str": 12, "dex": 15, "con": 13, "int": 14, "wis": 10, "cha": 8 },
+    { "class": "Sorcerer", "str": 10, "dex": 13, "con": 14, "int": 8, "wis": 12, "cha": 15 },
+    { "class": "Warlock", "str": 8, "dex": 14, "con": 13, "int": 12, "wis": 10, "cha": 15 },
+    { "class": "Wizard", "str": 8, "dex": 12, "con": 13, "int": 15, "wis": 14, "cha": 10 }
+  ],
+  "notes": []
+}

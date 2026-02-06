@@ -1,0 +1,100 @@
+{
+  "id": "monster.dao",
+  "name": "DAO",
+  "status": "complete",
+  "size_type_alignment": "Large Elemental (Genie), Neutral",
+  "size": "Large",
+  "creature_type": "Elemental (Genie)",
+  "alignment": "Neutral",
+  "armor_class": 18,
+  "hit_points": 200,
+  "hit_dice": "16d10 + 112",
+  "speed": "30 ft., Burrow 30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Primordial (Terran)",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [
+    {
+      "name": "Earth Glide",
+      "text": "The dao can burrow through nonmagical, unworked earth and stone. While doing so, the dao doesn't disturb the material it moves through. Darkmantle"
+    },
+    {
+      "name": "Elemental Restoration",
+      "text": "If the dao dies outside the Elemental Plane of Earth, its body dissolves into dirt, and it gains a new body in 1d4 days, reviving with all its Hit Points somewhere on the Plane of Earth."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The dao has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Wishes",
+      "text": "The dao has a 30 percent chance of knowing the Wish spell. If the dao knows it, the dao can cast it only on behalf of a non-genie creature who communicates a wish in a way the dao can understand. If the dao casts the spell for the creature, the dao suffers none of the spell's stress. Once the dao has cast it three times, the dao can't do so again for 365 days."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dao makes three Earthen Maul attacks or two Earth Burst attacks."
+    },
+    {
+      "name": "Earthen Maul",
+      "text": "Melee Attack Roll: +10, reach 5 ft. Hit: 20 (4d6 + 6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Earth Burst",
+      "text": "Ranged Attack Roll: +10, range 120 ft. Hit: 15 (2d8 + 6) Bludgeoning damage. Hit or Miss: Earth explodes from the target's space, creating the following effect. Dexterity Saving Throw: DC 16, each creature in a 10-foot Emanation originating from and including the target. Failure: 10 (3d6) Thunder damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dao casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16): At Will: Detect Evil and Good, Detect Magic, Stone Shape 1/Day Each: Gaseous Form, Invisibility, Move Earth, Passwall, Plane Shift, Tongues, Wall of Stone"
+    },
+    {
+      "name": "Just assume there's no such thing as a stalactite",
+      "text": "-S. WAKEMAN,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +1 (11)\nHP 200 (16d10 + 112)\nSpeed 30 ft., Burrow 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t12 \t+1 \t+5\nCON \t24 \t+7 \t+7\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t13 \t+1 \t+5\nCHA \t18 \t+4 \t+4\nImmunities Petrified\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Primordial (Terran)\nCR 11 (XP 7,200; PB +4)\nTraits\nEarth Glide. The dao can burrow through nonmagical, unworked earth and\nstone. While doing so, the dao doesn’t disturb the material it moves through.\nLarge Elemental (Genie), Neutral\nDarkmantle\nCeiling-Clinging Ambush Predator\nHabitat: Underdark; Treasure: None\nUnnatural subterranean hunters, darkmantles veil themselves in magical shadows and use their bizarre anatomies to disguise themselves as stalactites.\nWhen prey passes below, lurking darkmantles drop and unfurl their webbed tentacles, attempting to blind, suffocate, or crush their victims.\nDarkmantles share similarities with piercers and ropers and often hunt near those monsters. Scholars have attempted to establish a shared origin or life\ncycle between those creatures, but their efforts are thwarted by those monsters’ supernatural physiologies and deadly natures.\nElemental Restoration. If the dao dies outside the Elemental Plane of Earth, its\nbody dissolves into dirt, and it gains a new body in 1d4 days, reviving with all\nits Hit Points somewhere on the Plane of Earth.\nMagic Resistance. The dao has Advantage on saving throws against spells\nand other magical effects.\nWishes. The dao has a 30 percent chance of knowing the\nWish spell. If the dao\nknows it, the dao can cast it only on behalf of a non-genie creature who\ncommunicates a wish in a way the dao can understand. If the dao casts the\nspell for the creature, the dao suffers none of the spell’s stress. Once the dao\nhas cast it three times, the dao can’t do so again for 365 days.\nActions\nMultiattack. The dao makes three Earthen Maul attacks or two Earth\nBurst attacks.\nEarthen Maul. Melee Attack Roll: +10, reach 5 ft.\nHit: 20 (4d6 + 6) Bludgeoning\ndamage. If the target is a Large or smaller creature, it has the Prone condition.\nEarth Burst. Ranged Attack Roll: +10, range 120 ft.\nHit: 15 (2d8 + 6)\nBludgeoning damage.\nHit or Miss: Earth explodes from the target’s space,\ncreating the following effect.\nDexterity Saving Throw: DC 16, each creature in a\n10-foot Emanation originating from and including the target.\nFailure: 10 (3d6)\nThunder damage.\nSpellcasting. The dao casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 16):\nAt Will:\nDetect Evil and Good,\nDetect Magic,\nStone Shape\n1/Day Each:\nGaseous Form,\nInvisibility,\nMove Earth,\nPasswall,\nPlane Shift,\nTongues,\nWall of Stone\nJust assume there’s no such thing as a stalactite.\n—S. WAKEMAN, UNDERDARK EXPLORER",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

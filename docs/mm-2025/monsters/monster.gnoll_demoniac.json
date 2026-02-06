@@ -1,0 +1,84 @@
+{
+  "id": "monster.gnoll_demoniac",
+  "name": "GNOLL DEMONIAC",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "hit_points": 135,
+  "hit_dice": "18d8 + 54",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Abyssal, Common, Gnoll",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The gnoll makes two Abyssal Strike attacks."
+    },
+    {
+      "name": "Abyssal Strike",
+      "text": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 60 ft. Hit: 20 (5d6 + 3) Poison damage."
+    },
+    {
+      "name": "Hunger of Yeenoghu (Recharge 5-6)",
+      "text": "The gnoll conjures a 30-foot Cube of magical Darkness originating from a point it can see within 60 feet, which lasts for 1 minute or until the gnoll's Concentration ends on it. This area is"
+    },
+    {
+      "name": "Difficult Terrain",
+      "text": "Dexterity Saving Throw: DC 14, any creature that starts its turn in this area or enters it for the first time on a turn. Failure: 28 (8d6) Necrotic damage, and the gnoll or a creature of its choice it can see gains 10 Temporary Hit Points. Success: Half damage only."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Rampage (2/Day)",
+      "text": "Immediately after dealing damage to a creature that is already Bloodied, the gnoll moves up to half its Speed, and it makes one Abyssal Strike attack. A GOBLIN BOSS, A GOBLIN HEXER,"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +4 (14)\nHP 135 (18d8 + 54)\nSpeed 30 ft.\nMedium Fiend, Chaotic Evil\nGoblins\nWild Tricksters and Troublemakers\nHabitat: Forest, Grassland, Hill, Planar (Acheron, Feywild), Underdark; Treasure: Implements, Individual\nGoblins are Feywild embodiments of recklessness and ruin. They delight in wreckage—the louder, the more energetic, and the more convoluted, the better.\nGoblin raids are often as much opportunities to enjoy setting fires and tormenting livestock as they are parts of more disruptive plots.\nGoblins obey those who accomplish the wildest plans. Such leaders might be goblin raid masterminds, bombastic magic-users, or those capable of making\nthe loudest noises. Hobgoblins and forceful humanoids might also command ornery groups of goblins, directing their destructiveness toward banditry,\nsabotage, or war.\nThe deity Maglubiyet claims to be the god of goblins, hobgoblins, and bugbears, and on the Infinite Battlefield of Acheron, the deity commands\ninnumerable goblinoid legions. In ages long past, Maglubiyet witnessed the destructive propensity of goblinoids and relocated a population of them from\nthe Feywild to his realm on the Outer Planes. Since then, hordes of these more martial-minded goblins have flourished, with some finding their ways to\nMaterial Plane worlds. These vicious invaders seek to sow ruin in preparation for their god’s conquest.\nMOD \tSAVE\nSTR \t16 \t+3 \t+6\nDEX \t12 \t+1 \t+1\nCON \t17 \t+3 \t+6\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t15 \t+2 \t+5\nCHA \t17 \t+3 \t+6\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Abyssal, Common, Gnoll\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The gnoll makes two Abyssal Strike attacks.\nAbyssal Strike. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 60 ft.\nHit:\n20 (5d6 + 3) Poison damage.\nHunger of Yeenoghu (Recharge 5–6). The gnoll conjures a 30-foot Cube of\nmagical Darkness originating from a point it can see within 60 feet, which\nlasts for 1 minute or until the gnoll’s Concentration ends on it. This area is\nDifficult Terrain.\nDexterity Saving Throw: DC 14, any creature that starts its turn\nin this area or enters it for the first time on a turn.\nFailure: 28 (8d6) Necrotic\ndamage, and the gnoll or a creature of its choice it can see gains 10\nTemporary Hit Points.\nSuccess: Half damage only.\nBonus Actions\nRampage (2/Day). Immediately after dealing damage to a creature that is\nalready Bloodied, the gnoll moves up to half its Speed, and it makes one\nAbyssal Strike attack.\nA GOBLIN BOSS, A GOBLIN HEXER, AND A GOBLIN WARRIOR PREPARE TO STRIKE AGAINST A BITTER FOE\nGoblin Minion\nGoblin minions enjoy participating in the disruptive schemes of clever leaders but are quick to flee when confronted by their comeuppance.\nGoblin Warrior\nGoblin warriors excel at causing mischief. Those in service to Maglubiyet have greater discipline and are likely to withdraw to set up ambushes.\nGoblin Boss\nGoblin bosses are often the most imaginative, disruptive, or forceful goblins. Through a combination of luck, cowardice, and callousness, these leaders\navoid harm at the expense of their followers.\nBree-yark!\n—APPROXIMATE TRANSLATION FROM\nGOBLIN TO COMMON: “HEY, RUBE!”",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

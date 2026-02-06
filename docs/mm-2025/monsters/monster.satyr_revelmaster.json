@@ -1,0 +1,84 @@
+{
+  "id": "monster.satyr_revelmaster",
+  "name": "SATYR REVELMASTER",
+  "status": "complete",
+  "size_type_alignment": "Medium Fey, Chaotic Neutral",
+  "size": "Medium",
+  "creature_type": "Fey",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 17,
+  "hit_points": 82,
+  "hit_dice": "15d8 + 15",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +7, Perception +5, Performance +9",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Common, Elvish, Sylvan",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The satyr has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The satyr makes three Prance attacks."
+    },
+    {
+      "name": "Prance",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage, and the target has the Charmed condition until the start of the satyr's next turn."
+    },
+    {
+      "name": "Fey Melody (Recharge 4-6)",
+      "text": "The satyr conjures a charming or frightening song. Wisdom Saving Throw: DC 14, each enemy in a 60-foot Emanation originating from the satyr. Failure: The target is subjected to the song's effect: Charming. The target has the Charmed condition for 1 minute. While Charmed, the target has the Incapacitated condition and uses all its movement to dance in place. The effect ends on the target if it takes any damage."
+    },
+    {
+      "name": "Frightening",
+      "text": "10 (2d6 + 3) Psychic damage, and the target has the Frightened condition for 1 minute. If the target ends its turn out of line of sight from the satyr, the condition ends on it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +7 (17)\nHP 82 (15d8 + 15)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t18 \t+4 \t+7\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+5\nCHA \t17 \t+3 \t+3\nSkills Acrobatics +7, Perception +5, Performance +9\nSenses Passive Perception 15\nLanguages Common, Elvish, Sylvan\nCR 6 (XP 2,300; PB +3)\nTraits\nMagic Resistance. The satyr has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The satyr makes three Prance attacks.\nPrance. Melee Attack Roll: +7, reach 5 ft.\nHit: 13 (2d8 + 4) Bludgeoning\ndamage, and the target has the Charmed condition until the start of the satyr’s\nnext turn.\nFey Melody (Recharge 4–6). The satyr conjures a charming or frightening\nsong.\nWisdom Saving Throw: DC 14, each enemy in a 60-foot Emanation\noriginating from the satyr.\nFailure: The target is subjected to the song’s effect:\nCharming. The target has the Charmed condition for 1 minute. While Charmed,\nthe target has the Incapacitated condition and uses all its movement to dance\nin place. The effect ends on the target if it takes any damage.\nFrightening. 10 (2d6 + 3) Psychic damage, and the target has the Frightened\ncondition for 1 minute. If the target ends its turn out of line of sight from the\nsatyr, the condition ends on it.\nMedium Fey, Chaotic Neutral\nScarecrow\nServant of Superstition\nHabitat: Grassland; Treasure: None\nSpirits of vengeance bound to crude frames, scarecrows arise from folk magic, the prayers of\ndesperate commoners, or possession by spirits that died with violent work left undone.\nScarecrows might serve those who created them or might defend a place, family, or\ncommunity from threats—whether physical or to their way of life.\nAlthough scarecrows take their name from rural effigies, they might take varied patchwork\nforms. Roll on or choose a result from the Scarecrow Frames table to inspire a scarecrow’s\nappearance.\nScarecrow Frames\n1d8 \tThe Scarecrow Is Made From...\n1 \tAnimal furs, bones, horns, and claws.\n2 \tBeehives or wasp nests over a wicker frame.\n3 \tA carved pumpkin atop a body of thick vines.\n4 \tNets, flotsam, grapnels, and fishing tackle.\n5 \tOversize stuffed animal or mannequin parts.\n6 \tRusty armor and torture devices.\n7 \tA sackcloth head atop straw-stuffed clothes.\n8 \tWedding clothes that were never worn.\nScouts\nWatchers and Wanderers\nHabitat: Any; Treasure: Implements, Individual",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

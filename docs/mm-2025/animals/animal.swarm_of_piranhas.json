@@ -1,0 +1,76 @@
+{
+  "id": "animal.swarm_of_piranhas",
+  "name": "SWARM OF PIRANHAS",
+  "status": "complete",
+  "size_type_alignment": "Medium Swarm of Tiny Beasts, Unaligned",
+  "size": "Medium",
+  "creature_type": "Swarm of Beasts",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 28,
+  "hit_dice": "8d8 − 8",
+  "speed": "5 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 2,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 8",
+  "languages": "None",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny piranha. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    },
+    {
+      "name": "Water Breathing",
+      "text": "The swarm can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bites",
+      "text": "Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing damage if the swarm is Bloodied."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 28 (8d8 − 8)\nSpeed 5 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t13 \t+1 \t+1\nDEX \t16 \t+3 \t+3\nCON \t9 \t−1 \t−1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t7 \t−2 \t−2\nCHA \t2 \t−4 \t−4\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone,\nRestrained, Stunned\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages None\nCR 1 (XP 200; PB +2)\nTraits\nSwarm. The swarm can occupy another creature’s space and vice versa, and\nthe swarm can move through any opening large enough for a Tiny piranha. The\nswarm can’t regain Hit Points or gain Temporary Hit Points.\nWater Breathing. The swarm can breathe only underwater.\nActions\nBites. Melee Attack Roll: +5 (with Advantage if the target doesn’t have all its\nHit Points), reach 5 ft.\nHit: 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing\ndamage if the swarm is Bloodied.\nMedium Swarm of Tiny Beasts, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

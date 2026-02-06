@@ -1,0 +1,75 @@
+{
+  "id": "monster.wyvern",
+  "name": "WYVERN",
+  "status": "complete",
+  "size_type_alignment": "Large Dragon, Unaligned",
+  "size": "Large",
+  "creature_type": "Dragon",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 127,
+  "hit_dice": "15d10 + 45",
+  "speed": "30 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 14",
+  "languages": "None",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The wyvern makes one Bite attack and one Sting attack."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage."
+    },
+    {
+      "name": "Sting",
+      "text": "Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +0 (10)\nHP 127 (15d10 + 45)\nSpeed 30 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t10 \t+0 \t+0\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t12 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSkills Perception +4\nSenses Darkvision 120 ft.; Passive Perception 14\nLanguages None\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The wyvern makes one Bite attack and one Sting attack.\nBite. Melee Attack Roll: +7, reach 5 ft.\nHit: 13 (2d8 + 4) Piercing damage.\nSting. Melee Attack Roll: +7, reach 10 ft.\nHit: 11 (2d6 + 4) Piercing damage plus\n24 (7d6) Poison damage, and the target has the Poisoned condition until the\nstart of the wyvern’s next turn.\nLarge Dragon, Unaligned\nInformation\nDocument (SRD)\nWizards of the\nCoast\n© 2017-2026 WIZARDS OF THE COAST LLC | ALL RIGHTS RESERVED\nproduct names, campaign settings, their respective logos, and The World's Greatest Roleplaying Game are © and trademark",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

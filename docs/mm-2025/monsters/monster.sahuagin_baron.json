@@ -1,0 +1,89 @@
+{
+  "id": "monster.sahuagin_baron",
+  "name": "SAHUAGIN BARON",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend, Lawful Evil",
+  "size": "Large",
+  "creature_type": "Fiend",
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "hit_points": 76,
+  "hit_dice": "9d10 + 27",
+  "speed": "30 ft., Swim 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 17",
+  "languages": "Sahuagin",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Blood Frenzy",
+      "text": "The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points."
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "text": "The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water."
+    },
+    {
+      "name": "Shark Telepathy",
+      "text": "The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The sahuagin makes three Trident attacks."
+    },
+    {
+      "name": "Trident",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Fiendish Blood",
+      "text": "Trigger: The sahuagin takes Piercing or Slashing damage. Response-Constitution Saving Throw: DC 14, each creature of the sahuagin's choice in a 5-foot Emanation originating from the sahuagin. Failure: 10 (3d6) Acid damage, and the target is cursed until it finishes a Short or Long Rest. While cursed, the target can't benefit from the Invisible condition, its Speed decreases by 10 feet, and all Fiends within 120 feet of the target can sense its location regardless of interposing obstacles. When a sahuagin comes at you, it doesn't seem to be living until it bites you. Then the thing's black eyes turn red as hellfire and the waves foam crimson. Then comes the screaming. -TIGURAN MAREMRYND, A SURVIVOR'S"
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +5 (15)\nHP 76 (9d10 + 27)\nSpeed 30 ft., Swim 50 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t15 \t+2 \t+5\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t13 \t+1 \t+4\nCHA \t17 \t+3 \t+3\nLarge Fiend, Lawful Evil\nSalamanders\nSerpentine Artists of the Inferno\nHabitat: Planar (Elemental Plane of Fire), Underdark; Treasure: Armaments\nSalamanders are serpentine denizens of the Elemental Plane of Fire. They believe that flames expose the purest forms of all things and delight in burning\nand melting things, seeing fleeting beauty and striking nuances in blazes consuming different fuels—ancient forests, artistic masterpieces, or living\nSkills Perception +7\nResistances Acid, Cold\nGear Breastplate, Trident\nSenses Darkvision 120 ft.; Passive Perception 17\nLanguages Sahuagin\nCR 5 (XP 1,800; PB +3)\nTraits\nBlood Frenzy. The sahuagin has Advantage on attack rolls against any creature\nthat doesn’t have all its Hit Points.\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must\nbe submerged at least once every 4 hours to avoid suffocating outside water.\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of\nitself, using a special telepathy.\nActions\nMultiattack. The sahuagin makes three Trident attacks.\nTrident. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft.\nHit: 13\n(2d8 + 4) Piercing damage.\nReactions\nFiendish Blood. Trigger: The sahuagin takes Piercing or Slashing damage.\nResponse—Constitution Saving Throw: DC 14, each creature of the sahuagin’s\nchoice in a 5-foot Emanation originating from the sahuagin.\nFailure: 10 (3d6)\nAcid damage, and the target is cursed until it finishes a Short or Long Rest.\nWhile cursed, the target can’t benefit from the Invisible condition, its Speed\ndecreases by 10 feet, and all Fiends within 120 feet of the target can sense its\nlocation regardless of interposing obstacles.\nWhen a sahuagin comes at you, it doesn’t seem to be living until\nit bites you. Then the thing’s black eyes turn red as hellfire and\nthe waves foam crimson. Then comes the screaming.\n—TIGURAN MAREMRYND,\nA SURVIVOR’S MEMOIR\nA SALAMANDER INFERNO MASTER DRIVES ITS SALAMANDER AND FIRE SNAKE MINIONS TO BURN ALL THEY ENCOUNTER\ncreatures. To salamanders, those that can’t endure their flames are nothing but ashes in disguise. They harbor malice toward few creatures, but they\nconsider creating remarkable flames more important than the pain and loss their fires cause.\nSalamanders are typically content to dwell on the Elemental Plane of Fire, creating strange, temporary art amid the flames. Some travel to other planes of\nexistence and worlds to experience the flames of other realms or create conflagrations of unprecedented scale.\nSalamander Fire Snake\nJuvenile salamanders emerge from burning hot, two-foot-diameter eggs. Called fire snakes, these serpentlike creatures slither through the Plane of Fire and\nother intensely hot places. After consuming the proper fuels and exposing themselves to fiery extremes, fire snakes grow into salamanders.\nSalamander\nMost salamanders are arrogant yet curious, seeking to create artful blazes or burn that which has never been burned. They eagerly explain their work to\nstrangers before trying to determine how the strangers burn. Salamanders radiate intense heat, which is conducted by their blazing weapons.\nSalamander Inferno Master\nSalamander inferno masters are ancient connoisseurs of flames and often inhabit places with unique scorching properties. They gather communes of\napprentices who learn fiery techniques while helping their mentors accomplish great works. Inferno masters have ambitious goals, such as causing",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

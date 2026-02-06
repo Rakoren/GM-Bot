@@ -1,0 +1,93 @@
+{
+  "id": "monster.ultroloth",
+  "name": "ULTROLOTH",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Yugoloth), Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Yugoloth)",
+  "alignment": "Neutral Evil",
+  "armor_class": 19,
+  "hit_points": 221,
+  "hit_dice": "26d8 + 104",
+  "speed": "30 ft., Fly 60 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +9, Perception +7, Stealth +8",
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Acid, Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Frightened, Poisoned",
+  "senses": "Truesight 120 ft.; Passive Perception 17",
+  "languages": "Abyssal, Infernal; telepathy 120 ft.",
+  "cr": "13 (XP 10,000; PB +5)",
+  "traits": [
+    {
+      "name": "Fiendish Restoration",
+      "text": "If the ultroloth dies outside Gehenna, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in Gehenna."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The ultroloth has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ultroloth uses Hypnotic Gaze and makes two Mercurial Whip attacks."
+    },
+    {
+      "name": "Mercurial Whip",
+      "text": "Melee Attack Roll: +9, reach 15 ft. Hit: 25 (6d6 + 4) Force damage, and the ultroloth can teleport the target up to 10 feet to an unoccupied space the ultroloth can see that isn't in the air."
+    },
+    {
+      "name": "Hypnotic Gaze",
+      "text": "Wisdom Saving Throw: DC 17, each creature in a 30-foot Cone. Failure: 10 (3d6) Psychic damage, and the target has the Stunned condition until the start of the ultroloth's next turn. Success: The target is immune to this ultroloth's Hypnotic Gaze for 24 hours."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The ultroloth casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 17): At Will: Alter Self, Clairvoyance, Detect Magic 1/Day Each: Dimension Door, Fireball (level 5 version), Wall of Fire"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Fiendish Guile (Recharge 4-6)",
+      "text": "The ultroloth casts Dispel Magic, Invisibility (self only), Misty Step, or Suggestion, requiring no Material components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +8 (18)\nHP 221 (26d8 + 104)\nSpeed 30 ft., Fly 60 ft. (hover)\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t16 \t+3 \t+3\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t19 \t+4 \t+4\nWIS \t15 \t+2 \t+2\nCHA \t18 \t+4 \t+4\nSkills Deception +9, Perception +7, Stealth +8\nResistances Cold, Fire, Lightning\nImmunities Acid, Poison; Charmed, Frightened, Poisoned\nSenses Truesight 120 ft.; Passive Perception 17\nLanguages Abyssal, Infernal; telepathy 120 ft.\nCR 13 (XP 10,000; PB +5)\nTraits\nFiendish Restoration. If the ultroloth dies outside Gehenna, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in Gehenna.\nMagic Resistance. The ultroloth has Advantage on saving throws against spells and other magical effects.\nActions\nMultiattack. The ultroloth uses Hypnotic Gaze and makes two Mercurial Whip attacks.\nMercurial Whip. Melee Attack Roll: +9, reach 15 ft.\nHit: 25 (6d6 + 4) Force damage, and the ultroloth can teleport the target up to 10 feet to an unoccupied space the ultroloth can see that isn't in the air.\nHypnotic Gaze. Wisdom Saving Throw: DC 17, each creature in a 30-foot Cone.\nFailure: 10 (3d6) Psychic damage, and the target has the Stunned condition until the start of the ultroloth's next turn.\nSuccess: The target is immune to this ultroloth's Hypnotic Gaze for 24 hours.\nSpellcasting. The ultroloth casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 17):\nAt Will:\nAlter Self,\nClairvoyance,\nDetect Magic\n1/Day Each:\nDimension Door,\nFireball (level 5 version),\nWall of Fire\nBonus Actions\nFiendish Guile (Recharge 4-6). The ultroloth casts Dispel Magic, Invisibility (self only), Misty Step, or Suggestion, requiring no Material components and using the same spellcasting ability as Spellcasting.\nMedium Fiend (Yugoloth), Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (U) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

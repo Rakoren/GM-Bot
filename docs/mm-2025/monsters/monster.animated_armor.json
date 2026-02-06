@@ -1,0 +1,71 @@
+{
+  "id": "monster.animated_armor",
+  "name": "ANIMATED ARMOR",
+  "status": "complete",
+  "size_type_alignment": "Medium Construct, Unaligned",
+  "size": "Medium",
+  "creature_type": "Construct",
+  "alignment": "Unaligned",
+  "armor_class": 18,
+  "hit_points": 33,
+  "hit_dice": "6d8 + 6",
+  "speed": "25 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 6",
+  "languages": "None",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The armor makes two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +2 (12)\nHP 33 (6d8 + 6)\nSpeed 25 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t11 \t+0 \t+0\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t3 \t−4 \t−4\nCHA \t1 \t−5 \t−5\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened,\nParalyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 6\nLanguages None\nCR 1 (XP 200; PB +2)\nActions\nMultiattack. The armor makes two Slam attacks.\nSlam. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Bludgeoning damage.\nMedium Construct, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

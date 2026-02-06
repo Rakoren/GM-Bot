@@ -1,0 +1,92 @@
+{
+  "id": "monster.flesh_golem",
+  "name": "FLESH GOLEM",
+  "status": "complete",
+  "size_type_alignment": "Medium Construct, Neutral",
+  "size": "Medium",
+  "creature_type": "Construct",
+  "alignment": "Neutral",
+  "armor_class": 9,
+  "hit_points": 127,
+  "hit_dice": "15d8 + 60",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": "Lightning, Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Understands Common plus one other language but can't speak",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Aversion to Fire",
+      "text": "If the golem takes Fire damage, it has Disadvantage on attack rolls and ability checks until the end of its next turn."
+    },
+    {
+      "name": "Berserk",
+      "text": "Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it remains so until it is destroyed or it is no longer Bloodied. The golem's creator, if within 60 feet of the berserk golem, can try to calm it by taking an action to make a DC 15 Charisma (Persuasion) check; the golem must be able to hear its creator. If this check succeeds, the golem ceases being berserk until the start of its next turn, at which point it resumes rolling for the Berserk trait again if it is still Bloodied."
+    },
+    {
+      "name": "Immutable Form",
+      "text": "The golem can't shape-shift."
+    },
+    {
+      "name": "Lightning Absorption",
+      "text": "Whenever the golem is subjected to Lightning damage, it regains a number of Hit Points equal to the Lightning damage dealt."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The golem has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The golem makes two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 4 (1d8) Lightning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 9 \tInitiative −1 (9)\nHP 127 (15d8 + 60)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t9 \t−1 \t−1\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nImmunities Lightning, Poison; Charmed, Exhaustion, Frightened, Paralyzed,\nPetrified, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Understands Common plus one other language but can’t speak\nCR 5 (XP 1,800; PB +3)\nTraits\nAversion to Fire. If the golem takes Fire damage, it has Disadvantage on attack\nrolls and ability checks until the end of its next turn.\nBerserk. Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the\ngolem goes berserk. On each of its turns while berserk, the golem attacks the\nnearest creature it can see. If no creature is near enough to move to and\nattack, the golem attacks an object. Once the golem goes berserk, it remains\nso until it is destroyed or it is no longer Bloodied.\nThe golem’s creator, if within 60 feet of the berserk golem, can try to calm it by\ntaking an action to make a DC 15 Charisma (Persuasion) check; the golem\nmust be able to hear its creator. If this check succeeds, the golem ceases\nbeing berserk until the start of its next turn, at which point it resumes rolling\nfor the Berserk trait again if it is still Bloodied.\nImmutable Form. The golem can’t shape-shift.\nLightning Absorption. Whenever the golem is subjected to Lightning damage, it\nregains a number of Hit Points equal to the Lightning damage dealt.\nMagic Resistance. The golem has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The golem makes two Slam attacks.\nSlam. Melee Attack Roll: +7, reach 5 ft.\nHit: 13 (2d8 + 4) Bludgeoning damage\nplus 4 (1d8) Lightning damage.\nMedium Construct, Neutral\nBizarre creatures with aberrant agendas inhabit the Underdark. Flumphs number among the few that are helpful to strangers.\nThese tentacled, telepathic creatures jet through the air in short bursts, venting gases with a sound that gives them their name. Rather than speaking,\nflumphs communicate telepathically and by changing color to reflect their moods.\nFlumphs dwell in psychically charged regions or near creatures with psionic magic. They harmlessly feed off psychic energies, but in doing so, they often\nencounter dangerous beings such as aboleths and mind flayers. While flumphs generally avoid combat, they often help adventurers in peril. Such help\nmight be of doubtful use, but flumphs mean well. Roll on or choose a result from the Flumph Assistance table to inspire what support flumphs provide.\nFlumph Assistance\n1d6 \tThe Flumph Helps By...\n1 \tCooking a meal of Underdark delicacies.\n2 \tPerforming a psychic song or “smell poem.”\n3 \tRecovering and nursing fallen adventurers.\n4 \tRevealing the location of helpful magic items.\n5 \tServing as a guide to a foe’s hidden lair.\n6 \tSharing excessive encouragement and praise.\nFlumph Colors\nA flumph’s extremities change color to reflect its mood. The Flumph Colors and Emotions table summarizes common flumph colors and the human\nemotions to which they most closely correspond.\nFlumph Colors and Emotions\nColor \tEmotion\nBlue, Dark \tSadness\nBlue, Light \tHappiness\nGreen \tCuriosity\nMagenta \tUnknown*\n*Rarely seen; potentially no human equivalent\nColor \tEmotion\nOrange \tConfusion\nPink \tAmusement\nPurple \tFear\nRed \tAnger\nTeal \tSerenity\nYellow \tExcitement\n*Rarely seen; potentially no human equivalent\nFomorian\nCursed Giant of the Dark\nHabitat: Underdark; Treasure: Any",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

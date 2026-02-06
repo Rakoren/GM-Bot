@@ -1,0 +1,84 @@
+{
+  "id": "monster.werebear",
+  "name": "WEREBEAR",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Monstrosity (Lycanthrope), Neutral Good",
+  "size": "Medium",
+  "creature_type": "Monstrosity (Lycanthrope)",
+  "alignment": "Neutral Good",
+  "armor_class": 15,
+  "hit_points": 135,
+  "hit_dice": "18d8 + 54",
+  "speed": "30 ft., 40 ft. (bear form only), Climb 30 ft. (bear form only)",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 17",
+  "languages": "Common (can’t speak in bear form)",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The werebear makes two attacks, using Handaxe or Rend in any combination. It can replace one attack with a Bite attack."
+    },
+    {
+      "name": "Bite (Bear or Hybrid Form Only)",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the DM's control and has 10 Hit Points. Success: The target is immune to this werebear's curse for 24 hours."
+    },
+    {
+      "name": "Handaxe (Humanoid or Hybrid Form Only)",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft or range 20/60 ft. Hit: 14 (3d6 + 4) Slashing damage."
+    },
+    {
+      "name": "Rend (Bear or Hybrid Form Only)",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The werebear shape-shifts into a Large bear-humanoid hybrid form or a Large bear, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +3 (13)\nHP 135 (18d8 + 54)\nSpeed 30 ft., 40 ft. (bear form only), Climb 30 ft. (bear form only)\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t10 \t+0 \t+0\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t12 \t+1 \t+1\nCHA \t12 \t+1 \t+1\nSkills Perception +7\nGear Handaxes (4)\nSenses Darkvision 60 ft.; Passive Perception 17\nMedium or Small Monstrosity (Lycanthrope), Neutral Good\nWereboar\nChanged by the Hunger of the Boar\nHabitat: Forest, Grassland, Hill; Treasure: Individual\nWereboars shape-shift from their humanoid forms into powerful boars or humanoid-boar hybrids. Many wereboars suffer their shape-shifting nature as a\ncurse, with some involuntarily transforming any time they perform a greedy act or indulge their selfish nature.\nLanguages Common (can’t speak in bear form)\nCR 5 (XP 1,800; PB +3)\nActions\nMultiattack. The werebear makes two attacks, using Handaxe or Rend in any\ncombination. It can replace one attack with a Bite attack.\nBite (Bear or Hybrid Form Only). Melee Attack Roll: +7, reach 5 ft.\nHit: 17 (2d12\n+ 4) Piercing damage. If the target is a Humanoid, it is subjected to the\nfollowing effect.\nConstitution Saving Throw: DC 14.\nFailure: The target is\ncursed. If the cursed target drops to 0 Hit Points, it instead becomes a\nWerebear under the DM’s control and has 10 Hit Points.\nSuccess: The target is\nimmune to this werebear’s curse for 24 hours.\nHandaxe (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +7,\nreach 5 ft or range 20/60 ft.\nHit: 14 (3d6 + 4) Slashing damage.\nRend (Bear or Hybrid Form Only). Melee Attack Roll: +7, reach 5 ft.\nHit: 13 (2d8\n+ 4) Slashing damage.\nBonus Actions\nShape-Shift. The werebear shape-shifts into a Large bear-humanoid hybrid\nform or a Large bear, or it returns to its true humanoid form. Its game\nstatistics, other than its size, are the same in each form. Any equipment it is\nwearing or carrying isn’t transformed.\nWererat\nChanged by the Deviousness of the Rat\nHabitat: Forest, Urban; Treasure: Individual\nWererats can shape-shift from their humanoid forms into giant rats or humanoid-rat hybrids. These creatures can transform voluntarily, but some are\nmagically compelled to shape-shift when exposed to complete darkness or during nights of a new moon. Often, wererats’ nature results from a divine curse\n—punishment for their deceitful natures or the crimes of their treacherous families. Wererats frequently work in groups, forming bandit gangs or thieves’\nguilds.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

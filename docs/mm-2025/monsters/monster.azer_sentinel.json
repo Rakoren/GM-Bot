@@ -1,0 +1,80 @@
+{
+  "id": "monster.azer_sentinel",
+  "name": "AZER SENTINEL",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Lawful Neutral",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Lawful Neutral",
+  "armor_class": 17,
+  "hit_points": 39,
+  "hit_dice": "6d8 + 12",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "Primordial (Ignan)",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Fire Aura",
+      "text": "At the end of each of the azer's turns, each creature of the azer's choice in a 5-foot Emanation originating from the azer takes 5 (1d10) Fire damage unless the azer has the Incapacitated condition."
+    },
+    {
+      "name": "Illumination",
+      "text": "The azer sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Burning Hammer",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3)"
+    },
+    {
+      "name": "Bludgeoning damage plus 3 (1d6) Fire damage",
+      "text": ""
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +1 (11)\nHP 39 (6d8 + 12)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t15 \t+2 \t+4\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t13 \t+1 \t+1\nCHA \t10 \t+0 \t+0\nImmunities Fire, Poison; Poisoned\nSenses Passive Perception 11\nLanguages Primordial (Ignan)\nCR 2 (XP 450; PB +2)\nTraits\nFire Aura. At the end of each of the azer’s turns, each creature of the azer’s\nchoice in a 5-foot Emanation originating from the azer takes 5 (1d10) Fire\ndamage unless the azer has the Incapacitated condition.\nIllumination. The azer sheds Bright Light in a 10-foot radius and Dim Light\nfor an additional 10 feet.\nActions\nBurning Hammer. Melee Attack Roll: +5, reach 5 ft.\nHit: 8 (1d10 + 3)\nBludgeoning damage plus 3 (1d6) Fire damage.\nMedium Elemental, Lawful Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

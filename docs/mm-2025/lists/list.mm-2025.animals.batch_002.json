@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.animals.batch_002",
+  "name": "MM 2025 Animals Batch 2",
+  "entries": [
+    {
+      "id": "animal.giant_badger",
+      "name": "GIANT BADGER",
+      "file": "docs/mm-2025/animals/animal.giant_badger.json"
+    },
+    {
+      "id": "animal.giant_bat",
+      "name": "GIANT BAT",
+      "file": "docs/mm-2025/animals/animal.giant_bat.json"
+    },
+    {
+      "id": "animal.giant_boar",
+      "name": "GIANT BOAR",
+      "file": "docs/mm-2025/animals/animal.giant_boar.json"
+    },
+    {
+      "id": "animal.giant_centipede",
+      "name": "GIANT CENTIPEDE",
+      "file": "docs/mm-2025/animals/animal.giant_centipede.json"
+    },
+    {
+      "id": "animal.giant_constrictor_snake",
+      "name": "GIANT CONSTRICTOR SNAKE",
+      "file": "docs/mm-2025/animals/animal.giant_constrictor_snake.json"
+    },
+    {
+      "id": "animal.giant_crab",
+      "name": "GIANT CRAB",
+      "file": "docs/mm-2025/animals/animal.giant_crab.json"
+    },
+    {
+      "id": "animal.giant_crocodile",
+      "name": "GIANT CROCODILE",
+      "file": "docs/mm-2025/animals/animal.giant_crocodile.json"
+    },
+    {
+      "id": "animal.giant_eagle",
+      "name": "GIANT EAGLE",
+      "file": "docs/mm-2025/animals/animal.giant_eagle.json"
+    },
+    {
+      "id": "animal.giant_elk",
+      "name": "GIANT ELK",
+      "file": "docs/mm-2025/animals/animal.giant_elk.json"
+    },
+    {
+      "id": "animal.giant_fire_beetle",
+      "name": "GIANT FIRE BEETLE",
+      "file": "docs/mm-2025/animals/animal.giant_fire_beetle.json"
+    },
+    {
+      "id": "animal.giant_frog",
+      "name": "GIANT FROG",
+      "file": "docs/mm-2025/animals/animal.giant_frog.json"
+    },
+    {
+      "id": "animal.giant_goat",
+      "name": "GIANT GOAT",
+      "file": "docs/mm-2025/animals/animal.giant_goat.json"
+    },
+    {
+      "id": "animal.giant_hyena",
+      "name": "GIANT HYENA",
+      "file": "docs/mm-2025/animals/animal.giant_hyena.json"
+    },
+    {
+      "id": "animal.giant_lizard",
+      "name": "GIANT LIZARD",
+      "file": "docs/mm-2025/animals/animal.giant_lizard.json"
+    },
+    {
+      "id": "animal.giant_octopus",
+      "name": "GIANT OCTOPUS",
+      "file": "docs/mm-2025/animals/animal.giant_octopus.json"
+    },
+    {
+      "id": "animal.giant_owl",
+      "name": "GIANT OWL",
+      "file": "docs/mm-2025/animals/animal.giant_owl.json"
+    },
+    {
+      "id": "animal.giant_rat",
+      "name": "GIANT RAT",
+      "file": "docs/mm-2025/animals/animal.giant_rat.json"
+    },
+    {
+      "id": "animal.giant_scorpion",
+      "name": "GIANT SCORPION",
+      "file": "docs/mm-2025/animals/animal.giant_scorpion.json"
+    },
+    {
+      "id": "animal.giant_seahorse",
+      "name": "GIANT SEAHORSE",
+      "file": "docs/mm-2025/animals/animal.giant_seahorse.json"
+    },
+    {
+      "id": "animal.giant_shark",
+      "name": "GIANT SHARK",
+      "file": "docs/mm-2025/animals/animal.giant_shark.json"
+    },
+    {
+      "id": "animal.giant_spider",
+      "name": "GIANT SPIDER",
+      "file": "docs/mm-2025/animals/animal.giant_spider.json"
+    },
+    {
+      "id": "animal.giant_squid",
+      "name": "GIANT SQUID",
+      "file": "docs/mm-2025/animals/animal.giant_squid.json"
+    },
+    {
+      "id": "animal.giant_toad",
+      "name": "GIANT TOAD",
+      "file": "docs/mm-2025/animals/animal.giant_toad.json"
+    },
+    {
+      "id": "animal.giant_venomous_snake",
+      "name": "GIANT VENOMOUS SNAKE",
+      "file": "docs/mm-2025/animals/animal.giant_venomous_snake.json"
+    },
+    {
+      "id": "animal.giant_vulture",
+      "name": "GIANT VULTURE",
+      "file": "docs/mm-2025/animals/animal.giant_vulture.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  }
+}

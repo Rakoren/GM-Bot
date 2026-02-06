@@ -1,0 +1,72 @@
+{
+  "id": "monster.bulette_pup",
+  "name": "BULETTE PUP",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Unaligned",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "hit_points": 45,
+  "hit_dice": "6d8 + 18",
+  "speed": "30 ft., Burrow 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft., Tremorsense 60 ft.; Passive Perception 14",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 14 (2d10 + 3) Piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Leap",
+      "text": "The bulette jumps up to 30 feet by spending 10 feet of movement."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative −1 (9)\nHP 45 (6d8 + 18)\nSpeed 30 ft., Burrow 20 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t8 \t−1 \t−1\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nSkills Perception +4\nSenses Darkvision 30 ft., Tremorsense 60 ft.; Passive Perception 14\nLanguages None\nCR 2 (XP 450; PB +2)\nActions\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 14 (2d10 + 3) Piercing damage.\nBonus Actions\nLeap. The bulette jumps up to 30 feet by spending 10 feet of movement.\nMedium Monstrosity, Unaligned\nBullywug bog sages channel the magic of the swamp to sicken foes and speak with plants.\nBullywug Warrior\nBullywug warriors are adept at moving through swamps and ambushing trespassers. They often work alongside packs of trained giant frogs.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

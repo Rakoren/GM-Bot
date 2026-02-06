@@ -1,0 +1,88 @@
+{
+  "id": "monster.treant",
+  "name": "TREANT",
+  "status": "complete",
+  "size_type_alignment": "Huge Plant, Chaotic Good",
+  "size": "Huge",
+  "creature_type": "Plant",
+  "alignment": "Chaotic Good",
+  "armor_class": 16,
+  "hit_points": 138,
+  "hit_dice": "12d12 + 60",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "Common, Druidic, Elvish, Sylvan",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [
+    {
+      "name": "Siege Monster",
+      "text": "The treant deals double damage to objects and structures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The treant makes two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage."
+    },
+    {
+      "name": "Hail of Bark",
+      "text": "Ranged Attack Roll: +10, range 180 ft. Hit: 28 (4d10 + 6) Piercing damage."
+    },
+    {
+      "name": "Animate Trees (1/Day)",
+      "text": "The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has"
+    },
+    {
+      "name": "Intelligence and Charisma scores of 1, it can't speak, and it lacks this action",
+      "text": "The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +3 (13)\nHP 138 (12d12 + 60)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t8 \t−1 \t−1\nCON \t21 \t+5 \t+5\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t16 \t+3 \t+3\nCHA \t12 \t+1 \t+1\nVulnerabilities Fire\nHuge Plant, Chaotic Good\nTroglodyte\nReeking Subterranean Hunter\nHabitat: Underdark; Treasure: Armaments\nWith features similar to those of pale cave lizards, troglodytes stalk the Underdark in an endless hunt for food. Troglodytes consume almost anything,\nincluding bones, giant insects, and other subterranean dwellers. They prey on subterranean communities and those near entrances to the Underdark,\nstealing livestock and kidnapping residents.\nTroglodytes prefer to ambush prey and can change their scale color to blend in with their surroundings. They often climb along cavern walls or emerge\nfrom deep fissures to take their prey by surprise. Despite their stealthiness, these stalkers exude a distinctly repulsive stench. Descriptions of what\ntroglodytes smell like span a spectrum as complex as it is vile. This reek nauseates many who smell it, but it can also warn of the presence of troglodytes\nbefore they strike.\nResistances Bludgeoning, Piercing\nSenses Passive Perception 13\nLanguages Common, Druidic, Elvish, Sylvan\nCR 9 (XP 5,000; PB +4)\nTraits\nSiege Monster. The treant deals double damage to objects and structures.\nActions\nMultiattack. The treant makes two Slam attacks.\nSlam. Melee Attack Roll: +10, reach 5 ft.\nHit: 16 (3d6 + 6) Bludgeoning damage.\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6)\nPiercing damage.\nAnimate Trees (1/Day). The treant magically animates up to two trees it can\nsee within 60 feet of itself. Each tree uses the Treant stat block, except it has\nIntelligence and Charisma scores of 1, it can’t speak, and it lacks this action.\nThe tree takes its turn immediately after the treant on the same Initiative\ncount, and it obeys the treant. A tree remains animate for 1 day or until it dies,\nthe treant dies, or it is more than 120 feet from the treant. The tree then takes\nroot if possible.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (T) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

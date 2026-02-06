@@ -1,0 +1,85 @@
+{
+  "id": "monster.dire_worg",
+  "name": "DIRE WORG",
+  "status": "complete",
+  "size_type_alignment": "Huge Fey, Neutral Evil",
+  "size": "Huge",
+  "creature_type": "Fey",
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "hit_points": 147,
+  "hit_dice": "14d12 + 56",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +11",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 21",
+  "languages": "Goblin, Sylvan, Worg",
+  "cr": "10 (XP 5,900; PB +4)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The worg has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The worg makes three Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage plus 7 (2d6) Poison damage, and the target has the Poisoned condition until the start of the worg's next turn. While Poisoned, the target can't regain Hit Points."
+    },
+    {
+      "name": "Dreadful Howl (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 16, each creature within 30 feet that isn't a worg. Failure: 36 (8d8) Psychic damage, and the target has the Frightened condition until the start of the worg's next turn. Success: Half damage only."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Warp Step",
+      "text": "The worg teleports, along with a willing creature of its choice within 5 feet of it, up to 30 feet to an unoccupied space it can see."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +2 (12)\nHP 147 (14d12 + 56)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t22 \t+6 \t+6\nDEX \t14 \t+2 \t+6\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t16 \t+3 \t+7\nCHA \t8 \t−1 \t−1\nSkills Perception +11\nSenses Darkvision 120 ft.; Passive Perception 21\nLanguages Goblin, Sylvan, Worg\nCR 10 (XP 5,900; PB +4)\nTraits\nMagic Resistance. The worg has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The worg makes three Bite attacks.\nBite. Melee Attack Roll: +10, reach 5 ft.\nHit: 15 (2d8 + 6) Piercing damage plus\n7 (2d6) Poison damage, and the target has the Poisoned condition until the\nstart of the worg’s next turn. While Poisoned, the target can’t regain Hit Points.\nDreadful Howl (Recharge 5–6). Wisdom Saving Throw: DC 16, each creature\nwithin 30 feet that isn’t a worg.\nFailure: 36 (8d8) Psychic damage, and the target\nhas the Frightened condition until the start of the worg’s next turn.\nSuccess:\nHalf damage only.\nBonus Actions\nWarp Step. The worg teleports, along with a willing creature of its choice\nwithin 5 feet of it, up to 30 feet to an unoccupied space it can see.\nHuge Fey, Neutral Evil\nWraiths might arise from a single powerfully evil soul or other baleful forces. Roll\non or choose a result from the Wraith Manifestations table to inspire the\nwickedness a wraith embodies.\nWraith Manifestations\n1d10 \tThe Wraith Embodies...\n1 \tThe blasphemous magic of a cursed location.\n2 \tThe exorcised evil of a redeemed villain.\n3 \tA legendary villain who returns once a century.\n4 \tLocals’ fear of a superstition or legend.\n5 \tThe memory of a tragedy.\n6 \tA profane idea or foul piece of lore.\n7 \tThe torment of one or more suffering souls.\n8 \tThe viciousness of a profane Artifact.\n9 \tThe vile dreams of a slumbering god.\n10 The voracity of a life-hungry realm, such as the Shadowfell or\nNegative Plane.\nWyvern\nDraconic Hunter with a Venomous Sting\nHabitat: Hill, Mountain; Treasure: Any",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

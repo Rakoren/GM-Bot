@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.monsters.batch_004",
+  "name": "MM 2025 Monsters Batch 4",
+  "entries": [
+    {
+      "id": "monster.aberrant_cultist",
+      "name": "ABERRANT CULTIST",
+      "file": "docs/mm-2025/monsters/monster.aberrant_cultist.json"
+    },
+    {
+      "id": "monster.adult_copper_dragon",
+      "name": "ADULT COPPER DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_copper_dragon.json"
+    },
+    {
+      "id": "monster.ancient_copper_dragon",
+      "name": "ANCIENT COPPER DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_copper_dragon.json"
+    },
+    {
+      "id": "monster.cambion",
+      "name": "CAMBION",
+      "file": "docs/mm-2025/monsters/monster.cambion.json"
+    },
+    {
+      "id": "monster.carrion_crawler",
+      "name": "CARRION CRAWLER",
+      "file": "docs/mm-2025/monsters/monster.carrion_crawler.json"
+    },
+    {
+      "id": "monster.centaur_trooper",
+      "name": "CENTAUR TROOPER",
+      "file": "docs/mm-2025/monsters/monster.centaur_trooper.json"
+    },
+    {
+      "id": "monster.centaur_warden",
+      "name": "CENTAUR WARDEN",
+      "file": "docs/mm-2025/monsters/monster.centaur_warden.json"
+    },
+    {
+      "id": "monster.chain_devil",
+      "name": "CHAIN DEVIL",
+      "file": "docs/mm-2025/monsters/monster.chain_devil.json"
+    },
+    {
+      "id": "monster.chasme",
+      "name": "CHASME",
+      "file": "docs/mm-2025/monsters/monster.chasme.json"
+    },
+    {
+      "id": "monster.chimera",
+      "name": "CHIMERA",
+      "file": "docs/mm-2025/monsters/monster.chimera.json"
+    },
+    {
+      "id": "monster.chuul",
+      "name": "CHUUL",
+      "file": "docs/mm-2025/monsters/monster.chuul.json"
+    },
+    {
+      "id": "monster.clay_golem",
+      "name": "CLAY GOLEM",
+      "file": "docs/mm-2025/monsters/monster.clay_golem.json"
+    },
+    {
+      "id": "monster.cloaker",
+      "name": "CLOAKER",
+      "file": "docs/mm-2025/monsters/monster.cloaker.json"
+    },
+    {
+      "id": "monster.cloud_giant",
+      "name": "CLOUD GIANT",
+      "file": "docs/mm-2025/monsters/monster.cloud_giant.json"
+    },
+    {
+      "id": "monster.cockatrice",
+      "name": "COCKATRICE",
+      "file": "docs/mm-2025/monsters/monster.cockatrice.json"
+    },
+    {
+      "id": "monster.cockatrice_regent",
+      "name": "COCKATRICE REGENT",
+      "file": "docs/mm-2025/monsters/monster.cockatrice_regent.json"
+    },
+    {
+      "id": "monster.colossus",
+      "name": "COLOSSUS",
+      "file": "docs/mm-2025/monsters/monster.colossus.json"
+    },
+    {
+      "id": "monster.commoner",
+      "name": "COMMONER",
+      "file": "docs/mm-2025/monsters/monster.commoner.json"
+    },
+    {
+      "id": "monster.copper_dragon_wyrmling",
+      "name": "COPPER DRAGON WYRMLING",
+      "file": "docs/mm-2025/monsters/monster.copper_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.couatl",
+      "name": "COUATL",
+      "file": "docs/mm-2025/monsters/monster.couatl.json"
+    },
+    {
+      "id": "monster.crawling_claw",
+      "name": "CRAWLING CLAW",
+      "file": "docs/mm-2025/monsters/monster.crawling_claw.json"
+    },
+    {
+      "id": "monster.cultist",
+      "name": "CULTIST",
+      "file": "docs/mm-2025/monsters/monster.cultist.json"
+    },
+    {
+      "id": "monster.cultist_fanatic",
+      "name": "CULTIST FANATIC",
+      "file": "docs/mm-2025/monsters/monster.cultist_fanatic.json"
+    },
+    {
+      "id": "monster.cultist_hierophant",
+      "name": "CULTIST HIEROPHANT",
+      "file": "docs/mm-2025/monsters/monster.cultist_hierophant.json"
+    },
+    {
+      "id": "monster.cyclops_oracle",
+      "name": "CYCLOPS ORACLE",
+      "file": "docs/mm-2025/monsters/monster.cyclops_oracle.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

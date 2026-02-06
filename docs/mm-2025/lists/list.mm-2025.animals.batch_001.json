@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.animals.batch_001",
+  "name": "MM 2025 Animals Batch 1",
+  "entries": [
+    {
+      "id": "animal.allosaurus",
+      "name": "ALLOSAURUS",
+      "file": "docs/mm-2025/animals/animal.allosaurus.json"
+    },
+    {
+      "id": "animal.ankylosaurus",
+      "name": "ANKYLOSAURUS",
+      "file": "docs/mm-2025/animals/animal.ankylosaurus.json"
+    },
+    {
+      "id": "animal.ape",
+      "name": "APE",
+      "file": "docs/mm-2025/animals/animal.ape.json"
+    },
+    {
+      "id": "animal.archelon",
+      "name": "ARCHELON",
+      "file": "docs/mm-2025/animals/animal.archelon.json"
+    },
+    {
+      "id": "animal.baboon",
+      "name": "BABOON",
+      "file": "docs/mm-2025/animals/animal.baboon.json"
+    },
+    {
+      "id": "animal.badger",
+      "name": "BADGER",
+      "file": "docs/mm-2025/animals/animal.badger.json"
+    },
+    {
+      "id": "animal.bat",
+      "name": "BAT",
+      "file": "docs/mm-2025/animals/animal.bat.json"
+    },
+    {
+      "id": "animal.black_bear",
+      "name": "BLACK BEAR",
+      "file": "docs/mm-2025/animals/animal.black_bear.json"
+    },
+    {
+      "id": "animal.blood_hawk",
+      "name": "BLOOD HAWK",
+      "file": "docs/mm-2025/animals/animal.blood_hawk.json"
+    },
+    {
+      "id": "animal.boar",
+      "name": "BOAR",
+      "file": "docs/mm-2025/animals/animal.boar.json"
+    },
+    {
+      "id": "animal.brown_bear",
+      "name": "BROWN BEAR",
+      "file": "docs/mm-2025/animals/animal.brown_bear.json"
+    },
+    {
+      "id": "animal.camel",
+      "name": "CAMEL",
+      "file": "docs/mm-2025/animals/animal.camel.json"
+    },
+    {
+      "id": "animal.cat",
+      "name": "CAT",
+      "file": "docs/mm-2025/animals/animal.cat.json"
+    },
+    {
+      "id": "animal.constrictor_snake",
+      "name": "CONSTRICTOR SNAKE",
+      "file": "docs/mm-2025/animals/animal.constrictor_snake.json"
+    },
+    {
+      "id": "animal.crab",
+      "name": "CRAB",
+      "file": "docs/mm-2025/animals/animal.crab.json"
+    },
+    {
+      "id": "animal.crocodile",
+      "name": "CROCODILE",
+      "file": "docs/mm-2025/animals/animal.crocodile.json"
+    },
+    {
+      "id": "animal.deer",
+      "name": "DEER",
+      "file": "docs/mm-2025/animals/animal.deer.json"
+    },
+    {
+      "id": "animal.dire_wolf",
+      "name": "DIRE WOLF",
+      "file": "docs/mm-2025/animals/animal.dire_wolf.json"
+    },
+    {
+      "id": "animal.draft_horse",
+      "name": "DRAFT HORSE",
+      "file": "docs/mm-2025/animals/animal.draft_horse.json"
+    },
+    {
+      "id": "animal.eagle",
+      "name": "EAGLE",
+      "file": "docs/mm-2025/animals/animal.eagle.json"
+    },
+    {
+      "id": "animal.elephant",
+      "name": "ELEPHANT",
+      "file": "docs/mm-2025/animals/animal.elephant.json"
+    },
+    {
+      "id": "animal.elk",
+      "name": "ELK",
+      "file": "docs/mm-2025/animals/animal.elk.json"
+    },
+    {
+      "id": "animal.flying_snake",
+      "name": "FLYING SNAKE",
+      "file": "docs/mm-2025/animals/animal.flying_snake.json"
+    },
+    {
+      "id": "animal.frog",
+      "name": "FROG",
+      "file": "docs/mm-2025/animals/animal.frog.json"
+    },
+    {
+      "id": "animal.giant_ape",
+      "name": "GIANT APE",
+      "file": "docs/mm-2025/animals/animal.giant_ape.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  }
+}

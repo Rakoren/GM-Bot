@@ -1,0 +1,75 @@
+{
+  "id": "animal.ape",
+  "name": "APE",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 19,
+  "hit_dice": "3d8 + 6",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +5, Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The ape makes two Fist attacks."
+    },
+    {
+      "name": "Fist",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage."
+    },
+    {
+      "name": "Rock (Recharge 6)",
+      "text": "Ranged Attack Roll: +5, range 25/50 ft. Hit: 10 (2d6 + 3) Bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 19 (3d8 + 6)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t14 \t+2 \t+2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t12 \t+1 \t+1\nCHA \t7 \t−2 \t−2\nSkills Athletics +5, Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 1/2 (XP 100; PB +2)\nActions\nMultiattack. The ape makes two Fist attacks.\nFist. Melee Attack Roll: +5, reach 5 ft.\nHit: 5 (1d4 + 3) Bludgeoning damage.\nRock (Recharge 6). Ranged Attack Roll: +5, range 25/50 ft.\nHit: 10 (2d6 + 3)\nBludgeoning damage.\nMedium Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

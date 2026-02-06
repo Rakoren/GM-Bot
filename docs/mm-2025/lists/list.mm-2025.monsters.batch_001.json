@@ -1,7 +1,98 @@
 {
   "id": "list.mm-2025.monsters.batch_001",
   "name": "MM 2025 Monsters Batch 1",
-  "entries": [],
+  "entries": [
+    {
+      "id": "monster.aarakocra_aeromancer",
+      "name": "AARAKOCRA AEROMANCER",
+      "file": "docs/mm-2025/monsters/monster.aarakocra_aeromancer.json"
+    },
+    {
+      "id": "monster.aarakocra_skirmisher",
+      "name": "AARAKOCRA SKIRMISHER",
+      "file": "docs/mm-2025/monsters/monster.aarakocra_skirmisher.json"
+    },
+    {
+      "id": "monster.aboleth",
+      "name": "ABOLETH",
+      "file": "docs/mm-2025/monsters/monster.aboleth.json"
+    },
+    {
+      "id": "monster.air_elemental",
+      "name": "AIR ELEMENTAL",
+      "file": "docs/mm-2025/monsters/monster.air_elemental.json"
+    },
+    {
+      "id": "monster.animal_lord",
+      "name": "ANIMAL LORD",
+      "file": "docs/mm-2025/monsters/monster.animal_lord.json"
+    },
+    {
+      "id": "monster.animated_armor",
+      "name": "ANIMATED ARMOR",
+      "file": "docs/mm-2025/monsters/monster.animated_armor.json"
+    },
+    {
+      "id": "monster.animated_broom",
+      "name": "ANIMATED BROOM",
+      "file": "docs/mm-2025/monsters/monster.animated_broom.json"
+    },
+    {
+      "id": "monster.animated_rug_of_smothering",
+      "name": "ANIMATED RUG OF SMOTHERING",
+      "file": "docs/mm-2025/monsters/monster.animated_rug_of_smothering.json"
+    },
+    {
+      "id": "monster.ankheg",
+      "name": "ANKHEG",
+      "file": "docs/mm-2025/monsters/monster.ankheg.json"
+    },
+    {
+      "id": "monster.arcanaloth",
+      "name": "ARCANALOTH",
+      "file": "docs/mm-2025/monsters/monster.arcanaloth.json"
+    },
+    {
+      "id": "monster.arch_hag",
+      "name": "ARCH-HAG",
+      "file": "docs/mm-2025/monsters/monster.arch_hag.json"
+    },
+    {
+      "id": "monster.assassin",
+      "name": "ASSASSIN",
+      "file": "docs/mm-2025/monsters/monster.assassin.json"
+    },
+    {
+      "id": "monster.awakened_shrub",
+      "name": "AWAKENED SHRUB",
+      "file": "docs/mm-2025/monsters/monster.awakened_shrub.json"
+    },
+    {
+      "id": "monster.awakened_tree",
+      "name": "AWAKENED TREE",
+      "file": "docs/mm-2025/monsters/monster.awakened_tree.json"
+    },
+    {
+      "id": "monster.axe_beak",
+      "name": "AXE BEAK",
+      "file": "docs/mm-2025/monsters/monster.axe_beak.json"
+    },
+    {
+      "id": "monster.azer_pyromancer",
+      "name": "AZER PYROMANCER",
+      "file": "docs/mm-2025/monsters/monster.azer_pyromancer.json"
+    },
+    {
+      "id": "monster.azer_sentinel",
+      "name": "AZER SENTINEL",
+      "file": "docs/mm-2025/monsters/monster.azer_sentinel.json"
+    },
+    {
+      "id": "monster.giant_axe_beak",
+      "name": "GIANT AXE BEAK",
+      "file": "docs/mm-2025/monsters/monster.giant_axe_beak.json"
+    }
+  ],
   "sourceRef": {
     "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
     "pages": [],

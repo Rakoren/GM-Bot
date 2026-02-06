@@ -1,0 +1,89 @@
+{
+  "id": "monster.azer_pyromancer",
+  "name": "AZER PYROMANCER",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Lawful Neutral",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Lawful Neutral",
+  "armor_class": 18,
+  "hit_points": 97,
+  "hit_dice": "13d8 + 39",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +4, Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 17",
+  "languages": "Primordial (Ignan)",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [
+    {
+      "name": "Fire Aura",
+      "text": "At the end of each of the azer's turns, each creature of the azer's choice in a 5-foot Emanation originating from the azer takes 11 (2d10) Fire damage unless the azer has the Incapacitated condition."
+    },
+    {
+      "name": "Illumination",
+      "text": "The azer sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The azer makes two Flame Burst attacks."
+    },
+    {
+      "name": "Flame Burst",
+      "text": "Melee or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft. Hit: 15 (2d10 + 4) Fire damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The azer casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 15): At Will: Elementalism, Mage Hand 1/Day:"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Hellish Rebuke (2/Day)",
+      "text": "The azer casts Hellish Rebuke in response to that spell's trigger, using the same spellcasting ability as Spellcasting. Our Terms of Service and Privacy Notice have recently been updated to provide greater clarity as to how disputes are handled and transparency regarding the collection and use of personal data. Please review them here: Terms of Service, Privacy Notice. By continuing to use the services, you agree to the new Terms. SUPPORT"
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +2 (12)\nHP 97 (13d8 + 39)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t14 \t+2 \t+2\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t18 \t+4 \t+7\nCHA \t13 \t+1 \t+1\nSkills Arcana +4, Perception +7\nImmunities Fire, Poison; Poisoned\nSenses Passive Perception 17\nLanguages Primordial (Ignan)\nCR 6 (XP 2,300; PB +3)\nTraits\nFire Aura. At the end of each of the azer’s turns, each creature of the azer’s\nchoice in a 5-foot Emanation originating from the azer takes 11 (2d10) Fire\ndamage unless the azer has the Incapacitated condition.\nIllumination. The azer sheds Bright Light in a 10-foot radius and Dim Light for\nan additional 10 feet.\nActions\nMultiattack. The azer makes two Flame Burst attacks.\nFlame Burst. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 120 ft.\nHit:\n15 (2d10 + 4) Fire damage.\nSpellcasting. The azer casts one of the following spells, requiring no Material\ncomponents and using Wisdom as the spellcasting ability (spell save DC 15):\nAt Will:\nElementalism,\nMage Hand\n1/Day:\nFireball\nReactions\nHellish Rebuke (2/Day). The azer casts\nHellish Rebuke in response to that\nspell’s trigger, using the same spellcasting ability as Spellcasting.\nMedium Elemental, Lawful Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

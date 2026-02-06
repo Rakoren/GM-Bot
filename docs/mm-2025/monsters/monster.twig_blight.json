@@ -1,0 +1,72 @@
+{
+  "id": "monster.twig_blight",
+  "name": "TWIG BLIGHT",
+  "status": "complete",
+  "size_type_alignment": "Small Plant, Neutral Evil",
+  "size": "Small",
+  "creature_type": "Plant",
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "hit_points": 7,
+  "hit_dice": "2d6",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 4,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 9",
+  "languages": "Understands Common but can’t speak",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The blight has Advantage on an attack roll against a creature if at least one of the blight's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. ARTIST BRIAN VALEZA"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +2 (12)\nHP 7 (2d6)\nSpeed 20 ft.\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t14 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t4 \t−3 \t−3\nWIS \t8 \t−1 \t−1\nCHA \t3 \t−4 \t−4\nSkills Stealth +4\nVulnerabilities Fire\nImmunities Deafened\nSenses Blindsight 60 ft.; Passive Perception 9\nLanguages Understands Common but can’t speak\nCR 1/8 (XP 25; PB +2)\nTraits\nPack Tactics. The blight has Advantage on an attack roll against a creature if\nat least one of the blight’s allies is within 5 feet of the creature and the ally\ndoesn’t have the Incapacitated condition.\nActions\nClaw. Melee Attack Roll: +4, reach 5 ft.\nHit: 4 (1d4 + 2) Slashing damage.\nSmall Plant, Neutral Evil\nARTIST BRIAN VALEZA\nNeedle Blight\nNeedle blights have vaguely bipedal forms, with gaunt, misshapen limbs. Whether standing unnaturally still or lurching with their awkward gaits, these\nblights can’t pass as either normal plants or woodland travelers. Once they spot foes, needle blights attack using their thorn-covered claws or by rapidly\ngrowing and flinging volleys of serrated, needlelike projectiles.\nVine Blight\nVine blights resemble humans wrapped in vines common to the areas in which they grow, from hairy ivy vines to flowering kudzu. They can cause plants to\nburst from the ground around themselves and entangle nearby foes.\nUnlike most other blights, vine blights can speak. They do so rarely, typically only to convey messages from their masters or to repeat the words of their\nvictims in rasping voices.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

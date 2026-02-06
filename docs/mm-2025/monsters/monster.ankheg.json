@@ -1,0 +1,76 @@
+{
+  "id": "monster.ankheg",
+  "name": "ANKHEG",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Unaligned",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 45,
+  "hit_dice": "6d10 + 12",
+  "speed": "30 ft., Burrow 10 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 11",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Tunneler",
+      "text": "The ankheg can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5 (with Advantage if the target is Grappled by the ankheg), reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 3 (1d6) Acid damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13)."
+    },
+    {
+      "name": "Acid Spray (Recharge 6)",
+      "text": "Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 14 (4d6) Acid damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +0 (10)\nHP 45 (6d10 + 12)\nSpeed 30 ft., Burrow 10 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t11 \t+0 \t+0\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t13 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nLarge Monstrosity, Unaligned\nArcanaloth\nYugoloth of Magical Manipulation\nHabitat: Planar (Lower Planes); Treasure: Arcana\nWhile all yugoloths are fiendish manifestations of wickedness and greed, arcanaloths bend\ntheir considerable intellects toward hoarding and exploiting secrets. They then deploy these\nsecrets to ensnare countless victims and lesser villains, beguiling foes with false promises\nand powerful magic.\nArcanaloths possess considerable spellcasting prowess and frequently disguise themselves\nwith magic. While they prefer to let magical servants or other yugoloths do their fighting for\nthem, arcanaloths can defend themselves with arcane might, banishing opponents into the\npages of their magic tomes.\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 11\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nTunneler. The ankheg can burrow through solid rock at half its Burrow Speed\nand leaves a 10-foot-diameter tunnel in its wake.\nActions\nBite. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the\nankheg), reach 5 ft.\nHit: 10 (2d6 + 3) Slashing damage plus 3 (1d6) Acid\ndamage. If the target is a Large or smaller creature, it has the Grappled\ncondition (escape DC 13).\nAcid Spray (Recharge 6). Dexterity Saving Throw: DC 12, each creature in\na 30-foot-long, 5-foot-wide Line.\nFailure: 14 (4d6) Acid damage.\nSuccess:\nHalf damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

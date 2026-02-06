@@ -1,0 +1,71 @@
+{
+  "id": "monster.ogrillon_ogre",
+  "name": "OGRILLON OGRE",
+  "status": "complete",
+  "size_type_alignment": "Large Giant, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Giant",
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "hit_points": 52,
+  "hit_dice": "7d10 + 14",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "Common, Giant",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Battleaxe",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
+    },
+    {
+      "name": "Javelin",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 6 (1d6 + 3) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +0 (10)\nHP 52 (7d10 + 14)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t10 \t+0 \t+0\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t9 \t−1 \t−1\nCHA \t10 \t+0 \t+0\nGear Battleaxe, Javelins (3)\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Common, Giant\nCR 1 (XP 200; PB +2)\nActions\nBattleaxe. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Slashing damage.\nJavelin. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft.\nHit: 6\n(1d6 + 3) Piercing damage.\nLarge Giant, Chaotic Evil\nOni are elusive entities that inhabit dark forests and other wildernesses. By\nshape-shifting into the form of an innocent or moving invisibly, oni encroach\non communities and lonely roads. They frequently harass people of faith,\ntesting the limits of their piousness, or torment selfish people, punishing\nthem for their wickedness. Wise communities often have guardian statues,\nannual rituals, or local superstitions meant to keep oni at bay. In rare cases,\nan oni might gradually befriend such communities and protect them from\nother threats for generations.\nOni torment villages that don’t pay them or other supernatural forces\nrespect. Roll on or choose a result from the Oni Troubles table to inspire how\nan oni menaces such communities.\nOni Troubles\n1d4 \tThe Oni Torments People By...\n1 \tCharming people to perform nasty tricks.\n2 Claiming a bridge, gate, shrine, or trail and trying to eat anyone\nwho comes near.\n3 \tLuring other monsters to the settlement.\n4 \tPlaying drums that keep everyone awake.\nOtyugh\nGarbage-Heap Gourmand",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (O) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

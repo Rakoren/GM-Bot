@@ -1,0 +1,84 @@
+{
+  "id": "monster.bone_devil",
+  "name": "BONE DEVIL",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Devil), Lawful Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "hit_points": 161,
+  "hit_dice": "17d10 + 68",
+  "speed": "40 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +7, Insight +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Infernal; telepathy 120 ft.",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The devil makes two Claw attacks and one Infernal Sting attack."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage."
+    },
+    {
+      "name": "Infernal Sting",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison damage, and the target has the Poisoned condition until the start of the devil's next turn. While Poisoned, the target can't regain Hit Points. Bone devils are just one of a thousand reasons never to make a deal with a devil, but they're a significant one. Break said deal, and it'll likely be one of these nightmares that drags you down to the Nine Hells. -SYLVIRA SAVIKAS, CANDLEKEEP SAGE"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +7 (17)\nHP 161 (17d10 + 68)\nSpeed 40 ft., Fly 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+8\nDEX \t16 \t+3 \t+3\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t13 \t+1 \t+5\nWIS \t14 \t+2 \t+6\nCHA \t16 \t+3 \t+7\nSkills Deception +7, Insight +6\nResistances Cold\nLarge Fiend (Devil), Lawful Evil\nBone Naga\nDeathless Serpentine Mind Bender\nHabitat: Underdark; Treasure: Relics\nNagas are immortal but not invincible, and powerful magic can end their lives. Bone nagas are skeletal terrors raised from the remains of magically slain\nnagas or nagas that were killed but that hadn’t yet rejuvenated. They are granted unlife through rituals practiced by cultists, yuan-ti, and morbid spirit\nnagas. These Undead nagas possess magical abilities similar to those they had in life, along with an eerie gaze that can beguile other creatures.\nBone nagas typically obey those who resurrected them, serving their creators as tireless guards and sharing the lore they collected in life. Undeath disrupts\nthe perfect memory bone nagas enjoyed while alive, leaving them with gaps in their memories or details scrambled into puzzle-like jumbles.\nIn rare cases, bone nagas continue to pursue the goals they had while alive instead of serving other creatures. Most free-willed bone nagas are evil beings\nraised from spirit naga remains, but in unusual instances, bone nagas created from guardian nagas continue good, albeit confused, existences.\nImmunities Fire, Poison; Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive\nPerception 12\nLanguages Infernal; telepathy 120 ft.\nCR 9 (XP 5,000; PB +4)\nTraits\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body\ndisappears in sulfurous smoke, and it gains a new body instantly, reviving with\nall its Hit Points somewhere in the Nine Hells.\nMagic Resistance. The devil has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The devil makes two Claw attacks and one Infernal Sting attack.\nClaw. Melee Attack Roll: +8, reach 10 ft.\nHit: 13 (2d8 + 4) Slashing damage.\nInfernal Sting. Melee Attack Roll: +8, reach 10 ft.\nHit: 15 (2d10 + 4) Piercing\ndamage plus 18 (4d8) Poison damage, and the target has the Poisoned\ncondition until the start of the devil’s next turn. While Poisoned, the target can’t\nregain Hit Points.\nBone devils are just one of a thousand reasons never to make a\ndeal with a devil, but they’re a significant one. Break said deal,\nand it’ll likely be one of these nightmares that drags you down\nto the Nine Hells.\n—SYLVIRA SAVIKAS, CANDLEKEEP SAGE\nBrass Dragons\nDragons of Lore and Rapport\nHabitat: Desert; Treasure: Arcana\nGregarious and outgoing, brass dragons relish sharing knowledge and stories. Although these metallic dragons favor arid lands, they cheerfully journey\nconsiderable distances to visit friendly creatures, pass on what they’ve learned, and collect news. Though good natured, brass dragons don’t shirk from\ncombat when necessary, thwarting foes with magical sleep and searing them with flame.\nBrass dragons favor warm climes, particularly steppes and rocky or sandy deserts, and they usually dwell near prominent crossroads or oases that\nregularly draw visitors. They enjoy adopting Humanoid forms, disguising themselves as traveling merchants, scholars, storytellers, or anyone else invested\nin others’ stories.\nBrass dragons collect eclectic objects. While such items might seem like\nknickknacks, each is part of a story—perhaps a nostalgic memento or evidence of\na tale passed into myth. An old friend’s hat and the crown of the last ruler of a\nforgotten dynasty could occupy the same shelf in a brass dragon’s hoard.\nBrass Dragon Wyrmling\nBrass dragon wyrmlings are relentlessly curious. These dragons eagerly engage\napproachable creatures and are quick to explore any place that has an interesting\nstory. Once they hear tales of adventure, many are keen to start their own quests.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

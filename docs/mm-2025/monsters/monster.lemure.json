@@ -1,0 +1,80 @@
+{
+  "id": "monster.lemure",
+  "name": "LEMURE",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Devil), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 9,
+  "hit_points": 9,
+  "hit_dice": "2d8",
+  "speed": "20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Understands Infernal but can’t speak",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Hellish Restoration",
+      "text": "If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a"
+    },
+    {
+      "name": "Bless spell or its remains are sprinkled with Holy Water",
+      "text": "Swarm of Lemures"
+    },
+    {
+      "name": "When devils drive hosts of lemures into close proximity or when lemures compress into a single mass, a swarm forms and adopts a unified mind",
+      "text": "Lich"
+    }
+  ],
+  "actions": [
+    {
+      "name": "Vile Slime",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 9 \tInitiative −3 (7)\nHP 9 (2d8)\nSpeed 20 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t5 \t−3 \t−3\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t11 \t+0 \t+0\nCHA \t3 \t−4 \t−4\nResistances Cold\nImmunities Fire, Poison; Charmed, Frightened, Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive\nPerception 10\nLanguages Understands Infernal but can’t speak\nCR 0 (XP 10; PB +2)\nTraits\nHellish Restoration. If the lemure dies in the Nine Hells, it revives with all its\nHit Points in 1d10 days unless it is killed by a creature under the effects of a\nBless spell or its remains are sprinkled with Holy Water.\nMedium Fiend (Devil), Lawful Evil\nSwarm of Lemures\nWhen devils drive hosts of lemures into close proximity or when lemures compress into a single mass, a swarm forms and adopts a unified mind.\nLich\nDeathless Master of Magic\nHabitat: Any; Treasure: Arcana\nActions\nVile Slime. Melee Attack Roll: +2, reach 5 ft.\nHit: 2 (1d4) Poison damage.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (L) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

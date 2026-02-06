@@ -1,0 +1,76 @@
+{
+  "id": "monster.ancient_red_dragon",
+  "name": "ANCIENT RED DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Chromatic), Chaotic Evil",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 22,
+  "hit_points": 507,
+  "hit_dice": "26d20 + 234",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 30,
+      "mod": "+10"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 29,
+      "mod": "+9"
+    },
+    "INT": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 27,
+      "mod": "+8"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +16, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 26",
+  "languages": "Common, Draconic",
+  "cr": "24 (XP 62,000, or 75,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Scorching Ray (level 3 version)."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +17, reach 15 ft. Hit: 19 (2d8 + 10) Slashing damage plus 10 (3d6) Fire damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 22 \tInitiative +14 (24)\nHP 507 (26d20 + 234)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t30 \t+10 \t+10\nDEX \t10 \t+0 \t+7\nCON \t29 \t+9 \t+9\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t15 \t+2 \t+9\nCHA \t27 \t+8 \t+8\nSkills Perception +16, Stealth +7\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 26\nLanguages Common, Draconic\nCR 24 (XP 62,000, or 75,000 in lair; PB +7)\nTraits\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of Spellcasting to cast\nScorching Ray (level 3 version).\nRend. Melee Attack Roll: +17, reach 15 ft.\nHit: 19 (2d8 + 10) Slashing damage\nplus 10 (3d6) Fire damage.\nGargantuan Dragon (Chromatic), Chaotic Evil\nRemorhazes\nSuper-Heated Arctic Arthropods\nHabitat: Arctic; Treasure: None\nRemorhazes are centipede-like terrors that burrow through snow and ice to ambush smaller creatures that trespass in their frozen territories.\nYoung Remorhaz\nYoung remorhazes scorch and consume any creatures they can chase down and overwhelm.\nRemorhaz\nFull-grown remorhazes are single-minded ambush predators. They attempt to bite prey and trap it against their searing bodies, then swallow their meal\nwhole. Remorhazes eat as much as they can, since they might go months without feeding.\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 24, each creature in a\n90-foot Cone.\nFailure: 91 (26d6) Fire damage.\nSuccess: Half damage.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 23, +15 to hit with spell attacks):\nAt Will:\nCommand (level 2 version),\nDetect Magic,\nScorching Ray (level\n3 version)\n1/Day Each:\nFireball (level 6 version),\nScrying\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nCommanding Presence. The dragon uses Spellcasting to cast\nCommand\n(level 2 version). The dragon can’t take this action again until the start of its\nnext turn.\nFiery Rays. The dragon uses Spellcasting to cast\nScorching Ray (level 3\nversion). The dragon can’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

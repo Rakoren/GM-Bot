@@ -1,0 +1,62 @@
+{
+  "id": "animal.jackal",
+  "name": "JACKAL",
+  "status": "complete",
+  "size_type_alignment": "Small Beast, Unaligned",
+  "size": "Small",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 3,
+  "hit_dice": "1d6",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 90 ft.; Passive Perception 15",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2) \tActions",
+  "traits": [],
+  "actions": [],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 3 (1d6)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t8 \t−1 \t−1\nDEX \t15 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSkills Perception +5, Stealth +4\nSenses Darkvision 90 ft.; Passive Perception 15\nLanguages None\nSmall Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

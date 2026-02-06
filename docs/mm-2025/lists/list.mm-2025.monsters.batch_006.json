@@ -1,0 +1,101 @@
+{
+  "id": "list.mm-2025.monsters.batch_006",
+  "name": "MM 2025 Monsters Batch 6",
+  "entries": [
+    {
+      "id": "monster.dao",
+      "name": "DAO",
+      "file": "docs/mm-2025/monsters/monster.dao.json"
+    },
+    {
+      "id": "monster.darkmantle",
+      "name": "DARKMANTLE",
+      "file": "docs/mm-2025/monsters/monster.darkmantle.json"
+    },
+    {
+      "id": "monster.death_dog",
+      "name": "DEATH DOG",
+      "file": "docs/mm-2025/monsters/monster.death_dog.json"
+    },
+    {
+      "id": "monster.death_knight",
+      "name": "DEATH KNIGHT",
+      "file": "docs/mm-2025/monsters/monster.death_knight.json"
+    },
+    {
+      "id": "monster.death_knight_aspirant",
+      "name": "DEATH KNIGHT ASPIRANT",
+      "file": "docs/mm-2025/monsters/monster.death_knight_aspirant.json"
+    },
+    {
+      "id": "monster.death_tyrant",
+      "name": "DEATH TYRANT",
+      "file": "docs/mm-2025/monsters/monster.death_tyrant.json"
+    },
+    {
+      "id": "monster.demilich",
+      "name": "DEMILICH",
+      "file": "docs/mm-2025/monsters/monster.demilich.json"
+    },
+    {
+      "id": "monster.deva",
+      "name": "DEVA",
+      "file": "docs/mm-2025/monsters/monster.deva.json"
+    },
+    {
+      "id": "monster.displacer_beast",
+      "name": "DISPLACER BEAST",
+      "file": "docs/mm-2025/monsters/monster.displacer_beast.json"
+    },
+    {
+      "id": "monster.djinni",
+      "name": "DJINNI",
+      "file": "docs/mm-2025/monsters/monster.djinni.json"
+    },
+    {
+      "id": "monster.doppelganger",
+      "name": "DOPPELGANGER",
+      "file": "docs/mm-2025/monsters/monster.doppelganger.json"
+    },
+    {
+      "id": "monster.dracolich",
+      "name": "DRACOLICH",
+      "file": "docs/mm-2025/monsters/monster.dracolich.json"
+    },
+    {
+      "id": "monster.dragon_turtle",
+      "name": "DRAGON TURTLE",
+      "file": "docs/mm-2025/monsters/monster.dragon_turtle.json"
+    },
+    {
+      "id": "monster.dretch",
+      "name": "DRETCH",
+      "file": "docs/mm-2025/monsters/monster.dretch.json"
+    },
+    {
+      "id": "monster.drider",
+      "name": "DRIDER",
+      "file": "docs/mm-2025/monsters/monster.drider.json"
+    },
+    {
+      "id": "monster.druid",
+      "name": "DRUID",
+      "file": "docs/mm-2025/monsters/monster.druid.json"
+    },
+    {
+      "id": "monster.dryad",
+      "name": "DRYAD",
+      "file": "docs/mm-2025/monsters/monster.dryad.json"
+    },
+    {
+      "id": "monster.swarm_of_dretches",
+      "name": "SWARM OF DRETCHES",
+      "file": "docs/mm-2025/monsters/monster.swarm_of_dretches.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

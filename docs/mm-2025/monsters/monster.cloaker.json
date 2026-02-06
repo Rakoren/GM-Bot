@@ -1,0 +1,97 @@
+{
+  "id": "monster.cloaker",
+  "name": "CLOAKER",
+  "status": "complete",
+  "size_type_alignment": "Large Aberration, Chaotic Neutral",
+  "size": "Large",
+  "creature_type": "Aberration",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "hit_points": 91,
+  "hit_dice": "14d10 + 14",
+  "speed": "10 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 12",
+  "languages": "Deep Speech, Undercommon",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [
+    {
+      "name": "Light Sensitivity",
+      "text": "While in Bright Light, the cloaker has Disadvantage on attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The cloaker makes one Attach attack and two Tail attacks."
+    },
+    {
+      "name": "Attach",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can't make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage."
+    },
+    {
+      "name": "The cloaker can detach itself by spending 5 feet of movement",
+      "text": "The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check."
+    },
+    {
+      "name": "Tail",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Moan",
+      "text": "Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the Frightened condition until the end of the cloaker's next turn. Success: The target is immune to this cloaker's Moan for the next 24 hours."
+    },
+    {
+      "name": "Phantasms (Recharge after a Short or Long Rest)",
+      "text": "The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in"
+    },
+    {
+      "name": "Bright Light",
+      "text": ""
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +5 (15)\nHP 91 (14d10 + 14)\nSpeed 10 ft., Fly 40 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t15 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t7 \t−2 \t−2\nSkills Stealth +5\nImmunities Frightened\nSenses Darkvision 120 ft.; Passive Perception 12\nLanguages Deep Speech, Undercommon\nCR 8 (XP 3,900; PB +3)\nTraits\nLight Sensitivity. While in Bright Light, the cloaker has Disadvantage on\nattack rolls.\nActions\nMultiattack. The cloaker makes one Attach attack and two Tail attacks.\nAttach. Melee Attack Roll: +6, reach 5 ft.\nHit: 13 (3d6 + 3) Piercing damage. If\nthe target is a Large or smaller creature, the cloaker attaches to it. While the\ncloaker is attached, the target has the Blinded condition, and the cloaker can’t\nmake Attach attacks against other targets. In addition, the cloaker halves\nthe damage it takes (round down), and the target takes the same amount\nof damage.\nThe cloaker can detach itself by spending 5 feet of movement. The target or a\ncreature within 5 feet of it can take an action to try to detach the cloaker, doing\nso by succeeding on a DC 14 Strength (Athletics) check.\nTail. Melee Attack Roll: +6, reach 10 ft.\nHit: 8 (1d10 + 3) Slashing damage.\nBonus Actions\nMoan. Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation\noriginating from the cloaker.\nFailure: The target has the Frightened condition\nuntil the end of the cloaker’s next turn.\nSuccess: The target is immune to this\ncloaker’s Moan for the next 24 hours.\nPhantasms (Recharge after a Short or Long Rest). The cloaker casts the\nMirror\nImage spell, requiring no spell components and using Wisdom as the\nspellcasting ability. The spell ends early if the cloaker starts or ends its turn in\nBright Light.\nLarge Aberration, Chaotic Neutral\nGiant of the Loftiest Heights\nHabitat: Mountain; Treasure: Arcana\nCloud giants use the power of the skies to observe and subtly influence the world. These giants resemble humans with hair ranging from silver to blue and\nwith skin in cloudlike shades from stark white to twilight hues. Curved canines grow in their upper jaws, extending past their lower lips. In battle, they attack\nwith weapons wreathed in storm clouds and throw roaring thunderheads.\nMost cloud giants inhabit citadels crowning tremendous mountains or magical palaces that drift amid the clouds. Many of these giants believe they\npossess similarly lofty status or purpose. Some view themselves as godlike beings who can manipulate and steal from terrestrial beings with impunity.\nOthers claim their long lives and place among the clouds grant them unique perspectives, so they chronicle what they witness in the world below without\ninterfering. In either case, cloud giants often possess fabulous magical treasures, either claimed from across the world or created by (and gigantically sized\nfor) themselves.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

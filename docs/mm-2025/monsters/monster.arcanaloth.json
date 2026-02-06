@@ -1,0 +1,134 @@
+{
+  "id": "monster.arcanaloth",
+  "name": "ARCANALOTH",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Yugoloth), Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Yugoloth)",
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "hit_points": 175,
+  "hit_dice": "27d8 + 54",
+  "speed": "30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +9, Deception +7, Insight +7, Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 120 ft.; Passive Perception 17",
+  "languages": "All; telepathy 120 ft.",
+  "cr": "12 (XP 8,400; PB +4)",
+  "traits": [
+    {
+      "name": "Fiendish Restoration",
+      "text": "If the arcanaloth dies outside Gehenna, its body dissolves into ichor, and it gains a new body instantly and revives with all its"
+    },
+    {
+      "name": "Hit Points in Gehenna",
+      "text": ""
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The arcanaloth has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Soul Tome",
+      "text": "The arcanaloth has a magic tome. While holding or carrying the tome, the arcanaloth can use its Banishing Claw action. The tome has AC 17; HP 35; and Immunity to Necrotic, Poison, and Psychic damage. The tome regains all its Hit Points at the end of every turn, but it turns to dust if reduced to 0 Hit Points or when the arcanaloth dies. If the tome is destroyed, the arcanaloth can create a new one when it finishes a Short or Long Rest."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The arcanaloth makes three Fiendish Burst attacks. It can replace one attack with a Banishing Claw attack."
+    },
+    {
+      "name": "Banishing Claw (Requires Soul Tome)",
+      "text": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (2d4 + 5) Slashing damage plus 19 (3d12) Psychic damage. If the target is a creature, it is subjected to the following effect. Charisma Saving Throw: DC 17. Failure: The target is trapped in a demiplane inside the Soul Tome. While trapped there, the target has the Incapacitated condition. At the end of each of its turns, the target repeats the save, escaping the tome on a success. When the target escapes, it appears in the space it left or, if that space is occupied, the nearest unoccupied space. If the target fails three of these saves while in the demiplane, it becomes bound to the tome and can escape only if the tome is reduced to 0 Hit Points."
+    },
+    {
+      "name": "Fiendish Burst",
+      "text": "Melee or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft. Hit: 31 (4d12 + 5) Necrotic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The arcanaloth casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 17): At Will: Alter Self, Detect Magic, Identify, Mage Hand, Prestidigitation 1/Day Each: Contact Other Plane, Detect Thoughts, Dimension Door, Mind Blank Arch-hag Hag of Forbidden Secrets and Magical Malice"
+    },
+    {
+      "name": "Immortal and unpredictable, arch-hags hoard secrets and strike magical bargains, altering fate to indulge their fickle whims",
+      "text": "These timeless schemers pursue the secrets of the multiverse and work strange magic in pursuit of their inscrutable goals."
+    },
+    {
+      "name": "Arch-hags are unpredictable, self-interested, and greedy, with bizarre fascinations and affectations",
+      "text": "Nevertheless, they often make deals to further their plots. These hags are fonts of secret knowledge, particularly lore regarding forbidden magic and multiversal secrets. They might share their knowledge, but their secrets always have a price. In trade for their secrets, arch-hags might request peculiar errands, valuable magic items, or preternatural currency, like one's memories, a year of one's life, or the ability to cry."
+    },
+    {
+      "name": "Most arch-hags avoid battle, but if forced to fight, they unleash dangerous magic, such as spectral claws, arcing lightning, and mind-bending spells",
+      "text": "An arch-hag can curse other magic-users, confounding the spellcasters' incantations and forcing the spellcasters to say the opposite of what they mean. Even if an arch-hag is brought low, its preparations allow it to magically slip away and begin plotting its revenge."
+    },
+    {
+      "name": "Every arch-hag has a unique weakness tied to a fateful encounter the hag had in the past or something that embodies the antithesis of the hag's magic",
+      "text": "A hag goes out of its way to keep this vulnerability secret. Although an arch-hag isn't physically harmed by its weakness, it can be destroyed only while its weakness is nearby. Roll on or choose a result from the Arch-hag Anathemas table to inspire an arch-hag's weakness. Arch-hag Anathemas 1d10 \tThe Arch-hag's Weakness Is... 1 \tThe bones of the arch-hag's first love. 2 \tA devil's tear."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Teleport",
+      "text": "The arcanaloth teleports up to 30 feet to an unoccupied space it can see."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Counterspell",
+      "text": "The arcanaloth casts Counterspell in response to that spell's trigger, using the same spellcasting ability as Spellcasting. 1d10 \tThe Arch-hag's Weakness Is... 3 \tAn egg with a miniature castle inside. 4 \tA flower that blooms only when time stops. 5 \tA gift from the hag's twin. 6 \tThe multiverse's worst pun. 7 \tOne of the hag's missing teeth. 8 \tSnow from the top of Mount Celestia. 9 \tA star pulled from the sky. 10 \tA thread from the Lady of Pain's robes. Arch-hag Lairs Each arch-hag creates a magical home, such as a hidden demiplane, a mansion atop a storm cloud, or-in the case of the arch-hag Baba Yaga-a hut atop giant chicken legs. The interiors of these lairs frequently change or exhibit bewildering features. The region containing an arch-hag's lair is altered by its presence, creating the following effects: Lapsus Linguae. Creatures (excluding the hag and its allies) within 1 mile of the lair subtract 1d10 from any ability checks they make when they take the"
+    },
+    {
+      "name": "Influence action",
+      "text": ""
+    },
+    {
+      "name": "Meddlesome Magic",
+      "text": "Whenever a creature other than the hag or its allies finishes a Long Rest while within 1 mile of the lair, the next time that creature casts a spell using a spell slot, it also casts Confusion centered on itself. The spell uses the creature's spellcasting ability and doesn't require Concentration."
+    },
+    {
+      "name": "If the arch-hag is destroyed or moves its lair elsewhere, these effects end immediately",
+      "text": "Heh! People who know too much grow old before their time. Ask me your questions, but be certain that every secret has its cost. -BABA YAGA, MOTHER OF WITCHES"
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +5 (15)\nHP 175 (27d8 + 54)\nSpeed 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t12 \t+1 \t+5\nCON \t14 \t+2 \t+6\nMOD \tSAVE\nINT \t20 \t+5 \t+9\nWIS \t16 \t+3 \t+7\nCHA \t17 \t+3 \t+3\nSkills Arcana +9, Deception +7, Insight +7, Perception +7\nResistances Cold, Fire, Lightning\nImmunities Acid, Poison; Charmed, Poisoned\nSenses Truesight 120 ft.; Passive Perception 17\nLanguages All; telepathy 120 ft.\nCR 12 (XP 8,400; PB +4)\nTraits\nFiendish Restoration. If the arcanaloth dies outside Gehenna, its body\ndissolves into ichor, and it gains a new body instantly and revives with all its\nHit Points in Gehenna.\nMagic Resistance. The arcanaloth has Advantage on saving throws against\nspells and other magical effects.\nSoul Tome. The arcanaloth has a magic tome. While holding or carrying the\ntome, the arcanaloth can use its Banishing Claw action.\nThe tome has AC 17; HP 35; and Immunity to Necrotic, Poison, and Psychic\ndamage. The tome regains all its Hit Points at the end of every turn, but it turns\nto dust if reduced to 0 Hit Points or when the arcanaloth dies. If the tome is\ndestroyed, the arcanaloth can create a new one when it finishes a Short or\nLong Rest.\nActions\nMultiattack. The arcanaloth makes three Fiendish Burst attacks. It can replace\none attack with a Banishing Claw attack.\nBanishing Claw (Requires Soul Tome). Melee Attack Roll: +9, reach 5 ft.\nHit: 10\n(2d4 + 5) Slashing damage plus 19 (3d12) Psychic damage. If the target is a\ncreature, it is subjected to the following effect.\nCharisma Saving Throw: DC 17.\nFailure: The target is trapped in a demiplane inside the Soul Tome. While\ntrapped there, the target has the Incapacitated condition. At the end of each of\nits turns, the target repeats the save, escaping the tome on a success. When\nthe target escapes, it appears in the space it left or, if that space is occupied,\nthe nearest unoccupied space.\nIf the target fails three of these saves while in the demiplane, it becomes\nbound to the tome and can escape only if the tome is reduced to 0 Hit Points.\nFiendish Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft.\nHit:\n31 (4d12 + 5) Necrotic damage.\nSpellcasting. The arcanaloth casts one of the following spells, requiring no\nMaterial components and using Intelligence as the spellcasting ability (spell\nsave DC 17):\nAt Will:\nAlter Self,\nDetect Magic,\nIdentify,\nMage Hand,\nPrestidigitation\n1/Day Each:\nContact Other Plane,\nDetect Thoughts,\nDimension Door,\nMind Blank\nMedium Fiend (Yugoloth), Neutral Evil\nArch-hag\nHag of Forbidden Secrets and Magical Malice\nHabitat: Any; Treasure: Arcana\nImmortal and unpredictable, arch-hags hoard secrets and strike magical bargains, altering fate to indulge their fickle whims. These timeless schemers\npursue the secrets of the multiverse and work strange magic in pursuit of their inscrutable goals.\nArch-hags are unpredictable, self-interested, and greedy, with bizarre fascinations and affectations. Nevertheless, they often make deals to further their\nplots. These hags are fonts of secret knowledge, particularly lore regarding forbidden magic and multiversal secrets. They might share their knowledge, but\ntheir secrets always have a price. In trade for their secrets, arch-hags might request peculiar errands, valuable magic items, or preternatural currency, like\none’s memories, a year of one’s life, or the ability to cry.\nMost arch-hags avoid battle, but if forced to fight, they unleash dangerous magic, such as spectral claws, arcing lightning, and mind-bending spells. An\narch-hag can curse other magic-users, confounding the spellcasters’ incantations and forcing the spellcasters to say the opposite of what they mean. Even\nif an arch-hag is brought low, its preparations allow it to magically slip away and begin plotting its revenge.\nEvery arch-hag has a unique weakness tied to a fateful encounter the hag had in the past or something that embodies the antithesis of the hag’s magic. A\nhag goes out of its way to keep this vulnerability secret. Although an arch-hag isn’t physically harmed by its weakness, it can be destroyed only while its\nweakness is nearby. Roll on or choose a result from the Arch-hag Anathemas table to inspire an arch-hag’s weakness.\nArch-hag Anathemas\n1d10 \tThe Arch-hag’s Weakness Is...\n1 \tThe bones of the arch-hag’s first love.\n2 \tA devil’s tear.\nBonus Actions\nTeleport. The arcanaloth teleports up to 30 feet to an unoccupied space it\ncan see.\nReactions\nCounterspell. The arcanaloth casts\nCounterspell in response to that spell’s\ntrigger, using the same spellcasting ability as Spellcasting.\n1d10 \tThe Arch-hag’s Weakness Is...\n3 \tAn egg with a miniature castle inside.\n4 \tA flower that blooms only when time stops.\n5 \tA gift from the hag’s twin.\n6 \tThe multiverse’s worst pun.\n7 \tOne of the hag’s missing teeth.\n8 \tSnow from the top of Mount Celestia.\n9 \tA star pulled from the sky.\n10 \tA thread from the Lady of Pain’s robes.\nArch-hag Lairs\nEach arch-hag creates a magical home, such as a hidden demiplane, a mansion atop a storm cloud, or—in the case of the arch-hag Baba Yaga—a hut atop\ngiant chicken legs. The interiors of these lairs frequently change or exhibit bewildering features.\nThe region containing an arch-hag’s lair is altered by its presence, creating the following effects:\nLapsus Linguae. Creatures (excluding the hag and its allies) within 1 mile of the lair subtract 1d10 from any ability checks they make when they take the\nInfluence action.\nMeddlesome Magic. Whenever a creature other than the hag or its allies finishes a Long Rest while within 1 mile of the lair, the next time that creature casts\na spell using a spell slot, it also casts\nConfusion centered on itself. The spell uses the creature’s spellcasting ability and doesn’t require Concentration.\nIf the arch-hag is destroyed or moves its lair elsewhere, these effects end immediately.\nHeh! People who know too much grow old before their time. Ask\nme your questions, but be certain that every secret has its cost.\n—BABA YAGA, MOTHER OF WITCHES",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

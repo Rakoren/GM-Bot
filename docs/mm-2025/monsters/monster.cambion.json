@@ -1,0 +1,79 @@
+{
+  "id": "monster.cambion",
+  "name": "CAMBION",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Neutral Evil",
+  "armor_class": 19,
+  "hit_points": 105,
+  "hit_dice": "14d8 + 42",
+  "speed": "30 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +6, Perception +4, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 14",
+  "languages": "Abyssal, Common, Infernal",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The cambion makes two attacks, using Claw or Fire Ray in any combination."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 7 (2d6) Fire damage."
+    },
+    {
+      "name": "Fire Ray",
+      "text": "Ranged Attack Roll: +7, range 120 ft. Hit: 13 (3d6 + 3) Fire damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The cambion casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 14): 2/Day Each: Alter Self,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +4 (14)\nHP 105 (14d8 + 42)\nSpeed 30 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+7\nDEX \t18 \t+4 \t+4\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t14 \t+2 \t+5\nWIS \t12 \t+1 \t+1\nCHA \t16 \t+3 \t+6\nSkills Deception +6, Perception +4, Stealth +7\nResistances Cold, Fire, Lightning, Poison\nImmunities Poisoned\nSenses Darkvision 120 ft.; Passive Perception 14\nLanguages Abyssal, Common, Infernal\nCR 5 (XP 1,800; PB +3)\nActions\nMultiattack. The cambion makes two attacks, using Claw or Fire Ray in\nany combination.\nClaw. Melee Attack Roll: +7, reach 5 ft.\nHit: 8 (1d8 + 4) Slashing damage plus 7\n(2d6) Fire damage.\nFire Ray. Ranged Attack Roll: +7, range 120 ft.\nHit: 13 (3d6 + 3) Fire damage.\nSpellcasting. The cambion casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 14):\n2/Day Each:\nAlter Self,\nCommand (level 3 version),\nDetect Magic\n1/Day Each:\nDominate Person (level 8 version),\nPlane Shift (self only)\nMedium Fiend, Neutral Evil\nRavenous corpse eaters, carrion crawlers gravitate toward places of slaughter and decay. In such charnel environs, they feast on the dead with no qualms\nabout their meals’ origins or freshness.\nCarrion crawlers have segmented bodies like gigantic cutworms. From beneath their multipart maws protrude eight thin, lashing tentacles. Creatures struck\nby these tentacles risk being paralyzed and consumed.\nCarrion crawlers scour sewers, battlefields, necropolises, and fetid wildernesses for corpses, clinging to ceilings to ambush smaller prey and to avoid\ncompeting hunters. They’re drawn to light and the scent of blood, recognizing them as signs of food.\nThese scavengers avoid ingesting inorganic material. Crypts with funeral armors sucked clean of their corpses and eerily pristine catacombs are signs of\ninfestation by carrion crawlers.\nCentaurs\nDefenders of the Feywild\nHabitat: Forest, Grassland, Planar (Feywild); Treasure: Armaments, Individual\nCentaurs are defenders of forests, plains, and sites of primeval power. With upper\nbodies like humans’ and the lower bodies of horses, centaurs charge into battle against\nthose who would harm their allies.\nCentaur Warden\nCentaur wardens often lead groups of centaur troopers and act as intermediaries\nbetween Fey creatures and trespassers into their territories.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

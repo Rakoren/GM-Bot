@@ -1,0 +1,72 @@
+{
+  "id": "animal.giant_rat",
+  "name": "GIANT RAT",
+  "status": "complete",
+  "size_type_alignment": "Small Beast, Unaligned",
+  "size": "Small",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 7,
+  "hit_dice": "2d6",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 7 (2d6)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t7 \t−2 \t−2\nDEX \t16 \t+3 \t+5\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nSkills Perception +2\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages None\nCR 1/8 (XP 25; PB +2)\nTraits\nPack Tactics. The rat has Advantage on an attack roll against a creature if at\nleast one of the rat’s allies is within 5 feet of the creature and the ally doesn’t\nhave the Incapacitated condition.\nActions\nBite. Melee Attack Roll: +5, reach 5 feet.\nHit: 5 (1d4 + 3) Piercing damage.\nSmall Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

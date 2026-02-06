@@ -1,0 +1,71 @@
+{
+  "id": "monster.scarecrow",
+  "name": "SCARECROW",
+  "status": "complete",
+  "size_type_alignment": "Medium Construct, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Construct",
+  "alignment": "Chaotic Evil",
+  "armor_class": 11,
+  "hit_points": 27,
+  "hit_dice": "6d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common plus one other language",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Fearsome Claw",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing damage, and the target has the Frightened condition until the end of the scarecrow's next turn."
+    },
+    {
+      "name": "Terrifying Glare",
+      "text": "Wisdom Saving Throw: DC 11, one creature the scarecrow can see within 30 feet. Failure: The target has the Frightened condition until the end of the scarecrow's next turn. While Frightened, the target has the Paralyzed condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +3 (13)\nHP 27 (6d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t13 \t+1 \t+1\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t13 \t+1 \t+1\nVulnerabilities Fire\nImmunities Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified,\nPoisoned, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common plus one other language\nCR 1 (XP 200; PB +2)\nActions\nFearsome Claw. Melee Attack Roll: +3, reach 5 ft.\nHit: 6 (2d4 + 1) Slashing\ndamage, and the target has the Frightened condition until the end of the\nscarecrow’s next turn.\nTerrifying Glare. Wisdom Saving Throw: DC 11, one creature the scarecrow can\nsee within 30 feet.\nFailure: The target has the Frightened condition until the\nend of the scarecrow’s next turn. While Frightened, the target has the\nParalyzed condition.\nMedium Construct, Chaotic Evil\nScouts are warriors of the wilderness, trained in hunting and tracking. They might be explorers or trappers, or they could perform more martial roles as\narchers, bounty hunters, or outriders.\nScout\nScouts are keen archers and acutely aware of their surroundings. They often know several regions particularly well and are familiar with local creatures,\nlandmarks, and perils.\nScout Captain\nScout captains are experienced explorers and sharpshooters. They might lead bands of other scouts or disappear into the wilds alone for months at a time.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

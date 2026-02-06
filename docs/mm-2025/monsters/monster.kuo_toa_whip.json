@@ -1,0 +1,85 @@
+{
+  "id": "monster.kuo_toa_whip",
+  "name": "KUO-TOA WHIP",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "alignment": "Neutral Evil",
+  "armor_class": 11,
+  "hit_points": 45,
+  "hit_dice": "7d8 + 14",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6, Religion +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft., Truesight 30 ft.; Passive Perception 16",
+  "languages": "Undercommon",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The kuo-toa can breathe air and water."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the kuo-toa has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pincer Staff",
+      "text": "Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). Until the grapple ends, the kuo-toa can't make Pincer Staff attacks."
+    },
+    {
+      "name": "Conjure Slimy Glob",
+      "text": "Ranged Attack Roll: +4, range 60 ft. Hit: 9 (3d4 + 2) Acid damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shield of Faith (2/Day)",
+      "text": "The kuo-toa casts Shield of Faith, using Wisdom as the spellcasting ability. A KUO-TOA WHIP AND KUO-TOA"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +0 (10)\nHP 45 (7d8 + 14)\nSpeed 30 ft., Swim 30 ft.\nMedium Aberration, Neutral Evil\nKuo-toa Monitor\nKuo-toa monitors control the day-to-day life of weaker kuo-toa, directing their work and worship. They also train beasts or monsters in the kuo-toa’s service\n—such as chuuls or giant crabs—and command them in battle. Archpriests bless monitors with the power to control their underlings and to subdue foes\nwith electricity channeled through their bizarre whips.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t10 \t+0 \t+0\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t11 \t+0 \t+0\nSkills Perception +6, Religion +3\nSenses Darkvision 120 ft., Truesight 30 ft.; Passive Perception 16\nLanguages Undercommon\nCR 1 (XP 200; PB +2)\nTraits\nAmphibious. The kuo-toa can breathe air and water.\nSunlight Sensitivity. While in sunlight, the kuo-toa has Disadvantage on ability\nchecks and attack rolls.\nActions\nPincer Staff. Melee Attack Roll: +4, reach 10 ft.\nHit: 9 (2d6 + 2) Piercing\ndamage. If the target is a Medium or smaller creature, it has the Grappled\ncondition (escape DC 12). Until the grapple ends, the kuo-toa can’t make Pincer\nStaff attacks.\nConjure Slimy Glob. Ranged Attack Roll: +4, range 60 ft.\nHit: 9 (3d4 + 2)\nAcid damage.\nBonus Actions\nShield of Faith (2/Day). The kuo-toa casts\nShield of Faith, using Wisdom as the\nspellcasting ability.\nA KUO-TOA WHIP AND KUO-TOA MONITOR LEAD A MIDNIGHT RAID",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

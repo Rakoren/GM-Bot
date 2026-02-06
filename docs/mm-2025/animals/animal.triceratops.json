@@ -1,0 +1,71 @@
+{
+  "id": "animal.triceratops",
+  "name": "TRICERATOPS",
+  "status": "complete",
+  "size_type_alignment": "Huge Beast (Dinosaur), Unaligned",
+  "size": "Huge",
+  "creature_type": "Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 114,
+  "hit_dice": "12d12 + 36",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The triceratops makes two Gore attacks."
+    },
+    {
+      "name": "Gore",
+      "text": "Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative −1 (9)\nHP 114 (12d12 + 36)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t22 \t+6 \t+6\nDEX \t9 \t−1 \t−1\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t11 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nSenses Passive Perception 10\nLanguages None\nCR 5 (XP 1,800; PB +3)\nActions\nMultiattack. The triceratops makes two Gore attacks.\nGore. Melee Attack Roll: +9, reach 5 ft.\nHit: 19 (2d12 + 6) Piercing damage. If\nthe target is Huge or smaller and the triceratops moved 20+ feet straight\ntoward it immediately before the hit, the target takes an extra 9 (2d8) Piercing\ndamage and has the Prone condition.\nHuge Beast (Dinosaur), Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

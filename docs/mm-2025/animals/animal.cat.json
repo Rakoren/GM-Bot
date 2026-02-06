@@ -1,0 +1,72 @@
+{
+  "id": "animal.cat",
+  "name": "CAT",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 2,
+  "hit_dice": "1d4",
+  "speed": "40 ft., Climb 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Jumper",
+      "text": "The cat's jump distance is determined using its Dexterity rather than its Strength."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Scratch",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 2 (1d4)\nSpeed 40 ft., Climb 40 ft.\nMOD \tSAVE\nSTR \t3 \t−4 \t−4\nDEX \t15 \t+2 \t+4\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t7 \t−2 \t−2\nSkills Perception +3, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nJumper. The cat’s jump distance is determined using its Dexterity rather than\nits Strength.\nActions\nScratch. Melee Attack Roll: +4, reach 5 ft.\nHit: 1 Slashing damage.\nTiny Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

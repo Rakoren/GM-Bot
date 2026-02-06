@@ -1,0 +1,21 @@
+{
+  "id": "table.ability_score.standard_array",
+  "name": "Ability Score Standard Array",
+  "chapter": 2,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/03-chapter 2/03-Creating a Character - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [1],
+    "section": "Ability Score Methods"
+  },
+  "columns": ["score"],
+  "entries": [
+    { "score": 15 },
+    { "score": 14 },
+    { "score": 13 },
+    { "score": 12 },
+    { "score": 10 },
+    { "score": 8 }
+  ],
+  "notes": []
+}

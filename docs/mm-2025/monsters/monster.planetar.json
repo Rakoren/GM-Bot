@@ -1,0 +1,97 @@
+{
+  "id": "monster.planetar",
+  "name": "PLANETAR",
+  "status": "complete",
+  "size_type_alignment": "Large Celestial (Angel), Lawful Good",
+  "size": "Large",
+  "creature_type": "Celestial (Angel)",
+  "alignment": "Lawful Good",
+  "armor_class": 19,
+  "hit_points": 262,
+  "hit_dice": "21d10 + 147",
+  "speed": "40 ft., Fly 120 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "CON": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "CHA": {
+      "score": 25,
+      "mod": "+7"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +11",
+  "resistances": "Radiant",
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion, Frightened",
+  "senses": "Truesight 120 ft.; Passive Perception 21",
+  "languages": "All; telepathy 120 ft.",
+  "cr": "16 (XP 15,000; PB +5)",
+  "traits": [
+    {
+      "name": "Divine Awareness",
+      "text": "The planetar knows if it hears a lie."
+    },
+    {
+      "name": "Exalted Restoration",
+      "text": "If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The planetar has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The planetar makes three Radiant Sword attacks or uses Holy Burst twice."
+    },
+    {
+      "name": "Radiant Sword",
+      "text": "Melee Attack Roll: +12, reach 10 ft. Hit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage."
+    },
+    {
+      "name": "Holy Burst",
+      "text": "Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20): At Will: Detect Evil and Good. 1/Day Each: Commune, Control Weather, Dispel Evil and Good, Raise Dead."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Divine Aid (2/Day)",
+      "text": "The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +10 (20)\nHP 262 (21d10 + 147)\nSpeed 40 ft., Fly 120 ft. (hover)\nMOD \tSAVE\nSTR \t24 \t+7 \t+12\nDEX \t20 \t+5 \t+5\nCON \t24 \t+7 \t+12\nMOD \tSAVE\nINT \t19 \t+4 \t+4\nWIS \t22 \t+6 \t+11\nCHA \t25 \t+7 \t+12\nSkills Perception +11\nResistances Radiant\nImmunities Charmed, Exhaustion, Frightened\nSenses Truesight 120 ft.; Passive Perception 21\nLanguages All; telepathy 120 ft.\nCR 16 (XP 15,000; PB +5)\nTraits\nDivine Awareness. The planetar knows if it hears a lie.\nExalted Restoration. If the planetar dies outside Mount Celestia, its body\ndisappears, and it gains a new body instantly, reviving with all its Hit Points\nsomewhere in Mount Celestia.\nMagic Resistance. The planetar has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The planetar makes three Radiant Sword attacks or uses Holy\nBurst twice.\nRadiant Sword. Melee Attack Roll: +12, reach 10 ft.\nHit: 14 (2d6 + 7) Slashing\ndamage plus 18 (4d8) Radiant damage.\nHoly Burst. Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius\nSphere centered on a point the planetar can see within 120 feet.\nFailure: 24\n(7d6) Radiant damage.\nSuccess: Half damage.\nSpellcasting. The planetar casts one of the following spells, requiring no\nMaterial components and using Charisma as spellcasting ability (spell save\nDC 20):\nAt Will:\nDetect Evil and Good\n1/Day Each:\nCommune,\nControl Weather,\nDispel Evil and Good,\nRaise Dead\nBonus Actions\nDivine Aid (2/Day). The planetar casts\nCure Wounds,\nInvisibility,\nLesser\nRestoration, or\nRemove Curse, using the same spellcasting ability\nas Spellcasting.\nLarge Celestial (Angel), Lawful Good\nPoltergeist\nMalevolent or Mischievous Spirit\nHabitat: Underdark, Urban; Treasure: Any\nPoltergeists are spirits that confuse and torment the living. While typically not visible, they sometimes appear as faded images of whoever they were in life.\nSome poltergeists don’t realize they’re dead and go through the motions of their past lives. Others are malicious beings or embodiments of fractured\npsyches that sow discord where they haunt.\nPoltergeists telekinetically move objects in the places they lurk. Roll on or choose a result from the Poltergeist Activities table to inspire how a poltergeist\nmenaces the living.\nPoltergeist Activities\n1d8 \tTo Torment the Living, the Poltergeist...\n1 \tKeeps returning a discarded item.\n2 \tLeaves footprints on vertical surfaces.\n3 \tMakes noises like someone trapped in a wall.\n4 \tOrganizes a pack’s contents across the floor.\n5 \tPlayfully puppets a corpse or doll.\n6 \tRemoves bedding while someone sleeps.\n7 \tSticks knives or weapons in the ceiling.\n8 \tUncannily stacks books, furniture, or utensils.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

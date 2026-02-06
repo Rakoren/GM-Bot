@@ -1,0 +1,81 @@
+{
+  "id": "monster.ochre_jelly",
+  "name": "OCHRE JELLY",
+  "status": "complete",
+  "size_type_alignment": "Large Ooze, Unaligned",
+  "size": "Large",
+  "creature_type": "Ooze",
+  "alignment": "Unaligned",
+  "armor_class": 8,
+  "hit_points": 52,
+  "hit_dice": "7d10 + 14",
+  "speed": "20 ft., Climb 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 8",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Amorphous",
+      "text": "The jelly can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Spider Climb",
+      "text": "The jelly can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 12 (3d6 + 2) Acid damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Split",
+      "text": "Trigger: While the jelly is Large or Medium and has 10+ Hit Points, it becomes Bloodied or is subjected to Lightning or Slashing damage. Response: The jelly splits into two new Ochre Jellies. Each new jelly is one size smaller than the original jelly and acts on its Initiative. The original jelly's Hit Points are divided evenly between the new jellies (round down)."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 8 \tInitiative −2 (8)\nHP 52 (7d10 + 14)\nSpeed 20 ft., Climb 20 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t6 \t−2 \t−2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t6 \t−2 \t−2\nCHA \t1 \t−5 \t−5\nResistances Acid\nImmunities Lightning, Slashing; Charmed, Deafened, Exhaustion, Frightened,\nGrappled, Prone, Restrained\nSenses Blindsight 60 ft.; Passive Perception 8\nLanguages None\nCR 2 (XP 450; PB +2)\nTraits\nAmorphous. The jelly can move through a space as narrow as 1 inch without\nexpending extra movement to do so.\nSpider Climb. The jelly can climb difficult surfaces, including along ceilings,\nwithout needing to make an ability check.\nActions\nPseudopod. Melee Attack Roll: +4, reach 5 ft.\nHit: 12 (3d6 + 2) Acid damage.\nReactions\nSplit. Trigger: While the jelly is Large or Medium and has 10+ Hit Points, it\nbecomes Bloodied or is subjected to Lightning or Slashing damage.\nResponse:\nThe jelly splits into two new Ochre Jellies. Each new jelly is one size smaller\nthan the original jelly and acts on its Initiative. The original jelly’s Hit Points are\ndivided evenly between the new jellies (round down).\nLarge Ooze, Unaligned\nOGRES\nOGRE\nOgrillon Ogre\nOgrillons arise from Humanoids cursed by foul magic or the will of wrathful deities. They appear similar to whoever they once were, but they grow to over 8\nfeet tall and gain ogre-like features. Ogrillons constantly seethe with supernatural anger, which they might struggle to control or purposefully vent on other\ncreatures.\nOni\nWickedness Drawn to the Wicked\nHabitat: Forest, Urban; Treasure: Armaments\nAC 11 \tInitiative −1 (9)\nHP 68 (8d10 + 24)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t8 \t−1 \t−1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t7 \t−2 \t−2\nCHA \t7 \t−2 \t−2\nGear Greatclub, Javelins (3)\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages Common, Giant\nCR 2 (XP 450; PB +2)\nActions\nGreatclub. Melee Attack Roll: +6, reach 5 ft.\nHit: 13 (2d8 + 4)\nBludgeoning damage.\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft.\nHit: 11\n(2d6 + 4) Piercing damage.\nLarge Giant, Chaotic Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (O) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

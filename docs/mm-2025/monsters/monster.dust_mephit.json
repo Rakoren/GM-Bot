@@ -1,0 +1,80 @@
+{
+  "id": "monster.dust_mephit",
+  "name": "DUST MEPHIT",
+  "status": "complete",
+  "size_type_alignment": "Small Elemental, Neutral Evil",
+  "size": "Small",
+  "creature_type": "Elemental",
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "hit_points": 17,
+  "hit_dice": "5d6",
+  "speed": "30 ft., Fly 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Primordial (Auran, Terran)",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Death Burst",
+      "text": "The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage."
+    },
+    {
+      "name": "Blinding Breath (Recharge 6)",
+      "text": "Dexterity Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: The target has the Blinded condition until the end of the mephit's next turn."
+    },
+    {
+      "name": "Sleep (1/Day)",
+      "text": "The mephit casts the Sleep spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 10)."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 17 (5d6)\nSpeed 30 ft., Fly 30 ft.\nMOD \tSAVE\nSTR \t5 \t−3 \t−3\nDEX \t14 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t9 \t−1 \t−1\nWIS \t11 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Perception +2, Stealth +4\nVulnerabilities Fire\nImmunities Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Primordial (Auran, Terran)\nCR 1/2 (XP 100; PB +2)\nTraits\nDeath Burst. The mephit explodes when it dies.\nDexterity Saving Throw: DC 10,\neach creature in a 5-foot Emanation originating from the mephit.\nFailure: 5\n(2d4) Bludgeoning damage.\nSuccess: Half damage.\nActions\nClaw. Melee Attack Roll: +4, reach 5 ft.\nHit: 4 (1d4 + 2) Slashing damage.\nBlinding Breath (Recharge 6). Dexterity Saving Throw: DC 10, each creature in\na 15-foot Cone.\nFailure: The target has the Blinded condition until the end of\nthe mephit’s next turn.\nSleep (1/Day). The mephit casts the\nSleep spell, requiring no spell\ncomponents and using Charisma as the spellcasting ability (spell save DC 10).\nSmall Elemental, Neutral Evil\nICE MEPHIT\nMagma Mephit\nThese mephits embody the merging of earth and fire as glowing magma. They love melting things, but they loathe magmins and attack them on sight.\nMud Mephit\nA combination of earth and water, mud mephits are crude, disgusting creatures. They take every opportunity to ruin objects and pollute food with muck.\nAC 11 \tInitiative +1 (11)\nHP 21 (6d6)\nSpeed 30 ft., Fly 30 ft.\nMOD \tSAVE\nSTR \t7 \t−2 \t−2\nDEX \t13 \t+1 \t+1\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t9 \t−1 \t−1\nWIS \t11 \t+0 \t+0\nCHA \t12 \t+1 \t+1\nSkills Perception +2, Stealth +3\nVulnerabilities Fire\nImmunities Cold, Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Primordial (Aquan, Auran)\nCR 1/2 (XP 100; PB +2)\nTraits\nDeath Burst. The mephit explodes when it dies.\nConstitution Saving Throw: DC\n10, each creature in a 5-foot Emanation originating from the mephit.\nFailure: 5\n(2d4) Cold damage.\nSuccess: Half damage.\nActions\nClaw. Melee Attack Roll: +3, reach 5 ft.\nHit: 3 (1d4 + 1) Slashing damage plus 2\n(1d4) Cold damage.\nFog Cloud (1/Day). The mephit casts\nFog Cloud, requiring no spell\ncomponents and using Charisma as the spellcasting ability.\nFrost Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in\na 15-foot Cone.\nFailure: 7 (3d4) Cold damage.\nSuccess: Half damage.\nSmall Elemental, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

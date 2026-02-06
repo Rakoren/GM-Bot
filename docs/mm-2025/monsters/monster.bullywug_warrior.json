@@ -1,0 +1,81 @@
+{
+  "id": "monster.bullywug_warrior",
+  "name": "BULLYWUG WARRIOR",
+  "status": "complete",
+  "size_type_alignment": "Medium Fey, Neutral",
+  "size": "Medium",
+  "creature_type": "Fey",
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "hit_points": 11,
+  "hit_dice": "2d8 + 2",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Bullywug, Common",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The bullywug can breathe air and water."
+    },
+    {
+      "name": "Speak with Frogs and Toads",
+      "text": "The bullywug can communicate simple concepts to frogs and toads when it speaks in Bullywug."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Insectile Rapier",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage plus 2 (1d4) Poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Leap",
+      "text": "The bullywug jumps up to 30 feet by spending 10 feet of movement."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 11 (2d8 + 2)\nSpeed 30 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t14 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t7 \t−2 \t−2\nSkills Stealth +4\nSenses Passive Perception 10\nLanguages Bullywug, Common\nCR 1/4 (XP 50; PB +2)\nTraits\nAmphibious. The bullywug can breathe air and water.\nSpeak with Frogs and Toads. The bullywug can communicate simple concepts\nto frogs and toads when it speaks in Bullywug.\nActions\nInsectile Rapier. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Piercing\ndamage plus 2 (1d4) Poison damage.\nBonus Actions\nLeap. The bullywug jumps up to 30 feet by spending 10 feet of movement.\nMedium Fey, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

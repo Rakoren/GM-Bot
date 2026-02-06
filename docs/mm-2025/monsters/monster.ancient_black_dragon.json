@@ -1,0 +1,103 @@
+{
+  "id": "monster.ancient_black_dragon",
+  "name": "ANCIENT BLACK DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Chromatic), Chaotic Evil",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 22,
+  "hit_points": 367,
+  "hit_dice": "21d20 + 147",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 22,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +16, Stealth +9",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 26",
+  "languages": "Common, Draconic",
+  "cr": "21 (XP 33,000, or 41,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Melf's Acid Arrow (level 4 version). Black Pudding"
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +15, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 9 (2d8) Acid damage."
+    },
+    {
+      "name": "Acid Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 22, each creature in a 90-foot-long, 10-foot-wide Line. Failure: 67 (15d8) Acid damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21, +13 to hit with spell attacks): At Will: Detect Magic, Fear, Melf's Acid Arrow (level 4 version) 1/Day Each: Create Undead, Speak with Dead,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Cloud of Insects",
+      "text": "Dexterity Saving Throw: DC 21, one creature the dragon can see within 120 feet. Failure: 33 (6d10) Poison damage, and the target has Disadvantage on saving throws to maintain Concentration until the end of its next turn. Failure or Success: The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Frightful Presence",
+      "text": "The dragon uses Spellcasting to cast Fear. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 22 \tInitiative +16 (26)\nHP 367 (21d20 + 147)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t14 \t+2 \t+9\nCON \t25 \t+7 \t+7\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t15 \t+2 \t+9\nCHA \t22 \t+6 \t+6\nSkills Perception +16, Stealth +9\nImmunities Acid\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 26\nLanguages Common, Draconic\nCR 21 (XP 33,000, or 41,000 in lair; PB +7)\nTraits\nAmphibious. The dragon can breathe air and water.\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of Spellcasting to cast\nMelf’s Acid Arrow (level 4 version).\nGargantuan Dragon (Chromatic), Chaotic Evil\nBlack Pudding\nDivisible, Corrosive Blob\nHabitat: Underdark; Treasure: None\nBlack puddings are shapeless masses of predatory cells. Once a pudding detects organic matter, it oozes toward its prey, dissolving living matter and\nvarious objects. If a black pudding is split by lightning or slashing attacks, it divides into two smaller, independent puddings.\nVarious supernatural conditions might bring black puddings into\nbeing. Roll on or choose a result from the Black Pudding Sources table\nto inspire a pudding’s origins.\nBlack Pudding Sources\n1d6 \tThe Black Pudding Formed From...\n1 \tAn ancient black dragon’s acidic saliva.\n2 \tThe blood or extreme emotions of a foul deity.\n3 \tCosmic entropy or ruinous planar forces.\n4 \tA curse that transformed a forgotten tyrant.\n5 \tForbidden or industrialized magic.\n6 \tNecrotic material animated by aimless spirits.\nRend. Melee Attack Roll: +15, reach 15 ft.\nHit: 17 (2d8 + 8) Slashing damage\nplus 9 (2d8) Acid damage.\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 22, each creature in\na 90-foot-long, 10-foot-wide Line.\nFailure: 67 (15d8) Acid damage.\nSuccess:\nHalf damage.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 21, +13 to hit with spell attacks):\nAt Will:\nDetect Magic,\nFear,\nMelf’s Acid Arrow (level 4 version)\n1/Day Each:\nCreate Undead,\nSpeak with Dead,\nVitriolic Sphere (level 5 version)\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nCloud of Insects. Dexterity Saving Throw: DC 21, one creature the dragon can\nsee within 120 feet.\nFailure: 33 (6d10) Poison damage, and the target has\nDisadvantage on saving throws to maintain Concentration until the end of its\nnext turn.\nFailure or Success: The dragon can’t take this action again until the\nstart of its next turn.\nFrightful Presence. The dragon uses Spellcasting to cast\nFear. The dragon\ncan’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

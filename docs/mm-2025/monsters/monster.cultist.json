@@ -1,0 +1,67 @@
+{
+  "id": "monster.cultist",
+  "name": "CULTIST",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 12,
+  "hit_points": 9,
+  "hit_dice": "2d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +2, Religion +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ritual Sickle",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 1 Necrotic damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +1 (11)\nHP 9 (2d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t12 \t+1 \t+1\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t11 \t+0 \t+2\nCHA \t10 \t+0 \t+0\nSkills Deception +2, Religion +2\nGear Leather Armor, Sickle\nSenses Passive Perception 10\nLanguages Common\nCR 1/8 (XP 25; PB +2)\nActions\nRitual Sickle. Melee Attack Roll: +3, reach 5 ft.\nHit: 3 (1d4 + 1) Slashing\ndamage plus 1 Necrotic damage.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "list.mm-2025.monsters.batch_014",
+  "name": "MM 2025 Monsters Batch 14",
+  "entries": [
+    {
+      "id": "monster.lamia",
+      "name": "LAMIA",
+      "file": "docs/mm-2025/monsters/monster.lamia.json"
+    },
+    {
+      "id": "monster.larva",
+      "name": "LARVA",
+      "file": "docs/mm-2025/monsters/monster.larva.json"
+    },
+    {
+      "id": "monster.lemure",
+      "name": "LEMURE",
+      "file": "docs/mm-2025/monsters/monster.lemure.json"
+    },
+    {
+      "id": "monster.lich",
+      "name": "LICH",
+      "file": "docs/mm-2025/monsters/monster.lich.json"
+    },
+    {
+      "id": "monster.lizardfolk_geomancer",
+      "name": "LIZARDFOLK GEOMANCER",
+      "file": "docs/mm-2025/monsters/monster.lizardfolk_geomancer.json"
+    },
+    {
+      "id": "monster.lizardfolk_sovereign",
+      "name": "LIZARDFOLK SOVEREIGN",
+      "file": "docs/mm-2025/monsters/monster.lizardfolk_sovereign.json"
+    },
+    {
+      "id": "monster.swarm_of_larvae",
+      "name": "SWARM OF LARVAE",
+      "file": "docs/mm-2025/monsters/monster.swarm_of_larvae.json"
+    },
+    {
+      "id": "monster.swarm_of_lemures",
+      "name": "SWARM OF LEMURES",
+      "file": "docs/mm-2025/monsters/monster.swarm_of_lemures.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (L) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

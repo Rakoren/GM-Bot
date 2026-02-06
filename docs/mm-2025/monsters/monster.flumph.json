@@ -1,0 +1,84 @@
+{
+  "id": "monster.flumph",
+  "name": "FLUMPH",
+  "status": "complete",
+  "size_type_alignment": "Small Aberration, Lawful Good",
+  "size": "Small",
+  "creature_type": "Aberration",
+  "alignment": "Lawful Good",
+  "armor_class": 12,
+  "hit_points": 7,
+  "hit_dice": "2d6",
+  "speed": "5 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +4, History +4, Religion +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Understands Undercommon but can’t speak; telepathy 60 ft.",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Advanced Telepathy",
+      "text": "The flumph perceives the content of any telepathic communication within 60 feet of it."
+    },
+    {
+      "name": "Prone Deficiency",
+      "text": "If the flumph receives the Prone condition, roll a die. On an odd number, it has the Incapacitated condition. At the end of each of its turns, the flumph makes a DC 10 Dexterity saving throw, ending the Incapacitated condition on a success."
+    },
+    {
+      "name": "Telepathic Shroud",
+      "text": "The flumph's thoughts can't be read by any means, and magic can't detect its location or observe it remotely."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Tentacle",
+      "text": "Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Acid damage."
+    },
+    {
+      "name": "Stench Spray (1/Day)",
+      "text": "Dexterity Saving Throw: DC 10, one creature the flumph can see within 15 feet. Failure: The target is coated in a foul-smelling liquid, exudes a stench for 1d4 hours, and has the Poisoned condition while the stench lasts. Other creatures have the Poisoned condition while in a 5-foot Emanation originating from the coated target. The target can remove the stench on itself if it bathes during a Short or Long Rest."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 7 (2d6)\nSpeed 5 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t15 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t14 \t+2 \t+2\nCHA \t11 \t+0 \t+0\nSkills Arcana +4, History +4, Religion +4\nVulnerabilities Psychic\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Understands Undercommon but can’t speak; telepathy 60 ft.\nCR 1/8 (XP 25; PB +2)\nTraits\nAdvanced Telepathy. The flumph perceives the content of any telepathic\ncommunication within 60 feet of it.\nProne Deficiency. If the flumph receives the Prone condition, roll a die. On an\nodd number, it has the Incapacitated condition. At the end of each of its turns,\nthe flumph makes a DC 10 Dexterity saving throw, ending the Incapacitated\ncondition on a success.\nTelepathic Shroud. The flumph’s thoughts can’t be read by any means, and\nmagic can’t detect its location or observe it remotely.\nActions\nTentacle. Melee Attack Roll: +4, reach 5 feet.\nHit: 4 (1d4 + 2) Acid damage.\nStench Spray (1/Day). Dexterity Saving Throw: DC 10, one creature the flumph\ncan see within 15 feet.\nFailure: The target is coated in a foul-smelling liquid,\nexudes a stench for 1d4 hours, and has the Poisoned condition while the\nstench lasts. Other creatures have the Poisoned condition while in a 5-foot\nEmanation originating from the coated target. The target can remove the\nstench on itself if it bathes during a Short or Long Rest.\nSmall Aberration, Lawful Good\nOnce infamous for their magical aptitude, fomorians are giants afflicted with a fey curse. In their pride, they were tricked into invading the Feywild to claim\nits magic for their own. When the archfey rulers of that realm united, the fomorians were turned back and cursed with supernatural strangeness to make\ntheir bodies match their vile souls. Ever since, fomorians have dwelled in the Underdark amid the ruins of their magical cities. The archfey’s curse afflicts\nthem still, tormenting them with wandering cankers, lurching organs, and stranger discomforts. Rather than atoning for their offenses, fomorians harness\nthe magic of their curse and turn it against others. Roll on or choose a result from the Fomorian Warping table to inspire the cosmetic effects a creature\nundergoes while they’re affected by a fomorian’s Warping Hex.\nFomorian Warping\n1d4 \tThe Fomorian’s Hex Causes...\n1 \tColorful, wandering pustules.\n2 \tExcessive sweating of rainbow-hued fluids.\n3 \tPatches of wriggling hair.\n4 \tVeins that bulge and lurch under the skin.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "animal.swarm_of_rats",
+  "name": "SWARM OF RATS",
+  "status": "complete",
+  "size_type_alignment": "Medium Swarm of Tiny Beasts, Unaligned",
+  "size": "Medium",
+  "creature_type": "Swarm of Beasts",
+  "alignment": "Unaligned",
+  "armor_class": 10,
+  "hit_points": 14,
+  "hit_dice": "4d8 − 4",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bites",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 10 \tInitiative +0 (10)\nHP 14 (4d8 − 4)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t9 \t−1 \t−1\nDEX \t11 \t+0 \t+2\nCON \t9 \t−1 \t−1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t3 \t−4 \t−4\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone,\nRestrained, Stunned\nSenses Darkvision 30 ft.; Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\nTraits\nSwarm. The swarm can occupy another creature’s space and vice versa, and\nthe swarm can move through any opening large enough for a Tiny rat. The\nswarm can’t regain Hit Points or gain Temporary Hit Points.\nActions\nBites. Melee Attack Roll: +2, reach 5 ft.\nHit: 5 (2d4) Piercing damage, or 2 (1d4)\nPiercing damage if the swarm is Bloodied.\nMedium Swarm of Tiny Beasts, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

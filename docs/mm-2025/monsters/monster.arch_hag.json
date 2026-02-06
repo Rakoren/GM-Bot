@@ -1,0 +1,121 @@
+{
+  "id": "monster.arch_hag",
+  "name": "ARCH-HAG",
+  "status": "complete",
+  "size_type_alignment": "Large Fey, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Fey",
+  "alignment": "Neutral Evil",
+  "armor_class": 20,
+  "hit_points": 333,
+  "hit_dice": "29d10 + 174",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 25,
+      "mod": "+7"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +14, Perception +11, Persuasion +21",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 60 ft.; Passive Perception 21",
+  "languages": "All",
+  "cr": "21 (XP 33,000, or 41,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Coven Magic",
+      "text": "While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC 19): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen"
+    },
+    {
+      "name": "Servant",
+      "text": "The hag must finish a Long Rest before using this trait to cast that spell again."
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the hag fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The hag has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Spiteful Escape",
+      "text": "When the hag drops to 0 Hit Points, it dies only if it is within 30 feet of its anathema (a thing the DM chooses as the hag's most hated thing). Otherwise, the hag drops to 1 Hit Point and teleports to a harmless demiplane, and it can't return to the plane it left for 2d6 days. When the hag teleports away, each creature within 60 feet of the space it left is cursed. Until the curse ends, a creature has Disadvantage on ability checks and saving throws, and the hag knows its location anywhere in the multiverse."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hag makes two Spectral Claw attacks and uses Crackling Wave."
+    },
+    {
+      "name": "Spectral Claw",
+      "text": "Melee or Ranged Attack Roll: +14, reach 10 ft. or range 60 ft. Hit: 17 (3d6 + 7) Force damage. If the target is a Large or smaller creature, it has the Prone condition."
+    },
+    {
+      "name": "Crackling Wave",
+      "text": "Dexterity Saving Throw: DC 22, each creature in a 60-foot Cone. Failure: 32 (5d12) Lightning damage. Success: Half damage. Failure or Success: The target is cursed until the end of the hag's next turn. The target can't take Reactions until the curse ends."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The hag casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22): At Will: Detect Thoughts, Dimension Door, Dispel Magic, Hypnotic Pattern 2/Day Each: Mass Suggestion, Modify Memory,"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Witch Strike",
+      "text": "Each creature cursed by the hag and within 60 feet of it takes 14 (4d6) Lightning damage."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Tongue Twister",
+      "text": "The hag casts Counterspell in response to that spell's trigger, using the same spellcasting ability as Spellcasting. If the target fails its saving throw, it is cursed until the end of its next turn. Until the curse ends, the target can't cast spells with a Verbal component, and when it speaks, it says the opposite of what it means."
+    }
+  ],
+  "legendary_actions": [
+    {
+      "name": "Hag's Swipe",
+      "text": "The hag makes one Spectral Claw attack."
+    },
+    {
+      "name": "Malicious Magic",
+      "text": "The hag uses Spellcasting to cast Dimension Door or Hypnotic Pattern. The hag can't take this action again until the start of its next turn."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +16 (26)\nHP 333 (29d10 + 174)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t24 \t+7 \t+7\nDEX \t15 \t+2 \t+9\nCON \t23 \t+6 \t+6\nMOD \tSAVE\nINT \t19 \t+4 \t+4\nWIS \t19 \t+4 \t+11\nCHA \t25 \t+7 \t+7\nSkills Deception +14, Perception +11, Persuasion +21\nResistances Cold, Fire, Psychic\nImmunities Charmed, Exhaustion, Frightened\nSenses Truesight 60 ft.; Passive Perception 21\nLanguages All\nCR 21 (XP 33,000, or 41,000 in lair; PB +7)\nTraits\nCoven Magic. While within 30 feet of at least two hag allies, the hag can cast\none of the following spells, requiring no Material components, using the spell’s\nnormal casting time, and using Intelligence as the spellcasting ability (spell\nsave DC 19):\nAugury,\nFind Familiar,\nIdentify,\nLocate Object,\nScrying, or\nUnseen\nServant. The hag must finish a Long Rest before using this trait to cast that\nspell again.\nLegendary Resistance (4/Day, or 5/Day in Lair). If the hag fails a saving throw,\nit can choose to succeed instead.\nMagic Resistance. The hag has Advantage on saving throws against spells and\nother magical effects.\nSpiteful Escape. When the hag drops to 0 Hit Points, it dies only if it is within\n30 feet of its anathema (a thing the DM chooses as the hag’s most hated\nthing). Otherwise, the hag drops to 1 Hit Point and teleports to a harmless\ndemiplane, and it can’t return to the plane it left for 2d6 days. When the hag\nteleports away, each creature within 60 feet of the space it left is cursed. Until\nthe curse ends, a creature has Disadvantage on ability checks and saving\nthrows, and the hag knows its location anywhere in the multiverse.\nLarge Fey, Neutral Evil\nAssassin\nContract Killer\nHabitat: Any; Treasure: Implements, Individual\nAssassins are professional killers skilled at stealthily approaching their victims and striking unseen. Most assassins kill for a reason, perhaps hiring\nthemselves out to wealthy patrons or slaying for an unscrupulous cause. They use poisons and other deadly tools, and they might carry equipment to help\nthem break into secure areas or avoid capture.\nMany assassins adhere to a professional code or exhibit some signature quirk. Roll on or choose a result from the Assassin Modus Operandi table to\ninspire an assassin’s distinctive habits.\nActions\nMultiattack. The hag makes two Spectral Claw attacks and uses\nCrackling Wave.\nSpectral Claw. Melee or Ranged Attack Roll: +14, reach 10 ft. or range 60 ft.\nHit: 17 (3d6 + 7) Force damage. If the target is a Large or smaller creature, it\nhas the Prone condition.\nCrackling Wave. Dexterity Saving Throw: DC 22, each creature in a 60-foot\nCone.\nFailure: 32 (5d12) Lightning damage.\nSuccess: Half damage.\nFailure or\nSuccess: The target is cursed until the end of the hag’s next turn. The target\ncan’t take Reactions until the curse ends.\nSpellcasting. The hag casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 22):\nAt Will:\nDetect Thoughts,\nDimension Door,\nDispel Magic,\nHypnotic Pattern\n2/Day Each:\nMass Suggestion,\nModify Memory,\nPlane Shift\nBonus Actions\nWitch Strike. Each creature cursed by the hag and within 60 feet of it takes 14\n(4d6) Lightning damage.\nReactions\nTongue Twister. The hag casts\nCounterspell in response to that spell’s trigger,\nusing the same spellcasting ability as Spellcasting. If the target fails its saving\nthrow, it is cursed until the end of its next turn. Until the curse ends, the target\ncan’t cast spells with a Verbal component, and when it speaks, it says the\nopposite of what it means.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe hag can expend a use to take one of the following actions. The hag\nregains all expended uses at the start of each of its turns.\nHag’s Swipe. The hag makes one Spectral Claw attack.\nMalicious Magic. The hag uses Spellcasting to cast\nDimension Door or\nHypnotic Pattern. The hag can’t take this action again until the start of its\nnext turn.\nAssassin Modus Operandi\n1d6 \tThe Assassin Is Infamous For...\n1 \tArranging their victims in artful tableaux.\n2 \tHiding within large objects, such as suits of armor or hollow furnishings.\n3 \tLeaving behind a signature item, such as a calling card, flower, seashell, or tooth.\n4 \tPosing as celebrities, holy people, or servants.\n5 \tTaking trophies from their victims.\n6 \tUsing poison with a distinctive color or smell.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the hag can expend a use to take one of the following actions. The hag regains all expended uses at the start of each of its turns."
+  ]
+}

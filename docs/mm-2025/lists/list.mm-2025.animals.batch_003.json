@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.animals.batch_003",
+  "name": "MM 2025 Animals Batch 3",
+  "entries": [
+    {
+      "id": "animal.giant_wasp",
+      "name": "GIANT WASP",
+      "file": "docs/mm-2025/animals/animal.giant_wasp.json"
+    },
+    {
+      "id": "animal.giant_weasel",
+      "name": "GIANT WEASEL",
+      "file": "docs/mm-2025/animals/animal.giant_weasel.json"
+    },
+    {
+      "id": "animal.giant_wolf_spider",
+      "name": "GIANT WOLF SPIDER",
+      "file": "docs/mm-2025/animals/animal.giant_wolf_spider.json"
+    },
+    {
+      "id": "animal.goat",
+      "name": "GOAT",
+      "file": "docs/mm-2025/animals/animal.goat.json"
+    },
+    {
+      "id": "animal.hawk",
+      "name": "HAWK",
+      "file": "docs/mm-2025/animals/animal.hawk.json"
+    },
+    {
+      "id": "animal.hippopotamus",
+      "name": "HIPPOPOTAMUS",
+      "file": "docs/mm-2025/animals/animal.hippopotamus.json"
+    },
+    {
+      "id": "animal.hunter_shark",
+      "name": "HUNTER SHARK",
+      "file": "docs/mm-2025/animals/animal.hunter_shark.json"
+    },
+    {
+      "id": "animal.hyena",
+      "name": "HYENA",
+      "file": "docs/mm-2025/animals/animal.hyena.json"
+    },
+    {
+      "id": "animal.jackal",
+      "name": "JACKAL",
+      "file": "docs/mm-2025/animals/animal.jackal.json"
+    },
+    {
+      "id": "animal.killer_whale",
+      "name": "KILLER WHALE",
+      "file": "docs/mm-2025/animals/animal.killer_whale.json"
+    },
+    {
+      "id": "animal.lion",
+      "name": "LION",
+      "file": "docs/mm-2025/animals/animal.lion.json"
+    },
+    {
+      "id": "animal.lizard",
+      "name": "LIZARD",
+      "file": "docs/mm-2025/animals/animal.lizard.json"
+    },
+    {
+      "id": "animal.mammoth",
+      "name": "MAMMOTH",
+      "file": "docs/mm-2025/animals/animal.mammoth.json"
+    },
+    {
+      "id": "animal.mastiff",
+      "name": "MASTIFF",
+      "file": "docs/mm-2025/animals/animal.mastiff.json"
+    },
+    {
+      "id": "animal.mule",
+      "name": "MULE",
+      "file": "docs/mm-2025/animals/animal.mule.json"
+    },
+    {
+      "id": "animal.octopus",
+      "name": "OCTOPUS",
+      "file": "docs/mm-2025/animals/animal.octopus.json"
+    },
+    {
+      "id": "animal.owl",
+      "name": "OWL",
+      "file": "docs/mm-2025/animals/animal.owl.json"
+    },
+    {
+      "id": "animal.panther",
+      "name": "PANTHER",
+      "file": "docs/mm-2025/animals/animal.panther.json"
+    },
+    {
+      "id": "animal.plesiosaurus",
+      "name": "PLESIOSAURUS",
+      "file": "docs/mm-2025/animals/animal.plesiosaurus.json"
+    },
+    {
+      "id": "animal.polar_bear",
+      "name": "POLAR BEAR",
+      "file": "docs/mm-2025/animals/animal.polar_bear.json"
+    },
+    {
+      "id": "animal.pony",
+      "name": "PONY",
+      "file": "docs/mm-2025/animals/animal.pony.json"
+    },
+    {
+      "id": "animal.pteranodon",
+      "name": "PTERANODON",
+      "file": "docs/mm-2025/animals/animal.pteranodon.json"
+    },
+    {
+      "id": "animal.rat",
+      "name": "RAT",
+      "file": "docs/mm-2025/animals/animal.rat.json"
+    },
+    {
+      "id": "animal.raven",
+      "name": "RAVEN",
+      "file": "docs/mm-2025/animals/animal.raven.json"
+    },
+    {
+      "id": "animal.reef_shark",
+      "name": "REEF SHARK",
+      "file": "docs/mm-2025/animals/animal.reef_shark.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  }
+}

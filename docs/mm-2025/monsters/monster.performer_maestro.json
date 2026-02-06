@@ -1,0 +1,79 @@
+{
+  "id": "monster.performer_maestro",
+  "name": "PERFORMER MAESTRO",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 18,
+  "hit_points": 110,
+  "hit_dice": "17d8 + 34",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 19,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +10, Athletics +4, Perception +5, Performance +10, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Common plus one other language",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The performer makes three Rapier attacks."
+    },
+    {
+      "name": "Rapier",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage plus 7 (2d6) Psychic damage."
+    },
+    {
+      "name": "Beguiling Song",
+      "text": "Wisdom Saving Throw: DC 15, each creature in a 20-foot- radius Sphere centered on a point within 120 feet. Failure: 20 (3d10 + 4) Psychic damage, and the target has the Charmed condition until the end of the performer's next turn. Success: Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The performer casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15): At Will: Minor Illusion, Prestidigitation 1/Day: Tasha's Hideous Laughter (level 3 version)"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +7 (17)\nHP 110 (17d8 + 34)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t18 \t+4 \t+7\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t14 \t+2 \t+2\nCHA \t19 \t+4 \t+7\nSkills Acrobatics +10, Athletics +4, Perception +5, Performance +10, Stealth +7\nGear Rapier\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The performer makes three Rapier attacks.\nRapier. Melee Attack Roll: +7, reach 5 ft.\nHit: 8 (1d8 + 4) Piercing damage plus\n7 (2d6) Psychic damage.\nBeguiling Song. Wisdom Saving Throw: DC 15, each creature in a 20-foot-\nradius Sphere centered on a point within 120 feet.\nFailure: 20 (3d10 + 4)\nPsychic damage, and the target has the Charmed condition until the end of the\nperformer’s next turn.\nSuccess: Half damage only.\nSpellcasting. The performer casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 15):\nAt Will:\nMinor Illusion,\nPrestidigitation\n1/Day:\nTasha’s Hideous Laughter (level 3 version)\nMedium or Small Humanoid, Neutral\nPerformer Legend\nPerformer legends are celebrities known across nations, continents, or worlds. Their prestige might grant them access to the heights of society, or they\nmight use their performances to manipulate audiences. Performer legends usually have signature traits or talents that set them apart from other\nentertainers, such as a distinct voice, incredible athleticism, or a unique manner of dress. They often travel with a retinue of other performers, guards, or\nnoble patrons.\nPeryton\nWinged Heart Hunter\nHabitat: Hill, Mountain; Treasure: Armaments\nWelcome, one! Welcome, all! Welcome to the short, and welcome\nto the tall! Welcome angels, welcome fiends, welcome to all from\nwalks between! Welcome to the Carnival!\n—Tindal, carnival barker",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

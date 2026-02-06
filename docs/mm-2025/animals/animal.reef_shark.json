@@ -1,0 +1,80 @@
+{
+  "id": "animal.reef_shark",
+  "name": "REEF SHARK",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 22,
+  "hit_dice": "4d8 + 4",
+  "speed": "5 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Water Breathing",
+      "text": "The shark can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage. Oh, I got rid of that"
+    },
+    {
+      "name": "Wand of Wonder years ago",
+      "text": "The last thing the Ivy Mansion's herb gardens need is another rhinoceros. -PENELOPE"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 22 (4d8 + 4)\nSpeed 5 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t15 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nSkills Perception +2\nSenses Blindsight 30 ft.; Passive Perception 12\nLanguages None\nCR 1/2 (XP 100; PB +2)\nTraits\nPack Tactics. The shark has Advantage on an attack roll against a creature if\nat least one of the shark’s allies is within 5 feet of the creature and the ally\ndoesn’t have the Incapacitated condition.\nWater Breathing. The shark can breathe only underwater.\nMedium Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

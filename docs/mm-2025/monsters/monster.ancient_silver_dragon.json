@@ -1,0 +1,103 @@
+{
+  "id": "monster.ancient_silver_dragon",
+  "name": "ANCIENT SILVER DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Metallic), Lawful Good",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armor_class": 22,
+  "hit_points": 468,
+  "hit_dice": "24d20 + 216",
+  "speed": "40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 30,
+      "mod": "+10"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 29,
+      "mod": "+9"
+    },
+    "INT": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 26,
+      "mod": "+8"
+    }
+  },
+  "saves": null,
+  "skills": "History +11, Perception +16, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 26",
+  "languages": "Common, Draconic",
+  "cr": "23 (XP 50,000, or 62,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast Ice Knife (level 2 version)."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +17, reach 15 ft. Hit: 19 (2d8 + 10) Slashing damage plus 9 (2d8) Cold damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 24, each creature in a 90-foot Cone. Failure: 67 (15d8) Cold damage. Success: Half damage."
+    },
+    {
+      "name": "Paralyzing Breath",
+      "text": "Constitution Saving Throw: DC 24, each creature in a 90- foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 23, +15 to hit with spell attacks): At Will: Detect Magic, Hold Monster,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Chill",
+      "text": "The dragon uses Spellcasting to cast Hold Monster. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Cold Gale",
+      "text": "Dexterity Saving Throw: DC 23, each creature in a 60-foot-long, 10- foot-wide Line. Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. Success: Half damage only. Failure or Success: The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 22 \tInitiative +14 (24)\nHP 468 (24d20 + 216)\nSpeed 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t30 \t+10 \t+10\nDEX \t10 \t+0 \t+7\nCON \t29 \t+9 \t+9\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t15 \t+2 \t+9\nCHA \t26 \t+8 \t+8\nSkills History +11, Perception +16, Stealth +7\nImmunities Cold\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 26\nLanguages Common, Draconic\nCR 23 (XP 50,000, or 62,000 in lair; PB +7)\nTraits\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nGargantuan Dragon (Metallic), Lawful Good\nSkeletons\nOssified Evil\nHabitat: Planar (Shadowfell), Underdark, Urban; Treasure: None\nSkeletons rise at the summons of necromancers and foul spirits. Whether they’re the remains of the ancient dead or fresh bones bound to morbid\nambitions, they commit deathless work for whatever forces reanimated them, often serving as guardians, soldiers, or laborers. In rare cases, skeletons are\nreanimated but given no particular direction. Roll on or choose a result from the Skeleton Pantomimes table to inspire how undirected skeletons behave.\nSkeleton Pantomimes\n1d6 \tLeft to Its Own Devices, the Skeleton...\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Paralyzing Breath or (B) Spellcasting to cast\nIce Knife (level\n2 version).\nRend. Melee Attack Roll: +17, reach 15 ft.\nHit: 19 (2d8 + 10) Slashing damage\nplus 9 (2d8) Cold damage.\nCold Breath (Recharge 5–6).\nConstitution Saving Throw: DC 24, each creature\nin a 90-foot Cone.\nFailure: 67 (15d8) Cold damage.\nSuccess: Half damage.\nParalyzing Breath. Constitution Saving Throw: DC 24, each creature in a 90-\nfoot Cone.\nFirst Failure: The target has the Incapacitated condition until the\nend of its next turn, when it repeats the save.\nSecond Failure: The target\nhas the Paralyzed condition, and it repeats the save at the end of each\nof its turns, ending the effect on itself on a success. After 1 minute, it\nsucceeds automatically.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 23, +15 to hit with spell attacks):\nAt Will:\nDetect Magic,\nHold Monster,\nIce Knife (level 2 version),\nShapechange\n(Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\nand no Concentration or Temporary Hit Points required to maintain the spell)\n1/Day Each:\nControl Weather,\nIce Storm (level 7 version),\nTeleport,\nZone\nof Truth\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nChill. The dragon uses Spellcasting to cast\nHold Monster. The dragon can’t\ntake this action again until the start of its next turn.\nCold Gale. Dexterity Saving Throw: DC 23, each creature in a 60-foot-long, 10-\nfoot-wide Line.\nFailure: 14 (4d6) Cold damage, and the target is pushed up to 30\nfeet straight away from the dragon.\nSuccess: Half damage only.\nFailure or\nSuccess: The dragon can’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nADVENTURERS FACE AN ONSLAUGHT FROM ALL MANNER OF SKELETONS\n1d6 \tLeft to Its Own Devices, the Skeleton...\n1 \tDelivers meal salvers or ages-old correspondence to the crypt of its dead master.\n2 \tEndlessly trains in battle with other skeletons, despite being hacked to animate splinters.\n3 \tMimics ways it entertained itself in life, such as acting, dancing, or reading.\n4 \tPerforms a familiar task, such as cleaning, cooking, mining, or praying.\n5 \tRepeats its final moments of life.\n6 \tStands guard at the post it protected in life.\nSkeleton\nSkeletons are reanimated Humanoid bones bearing the equipment they had in life. They have rudimentary faculties and greater agility than zombies and\nsimilar shambling corpses. While they aren’t capable of creating plans of their own, they avoid obvious barriers and self-destructive situations.\nWarhorse Skeleton\nWarhorse skeletons are obedient, supernatural steeds bearing the rotted remains of the barding they wore in life. They’re often ridden by the corpses of their\nformer riders.\nMinotaur Skeleton\nMinotaur skeletons are the reanimated remains of minotaurs or the skeletons of multiple creatures merged into a minotaur-like shape. These hulking\nskeletons have greater speed and might than smaller skeletons. They menace the living with their horns and mighty greataxes.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

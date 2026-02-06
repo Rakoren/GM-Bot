@@ -1,0 +1,72 @@
+{
+  "id": "animal.rat",
+  "name": "RAT",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 10,
+  "hit_points": 1,
+  "hit_dice": "1d4 − 1",
+  "speed": "20 ft., Climb 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Agile",
+      "text": "The rat doesn't provoke an Opportunity Attack when it moves out of an enemy's reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 10 \tInitiative +0 (10)\nHP 1 (1d4 − 1)\nSpeed 20 ft., Climb 20 ft.\nMOD \tSAVE\nSTR \t2 \t−4 \t−4\nDEX \t11 \t+0 \t+0\nCON \t9 \t−1 \t−1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nSkills Perception +2\nSenses Darkvision 30 ft.; Passive Perception 12\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nAgile. The rat doesn’t provoke an Opportunity Attack when it moves out of an\nenemy’s reach.\nActions\nBite. Melee Attack Roll: +2, reach 5 ft.\nHit: 1 Piercing damage.\nTiny Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

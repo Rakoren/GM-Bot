@@ -1,0 +1,76 @@
+{
+  "id": "monster.gargoyle",
+  "name": "GARGOYLE",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "hit_points": 67,
+  "hit_dice": "9d8 + 27",
+  "speed": "30 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Primordial (Terran)",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The gargoyle doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The gargoyle makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage. Where evil passes in the Elemental Plane of Earth, it stains the rock and spoils the soil. Malice vanishes amid other elements, but in the dismal dark, the wicked shape it into nightmares. -TIV,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 67 (9d8 + 27)\nSpeed 30 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t11 \t+0 \t+0\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t11 \t+0 \t+0\nCHA \t7 \t−2 \t−2\nSkills Stealth +4\nImmunities Poison; Exhaustion, Petrified, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Terran)\nCR 2 (XP 450; PB +2)\nTraits\nFlyby. The gargoyle doesn’t provoke an Opportunity Attack when it flies out of\nan enemy’s reach.\nActions\nMultiattack. The gargoyle makes two Claw attacks.\nClaw. Melee Attack Roll: +4, reach 5 ft.\nHit: 7 (2d4 + 2) Slashing damage.\nMedium Elemental, Chaotic Evil\nWhere evil passes in the Elemental Plane of Earth, it stains the\nrock and spoils the soil. Malice vanishes amid other elements,\nbut in the dismal dark, the wicked shape it into nightmares.\n—TIV, SCHOLAR OF THE ELEMENTAL PLANES\nGhasts\nTyrants among Corpses\nHabitat: Swamp, Underdark, Urban; Treasure: Any\nGhasts are reeking, undying corpses closely related to ghouls. They hunger for the vices they enjoyed in life as much as they do for rotting flesh.\nGhast\nGhasts frequently organize ghouls into packs to despoil crypts and steal the wealth within.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,107 @@
+{
+  "id": "monster.blob_of_annihilation",
+  "name": "BLOB OF ANNIHILATION",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Ooze (Titan), Neutral Evil",
+  "size": "Gargantuan",
+  "creature_type": "Ooze (Titan)",
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "hit_points": 448,
+  "hit_dice": "23d20 + 207",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 28,
+      "mod": "+9"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 120 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "23 (XP 50,000; PB +7)",
+  "traits": [
+    {
+      "name": "Astral Implosion",
+      "text": "If the blob is reduced to 0 Hit Points, it implodes and ejects any creatures and objects engulfed by it into the Astral Sea. The blob itself vanishes, leaving behind a layer of slime on everything that was within 600 feet of it. In 1d20 years, the blob reconstitutes on a random world in the Material Plane."
+    },
+    {
+      "name": "Legendary Resistance (4/Day)",
+      "text": "If the blob fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The blob has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The blob makes two Pseudopod attacks and uses Engulf. It can replace one attack with a use of Restraining Glob."
+    },
+    {
+      "name": "Pseudopod",
+      "text": "Melee Attack Roll: +15, reach 30 ft. Hit: 24 (3d10 + 8) Force damage."
+    },
+    {
+      "name": "Engulf",
+      "text": "The blob moves up to its Speed and can move through the spaces of Huge or smaller creatures and objects. Strength Saving Throw: DC 23, each creature or object whose space the blob enters for the first time during this move. Failure: The target is engulfed. While engulfed, a target has Total Cover against attacks and other effects outside the blob, and when the blob moves, the engulfed target moves with it. A nonmagical object is destroyed after spending 1 minute engulfed. While engulfed, a creature takes 21 (6d6) Force damage at the start of each of its turns, is suffocating, has the Restrained condition, and repeats the save at the end of each of its turns. An engulfed creature that is reduced to 0 Hit Points dissolves into ash, which is ejected into the Astral Sea. Success: The target escapes and enters the nearest unoccupied space."
+    },
+    {
+      "name": "Restraining Glob",
+      "text": "The blob lobs a slimy glob at one Large or smaller creature it can see within 600 feet of itself. Dexterity Saving Throw: DC 23, the targeted creature. Failure: 18 (3d6 + 8) Acid damage. The glob rolls the target 60 feet straight toward the blob, and the target has the Restrained condition until the end of its next turn, when the glob harmlessly dissolves. Success: Half damage only."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Decay",
+      "text": "The blob deals 14 (4d6) Necrotic damage to each creature engulfed by it. The blob can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Grasping Glob",
+      "text": "The blob uses Restraining Glob. The blob can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Lashing Goop",
+      "text": "The blob makes one Pseudopod attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +16 (26)\nHP 448 (23d20 + 207)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t14 \t+2 \t+9\nCON \t28 \t+9 \t+16\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t16 \t+3 \t+3\nCHA \t10 \t+0 \t+0\nResistances Bludgeoning, Piercing, Slashing\nImmunities Acid, Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled,\nParalyzed, Petrified, Poisoned, Prone, Restrained, Stunned, Unconscious\nSenses Blindsight 120 ft.; Passive Perception 13\nLanguages None\nCR 23 (XP 50,000; PB +7)\nGargantuan Ooze (Titan), Neutral Evil\nBlue Dragons\nDragons of Tyranny and Tempests\nHabitat: Coastal, Desert; Treasure: Relics\nArrogant and imperious, blue dragons are chromatic dragons that crave control and collect followers like other dragons hoard treasure. They seek to\ntransform their territories into empires, domains to be feared by nations.\nBlue dragons have sharp features with piercing horns and scales that range from sapphire to the shades of stormy skies. They dwell in deserts and\nbadlands, particularly regions with dramatic spires from whose tops they might see for miles. They seek lairs near sites of symbolic power, such as the\nabandoned fortresses of giants, the colossi of fallen empires, or monuments raised by their followers.\nRegalia of rulership and artistic masterpieces fill blue dragons’ hoards. These dragons have no interest in treasures that are common or flawed, preferring\none-of-a-kind gemstones, the crowns of fallen royals, and magic items capable of spreading the dragons’ influence.\nBlue Dragon Wyrmling\nBlue dragon wyrmlings often serve other powerful creatures, learning the ways of control and establishing fearful reputations among weaker creatures.\nMany wyrmlings initially serve loyally, but as their powers grow to match their ambitions, they eventually betray or abandon their associates. These\nwyrmlings tempt small groups of creatures into their service, rewarding them with modest treasures and promises of future power.\nTraits\nAstral Implosion. If the blob is reduced to 0 Hit Points, it implodes and ejects\nany creatures and objects engulfed by it into the Astral Sea. The blob itself\nvanishes, leaving behind a layer of slime on everything that was within 600\nfeet of it. In 1d20 years, the blob reconstitutes on a random world in the\nMaterial Plane.\nLegendary Resistance (4/Day). If the blob fails a saving throw, it can choose\nto succeed instead.\nMagic Resistance. The blob has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The blob makes two Pseudopod attacks and uses Engulf. It can\nreplace one attack with a use of Restraining Glob.\nPseudopod. Melee Attack Roll: +15, reach 30 ft.\nHit: 24 (3d10 + 8)\nForce damage.\nEngulf. The blob moves up to its Speed and can move through the spaces of\nHuge or smaller creatures and objects.\nStrength Saving Throw: DC 23, each\ncreature or object whose space the blob enters for the first time during this\nmove.\nFailure: The target is engulfed. While engulfed, a target has Total Cover\nagainst attacks and other effects outside the blob, and when the blob moves,\nthe engulfed target moves with it. A nonmagical object is destroyed after\nspending 1 minute engulfed.\nWhile engulfed, a creature takes 21 (6d6) Force damage at the start of each of\nits turns, is suffocating, has the Restrained condition, and repeats the save at\nthe end of each of its turns. An engulfed creature that is reduced to 0 Hit\nPoints dissolves into ash, which is ejected into the Astral Sea.\nSuccess: The target escapes and enters the nearest unoccupied space.\nRestraining Glob. The blob lobs a slimy glob at one Large or smaller creature it\ncan see within 600 feet of itself.\nDexterity Saving Throw: DC 23, the targeted\ncreature.\nFailure: 18 (3d6 + 8) Acid damage. The glob rolls the target 60 feet\nstraight toward the blob, and the target has the Restrained condition until the\nend of its next turn, when the glob harmlessly dissolves.\nSuccess: Half\ndamage only.\nLegendary Actions\nLegendary Action Uses: 3. Immediately after another creature’s turn, the blob\ncan expend a use to take one of the following actions. The blob regains all\nexpended uses at the start of each of its turns.\nDecay. The blob deals 14 (4d6) Necrotic damage to each creature engulfed by\nit. The blob can’t take this action again until the start of its next turn.\nGrasping Glob. The blob uses Restraining Glob. The blob can’t take this action\nagain until the start of its next turn.\nLashing Goop. The blob makes one Pseudopod attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3. Immediately after another creature's turn, the blob can expend a use to take one of the following actions. The blob regains all expended uses at the start of each of its turns."
+  ]
+}

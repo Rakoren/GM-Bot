@@ -1,0 +1,84 @@
+{
+  "id": "monster.questing_knight",
+  "name": "QUESTING KNIGHT",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 18,
+  "hit_points": 202,
+  "hit_dice": "27d8 + 81",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +9, Perception +5, Persuasion +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Common plus one other language",
+  "cr": "12 (XP 8,400; PB +4)",
+  "traits": [
+    {
+      "name": "Aura of Bravery",
+      "text": "Creatures of the knight's choice in a 30-foot Emanation originating from it have Immunity to the Charmed and Frightened conditions while there."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The knight makes three attacks, using Greatsword or Longbow in any combination."
+    },
+    {
+      "name": "Greatsword",
+      "text": "Melee Attack Roll: +9, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 22 (5d8) Radiant damage."
+    },
+    {
+      "name": "Longbow",
+      "text": "Ranged Attack Roll: +7, range 150/600 ft. Hit: 12 (2d8 + 3) Piercing damage plus 22 (5d8) Radiant damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The knight casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 16): 1/Day Each: Daylight, Dispel Evil and Good, Greater Restoration, Phantom Steed"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +7 (17)\nHP 202 (27d8 + 81)\nSpeed 30 ft.\tMedium or Small Humanoid, Neutral\nKobolds\nTricksters and Servants to Chromatic Dragons\nHabitat: Arctic, Coastal, Desert, Forest, Hill, Mountain, Swamp, Underdark, Urban; Treasure: Armaments\nCowardly cousins to chromatic dragons, kobolds serve draconic overlords as warriors and servants. These scrappy menaces mimic the behaviors of their\ndragon masters. Though their small stature and recklessness make kobolds poor imitators of dragons, what they lack in ferocity they make up for in zeal\nand ingenuity. They are especially adept at creating traps and setting ambushes.\nKobolds’ scales resemble those of chromatic dragons that live near their warrens. Rarely, kobolds possess features evocative of metallic dragons or other\ndragon-like creatures.\nKobold Warrior\nKobold warriors use hit-and-run tactics to raid their enemies and defend their homes. To avoid danger, they frequently employ haphazard traps.\nMOD \tSAVE\nSTR \t20 \t+5 \t+9\nDEX \t16 \t+3 \t+3\nCON \t16 \t+3 \t+7\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t12 \t+1 \t+5\nCHA \t18 \t+4 \t+8\nSkills Athletics +9, Perception +5, Persuasion +8\nImmunities Charmed, Frightened\nGear Greatsword, Longbow, Plate Armor\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 12 (XP 8,400; PB +4)\nTraits\nAura of Bravery. Creatures of the knight’s choice in a 30-foot Emanation\noriginating from it have Immunity to the Charmed and Frightened conditions\nwhile there.\nActions\nMultiattack. The knight makes three attacks, using Greatsword or Longbow in\nany combination.\nGreatsword. Melee Attack Roll: +9, reach 5 ft.\nHit: 12 (2d6 + 5) Slashing\ndamage plus 22 (5d8) Radiant damage.\nLongbow. Ranged Attack Roll: +7, range 150/600 ft.\nHit: 12 (2d8 + 3) Piercing\ndamage plus 22 (5d8) Radiant damage.\nSpellcasting. The knight casts one of the following spells, using Charisma as\nthe spellcasting ability (spell save DC 16):\n1/Day Each:\nDaylight,\nDispel Evil and Good,\nGreater Restoration,\nPhantom Steed\nWinged Kobold\nSome kobolds are born with wings. Called urds by others of their kind, these kobolds are thought to be blessed by a dragon or Tiamat, the Dragon Queen.\nDespite their favored status, winged kobolds are as cowardly as their brethren and use their flight mostly to keep out of reach of their foes.\nKraken\nLeviathan of Legend",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

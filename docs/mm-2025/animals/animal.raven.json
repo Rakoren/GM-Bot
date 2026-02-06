@@ -1,0 +1,72 @@
+{
+  "id": "animal.raven",
+  "name": "RAVEN",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 2,
+  "hit_dice": "1d4",
+  "speed": "10 ft., Fly 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Mimicry",
+      "text": "The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Beak",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 2 (1d4)\nSpeed 10 ft., Fly 50 ft.\nMOD \tSAVE\nSTR \t2 \t−4 \t−4\nDEX \t14 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t13 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSkills Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nMimicry. The raven can mimic simple sounds it has heard, such as a whisper\nor chitter. A hearer can discern the sounds are imitations with a successful DC\n10 Wisdom (Insight) check.\nActions\nBeak. Melee Attack Roll: +4, reach 5 ft.\nHit: 1 Piercing damage.\nTiny Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

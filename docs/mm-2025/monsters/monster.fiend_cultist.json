@@ -1,0 +1,80 @@
+{
+  "id": "monster.fiend_cultist",
+  "name": "FIEND CULTIST",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "hit_points": 127,
+  "hit_dice": "17d8 + 51",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +7, Religion +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 90 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Abyssal, Common, Infernal",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The cultist makes three Pact Axe attacks."
+    },
+    {
+      "name": "Pact Axe",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Slashing damage plus 13 (3d8) Fire damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 15, +7 to hit with spell attacks): At Will:"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Hellish Rebuke",
+      "text": "The cultist casts Hellish Rebuke in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +5 (15)\nHP 127 (17d8 + 51)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t15 \t+2 \t+2\nCON \t16 \t+3 \t+6\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t18 \t+4 \t+7\nCHA \t10 \t+0 \t+0\nSkills Perception +7, Religion +4\nGear Breastplate\nSenses Darkvision 90 ft. (unimpeded by magical Darkness); Passive\nPerception 17\nLanguages Abyssal, Common, Infernal\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The cultist makes three Pact Axe attacks.\nPact Axe. Melee Attack Roll: +7, reach 5 ft.\nHit: 10 (1d12 + 4) Slashing damage\nplus 13 (3d8) Fire damage.\nSpellcasting. The cultist casts one of the following spells, using Wisdom as\nthe spellcasting ability (spell save DC 15, +7 to hit with spell attacks):\nAt Will:\nScorching Ray (level 5 version),\nThaumaturgy\n2/Day:\nFireball (level 6 version)\nReactions\nHellish Rebuke. The cultist casts\nHellish Rebuke in response to that spell’s\ntrigger, using the same spellcasting ability as Spellcasting.\nMedium or Small Humanoid, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -222,6 +222,11 @@
       "path": "chapter-04/tables/table.species.fiendish_legacies.json"
     },
     {
+      "id": "table.languages.core",
+      "type": "table",
+      "path": "chapter-04/tables/table.languages.core.json"
+    },
+    {
       "id": "list.backgrounds",
       "type": "list",
       "path": "chapter-04/lists/list.backgrounds.json"

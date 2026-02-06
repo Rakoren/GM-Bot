@@ -1,0 +1,84 @@
+{
+  "id": "monster.lamia",
+  "name": "LAMIA",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Fiend",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "hit_points": 97,
+  "hit_dice": "13d10 + 26",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +7, Insight +4, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Abyssal, Common",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The lamia makes two Claw attacks. It can replace one attack with a use of Corrupting Touch."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage."
+    },
+    {
+      "name": "Corrupting Touch",
+      "text": "Wisdom Saving Throw: DC 13, one creature the lamia can see within 5 feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1 hour. Until the curse ends, the target has the Charmed and Poisoned conditions."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13): At Will:"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Leap",
+      "text": "The lamia jumps up to 30 feet by spending 10 feet of movement."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +1 (11)\nHP 97 (13d10 + 26)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t13 \t+1 \t+1\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t15 \t+2 \t+2\nCHA \t16 \t+3 \t+3\nSkills Deception +7, Insight +4, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Abyssal, Common\nCR 4 (XP 1,100; PB +2)\nActions\nMultiattack. The lamia makes two Claw attacks. It can replace one attack with\na use of Corrupting Touch.\nClaw. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Slashing damage plus 7\n(2d6) Psychic damage.\nCorrupting Touch. Wisdom Saving Throw: DC 13, one creature the lamia\ncan see within 5 feet.\nFailure: 13 (3d8) Psychic damage, and the target is\ncursed for 1 hour. Until the curse ends, the target has the Charmed and\nPoisoned conditions.\nSpellcasting. The lamia casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 13):\nAt Will:\nDisguise Self (can appear as a Large or Medium biped),\nMinor Illusion\n1/Day Each:\nGeas,\nMajor Image,\nScrying\nBonus Actions\nLeap. The lamia jumps up to 30 feet by spending 10 feet of movement.\nLarge Fiend, Chaotic Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (L) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

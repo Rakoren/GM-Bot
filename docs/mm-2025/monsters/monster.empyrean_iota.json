@@ -1,0 +1,85 @@
+{
+  "id": "monster.empyrean_iota",
+  "name": "EMPYREAN IOTA",
+  "status": "complete",
+  "size_type_alignment": "Medium Celestial or Fiend (Titan), Neutral",
+  "size": "Medium",
+  "creature_type": "Celestial Fiend (Titan)",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 22,
+  "hit_dice": "5d8",
+  "speed": "5 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "History +4, Insight +5, Perception +5",
+  "resistances": "Bludgeoning, Piercing, Slashing",
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": "Prone",
+  "senses": "Truesight 30 ft.; Passive Perception 15",
+  "languages": "All",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Incorporeal Movement",
+      "text": "The empyrean can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The empyrean has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Otherworldly Strike",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30 ft. Hit: 7 (1d8 + 3) Necrotic or Radiant damage (empyrean's choice)."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The empyrean casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability: 1/Day Each: Bless, Lesser Restoration (as an action)"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Healing Word (1/Day)",
+      "text": "The empyrean casts Healing Word, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\tMedium Celestial or Fiend (Titan), Neutral\nEmpyrean\nInheritors of divine might, empyreans are idealized, human-shaped beings of godly power. These beings might have relationships with their creators akin to\nthose of parents and their children, royalty and their servants, inventors and their creations, or other bonds. Empyreans’ existences are fundamentally\ninfluenced by their patrons and their connection to the heavenly deities of the Upper Planes or the fiendish deities of the Lower Planes. Nevertheless,\nempyreans have free will.\nCelestial empyreans are typically noble beings who quest to prove themselves worthy of their divine pedigree. Many work in the service of their parents or\nsupport those gods’ causes and champions.\nFiendish empyreans are usually dreadful, self-serving villains who seek to claim their parents’ power. Some forge unholy armies or rule over hidden realms\nin mockery of true gods, while others might seek to escape their accursed families.\nHP 22 (5d8)\nSpeed 5 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t14 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t15 \t+2 \t+2\nWIS \t16 \t+3 \t+3\nCHA \t16 \t+3 \t+3\nSkills History +4, Insight +5, Perception +5\nResistances Bludgeoning, Piercing, Slashing\nImmunities Prone\nSenses Truesight 30 ft.; Passive Perception 15\nLanguages All\nCR 1 (XP 200; PB +2)\nTraits\nIncorporeal Movement. The empyrean can move through other creatures and\nobjects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it\nends its turn inside an object.\nMagic Resistance. The empyrean has Advantage on saving throws against\nspells and other magical effects.\nActions\nOtherworldly Strike. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30 ft\n.\nHit: 7 (1d8 + 3) Necrotic or Radiant damage (empyrean’s choice).\nSpellcasting. The empyrean casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability:\n1/Day Each:\nBless,\nLesser Restoration (as an action)\nBonus Actions\nHealing Word (1/Day). The empyrean casts\nHealing Word, using the same\nspellcasting ability as Spellcasting.\nOne day I might be the god of storms—mind countless\nfollowers, answer prayers, change whole worlds—but, until\nthen, I do what I please.\n—KOPOHA, SCION OF STORMS",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (E) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

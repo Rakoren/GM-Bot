@@ -1,0 +1,107 @@
+{
+  "id": "monster.adult_copper_dragon",
+  "name": "ADULT COPPER DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Huge Dragon (Metallic), Chaotic Good",
+  "size": "Huge",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "armor_class": 18,
+  "hit_points": 184,
+  "hit_dice": "16d12 + 80",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +9, Perception +12, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22",
+  "languages": "Common, Draconic",
+  "cr": "14 (XP 11,500, or 13,000 in lair; PB +5)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast Mind Spike (level 4 version)."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +11, reach 10 ft. Hit: 17 (2d10 + 6) Slashing damage plus 4 (1d8) Acid damage."
+    },
+    {
+      "name": "Acid Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 18, each creature in an 60-foot-long, 5-foot-wide Line. Failure: 54 (12d8) Acid damage. Success: Half damage."
+    },
+    {
+      "name": "Slowing Breath",
+      "text": "Constitution Saving Throw: DC 18, each creature in a 60-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17): At Will: Detect Magic, Mind Spike (level 4 version), Minor Illusion, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell) 1/Day Each: Greater Restoration, Major Image"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Giggling Magic",
+      "text": "Charisma Saving Throw: DC 17, one creature the dragon can see within 90 feet. Failure: 24 (7d6) Psychic damage. Until the end of its next turn, the target rolls 1d6 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test. Failure or Success: The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Mind Jolt",
+      "text": "The dragon uses Spellcasting to cast Mind Spike (level 4 version)."
+    },
+    {
+      "name": "The dragon can't take this action again until the start of its next turn",
+      "text": ""
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +11 (21)\nHP 184 (16d12 + 80)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t12 \t+1 \t+6\nCON \t21 \t+5 \t+5\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t15 \t+2 \t+7\nCHA \t18 \t+4 \t+4\nSkills Deception +9, Perception +12, Stealth +6\nImmunities Acid\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22\nLanguages Common, Draconic\nCR 14 (XP 11,500, or 13,000 in lair; PB +5)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Slowing Breath or (B) Spellcasting to cast\nMind Spike (level\n4 version).\nRend. Melee Attack Roll: +11, reach 10 ft.\nHit: 17 (2d10 + 6) Slashing damage\nplus 4 (1d8) Acid damage.\nAcid Breath (Recharge 5–6).\nDexterity Saving Throw: DC 18, each creature in\nan 60-foot-long, 5-foot-wide Line.\nFailure: 54 (12d8) Acid damage.\nSuccess:\nHalf damage.\nSlowing Breath. Constitution Saving Throw: DC 18, each creature in a 60-foot\nCone.\nFailure: The target can’t take Reactions; its Speed is halved; and it can\ntake either an action or a Bonus Action on its turn, not both. This effect lasts\nuntil the end of its next turn.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 17):\nAt Will:\nDetect Magic,\nMind Spike (level 4 version),\nMinor Illusion,\nShapechange\n(Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\nand no Concentration or Temporary Hit Points required to maintain the spell)\n1/Day Each:\nGreater Restoration,\nMajor Image\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nGiggling Magic. Charisma Saving Throw: DC 17, one creature the dragon can\nsee within 90 feet.\nFailure: 24 (7d6) Psychic damage. Until the end of its next\nturn, the target rolls 1d6 whenever it makes an ability check or attack roll and\nsubtracts the number rolled from the D20 Test.\nFailure or Success: The dragon\ncan’t take this action again until the start of its next turn.\nMind Jolt. The dragon uses Spellcasting to cast\nMind Spike (level 4 version).\nThe dragon can’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nHuge Dragon (Metallic), Chaotic Good\nAncient Copper Dragon\nAncient copper dragons use warmth and reliability to effect change over time. They open their cozy lairs to their friends as havens of learning and laughter\nfor the young and those in need. These dragons watch for and oppose future threats while fostering sanctuaries of simple goodness.\nAN ANCIENT COPPER DRAGON WATCHES OVER ITS ALLIES’ BOISTEROUS YOUNG",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "animal.giant_wasp",
+  "name": "GIANT WASP",
+  "status": "complete",
+  "size_type_alignment": "Medium Beast, Unaligned",
+  "size": "Medium",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 22,
+  "hit_dice": "5d8",
+  "speed": "10 ft., Fly 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Sting",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 22 (5d8)\nSpeed 10 ft., Fly 50 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t14 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t10 \t+0 \t+0\nCHA \t3 \t−4 \t−4\nSenses Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\nTraits\nFlyby. The wasp doesn’t provoke an Opportunity Attack when it flies out of an\nenemy’s reach.\nActions\nSting. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Piercing damage plus 5\n(2d4) Poison damage.\nMedium Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

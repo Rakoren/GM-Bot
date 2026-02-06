@@ -1,0 +1,103 @@
+{
+  "id": "monster.ancient_green_dragon",
+  "name": "ANCIENT GREEN DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Chromatic), Lawful Evil",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "armor_class": 21,
+  "hit_points": 402,
+  "hit_dice": "23d20 + 161",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 22,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +13, Perception +17, Persuasion +13, Stealth +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27",
+  "languages": "Common, Draconic",
+  "cr": "22 (XP 41,000, or 50,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Mind Spike (level 5 version)."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +15, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 10 (3d6) Poison damage."
+    },
+    {
+      "name": "Poison Breath (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 77 (22d6) Poison damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21): At Will: Detect Magic, Mind Spike (level 5 version) 1/Day Each: Geas, Modify Memory"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Mind Invasion",
+      "text": "The dragon uses Spellcasting to cast Mind Spike (level 5 version)."
+    },
+    {
+      "name": "Noxious Miasma",
+      "text": "Constitution Saving Throw: DC 21, each creature in a 30- foot-radius Sphere centered on a point the dragon can see within 90 feet. Failure: 17 (5d6) Poison damage, and the target takes a -2 penalty to AC until the end of its next turn. Failure or Success: The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 21 \tInitiative +15 (25)\nHP 402 (23d20 + 161)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t12 \t+1 \t+8\nCON \t25 \t+7 \t+7\nMOD \tSAVE\nINT \t20 \t+5 \t+5\nWIS \t17 \t+3 \t+10\nCHA \t22 \t+6 \t+6\nGargantuan Dragon (Chromatic), Lawful Evil\nGreen Hag\nFoul Witch of the Wicked Wild\nHabitat: Forest, Hill, Swamp; Treasure: Arcana\nGreen hags work bitter magic to foul all that is beautiful and pure. Whether alone or in covens of\nother hags, these ancient witches call on eerie forces, spreading corruption and plotting doom for\nthose who earn their ire. Green hags are adept deceivers, and they use illusions to cloak themselves\nin unassuming forms, hoping to tempt innocents into peril. These hags often spirit their victims back\nto surreal lairs where they hold captives prisoner or cook them into monstrous meals.\nGreen hags frequently know strange magic or forgotten secrets, such as the weaknesses of villains,\nthe locations of lost treasures, or the ways to break curses. They might trade such knowledge for\nrare magic or symbolic treasures. Roll on or choose a result from the Green Hag Bargains table to\ninspire what a green hag charges for its secrets.\nGreen Hag Bargains\n1d6 \tA Green Hag Trades Its Knowledge For...\n1 \tA bargainer’s memories of a loved one.\n2 \tThe cauldron of a rival hag.\n3 \tA favor to be redeemed when the hag wishes.\n4 \tA flower from a hidden Feywild garden.\n5 \tA gift given freely by a yugoloth.\n6 \tA vial filled with a ruler’s tears.\nSkills Deception +13, Perception +17, Persuasion +13, Stealth +8\nImmunities Poison; Poisoned\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27\nLanguages Common, Draconic\nCR 22 (XP 41,000, or 50,000 in lair; PB +7)\nTraits\nAmphibious. The dragon can breathe air and water.\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of Spellcasting to cast\nMind Spike (level 5 version).\nRend. Melee Attack Roll: +15, reach 15 ft.\nHit: 17 (2d8 + 8) Slashing damage\nplus 10 (3d6) Poison damage.\nPoison Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each\ncreature in a 90-foot Cone.\nFailure: 77 (22d6) Poison damage.\nSuccess:\nHalf damage.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 21):\nAt Will:\nDetect Magic,\nMind Spike (level 5 version)\n1/Day Each:\nGeas,\nModify Memory\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nMind Invasion. The dragon uses Spellcasting to cast\nMind Spike (level\n5 version).\nNoxious Miasma. Constitution Saving Throw: DC 21, each creature in a 30-\nfoot-radius Sphere centered on a point the dragon can see within 90 feet.\nFailure: 17 (5d6) Poison damage, and the target takes a −2 penalty to AC until\nthe end of its next turn.\nFailure or Success: The dragon can’t take this action\nagain until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nGrell\nBizarre Hunter That Travels between Worlds\nHabitat: Underdark; Treasure: None\nWith barbed tentacles sprouting from their brain-shaped bodies, grells hunt the lightless depths. These silent predators defy gravity, allowing them to strike\nfrom unexpected places, and they perceive their surroundings via sound and electrical fields. Their tentacles secrete paralytic venom, which prevents most\ncreatures ambushed by grells from crying out before being dragged into the dark and consumed.\nGrells are sapient beings, but their intellects and motivations are alien to most. They typically cooperate with one another only to defeat more powerful prey.\nMost demonstrate no interest in creating things or in communicating with other creatures, including their own kind.\nMany grells pursue methods of traveling between worlds and planes of existence. They sometimes slip onto star-faring vessels or enter portals heedless of\ntheir destination. Roll on or choose a result from the Grell Explorations table to inspire why grells seek passage between realms.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

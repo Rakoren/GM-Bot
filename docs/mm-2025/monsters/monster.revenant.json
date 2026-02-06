@@ -1,0 +1,93 @@
+{
+  "id": "monster.revenant",
+  "name": "REVENANT",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Neutral",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 127,
+  "hit_dice": "15d8 + 60",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Common plus one other language",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Regeneration",
+      "text": "The revenant regains 10 Hit Points at the start of each of its turns. If the revenant takes Fire or Radiant damage, this trait doesn't function at the start of its next turn. Its body is destroyed only if it starts its turn with 0 Hit Points and doesn't regenerate."
+    },
+    {
+      "name": "Undead Restoration",
+      "text": "If the revenant dies, it revives 24 hours later in a different body unless"
+    },
+    {
+      "name": "Dispel Evil and Good is cast on its corpse",
+      "text": "If it revives, it animates a Humanoid corpse elsewhere on the same plane of existence; it now looks different but uses the same stat block and returns with all its Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The revenant uses Vengeful Glare and makes two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Necrotic damage."
+    },
+    {
+      "name": "Vengeful Glare",
+      "text": "Wisdom Saving Throw: DC 15, one creature the revenant can see within 30 feet. Failure: The target has the Frightened condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. If the Frightened target is cursed by the revenant (see Vow of Revenge), the target also has the Paralyzed condition for the duration."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Vow of Revenge (1/Day)",
+      "text": "The revenant curses one creature it can see within 30 feet of itself. The revenant knows the distance to and direction of the cursed target, even if it is on a different plane of existence. The curse ends on the target if the revenant uses this Bonus Action on a different creature."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 127 (15d8 + 60)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+7\nDEX \t14 \t+2 \t+2\nCON \t18 \t+4 \t+7\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t16 \t+3 \t+6\nCHA \t18 \t+4 \t+7\nResistances Necrotic, Psychic\nImmunities Poison; Charmed, Exhaustion, Frightened, Paralyzed,\nPoisoned, Stunned\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Common plus one other language\nCR 5 (XP 1,800; PB +3)\nTraits\nRegeneration. The revenant regains 10 Hit Points at the start of each of its\nturns. If the revenant takes Fire or Radiant damage, this trait doesn’t function at\nthe start of its next turn. Its body is destroyed only if it starts its turn with 0 Hit\nPoints and doesn’t regenerate.\nUndead Restoration. If the revenant dies, it revives 24 hours later in a different\nbody unless\nDispel Evil and Good is cast on its corpse. If it revives, it animates\na Humanoid corpse elsewhere on the same plane of existence; it now looks\ndifferent but uses the same stat block and returns with all its Hit Points.\nActions\nMultiattack. The revenant uses Vengeful Glare and makes two Slam attacks.\nSlam. Melee Attack Roll: +7, reach 5 ft.\nHit: 11 (2d6 + 4) Necrotic damage.\nVengeful Glare. Wisdom Saving Throw: DC 15, one creature the revenant can\nsee within 30 feet.\nFailure: The target has the Frightened condition and repeats\nthe save at the end of each of its turns, ending the effect on itself on a\nsuccess. After 1 minute, it succeeds automatically. If the Frightened target is\ncursed by the revenant (see Vow of Revenge), the target also has the\nParalyzed condition for the duration.\nBonus Actions\nVow of Revenge (1/Day). The revenant curses one creature it can see within\n30 feet of itself. The revenant knows the distance to and direction of the\ncursed target, even if it is on a different plane of existence. The curse ends on\nthe target if the revenant uses this Bonus Action on a different creature.\nMedium Undead, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

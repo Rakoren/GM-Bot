@@ -1,0 +1,71 @@
+{
+  "id": "monster.violet_fungus",
+  "name": "VIOLET FUNGUS",
+  "status": "complete",
+  "size_type_alignment": "Medium Plant, Unaligned",
+  "size": "Medium",
+  "creature_type": "Plant",
+  "alignment": "Unaligned",
+  "armor_class": 5,
+  "hit_points": 18,
+  "hit_dice": "4d8",
+  "speed": "5 ft.",
+  "abilities": {
+    "STR": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 6",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The fungus makes two Rotting Touch attacks."
+    },
+    {
+      "name": "Rotting Touch",
+      "text": "Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 5 \tInitiative −5 (5)\nHP 18 (4d8)\nSpeed 5 ft.\nMOD \tSAVE\nSTR \t3 \t−4 \t−4\nDEX \t1 \t−5 \t−5\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t3 \t−4 \t−4\nCHA \t1 \t−5 \t−5\nImmunities Blinded, Charmed, Deafened, Frightened\nSenses Blindsight 30 ft.; Passive Perception 6\nLanguages None\nCR 1/4 (XP 50; PB +2)\nActions\nMultiattack. The fungus makes two Rotting Touch attacks.\nRotting Touch. Melee Attack Roll: +2, reach 10 ft.\nHit: 4 (1d8)\nNecrotic damage.\nMedium Plant, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

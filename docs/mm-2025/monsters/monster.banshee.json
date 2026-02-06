@@ -1,0 +1,100 @@
+{
+  "id": "monster.banshee",
+  "name": "BANSHEE",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "hit_points": 54,
+  "hit_dice": "12d8",
+  "speed": "5 ft., Fly 40 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common, Elvish",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Detect Life",
+      "text": "The banshee magically senses the direction of creatures up to 1 mile away that aren't Constructs or Undead."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "text": "The banshee can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The banshee makes two Corrupting Touch attacks and uses Horrify."
+    },
+    {
+      "name": "Corrupting Touch",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Necrotic damage."
+    },
+    {
+      "name": "Horrify",
+      "text": "Wisdom Saving Throw: DC 13, one creature the banshee can see within 60 feet that can see the banshee. Failure: The target has the Frightened condition until the start of the banshee's next turn. Success: The target is immune to this banshee's Horrify for 24 hours."
+    },
+    {
+      "name": "Deathly Wail (1/Day)",
+      "text": "The banshee releases a mournful wail if it isn't in sunlight. Constitution Saving Throw: DC 13, each creature within 30 feet that can hear the wail and isn't a Construct or an Undead. Failure: If the target has 25 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes 10 (3d6) Psychic damage."
+    },
+    {
+      "name": "Infernal collectors, barbed devils fanatically protect troves of treasure and scour the planes of existence for additions to their hoards",
+      "text": "Also known as hamatulas among the ranks of the Nine Hells, these devils bedeck their barbed hides with their most prized possessions and trophies taken from those who failed to steal from them. When threatened, barbed devils strike with their thorny limbs and hurl infernal flame."
+    },
+    {
+      "name": "Barbed devils often serve as guards and accountants for ice devil generals, pit fiend warlords, archdevils, and similarly powerful villains",
+      "text": "In return, barbed devils gain protection for their own collections. Many barbed devils also maintain networks of imps that search the planes for treasures of interest or usefully greedy mortals."
+    },
+    {
+      "name": "Barbed devils rarely collect anything as prosaic as coins and gems",
+      "text": "Rather, they pride themselves on having the multiverse's greatest collection of one kind of thing-typically items of rare pedigree or emblems of power. Barbed devils refuse to steal what they covet; instead they strike bargains to claim both treasure and mortal souls."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 54 (12d8)\nSpeed 5 ft., Fly 40 ft. (hover)\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t14 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t11 \t+0 \t+2\nCHA \t17 \t+3 \t+3\nResistances Acid, Bludgeoning, Fire, Lightning, Piercing, Slashing, Thunder\nImmunities Cold, Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled,\nParalyzed, Petrified, Poisoned, Prone, Restrained\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Elvish\nCR 4 (XP 1,100; PB +2)\nTraits\nDetect Life. The banshee magically senses the direction of creatures up to 1\nmile away that aren’t Constructs or Undead.\nIncorporeal Movement. The banshee can move through other creatures and\nobjects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it\nends its turn inside an object.\nActions\nMultiattack. The banshee makes two Corrupting Touch attacks and\nuses Horrify.\nCorrupting Touch. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3)\nNecrotic damage.\nHorrify. Wisdom Saving Throw: DC 13, one creature the banshee can see within\n60 feet that can see the banshee.\nFailure: The target has the Frightened\ncondition until the start of the banshee’s next turn.\nSuccess: The target is\nimmune to this banshee’s Horrify for 24 hours.\nDeathly Wail (1/Day). The banshee releases a mournful wail if it isn’t in\nsunlight.\nConstitution Saving Throw: DC 13, each creature within 30 feet that\ncan hear the wail and isn’t a Construct or an Undead.\nFailure: If the target has\n25 Hit Points or fewer, it drops to 0 Hit Points. Otherwise, the target takes 10\n(3d6) Psychic damage.\nMedium Undead, Chaotic Evil\nInfernal collectors, barbed devils fanatically protect troves of treasure and scour the planes of existence for additions to their hoards. Also known as\nhamatulas among the ranks of the Nine Hells, these devils bedeck their barbed hides with their most prized possessions and trophies taken from those\nwho failed to steal from them. When threatened, barbed devils strike with their thorny limbs and hurl infernal flame.\nBarbed devils often serve as guards and accountants for ice devil generals, pit fiend warlords, archdevils, and similarly powerful villains. In return, barbed\ndevils gain protection for their own collections. Many barbed devils also maintain networks of imps that search the planes for treasures of interest or\nusefully greedy mortals.\nBarbed devils rarely collect anything as prosaic as coins and gems. Rather, they pride themselves on having the multiverse’s greatest collection of one kind\nof thing—typically items of rare pedigree or emblems of power. Barbed devils refuse to steal what they covet; instead they strike bargains to claim both\ntreasure and mortal souls.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

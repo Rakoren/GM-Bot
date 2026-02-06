@@ -1,0 +1,89 @@
+{
+  "id": "monster.death_slaad",
+  "name": "DEATH SLAAD",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "hit_points": 178,
+  "hit_dice": "21d8 + 84",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 19,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +6, Perception +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 60 ft.; Passive Perception 18",
+  "languages": "Common, Slaad; telepathy 60 ft.",
+  "cr": "10 (XP 5,900; PB +4)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The slaad has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Regeneration",
+      "text": "The slaad regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The slaad makes two Chaos Blade attacks."
+    },
+    {
+      "name": "Chaos Blade",
+      "text": "Melee Attack Roll: +9, reach 10 ft. Hit: 11 (1d12 + 5) Slashing damage plus 10 (3d6) Necrotic damage. Until the start of the slaad's next turn, the target has a condition determined by rolling 1d4: on a 1, Charmed; on a 2, Frightened; on a 3, Poisoned; or on a 4, Incapacitated."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The slaad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16): At Will: Detect Magic, Detect Thoughts, Invisibility (self only), Mage Hand, Major Image 1/Day Each: Blight (level 8 version), Cloudkill (level 6 version), Fly, Plane Shift, Tongues"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The slaad shape-shifts into a Small or Medium Humanoid, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +10 (20)\nHP 178 (21d8 + 84)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t15 \t+2 \t+2\nCON \t19 \t+4 \t+4\nMOD \tSAVE\nINT \t15 \t+2 \t+2\nWIS \t10 \t+0 \t+0\nCHA \t19 \t+4 \t+4\nSkills Arcana +6, Perception +8\nResistances Acid, Cold, Fire, Lightning, Thunder\nSenses Blindsight 60 ft., Darkvision 60 ft.; Passive Perception 18\nLanguages Common, Slaad; telepathy 60 ft.\nCR 10 (XP 5,900; PB +4)\nTraits\nMagic Resistance. The slaad has Advantage on saving throws against spells\nand other magical effects.\nRegeneration. The slaad regains 10 Hit Points at the start of each of its turns if\nit has at least 1 Hit Point.\nActions\nMultiattack. The slaad makes two Chaos Blade attacks.\nChaos Blade. Melee Attack Roll: +9, reach 10 ft.\nHit: 11 (1d12 + 5) Slashing\ndamage plus 10 (3d6) Necrotic damage. Until the start of the slaad’s next turn,\nthe target has a condition determined by rolling 1d4: on a 1, Charmed; on a 2,\nFrightened; on a 3, Poisoned; or on a 4, Incapacitated.\nSpellcasting. The slaad casts one of the following spells, requiring no Material\ncomponents and using Charisma as the spellcasting ability (spell save DC 16):\nAt Will:\nDetect Magic,\nDetect Thoughts,\nInvisibility (self only),\nMage Hand,\nMajor Image\n1/Day Each:\nBlight (level 8 version),\nCloudkill (level 6 version),\nFly,\nPlane\nShift,\nTongues\nBonus Actions\nShape-Shift. The slaad shape-shifts into a Small or Medium Humanoid, or it\nreturns to its true form. Other than its size, its game statistics are the same in\neach form. Any equipment it is wearing or carrying isn’t transformed.\nMedium Aberration, Chaotic Evil\nSolar\nAngelic Protector of the Multiverse\nHabitat: Planar (Upper Planes); Treasure: Any\nSolars stand as the final line of defense between unspeakable evils and the order of the multiverse. They are the servants of just deities and ageless forces\nof good. Their interests span the planes, but they rarely intervene in conflicts on the worlds of the Material Plane. When they act, they lead vast angelic\nhosts and wield holy weapons capable of laying low the wickedest Fiends.\nSolars can resurrect the dead and often use that power to enlist mortal aid. They bestow grand, new purposes on those they return to life. Solars don’t\nenforce these destinies, but they trust in the potential of mortals to achieve great things.\nFight a slaad and lose, the story’s over. Fight a slaad and win,\nthere’s a thousand more standing in line just to prove they’re\ntougher.\n—JEBEEL SLOOM, GUIDE TO THE PLANE OF LIMBO",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

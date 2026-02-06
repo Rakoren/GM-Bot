@@ -1,0 +1,84 @@
+{
+  "id": "monster.githyanki_dracomancer",
+  "name": "GITHYANKI DRACOMANCER",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration (Gith), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Aberration (Gith)",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "hit_points": 255,
+  "hit_dice": "30d8 + 120",
+  "speed": "30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +10, Perception +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 18",
+  "languages": "Common, Draconic, Gith",
+  "cr": "16 (XP 15,000; PB +5)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The githyanki makes three Draconic Strike attacks."
+    },
+    {
+      "name": "Draconic Strike",
+      "text": "Melee or Ranged Attack Roll: +10, reach 10 ft. or range 120 ft. Hit: 12 (2d6 + 5) Slashing damage plus 17 (5d6) Fire damage, and the target has the Frightened condition until the start of the githyanki's next turn."
+    },
+    {
+      "name": "Conjured Dragon's Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 18, each creature in a 90-foot Cone. Failure: 27 (6d8) Fire damage plus 27 (6d8) Force damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 18, +10 to hit with spell attacks): At Will: Mage Hand (the hand is Invisible) 2/Day Each: Nondetection (self only), Plane Shift, Tongues"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Misty Step (3/Day)",
+      "text": "The githyanki casts Misty Step, requiring no spell components and using the same spellcasting ability as Spellcasting. LEFT TO RIGHT: GITHZERAI ZERTH, GITHZERAI PSION, AND GITHZERAI MONK We githzerai crave a challenge, so that when Zerthimon returns, he shall find us ready. Thus we traveled to howling Limbo to make our new home. -ZAERITH MENYAR-AG-GITH,"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +8 (18)\nHP 255 (30d8 + 120)\nSpeed 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t16 \t+3 \t+8\nCON \t18 \t+4 \t+9\nMOD \tSAVE\nINT \t20 \t+5 \t+10\nWIS \t16 \t+3 \t+8\nCHA \t18 \t+4 \t+4\nSkills Arcana +10, Perception +8\nSenses Blindsight 30 ft.; Passive Perception 18\nMedium Aberration (Gith), Lawful Evil\nGithzerai\nExplorers at Reality’s Extremes\nHabitat: Planar (Limbo); Treasure: Arcana, Individual\nGithzerai are gaunt, humanlike beings, physically identical to githyanki. They share a history with githyanki as creatures physically and psychically\ntransformed by mind flayers (see the “Githyanki” section). Githzerai know that in body and mind, their species was manipulated by their former illithid\noppressors. Rather than giving in to this programming, githzerai follow the teachings of their first leader, Zerthimon, and reshape their minds and bodies to\nfind peace.\nGithzerai psychically create serene, hidden sanctuaries in chaotic reaches of the multiverse. Most of these redoubts drift through the chaotic plane of\nLimbo, but githzerai conclaves can also be found in the Abyss, the Elemental Chaos, and the Feywild. Githzerai create these cloisters to hone their psionic\nabilities, to gain insights from the multiverse, and to avoid githyanki and mind flayers.\nLanguages Common, Draconic, Gith\nCR 16 (XP 15,000; PB +5)\nActions\nMultiattack. The githyanki makes three Draconic Strike attacks.\nDraconic Strike. Melee or Ranged Attack Roll: +10, reach 10 ft. or range 120 ft.\nHit: 12 (2d6 + 5) Slashing damage plus 17 (5d6) Fire damage, and the target\nhas the Frightened condition until the start of the githyanki’s next turn.\nConjured Dragon’s Breath (Recharge 5–6). Dexterity Saving Throw: DC 18, each\ncreature in a 90-foot Cone.\nFailure: 27 (6d8) Fire damage plus 27 (6d8) Force\ndamage.\nSuccess: Half damage.\nSpellcasting. The githyanki casts one of the following spells, requiring no spell\ncomponents and using Intelligence as the spellcasting ability (spell save DC\n18, +10 to hit with spell attacks):\nAt Will:\nMage Hand (the hand is Invisible)\n2/Day Each:\nNondetection (self only),\nPlane Shift,\nTongues\nBonus Actions\nMisty Step (3/Day). The githyanki casts\nMisty Step, requiring no spell\ncomponents and using the same spellcasting ability as Spellcasting.\nLEFT TO RIGHT: GITHZERAI ZERTH, GITHZERAI PSION, AND GITHZERAI MONK\nWe githzerai crave a challenge, so that when Zerthimon returns,\nhe shall find us ready. Thus we traveled to howling Limbo to\nmake our new home.\n—ZAERITH MENYAR-AG-GITH, GITHZERAI LEADER\nAdventures with Gith\nCharacters might be drawn into conflicts involving githzerai and githyanki in various ways. Roll on or choose a result from the Gith Conflicts table to inspire\nadventures featuring these age-old rivals.\nGith Conflicts\n1d8 \tThe Characters Are...\n1 \tCalled on to deliver a message or mysterious parcel to or from Vlaakith the Lich Queen.\n2 \tEncouraged by a disguised intellect devourer to seek out an elusive gith leader.\n3 \tEntreated to aid githzerai fleeing the githyanki who destroyed their sanctuary.\n4 \tEntrusted with renewing or disrupting the githyanki’s alliance with red dragons.\n5 \tInvited to hunt illithids with githyanki.\n6 \tPressed to uncover a gith spy in a planar community or on a spelljamming ship.\n7 \tSent on a quest to discover the last known location of the hero Gith or Zerthimon.\n8 \tTasked with returning the blade of a fallen githyanki knight to the knight’s people.\nGithzerai Monk\nGithzerai monks pursue control of their minds by honing their physical and psionic talents. They might be found beyond githzerai sanctuaries, testing\nthemselves amid the dangerous extremes of the multiverse.\nGithzerai Zerth\nGithzerai zerths embody the discipline espoused by their first leader, Zerthimon. Their psionic control aids them in protecting their people and traveling the\nplanes of existence without fear of being followed by githyanki or mind flayer foes.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

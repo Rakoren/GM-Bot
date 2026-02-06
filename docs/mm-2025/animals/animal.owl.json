@@ -1,0 +1,72 @@
+{
+  "id": "animal.owl",
+  "name": "OWL",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 1,
+  "hit_dice": "1d4 − 1",
+  "speed": "5 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 15",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Talons",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 1 (1d4 − 1)\nSpeed 5 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t3 \t−4 \t−4\nDEX \t13 \t+1 \t+1\nCON \t8 \t−1 \t−1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t7 \t−2 \t−2\nSkills Perception +5, Stealth +5\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nFlyby. The owl doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach.\nActions\nTalons. Melee Attack Roll: +3, reach 5 ft.\nHit: 1 Slashing damage.\nTiny Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

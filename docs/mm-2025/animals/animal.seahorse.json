@@ -1,0 +1,72 @@
+{
+  "id": "animal.seahorse",
+  "name": "SEAHORSE",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 1,
+  "hit_dice": "1d4 − 1",
+  "speed": "5 ft., Swim 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 2,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "None",
+  "cr": "0 (XP 0; PB +2)",
+  "traits": [
+    {
+      "name": "Water Breathing",
+      "text": "The seahorse can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bubble Dash",
+      "text": "While underwater, the seahorse moves up to its Swim Speed without provoking Opportunity Attacks."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +1 (11)\nHP 1 (1d4 − 1)\nSpeed 5 ft., Swim 20 ft.\tTiny Beast, Unaligned\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t12 \t+1 \t+1\nCON \t8 \t−1 \t−1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t10 \t+0 \t+0\nCHA \t2 \t−4 \t−4\nSkills Perception +2, Stealth +5\nSenses Passive Perception 12\nLanguages None\nCR 0 (XP 0; PB +2)\nTraits\nWater Breathing. The seahorse can breathe only underwater.\nActions\nBubble Dash. While underwater, the seahorse moves up to its Swim Speed\nwithout provoking Opportunity Attacks.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

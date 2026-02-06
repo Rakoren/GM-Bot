@@ -1,0 +1,72 @@
+{
+  "id": "monster.jackalwere",
+  "name": "JACKALWERE",
+  "status": "complete",
+  "size_type_alignment": "Small Fiend, Chaotic Evil",
+  "size": "Small",
+  "creature_type": "Fiend",
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "hit_points": 18,
+  "hit_dice": "4d6 + 4",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +4, Perception +4, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 90 ft.; Passive Perception 14",
+  "languages": "Common",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The jackalwere has Advantage on an attack roll against a creature if at least one of the jackalwere's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The jackalwere makes two Rend or Slam attacks."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 18 (4d6 + 4)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t15 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t11 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Deception +4, Perception +4, Stealth +4\nSenses Darkvision 90 ft.; Passive Perception 14\nLanguages Common\nCR 1/2 (XP 100; PB +2)\nTraits\nPack Tactics. The jackalwere has Advantage on an attack roll against a\ncreature if at least one of the jackalwere’s allies is within 5 feet of the creature\nand the ally doesn’t have the Incapacitated condition.\nActions\nMultiattack. The jackalwere makes two Rend or Slam attacks.\nSmall Fiend, Chaotic Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (J) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

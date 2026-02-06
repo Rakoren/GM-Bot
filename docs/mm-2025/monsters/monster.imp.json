@@ -1,0 +1,80 @@
+{
+  "id": "monster.imp",
+  "name": "IMP",
+  "status": "complete",
+  "size_type_alignment": "Tiny Fiend (Devil), Lawful Evil",
+  "size": "Tiny",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 13,
+  "hit_points": 21,
+  "hit_dice": "6d4 + 6",
+  "speed": "20 ft., Fly 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +4, Insight +3, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Common, Infernal",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The imp has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Sting",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage plus 7 (2d6) Poison damage."
+    },
+    {
+      "name": "Invisibility",
+      "text": "The imp casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability."
+    },
+    {
+      "name": "Shape-Shift",
+      "text": "The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 21 (6d4 + 6)\nSpeed 20 ft., Fly 40 ft.\tTiny Fiend (Devil), Lawful Evil\nIncubus\nLife-Leeching Dream Stalker\nHabitat: Planar (Lower Planes), Urban; Treasure: Any\nIncubi exploit the vulnerability of mortal dreams. Slipping into the homes of\nsleepers, incubi feed off dreams and replace them with terrifying nightmares.\nIncubi visit victims nightly until their prey expires. The incubi then hunt for new\nvictims, preferring the loved ones of past targets.\nIncubi can transform into succubi and vice versa, taking the forms they need to\nmanipulate foes in dreams or in the flesh.\nThose visited by an incubus have recurring nightmares. Roll on or choose a result\nfrom the Incubus Nightmares table to inspire these night terrors.\nIncubus Nightmares\n1d8 \tThe Incubus’s Victim Has Dreams Of...\n1 \tAn angry family member or authority figure.\n2 \tBeing chased through the wilderness.\n3 \tBeing devoured by animals or monsters.\n4 \tFalling, drowning, or suffocating.\n5 \tA ruinous public embarrassment.\n6 \tA shadowy intruder or monstrous silhouette.\n7 \tA traumatic past event.\n8 \tA visitor with an eerie or enigmatic message.\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t17 \t+3 \t+3\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t12 \t+1 \t+1\nCHA \t14 \t+2 \t+2\nSkills Deception +4, Insight +3, Stealth +5\nResistances Cold\nImmunities Fire, Poison; Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive\nPerception 11\nLanguages Common, Infernal\nCR 1 (XP 200; PB +2)\nTraits\nMagic Resistance. The imp has Advantage on saving throws against spells\nand other magical effects.\nActions\nSting. Melee Attack Roll: +5, reach 5 ft.\nHit: 6 (1d6 + 3) Piercing damage plus 7\n(2d6) Poison damage.\nInvisibility. The imp casts\nInvisibility on itself, requiring no spell components\nand using Charisma as the spellcasting ability.\nShape-Shift. The imp shape-shifts to resemble a rat (Speed 20 ft.), a raven (20\nft., Fly 60 ft.), or a spider (20 ft., Climb 20 ft.), or it returns to its true form. Its\ngame statistics are the same in each form, except for its Speed. Any\nequipment it is wearing or carrying isn’t transformed.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (I) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

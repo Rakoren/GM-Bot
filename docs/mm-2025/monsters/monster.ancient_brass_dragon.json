@@ -1,0 +1,103 @@
+{
+  "id": "monster.ancient_brass_dragon",
+  "name": "ANCIENT BRASS DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Metallic), Chaotic Good",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "armor_class": 20,
+  "hit_points": 332,
+  "hit_dice": "19d20 + 133",
+  "speed": "40 ft., Burrow 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 22,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "History +9, Perception +14, Persuasion +12, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 24",
+  "languages": "Common, Draconic",
+  "cr": "20 (XP 25,000, or 33,000 in lair; PB +6)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast Scorching Ray (level 3 version)."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +14, reach 15 ft. Hit: 19 (2d10 + 8) Slashing damage plus 7 (2d6) Fire damage. Bronze Dragons"
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 21, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 58 (13d8) Fire damage. Success: Half damage."
+    },
+    {
+      "name": "Sleep Breath",
+      "text": "Constitution Saving Throw: DC 21, each creature in a 90-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20): At Will: Detect Magic, Minor Illusion, Scorching Ray (level 3 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), Speak with Animals 1/Day Each: Control Weather,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Blazing Light",
+      "text": "The dragon uses Spellcasting to cast Scorching Ray (level 3 version)."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    },
+    {
+      "name": "Scorching Sands",
+      "text": "Dexterity Saving Throw: DC 20, one creature the dragon can see within 120 feet. Failure: 36 (8d8) Fire damage, and the target's Speed is halved until the end of its next turn. Failure or Success: The dragon can't take this action again until the start of its next turn. BRONZE DRAGON WYRMLING"
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +12 (22)\nHP 332 (19d20 + 133)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t10 \t+0 \t+6\nCON \t25 \t+7 \t+7\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t15 \t+2 \t+8\nCHA \t22 \t+6 \t+6\nSkills History +9, Perception +14, Persuasion +12, Stealth +6\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 24\nLanguages Common, Draconic\nCR 20 (XP 25,000, or 33,000 in lair; PB +6)\nTraits\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Sleep Breath or (B) Spellcasting to cast\nScorching Ray (level\n3 version).\nRend. Melee Attack Roll: +14, reach 15 ft.\nHit: 19 (2d10 + 8) Slashing damage\nplus 7 (2d6) Fire damage.\nGargantuan Dragon (Metallic), Chaotic Good\nBronze Dragons\nDragons of Potential and Preservation\nHabitat: Coastal; Treasure: Implements\nWhere bronze dragons dwell, wonders flourish. Imaginative yet mindful, these metallic\ndragons work toward greatness and help others achieve all they can. They strive to\npreserve innovations, from the works of past civilizations to new discoveries, and they\nshare such works widely. When dealing with shorter-lived beings, bronze dragons prefer\nto win them over through conversation and cultivation, but they don’t shy from battle\nwhen villains keep others from achieving their potential.\nBronze dragons enjoy the power and endless possibilities of the sea, and they often\nmake their lairs in places of natural beauty or communities they wish to preserve.\nWithin their dwellings, bronze dragons hoard things they believe will be useful one day.\nThey salvage treasure lost to the sea, reclaiming wealth or sunken ships.\nBronze Dragon Wyrmling\nBronze dragon wyrmlings believe they can solve any problems, and they seek to prove it. They often fixate on local challenges, such as drought or rampant\nbanditry. While their zeal can be charming, these wyrmlings can get in over their heads and might then need help correcting mistakes.\nFire Breath (Recharge 5–6).\nDexterity Saving Throw: DC 21, each creature\nin a 90-foot-long, 5-foot-wide Line.\nFailure: 58 (13d8) Fire damage.\nSuccess:\nHalf damage.\nSleep Breath. Constitution Saving Throw: DC 21, each creature in a 90-foot\nCone.\nFailure: The target has the Incapacitated condition until the end of its\nnext turn, at which point it repeats the save.\nSecond Failure: The target has the\nUnconscious condition for 10 minutes. This effect ends for the target if it\ntakes damage or a creature within 5 feet of it takes an action to wake it.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 20):\nAt Will:\nDetect Magic,\nMinor Illusion,\nScorching Ray (level 3 version),\nShapechange (Beast or Humanoid form only, no Temporary Hit Points gained\nfrom the spell, and no Concentration or Temporary Hit Points required to\nmaintain the spell),\nSpeak with Animals\n1/Day Each:\nControl Weather,\nDetect Thoughts\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nBlazing Light. The dragon uses Spellcasting to cast\nScorching Ray (level\n3 version).\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nScorching Sands. Dexterity Saving Throw: DC 20, one creature the dragon can\nsee within 120 feet.\nFailure: 36 (8d8) Fire damage, and the target’s Speed is\nhalved until the end of its next turn.\nFailure or Success: The dragon can’t take\nthis action again until the start of its next turn.\nBRONZE DRAGON WYRMLING",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

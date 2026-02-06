@@ -1,0 +1,76 @@
+{
+  "id": "monster.tough",
+  "name": "TOUGH",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 12,
+  "hit_points": 32,
+  "hit_dice": "5d8 + 10",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Mace",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": "Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +1 (11)\nHP 32 (5d8 + 10)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t12 \t+1 \t+1\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t11 \t+0 \t+0\nGear Heavy Crossbow, Leather Armor, Mace\nSenses Passive Perception 10\nLanguages Common\nCR 1/2 (XP 100; PB +2)\nTraits\nPack Tactics. The tough has Advantage on an attack roll against a\ncreature if at least one of the tough’s allies is within 5 feet of the\ncreature and the ally doesn’t have the Incapacitated condition.\nActions\nMace. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2)\nBludgeoning damage.\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft.\nHit: 6 (1d10\n+ 1) Piercing damage.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (T) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

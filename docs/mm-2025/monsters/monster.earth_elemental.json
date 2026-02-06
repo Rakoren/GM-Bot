@@ -1,0 +1,84 @@
+{
+  "id": "monster.earth_elemental",
+  "name": "EARTH ELEMENTAL",
+  "status": "complete",
+  "size_type_alignment": "Large Elemental, Neutral",
+  "size": "Large",
+  "creature_type": "Elemental",
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "hit_points": 147,
+  "hit_dice": "14d10 + 70",
+  "speed": "30 ft., Burrow 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": "Poison",
+  "vulnerabilities": "Thunder",
+  "condition_immunities": "Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious",
+  "senses": "Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10",
+  "languages": "Primordial (Terran)",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Earth Glide",
+      "text": "The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through."
+    },
+    {
+      "name": "Siege Monster",
+      "text": "The elemental deals double damage to objects and structures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The elemental makes two attacks, using Slam or Rock Launch in any combination."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage."
+    },
+    {
+      "name": "Rock Launch",
+      "text": "Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative −1 (9)\nHP 147 (14d10 + 70)\nSpeed 30 ft., Burrow 30 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+5\nDEX \t8 \t−1 \t−1\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t10 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nVulnerabilities Thunder\nImmunities Poison; Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10\nLanguages Primordial (Terran)\nCR 5 (XP 1,800; PB +3)\nTraits\nEarth Glide. The elemental can burrow through nonmagical, unworked earth\nand stone. While doing so, the elemental doesn’t disturb the material it\nmoves through.\nSiege Monster. The elemental deals double damage to objects and structures.\nActions\nMultiattack. The elemental makes two attacks, using Slam or Rock Launch in\nany combination.\nSlam. Melee Attack Roll: +8, reach 10 ft.\nHit: 14 (2d8 + 5) Bludgeoning damage.\nRock Launch. Ranged Attack Roll: +8, range 60 ft.\nHit: 8 (1d6 + 5) Bludgeoning\ndamage. If the target is a Large or smaller creature, it has the Prone condition.\nLarge Elemental, Neutral\nbeauty, be it the delicacy of a candle flame or the shared wonder of fireworks. These genies might aid mortals in exchange for treasures or the liberation of\ncaptive Elementals.\nOn many worlds, efreet dwell in sweltering deserts and volcanic regions. Those that make their homes on the Elemental Plane of Fire create incredible\ncities among seas of flame and molten minerals. Eclipsing all of these is the storied City of Brass, a gleaming metropolis that is one of the most wondrous\ncities in the multiverse. Here, magic tempers the plane’s extreme heat, making the City of Brass a hub of trade between planes of existence.\nElemental Cataclysm\nThe End and Beginning of Ages\nHabitat: Planar (Elemental Chaos); Treasure: None\nImagine seas of platinum and liquid flame, the Crimson Pillar\nwith fires hot enough to sear the gods, and the infinite delights\nof the City of Brass. Now imagine what my master offers...\n—VEYISVEXVAYN, MAGMA MEPHIT HERALD",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (E) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

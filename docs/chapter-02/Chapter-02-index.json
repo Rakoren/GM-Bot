@@ -30,6 +30,12 @@
       "standard_array": [15, 14, 13, 12, 10, 8],
       "point_buy": "cost_table",
       "rolling": "dm_approval"
+    },
+    "tables": {
+      "standard_array": "table.ability_score.standard_array",
+      "standard_array_by_class": "table.ability_score.standard_array_by_class",
+      "point_buy": "table.ability_score.point_buy",
+      "modifiers": "table.ability_modifiers"
     }
   },
   "alignment": {
@@ -39,11 +45,19 @@
   "leveling": {
     "xp_based": true,
     "milestone_optional": true,
-    "proficiency_scales_by": "character_level"
+    "proficiency_scales_by": "character_level",
+    "xp_table": "table.xp_by_level"
   },
   "multiclassing": {
     "optional": true,
     "requires": "ability_prerequisites",
     "spell_slots": "shared_progression"
+  },
+  "lists": {
+    "character_creation_steps": "list.character_creation.steps",
+    "ability_score_methods": "list.ability_score.methods"
+  },
+  "procedures": {
+    "character_creation_pipeline": "procedure.character_creation.pipeline"
   }
 }

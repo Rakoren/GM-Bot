@@ -82,6 +82,7 @@ export async function handleChatInputCommand({
     formatLookupResults,
     insertHomebrew,
     lookupReferenceByName,
+    reloadRulesRegistry,
     getCharacterById,
     buildCharacterSheet,
     listCharacters,
@@ -286,7 +287,34 @@ export async function handleChatInputCommand({
       Array.isArray(profSkills) && skillKey
         ? profSkills.map(s => normalizeSkill(s)).includes(skillKey)
         : false;
-    const totalMod = mod + (hasSkillProf ? prof : 0);
+    let extraBonus = 0;
+    if (skillKey === 'arcana' || skillKey === 'nature') {
+      try {
+        const rawChoices = profile?.feature_choices || profile?.featureChoices;
+        const parsedChoices = rawChoices ? JSON.parse(rawChoices) : {};
+        const entries = parsedChoices && typeof parsedChoices === 'object'
+          ? Object.entries(parsedChoices)
+          : [];
+        let magicianSkill = null;
+        const hasMagician = entries.some(([key, value]) => {
+          if (!key || typeof key !== 'string') return false;
+          if (!key.endsWith('|primal_order')) return false;
+          const option = typeof value === 'string' ? value : value?.option;
+          if (String(option || '').toLowerCase() !== 'magician') return false;
+          const chosenSkill = typeof value === 'object' ? value?.skill : null;
+          magicianSkill = chosenSkill ? normalizeSkill(chosenSkill) : null;
+          return true;
+        });
+        if (hasMagician && (!magicianSkill || magicianSkill === skillKey)) {
+          const wisScore = statsMap?.wis;
+          const wisMod = abilityMod(wisScore);
+          extraBonus = Math.max(1, wisMod ?? 0);
+        }
+      } catch {
+        // ignore malformed feature choices
+      }
+    }
+    const totalMod = mod + (hasSkillProf ? prof : 0) + extraBonus;
 
     const result = ctx.rollDice({
       count: 1,
@@ -536,6 +564,51 @@ export async function handleChatInputCommand({
       }
       const targetName = targetUser?.username || active.name;
       await interaction.editReply(`Marked ${type} used for ${targetName}.`);
+      await sendCombatHud();
+      return;
+    }
+
+    if (sub === 'resource') {
+      const action = interaction.options.getString('action', true);
+      const resourceKey = interaction.options.getString('resource', true);
+      const amount = interaction.options.getInteger('amount', false);
+      const targetUser = interaction.options.getUser('user', false);
+      const active = combatEngine.getActiveCombatant(combat);
+      if (!active) {
+        await interaction.editReply('No active combatant.');
+        return;
+      }
+      if (!isDm && targetUser && targetUser.id !== interaction.user.id) {
+        await interaction.editReply('Only the DM can spend resources for another player.');
+        return;
+      }
+      if (!isDm && active.userId && active.userId !== interaction.user.id) {
+        await interaction.editReply(`It is ${active.name}'s turn.`);
+        return;
+      }
+      const combatantId = targetUser
+        ? `player_${targetUser.id}`
+        : active.userId
+          ? `player_${interaction.user.id}`
+          : active.id;
+      const delta = Number.isFinite(amount) ? amount : 1;
+      let result = null;
+      if (action === 'spend') {
+        result = combatEngine.spendResource(combat, combatantId, resourceKey, delta);
+      } else if (action === 'restore') {
+        result = combatEngine.restoreResource(combat, combatantId, resourceKey, delta);
+      } else if (action === 'set') {
+        result = combatEngine.setResourceValue(combat, combatantId, resourceKey, delta);
+      }
+      persistCombat();
+      if (!result?.ok) {
+        await interaction.editReply(result?.message || 'Unable to update resource.');
+        return;
+      }
+      const label = result.resource?.name || resourceKey;
+      const current = result.resource?.current ?? '?';
+      const max = Number.isFinite(result.resource?.max) ? `/${result.resource.max}` : '';
+      await interaction.editReply(`${label} now ${current}${max}.`);
       await sendCombatHud();
       return;
     }
@@ -824,6 +897,8 @@ export async function handleChatInputCommand({
       background: 'backgrounds',
       feat: 'feats',
       spell: 'spells',
+      item: 'items',
+      monster: 'monsters',
     };
     const tableName = tableMap[sub];
     if (!tableName) {
@@ -834,6 +909,54 @@ export async function handleChatInputCommand({
     const title = `Lookup results (${sub}):`;
     await interaction.editReply([title, formatLookupResults(tableName, rows)].join('\n'));
     return;
+  }
+
+  if (interaction.commandName === 'rules') {
+    const sub = interaction.options.getSubcommand();
+    if (sub === 'reload') {
+      const allowed = typeof isCommandAllowedForMember === 'function'
+        ? isCommandAllowedForMember({
+            commandName: 'rules',
+            userId: interaction.user.id,
+            guild: interaction.guild,
+          })
+        : false;
+      if (!allowed) {
+        await interaction.editReply('You do not have access to this command.');
+        return;
+      }
+      if (typeof reloadRulesRegistry !== 'function') {
+        await interaction.editReply('Rules reload is not available.');
+        return;
+      }
+      const registry = reloadRulesRegistry();
+      const errorCount = registry?.errors?.length || 0;
+      await interaction.editReply(
+        `Rules registry reloaded. Issues: ${errorCount}.`
+      );
+      return;
+    }
+    if (sub === 'status') {
+      if (!reloadRulesRegistry) {
+        await interaction.editReply('Rules registry is not available.');
+        return;
+      }
+      const registry = reloadRulesRegistry();
+      const typeCounts = [];
+      const typeEntries = registry?.byType ? Array.from(registry.byType.entries()) : [];
+      typeEntries.sort((a, b) => a[0].localeCompare(b[0]));
+      for (const [type, entries] of typeEntries) {
+        typeCounts.push(`${type}: ${entries.length}`);
+      }
+      const errorCount = registry?.errors?.length || 0;
+      const lines = [
+        'Rules registry status:',
+        typeCounts.length ? typeCounts.join('\n') : 'No entries loaded.',
+        `Issues: ${errorCount}`,
+      ];
+      await interaction.editReply(lines.join('\n'));
+      return;
+    }
   }
 
   if (interaction.commandName === 'homebrew') {

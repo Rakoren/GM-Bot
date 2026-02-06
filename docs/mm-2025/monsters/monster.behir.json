@@ -1,0 +1,100 @@
+{
+  "id": "monster.behir",
+  "name": "BEHIR",
+  "status": "complete",
+  "size_type_alignment": "Huge Monstrosity, Neutral Evil",
+  "size": "Huge",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral Evil",
+  "armor_class": 17,
+  "hit_points": 168,
+  "hit_dice": "16d12 + 64",
+  "speed": "50 ft., Climb 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +6, Stealth +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 90 ft.; Passive Perception 16",
+  "languages": "Draconic",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The behir makes one Bite attack and uses Constrict."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +10, reach 10 ft. Hit: 19 (2d12 + 6) Piercing damage plus 11 (2d10) Lightning damage."
+    },
+    {
+      "name": "Constrict",
+      "text": "Strength Saving Throw: DC 18, one Large or smaller creature the behir can see within 5 feet. Failure: 28 (5d8 + 6) Bludgeoning damage. The target has the Grappled condition (escape DC 16), and it has the Restrained condition until the grapple ends."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 16, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 66 (12d10) Lightning damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Swallow",
+      "text": "Dexterity Saving Throw: DC 18, one Large or smaller creature Grappled by the behir (the behir can have only one creature swallowed at a time). Failure: The behir swallows the target, which is no longer Grappled. While swallowed, a creature has the Blinded and Restrained conditions, has Total Cover against attacks and other effects outside the behir, and takes 21 (6d6) Acid damage at the start of each of the behir's turns. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls in a space within 10 feet of the behir and has the Prone condition. If the behir dies, a swallowed creature is no longer Restrained and can escape from the corpse by using 15 feet of movement, exiting Prone. You wouldn't believe all the great stuff I've swallowed! Now just climb on in here, and you can keep whatever you find. -LLUDD, BEHIR Beholder"
+    },
+    {
+      "name": "Scopophobia",
+      "text": "Creatures within 1 mile of the lair feel as if they're being watched. Any creature (excluding the beholder and its allies) that finishes a Short"
+    },
+    {
+      "name": "Rest while within 1 mile of the lair must succeed on a DC 13 Wisdom saving throw or gain no benefit from that rest",
+      "text": ""
+    },
+    {
+      "name": "Warping Terrain",
+      "text": "Minor warps in reality occur near the lair; any creature (excluding the beholder) within 1 mile of the lair that makes a D20 Test and rolls a 1 has the Prone condition."
+    },
+    {
+      "name": "If the beholder dies or moves its lair elsewhere, these effects end immediately",
+      "text": "Berserkers"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +3 (13)\nHP 168 (16d12 + 64)\nSpeed 50 ft., Climb 50 ft.\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t16 \t+3 \t+3\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t14 \t+2 \t+2\nCHA \t12 \t+1 \t+1\nSkills Perception +6, Stealth +7\nImmunities Lightning\nSenses Darkvision 90 ft.; Passive Perception 16\nLanguages Draconic\nCR 11 (XP 7,200; PB +4)\nActions\nMultiattack. The behir makes one Bite attack and uses Constrict.\nBite. Melee Attack Roll: +10, reach 10 ft.\nHit: 19 (2d12 + 6) Piercing damage\nplus 11 (2d10) Lightning damage.\nConstrict. Strength Saving Throw: DC 18, one Large or smaller creature the\nbehir can see within 5 feet.\nFailure: 28 (5d8 + 6) Bludgeoning damage. The\ntarget has the Grappled condition (escape DC 16), and it has the Restrained\ncondition until the grapple ends.\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature\nin a 90-foot-long, 5-foot-wide Line.\nFailure: 66 (12d10) Lightning damage.\nSuccess: Half damage.\nBonus Actions\nSwallow. Dexterity Saving Throw: DC 18, one Large or smaller creature\nGrappled by the behir (the behir can have only one creature swallowed at a\ntime).\nFailure: The behir swallows the target, which is no longer Grappled.\nWhile swallowed, a creature has the Blinded and Restrained conditions, has\nTotal Cover against attacks and other effects outside the behir, and takes 21\n(6d6) Acid damage at the start of each of the behir’s turns.\nIf the behir takes 30 damage or more on a single turn from the swallowed\ncreature, the behir must succeed on a DC 14 Constitution saving throw at the\nend of that turn or regurgitate the creature, which falls in a space within 10 feet\nof the behir and has the Prone condition. If the behir dies, a swallowed\ncreature is no longer Restrained and can escape from the corpse by using 15\nfeet of movement, exiting Prone.\nHuge Monstrosity, Neutral Evil\nYou wouldn’t believe all the great stuff I’ve swallowed! Now just\nclimb on in here, and you can keep whatever you find.\n—LLUDD, BEHIR\nBeholder\nInfamous Many-Eyed Tyrant\nHabitat: Underdark; Treasure: Arcana\nBeholders—also known as eye tyrants—number among the most notorious inhabitants of the Underdark. Few creatures in the multiverse are as loathed\nand feared as these maniacal horrors.\nA beholder’s distinctive, globular body is dominated by an oversize maw and a gigantic central eye. Ten stalks ending in smaller eyes crown its form. From\neach of these eleven eyes, a beholder can unleash a different magic power. The central eye can deactivate magic, while the smaller eyes emit rays that\ninflict various dooms—such as petrifying creatures, disintegrating them, slaying them outright, or other effects.\nBeholders possess utterly alien minds. Most exhibit paranoid, narcissistic, and megalomaniacal tendencies, and they act on agendas beyond human\nreasoning. While some keep to themselves, others force weaker creatures into their service. Still others cultivate grand ambitions, creating networks of\nminions to manipulate groups, settlements, and whole nations in the Underdark and sometimes the surface world.\nFew creatures loathe beholders more than other beholders. Every beholder views itself as the physical and intellectual pinnacle of its species. To them, all\nother beholders are aberrant rivals to be dominated or destroyed. Conflicts between beholders can last for decades and lay waste to vast subterranean\nrealms.\nBeholders are a particular threat to adventurers because both gravitate toward mysterious ruins and sites of great magic. Many beholders collect the magic\nitems and petrified bodies of heroes they’ve defeated, displaying them as trophies.\nBeholder Lairs\nBeholders lurk in cavern complexes they’ve carved using their eye rays deep in the Underdark or in lairs created for them by their servants.\nThe region containing a beholder’s lair is twisted by its presence, creating the following effects:\nScopophobia. Creatures within 1 mile of the lair feel as if they’re being watched. Any creature (excluding the beholder and its allies) that finishes a Short\nRest while within 1 mile of the lair must succeed on a DC 13 Wisdom saving throw or gain no benefit from that rest.\nWarping Terrain. Minor warps in reality occur near the lair; any creature (excluding the beholder) within 1 mile of the lair that makes a D20 Test and rolls a\n1 has the Prone condition.\nIf the beholder dies or moves its lair elsewhere, these effects end immediately.\nBerserkers\nRaging Invaders and Impassioned Warriors\nHabitat: Any; Treasure: Armaments, Individual\nGripped by the adrenaline of battle, berserkers are reckless invaders, pit fighters, and other ferocious warriors.\nBerserker Commander",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

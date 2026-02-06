@@ -1,0 +1,56 @@
+{
+  "id": "list.mm-2025.monsters.batch_022",
+  "name": "MM 2025 Monsters Batch 22",
+  "entries": [
+    {
+      "id": "monster.tarrasque",
+      "name": "TARRASQUE",
+      "file": "docs/mm-2025/monsters/monster.tarrasque.json"
+    },
+    {
+      "id": "monster.thri_kreen_marauder",
+      "name": "THRI-KREEN MARAUDER",
+      "file": "docs/mm-2025/monsters/monster.thri_kreen_marauder.json"
+    },
+    {
+      "id": "monster.thri_kreen_psion",
+      "name": "THRI-KREEN PSION",
+      "file": "docs/mm-2025/monsters/monster.thri_kreen_psion.json"
+    },
+    {
+      "id": "monster.tough",
+      "name": "TOUGH",
+      "file": "docs/mm-2025/monsters/monster.tough.json"
+    },
+    {
+      "id": "monster.tough_boss",
+      "name": "TOUGH BOSS",
+      "file": "docs/mm-2025/monsters/monster.tough_boss.json"
+    },
+    {
+      "id": "monster.treant",
+      "name": "TREANT",
+      "file": "docs/mm-2025/monsters/monster.treant.json"
+    },
+    {
+      "id": "monster.troglodyte",
+      "name": "TROGLODYTE",
+      "file": "docs/mm-2025/monsters/monster.troglodyte.json"
+    },
+    {
+      "id": "monster.troll",
+      "name": "TROLL",
+      "file": "docs/mm-2025/monsters/monster.troll.json"
+    },
+    {
+      "id": "monster.troll_limb",
+      "name": "TROLL LIMB",
+      "file": "docs/mm-2025/monsters/monster.troll_limb.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (T) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

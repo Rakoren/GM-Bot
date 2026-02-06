@@ -1,0 +1,76 @@
+{
+  "id": "animal.elephant",
+  "name": "ELEPHANT",
+  "status": "complete",
+  "size_type_alignment": "Huge Beast, Unaligned",
+  "size": "Huge",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 76,
+  "hit_dice": "8d12 + 24",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The elephant makes two Gore attacks."
+    },
+    {
+      "name": "Gore",
+      "text": "Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Trample",
+      "text": "Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative −1 (9)\nHP 76 (8d12 + 24)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t22 \t+6 \t+6\nDEX \t9 \t−1 \t−1\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t11 \t+0 \t+0\nCHA \t6 \t−2 \t−2\nHuge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

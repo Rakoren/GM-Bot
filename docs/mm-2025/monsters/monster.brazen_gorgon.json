@@ -1,0 +1,92 @@
+{
+  "id": "monster.brazen_gorgon",
+  "name": "BRAZEN GORGON",
+  "status": "complete",
+  "size_type_alignment": "Large Construct, Unaligned",
+  "size": "Large",
+  "creature_type": "Construct",
+  "alignment": "Unaligned",
+  "armor_class": 19,
+  "hit_points": 161,
+  "hit_dice": "17d10 + 68",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 7,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +10",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 20",
+  "languages": "None",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [
+    {
+      "name": "Flame Aura",
+      "text": "At the end of each of the gorgon's turns, each creature in a 5-foot Emanation originating from the gorgon takes 13 (3d8) Fire damage."
+    },
+    {
+      "name": "Illumination",
+      "text": "The gorgon sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. Goristro Demon of Disaster"
+    },
+    {
+      "name": "Terrifying in scale and overwhelming power, goristros are giant demons capable of bringing cities to ruin",
+      "text": "These demons embody senseless anarchy and nihilistic destruction, and they take special offense at creatures or structures that rival them in size. Castles, towers, giants, and beasts of war are all common victims of these monsters' wrath."
+    },
+    {
+      "name": "Goristros resemble hunched, primeval minotaurs bearing the scars of Abyssal wars or wounds from mighty war machines",
+      "text": "Their appearance reflects that of their creator, Baphomet, the demon lord worshiped by many evil minotaurs. Goristros stalk Baphomet's Abyssal realm, known as the Endless Maze, and pulp any non-demons they encounter in that massive, magical labyrinth."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The gorgon makes two Gore attacks."
+    },
+    {
+      "name": "Gore",
+      "text": "Melee Attack Roll: +8, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage plus 10 (3d6) Fire damage."
+    },
+    {
+      "name": "Smelting Charge (Recharge 5-6)",
+      "text": "The gorgon moves up to its Speed without provoking Opportunity Attacks and can move through the spaces of Medium or smaller creatures. Each time the gorgon enters a creature's space for the first time during this move, that target is subjected to the following effect. Dexterity Saving Throw: DC 16. Failure: 13 (2d8 + 4) Piercing damage plus 13 (3d8) Fire damage, and the target is pulled into the gorgon's space and has the Grappled condition (escape DC 14); if the gorgon already has a creature Grappled, the target has the Prone condition instead. Until the grapple ends, the target has the Restrained condition. When the gorgon moves, the Grappled target moves with it, costing no extra movement. Plot and strategize, bait and scheme, but hubris is no armor against ruin incarnate, and greater beings than you have fallen under the onslaught of the Abyss. -MELLAGORUS THE PIT FIEND,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +2 (12)\nHP 161 (17d10 + 68)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t14 \t+2 \t+2\nCON \t19 \t+4 \t+4\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t14 \t+2 \t+2\nCHA \t7 \t−2 \t−2\nSkills Perception +10\nImmunities Fire; Exhaustion, Petrified\nSenses Darkvision 60 ft.; Passive Perception 20\nLanguages None\nCR 9 (XP 5,000; PB +4)\nTraits\nFlame Aura. At the end of each of the gorgon’s turns, each creature in a 5-foot\nEmanation originating from the gorgon takes 13 (3d8) Fire damage.\nIllumination. The gorgon sheds Bright Light in a 10-foot radius and Dim Light\nfor an additional 10 feet.\nLarge Construct, Unaligned\nGoristro\nDemon of Disaster\nHabitat: Planar (Abyss); Treasure: Armaments\nTerrifying in scale and overwhelming power, goristros are giant demons capable of bringing cities to ruin. These demons embody senseless anarchy and\nnihilistic destruction, and they take special offense at creatures or structures that rival them in size. Castles, towers, giants, and beasts of war are all\ncommon victims of these monsters’ wrath.\nGoristros resemble hunched, primeval minotaurs bearing the scars of Abyssal wars or wounds from mighty war machines. Their appearance reflects that of\ntheir creator, Baphomet, the demon lord worshiped by many evil minotaurs. Goristros stalk Baphomet’s Abyssal realm, known as the Endless Maze, and\npulp any non-demons they encounter in that massive, magical labyrinth.\nActions\nMultiattack. The gorgon makes two Gore attacks.\nGore. Melee Attack Roll: +8, reach 5 ft.\nHit: 11 (2d6 + 4) Piercing damage plus\n10 (3d6) Fire damage.\nSmelting Charge (Recharge 5–6). The gorgon moves up to its Speed without\nprovoking Opportunity Attacks and can move through the spaces of Medium or\nsmaller creatures. Each time the gorgon enters a creature’s space for the first\ntime during this move, that target is subjected to the following effect.\nDexterity\nSaving Throw: DC 16.\nFailure: 13 (2d8 + 4) Piercing damage plus 13 (3d8) Fire\ndamage, and the target is pulled into the gorgon’s space and has the Grappled\ncondition (escape DC 14); if the gorgon already has a creature Grappled, the\ntarget has the Prone condition instead. Until the grapple ends, the target has\nthe Restrained condition. When the gorgon moves, the Grappled target moves\nwith it, costing no extra movement.\nPlot and strategize, bait and scheme, but hubris is no armor\nagainst ruin incarnate, and greater beings than you have fallen\nunder the onslaught of the Abyss.\n—MELLAGORUS THE PIT FIEND,\nDECEPTIONS AND STRATAGEMS",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

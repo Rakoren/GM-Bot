@@ -1,0 +1,77 @@
+{
+  "id": "monster.magmin",
+  "name": "MAGMIN",
+  "status": "complete",
+  "size_type_alignment": "Small Elemental, Chaotic Neutral",
+  "size": "Small",
+  "creature_type": "Elemental",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "hit_points": 13,
+  "hit_dice": "3d6 + 3",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Primordial (Ignan)",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Death Burst",
+      "text": "The magmin explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 10-foot Emanation originating from the magmin. Failure: 7 (2d6) Fire damage. Success: Half damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Touch",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Fire damage. If the target is a creature or a flammable object that isn't being worn or carried, it starts burning."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Ignited Illumination",
+      "text": "The magmin sets itself ablaze or extinguishes its flames. While ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +2 (12)\nHP 13 (3d6 + 3)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t7 \t−2 \t−2\nDEX \t15 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t11 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 1/2 (XP 100; PB +2)\nTraits\nDeath Burst. The magmin explodes when it dies.\nDexterity Saving Throw: DC\n11, each creature in a 10-foot Emanation originating from the magmin.\nFailure:\n7 (2d6) Fire damage.\nSuccess: Half damage.\nActions\nTouch. Melee Attack Roll: +4, reach 5 ft.\nHit: 7 (2d4 + 2) Fire damage. If the\ntarget is a creature or a flammable object that isn’t being worn or carried, it\nstarts burning.\nBonus Actions\nIgnited Illumination. The magmin sets itself ablaze or extinguishes its flames.\nWhile ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light\nfor an additional 10 feet.\nSmall Elemental, Chaotic Neutral\nThe lowest form of demons, manes appear when truly loathsome souls are condemned to the Abyss. These misshapen demons have distorted features\nand bodies that crawl with Abyssal parasites. Overwhelmed by demonic urges and constant terror, manes know only shock and frenzied outbursts.\nManes\nManes lash out at creatures that appear weaker than themselves—or that react to them with fear—and strive to avoid more powerful demons. When manes\nescape from the Abyss, they go on reckless rampages and inflict as much harm as possible.\nManes Vaporspawn\nVaporspawn arise from evil souls shattered by unspeakable torments or the depredations of more powerful demons. These distorted manes undergo\nendless, painful contortions, and they share their torment with whatever creatures they encounter.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "monster.rakshasa",
+  "name": "RAKSHASA",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fiend",
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "hit_points": 221,
+  "hit_dice": "26d8 + 104",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +10, Insight +8, Perception +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 60 ft.; Passive Perception 18",
+  "languages": "Common, Infernal",
+  "cr": "13 (XP 10,000; PB +5)",
+  "traits": [
+    {
+      "name": "Greater Magic Resistance",
+      "text": "The rakshasa automatically succeeds on saving throws against spells and other magical effects, and the attack rolls of spells automatically miss it. Without the rakshasa's permission, no spell can observe the rakshasa remotely or detect its thoughts, creature type, or alignment."
+    },
+    {
+      "name": "Fiendish Restoration",
+      "text": "If the rakshasa dies outside the Nine Hells, its body turns to ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The rakshasa makes three Cursed Touch attacks."
+    },
+    {
+      "name": "Cursed Touch",
+      "text": "Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest."
+    },
+    {
+      "name": "Baleful Command (Recharge 5-6)",
+      "text": "Wisdom Saving Throw: DC 18, each enemy in a 30-foot Emanation originating from the rakshasa. Failure: 28 (8d6) Psychic damage, and the target has the Frightened and Incapacitated conditions until the start of the rakshasa's next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The rakshasa casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18): At Will: Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion 1/Day Each: Fly, Invisibility, Major Image, Plane Shift"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +8 (18)\nHP 221 (26d8 + 104)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t17 \t+3 \t+3\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t13 \t+1 \t+1\nWIS \t16 \t+3 \t+3\nCHA \t20 \t+5 \t+5\nSkills Deception +10, Insight +8, Perception +8\nVulnerabilities Piercing damage from weapons wielded by creatures under the\neffect of a\nBless spell\nImmunities Charmed, Frightened\nSenses Truesight 60 ft.; Passive Perception 18\nLanguages Common, Infernal\nCR 13 (XP 10,000; PB +5)\nMedium Fiend, Lawful Evil\nRed Dragons\nDragons of Greed and Devastation\nHabitat: Hill, Mountain; Treasure: Any\nRed dragons take whatever they desire and burn to ash anything that stands in their way. These chromatic dragons endlessly desire more—more magic,\nterritory, treasure, or whatever else inflames their cruel ambitions.\nRed dragons make their lairs amid perilous cliffs and volcanoes. Within, they amass and fiercely protect hoards of treasure, and many have perfect recall of\nthe hoards' contents and the locations of all they’ve collected. Should anything go missing, red dragons fly into rages. They don’t rest until their treasures\nare returned and the thieves have burned.\nRed dragons believe themselves to be the greatest of all dragons and, by extension, the greatest of all creatures. To them, pillaging and conquering are their\nright—treasures can find no more honored place than in their hoards, and other creatures are privileged to serve them.\nRed Dragon Wyrmling\nRed dragon wyrmlings are born destroyers. From a young age, they delight in igniting objects and creatures alike. They sometimes restrain themselves from\nscorching creatures to instead bully others into following their orders and bringing them gifts.\nTraits\nGreater Magic Resistance. The rakshasa automatically succeeds on saving\nthrows against spells and other magical effects, and the attack rolls of spells\nautomatically miss it. Without the rakshasa’s permission, no spell can observe\nthe rakshasa remotely or detect its thoughts, creature type, or alignment.\nFiendish Restoration. If the rakshasa dies outside the Nine Hells, its body turns\nto ichor, and it gains a new body instantly, reviving with all its Hit Points\nsomewhere in the Nine Hells.\nActions\nMultiattack. The rakshasa makes three Cursed Touch attacks.\nCursed Touch. Melee Attack Roll: +10, reach 5 ft.\nHit: 12 (2d6 + 5) Slashing\ndamage plus 19 (3d12) Necrotic damage. If the target is a creature, it is\ncursed. While cursed, the target gains no benefit from finishing a Short or\nLong Rest.\nBaleful Command (Recharge 5–6). Wisdom Saving Throw: DC 18, each enemy\nin a 30-foot Emanation originating from the rakshasa.\nFailure: 28 (8d6) Psychic\ndamage, and the target has the Frightened and Incapacitated conditions until\nthe start of the rakshasa’s next turn.\nSpellcasting. The rakshasa casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 18):\nAt Will:\nDetect Magic,\nDetect Thoughts,\nDisguise Self,\nMage Hand,\nMinor Illusion\n1/Day Each:\nFly,\nInvisibility,\nMajor Image,\nPlane Shift\nRED DRAGON WYRMLING",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

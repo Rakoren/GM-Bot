@@ -1,0 +1,103 @@
+{
+  "id": "monster.adult_silver_dragon",
+  "name": "ADULT SILVER DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Huge Dragon (Metallic), Lawful Good",
+  "size": "Huge",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armor_class": 19,
+  "hit_points": 216,
+  "hit_dice": "16d12 + 112",
+  "speed": "40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 22,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "History +8, Perception +11, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 21",
+  "languages": "Common, Draconic",
+  "cr": "16 (XP 15,000, or 18,000 in lair; PB +5)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of (A) Paralyzing Breath or (B) Spellcasting to cast Ice Knife."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +13, reach 10 ft. Hit: 17 (2d8 + 8) Slashing damage plus 4 (1d8) Cold damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 20, each creature in a 60-foot Cone. Failure: 54 (12d8) Cold damage. Success: Half damage."
+    },
+    {
+      "name": "Paralyzing Breath",
+      "text": "Constitution Saving Throw: DC 20, each creature in a 60- foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 19, +11 to hit with spell attacks): At Will: Detect Magic, Hold Monster, Ice Knife, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell) 1/Day Each: Ice Storm (level 5 version), Zone of Truth"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Chill",
+      "text": "The dragon uses Spellcasting to cast Hold Monster. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Cold Gale",
+      "text": "Dexterity Saving Throw: DC 19, each creature in a 60-foot-long, 10- foot-wide Line. Failure: 14 (4d6) Cold damage, and the target is pushed up to 30 feet straight away from the dragon. Success: Half damage only. Failure or Success: The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +10 (20)\nHP 216 (16d12 + 112)\nSpeed 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t10 \t+0 \t+5\nCON \t25 \t+7 \t+7\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t13 \t+1 \t+6\nCHA \t22 \t+6 \t+6\nSkills History +8, Perception +11, Stealth +5\nImmunities Cold\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 21\nLanguages Common, Draconic\nCR 16 (XP 15,000, or 18,000 in lair; PB +5)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Paralyzing Breath or (B) Spellcasting to cast\nIce Knife.\nRend. Melee Attack Roll: +13, reach 10 ft.\nHit: 17 (2d8 + 8) Slashing damage\nplus 4 (1d8) Cold damage.\nCold Breath (Recharge 5–6).\nConstitution Saving Throw: DC 20, each creature\nin a 60-foot Cone.\nFailure: 54 (12d8) Cold damage.\nSuccess: Half damage.\nParalyzing Breath. Constitution Saving Throw: DC 20, each creature in a 60-\nfoot Cone.\nFirst Failure: The target has the Incapacitated condition until the\nend of its next turn, when it repeats the save.\nSecond Failure: The target\nhas the Paralyzed condition, and it repeats the save at the end of each\nof its turns, ending the effect on itself on a success. After 1 minute, it\nsucceeds automatically.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 19, +11 to hit with spell attacks):\nAt Will:\nDetect Magic,\nHold Monster,\nIce Knife,\nShapechange (Beast or\nHumanoid form only, no Temporary Hit Points gained from the spell, and no\nConcentration or Temporary Hit Points required to maintain the spell)\n1/Day Each:\nIce Storm (level 5 version),\nZone of Truth\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nChill. The dragon uses Spellcasting to cast\nHold Monster. The dragon can’t\ntake this action again until the start of its next turn.\nCold Gale. Dexterity Saving Throw: DC 19, each creature in a 60-foot-long, 10-\nfoot-wide Line.\nFailure: 14 (4d6) Cold damage, and the target is pushed up to 30\nfeet straight away from the dragon.\nSuccess: Half damage only.\nFailure or\nSuccess: The dragon can’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nHuge Dragon (Metallic), Lawful Good\nAncient Silver Dragon\nAncient silver dragons pursue world-wide change. They defend their communities and allies, encouraging them to perform deeds worthy of legend. Some\nset their sights on other worlds and planes of existence, creating extraplanar alliances or combating multiplanar threats. They might have guises in multiple\nsocieties and forge generation-spanning friendships with heroic families or valorous groups.\nTHE SIGHT OF AN ANCIENT SILVER DRAGON CAN PANIC DESPICABLE EVIL-DOERS",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

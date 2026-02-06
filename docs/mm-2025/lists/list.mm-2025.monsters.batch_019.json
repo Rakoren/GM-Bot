@@ -1,0 +1,26 @@
+{
+  "id": "list.mm-2025.monsters.batch_019",
+  "name": "MM 2025 Monsters Batch 19",
+  "entries": [
+    {
+      "id": "monster.quaggoth",
+      "name": "QUAGGOTH",
+      "file": "docs/mm-2025/monsters/monster.quaggoth.json"
+    },
+    {
+      "id": "monster.quaggoth_thonot",
+      "name": "QUAGGOTH THONOT",
+      "file": "docs/mm-2025/monsters/monster.quaggoth_thonot.json"
+    },
+    {
+      "id": "monster.quasit",
+      "name": "QUASIT",
+      "file": "docs/mm-2025/monsters/monster.quasit.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Q) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "monster.fire_giant",
+  "name": "FIRE GIANT",
+  "status": "complete",
+  "size_type_alignment": "Huge Giant, Lawful Evil",
+  "size": "Huge",
+  "creature_type": "Giant",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "hit_points": 162,
+  "hit_dice": "13d12 + 78",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +11, Perception +6",
+  "resistances": null,
+  "immunities": "Fire",
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 16",
+  "languages": "Giant",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The giant makes two attacks, using Flame Sword or Hammer Throw in any combination."
+    },
+    {
+      "name": "Flame Sword",
+      "text": "Melee Attack Roll: +11, reach 10 ft. Hit: 21 (4d6 + 7) Slashing damage plus 10 (3d6) Fire damage."
+    },
+    {
+      "name": "Hammer Throw",
+      "text": "Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +3 (13)\nHP 162 (13d12 + 78)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t25 \t+7 \t+7\nDEX \t9 \t−1 \t+3\nCON \t23 \t+6 \t+10\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t14 \t+2 \t+2\nCHA \t13 \t+1 \t+5\nSkills Athletics +11, Perception +6\nImmunities Fire\nSenses Passive Perception 16\nLanguages Giant\nCR 9 (XP 5,000; PB +4)\nActions\nMultiattack. The giant makes two attacks, using Flame Sword or Hammer\nThrow in any combination.\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing\ndamage plus 10 (3d6) Fire damage.\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft.\nHit: 23 (3d10 + 7)\nBludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to\n15 feet straight away from the giant and has Disadvantage on the next attack\nroll it makes before the end of its next turn.\nHuge Giant, Lawful Evil\n1d6 \tThe Flameskull Features...\n6 \tMismatched animal teeth.\nFlesh Golem\nDead Flesh Given New Life\nHabitat: Any; Treasure: Arcana\nFlesh golems are roughly human-shaped collections of body parts bound together by misused magic or strange science. They serve their reckless creators,\nbut many possess disjointed memories and instincts from their component parts. If wounded, these golems might go berserk and vent their confusion on\nanything in their sight, including their creators.\nFlesh golems appear in varied forms. Roll on or choose a result from the Flesh Golem Characteristics table to inspire a flesh golem’s features.\nI never cared for warmth. I never needed a body. My will is\nenough, and my work will be the legacy that makes my every\nsacrifice worthwhile!\n—TRENZIA, UNDERMOUNTAIN FLAMESKULL",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

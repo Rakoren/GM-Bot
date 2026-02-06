@@ -1,0 +1,120 @@
+{
+  "id": "monster.vampire_umbral_lord",
+  "name": "VAMPIRE UMBRAL LORD",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Undead, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "hit_points": 187,
+  "hit_dice": "22d8 + 88",
+  "speed": "40 ft., Climb 40 ft., Fly 40 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 21,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +9, Perception +13, Stealth +9",
+  "resistances": null,
+  "immunities": "Cold, Necrotic",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion",
+  "senses": "Blindsight 120 ft.; Passive Perception 23",
+  "languages": "Common plus three other languages",
+  "cr": "15 (XP 13,000, or 15,000 in lair; PB +5)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the vampire fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Shadow Escape",
+      "text": "If the vampire drops to 0 Hit Points outside its resting place, it teleports into its resting place unless it is in running water or sunlight. If it can't teleport, it is destroyed. Once inside its resting place, it has the Paralyzed condition for 1 hour, after which it regains 1 Hit Point."
+    },
+    {
+      "name": "Vampire Weakness",
+      "text": "The vampire has these weaknesses: Forbiddance. The vampire can't enter a residence without an invitation from an occupant."
+    },
+    {
+      "name": "Running Water",
+      "text": "The vampire takes 20 Acid damage if it ends its turn in running water."
+    },
+    {
+      "name": "Stake to the Heart",
+      "text": "If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed."
+    },
+    {
+      "name": "Sunlight",
+      "text": "The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The vampire makes two attacks, using Grave Strike or Sickening Ray in any combination."
+    },
+    {
+      "name": "Grave Strike",
+      "text": "Melee Attack Roll: +10, reach 5 ft. Hit: 9 (1d8 + 5) Slashing damage plus 13 (3d8) Necrotic damage."
+    },
+    {
+      "name": "Sickening Ray",
+      "text": "Ranged Attack Roll: +10, range 120 ft. Hit: 16 (2d10 + 5) Necrotic damage, and the target has the Poisoned condition until the start of the vampire's next turn."
+    },
+    {
+      "name": "Hunger of Hadar (Recharge 5-6)",
+      "text": "The vampire casts Hunger of Hadar (level 5 version), requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Sanguine Drain",
+      "text": "Constitution Saving Throw: DC 18, one creature the vampire can see within 30 feet that isn't a Construct or an Undead. Failure: 14 (4d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Beguile",
+      "text": "The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18). The vampire can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Umbral Strike",
+      "text": "The vampire moves up to half its Speed, and it makes one Grave Strike or Sickening Ray attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +14 (24)\nHP 187 (22d8 + 88)\nSpeed 40 ft., Climb 40 ft., Fly 40 ft. (hover)\nMOD \tSAVE\nSTR \t20 \t+5 \t+10\nDEX \t18 \t+4 \t+9\nCON \t18 \t+4 \t+4\nMOD \tSAVE\nINT \t19 \t+4 \t+4\nWIS \t16 \t+3 \t+8\nCHA \t21 \t+5 \t+10\nSkills Arcana +9, Perception +13, Stealth +9\nImmunities Cold, Necrotic; Charmed, Exhaustion\nSenses Blindsight 120 ft.; Passive Perception 23\nLanguages Common plus three other languages\nCR 15 (XP 13,000, or 15,000 in lair; PB +5)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the vampire fails a saving throw, it can choose to succeed instead.\nShadow Escape. If the vampire drops to 0 Hit Points outside its resting place, it teleports into its resting place unless it is in running water or sunlight. If it can't teleport, it is destroyed. Once inside its resting place, it has the Paralyzed condition for 1 hour, after which it regains 1 Hit Point.\nVampire Weakness. The vampire has these weaknesses:\nForbiddance. The vampire can't enter a residence without an invitation from an occupant.\nRunning Water. The vampire takes 20 Acid damage if it ends its turn in running water.\nStake to the Heart. If a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition in its resting place, the vampire has the Paralyzed condition until the weapon is removed.\nSunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.\nActions\nMultiattack. The vampire makes two attacks, using Grave Strike or Sickening Ray in any combination.\nGrave Strike. Melee Attack Roll: +10, reach 5 ft.\nHit: 9 (1d8 + 5) Slashing damage plus 13 (3d8) Necrotic damage.\nSickening Ray. Ranged Attack Roll: +10, range 120 ft.\nHit: 16 (2d10 + 5) Necrotic damage, and the target has the Poisoned condition until the start of the vampire's next turn.\nHunger of Hadar (Recharge 5-6). The vampire casts Hunger of Hadar (level 5 version), requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18).\nBonus Actions\nSanguine Drain. Constitution Saving Throw: DC 18, one creature the vampire can see within 30 feet that isn't a Construct or an Undead.\nFailure: 14 (4d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the damage taken, and the vampire regains Hit Points equal to that amount.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns.\nBeguile. The vampire casts Command, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18). The vampire can't take this action again until the start of its next turn.\nUmbral Strike. The vampire moves up to half its Speed, and it makes one Grave Strike or Sickening Ray attack.\nMedium or Small Undead, Lawful Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (V) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the vampire can expend a use to take one of the following actions. The vampire regains all expended uses at the start of each of its turns."
+  ]
+}

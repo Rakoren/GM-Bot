@@ -1,0 +1,72 @@
+{
+  "id": "monster.gas_spore_fungus",
+  "name": "GAS SPORE FUNGUS",
+  "status": "complete",
+  "size_type_alignment": "Large Plant, Unaligned",
+  "size": "Large",
+  "creature_type": "Plant",
+  "alignment": "Unaligned",
+  "armor_class": 8,
+  "hit_points": 13,
+  "hit_dice": "9d10 − 36",
+  "speed": "5 ft., Fly 10 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "DEX": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "CON": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft; Passive Perception 5",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Death Burst",
+      "text": "The gas spore bursts when it dies. Constitution Saving Throw: DC 10, each creature in a 20-foot Emanation originating from the gas spore. Failure: The target takes 10 (3d6) Poison damage and has the Poisoned condition for 1d12 hours. Unless the Poisoned condition is removed, the target dies at the end of that time and sprouts 2d4 Tiny Gas Spore Fungi (each with 1 Hit Point). After 2d6 days, they become Large and have 13 Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Tendril",
+      "text": "Melee Attack Roll: +0, reach 5 ft. Hit: 3 (1d6) Poison damage, and the target has the Poisoned condition until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 8 \tInitiative −5 (5)\nHP 13 (9d10 − 36)\nSpeed 5 ft., Fly 10 ft. (hover)\nMOD \tSAVE\nSTR \t5 \t−3 \t−3\nDEX \t1 \t−5 \t−5\nCON \t3 \t−4 \t−4\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t1 \t−5 \t−5\nCHA \t1 \t−5 \t−5\nImmunities Poison; Blinded, Charmed, Deafened, Frightened, Paralyzed,\nPoisoned, Prone\nSenses Blindsight 30 ft; Passive Perception 5\nLanguages None\nCR 1/2 (XP 100; PB +2)\nTraits\nDeath Burst. The gas spore bursts when it dies.\nConstitution Saving Throw:\nDC 10, each creature in a 20-foot Emanation originating from the gas spore.\nFailure: The target takes 10 (3d6) Poison damage and has the Poisoned\ncondition for 1d12 hours. Unless the Poisoned condition is removed, the\ntarget dies at the end of that time and sprouts 2d4 Tiny Gas Spore Fungi\n(each with 1 Hit Point). After 2d6 days, they become Large and have 13\nHit Points.\nActions\nTendril. Melee Attack Roll: +0, reach 5 ft.\nHit: 3 (1d6) Poison damage, and the\ntarget has the Poisoned condition until the end of its next turn.\nLarge Plant, Unaligned\nA GAS SPORE AND CLUSTERS OF SHRIEKERS\nAND VIOLET FUNGI GROW IN THE UNDERDARK",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (F) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

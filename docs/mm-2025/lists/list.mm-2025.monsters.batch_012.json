@@ -1,0 +1,16 @@
+{
+  "id": "list.mm-2025.monsters.batch_012",
+  "name": "MM 2025 Monsters Batch 12",
+  "entries": [
+    {
+      "id": "monster.jackalwere",
+      "name": "JACKALWERE",
+      "file": "docs/mm-2025/monsters/monster.jackalwere.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (J) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

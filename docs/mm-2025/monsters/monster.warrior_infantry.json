@@ -1,0 +1,72 @@
+{
+  "id": "monster.warrior_infantry",
+  "name": "WARRIOR INFANTRY",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 9,
+  "hit_dice": "2d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Spear",
+      "text": "Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +0 (10)\nHP 9 (2d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t13 \t+1 \t+1\nDEX \t11 \t+0 \t+0\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t11 \t+0 \t+0\nCHA \t8 \t−1 \t−1\nGear Chain Shirt, Spear\nSenses Passive Perception 10\nLanguages Common\nCR 1/8 (XP 25; PB +2)\nTraits\nPack Tactics. The warrior has Advantage on an attack roll against a creature if\nat least one of the warrior’s allies is within 5 feet of the creature and the ally\ndoesn’t have the Incapacitated condition.\nActions\nSpear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft.\nHit: 4 (1d6\n+ 1) Piercing damage.\nMedium or Small Humanoid, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

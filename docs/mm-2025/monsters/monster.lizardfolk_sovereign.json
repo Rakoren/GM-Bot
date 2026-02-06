@@ -1,0 +1,67 @@
+{
+  "id": "monster.lizardfolk_sovereign",
+  "name": "LIZARDFOLK SOVEREIGN",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Neutral",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "hit_points": 78,
+  "hit_dice": "12d8 + 24",
+  "speed": "30 ft., Burrow 20 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Draconic, Primordial (Terran)",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The lizardfolk makes one Bite attack and one Earthen Maul attack."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +1 (11)\nHP 78 (12d8 + 24)\nSpeed 30 ft., Burrow 20 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t15 \t+2 \t+4\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t11 \t+0 \t+2\nCHA \t15 \t+2 \t+2\nSkills Perception +4, Stealth +5\nImmunities Frightened\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic, Primordial (Terran)\nCR 4 (XP 1,100; PB +2)\nActions\nMultiattack. The lizardfolk makes one Bite attack and one Earthen\nMaul attack.\nMedium Elemental, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (L) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

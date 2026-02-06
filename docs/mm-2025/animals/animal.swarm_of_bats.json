@@ -1,0 +1,72 @@
+{
+  "id": "animal.swarm_of_bats",
+  "name": "SWARM OF BATS",
+  "status": "complete",
+  "size_type_alignment": "Large Swarm of Tiny Beasts, Unaligned",
+  "size": "Large",
+  "creature_type": "Swarm of Beasts",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 11,
+  "hit_dice": "2d10",
+  "speed": "5 ft., Fly 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 11",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Swarm",
+      "text": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bites",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 11 (2d10)\nSpeed 5 ft., Fly 30 ft.\nMOD \tSAVE\nSTR \t5 \t−3 \t−3\nDEX \t15 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t4 \t−3 \t−3\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone,\nRestrained, Stunned\nSenses Blindsight 60 ft.; Passive Perception 11\nLanguages None\nCR 1/4 (XP 50; PB +2)\nTraits\nSwarm. The swarm can occupy another creature’s space and vice versa, and\nthe swarm can move through any opening large enough for a Tiny bat. The\nswarm can’t regain Hit Points or gain Temporary Hit Points.\nActions\nBites. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (2d4) Piercing damage, or 2 (1d4)\nPiercing damage if the swarm is Bloodied.\nLarge Swarm of Tiny Beasts, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

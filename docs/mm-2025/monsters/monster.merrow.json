@@ -1,0 +1,84 @@
+{
+  "id": "monster.merrow",
+  "name": "MERROW",
+  "status": "complete",
+  "size_type_alignment": "Large Monstrosity, Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Monstrosity",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "hit_points": 45,
+  "hit_dice": "6d10 + 12",
+  "speed": "10 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Abyssal, Primordial (Aquan)",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The merrow can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The merrow makes two attacks, using Bite, Claw, or Harpoon in any combination."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing damage, and the target has the Poisoned condition until the end of the merrow's next turn."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage."
+    },
+    {
+      "name": "Harpoon",
+      "text": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, the merrow pulls the target up to 15 feet straight toward itself."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 45 (6d10 + 12)\nSpeed 10 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t15 \t+2 \t+2\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t10 \t+0 \t+0\nCHA \t9 \t−1 \t−1\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Abyssal, Primordial (Aquan)\nCR 2 (XP 450; PB +2)\nTraits\nAmphibious. The merrow can breathe air and water.\nActions\nMultiattack. The merrow makes two attacks, using Bite, Claw, or Harpoon in any combination.\nBite. Melee Attack Roll: +6, reach 5 ft.\nHit: 6 (1d4 + 4) Piercing damage, and the target has the\nPoisoned condition until the end of the merrow’s next turn.\nClaw. Melee Attack Roll: +6, reach 5 ft.\nHit: 9 (2d4 + 4) Slashing damage.\nHarpoon. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 20/60 ft.\nHit: 11 (2d6 + 4) Piercing\ndamage. If the target is a Large or smaller creature, the merrow pulls the target up to 15 feet straight\ntoward itself.\nLarge Monstrosity, Chaotic Evil\n1d6 \tThe Mezzoloth Agrees to Serve For...\n5 \tThe right to loot holy sites in places it conquers.\n6 \tSouls, whether as larvae or captured spirits.\nMimic\nShape-Shifter Disguised as an Unassuming Object\nHabitat: Underdark, Urban; Treasure: Any\nIf a mezzoloth’s after ya, just pay it off with whatever’s in your\npack. While it’s rooting around looking for a good deal, you\nhightail it, Chief!\n—MORTE",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

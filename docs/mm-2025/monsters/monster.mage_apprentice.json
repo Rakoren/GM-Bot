@@ -1,0 +1,71 @@
+{
+  "id": "monster.mage_apprentice",
+  "name": "MAGE APPRENTICE",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid (Wizard), Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid (Wizard)",
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "hit_points": 49,
+  "hit_dice": "9d8 + 9",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +5, Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "Common plus one other language",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Arcane Burst",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft. Hit: 14 (2d10 + 3) Force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 13, +5 to hit with spell attacks): At Will: Mage Hand, Prestidigitation 1/Day Each: Disguise Self, Ice Knife, Mage Armor (included in AC), Thunderwave"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 49 (9d8 + 9)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t8 \t−1 \t−1\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t16 \t+3 \t+5\nWIS \t13 \t+1 \t+3\nCHA \t10 \t+0 \t+0\nSkills Arcana +5, Perception +3\nGear Component Pouch\nSenses Passive Perception 13\nLanguages Common plus one other language\nCR 2 (XP 450; PB +2)\nActions\nArcane Burst. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 120 ft.\nHit:\n14 (2d10 + 3) Force damage.\nSpellcasting. The mage casts one of the following spells, using Intelligence as\nthe spellcasting ability (spell save DC 13, +5 to hit with spell attacks):\nAt Will:\nMage Hand,\nPrestidigitation\n1/Day Each:\nDisguise Self,\nIce Knife,\nMage Armor (included in\nAC),\nThunderwave\nMedium or Small Humanoid (Wizard), Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

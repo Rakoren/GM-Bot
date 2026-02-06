@@ -1,0 +1,76 @@
+{
+  "id": "monster.kobold_warrior",
+  "name": "KOBOLD WARRIOR",
+  "status": "complete",
+  "size_type_alignment": "Small Dragon, Neutral",
+  "size": "Small",
+  "creature_type": "Dragon",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "hit_points": 7,
+  "hit_dice": "3d6 − 3",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 8",
+  "languages": "Common, Draconic",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the kobold has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Dagger",
+      "text": "Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +2 (12)\nHP 7 (3d6 − 3)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t7 \t−2 \t−2\nDEX \t15 \t+2 \t+2\nCON \t9 \t−1 \t−1\nMOD \tSAVE\nINT \t8 \t−1 \t−1\nWIS \t7 \t−2 \t−2\nCHA \t8 \t−1 \t−1\nGear Daggers (3)\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages Common, Draconic\nCR 1/8 (XP 25; PB +2)\nTraits\nPack Tactics. The kobold has Advantage on an attack roll against a creature\nif at least one of the kobold’s allies is within 5 feet of the creature and the\nally doesn’t have the Incapacitated condition.\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability\nchecks and attack rolls.\nActions\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft.\nHit: 4\n(1d4 + 2) Piercing damage.\nSmall Dragon, Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,111 @@
+{
+  "id": "monster.adult_bronze_dragon",
+  "name": "ADULT BRONZE DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Huge Dragon (Metallic), Lawful Good",
+  "size": "Huge",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armor_class": 18,
+  "hit_points": 212,
+  "hit_dice": "17d12 + 102",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": "Insight +7, Perception +12, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22",
+  "languages": "Common, Draconic",
+  "cr": "15 (XP 13,000, or 15,000 in lair; PB +5)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack"
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage."
+    },
+    {
+      "name": "Repulsion Breath",
+      "text": "Strength Saving Throw: DC 19, each creature in a 30-foot Cone. Failure: The target is pushed up to 60 feet straight away from the dragon and has the Prone condition."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17, +10 to hit with spell attacks): At Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Guiding Light",
+      "text": "The dragon uses Spellcasting to cast Guiding Bolt (level 2 version)."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    },
+    {
+      "name": "Thunderclap",
+      "text": "Constitution Saving Throw: DC 17, each creature in a 20-foot- radius Sphere centered on a point the dragon can see within 90 feet. Failure: 10 (3d6) Thunder damage, and the target has the Deafened condition until the end of its next turn. Ancient Bronze Dragon"
+    },
+    {
+      "name": "Ancient bronze dragons develop dramatic patinas on their glimmering scales",
+      "text": "These dragons strive to protect whole regions, continents, or planets from threats. They seek solutions to planes-spanning calamities or multiversal perils and oppose the evil of mighty chromatic dragons AN ANCIENT BRONZE DRAGON USES ITS REPULSION BREATH TO PROTECT A COMMUNITY FROM RAMPAGING WATER ELEMENTALS"
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +10 (20)\nHP 212 (17d12 + 102)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t25 \t+7 \t+7\nDEX \t10 \t+0 \t+5\nCON \t23 \t+6 \t+6\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t15 \t+2 \t+7\nCHA \t20 \t+5 \t+5\nSkills Insight +7, Perception +12, Stealth +5\nImmunities Lightning\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22\nLanguages Common, Draconic\nCR 15 (XP 13,000, or 15,000 in lair; PB +5)\nTraits\nAmphibious. The dragon can breathe air and water.\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of (A) Repulsion Breath or (B) Spellcasting to cast\nGuiding Bolt\n(level 2 version).\nRend. Melee Attack Roll: +12, reach 10 ft.\nHit: 16 (2d8 + 7) Slashing damage\nplus 5 (1d10) Lightning damage.\nLightning Breath (Recharge 5–6).\nDexterity Saving Throw: DC 19, each creature\nin a 90-foot-long, 5-foot-wide Line.\nFailure: 55 (10d10) Lightning damage.\nSuccess: Half damage.\nRepulsion Breath. Strength Saving Throw: DC 19, each creature in a 30-foot\nCone.\nFailure: The target is pushed up to 60 feet straight away from the dragon\nand has the Prone condition.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 17, +10 to hit with spell attacks):\nAt Will:\nDetect Magic,\nGuiding Bolt (level 2 version),\nShapechange (Beast or\nHumanoid form only, no Temporary Hit Points gained from the spell, and no\nConcentration or Temporary Hit Points required to maintain the spell),\nSpeak\nwith Animals,\nThaumaturgy\n1/Day Each:\nDetect Thoughts,\nWater Breathing\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nGuiding Light. The dragon uses Spellcasting to cast\nGuiding Bolt (level\n2 version).\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nThunderclap. Constitution Saving Throw: DC 17, each creature in a 20-foot-\nradius Sphere centered on a point the dragon can see within 90 feet.\nFailure: 10\n(3d6) Thunder damage, and the target has the Deafened condition until the end\nof its next turn.\nHuge Dragon (Metallic), Lawful Good\nAncient Bronze Dragon\nAncient bronze dragons develop dramatic patinas on their glimmering scales. These dragons strive to protect whole regions, continents, or planets from\nthreats. They seek solutions to planes-spanning calamities or multiversal perils and oppose the evil of mighty chromatic dragons\nAN ANCIENT BRONZE DRAGON USES ITS REPULSION BREATH TO\nPROTECT A COMMUNITY FROM RAMPAGING WATER ELEMENTALS",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

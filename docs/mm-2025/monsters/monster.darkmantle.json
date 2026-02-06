@@ -1,0 +1,75 @@
+{
+  "id": "monster.darkmantle",
+  "name": "DARKMANTLE",
+  "status": "complete",
+  "size_type_alignment": "Small Aberration, Unaligned",
+  "size": "Small",
+  "creature_type": "Aberration",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 22,
+  "hit_dice": "5d6 + 5",
+  "speed": "10 ft., Fly 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Crush",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage, and the darkmantle attaches to the target. If the target is a Medium or smaller creature and the darkmantle had Advantage on the attack roll, it covers the target, which has the Blinded condition and is suffocating while the darkmantle is attached in this way. While attached to a target, the darkmantle can attack only the target but has Advantage on its attack rolls. Its Speed becomes 0, it can't benefit from any bonus to its Speed, and it moves with the target. A creature can take an action to try to detach the darkmantle from itself, doing so with a successful DC 13 Strength (Athletics) check. On its turn, the darkmantle can detach itself by using 5 feet of movement."
+    },
+    {
+      "name": "Darkness Aura (1/Day)",
+      "text": "Magical Darkness fills a 15-foot Emanation originating from the darkmantle. This effect lasts while the darkmantle maintains"
+    },
+    {
+      "name": "Concentration on it, up to 10 minutes",
+      "text": "Darkvision can't penetrate this area, and no light can illuminate it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +3 (13)\nHP 22 (5d6 + 5)\nSpeed 10 ft., Fly 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t12 \t+1 \t+1\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t5 \t−3 \t−3\nSkills Stealth +3\nSenses Blindsight 60 ft.; Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\nActions\nCrush. Melee Attack Roll: +5, reach 5 ft.\nHit: 6 (1d6 + 3) Bludgeoning damage,\nand the darkmantle attaches to the target. If the target is a Medium or smaller\ncreature and the darkmantle had Advantage on the attack roll, it covers the\ntarget, which has the Blinded condition and is suffocating while the darkmantle\nis attached in this way.\nWhile attached to a target, the darkmantle can attack only the target but has\nAdvantage on its attack rolls. Its Speed becomes 0, it can’t benefit from any\nbonus to its Speed, and it moves with the target.\nA creature can take an action to try to detach the darkmantle from itself, doing\nso with a successful DC 13 Strength (Athletics) check. On its turn, the\ndarkmantle can detach itself by using 5 feet of movement.\nDarkness Aura (1/Day). Magical Darkness fills a 15-foot Emanation originating\nfrom the darkmantle. This effect lasts while the darkmantle maintains\nConcentration on it, up to 10 minutes. Darkvision can’t penetrate this area, and\nno light can illuminate it.\nSmall Aberration, Unaligned\nDeath Dog\nTwo-Headed Spreader of Disease\nHabitat: Desert; Treasure: None\n...and his sorrows will stalk your land like hungry dogs until the\nseas turn to sand and the sun burns to cinders.\n—TABLET FRAGMENT FROM THE BRIGHT DESERT\nDeath dogs are plagues on the arid lands they inhabit. These vicious, two-headed canines ambush creatures they perceive as weaker than themselves,\nfavoring the wounded or infirm. They attack recklessly, infecting as many creatures as possible with their diseased jaws. If driven off, death dogs linger\nclose to their victims, letting infection weaken their prey before they attack again.\nLegends tie death dogs to malicious death gods, the underworld, and cursed rulers. These stories are based on the malady death dogs spread. Roll on or\nchoose a result from the Death Dog Malady Symptoms table to inspire symptoms spread by a death dog’s bite. These symptoms are cosmetic and don’t\nalter the effects of the death dog’s Bite action. The symptoms vanish when a creature no longer has the Poisoned condition from a death dog’s Bite.\nDeath Dog Malady Symptoms\n1d6 \tThe Death Dog’s Malady Causes...\n1 \tMarks from canine jaws to appear on the victim’s body, as if they were still being mauled.\n2 \tThe victim’s body to wither, as if constantly exposed to desert heat.\n3 \tThe victim to be distracted by distant howling or vague whispers only they can hear.\n4 \tThe victim’s flesh to rot like a corpse.\n5 \tThe victim to itch, as if they had fleas or sand beneath their skin.\n6 \tWicked symbols to gradually appear on and spread across the victim’s body.\nDeath Knights\nHaunted Commanders of Unliving Legions\nHabitat: Any; Treasure: Armaments",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

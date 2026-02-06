@@ -1,0 +1,76 @@
+{
+  "id": "animal.hippopotamus",
+  "name": "HIPPOPOTAMUS",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 82,
+  "hit_dice": "11d10 + 22",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 13",
+  "languages": "None",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Hold Breath",
+      "text": "The hippopotamus can hold its breath for 10 minutes."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hippopotamus makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative −2 (8)\nHP 82 (11d10 + 22)\nSpeed 30 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+7\nDEX \t7 \t−2 \t−2\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t4 \t−3 \t−3\nSkills Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 4 (XP 1,100; PB +2)\nTraits\nHold Breath. The hippopotamus can hold its breath for 10 minutes.\nActions\nMultiattack. The hippopotamus makes two Bite attacks.\nBite. Melee Attack Roll: +7, reach 5 ft.\nHit: 16 (2d10 + 5) Piercing damage.\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

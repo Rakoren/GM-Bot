@@ -1,0 +1,79 @@
+{
+  "id": "animal.giant_constrictor_snake",
+  "name": "GIANT CONSTRICTOR SNAKE",
+  "status": "complete",
+  "size_type_alignment": "Huge Beast, Unaligned",
+  "size": "Huge",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 60,
+  "hit_dice": "8d12 + 8",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The snake makes one Bite attack and uses Constrict."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage."
+    },
+    {
+      "name": "Constrict",
+      "text": "Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14). We skirted the coastlines of several islands, sailing south by west until we reached a small peninsula cut off from the main island by a massive stone wall. We were well received by the people of Tanaroa, the small village that guards this wall. The villagers have no name for the large island other than the Isle of"
+    },
+    {
+      "name": "Dread",
+      "text": "-RORY BARBAROSA,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 60 (8d12 + 8)\nSpeed 30 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t10 \t+0 \t+0\nCHA \t3 \t−4 \t−4\nSkills Perception +2\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 2 (XP 450; PB +2)\nActions\nMultiattack. The snake makes one Bite attack and uses Constrict.\nBite. Melee Attack Roll: +6, reach 10 ft.\nHit: 11 (2d6 + 4) Piercing damage.\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the\nsnake can see within 10 feet.\nFailure: 13 (2d8 + 4) Bludgeoning damage, and\nthe target has the Grappled condition (escape DC 14).\nHuge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

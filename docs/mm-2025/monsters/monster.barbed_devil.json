@@ -1,0 +1,96 @@
+{
+  "id": "monster.barbed_devil",
+  "name": "BARBED DEVIL",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Devil), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "hit_points": 110,
+  "hit_dice": "13d8 + 52",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +5, Insight +5, Perception +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Infernal; telepathy 120 ft.",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Barbed Hide",
+      "text": "At the start of each of its turns, the devil deals 5 (1d10) Piercing damage to any creature it is grappling or any creature grappling it."
+    },
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The devil makes one Claws attack and one Tail attack, or it makes two Hurl Flame attacks."
+    },
+    {
+      "name": "Claws",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape"
+    },
+    {
+      "name": "DC 13) from both claws",
+      "text": ""
+    },
+    {
+      "name": "Tail",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing damage."
+    },
+    {
+      "name": "Hurl Flame",
+      "text": "Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning. Barlgura"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +3 (13)\nHP 110 (13d8 + 52)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+6\nDEX \t17 \t+3 \t+3\nCON \t18 \t+4 \t+7\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t14 \t+2 \t+5\nCHA \t14 \t+2 \t+5\nSkills Deception +5, Insight +5, Perception +8\nResistances Cold\nImmunities Fire, Poison; Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive\nPerception 18\nLanguages Infernal; telepathy 120 ft.\nCR 5 (XP 1,800; PB +3)\nTraits\nBarbed Hide. At the start of each of its turns, the devil deals 5 (1d10) Piercing\ndamage to any creature it is grappling or any creature grappling it.\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body\ndisappears in sulfurous smoke, and it gains a new body instantly, reviving with\nall its Hit Points somewhere in the Nine Hells.\nMagic Resistance. The devil has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The devil makes one Claws attack and one Tail attack, or it makes\ntwo Hurl Flame attacks.\nClaws. Melee Attack Roll: +6, reach 5 ft.\nHit: 10 (2d6 + 3) Piercing damage. If\nthe target is a Large or smaller creature, it has the Grappled condition (escape\nDC 13) from both claws.\nTail. Melee Attack Roll: +6, reach 10 ft.\nHit: 14 (2d10 + 3) Slashing damage.\nHurl Flame. Ranged Attack Roll: +5, range 150 ft.\nHit: 17 (5d6) Fire damage.\nIf the target is a flammable object that isn’t being worn or carried, it\nstarts burning.\nMedium Fiend (Devil), Lawful Evil\nBarlgura\nDemon of Instinct and Primal Violence\nHabitat: Planar (Abyss); Treasure: Any\nBarlguras are demons that embody brutality and killer instincts. They ruthlessly hunt creatures that enter their territories, whether such places are Abyssal\nwildernesses or locations where these demons have been conjured by wicked magic-users. Barlguras litter their territories with fiendish icons and terrifying\nevidence of their kills.\nBarlguras cooperate with other demons, particularly other barlguras, so long as they have ample prey. Should a region be depleted of creatures to slaughter,\nthese demons turn on one another in frays that can devastate vast expanses.\nBarlguras vary in appearance, but all have powerful frames and hands capable of climbing swiftly and delivering crushing blows. If brute force isn’t enough\nto overwhelm their foes, barlguras can use demonic magic to conjure terrifying illusions and grasping vines. Most barlguras resemble nightmarish apes,\nand some bear exaggerated versions of features of predators common to the lands the barlguras inhabit. Many embed trophies from past hunts in their\ndemonic bodies.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

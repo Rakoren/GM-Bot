@@ -1,0 +1,41 @@
+{
+  "id": "list.mm-2025.monsters.batch_011",
+  "name": "MM 2025 Monsters Batch 11",
+  "entries": [
+    {
+      "id": "monster.ice_devil",
+      "name": "ICE DEVIL",
+      "file": "docs/mm-2025/monsters/monster.ice_devil.json"
+    },
+    {
+      "id": "monster.imp",
+      "name": "IMP",
+      "file": "docs/mm-2025/monsters/monster.imp.json"
+    },
+    {
+      "id": "monster.incubus",
+      "name": "INCUBUS",
+      "file": "docs/mm-2025/monsters/monster.incubus.json"
+    },
+    {
+      "id": "monster.intellect_devourer",
+      "name": "INTELLECT DEVOURER",
+      "file": "docs/mm-2025/monsters/monster.intellect_devourer.json"
+    },
+    {
+      "id": "monster.invisible_stalker",
+      "name": "INVISIBLE STALKER",
+      "file": "docs/mm-2025/monsters/monster.invisible_stalker.json"
+    },
+    {
+      "id": "monster.iron_golem",
+      "name": "IRON GOLEM",
+      "file": "docs/mm-2025/monsters/monster.iron_golem.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (I) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

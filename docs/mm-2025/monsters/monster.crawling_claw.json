@@ -1,0 +1,67 @@
+{
+  "id": "monster.crawling_claw",
+  "name": "CRAWLING CLAW",
+  "status": "complete",
+  "size_type_alignment": "Tiny Undead, Neutral Evil",
+  "size": "Tiny",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "hit_points": 2,
+  "hit_dice": "1d4",
+  "speed": "20 ft., Climb 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 10",
+  "languages": "Understands Common but can’t speak",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 2 Necrotic damage. Is it possible for any creature, any living being, to be inherently evil? Such an assertion may itself facilitate the committing of evil acts. By defining a person as evil, we give them free rein to behave as they will, absolving them from the wickedness of their words and the evil of their hands. -ANSOLM HAAS,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 2 (1d4)\nSpeed 20 ft., Climb 20 ft.\nTiny Undead, Neutral Evil\nSwarm of Crawling Claws\nSwarms of crawling claws are typically animated by depraved necromancers. Occasionally, these grotesque swarms arise from mass graves or after\ntragedies, refusing to let their murderers escape their grasp.\nCultists\nDoomsayers and Fanatics\nHabitat: Any; Treasure: Individual, Relics\nMOD \tSAVE\nSTR \t13 \t+1 \t+1\nDEX \t14 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nImmunities Necrotic, Poison; Charmed, Exhaustion, Frightened,\nIncapacitated, Poisoned\nSenses Blindsight 30 ft.; Passive Perception 10\nLanguages Understands Common but can’t speak\nCR 0 (XP 10; PB +2)\nActions\nSlam. Melee Attack Roll: +3, reach 5 ft.\nHit: 2 Necrotic damage.\nIs it possible for any creature, any living being, to be inherently\nevil? Such an assertion may itself facilitate the committing of\nevil acts. By defining a person as evil, we give them free rein to\nbehave as they will, absolving them from the wickedness of\ntheir words and the evil of their hands.\n—ANSOLM HAAS,\nTHE ISOLATION OF EVIL",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

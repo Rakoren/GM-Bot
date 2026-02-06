@@ -1,0 +1,80 @@
+{
+  "id": "monster.beholder_zombie",
+  "name": "BEHOLDER ZOMBIE",
+  "status": "complete",
+  "size_type_alignment": "Large Undead, Neutral Evil",
+  "size": "Large",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "hit_points": 93,
+  "hit_dice": "11d10 + 33",
+  "speed": "5 ft., Fly 20 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": "Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Exhaustion, Poisoned, Prone",
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "Understands Deep Speech and Undercommon but can’t speak",
+  "cr": "5 (XP 1,800; PB +3)",
+  "traits": [
+    {
+      "name": "Undead Fortitude",
+      "text": "If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The zombie uses Eye Rays twice."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 16 (4d6 + 2) Piercing damage."
+    },
+    {
+      "name": "Eye Rays",
+      "text": "The zombie randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d4; reroll if the zombie has already used that ray during this turn): 1. Paralyzing Ray. Constitution Saving Throw: DC 14. Failure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. 2. Fear Ray. Wisdom Saving Throw: DC 14. Failure: 13 (3d8) Psychic damage, and the target has the Frightened condition until the end of its next turn. 3. Enervation Ray. Constitution Saving Throw: DC 14. Failure: 10 (3d6) Necrotic damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points. Success: Half damage only. 4. Disintegration Ray. Dexterity Saving Throw: DC 14. Failure: 27 (5d10) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube of it disintegrates into dust. Success: Half damage. Failure or Success: If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative -1 (9)\nHP 93 (11d10 + 33)\nSpeed 5 ft., Fly 20 ft. (hover)\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t8 \t-1 \t-1\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t3 \t-4 \t-4\nWIS \t8 \t-1 \t+2\nCHA \t5 \t-3 \t-3\nImmunities Poison; Exhaustion, Poisoned, Prone\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Understands Deep Speech and Undercommon but can't speak\nCR 5 (XP 1,800; PB +3)\nTraits\nUndead Fortitude. If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.\nActions\nMultiattack. The zombie uses Eye Rays twice.\nBite. Melee Attack Roll: +5, reach 5 ft.\nHit: 16 (4d6 + 2) Piercing damage.\nEye Rays. The zombie randomly shoots one of the following magical rays at a target it can see within 120 feet of itself (roll 1d4; reroll if the zombie has already used that ray during this turn):\n1. Paralyzing Ray. Constitution Saving Throw: DC 14.\nFailure: The target has the Paralyzed condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n2. Fear Ray. Wisdom Saving Throw: DC 14.\nFailure: 13 (3d8) Psychic damage, and the target has the Frightened condition until the end of its next turn.\n3. Enervation Ray. Constitution Saving Throw: DC 14.\nFailure: 10 (3d6) Necrotic damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target can't regain Hit Points.\nSuccess: Half damage only.\n4. Disintegration Ray. Dexterity Saving Throw: DC 14.\nFailure: 27 (5d10) Force damage. If the target is a nonmagical object or a creation of magical force, a 10-foot Cube of it disintegrates into dust.\nSuccess: Half damage.\nFailure or Success: If the target is a creature and this damage reduces it to 0 Hit Points, it disintegrates into dust.\nLarge Undead, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Z) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

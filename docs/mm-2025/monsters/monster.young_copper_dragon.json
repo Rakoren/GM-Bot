@@ -1,0 +1,79 @@
+{
+  "id": "monster.young_copper_dragon",
+  "name": "YOUNG COPPER DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Large Dragon (Metallic), Chaotic Good",
+  "size": "Large",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "armor_class": 17,
+  "hit_points": 119,
+  "hit_dice": "14d10 + 42",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +5, Perception +7, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17",
+  "languages": "Common, Draconic",
+  "cr": "7 (XP 2,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Slowing Breath."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage."
+    },
+    {
+      "name": "Acid Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 40 (9d8) Acid damage. Success: Half damage."
+    },
+    {
+      "name": "Slowing Breath",
+      "text": "Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +4 (14)\nHP 119 (14d10 + 42)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+4\nDEX \t12 \t+1 \t+4\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t13 \t+1 \t+4\nCHA \t15 \t+2 \t+2\nSkills Deception +5, Perception +7, Stealth +4\nImmunities Acid\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\nLanguages Common, Draconic\nCR 7 (XP 2,900; PB +3)\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of Slowing Breath.\nRend. Melee Attack Roll: +7, reach 10 ft.\nHit: 15 (2d10 + 4) Slashing damage.\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature\nin a 40-foot-long, 5-foot-wide Line.\nFailure: 40 (9d8) Acid damage.\nSuccess:\nHalf damage.\nSlowing Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot\nCone.\nFailure: The target can’t take Reactions; its Speed is halved; and it can\ntake either an action or a Bonus Action on its turn, not both. This effect lasts\nuntil the end of its next turn.\nLarge Dragon (Metallic), Chaotic Good\nAdult copper dragons use their influence to better the world. With broad circles of friends, adult copper dragons delight in introducing people to one another\nand helping people find places where they can flourish. When disaster strikes, these dragons draw on their family of contacts to offer support, right wrongs,\nand rebuild stronger than before.\nSURROUNDED BY GUARDIANS OF THE FOREST, AN ADULT COPPER\nDRAGON BEQUEATHS A MAGIC SWORD TO A WORTHY HERO",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

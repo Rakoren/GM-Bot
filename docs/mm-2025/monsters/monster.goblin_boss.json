@@ -1,0 +1,85 @@
+{
+  "id": "monster.goblin_boss",
+  "name": "GOBLIN BOSS",
+  "status": "complete",
+  "size_type_alignment": "Small Fey (Goblinoid), Chaotic Neutral",
+  "size": "Small",
+  "creature_type": "Fey (Goblinoid)",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 17,
+  "hit_points": 21,
+  "hit_dice": "6d6",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "Common, Goblin",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The goblin makes two attacks, using Scimitar or Shortbow in any combination."
+    },
+    {
+      "name": "Scimitar",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage, plus 2 (1d4) Slashing damage if the attack roll had Advantage."
+    },
+    {
+      "name": "Shortbow",
+      "text": "Ranged Attack Roll: +4, range 80/320 ft. Hit: 5 (1d6 + 2) Piercing damage, plus 2 (1d4) Piercing damage if the attack roll had Advantage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Nimble Escape",
+      "text": "The goblin takes the Disengage or Hide action."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Redirect Attack",
+      "text": "Trigger: A creature the goblin can see makes an attack roll against it. Response: The goblin chooses a Small or Medium ally within 5 feet of itself. The goblin and that ally swap places, and the ally becomes the target of the attack instead."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +2 (12)\nHP 21 (6d6)\nSpeed 30 ft.\nSmall Fey (Goblinoid), Chaotic Neutral\nGoblin Hexer\nGoblin hexers use flashy and disruptive magic. Many goblin hexers are theatrical, dressing and behaving in exaggerated mimicry of archmages.\nGold Dragons\nDragons of Hope and Majesty\nHabitat: Forest, Grassland; Treasure: Arcana\nGold dragons work to make the world a better place. The most powerful of the metallic dragons, these awe-inspiring dragons strive to protect that which is\ngood and bend fate toward a brighter future. Their kind dispositions don’t prevent gold dragons from engaging in combat when necessary, though, and they\nexhale brilliant flames and weakening magic to rout their foes.\nGold dragons favor grasslands and pristine forests, frequently dwelling near awe-inspiring natural wonders or guarding monuments from ancient\ncivilizations. In their lairs, gold dragons hoard coins and gems, but they frequently put their treasure to use in pursuit of greater goals. They often use their\nriches to buy rare lore books, pay informants, or patronize idealistic adventurers.\nGold Dragon Wyrmling\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t15 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t8 \t−1 \t−1\nCHA \t10 \t+0 \t+0\nSkills Stealth +6\nGear Chain Shirt, Scimitar, Shield, Shortbow\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Common, Goblin\nCR 1 (XP 200; PB +2)\nActions\nMultiattack. The goblin makes two attacks, using Scimitar or Shortbow in\nany combination.\nScimitar. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Slashing damage,\nplus 2 (1d4) Slashing damage if the attack roll had Advantage.\nShortbow. Ranged Attack Roll: +4, range 80/320 ft.\nHit: 5 (1d6 + 2) Piercing\ndamage, plus 2 (1d4) Piercing damage if the attack roll had Advantage.\nBonus Actions\nNimble Escape. The goblin takes the Disengage or Hide action.\nReactions\nRedirect Attack. Trigger: A creature the goblin can see makes an attack roll\nagainst it.\nResponse: The goblin chooses a Small or Medium ally within 5 feet\nof itself. The goblin and that ally swap places, and the ally becomes the target\nof the attack instead.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

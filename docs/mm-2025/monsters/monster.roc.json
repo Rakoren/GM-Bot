@@ -1,0 +1,71 @@
+{
+  "id": "monster.roc",
+  "name": "ROC",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Monstrosity, Unaligned",
+  "size": "Gargantuan",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "hit_points": 248,
+  "hit_dice": "16d20 + 80",
+  "speed": "20 ft., Fly 120 ft.",
+  "abilities": {
+    "STR": {
+      "score": 28,
+      "mod": "+9"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 9,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 18",
+  "languages": "None",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The roc makes two Beak attacks. It can replace one attack with a Talons attack."
+    },
+    {
+      "name": "Beak",
+      "text": "Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +8 (18)\nHP 248 (16d20 + 80)\nSpeed 20 ft., Fly 120 ft.\nMOD \tSAVE\nSTR \t28 \t+9 \t+9\nDEX \t10 \t+0 \t+4\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t10 \t+0 \t+4\nCHA \t9 \t−1 \t−1\nSkills Perception +8\nSenses Passive Perception 18\nLanguages None\nCR 11 (XP 7,200; PB +4)\nActions\nMultiattack. The roc makes two Beak attacks. It can replace one attack with a\nTalons attack.\nBeak. Melee Attack Roll: +13, reach 10 ft.\nHit: 28 (3d12 + 9) Piercing damage.\nGargantuan Monstrosity, Unaligned\nRoper\nTentacled Subterranean Trapper\nHabitat: Underdark; Treasure: Any\nCamouflaged as rock formations, ropers are aberrant ambushers that lurk in wait\nfor smaller creatures. These bizarre subterranean hunters extend their rubbery\ntentacles to explore and prod their surroundings, often reaching beyond their\nfields of vision. Should they encounter prey, these limbs ensnare victims and drag\nthem close to ropers’ toothy maws. If these tentacles are severed, ropers rapidly\ngrow replacements.\nRopers can move, albeit slowly. Crawling on the sticky cilia that cover their\nundersides, ropers can climb walls and suspend themselves from ceilings. These\nhunters often position themselves in unexpected or treacherous locations, using\ntheir surroundings to weaken their prey. Roll on or choose a result from the Roper\nHazards table to inspire what dangers ropers employ when ambushing prey.\nRoper Hazards\n1d8 \tThe Roper Drags Prey Through...\n1 \tAreas that trigger traps.\n2 \tCaverns filled with smoke or gas.\n3 \tDead magic* or wild magic* zones.\n4 \tThe lair of a creature it is trying to bait out.\n5 \tA nest of rats, insects, or other vermin.\n6 \tPatches of brown mold* or green slime*.\n7 \tPools of magma or boiling water.\n8 \tRazorvine* or similar dangerous plants.\n*See the\nDungeon Master’s Guide.\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage.\nIf the target is a Huge or smaller creature, it has the Grappled condition\n(escape DC 19) from both talons, and it has the Restrained condition until the\ngrapple ends.\nBonus Actions\nSwoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies\nup to half its Fly Speed without provoking Opportunity Attacks and drops\nthat creature.\nRule 9: Never trust a stalagmite.\n—X THE MYSTIC’S\nRULES OF DUNGEON SURVIVAL\nRust Monster\nCorrosive, Equipment-Eating Scavenger\nHabitat: Underdark; Treasure: None\nRust monsters roam the Underdark searching for ferrous metal. When they find this material—whether natural veins, subterranean structures, or creatures’\nequipment—these beetle-like scavengers rush to feed. Using their feathery antennae, rust monsters dissolve metals such as iron and steel into rusted scrap.\nThey easily gnaw through this corroded metal using their mandibles. Rust monsters usually ignore creatures without metal equipment, but they defend\nthemselves if attacked.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

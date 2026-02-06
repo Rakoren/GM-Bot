@@ -1,0 +1,99 @@
+{
+  "id": "monster.demilich",
+  "name": "DEMILICH",
+  "status": "complete",
+  "size_type_alignment": "Tiny Undead, Neutral Evil",
+  "size": "Tiny",
+  "creature_type": "Undead",
+  "alignment": "Neutral Evil",
+  "armor_class": 20,
+  "hit_points": 180,
+  "hit_dice": "72d4",
+  "speed": "5 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": "Bludgeoning, Piercing, Slashing",
+  "immunities": "Necrotic, Poison, Psychic",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Prone, Stunned",
+  "senses": "Truesight 120 ft.; Passive Perception 13",
+  "languages": "None",
+  "cr": "18 (XP 20,000, or 22,000 in lair; PB +6)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the demilich fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Undead Restoration",
+      "text": "If the demilich is destroyed, it reforms and regains all its Hit Points in 1d10 days unless a Wish spell is cast on its remains."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The demilich makes three Necrotic Burst attacks."
+    },
+    {
+      "name": "Necrotic Burst",
+      "text": "Melee or Ranged Attack Roll: +11, reach 5 ft. or range 120 ft. Hit: 24 (7d6) Necrotic damage."
+    },
+    {
+      "name": "Howl (Recharge 5-6)",
+      "text": "Constitution Saving Throw: DC 19, each creature in a 30- foot Emanation originating from the demilich. Failure: 70 (20d6) Psychic damage. Failure or Success: The target has the Frightened condition until the start of the demilich's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Energy Drain",
+      "text": "Constitution Saving Throw: DC 19, one creature the demilich can see within 120 feet. Failure: The target's Hit Point maximum decreases by 14 (4d6). Failure or Success: The demilich can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Grave-Dust Flight",
+      "text": "The demilich flies up to its Fly Speed, shedding grave dust. Each creature within 5 feet of the demilich as it moves is targeted once by the following effect. Constitution Saving Throw: DC 19. Failure: The target has the Blinded condition until the end of the demilich's next turn. Failure or Success: The demilich can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Necrosis",
+      "text": "The demilich makes one Necrotic Burst attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +17 (27)\nHP 180 (72d4)\nSpeed 5 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t20 \t+5 \t+11\nCON \t10 \t+0 \t+6\nMOD \tSAVE\nINT \t20 \t+5 \t+11\nWIS \t17 \t+3 \t+9\nCHA \t20 \t+5 \t+5\nResistances Bludgeoning, Piercing, Slashing\nImmunities Necrotic, Poison, Psychic; Charmed, Deafened, Exhaustion,\nFrightened, Paralyzed, Petrified, Poisoned, Prone, Stunned\nSenses Truesight 120 ft.; Passive Perception 13\nLanguages None\nCR 18 (XP 20,000, or 22,000 in lair; PB +6)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the demilich fails a saving\nthrow, it can choose to succeed instead.\nUndead Restoration. If the demilich is destroyed, it reforms and regains all its\nHit Points in 1d10 days unless a\nWish spell is cast on its remains.\nActions\nMultiattack. The demilich makes three Necrotic Burst attacks.\nNecrotic Burst. Melee or Ranged Attack Roll: +11, reach 5 ft. or range 120 ft.\nHit: 24 (7d6) Necrotic damage.\nHowl (Recharge 5–6). Constitution Saving Throw: DC 19, each creature in a 30-\nfoot Emanation originating from the demilich.\nFailure: 70 (20d6) Psychic\ndamage.\nFailure or Success: The target has the Frightened condition until the\nstart of the demilich’s next turn.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe demilich can expend a use to take one of the following actions. The\ndemilich regains all expended uses at the start of each of its turns.\nEnergy Drain. Constitution Saving Throw: DC 19, one creature the demilich can\nsee within 120 feet.\nFailure: The target’s Hit Point maximum decreases by 14\n(4d6).\nFailure or Success: The demilich can’t take this action again until the\nstart of its next turn.\nGrave-Dust Flight. The demilich flies up to its Fly Speed, shedding grave dust.\nEach creature within 5 feet of the demilich as it moves is targeted once by the\nfollowing effect.\nConstitution Saving Throw: DC 19.\nFailure: The target has the\nBlinded condition until the end of the demilich’s next turn.\nFailure or Success:\nThe demilich can’t take this action again until the start of its next turn.\nNecrosis. The demilich makes one Necrotic Burst attack.\nTiny Undead, Neutral Evil\nDeva\nWorld-Changing Angelic Messenger\nHabitat: Planar (Upper Planes); Treasure: Relics\nDevas are emissaries of divine will. These immortal messengers adopt the\nshapes of mystical beasts or idealized, winged mortals. As with all angels, their\ntrue forms are known only to the gods they serve.\nRather than literal correspondence from a god, a deva conveys an allegory or\nquest to mortals, tasking them with delivering something to its rightful place.\nWhile the angel might be called on in times of need, it encourages mortal\nheroism. Should a deva’s chosen champions carry out their charge, they\nexperience a revelation or the world is changed in line with divine purpose. Roll on\nor choose a result from the Deva Messages table to inspire a deva’s charge.\nDeva Messages\n1d6 \tThe Deva Tasks a Mortal with Delivering...\n1 \tThe corpse of a hero in need of redemption.\n2 \tThe cure for a plague in a distant land.\n3 \tA holy coffer that must not be opened.\n4 \tA magic weapon usable only by a true hero.\n5 \tA seedling that wilts if exposed to anger.\n6 \tSomeone from another world with a prophesied purpose but no memory.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the demilich can expend a use to take one of the following actions. The demilich regains all expended uses at the start of each of its turns."
+  ]
+}

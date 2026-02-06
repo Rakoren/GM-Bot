@@ -1,0 +1,84 @@
+{
+  "id": "monster.doppelganger",
+  "name": "DOPPELGANGER",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "hit_points": 52,
+  "hit_dice": "8d8 + 16",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +6, Insight +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed",
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Common plus three other languages",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The doppelganger makes two Slam attacks and uses Unsettling Visage if available."
+    },
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +6 (with Advantage during the first round of each combat), reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning damage."
+    },
+    {
+      "name": "Read Thoughts",
+      "text": "The doppelganger casts Detect Thoughts, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 12)."
+    },
+    {
+      "name": "Unsettling Visage (Recharge 6)",
+      "text": "Wisdom Saving Throw: DC 12, each creature in a 15-foot Emanation originating from the doppelganger that can see the doppelganger. Failure: The target has the Frightened condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The doppelganger shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +4 (14)\nHP 52 (8d8 + 16)\nSpeed 30 ft.\tMedium Monstrosity, Neutral\nDracolich\nDraconic Tyrant Reborn\nHabitat: Any; Treasure: Any\nThe vilest dragons seek to escape the grip of death, employing ageless secrets and blasphemous magic to become horrors called dracoliches. These\ndeathless dragons bind their spirits to gems and magically animate their rotting corpses. Eventually becoming skeletal horrors, dracoliches continue the\ncenturies-spanning plots they pursued in life, seek revenge on those that brought them low, and strive toward vicious goals they couldn’t indulge in life.\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t18 \t+4 \t+4\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t12 \t+1 \t+1\nCHA \t14 \t+2 \t+2\nSkills Deception +6, Insight +3\nImmunities Charmed\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Common plus three other languages\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The doppelganger makes two Slam attacks and uses Unsettling\nVisage if available.\nSlam. Melee Attack Roll: +6 (with Advantage during the first round of each\ncombat), reach 5 ft.\nHit: 11 (2d6 + 4) Bludgeoning damage.\nRead Thoughts. The doppelganger casts\nDetect Thoughts, requiring no spell\ncomponents and using Charisma as the spellcasting ability (spell save DC 12).\nUnsettling Visage (Recharge 6). Wisdom Saving Throw: DC 12, each creature\nin a 15-foot Emanation originating from the doppelganger that can see the\ndoppelganger.\nFailure: The target has the Frightened condition and repeats the\nsave at the end of each of its turns, ending the effect on itself on a success.\nAfter 1 minute, it succeeds automatically.\nBonus Actions\nShape-Shift. The doppelganger shape-shifts into a Medium or Small\nHumanoid, or it returns to its true form. Its game statistics, other than its\nsize, are the same in each form. Any equipment it is wearing or carrying\nisn’t transformed.\nMeeting yourself is the surest way to realize you’re not as\ncharming as you think you are.\n—SOMEONE CLAIMING TO BE\nLORHIRIN OF FEARCHOR KEEP\nDracoliches combine the corrupt immortality of the undead with the legendary power of dragons. A dracolich retains a breath weapon, but it is a chilling\nnecrotic blast. These terrors gradually sicken the land near their lairs and attract sinister followers—usually other undead or cultists seeking to revel in their\nterrible might. Living dragons of all types loathe and seek to destroy dracoliches, viewing them as distortions of draconic magic.\nThere are untold profane routes by which a dragon might become a dracolich. However one is created, a dracolich chooses a gem that becomes the anchor\nfor its spirit and binds the deathless dragon to the world. So long as a dracolich is on the same plane of existence as its soul gem, the dracolich can survive\nthe destruction of its physical body. Its spirit retreats into the gem if the dracolich’s body is destroyed, and the monster might one day regain its terrifying\nform. Dracoliches often sequester their soul gems within meaningful treasure from their hoard or in unassuming baubles. Roll on or choose a result from\nthe Dracolich Soul Gem Vessels table to inspire what holds a dracolich’s soul gem.\nDracolich Soul Gem Vessels\n1d10 \tA Dracolich’s Soul Gem Is Hidden In...\n1 \tAnother dragon’s treasure hoard.\n2 \tThe body of a servant or an ancestor.\n3 \tThe core of a dracolich’s melted hoard.\n4 \tA corrupted dragon egg.\n5 \tA dragon horn a hero took as a trophy.\n6 \tA nation’s royal or religious treasure.\n7 \tA powerful magic item.\n8 \tA source of magical wonders, such as a giant tree or mystical pool.\n9 \tThe vault of an archdevil, a wicked god, or another extraplanar villain.\n10 \tThe weapon that slew the dracolich.\nDracolich Lairs\nA dracolich lurks in a corrupted version of the lair it had in life. The region containing a dracolich’s lair is warped by its presence, creating the following\neffects:\nSapping Mist. The area within 1 mile of the lair is Lightly Obscured by pale fog. Whenever a creature other than the dracolich or one of its allies finishes a\nLong Rest in that area, it must succeed on a DC 15 Constitution saving throw or gain 1 Exhaustion level.\nSoul Drain. Creatures within 1 mile of the lair have Disadvantage on Death Saving Throws.\nIf the dracolich is destroyed or moves its lair elsewhere, these effects end immediately. The effects resume if the dracolich gains a new body (see its Soul\nGem trait).",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (D) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "monster.magma_mephit",
+  "name": "MAGMA MEPHIT",
+  "status": "complete",
+  "size_type_alignment": "Small Elemental, Neutral Evil",
+  "size": "Small",
+  "creature_type": "Elemental",
+  "alignment": "Neutral Evil",
+  "armor_class": 11,
+  "hit_points": 18,
+  "hit_dice": "4d6 + 4",
+  "speed": "30 ft., Fly 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Primordial (Ignan, Terran)",
+  "cr": "1/2 (XP 100; PB +2)",
+  "traits": [
+    {
+      "name": "Death Burst",
+      "text": "The mephit explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 5-foot Emanation originating from the mephit. Failure: 7 (2d6) Fire damage. Success: Half damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 3 (1d6) Fire damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 6)",
+      "text": "Dexterity Saving Throw: DC 11, each creature in a 15- foot Cone. Failure: 7 (2d6) Fire damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 18 (4d6 + 4)\nSpeed 30 ft., Fly 30 ft.\nMOD \tSAVE\nSTR \t8 \t−1 \t−1\nDEX \t12 \t+1 \t+1\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Stealth +3\nVulnerabilities Cold\nImmunities Fire, Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan, Terran)\nCR 1/2 (XP 100; PB +2)\nTraits\nDeath Burst. The mephit explodes when it dies.\nDexterity Saving Throw: DC 11,\neach creature in a 5-foot Emanation originating from the mephit.\nFailure: 7\n(2d6) Fire damage.\nSuccess: Half damage.\nActions\nClaw. Melee Attack Roll: +3, reach 5 ft.\nHit: 3 (1d4 + 1) Slashing damage plus 3\n(1d6) Fire damage.\nFire Breath (Recharge 6). Dexterity Saving Throw: DC 11, each creature in a 15-\nfoot Cone.\nFailure: 7 (2d6) Fire damage.\nSuccess: Half damage.\nSmall Elemental, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

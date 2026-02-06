@@ -1,0 +1,99 @@
+{
+  "id": "monster.adult_red_dragon",
+  "name": "ADULT RED DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Huge Dragon (Chromatic), Chaotic Evil",
+  "size": "Huge",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 19,
+  "hit_points": 256,
+  "hit_dice": "19d12 + 133",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 27,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 23,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +13, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23",
+  "languages": "Common, Draconic",
+  "cr": "17 (XP 18,000, or 20,000 in lair; PB +6)",
+  "traits": [
+    {
+      "name": "Legendary Resistance (3/Day, or 4/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Scorching Ray."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +14, reach 10 ft. Hit: 13 (1d10 + 8) Slashing damage plus 5 (2d4) Fire damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 59 (17d6) Fire damage. Success: Half damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20, +12 to hit with spell attacks): At Will: Command (level 2 version), Detect Magic, Scorching Ray 1/Day: Fireball"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Commanding Presence",
+      "text": "The dragon uses Spellcasting to cast Command (level 2 version). The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Fiery Rays",
+      "text": "The dragon uses Spellcasting to cast Scorching Ray. The dragon can't take this action again until the start of its next turn."
+    },
+    {
+      "name": "Pounce",
+      "text": "The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +12 (22)\nHP 256 (19d12 + 133)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t27 \t+8 \t+8\nDEX \t10 \t+0 \t+6\nCON \t25 \t+7 \t+7\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t13 \t+1 \t+7\nCHA \t23 \t+6 \t+6\nSkills Perception +13, Stealth +6\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23\nLanguages Common, Draconic\nCR 17 (XP 18,000, or 20,000 in lair; PB +6)\nTraits\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of Spellcasting to cast\nScorching Ray.\nRend. Melee Attack Roll: +14, reach 10 ft.\nHit: 13 (1d10 + 8) Slashing damage\nplus 5 (2d4) Fire damage.\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 21, each creature in a\n60-foot Cone.\nFailure: 59 (17d6) Fire damage.\nSuccess: Half damage.\nSpellcasting. The dragon casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 20, +12 to hit with spell attacks):\nAt Will:\nCommand (level 2 version),\nDetect Magic,\nScorching Ray\n1/Day:\nFireball\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nCommanding Presence. The dragon uses Spellcasting to cast\nCommand\n(level 2 version). The dragon can’t take this action again until the start of its\nnext turn.\nFiery Rays. The dragon uses Spellcasting to cast\nScorching Ray. The dragon\ncan’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\nHuge Dragon (Chromatic), Chaotic Evil\nAncient red dragons number among the most feared and destructive beings in the multiverse. Few can withstand the wrath of an ancient red dragon that\nturns its mind toward devastation. These dragons’ greed matches their ruinous potential, and they collect vast hoards studded with storied treasures and\nmagic items. Their lairs frequently tap into volcanic depths and might pierce other planes of existence, bringing servants from the Elemental Plane of Fire\nor the Lower Planes into their service.\nEVEN THE BRAVEST SOULS FLEE THE ONSLAUGHT OF AN ANCIENT RED DRAGON",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (R) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns."
+  ]
+}

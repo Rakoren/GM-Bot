@@ -1,0 +1,72 @@
+{
+  "id": "monster.commoner",
+  "name": "COMMONER",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 10,
+  "hit_points": 4,
+  "hit_dice": "1d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Training",
+      "text": "The commoner has proficiency in one skill of the DM's choice and has Advantage whenever it makes an ability check using that skill."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Club",
+      "text": "Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 10 \tInitiative +0 (10)\nHP 4 (1d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t10 \t+0 \t+0\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nGear Club\nSenses Passive Perception 10\nLanguages Common\nCR 0 (XP 10; PB +2)\nTraits\nTraining. The commoner has proficiency in one skill of the DM’s choice and\nhas Advantage whenever it makes an ability check using that skill.\nActions\nClub. Melee Attack Roll: +2, reach 5 ft.\nHit: 2 (1d4) Bludgeoning damage.\nMedium or Small Humanoid, Neutral\nCopper Dragons\nDragons of Curiosity and Community\nHabitat: Hill; Treasure: Arcana\nRelentlessly friendly and curious, most copper dragons view the world as a place of endless wonder and possibility. These gregarious dragons are fonts of\npatience, hospitality, and humor, and they seek to improve the lives—or, at least, the mood—of those they interact with. If forced to fight to defend\nthemselves or their friends, these dragons favor using their slowing breath and physical attacks to subdue antagonists. Only in cases of extreme peril or\nemotion do they use their deadly acid breath.\nCopper dragons typically live in caverns amid picturesque hills and rock formations—particularly those that are prominent landmarks. These dragons\ncollect gifts, though they have little interest in treasure without meaning, no matter how valuable it is. To them, thoughtfully given presents and the feelings\nor memories they symbolize are more important than masterpieces or magical relics.\nCopper Dragon Wyrmling\nCopper dragon wyrmlings venture into the world seeking to make friends and discover wonders. They sometimes get into trouble, but those who help them\ncan become their friends for life.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

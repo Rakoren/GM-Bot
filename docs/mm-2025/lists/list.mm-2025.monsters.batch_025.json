@@ -1,0 +1,106 @@
+{
+  "id": "list.mm-2025.monsters.batch_025",
+  "name": "MM 2025 Monsters Batch 25",
+  "entries": [
+    {
+      "id": "monster.adult_white_dragon",
+      "name": "ADULT WHITE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_white_dragon.json"
+    },
+    {
+      "id": "monster.ancient_white_dragon",
+      "name": "ANCIENT WHITE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_white_dragon.json"
+    },
+    {
+      "id": "monster.dire_worg",
+      "name": "DIRE WORG",
+      "file": "docs/mm-2025/monsters/monster.dire_worg.json"
+    },
+    {
+      "id": "monster.warrior_infantry",
+      "name": "WARRIOR INFANTRY",
+      "file": "docs/mm-2025/monsters/monster.warrior_infantry.json"
+    },
+    {
+      "id": "monster.warrior_veteran",
+      "name": "WARRIOR VETERAN",
+      "file": "docs/mm-2025/monsters/monster.warrior_veteran.json"
+    },
+    {
+      "id": "monster.water_elemental",
+      "name": "WATER ELEMENTAL",
+      "file": "docs/mm-2025/monsters/monster.water_elemental.json"
+    },
+    {
+      "id": "monster.water_weird",
+      "name": "WATER WEIRD",
+      "file": "docs/mm-2025/monsters/monster.water_weird.json"
+    },
+    {
+      "id": "monster.werebear",
+      "name": "WEREBEAR",
+      "file": "docs/mm-2025/monsters/monster.werebear.json"
+    },
+    {
+      "id": "monster.wereboar",
+      "name": "WEREBOAR",
+      "file": "docs/mm-2025/monsters/monster.wereboar.json"
+    },
+    {
+      "id": "monster.wererat",
+      "name": "WERERAT",
+      "file": "docs/mm-2025/monsters/monster.wererat.json"
+    },
+    {
+      "id": "monster.weretiger",
+      "name": "WERETIGER",
+      "file": "docs/mm-2025/monsters/monster.weretiger.json"
+    },
+    {
+      "id": "monster.werewolf",
+      "name": "WEREWOLF",
+      "file": "docs/mm-2025/monsters/monster.werewolf.json"
+    },
+    {
+      "id": "monster.white_dragon_wyrmling",
+      "name": "WHITE DRAGON WYRMLING",
+      "file": "docs/mm-2025/monsters/monster.white_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.wight",
+      "name": "WIGHT",
+      "file": "docs/mm-2025/monsters/monster.wight.json"
+    },
+    {
+      "id": "monster.winter_wolf",
+      "name": "WINTER WOLF",
+      "file": "docs/mm-2025/monsters/monster.winter_wolf.json"
+    },
+    {
+      "id": "monster.worg",
+      "name": "WORG",
+      "file": "docs/mm-2025/monsters/monster.worg.json"
+    },
+    {
+      "id": "monster.wraith",
+      "name": "WRAITH",
+      "file": "docs/mm-2025/monsters/monster.wraith.json"
+    },
+    {
+      "id": "monster.wyvern",
+      "name": "WYVERN",
+      "file": "docs/mm-2025/monsters/monster.wyvern.json"
+    },
+    {
+      "id": "monster.young_white_dragon",
+      "name": "YOUNG WHITE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.young_white_dragon.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

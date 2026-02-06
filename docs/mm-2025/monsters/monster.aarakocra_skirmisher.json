@@ -1,0 +1,99 @@
+{
+  "id": "monster.aarakocra_skirmisher",
+  "name": "AARAKOCRA SKIRMISHER",
+  "status": "complete",
+  "size_type_alignment": "Medium Elemental, Neutral",
+  "size": "Medium",
+  "creature_type": "Elemental",
+  "alignment": "Neutral",
+  "armor_class": 12,
+  "hit_points": 11,
+  "hit_dice": "2d8 + 2",
+  "speed": "20 ft., Fly 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 15",
+  "languages": "Aarakocra, Primordial (Auran)",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Talons",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage, or 9 (3d4 + 2) Slashing damage if the aarakocra moved 30+ feet straight toward the target immediately before the hit."
+    },
+    {
+      "name": "Wind Javelin",
+      "text": "Melee or Ranged Attack Roll: +4, reach 5 ft. or range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 2 (1d4) Thunder damage. Hit or Miss: The javelin magically returns to the aarakocra's hand immediately after a ranged attack."
+    },
+    {
+      "name": "In aquatic abysses, aboleths dream of dead empires and orchestrate plots that unfold across ages",
+      "text": "These elusive, amphibious immortals physically and mentally overwhelm their victims and transform creatures with a slimy, aberrant infection, reshaping other beings to serve them beneath the waves."
+    },
+    {
+      "name": "Aboleths possess terrifying intellects and have alien mindsets",
+      "text": "These creatures possess perfect memories of proto-worlds and incomprehensible dominions from the multiverse's earliest eons. Their secrets are innumerable and unfathomable. Aboleths lurk in places awash in primordial mysteries: the ruins of aquatic empires, hidden magical nexuses, or weak places between planes of existence. In these lairs, aboleths dream of epochs past, collect throngs of psychically dominated servants, consume the minds of unwitting victims, and prepare for their return to power."
+    },
+    {
+      "name": "Aboleths' alien goals and methods are often mysterious to other creatures",
+      "text": "Roll on or choose a result from the Aboleth Schemes table to inspire an aboleth's schemes. Aboleth Schemes 1d6 \tThe Aboleth Seeks To... 1 \tAccomplish incomprehensible plans that lead it to act in seemingly random ways. 2 \tLearn more of the world by kidnapping people and consuming their minds. 3 \tManipulate innocents into worshiping it as a god by using its telepathy from hiding. 4 \tOpen a gate to the distant past or future, releasing an invasion from another time. 5 \tRouse a dragon turtle, a kraken, or another sea monster to flood a coastal city. 6 \tTrick treasure hunters into recovering relics from its long-fallen empire. Aboleth Lairs"
+    },
+    {
+      "name": "Aboleths usually dwell in submerged ruins and caverns",
+      "text": "They keep air-filled spaces for their terrestrial servants and to hold treasures that would be damaged by water. The region containing an aboleth's lair is warped by it, creating the following effects: A GNOME CULTIST CONSULTS AN ALL-KNOWING ABOLETH"
+    },
+    {
+      "name": "Foul Water",
+      "text": "Water sources within 1 mile of the lair are supernaturally fouled. Creatures other than the aboleth and its allies that drink such water must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 1 hour."
+    },
+    {
+      "name": "Psionic Projection",
+      "text": "While in its lair, the aboleth can cast Project Image, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16). When casting the spell this way, the spell's range is 1 mile, and the aboleth can use its telepathy as if it were in the illusion's space."
+    },
+    {
+      "name": "If the aboleth dies or moves its lair elsewhere, these effects end immediately",
+      "text": "Air Elemental Primal Spirit of Wind and Storm \"The lies we call reason are fragile things, vulnerable and raw on the shores of eons. But in the dream-vaults of dread ancients roil seas of terrifying truth. Our age is an island, and the ebb of primordial tides avows the Stygian wave.\" -EVARD, SIGHS OF THE ALL-SEEING WORM"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 11 (2d8 + 2)\nSpeed 20 ft., Fly 50 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t14 \t+2 \t+2\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t12 \t+1 \t+1\nCHA \t11 \t+0 \t+0\nSkills Perception +5\nSenses Passive Perception 15\nLanguages Aarakocra, Primordial (Auran)\nCR 1/4 (XP 50; PB +2)\nActions\nTalons. Melee Attack Roll: +4, reach 5 ft.\nHit: 4 (1d4 + 2) Slashing damage, or\n9 (3d4 + 2) Slashing damage if the aarakocra moved 30+ feet straight toward\nthe target immediately before the hit.\nWind Javelin. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 30/120 ft.\nHit: 5 (1d6 + 2) Piercing damage plus 2 (1d4) Thunder damage.\nHit or Miss:\nThe javelin magically returns to the aarakocra’s hand immediately after a\nranged attack.\nMedium Elemental, Neutral\nIn aquatic abysses, aboleths dream of dead empires and orchestrate plots that unfold across ages. These elusive, amphibious immortals physically and\nmentally overwhelm their victims and transform creatures with a slimy, aberrant infection, reshaping other beings to serve them beneath the waves.\nAboleths possess terrifying intellects and have alien mindsets. These creatures possess perfect memories of proto-worlds and incomprehensible\ndominions from the multiverse’s earliest eons. Their secrets are innumerable and unfathomable. Aboleths lurk in places awash in primordial mysteries: the\nruins of aquatic empires, hidden magical nexuses, or weak places between planes of existence. In these lairs, aboleths dream of epochs past, collect\nthrongs of psychically dominated servants, consume the minds of unwitting victims, and prepare for their return to power.\nAboleths’ alien goals and methods are often mysterious to other creatures. Roll on or choose a result from the Aboleth Schemes table to inspire an aboleth’s\nschemes.\nAboleth Schemes\n1d6 \tThe Aboleth Seeks To...\n1 \tAccomplish incomprehensible plans that lead it to act in seemingly random ways.\n2 \tLearn more of the world by kidnapping people and consuming their minds.\n3 \tManipulate innocents into worshiping it as a god by using its telepathy from hiding.\n4 \tOpen a gate to the distant past or future, releasing an invasion from another time.\n5 \tRouse a dragon turtle, a kraken, or another sea monster to flood a coastal city.\n6 \tTrick treasure hunters into recovering relics from its long-fallen empire.\nAboleth Lairs\nAboleths usually dwell in submerged ruins and caverns. They keep air-filled spaces for their terrestrial servants and to hold treasures that would be\ndamaged by water.\nThe region containing an aboleth’s lair is warped by it, creating the following effects:\nA GNOME CULTIST CONSULTS AN ALL-KNOWING ABOLETH\nFoul Water. Water sources within 1 mile of the lair are supernaturally fouled. Creatures other than the aboleth and its allies that drink such water must\nsucceed on a DC 15 Constitution saving throw or have the Poisoned condition for 1 hour.\nPsionic Projection. While in its lair, the aboleth can cast\nProject Image, requiring no spell components and using Intelligence as the spellcasting ability\n(spell save DC 16). When casting the spell this way, the spell’s range is 1 mile, and the aboleth can use its telepathy as if it were in the illusion’s space.\nIf the aboleth dies or moves its lair elsewhere, these effects end immediately.\nAir Elemental\nPrimal Spirit of Wind and Storm\nHabitat: Desert, Mountain, Planar (Elemental Plane of Air); Treasure: None\n“The lies we call reason are fragile things, vulnerable and raw on\nthe shores of eons. But in the dream-vaults of dread ancients\nroil seas of terrifying truth. Our age is an island, and the ebb of\nprimordial tides avows the Stygian wave.”\n—EVARD, SIGHS OF THE ALL-SEEING WORM",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

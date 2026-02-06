@@ -1,0 +1,67 @@
+{
+  "id": "animal.giant_elk",
+  "name": "GIANT ELK",
+  "status": "complete",
+  "size_type_alignment": "Huge Celestial, Neutral Good",
+  "size": "Huge",
+  "creature_type": "Celestial",
+  "alignment": "Neutral Good",
+  "armor_class": 14,
+  "hit_points": 42,
+  "hit_dice": "5d12 + 10",
+  "speed": "60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 90 ft.; Passive Perception 14",
+  "languages": "Celestial; understands Common, Elvish, and Sylvan but can’t",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Ram",
+      "text": "Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +6 (16)\nHP 42 (5d12 + 10)\nSpeed 60 ft.\nMOD \tSAVE\nSTR \t19 \t+4 \t+6\nDEX \t18 \t+4 \t+6\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t7 \t−2 \t−2\nWIS \t14 \t+2 \t+2\nCHA \t10 \t+0 \t+0\nSkills Perception +4\nResistances Necrotic, Radiant\nSenses Darkvision 90 ft.; Passive Perception 14\nLanguages Celestial; understands Common, Elvish, and Sylvan but can’t\nspeak them\nCR 2 (XP 450; PB +2)\nActions\nRam. Melee Attack Roll: +6, reach 10 ft.\nHit: 11 (2d6 + 4) Bludgeoning damage\nplus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the\nelk moved 20+ feet straight toward it immediately before the hit, the target\ntakes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.\nHuge Celestial, Neutral Good",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

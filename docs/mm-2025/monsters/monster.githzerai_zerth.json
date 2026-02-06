@@ -1,0 +1,85 @@
+{
+  "id": "monster.githzerai_zerth",
+  "name": "GITHZERAI ZERTH",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration (Gith), Lawful Neutral",
+  "size": "Medium",
+  "creature_type": "Aberration (Gith)",
+  "alignment": "Lawful Neutral",
+  "armor_class": 17,
+  "hit_points": 84,
+  "hit_dice": "13d8 + 26",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 12,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +6, Insight +6, Perception +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 16",
+  "languages": "Common, Gith",
+  "cr": "6 (XP 2,300; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The githzerai makes two Psi Strike attacks."
+    },
+    {
+      "name": "Psi Strike",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 13 (3d8) Psychic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The githzerai casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 14): At Will: Mage Hand (the hand is Invisible) 1/Day Each: Phantasmal Killer (level 6 version), Plane Shift, See Invisibility"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Psi-Powered Leap (2/Day)",
+      "text": "The githzerai casts Jump, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Psionic Defense (2/Day)",
+      "text": "The githzerai casts Feather Fall or Shield in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +7 (17)\nHP 84 (13d8 + 26)\nSpeed 40 ft.\nMedium Aberration (Gith), Lawful Neutral\nGithzerai Psion\nThese powerful psions oversee githzerai sanctuaries, study enigmatic planar events, and lead rrakkma—hostile forays into mind flayer colonies to slay\nillithids and uncover secrets of how the ancient gith were transformed.\nGlabrezu\nDemon of Delusion and Entrapment\nHabitat: Planar (Abyss); Treasure: Relics\nMOD \tSAVE\nSTR \t13 \t+1 \t+4\nDEX \t18 \t+4 \t+7\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t16 \t+3 \t+6\nWIS \t17 \t+3 \t+6\nCHA \t12 \t+1 \t+1\nSkills Arcana +6, Insight +6, Perception +6\nSenses Passive Perception 16\nLanguages Common, Gith\nCR 6 (XP 2,300; PB +3)\nActions\nMultiattack. The githzerai makes two Psi Strike attacks.\nPsi Strike. Melee Attack Roll: +7, reach 5 ft.\nHit: 11 (2d6 + 4) Bludgeoning\ndamage plus 13 (3d8) Psychic damage.\nSpellcasting. The githzerai casts one of the following spells, requiring no spell\ncomponents and using Wisdom as the spellcasting ability (spell save DC 14):\nAt Will:\nMage Hand (the hand is Invisible)\n1/Day Each:\nPhantasmal Killer (level 6 version),\nPlane Shift,\nSee Invisibility\nBonus Actions\nPsi-Powered Leap (2/Day). The githzerai casts\nJump, requiring no spell\ncomponents and using the same spellcasting ability as Spellcasting.\nReactions\nPsionic Defense (2/Day). The githzerai casts\nFeather Fall or\nShield in response\nto the spell’s trigger, requiring no spell components and using the same\nspellcasting ability as Spellcasting.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

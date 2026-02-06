@@ -1,0 +1,76 @@
+{
+  "id": "monster.ancient_white_dragon",
+  "name": "ANCIENT WHITE DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Dragon (Chromatic), Chaotic Evil",
+  "size": "Gargantuan",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 20,
+  "hit_points": 333,
+  "hit_dice": "18d20 + 144",
+  "speed": "40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 26,
+      "mod": "+8"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 26,
+      "mod": "+8"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +13, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23",
+  "languages": "Common, Draconic",
+  "cr": "20 (XP 25,000, or 33,000 in lair; PB +6)",
+  "traits": [
+    {
+      "name": "Ice Walk",
+      "text": "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement."
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the dragon fails a saving throw, it can choose to succeed instead."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +12 (22)\nHP 333 (18d20 + 144)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t26 \t+8 \t+8\nDEX \t10 \t+0 \t+6\nCON \t26 \t+8 \t+8\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t13 \t+1 \t+7\nCHA \t18 \t+4 \t+4\nSkills Perception +13, Stealth +6\nImmunities Cold\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23\nLanguages Common, Draconic\nCR 20 (XP 25,000, or 33,000 in lair; PB +6)\nTraits\nIce Walk. The dragon can move across and climb icy surfaces without needing\nto make an ability check. Additionally, Difficult Terrain composed of ice or\nsnow doesn’t cost it extra movement.\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving\nthrow, it can choose to succeed instead.\nActions\nMultiattack. The dragon makes three Rend attacks.\nGargantuan Dragon (Chromatic), Chaotic Evil\nWight\nLife-Leeching Corpse Warrior\nHabitat: Desert, Planar (Shadowfell), Swamp, Underdark, Urban; Treasure: Armaments\nWights are the withered corpses of relentless warriors whose wickedness sustains them beyond death. Unlike mere zombies, they retain the memories and\nevil agendas they harbored in life.\nAfter dying and returning from the grave, a wight continues its villainous ways, but it is now driven by a hunger for life. A wight drains living essence\nthrough its attacks. Humanoids slain by a wight’s life-sapping grip reanimate a day later and serve the wight as obedient zombies.\nWights might return from the dead for a multitude of sinister reasons. Roll on or\nchoose a result from the Wight Motives table to inspire why a wight plagues the\nliving.\nWight Motives\n1d8 \tThe Wight Returned from the Dead To...\n1 Challenge anyone who passes near its grave on a certain cursed\nnight.\n2 \tConquer the land it believes it should rule.\n3 \tContinue the crimes it was executed for.\n4 \tFollow the foul master it served in life.\n5 \tHonor an oath it left unfulfilled in life.\n6 \tObey the cult or deity that gave it unlife.\n7 \tProve it was the greatest warrior to ever live.\n8 \tSeek its stolen heart or other treasure.\nRend. Melee Attack Roll: +14, reach 15 ft.\nHit: 17 (2d8 + 8) Slashing damage\nplus 7 (2d6) Cold damage.\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each creature\nin a 90-foot Cone.\nFailure: 63 (14d8) Cold damage.\nSuccess: Half damage.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe dragon can expend a use to take one of the following actions. The dragon\nregains all expended uses at the start of each of its turns.\nFreezing Burst. Constitution Saving Throw: DC 20, each creature in a 30-foot-\nradius Sphere centered on a point the dragon can see within 120 feet.\nFailure:\n14 (4d6) Cold damage, and the target’s Speed is 0 until the end of the target’s\nnext turn.\nFailure or Success: The dragon can’t take this action again until the\nstart of its next turn.\nFrightful Presence. The dragon casts\nFear, requiring no Material components\nand using Charisma as the spellcasting ability (spell save DC 18). The dragon\ncan’t take this action again until the start of its next turn.\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

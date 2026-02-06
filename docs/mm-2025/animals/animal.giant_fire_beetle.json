@@ -1,0 +1,72 @@
+{
+  "id": "animal.giant_fire_beetle",
+  "name": "GIANT FIRE BEETLE",
+  "status": "complete",
+  "size_type_alignment": "Small Beast, Unaligned",
+  "size": "Small",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 4,
+  "hit_dice": "1d6 + 1",
+  "speed": "30 ft., Climb 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft.; Passive Perception 8",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Illumination",
+      "text": "The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +0 (10)\nHP 4 (1d6 + 1)\nSpeed 30 ft., Climb 30 ft.\nMOD \tSAVE\nSTR \t8 \t−1 \t−1\nDEX \t10 \t+0 \t+0\nCON \t12 \t+1 \t+1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t7 \t−2 \t−2\nCHA \t3 \t−4 \t−4\nResistances Fire\nSenses Blindsight 30 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nIllumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light\nfor an additional 10 feet.\nActions\nBite. Melee Attack Roll: +1, reach 5 ft.\nHit: 1 Fire damage.\nSmall Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

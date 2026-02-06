@@ -1,0 +1,92 @@
+{
+  "id": "monster.weretiger",
+  "name": "WERETIGER",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Monstrosity (Lycanthrope), Neutral",
+  "size": "Medium",
+  "creature_type": "Monstrosity (Lycanthrope)",
+  "alignment": "Neutral",
+  "armor_class": 12,
+  "hit_points": 120,
+  "hit_dice": "16d8 + 48",
+  "speed": "30 ft., 40 ft. (tiger form only)",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +5, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Common (can’t speak in tiger form)",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The weretiger makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack."
+    },
+    {
+      "name": "Bite (Tiger or Hybrid Form Only)",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 13. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Weretiger under the DM's control and has 10 Hit Points. Success: The target is immune to this weretiger's curse for 24 hours."
+    },
+    {
+      "name": "Scratch",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage."
+    },
+    {
+      "name": "Longbow (Humanoid or Hybrid Form Only)",
+      "text": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Prowl (Tiger or Hybrid Form Only)",
+      "text": "The weretiger moves up to its Speed without provoking Opportunity Attacks. At the end of this movement, the weretiger can take the Hide action."
+    },
+    {
+      "name": "Shape-Shift",
+      "text": "The weretiger shape-shifts into a Large tiger-humanoid hybrid or a"
+    },
+    {
+      "name": "Large tiger, or it returns to its true humanoid form",
+      "text": "Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. I hunt evil like the great cat hunts its prey, but evil will not long yield to blade alone. It takes strength, honor, and sometimes a little more. -DELMAIR RALLYHORN,"
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 120 (16d8 + 48)\nSpeed 30 ft., 40 ft. (tiger form only)\nMedium or Small Monstrosity (Lycanthrope), Neutral\nWerewolf\nChanged by the Ferocity of the Wolf\nHabitat: Forest, Hill; Treasure: Any\nWerewolves change from their humanoid forms into fierce wolves or wolf-humanoid hybrids. Werewolves can shape-shift voluntarily, but many can’t resist\ntransforming during the nights of a full moon.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t15 \t+2 \t+2\nCON \t16 \t+3 \t+3\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t13 \t+1 \t+1\nCHA \t11 \t+0 \t+0\nSkills Perception +5, Stealth +4\nGear Longbow\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Common (can’t speak in tiger form)\nCR 4 (XP 1,100; PB +2)\nActions\nMultiattack. The weretiger makes two attacks, using Scratch or Longbow in\nany combination. It can replace one attack with a Bite attack.\nBite (Tiger or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft.\nHit: 12 (2d8\n+ 3) Piercing damage. If the target is a Humanoid, it is subjected to the\nfollowing effect.\nConstitution Saving Throw: DC 13.\nFailure: The target is\ncursed. If the cursed target drops to 0 Hit Points, it instead becomes a\nWeretiger under the DM’s control and has 10 Hit Points.\nSuccess: The target is\nimmune to this weretiger’s curse for 24 hours.\nScratch. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3) Slashing damage.\nLongbow (Humanoid or Hybrid Form Only). Ranged Attack Roll: +4, range\n150/600 ft.\nHit: 11 (2d8 + 2) Piercing damage.\nBonus Actions\nProwl (Tiger or Hybrid Form Only). The weretiger moves up to its Speed\nwithout provoking Opportunity Attacks. At the end of this movement, the\nweretiger can take the Hide action.\nShape-Shift. The weretiger shape-shifts into a Large tiger-humanoid hybrid or a\nLarge tiger, or it returns to its true humanoid form. Its game statistics, other\nthan its size, are the same in each form. Any equipment it is wearing or\ncarrying isn’t transformed.\nI hunt evil like the great cat hunts its prey, but evil will not long\nyield to blade alone. It takes strength, honor, and sometimes a\nlittle more.\n—DELMAIR RALLYHORN, WERETIGER",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

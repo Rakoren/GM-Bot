@@ -1,0 +1,88 @@
+{
+  "id": "animal.giant_toad",
+  "name": "GIANT TOAD",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 39,
+  "hit_dice": "6d10 + 6",
+  "speed": "30 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "None",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The toad can breathe air and water."
+    },
+    {
+      "name": "Standing Leap",
+      "text": "The toad's Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage. If the target is a Medium or smaller creature, it has the"
+    },
+    {
+      "name": "Grappled condition (escape DC 12)",
+      "text": ""
+    },
+    {
+      "name": "Swallow",
+      "text": "The toad swallows a Medium or smaller target it is grappling. While swallowed, the target isn't Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the toad. In addition, the target takes 10 (3d6) Acid damage at the end of each of the toad's turns. The toad can have only one target swallowed at a time, and it can't use Bite while it has a swallowed target. If the toad dies, a swallowed creature is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition."
+    },
+    {
+      "name": "Beware the furred giant snakes of the Yatil Mountains",
+      "text": "Their pelts might be warm, but their bites are deadly. -BANNIK VORL,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 39 (6d10 + 6)\nSpeed 30 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t13 \t+1 \t+1\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t3 \t−4 \t−4\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1 (XP 200; PB +2)\nTraits\nAmphibious. The toad can breathe air and water.\nStanding Leap. The toad’s Long Jump is up to 20 feet and its High Jump is up\nto 10 feet with or without a running start.\nActions\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Piercing damage plus 5\n(2d4) Poison damage. If the target is a Medium or smaller creature, it has the\nGrappled condition (escape DC 12).\nSwallow. The toad swallows a Medium or smaller target it is grappling. While\nswallowed, the target isn’t Grappled but has the Blinded and Restrained\nconditions, and it has Total Cover against attacks and other effects outside\nthe toad. In addition, the target takes 10 (3d6) Acid damage at the end of each\nof the toad’s turns. The toad can have only one target swallowed at a time, and\nit can’t use Bite while it has a swallowed target. If the toad dies, a swallowed\ncreature is no longer Restrained and can escape from the corpse using 5 feet\nof movement, exiting with the Prone condition.\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

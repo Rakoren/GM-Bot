@@ -1,0 +1,84 @@
+{
+  "id": "monster.young_bronze_dragon",
+  "name": "YOUNG BRONZE DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Large Dragon (Metallic), Lawful Good",
+  "size": "Large",
+  "creature_type": "Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armor_class": 17,
+  "hit_points": 142,
+  "hit_dice": "15d10 + 60",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Insight +4, Perception +7, Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17",
+  "languages": "Common, Draconic",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The dragon can breathe air and water."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage."
+    },
+    {
+      "name": "Repulsion Breath",
+      "text": "Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +3 (13)\nHP 142 (15d10 + 60)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+5\nDEX \t10 \t+0 \t+3\nCON \t19 \t+4 \t+4\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t13 \t+1 \t+4\nCHA \t17 \t+3 \t+3\nSkills Insight +4, Perception +7, Stealth +3\nImmunities Lightning\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\nLanguages Common, Draconic\nCR 8 (XP 3,900; PB +3)\nTraits\nAmphibious. The dragon can breathe air and water.\nActions\nMultiattack. The dragon makes three Rend attacks. It can replace one attack\nwith a use of Repulsion Breath.\nRend. Melee Attack Roll: +8, reach 10 ft.\nHit: 16 (2d10 + 5) Slashing damage.\nLightning Breath (Recharge 5–6).\nDexterity Saving Throw: DC 15, each creature\nin a 60-foot-long, 5-foot-wide Line.\nFailure: 49 (9d10) Lightning damage.\nSuccess: Half damage.\nRepulsion Breath. Strength Saving Throw: DC 15, each creature in a 30-foot\nCone.\nFailure: The target is pushed up to 40 feet straight away from the dragon\nand has the Prone condition.\nLarge Dragon (Metallic), Lawful Good\nAdult bronze dragons often dwell near places they defend or where they help others work toward goals. They might become patrons of whole cities,\nadvising leaders and helping generations flourish.\nAN ADULT BRONZE DRAGON DEFENDS THE DEEP FROM A RAVENOUS GIANT SHARK",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

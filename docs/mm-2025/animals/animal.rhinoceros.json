@@ -1,0 +1,67 @@
+{
+  "id": "animal.rhinoceros",
+  "name": "RHINOCEROS",
+  "status": "complete",
+  "size_type_alignment": "Large Beast, Unaligned",
+  "size": "Large",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "hit_points": 45,
+  "hit_dice": "6d10 + 12",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 6,
+      "mod": "-2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 11",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Gore",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative −1 (9)\nHP 45 (6d10 + 12)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+5\nDEX \t8 \t−1 \t−1\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t6 \t−2 \t−2\nSenses Passive Perception 11\nLanguages None\nCR 2 (XP 450; PB +2)\nActions\nGore. Melee Attack Roll: +7, reach 5 ft.\nHit: 14 (2d8 + 5) Piercing damage. If\ntarget is a Large or smaller creature and the rhinoceros moved 20+ feet\nstraight toward it immediately before the hit, the target takes an extra 9 (2d8)\nPiercing damage and has the Prone condition.\nLarge Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

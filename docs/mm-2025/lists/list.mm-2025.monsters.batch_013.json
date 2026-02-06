@@ -1,0 +1,61 @@
+{
+  "id": "list.mm-2025.monsters.batch_013",
+  "name": "MM 2025 Monsters Batch 13",
+  "entries": [
+    {
+      "id": "monster.kenku",
+      "name": "KENKU",
+      "file": "docs/mm-2025/monsters/monster.kenku.json"
+    },
+    {
+      "id": "monster.knight",
+      "name": "KNIGHT",
+      "file": "docs/mm-2025/monsters/monster.knight.json"
+    },
+    {
+      "id": "monster.kobold_warrior",
+      "name": "KOBOLD WARRIOR",
+      "file": "docs/mm-2025/monsters/monster.kobold_warrior.json"
+    },
+    {
+      "id": "monster.kraken",
+      "name": "KRAKEN",
+      "file": "docs/mm-2025/monsters/monster.kraken.json"
+    },
+    {
+      "id": "monster.kuo_toa",
+      "name": "KUO-TOA",
+      "file": "docs/mm-2025/monsters/monster.kuo_toa.json"
+    },
+    {
+      "id": "monster.kuo_toa_archpriest",
+      "name": "KUO-TOA ARCHPRIEST",
+      "file": "docs/mm-2025/monsters/monster.kuo_toa_archpriest.json"
+    },
+    {
+      "id": "monster.kuo_toa_monitor",
+      "name": "KUO-TOA MONITOR",
+      "file": "docs/mm-2025/monsters/monster.kuo_toa_monitor.json"
+    },
+    {
+      "id": "monster.kuo_toa_whip",
+      "name": "KUO-TOA WHIP",
+      "file": "docs/mm-2025/monsters/monster.kuo_toa_whip.json"
+    },
+    {
+      "id": "monster.questing_knight",
+      "name": "QUESTING KNIGHT",
+      "file": "docs/mm-2025/monsters/monster.questing_knight.json"
+    },
+    {
+      "id": "monster.winged_kobold",
+      "name": "WINGED KOBOLD",
+      "file": "docs/mm-2025/monsters/monster.winged_kobold.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "list.mm-2025.monsters.batch_026",
+  "name": "MM 2025 Monsters Batch 26",
+  "entries": [
+    {
+      "id": "monster.xorn",
+      "name": "XORN",
+      "file": "docs/mm-2025/monsters/monster.xorn.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (X) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

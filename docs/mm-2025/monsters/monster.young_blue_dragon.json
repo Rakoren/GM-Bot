@@ -1,0 +1,75 @@
+{
+  "id": "monster.young_blue_dragon",
+  "name": "YOUNG BLUE DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Large Dragon (Chromatic), Lawful Evil",
+  "size": "Large",
+  "creature_type": "Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "hit_points": 152,
+  "hit_dice": "16d10 + 64",
+  "speed": "40 ft., Burrow 20 ft., Fly 80 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +9, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19",
+  "languages": "Common, Draconic",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes three Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +4 (14)\nHP 152 (16d10 + 64)\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+5\nDEX \t10 \t+0 \t+4\nCON \t19 \t+4 \t+4\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t13 \t+1 \t+5\nCHA \t17 \t+3 \t+3\nSkills Perception +9, Stealth +4\nImmunities Lightning\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19\nLanguages Common, Draconic\nCR 9 (XP 5,000; PB +4)\nActions\nMultiattack. The dragon makes three Rend attacks.\nRend. Melee Attack Roll: +9, reach 10 ft.\nHit: 12 (2d6 + 5) Slashing damage\nplus 5 (1d10) Lightning damage.\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature\nin a 60-foot-long, 5-foot-wide Line.\nFailure: 55 (10d10) Lightning damage.\nSuccess: Half damage.\nLarge Dragon (Chromatic), Lawful Evil\nAdult blue dragons command small empires, which might be territories of subjugated followers, shadowy criminal networks, or cultic enclaves. Endlessly\nsuspicious and wary of rivals, these dragons enact elaborate schemes to ruin their foes, test the loyalty of their servants, and ensure their dominance for\ncenturies.\nAncient Blue Dragon\nAN ADULT BLUE DRAGON INVADES THE TERRITORY OF A SILVER DRAGON RIVAL",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

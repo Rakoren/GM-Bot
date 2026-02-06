@@ -1,0 +1,93 @@
+{
+  "id": "monster.juvenile_shadow_dragon",
+  "name": "JUVENILE SHADOW DRAGON",
+  "status": "complete",
+  "size_type_alignment": "Medium Dragon, Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Dragon",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "hit_points": 45,
+  "hit_dice": "6d8 + 18",
+  "speed": "30 ft., Climb 30 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +4, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Common, Draconic",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Living Shadow",
+      "text": "While in Dim Light or Darkness, the dragon has Resistance to damage that isn't Force, Psychic, or Radiant."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "text": "While in sunlight, the dragon has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The dragon makes two Rend attacks."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +5, reach 10 ft. Hit: 7 (1d8 + 3) Slashing damage plus 3 (1d6) Necrotic damage."
+    },
+    {
+      "name": "Shadow Breath (Recharge 5-6)",
+      "text": "Dexterity Saving Throw: DC 13, each creature in a 30-foot Cone. Failure: 17 (5d6) Necrotic damage. Success: Half damage. Failure or Success: A Humanoid reduced to 0 Hit Points by this damage dies, and a Shadow rises from its corpse. The shadow is under the dragon's control and shares the dragon's Initiative count but acts immediately after the dragon."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Stealth",
+      "text": "While in Dim Light or Darkness, the dragon takes the"
+    },
+    {
+      "name": "Hide action",
+      "text": ""
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +4 (14)\nHP 45 (6d8 + 18)\nSpeed 30 ft., Climb 30 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t14 \t+2 \t+4\nCON \t17 \t+3 \t+3\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t11 \t+0 \t+0\nCHA \t15 \t+2 \t+2\nSkills Perception +4, Stealth +6\nResistances See Living Shadow\nImmunities Necrotic\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Common, Draconic\nCR 4 (XP 1,100; PB +2)\nTraits\nLiving Shadow. While in Dim Light or Darkness, the dragon has Resistance to\ndamage that isn’t Force, Psychic, or Radiant.\nSunlight Sensitivity. While in sunlight, the dragon has Disadvantage on ability\nchecks and attack rolls.\nActions\nMultiattack. The dragon makes two Rend attacks.\nRend. Melee Attack Roll: +5, reach 10 ft.\nHit: 7 (1d8 + 3) Slashing damage plus\n3 (1d6) Necrotic damage.\nShadow Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature\nin a 30-foot Cone.\nFailure: 17 (5d6) Necrotic damage.\nSuccess: Half damage.\nFailure or Success: A Humanoid reduced to 0 Hit Points by this damage dies,\nand a Shadow rises from its corpse. The shadow is under the dragon’s control\nand shares the dragon’s Initiative count but acts immediately after the dragon.\nBonus Actions\nShadow Stealth. While in Dim Light or Darkness, the dragon takes the\nHide action.\nMedium Dragon, Chaotic Evil\nShadow Dragon Lairs\nShadow dragons lair in places of darkness and despair, such as accursed ruins, the depths of the Underdark, or the Shadowfell.\nThe region around a shadow dragon’s lair is twisted by its presence, creating the following effects:\nNegative Energy Suffusion. Whenever a creature within 1 mile of the lair regains Hit Points from a spell, it subtracts 1d10 from the number of Hit Points\nregained.\nStifling Shadows. Within 1 mile of the lair, effects that normally create Bright Light instead create Dim Light, and creatures there have Advantage on\nDexterity (Stealth) checks.\nIf the dragon dies or moves its lair elsewhere, these effects end immediately.\nShambling Mound\nManifestation of Primeval Power\nHabitat: Forest, Swamp; Treasure: None",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

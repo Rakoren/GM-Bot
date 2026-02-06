@@ -1,0 +1,51 @@
+{
+  "id": "list.mm-2025.monsters.batch_007",
+  "name": "MM 2025 Monsters Batch 7",
+  "entries": [
+    {
+      "id": "monster.earth_elemental",
+      "name": "EARTH ELEMENTAL",
+      "file": "docs/mm-2025/monsters/monster.earth_elemental.json"
+    },
+    {
+      "id": "monster.efreeti",
+      "name": "EFREETI",
+      "file": "docs/mm-2025/monsters/monster.efreeti.json"
+    },
+    {
+      "id": "monster.elemental_cataclysm",
+      "name": "ELEMENTAL CATACLYSM",
+      "file": "docs/mm-2025/monsters/monster.elemental_cataclysm.json"
+    },
+    {
+      "id": "monster.empyrean",
+      "name": "EMPYREAN",
+      "file": "docs/mm-2025/monsters/monster.empyrean.json"
+    },
+    {
+      "id": "monster.empyrean_iota",
+      "name": "EMPYREAN IOTA",
+      "file": "docs/mm-2025/monsters/monster.empyrean_iota.json"
+    },
+    {
+      "id": "monster.erinyes",
+      "name": "ERINYES",
+      "file": "docs/mm-2025/monsters/monster.erinyes.json"
+    },
+    {
+      "id": "monster.ettercap",
+      "name": "ETTERCAP",
+      "file": "docs/mm-2025/monsters/monster.ettercap.json"
+    },
+    {
+      "id": "monster.ettin",
+      "name": "ETTIN",
+      "file": "docs/mm-2025/monsters/monster.ettin.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (E) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

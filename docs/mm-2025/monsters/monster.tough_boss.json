@@ -1,0 +1,80 @@
+{
+  "id": "monster.tough_boss",
+  "name": "TOUGH BOSS",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 82,
+  "hit_dice": "11d8 + 33",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 10",
+  "languages": "Common plus one other language",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [
+    {
+      "name": "Pack Tactics",
+      "text": "The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination."
+    },
+    {
+      "name": "Warhammer",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": "Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +2 (12)\nHP 82 (11d8 + 33)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+5\nDEX \t14 \t+2 \t+2\nCON \t16 \t+3 \t+5\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t11 \t+0 \t+2\nGear Chain Mail, Heavy Crossbow, Warhammer\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 4 (XP 1,100; PB +2)\nTraits\nPack Tactics. The tough has Advantage on an attack roll against a creature if\nat least one of the tough’s allies is within 5 feet of the creature and the ally\ndoesn’t have the Incapacitated condition.\nActions\nMultiattack. The tough makes two attacks, using Warhammer or Heavy\nCrossbow in any combination.\nWarhammer. Melee Attack Roll: +5, reach 5 ft.\nHit: 12 (2d8 + 3) Bludgeoning\ndamage. If the target is a Large or smaller creature, the tough pushes the\ntarget up to 10 feet straight away from itself.\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft.\nHit: 13 (2d10 + 2)\nPiercing damage.\nMedium or Small Humanoid, Neutral\nHabitat: Forest; Treasure: None\nAncient inhabitants of the forest, treants are gigantic, animate trees with wizened faces. Most have lived for centuries and know secrets of the natural\nworld. They avoid becoming embroiled in the conflicts of shorter-lived creatures, but they’re protective of their forest homes. If roused to anger, treants can\nanimate trees to aid them.\nTreants defend and are shaped by secrets of the forest. Roll on or choose a result from the Treant Secrets table to inspire what mysteries a treant protects.\nTreant Secrets\n1d6 \tThe Treant Is...\n1 \tBlessed by a god and grows magic fruit.\n2 \tGrowing atop the entrance to a dungeon or portal to the Feywild.\n3 \tHome to a community of pixies or sprites.\n4 \tThe last lore keeper of lost druidic knowledge.\n5 \tRooted on a hero’s burial mound and animates trees that look like questing knights.\n6 \tScarred by a fire and holds the bones of the arsonist who started it in a hollow.\nA TREANT EVICTS ADVENTURERS FROM A CITY IT HAS RECLAIMED FOR NATURE",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (T) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

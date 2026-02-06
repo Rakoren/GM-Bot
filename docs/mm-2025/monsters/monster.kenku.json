@@ -1,0 +1,77 @@
+{
+  "id": "monster.kenku",
+  "name": "KENKU",
+  "status": "complete",
+  "size_type_alignment": "Medium Monstrosity, Neutral",
+  "size": "Medium",
+  "creature_type": "Monstrosity",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "hit_points": 13,
+  "hit_dice": "3d8",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +4, Perception +2, Stealth +5",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Common, Primordial (Auran)",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Mimicry",
+      "text": "The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Shadow Blade",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft. Hit: 6 (1d6 + 3) Necrotic damage. Hit or Miss: The blade magically returns to the kenku's hand immediately after a ranged attack."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Eldritch Lantern (Recharge 4-6)",
+      "text": "The kenku casts Faerie Fire, using Intelligence as the spellcasting ability (spell save DC 10)."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +3 (13)\nHP 13 (3d8)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t16 \t+3 \t+3\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t11 \t+0 \t+0\nWIS \t10 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Deception +4, Perception +2, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Common, Primordial (Auran)\nCR 1/4 (XP 50; PB +2)\nTraits\nMimicry. The kenku can mimic any sounds it has heard, including voices. A creature\nthat hears the sounds can tell they are imitations with a successful DC 14 Wisdom\n(Insight) check.\nActions\nShadow Blade. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 60 ft.\nHit: 6 (1d6\n+ 3) Necrotic damage.\nHit or Miss: The blade magically returns to the kenku’s hand\nimmediately after a ranged attack.\nBonus Actions\nEldritch Lantern (Recharge 4–6). The kenku casts\nFaerie Fire, using Intelligence as\nthe spellcasting ability (spell save DC 10).\nMedium Monstrosity, Neutral\nKnights\nBattle Masters and Heroic Wanderers\nHabitat: Any; Treasure: Armaments, Individual\nKnights are skilled warriors trained for war and tested in battle. Many serve the rulers of a realm, a religion, or an order devoted to a cause.\nKnight\nKnights frequently lead troops in combat or work in units that dominate the battlefield. They’re often attended by squires, who might be less skilled soldiers\nor commoners.\nQuesting Knight\nQuesting knights travel in pursuit of a cause, such as slaying a villain, defeating a monster, recovering an Artifact, or restoring their lost honor.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

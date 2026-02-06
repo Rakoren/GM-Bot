@@ -1,0 +1,26 @@
+{
+  "id": "list.mm-2025.monsters.batch_028",
+  "name": "MM 2025 Monsters Batch 28",
+  "entries": [
+    {
+      "id": "monster.beholder_zombie",
+      "name": "BEHOLDER ZOMBIE",
+      "file": "docs/mm-2025/monsters/monster.beholder_zombie.json"
+    },
+    {
+      "id": "monster.ogre_zombie",
+      "name": "OGRE ZOMBIE",
+      "file": "docs/mm-2025/monsters/monster.ogre_zombie.json"
+    },
+    {
+      "id": "monster.zombie",
+      "name": "ZOMBIE",
+      "file": "docs/mm-2025/monsters/monster.zombie.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (Z) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

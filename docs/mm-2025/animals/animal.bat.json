@@ -1,0 +1,67 @@
+{
+  "id": "animal.bat",
+  "name": "BAT",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 1,
+  "hit_dice": "1d4 − 1",
+  "speed": "5 ft., Fly 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 11",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 1 (1d4 − 1)\nSpeed 5 ft., Fly 30 ft.\nMOD \tSAVE\nSTR \t2 \t−4 \t−4\nDEX \t15 \t+2 \t+2\nCON \t8 \t−1 \t−1\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t4 \t−3 \t−3\nSenses Blindsight 60 ft.; Passive Perception 11\nLanguages None\nCR 0 (XP 10; PB +2)\nActions\nBite. Melee Attack Roll: +4, reach 5 ft.\nHit: 1 Piercing damage.\nTiny Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

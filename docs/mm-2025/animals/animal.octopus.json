@@ -1,0 +1,76 @@
+{
+  "id": "animal.octopus",
+  "name": "OCTOPUS",
+  "status": "complete",
+  "size_type_alignment": "Small Beast, Unaligned",
+  "size": "Small",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 3,
+  "hit_dice": "1d6",
+  "speed": "5 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 4,
+      "mod": "-3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft.; Passive Perception 12",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Compression",
+      "text": "The octopus can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Water Breathing",
+      "text": "The octopus can breathe only underwater."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Tentacles",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 3 (1d6)\nSpeed 5 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t4 \t−3 \t−3\nDEX \t15 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t3 \t−4 \t−4\nWIS \t10 \t+0 \t+0\nCHA \t4 \t−3 \t−3\nSkills Perception +2, Stealth +6\nSenses Darkvision 30 ft.; Passive Perception 12\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nCompression. The octopus can move through a space as narrow as 1 inch\nwithout expending extra movement to do so.\nWater Breathing. The octopus can breathe only underwater.\nActions\nTentacles. Melee Attack Roll: +4, reach 5 ft.\nHit: 1 Bludgeoning damage.\nSmall Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "list.mm-2025.monsters.batch_016",
+  "name": "MM 2025 Monsters Batch 16",
+  "entries": [
+    {
+      "id": "monster.nalfeshnee",
+      "name": "NALFESHNEE",
+      "file": "docs/mm-2025/monsters/monster.nalfeshnee.json"
+    },
+    {
+      "id": "monster.night_hag",
+      "name": "NIGHT HAG",
+      "file": "docs/mm-2025/monsters/monster.night_hag.json"
+    },
+    {
+      "id": "monster.nightmare",
+      "name": "NIGHTMARE",
+      "file": "docs/mm-2025/monsters/monster.nightmare.json"
+    },
+    {
+      "id": "monster.noble",
+      "name": "NOBLE",
+      "file": "docs/mm-2025/monsters/monster.noble.json"
+    },
+    {
+      "id": "monster.noble_prodigy",
+      "name": "NOBLE PRODIGY",
+      "file": "docs/mm-2025/monsters/monster.noble_prodigy.json"
+    },
+    {
+      "id": "monster.nothic",
+      "name": "NOTHIC",
+      "file": "docs/mm-2025/monsters/monster.nothic.json"
+    },
+    {
+      "id": "monster.nycaloth",
+      "name": "NYCALOTH",
+      "file": "docs/mm-2025/monsters/monster.nycaloth.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (N) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

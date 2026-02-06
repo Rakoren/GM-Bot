@@ -1,0 +1,79 @@
+{
+  "id": "monster.animated_rug_of_smothering",
+  "name": "ANIMATED RUG OF SMOTHERING",
+  "status": "complete",
+  "size_type_alignment": "Large Construct, Unaligned",
+  "size": "Large",
+  "creature_type": "Construct",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "hit_points": 27,
+  "hit_dice": "5d10",
+  "speed": "10 ft.",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 3,
+      "mod": "-4"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 6",
+  "languages": "None",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Smother",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the rug can give it the"
+    },
+    {
+      "name": "Grappled condition (escape DC 13) instead of dealing damage",
+      "text": "Until the grapple ends, the target has the Blinded and Restrained conditions, is suffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time. While grappling the target, the rug can't take this action, the rug halves the damage it takes (round down), and the target takes the same amount of damage."
+    },
+    {
+      "name": "Ankhegs are the bane of farmers whose grazing livestock are easy prey for these monsters",
+      "text": "Many ankhegs hunt alone, but those in places with ample food might collect in nests of several dozen and threaten whole towns. Ankheg nests can be challenging to wipe out unless the monsters' tunnels are cleared out and their eggs destroyed."
+    },
+    {
+      "name": "Ankheg tunnels are roughly cylindrical and are often littered with the remains of ankhegs' meals and subterranean treasures",
+      "text": "Roll on or choose a result from the Ankheg Tunnel Discoveries table to inspire what might be found in an ankheg's tunnel. Ankheg Tunnel Discoveries 1d8 \tInside the Ankheg Tunnel Is... 1 \tAnother tunnel (either natural or of worked stone) that extends into the Underdark. 2 \tA buried ruin or grave exposed by the tunnel. 3 \tA cluster of 1d4 fresh ankheg eggs that can be broken and used as vials of Acid. 4 \tA dead ankheg and evidence of a deadlier subterranean predator. 5 \tA piece of ankheg carapace usable as a Shield. 6 \tA pouch with 2d6 GP near a puddle of acid. 7 \tA stray farm or woodland animal. 8 \tA viciously mauled scarecrow. Though they feed on things under the soil, ankhegs prefer live meat-your cattle, your dogs, or you. -FEIL JENKINS, SAGE OF KIRWAK"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +4 (14)\nHP 27 (5d10)\nSpeed 10 ft.\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t14 \t+2 \t+2\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t3 \t−4 \t−4\nCHA \t1 \t−5 \t−5\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened,\nParalyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 6\nLanguages None\nCR 2 (XP 450; PB +2)\nActions\nSmother. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3) Bludgeoning\ndamage. If the target is a Medium or smaller creature, the rug can give it the\nGrappled condition (escape DC 13) instead of dealing damage. Until the\ngrapple ends, the target has the Blinded and Restrained conditions, is\nsuffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of\nits turns. The rug can smother only one creature at a time.\nWhile grappling the target, the rug can’t take this action, the rug halves\nthe damage it takes (round down), and the target takes the same amount\nof damage.\nLarge Construct, Unaligned\nAnkhegs are the bane of farmers whose grazing livestock are easy prey for these monsters. Many ankhegs hunt alone, but those in places with ample food\nmight collect in nests of several dozen and threaten whole towns. Ankheg nests can be challenging to wipe out unless the monsters’ tunnels are cleared out\nand their eggs destroyed.\nAnkheg tunnels are roughly cylindrical and are often littered with the remains of ankhegs’ meals and subterranean treasures. Roll on or choose a result\nfrom the Ankheg Tunnel Discoveries table to inspire what might be found in an ankheg’s tunnel.\nAnkheg Tunnel Discoveries\n1d8 \tInside the Ankheg Tunnel Is...\n1 \tAnother tunnel (either natural or of worked stone) that extends into the Underdark.\n2 \tA buried ruin or grave exposed by the tunnel.\n3 \tA cluster of 1d4 fresh ankheg eggs that can be broken and used as vials of Acid.\n4 \tA dead ankheg and evidence of a deadlier subterranean predator.\n5 \tA piece of ankheg carapace usable as a Shield.\n6 \tA pouch with 2d6 GP near a puddle of acid.\n7 \tA stray farm or woodland animal.\n8 \tA viciously mauled scarecrow.\nThough they feed on things under the soil, ankhegs\nprefer live meat—your cattle, your dogs, or you.\n—FEIL JENKINS, SAGE OF KIRWAK",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "table.languages.core",
+  "name": "Languages (Core)",
+  "chapter": 4,
+  "status": "complete",
+  "sourceRef": {
+    "file": "docs/sources/phb2024/03-chapter 2/03-Creating a Character - Player’s Handbook - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Languages"
+  },
+  "columns": [
+    "category",
+    "language"
+  ],
+  "entries": [
+    {
+      "category": "standard",
+      "language": "Common"
+    },
+    {
+      "category": "standard",
+      "language": "Dwarvish"
+    },
+    {
+      "category": "standard",
+      "language": "Elvish"
+    },
+    {
+      "category": "standard",
+      "language": "Giant"
+    },
+    {
+      "category": "standard",
+      "language": "Gnomish"
+    },
+    {
+      "category": "standard",
+      "language": "Goblin"
+    },
+    {
+      "category": "standard",
+      "language": "Halfling"
+    },
+    {
+      "category": "standard",
+      "language": "Orc"
+    },
+    {
+      "category": "rare",
+      "language": "Abyssal"
+    },
+    {
+      "category": "rare",
+      "language": "Celestial"
+    },
+    {
+      "category": "rare",
+      "language": "Deep Speech"
+    },
+    {
+      "category": "rare",
+      "language": "Draconic"
+    },
+    {
+      "category": "rare",
+      "language": "Infernal"
+    },
+    {
+      "category": "rare",
+      "language": "Primordial"
+    },
+    {
+      "category": "rare",
+      "language": "Sylvan"
+    },
+    {
+      "category": "rare",
+      "language": "Undercommon"
+    }
+  ],
+  "notes": []
+}

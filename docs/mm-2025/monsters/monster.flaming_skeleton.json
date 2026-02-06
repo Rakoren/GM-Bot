@@ -1,0 +1,88 @@
+{
+  "id": "monster.flaming_skeleton",
+  "name": "FLAMING SKELETON",
+  "status": "complete",
+  "size_type_alignment": "Medium Undead, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Undead",
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "hit_points": 65,
+  "hit_dice": "10d8 + 20",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Understands Common plus one other language but can’t speak",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Death Burst",
+      "text": "The skeleton explodes when it dies. Dexterity Saving Throw: DC 12, each creature in a 10-foot Emanation originating from the skeleton. Failure: 14 (4d6) Fire damage. Success: Half damage."
+    },
+    {
+      "name": "Illumination",
+      "text": "The skeleton sheds Bright Light in a 15-foot radius and Dim Light for an additional 15 feet."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The skeleton makes two attacks, using Flame Scepter or Hurl"
+    },
+    {
+      "name": "Flame in any combination",
+      "text": ""
+    },
+    {
+      "name": "Flame Scepter",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 3 (1d6) Fire damage."
+    },
+    {
+      "name": "Hurl Flame",
+      "text": "Ranged Attack Roll: +4, range 60 ft. Hit: 7 (1d10 + 2) Fire damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 65 (10d8 + 20)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t14 \t+2 \t+2\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t15 \t+2 \t+2\nCHA \t8 \t−1 \t−1\nVulnerabilities Bludgeoning\nImmunities Fire, Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Understands Common plus one other language but can’t speak\nCR 3 (XP 700; PB +2)\nTraits\nDeath Burst. The skeleton explodes when it dies.\nDexterity Saving Throw: DC\n12, each creature in a 10-foot Emanation originating from the skeleton.\nFailure:\n14 (4d6) Fire damage.\nSuccess: Half damage.\nIllumination. The skeleton sheds Bright Light in a 15-foot radius and Dim Light\nfor an additional 15 feet.\nActions\nMultiattack. The skeleton makes two attacks, using Flame Scepter or Hurl\nFlame in any combination.\nFlame Scepter. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Bludgeoning\ndamage plus 3 (1d6) Fire damage.\nHurl Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (1d10 + 2) Fire damage.\nMedium Undead, Lawful Evil\nUnpredictable slaadi devour and multiply across the Ever-Changing Chaos of Limbo. These toad-like,\nextraplanar beings embody the endless potentiality of their home plane of existence. While slaadi\naren’t inherently evil, their impulses are wild and often destructive. Many are driven to propagate\nthrough supernatural processes. Unfortunately, these processes typically are fatal for other\ncreatures.\nSlaadi have no formal society. Rather, strong slaadi dominate weaker ones. Blue and red slaadi\nrampage across Limbo and spill into other worlds at the direction of green slaadi. More powerful\nslaadi have connections to the Spawning Stone, a source of chaotic magic from which the first\nslaadi originated. The Spawning Stone is hidden deep within Limbo, and legends tie its origins to the\nmodron overlord Primus or the ruinous slaad lords, such as Ssendam, the golden amoeboid terror,\nand Ygorl, the winged skeleton. These slaad lords and others plot to spread slaadi across the\nmultiverse.\nSlaad Tadpole\nSlaad tadpoles are ravenous, newborn slaadi. They hatch from eggs implanted into living hosts by red slaadi, but they also appear in great numbers in\nLimbo and other chaotic realms. Under most conditions, a slaad tadpole transforms into a blue slaad—or a green slaad if its host was able to cast spells of\nlevel 3 or higher—within 2d12 hours of hatching.\nRed Slaad\nA RED SLAAD AND BLUE SLAAD, ALONG\nWITH SEVERAL SLAAD TADPOLES, BURST\nFROM A PORTAL ON THE PLANE OF LIMBO",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (S) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

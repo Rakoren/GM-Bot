@@ -19,7 +19,20 @@
     ],
     "tools": [
       "herbalism_kit"
-    ]
+    ],
+    "skills_choose": {
+      "count": 2,
+      "from": [
+        "arcana",
+        "animal_handling",
+        "insight",
+        "medicine",
+        "nature",
+        "perception",
+        "religion",
+        "survival"
+      ]
+    }
   },
   "spellcasting": {
     "caster_type": "prepared",

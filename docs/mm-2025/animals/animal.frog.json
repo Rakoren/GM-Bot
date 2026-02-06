@@ -1,0 +1,76 @@
+{
+  "id": "animal.frog",
+  "name": "FROG",
+  "status": "complete",
+  "size_type_alignment": "Tiny Beast, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Beast",
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "hit_points": 1,
+  "hit_dice": "1d4 − 1",
+  "speed": "20 ft., Swim 20 ft.",
+  "abilities": {
+    "STR": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +1, Stealth +3",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 30 ft.; Passive Perception 11",
+  "languages": "None",
+  "cr": "0 (XP 10; PB +2)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The frog can breathe air and water."
+    },
+    {
+      "name": "Standing Leap",
+      "text": "The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 11 \tInitiative +1 (11)\nHP 1 (1d4 − 1)\nSpeed 20 ft., Swim 20 ft.\nMOD \tSAVE\nSTR \t1 \t−5 \t−5\nDEX \t13 \t+1 \t+1\nCON \t8 \t−1 \t−1\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t8 \t−1 \t−1\nCHA \t3 \t−4 \t−4\nSkills Perception +1, Stealth +3\nSenses Darkvision 30 ft.; Passive Perception 11\nLanguages None\nCR 0 (XP 10; PB +2)\nTraits\nAmphibious. The frog can breathe air and water.\nStanding Leap. The frog’s Long Jump is up to 10 feet and its High Jump is up\nto 5 feet with or without a running start.\nActions\nBite. Melee Attack Roll: +3, reach 5 ft.\nHit: 1 Piercing damage.\nTiny Beast, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

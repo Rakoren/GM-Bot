@@ -172,6 +172,31 @@ export const commandData = [
     )
     .addSubcommand(sub =>
       sub
+        .setName('resource')
+        .setDescription('Spend or restore a class resource')
+        .addStringOption(opt =>
+          opt
+            .setName('action')
+            .setDescription('How to update the resource')
+            .setRequired(true)
+            .addChoices(
+              { name: 'spend', value: 'spend' },
+              { name: 'restore', value: 'restore' },
+              { name: 'set', value: 'set' }
+            )
+        )
+        .addStringOption(opt =>
+          opt.setName('resource').setDescription('Resource name or id').setRequired(true)
+        )
+        .addIntegerOption(opt =>
+          opt.setName('amount').setDescription('Amount to change/set').setRequired(false)
+        )
+        .addUserOption(opt =>
+          opt.setName('user').setDescription('Target player (DM only)').setRequired(false)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
         .setName('phase')
         .setDescription('Set combat phase')
         .addStringOption(opt =>
@@ -411,6 +436,35 @@ export const commandData = [
         .addStringOption(opt =>
           opt.setName('query').setDescription('Name to search').setRequired(true)
         )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('item')
+        .setDescription('Lookup an item')
+        .addStringOption(opt =>
+          opt.setName('query').setDescription('Name to search').setRequired(true)
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('monster')
+        .setDescription('Lookup a monster')
+        .addStringOption(opt =>
+          opt.setName('query').setDescription('Name to search').setRequired(true)
+        )
+    ),
+  new SlashCommandBuilder()
+    .setName('rules')
+    .setDescription('Rules registry commands')
+    .addSubcommand(sub =>
+      sub
+        .setName('reload')
+        .setDescription('Reload rules registry (and combat indexes)')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('status')
+        .setDescription('Show rules registry counts by type')
     ),
   new SlashCommandBuilder()
     .setName('homebrew')

@@ -1,0 +1,84 @@
+{
+  "id": "monster.centaur_warden",
+  "name": "CENTAUR WARDEN",
+  "status": "complete",
+  "size_type_alignment": "Large Fey, Neutral Good",
+  "size": "Large",
+  "creature_type": "Fey",
+  "alignment": "Neutral Good",
+  "armor_class": 16,
+  "hit_points": 105,
+  "hit_dice": "14d10 + 28",
+  "speed": "50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 11,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +7, Nature +5, Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 17",
+  "languages": "Druidic, Elvish, Sylvan",
+  "cr": "7 (XP 2,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The centaur makes two attacks, using Forest Staff or Sun Ray in any combination."
+    },
+    {
+      "name": "Forest Staff",
+      "text": "Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 14 (4d6) Poison damage."
+    },
+    {
+      "name": "Sun Ray",
+      "text": "Ranged Attack Roll: +7, range 90 ft. Hit: 14 (3d6 + 4) Radiant damage, and the target has the Blinded condition until the start of the centaur's next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The centaur casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 15): At Will: Druidcraft, Speak with Animals"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Entangling Trail (Recharge 5-6)",
+      "text": "The centaur moves up to its Speed without provoking Opportunity Attacks. Each creature within 5 feet of the centaur as it moves is targeted once by the following effect. Strength Saving Throw: DC 15. Failure: 11 (2d6 + 4) Bludgeoning damage, and the target has the Restrained condition until the end of its next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +2 (12)\nHP 105 (14d10 + 28)\nSpeed 50 ft.\nMOD \tSAVE\nSTR \t18 \t+4 \t+4\nDEX \t14 \t+2 \t+2\nCON \t14 \t+2 \t+5\nMOD \tSAVE\nINT \t9 \t−1 \t−1\nWIS \t18 \t+4 \t+7\nCHA \t11 \t+0 \t+0\nLarge Fey, Neutral Good\nCentaur Trooper\nCentaur troopers are knight-like guardians. Many are suspicious of non-Fey creatures.\nChain Devil\nDevil of Pain and Control\nHabitat: Planar (Nine Hells); Treasure: Implements\nSkills Athletics +7, Nature +5, Perception +7\nSenses Passive Perception 17\nLanguages Druidic, Elvish, Sylvan\nCR 7 (XP 2,900; PB +3)\nActions\nMultiattack. The centaur makes two attacks, using Forest Staff or Sun Ray in\nany combination.\nForest Staff. Melee Attack Roll: +7, reach 5 ft.\nHit: 13 (2d8 + 4) Bludgeoning\ndamage plus 14 (4d6) Poison damage.\nSun Ray. Ranged Attack Roll: +7, range 90 ft.\nHit: 14 (3d6 + 4) Radiant damage,\nand the target has the Blinded condition until the start of the centaur’s\nnext turn.\nSpellcasting. The centaur casts one of the following spells, using Wisdom as\nthe spellcasting ability (spell save DC 15):\nAt Will:\nDruidcraft,\nSpeak with Animals\nBonus Actions\nEntangling Trail (Recharge 5–6). The centaur moves up to its Speed without\nprovoking Opportunity Attacks. Each creature within 5 feet of the centaur as it\nmoves is targeted once by the following effect.\nStrength Saving Throw: DC 15.\nFailure: 11 (2d6 + 4) Bludgeoning damage, and the target has the Restrained\ncondition until the end of its next turn.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,92 @@
+{
+  "id": "monster.intellect_devourer",
+  "name": "INTELLECT DEVOURER",
+  "status": "complete",
+  "size_type_alignment": "Tiny Aberration, Lawful Evil",
+  "size": "Tiny",
+  "creature_type": "Aberration",
+  "alignment": "Lawful Evil",
+  "armor_class": 12,
+  "hit_points": 28,
+  "hit_dice": "8d4 + 8",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2, Stealth +4",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 12",
+  "languages": "Understands Deep Speech but can’t speak; telepathy 60 ft.",
+  "cr": "2 (XP 450; PB +2)",
+  "traits": [
+    {
+      "name": "Detect Intelligence",
+      "text": "The intellect devourer magically senses the location of any creature within 300 feet of itself that has an Intelligence score of 3 or higher, regardless of interposing barriers."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The intellect devourer makes one Claw attack and uses Devour Intellect."
+    },
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage."
+    },
+    {
+      "name": "Devour Intellect",
+      "text": "Intelligence Saving Throw: DC 12, one creature the intellect devourer can see within 5 feet. Failure: 11 (2d10) Psychic damage, and the target has the Stunned condition until the end of the intellect devourer's next turn."
+    },
+    {
+      "name": "Steal Body",
+      "text": "Intelligence Saving Throw: DC 12, one Small or Medium creature within 5 feet that has the Incapacitated condition, is a Humanoid or Beast, and has 10 Hit Points or fewer. Failure: The intellect devourer possesses the target, consumes its brain, and teleports inside its skull. While there, the intellect devourer has Total Cover against attacks and other effects originating outside its host. The intellect devourer retains its Intelligence, Wisdom, and Charisma scores; its understanding of Deep Speech; its telepathy; and its Detect"
+    },
+    {
+      "name": "Intelligence trait",
+      "text": "It otherwise adopts the target's game statistics. It knows everything the target knew, including spells and languages."
+    },
+    {
+      "name": "If the host body dies, the intellect devourer must leave it",
+      "text": "The intellect devourer"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 12 \tInitiative +2 (12)\nHP 28 (8d4 + 8)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t6 \t−2 \t−2\nDEX \t14 \t+2 \t+2\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t11 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Perception +2, Stealth +4\nResistances Psychic\nSenses Blindsight 60 ft.; Passive Perception 12\nLanguages Understands Deep Speech but can’t speak; telepathy 60 ft.\nCR 2 (XP 450; PB +2)\nTraits\nDetect Intelligence. The intellect devourer magically senses the location of\nany creature within 300 feet of itself that has an Intelligence score of 3 or\nhigher, regardless of interposing barriers.\nActions\nMultiattack. The intellect devourer makes one Claw attack and uses\nDevour Intellect.\nClaw. Melee Attack Roll: +4, reach 5 ft.\nHit: 7 (2d4 + 2) Slashing damage.\nDevour Intellect. Intelligence Saving Throw: DC 12, one creature the intellect\ndevourer can see within 5 feet.\nFailure: 11 (2d10) Psychic damage, and the\ntarget has the Stunned condition until the end of the intellect devourer’s\nnext turn.\nSteal Body. Intelligence Saving Throw: DC 12, one Small or Medium creature\nwithin 5 feet that has the Incapacitated condition, is a Humanoid or Beast, and\nhas 10 Hit Points or fewer.\nFailure: The intellect devourer possesses the target,\nconsumes its brain, and teleports inside its skull. While there, the intellect\ndevourer has Total Cover against attacks and other effects originating outside\nits host. The intellect devourer retains its Intelligence, Wisdom, and Charisma\nscores; its understanding of Deep Speech; its telepathy; and its Detect\nIntelligence trait. It otherwise adopts the target’s game statistics. It knows\neverything the target knew, including spells and languages.\nIf the host body dies, the intellect devourer must leave it. The intellect devourer\nis also forced out if the target regains its devoured brain by means of a\nWish\nspell. By spending 5 feet of its movement, the intellect devourer can voluntarily\nleave the body, teleporting to the nearest unoccupied space within 5 feet of it.\nThe body then dies unless its brain is restored before the end of the intellect\ndevourer’s next turn.\nTiny Aberration, Lawful Evil\nInvisible Stalker\nUnseen Magical Assassin\nHabitat: Urban; Treasure: None\nMagic and malice give form to invisible stalkers, bodiless spirits of the air. These elusive beings pass unseen with nothing more than a stirring of air. They\ncontrol powerful winds capable of moving objects and battering foes. Magic-users conjure these creatures to serve as killers and thieves. Invisible stalkers\nrelentlessly pursue their quarry, and they rarely leave evidence of their crimes.\nIn rare cases, an invisible stalker lingers in the world without a spellcaster\ncontrolling it. Roll on or choose a result from the Uncontrolled Invisible Stalkers\ntable to inspire why one of these monsters lurks in an area without a direct\ncommand.\nUncontrolled Invisible Stalkers\n1d6 \tThe Invisible Stalker Is...\n1 \tThe breath of an infamous god or monster.\n2 \tA guardian of a hidden portal or magical site.\n3 \tThe lingering violent thoughts of someone killed in a great battle.\n4 \tA manifestation of uncontrolled magic.\n5 A servant of an evil elemental ruler such as Yan-C-Bin (the Elemental\nPrince of Evil Air).\n6 Unable to complete its duty and tries to create circumstances\nallowing it to fulfill its task.\nI know Durgan, and that wasn’t Durgan. It was like something\nwas wearing Durgan... like some sort of suit... a Durgan suit.\n—JOHANA GRETHE,\nACCOUNT OF THE STORMPORT SHOCK\nIron Golem\nGuardian of That Which Must Endure\nHabitat: Any; Treasure: Any\nTheir magical cores protected by mighty armor, iron golems defend important sites and objects. These golems are forged in bipedal forms, the details of\nwhich are decided by their creators. Many resemble armored guardians or legendary heroes. Iron golems confront their foes with a combination of\noverwhelming physical force and eruptions from their magical core. These magical blasts take the form of fiery bolts and poisonous emissions.\nIron golems preserve and protect their charges for generations. Roll on or choose a result from the Iron Golem Orders table to inspire what commands an\niron golem follows.\nIron Golem Orders\n1d4 \tThe Iron Golem Follows Orders To...\n1 \tBlock a door that has never been opened, moving only when a prophecy is fulfilled.\n2 \tExhale poison gas whenever it can, pausing only when someone speaks a passphrase.\n3 \tPose as a statue until a community’s hour of greatest need.\n4 \tStand atop the resting place of a powerful magic item.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (I) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

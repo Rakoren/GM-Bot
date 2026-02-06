@@ -1,0 +1,92 @@
+{
+  "id": "monster.cyclops_oracle",
+  "name": "CYCLOPS ORACLE",
+  "status": "complete",
+  "size_type_alignment": "Huge Giant, Chaotic Neutral",
+  "size": "Huge",
+  "creature_type": "Giant",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 16,
+  "hit_points": 207,
+  "hit_dice": "18d12 + 90",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "History +11, Perception +12",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 30 ft.; Passive Perception 22",
+  "languages": "Giant",
+  "cr": "10 (XP 5,900; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The cyclops makes three attacks, using Radiant Strike or Flash of"
+    },
+    {
+      "name": "Light in any combination",
+      "text": ""
+    },
+    {
+      "name": "Radiant Strike",
+      "text": "Melee Attack Roll: +10, reach 10 ft. Hit: 22 (3d10 + 6) Radiant damage."
+    },
+    {
+      "name": "Flash of Light",
+      "text": "Ranged Attack Roll: +10, range 120 ft. Hit: 17 (2d10 + 6) Radiant damage, and the target has Disadvantage on attack rolls until the end of the cyclops's next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The cyclops casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 16): 2/Day Each: Arcane Eye, Detect Magic, Locate Object 1/Day: Legend Lore"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Portent (Recharge 4-6)",
+      "text": "Trigger: The cyclops or an ally it can see makes a"
+    },
+    {
+      "name": "D20 Test",
+      "text": "Response: The cyclops rolls 1d20 and chooses whether to use that roll in place of the d20 rolled for the D20 Test."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +8 (18)\nHP 207 (18d12 + 90)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t22 \t+6 \t+6\nDEX \t11 \t+0 \t+0\nCON \t20 \t+5 \t+9\nMOD \tSAVE\nINT \t16 \t+3 \t+3\nWIS \t18 \t+4 \t+8\nCHA \t10 \t+0 \t+0\nSkills History +11, Perception +12\nSenses Truesight 30 ft.; Passive Perception 22\nLanguages Giant\nCR 10 (XP 5,900; PB +4)\nActions\nMultiattack. The cyclops makes three attacks, using Radiant Strike or Flash of\nLight in any combination.\nRadiant Strike. Melee Attack Roll: +10, reach 10 ft.\nHit: 22 (3d10 + 6)\nRadiant damage.\nFlash of Light. Ranged Attack Roll: +10, range 120 ft.\nHit: 17 (2d10 + 6) Radiant\ndamage, and the target has Disadvantage on attack rolls until the end of the\ncyclops’s next turn.\nSpellcasting. The cyclops casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 16):\n2/Day Each:\nArcane Eye,\nDetect Magic,\nLocate Object\n1/Day:\nLegend Lore\nReactions\nPortent (Recharge 4–6). Trigger: The cyclops or an ally it can see makes a\nD20 Test.\nResponse: The cyclops rolls 1d20 and chooses whether to use that\nroll in place of the d20 rolled for the D20 Test.\nHuge Giant, Chaotic Neutral",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (C) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

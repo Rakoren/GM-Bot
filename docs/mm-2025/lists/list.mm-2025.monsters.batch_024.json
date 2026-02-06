@@ -1,0 +1,41 @@
+{
+  "id": "list.mm-2025.monsters.batch_024",
+  "name": "MM 2025 Monsters Batch 24",
+  "entries": [
+    {
+      "id": "monster.vampire",
+      "name": "VAMPIRE",
+      "file": "docs/mm-2025/monsters/monster.vampire.json"
+    },
+    {
+      "id": "monster.vampire_familiar",
+      "name": "VAMPIRE FAMILIAR",
+      "file": "docs/mm-2025/monsters/monster.vampire_familiar.json"
+    },
+    {
+      "id": "monster.vampire_nightbringer",
+      "name": "VAMPIRE NIGHTBRINGER",
+      "file": "docs/mm-2025/monsters/monster.vampire_nightbringer.json"
+    },
+    {
+      "id": "monster.vampire_spawn",
+      "name": "VAMPIRE SPAWN",
+      "file": "docs/mm-2025/monsters/monster.vampire_spawn.json"
+    },
+    {
+      "id": "monster.vampire_umbral_lord",
+      "name": "VAMPIRE UMBRAL LORD",
+      "file": "docs/mm-2025/monsters/monster.vampire_umbral_lord.json"
+    },
+    {
+      "id": "monster.vrock",
+      "name": "VROCK",
+      "file": "docs/mm-2025/monsters/monster.vrock.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (V) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

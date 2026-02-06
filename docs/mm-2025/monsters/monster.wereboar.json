@@ -1,0 +1,84 @@
+{
+  "id": "monster.wereboar",
+  "name": "WEREBOAR",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Monstrosity (Lycanthrope), Neutral Evil",
+  "size": "Medium",
+  "creature_type": "Monstrosity (Lycanthrope)",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "hit_points": 97,
+  "hit_dice": "15d8 + 30",
+  "speed": "30 ft., 40 ft. (boar form only)",
+  "abilities": {
+    "STR": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 8,
+      "mod": "-1"
+    }
+  },
+  "saves": null,
+  "skills": "Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "Common (can’t speak in boar form)",
+  "cr": "4 (XP 1,100; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The wereboar makes two attacks, using Javelin or Tusk in any combination. It can replace one attack with a Gore attack."
+    },
+    {
+      "name": "Gore (Boar or Hybrid Form Only)",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wereboar under the DM's control and has 10 Hit Points. Success: The target is immune to this wereboar's curse for 24 hours."
+    },
+    {
+      "name": "Javelin (Humanoid or Hybrid Form Only)",
+      "text": "Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage."
+    },
+    {
+      "name": "Tusk (Boar or Hybrid Form Only)",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The wereboar shape-shifts into a Medium boar-humanoid hybrid or a Small boar, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +2 (12)\nHP 97 (15d8 + 30)\nSpeed 30 ft., 40 ft. (boar form only)\nMOD \tSAVE\nSTR \t17 \t+3 \t+3\nDEX \t10 \t+0 \t+0\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t11 \t+0 \t+0\nCHA \t8 \t−1 \t−1\nSkills Perception +2\nGear Javelins (6)\nSenses Passive Perception 12\nLanguages Common (can’t speak in boar form)\nCR 4 (XP 1,100; PB +2)\nActions\nMultiattack. The wereboar makes two attacks, using Javelin or Tusk in\nany combination. It can replace one attack with a Gore attack.\nGore (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft.\nHit:\n12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is\nsubjected to the following effect.\nConstitution Saving Throw: DC 12.\nFailure: The target is cursed. If the cursed target drops to 0 Hit Points,\nit instead becomes a Wereboar under the DM’s control and has 10 Hit\nPoints.\nSuccess: The target is immune to this wereboar’s curse for\n24 hours.\nJavelin (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll:\n+5, reach 5 ft. or range 30/120 ft.\nHit: 13 (3d6 + 3) Piercing damage.\nTusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft.\nHit:\n10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller\ncreature and the wereboar moved 20+ feet straight toward it\nimmediately before the hit, the target takes an extra 7 (2d6) Piercing\ndamage and has the Prone condition.\nBonus Actions\nShape-Shift. The wereboar shape-shifts into a Medium boar-humanoid\nhybrid or a Small boar, or it returns to its true humanoid form. Its game\nstatistics, other than its size, are the same in each form. Any\nequipment it is wearing or carrying isn’t transformed.\nMedium or Small Monstrosity (Lycanthrope), Neutral Evil\nA WEREBEAR CHASES A WEREBOAR\nAND WERERAT OUT OF ITS TERRITORY\nWeretiger\nChanged by the Power of the Tiger\nHabitat: Desert, Forest, Grassland; Treasure: Armaments\nWeretigers shape-shift from humanoid forms into tigers or tiger-humanoid\nhybrids. Although they can transform at will or when their magical nature\ndemands, many weretigers are nocturnal and transform into their bestial\nshapes at night. Some weretigers’ transformations might also be tied to the\ncrescent moon, seasons, or momentous events. Weretigers often view their\nabilities as a blessing or a family honor, and they use their shape-shifting\nabilities to defend something with historic importance. Roll on or choose a\nresult from the Weretiger Wards table to inspire what a weretiger defends.\nWeretiger Wards\n1d4 \tThe Weretiger Protects A...\n1 \tLegendary weapon or symbol of rulership.\n2 \tProving ground for prophesied heroes.\n3 \tRare species of magical plant or animal.\n4 \tSacred fountain with magical waters.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

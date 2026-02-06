@@ -1,0 +1,107 @@
+{
+  "id": "monster.kraken",
+  "name": "KRAKEN",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Monstrosity (Titan), Chaotic Evil",
+  "size": "Gargantuan",
+  "creature_type": "Monstrosity (Titan)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "hit_points": 481,
+  "hit_dice": "26d20 + 208",
+  "speed": "30 ft., Swim 120 ft.",
+  "abilities": {
+    "STR": {
+      "score": 30,
+      "mod": "+10"
+    },
+    "DEX": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 26,
+      "mod": "+8"
+    },
+    "INT": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": "History +13, Perception +11",
+  "resistances": null,
+  "immunities": "Cold, Lightning",
+  "vulnerabilities": null,
+  "condition_immunities": "Frightened, Grappled, Paralyzed, Restrained",
+  "senses": "Truesight 120 ft.; Passive Perception 21",
+  "languages": "Understands Abyssal, Celestial, Infernal, and Primordial but can't speak; telepathy 120 ft.",
+  "cr": "23 (XP 50,000, or 62,000 in lair; PB +7)",
+  "traits": [
+    {
+      "name": "Amphibious",
+      "text": "The kraken can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (4/Day, or 5/Day in Lair)",
+      "text": "If the kraken fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Siege Monster",
+      "text": "The kraken deals double damage to objects and structures."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The kraken makes two Tentacle attacks and uses Fling, Lightning Strike, or Swallow."
+    },
+    {
+      "name": "Tentacle",
+      "text": "Melee Attack Roll: +17, reach 30 ft. Hit: 24 (4d6 + 10) Bludgeoning damage. The target has the Grappled condition (escape DC 20) from one of ten tentacles, and it has the Restrained condition until the grapple ends."
+    },
+    {
+      "name": "Fling",
+      "text": "The kraken throws a Large or smaller creature Grappled by it to a space it can see within 60 feet of itself that isn't in the air. Dexterity Saving Throw: DC 25, the creature thrown and each creature in the destination space. Failure: 18 (4d8) Bludgeoning damage, and the target has the Prone condition. Success: Half damage only."
+    },
+    {
+      "name": "Lightning Strike",
+      "text": "Dexterity Saving Throw: DC 23, one creature the kraken can see within 120 feet. Failure: 33 (6d10) Lightning damage. Success: Half damage."
+    },
+    {
+      "name": "Swallow",
+      "text": "Dexterity Saving Throw: DC 25, one creature Grappled by the kraken (it can have up to four creatures swallowed at a time). Failure: 23 (3d8 + 10) Piercing damage. If the target is Large or smaller, it is swallowed and no longer Grappled. A swallowed creature has the Restrained condition, has Total Cover against attacks and other effects outside the kraken, and takes 24 (7d6) Acid damage at the start of each of its turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the kraken with the Prone condition. If the kraken dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 15 feet of movement, exiting Prone."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Storm Bolt",
+      "text": "The kraken uses Lightning Strike."
+    },
+    {
+      "name": "Toxic Ink",
+      "text": "Constitution Saving Throw: DC 23, each creature in a 15-foot Emanation originating from the kraken while it is underwater. Failure: The target has the Blinded and Poisoned conditions until the end of the kraken's next turn. The kraken then moves up to its Speed. Failure or Success: The kraken can't take this action again until the start of its next turn."
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +14 (24)\nHP 481 (26d20 + 208)\nSpeed 30 ft., Swim 120 ft.\nMOD \tSAVE\nSTR \t30 \t+10 \t+17\nDEX \t11 \t+0 \t+7\nCON \t26 \t+8 \t+15\nMOD \tSAVE\nINT \t22 \t+6 \t+6\nWIS \t18 \t+4 \t+11\nCHA \t20 \t+5 \t+5\nSkills History +13, Perception +11\nImmunities Cold, Lightning; Frightened, Grappled, Paralyzed, Restrained\nSenses Truesight 120 ft.; Passive Perception 21\nLanguages Understands Abyssal, Celestial, Infernal, and Primordial but can’t\nspeak; telepathy 120 ft.\nCR 23 (XP 50,000, or 62,000 in lair; PB +7)\nTraits\nAmphibious. The kraken can breathe air and water.\nLegendary Resistance (4/Day, or 5/Day in Lair). If the kraken fails a saving\nthrow, it can choose to succeed instead.\nSiege Monster. The kraken deals double damage to objects and structures.\nActions\nMultiattack. The kraken makes two Tentacle attacks and uses Fling, Lightning\nStrike, or Swallow.\nTentacle. Melee Attack Roll: +17, reach 30 ft.\nHit: 24 (4d6 + 10) Bludgeoning\ndamage. The target has the Grappled condition (escape DC 20) from one of ten\ntentacles, and it has the Restrained condition until the grapple ends.\nFling. The kraken throws a Large or smaller creature Grappled by it to a space\nit can see within 60 feet of itself that isn’t in the air.\nDexterity Saving Throw: DC\n25, the creature thrown and each creature in the destination space.\nFailure: 18\n(4d8) Bludgeoning damage, and the target has the Prone condition.\nSuccess:\nHalf damage only.\nLightning Strike. Dexterity Saving Throw: DC 23, one creature the kraken\ncan see within 120 feet.\nFailure: 33 (6d10) Lightning damage.\nSuccess:\nHalf damage.\nSwallow. Dexterity Saving Throw: DC 25, one creature Grappled by the kraken\n(it can have up to four creatures swallowed at a time).\nFailure: 23 (3d8 + 10)\nPiercing damage. If the target is Large or smaller, it is swallowed and no longer\nGrappled. A swallowed creature has the Restrained condition, has Total Cover\nagainst attacks and other effects outside the kraken, and takes 24 (7d6) Acid\ndamage at the start of each of its turns.\nIf the kraken takes 50 damage or more on a single turn from a creature inside\nit, the kraken must succeed on a DC 25 Constitution saving throw at the end of\nthat turn or regurgitate all swallowed creatures, each of which falls in a space\nwithin 10 feet of the kraken with the Prone condition. If the kraken dies, any\nswallowed creature no longer has the Restrained condition and can escape\nfrom the corpse using 15 feet of movement, exiting Prone.\nLegendary Actions\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn,\nthe kraken can expend a use to take one of the following actions. The kraken\nregains all expended uses at the start of each of its turns.\nStorm Bolt. The kraken uses Lightning Strike.\nToxic Ink. Constitution Saving Throw: DC 23, each creature in a 15-foot\nEmanation originating from the kraken while it is underwater.\nFailure: The\ntarget has the Blinded and Poisoned conditions until the end of the kraken’s\nnext turn. The kraken then moves up to its Speed.\nFailure or Success: The\nkraken can’t take this action again until the start of its next turn.\nGargantuan Monstrosity (Titan), Chaotic Evil\nA kraken dreams of casting its tentacles into the heavens and\nstrangling that which birthed it, and when its dream exceeds its\nreach, it settles for the occasional passing ship.\n—MALFEORE SERRANG,\nNIGHT OF THE KRAKEN CULT\nKuo-toa have slimy, humanoid bodies and the heads of goggle-eyed deep-sea fish. They claim they once dominated whole worlds, their empires spanning\nland and sea under the blessings of piscine gods. The kuo-toa can’t say what disaster brought their glorious civilization to an end, but elves, humans, mind\nflayers, and the kuo-toan gods bear the brunt of their blame. From the lands and seas of the surface, the kuo-toa retreated into cavernous trenches and\nUnderdark seas. In these hidden realms, kuo-toa brood over all they’ve lost and forgotten, nursing plots to avenge themselves for slights that might never\nhave occurred.\nKuo-toa hate the civilizations of the surface and the Underdark, believing themselves to be victims of age-old slights and ongoing conspiracies. Kuo-toa\nundertake contrived plots to propel themselves to dominance, often kidnapping people to learn their secrets or making dubious sacrifices to bizarre gods.\nTo facilitate such plots, kuo-toa try to capture creatures alive using nets or strange weapons. Drow, dwarves, and gnomes dwelling in the Underdark, as well\nas surface communities near submerged subterranean passages, are frequent targets for kuo-toa raids and other plots.\nKuo-toa frequently serve depraved masterminds such as aboleths and krakens. Such kuo-toa believe these powerful creatures are avatars of kuo-toan\ndeities or gods in their own right. Kuo-toa might temporarily ally with other evil creatures, but these alliances shift as kuo-toa leaders interpret omens from\ntheir unpredictable deities.\nKuo-toa Deities\nKuo-toa ever seek to placate their inscrutable deities. However, few kuo-toa can agree on the identities of their gods, and little consistency exists between\nkuo-toa communities. Only Blibdoolpoolp the Sea Mother, a figure with a human body but the head and claws of a crayfish, sees broad worship.\nLacking information about what their other gods look like, kuo-toa priests invent new forms for them, creating divine idols with whatever objects are at\nhand. But whether these kuo-toa priests draw power from belief or delusion, aberrant talent, or a stranger supernatural source, some power answers their\npetitions. Roll twice on or choose results from the Kuo-toa Deity Features table to inspire how kuo-toa represent a deity.\nKuo-toa Deity Features\nAN ADVENTURER STUMBLES ON A KUO-TOA ARCHPRIEST AND SERVANTS OF ITS STRANGE GODS\nWhen the Corpse Moon rises and the Chum-Tide washes in, up\nrise the Gogglers from their pits beneath the waves. Burbling\nand noisome they come, fishing night’s shores as we do dawn’s\nwaves.\n—TAK MERAKIN, HARBOR MASTER OF THE STYES\n1d10 \tThe Deity’s Head Is Like A...\n1 \tBarnacle\n2 \tCrab claw\n3 \tHagfish\n4 \tMoray eel\n5 \tSea anemone\n6 \tShark\n7 \tSunfish\n8 \tTentacle\n9 \tTreasure chest\n10 \tViperfish\n1d10 \tThe Deity’s Body Is Like A...\n1 \tHermit crab\n2 \tJellyfish\n3 \tKuo-toa\n4 \tMantis shrimp\n5 \tMerfolk\n6 \tPlesiosaurus\n7 \tSea cucumber\n8 \tShip’s figurehead\n9 \tSquid\n10 \tWhale\nKuo-toa Sanctuaries\nKuo-toa typically organize their communities around sites they believe to be important to their deities. These might be structures or series of caverns, and\nmost feature both air-filled and submerged chambers. Important places within these sites suggest the rituals of kuo-toa faiths, the demands of kuo-toa\ndeities, or the whims of omen-seeking archpriests. As with kuo-toa deities, the features of these locations vary between communities. Roll on or choose a\nresult from the Kuo-toa Ritual Sites table to inspire features and suggest adventures within a kuo-toa community.\nKuo-toa Ritual Sites\n1d8 \tThe Kuo-toa Community Features...\n1 \tAn arena scattered with weapons made from crustacean shells.\n2 \tA gallery of hibernating chuuls.\n3 \tA garden of mussels and tide pool creatures that whisper secrets.\n4 \tA hidden shrine with a patchwork depiction of a new kuo-toa deity.\n5 \tThe lavish chamber of an animal or monster said to be prophetic, lucky, or literate.\n6 \tA pool filled with jellyfish, eels, or fish roe that glow in organized patterns.\n7 \tA punishment chamber exposed to the light of the surface.\n8 \tA towering statue of a kuo-toa deity.\nKuo-toa\nKuo-toa loot ruins and raid communities near their dwellings in the Underdark.\nTheir shields are coated in sticky slime, which they use to disarm their foes, and\nthey employ slimy nets to entrap victims. They usually strive to take their\nenemies alive and drag captives to their hidden lairs.\nMost kuo-toa follow the orders of their more powerful leaders out of a\ncombination of faith and fear. In rare cases, a kuo-toa might abandon its\ncommunity to live as a hermit or wanderer. Such kuo-toa might know much about\nthe Underdark, but they live in fear of the strange gods they forsook.\nKuo-toa Whip\nThe servants of kuo-toa archpriests, kuo-toa whips—so named for their role in enforcing order among other kuo-toa—lead war bands in carrying out the\ncommands of their superiors. In return for their zeal, these kuo-toa are granted minor magical abilities and pincerlike weapons for subduing foes. In battle,\nwhips drive on other kuo-toa with threats of violence and burbling chants.\nThey came here from somewhere else and brought with them all\nthe rank and dank of the sunless sea. No one knows what they\nwant, and seems to me, neither do they.\n—TROSLI GARNETGETTER, GNOME EXPLORER\nKUO-TOA",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (K) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the kraken can expend a use to take one of the following actions. The kraken regains all expended uses at the start of each of its turns."
+  ]
+}

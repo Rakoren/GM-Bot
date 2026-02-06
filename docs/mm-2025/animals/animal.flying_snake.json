@@ -1,0 +1,72 @@
+{
+  "id": "animal.flying_snake",
+  "name": "FLYING SNAKE",
+  "status": "complete",
+  "size_type_alignment": "Tiny Monstrosity, Unaligned",
+  "size": "Tiny",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "hit_points": 5,
+  "hit_dice": "2d4",
+  "speed": "30 ft., Fly 60 ft., Swim 30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 4,
+      "mod": "-3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 2,
+      "mod": "-4"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 5,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 10 ft.; Passive Perception 11",
+  "languages": "None",
+  "cr": "1/8 (XP 25; PB +2)",
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 14 \tInitiative +2 (12)\nHP 5 (2d4)\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\nMOD \tSAVE\nSTR \t4 \t−3 \t−3\nDEX \t15 \t+2 \t+2\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t2 \t−4 \t−4\nWIS \t12 \t+1 \t+1\nCHA \t5 \t−3 \t−3\nSenses Blindsight 10 ft.; Passive Perception 11\nLanguages None\nCR 1/8 (XP 25; PB +2)\nTraits\nFlyby. The snake doesn’t provoke an Opportunity Attack when it flies out of an\nenemy’s reach.\nTiny Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  },
+  "notes": []
+}

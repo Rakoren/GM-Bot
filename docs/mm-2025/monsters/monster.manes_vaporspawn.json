@@ -1,0 +1,81 @@
+{
+  "id": "monster.manes_vaporspawn",
+  "name": "MANES VAPORSPAWN",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Demon), Chaotic Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "hit_points": 19,
+  "hit_dice": "3d8 + 6",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Poison",
+  "vulnerabilities": null,
+  "condition_immunities": "Charmed, Exhaustion, Frightened, Grappled, Poisoned, Restrained",
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "Understands Abyssal but can't speak",
+  "cr": "1 (XP 200; PB +2)",
+  "traits": [
+    {
+      "name": "Contortionist",
+      "text": "The manes can move through a space as narrow as 1 inch without expending extra movement to do so."
+    },
+    {
+      "name": "Sickening Vapors",
+      "text": "Constitution Saving Throw: DC 12, each creature in a 5-foot Emanation originating from the manes at the end of the manes's turn. Failure: The target has the Incapacitated condition until the end of its next turn. Success: The target is immune to this manes's Sickening Vapors for 24 hours."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Claw",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage plus 5 (2d4) Necrotic damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Stealth",
+      "text": "While in Dim Light or Darkness, the manes takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +1 (11)\nHP 19 (3d8 + 6)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t14 \t+2 \t+2\nDEX \t12 \t+1 \t+1\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t5 \t−3 \t−3\nWIS \t8 \t−1 \t−1\nCHA \t3 \t−4 \t−4\nResistances Cold, Fire, Lightning\nImmunities Poison; Charmed, Exhaustion, Frightened, Grappled,\nPoisoned, Restrained\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Understands Abyssal but can’t speak\nCR 1 (XP 200; PB +2)\nTraits\nContortionist. The manes can move through a space as narrow as 1 inch\nwithout expending extra movement to do so.\nSickening Vapors. Constitution Saving Throw: DC 12, each creature in a 5-foot\nEmanation originating from the manes at the end of the manes’s turn.\nFailure:\nThe target has the Incapacitated condition until the end of its next turn.\nSuccess: The target is immune to this manes’s Sickening Vapors for 24 hours.\nActions\nClaw. Melee Attack Roll: +4, reach 5 ft.\nHit: 5 (1d6 + 2) Slashing damage plus 5\n(2d4) Necrotic damage.\nBonus Actions\nShadow Stealth. While in Dim Light or Darkness, the manes takes the\nHide action.\nMedium Fiend (Demon), Chaotic Evil\nManticore\nWinged, Leonine People-Eater\nHabitat: Arctic, Coastal, Grassland, Hill, Mountain; Treasure: Any\nWith lionlike claws, leathery wings, and broad jaws filled with rows of sharp teeth, manticores ambush travelers from above and devour them. Manticores\ncrave the taste of humans, but lacking their favored prey, they eagerly consume other peoples and livestock.\nManticores have tails bristling with detachable spikes. These monsters launch their tail spikes at their prey, skewering those on the ground or knocking\nflying creatures from the air.\nDespite their ravenous tendencies, manticores enjoy speaking with those they’re about to devour. Sometimes they make agreements with their prey. Roll on\nor choose a result from the Manticore Negotiations table to inspire what a manticore might offer in exchange for a more tempting meal.\nManticore Negotiations\n1d8 \tThe Manticore Agrees To...\n1 \tAttack a particular foe.\n2 \tCreate a distraction.\n3 \tGive up a captive or corpse.\n4 \tLet a group navigate its territory unharmed.\n5 \tLet someone pretend to slay it in battle.\n6 \tScare or threaten someone.\n7 \tServe a creature as a steed until the sun sets.\n8 \tTry to locate something from its vantage point in the sky.\nMarid\nGenie of the Water\nHabitat: Coastal, Planar (Elemental Plane of Water), Underwater; Treasure: Relics\nMarids surge with the power of the seas, using it to manipulate the waves or create water. These genies typically dwell in or near bodies of water. While\ngentle marids make homes amid springs, oases, and serene pools, tempestuous marids inhabit sea stacks, whirlpools, and treacherous coasts. Marids vary\nin appearance, their bodies reflecting the colors of the waves while distinctive fins and scales accent their features. Marids lend their powers and knowledge\nof the seas to those who defend the marids’ watery realms or who offer them pleasing gifts. Marids appreciate rare aquatic treasures, such as colorful\npearls, shell instruments, or delicacies from distant seas.\nMarids hail from the Elemental Plane of Water, where they live in wondrous homes drifting amid the endless ocean. Among these is the Citadel of Ten\nThousand Pearls—a coral sphere studded with dozens of domed theaters and libraries—and the air-filled, cosmopolitan City of Glass.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

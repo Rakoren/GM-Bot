@@ -1,0 +1,84 @@
+{
+  "id": "monster.glabrezu",
+  "name": "GLABREZU",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Demon), Chaotic Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "hit_points": 189,
+  "hit_dice": "18d10 + 90",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Deception +7, Perception +7",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 120 ft.; Passive Perception 17",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "cr": "9 (XP 5,000; PB +4)",
+  "traits": [
+    {
+      "name": "Demonic Restoration",
+      "text": "If the glabrezu dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The glabrezu has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The glabrezu makes two Pincer attacks and uses Pummel or Spellcasting."
+    },
+    {
+      "name": "Pincer",
+      "text": "Melee Attack Roll: +9, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 15) from one of two pincers."
+    },
+    {
+      "name": "Pummel",
+      "text": "Dexterity Saving Throw: DC 17, one creature Grappled by the glabrezu. Failure: 15 (3d6 + 5) Bludgeoning damage. Success: Half damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +6 (16)\nHP 189 (18d10 + 90)\nSpeed 40 ft.\nMOD \tSAVE\nSTR \t20 \t+5 \t+9\nDEX \t15 \t+2 \t+2\nCON \t21 \t+5 \t+9\nMOD \tSAVE\nINT \t19 \t+4 \t+4\nWIS \t17 \t+3 \t+7\nCHA \t16 \t+3 \t+7\nSkills Deception +7, Perception +7\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Truesight 120 ft.; Passive Perception 17\nLanguages Abyssal; telepathy 120 ft.\nCR 9 (XP 5,000; PB +4)\nTraits\nDemonic Restoration. If the glabrezu dies outside the Abyss, its body dissolves\ninto ichor, and it gains a new body instantly, reviving with all its Hit Points\nsomewhere in the Abyss.\nMagic Resistance. The glabrezu has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The glabrezu makes two Pincer attacks and uses Pummel\nor Spellcasting.\nPincer. Melee Attack Roll: +9, reach 10 ft.\nHit: 16 (2d10 + 5) Slashing damage.\nIf the target is a Medium or smaller creature, it has the Grappled condition\n(escape DC 15) from one of two pincers.\nPummel. Dexterity Saving Throw: DC 17, one creature Grappled by the\nglabrezu.\nFailure: 15 (3d6 + 5) Bludgeoning damage.\nSuccess: Half damage.\nLarge Fiend (Demon), Chaotic Evil\nGladiator\nCompetitor and Prizefighter\nHabitat: Any; Treasure: Armaments, Individual\nGladiators are professional fighters who pit themselves against one another, monsters, and other challenges to entertain audiences. While some compete\nmerely to survive, others love the thrill of performing—and all gladiators know the importance of theatrics in keeping audiences excited. Roll on or choose\nan option from the Gladiator Theatrics table to inspire the unique flourishes a gladiator uses when competing.\nGladiator Theatrics\n1d6 \tDuring a Competition, the Gladiator...\n1 \tDedicates their impending victory to a deity, ruler, beloved noble, or member of the crowd.\n2 \tDresses in a monster-themed mask and cape.\n3 \tJudges whether their foe fights honorably.\n4 \tLeads the crowd in a rousing theme song.\n5 \tSeeks to claim a trophy from a foe.\n6 \tTakes advice from the crowd, omens, or a pet.\nSpellcasting. The glabrezu casts one of the following spells, requiring no\nMaterial components and using Intelligence as the spellcasting ability (spell\nsave DC 16):\nAt Will:\nDarkness,\nDetect Magic,\nDispel Magic\n1/Day Each:\nConfusion,\nFly,\nPower Word Stun\nGnolls\nFiends in Feral Flesh\nHabitat: Desert, Forest, Grassland, Hill; Treasure: Armaments, Individual",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

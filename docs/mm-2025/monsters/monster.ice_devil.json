@@ -1,0 +1,92 @@
+{
+  "id": "monster.ice_devil",
+  "name": "ICE DEVIL",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Devil), Lawful Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "hit_points": 228,
+  "hit_dice": "24d10 + 96",
+  "speed": "40 ft.",
+  "abilities": {
+    "STR": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "INT": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": "Insight +7, Perception +7, Persuasion +9",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 120 ft.; Passive Perception 17",
+  "languages": "Infernal; telepathy 120 ft.",
+  "cr": "14 (XP 11,500; PB +5)",
+  "traits": [
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack."
+    },
+    {
+      "name": "Ice Spear",
+      "text": "Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil's hand immediately after a ranged attack."
+    },
+    {
+      "name": "Tail",
+      "text": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage."
+    },
+    {
+      "name": "Ice Wall (Recharge 6)",
+      "text": "The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save"
+    },
+    {
+      "name": "DC 17)",
+      "text": "I can tell you what I know, but wouldn't you rather I tell you what'll let you do what you know you're going to do anyway? -SKEEVER, IMP SERVANT OF FIRAN ZAL'HONAN"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +7 (17)\nHP 228 (24d10 + 96)\nSpeed 40 ft.\nLarge Fiend (Devil), Lawful Evil\nImp\nDevil of Pettiness and Suspicion\nHabitat: Any; Treasure: None\nKnown for their cowardice and toadying, imps serve devils and wicked magic-users. Their abilities to shape-shift and pass unseen make them skillful spies\nand adept at fleeing danger. Imps sent to surveil other creatures relate what they discover to their masters, but they frequently omit important details or cast\nevents in the worst possible light to mislead their masters into following the imps’ devilish council.\nImps without masters delight in manipulating other creatures and inflating their own egos. They might take over bands of weaker monsters, or they might\npose as helpful spirits and trick influential individuals into pursuing nefarious ends.\nMOD \tSAVE\nSTR \t21 \t+5 \t+5\nDEX \t14 \t+2 \t+7\nCON \t18 \t+4 \t+9\nMOD \tSAVE\nINT \t18 \t+4 \t+4\nWIS \t15 \t+2 \t+7\nCHA \t18 \t+4 \t+9\nSkills Insight +7, Perception +7, Persuasion +9\nImmunities Cold, Fire, Poison; Poisoned\nSenses Blindsight 120 ft.; Passive Perception 17\nLanguages Infernal; telepathy 120 ft.\nCR 14 (XP 11,500; PB +5)\nTraits\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body\ndisappears in sulfurous smoke, and it gains a new body instantly, reviving with\nall its Hit Points somewhere in the Nine Hells.\nMagic Resistance. The devil has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The devil makes three Ice Spear attacks. It can replace one attack\nwith a Tail attack.\nIce Spear. Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft.\nHit:\n14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its\nnext turn, the target can’t take a Bonus Action or Reaction, its Speed decreases\nby 10 feet, and it can move or take one action on its turn, not both.\nHit or\nMiss: The spear magically returns to the devil’s hand immediately after a\nranged attack.\nTail. Melee Attack Roll: +10, reach 10 ft.\nHit: 15 (3d6 + 5) Bludgeoning damage\nplus 18 (4d8) Cold damage.\nIce Wall (Recharge 6). The devil casts\nWall of Ice (level 8 version), requiring no\nspell components and using Intelligence as the spellcasting ability (spell save\nDC 17).\nI can tell you what I know, but wouldn’t you rather I tell you\nwhat’ll let you do what you know you’re going to do anyway?\n—SKEEVER, IMP SERVANT OF FIRAN ZAL’HONAN",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (I) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

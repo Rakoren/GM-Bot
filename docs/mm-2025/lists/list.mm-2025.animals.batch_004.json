@@ -1,0 +1,111 @@
+{
+  "id": "list.mm-2025.animals.batch_004",
+  "name": "MM 2025 Animals Batch 4",
+  "entries": [
+    {
+      "id": "animal.rhinoceros",
+      "name": "RHINOCEROS",
+      "file": "docs/mm-2025/animals/animal.rhinoceros.json"
+    },
+    {
+      "id": "animal.riding_horse",
+      "name": "RIDING HORSE",
+      "file": "docs/mm-2025/animals/animal.riding_horse.json"
+    },
+    {
+      "id": "animal.saber_toothed_tiger",
+      "name": "SABER-TOOTHED TIGER",
+      "file": "docs/mm-2025/animals/animal.saber_toothed_tiger.json"
+    },
+    {
+      "id": "animal.scorpion",
+      "name": "SCORPION",
+      "file": "docs/mm-2025/animals/animal.scorpion.json"
+    },
+    {
+      "id": "animal.seahorse",
+      "name": "SEAHORSE",
+      "file": "docs/mm-2025/animals/animal.seahorse.json"
+    },
+    {
+      "id": "animal.spider",
+      "name": "SPIDER",
+      "file": "docs/mm-2025/animals/animal.spider.json"
+    },
+    {
+      "id": "animal.swarm_of_bats",
+      "name": "SWARM OF BATS",
+      "file": "docs/mm-2025/animals/animal.swarm_of_bats.json"
+    },
+    {
+      "id": "animal.swarm_of_insects",
+      "name": "SWARM OF INSECTS",
+      "file": "docs/mm-2025/animals/animal.swarm_of_insects.json"
+    },
+    {
+      "id": "animal.swarm_of_piranhas",
+      "name": "SWARM OF PIRANHAS",
+      "file": "docs/mm-2025/animals/animal.swarm_of_piranhas.json"
+    },
+    {
+      "id": "animal.swarm_of_rats",
+      "name": "SWARM OF RATS",
+      "file": "docs/mm-2025/animals/animal.swarm_of_rats.json"
+    },
+    {
+      "id": "animal.swarm_of_ravens",
+      "name": "SWARM OF RAVENS",
+      "file": "docs/mm-2025/animals/animal.swarm_of_ravens.json"
+    },
+    {
+      "id": "animal.swarm_of_venomous_snakes",
+      "name": "SWARM OF VENOMOUS SNAKES",
+      "file": "docs/mm-2025/animals/animal.swarm_of_venomous_snakes.json"
+    },
+    {
+      "id": "animal.tiger",
+      "name": "TIGER",
+      "file": "docs/mm-2025/animals/animal.tiger.json"
+    },
+    {
+      "id": "animal.triceratops",
+      "name": "TRICERATOPS",
+      "file": "docs/mm-2025/animals/animal.triceratops.json"
+    },
+    {
+      "id": "animal.tyrannosaurus_rex",
+      "name": "TYRANNOSAURUS REX",
+      "file": "docs/mm-2025/animals/animal.tyrannosaurus_rex.json"
+    },
+    {
+      "id": "animal.venomous_snake",
+      "name": "VENOMOUS SNAKE",
+      "file": "docs/mm-2025/animals/animal.venomous_snake.json"
+    },
+    {
+      "id": "animal.vulture",
+      "name": "VULTURE",
+      "file": "docs/mm-2025/animals/animal.vulture.json"
+    },
+    {
+      "id": "animal.warhorse",
+      "name": "WARHORSE",
+      "file": "docs/mm-2025/animals/animal.warhorse.json"
+    },
+    {
+      "id": "animal.weasel",
+      "name": "WEASEL",
+      "file": "docs/mm-2025/animals/animal.weasel.json"
+    },
+    {
+      "id": "animal.wolf",
+      "name": "WOLF",
+      "file": "docs/mm-2025/animals/animal.wolf.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Animals - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Animals"
+  }
+}

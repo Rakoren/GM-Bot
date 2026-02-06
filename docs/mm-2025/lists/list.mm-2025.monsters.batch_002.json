@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.monsters.batch_002",
+  "name": "MM 2025 Monsters Batch 2",
+  "entries": [
+    {
+      "id": "monster.adult_black_dragon",
+      "name": "ADULT BLACK DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_black_dragon.json"
+    },
+    {
+      "id": "monster.adult_blue_dragon",
+      "name": "ADULT BLUE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_blue_dragon.json"
+    },
+    {
+      "id": "monster.adult_brass_dragon",
+      "name": "ADULT BRASS DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_brass_dragon.json"
+    },
+    {
+      "id": "monster.adult_bronze_dragon",
+      "name": "ADULT BRONZE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_bronze_dragon.json"
+    },
+    {
+      "id": "monster.ancient_black_dragon",
+      "name": "ANCIENT BLACK DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_black_dragon.json"
+    },
+    {
+      "id": "monster.ancient_blue_dragon",
+      "name": "ANCIENT BLUE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_blue_dragon.json"
+    },
+    {
+      "id": "monster.ancient_brass_dragon",
+      "name": "ANCIENT BRASS DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_brass_dragon.json"
+    },
+    {
+      "id": "monster.ancient_bronze_dragon",
+      "name": "ANCIENT BRONZE DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_bronze_dragon.json"
+    },
+    {
+      "id": "monster.balor",
+      "name": "BALOR",
+      "file": "docs/mm-2025/monsters/monster.balor.json"
+    },
+    {
+      "id": "monster.bandit",
+      "name": "BANDIT",
+      "file": "docs/mm-2025/monsters/monster.bandit.json"
+    },
+    {
+      "id": "monster.bandit_captain",
+      "name": "BANDIT CAPTAIN",
+      "file": "docs/mm-2025/monsters/monster.bandit_captain.json"
+    },
+    {
+      "id": "monster.bandit_crime_lord",
+      "name": "BANDIT CRIME LORD",
+      "file": "docs/mm-2025/monsters/monster.bandit_crime_lord.json"
+    },
+    {
+      "id": "monster.bandit_deceiver",
+      "name": "BANDIT DECEIVER",
+      "file": "docs/mm-2025/monsters/monster.bandit_deceiver.json"
+    },
+    {
+      "id": "monster.banshee",
+      "name": "BANSHEE",
+      "file": "docs/mm-2025/monsters/monster.banshee.json"
+    },
+    {
+      "id": "monster.barbed_devil",
+      "name": "BARBED DEVIL",
+      "file": "docs/mm-2025/monsters/monster.barbed_devil.json"
+    },
+    {
+      "id": "monster.barlgura",
+      "name": "BARLGURA",
+      "file": "docs/mm-2025/monsters/monster.barlgura.json"
+    },
+    {
+      "id": "monster.basilisk",
+      "name": "BASILISK",
+      "file": "docs/mm-2025/monsters/monster.basilisk.json"
+    },
+    {
+      "id": "monster.bearded_devil",
+      "name": "BEARDED DEVIL",
+      "file": "docs/mm-2025/monsters/monster.bearded_devil.json"
+    },
+    {
+      "id": "monster.behir",
+      "name": "BEHIR",
+      "file": "docs/mm-2025/monsters/monster.behir.json"
+    },
+    {
+      "id": "monster.beholder",
+      "name": "BEHOLDER",
+      "file": "docs/mm-2025/monsters/monster.beholder.json"
+    },
+    {
+      "id": "monster.berserker",
+      "name": "BERSERKER",
+      "file": "docs/mm-2025/monsters/monster.berserker.json"
+    },
+    {
+      "id": "monster.berserker_commander",
+      "name": "BERSERKER COMMANDER",
+      "file": "docs/mm-2025/monsters/monster.berserker_commander.json"
+    },
+    {
+      "id": "monster.black_dragon_wyrmling",
+      "name": "BLACK DRAGON WYRMLING",
+      "file": "docs/mm-2025/monsters/monster.black_dragon_wyrmling.json"
+    },
+    {
+      "id": "monster.black_pudding",
+      "name": "BLACK PUDDING",
+      "file": "docs/mm-2025/monsters/monster.black_pudding.json"
+    },
+    {
+      "id": "monster.blink_dog",
+      "name": "BLINK DOG",
+      "file": "docs/mm-2025/monsters/monster.blink_dog.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

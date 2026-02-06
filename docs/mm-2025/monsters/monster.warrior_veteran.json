@@ -1,0 +1,80 @@
+{
+  "id": "monster.warrior_veteran",
+  "name": "WARRIOR VETERAN",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "hit_points": 65,
+  "hit_dice": "10d8 + 20",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 10,
+      "mod": "+0"
+    }
+  },
+  "saves": null,
+  "skills": "Athletics +5, Perception +2",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "Common plus one other language",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The warrior makes two Greatsword or Heavy Crossbow attacks."
+    },
+    {
+      "name": "Greatsword",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "text": "Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "text": "Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +3 (13)\nHP 65 (10d8 + 20)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t13 \t+1 \t+1\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t10 \t+0 \t+0\nWIS \t11 \t+0 \t+0\nCHA \t10 \t+0 \t+0\nSkills Athletics +5, Perception +2\nGear Greatsword, Heavy Crossbow, Splint Armor\nSenses Passive Perception 12\nLanguages Common plus one other language\nCR 3 (XP 700; PB +2)\nActions\nMultiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\nGreatsword. Melee Attack Roll: +5, reach 5 ft.\nHit: 10 (2d6 + 3)\nSlashing damage.\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft.\nHit: 12 (2d10 + 1)\nPiercing damage.\nReactions\nParry. Trigger: The warrior is hit by a melee attack roll while holding a weapon.\nResponse: The warrior adds 2 to its AC against that attack, possibly causing it\nto miss.\nMedium or Small Humanoid, Neutral\nWARRIOR COMMANDER\nWater Elemental\nPrimal Spirit of Waves and Tides\nHabitat: Coastal, Planar (Elemental Plane of Water), Swamp, Underwater; Treasure: None\nSpirits of the Elemental Plane of Water form shapeless liquids into water elementals, aqueous beings with the might of surging waves. Water elementals\nare as mutable as liquid, allowing them to crash into foes and seep through narrow cracks. They can crush foes with limb-like geysers, or they might flood\nover creatures, submerging and drowning foes within their whirling forms. Water elementals often appear near nexuses of elemental power, such as aquatic\nabysses, magical springs, and whirlpools.\nWater elementals’ shapes are influenced by the liquid bodies in which they form. Roll on or choose a result from the Water Elemental Compositions table to\ninspire a water elemental’s features.\nWater Elemental Compositions\n1d4 \tThe Water Elemental’s Body Features...\n1 \tChilling or near-boiling temperatures.\n2 \tEnergetic effervescence.\n3 \tMuddy, polluted, or crystal-clear water.\n4 \tSeaweed, tiny fish, or other sea life.\nAC 18 \tInitiative +9 (19)\nHP 161 (19d8 + 76)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t21 \t+5 \t+9\nDEX \t20 \t+5 \t+9\nCON \t18 \t+4 \t+8\nMOD \tSAVE\nINT \t14 \t+2 \t+2\nWIS \t16 \t+3 \t+7\nCHA \t14 \t+2 \t+2\nSkills Athletics +9, Insight +7, Perception +7\nGear Greatsword, Longbow, Plate Armor\nSenses Passive Perception 17\nLanguages Common plus one other language\nCR 10 (XP 5,900; PB +4)\nActions\nMultiattack. The warrior makes three attacks, using Greatsword or Longbow in\nany combination.\nGreatsword. Melee Attack Roll: +9, reach 5 ft.\nHit: 19 (4d6 + 5) Slashing\ndamage. The warrior also creates one of the following effects:\nSap. The target has Disadvantage on its next attack roll before the start of the\nwarrior’s next turn.\nManeuver. One ally who can see or hear the warrior can take a Reaction to\nmove up to half the ally’s Speed without provoking Opportunity Attacks.\nLongbow. Ranged Attack Roll: +9, range 150/600 ft.\nHit: 18 (3d8 + 5) Piercing\ndamage, and the target’s Speed decreases by 10 feet until the end of the\ntarget’s next turn.\nBonus Actions\nTactical Charge. The warrior moves up to half its Speed straight toward an\nenemy it can see without provoking Opportunity Attacks.\nReactions\nCounterattack. Trigger: The warrior is hit by an attack roll.\nResponse: The\nwarrior adds 4 to its AC against that attack, possibly causing it to miss. On\na miss, the warrior can make one Greatsword or Longbow attack against\nthe attacker.\nMedium or Small Humanoid, Neutral\nMake way, evil! I’m armed to the teeth and packing a\nhamster!\n—MINSC, HERO OF BALDUR’S GATE\nWater Weird\nServant of Primeval Magic\nHabitat: Underdark, Urban; Treasure: Any\nSerpentine nature spirits, water weirds protect pools, fountains, and magical bodies of water. In the water, these creatures are indistinguishable from the\nliquid surrounding them. Should their aquatic territory be disturbed, they rise as animate water spouts with vague snake- or dragon-like features. Often their\nappearance is enough to drive off foes, but if forced to fight, water weirds crush enemies within their fluid coils.\nWater weirds might protect a site for generations and learn much about their surroundings. Some gain reputations as oracles and might respond to\nquestions posed to them in Primordial. Since water weirds don’t speak, they often communicate using spouts of water or objects submerged in their pools.\nWater: greatest of the elements in might and form. A tsunami’s\ntorrent. A blizzard’s claws. A parent’s tears. What is not moved\nby water?\n—KALBARI, MOTHER OF FOAM, RULER OF MARIDS",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (W) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "monster.animated_broom",
+  "name": "ANIMATED BROOM",
+  "status": "complete",
+  "size_type_alignment": "Small Construct, Unaligned",
+  "size": "Small",
+  "creature_type": "Construct",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "hit_points": 14,
+  "hit_dice": "4d6",
+  "speed": "5 ft., Fly 50 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 5,
+      "mod": "-3"
+    },
+    "CHA": {
+      "score": 1,
+      "mod": "-5"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 7",
+  "languages": "None",
+  "cr": "1/4 (XP 50; PB +2)",
+  "traits": [
+    {
+      "name": "Flyby",
+      "text": "The broom doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Slam",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. ANIMATED FLYING SWORD Animated Rug of Smothering Animated rugs of smothering might attack any creature that steps on them, or they might be passed off as superficially similar magic items, such as"
+    },
+    {
+      "name": "Carpets of Flying, and attack those who speak a supposed command word",
+      "text": "Deadly tapestries, furs, and similar items also use this stat block."
+    },
+    {
+      "name": "Slash",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage. Lyin' next to the chest were the bones of Cap'n Scornblade himself, still clutchin' his rusty sword. Imagine my surprise when the blade flew from his bony grasp! Still got the scar. -LEVITY QUICKSTITCH, ROGUE"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +5 (15)\nHP 14 (4d6)\nSpeed 5 ft., Fly 50 ft. (hover)\nMOD \tSAVE\nSTR \t10 \t+0 \t+0\nDEX \t17 \t+3 \t+3\nCON \t10 \t+0 \t+0\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t5 \t−3 \t−3\nCHA \t1 \t−5 \t−5\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened,\nParalyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 7\nLanguages None\nCR 1/4 (XP 50; PB +2)\nTraits\nFlyby. The broom doesn’t provoke an Opportunity Attack when it flies out of an\nenemy’s reach.\nActions\nSlam. Melee Attack Roll: +5, reach 5 ft.\nHit: 5 (1d4 + 3) Bludgeoning damage.\nSmall Construct, Unaligned\nANIMATED FLYING SWORD\nAnimated Rug of Smothering\nAnimated rugs of smothering might attack any creature that steps on them, or they might be passed off as superficially similar magic items, such as\nCarpets of Flying, and attack those who speak a supposed command word. Deadly tapestries, furs, and similar items also use this stat block.\nAnkheg\nBurrowing Insectile Predator\nHabitat: Forest, Grassland; Treasure: None\nOversize insects, ankhegs burrow close to the surface, creating sprawling underground labyrinths. From these tunnels, they burst forth to dissolve and\ndevour smaller creatures using their acid-dripping mandibles and sprays of digestive enzymes.\nAC 17 \tInitiative +4 (14)\nHP 14 (4d6)\nSpeed 5 ft., Fly 50 ft. (hover)\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t15 \t+2 \t+4\nCON \t11 \t+0 \t+0\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t5 \t−3 \t−3\nCHA \t1 \t−5 \t−5\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened,\nParalyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 7\nLanguages None\nCR 1/4 (XP 50; PB +2)\nActions\nSlash. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage.\nSmall Construct, Unaligned\nLyin’ next to the chest were the bones of Cap’n Scornblade\nhimself, still clutchin’ his rusty sword. Imagine my surprise when\nthe blade flew from his bony grasp! Still got the scar.\n—LEVITY QUICKSTITCH, ROGUE",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "monster.purple_worm",
+  "name": "PURPLE WORM",
+  "status": "complete",
+  "size_type_alignment": "Gargantuan Monstrosity, Unaligned",
+  "size": "Gargantuan",
+  "creature_type": "Monstrosity",
+  "alignment": "Unaligned",
+  "armor_class": 18,
+  "hit_points": 247,
+  "hit_dice": "15d20 + 90",
+  "speed": "50 ft., Burrow 50 ft.",
+  "abilities": {
+    "STR": {
+      "score": 28,
+      "mod": "+9"
+    },
+    "DEX": {
+      "score": 7,
+      "mod": "-2"
+    },
+    "CON": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "INT": {
+      "score": 1,
+      "mod": "-5"
+    },
+    "WIS": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "CHA": {
+      "score": 4,
+      "mod": "-3"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 30 ft., Tremorsense 60 ft.; Passive Perception 9",
+  "languages": "None",
+  "cr": "15 (XP 13,000; PB +5)",
+  "traits": [
+    {
+      "name": "Tunneler",
+      "text": "The worm can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The worm makes one Bite attack and one Tail Stinger attack."
+    },
+    {
+      "name": "Bite",
+      "text": "Melee Attack Roll: +14, reach 10 ft. Hit: 22 (3d8 + 9) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 19), and it has the Restrained condition until the grapple ends."
+    },
+    {
+      "name": "Tail Stinger",
+      "text": "Melee Attack Roll: +14, reach 10 ft. Hit: 16 (2d6 + 9) Piercing damage plus 35 (10d6) Poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Swallow",
+      "text": "Strength Saving Throw: DC 19, one Large or smaller creature Grappled by the worm (it can have up to three creatures swallowed at a time). Failure: The target is swallowed by the worm, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions, has Total Cover against attacks and other effects outside the worm, and takes 17 (5d6) Acid damage at the start of each of the worm's turns."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +3 (13)\nHP 247 (15d20 + 90)\nSpeed 50 ft., Burrow 50 ft.\nMOD \tSAVE\nSTR \t28 \t+9 \t+9\nDEX \t7 \t−2 \t−2\nCON \t22 \t+6 \t+11\nMOD \tSAVE\nINT \t1 \t−5 \t−5\nWIS \t8 \t−1 \t+4\nCHA \t4 \t−3 \t−3\nSenses Blindsight 30 ft., Tremorsense 60 ft.; Passive Perception 9\nLanguages None\nCR 15 (XP 13,000; PB +5)\nTraits\nTunneler. The worm can burrow through solid rock at half its Burrow Speed and\nleaves a 10-foot-diameter tunnel in its wake.\nActions\nMultiattack. The worm makes one Bite attack and one Tail Stinger attack.\nBite. Melee Attack Roll: +14, reach 10 ft.\nHit: 22 (3d8 + 9) Piercing damage. If the\ntarget is a Large or smaller creature, it has the Grappled condition (escape DC 19),\nand it has the Restrained condition until the grapple ends.\nTail Stinger. Melee Attack Roll: +14, reach 10 ft.\nHit: 16 (2d6 + 9) Piercing damage\nplus 35 (10d6) Poison damage.\nBonus Actions\nSwallow. Strength Saving Throw: DC 19, one Large or smaller creature Grappled by\nthe worm (it can have up to three creatures swallowed at a time).\nFailure: The\ntarget is swallowed by the worm, and the Grappled condition ends. A swallowed\ncreature has the Blinded and Restrained conditions, has Total Cover against\nattacks and other effects outside the worm, and takes 17 (5d6) Acid damage at\nthe start of each of the worm’s turns.\nGargantuan Monstrosity, Unaligned",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

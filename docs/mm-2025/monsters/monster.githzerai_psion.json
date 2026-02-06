@@ -1,0 +1,80 @@
+{
+  "id": "monster.githzerai_psion",
+  "name": "GITHZERAI PSION",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration (Gith), Lawful Neutral",
+  "size": "Medium",
+  "creature_type": "Aberration (Gith)",
+  "alignment": "Lawful Neutral",
+  "armor_class": 18,
+  "hit_points": 169,
+  "hit_dice": "26d8 + 52",
+  "speed": "40 ft., Fly 40 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 18,
+      "mod": "+4"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +8, Insight +8, Perception +8",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 18",
+  "languages": "Common, Gith",
+  "cr": "12 (XP 8,400; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The githzerai makes three Psychic Warp attacks."
+    },
+    {
+      "name": "Psychic Warp",
+      "text": "Melee or Ranged Attack Roll: +8, reach 5 ft. or range 120 ft. Hit: 26 (4d10 + 4) Psychic damage, and the target has the githzerai's choice of (A) the Charmed condition until the start of the githzerai's next turn or (B) the Prone condition, provided the target is a Large or smaller creature."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The githzerai casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 16): At Will: Mage Hand (the hand is Invisible) 1/Day Each: Plane Shift, See Invisibility"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Psionic Defense",
+      "text": "The githzerai casts Feather Fall or Shield in response to the spell's trigger, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +8 (18)\nHP 169 (26d8 + 52)\nSpeed 40 ft., Fly 40 ft. (hover)\nMOD \tSAVE\nSTR \t12 \t+1 \t+5\nDEX \t18 \t+4 \t+8\nCON \t15 \t+2 \t+2\nMOD \tSAVE\nINT \t19 \t+4 \t+8\nWIS \t18 \t+4 \t+8\nCHA \t14 \t+2 \t+2\nSkills Arcana +8, Insight +8, Perception +8\nSenses Passive Perception 18\nLanguages Common, Gith\nCR 12 (XP 8,400; PB +4)\nActions\nMultiattack. The githzerai makes three Psychic Warp attacks.\nPsychic Warp. Melee or Ranged Attack Roll: +8, reach 5 ft. or range 120 ft.\nHit:\n26 (4d10 + 4) Psychic damage, and the target has the githzerai’s choice of (A)\nthe Charmed condition until the start of the githzerai’s next turn or (B) the\nProne condition, provided the target is a Large or smaller creature.\nSpellcasting. The githzerai casts one of the following spells, requiring no\nspell components and using Intelligence as the spellcasting ability (spell save\nDC 16):\nAt Will:\nMage Hand (the hand is Invisible)\n1/Day Each:\nPlane Shift,\nSee Invisibility\nReactions\nPsionic Defense. The githzerai casts\nFeather Fall or\nShield in response to the\nspell’s trigger, requiring no spell components and using the same spellcasting\nability as Spellcasting.\nMedium Aberration (Gith), Lawful Neutral\nGlabrezus embody delusion and predatory guile. These cunning demons know the most effective traps are those that individuals devise for themselves.\nDespite having massive claws and overwhelming physicality, glabrezus excel at using flattery and misdirection to coerce victims into isolating themselves\nand harming others.\nIn the Abyss, glabrezus act as lone hunters or deceitful advisers to greater demons. Glabrezus seek routes to the Material Plane and relish being summoned\nby magic-users. They eagerly serve mortals while tempting them to betray their allies and indulge in hubristic fantasies. A glabrezu strives to murder its\nsummoner once the magic-user has committed irredeemable misdeeds and the mortal’s soul is surely condemned to the Abyss.\nYour companion’s life, or what you’ve journeyed through infinity\nin search of! Make your choice.\n—GERRZOG, GLABREZU OF THE INFINITE STAIRCASE",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,164 @@
+{
+  "id": "monster.animal_lord",
+  "name": "ANIMAL LORD",
+  "status": "complete",
+  "size_type_alignment": "Medium Celestial, Neutral",
+  "size": "Medium",
+  "creature_type": "Celestial",
+  "alignment": "Neutral",
+  "armor_class": 19,
+  "hit_points": 323,
+  "hit_dice": "34d8 + 170",
+  "speed": "60 ft., Fly 60 ft. (hover), Swim 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 24,
+      "mod": "+7"
+    },
+    "DEX": {
+      "score": 25,
+      "mod": "+7"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 19,
+      "mod": "+4"
+    },
+    "WIS": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "CHA": {
+      "score": 22,
+      "mod": "+6"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +13, Athletics +13, Perception +18, Stealth +13",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Truesight 120 ft.; Passive Perception 28",
+  "languages": "All",
+  "cr": "20 (XP 25,000; PB +6)",
+  "traits": [
+    {
+      "name": "Animal Lordship",
+      "text": "An animal lord represents a Forager, Hunter, or Sage (DM's choice), which determines certain traits in this stat block."
+    },
+    {
+      "name": "Legendary Resistance (4/Day)",
+      "text": "If the animal lord fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Lordly Presence",
+      "text": "Wisdom Saving Throw: DC 20, any enemy that starts its turn in a 30-foot Emanation originating from the animal lord. Failure: The target suffers one of the following effects: Captivated (Forager Only). The target has the Charmed condition until the end of its next turn. While Charmed, the target has the Incapacitated condition."
+    },
+    {
+      "name": "Fearful (Hunter Only)",
+      "text": "The target has the Frightened condition until the end of its next turn."
+    },
+    {
+      "name": "Mired (Sage Only)",
+      "text": "The target takes 10 (3d6) Psychic damage, and the target is magically bewildered until the end of its next turn. While bewildered, the target subtracts 1d4 from its saving throws."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The animal lord has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The animal lord makes two attacks, using Rend or Radiant Ray in any combination, and uses Animal Spirit."
+    },
+    {
+      "name": "Rend",
+      "text": "Melee Attack Roll: +13, reach 5 ft. Hit: 14 (2d6 + 7) Slashing damage plus 7 (2d6) Force damage."
+    },
+    {
+      "name": "Radiant Ray",
+      "text": "Ranged Attack Roll: +12, range 120 ft. Hit: 20 (4d6 + 6)"
+    },
+    {
+      "name": "Radiant damage",
+      "text": ""
+    },
+    {
+      "name": "Animal Spirit",
+      "text": "The animal lord conjures an animal spirit that strikes at a creature and then disappears. Dexterity Saving Throw: DC 20, one creature the animal lord can see within 120 feet. Failure: 28 (4d10 + 6) Radiant damage. Success: Half damage. Failure or Success: One of the following effects occurs: Fortify (Forager Only). The animal lord gains 20 Temporary Hit Points."
+    },
+    {
+      "name": "Marked as Prey (Hunter Only)",
+      "text": "The animal lord has Advantage on attack rolls against the target until the start of the animal lord's next turn."
+    },
+    {
+      "name": "Pesky Swarm (Sage Only)",
+      "text": "The target has Disadvantage on attack rolls and ability checks until the end of its next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The animal lord casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20): At Will: Animal Friendship, Animal Messenger, Speak with Animals 2/Day Each: Awaken, Greater Restoration 1/Day Each (Sage Only): Animal Shapes,"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shape-Shift",
+      "text": "The animal lord shape-shifts into a Huge or smaller version of the animal it represents or a Medium or Small Humanoid, or it returns to its true form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [
+    {
+      "name": "Magic can manipulate mundane items, compelling them to perform simple tasks",
+      "text": "Such animate objects might be unassuming tools or decorations that can defend their creator. These objects follow simple instructions from whatever force or magic-user created them. If left unattended, they might defend an area for ages or repeat a task until they wear out."
+    },
+    {
+      "name": "Roll on or choose a result from the Animated Object Catalysts table to inspire what sort of magic motivates an ambulatory item",
+      "text": "Animated Object Catalysts 1d10 \tThe Object Was Animated By... 1 \tA Celestial or Fiend using the object to protect or torment a mortal. 2 \tA combination of magic and technology, such as alchemy or alien science. 3 \tThe essence of someone transformed by a supernatural trickster. 4 \tFey as part of their games or wiles. 5 \tHappenstance, with the item gaining a semblance of life after a hundred years of use."
+    },
+    {
+      "name": "Feral Strike",
+      "text": "The animal lord moves up to its Speed without provoking"
+    },
+    {
+      "name": "Opportunity Attacks, and it makes one Rend attack",
+      "text": ""
+    },
+    {
+      "name": "Radiant Strike",
+      "text": "The animal lord makes one Radiant Ray attack."
+    },
+    {
+      "name": "You call yourself hunter, but your fear makes you smell like prey",
+      "text": "-WIND AND MOON, WOLF LORD 1d10 \tThe Object Was Animated By... 6 \tA magic-user in need of a guardian or servant. 7 \tThe song of a magical instrument. 8 \tA spirit possessing the object. 9 \tWild magic, a spell that went awry, or a chaotic Artifact. 10 \tThe will of a powerful psychic being. Animated Armor Animated suits of armor might move with steady deliberateness or awkward gaits. They're often constructed from plate armor, making them easy to mistake for soldiers or helmed horrors. Other types of armor or even metal statuary might also become animated armor. Animated Broom"
+    },
+    {
+      "name": "Animated brooms keep their surroundings tidy and defend them when necessary",
+      "text": "Launching into the air, these brooms dart about, attacking foes from unexpected angles. Other flying objects, like animated tools or staffs, might also use this stat block. Animated Flying Sword"
+    },
+    {
+      "name": "Animated flying swords move as if wielded by unseen warriors",
+      "text": "Whether an animated blade is newly forged or a constellation of broken fragments, the object behaves the same. Other weapons from the"
+    },
+    {
+      "name": "Player's Handbook can also be animated and use game statistics similar to those here",
+      "text": ""
+    }
+  ],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 19 \tInitiative +19 (29)\nHP 323 (34d8 + 170)\nSpeed 60 ft., Fly 60 ft. (hover), Swim 60 ft.\nMOD \tSAVE\nSTR \t24 \t+7 \t+7\nDEX \t25 \t+7 \t+7\nCON \t20 \t+5 \t+11\nMOD \tSAVE\nINT \t19 \t+4 \t+4\nWIS \t23 \t+6 \t+12\nCHA \t22 \t+6 \t+6\nSkills Acrobatics +13, Athletics +13, Perception +18, Stealth +13\nResistances Cold, Fire, Necrotic, Psychic, Radiant\nImmunities Charmed, Frightened, Stunned\nSenses Truesight 120 ft.; Passive Perception 28\nLanguages All\nCR 20 (XP 25,000; PB +6)\nTraits\nAnimal Lordship. An animal lord represents a Forager, Hunter, or Sage (DM’s\nchoice), which determines certain traits in this stat block.\nLegendary Resistance (4/Day). If the animal lord fails a saving throw, it can\nchoose to succeed instead.\nLordly Presence. Wisdom Saving Throw: DC 20, any enemy that starts its turn\nin a 30-foot Emanation originating from the animal lord.\nFailure: The target\nsuffers one of the following effects:\nCaptivated (Forager Only). The target has the Charmed condition until the end\nof its next turn. While Charmed, the target has the Incapacitated condition.\nFearful (Hunter Only). The target has the Frightened condition until the end of\nits next turn.\nMired (Sage Only). The target takes 10 (3d6) Psychic damage, and the target is\nmagically bewildered until the end of its next turn. While bewildered, the target\nsubtracts 1d4 from its saving throws.\nMagic Resistance. The animal lord has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The animal lord makes two attacks, using Rend or Radiant Ray in\nany combination, and uses Animal Spirit.\nRend. Melee Attack Roll: +13, reach 5 ft.\nHit: 14 (2d6 + 7) Slashing damage\nplus 7 (2d6) Force damage.\nRadiant Ray. Ranged Attack Roll: +12, range 120 ft.\nHit: 20 (4d6 + 6)\nRadiant damage.\nAnimal Spirit. The animal lord conjures an animal spirit that strikes at a\ncreature and then disappears.\nDexterity Saving Throw: DC 20, one creature\nthe animal lord can see within 120 feet.\nFailure: 28 (4d10 + 6) Radiant\ndamage.\nSuccess: Half damage.\nFailure or Success: One of the following\neffects occurs:\nFortify (Forager Only). The animal lord gains 20 Temporary Hit Points.\nMarked as Prey (Hunter Only). The animal lord has Advantage on attack rolls\nagainst the target until the start of the animal lord’s next turn.\nPesky Swarm (Sage Only). The target has Disadvantage on attack rolls and\nability checks until the end of its next turn.\nSpellcasting. The animal lord casts one of the following spells, requiring no\nMaterial components and using Wisdom as the spellcasting ability (spell save\nDC 20):\nAt Will:\nAnimal Friendship,\nAnimal Messenger,\nSpeak with Animals\n2/Day Each:\nAwaken,\nGreater Restoration\n1/Day Each (Sage Only):\nAnimal Shapes,\nSunburst\nBonus Actions\nShape-Shift. The animal lord shape-shifts into a Huge or smaller version of the\nanimal it represents or a Medium or Small Humanoid, or it returns to its true\nform. Its game statistics, other than its size, are the same in each form. Any\nequipment it is wearing or carrying isn’t transformed.\nLegendary Actions\nLegendary Action Uses: 3. Immediately after another creature’s turn, the animal\nlord can expend a use to take one of the following actions. The animal lord\nregains all expended uses at the start of each of its turns.\nMedium Celestial, Neutral\nAnimated Objects\nMundane Objects Come to Life\nHabitat: Urban; Treasure: None\nMagic can manipulate mundane items, compelling them to perform simple tasks. Such animate objects might be unassuming tools or decorations that\ncan defend their creator. These objects follow simple instructions from whatever force or magic-user created them. If left unattended, they might defend an\narea for ages or repeat a task until they wear out.\nRoll on or choose a result from the Animated Object Catalysts table to inspire what sort of magic motivates an ambulatory item.\nAnimated Object Catalysts\n1d10 \tThe Object Was Animated By...\n1 \tA Celestial or Fiend using the object to protect or torment a mortal.\n2 \tA combination of magic and technology, such as alchemy or alien science.\n3 \tThe essence of someone transformed by a supernatural trickster.\n4 \tFey as part of their games or wiles.\n5 \tHappenstance, with the item gaining a semblance of life after a hundred years of use.\nFeral Strike. The animal lord moves up to its Speed without provoking\nOpportunity Attacks, and it makes one Rend attack.\nRadiant Strike. The animal lord makes one Radiant Ray attack.\nYou call yourself hunter, but your fear makes you smell like prey.\n—WIND AND MOON, WOLF LORD\n1d10 \tThe Object Was Animated By...\n6 \tA magic-user in need of a guardian or servant.\n7 \tThe song of a magical instrument.\n8 \tA spirit possessing the object.\n9 \tWild magic, a spell that went awry, or a chaotic Artifact.\n10 \tThe will of a powerful psychic being.\nAnimated Armor\nAnimated suits of armor might move with steady deliberateness or awkward gaits. They’re often constructed from plate armor, making them easy to\nmistake for soldiers or helmed horrors. Other types of armor or even metal statuary might also become animated armor.\nAnimated Broom\nAnimated brooms keep their surroundings tidy and defend them when necessary. Launching into the air, these brooms dart about, attacking foes from\nunexpected angles. Other flying objects, like animated tools or staffs, might also use this stat block.\nAnimated Flying Sword\nAnimated flying swords move as if wielded by unseen warriors. Whether an animated blade is newly forged or a constellation of broken fragments, the\nobject behaves the same. Other weapons from the\nPlayer’s Handbook can also be animated and use game statistics similar to those here.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (A) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": [
+    "Legendary Action Uses: 3. Immediately after another creature's turn, the animal lord can expend a use to take one of the following actions. The animal lord regains all expended uses at the start of each of its turns. Animated Objects Mundane Objects Come to Life"
+  ]
+}

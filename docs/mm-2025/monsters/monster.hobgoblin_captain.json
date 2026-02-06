@@ -1,0 +1,80 @@
+{
+  "id": "monster.hobgoblin_captain",
+  "name": "HOBGOBLIN CAPTAIN",
+  "status": "complete",
+  "size_type_alignment": "Medium Fey (Goblinoid), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fey (Goblinoid)",
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "hit_points": 58,
+  "hit_dice": "9d8 + 18",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 13,
+      "mod": "+1"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common, Goblin",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Aura of Authority",
+      "text": "While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The hobgoblin makes two attacks, using Greatsword or Longbow in any combination."
+    },
+    {
+      "name": "Greatsword",
+      "text": "Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage."
+    },
+    {
+      "name": "Longbow",
+      "text": "Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 17 \tInitiative +4 (14)\nHP 58 (9d8 + 18)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t15 \t+2 \t+2\nDEX \t14 \t+2 \t+2\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t10 \t+0 \t+0\nCHA \t13 \t+1 \t+1\nGear Greatsword, Half-Plate Armor, Longbow\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 3 (XP 700; PB +2)\nTraits\nAura of Authority. While in a 10-foot Emanation originating from the hobgoblin,\nthe hobgoblin and its allies have Advantage on attack rolls and saving throws,\nprovided the hobgoblin doesn’t have the Incapacitated condition.\nActions\nMultiattack. The hobgoblin makes two attacks, using Greatsword or Longbow\nin any combination.\nGreatsword. Melee Attack Roll: +4, reach 5 ft.\nHit: 9 (2d6 + 2) Slashing damage\nplus 3 (1d6) Poison damage.\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing\ndamage plus 5 (2d4) Poison damage.\nMedium Fey (Goblinoid), Lawful Evil\nHomunculus\nWinged Servant Given Magical Life\nHabitat: Any; Treasure: None\nA mage can create a cat-sized, obedient assistant called a homunculus through a ritual that\nuses the mage’s blood. Each homunculus shares a telepathic bond with the mage who\ncreated it and loyally serves its creator. A homunculus is reduced to inert material if its creator\ndies.\nA homunculus’s appearance reflects its creator’s tastes. Roll on or choose a result from the\nHomunculus Features table to inspire a homunculus’s form.\nHomunculus Features\n1d8 \tThe Homunculus Has Features That Are...\n1 \tBat-like with tattered wings.\n2 \tMade of soft metal and delicate gears.\n3 \tMarked with its creator’s symbol.\n4 \tSimilar to those of a winged humanoid.\n5 \tSprouting flowers and leaves.\n6 \tSuggestive of its creator’s appearance.\n7 \tUnderdeveloped and fleshy with beady eyes.\n8 \tWoven and patchwork, like a well-loved toy.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

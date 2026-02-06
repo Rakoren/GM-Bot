@@ -1,0 +1,84 @@
+{
+  "id": "monster.bearded_devil",
+  "name": "BEARDED DEVIL",
+  "status": "complete",
+  "size_type_alignment": "Medium Fiend (Devil), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 13,
+  "hit_points": 58,
+  "hit_dice": "9d8 + 18",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 9,
+      "mod": "-1"
+    },
+    "WIS": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 14,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Infernal; telepathy 120 ft.",
+  "cr": "3 (XP 700; PB +2)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The devil makes one Beard attack and one Infernal Glaive attack."
+    },
+    {
+      "name": "Beard",
+      "text": "Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the target has the Poisoned condition until the start of the devil's next turn."
+    },
+    {
+      "name": "Until this poison ends, the target can't regain Hit Points",
+      "text": ""
+    },
+    {
+      "name": "Infernal Glaive",
+      "text": "Melee Attack Roll: +5, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage. If the target is a creature and doesn't already have an infernal wound, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target receives an infernal wound. While wounded, the target loses 5 (1d10) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 12 Wisdom (Medicine) check. Behir"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 13 \tInitiative +2 (12)\nHP 58 (9d8 + 18)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+5\nDEX \t15 \t+2 \t+2\nCON \t15 \t+2 \t+4\nMOD \tSAVE\nINT \t9 \t−1 \t−1\nWIS \t11 \t+0 \t+0\nCHA \t14 \t+2 \t+4\nResistances Cold\nImmunities Fire, Poison; Frightened, Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive\nPerception 10\nLanguages Infernal; telepathy 120 ft.\nCR 3 (XP 700; PB +2)\nTraits\nMagic Resistance. The devil has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The devil makes one Beard attack and one Infernal Glaive attack.\nBeard. Melee Attack Roll: +5, reach 5 ft.\nHit: 7 (1d8 + 3) Piercing damage, and\nthe target has the Poisoned condition until the start of the devil’s next turn.\nUntil this poison ends, the target can’t regain Hit Points.\nInfernal Glaive. Melee Attack Roll: +5, reach 10 ft.\nHit: 8 (1d10 + 3) Slashing\ndamage. If the target is a creature and doesn’t already have an infernal wound,\nit is subjected to the following effect.\nConstitution Saving Throw: DC 12.\nFailure: The target receives an infernal wound. While wounded, the target loses\n5 (1d10) Hit Points at the start of each of its turns. The wound closes after 1\nminute, after a spell restores Hit Points to the target, or after the target or a\ncreature within 5 feet of it takes an action to stanch the wound, doing so by\nsucceeding on a DC 12 Wisdom (Medicine) check.\nMedium Fiend (Devil), Lawful Evil\nBehir\nLightning-Spewing Glutton\nHabitat: Underdark; Treasure: Any\nTwelve-legged, reptilian predators, behirs endlessly hunt for their next meal.\nTheir short legs propel them quickly across floors and walls. Any prey that\nbehirs can’t chase down, they blast with breaths of powerful lightning.\nLegends claim the first behirs were magically created by storm giants during\nan ancient, multiversal conflict between giants and dragons. The giants\nused their mastery of weather to alter the essence of blue dragons. The\nresults were the first behirs, which served as hunters with a particular taste\nfor dragon eggs.\nBehirs live in sprawling cave systems and elaborate ruins where they can\nmake the most of their exceptional mobility. They are mindful of areas\nwhere dragons dwell, as most dragons view behirs as dangerous\nabominations and attack them on sight. Nevertheless, behirs occasionally\nhunt for dragon lairs in the hope of finding and devouring unhatched dragon\neggs.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

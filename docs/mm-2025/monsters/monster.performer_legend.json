@@ -1,0 +1,88 @@
+{
+  "id": "monster.performer_legend",
+  "name": "PERFORMER LEGEND",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 20,
+  "hit_points": 162,
+  "hit_dice": "25d8 + 50",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "DEX": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 20,
+      "mod": "+5"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +13, Athletics +5, Perception +7, Performance +13, Stealth +9",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 17",
+  "languages": "Common plus two other languages",
+  "cr": "10 (XP 5,900; PB +4)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The performer makes three Bejeweled Baton attacks."
+    },
+    {
+      "name": "Bejeweled Baton",
+      "text": "Melee Attack Roll: +9, reach 5 ft. Hit: 10 (2d4 + 5) Bludgeoning damage plus 10 (3d6) Psychic damage."
+    },
+    {
+      "name": "Majestic Song",
+      "text": "Wisdom Saving Throw: DC 17, each creature in a 20-foot-radius"
+    },
+    {
+      "name": "Sphere centered on a point within 120 feet",
+      "text": "Failure: 22 (4d8 + 4) Psychic damage, and the target has the Charmed or Frightened condition (performer's choice) until the end of the performer's next turn. Success: Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The performer casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17): At Will: Mage Hand, Minor Illusion, Prestidigitation 1/Day Each: Major Image, Project Image"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Warding Charm",
+      "text": "Trigger: A creature hits the performer with an attack roll. Response-Wisdom Saving Throw: DC 17, the triggering creature. Failure: The attack roll misses the performer, and the target has the Charmed condition until the end of the performer's next turn."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 20 \tInitiative +9 (19)\nHP 162 (25d8 + 50)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t12 \t+1 \t+1\nDEX \t20 \t+5 \t+9\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t15 \t+2 \t+6\nWIS \t16 \t+3 \t+7\nCHA \t20 \t+5 \t+9\nSkills Acrobatics +13, Athletics +5, Perception +7, Performance +13, Stealth +9\nSenses Passive Perception 17\nLanguages Common plus two other languages\nCR 10 (XP 5,900; PB +4)\nActions\nMultiattack. The performer makes three Bejeweled Baton attacks.\nBejeweled Baton. Melee Attack Roll: +9, reach 5 ft.\nHit: 10 (2d4 + 5)\nBludgeoning damage plus 10 (3d6) Psychic damage.\nMajestic Song. Wisdom Saving Throw: DC 17, each creature in a 20-foot-radius\nSphere centered on a point within 120 feet.\nFailure: 22 (4d8 + 4) Psychic\ndamage, and the target has the Charmed or Frightened condition (performer’s\nchoice) until the end of the performer’s next turn.\nSuccess: Half damage only.\nSpellcasting. The performer casts one of the following spells, requiring no\nMaterial components and using Charisma as the spellcasting ability (spell\nsave DC 17):\nAt Will:\nMage Hand,\nMinor Illusion,\nPrestidigitation\n1/Day Each:\nMajor Image,\nProject Image\nReactions\nWarding Charm. Trigger: A creature hits the performer with an attack roll.\nResponse—Wisdom Saving Throw: DC 17, the triggering creature.\nFailure: The\nattack roll misses the performer, and the target has the Charmed condition\nuntil the end of the performer’s next turn.\nMedium or Small Humanoid, Neutral\nPerytons are monstrous predators that hunt people—particularly humans and elves—in favor of all other prey. With the bodies of mighty avian scavengers\nand fanged, stag-like heads, perytons use ambush tactics to dive-bomb travelers. Strangely, the shadows they cast resemble humanoid silhouettes. This\nsupernatural oddity lends credence to stories that perytons are cursed humans or elves, or that they arise from carrion birds that feed on the corpses of\nvillains.\nPerytons tear out the hearts of those they slay, carrying the organs back to grisly lairs. This gives rise to numerous superstitions surrounding perytons. Roll\non or choose a result from the Peryton Superstitions table to inspire why a peryton steals hearts.\nPeryton Superstitions\n1d4 \tIf a Peryton Collects Enough Hearts...\n1 \tThe hearts grant an evil wish.\n2 \tIt reverts to its original form.\n3 \tA new peryton hatches from each heart.\n4 \tA portal opens to the Lower Planes.\nA PERYTON’S HUMANOID-SHAPED SHADOW SUGGESTS THE MONSTER’S SUPERNATURAL ORIGIN",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (P) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

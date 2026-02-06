@@ -1,0 +1,79 @@
+{
+  "id": "monster.bandit_deceiver",
+  "name": "BANDIT DECEIVER",
+  "status": "complete",
+  "size_type_alignment": "Medium or Small Humanoid, Neutral",
+  "size": "Medium",
+  "creature_type": "Humanoid",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "hit_points": 130,
+  "hit_dice": "20d8 + 40",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 8,
+      "mod": "-1"
+    },
+    "DEX": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "WIS": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "CHA": {
+      "score": 16,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Acrobatics +6, Perception +4, Stealth +9",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 14",
+  "languages": "Common, Thieves’ Cant",
+  "cr": "7 (XP 2,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The bandit makes three Dagger attacks."
+    },
+    {
+      "name": "Dagger",
+      "text": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 20/60 ft. Hit: 8 (2d4 + 3) Piercing damage plus 10 (3d6) Poison damage."
+    },
+    {
+      "name": "Blinding Flash (Recharge 4-6)",
+      "text": "Constitution Saving Throw: DC 14, each creature in a 10-foot-radius Sphere centered on a point the bandit can see within 120 feet. Failure: 13 (3d6 + 3) Radiant damage, and the target has the Blinded condition until the start of the bandit's next turn. Success: Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The bandit casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14): At Will: Disguise Self, Mage Hand, Minor Illusion 1/Day Each: Hold Person (level 4 version),"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +6 (16)\nHP 130 (20d8 + 40)\nSpeed 30 ft.\nMedium or Small Humanoid, Neutral\nBandit Crime Lord\nBandit crime lords manipulate shadowy organizations and prioritize their own survival over any single lackey or plot.\nBanshee\nWailing Harbinger of Death\nHabitat: Any; Treasure: Relics\nMOD \tSAVE\nSTR \t8 \t−1 \t−1\nDEX \t16 \t+3 \t+6\nCON \t14 \t+2 \t+2\nMOD \tSAVE\nINT \t17 \t+3 \t+6\nWIS \t12 \t+1 \t+1\nCHA \t16 \t+3 \t+3\nSkills Acrobatics +6, Perception +4, Stealth +9\nGear Daggers (6), Wand\nSenses Passive Perception 14\nLanguages Common, Thieves’ Cant\nCR 7 (XP 2,900; PB +3)\nActions\nMultiattack. The bandit makes three Dagger attacks.\nDagger. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 20/60 ft.\nHit: 8\n(2d4 + 3) Piercing damage plus 10 (3d6) Poison damage.\nBlinding Flash (Recharge 4–6). Constitution Saving Throw: DC 14, each\ncreature in a 10-foot-radius Sphere centered on a point the bandit can see\nwithin 120 feet.\nFailure: 13 (3d6 + 3) Radiant damage, and the target has the\nBlinded condition until the start of the bandit’s next turn.\nSuccess: Half\ndamage only.\nSpellcasting. The bandit casts one of the following spells, using Intelligence\nas the spellcasting ability (spell save DC 14):\nAt Will:\nDisguise Self,\nMage Hand,\nMinor Illusion\n1/Day Each:\nHold Person (level 4 version),\nMage Armor (included in AC),\nMajor Image\nI am he who rules the world, don’t you know? One little\npiece at a time.\n—JARLAXLE",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

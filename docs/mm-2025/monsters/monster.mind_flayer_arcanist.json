@@ -1,0 +1,89 @@
+{
+  "id": "monster.mind_flayer_arcanist",
+  "name": "MIND FLAYER ARCANIST",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration, Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Aberration",
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "hit_points": 143,
+  "hit_dice": "26d8 + 26",
+  "speed": "30 ft., Fly 30 ft. (hover)",
+  "abilities": {
+    "STR": {
+      "score": 11,
+      "mod": "+0"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 13,
+      "mod": "+1"
+    },
+    "INT": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "WIS": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 17,
+      "mod": "+3"
+    }
+  },
+  "saves": null,
+  "skills": "Arcana +13, Insight +7, Perception +7, Stealth +6",
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 120 ft.; Passive Perception 17",
+  "languages": "Deep Speech, Undercommon; telepathy 120 ft.",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [
+    {
+      "name": "Magic Resistance",
+      "text": "The mind flayer has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The mind flayer makes three Arcane Tentacles attacks."
+    },
+    {
+      "name": "Arcane Tentacles",
+      "text": "Melee or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft. Hit: 27 (4d10 + 5) Psychic damage, and the mind flayer can teleport the target up to 30 feet to an unoccupied space the mind flayer can see on a surface or liquid large enough to support the target. If this damage reduces the target to 0 Hit Points, the mind flayer kills it and magically devours its brain."
+    },
+    {
+      "name": "Mind Burst (Recharge 5-6)",
+      "text": "Intelligence Saving Throw: DC 17, each creature in a 40-foot Emanation originating from the mind flayer. Failure: 41 (8d8 + 5) Psychic damage, and the target has the Stunned condition until the end of the mind flayer's next turn. Success: Half damage only."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The mind flayer casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17): At Will: Detect Magic, Detect Thoughts, Disguise Self, Mage Hand (the hand is Invisible) 1/Day Each: Clairvoyance, Dimension Door,"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Shield (2/Day)",
+      "text": "The mind flayer casts Shield in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 16 \tInitiative +6 (16)\nHP 143 (26d8 + 26)\nSpeed 30 ft., Fly 30 ft. (hover)\nMOD \tSAVE\nSTR \t11 \t+0 \t+0\nDEX \t14 \t+2 \t+6\nCON \t13 \t+1 \t+1\nMOD \tSAVE\nINT \t20 \t+5 \t+9\nWIS \t17 \t+3 \t+7\nCHA \t17 \t+3 \t+7\nMedium Aberration, Lawful Evil\nMinotaur of Baphomet\nBerserker of the Demon Lord of Beasts\nHabitat: Underdark; Treasure: Armaments\nBaphomet, Demon Lord of Beasts, claims to have created minotaurs and demands their worship. While most minotaurs live free of the demon lord’s bonds,\nthose that serve him become minotaurs of Baphomet. These brutes resemble the hulking, horned demon lord more than others of their kind, and they wreak\nhavoc in that foul immortal’s name. Rarely, non-minotaurs cursed by magic-users or spiteful deities might transform into these monsters.\nMinotaurs of Baphomet often dwell in mazes, leading their allies to hidden destinations and stalking trespassers. Roll on or choose a result from the\nMinotaur Mazes table to inspire the shape of a minotaur’s dwelling.\nSkills Arcana +13, Insight +7, Perception +7, Stealth +6\nImmunities Psychic; Charmed, Frightened\nGear Breastplate\nSenses Darkvision 120 ft.; Passive Perception 17\nLanguages Deep Speech, Undercommon; telepathy 120 ft.\nCR 11 (XP 7,200; PB +4)\nTraits\nMagic Resistance. The mind flayer has Advantage on saving throws against\nspells and other magical effects.\nActions\nMultiattack. The mind flayer makes three Arcane Tentacles attacks.\nArcane Tentacles. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 120 ft.\nHit: 27 (4d10 + 5) Psychic damage, and the mind flayer can teleport the target\nup to 30 feet to an unoccupied space the mind flayer can see on a surface or\nliquid large enough to support the target. If this damage reduces the target to 0\nHit Points, the mind flayer kills it and magically devours its brain.\nMind Burst (Recharge 5–6). Intelligence Saving Throw: DC 17, each creature in\na 40-foot Emanation originating from the mind flayer.\nFailure: 41 (8d8 + 5)\nPsychic damage, and the target has the Stunned condition until the end of the\nmind flayer’s next turn.\nSuccess: Half damage only.\nSpellcasting. The mind flayer casts one of the following spells, requiring no\nspell components and using Intelligence as the spellcasting ability (spell save\nDC 17):\nAt Will:\nDetect Magic,\nDetect Thoughts,\nDisguise Self,\nMage Hand (the hand\nis Invisible)\n1/Day Each:\nClairvoyance,\nDimension Door,\nFireball (level 5 version),\nLightning\nBolt (level 5 version),\nPlane Shift (self only),\nSending\nReactions\nShield (2/Day). The mind flayer casts\nShield in response to that spell’s trigger,\nusing the same spellcasting ability as Spellcasting.\nMinotaur Mazes\n1d4 \tThe Minotaur of Baphomet Lurks In...\n1 \tA multilevel mine or sewer.\n2 \tMultiple mazes connected by magic portals.\n3 \tA poisonous swamp with labyrinthine paths.\n4 \tThe ruins of a buried palace or temple.\nModrons\nMechanized Caretakers of Multiversal Law\nHabitat: Planar (Mechanus); Treasure: None\nBeings of magic and machinery, modrons embody absolute law. These inhabitants of the clockwork plane of Mechanus tend to the incredible mechanisms\nof their orderly home and oppose chaotic forces across the multiverse.\nModrons are parts of a vast hierarchy, spanning from quirky monodrones to the leader of their kind, the godlike Primus. Every modron carries out tasks\nassigned to it by higher-ranking modrons, doing so without question. Generally, modrons communicate only with other modrons of their own rank or the\nranks immediately above and below them. Those more than one rank away tend to be either too advanced or too simple for them to understand.\nModrons excel at tasks that require patience and precision, but they have little understanding of nonliteral concepts such as art or humor. They have no\negos; they have only their work and the certainty that multiversal law depends on their efficacy.\nIn rare cases, a modron goes rogue and develops its own will. In these cases, other modrons are sent to recover or destroy their malfunctioning kin.\nModron Marches\nWhether in service to lawful deities or as part of the Great Modron March, modrons travel from Mechanus to spread their vision of law to other planes of\nexistence. Roll on or choose a result from the Modron Operations table to inspire what effort leads a group of modrons to other realms.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (M) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "monster.githyanki_knight",
+  "name": "GITHYANKI KNIGHT",
+  "status": "complete",
+  "size_type_alignment": "Medium Aberration (Gith), Lawful Evil",
+  "size": "Medium",
+  "creature_type": "Aberration (Gith)",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "hit_points": 117,
+  "hit_dice": "18d8 + 36",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "DEX": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CON": {
+      "score": 15,
+      "mod": "+2"
+    },
+    "INT": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "WIS": {
+      "score": 14,
+      "mod": "+2"
+    },
+    "CHA": {
+      "score": 15,
+      "mod": "+2"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Passive Perception 12",
+  "languages": "Common, Gith",
+  "cr": "8 (XP 3,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The githyanki makes three Silver Sword attacks. It can replace one attack with a use of Spellcasting to cast Telekinesis if available."
+    },
+    {
+      "name": "Silver Sword",
+      "text": "Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 14 (4d6) Psychic damage. Critical Hit: If the target is in an astral body (as with the Astral Projection spell), the githyanki can cut the silvery cord that tethers the target to its material body instead of dealing damage."
+    },
+    {
+      "name": "Spellcasting",
+      "text": "The githyanki casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 13): At Will: Mage Hand (the hand is Invisible) 2/Day Each:"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Misty Step (2/Day)",
+      "text": "The githyanki casts Misty Step, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +5 (15)\nHP 117 (18d8 + 36)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t16 \t+3 \t+3\nDEX \t14 \t+2 \t+2\nCON \t15 \t+2 \t+5\nMOD \tSAVE\nINT \t14 \t+2 \t+5\nWIS \t14 \t+2 \t+5\nCHA \t15 \t+2 \t+2\nGear Plate Armor\nSenses Passive Perception 12\nLanguages Common, Gith\nCR 8 (XP 3,900; PB +3)\nActions\nMultiattack. The githyanki makes three Silver Sword attacks. It can replace\none attack with a use of Spellcasting to cast\nTelekinesis if available.\nSilver Sword. Melee Attack Roll: +6, reach 5 ft.\nHit: 10 (2d6 + 3) Slashing\ndamage plus 14 (4d6) Psychic damage.\nCritical Hit: If the target is in an astral\nbody (as with the\nAstral Projection spell), the githyanki can cut the silvery cord\nthat tethers the target to its material body instead of dealing damage.\nSpellcasting. The githyanki casts one of the following spells, requiring no\nspell components and using Intelligence as the spellcasting ability (spell save\nDC 13):\nAt Will:\nMage Hand (the hand is Invisible)\n2/Day Each:\nNondetection (self only),\nTongues\n1/Day Each:\nPlane Shift,\nTelekinesis\nBonus Actions\nMisty Step (2/Day). The githyanki casts\nMisty Step, requiring no spell\ncomponents and using the same spellcasting ability as Spellcasting.\nMedium Aberration (Gith), Lawful Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

@@ -1,0 +1,136 @@
+{
+  "id": "list.mm-2025.monsters.batch_009",
+  "name": "MM 2025 Monsters Batch 9",
+  "entries": [
+    {
+      "id": "monster.adult_gold_dragon",
+      "name": "ADULT GOLD DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_gold_dragon.json"
+    },
+    {
+      "id": "monster.adult_green_dragon",
+      "name": "ADULT GREEN DRAGON",
+      "file": "docs/mm-2025/monsters/monster.adult_green_dragon.json"
+    },
+    {
+      "id": "monster.ancient_green_dragon",
+      "name": "ANCIENT GREEN DRAGON",
+      "file": "docs/mm-2025/monsters/monster.ancient_green_dragon.json"
+    },
+    {
+      "id": "monster.brazen_gorgon",
+      "name": "BRAZEN GORGON",
+      "file": "docs/mm-2025/monsters/monster.brazen_gorgon.json"
+    },
+    {
+      "id": "monster.galeb_duhr",
+      "name": "GALEB DUHR",
+      "file": "docs/mm-2025/monsters/monster.galeb_duhr.json"
+    },
+    {
+      "id": "monster.gargoyle",
+      "name": "GARGOYLE",
+      "file": "docs/mm-2025/monsters/monster.gargoyle.json"
+    },
+    {
+      "id": "monster.gelatinous_cube",
+      "name": "GELATINOUS CUBE",
+      "file": "docs/mm-2025/monsters/monster.gelatinous_cube.json"
+    },
+    {
+      "id": "monster.ghast",
+      "name": "GHAST",
+      "file": "docs/mm-2025/monsters/monster.ghast.json"
+    },
+    {
+      "id": "monster.ghast_gravecaller",
+      "name": "GHAST GRAVECALLER",
+      "file": "docs/mm-2025/monsters/monster.ghast_gravecaller.json"
+    },
+    {
+      "id": "monster.ghost",
+      "name": "GHOST",
+      "file": "docs/mm-2025/monsters/monster.ghost.json"
+    },
+    {
+      "id": "monster.ghoul",
+      "name": "GHOUL",
+      "file": "docs/mm-2025/monsters/monster.ghoul.json"
+    },
+    {
+      "id": "monster.gibbering_mouther",
+      "name": "GIBBERING MOUTHER",
+      "file": "docs/mm-2025/monsters/monster.gibbering_mouther.json"
+    },
+    {
+      "id": "monster.githyanki_dracomancer",
+      "name": "GITHYANKI DRACOMANCER",
+      "file": "docs/mm-2025/monsters/monster.githyanki_dracomancer.json"
+    },
+    {
+      "id": "monster.githyanki_knight",
+      "name": "GITHYANKI KNIGHT",
+      "file": "docs/mm-2025/monsters/monster.githyanki_knight.json"
+    },
+    {
+      "id": "monster.githyanki_warrior",
+      "name": "GITHYANKI WARRIOR",
+      "file": "docs/mm-2025/monsters/monster.githyanki_warrior.json"
+    },
+    {
+      "id": "monster.githzerai_monk",
+      "name": "GITHZERAI MONK",
+      "file": "docs/mm-2025/monsters/monster.githzerai_monk.json"
+    },
+    {
+      "id": "monster.githzerai_psion",
+      "name": "GITHZERAI PSION",
+      "file": "docs/mm-2025/monsters/monster.githzerai_psion.json"
+    },
+    {
+      "id": "monster.githzerai_zerth",
+      "name": "GITHZERAI ZERTH",
+      "file": "docs/mm-2025/monsters/monster.githzerai_zerth.json"
+    },
+    {
+      "id": "monster.glabrezu",
+      "name": "GLABREZU",
+      "file": "docs/mm-2025/monsters/monster.glabrezu.json"
+    },
+    {
+      "id": "monster.gladiator",
+      "name": "GLADIATOR",
+      "file": "docs/mm-2025/monsters/monster.gladiator.json"
+    },
+    {
+      "id": "monster.gnoll_demoniac",
+      "name": "GNOLL DEMONIAC",
+      "file": "docs/mm-2025/monsters/monster.gnoll_demoniac.json"
+    },
+    {
+      "id": "monster.gnoll_fang_of_yeenoghu",
+      "name": "GNOLL FANG OF YEENOGHU",
+      "file": "docs/mm-2025/monsters/monster.gnoll_fang_of_yeenoghu.json"
+    },
+    {
+      "id": "monster.gnoll_pack_lord",
+      "name": "GNOLL PACK LORD",
+      "file": "docs/mm-2025/monsters/monster.gnoll_pack_lord.json"
+    },
+    {
+      "id": "monster.gnoll_warrior",
+      "name": "GNOLL WARRIOR",
+      "file": "docs/mm-2025/monsters/monster.gnoll_warrior.json"
+    },
+    {
+      "id": "monster.goblin_boss",
+      "name": "GOBLIN BOSS",
+      "file": "docs/mm-2025/monsters/monster.goblin_boss.json"
+    }
+  ],
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (G) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  }
+}

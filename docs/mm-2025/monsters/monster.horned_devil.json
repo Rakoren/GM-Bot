@@ -1,0 +1,88 @@
+{
+  "id": "monster.horned_devil",
+  "name": "HORNED DEVIL",
+  "status": "complete",
+  "size_type_alignment": "Large Fiend (Devil), Lawful Evil",
+  "size": "Large",
+  "creature_type": "Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "hit_points": 199,
+  "hit_dice": "19d10 + 95",
+  "speed": "30 ft., Fly 60 ft.",
+  "abilities": {
+    "STR": {
+      "score": 22,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 17,
+      "mod": "+3"
+    },
+    "CON": {
+      "score": 21,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 12,
+      "mod": "+1"
+    },
+    "WIS": {
+      "score": 16,
+      "mod": "+3"
+    },
+    "CHA": {
+      "score": 18,
+      "mod": "+4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Darkvision 150 ft. (unimpeded by magical Darkness); Passive",
+  "languages": "Infernal; telepathy 120 ft.",
+  "cr": "11 (XP 7,200; PB +4)",
+  "traits": [
+    {
+      "name": "Diabolical Restoration",
+      "text": "If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+    },
+    {
+      "name": "Magic Resistance",
+      "text": "The devil has Advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail."
+    },
+    {
+      "name": "Searing Fork",
+      "text": "Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage."
+    },
+    {
+      "name": "Hurl Flame",
+      "text": "Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning."
+    },
+    {
+      "name": "Infernal Tail",
+      "text": "Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 18 \tInitiative +7 (17)\nHP 199 (19d10 + 95)\nSpeed 30 ft., Fly 60 ft.\nMOD \tSAVE\nSTR \t22 \t+6 \t+10\nDEX \t17 \t+3 \t+7\nCON \t21 \t+5 \t+5\nMOD \tSAVE\nINT \t12 \t+1 \t+1\nWIS \t16 \t+3 \t+7\nCHA \t18 \t+4 \t+8\nResistances Cold\nImmunities Fire, Poison; Poisoned\nSenses Darkvision 150 ft. (unimpeded by magical Darkness); Passive\nPerception 13\nLanguages Infernal; telepathy 120 ft.\nCR 11 (XP 7,200; PB +4)\nTraits\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body\ndisappears in sulfurous smoke, and it gains a new body instantly, reviving\nwith all its Hit Points somewhere in the Nine Hells.\nMagic Resistance. The devil has Advantage on saving throws against spells\nand other magical effects.\nActions\nMultiattack. The devil makes three attacks, using Searing Fork or Hurl Flame\nin any combination. It can replace one attack with a use of Infernal Tail.\nSearing Fork. Melee Attack Roll: +10, reach 10 ft.\nHit: 15 (2d8 + 6) Piercing\ndamage plus 9 (2d8) Fire damage.\nHurl Flame. Ranged Attack Roll: +8, range 150 ft.\nHit: 26 (5d8 + 4) Fire\ndamage. If the target is a flammable object that isn’t being worn or carried, it\nstarts burning.\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see\nwithin 10 feet.\nFailure: 10 (1d8 + 6) Necrotic damage, and the target receives\nan infernal wound if it doesn’t have one. While wounded, the target loses 10\n(3d6) Hit Points at the start of each of its turns. The wound closes after 1\nminute, after a spell restores Hit Points to the target, or after the target or a\ncreature within 5 feet of it takes an action to stanch the wound, doing so by\nsucceeding on a DC 17 Wisdom (Medicine) check.\nLarge Fiend (Devil), Lawful Evil\nHydras are storied hero slayers with vicious, serpentine heads and infamous regenerative powers. Endlessly hungry, they devour any creatures they catch.\nHydras that deplete an area of prey often go into a lengthy torpor until new prey arrives.\nMost hydras have five heads, but some mature or battle-tested hydras have more. Such elder hydras might become local legends, known for their battles\nwith heroes or for the riches lost in their domains.\nWhile many hydras claim their own territories, wicked deities might use them to guard treasures or magical sites. Roll on or choose a result from the Hydra\nLairs table to inspire why a hydra lurks where it does.\nHydra Lairs\n1d4 \tThe Hydra Lurks Where It Does To...\n1 \tEnsure none claim the weapon of a fallen hero.\n2 \tDefend the home of a wise but sinister oracle.\n3 \tGuard a magical herb that blooms once a year.\n4 \tProtect a font of poison that pollutes a river.",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (H) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}

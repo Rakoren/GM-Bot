@@ -1,0 +1,80 @@
+{
+  "id": "monster.tree_blight",
+  "name": "TREE BLIGHT",
+  "status": "complete",
+  "size_type_alignment": "Huge Plant, Neutral Evil",
+  "size": "Huge",
+  "creature_type": "Plant",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "hit_points": 115,
+  "hit_dice": "10d12 + 50",
+  "speed": "30 ft.",
+  "abilities": {
+    "STR": {
+      "score": 23,
+      "mod": "+6"
+    },
+    "DEX": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CON": {
+      "score": 20,
+      "mod": "+5"
+    },
+    "INT": {
+      "score": 6,
+      "mod": "-2"
+    },
+    "WIS": {
+      "score": 10,
+      "mod": "+0"
+    },
+    "CHA": {
+      "score": 3,
+      "mod": "-4"
+    }
+  },
+  "saves": null,
+  "skills": null,
+  "resistances": null,
+  "immunities": null,
+  "vulnerabilities": null,
+  "condition_immunities": null,
+  "senses": "Blindsight 60 ft.; Passive Perception 10",
+  "languages": "Understands Common and Druidic but can’t speak",
+  "cr": "7 (XP 2,900; PB +3)",
+  "traits": [],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "text": "The blight makes two Branch attacks and uses Grasping Root."
+    },
+    {
+      "name": "Branch",
+      "text": "Melee Attack Roll: +9, reach 15 ft. Hit: 16 (3d6 + 6) Bludgeoning damage."
+    },
+    {
+      "name": "Grasping Root",
+      "text": "Strength Saving Throw: DC 17, one Large or smaller creature the blight can see within 15 feet. Failure: The target is pulled up to 10 feet straight toward the blight and has the Grappled condition (escape DC 16) from one of six roots. Until the grapple ends, the target takes 13 (2d6 + 6) Bludgeoning damage at the start of each of its turns."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Gnash",
+      "text": "Dexterity Saving Throw: DC 17, one creature Grappled by the blight. Failure: 19 (3d8 + 6) Piercing damage. Success: Half damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_actions": [],
+  "lair_actions": [],
+  "regional_effects": [],
+  "raw_text": "AC 15 \tInitiative +3 (13)\nHP 115 (10d12 + 50)\nSpeed 30 ft.\nMOD \tSAVE\nSTR \t23 \t+6 \t+6\nDEX \t10 \t+0 \t+0\nCON \t20 \t+5 \t+5\nMOD \tSAVE\nINT \t6 \t−2 \t−2\nWIS \t10 \t+0 \t+0\nCHA \t3 \t−4 \t−4\nImmunities Deafened\nSenses Blindsight 60 ft.; Passive Perception 10\nLanguages Understands Common and Druidic but can’t speak\nCR 7 (XP 2,900; PB +3)\nActions\nMultiattack. The blight makes two Branch attacks and uses Grasping Root.\nBranch. Melee Attack Roll: +9, reach 15 ft.\nHit: 16 (3d6 + 6)\nBludgeoning damage.\nGrasping Root. Strength Saving Throw: DC 17, one Large or smaller creature\nthe blight can see within 15 feet.\nFailure: The target is pulled up to 10 feet\nstraight toward the blight and has the Grappled condition (escape DC 16) from\none of six roots. Until the grapple ends, the target takes 13 (2d6 + 6)\nBludgeoning damage at the start of each of its turns.\nBonus Actions\nGnash. Dexterity Saving Throw: DC 17, one creature Grappled by the blight.\nFailure: 19 (3d8 + 6) Piercing damage.\nSuccess: Half damage.\nHuge Plant, Neutral Evil",
+  "sourceRef": {
+    "file": "docs/sources/Monster Manual/Monsters (B) - Monster Manual - Dungeons & Dragons - Sources - D&D Beyond.pdf",
+    "pages": [],
+    "section": "Monsters"
+  },
+  "notes": []
+}
