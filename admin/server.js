@@ -7,6 +7,8 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createRulesRegistry } from '../src/rules/registry.js';
+import { initAppDb } from '../src/db/appDb.js';
+import { APP_DB_PATH } from '../src/config/runtime.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.join(__dirname, '..');
@@ -34,6 +36,10 @@ const DISCORD_BOT_TOKEN = process.env.DISCORD_BOT_TOKEN || process.env.DISCORD_T
 const ADMIN_PERMISSION = 0x8n;
 const MANAGE_GUILD_PERMISSION = 0x20n;
 const PLAYER_ROLE_NAME = (process.env.PLAYER_ROLE_NAME || 'player').toLowerCase();
+const ADMIN_ROLE_IDS = (process.env.ADMIN_ROLE_IDS || '')
+  .split(',')
+  .map(id => String(id).trim())
+  .filter(Boolean);
 const ONLINE_PLAYER_TTL_MS = 2 * 60 * 1000;
 const onlinePlayers = new Map();
 const BUILD_ID = (process.env.BUILD_ID || new Date().toISOString()).replace(/[-:.TZ]/g, '');
@@ -46,6 +52,17 @@ const ADMIN_SESSION_TTL_MS = Number(process.env.ADMIN_SESSION_TTL_MS || 1000 * 6
 const COMBAT_STATE_PATH = path.join(ROOT_DIR, 'combat_state.json');
 const LOOT_STATE_PATH = path.join(ROOT_DIR, 'loot_state.json');
 const NPC_PERSONAS_PATH = path.join(ROOT_DIR, 'npc_personas.json');
+
+const appDb = await initAppDb({
+  rootDir: ROOT_DIR,
+  dbPath: APP_DB_PATH,
+  legacyPaths: {
+    profiles: path.join(ROOT_DIR, 'profiles.json'),
+    characters: path.join(ROOT_DIR, 'characters.json'),
+    npcPersonas: NPC_PERSONAS_PATH,
+    trades: path.join(ROOT_DIR, 'trades.json'),
+  },
+});
 
 function canManageGuild(guild) {
   if (!guild) return false;
@@ -70,33 +87,27 @@ function ensureJson(filePath, fallback) {
 }
 
 function loadProfiles() {
-  const profilePath = path.join(ROOT_DIR, 'profiles.json');
-  return ensureJson(profilePath, {});
+  return appDb.getJson('profiles', {});
 }
 
 function saveProfiles(profiles) {
-  const profilePath = path.join(ROOT_DIR, 'profiles.json');
-  fs.writeFileSync(profilePath, JSON.stringify(profiles || {}, null, 2), 'utf8');
+  appDb.setJson('profiles', profiles || {});
 }
 
 function loadCharacterBank() {
-  const bankPath = path.join(ROOT_DIR, 'characters.json');
-  return ensureJson(bankPath, {});
+  return appDb.getJson('character_bank', {});
 }
 
 function saveCharacterBank(bank) {
-  const bankPath = path.join(ROOT_DIR, 'characters.json');
-  fs.writeFileSync(bankPath, JSON.stringify(bank || {}, null, 2), 'utf8');
+  appDb.setJson('character_bank', bank || {});
 }
 
 function loadTrades() {
-  const tradesPath = path.join(ROOT_DIR, 'trades.json');
-  return ensureJson(tradesPath, []);
+  return appDb.getJson('trades', []);
 }
 
 function saveTrades(trades) {
-  const tradesPath = path.join(ROOT_DIR, 'trades.json');
-  fs.writeFileSync(tradesPath, JSON.stringify(trades || [], null, 2), 'utf8');
+  appDb.setJson('trades', trades || []);
 }
 
 const COMMAND_MANIFEST = [
@@ -1532,11 +1543,38 @@ app.use(express.static(PUBLIC_DIR, {
 
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 15 * 1024 * 1024 } });
 
-function requireAuth(req, res, next) {
+async function assertAdminRole(req, res) {
+  if (!ADMIN_ROLE_IDS.length) return { ok: true };
+  const guildId = getSelectedGuildId(req);
+  if (!guildId) {
+    res.status(400).json({ error: 'guild-id-missing' });
+    return null;
+  }
+  if (!DISCORD_BOT_TOKEN) {
+    res.status(500).json({ error: 'bot-token-missing' });
+    return null;
+  }
+  const member = await fetchDiscordJson(
+    `https://discord.com/api/guilds/${guildId}/members/${req.session.user.id}`,
+    DISCORD_BOT_TOKEN,
+    'Bot'
+  );
+  const memberRoles = Array.isArray(member?.roles) ? member.roles : [];
+  const hasRole = ADMIN_ROLE_IDS.some(roleId => memberRoles.includes(roleId));
+  if (!hasRole) {
+    res.status(403).json({ error: 'not-admin' });
+    return null;
+  }
+  return { ok: true };
+}
+
+async function requireAuth(req, res, next) {
   if (!req.session?.user?.authorized) {
     res.status(401).json({ error: 'unauthorized' });
     return;
   }
+  const ok = await assertAdminRole(req, res);
+  if (!ok) return;
   next();
 }
 
@@ -1657,7 +1695,7 @@ app.get('/api/loot', requireAuth, (req, res) => {
 });
 
 app.get('/api/npcs', requireAuth, (req, res) => {
-  const personas = loadJsonSafe(NPC_PERSONAS_PATH, {});
+  const personas = appDb.getJson('npc_personas', {});
   const list = Object.entries(personas).map(([id, persona]) => ({
     id,
     name: persona?.name || 'Unknown',
@@ -1678,7 +1716,7 @@ app.get('/api/npcs', requireAuth, (req, res) => {
 });
 
 app.get('/api/npcs/:id', requireAuth, (req, res) => {
-  const personas = loadJsonSafe(NPC_PERSONAS_PATH, {});
+  const personas = appDb.getJson('npc_personas', {});
   const npc = personas?.[String(req.params.id)] || null;
   if (!npc) {
     res.status(404).json({ error: 'not-found' });

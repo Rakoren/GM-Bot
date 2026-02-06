@@ -74,10 +74,6 @@ export async function handleChatInputCommand({
     formatDiceResult,
     isCampaignInSession,
     getOrCreateManualLoginSet,
-    startCampaignSetup,
-    startCharacterSetup,
-    startSession0StatsTest,
-    isSetupActive,
     searchReference,
     formatLookupResults,
     insertHomebrew,
@@ -97,7 +93,6 @@ export async function handleChatInputCommand({
     getNpcPersona,
     setNpcPersona,
     deleteNpcPersona,
-    startCharacterCreator,
     setCharacter,
     setProfile,
     deleteCharacterById,
@@ -117,6 +112,9 @@ export async function handleChatInputCommand({
     openai,
     updateChannelConfig,
     isAiActive,
+    getAiMode,
+    setAiMode,
+    buildRosterBlock,
     getLoginVoiceChannelId,
     getOrCreateVoiceConnection,
     getOrCreateAudioPlayer,
@@ -153,10 +151,6 @@ export async function handleChatInputCommand({
     const existingGame = guild.channels.cache.find(
       ch => ch.type === ChannelType.GuildText && ch.name === 'game-table'
     );
-    const existingCreator = guild.channels.cache.find(
-      ch => ch.type === ChannelType.GuildText && ch.name === 'character-creator'
-    );
-
     const created = [];
     const reused = [];
 
@@ -172,27 +166,15 @@ export async function handleChatInputCommand({
       reused.push(`#${gameChannel.name}`);
     }
 
-    let creatorChannel = existingCreator;
-    if (!creatorChannel || overwrite) {
-      creatorChannel = await guild.channels.create({
-        name: 'character-creator',
-        type: ChannelType.GuildText,
-        topic: 'Character intake channel for the DM Bot.',
-      });
-      created.push(`#${creatorChannel.name}`);
-    } else {
-      reused.push(`#${creatorChannel.name}`);
-    }
-
     updateChannelConfig({
       gameTableChannelId: gameChannel?.id || null,
-      characterCreatorChannelId: creatorChannel?.id || null,
+      characterCreatorChannelId: null,
     });
 
     const lines = [];
     if (created.length) lines.push(`Created: ${created.join(', ')}`);
     if (reused.length) lines.push(`Using existing: ${reused.join(', ')}`);
-    lines.push('Saved channel IDs. You can now run /campaign-setup or /start in #game-table.');
+    lines.push('Saved channel IDs. You can now run /campaign create and /session start in #game-table.');
     await interaction.editReply(lines.join('\n'));
     return;
   }
@@ -258,6 +240,33 @@ export async function handleChatInputCommand({
     const result = rollDice(parsed.value);
     await interaction.editReply(formatDiceResult(result));
     return;
+  }
+
+  if (interaction.commandName === 'ai') {
+    const sub = interaction.options.getSubcommand();
+    const perms = interaction.memberPermissions;
+    const isDm = perms?.has(PermissionsBitField.Flags.ManageGuild)
+      || perms?.has(PermissionsBitField.Flags.Administrator);
+    if (sub === 'mode') {
+      if (!isDm) {
+        await interaction.editReply('You do not have access to this command.');
+        return;
+      }
+      const value = interaction.options.getString('value', true);
+      const ok = typeof setAiMode === 'function' ? setAiMode(value) : false;
+      if (!ok) {
+        await interaction.editReply('Invalid mode. Use active or passive.');
+        return;
+      }
+      const mode = typeof getAiMode === 'function' ? getAiMode() : value;
+      await interaction.editReply(`AI mode set to ${mode === 'passive' ? 'AI-Passive' : 'AI-Active'}.`);
+      return;
+    }
+    if (sub === 'status') {
+      const mode = typeof getAiMode === 'function' ? getAiMode() : (isAiActive?.() ? 'active' : 'passive');
+      await interaction.editReply(`AI mode: ${mode === 'passive' ? 'AI-Passive' : 'AI-Active'}.`);
+      return;
+    }
   }
 
   if (interaction.commandName === 'check') {
@@ -794,94 +803,98 @@ export async function handleChatInputCommand({
     }
   }
 
-  if (interaction.commandName === 'campaign-setup') {
-    if (!isGameChannel) {
-      await interaction.editReply('Use /campaign-setup in the game channel or its threads.');
-      return;
+    if (interaction.commandName === 'campaign') {
+      if (!isGameChannel) {
+        await interaction.editReply('Use /campaign in the game channel or its threads.');
+        return;
+      }
+      const perms = interaction.memberPermissions;
+      const isDm = perms?.has(PermissionsBitField.Flags.ManageGuild)
+        || perms?.has(PermissionsBitField.Flags.Administrator);
+      if (!isDm) {
+        await interaction.editReply('You do not have access to this command.');
+        return;
+      }
+      const sub = interaction.options.getSubcommand();
+      if (sub === 'create') {
+        const name = interaction.options.getString('name', true).trim();
+        resetCampaignState();
+        campaignState.currentCampaignName = name;
+        saveCampaignState();
+        saveNamedCampaign(name);
+        session.sessionActive = false;
+        session.aiPaused = false;
+        await interaction.editReply(`Campaign created and set active: ${name}`);
+        return;
+      }
+      if (sub === 'select') {
+        const name = interaction.options.getString('name', true).trim();
+        const filePath = loadNamedCampaign(name);
+        if (!filePath) {
+          await interaction.editReply(`No campaign found for "${name}".`);
+          return;
+        }
+        campaignState.currentCampaignName = name;
+        saveCampaignState();
+        await interaction.editReply(`Campaign loaded: ${name}`);
+        return;
+      }
+      if (sub === 'status') {
+        const active = campaignState.currentCampaignName || '(none)';
+        const aiState = session.aiPaused ? 'paused' : (isAiActive?.() ? 'active' : 'passive');
+        const sessionState = session.sessionActive ? 'active' : 'inactive';
+        await interaction.editReply(`Campaign: ${active}\nSession: ${sessionState}\nAI: ${aiState}`);
+        return;
+      }
     }
-    const sub = interaction.options.getSubcommand();
-    if (sub === 'cancel') {
-      session.campaignSetupActive = false;
-      session.campaignSetupStep = null;
-      session.campaignSetupAutoStartCharacters = false;
-      await interaction.editReply('Campaign setup canceled.');
-      return;
-    }
-    if (isSetupActive(session)) {
-      await interaction.editReply('Setup is already running. Use /campaign-setup cancel or /character-setup cancel.');
-      return;
-    }
-    await startCampaignSetup(session, interaction.channel);
-    await interaction.editReply('Campaign setup started.');
-    return;
-  }
 
-  if (interaction.commandName === 'character-setup') {
-    if (!isGameChannel) {
-      await interaction.editReply('Use /character-setup in the game channel or its threads.');
-      return;
+    if (interaction.commandName === 'session') {
+      if (!isGameChannel) {
+        await interaction.editReply('Use /session in the game channel or its threads.');
+        return;
+      }
+      const perms = interaction.memberPermissions;
+      const isDm = perms?.has(PermissionsBitField.Flags.ManageGuild)
+        || perms?.has(PermissionsBitField.Flags.Administrator);
+      if (!isDm) {
+        await interaction.editReply('You do not have access to this command.');
+        return;
+      }
+      const sub = interaction.options.getSubcommand();
+      if (sub === 'start') {
+        if (!campaignState.currentCampaignName) {
+          await interaction.editReply('No active campaign. Use /campaign create or /campaign select first.');
+          return;
+        }
+        session.sessionActive = true;
+        session.aiPaused = false;
+        saveCampaignState();
+        await interaction.editReply(`Session started for ${campaignState.currentCampaignName}.`);
+        return;
+      }
+      if (sub === 'end') {
+        session.sessionActive = false;
+        saveCampaignState();
+        await interaction.editReply('Session ended.');
+        return;
+      }
+      if (sub === 'pause') {
+        session.aiPaused = true;
+        await interaction.editReply('AI responses paused for this channel.');
+        return;
+      }
+      if (sub === 'resume') {
+        session.aiPaused = false;
+        await interaction.editReply('AI responses resumed for this channel.');
+        return;
+      }
+      if (sub === 'status') {
+        const aiState = session.aiPaused ? 'paused' : (isAiActive?.() ? 'active' : 'passive');
+        const sessionState = session.sessionActive ? 'active' : 'inactive';
+        await interaction.editReply(`Session: ${sessionState}\nAI: ${aiState}`);
+        return;
+      }
     }
-    const sub = interaction.options.getSubcommand();
-    if (sub === 'cancel') {
-      session.session0Active = false;
-      session.session0Step = null;
-      await interaction.editReply('Character setup canceled.');
-      return;
-    }
-    if (isSetupActive(session)) {
-      await interaction.editReply('Setup is already running. Use /campaign-setup cancel or /character-setup cancel.');
-      return;
-    }
-    const players = interaction.options.getInteger('players', false);
-    await startCharacterSetup(session, interaction.channel, players || null);
-    await interaction.editReply('Character setup started.');
-    return;
-  }
-
-  if (interaction.commandName === 'start') {
-    if (!isGameChannel) {
-      await interaction.editReply('Use /start in the game channel or its threads.');
-      return;
-    }
-    if (isSetupActive(session)) {
-      await interaction.editReply('Setup already in progress. Use /campaign-setup cancel or /character-setup cancel.');
-      return;
-    }
-    if (isCampaignInSession()) {
-      await interaction.editReply('Game already in session. /save before starting a new game.');
-      return;
-    }
-    await startCampaignSetup(session, interaction.channel, { autoStartCharacters: true });
-    await interaction.editReply('Start flow initiated.');
-    return;
-  }
-
-  if (interaction.commandName === 'test') {
-    if (!isGameChannel) {
-      await interaction.editReply('Use /test in the game channel or its threads.');
-      return;
-    }
-    if (isSetupActive(session)) {
-      await interaction.editReply('Setup already in progress. Use /campaign-setup cancel or /character-setup cancel.');
-      return;
-    }
-    const sub = interaction.options.getSubcommand();
-    if (sub === 'campaign') {
-      await startCampaignSetup(session, interaction.channel);
-      await interaction.editReply('Campaign setup (test) started.');
-      return;
-    }
-    if (sub === 'character') {
-      await startCharacterSetup(session, interaction.channel, 1);
-      await interaction.editReply('Character setup (test) started for 1 player.');
-      return;
-    }
-    if (sub === 'stats') {
-      await startSession0StatsTest(session, interaction.channel, interaction.user);
-      await interaction.editReply('Stats intake (test) started.');
-      return;
-    }
-  }
 
   if (interaction.commandName === 'lookup') {
     if (!isGameChannel) {
@@ -909,6 +922,67 @@ export async function handleChatInputCommand({
     const title = `Lookup results (${sub}):`;
     await interaction.editReply([title, formatLookupResults(tableName, rows)].join('\n'));
     return;
+  }
+
+  if (interaction.commandName === 'roster') {
+    if (!isGameChannel) {
+      await interaction.editReply('Use /roster in the game channel or its threads.');
+      return;
+    }
+    const sub = interaction.options.getSubcommand();
+    if (sub === 'list') {
+      const rosterBlock = typeof buildRosterBlock === 'function'
+        ? buildRosterBlock(session.sessionId, interaction.guild)
+        : 'Roster unavailable.';
+      await interaction.editReply(rosterBlock);
+      return;
+    }
+    if (sub === 'sync') {
+      const perms = interaction.memberPermissions;
+      const isDm = perms?.has(PermissionsBitField.Flags.ManageGuild)
+        || perms?.has(PermissionsBitField.Flags.Administrator);
+      if (!isDm) {
+        await interaction.editReply('You do not have access to this command.');
+        return;
+      }
+      const guild = interaction.guild;
+      let pruned = 0;
+      if (guild) {
+        try {
+          await guild.members.fetch();
+        } catch {}
+        for (const [userId, name] of characterByUserId.entries()) {
+          if (!guild.members.cache.has(userId)) {
+            characterByUserId.delete(userId);
+            if (name) userIdByCharacter.delete(String(name).toLowerCase());
+            pruned += 1;
+          }
+        }
+        const loginVoiceChannelId = getLoginVoiceChannelId?.();
+        if (loginVoiceChannelId) {
+          try {
+            const channel = await guild.channels.fetch(loginVoiceChannelId);
+            if (channel?.type === ChannelType.GuildVoice || channel?.type === ChannelType.GuildStageVoice) {
+              const activeIds = new Set(channel.members.keys());
+              for (const memberId of activeIds) {
+                voiceActive.set(memberId, { inVoice: true, voiceChannelId: loginVoiceChannelId });
+              }
+              for (const [memberId, entry] of voiceActive.entries()) {
+                if (entry?.voiceChannelId === loginVoiceChannelId && !activeIds.has(memberId)) {
+                  voiceActive.set(memberId, { inVoice: false, voiceChannelId: null });
+                }
+              }
+            }
+          } catch {}
+        }
+      }
+      const rosterBlock = typeof buildRosterBlock === 'function'
+        ? buildRosterBlock(session.sessionId, interaction.guild)
+        : 'Roster unavailable.';
+      const pruneNote = pruned ? `Pruned ${pruned} stale link(s).\n` : '';
+      await interaction.editReply(`Roster synced.\n${pruneNote}${rosterBlock}`);
+      return;
+    }
   }
 
   if (interaction.commandName === 'rules') {
@@ -1092,47 +1166,38 @@ export async function handleChatInputCommand({
       return;
     }
 
-    const user = interaction.options.getUser('user', false) || interaction.user;
-    const entry = session.session0Responses.find(r => r.userId === user.id);
-    if (entry) {
-      const label = entry.fields?.name || user.username;
-      await interaction.editReply(buildCharacterSheet(entry, label));
-      return;
-    }
-
-    const linkedName = characterByUserId.get(user.id);
-    if (linkedName) {
-      await interaction.editReply(
-        `Character linked: ${linkedName}. Use /sheet bank_id:<id> to view a full sheet, or run character setup for details.`
-      );
-      return;
-    }
-
-    await interaction.editReply(`No character setup data found for ${user}.`);
-    return;
-  }
-
-  if (interaction.commandName === 'bank') {
-    const sub = interaction.options.getSubcommand();
-    const isDm = interaction.memberPermissions?.has(PermissionsBitField.Flags.ManageGuild)
-      || interaction.memberPermissions?.has(PermissionsBitField.Flags.Administrator);
-    if (sub === 'create') {
-      if (!isCreatorChannel) {
-        await interaction.editReply('Use /bank create in #character-creator.');
+      const user = interaction.options.getUser('user', false) || interaction.user;
+      const fields = resolveProfileFields(user.id, null);
+      if (fields && Object.keys(fields).length) {
+        const label = fields?.name || user.username;
+        await interaction.editReply(buildCharacterSheet({ fields }, label));
         return;
       }
-      startCharacterCreator(interaction.user, interaction.channel);
-      await interaction.editReply('Character creator started.');
-      return;
-    }
-    if (sub === 'list') {
-      if (!isGameChannel && !isCreatorChannel) {
-        await interaction.editReply('Use /bank list in the game or character-creator channel.');
+
+      const linkedName = characterByUserId.get(user.id);
+      if (linkedName) {
+        await interaction.editReply(
+          `Character linked: ${linkedName}. Use /sheet bank_id:<id> to view a full sheet, or link a full profile in the web UI.`
+        );
         return;
       }
-      const rows = listCharacters({ userId: interaction.user.id, isDm });
-      await interaction.editReply(formatBankList(rows));
+
+      await interaction.editReply(`No character profile found for ${user}.`);
       return;
+    }
+
+    if (interaction.commandName === 'bank') {
+      const sub = interaction.options.getSubcommand();
+      const isDm = interaction.memberPermissions?.has(PermissionsBitField.Flags.ManageGuild)
+        || interaction.memberPermissions?.has(PermissionsBitField.Flags.Administrator);
+      if (sub === 'list') {
+        if (!isGameChannel) {
+          await interaction.editReply('Use /bank list in the game channel or its threads.');
+          return;
+        }
+        const rows = listCharacters({ userId: interaction.user.id, isDm });
+        await interaction.editReply(formatBankList(rows));
+        return;
     }
     if (sub === 'take') {
       if (!isGameChannel) {
@@ -1312,14 +1377,14 @@ export async function handleChatInputCommand({
       await interaction.editReply('Provide a campaign name or set one during campaign setup.');
       return;
     }
-    const filePath = saveNamedCampaign(name);
-    if (!filePath) {
+    const savedName = saveNamedCampaign(name);
+    if (!savedName) {
       await interaction.editReply('Provide a valid campaign name.');
       return;
     }
     campaignState.currentCampaignName = String(name).trim();
     saveCampaignState();
-    await interaction.editReply(`Campaign saved: ${path.basename(filePath)}`);
+    await interaction.editReply(`Campaign saved: ${String(name).trim()}`);
     return;
   }
 
@@ -1351,14 +1416,14 @@ export async function handleChatInputCommand({
       return;
     }
     const name = interaction.options.getString('name', true);
-    const filePath = loadNamedCampaign(name);
-    if (!filePath) {
+    const loaded = loadNamedCampaign(name);
+    if (!loaded) {
       await interaction.editReply(`No campaign found for "${name}".`);
       return;
     }
     campaignState.currentCampaignName = String(name).trim();
     saveCampaignState();
-    await interaction.editReply(`Campaign loaded: ${path.basename(filePath)}`);
+    await interaction.editReply(`Campaign loaded: ${String(name).trim()}`);
     return;
   }
 
@@ -1432,9 +1497,8 @@ export async function handleChatInputCommand({
       await interaction.editReply('Use /profile in the game channel or its threads.');
       return;
     }
-    const entry = session.session0Responses.find(r => r.userId === interaction.user.id);
     const displayName = interaction.member?.displayName || interaction.user.username;
-    const fields = resolveProfileFields(interaction.user.id, entry);
+    const fields = resolveProfileFields(interaction.user.id, null);
     const embed = buildProfileEmbed(interaction.user, fields, displayName);
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
@@ -1499,22 +1563,22 @@ export async function handleChatInputCommand({
 
   if (interaction.commandName === 'help') {
     const helpEntries = [
+      { name: 'ai', line: '/ai mode value:<active|passive> | /ai status' },
       { name: 'setup', line: '/setup [overwrite:true]' },
       { name: 'mode', line: '/mode type:<free|structured>' },
       { name: 'check', line: '/check ability:<str|dex|con|int|wis|cha> [skill:<name>] [dc:<n>] [adv|dis]' },
       { name: 'percent', line: '/percent chance:<1-100>' },
       { name: 'rolltable', line: '/rolltable die:<d4|d6|d8|d10|d12|d20|d100>' },
-      { name: 'setchar', line: '/setchar name:<name> OR /setchar bank_id:<id>' },
-      { name: 'turn', line: '/turn user:@Player' },
-      { name: 'roll', line: '/roll expression:<NdM[+/-K]> [adv|dis]' },
-      { name: 'campaign-setup', line: '/campaign-setup start | /campaign-setup cancel' },
-      { name: 'character-setup', line: '/character-setup start players:<n> | /character-setup cancel' },
-      { name: 'start', line: '/start' },
-      { name: 'test', line: '/test campaign | /test character | /test stats' },
-      { name: 'lookup', line: '/lookup class|subclass|species|background|feat|spell query:<name>' },
-      { name: 'homebrew', line: '/homebrew class|species|background|subclass|feat|spell ...' },
-      { name: 'sheet', line: '/sheet [user:@Player] [bank_id:<id>]' },
-      { name: 'bank', line: '/bank create | /bank list | /bank take id:<id> | /bank info id:<id> | /bank delete id:<id> | /bank delete name:<name>' },
+        { name: 'setchar', line: '/setchar name:<name> OR /setchar bank_id:<id>' },
+        { name: 'turn', line: '/turn user:@Player' },
+        { name: 'roll', line: '/roll expression:<NdM[+/-K]> [adv|dis]' },
+        { name: 'roster', line: '/roster list | /roster sync' },
+        { name: 'campaign', line: '/campaign create name:<name> | /campaign select name:<name> | /campaign status' },
+        { name: 'session', line: '/session start | /session end | /session pause | /session resume | /session status' },
+        { name: 'lookup', line: '/lookup class|subclass|species|background|feat|spell query:<name>' },
+        { name: 'homebrew', line: '/homebrew class|species|background|subclass|feat|spell ...' },
+        { name: 'sheet', line: '/sheet [user:@Player] [bank_id:<id>]' },
+        { name: 'bank', line: '/bank list | /bank take id:<id> | /bank info id:<id> | /bank delete id:<id> | /bank delete name:<name>' },
       { name: 'npc', line: '/npc create | /npc quick | /npc generate | /npc list | /npc sheet id:<id> | /npc delete id:<id>' },
       { name: 'log-in', line: '/log-in' },
       { name: 'log-out', line: '/log-out' },

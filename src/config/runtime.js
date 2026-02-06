@@ -40,6 +40,9 @@ export const CONFIG = {
 };
 
 export const DATASET_GROUP = process.env.DATASET_GROUP || 'D&D';
+export const APP_DB_PATH = process.env.APP_DB_PATH
+  ? path.resolve(process.env.APP_DB_PATH)
+  : path.join(ROOT_DIR, 'data', 'app.sqlite');
 
 export const PROFILE_STORE_PATH = path.join(ROOT_DIR, 'profiles.json');
 export const CAMPAIGN_SAVE_PATH = path.join(ROOT_DIR, 'campaign_save.json');

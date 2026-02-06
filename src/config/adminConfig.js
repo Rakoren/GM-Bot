@@ -19,18 +19,18 @@ const COMMAND_GROUP_BY_NAME = {
   percent: 'core',
   rolltable: 'core',
   status: 'core',
+  ai: 'core',
   setup: 'setup',
   mode: 'play',
+  roster: 'play',
   setchar: 'play',
   turn: 'play',
   roll: 'play',
   combat: 'play',
   lookup: 'play',
   xp: 'play',
-  'campaign-setup': 'setup',
-  'character-setup': 'setup',
-  start: 'setup',
-  test: 'setup',
+  campaign: 'setup',
+  session: 'setup',
   bank: 'bank',
   npc: 'npc',
   sheet: 'bank',
@@ -259,6 +259,14 @@ export function isFeatureEnabled(key) {
 
 export function getAiMode() {
   return adminConfig?.aiMode === 'passive' ? 'passive' : 'active';
+}
+
+export function setAiMode(mode) {
+  const next = typeof mode === 'string' ? mode.trim().toLowerCase() : '';
+  if (next !== 'active' && next !== 'passive') return false;
+  adminConfig = { ...(adminConfig || {}), aiMode: next };
+  saveAdminConfig(adminConfig);
+  return true;
 }
 
 export function isAiActive() {

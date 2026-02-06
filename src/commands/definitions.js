@@ -5,6 +5,29 @@ export const commandData = [
     .setName('status')
     .setDescription('Show bot status'),
   new SlashCommandBuilder()
+    .setName('ai')
+    .setDescription('AI control')
+    .addSubcommand(sub =>
+      sub
+        .setName('mode')
+        .setDescription('Set AI mode')
+        .addStringOption(opt =>
+          opt
+            .setName('value')
+            .setDescription('AI mode')
+            .setRequired(true)
+            .addChoices(
+              { name: 'active', value: 'active' },
+              { name: 'passive', value: 'passive' }
+            )
+        )
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('status')
+        .setDescription('Show AI mode')
+    ),
+  new SlashCommandBuilder()
     .setName('mode')
     .setDescription('Set DM mode')
     .addStringOption(opt =>
@@ -323,6 +346,19 @@ export const commandData = [
         )
     ),
   new SlashCommandBuilder()
+    .setName('roster')
+    .setDescription('Roster tools')
+    .addSubcommand(sub =>
+      sub
+        .setName('list')
+        .setDescription('Show roster status')
+    )
+    .addSubcommand(sub =>
+      sub
+        .setName('sync')
+        .setDescription('Sync roster/voice presence')
+    ),
+  new SlashCommandBuilder()
     .setName('setup')
     .setDescription('Create required channels and save IDs')
     .addBooleanOption(opt =>
@@ -331,61 +367,58 @@ export const commandData = [
         .setDescription('Create new channels even if ones exist')
         .setRequired(false)
     ),
-  new SlashCommandBuilder()
-    .setName('campaign-setup')
-    .setDescription('Set campaign name, theme, and setting')
-    .addSubcommand(sub =>
-      sub
-        .setName('start')
-        .setDescription('Start campaign setup')
-    )
-    .addSubcommand(sub =>
-      sub
-        .setName('cancel')
-        .setDescription('Cancel campaign setup')
-    ),
-  new SlashCommandBuilder()
-    .setName('character-setup')
-    .setDescription('Start character intake for players')
-    .addSubcommand(sub =>
-      sub
-        .setName('start')
-        .setDescription('Start character setup')
-        .addIntegerOption(opt =>
-          opt
-            .setName('players')
-            .setDescription('Number of players')
-            .setMinValue(1)
-            .setMaxValue(12)
-            .setRequired(false)
-        )
-    )
-    .addSubcommand(sub =>
-      sub
-        .setName('cancel')
-        .setDescription('Cancel character setup')
-    ),
-  new SlashCommandBuilder()
-    .setName('start')
-    .setDescription('Start full campaign and character setup flow'),
-  new SlashCommandBuilder()
-    .setName('test')
-    .setDescription('Jump to a setup step (testing)')
-    .addSubcommand(sub =>
-      sub
-        .setName('campaign')
-        .setDescription('Start campaign setup')
-    )
-    .addSubcommand(sub =>
-      sub
-        .setName('character')
-        .setDescription('Start character setup (1 player)')
-    )
-    .addSubcommand(sub =>
-      sub
-        .setName('stats')
-        .setDescription('Start stats intake (testing)')
-    ),
+    new SlashCommandBuilder()
+      .setName('campaign')
+      .setDescription('Manage campaigns')
+      .addSubcommand(sub =>
+        sub
+          .setName('create')
+          .setDescription('Create and activate a campaign')
+          .addStringOption(opt =>
+            opt.setName('name').setDescription('Campaign name').setRequired(true)
+          )
+      )
+      .addSubcommand(sub =>
+        sub
+          .setName('select')
+          .setDescription('Load and activate a saved campaign')
+          .addStringOption(opt =>
+            opt.setName('name').setDescription('Campaign name').setRequired(true)
+          )
+      )
+      .addSubcommand(sub =>
+        sub
+          .setName('status')
+          .setDescription('Show active campaign status')
+      ),
+    new SlashCommandBuilder()
+      .setName('session')
+      .setDescription('Control the live session')
+      .addSubcommand(sub =>
+        sub
+          .setName('start')
+          .setDescription('Start the session in this channel')
+      )
+      .addSubcommand(sub =>
+        sub
+          .setName('end')
+          .setDescription('End the session in this channel')
+      )
+      .addSubcommand(sub =>
+        sub
+          .setName('pause')
+          .setDescription('Pause AI responses in this channel')
+      )
+      .addSubcommand(sub =>
+        sub
+          .setName('resume')
+          .setDescription('Resume AI responses in this channel')
+      )
+      .addSubcommand(sub =>
+        sub
+          .setName('status')
+          .setDescription('Show session status')
+      ),
   new SlashCommandBuilder()
     .setName('lookup')
     .setDescription('Search rules reference data')
@@ -572,19 +605,14 @@ export const commandData = [
     .addStringOption(opt =>
       opt.setName('name').setDescription('Campaign name').setRequired(true)
     ),
-  new SlashCommandBuilder()
-    .setName('bank')
-    .setDescription('Character bank')
-    .addSubcommand(sub =>
-      sub
-        .setName('create')
-        .setDescription('Start character creator in #character-creator')
-    )
-    .addSubcommand(sub =>
-      sub
-        .setName('list')
-        .setDescription('List characters in the bank')
-    )
+    new SlashCommandBuilder()
+      .setName('bank')
+      .setDescription('Character bank')
+      .addSubcommand(sub =>
+        sub
+          .setName('list')
+          .setDescription('List characters in the bank')
+      )
     .addSubcommand(sub =>
       sub
         .setName('take')

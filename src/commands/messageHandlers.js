@@ -3,15 +3,12 @@ export async function handleMessageCreate({ msg, ctx }) {
     pendingPasteImports,
     importPastedDataToCsv,
     isFeatureEnabled,
-    handleCharacterCreatorMessage,
     isGameTableMessage,
     getSessionIdFromMessage,
     getOrCreateLastSeenMap,
     getOrCreateSession,
     isOocMessage,
     handleOocMessage,
-    handleCampaignSetupMessage,
-    handleSession0Message,
     buildRosterBlock,
     characterByUserId,
     getOrCreateNotifySet,
@@ -65,9 +62,6 @@ export async function handleMessageCreate({ msg, ctx }) {
       return;
     }
 
-    const handledCreator = await handleCharacterCreatorMessage(msg);
-    if (handledCreator) return;
-
     if (!isGameTableMessage(msg)) return;
 
     const sessionId = getSessionIdFromMessage(msg);
@@ -84,11 +78,6 @@ export async function handleMessageCreate({ msg, ctx }) {
       await handleOocMessage(session, msg);
       return;
     }
-
-    const handledCampaignSetup = await handleCampaignSetupMessage(session, msg);
-    if (handledCampaignSetup) return;
-    const handledSession0 = await handleSession0Message(session, msg);
-    if (handledSession0) return;
 
     if (msg.content.trim().toLowerCase() === '.roster') {
       const rosterBlock = buildRosterBlock(session.sessionId, msg.guild);
@@ -173,19 +162,7 @@ export async function handleMessageCreate({ msg, ctx }) {
       );
     };
 
-    const hasSession0Data = session.session0Responses.some(r => r.userId === msg.author.id);
-    const hasCharacter = characterByUserId.has(msg.author.id);
-    if (!session.session0Active && !hasSession0Data && !hasCharacter) {
-      const notified = getOrCreateNotifySet(sessionId);
-      if (!notified.has(msg.author.id)) {
-        notified.add(msg.author.id);
-        await msg.channel.send(
-          `${msg.author}, game in session. Please choose a character:\n` +
-          `1) /bank list then /bank take <id>\n` +
-          `2) Go to #character-creator and use /bank create\n` +
-          `I'll add you once you have a character.`
-        );
-      }
+    if (session.aiPaused) {
       return;
     }
 

@@ -67,6 +67,8 @@ Expected in `.env` (typical):
 - `OPENAI_API_KEY`
 - `GUILD_ID` (optional)
 - `ADMIN_BASE_URL` (optional)
+- `ADMIN_ROLE_IDS` (recommended, comma-separated role IDs for admin UI access)
+- `APP_DB_PATH` (optional, default `data/app.sqlite`)
 - `ADMIN_SESSION_SECRET` (recommended)
 - `ADMIN_COOKIE_SECURE` (optional, set `true` for HTTPS)
 - `ADMIN_SESSION_STORE` (optional: `memory` or `file`)

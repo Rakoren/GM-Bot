@@ -1702,7 +1702,7 @@ function updateWildShapePanel() {
     formSelect.innerHTML = '';
     const placeholder = document.createElement('option');
     placeholder.value = '';
-    placeholder.textContent = 'Select a Beast';
+    placeholder.textContent = 'Beast';
     formSelect.appendChild(placeholder);
     available.forEach(creature => {
       const name = String(creature?.name || '').trim();
@@ -1795,7 +1795,7 @@ function openWildShapeModal(availableForms, onConfirm) {
   select.innerHTML = '';
   const placeholder = document.createElement('option');
   placeholder.value = '';
-  placeholder.textContent = 'Select a Beast';
+  placeholder.textContent = 'Beast';
   select.appendChild(placeholder);
   availableForms.forEach(key => {
     const creature = getCreatureByKey(key);
