@@ -1448,11 +1448,6 @@
       "path": "chapter-03/core/features/feat.metamagic.json"
     },
     {
-      "id": "feat.ability_score_improvement",
-      "type": "feature",
-      "path": "chapter-03/core/features/feat.ability_score_improvement.json"
-    },
-    {
       "id": "feat.epic_boon",
       "type": "feature",
       "path": "chapter-03/core/features/feat.epic_boon.json"

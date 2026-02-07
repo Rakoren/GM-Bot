@@ -14,7 +14,10 @@ import {
 import OpenAI from 'openai';
 import fs from 'fs';
 import path from 'path';
+import http from 'http';
 import { createDataStore } from './src/data/store.js';
+import { createLogger } from './src/logging/logger.js';
+import { validateEnv } from './src/config/validateEnv.js';
 import { createCombatEngine } from './src/combat/engine.js';
 import { commandData, COMMAND_NAMES } from './src/commands/definitions.js';
 import { handleChatInputCommand } from './src/commands/handlers.js';
@@ -76,6 +79,10 @@ import {
 } from './src/session/helpers.js';
 
 // -------------------- CONFIG --------------------
+validateEnv({
+  appName: 'Bot',
+  required: ['DISCORD_TOKEN', 'OPENAI_API_KEY'],
+});
 
 // -------------------- DISCORD CLIENT --------------------
 const client = new Client({
@@ -95,6 +102,90 @@ const client = new Client({
 
 // -------------------- OPENAI CLIENT --------------------
 const openai = new OpenAI({ apiKey: CONFIG.openaiApiKey });
+const BOT_HEALTH_PORT = Number(process.env.BOT_HEALTH_PORT || 3099);
+const BOT_HEALTH_HOST = process.env.BOT_HEALTH_HOST || '127.0.0.1';
+const BUILD_ID = (process.env.BUILD_ID || new Date().toISOString()).replace(/[-:.TZ]/g, '');
+const APP_VERSION = (() => {
+  try {
+    const pkg = JSON.parse(fs.readFileSync(path.join(ROOT_DIR, 'package.json'), 'utf8'));
+    return pkg.version || '0.0.0';
+  } catch {
+    return '0.0.0';
+  }
+})();
+const LOG_DIR = process.env.LOG_DIR || path.join(ROOT_DIR, 'logs');
+const LOG_LEVEL = process.env.LOG_LEVEL || 'info';
+const LOG_MAX_BYTES = Number(process.env.LOG_MAX_BYTES || 5 * 1024 * 1024);
+const LOG_MAX_FILES = Number(process.env.LOG_MAX_FILES || 5);
+
+const logger = createLogger({
+  logDir: LOG_DIR,
+  fileName: 'bot.log',
+  level: LOG_LEVEL,
+  maxBytes: LOG_MAX_BYTES,
+  maxFiles: LOG_MAX_FILES,
+});
+
+const originalConsole = {
+  log: console.log.bind(console),
+  info: console.info.bind(console),
+  warn: console.warn.bind(console),
+  error: console.error.bind(console),
+};
+console.log = (...args) => {
+  originalConsole.log(...args);
+  logger.info(args.join(' '));
+};
+console.info = (...args) => {
+  originalConsole.info(...args);
+  logger.info(args.join(' '));
+};
+console.warn = (...args) => {
+  originalConsole.warn(...args);
+  logger.warn(args.join(' '));
+};
+console.error = (...args) => {
+  originalConsole.error(...args);
+  logger.error(args.join(' '));
+};
+
+process.on('uncaughtException', err => {
+  logger.error('uncaughtException', { message: err?.message, stack: err?.stack });
+});
+process.on('unhandledRejection', err => {
+  logger.error('unhandledRejection', { message: err?.message, stack: err?.stack });
+});
+
+function startHealthServer() {
+  const server = http.createServer((req, res) => {
+    if (req.method !== 'GET' || req.url !== '/healthz') {
+      if (req.method === 'GET' && req.url === '/version') {
+        res.setHeader('Content-Type', 'application/json');
+        res.end(JSON.stringify({
+          name: 'mimic-bot',
+          version: APP_VERSION,
+          build: BUILD_ID,
+          time: new Date().toISOString(),
+        }));
+        return;
+      }
+      res.statusCode = 404;
+      res.end('not found');
+      return;
+    }
+    res.setHeader('Content-Type', 'application/json');
+    res.end(JSON.stringify({
+      ok: true,
+      service: 'bot',
+      time: new Date().toISOString(),
+    }));
+  });
+  server.listen(BOT_HEALTH_PORT, BOT_HEALTH_HOST, () => {
+    console.log(`Bot healthz on http://${BOT_HEALTH_HOST}:${BOT_HEALTH_PORT}/healthz`);
+  });
+}
+
+startHealthServer();
 
 // Surface negative-timeout and other runtime warnings with stack traces.
 process.on('warning', (warning) => {
@@ -303,6 +394,16 @@ function buildRulesRegistry() {
   return registry;
 }
 rulesRegistry = buildRulesRegistry();
+
+function logStartupSummary() {
+  const issueCount = rulesRegistry?.errors?.length || 0;
+  console.log('Startup summary');
+  console.log(`Dataset group: ${DATASET_GROUP}`);
+  console.log(`Rules registry issues: ${issueCount}`);
+  console.log(`App DB: ${appDb?.dbPath || 'data/app.sqlite'}`);
+}
+
+logStartupSummary();
 
 function rulesLookupByName(type, name) {
   return rulesRegistry?.lookupByName ? rulesRegistry.lookupByName(type, name) : null;

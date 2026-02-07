@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  oauth-scope-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: OAuth scope audit
+        run: node tools/check-oauth-scopes.mjs
+  security-csp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: CSP regression check
+        run: node tools/check-csp.mjs
+  registry-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Registry integrity audit
+        run: node tools/check-registry-integrity.mjs
+  docs-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Docs validation suites
+        run: |
+          node tools/check-validation.mjs docs/chapter-03/chapter-03.validation.full.json
+          node tools/check-validation-ch4.mjs docs/chapter-04/chapter-04.validation.full.json
+          node tools/check-validation-ch5.mjs docs/chapter-05/chapter-05.validation.full.json
+          node tools/check-validation-ch6.mjs docs/chapter-06/chapter-06.validation.full.json
+          node tools/check-validation-ch7.mjs docs/chapter-07/chapter-07.validation.full.json
+          node tools/check-validation-appendix-a.mjs docs/appendix-a/appendix-a.validation.full.json
+          node tools/check-validation-appendix-b.mjs docs/appendix-b/appendix-b.validation.full.json
+          node tools/check-validation-rules-glossary.mjs docs/rules-glossary/rules-glossary.validation.full.json
+  wizard-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Wizard rules tests
+        run: node tools/test-wizard-rules.mjs

@@ -1,0 +1,36 @@
+{"ts":"2026-02-06T22:20:33.480Z","level":"info","msg":"Bot healthz on http://127.0.0.1:3099/healthz"}
+{"ts":"2026-02-06T22:20:36.394Z","level":"info","msg":"Startup summary"}
+{"ts":"2026-02-06T22:20:36.395Z","level":"info","msg":"Dataset group: D&D"}
+{"ts":"2026-02-06T22:20:36.396Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-06T22:20:36.397Z","level":"info","msg":"App DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-06T22:20:37.060Z","level":"info","msg":"Logged in as M.I.M.I.C.#5015"}
+{"ts":"2026-02-06T22:20:37.061Z","level":"info","msg":"Game table channel id: 1463255954551472209"}
+{"ts":"2026-02-06T22:20:37.314Z","level":"info","msg":"Slash commands registered (guild)."}
+{"ts":"2026-02-06T22:20:43.557Z","level":"info","msg":"Admin config reloaded."}
+{"ts":"2026-02-06T22:34:09.209Z","level":"info","msg":"Bot healthz on http://127.0.0.1:3099/healthz"}
+{"ts":"2026-02-06T22:34:11.886Z","level":"info","msg":"Startup summary"}
+{"ts":"2026-02-06T22:34:11.888Z","level":"info","msg":"Dataset group: D&D"}
+{"ts":"2026-02-06T22:34:11.890Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-06T22:34:11.892Z","level":"info","msg":"App DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-06T22:34:12.559Z","level":"info","msg":"Logged in as M.I.M.I.C.#5015"}
+{"ts":"2026-02-06T22:34:12.561Z","level":"info","msg":"Game table channel id: 1463255954551472209"}
+{"ts":"2026-02-06T22:34:12.985Z","level":"info","msg":"Slash commands registered (guild)."}
+{"ts":"2026-02-06T22:34:13.223Z","level":"info","msg":"Admin config reloaded."}
+{"ts":"2026-02-06T22:56:49.891Z","level":"info","msg":"Bot healthz on http://127.0.0.1:3099/healthz"}
+{"ts":"2026-02-06T22:56:52.856Z","level":"info","msg":"Startup summary"}
+{"ts":"2026-02-06T22:56:52.858Z","level":"info","msg":"Dataset group: D&D"}
+{"ts":"2026-02-06T22:56:52.859Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-06T22:56:52.862Z","level":"info","msg":"App DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-06T22:56:53.606Z","level":"info","msg":"Logged in as M.I.M.I.C.#5015"}
+{"ts":"2026-02-06T22:56:53.610Z","level":"info","msg":"Game table channel id: 1463255954551472209"}
+{"ts":"2026-02-06T22:56:53.892Z","level":"info","msg":"Slash commands registered (guild)."}
+{"ts":"2026-02-06T22:56:53.913Z","level":"info","msg":"Admin config reloaded."}
+{"ts":"2026-02-07T00:51:01.149Z","level":"info","msg":"Bot healthz on http://127.0.0.1:3099/healthz"}
+{"ts":"2026-02-07T00:51:03.570Z","level":"info","msg":"Startup summary"}
+{"ts":"2026-02-07T00:51:03.572Z","level":"info","msg":"Dataset group: D&D"}
+{"ts":"2026-02-07T00:51:03.575Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-07T00:51:03.578Z","level":"info","msg":"App DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-07T00:51:04.954Z","level":"info","msg":"Logged in as M.I.M.I.C.#5015"}
+{"ts":"2026-02-07T00:51:04.957Z","level":"info","msg":"Game table channel id: 1463255954551472209"}
+{"ts":"2026-02-07T00:51:05.172Z","level":"info","msg":"Admin config reloaded."}
+{"ts":"2026-02-07T00:51:05.295Z","level":"info","msg":"Slash commands registered (guild)."}

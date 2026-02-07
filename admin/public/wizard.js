@@ -1510,16 +1510,25 @@ function hasMissingRequiredSelections() {
   const languageCounts = getLanguageSelectionCounts();
   const missingLanguages = languageCounts.extraAllowed > 0
     && languageCounts.extraSelected < languageCounts.extraAllowed;
-  const limit = state.classSkillLimit;
-  const classSet = state.classSkillSelections || new Set();
-  const missingClassSkills = Number.isFinite(limit) && classSet.size < limit;
+  const subclassEntry = getSelectedSubclassEntry();
+  const subclassRequirement = subclassEntry ? parseSubclassRequirement(subclassEntry) : null;
+  const subclassGateMissing = subclassEntry
+    && Number.isFinite(subclassRequirement)
+    && getCurrentLevel() < subclassRequirement;
+  const classSkillValidation = validateSkillSelection({
+    limit: state.classSkillLimit,
+    allowedKeys: Array.from(state.classSkillAllowed || []),
+    selectedKeys: Array.from(state.classSkillSelections || []),
+  });
+  const missingClassSkills = !classSkillValidation.ok;
   return missingFeature
     || missingSubclass
     || missingClassSkills
     || missingSpecies
     || missingBackground
     || missingLineage
-    || missingLanguages;
+    || missingLanguages
+    || subclassGateMissing;
 }
 
 function getRefreshableFeatureChoices() {
@@ -2316,6 +2325,7 @@ function updateSavingThrowsFromClass() {
   const saveMap = getSaveCheckboxMap();
   saveMap.forEach(input => {
     input.checked = false;
+    input.disabled = true;
   });
   saves.forEach(save => {
     const input = saveMap.get(normalizeName(save));
@@ -2345,6 +2355,41 @@ function parseClassSkillChoices(text, allKeys) {
   };
 }
 
+function deriveClassSkillChoices(classEntry, allKeys) {
+  if (!classEntry) return { limit: null, allowedKeys: [] };
+  if (classEntry.skill_choices) {
+    return parseClassSkillChoices(classEntry.skill_choices, allKeys);
+  }
+  const skillsChoose = classEntry?.proficiencies?.skills_choose || classEntry?.proficiencies?.skillsChoose;
+  if (skillsChoose && Array.isArray(skillsChoose.from)) {
+    const allowedKeys = skillsChoose.from.map(item => normalizeName(item)).filter(Boolean);
+    const count = Number(skillsChoose.count);
+    const limit = Number.isFinite(count) ? count : (allowedKeys.length ? allowedKeys.length : null);
+    return { limit, allowedKeys };
+  }
+  return { limit: null, allowedKeys: [] };
+}
+
+function validateSkillSelection({ limit, allowedKeys, selectedKeys }) {
+  const allowedSet = new Set(Array.isArray(allowedKeys) ? allowedKeys : []);
+  const selected = new Set(Array.isArray(selectedKeys) ? selectedKeys : []);
+  const hasLimit = Number.isFinite(limit) && limit >= 0;
+  if (!hasLimit) return { ok: true, message: '' };
+  if (allowedSet.size && Array.from(selected).some(key => !allowedSet.has(key))) {
+    return { ok: false, message: 'Selected skills must be from the allowed list.' };
+  }
+  if (limit === 0 && selected.size > 0) {
+    return { ok: false, message: 'No class skill selections are allowed.' };
+  }
+  if (selected.size < limit) {
+    return { ok: false, message: `Choose ${limit} class skill${limit === 1 ? '' : 's'}.` };
+  }
+  if (selected.size > limit) {
+    return { ok: false, message: `Choose only ${limit} class skill${limit === 1 ? '' : 's'}.` };
+  }
+  return { ok: true, message: '' };
+}
+
 function updateBackgroundSkillSelections() {
   const select = getBackgroundSelect();
   if (!select) return new Set();
@@ -2363,9 +2408,12 @@ function updateClassSkillConfig(resetSelections = false) {
   const classEntry = getSelectedClassEntry();
   const skillMap = getSkillCheckboxMap();
   const allKeys = Array.from(skillMap.keys());
-  const parsed = parseClassSkillChoices(classEntry?.skill_choices, allKeys);
-  state.classSkillLimit = parsed.limit;
-  state.classSkillAllowed = new Set(parsed.allowedKeys);
+  const parsed = deriveClassSkillChoices(classEntry, allKeys);
+  const inferredLimit = Number.isFinite(parsed.limit) ? parsed.limit : null;
+  const allowedKeys = parsed.allowedKeys || [];
+  const limit = (classEntry && !allowedKeys.length && inferredLimit === null) ? 0 : inferredLimit;
+  state.classSkillLimit = limit;
+  state.classSkillAllowed = new Set(allowedKeys);
   if (resetSelections || !(state.classSkillSelections instanceof Set)) {
     state.classSkillSelections = new Set();
   }
@@ -2381,8 +2429,10 @@ function updateClassSkillConfig(resetSelections = false) {
       state.classSkillSelections.delete(key);
     }
   }
-  const limit = state.classSkillLimit;
-  if (!Number.isFinite(limit) || limit <= 0 || !state.classSkillAllowed.size) return;
+  if (Number.isFinite(state.classSkillLimit) && state.classSkillLimit >= 0) {
+    const trimmed = Array.from(state.classSkillSelections).slice(0, state.classSkillLimit);
+    state.classSkillSelections = new Set(trimmed);
+  }
 }
 
 function applySkillSelections() {
@@ -2396,6 +2446,17 @@ function applySkillSelections() {
   skillMap.forEach((input, key) => {
     input.checked = backgroundSet.has(key) || featureSet.has(key) || classSet.has(key);
   });
+  const hasClassChoices = Number.isFinite(limit) && limit > 0 && allowedSet.size;
+  if (!hasClassChoices) {
+    skillMap.forEach((input, key) => {
+      if (backgroundSet.has(key) || featureSet.has(key)) {
+        input.disabled = true;
+        return;
+      }
+      input.disabled = true;
+    });
+    return;
+  }
   skillMap.forEach((input, key) => {
     const isBackground = backgroundSet.has(key);
     const isFeature = featureSet.has(key);
@@ -2537,6 +2598,7 @@ function renderSubclassOptions() {
   const classSelect = getClassSelect();
   const subclassSelect = getSubclassSelect();
   if (!classSelect || !subclassSelect) return;
+  const currentValue = String(subclassSelect.value || '').trim();
   const level = getCurrentLevel();
   const targetKey = normalizeKey(classSelect.value);
   subclassSelect.innerHTML = '';
@@ -2572,6 +2634,10 @@ function renderSubclassOptions() {
     subclassSelect.appendChild(option);
   });
   subclassSelect.disabled = false;
+  if (currentValue) {
+    const match = available.find(entry => normalizeKey(entry.name) === normalizeKey(currentValue));
+    if (match) subclassSelect.value = match.name;
+  }
 }
 
 function renderBackgroundOptions() {
@@ -3083,10 +3149,27 @@ function renderAbilityBonusOptions() {
   };
   createOptions(plus2Select);
   createOptions(plus1Select);
+  updateAbilityBonusSelectionState();
   if (getAbilityMethod() === 'standard' && areAbilityScoresEmpty()) {
     applyStandardArrayForClass();
   }
   updateAbilityScoreStatus();
+}
+
+function updateAbilityBonusSelectionState() {
+  const plus2Select = getAbilityBonusPlus2Select();
+  const plus1Select = getAbilityBonusPlus1Select();
+  if (!plus2Select || !plus1Select) return;
+  const plus2 = String(plus2Select.value || '').trim();
+  const plus1 = String(plus1Select.value || '').trim();
+  Array.from(plus2Select.options).forEach(option => {
+    const value = String(option.value || '').trim();
+    option.disabled = Boolean(value && value === plus1);
+  });
+  Array.from(plus1Select.options).forEach(option => {
+    const value = String(option.value || '').trim();
+    option.disabled = Boolean(value && value === plus2);
+  });
 }
 
 function populateAttackNames(names, force = false) {
@@ -4311,6 +4394,25 @@ async function saveWizardProfile() {
       if (status) status.textContent = abilityValidation.message || 'Ability scores invalid.';
       if (saveButton) saveButton.disabled = false;
       return;
+    }
+    const classSkillValidation = validateSkillSelection({
+      limit: state.classSkillLimit,
+      allowedKeys: Array.from(state.classSkillAllowed || []),
+      selectedKeys: Array.from(state.classSkillSelections || []),
+    });
+    if (!classSkillValidation.ok) {
+      if (status) status.textContent = classSkillValidation.message || 'Class skill selections invalid.';
+      if (saveButton) saveButton.disabled = false;
+      return;
+    }
+    const subclassEntry = getSelectedSubclassEntry();
+    if (subclassEntry) {
+      const requiredLevel = parseSubclassRequirement(subclassEntry);
+      if (Number.isFinite(requiredLevel) && getCurrentLevel() < requiredLevel) {
+        if (status) status.textContent = `Subclass unlocks at level ${requiredLevel}.`;
+        if (saveButton) saveButton.disabled = false;
+        return;
+      }
     }
     if (hasMissingRequiredSelections()) {
       if (status) status.textContent = 'Complete required selections first.';
@@ -5816,6 +5918,7 @@ function attachListeners() {
   const bonusPlus2 = getAbilityBonusPlus2Select();
   if (bonusPlus2) {
     bonusPlus2.addEventListener('change', () => {
+      updateAbilityBonusSelectionState();
       if (getAbilityMethod() === 'standard') {
         applyStandardArrayForClass();
         return;
@@ -5826,6 +5929,7 @@ function attachListeners() {
   const bonusPlus1 = getAbilityBonusPlus1Select();
   if (bonusPlus1) {
     bonusPlus1.addEventListener('change', () => {
+      updateAbilityBonusSelectionState();
       if (getAbilityMethod() === 'standard') {
         applyStandardArrayForClass();
         return;
@@ -5868,6 +5972,16 @@ function attachListeners() {
   document.querySelectorAll('.skill-row input[type="checkbox"]').forEach(input => {
     input.addEventListener('change', () => handleSkillToggle(input));
   });
+}
+
+if (typeof window !== 'undefined') {
+  window.__wizardTestExports = {
+    parseClassSkillChoices,
+    deriveClassSkillChoices,
+    validateSkillSelection,
+    parseSubclassRequirement,
+    normalizeName,
+  };
 }
 
 window.addEventListener('DOMContentLoaded', async () => {

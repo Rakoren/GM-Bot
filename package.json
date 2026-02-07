@@ -37,7 +37,11 @@
     "check:manifest:appendix-b": "node tools/check-manifest.mjs docs/appendix-b/appendix-b.manifest.json",
     "check:validation:rules-glossary": "node tools/check-validation-rules-glossary.mjs docs/rules-glossary/rules-glossary.validation.full.json",
     "check:manifest:rules-glossary": "node tools/check-manifest.mjs docs/rules-glossary/rules-glossary.manifest.json",
-    "check:sourceref:rules-glossary": "node tools/check-sourceref-rules-glossary.mjs docs/rules-glossary/rules-glossary.manifest.json"
+    "check:sourceref:rules-glossary": "node tools/check-sourceref-rules-glossary.mjs docs/rules-glossary/rules-glossary.manifest.json",
+    "check:oauth-scopes": "node tools/check-oauth-scopes.mjs",
+    "check:csp": "node tools/check-csp.mjs",
+    "check:registry": "node tools/check-registry-integrity.mjs",
+    "test:wizard": "node tools/test-wizard-rules.mjs"
     },
     "devDependencies": {
         "pdf-parse": "^2.4.5"

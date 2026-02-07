@@ -1,0 +1,70 @@
+{"ts":"2026-02-06T22:20:30.192Z","level":"warn","msg":"ADMIN_SESSION_SECRET not set; using a random value for this session."}
+{"ts":"2026-02-06T22:20:33.509Z","level":"info","msg":"Admin UI listening on 0.0.0.0:3001"}
+{"ts":"2026-02-06T22:20:33.510Z","level":"info","msg":"Admin UI dataset: D&D (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data_sets\\D&D)"}
+{"ts":"2026-02-06T22:20:33.512Z","level":"info","msg":"Admin DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-06T22:20:33.513Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-06T22:20:33.525Z","level":"info","msg":"DB backup saved: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\backups\\app.20260206-152033.sqlite (pruned 0)"}
+{"ts":"2026-02-06T22:31:36.122Z","level":"warn","msg":"ADMIN_SESSION_SECRET not set; using a random value for this session."}
+{"ts":"2026-02-06T22:31:38.818Z","level":"info","msg":"Admin UI listening on 0.0.0.0:3001"}
+{"ts":"2026-02-06T22:31:38.819Z","level":"info","msg":"Admin UI dataset: D&D (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data_sets\\D&D)"}
+{"ts":"2026-02-06T22:31:38.821Z","level":"info","msg":"Admin DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-06T22:31:38.823Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-06T22:31:38.832Z","level":"info","msg":"DB backup saved: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\backups\\app.20260206-153138.sqlite (pruned 0)"}
+{"ts":"2026-02-06T22:32:03.459Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":403,"ms":4.09}}
+{"ts":"2026-02-06T22:32:33.465Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":1.41}}
+{"ts":"2026-02-06T22:33:03.453Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":0.85}}
+{"ts":"2026-02-06T22:33:33.467Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":1.01}}
+{"ts":"2026-02-06T22:34:03.462Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":0.66}}
+{"ts":"2026-02-06T22:34:33.456Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":0.47}}
+{"ts":"2026-02-06T22:35:03.457Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":0.48}}
+{"ts":"2026-02-06T22:35:33.451Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":0.42}}
+{"ts":"2026-02-06T22:36:03.450Z","level":"info","msg":"request","meta":{"method":"POST","path":"/api/player/online/ping","status":401,"ms":0.44}}
+{"ts":"2026-02-06T22:36:30.046Z","level":"info","msg":"request","meta":{"method":"GET","path":"/","status":200,"ms":7.4}}
+{"ts":"2026-02-06T22:36:30.193Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/me","status":200,"ms":2.19}}
+{"ts":"2026-02-06T22:36:30.195Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/player/me","status":200,"ms":3.56}}
+{"ts":"2026-02-06T22:36:30.875Z","level":"info","msg":"request","meta":{"method":"GET","path":"/favicon.ico","status":200,"ms":10.87}}
+{"ts":"2026-02-06T22:36:37.823Z","level":"info","msg":"request","meta":{"method":"GET","path":"/version","status":200,"ms":3.92}}
+{"ts":"2026-02-06T22:36:37.996Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/me","status":304,"ms":1.08}}
+{"ts":"2026-02-06T22:36:37.999Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/player/me","status":304,"ms":3.44}}
+{"ts":"2026-02-06T22:36:38.934Z","level":"info","msg":"request","meta":{"method":"GET","path":"/favicon.ico","status":304,"ms":1.34}}
+{"ts":"2026-02-06T22:56:45.306Z","level":"warn","msg":"ADMIN_SESSION_SECRET not set; using a random value for this session."}
+{"ts":"2026-02-06T22:56:48.314Z","level":"info","msg":"Admin UI listening on 0.0.0.0:3001"}
+{"ts":"2026-02-06T22:56:48.316Z","level":"info","msg":"Admin UI dataset: D&D (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data_sets\\D&D)"}
+{"ts":"2026-02-06T22:56:48.318Z","level":"info","msg":"Admin DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-06T22:56:48.321Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-06T22:56:48.330Z","level":"info","msg":"DB backup saved: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\backups\\app.20260206-155648.sqlite (pruned 0)"}
+{"ts":"2026-02-06T22:57:33.173Z","level":"info","msg":"request","meta":{"method":"GET","path":"/auth/discord","status":302,"ms":8.02}}
+{"ts":"2026-02-06T22:57:39.039Z","level":"info","msg":"request","meta":{"method":"GET","path":"/auth/discord/callback?code=0KYV2P7NowS0VeYCA66lkDSew9506f&state=5c2c4cd1b0758a3b5ae8d06c221882b8","status":302,"ms":1083.46}}
+{"ts":"2026-02-06T22:57:39.047Z","level":"info","msg":"request","meta":{"method":"GET","path":"/","status":200,"ms":3.94}}
+{"ts":"2026-02-06T22:57:39.213Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/me","status":200,"ms":4.77}}
+{"ts":"2026-02-06T22:57:39.217Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/player/me","status":200,"ms":8.31}}
+{"ts":"2026-02-06T22:57:40.053Z","level":"info","msg":"request","meta":{"method":"GET","path":"/favicon.ico","status":304,"ms":4.68}}
+{"ts":"2026-02-06T22:57:41.754Z","level":"error","msg":"ReferenceError: BUILD_ID is not defined\n    at file:///C:/Users/lkbro/OneDrive/Desktop/Discord-DM-Bot/admin/server.js:1861:61\n    at Layer.handle [as handle_request] (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at router.process_params (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"ts":"2026-02-06T22:57:41.758Z","level":"info","msg":"request","meta":{"method":"GET","path":"/player.html","status":500,"ms":7.39}}
+{"ts":"2026-02-06T23:12:46.294Z","level":"error","msg":"ReferenceError: BUILD_ID is not defined\n    at file:///C:/Users/lkbro/OneDrive/Desktop/Discord-DM-Bot/admin/server.js:1861:61\n    at Layer.handle [as handle_request] (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at router.process_params (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"ts":"2026-02-06T23:12:46.297Z","level":"info","msg":"request","meta":{"method":"GET","path":"/player.html","status":500,"ms":5.14}}
+{"ts":"2026-02-06T23:12:52.629Z","level":"warn","msg":"ADMIN_SESSION_SECRET not set; using a random value for this session."}
+{"ts":"2026-02-06T23:12:54.703Z","level":"info","msg":"Admin UI listening on 0.0.0.0:3001"}
+{"ts":"2026-02-06T23:12:54.704Z","level":"info","msg":"Admin UI dataset: D&D (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data_sets\\D&D)"}
+{"ts":"2026-02-06T23:12:54.706Z","level":"info","msg":"Admin DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-06T23:12:54.708Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-06T23:12:54.717Z","level":"info","msg":"DB backup saved: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\backups\\app.20260206-161254.sqlite (pruned 0)"}
+{"ts":"2026-02-06T23:13:06.666Z","level":"error","msg":"ReferenceError: BUILD_ID is not defined\n    at file:///C:/Users/lkbro/OneDrive/Desktop/Discord-DM-Bot/admin/server.js:1861:61\n    at Layer.handle [as handle_request] (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at router.process_params (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"ts":"2026-02-06T23:13:06.673Z","level":"info","msg":"request","meta":{"method":"GET","path":"/player.html","status":500,"ms":12.99}}
+{"ts":"2026-02-07T00:50:57.657Z","level":"warn","msg":"ADMIN_SESSION_SECRET not set; using a random value for this session."}
+{"ts":"2026-02-07T00:51:00.524Z","level":"info","msg":"Admin UI listening on 0.0.0.0:3001"}
+{"ts":"2026-02-07T00:51:00.526Z","level":"info","msg":"Admin UI dataset: D&D (C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data_sets\\D&D)"}
+{"ts":"2026-02-07T00:51:00.528Z","level":"info","msg":"Admin DB: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\app.sqlite"}
+{"ts":"2026-02-07T00:51:00.531Z","level":"info","msg":"Rules registry issues: 0"}
+{"ts":"2026-02-07T00:51:00.541Z","level":"info","msg":"DB backup saved: C:\\Users\\lkbro\\OneDrive\\Desktop\\Discord-DM-Bot\\data\\backups\\app.20260206-175100.sqlite (pruned 0)"}
+{"ts":"2026-02-07T00:51:03.492Z","level":"info","msg":"request","meta":{"method":"GET","path":"/player.html","status":200,"ms":13.07}}
+{"ts":"2026-02-07T00:51:03.528Z","level":"info","msg":"request","meta":{"method":"GET","path":"/styles.css?v=1.0.0","status":200,"ms":6.5}}
+{"ts":"2026-02-07T00:51:03.641Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/player/me","status":200,"ms":2.37}}
+{"ts":"2026-02-07T00:51:04.354Z","level":"info","msg":"request","meta":{"method":"GET","path":"/favicon.ico","status":304,"ms":3.21}}
+{"ts":"2026-02-07T00:51:07.975Z","level":"info","msg":"request","meta":{"method":"GET","path":"/auth/discord/player","status":302,"ms":2.1}}
+{"ts":"2026-02-07T00:51:07.981Z","level":"info","msg":"request","meta":{"method":"GET","path":"/auth/discord","status":302,"ms":1.37}}
+{"ts":"2026-02-07T00:51:24.812Z","level":"info","msg":"request","meta":{"method":"GET","path":"/auth/discord/callback?code=s8ro0Le9mpcHQCgFDGtqxAYEWKbdoX&state=45f87deba75ae1db98d31706024809b6","status":302,"ms":1507.63}}
+{"ts":"2026-02-07T00:51:24.817Z","level":"info","msg":"request","meta":{"method":"GET","path":"/","status":304,"ms":1.77}}
+{"ts":"2026-02-07T00:51:24.956Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/me","status":304,"ms":1.9}}
+{"ts":"2026-02-07T00:51:24.960Z","level":"info","msg":"request","meta":{"method":"GET","path":"/api/player/me","status":200,"ms":4.15}}
+{"ts":"2026-02-07T00:51:25.700Z","level":"info","msg":"request","meta":{"method":"GET","path":"/favicon.ico","status":304,"ms":2.75}}

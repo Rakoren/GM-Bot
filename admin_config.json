@@ -18,6 +18,11 @@
       "access": "everyone",
       "roles": []
     },
+    "ai": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
     "mode": {
       "enabled": true,
       "access": "everyone",
@@ -58,27 +63,22 @@
       "access": "everyone",
       "roles": []
     },
+    "roster": {
+      "enabled": true,
+      "access": "everyone",
+      "roles": []
+    },
     "setup": {
       "enabled": true,
       "access": "admin",
       "roles": []
     },
-    "campaign-setup": {
+    "campaign": {
       "enabled": true,
       "access": "everyone",
       "roles": []
     },
-    "character-setup": {
-      "enabled": true,
-      "access": "everyone",
-      "roles": []
-    },
-    "start": {
-      "enabled": true,
-      "access": "everyone",
-      "roles": []
-    },
-    "test": {
+    "session": {
       "enabled": true,
       "access": "everyone",
       "roles": []

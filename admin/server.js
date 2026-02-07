@@ -5,10 +5,14 @@ import multer from 'multer';
 import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
+import zlib from 'zlib';
 import { fileURLToPath } from 'url';
 import { createRulesRegistry } from '../src/rules/registry.js';
 import { initAppDb } from '../src/db/appDb.js';
+import { backupSqliteDb } from '../src/db/backup.js';
 import { APP_DB_PATH } from '../src/config/runtime.js';
+import { createLogger } from '../src/logging/logger.js';
+import { validateEnv } from '../src/config/validateEnv.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.join(__dirname, '..');
@@ -42,16 +46,122 @@ const ADMIN_ROLE_IDS = (process.env.ADMIN_ROLE_IDS || '')
   .filter(Boolean);
 const ONLINE_PLAYER_TTL_MS = 2 * 60 * 1000;
 const onlinePlayers = new Map();
-const BUILD_ID = (process.env.BUILD_ID || new Date().toISOString()).replace(/[-:.TZ]/g, '');
 const ADMIN_COOKIE_SECURE =
   process.env.ADMIN_COOKIE_SECURE === 'true' || process.env.NODE_ENV === 'production';
 const ADMIN_SESSION_STORE = (process.env.ADMIN_SESSION_STORE || 'memory').toLowerCase();
 const ADMIN_SESSION_FILE =
   process.env.ADMIN_SESSION_FILE || path.join(ROOT_DIR, 'admin_sessions.json');
 const ADMIN_SESSION_TTL_MS = Number(process.env.ADMIN_SESSION_TTL_MS || 1000 * 60 * 60 * 24 * 7);
+const ADMIN_SESSION_IDLE_MS = Number(process.env.ADMIN_SESSION_IDLE_MS || 1000 * 60 * 60 * 2);
+const ADMIN_CSRF_ENABLED = process.env.ADMIN_CSRF_ENABLED !== 'false';
+const ADMIN_RATE_LIMIT_WINDOW_MS = Number(process.env.ADMIN_RATE_LIMIT_WINDOW_MS || 60 * 1000);
+const ADMIN_RATE_LIMIT_MAX = Number(process.env.ADMIN_RATE_LIMIT_MAX || 120);
+const ADMIN_AUTH_RATE_LIMIT_MAX = Number(process.env.ADMIN_AUTH_RATE_LIMIT_MAX || 30);
+const ADMIN_UPLOAD_MAX_MB = Number(process.env.ADMIN_UPLOAD_MAX_MB || 15);
+const ADMIN_GZIP_ENABLED = process.env.ADMIN_GZIP_ENABLED !== 'false';
+const ADMIN_GZIP_MIN_BYTES = Number(process.env.ADMIN_GZIP_MIN_BYTES || 512);
+const ADMIN_CORS_ORIGINS = (process.env.ADMIN_CORS_ORIGINS || '')
+  .split(',')
+  .map(origin => origin.trim())
+  .filter(Boolean);
+
+const DISCORD_OAUTH_SCOPES_ADMIN = 'identify guilds';
+const DISCORD_OAUTH_SCOPES_PLAYER = 'identify guilds';
+
+const DEFAULT_ADMIN_ORIGINS = (() => {
+  const origins = new Set();
+  origins.add(`http://localhost:${ADMIN_PORT}`);
+  origins.add(`http://127.0.0.1:${ADMIN_PORT}`);
+  if (ADMIN_HOST && ADMIN_HOST !== '0.0.0.0') {
+    origins.add(`http://${ADMIN_HOST}:${ADMIN_PORT}`);
+  }
+  return origins;
+})();
+const BASE_ORIGIN = (() => {
+  try {
+    return new URL(BASE_URL).origin;
+  } catch {
+    return null;
+  }
+})();
+const ADMIN_CORS_ORIGIN_SET = new Set([
+  ...DEFAULT_ADMIN_ORIGINS,
+  ...(BASE_ORIGIN ? [BASE_ORIGIN] : []),
+  ...ADMIN_CORS_ORIGINS,
+]);
+
+const ADMIN_CSP = [
+  "default-src 'self'",
+  "base-uri 'none'",
+  "frame-ancestors 'none'",
+  "object-src 'none'",
+  "script-src 'self'",
+  "style-src 'self'",
+  "img-src 'self' data:",
+  "font-src 'self' data:",
+  "connect-src 'self'",
+  "form-action 'self'",
+].join('; ');
+
+const APP_VERSION = (() => {
+  try {
+    const pkg = JSON.parse(fs.readFileSync(path.join(ROOT_DIR, 'package.json'), 'utf8'));
+    return pkg.version || '0.0.0';
+  } catch {
+    return '0.0.0';
+  }
+})();
+const BUILD_ID = process.env.BUILD_ID || process.env.GIT_SHA || APP_VERSION || 'dev';
+const LOG_DIR = process.env.LOG_DIR || path.join(ROOT_DIR, 'logs');
+const LOG_LEVEL = process.env.LOG_LEVEL || 'info';
+const LOG_MAX_BYTES = Number(process.env.LOG_MAX_BYTES || 5 * 1024 * 1024);
+const LOG_MAX_FILES = Number(process.env.LOG_MAX_FILES || 5);
+
+const logger = createLogger({
+  logDir: LOG_DIR,
+  fileName: 'admin.log',
+  level: LOG_LEVEL,
+  maxBytes: LOG_MAX_BYTES,
+  maxFiles: LOG_MAX_FILES,
+});
+
+const originalConsole = {
+  log: console.log.bind(console),
+  info: console.info.bind(console),
+  warn: console.warn.bind(console),
+  error: console.error.bind(console),
+};
+console.log = (...args) => {
+  originalConsole.log(...args);
+  logger.info(args.join(' '));
+};
+console.info = (...args) => {
+  originalConsole.info(...args);
+  logger.info(args.join(' '));
+};
+console.warn = (...args) => {
+  originalConsole.warn(...args);
+  logger.warn(args.join(' '));
+};
+console.error = (...args) => {
+  originalConsole.error(...args);
+  logger.error(args.join(' '));
+};
+
+process.on('uncaughtException', err => {
+  logger.error('uncaughtException', { message: err?.message, stack: err?.stack });
+});
+process.on('unhandledRejection', err => {
+  logger.error('unhandledRejection', { message: err?.message, stack: err?.stack });
+});
 const COMBAT_STATE_PATH = path.join(ROOT_DIR, 'combat_state.json');
 const LOOT_STATE_PATH = path.join(ROOT_DIR, 'loot_state.json');
 const NPC_PERSONAS_PATH = path.join(ROOT_DIR, 'npc_personas.json');
+const BACKUP_DIR = process.env.BACKUP_DIR
+  ? path.resolve(process.env.BACKUP_DIR)
+  : path.join(ROOT_DIR, 'data', 'backups');
+const BACKUP_KEEP = Number(process.env.BACKUP_KEEP || 10);
+const BACKUP_INTERVAL_MIN = Number(process.env.BACKUP_INTERVAL_MIN || 1440);
 
 const appDb = await initAppDb({
   rootDir: ROOT_DIR,
@@ -498,6 +608,29 @@ function getRulesRegistry() {
     rulesRegistryCache = null;
     return null;
   }
+}
+
+function checkAppDbReady() {
+  try {
+    const payload = { ts: new Date().toISOString() };
+    appDb.setJson('healthcheck', payload);
+    const readBack = appDb.getJson('healthcheck', null);
+    if (!readBack || readBack.ts !== payload.ts) {
+      return { ok: false, error: 'db-readback-mismatch' };
+    }
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, error: err?.message || 'db-error' };
+  }
+}
+
+function checkRulesReady() {
+  const registry = getRulesRegistry();
+  if (!registry) return { ok: false, error: 'rules-registry-missing' };
+  if (Array.isArray(registry.errors) && registry.errors.length) {
+    return { ok: false, error: `rules-registry-errors:${registry.errors.length}` };
+  }
+  return { ok: true };
 }
 
 function getRulesByType(registry, type) {
@@ -1476,6 +1609,9 @@ if (ADMIN_SESSION_STORE === 'memory' && process.env.NODE_ENV === 'production') {
   console.warn('ADMIN_SESSION_STORE is memory in production. Consider ADMIN_SESSION_STORE=file.');
 }
 
+if (process.env.NODE_ENV === 'production' && !process.env.ADMIN_SESSION_SECRET) {
+  throw new Error('ADMIN_SESSION_SECRET must be set in production.');
+}
 const sessionSecret = process.env.ADMIN_SESSION_SECRET || crypto.randomBytes(32).toString('hex');
 if (!process.env.ADMIN_SESSION_SECRET) {
   console.warn('ADMIN_SESSION_SECRET not set; using a random value for this session.');
@@ -1497,6 +1633,201 @@ app.use(
 );
 app.use(express.json({ limit: '2mb' }));
 app.use(express.urlencoded({ extended: true }));
+
+app.use((req, res, next) => {
+  res.setHeader('Content-Security-Policy', ADMIN_CSP);
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'DENY');
+  res.setHeader('Referrer-Policy', 'no-referrer');
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+  res.setHeader('Cross-Origin-Resource-Policy', 'same-origin');
+  next();
+});
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+  if (origin) {
+    if (ADMIN_CORS_ORIGIN_SET.has(origin)) {
+      res.setHeader('Access-Control-Allow-Origin', origin);
+      res.setHeader('Vary', 'Origin');
+      res.setHeader('Access-Control-Allow-Credentials', 'true');
+      res.setHeader(
+        'Access-Control-Allow-Headers',
+        'Content-Type, X-CSRF-Token, Authorization'
+      );
+      res.setHeader(
+        'Access-Control-Allow-Methods',
+        'GET, POST, PUT, PATCH, DELETE, OPTIONS'
+      );
+    } else if (req.path.startsWith('/api') || req.path.startsWith('/auth')) {
+      res.status(403).json({ error: 'cors' });
+      return;
+    }
+  }
+
+  if (req.method === 'OPTIONS') {
+    res.status(204).end();
+    return;
+  }
+
+  next();
+});
+
+function createRateLimiter({ windowMs, max }) {
+  const bucket = new Map();
+  return (req, res, next) => {
+    const now = Date.now();
+    const key = `${req.ip}:${req.path}`;
+    const entry = bucket.get(key) || [];
+    const cutoff = now - windowMs;
+    const recent = entry.filter(ts => ts > cutoff);
+    recent.push(now);
+    bucket.set(key, recent);
+    if (recent.length > max) {
+      res.status(429).json({ error: 'rate-limit' });
+      return;
+    }
+    next();
+  };
+}
+
+const apiLimiter = createRateLimiter({
+  windowMs: ADMIN_RATE_LIMIT_WINDOW_MS,
+  max: ADMIN_RATE_LIMIT_MAX,
+});
+const authLimiter = createRateLimiter({
+  windowMs: ADMIN_RATE_LIMIT_WINDOW_MS,
+  max: ADMIN_AUTH_RATE_LIMIT_MAX,
+});
+
+app.use('/api', apiLimiter);
+app.use('/auth', authLimiter);
+
+app.use((req, res, next) => {
+  const start = process.hrtime.bigint();
+  res.on('finish', () => {
+    const elapsedMs = Number(process.hrtime.bigint() - start) / 1e6;
+    const entry = {
+      method: req.method,
+      path: req.originalUrl || req.url,
+      status: res.statusCode,
+      ms: Number(elapsedMs.toFixed(2)),
+    };
+    logger.info('request', entry);
+  });
+  next();
+});
+
+app.use((req, res, next) => {
+  if (!ADMIN_GZIP_ENABLED) return next();
+  const accept = String(req.headers['accept-encoding'] || '');
+  if (!accept.includes('gzip')) return next();
+  if (/\.(css|js|png|jpg|jpeg|svg|webp|ico)$/.test(req.path)) return next();
+
+  const originalWrite = res.write.bind(res);
+  const originalEnd = res.end.bind(res);
+  const chunks = [];
+
+  res.write = (chunk, encoding, cb) => {
+    if (chunk) chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk, encoding));
+    if (typeof cb === 'function') cb();
+    return true;
+  };
+
+  res.end = (chunk, encoding, cb) => {
+    if (chunk) chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk, encoding));
+    const body = Buffer.concat(chunks);
+    const type = String(res.getHeader('Content-Type') || '');
+    const compressible = /(text|json|javascript|css|svg)/i.test(type);
+    if (!compressible || body.length < ADMIN_GZIP_MIN_BYTES) {
+      res.setHeader('Content-Length', body.length);
+      return originalEnd(body, cb);
+    }
+    res.setHeader('Vary', 'Accept-Encoding');
+    res.setHeader('Content-Encoding', 'gzip');
+    zlib.gzip(body, (err, gzipped) => {
+      if (err) {
+        res.removeHeader('Content-Encoding');
+        res.setHeader('Content-Length', body.length);
+        return originalEnd(body, cb);
+      }
+      res.setHeader('Content-Length', gzipped.length);
+      return originalEnd(gzipped, cb);
+    });
+    return undefined;
+  };
+
+  next();
+});
+
+function getCookieValue(req, name) {
+  const raw = req.headers?.cookie || '';
+  const parts = raw.split(';').map(part => part.trim());
+  for (const part of parts) {
+    if (!part) continue;
+    const [key, ...rest] = part.split('=');
+    if (key === name) return decodeURIComponent(rest.join('='));
+  }
+  return '';
+}
+
+function setCookie(res, name, value, options = {}) {
+  const parts = [`${name}=${encodeURIComponent(value)}`];
+  parts.push(`Path=${options.path || '/'}`);
+  parts.push(`SameSite=${options.sameSite || 'Lax'}`);
+  if (options.secure) parts.push('Secure');
+  if (options.httpOnly) parts.push('HttpOnly');
+  if (typeof options.maxAge === 'number') parts.push(`Max-Age=${Math.floor(options.maxAge / 1000)}`);
+  res.append('Set-Cookie', parts.join('; '));
+}
+
+function ensureCsrfToken(req, res) {
+  if (!req.session) return null;
+  if (!req.session.csrfToken) {
+    req.session.csrfToken = crypto.randomBytes(24).toString('hex');
+  }
+  const existing = getCookieValue(req, 'csrf_token');
+  if (existing !== req.session.csrfToken) {
+    setCookie(res, 'csrf_token', req.session.csrfToken, {
+      sameSite: 'Lax',
+      secure: ADMIN_COOKIE_SECURE,
+      httpOnly: false,
+    });
+  }
+  return req.session.csrfToken;
+}
+
+app.use((req, res, next) => {
+  if (req.session?.user?.authorized && ADMIN_SESSION_IDLE_MS > 0) {
+    const now = Date.now();
+    const last = Number(req.session.lastActive || 0);
+    if (last && now - last > ADMIN_SESSION_IDLE_MS) {
+      req.session.destroy(() => {});
+      const acceptsHtml = String(req.headers.accept || '').includes('text/html');
+      if (acceptsHtml || req.path.endsWith('.html')) {
+        res.redirect('/');
+      } else {
+        res.status(401).json({ error: 'session-idle-timeout' });
+      }
+      return;
+    }
+    req.session.lastActive = now;
+  }
+  next();
+});
+
+app.use((req, res, next) => {
+  if (!ADMIN_CSRF_ENABLED) return next();
+  ensureCsrfToken(req, res);
+  const safeMethod = req.method === 'GET' || req.method === 'HEAD' || req.method === 'OPTIONS';
+  if (safeMethod) return next();
+  const token = req.get('x-csrf-token') || '';
+  if (!req.session?.csrfToken || token !== req.session.csrfToken) {
+    res.status(403).json({ error: 'csrf' });
+    return;
+  }
+  next();
+});
 
 const ADMIN_PAGES = new Set([
   '/admin.html',
@@ -1541,7 +1872,10 @@ app.use(express.static(PUBLIC_DIR, {
   },
 }));
 
-const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 15 * 1024 * 1024 } });
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: Math.max(1, ADMIN_UPLOAD_MAX_MB) * 1024 * 1024 },
+});
 
 async function assertAdminRole(req, res) {
   if (!ADMIN_ROLE_IDS.length) return { ok: true };
@@ -1936,7 +2270,7 @@ app.get('/auth/discord', (req, res) => {
     client_id: DISCORD_CLIENT_ID,
     redirect_uri: DISCORD_OAUTH_REDIRECT,
     response_type: 'code',
-    scope: 'identify guilds',
+    scope: DISCORD_OAUTH_SCOPES_ADMIN,
     state,
   });
   res.redirect(`https://discord.com/api/oauth2/authorize?${params.toString()}`);
@@ -3011,6 +3345,39 @@ app.post('/logout', (req, res) => {
   });
 });
 
+app.get('/healthz', (req, res) => {
+  res.json({ ok: true, service: 'admin', time: new Date().toISOString() });
+});
+
+app.get('/version', (req, res) => {
+  res.json({
+    name: 'mimic-admin',
+    version: APP_VERSION,
+    build: BUILD_ID,
+    time: new Date().toISOString(),
+  });
+});
+
+app.get('/readyz', async (req, res) => {
+  const dbStatus = checkAppDbReady();
+  const rulesStatus = checkRulesReady();
+  const ok = dbStatus.ok && rulesStatus.ok;
+  if (!ok) {
+    res.status(503).json({
+      ok: false,
+      db: dbStatus,
+      rules: rulesStatus,
+    });
+    return;
+  }
+  res.json({
+    ok: true,
+    db: dbStatus,
+    rules: rulesStatus,
+    time: new Date().toISOString(),
+  });
+});
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(PUBLIC_DIR, 'index.html'));
 });
@@ -3018,5 +3385,32 @@ app.get('*', (req, res) => {
 app.listen(ADMIN_PORT, ADMIN_HOST, () => {
   ensureDir(DATASET_DIR);
   ensureDir(HOMEBREW_DIR);
+  const registry = getRulesRegistry();
+  const issueCount = registry?.errors?.length || 0;
   console.log(`Admin UI listening on ${ADMIN_HOST}:${ADMIN_PORT}`);
+  console.log(`Admin UI dataset: ${DATASET_GROUP} (${DATASET_DIR})`);
+  console.log(`Admin DB: ${appDb.dbPath || 'app.sqlite'}`);
+  console.log(`Rules registry issues: ${issueCount}`);
+
+  if (BACKUP_INTERVAL_MIN > 0) {
+    const runBackup = () => {
+      const result = backupSqliteDb({
+        dbPath: appDb.dbPath || APP_DB_PATH,
+        backupDir: BACKUP_DIR,
+        keep: BACKUP_KEEP,
+      });
+      if (result.ok) {
+        console.log(`DB backup saved: ${result.file} (pruned ${result.pruned})`);
+      } else {
+        console.warn(`DB backup skipped: ${result.error}`);
+      }
+    };
+    runBackup();
+    setInterval(runBackup, BACKUP_INTERVAL_MIN * 60 * 1000);
+  }
+});
+validateEnv({
+  appName: 'Admin UI',
+  required: ['DISCORD_CLIENT_ID', 'DISCORD_CLIENT_SECRET'],
+  optional: ['DISCORD_BOT_TOKEN', 'DISCORD_TOKEN', 'ADMIN_ROLE_IDS'],
 });

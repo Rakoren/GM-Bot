@@ -90,6 +90,10 @@ export function createRulesRegistry({ rootDir } = {}) {
       continue;
     }
 
+    if (manifest?.registry === false || manifest?.rollup === true) {
+      continue;
+    }
+
     const shards = Array.isArray(manifest?.shards) ? manifest.shards : [];
     for (const shard of shards) {
       const shardId = shard?.id;

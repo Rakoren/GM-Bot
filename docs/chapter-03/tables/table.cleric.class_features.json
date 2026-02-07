@@ -50,7 +50,7 @@
       "level": 2,
       "proficiency_bonus": 2,
       "class_features": [
-        "channel_divinity.cleric"
+        "feat.channel_divinity.cleric"
       ],
       "channel_divinity": 2,
       "cantrips": 3,
