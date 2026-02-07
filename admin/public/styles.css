@@ -1467,6 +1467,18 @@ input[type="checkbox"] {
     font-size: 0.65rem;
     color: #8a3b3b;
 }
+.class-skill-hint {
+    font-size: 0.7rem;
+    color: #4a5a5c;
+    margin: 4px 0 12px;
+    min-height: 1.1em;
+}
+.subclass-hint,
+.languages-hint {
+    font-size: 0.65rem;
+    color: #5a6b6d;
+    margin-top: 4px;
+}
 
 .mod-big {
     font-size: 1.8rem;

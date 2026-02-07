@@ -29,6 +29,7 @@ const exports = windowStub.__wizardTestExports;
 assert.ok(exports, 'wizard test exports missing');
 
 const { parseClassSkillChoices, deriveClassSkillChoices, validateSkillSelection, normalizeName } = exports;
+const { parseSubclassRequirement } = exports;
 
 {
   const parsed = parseClassSkillChoices('Choose 2: Arcana, Animal Handling, Nature', [
@@ -38,7 +39,7 @@ const { parseClassSkillChoices, deriveClassSkillChoices, validateSkillSelection,
     'athletics',
   ]);
   assert.equal(parsed.limit, 2, 'limit should be 2');
-  assert.deepEqual(parsed.allowedKeys.sort(), ['arcana', 'animalhandling', 'nature'].sort());
+  assert.equal(parsed.allowedKeys.slice().sort().join(','), ['arcana', 'animalhandling', 'nature'].sort().join(','));
 }
 
 {
@@ -47,7 +48,7 @@ const { parseClassSkillChoices, deriveClassSkillChoices, validateSkillSelection,
     []
   );
   assert.equal(parsed.limit, 2, 'limit should be 2 from object');
-  assert.deepEqual(parsed.allowedKeys, [normalizeName('Arcana'), normalizeName('Nature')]);
+  assert.equal(parsed.allowedKeys.join(','), [normalizeName('Arcana'), normalizeName('Nature')].join(','));
 }
 
 {
@@ -75,6 +76,11 @@ const { parseClassSkillChoices, deriveClassSkillChoices, validateSkillSelection,
     selectedKeys: ['arcana'],
   });
   assert.equal(noneAllowed.ok, false, 'selection should fail when limit is 0');
+}
+
+{
+  const requirement = parseSubclassRequirement({ level_gained: 6 });
+  assert.equal(requirement, 6, 'subclass requirement should read level_gained');
 }
 
 console.log('wizard rules tests ok');

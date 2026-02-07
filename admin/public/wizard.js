@@ -131,6 +131,10 @@ function getSubclassSelect() {
   return document.getElementById('subclass-select');
 }
 
+function getSubclassHintEl() {
+  return document.getElementById('subclass-hint');
+}
+
 function isSpeciesSelected() {
   const select = getSpeciesSelect();
   return Boolean(String(select?.value || '').trim());
@@ -1509,7 +1513,7 @@ function hasMissingRequiredSelections() {
     && !String(getLineageSelect()?.value || '').trim();
   const languageCounts = getLanguageSelectionCounts();
   const missingLanguages = languageCounts.extraAllowed > 0
-    && languageCounts.extraSelected < languageCounts.extraAllowed;
+    && languageCounts.extraSelected !== languageCounts.extraAllowed;
   const subclassEntry = getSelectedSubclassEntry();
   const subclassRequirement = subclassEntry ? parseSubclassRequirement(subclassEntry) : null;
   const subclassGateMissing = subclassEntry
@@ -2089,6 +2093,7 @@ function getLanguageSelectionCounts() {
   const selected = new Set(readSelectedLanguagesFromBox());
   const extraSelected = Array.from(selected).filter(item => !baseSet.has(item));
   return {
+    baseCount: baseSet.size,
     extraAllowed: Number.isFinite(extra) ? extra : 0,
     extraSelected: extraSelected.length,
   };
@@ -2146,6 +2151,7 @@ function readSelectedLanguagesFromBox() {
 function renderLanguagesSelection(preselected = []) {
   const box = getLanguagesBox();
   if (!box) return;
+  const hint = document.getElementById('languages-hint');
   const { background, species } = getLanguageSources();
   const { baseSet, extra } = buildLanguageBaseAndCap({ background, species });
   const classGrants = getClassLanguageGrants();
@@ -2165,6 +2171,14 @@ function renderLanguagesSelection(preselected = []) {
   const extraCount = Number.isFinite(extra) ? extra : 0;
   const limitedExtras = Array.from(extraSet).slice(0, extraCount);
   const selectedExtras = new Set(limitedExtras);
+  const updateHint = () => {
+    if (!hint) return;
+    if (extraCount > 0) {
+      hint.textContent = `Choose ${extraCount} extra language${extraCount === 1 ? '' : 's'} (${selectedExtras.size}/${extraCount})`;
+    } else {
+      hint.textContent = '';
+    }
+  };
   box.innerHTML = '';
   allLanguages.forEach(language => {
     const label = document.createElement('label');
@@ -2196,11 +2210,13 @@ function renderLanguagesSelection(preselected = []) {
           boxInput.disabled = false;
         }
       });
+      updateHint();
     });
     label.appendChild(input);
     label.appendChild(document.createTextNode(language));
     box.appendChild(label);
   });
+  updateHint();
   box.querySelectorAll('input[type="checkbox"]').forEach(boxInput => {
     const name = String(boxInput.value || '');
     if (baseSet.has(name)) return;
@@ -2261,6 +2277,10 @@ function getPointBuyRow() {
 
 function getAbilityScoreStatusEl() {
   return document.getElementById('ability-score-status');
+}
+
+function getClassSkillHintEl() {
+  return document.getElementById('class-skill-hint');
 }
 
 function getBackgroundSelect() {
@@ -2443,6 +2463,14 @@ function applySkillSelections() {
   const allowedSet = state.classSkillAllowed || new Set();
   const limit = state.classSkillLimit;
   const classCount = classSet.size;
+  const hintEl = getClassSkillHintEl();
+  if (hintEl) {
+    if (Number.isFinite(limit) && limit > 0 && allowedSet.size) {
+      hintEl.textContent = `Class skills: choose ${limit} (${classCount}/${limit})`;
+    } else {
+      hintEl.textContent = '';
+    }
+  }
   skillMap.forEach((input, key) => {
     input.checked = backgroundSet.has(key) || featureSet.has(key) || classSet.has(key);
   });
@@ -2598,6 +2626,7 @@ function renderSubclassOptions() {
   const classSelect = getClassSelect();
   const subclassSelect = getSubclassSelect();
   if (!classSelect || !subclassSelect) return;
+  const hint = getSubclassHintEl();
   const currentValue = String(subclassSelect.value || '').trim();
   const level = getCurrentLevel();
   const targetKey = normalizeKey(classSelect.value);
@@ -2625,6 +2654,7 @@ function renderSubclassOptions() {
     notice.value = '';
     notice.textContent = message;
     subclassSelect.appendChild(notice);
+    if (hint) hint.textContent = message;
     return;
   }
   available.forEach(entry => {
@@ -2634,6 +2664,7 @@ function renderSubclassOptions() {
     subclassSelect.appendChild(option);
   });
   subclassSelect.disabled = false;
+  if (hint) hint.textContent = '';
   if (currentValue) {
     const match = available.find(entry => normalizeKey(entry.name) === normalizeKey(currentValue));
     if (match) subclassSelect.value = match.name;
@@ -2899,9 +2930,11 @@ function updateHitDiceTotal() {
 function updateAbilityScoreAvailability() {
   const abilityInputs = getAbilityInputs();
   const enabled = isSpeciesSelected() && isBackgroundSelected();
+  const method = getAbilityMethod();
   Object.values(abilityInputs).forEach(inputs => {
     if (!inputs?.score) return;
     inputs.score.disabled = !enabled;
+    inputs.score.readOnly = enabled && method === 'standard';
   });
   const methodSelect = getAbilityMethodSelect();
   if (methodSelect) methodSelect.disabled = !enabled;
