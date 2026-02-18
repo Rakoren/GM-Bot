@@ -41,6 +41,15 @@
     "check:oauth-scopes": "node tools/check-oauth-scopes.mjs",
     "check:csp": "node tools/check-csp.mjs",
     "check:registry": "node tools/check-registry-integrity.mjs",
+    "check:docs:all": "node tools/check-validation.mjs docs/chapter-03/chapter-03.validation.full.json && node tools/check-validation-ch4.mjs docs/chapter-04/chapter-04.validation.full.json && node tools/check-validation-ch5.mjs docs/chapter-05/chapter-05.validation.full.json && node tools/check-validation-ch6.mjs docs/chapter-06/chapter-06.validation.full.json && node tools/check-validation-ch7.mjs docs/chapter-07/chapter-07.validation.full.json && node tools/check-validation-appendix-a.mjs docs/appendix-a/appendix-a.validation.full.json && node tools/check-validation-appendix-b.mjs docs/appendix-b/appendix-b.validation.full.json && node tools/check-validation-rules-glossary.mjs docs/rules-glossary/rules-glossary.validation.full.json && node tools/check-manifest.mjs docs/chapter-03/chapter-03.manifest.json && node tools/check-sourceref.mjs docs/chapter-03/chapter-03.manifest.json && node tools/check-manifest.mjs docs/chapter-04/chapter-04.manifest.json && node tools/check-sourceref-ch4.mjs docs/chapter-04/chapter-04.manifest.json && node tools/check-manifest.mjs docs/chapter-05/chapter-05.manifest.json && node tools/check-sourceref-ch5.mjs docs/chapter-05/chapter-05.manifest.json && node tools/check-manifest.mjs docs/chapter-06/chapter-06.manifest.json && node tools/check-sourceref-ch6.mjs docs/chapter-06/chapter-06.manifest.json && node tools/check-manifest.mjs docs/chapter-07/chapter-07.manifest.json && node tools/check-manifest.mjs docs/appendix-a/appendix-a.manifest.json && node tools/check-manifest.mjs docs/appendix-b/appendix-b.manifest.json && node tools/check-manifest.mjs docs/rules-glossary/rules-glossary.manifest.json && node tools/check-sourceref-rules-glossary.mjs docs/rules-glossary/rules-glossary.manifest.json",
+    "deploy:start": "powershell -ExecutionPolicy Bypass -File tools/deploy/start.ps1",
+    "deploy:stop": "powershell -ExecutionPolicy Bypass -File tools/deploy/stop.ps1",
+    "deploy:restart": "powershell -ExecutionPolicy Bypass -File tools/deploy/restart.ps1",
+    "deploy:health": "powershell -ExecutionPolicy Bypass -File tools/deploy/health.ps1",
+    "deploy:smoke": "node tools/deploy/smoke-shutdown.mjs",
+    "deploy:backup:verify": "powershell -ExecutionPolicy Bypass -File tools/deploy/backup-verify.ps1",
+    "deploy:nssm:install": "powershell -ExecutionPolicy Bypass -File tools/deploy/nssm-install.ps1",
+    "deploy:nssm:remove": "powershell -ExecutionPolicy Bypass -File tools/deploy/nssm-remove.ps1",
     "test:wizard": "node tools/test-wizard-rules.mjs"
     },
     "devDependencies": {

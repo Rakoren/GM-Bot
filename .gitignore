@@ -1,6 +1,8 @@
 .env
 node_modules/
 *.sqlite
+logs/
+*.log
 Backups/
 campaign_save.json
 campaigns/

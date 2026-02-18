@@ -92,10 +92,12 @@ Expected in `.env` (typical):
 - `ADMIN_COOKIE_SECURE` (optional, set `true` for HTTPS)
 - `ADMIN_SESSION_STORE` (optional: `memory` or `file`)
 - `ADMIN_SESSION_FILE` (optional: path for file session store)
+- `SMOKE_TEST_MODE` (optional, default `false`; when `true`, bot skips Discord login for deploy smoke tests)
 
 ## Testing
 - No automated tests configured yet.
 - If you add tests, list the command(s) here.
+- Deployment smoke: `npm run deploy:smoke`
 
 ## Security Notes
 - Admin server is authenticated via Discord OAuth; keep `ADMIN_SESSION_SECRET` set.
@@ -104,3 +106,4 @@ Expected in `.env` (typical):
 ## When Making Changes
 - Note any migration steps in this file.
 - If touching `admin/server.js`, consider auth/session safety and file path handling.
+- Code review checklist: required env validation (for example `validateEnv(...)`) must run before any `app.listen(...)`.

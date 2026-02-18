@@ -57,6 +57,8 @@ const ADMIN_CSRF_ENABLED = process.env.ADMIN_CSRF_ENABLED !== 'false';
 const ADMIN_RATE_LIMIT_WINDOW_MS = Number(process.env.ADMIN_RATE_LIMIT_WINDOW_MS || 60 * 1000);
 const ADMIN_RATE_LIMIT_MAX = Number(process.env.ADMIN_RATE_LIMIT_MAX || 120);
 const ADMIN_AUTH_RATE_LIMIT_MAX = Number(process.env.ADMIN_AUTH_RATE_LIMIT_MAX || 30);
+const ADMIN_RATE_LIMIT_MAX_KEYS = Number(process.env.ADMIN_RATE_LIMIT_MAX_KEYS || 5000);
+const ADMIN_RATE_LIMIT_SWEEP_MS = Number(process.env.ADMIN_RATE_LIMIT_SWEEP_MS || 60 * 1000);
 const ADMIN_UPLOAD_MAX_MB = Number(process.env.ADMIN_UPLOAD_MAX_MB || 15);
 const ADMIN_GZIP_ENABLED = process.env.ADMIN_GZIP_ENABLED !== 'false';
 const ADMIN_GZIP_MIN_BYTES = Number(process.env.ADMIN_GZIP_MIN_BYTES || 512);
@@ -70,10 +72,12 @@ const DISCORD_OAUTH_SCOPES_PLAYER = 'identify guilds';
 
 const DEFAULT_ADMIN_ORIGINS = (() => {
   const origins = new Set();
-  origins.add(`http://localhost:${ADMIN_PORT}`);
-  origins.add(`http://127.0.0.1:${ADMIN_PORT}`);
-  if (ADMIN_HOST && ADMIN_HOST !== '0.0.0.0') {
-    origins.add(`http://${ADMIN_HOST}:${ADMIN_PORT}`);
+  if (process.env.NODE_ENV !== 'production') {
+    origins.add(`http://localhost:${ADMIN_PORT}`);
+    origins.add(`http://127.0.0.1:${ADMIN_PORT}`);
+    if (ADMIN_HOST && ADMIN_HOST !== '0.0.0.0') {
+      origins.add(`http://${ADMIN_HOST}:${ADMIN_PORT}`);
+    }
   }
   return origins;
 })();
@@ -101,6 +105,9 @@ const ADMIN_CSP = [
   "font-src 'self' data:",
   "connect-src 'self'",
   "form-action 'self'",
+  ...(process.env.NODE_ENV === 'production'
+    ? ['upgrade-insecure-requests', 'block-all-mixed-content']
+    : []),
 ].join('; ');
 
 const APP_VERSION = (() => {
@@ -124,6 +131,15 @@ const logger = createLogger({
   maxBytes: LOG_MAX_BYTES,
   maxFiles: LOG_MAX_FILES,
 });
+
+validateEnv({
+  appName: 'Admin UI',
+  required: ['DISCORD_CLIENT_ID', 'DISCORD_CLIENT_SECRET'],
+  optional: ['DISCORD_BOT_TOKEN', 'DISCORD_TOKEN', 'ADMIN_ROLE_IDS'],
+});
+if (ADMIN_ROLE_IDS.length && !DISCORD_BOT_TOKEN) {
+  throw new Error('DISCORD_BOT_TOKEN or DISCORD_TOKEN is required when ADMIN_ROLE_IDS is set.');
+}
 
 const originalConsole = {
   log: console.log.bind(console),
@@ -1606,7 +1622,7 @@ if (ADMIN_COOKIE_SECURE) {
   app.set('trust proxy', 1);
 }
 if (ADMIN_SESSION_STORE === 'memory' && process.env.NODE_ENV === 'production') {
-  console.warn('ADMIN_SESSION_STORE is memory in production. Consider ADMIN_SESSION_STORE=file.');
+  throw new Error('ADMIN_SESSION_STORE=memory is not allowed in production. Set ADMIN_SESSION_STORE=file.');
 }
 
 if (process.env.NODE_ENV === 'production' && !process.env.ADMIN_SESSION_SECRET) {
@@ -1639,8 +1655,12 @@ app.use((req, res, next) => {
   res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('X-Frame-Options', 'DENY');
   res.setHeader('Referrer-Policy', 'no-referrer');
+  res.setHeader('X-DNS-Prefetch-Control', 'off');
   res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
   res.setHeader('Cross-Origin-Resource-Policy', 'same-origin');
+  if (ADMIN_COOKIE_SECURE) {
+    res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+  }
   next();
 });
 
@@ -1673,16 +1693,32 @@ app.use((req, res, next) => {
   next();
 });
 
-function createRateLimiter({ windowMs, max }) {
+function createRateLimiter({ windowMs, max, maxKeys = 5000, sweepMs = 60 * 1000 }) {
   const bucket = new Map();
+  let lastSweepAt = 0;
   return (req, res, next) => {
     const now = Date.now();
     const key = `${req.ip}:${req.path}`;
-    const entry = bucket.get(key) || [];
+    if (now - lastSweepAt >= sweepMs) {
+      const cutoff = now - windowMs;
+      for (const [bucketKey, entry] of bucket.entries()) {
+        entry.hits = entry.hits.filter(ts => ts > cutoff);
+        if (entry.hits.length === 0) bucket.delete(bucketKey);
+      }
+      if (bucket.size > maxKeys) {
+        const oldestKeys = [...bucket.entries()]
+          .sort((a, b) => (a[1].lastSeen || 0) - (b[1].lastSeen || 0))
+          .slice(0, bucket.size - maxKeys)
+          .map(([bucketKey]) => bucketKey);
+        oldestKeys.forEach(bucketKey => bucket.delete(bucketKey));
+      }
+      lastSweepAt = now;
+    }
+    const entry = bucket.get(key) || { hits: [], lastSeen: 0 };
     const cutoff = now - windowMs;
-    const recent = entry.filter(ts => ts > cutoff);
+    const recent = entry.hits.filter(ts => ts > cutoff);
     recent.push(now);
-    bucket.set(key, recent);
+    bucket.set(key, { hits: recent, lastSeen: now });
     if (recent.length > max) {
       res.status(429).json({ error: 'rate-limit' });
       return;
@@ -1694,10 +1730,14 @@ function createRateLimiter({ windowMs, max }) {
 const apiLimiter = createRateLimiter({
   windowMs: ADMIN_RATE_LIMIT_WINDOW_MS,
   max: ADMIN_RATE_LIMIT_MAX,
+  maxKeys: ADMIN_RATE_LIMIT_MAX_KEYS,
+  sweepMs: ADMIN_RATE_LIMIT_SWEEP_MS,
 });
 const authLimiter = createRateLimiter({
   windowMs: ADMIN_RATE_LIMIT_WINDOW_MS,
   max: ADMIN_AUTH_RATE_LIMIT_MAX,
+  maxKeys: ADMIN_RATE_LIMIT_MAX_KEYS,
+  sweepMs: ADMIN_RATE_LIMIT_SWEEP_MS,
 });
 
 app.use('/api', apiLimiter);
@@ -2277,7 +2317,20 @@ app.get('/auth/discord', (req, res) => {
 });
 
 app.get('/auth/discord/player', (req, res) => {
-  res.redirect('/auth/discord');
+  if (!DISCORD_CLIENT_ID || !DISCORD_CLIENT_SECRET) {
+    res.status(500).send('Discord OAuth is not configured.');
+    return;
+  }
+  const state = crypto.randomBytes(16).toString('hex');
+  req.session.playerState = state;
+  const params = new URLSearchParams({
+    client_id: DISCORD_CLIENT_ID,
+    redirect_uri: DISCORD_OAUTH_REDIRECT_PLAYER,
+    response_type: 'code',
+    scope: DISCORD_OAUTH_SCOPES_PLAYER,
+    state,
+  });
+  res.redirect(`https://discord.com/api/oauth2/authorize?${params.toString()}`);
 });
 
 app.get('/auth/discord/callback', async (req, res) => {
@@ -3382,7 +3435,8 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(PUBLIC_DIR, 'index.html'));
 });
 
-app.listen(ADMIN_PORT, ADMIN_HOST, () => {
+let backupTimer = null;
+const adminServer = app.listen(ADMIN_PORT, ADMIN_HOST, () => {
   ensureDir(DATASET_DIR);
   ensureDir(HOMEBREW_DIR);
   const registry = getRulesRegistry();
@@ -3406,11 +3460,31 @@ app.listen(ADMIN_PORT, ADMIN_HOST, () => {
       }
     };
     runBackup();
-    setInterval(runBackup, BACKUP_INTERVAL_MIN * 60 * 1000);
+    backupTimer = setInterval(runBackup, BACKUP_INTERVAL_MIN * 60 * 1000);
   }
 });
-validateEnv({
-  appName: 'Admin UI',
-  required: ['DISCORD_CLIENT_ID', 'DISCORD_CLIENT_SECRET'],
-  optional: ['DISCORD_BOT_TOKEN', 'DISCORD_TOKEN', 'ADMIN_ROLE_IDS'],
+
+let shuttingDown = false;
+function shutdownAdmin(signal) {
+  if (shuttingDown) return;
+  shuttingDown = true;
+  console.warn(`Received ${signal}; shutting down admin server...`);
+  if (backupTimer) {
+    clearInterval(backupTimer);
+    backupTimer = null;
+  }
+  const forceExit = setTimeout(() => process.exit(1), 10000);
+  if (typeof forceExit.unref === 'function') forceExit.unref();
+  adminServer.close(() => {
+    clearTimeout(forceExit);
+    console.log('Admin server stopped.');
+    process.exit(0);
+  });
+}
+process.on('SIGINT', () => shutdownAdmin('SIGINT'));
+process.on('SIGTERM', () => shutdownAdmin('SIGTERM'));
+process.on('message', msg => {
+  if (msg && typeof msg === 'object' && msg.type === 'shutdown') {
+    shutdownAdmin('IPC');
+  }
 });

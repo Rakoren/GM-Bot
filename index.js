@@ -183,9 +183,10 @@ function startHealthServer() {
   server.listen(BOT_HEALTH_PORT, BOT_HEALTH_HOST, () => {
     console.log(`Bot healthz on http://${BOT_HEALTH_HOST}:${BOT_HEALTH_PORT}/healthz`);
   });
+  return server;
 }
 
-startHealthServer();
+const healthServer = startHealthServer();
 
 // Surface negative-timeout and other runtime warnings with stack traces.
 process.on('warning', (warning) => {
@@ -5715,4 +5716,46 @@ if (!CONFIG.openaiApiKey) {
   process.exit(1);
 }
 
-client.login(CONFIG.token);
+let shuttingDown = false;
+async function shutdownBot(signal) {
+  if (shuttingDown) return;
+  shuttingDown = true;
+  console.warn(`Received ${signal}; shutting down bot...`);
+  const forceExit = setTimeout(() => process.exit(1), 10000);
+  if (typeof forceExit.unref === 'function') forceExit.unref();
+  try {
+    saveCampaignState();
+  } catch (err) {
+    console.warn('Campaign autosave failed during shutdown:', err?.message || err);
+  }
+  try {
+    saveDatabase();
+  } catch (err) {
+    console.warn('Reference DB save failed during shutdown:', err?.message || err);
+  }
+  try {
+    client.destroy();
+  } catch (err) {
+    console.warn('Discord client shutdown failed:', err?.message || err);
+  }
+  try {
+    await new Promise(resolve => healthServer.close(() => resolve()));
+  } catch (err) {
+    console.warn('Health server shutdown failed:', err?.message || err);
+  }
+  clearTimeout(forceExit);
+  process.exit(0);
+}
+process.on('SIGINT', () => { void shutdownBot('SIGINT'); });
+process.on('SIGTERM', () => { void shutdownBot('SIGTERM'); });
+process.on('message', msg => {
+  if (msg && typeof msg === 'object' && msg.type === 'shutdown') {
+    void shutdownBot('IPC');
+  }
+});
+
+if (process.env.SMOKE_TEST_MODE === 'true') {
+  console.warn('SMOKE_TEST_MODE enabled; skipping Discord login.');
+} else {
+  client.login(CONFIG.token);
+}
