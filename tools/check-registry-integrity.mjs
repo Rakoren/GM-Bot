@@ -65,6 +65,21 @@ function collectFeatureRefs(obj) {
   return hits;
 }
 
+function collectFeaturesByLevelRefs(obj) {
+  const hits = [];
+  if (!obj || typeof obj !== 'object') return hits;
+  const mapping = obj.features_by_level;
+  if (!mapping || typeof mapping !== 'object') return hits;
+  for (const [level, value] of Object.entries(mapping)) {
+    if (Array.isArray(value)) {
+      hits.push({ key: `features_by_level.${level}`, values: value });
+    } else if (typeof value === 'string') {
+      hits.push({ key: `features_by_level.${level}`, values: [value] });
+    }
+  }
+  return hits;
+}
+
 function main() {
   const manifests = findManifestPaths(DOCS_DIR);
   const byId = new Map();
@@ -210,6 +225,24 @@ function main() {
         }
       }
     }
+
+    const byLevelRefs = collectFeaturesByLevelRefs(entry.data);
+    for (const refBlock of byLevelRefs) {
+      for (const refId of refBlock.values) {
+        const trimmed = refId.trim();
+        const looksLikeId = /^[a-z0-9_.-]+$/.test(trimmed) && trimmed.includes('.');
+        if (!looksLikeId) continue;
+        if (!idSet.has(trimmed)) {
+          errors.push({
+            type: 'missing_feature_ref',
+            from: entry.id,
+            key: refBlock.key,
+            item: trimmed,
+            path: entry.path,
+          });
+        }
+      }
+    }
   }
 
   const report = {
@@ -244,6 +277,23 @@ function main() {
   if (errors.length && FIX_MODE) {
     console.log(`Fixes applied: ${fixes.length}`);
     console.log(`Remaining errors: ${errors.length}`);
+    if (fixes.length) {
+      console.log('Fix summary:');
+      fixes.slice(0, 25).forEach(fix => {
+        if (fix.type === 'remove_missing_list_items') {
+          console.log(`- ${fix.from}: removed ${fix.removed.length} missing IDs`);
+          fix.removed.slice(0, 10).forEach(id => console.log(`  - ${id}`));
+          if (fix.removed.length > 10) {
+            console.log(`  ... +${fix.removed.length - 10} more`);
+          }
+        } else {
+          console.log(`- ${fix.type}`);
+        }
+      });
+      if (fixes.length > 25) {
+        console.log(`... +${fixes.length - 25} more fixes (see report)`);
+      }
+    }
   } else {
     console.log('Registry integrity OK.');
   }

@@ -36,6 +36,7 @@ const state = {
   weapons: [],
   pointBuyCosts: {},
   abilityMethod: 'standard',
+  lastAbilityMethod: 'standard',
   abilityBonuses: { plus2: '', plus1: '' },
   adventuringPacks: {},
   inventoryItems: [],
@@ -1671,9 +1672,9 @@ function updateWildShapePanel() {
     if (specialBox) specialBox.style.display = 'none';
     return;
   }
-  box.style.display = '';
+  box.style.display = 'block';
   const specialBox = getClassSpecialBox();
-  if (specialBox) specialBox.style.display = '';
+  if (specialBox) specialBox.style.display = 'block';
   const rules = getWildShapeRules(level);
   const usesMax = getWildShapeMaxUses();
   const spentInput = getWildShapeSpentInput();
@@ -2934,8 +2935,9 @@ function updateAbilityScoreAvailability() {
   Object.values(abilityInputs).forEach(inputs => {
     if (!inputs?.score) return;
     inputs.score.disabled = !enabled;
-    inputs.score.readOnly = enabled && method === 'standard';
+    inputs.score.readOnly = enabled && (method === 'standard' || method === 'point_buy');
   });
+  updateAbilityAdjustButtons();
   const methodSelect = getAbilityMethodSelect();
   if (methodSelect) methodSelect.disabled = !enabled;
   const plus2Select = getAbilityBonusPlus2Select();
@@ -2954,7 +2956,13 @@ function setAbilityMethod(value) {
   state.abilityMethod = method || 'standard';
   const select = getAbilityMethodSelect();
   if (select) select.value = state.abilityMethod;
-  applyStandardArrayForClass();
+  if (state.abilityMethod === 'standard') {
+    applyStandardArrayForClass();
+  } else if (state.abilityMethod === 'point_buy') {
+    initializePointBuyScores();
+  }
+  updateAbilityScoreAvailability();
+  updateAbilityAdjustButtons();
   updateAbilityScoreStatus();
 }
 
@@ -3107,6 +3115,17 @@ function updateAbilityScoreStatus() {
   const remainingEl = getPointBuyRemainingEl();
   const pointBuyRow = getPointBuyRow();
   const method = getAbilityMethod();
+  const enabled = isSpeciesSelected() && isBackgroundSelected();
+  if (state.lastAbilityMethod !== method) {
+    state.lastAbilityMethod = method;
+    if (enabled && method === 'standard') {
+      applyStandardArrayForClass();
+      return;
+    }
+    if (enabled && method === 'point_buy') {
+      initializePointBuyScores();
+    }
+  }
   if (pointBuyRow) {
     pointBuyRow.style.display = method === 'point_buy' ? 'flex' : 'none';
   }
@@ -3152,6 +3171,76 @@ function updateAbilityScoreStatus() {
   }
 }
 
+function initializePointBuyScores() {
+  const bonuses = getAbilityBonusMap();
+  ABILITY_KEYS.forEach(key => {
+    const total = 8 + (bonuses[key] || 0);
+    setAbilityScore(key, total);
+  });
+}
+
+function applyAbilityBonusesToTotals() {
+  const bonuses = getAbilityBonusMap();
+  const base = getAbilityScoresBase();
+  ABILITY_KEYS.forEach(key => {
+    const baseScore = Number(base[key]);
+    if (!Number.isFinite(baseScore)) return;
+    setAbilityScore(key, baseScore + (bonuses[key] || 0));
+  });
+}
+
+function updateAbilityAdjustButtons() {
+  const buttons = document.querySelectorAll('.score-btn');
+  const method = getAbilityMethod();
+  const allowAdjust = method === 'point_buy';
+  const enabled = isSpeciesSelected() && isBackgroundSelected();
+  document.querySelectorAll('.score-adjust').forEach(row => {
+    row.style.display = allowAdjust ? 'flex' : 'none';
+  });
+  buttons.forEach(button => {
+    button.disabled = !allowAdjust || !enabled;
+  });
+}
+
+function adjustAbilityScore(key, delta) {
+  const method = getAbilityMethod();
+  if (method === 'point_buy') {
+    const costs = getPointBuyCostTable();
+    const bonuses = getAbilityBonusMap();
+    const base = getAbilityScoresBase();
+    const baseWithDefaults = {};
+    ABILITY_KEYS.forEach(ability => {
+      const current = Number(base[ability]);
+      baseWithDefaults[ability] = Number.isFinite(current) ? current : 8;
+    });
+    const nextBase = baseWithDefaults[key] + delta;
+    if (nextBase < 8 || nextBase > 15) return;
+    baseWithDefaults[key] = nextBase;
+    let totalCost = 0;
+    for (const ability of ABILITY_KEYS) {
+      const score = baseWithDefaults[ability];
+      const cost = Number(costs[String(score)]);
+      if (!Number.isFinite(cost)) return;
+      totalCost += cost;
+    }
+    if (totalCost > 27) return;
+    ABILITY_KEYS.forEach(ability => {
+      const total = baseWithDefaults[ability] + (bonuses[ability] || 0);
+      setAbilityScore(ability, total);
+    });
+    updateAbilityScoreStatus();
+    return;
+  }
+  if (method === 'manual') {
+    const inputs = getAbilityInputs()[key];
+    const current = Number(inputs?.score?.value);
+    const next = Number.isFinite(current) ? current + delta : 10 + delta;
+    if (next < 3 || next > 20) return;
+    setAbilityScore(key, next);
+    updateAbilityScoreStatus();
+  }
+}
+
 function renderAbilityBonusOptions() {
   const plus2Select = getAbilityBonusPlus2Select();
   const plus1Select = getAbilityBonusPlus1Select();
@@ -3182,9 +3271,23 @@ function renderAbilityBonusOptions() {
   };
   createOptions(plus2Select);
   createOptions(plus1Select);
+  const plus2 = String(plus2Select.value || '').trim();
+  const plus1 = String(plus1Select.value || '').trim();
+  const allowedSet = new Set(options);
+  if (plus2 && !allowedSet.has(plus2)) {
+    plus2Select.value = '';
+  }
+  if (plus1 && !allowedSet.has(plus1)) {
+    plus1Select.value = '';
+  }
+  if (plus2 && plus1 && plus2 === plus1) {
+    plus1Select.value = '';
+  }
   updateAbilityBonusSelectionState();
   if (getAbilityMethod() === 'standard' && areAbilityScoresEmpty()) {
     applyStandardArrayForClass();
+  } else if (getAbilityMethod() === 'point_buy' && areAbilityScoresEmpty()) {
+    initializePointBuyScores();
   }
   updateAbilityScoreStatus();
 }
@@ -3294,7 +3397,7 @@ function renderWeaponMasteryBox() {
     box.style.display = 'none';
     return;
   }
-  box.style.display = '';
+  box.style.display = 'block';
   const key = getFeatureChoiceKey(choice);
   const selection = typeof state.featureSelections?.[key] === 'object'
     ? state.featureSelections[key]
@@ -5098,7 +5201,11 @@ async function applyProfile(profile = {}) {
     state.classSkillSelections = new Set(skills);
   }
   refreshSkillProficiencies(false);
-  applyStandardArrayForClass();
+  if (getAbilityMethod() === 'standard') {
+    applyStandardArrayForClass();
+  } else if (getAbilityMethod() === 'point_buy' && areAbilityScoresEmpty()) {
+    initializePointBuyScores();
+  }
   updateAbilityScoreStatus();
   updateInitiativeScore();
   updateArmorClass();
@@ -5592,7 +5699,9 @@ function attachListeners() {
         }
       }
       renderSubclassOptions();
-      applyStandardArrayForClass();
+      if (getAbilityMethod() === 'standard') {
+        applyStandardArrayForClass();
+      }
       updateHitPoints();
       updateHitDiceTotal();
       state.preparedSpellIds = new Set();
@@ -5654,7 +5763,9 @@ function attachListeners() {
       renderLineageOptions();
       updateSpeciesTraits();
       renderLanguagesSelection(readSelectedLanguagesFromBox());
-      applyStandardArrayForClass();
+      if (getAbilityMethod() === 'standard') {
+        applyStandardArrayForClass();
+      }
       updateAbilityScoreStatus();
       updateClassSelectAvailability();
     });
@@ -5942,6 +6053,14 @@ function attachListeners() {
       updateAbilityScoreStatus();
     });
   });
+  document.querySelectorAll('.score-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const ability = String(button.dataset.ability || '').trim();
+      const delta = Number(button.dataset.delta);
+      if (!ability || !Number.isFinite(delta)) return;
+      adjustAbilityScore(ability, delta);
+    });
+  });
   const abilityMethodSelect = getAbilityMethodSelect();
   if (abilityMethodSelect) {
     abilityMethodSelect.addEventListener('change', () => {
@@ -5956,6 +6075,7 @@ function attachListeners() {
         applyStandardArrayForClass();
         return;
       }
+      applyAbilityBonusesToTotals();
       updateAbilityScoreStatus();
     });
   }
@@ -5967,6 +6087,7 @@ function attachListeners() {
         applyStandardArrayForClass();
         return;
       }
+      applyAbilityBonusesToTotals();
       updateAbilityScoreStatus();
     });
   }

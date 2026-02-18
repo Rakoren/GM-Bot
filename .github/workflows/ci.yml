@@ -59,6 +59,30 @@ jobs:
           node tools/check-validation-appendix-a.mjs docs/appendix-a/appendix-a.validation.full.json
           node tools/check-validation-appendix-b.mjs docs/appendix-b/appendix-b.validation.full.json
           node tools/check-validation-rules-glossary.mjs docs/rules-glossary/rules-glossary.validation.full.json
+  docs-manifest-sourceref:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Manifest + sourceRef checks
+        run: |
+          node tools/check-manifest.mjs docs/chapter-03/chapter-03.manifest.json
+          node tools/check-sourceref.mjs docs/chapter-03/chapter-03.manifest.json
+          node tools/check-manifest.mjs docs/chapter-04/chapter-04.manifest.json
+          node tools/check-sourceref-ch4.mjs docs/chapter-04/chapter-04.manifest.json
+          node tools/check-manifest.mjs docs/chapter-05/chapter-05.manifest.json
+          node tools/check-sourceref-ch5.mjs docs/chapter-05/chapter-05.manifest.json
+          node tools/check-manifest.mjs docs/chapter-06/chapter-06.manifest.json
+          node tools/check-sourceref-ch6.mjs docs/chapter-06/chapter-06.manifest.json
+          node tools/check-manifest.mjs docs/chapter-07/chapter-07.manifest.json
+          node tools/check-manifest.mjs docs/appendix-a/appendix-a.manifest.json
+          node tools/check-manifest.mjs docs/appendix-b/appendix-b.manifest.json
+          node tools/check-manifest.mjs docs/rules-glossary/rules-glossary.manifest.json
+          node tools/check-sourceref-rules-glossary.mjs docs/rules-glossary/rules-glossary.manifest.json
   wizard-tests:
     runs-on: ubuntu-latest
     steps:

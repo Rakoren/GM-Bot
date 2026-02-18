@@ -144,6 +144,10 @@
                     <input id="strength-score" type="text" class="score-small" placeholder="10">
                     <label>SCORE</label>
                 </div>
+                <div class="score-adjust">
+                    <button type="button" class="score-btn" data-ability="str" data-delta="-1">-</button>
+                    <button type="button" class="score-btn" data-ability="str" data-delta="1">+</button>
+                </div>
                 <div class="save-row">
                     <input type="checkbox"> <span>Save</span>
                 </div>
@@ -158,6 +162,10 @@
                 <div class="score-oval">
                     <input id="dexterity-score" type="text" class="score-small" placeholder="10">
                     <label>SCORE</label>
+                </div>
+                <div class="score-adjust">
+                    <button type="button" class="score-btn" data-ability="dex" data-delta="-1">-</button>
+                    <button type="button" class="score-btn" data-ability="dex" data-delta="1">+</button>
                 </div>
                 <div class="save-row">
                     <input type="checkbox"> <span>Save</span>
@@ -176,6 +184,10 @@
                     <input id="constitution-score" type="text" class="score-small" placeholder="10">
                     <label>SCORE</label>
                 </div>
+                <div class="score-adjust">
+                    <button type="button" class="score-btn" data-ability="con" data-delta="-1">-</button>
+                    <button type="button" class="score-btn" data-ability="con" data-delta="1">+</button>
+                </div>
                 <div class="save-row">
                     <input type="checkbox"> <span>Save</span>
                 </div>
@@ -187,6 +199,10 @@
                 <div class="score-oval">
                     <input id="intelligence-score" type="text" class="score-small" placeholder="10">
                     <label>SCORE</label>
+                </div>
+                <div class="score-adjust">
+                    <button type="button" class="score-btn" data-ability="int" data-delta="-1">-</button>
+                    <button type="button" class="score-btn" data-ability="int" data-delta="1">+</button>
                 </div>
                 <div class="save-row">
                     <input type="checkbox"> <span>Save</span>
@@ -207,6 +223,10 @@
                     <input id="wisdom-score" type="text" class="score-small" placeholder="10">
                     <label>SCORE</label>
                 </div>
+                <div class="score-adjust">
+                    <button type="button" class="score-btn" data-ability="wis" data-delta="-1">-</button>
+                    <button type="button" class="score-btn" data-ability="wis" data-delta="1">+</button>
+                </div>
                 <div class="save-row">
                     <input type="checkbox"> <span>Save</span>
                 </div>
@@ -225,6 +245,10 @@
                 <div class="score-oval">
                     <input id="charisma-score" type="text" class="score-small" placeholder="10">
                     <label>SCORE</label>
+                </div>
+                <div class="score-adjust">
+                    <button type="button" class="score-btn" data-ability="cha" data-delta="-1">-</button>
+                    <button type="button" class="score-btn" data-ability="cha" data-delta="1">+</button>
                 </div>
                 <div class="save-row">
                     <input type="checkbox"> <span>Save</span>
@@ -532,7 +556,7 @@
         </section>
 
         <aside class="col-right">
-            <div class="traits-box" id="wild-shape-box" style="display: none;">
+            <div class="traits-box" id="wild-shape-box">
                 <div class="section-header">WILD SHAPE</div>
                 <div class="wild-shape-meta">
                     <div><strong>Uses:</strong> <span id="wild-shape-uses-max">0</span></div>
@@ -570,7 +594,7 @@
                     <div>Objects: your ability to handle objects depends on the form's limbs. Choose whether equipment falls, merges, or is worn. Worn equipment functions as normal, but the DM decides if the form can wear it. Merged equipment has no effect while shaped.</div>
                 </div>
             </div>
-            <div class="traits-box" id="class-special-box" style="display: none;">
+            <div class="traits-box" id="class-special-box">
                 <div class="section-header">CLASS SPECIAL</div>
                 <div class="wild-companion">
                     <div class="wild-companion-status">
@@ -589,7 +613,7 @@
                     <div class="wild-companion-note">Fey familiar; disappears on Long Rest.</div>
                 </div>
             </div>
-            <div class="traits-box" id="weapon-mastery-box" style="display: none;">
+            <div class="traits-box" id="weapon-mastery-box">
                 <div class="section-header">WEAPON MASTERY</div>
                 <div class="weapon-mastery-selects">
                     <label>Choose 1

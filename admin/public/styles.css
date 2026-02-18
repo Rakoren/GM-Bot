@@ -1432,6 +1432,40 @@ input[type="checkbox"] {
     font-weight: bold;
     display: block;
 }
+#wild-shape-box,
+#class-special-box,
+#weapon-mastery-box {
+    display: none;
+}
+.score-adjust {
+    display: none;
+    position: absolute;
+    left: 50%;
+    right: auto;
+    width: 70%;
+    top: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: auto;
+    transform: translateX(-50%);
+}
+.score-btn {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid #99aba8;
+    background: #f8fbfa;
+    color: #2d3b3d;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1;
+}
+.score-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
 
 .ability-method-box {
     border: 1px solid #d9e3e1;

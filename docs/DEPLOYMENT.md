@@ -116,7 +116,7 @@ Verify:
 ---
 
 ## Ops Scripts (Windows)
-Located in `tools/ops/`:
+Located in `tools/ops/` (legacy) and `tools/deploy/` (current):
 - `start-bot.ps1`
 - `start-admin.ps1`
 - `restart-bot.ps1`
@@ -127,6 +127,25 @@ Located in `tools/ops/`:
 Examples:
 - `powershell -ExecutionPolicy Bypass -File tools/ops/health-check.ps1`
 - `powershell -ExecutionPolicy Bypass -File tools/ops/backup-verify.ps1`
+- `powershell -ExecutionPolicy Bypass -File tools/deploy/health.ps1`
+- `powershell -ExecutionPolicy Bypass -File tools/deploy/backup-verify.ps1`
+
+---
+
+## Windows Services (NSSM)
+Run bot/admin as Windows Services with auto-restart and boot start.
+
+Prereqs:
+- Install NSSM and add it to PATH (or pass `-NssmPath`).
+- Run PowerShell as Administrator.
+
+Install:
+- `powershell -ExecutionPolicy Bypass -File tools/deploy/nssm-install.ps1 -Start`
+- Optional: `-NssmPath "C:\path\to\nssm.exe"`
+- Optional: `-BotService mimic-bot` / `-AdminService mimic-admin`
+
+Remove:
+- `powershell -ExecutionPolicy Bypass -File tools/deploy/nssm-remove.ps1`
 ### Rotate Logs Manually
 - Delete old logs in `logs/` if needed.
 
@@ -181,3 +200,19 @@ Post-migration:
 - Keep `ADMIN_SESSION_SECRET` set and private.
 - Use HTTPS (Cloudflare Tunnel) with `ADMIN_COOKIE_SECURE=true`.
 - Verify `/readyz` after each deploy.
+
+---
+
+## Runbook Additions (Security + Integrity)
+
+### Verify CSP/CORS
+1. Hit `/version` and check response headers include `Content-Security-Policy`.
+2. Attempt an API call from an unlisted origin; expect `403 { error: "cors" }`.
+
+### OAuth Scope Audit (Least Privilege)
+- Run: `npm run check:oauth-scopes`
+- Expected: `OAuth scope audit OK.`
+
+### Rules Registry Integrity
+- Run: `npm run check:registry`
+- Expected: `Registry integrity OK.` and a report at `docs/registry.integrity.report.json`.
